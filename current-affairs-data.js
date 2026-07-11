@@ -12534,7 +12534,626 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 39.6
         }
       ]
+    },
+    {
+      "date": "2026-07-12",
+      "keyword": "朝鲜",
+      "keywords": [
+        {
+          "name": "朝鲜",
+          "count": 4
+        },
+        {
+          "name": "科技",
+          "count": 3
+        },
+        {
+          "name": "科技强国",
+          "count": 2
+        },
+        {
+          "name": "防汛救灾",
+          "count": 2
+        },
+        {
+          "name": "习近平",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "3115789f3f2623",
+          "source": "人民日报",
+          "title": "习近平同朝鲜劳动党总书记、国务委员会委员长金正恩就《中朝友好合作互助条约》签订65周年互致贺电",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168134.html",
+          "date": "2026-07-12",
+          "keyword": "朝鲜"
+        },
+        {
+          "id": "66f476441bbe63",
+          "source": "人民日报",
+          "title": "李强同朝鲜内阁总理朴泰成会谈",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168136.html",
+          "date": "2026-07-12",
+          "keyword": "朝鲜"
+        },
+        {
+          "id": "0ed70ec281d71d",
+          "source": "光明日报",
+          "title": "习近平同朝鲜劳动党总书记、国务委员会委员长金正恩就《中朝友好合作互助条约》签订65周年互致贺电",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19044.html",
+          "date": "2026-07-12",
+          "keyword": "朝鲜"
+        },
+        {
+          "id": "1c7f0046c5638f",
+          "source": "光明日报",
+          "title": "李强同朝鲜内阁总理朴泰成会谈",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19058.html",
+          "date": "2026-07-12",
+          "keyword": "朝鲜"
+        },
+        {
+          "id": "339b84feb86b2f",
+          "source": "人民日报",
+          "title": "向着到2035年建成科技强国的目标坚定迈进",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168135.html",
+          "date": "2026-07-12",
+          "keyword": "科技"
+        },
+        {
+          "id": "8cb3edb3d96e9f",
+          "source": "人民日报",
+          "title": "自主创新 科技工作者大有作为（总书记的关切·落地的回响）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168132.html",
+          "date": "2026-07-12",
+          "keyword": "科技"
+        },
+        {
+          "id": "f6542beb59b4b4",
+          "source": "光明日报",
+          "title": "向着到2035年建成科技强国的目标坚定迈进",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19045.html",
+          "date": "2026-07-12",
+          "keyword": "科技"
+        },
+        {
+          "id": "2cc2a7444c6a6a",
+          "source": "新华社",
+          "title": "民政部部署各地民政部门全力做好民政领域防汛救灾工作",
+          "url": "https://www.news.cn/20260712/46a237ce69414e97a7ef7a9308ea2af0/c.html",
+          "date": "2026-07-12",
+          "keyword": "防汛救灾"
+        },
+        {
+          "id": "e45bc27e9400b0",
+          "source": "新华社",
+          "title": "民政部部署各地民政部门全力做好防汛救灾工作",
+          "url": "https://www.news.cn/politics/20260712/ead223048081421ca29f201c079198e0/c.html",
+          "date": "2026-07-12",
+          "keyword": "防汛救灾"
+        },
+        {
+          "id": "9dc3744c0e81e5",
+          "source": "人民日报",
+          "title": "“为世界减贫事业树立了典范”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168139.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "92f66bc2e698f6",
+          "source": "人民日报",
+          "title": "“共同促进亚太地区繁荣”（APEC中国年：开放 创新 合作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168141.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b90847041b81da",
+          "source": "人民日报",
+          "title": "“携手并进，非中将实现更好的发展”（2026中非人文交流年）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168142.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "feaf0476778ef8",
+          "source": "人民日报",
+          "title": "“群众的需要在哪里，我就在哪里”（全国“两优一先”风采）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168161.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "71b9273d54df6d",
+          "source": "人民日报",
+          "title": "“这次展览带着我‘神游’了良渚遗址”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168144.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e5e92519256221",
+          "source": "人民日报",
+          "title": "“雨来之前，党员干部先到了”（党旗在基层一线高高飘扬）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168157.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "47c51cd98e71f6",
+          "source": "人民日报",
+          "title": "上半年全国期货市场累计成交额同比增长超42%",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168154.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a1bf3014e7b271",
+          "source": "人民日报",
+          "title": "中企助力墨西哥轻轨列车平稳运营",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168143.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "22539b50f4b05f",
+          "source": "人民日报",
+          "title": "为民兴业 为民造福（牢记初心使命 奋进复兴征程）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168137.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "317ee9cfe4f52b",
+          "source": "人民日报",
+          "title": "全国用电负荷创15.18亿千瓦新高",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168150.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fff48d312b593c",
+          "source": "人民日报",
+          "title": "加强科普 点亮青少年科学梦想（总书记的关切·落地的回响）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168133.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ab0278ab138803",
+          "source": "人民日报",
+          "title": "国务院安委会对福建泉州“7·9”重大火灾查处挂牌督办",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168151.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "951122f73a1b72",
+          "source": "人民日报",
+          "title": "夏粮首超3000亿斤背后的农业新质生产力（三夏进行时）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168146.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3b51f1f4658dc5",
+          "source": "人民日报",
+          "title": "履行职责使命 守护人民安全",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168155.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "18f8c0dfadbaa4",
+          "source": "人民日报",
+          "title": "担当如磐 众志成城（今日谈）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168138.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cdcbd3c3cfa322",
+          "source": "人民日报",
+          "title": "浙江、福建等地全力应对台风“巴威”（扎实做好防灾救灾各项工作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168156.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "96d73b0cbdf8b3",
+          "source": "人民日报",
+          "title": "清理“南海仲裁案裁决”遗毒刻不容缓（大使随笔）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168140.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "08a33b44dccd94",
+          "source": "人民日报",
+          "title": "熊猫债为何受欢迎（经济新方位）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168147.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "00dffffe1edebf",
+          "source": "人民日报",
+          "title": "王光谦当选中国科协第十一届全国委员会主席",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168148.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "35be75cbba341a",
+          "source": "人民日报",
+          "title": "生态监测守护绿色（美丽中国行·探访三江源）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168160.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c4dcc488a0b1c5",
+          "source": "人民日报",
+          "title": "研究报告：中国电力技术创新居全球首位",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168145.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d459a53ddfddf7",
+          "source": "人民日报",
+          "title": "长江源村搬来幸福（美丽中国行·探访三江源）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168159.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fa8e627814b2d1",
+          "source": "光明日报",
+          "title": "“群里一声喊，人就齐了！”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19071.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "07c2c01c7c4b52",
+          "source": "光明日报",
+          "title": "“锻造了强大的中国共产党”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19048.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ff46a5538bef86",
+          "source": "光明日报",
+          "title": "《能源领域节能降碳行动计划（2026—2028年）》发布",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19059.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a07c1807e859c1",
+          "source": "光明日报",
+          "title": "【人民需要这样的教育家㊳】钟掘：做“硬核”科研 育栋梁之材",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19042.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "59683cf55526d0",
+          "source": "光明日报",
+          "title": "三星堆铜顶尊跪坐人像为分铸组装而成",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19079.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a48dc96c1c380e",
+          "source": "光明日报",
+          "title": "两部门紧急预拨4000万元中央自然灾害救灾资金",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19065.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "32a78bbc41d1c9",
+          "source": "光明日报",
+          "title": "中国石化完成对中国航油重组",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19070.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d244457b7f5ee2",
+          "source": "光明日报",
+          "title": "为这种育人理念点赞！",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19043.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "17c1a8724f9559",
+          "source": "光明日报",
+          "title": "全国夏粮产量首次突破3000亿斤",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19063.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1e2a0789c31f5b",
+          "source": "光明日报",
+          "title": "全国用电负荷创新高",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19069.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6c0f2a42cede81",
+          "source": "光明日报",
+          "title": "千年古建邂逅现代光影",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19077.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "63034e7faa986b",
+          "source": "光明日报",
+          "title": "国家防总将防汛应急响应提升至三级",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19064.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a9734014fc73cb",
+          "source": "光明日报",
+          "title": "坚持自立自强 促进开放合作",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19046.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2dbc838aae71ab",
+          "source": "光明日报",
+          "title": "开展小麦品比试验",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19080.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "088016822c958e",
+          "source": "光明日报",
+          "title": "张家界学院信息与智能工程学院：着力培育新时代红色工程师",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19084.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1fbd1c53bb8704",
+          "source": "光明日报",
+          "title": "我国水韭属植物自然分布的最北记录被刷新",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19081.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ac3f7d1f7b2675",
+          "source": "光明日报",
+          "title": "搭建投资平台 打造开放枢纽",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19066.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a699b2b2d33407",
+          "source": "光明日报",
+          "title": "牢记合作初心 积极履职尽责",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19047.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d2fb2ab9c132e0",
+          "source": "光明日报",
+          "title": "王光谦当选中国科协第十一届全国委员会主席",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19078.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4e73d96ff22567",
+          "source": "光明日报",
+          "title": "科幻IP“南天门计划”主题展亮相北京",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19082.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1c4355139d18c9",
+          "source": "光明日报",
+          "title": "苏州面向全球大学生首发“实习苏州”计划",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19083.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "da632ec12bff89",
+          "source": "光明日报",
+          "title": "风雨同舟 守望相助",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19067.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "af14aa3a6a46a4",
+          "source": "半月谈",
+          "title": "举起手机改变家乡",
+          "url": "http://www.banyuetan.org/byt/fanxianggushi/index.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bbb54726857d30",
+          "source": "新华社",
+          "title": "上海浦东和虹桥机场12日计划取消进出港航班653架次",
+          "url": "https://www.news.cn/20260712/de1b3b8a4f264bf9a4ef79ac2e492352/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3e3b96cd448fca",
+          "source": "新华社",
+          "title": "古巴谴责美国石油封锁致使古断电频发",
+          "url": "https://www.news.cn/20260712/47bb0dae21bd42bb962c40c3b5a66b57/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cfc5003a2d3376",
+          "source": "新华社",
+          "title": "台风“巴威”先后在浙江玉环和乐清登陆",
+          "url": "https://www.news.cn/local/20260712/8de85f565d894991a43475806f3bb2a1/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4bb3d2f46a648a",
+          "source": "新华社",
+          "title": "台风“巴威”在浙江乐清二次登陆",
+          "url": "https://www.news.cn/20260712/356e1edd278a44d3a328c35b41375cba/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b02058101d1852",
+          "source": "新华社",
+          "title": "台风“巴威”来袭 上海共组织转移29.97万人",
+          "url": "https://www.news.cn/20260712/2cdc25de343d4e079ce7bf61d5111e30/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a1aa6e418089b4",
+          "source": "新华社",
+          "title": "各部门多措并举防汛防台风 保障人民生命财产安全",
+          "url": "https://www.news.cn/politics/20260712/df0fe7fc24f34c98add7ea757e7a7887/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c3390d8f44c0ab",
+          "source": "新华社",
+          "title": "在乐清二次登陆",
+          "url": "https://www.news.cn/local/20260712/aea9a9dff290480d851bec53262bf7e0/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "25d2d1ede15cd5",
+          "source": "新华社",
+          "title": "委内瑞拉地震死亡人数升至4333人",
+          "url": "https://www.news.cn/20260712/7558edad7a73402fadcb29ef0bc4ef6d/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8257f3cf2c016d",
+          "source": "新华社",
+          "title": "学习进行时丨总书记这样指导防灾减灾救灾工作",
+          "url": "https://www.news.cn/politics/xxjxs/20260712/fef5ecb12b7445da831177954621dcc5/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "688d4e6e524290",
+          "source": "新华社",
+          "title": "新型电网是张什么网，怎么建",
+          "url": "https://www.news.cn/fortune/20260712/4d0310699ddf401289338c3f05f1a7ed/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "037fd859a470ea",
+          "source": "新华社",
+          "title": "福建各地重点风险区防抗台风见闻",
+          "url": "https://www.news.cn/20260712/0fbef95666a74f3f991c0d1523cf05cb/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "360ac6ff5ad78d",
+          "source": "新华社",
+          "title": "长江海事局提升防御台风应急响应至二级",
+          "url": "https://www.news.cn/20260712/48fb165400544289a55fba05cc1d0df3/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 21.9,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260712.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "ok",
+          "count": 26,
+          "duration": 1.5
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 14,
+          "duration": 2.6
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 1,
+          "duration": 7.0
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.1
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 25,
+          "duration": 1.0
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 11.9
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.7
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.2
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 48.0
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-07-11T23:50:16+08:00"
+  "generatedAt": "2026-07-12T06:57:22+08:00"
 };
