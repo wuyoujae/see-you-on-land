@@ -11259,7 +11259,7 @@
       "keywords": [
         {
           "name": "习近平",
-          "count": 15
+          "count": 16
         },
         {
           "name": "朝鲜",
@@ -11271,7 +11271,7 @@
         },
         {
           "name": "科技",
-          "count": 5
+          "count": 6
         },
         {
           "name": "科技强国",
@@ -11364,6 +11364,14 @@
           "source": "新华社",
           "title": "习近平同金正恩就《中朝友好合作互助条约》签订65周年互致贺电",
           "url": "https://www.news.cn/politics/leaders/20260711/e67aa219223b42dcba74e562be9104ad/c.html",
+          "date": "2026-07-11",
+          "keyword": "习近平"
+        },
+        {
+          "id": "5bdd8930884a7f",
+          "source": "新华社",
+          "title": "习近平总书记重要讲话为推动世界科技创新发展注入强劲动力",
+          "url": "https://www.news.cn/politics/leaders/20260711/fd6cd1b8ce854021852e666f7de14cfd/c.html",
           "date": "2026-07-11",
           "keyword": "习近平"
         },
@@ -11912,10 +11920,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "8aae266c15952a",
+          "id": "a5d46fdb816b9d",
           "source": "新华社",
-          "title": "“巴威”12日凌晨登陆",
-          "url": "https://www.news.cn/20260711/7814f23c4f5641d8b2767cf1a3298c7e/c.html",
+          "title": "AI造福人类全球峰会聚焦实际应用",
+          "url": "https://www.news.cn/tech/20260711/dc806be4dba34fd98e2f6c080a3febb3/c.html",
           "date": "2026-07-11",
           "keyword": "综合时政"
         },
@@ -11984,6 +11992,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "a3f1142b9d8ab4",
+          "source": "新华社",
+          "title": "中国社会组织在联合国人权理事会传递中国声音",
+          "url": "https://www.news.cn/world/20260711/26fcf190d4cd44e49148ef5a1f9ecd0f/c.html",
+          "date": "2026-07-11",
+          "keyword": "综合时政"
+        },
+        {
           "id": "361e9bcdac1578",
           "source": "新华社",
           "title": "伊方已拒绝与美谈判请求",
@@ -11996,14 +12012,6 @@
           "source": "新华社",
           "title": "促就业，各地这么干",
           "url": "https://www.news.cn/photo/20260711/adc51ec9b87c43f19fa25648b76579f1/c.html",
-          "date": "2026-07-11",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "7e3f618d446348",
-          "source": "新华社",
-          "title": "全力部署筑牢防线",
-          "url": "https://www.news.cn/politics/20260711/f3c20f412f354044bac8db24c274b335/c.html",
           "date": "2026-07-11",
           "keyword": "综合时政"
         },
@@ -12036,6 +12044,14 @@
           "source": "新华社",
           "title": "南大西洋南桑威奇群岛发生6.4级地震",
           "url": "https://www.news.cn/20260711/41859c420f9645b7b36e6ae984f254fc/c.html",
+          "date": "2026-07-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3819455393ff62",
+          "source": "新华社",
+          "title": "台风“巴威”在浙江玉环登陆",
+          "url": "https://www.news.cn/local/20260711/3dd634900ab14b9c9b81ac87f2257d18/c.html",
           "date": "2026-07-11",
           "keyword": "综合时政"
         },
@@ -12080,6 +12096,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "ee0fccc5fab7c4",
+          "source": "新华社",
+          "title": "国家防总对京津辽皖赣启动防汛三级应急响应",
+          "url": "https://www.news.cn/politics/20260711/8cc3f065fbee431e830c895a6eb7b16e/c.html",
+          "date": "2026-07-11",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a656216da49c76",
           "source": "新华社",
           "title": "在家避风，这个地方最危险",
@@ -12096,14 +12120,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "b679e7ef031b01",
-          "source": "新华社",
-          "title": "多地启动应急响应",
-          "url": "https://www.news.cn/politics/20260711/6933dd50b14a46c59c5f6f92893e6167/c.html",
-          "date": "2026-07-11",
-          "keyword": "综合时政"
-        },
-        {
           "id": "be2e8907447701",
           "source": "新华社",
           "title": "多地启动应急响应应对台风及强降雨",
@@ -12116,14 +12132,6 @@
           "source": "新华社",
           "title": "安徽多地启动红色山洪灾害气象预警",
           "url": "https://www.news.cn/politics/20260711/8e7cb72d1ee14078981049bfd51edb03/c.html",
-          "date": "2026-07-11",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "2e4ab9b2e1d11e",
-          "source": "新华社",
-          "title": "将现8米狂浪",
-          "url": "https://www.news.cn/politics/20260711/5805801e070f4c96bbf4abee12793538/c.html",
           "date": "2026-07-11",
           "keyword": "综合时政"
         },
@@ -12268,14 +12276,6 @@
           "source": "新华社",
           "title": "穆杰塔巴 表示将为已故最高领袖哈梅内伊“复仇”",
           "url": "https://www.news.cn/world/20260711/45c46a01579f49fea1b32542ab8744fe/c.html",
-          "date": "2026-07-11",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "17a4f081b5c6c4",
-          "source": "新华社",
-          "title": "红色地质灾害风险预警",
-          "url": "https://www.news.cn/politics/20260711/f8f8d02a26eb4c64a5aa65eb5050335c/c.html",
           "date": "2026-07-11",
           "keyword": "综合时政"
         },
@@ -12477,65 +12477,64 @@
           "source": "新闻联播",
           "status": "ok",
           "count": 15,
-          "duration": 0.2
+          "duration": 0.3
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 31,
-          "duration": 1.5
+          "duration": 2.5
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.3
+          "duration": 2.1
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 1,
-          "duration": 23.9
+          "duration": 26.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 7,
-          "duration": 6.2
+          "duration": 6.3
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 25,
-          "duration": 2.1
+          "duration": 6.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.4
+          "duration": 11.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 1,
-          "duration": 2.6
+          "duration": 3.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 4,
-          "duration": 8.8
+          "duration": 10.9
         },
         {
           "source": "广东发布",
-          "status": "stale",
+          "status": "ok",
           "count": 4,
-          "duration": 21.1,
-          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+          "duration": 39.6
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-11T22:48:04+08:00"
+  "generatedAt": "2026-07-11T23:50:16+08:00"
 }
