@@ -17,6 +17,12 @@
     statsPanel: document.getElementById("clock-stats-panel"),
     timeline: document.getElementById("study-timeline"),
     liveClock: document.getElementById("live-clock"),
+    fullscreenClock: document.getElementById("fullscreen-clock"),
+    fullscreenTime: document.getElementById("fullscreen-clock-time"),
+    enterFullscreen: document.getElementById("enter-fullscreen-clock"),
+    exitFullscreen: document.getElementById("exit-fullscreen-clock"),
+    siteFullscreen: document.getElementById("site-fullscreen-toggle"),
+    siteFullscreenLabel: document.getElementById("site-fullscreen-label"),
     activeElapsed: document.getElementById("active-elapsed"),
     timerActions: document.getElementById("timer-actions"),
     recordDateLabel: document.getElementById("record-date-label"),
@@ -245,8 +251,101 @@
 
   function updateClock() {
     const now = new Date();
-    dom.liveClock.textContent = `${pad(now.getHours())}:${pad(now.getMinutes())}${showSeconds ? `:${pad(now.getSeconds())}` : ""}`;
+    const time = `${pad(now.getHours())}:${pad(now.getMinutes())}${showSeconds ? `:${pad(now.getSeconds())}` : ""}`;
+    dom.liveClock.textContent = time;
+    dom.fullscreenTime.textContent = time;
     if (activeSession) dom.activeElapsed.textContent = `${activeSession.status === "paused" ? "已暂停" : "本次学习"} ${stopwatch(elapsedNow())}`;
+  }
+
+  function isFullscreen() {
+    return Boolean(document.fullscreenElement || document.webkitFullscreenElement);
+  }
+
+  async function enterFullscreenClock() {
+    dom.fullscreenClock.hidden = false;
+    dom.fullscreenClock.classList.add("force-landscape");
+    document.body.classList.add("clock-fullscreen-active");
+    refreshIcons();
+
+    try {
+      if (dom.fullscreenClock.requestFullscreen) await dom.fullscreenClock.requestFullscreen();
+      else if (dom.fullscreenClock.webkitRequestFullscreen) dom.fullscreenClock.webkitRequestFullscreen();
+    } catch {
+      // The fixed overlay remains available when a browser blocks the Fullscreen API.
+    }
+
+    try {
+      if (screen.orientation?.lock) await screen.orientation.lock("landscape");
+    } catch {
+      // CSS rotates the clock when orientation locking is unavailable.
+    }
+  }
+
+  async function exitFullscreenClock() {
+    try {
+      if (document.exitFullscreen && document.fullscreenElement) await document.exitFullscreen();
+      else if (document.webkitExitFullscreen && document.webkitFullscreenElement) document.webkitExitFullscreen();
+    } catch {
+      // Cleanup below also handles browsers with partial Fullscreen API support.
+    }
+    try {
+      if (screen.orientation?.unlock) screen.orientation.unlock();
+    } catch {}
+    dom.fullscreenClock.hidden = true;
+    dom.fullscreenClock.classList.remove("force-landscape");
+    document.body.classList.remove("clock-fullscreen-active");
+  }
+
+  function syncFullscreenState() {
+    if (!isFullscreen() && !dom.fullscreenClock.hidden) exitFullscreenClock();
+  }
+
+  function isSiteFullscreen() {
+    const fullscreenElement = document.fullscreenElement || document.webkitFullscreenElement;
+    return fullscreenElement === document.documentElement || document.body.classList.contains("site-fullscreen-fallback");
+  }
+
+  function renderSiteFullscreenButton() {
+    const active = isSiteFullscreen();
+    dom.siteFullscreen.setAttribute("aria-pressed", String(active));
+    dom.siteFullscreen.setAttribute("aria-label", active ? "退出网站全屏" : "网站全屏");
+    dom.siteFullscreen.title = active ? "退出网站全屏" : "网站全屏";
+    dom.siteFullscreenLabel.textContent = active ? "退出" : "全屏";
+    const icon = dom.siteFullscreen.querySelector(".tab-icon");
+    icon.innerHTML = `<i data-lucide="${active ? "minimize" : "maximize"}" aria-hidden="true"></i>`;
+    refreshIcons();
+  }
+
+  async function toggleSiteFullscreen() {
+    if (isSiteFullscreen()) {
+      document.body.classList.remove("site-fullscreen-fallback");
+      try {
+        if (document.exitFullscreen && document.fullscreenElement) await document.exitFullscreen();
+        else if (document.webkitExitFullscreen && document.webkitFullscreenElement) document.webkitExitFullscreen();
+      } catch {}
+      renderSiteFullscreenButton();
+      return;
+    }
+
+    let enteredNativeFullscreen = false;
+    try {
+      if (document.documentElement.requestFullscreen) {
+        await document.documentElement.requestFullscreen();
+        enteredNativeFullscreen = true;
+      } else if (document.documentElement.webkitRequestFullscreen) {
+        document.documentElement.webkitRequestFullscreen();
+        enteredNativeFullscreen = true;
+      }
+    } catch {}
+
+    if (!enteredNativeFullscreen) document.body.classList.add("site-fullscreen-fallback");
+    renderSiteFullscreenButton();
+  }
+
+  function toggleClockFormat() {
+    showSeconds = !showSeconds;
+    localStorage.setItem(CLOCK_FORMAT_KEY, String(showSeconds));
+    updateClock();
   }
 
   function openEdit(recordId) {
@@ -403,10 +502,18 @@
     document.getElementById("view-clock").scrollTo({ top: 0, behavior: "auto" });
   }
 
-  dom.liveClock.addEventListener("click", () => {
-    showSeconds = !showSeconds;
-    localStorage.setItem(CLOCK_FORMAT_KEY, String(showSeconds));
-    updateClock();
+  dom.liveClock.addEventListener("click", toggleClockFormat);
+  dom.fullscreenTime.addEventListener("click", toggleClockFormat);
+  dom.enterFullscreen.addEventListener("click", enterFullscreenClock);
+  dom.exitFullscreen.addEventListener("click", exitFullscreenClock);
+  dom.siteFullscreen.addEventListener("click", toggleSiteFullscreen);
+  document.addEventListener("fullscreenchange", () => {
+    syncFullscreenState();
+    renderSiteFullscreenButton();
+  });
+  document.addEventListener("webkitfullscreenchange", () => {
+    syncFullscreenState();
+    renderSiteFullscreenButton();
   });
 
   dom.timeline.addEventListener("click", event => {
@@ -454,6 +561,7 @@
   renderRecords();
   renderTimerControls();
   renderStats();
+  renderSiteFullscreenButton();
   updateClock();
   window.setInterval(updateClock, 1000);
 })();

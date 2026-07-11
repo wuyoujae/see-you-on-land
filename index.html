@@ -651,14 +651,15 @@
       height: calc(var(--nav-height) + env(safe-area-inset-bottom));
       padding-bottom: env(safe-area-inset-bottom);
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(5, 1fr);
       background: rgba(255, 255, 255, 0.96);
       backdrop-filter: blur(16px);
       border-top: 1px solid var(--line);
       z-index: 100;
     }
 
-    .tab-item {
+    .tab-item,
+    .tab-action {
       border: 0;
       background: transparent;
       color: var(--muted);
@@ -672,7 +673,8 @@
       cursor: pointer;
     }
 
-    .tab-item .tab-icon {
+    .tab-item .tab-icon,
+    .tab-action .tab-icon {
       width: 25px;
       height: 25px;
       display: grid;
@@ -690,6 +692,31 @@
       bottom: -4px;
       border-radius: 50%;
       background: var(--red);
+    }
+
+    .tab-action[aria-pressed="true"] { color: var(--ink); }
+
+    html:fullscreen body,
+    html:-webkit-full-screen body { background: var(--bg); }
+
+    html:fullscreen #app,
+    html:-webkit-full-screen #app,
+    body.site-fullscreen-fallback #app {
+      width: 100%;
+      max-width: none;
+      height: 100%;
+      box-shadow: none;
+    }
+
+    body.site-fullscreen-fallback {
+      overflow: hidden;
+      background: var(--bg);
+    }
+
+    body.site-fullscreen-fallback #app {
+      position: fixed;
+      inset: 0;
+      height: 100dvh;
     }
 
     .lucide { width: 19px; height: 19px; stroke-width: 2; }
@@ -915,8 +942,8 @@
       #view-dashboard .todo-group { min-width: 0; border-right: 0; }
       .page-header { position: relative; }
       .toolbar, .news-timeline-shell { top: 0; }
-      .tab-item { flex-direction: row; gap: 8px; font-size: 15px; }
-      .tab-item .tab-icon { margin: 0; }
+      .tab-item, .tab-action { flex-direction: row; gap: 8px; font-size: 15px; }
+      .tab-item .tab-icon, .tab-action .tab-icon { margin: 0; }
     }
 
     @media (min-width: 900px) {
@@ -1042,6 +1069,9 @@
             <div class="timer-actions" id="timer-actions">
               <button type="button" class="study-start-button" id="start-study"><i data-lucide="play" aria-hidden="true"></i><span>开始学习！</span></button>
             </div>
+            <button type="button" class="clock-fullscreen-enter" id="enter-fullscreen-clock" title="进入全屏时钟" aria-label="进入全屏时钟">
+              <i data-lucide="maximize-2" aria-hidden="true"></i>
+            </button>
           </article>
           <div class="record-heading">
             <div>
@@ -1105,6 +1135,10 @@
         <span class="tab-icon"><i data-lucide="timer" aria-hidden="true"></i></span>
         <span>时钟</span>
       </button>
+      <button type="button" class="tab-action" id="site-fullscreen-toggle" aria-pressed="false" title="网站全屏" aria-label="网站全屏">
+        <span class="tab-icon"><i data-lucide="maximize" aria-hidden="true"></i></span>
+        <span id="site-fullscreen-label">全屏</span>
+      </button>
     </nav>
 
     <div class="timer-modal" id="timer-edit-modal" hidden>
@@ -1127,6 +1161,13 @@
         </form>
       </section>
     </div>
+
+    <section class="fullscreen-clock" id="fullscreen-clock" aria-label="全屏时钟" hidden>
+      <button type="button" class="fullscreen-clock-time" id="fullscreen-clock-time" aria-label="切换时间显示格式">00:00</button>
+      <button type="button" class="fullscreen-clock-exit" id="exit-fullscreen-clock" title="退出全屏时钟" aria-label="退出全屏时钟">
+        <i data-lucide="minimize-2" aria-hidden="true"></i>
+      </button>
+    </section>
   </div>
 
   <script src="learning-data.js"></script>

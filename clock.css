@@ -86,10 +86,96 @@
 .clock-content { padding-bottom: 18px; }
 
 .live-clock-card {
-  padding: 28px 20px 24px;
+  position: relative;
+  padding: 28px 20px 78px;
   background: var(--surface);
   border-bottom: 1px solid var(--line);
   text-align: center;
+}
+
+.clock-fullscreen-enter,
+.fullscreen-clock-exit {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.clock-fullscreen-enter {
+  position: absolute;
+  right: 20px;
+  bottom: 18px;
+  border: 1px solid var(--line);
+  background: var(--bg);
+  color: var(--muted);
+}
+
+.clock-fullscreen-enter .lucide,
+.fullscreen-clock-exit .lucide { width: 21px; height: 21px; }
+
+.fullscreen-clock[hidden] { display: none; }
+
+.fullscreen-clock {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+  color: #fff;
+}
+
+.fullscreen-clock-time {
+  width: 100%;
+  padding: 0 72px;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font-family: "SF Mono", "Roboto Mono", "Courier New", monospace;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.fullscreen-clock-exit {
+  position: absolute;
+  right: max(22px, env(safe-area-inset-right));
+  bottom: max(22px, env(safe-area-inset-bottom));
+  border: 1px solid #555;
+  background: #111;
+  color: #fff;
+}
+
+body.clock-fullscreen-active { overflow: hidden; background: #000; }
+
+@media (orientation: portrait) {
+  .fullscreen-clock.force-landscape {
+    inset: auto;
+    top: 50%;
+    left: 50%;
+    width: 100vh;
+    height: 100vw;
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+}
+
+@media (orientation: landscape) and (min-width: 640px) {
+  .fullscreen-clock-time { font-size: 140px; }
+}
+
+@media (orientation: landscape) and (min-width: 1000px) {
+  .fullscreen-clock-time { font-size: 190px; }
 }
 
 .live-clock {
@@ -371,7 +457,8 @@
 @media (min-width: 600px) {
   .live-clock { font-size: 76px; }
   .study-timeline { padding-left: 28px; padding-right: 28px; }
-  .live-clock-card { padding: 34px 28px 30px; }
+  .live-clock-card { padding: 34px 28px 86px; }
+  .clock-fullscreen-enter { right: 28px; bottom: 24px; }
   .record-heading, .study-record-list, .stats-content { padding-left: 28px; padding-right: 28px; }
   .timer-dialog { max-width: 560px; margin: 0 auto 22px; border-radius: 8px; }
 }
