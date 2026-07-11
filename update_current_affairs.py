@@ -5,7 +5,7 @@ import re
 import time
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parent
 DATA_JSON = ROOT / "current-affairs-data.json"
 DATA_JS = ROOT / "current-affairs-data.js"
 START_DATE = date(2026, 7, 1)
+CHINA_TZ = timezone(timedelta(hours=8), name="Asia/Shanghai")
 SOURCE_NAMES = [
     "新闻联播", "人民日报", "新华社", "半月谈", "求是", "光明日报",
     "南方周末", "学习强国", "中国政府网", "广东发布",
@@ -461,7 +462,7 @@ def load_payload():
 
 
 def save_payload(payload):
-    payload["generatedAt"] = datetime.now().astimezone().isoformat(timespec="seconds")
+    payload["generatedAt"] = datetime.now(CHINA_TZ).isoformat(timespec="seconds")
     payload["days"].sort(key=lambda item: item["date"])
     encoded = json.dumps(payload, ensure_ascii=False, indent=2)
     DATA_JSON.write_text(encoded + "\n", encoding="utf-8")
@@ -485,7 +486,7 @@ def parse_args():
 
 def main():
     args = parse_args()
-    target = datetime.strptime(args.date, "%Y-%m-%d").date() if args.date else date.today()
+    target = datetime.strptime(args.date, "%Y-%m-%d").date() if args.date else datetime.now(CHINA_TZ).date()
     if target < START_DATE:
         raise SystemExit(f"目标日期不能早于 {START_DATE}")
 
