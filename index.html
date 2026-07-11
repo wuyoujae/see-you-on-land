@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#ffffff">
   <title>暑假时政学习清单</title>
+  <link rel="stylesheet" href="clock.css">
   <style>
     :root {
       --bg: #ffffff;
@@ -650,7 +651,7 @@
       height: calc(var(--nav-height) + env(safe-area-inset-bottom));
       padding-bottom: env(safe-area-inset-bottom);
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       background: rgba(255, 255, 255, 0.96);
       backdrop-filter: blur(16px);
       border-top: 1px solid var(--line);
@@ -1019,6 +1020,74 @@
       <section class="news-day" id="news-day" aria-live="polite"></section>
     </main>
 
+    <main id="view-clock" class="view" aria-labelledby="clock-title">
+      <section id="clock-main-panel">
+        <header class="page-header clock-page-header">
+          <div>
+            <p class="eyebrow">STUDY TIMER</p>
+            <h1 id="clock-title">学习时钟</h1>
+          </div>
+          <button type="button" class="icon-button clock-stats-button" id="open-clock-stats" title="学习统计" aria-label="打开学习统计">
+            <i data-lucide="chart-no-axes-column-increasing" aria-hidden="true"></i>
+          </button>
+        </header>
+        <section class="study-timeline-shell" aria-label="学习日期时间轴">
+          <div class="study-timeline" id="study-timeline"></div>
+        </section>
+        <section class="clock-content">
+          <article class="live-clock-card" aria-label="当前时间与学习计时器">
+            <button type="button" class="live-clock" id="live-clock" aria-label="切换时间显示格式">00:00</button>
+            <p class="clock-format-hint">当前时间</p>
+            <div class="active-elapsed" id="active-elapsed" hidden>本次学习 00:00</div>
+            <div class="timer-actions" id="timer-actions">
+              <button type="button" class="study-start-button" id="start-study"><i data-lucide="play" aria-hidden="true"></i><span>开始学习！</span></button>
+            </div>
+          </article>
+          <div class="record-heading">
+            <div>
+              <p class="eyebrow" id="record-date-label">今日</p>
+              <h2>学习记录</h2>
+            </div>
+            <span id="record-day-total">0分钟</span>
+          </div>
+          <div class="study-record-list" id="study-record-list"></div>
+        </section>
+      </section>
+
+      <section id="clock-stats-panel" class="clock-stats-panel" hidden>
+        <header class="page-header stats-header">
+          <button type="button" class="icon-button" id="close-clock-stats" title="返回学习时钟" aria-label="返回学习时钟">
+            <i data-lucide="arrow-left" aria-hidden="true"></i>
+          </button>
+          <div>
+            <p class="eyebrow">STUDY REPORT</p>
+            <h1>学习统计</h1>
+          </div>
+          <span aria-hidden="true"></span>
+        </header>
+        <div class="stats-content">
+          <div class="segmented stats-range" id="stats-range" role="group" aria-label="统计周期">
+            <button type="button" class="active" data-range="day">日</button>
+            <button type="button" data-range="week">周</button>
+            <button type="button" data-range="month">月</button>
+          </div>
+          <p class="stats-period" id="stats-period"></p>
+          <div class="stats-summary" id="stats-summary"></div>
+          <section class="study-chart-section" aria-labelledby="study-chart-title">
+            <div class="stats-section-heading">
+              <h2 id="study-chart-title">学习趋势</h2>
+              <span id="chart-total"></span>
+            </div>
+            <div class="study-bar-chart" id="study-bar-chart"></div>
+          </section>
+          <section class="peak-section" aria-labelledby="peak-title">
+            <div class="peak-icon"><i data-lucide="sun-medium" aria-hidden="true"></i></div>
+            <div><p>高频学习时段</p><h2 id="peak-title">暂无数据</h2><span id="peak-detail">完成一次学习后生成</span></div>
+          </section>
+        </div>
+      </section>
+    </main>
+
     <nav class="tab-bar" aria-label="主导航">
       <button type="button" class="tab-item active" data-tab="dashboard" aria-selected="true">
         <span class="tab-icon"><i data-lucide="layout-dashboard" aria-hidden="true"></i></span>
@@ -1029,10 +1098,35 @@
         <span>清单</span>
       </button>
       <button type="button" class="tab-item" data-tab="news" aria-selected="false">
-        <span class="tab-icon"><i data-lucide="clock-3" aria-hidden="true"></i></span>
+        <span class="tab-icon"><i data-lucide="newspaper" aria-hidden="true"></i></span>
         <span>时政</span>
       </button>
+      <button type="button" class="tab-item" data-tab="clock" aria-selected="false">
+        <span class="tab-icon"><i data-lucide="timer" aria-hidden="true"></i></span>
+        <span>时钟</span>
+      </button>
     </nav>
+
+    <div class="timer-modal" id="timer-edit-modal" hidden>
+      <div class="timer-modal-backdrop" data-close-timer-modal></div>
+      <section class="timer-dialog" role="dialog" aria-modal="true" aria-labelledby="timer-dialog-title">
+        <header class="timer-dialog-header">
+          <h2 id="timer-dialog-title">编辑学习记录</h2>
+          <button type="button" class="icon-button" data-close-timer-modal aria-label="关闭编辑"><i data-lucide="x" aria-hidden="true"></i></button>
+        </header>
+        <form id="timer-edit-form">
+          <input type="hidden" id="edit-record-id">
+          <label>开始时间<input type="datetime-local" id="edit-record-start" required></label>
+          <label>结束时间<input type="datetime-local" id="edit-record-end" required></label>
+          <label>有效学习分钟<input type="number" id="edit-record-minutes" min="1" max="1440" step="1" required></label>
+          <p class="form-error" id="timer-form-error" role="alert"></p>
+          <div class="timer-dialog-actions">
+            <button type="button" class="delete-record-button" id="delete-study-record">删除记录</button>
+            <button type="submit" class="save-record-button">保存修改</button>
+          </div>
+        </form>
+      </section>
+    </div>
   </div>
 
   <script src="learning-data.js"></script>
@@ -1332,7 +1426,10 @@
         }
         const successfulSources = day.sourceStatus.filter(item => item.status === "ok").length;
         const keywordHTML = day.keywords.map(item => `<span class="keyword-chip">${escapeHTML(item.name)} · ${item.count}</span>`).join("");
-        const statusHTML = day.sourceStatus.map(item => `<span class="source-chip ${item.status === "ok" ? "" : "error"}" title="${item.status === "ok" ? "采集成功" : "当次采集失败，稍后自动重试"}">${escapeHTML(item.source)} ${item.count}</span>`).join("");
+        const statusHTML = day.sourceStatus.map(item => {
+          const statusTitle = item.status === "ok" ? "采集成功" : item.status === "stale" ? "本轮未取得新数据，保留上一轮结果" : "当次采集失败，稍后自动重试";
+          return `<span class="source-chip ${item.status === "ok" ? "" : "error"}" title="${statusTitle}">${escapeHTML(item.source)} ${item.count}</span>`;
+        }).join("");
         const articleHTML = day.articles.length ? day.articles.map(item => `
           <article class="news-article">
             <div>
@@ -1454,5 +1551,6 @@
       refreshIcons();
     })();
   </script>
+  <script src="clock.js"></script>
 </body>
 </html>

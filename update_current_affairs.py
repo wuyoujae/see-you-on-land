@@ -426,6 +426,31 @@ def crawl_day(day):
     return decorate_day(day, dedupe(all_items), statuses)
 
 
+def merge_refresh(old_day, new_day):
+    if not old_day:
+        return new_day
+    old_by_source = {
+        source: [item for item in old_day.get("articles", []) if item["source"] == source]
+        for source in SOURCE_NAMES
+    }
+    new_by_source = {
+        source: [item for item in new_day.get("articles", []) if item["source"] == source]
+        for source in SOURCE_NAMES
+    }
+    merged = []
+    statuses = []
+    for status in new_day.get("sourceStatus", []):
+        source = status["source"]
+        keep_old = bool(old_by_source[source]) and (status["status"] == "error" or not new_by_source[source])
+        if keep_old:
+            merged.extend(old_by_source[source])
+            statuses.append({**status, "status": "stale", "count": len(old_by_source[source])})
+        else:
+            merged.extend(new_by_source[source])
+            statuses.append(status)
+    return decorate_day(date.fromisoformat(new_day["date"]), dedupe(merged), statuses)
+
+
 def load_payload():
     if DATA_JSON.exists():
         try:
@@ -471,7 +496,8 @@ def main():
         if day.isoformat() in existing and not args.force:
             print(f"{day}: 已存在，跳过")
             continue
-        existing[day.isoformat()] = crawl_day(day)
+        refreshed = crawl_day(day)
+        existing[day.isoformat()] = merge_refresh(existing.get(day.isoformat()), refreshed) if args.force else refreshed
         payload["days"] = list(existing.values())
         save_payload(payload)
     save_payload(payload)
