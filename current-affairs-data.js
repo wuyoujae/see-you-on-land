@@ -11259,11 +11259,11 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "习近平",
-          "count": 12
+          "count": 13
         },
         {
           "name": "朝鲜",
-          "count": 10
+          "count": 11
         },
         {
           "name": "纳米比亚",
@@ -11271,14 +11271,18 @@ window.CURRENT_AFFAIRS_DATA = {
         },
         {
           "name": "科技",
-          "count": 5
-        },
-        {
-          "name": "高质量发展",
-          "count": 2
+          "count": 6
         },
         {
           "name": "科技强国",
+          "count": 3
+        },
+        {
+          "name": "两院院士大会",
+          "count": 2
+        },
+        {
+          "name": "高质量发展",
           "count": 2
         }
       ],
@@ -11364,6 +11368,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
+          "id": "978a81ab2e3a54",
+          "source": "新闻联播",
+          "title": "人民日报评论员文章：向着到2035年建成科技强国的目标坚定迈进——论学习贯彻习近平总书记在国家科学技术奖励大会、两院院士大会、中国科协十一大上重要讲话",
+          "url": "https://tv.cctv.com/2026/07/11/VIDEepO6WxQpa1bsidpuBr1g260711.shtml",
+          "date": "2026-07-11",
+          "keyword": "习近平"
+        },
+        {
           "id": "def63f0c0780b7",
           "source": "求是",
           "title": "习近平同金正恩就《中朝友好合作互助条约》签订65周年互致贺电",
@@ -11432,6 +11444,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "李强同朝鲜内阁总理朴泰成会谈",
           "url": "https://www.news.cn/politics/leaders/20260711/f9469c2fe01d4c16a0f341e04b3fb6b6/c.html",
+          "date": "2026-07-11",
+          "keyword": "朝鲜"
+        },
+        {
+          "id": "674581eea4c5cd",
+          "source": "新闻联播",
+          "title": "李强同朝鲜内阁总理会谈",
+          "url": "https://tv.cctv.com/2026/07/11/VIDETQS7lofgRoFueJddxoF4260711.shtml",
           "date": "2026-07-11",
           "keyword": "朝鲜"
         },
@@ -12308,6 +12328,46 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "89f8773abdf9b1",
+          "source": "新闻联播",
+          "title": "【党旗在基层一线高高飘扬】浙江苍南：台风来临前的大转移",
+          "url": "https://tv.cctv.com/2026/07/11/VIDESCyeckqTs5sr2zYeamNT260711.shtml",
+          "date": "2026-07-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "06545ee1af86dd",
+          "source": "新闻联播",
+          "title": "今年前五个月我国高端船型出口量大幅增长",
+          "url": "https://tv.cctv.com/2026/07/11/VIDEimlEX4gnEVZmVNFg43Ch260711.shtml",
+          "date": "2026-07-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f0f515045b4c7f",
+          "source": "新闻联播",
+          "title": "各地各部门积极应对台风“巴威”",
+          "url": "https://tv.cctv.com/2026/07/11/VIDEKSgv84ODvsxFhOv6XHRR260711.shtml",
+          "date": "2026-07-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9438fdc3e3a06e",
+          "source": "新闻联播",
+          "title": "支持政策多点发力 我国持续减轻家庭生养负担",
+          "url": "https://tv.cctv.com/2026/07/11/VIDEzVrNBs3hl7G7UgQXonDq260711.shtml",
+          "date": "2026-07-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8ed75883462c5d",
+          "source": "新闻联播",
+          "title": "蔡奇出席《中朝友好合作互助条约》签订65周年纪念招待会",
+          "url": "https://tv.cctv.com/2026/07/11/VIDEz9dwnNHfvX1iQqMAGjyy260711.shtml",
+          "date": "2026-07-11",
+          "keyword": "综合时政"
+        },
+        {
           "id": "04a60c2859147b",
           "source": "求是",
           "title": "2026 年第 13 期",
@@ -12351,40 +12411,39 @@ window.CURRENT_AFFAIRS_DATA = {
       "sourceStatus": [
         {
           "source": "新闻联播",
-          "status": "error",
-          "count": 0,
-          "duration": 71.0,
-          "message": "HTTPSConnectionPool(host='tv.cctv.com', port=443): Read timed out. (read timeout=22)"
+          "status": "ok",
+          "count": 7,
+          "duration": 0.3
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 31,
-          "duration": 2.5
+          "duration": 1.6
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.6
+          "duration": 1.8
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 1,
-          "duration": 15.0
+          "duration": 21.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 7,
-          "duration": 6.4
+          "duration": 6.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 25,
-          "duration": 1.5
+          "duration": 2.7
         },
         {
           "source": "南方周末",
@@ -12396,23 +12455,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "学习强国",
           "status": "ok",
           "count": 1,
-          "duration": 2.4
+          "duration": 3.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 4,
-          "duration": 9.9
+          "duration": 11.6
         },
         {
           "source": "广东发布",
-          "status": "stale",
+          "status": "ok",
           "count": 4,
-          "duration": 18.0,
-          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+          "duration": 64.8
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-11T19:00:28+08:00"
+  "generatedAt": "2026-07-11T19:55:28+08:00"
 };
