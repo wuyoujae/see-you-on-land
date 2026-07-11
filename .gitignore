@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+current-affairs-update.log
+dist/
+_site/
+*.tar.gz
