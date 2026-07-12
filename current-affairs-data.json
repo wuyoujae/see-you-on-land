@@ -12552,11 +12552,11 @@
           "count": 4
         },
         {
-          "name": "科技强国",
-          "count": 2
+          "name": "经济",
+          "count": 3
         },
         {
-          "name": "经济",
+          "name": "科技强国",
           "count": 2
         }
       ],
@@ -12670,6 +12670,14 @@
           "source": "新华社",
           "title": "上半年高频数据折射我国经济稳中向优",
           "url": "https://www.news.cn/fortune/20260712/0a1a5006444a4db8a422458bb73ecbd3/c.html",
+          "date": "2026-07-12",
+          "keyword": "经济"
+        },
+        {
+          "id": "33bb2f16426ede",
+          "source": "新华社",
+          "title": "活力中国调研行｜山东济南：构建现代化产业体系促经济高质量发展",
+          "url": "https://www.news.cn/photo/20260712/e6b4e1a5b279423785aee7e34eeb6b76/c.html",
           "date": "2026-07-12",
           "keyword": "经济"
         },
@@ -13036,16 +13044,16 @@
         {
           "id": "50443e8c3bdd4c",
           "source": "南方周末",
-          "title": "台风“巴威”登陆的村子 对于这里的居民来说，应对台风已经成为了一种生活经验。 写真 15分钟前",
+          "title": "台风“巴威”登陆的村子 对于这里的居民来说，应对台风已经成为了一种生活经验。 写真 1小时前 1评论",
           "url": "https://www.infzm.com/contents/325957?source=133&source_1=998",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
         {
-          "id": "24b2f666ab1f4c",
+          "id": "3ac4245b813b86",
           "source": "新华社",
-          "title": "7月10日至12日早晨北京出现入汛来最强降雨过程",
-          "url": "https://www.news.cn/local/20260712/f41095a42c8f495fa1c9a3d2a005c9b2/c.html",
+          "title": "一周三轮互袭，美伊“灰色对抗”暗藏风险",
+          "url": "https://www.news.cn/world/20260712/64c349d9a8e3438d9c6d41fb85bce684/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13074,18 +13082,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "dee7b9f4ae30df",
+          "id": "b3e6cf2c11fcc5",
           "source": "新华社",
-          "title": "专访丨美国教师“赛考斯”：期待再次拥抱殷玉珍",
-          "url": "https://www.news.cn/world/20260712/10f82b22bcd8454d963b150b08583de7/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "87bbf15054333b",
-          "source": "新华社",
-          "title": "世界杯丨淘汰赛：阿根廷队战胜瑞士队",
-          "url": "https://www.news.cn/sports/20260712/47cc4ecb414b4e4c8bcb4d52682f2752/c.html",
+          "title": "两部门联合发布红色山洪灾害气象预警",
+          "url": "https://www.news.cn/20260712/610239a4f74f44ec8aa24b10dd876633/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13170,10 +13170,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "4cb49f37960939",
+          "id": "16bab4b42b1989",
           "source": "新华社",
-          "title": "卡塔尔前埃米尔哈马德逝世",
-          "url": "https://www.news.cn/world/20260712/656b463a1b66465a9f0fa77d724f0c3b/c.html",
+          "title": "北京解除全市防汛应急响应",
+          "url": "https://www.news.cn/20260712/92bf7e4a69944e99b6162af8d74d232a/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "025f9b771286b9",
+          "source": "新华社",
+          "title": "卡塔尔建议本国公民暂停所有海上活动",
+          "url": "https://www.news.cn/world/20260712/8ee431efd8de4a93bdd837a75c41ae9d/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13198,6 +13206,14 @@
           "source": "新华社",
           "title": "台风“巴威”来袭 高空风险需警惕",
           "url": "https://www.news.cn/politics/20260712/893a559cbe6444d3b2ce9004a3b5670f/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c41fe4f74e4868",
+          "source": "新华社",
+          "title": "台风“巴威”登陆前 4000斤葡萄半天售罄……",
+          "url": "https://www.news.cn/local/20260712/67b09b57f9b64b6686f38a4a17428146/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13274,10 +13290,26 @@
           "keyword": "综合时政"
         },
         {
+          "id": "73a529724ca8c3",
+          "source": "新华社",
+          "title": "外交部关于有关国家炒作“南海仲裁案裁决”出台十年的声明",
+          "url": "https://www.news.cn/politics/20260712/b778f5b557d844808ab95ad660a54ebc/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "c0f45ce82ec360",
           "source": "新华社",
           "title": "大图直击中俄“海上联合-2026”联合演习海上演练阶段精彩瞬间",
           "url": "https://www.news.cn/world/20260712/8065b9d2b9ef4940b380078ae225a9ff/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d4869ed021091b",
+          "source": "新华社",
+          "title": "天津大部分地区调整为市防汛四级应急响应",
+          "url": "https://www.news.cn/20260712/cb7772d1e9474c29beae35b50368c0da/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13298,26 +13330,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "cde2227a8690be",
-          "source": "新华社",
-          "title": "巴基斯坦外长呼吁美伊保持克制",
-          "url": "https://www.news.cn/20260712/06b1d602a5cd4fdf924ba46a81867446/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "24867536c8e812",
           "source": "新华社",
           "title": "总书记心系防汛救灾工作",
           "url": "https://www.news.cn/politics/leaders/20260712/93cf6f921049496eb03f9f4aee15d7f1/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "cf96ff84ff2133",
-          "source": "新华社",
-          "title": "我国沙尘天气呈次数减少、强度减弱趋势",
-          "url": "https://www.news.cn/local/20260712/c3ba33e92ab6422191fbf42f422778d4/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13378,6 +13394,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "e3dbb734ffe190",
+          "source": "新华社",
+          "title": "水利部升级发布洪水黄色预警",
+          "url": "https://www.news.cn/20260712/b91d4f584265478d9f1a16f0fe92bb54/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "6ca6260dda4f11",
           "source": "新华社",
           "title": "水利部发布洪水黄警",
@@ -13386,26 +13410,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "d4838fbaddaea4",
-          "source": "新华社",
-          "title": "游客请注意：江苏苏州部分景区将临时关闭",
-          "url": "https://www.news.cn/local/20260712/0b8e2c1da43f458c94ad9c6af2b72ad4/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "9d237fc22b00a2",
-          "source": "新华社",
-          "title": "科威特军方：正在应对敌方空袭",
-          "url": "https://www.news.cn/20260712/ccf86f52f42b45e8bc82077b2bb5152d/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "de7d4b945a5f21",
           "source": "新华社",
           "title": "管用吗？特朗普担心遭暗杀立“报复遗嘱”",
           "url": "https://www.news.cn/20260712/ed8a085926b841fa89b3d3c69bce559a/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c1ba9798873809",
+          "source": "新华社",
+          "title": "美丽中国行·探访三江源丨在高原冻土区修高速公路，到底有多难？",
+          "url": "https://www.news.cn/politics/20260712/3fbd8ff0cf92483399c40578e41803c8/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13426,18 +13442,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "f6e7f5c6279648",
+          "id": "e809aafba9ad05",
           "source": "新华社",
-          "title": "美议员“控诉”在约旦河西岸遭以方扣留",
-          "url": "https://www.news.cn/20260712/78d5478963a9457590230e978fecce35/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "ebf589cc39226d",
-          "source": "新华社",
-          "title": "英格兰阿根廷相遇半决赛",
-          "url": "https://www.news.cn/sports/20260712/5b105a14effc4968a0904fe7a73ed1a5/c.html",
+          "title": "美国消费信贷自2024年以来首次下降",
+          "url": "https://www.news.cn/20260712/6aac30b05b0849c1b6795ad6221d8af5/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13454,14 +13462,6 @@
           "source": "新华社",
           "title": "重庆动物园大熊猫“良月”幼崽迎来一周岁生日",
           "url": "https://www.news.cn/photo/20260712/b238ecf96b9b4cd48155990d7f6fbf7a/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "141f248b6754f1",
-          "source": "新华社",
-          "title": "阿曼海域出事船只船员已获救",
-          "url": "https://www.news.cn/20260712/88590e7eceb549128f0e6603e9b7dff5/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13519,32 +13519,32 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 18.4,
+          "duration": 60.1,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260712.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.8
+          "duration": 1.5
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.3
+          "duration": 3.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 1,
-          "duration": 41.7
+          "duration": 24.9
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 4,
-          "duration": 6.0
+          "duration": 5.8
         },
         {
           "source": "光明日报",
@@ -13556,28 +13556,28 @@
           "source": "南方周末",
           "status": "ok",
           "count": 1,
-          "duration": 14.1
+          "duration": 14.6
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 6.2
+          "duration": 5.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 8.9
+          "duration": 9.4
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 82.7
+          "duration": 57.2
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-12T18:24:15+08:00"
+  "generatedAt": "2026-07-12T19:56:45+08:00"
 }
