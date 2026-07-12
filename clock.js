@@ -11,6 +11,9 @@
   let showSeconds = localStorage.getItem(CLOCK_FORMAT_KEY) === "true";
   let selectedDate = dayKey(Date.now());
   let statsRange = "day";
+  let wakeLock = null;
+  let wakeLockRequestInFlight = false;
+  let wakeLockEpoch = 0;
 
   const dom = {
     clockMain: document.getElementById("clock-main-panel"),
@@ -261,11 +264,48 @@
     return Boolean(document.fullscreenElement || document.webkitFullscreenElement);
   }
 
+  async function requestWakeLock() {
+    if (!("wakeLock" in navigator) || wakeLock || wakeLockRequestInFlight) return;
+    if (document.visibilityState !== "visible" || dom.fullscreenClock.hidden) return;
+
+    const requestEpoch = wakeLockEpoch;
+    wakeLockRequestInFlight = true;
+    try {
+      const lock = await navigator.wakeLock.request("screen");
+      if (requestEpoch !== wakeLockEpoch || dom.fullscreenClock.hidden) {
+        await lock.release();
+        return;
+      }
+      wakeLock = lock;
+      lock.addEventListener("release", () => {
+        if (wakeLock === lock) wakeLock = null;
+      });
+    } catch {
+      wakeLock = null;
+    } finally {
+      wakeLockRequestInFlight = false;
+      if (requestEpoch !== wakeLockEpoch && document.visibilityState === "visible" && !dom.fullscreenClock.hidden) {
+        requestWakeLock();
+      }
+    }
+  }
+
+  async function releaseWakeLock() {
+    wakeLockEpoch += 1;
+    const lock = wakeLock;
+    wakeLock = null;
+    if (!lock) return;
+    try {
+      await lock.release();
+    } catch {}
+  }
+
   async function enterFullscreenClock() {
     dom.fullscreenClock.hidden = false;
     dom.fullscreenClock.classList.add("force-landscape");
     document.body.classList.add("clock-fullscreen-active");
     refreshIcons();
+    const wakeLockRequest = requestWakeLock();
 
     try {
       if (dom.fullscreenClock.requestFullscreen) await dom.fullscreenClock.requestFullscreen();
@@ -279,9 +319,11 @@
     } catch {
       // CSS rotates the clock when orientation locking is unavailable.
     }
+    await wakeLockRequest;
   }
 
   async function exitFullscreenClock() {
+    await releaseWakeLock();
     try {
       if (document.exitFullscreen && document.fullscreenElement) await document.exitFullscreen();
       else if (document.webkitExitFullscreen && document.webkitFullscreenElement) document.webkitExitFullscreen();
@@ -514,6 +556,10 @@
   document.addEventListener("webkitfullscreenchange", () => {
     syncFullscreenState();
     renderSiteFullscreenButton();
+  });
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible" && !dom.fullscreenClock.hidden) requestWakeLock();
+    else if (document.visibilityState === "hidden") releaseWakeLock();
   });
 
   dom.timeline.addEventListener("click", event => {
