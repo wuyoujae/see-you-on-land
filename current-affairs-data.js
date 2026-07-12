@@ -12554,6 +12554,14 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "name": "科技强国",
           "count": 2
+        },
+        {
+          "name": "经济",
+          "count": 2
+        },
+        {
+          "name": "高温",
+          "count": 2
         }
       ],
       "articles": [
@@ -12644,6 +12652,38 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.qstheory.cn/20260712/6c325d02058e46dfbdc4efe5ee99725f/c.html",
           "date": "2026-07-12",
           "keyword": "科技"
+        },
+        {
+          "id": "08a33b44dccd94",
+          "source": "人民日报",
+          "title": "熊猫债为何受欢迎（经济新方位）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168147.html",
+          "date": "2026-07-12",
+          "keyword": "经济"
+        },
+        {
+          "id": "ba8f7cae49f38c",
+          "source": "新华社",
+          "title": "上半年高频数据折射我国经济稳中向优",
+          "url": "https://www.news.cn/fortune/20260712/0a1a5006444a4db8a422458bb73ecbd3/c.html",
+          "date": "2026-07-12",
+          "keyword": "经济"
+        },
+        {
+          "id": "8220c8667a6641",
+          "source": "新华社",
+          "title": "中国“清凉制造”助力东南亚国家战高温",
+          "url": "https://www.news.cn/20260712/837c914cab954e4d915db44904fdf312/c.html",
+          "date": "2026-07-12",
+          "keyword": "高温"
+        },
+        {
+          "id": "ffb0dee3deaaa2",
+          "source": "新华社",
+          "title": "通讯丨中国“清凉制造”助力东南亚国家战高温",
+          "url": "https://www.news.cn/world/20260712/b51d3a9f6df94b5ab2b9baeb837de19a/c.html",
+          "date": "2026-07-12",
+          "keyword": "高温"
         },
         {
           "id": "8be17ff496515c",
@@ -12786,14 +12826,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "清理“南海仲裁案裁决”遗毒刻不容缓（大使随笔）",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168140.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "08a33b44dccd94",
-          "source": "人民日报",
-          "title": "熊猫债为何受欢迎（经济新方位）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168147.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13014,10 +13046,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "05b3cf17c41428",
+          "source": "新华社",
+          "title": "“可敢 再向命运 借一程” 残疾的他用诗歌与生活对话",
+          "url": "https://www.news.cn/politics/20260712/150baa9410e5483389d91e7b2088b2e9/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "cfc5003a2d3376",
           "source": "新华社",
           "title": "“巴威”先后在浙江玉环和乐清登陆",
           "url": "https://www.news.cn/local/20260712/8de85f565d894991a43475806f3bb2a1/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5efe9a91b183c9",
+          "source": "新华社",
+          "title": "三进横州“孤岛乡”",
+          "url": "https://www.news.cn/local/20260712/8bd1f64af3124569b5cf4415fc013acd/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b8de72a7299c44",
+          "source": "新华社",
+          "title": "上半年发行规模超1600亿元 熊猫债为何受欢迎？",
+          "url": "https://www.news.cn/fortune/20260712/1880147ac911458b8f0204e448ad13b0/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6aa49c8eadc342",
+          "source": "新华社",
+          "title": "上半年国产剧收视报告出炉 现象级作品你看过哪些?",
+          "url": "https://www.news.cn/politics/20260712/cf36314c34ea40b087310bb246a9bc4c/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9f85eed8b5f94c",
+          "source": "新华社",
+          "title": "上半年国产剧收视报告出炉 首播剧部数收视时长双增长",
+          "url": "https://www.news.cn/20260712/500b2cb6264b48b995ced5a6a22f93ea/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13030,34 +13102,98 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a8ae1cf06bb31a",
+          "id": "dee7b9f4ae30df",
           "source": "新华社",
-          "title": "世界杯丨淘汰赛：英格兰队战胜挪威队",
-          "url": "https://www.news.cn/sports/20260712/2afb3d2b2bd94dd2bd307b80c4bcda03/c.html",
+          "title": "专访丨美国教师“赛考斯”：期待再次拥抱殷玉珍",
+          "url": "https://www.news.cn/world/20260712/10f82b22bcd8454d963b150b08583de7/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
         {
-          "id": "5723c265d42b44",
+          "id": "52589a9f6d365d",
           "source": "新华社",
-          "title": "从“新”向“智”：中国方案拓展国际能源合作新空间",
-          "url": "https://www.news.cn/politics/20260712/9bb241dba46945a99156af9ac1311431/c.html",
+          "title": "世界前四齐聚四强",
+          "url": "https://www.news.cn/sports/20260712/eca476e688d54963a152fc8f7b446d94/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
         {
-          "id": "743a952203db4d",
+          "id": "87bbf15054333b",
           "source": "新华社",
-          "title": "伊多地传出爆炸声",
-          "url": "https://www.news.cn/world/20260712/00f9c10dedd045fd856753555948d77b/c.html",
+          "title": "世界杯丨淘汰赛：阿根廷队战胜瑞士队",
+          "url": "https://www.news.cn/sports/20260712/47cc4ecb414b4e4c8bcb4d52682f2752/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c728d877ca41c9",
+          "source": "新华社",
+          "title": "中东多国启动防空系统、拉响警报",
+          "url": "https://www.news.cn/20260712/5a12a08c5d4748e7869782e45fbfa478/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "096b5ec8c8a303",
+          "source": "新华社",
+          "title": "中东部有强降水",
+          "url": "https://www.news.cn/local/20260712/130ed9017ee044cd928eaeff8006c181/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "45a55a52c7cf1c",
+          "source": "新华社",
+          "title": "中美青少年走进新疆以音乐传递友谊",
+          "url": "https://education.news.cn/20260712/f0b218cfaea6450eaf06cc44ab7a4d6a/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "41fd64823d3fa5",
+          "source": "新华社",
+          "title": "云南富源通报一起致6人死亡交通事故",
+          "url": "https://www.news.cn/legal/20260712/30bba574f39e47cbaf3e16ac794322e2/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8b61ecd2fc7f4c",
+          "source": "新华社",
+          "title": "交通运输部调防御响应等级为二级",
+          "url": "https://www.news.cn/20260712/4ff6c253e72c488fbe340a2f0534626e/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ebd73478736f93",
+          "source": "新华社",
+          "title": "亲历两场救援",
+          "url": "https://www.news.cn/politics/20260712/f1a6629259024a8e871916c7af1fbb89/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
         {
           "id": "5e6049dc1427be",
           "source": "新华社",
-          "title": "伊朗革命卫队宣布关闭霍尔木兹海峡",
+          "title": "伊方宣布关闭霍尔木兹海峡",
           "url": "https://www.news.cn/world/20260712/a5caddc9c90b45419a7fe6819c9a3087/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0a1ac8e771ec20",
+          "source": "新华社",
+          "title": "伊朗打击美国在中东地区目标",
+          "url": "https://www.news.cn/world/20260712/a76378420744476590b1ed14bbeadc5e/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0caacba60cdb45",
+          "source": "新华社",
+          "title": "伊朗议长：单边协议的时代已结束",
+          "url": "https://www.news.cn/20260712/892997d08c364180a8c63ff14b7cf4b6/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13070,18 +13206,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "67d9dcd8fa7415",
+          "id": "a82e0048e6bedf",
           "source": "新华社",
-          "title": "加拿大多伦多发生枪击事件致2死5伤",
-          "url": "https://www.news.cn/20260712/846e577c15894f43ac3fd278287e5b28/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "6773013d6e3ae0",
-          "source": "新华社",
-          "title": "北京市气象台解除分区暴雨红色预警信号",
-          "url": "https://www.news.cn/local/20260712/c710d198754e47269b6c7dece75f42d1/c.html",
+          "title": "受台风“巴威”影响 江苏苏州部分景区将临时关闭",
+          "url": "https://www.news.cn/20260712/90301516825c4bc68fcce1a1e1439219/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13104,7 +13232,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "7973be467333e3",
           "source": "新华社",
-          "title": "各部门多措并举防汛防台风",
+          "title": "各部门多措并举防汛防台风 保障人民生命财产安全",
           "url": "https://www.news.cn/20260712/403ebe4f1d4648759757a7350e35c5e4/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
@@ -13114,6 +13242,54 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "国宝画重点丨行舟千年看“海上国宝”",
           "url": "https://www.news.cn/politics/20260712/a0694dbbf6714e7cb1f67ff217edf4e0/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e9bddb333a36f3",
+          "source": "新华社",
+          "title": "国家防减救灾委对浙江启动国家四级救灾应急响应",
+          "url": "https://www.news.cn/politics/20260712/bbf484118fad44cc8b0e775c33f1e1c0/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4efbf53a20257d",
+          "source": "新华社",
+          "title": "国际足联发售世界杯决赛赛场草皮 450美元一份",
+          "url": "https://www.news.cn/sports/20260712/2272edf98ef9421383ba1191fe2c5857/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cf96ff84ff2133",
+          "source": "新华社",
+          "title": "国际防治沙尘暴日丨我国沙尘天气呈次数减少、强度减弱趋势",
+          "url": "https://www.news.cn/local/20260712/c3ba33e92ab6422191fbf42f422778d4/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7b3e09574c918c",
+          "source": "新华社",
+          "title": "在2400米深地 这群 科学家追问宇宙起源",
+          "url": "https://www.news.cn/politics/20260712/2bc6138d95c04cf2909cfa6faaddda65/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "952989c158ee22",
+          "source": "新华社",
+          "title": "夏粮首超3000亿斤背后的农业新质生产力",
+          "url": "https://www.news.cn/fortune/20260712/c4191b948fb348099fb5b89cc6052006/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ac165a0b162eea",
+          "source": "新华社",
+          "title": "多伦多“圣克莱尔萨尔萨节”现场发生枪击 2死6伤",
+          "url": "https://www.news.cn/world/20260712/0c7ee65dab92461f8b2dd41cc7490a02/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13134,10 +13310,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "27f25bb99857b5",
+          "id": "d81c7e4abb8e5c",
           "source": "新华社",
-          "title": "守牢粮安屏障——各地扎实推进农业防灾减灾救灾",
-          "url": "https://www.news.cn/20260712/3bf61220d2eb42a798990684b79ecf9a/c.html",
+          "title": "完美公司微纪录片《美力进化论》即将正式上线",
+          "url": "https://www.news.cn/food/20260712/04c980fcb5b84ef596d197bf7bf297fc/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4418c1259d7dbd",
+          "source": "新华社",
+          "title": "广西贵港救灾见闻",
+          "url": "https://www.news.cn/local/20260712/3e15025d4e2542bb85daf5918afe9d6a/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13150,10 +13334,42 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "75257a8768199b",
+          "source": "新华社",
+          "title": "披露特朗普新专机安全缺陷的美国记者收到传票",
+          "url": "https://www.news.cn/world/20260712/1040513fae0a423495569f73e16e53df/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b59494db81ae72",
+          "source": "新华社",
+          "title": "提升我国原始创新能力 积蓄更多“从零到一”的力量",
+          "url": "https://www.news.cn/tech/20260712/3771166cf20b46629a8f159210333190/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "688d4e6e524290",
           "source": "新华社",
           "title": "新型电网是张什么网，怎么建",
           "url": "https://www.news.cn/fortune/20260712/4d0310699ddf401289338c3f05f1a7ed/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ff2eb25ddf90c2",
+          "source": "新华社",
+          "title": "极限制造：探秘中国制造“绿色尼龙”",
+          "url": "https://www.news.cn/fortune/20260712/749d3851f6044c73bdf6725f9baa33f3/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3d229b72ee64f3",
+          "source": "新华社",
+          "title": "查水库、巡航道、下田间——安徽 各地 迎战台风“巴威”一线见闻",
+          "url": "https://www.news.cn/local/20260712/6a8933b088f5489392278fadf1474dc3/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13166,10 +13382,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "38ccde9524aa59",
+          "source": "新华社",
+          "title": "水利部对苏皖赣鲁启动洪水防御Ⅳ级应急响应",
+          "url": "https://www.news.cn/politics/20260712/4fe1b0adbfb94634becb6c8ef4cd816b/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "8d2c2681c8ef9f",
           "source": "新华社",
           "title": "海河流域蓟运河发生2026年第1号洪水",
           "url": "https://www.news.cn/local/20260712/91189d878f5a49dca1f3b83d12048e50/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0d4d1c3fb1da0c",
+          "source": "新华社",
+          "title": "清理遗毒刻不容缓",
+          "url": "https://www.news.cn/world/20260712/387693bbf8404bcaa72174c1c2225b03/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d4838fbaddaea4",
+          "source": "新华社",
+          "title": "游客请注意：江苏苏州部分景区将临时关闭",
+          "url": "https://www.news.cn/local/20260712/0b8e2c1da43f458c94ad9c6af2b72ad4/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13182,10 +13422,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "69bd8dc1cb4eaa",
+          "source": "新华社",
+          "title": "硬核工业风出圈，工业旅游魅力何在？",
+          "url": "https://www.news.cn/fortune/20260712/36023d2305664f61b2ef86dc301daa6b/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "037fd859a470ea",
           "source": "新华社",
           "title": "福建各地重点风险区防抗台风见闻",
           "url": "https://www.news.cn/20260712/0fbef95666a74f3f991c0d1523cf05cb/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ecfbaa0a1d6ebb",
+          "source": "新华社",
+          "title": "美军发起新一轮对伊打击 伊朗打击美在中东目标回应",
+          "url": "https://www.news.cn/20260712/be4958b98b4644269b98ddae8af78b41/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13198,34 +13454,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "bf685f4486bbaf",
+          "id": "4c820fc0b4bb92",
           "source": "新华社",
-          "title": "诺斯科娃夺得温网女单冠军",
-          "url": "https://www.news.cn/sports/20260712/2f3b6d80e0ce4ee194bc6e32869738d2/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "9b09f7eeaec0df",
-          "source": "新华社",
-          "title": "贝林厄姆助英格兰进四强 阿根廷将战瑞士",
-          "url": "https://www.news.cn/sports/20260712/6e342e9e47f24e849f70aa131db62168/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "60b7a7d379686a",
-          "source": "新华社",
-          "title": "贝林厄姆双响 英格兰逆转挪威晋级四强",
-          "url": "https://www.news.cn/sports/20260712/0880d9510f3a4ad99f84a6fc0d96a843/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "4418c1259d7dbd",
-          "source": "新华社",
-          "title": "贵港救灾见闻",
-          "url": "https://www.news.cn/local/20260712/3e15025d4e2542bb85daf5918afe9d6a/c.html",
+          "title": "美发起新一轮对伊打击 伊打击美在中东目标",
+          "url": "https://www.news.cn/world/20260712/a26d59f51d3b4743922900f4e5167dc9/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13246,10 +13478,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8588c61f236fea",
+          "id": "d12bb4ee31cf96",
           "source": "新华社",
-          "title": "阿曼附近海域一艘集装箱船遇袭起火",
-          "url": "https://www.news.cn/20260712/35ac7d0f248041f891475f0db52e3f27/c.html",
+          "title": "阿曼附近一货船遇袭 美军称打击伊朗以作回应",
+          "url": "https://www.news.cn/20260712/2fb45d70464d4f519fe54dfad5ad5032/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13283,65 +13515,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 32.2,
+          "duration": 24.8,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260712.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 2.2
+          "duration": 2.9
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 32,
-          "duration": 6.1
+          "count": 60,
+          "duration": 3.1
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 1,
-          "duration": 23.4
+          "duration": 20.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 4,
-          "duration": 5.8
+          "duration": 6.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 25,
-          "duration": 2.3
+          "duration": 2.1
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.2
+          "duration": 12.8
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.7
+          "duration": 5.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 8.3
+          "duration": 9.3
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 65.7
+          "duration": 57.2
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-12T10:08:11+08:00"
+  "generatedAt": "2026-07-12T13:52:47+08:00"
 };
