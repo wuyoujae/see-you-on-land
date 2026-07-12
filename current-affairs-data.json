@@ -13002,6 +13002,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "427275e16e33b7",
+          "source": "新华社",
+          "title": "伊朗伊斯兰 革命卫队宣布关闭霍尔木兹海峡",
+          "url": "https://www.news.cn/world/20260712/c27c71d7e286434683ee475d82734970/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "3e3b96cd448fca",
           "source": "新华社",
           "title": "古巴谴责美国石油封锁致使古断电频发",
@@ -13012,7 +13020,7 @@
         {
           "id": "cfc5003a2d3376",
           "source": "新华社",
-          "title": "台风“巴威”先后在浙江玉环和乐清登陆",
+          "title": "台风“巴威”先后在浙江玉环和乐清登陆 直击",
           "url": "https://www.news.cn/local/20260712/8de85f565d894991a43475806f3bb2a1/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
@@ -13034,18 +13042,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "a1aa6e418089b4",
+          "id": "7973be467333e3",
           "source": "新华社",
-          "title": "各部门多措并举防汛防台风 保障人民生命财产安全",
-          "url": "https://www.news.cn/politics/20260712/df0fe7fc24f34c98add7ea757e7a7887/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "c3390d8f44c0ab",
-          "source": "新华社",
-          "title": "在乐清二次登陆",
-          "url": "https://www.news.cn/local/20260712/aea9a9dff290480d851bec53262bf7e0/c.html",
+          "title": "各部门多措并举防汛防台风",
+          "url": "https://www.news.cn/20260712/403ebe4f1d4648759757a7350e35c5e4/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13066,6 +13066,22 @@
           "keyword": "综合时政"
         },
         {
+          "id": "27f25bb99857b5",
+          "source": "新华社",
+          "title": "守牢粮安屏障——各地扎实推进农业防灾减灾救灾",
+          "url": "https://www.news.cn/20260712/3bf61220d2eb42a798990684b79ecf9a/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cc060d6fa8063d",
+          "source": "新华社",
+          "title": "强暴风雨侵袭致爱沙尼亚多地停电",
+          "url": "https://www.news.cn/world/20260712/580c1d8848004a90aca480116c5d5bb4/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "688d4e6e524290",
           "source": "新华社",
           "title": "新型电网是张什么网，怎么建",
@@ -13078,6 +13094,38 @@
           "source": "新华社",
           "title": "福建各地重点风险区防抗台风见闻",
           "url": "https://www.news.cn/20260712/0fbef95666a74f3f991c0d1523cf05cb/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3205381dd464e2",
+          "source": "新华社",
+          "title": "美军称开始对伊朗发动一周内第三轮打击",
+          "url": "https://www.news.cn/world/20260712/bc72fb32087c4e11802d4f5044c7a728/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bf685f4486bbaf",
+          "source": "新华社",
+          "title": "诺斯科娃夺得温网女单冠军",
+          "url": "https://www.news.cn/sports/20260712/2f3b6d80e0ce4ee194bc6e32869738d2/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "60b7a7d379686a",
+          "source": "新华社",
+          "title": "贝林厄姆双响 英格兰逆转挪威晋级四强",
+          "url": "https://www.news.cn/sports/20260712/0880d9510f3a4ad99f84a6fc0d96a843/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4418c1259d7dbd",
+          "source": "新华社",
+          "title": "贵港救灾见闻",
+          "url": "https://www.news.cn/local/20260712/3e15025d4e2542bb85daf5918afe9d6a/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13095,65 +13143,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 21.9,
-          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260712.shtml"
+          "duration": 70.7,
+          "message": "HTTPSConnectionPool(host='tv.cctv.com', port=443): Read timed out. (read timeout=22)"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.5
+          "duration": 2.5
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 14,
-          "duration": 2.6
+          "count": 20,
+          "duration": 2.4
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 1,
-          "duration": 7.0
+          "duration": 13.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.1
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 25,
-          "duration": 1.0
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 11.9
+          "duration": 14.6
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.7
+          "duration": 3.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.2
+          "duration": 9.7
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 48.0
+          "duration": 47.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-12T06:57:22+08:00"
+  "generatedAt": "2026-07-12T08:01:10+08:00"
 }
