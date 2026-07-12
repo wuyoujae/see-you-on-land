@@ -12544,11 +12544,11 @@
           "count": 6
         },
         {
-          "name": "科技",
-          "count": 5
+          "name": "朝鲜",
+          "count": 4
         },
         {
-          "name": "朝鲜",
+          "name": "科技",
           "count": 4
         },
         {
@@ -12618,52 +12618,20 @@
           "keyword": "习近平"
         },
         {
-          "id": "339b84feb86b2f",
-          "source": "人民日报",
-          "title": "向着到2035年建成科技强国的目标坚定迈进",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168135.html",
-          "date": "2026-07-12",
-          "keyword": "科技"
-        },
-        {
-          "id": "8cb3edb3d96e9f",
-          "source": "人民日报",
-          "title": "自主创新 科技工作者大有作为（总书记的关切·落地的回响）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168132.html",
-          "date": "2026-07-12",
-          "keyword": "科技"
-        },
-        {
-          "id": "f6542beb59b4b4",
-          "source": "光明日报",
-          "title": "向着到2035年建成科技强国的目标坚定迈进",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19045.html",
-          "date": "2026-07-12",
-          "keyword": "科技"
-        },
-        {
-          "id": "249641b6c2dda8",
-          "source": "新华社",
-          "title": "深港澳台青年共赴暑期科技文化交流之旅",
-          "url": "https://www.news.cn/20260712/f88599dd24594380bab4e0d8c5ce5650/c.html",
-          "date": "2026-07-12",
-          "keyword": "科技"
-        },
-        {
-          "id": "0478515335893f",
-          "source": "求是",
-          "title": "自主创新 科技工作者大有作为",
-          "url": "https://www.qstheory.cn/20260712/6c325d02058e46dfbdc4efe5ee99725f/c.html",
-          "date": "2026-07-12",
-          "keyword": "科技"
-        },
-        {
           "id": "8ae7999c2f830b",
           "source": "中国政府网",
           "title": "上半年高频数据折射我国经济稳中向优",
           "url": "https://www.gov.cn/lianbo/202607/content_7075145.htm",
           "date": "2026-07-12",
           "keyword": "经济"
+        },
+        {
+          "id": "339b84feb86b2f",
+          "source": "人民日报",
+          "title": "向着到2035年建成科技强国的目标坚定迈进",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168135.html",
+          "date": "2026-07-12",
+          "keyword": "科技"
         },
         {
           "id": "66f476441bbe63",
@@ -12680,6 +12648,22 @@
           "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168147.html",
           "date": "2026-07-12",
           "keyword": "经济"
+        },
+        {
+          "id": "8cb3edb3d96e9f",
+          "source": "人民日报",
+          "title": "自主创新 科技工作者大有作为（总书记的关切·落地的回响）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168132.html",
+          "date": "2026-07-12",
+          "keyword": "科技"
+        },
+        {
+          "id": "f6542beb59b4b4",
+          "source": "光明日报",
+          "title": "向着到2035年建成科技强国的目标坚定迈进",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19045.html",
+          "date": "2026-07-12",
+          "keyword": "科技"
         },
         {
           "id": "1c7f0046c5638f",
@@ -12704,6 +12688,14 @@
           "url": "https://www.news.cn/photo/20260712/e6b4e1a5b279423785aee7e34eeb6b76/c.html",
           "date": "2026-07-12",
           "keyword": "经济"
+        },
+        {
+          "id": "0478515335893f",
+          "source": "求是",
+          "title": "自主创新 科技工作者大有作为",
+          "url": "https://www.qstheory.cn/20260712/6c325d02058e46dfbdc4efe5ee99725f/c.html",
+          "date": "2026-07-12",
+          "keyword": "科技"
         },
         {
           "id": "07c2c01c7c4b52",
@@ -13084,7 +13076,7 @@
         {
           "id": "50443e8c3bdd4c",
           "source": "南方周末",
-          "title": "台风“巴威”登陆的村子 对于这里的居民来说，应对台风已经成为了一种生活经验。 写真 4小时前 2评论",
+          "title": "台风“巴威”登陆的村子 对于这里的居民来说，应对台风已经成为了一种生活经验。 写真 5小时前 2评论",
           "url": "https://www.infzm.com/contents/325957?source=133&source_1=998",
           "date": "2026-07-12",
           "keyword": "综合时政"
@@ -13094,6 +13086,14 @@
           "source": "学习强国",
           "title": "刘国中在北京调研",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=12478851961004914764&item_id=12478851961004914764",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e5c37492461537",
+          "source": "新华社",
+          "title": "2026年台湾大学生广州实习体验活动启动",
+          "url": "https://www.news.cn/tw/20260712/46efd992f600400cb56fc5509d26d72d/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13162,14 +13162,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "2f508108e07bae",
-          "source": "新华社",
-          "title": "乌军袭击俄船只和炼油厂",
-          "url": "https://www.news.cn/20260712/4f9cb971a21b4fb69a2cf5c192b897a0/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "c61e2b1a11e11e",
           "source": "新华社",
           "title": "伊朗：无法通行",
@@ -13226,14 +13218,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "16bab4b42b1989",
-          "source": "新华社",
-          "title": "北京解除全市防汛应急响应",
-          "url": "https://www.news.cn/20260712/92bf7e4a69944e99b6162af8d74d232a/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "069bb5053228b0",
           "source": "新华社",
           "title": "历届四强名单",
@@ -13246,14 +13230,6 @@
           "source": "新华社",
           "title": "台风天出行 这些危险地带请远离",
           "url": "https://www.news.cn/politics/20260712/beefab8528664863831d7bdff78e0959/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "d5c20560235ae0",
-          "source": "新华社",
-          "title": "国宝画重点丨行舟千年看“海上国宝”",
-          "url": "https://www.news.cn/politics/20260712/a0694dbbf6714e7cb1f67ff217edf4e0/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13282,10 +13258,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "5aecd61196826d",
+          "id": "1052758f1c6a4e",
           "source": "新华社",
           "title": "外交部亚洲司负责人就日方涉“南海仲裁案裁决”恶劣言行提出严正交涉",
-          "url": "https://www.news.cn/world/20260712/91d99ee468ca4289b197fbf264fa84d5/c.html",
+          "url": "https://www.news.cn/world/20260712/431815e0a45c43eeb7616875315709a7/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13402,6 +13378,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "93d52a17e84428",
+          "source": "新华社",
+          "title": "智利发生汽车撞人事件致6死7伤",
+          "url": "https://www.news.cn/20260712/a1e022cca309450795a49b26846a74b9/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "e3dbb734ffe190",
           "source": "新华社",
           "title": "水利部升级发布洪水黄色预警",
@@ -13422,6 +13406,22 @@
           "source": "新华社",
           "title": "海河流域多举措应对台风“巴威”",
           "url": "https://www.news.cn/20260712/4b6aaea366184f419849e537699c6bf0/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0d02570692e770",
+          "source": "新华社",
+          "title": "特朗普坚称霍尔木兹海峡“是畅通的”",
+          "url": "https://www.news.cn/20260712/8c7b7de776774ecf86fe188aa2ea3f55/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "59e79ba9252f66",
+          "source": "新华社",
+          "title": "穿越“孤岛”的兄弟",
+          "url": "https://www.news.cn/photo/20260712/d724b6b6cc1b48e5ba82609a3035636c/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13450,18 +13450,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "c0931c89dbe09a",
+          "id": "e89bf1cb85a18b",
           "source": "新华社",
-          "title": "美军称霍尔木兹海峡“通行仍在继续”",
-          "url": "https://www.news.cn/20260712/1aad6b1a221a412daa9f2d7af2e654e2/c.html",
+          "title": "美军打击百余伊军事目标 海峡通行情况说法不一",
+          "url": "https://www.news.cn/world/20260712/9be9cd3ffdc746b48ddeac6bd1b320f2/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
         {
-          "id": "5df2e81e089c37",
+          "id": "c0931c89dbe09a",
           "source": "新华社",
-          "title": "美军称霍尔木兹海峡南部航道仍“开放”",
-          "url": "https://www.news.cn/world/20260712/6c668fb4ae71420ba8a6f0ae63220f91/c.html",
+          "title": "美军称霍尔木兹海峡“通行仍在继续”",
+          "url": "https://www.news.cn/20260712/1aad6b1a221a412daa9f2d7af2e654e2/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13647,64 +13647,64 @@
           "source": "新闻联播",
           "status": "ok",
           "count": 12,
-          "duration": 2.8
+          "duration": 0.6
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 2.5
+          "duration": 1.5
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.0
+          "duration": 2.1
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 1,
-          "duration": 23.7
+          "duration": 31.5
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 4,
-          "duration": 6.0
+          "duration": 6.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 25,
-          "duration": 3.3
+          "duration": 1.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 1,
-          "duration": 13.0
+          "duration": 14.5
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 1,
-          "duration": 2.4
+          "duration": 3.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 9.3
+          "duration": 14.7
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 65.0
+          "duration": 60.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-12T22:52:20+08:00"
+  "generatedAt": "2026-07-12T23:56:03+08:00"
 }
