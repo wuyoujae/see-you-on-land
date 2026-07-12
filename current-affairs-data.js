@@ -12541,7 +12541,7 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "习近平",
-          "count": 5
+          "count": 6
         },
         {
           "name": "科技",
@@ -12553,10 +12553,18 @@ window.CURRENT_AFFAIRS_DATA = {
         },
         {
           "name": "经济",
-          "count": 3
+          "count": 4
+        },
+        {
+          "name": "中国共产党",
+          "count": 2
         },
         {
           "name": "科技强国",
+          "count": 2
+        },
+        {
+          "name": "教育",
           "count": 2
         }
       ],
@@ -12570,36 +12578,12 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
-          "id": "339b84feb86b2f",
-          "source": "人民日报",
-          "title": "向着到2035年建成科技强国的目标坚定迈进",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168135.html",
-          "date": "2026-07-12",
-          "keyword": "科技"
-        },
-        {
-          "id": "8cb3edb3d96e9f",
-          "source": "人民日报",
-          "title": "自主创新 科技工作者大有作为（总书记的关切·落地的回响）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168132.html",
-          "date": "2026-07-12",
-          "keyword": "科技"
-        },
-        {
           "id": "0ed70ec281d71d",
           "source": "光明日报",
           "title": "习近平同朝鲜劳动党总书记、国务委员会委员长金正恩就《中朝友好合作互助条约》签订65周年互致贺电",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19044.html",
           "date": "2026-07-12",
           "keyword": "习近平"
-        },
-        {
-          "id": "f6542beb59b4b4",
-          "source": "光明日报",
-          "title": "向着到2035年建成科技强国的目标坚定迈进",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19045.html",
-          "date": "2026-07-12",
-          "keyword": "科技"
         },
         {
           "id": "bf09f52a5607d3",
@@ -12626,6 +12610,38 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
+          "id": "16d1525bb4bfe8",
+          "source": "新华社",
+          "title": "深入学习贯彻习近平总书记在庆祝中国共产党成立105周年大会上重要讲话系列述评之八",
+          "url": "https://www.news.cn/politics/leaders/20260712/e3ad8cf4998a45818df9da134fc7bcfb/c.html",
+          "date": "2026-07-12",
+          "keyword": "习近平"
+        },
+        {
+          "id": "339b84feb86b2f",
+          "source": "人民日报",
+          "title": "向着到2035年建成科技强国的目标坚定迈进",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168135.html",
+          "date": "2026-07-12",
+          "keyword": "科技"
+        },
+        {
+          "id": "8cb3edb3d96e9f",
+          "source": "人民日报",
+          "title": "自主创新 科技工作者大有作为（总书记的关切·落地的回响）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168132.html",
+          "date": "2026-07-12",
+          "keyword": "科技"
+        },
+        {
+          "id": "f6542beb59b4b4",
+          "source": "光明日报",
+          "title": "向着到2035年建成科技强国的目标坚定迈进",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19045.html",
+          "date": "2026-07-12",
+          "keyword": "科技"
+        },
+        {
           "id": "249641b6c2dda8",
           "source": "新华社",
           "title": "深港澳台青年共赴暑期科技文化交流之旅",
@@ -12642,18 +12658,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "科技"
         },
         {
+          "id": "8ae7999c2f830b",
+          "source": "中国政府网",
+          "title": "上半年高频数据折射我国经济稳中向优",
+          "url": "https://www.gov.cn/lianbo/202607/content_7075145.htm",
+          "date": "2026-07-12",
+          "keyword": "经济"
+        },
+        {
           "id": "66f476441bbe63",
           "source": "人民日报",
           "title": "李强同朝鲜内阁总理朴泰成会谈",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168136.html",
-          "date": "2026-07-12",
-          "keyword": "朝鲜"
-        },
-        {
-          "id": "1c7f0046c5638f",
-          "source": "光明日报",
-          "title": "李强同朝鲜内阁总理朴泰成会谈",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19058.html",
           "date": "2026-07-12",
           "keyword": "朝鲜"
         },
@@ -12664,6 +12680,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://paper.people.com.cn/rmrb/pc/content/202607/12/content_30168147.html",
           "date": "2026-07-12",
           "keyword": "经济"
+        },
+        {
+          "id": "1c7f0046c5638f",
+          "source": "光明日报",
+          "title": "李强同朝鲜内阁总理朴泰成会谈",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19058.html",
+          "date": "2026-07-12",
+          "keyword": "朝鲜"
         },
         {
           "id": "ba8f7cae49f38c",
@@ -12680,6 +12704,38 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/photo/20260712/e6b4e1a5b279423785aee7e34eeb6b76/c.html",
           "date": "2026-07-12",
           "keyword": "经济"
+        },
+        {
+          "id": "07c2c01c7c4b52",
+          "source": "光明日报",
+          "title": "“锻造了强大的中国共产党”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19048.html",
+          "date": "2026-07-12",
+          "keyword": "中国共产党"
+        },
+        {
+          "id": "a07c1807e859c1",
+          "source": "光明日报",
+          "title": "【人民需要这样的教育家㊳】钟掘：做“硬核”科研 育栋梁之材",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19042.html",
+          "date": "2026-07-12",
+          "keyword": "教育"
+        },
+        {
+          "id": "7c312122260657",
+          "source": "新闻联播",
+          "title": "【树立和践行正确政绩观】直面问题抓整改 推动学习教育走深走实",
+          "url": "https://tv.cctv.com/2026/07/12/VIDEAEaEpoGOEDAOqJLJzzj2260712.shtml",
+          "date": "2026-07-12",
+          "keyword": "教育"
+        },
+        {
+          "id": "3ce892a5a87825",
+          "source": "中国政府网",
+          "title": "刘国中：全力以赴抓好水库安全度汛工作 切实保障人民群众生命财产安全",
+          "url": "https://www.gov.cn/yaowen/liebiao/202607/content_7075154.htm",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
         },
         {
           "id": "8be17ff496515c",
@@ -12866,26 +12922,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "07c2c01c7c4b52",
-          "source": "光明日报",
-          "title": "“锻造了强大的中国共产党”",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19048.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "ff46a5538bef86",
           "source": "光明日报",
           "title": "《能源领域节能降碳行动计划（2026—2028年）》发布",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19059.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "a07c1807e859c1",
-          "source": "光明日报",
-          "title": "【人民需要这样的教育家㊳】钟掘：做“硬核”科研 育栋梁之材",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/12/content_19042.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13044,8 +13084,24 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "50443e8c3bdd4c",
           "source": "南方周末",
-          "title": "台风“巴威”登陆的村子 对于这里的居民来说，应对台风已经成为了一种生活经验。 写真 1小时前 1评论",
+          "title": "台风“巴威”登陆的村子 对于这里的居民来说，应对台风已经成为了一种生活经验。 写真 3小时前 1评论",
           "url": "https://www.infzm.com/contents/325957?source=133&source_1=998",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7fce567a824b64",
+          "source": "学习强国",
+          "title": "刘国中在北京调研",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=12478851961004914764&item_id=12478851961004914764",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1fcb2999f4d845",
+          "source": "新华社",
+          "title": "“红厅论坛·高端对话”汇聚多国专家真知灼见",
+          "url": "https://www.news.cn/world/20260712/e955f92db4b6450fa2fc1a4e60ce1654/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13092,7 +13148,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "096b5ec8c8a303",
           "source": "新华社",
-          "title": "中东部有强降水",
+          "title": "中东部强降水",
           "url": "https://www.news.cn/local/20260712/130ed9017ee044cd928eaeff8006c181/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
@@ -13122,26 +13178,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "9feb92f0a40213",
+          "id": "1779164c751508",
           "source": "新华社",
-          "title": "云南富源通报一起致6人死亡交通事故",
-          "url": "https://www.news.cn/legal/20260712/28c329007ccb4339ba248c1aa56cb8d5/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "8b61ecd2fc7f4c",
-          "source": "新华社",
-          "title": "交通运输部调防御响应等级为二级",
-          "url": "https://www.news.cn/20260712/4ff6c253e72c488fbe340a2f0534626e/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "5e6049dc1427be",
-          "source": "新华社",
-          "title": "伊方宣布关闭霍尔木兹海峡",
-          "url": "https://www.news.cn/world/20260712/a5caddc9c90b45419a7fe6819c9a3087/c.html",
+          "title": "以鲜亮“党建红”守护秀美“滨海蓝”",
+          "url": "https://www.news.cn/politics/20260712/31e653aec63947e7b880a7bd8d35d30c/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13170,18 +13210,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "16bab4b42b1989",
+          "id": "da9d213ee5b56b",
           "source": "新华社",
-          "title": "北京解除全市防汛应急响应",
-          "url": "https://www.news.cn/20260712/92bf7e4a69944e99b6162af8d74d232a/c.html",
+          "title": "刘国中在北京调研",
+          "url": "https://www.news.cn/politics/leaders/20260712/3bf7f49b70cc42159bd70831a5757525/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
         {
-          "id": "025f9b771286b9",
+          "id": "16bab4b42b1989",
           "source": "新华社",
-          "title": "卡塔尔建议本国公民暂停所有海上活动",
-          "url": "https://www.news.cn/world/20260712/8ee431efd8de4a93bdd837a75c41ae9d/c.html",
+          "title": "北京解除全市防汛应急响应",
+          "url": "https://www.news.cn/20260712/92bf7e4a69944e99b6162af8d74d232a/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13202,18 +13242,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d2c64d0ae1063a",
+          "id": "5ac694e33d4865",
           "source": "新华社",
-          "title": "台风“巴威”来袭 高空风险需警惕",
-          "url": "https://www.news.cn/politics/20260712/893a559cbe6444d3b2ce9004a3b5670f/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "c41fe4f74e4868",
-          "source": "新华社",
-          "title": "台风“巴威”登陆前 4000斤葡萄半天售罄……",
-          "url": "https://www.news.cn/local/20260712/67b09b57f9b64b6686f38a4a17428146/c.html",
+          "title": "台风天出行 这些危险地带请远离",
+          "url": "https://www.news.cn/politics/20260712/beefab8528664863831d7bdff78e0959/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13250,26 +13282,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "63fa4dcdc25274",
-          "source": "新华社",
-          "title": "国家发改委追加安排1亿元支持广西灾后应急恢复",
-          "url": "https://www.news.cn/politics/20260712/75e1d783635441bf84727d66ba6e57dc/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "e9bddb333a36f3",
           "source": "新华社",
           "title": "国家防减救灾委对浙江启动国家四级救灾应急响应",
           "url": "https://www.news.cn/politics/20260712/bbf484118fad44cc8b0e775c33f1e1c0/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "7b3e09574c918c",
-          "source": "新华社",
-          "title": "在2400米深地 这群 科学家追问宇宙起源",
-          "url": "https://www.news.cn/politics/20260712/2bc6138d95c04cf2909cfa6faaddda65/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13314,18 +13330,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d81c7e4abb8e5c",
+          "id": "6c9a4cf4e19fff",
           "source": "新华社",
-          "title": "完美公司微纪录片《美力进化论》即将正式上线",
-          "url": "https://www.news.cn/food/20260712/04c980fcb5b84ef596d197bf7bf297fc/c.html",
+          "title": "安徽多地双红色预警",
+          "url": "https://www.news.cn/local/20260712/0bfffbb1ae304e3f9410f3ca3ca7fb25/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
         {
-          "id": "38ccde9524aa59",
+          "id": "cdf3ea52096674",
           "source": "新华社",
-          "title": "对苏皖赣鲁启动Ⅳ级应急响应",
-          "url": "https://www.news.cn/politics/20260712/4fe1b0adbfb94634becb6c8ef4cd816b/c.html",
+          "title": "安徽多地启动双红色预警",
+          "url": "https://www.news.cn/20260712/bf8f0cbb76d841f1aacb9f9145cba049/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d81c7e4abb8e5c",
+          "source": "新华社",
+          "title": "完美公司微纪录片《美力进化论》即将正式上线",
+          "url": "https://www.news.cn/food/20260712/04c980fcb5b84ef596d197bf7bf297fc/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13346,6 +13370,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "224c04f5c6bc23",
+          "source": "新华社",
+          "title": "收到台风预警 居家应该怎么做？",
+          "url": "https://www.news.cn/politics/20260712/ca1bf892385141c0a0250a376f688ed2/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "6b3e36146f948a",
           "source": "新华社",
           "title": "新华社消息丨记者直击台风“巴威”登陆后现场",
@@ -13362,34 +13394,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d96a042081be29",
-          "source": "新华社",
-          "title": "时令节气与健康丨家庭防蚊，做好三件事",
-          "url": "https://www.news.cn/politics/20260712/93429cecad0a4d29a6a38895a5e218b9/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "4827f04a8fed8f",
-          "source": "新华社",
-          "title": "暴雨来袭时 十要十不要",
-          "url": "https://www.news.cn/politics/20260712/fcba9e879f9541d2965f69906db4ebeb/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "ff2eb25ddf90c2",
           "source": "新华社",
           "title": "极限制造：探秘中国制造“绿色尼龙”",
           "url": "https://www.news.cn/fortune/20260712/749d3851f6044c73bdf6725f9baa33f3/c.html",
-          "date": "2026-07-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "3d229b72ee64f3",
-          "source": "新华社",
-          "title": "查水库巡航道下田间 安徽各地迎战“巴威”一线见闻",
-          "url": "https://www.news.cn/local/20260712/6a8933b088f5489392278fadf1474dc3/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13402,18 +13410,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "6ca6260dda4f11",
+          "id": "0ebed5bab68691",
           "source": "新华社",
-          "title": "水利部发布洪水黄警",
-          "url": "https://www.news.cn/politics/20260712/03a409c9141f46b2aa42910464b311c0/c.html",
+          "title": "沈阳实行紧急避险措施",
+          "url": "https://www.news.cn/politics/20260712/c47c54e4c1214da08726a9e797b7f944/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
         {
-          "id": "de7d4b945a5f21",
+          "id": "70f64f31c0daa2",
           "source": "新华社",
-          "title": "管用吗？特朗普担心遭暗杀立“报复遗嘱”",
-          "url": "https://www.news.cn/20260712/ed8a085926b841fa89b3d3c69bce559a/c.html",
+          "title": "海河流域多举措应对台风“巴威”",
+          "url": "https://www.news.cn/20260712/4b6aaea366184f419849e537699c6bf0/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4faccbdea1008d",
+          "source": "新华社",
+          "title": "红色地质灾害预警发布",
+          "url": "https://www.news.cn/politics/20260712/565828e4b7ec40309d86ecbd35f85439/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "739f2251444d2c",
+          "source": "新华社",
+          "title": "红色山洪灾害预警",
+          "url": "https://www.news.cn/politics/20260712/e5a0d4511bbf446486e526503ee91d01/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13426,18 +13450,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8ee9921296ab32",
+          "id": "f54b4ec203ce11",
           "source": "新华社",
-          "title": "美军袭击伊朗东南部通信塔致2人受伤",
-          "url": "https://www.news.cn/20260712/a991b37cbfd747f0b31157bdf7b99be5/c.html",
+          "title": "美军称霍尔木兹海峡“通行仍在继续”",
+          "url": "https://www.news.cn/world/20260712/2903ffdf21b949809cb8e9ca6437d6fe/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
         {
-          "id": "4c820fc0b4bb92",
+          "id": "5df2e81e089c37",
           "source": "新华社",
-          "title": "美发起新一轮对伊打击 伊打击美在中东目标",
-          "url": "https://www.news.cn/world/20260712/a26d59f51d3b4743922900f4e5167dc9/c.html",
+          "title": "美军称霍尔木兹海峡南部航道仍“开放”",
+          "url": "https://www.news.cn/world/20260712/6c668fb4ae71420ba8a6f0ae63220f91/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8ee9921296ab32",
+          "source": "新华社",
+          "title": "美军袭击伊朗东南部通信塔致2人受伤",
+          "url": "https://www.news.cn/20260712/a991b37cbfd747f0b31157bdf7b99be5/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13458,10 +13490,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "e6c1cd8fca8310",
+          "source": "新华社",
+          "title": "走近“领航者”号",
+          "url": "https://www.news.cn/politics/20260712/20eadbb7616f44a88e8002ef5ce8ffee/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "edb9bb803133fe",
           "source": "新华社",
           "title": "重庆动物园大熊猫“良月”幼崽迎来一周岁生日",
           "url": "https://www.news.cn/photo/20260712/b238ecf96b9b4cd48155990d7f6fbf7a/c.html",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "617ec73fbc3a45",
+          "source": "新华社",
+          "title": "陈茂波：今年前5个月香港与海湾阿拉伯国家贸易额同比上升逾35%",
+          "url": "https://www.news.cn/gangao/20260712/e826a02617eb444c830e8ba8defae3b2/c.html",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13482,10 +13530,90 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "9abfec6f83067d",
-          "source": "新华社",
-          "title": "龙卷风与台风之间，一名社区书记的风雨坚守",
-          "url": "https://www.news.cn/politics/20260712/7312ba47cc28478e9fc32eb9f683f12f/c.html",
+          "id": "ff9a67e1b327d9",
+          "source": "新闻联播",
+          "title": "《新闻联播》 20260712 19:00",
+          "url": "https://tv.cctv.com/2026/07/12/VIDE10xymttB14WZJn1JbbsJ260712.shtml",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4c254fe53fdaad",
+          "source": "新闻联播",
+          "title": "【党旗在基层一线高高飘扬】风雨之夜的守护",
+          "url": "https://tv.cctv.com/2026/07/12/VIDES4QCIOQ24qSXm1BHQOPz260712.shtml",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c63c2ffe53422a",
+          "source": "新闻联播",
+          "title": "【新思想引领新征程】严守耕地红线 筑牢国家粮食安全根基",
+          "url": "https://tv.cctv.com/2026/07/12/VIDEagvQIyOQmoHXWBMTyNrj260712.shtml",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8b7fdba092a561",
+          "source": "新闻联播",
+          "title": "上半年多项先行指标企稳回升",
+          "url": "https://tv.cctv.com/2026/07/12/VIDEH8pvCaKk9RPobOry52kO260712.shtml",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "985a171537545a",
+          "source": "新闻联播",
+          "title": "台风“巴威”登陆 各地全力应对",
+          "url": "https://tv.cctv.com/2026/07/12/VIDEKUPi9o1VuZ1kojYXMAFC260712.shtml",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c71ea8710ca2bf",
+          "source": "新闻联播",
+          "title": "国内联播快讯",
+          "url": "https://tv.cctv.com/2026/07/12/VIDExgcdiRTRcSwChXu8uoKf260712.shtml",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "63571bc672c4cd",
+          "source": "新闻联播",
+          "title": "国际联播快讯",
+          "url": "https://tv.cctv.com/2026/07/12/VIDEHo9Sj9ZVMcpoa5Z4xGwO260712.shtml",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "df098e447c86bf",
+          "source": "新闻联播",
+          "title": "我国新材料领域持续取得新突破",
+          "url": "https://tv.cctv.com/2026/07/12/VIDE6eEc180KjLJ24EQB7u1h260712.shtml",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9a64b99223695e",
+          "source": "新闻联播",
+          "title": "我国社会治安形势持续向好 群众安全感稳步提升",
+          "url": "https://tv.cctv.com/2026/07/12/VIDEuMNFultn5cCD2vorOywU260712.shtml",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a8d5c4d22cc1cc",
+          "source": "新闻联播",
+          "title": "美称对伊朗展开本周第三轮打击 伊朗称打击美在中东地区目标",
+          "url": "https://tv.cctv.com/2026/07/12/VIDEHvwqZt8GUxVswA43r4nK260712.shtml",
+          "date": "2026-07-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0d1b4cc090b948",
+          "source": "新闻联播",
+          "title": "贲德：用毕生精力铸就国防“火眼金睛”",
+          "url": "https://tv.cctv.com/2026/07/12/VIDE85Yi0DHKvtbGqMXYAWGG260712.shtml",
           "date": "2026-07-12",
           "keyword": "综合时政"
         },
@@ -13517,67 +13645,66 @@ window.CURRENT_AFFAIRS_DATA = {
       "sourceStatus": [
         {
           "source": "新闻联播",
-          "status": "error",
-          "count": 0,
-          "duration": 60.1,
-          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260712.shtml"
+          "status": "ok",
+          "count": 12,
+          "duration": 0.5
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.5
+          "duration": 2.0
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.2
+          "duration": 2.0
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 1,
-          "duration": 24.9
+          "duration": 18.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 4,
-          "duration": 5.8
+          "duration": 7.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 25,
-          "duration": 2.5
+          "duration": 6.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 1,
-          "duration": 14.6
+          "duration": 13.8
         },
         {
           "source": "学习强国",
           "status": "ok",
-          "count": 0,
-          "duration": 5.2
+          "count": 1,
+          "duration": 2.9
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 1,
-          "duration": 9.4
+          "count": 3,
+          "duration": 9.9
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 57.2
+          "duration": 84.2
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-12T19:56:45+08:00"
+  "generatedAt": "2026-07-12T21:07:03+08:00"
 };
