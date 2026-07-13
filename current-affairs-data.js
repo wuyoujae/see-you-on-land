@@ -14040,6 +14040,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "4c06691eefd420",
+          "source": "新华社",
+          "title": "亚洲U23田径锦标赛：中国队获52枚奖牌",
+          "url": "https://www.news.cn/20260713/22c7ae17a281437692c9d458b695b6af/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
           "id": "224c53636eb0a1",
           "source": "新华社",
           "title": "以色列将于10月27日举行议会选举",
@@ -14076,6 +14084,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "委内瑞拉地震死亡人数升至4490人",
           "url": "https://www.news.cn/20260713/7ae5f442f9854fcd91f9a3525808c999/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "69c7bedd614ed5",
+          "source": "新华社",
+          "title": "曼谷市长：酒吧火灾确认27人遇难22人伤势危重",
+          "url": "https://www.news.cn/world/20260713/2c43b554634b42a68e4e3e8bb38b3d49/c.html",
           "date": "2026-07-13",
           "keyword": "综合时政"
         },
@@ -14117,65 +14133,66 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 55.3,
+          "duration": 47.7,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260713.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 21,
-          "duration": 1.4
+          "duration": 3.2
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 9,
-          "duration": 2.3
+          "count": 11,
+          "duration": 2.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 16.1
+          "duration": 14.0
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.0
+          "duration": 6.5
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 19,
-          "duration": 1.7
+          "duration": 1.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.9
+          "duration": 12.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.6
+          "duration": 2.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.0
+          "duration": 9.6
         },
         {
           "source": "广东发布",
-          "status": "ok",
+          "status": "error",
           "count": 0,
-          "duration": 47.6
+          "duration": 17.9,
+          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-13T06:59:00+08:00"
+  "generatedAt": "2026-07-13T08:00:19+08:00"
 };
