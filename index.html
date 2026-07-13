@@ -206,6 +206,50 @@
 
     .countdown-note a { color: var(--blue); text-decoration: none; }
 
+    .backup-actions {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .backup-button {
+      min-width: 0;
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      padding: 10px 12px;
+      border: 1px solid var(--ink);
+      border-radius: 4px;
+      background: var(--ink);
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 400;
+      cursor: pointer;
+    }
+
+    .backup-button.secondary {
+      border-color: var(--line);
+      background: var(--bg);
+      color: var(--ink);
+    }
+
+    .backup-button .lucide { width: 18px; height: 18px; }
+
+    .backup-status {
+      min-height: 22px;
+      margin-top: 9px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .backup-status.error { color: var(--red); }
+
+    .backup-file-input { display: none; }
+
     .stat-line {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -990,6 +1034,15 @@
           <p class="countdown-name">2027广东省考预计笔试</p>
           <p class="countdown-note">暂按 2026.12.06 计算，等待官方公告 · <a href="https://ggfw.hrss.gd.gov.cn/gwyks/anouns.do" target="_blank" rel="noopener noreferrer">官方入口</a></p>
         </article>
+        <article class="dashboard-tool">
+          <div class="tool-heading"><i data-lucide="database-backup" aria-hidden="true"></i><span>数据备份</span></div>
+          <div class="backup-actions">
+            <button type="button" class="backup-button" id="export-backup"><i data-lucide="download" aria-hidden="true"></i><span>导出备份</span></button>
+            <button type="button" class="backup-button secondary" id="import-backup"><i data-lucide="upload" aria-hidden="true"></i><span>导入恢复</span></button>
+          </div>
+          <input class="backup-file-input" id="backup-file" type="file" accept="application/json,.json" aria-label="选择学习数据备份文件">
+          <p class="backup-status" id="backup-status" role="status" aria-live="polite">正在检查备份状态…</p>
+        </article>
       </section>
 
       <section class="toolbar" aria-label="任务筛选">
@@ -1593,5 +1646,6 @@
     })();
   </script>
   <script src="clock.js?v=20260712-1"></script>
+  <script src="backup.js?v=20260713-1"></script>
 </body>
 </html>

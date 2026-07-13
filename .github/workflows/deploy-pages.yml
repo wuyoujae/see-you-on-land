@@ -58,7 +58,7 @@ jobs:
       - name: Assemble static site
         run: |
           mkdir -p _site
-          cp index.html clock.css clock.js learning-data.js current-affairs-data.js _site/
+          cp index.html clock.css clock.js backup.js learning-data.js current-affairs-data.js _site/
           touch _site/.nojekyll
 
       - name: Configure Pages
