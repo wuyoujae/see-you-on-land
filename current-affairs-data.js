@@ -15582,7 +15582,108 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 28.3
         }
       ]
+    },
+    {
+      "date": "2026-07-14",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 3
+        }
+      ],
+      "articles": [
+        {
+          "id": "3898a319c2d866",
+          "source": "新华社",
+          "title": "“十五五”开局之年推进算力网建设观察",
+          "url": "https://www.news.cn/politics/20260714/54ebe0b0ec2142f0828f7123169e2f20/c.html",
+          "date": "2026-07-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4c9f60207dc3ec",
+          "source": "新华社",
+          "title": "伊朗称霍尔木兹海峡南部航道“不安全”",
+          "url": "https://www.news.cn/20260714/f516339549d1487fa064b4327c2d3968/c.html",
+          "date": "2026-07-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0cf554bdba1f9f",
+          "source": "新华社",
+          "title": "引发热烈反响",
+          "url": "https://www.news.cn/politics/leaders/20260714/e319dbad1c6d4db68765129944f039ae/c.html",
+          "date": "2026-07-14",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 18.7,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260714.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.7,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202607/14/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 3,
+          "duration": 2.7
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 34.0
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.0
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 9.7,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202607/14/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.9
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.5
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 7.7
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 52.6
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-07-13T21:02:41+08:00"
+  "generatedAt": "2026-07-14T00:30:21+08:00"
 };
