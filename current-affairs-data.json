@@ -13714,6 +13714,14 @@
           "count": 3
         },
         {
+          "name": "中国共产党",
+          "count": 2
+        },
+        {
+          "name": "习近平",
+          "count": 2
+        },
+        {
           "name": "十五五",
           "count": 2
         }
@@ -13758,6 +13766,46 @@
           "url": "https://paper.people.com.cn/rmrb/pc/content/202607/13/content_30168296.html",
           "date": "2026-07-13",
           "keyword": "十五五"
+        },
+        {
+          "id": "0a3bc1bc321fc9",
+          "source": "新华社",
+          "title": "习近平党建思想系列解读十四丨这项政治责任绝不是“虚功”",
+          "url": "http://www.news.cn/sikepro/20260713/8de2e2b5ae504cf28929c34f088285a2/c.html",
+          "date": "2026-07-13",
+          "keyword": "习近平"
+        },
+        {
+          "id": "b53afc08f814c4",
+          "source": "求是",
+          "title": "中国共产党为什么能的关键密码",
+          "url": "https://www.qstheory.cn/20260713/fe705a0ad0e04739b90197dce0f7cc58/c.html",
+          "date": "2026-07-13",
+          "keyword": "中国共产党"
+        },
+        {
+          "id": "fd152370c64aaf",
+          "source": "求是",
+          "title": "习近平总书记这样指导防灾减灾救灾工作",
+          "url": "https://www.qstheory.cn/20260713/0069552fe7934e859171c217c9fd4ba4/c.html",
+          "date": "2026-07-13",
+          "keyword": "习近平"
+        },
+        {
+          "id": "7110e86accf716",
+          "source": "求是",
+          "title": "深刻把握中国共产党的优秀特质的丰富意蕴",
+          "url": "https://www.qstheory.cn/20260713/97bb31cbd91845f4932ad4f16652b02a/c.html",
+          "date": "2026-07-13",
+          "keyword": "中国共产党"
+        },
+        {
+          "id": "5cb98d573b7371",
+          "source": "中国政府网",
+          "title": "高频数据显示 上半年高技术领域投资热度持续攀升",
+          "url": "https://www.gov.cn/lianbo/202607/content_7075183.htm",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
         },
         {
           "id": "6b9c0661f005f2",
@@ -14040,6 +14088,62 @@
           "keyword": "综合时政"
         },
         {
+          "id": "77ca898ea3a7ce",
+          "source": "半月谈",
+          "title": "发现贺州之美，大湾区主流媒体贺州行活动今日启动",
+          "url": "http://www.banyuetan.org/dfgc/detail/20260713/1000200033136151783904213085121185_1.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c4a8703cac4fe2",
+          "source": "半月谈",
+          "title": "台风“巴威”登陆浙江一线直击",
+          "url": "http://www.banyuetan.org/dyp/detail/20260713/1000200033135231783907775502200058_1.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fe877a966662db",
+          "source": "新华社",
+          "title": "2个工作日！ 杭州国产普通化妆品备案 “快速通道”来了",
+          "url": "https://www.news.cn/fashion/20260713/4693da296d3d4786838072e9dfb7f1e5/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "17d01eab25fd52",
+          "source": "新华社",
+          "title": "“巴威”北上持续影响东北等地 辽吉需警惕强降雨致灾",
+          "url": "https://www.news.cn/politics/20260713/3469c9d105d14e3897a72ab603b29263/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7e4ef71978f900",
+          "source": "新华社",
+          "title": "一周四次 美再袭伊朗",
+          "url": "https://www.news.cn/world/20260713/c351e9330ba145a18f25d78e2e694057/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "97d3c1730d357c",
+          "source": "新华社",
+          "title": "一周四次 美再袭伊朗 伊媒称袭击造成1死4伤",
+          "url": "https://www.news.cn/world/20260713/53e37bf4d5f947c784463c48a22c73af/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3909cc356a8ea0",
+          "source": "新华社",
+          "title": "上半年全国铁路发送旅客23.48亿人次 创同期新高",
+          "url": "https://www.news.cn/fortune/20260713/8c2e59a63103421188c22ea37969d0cd/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
           "id": "4c06691eefd420",
           "source": "新华社",
           "title": "亚洲U23田径锦标赛：中国队获52枚奖牌",
@@ -14064,10 +14168,42 @@
           "keyword": "综合时政"
         },
         {
-          "id": "aa5f9363e16c8e",
+          "id": "f02283ed6962b7",
           "source": "新华社",
           "title": "伊朗否认布什尔核电站区域遭袭",
-          "url": "https://www.news.cn/world/20260713/89e9e852bef84525be675b7492264dfd/c.html",
+          "url": "https://www.news.cn/20260713/cf20f6ae03474fcfa6eb308446dcab39/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b3f6de49d3733d",
+          "source": "新华社",
+          "title": "借赛事引流、不断迭代变异 网络赌博乱象如何根治",
+          "url": "https://www.news.cn/fortune/20260713/b757d67b747642ac848f8338e271ada7/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e37c16881b70a8",
+          "source": "新华社",
+          "title": "公安机关严厉打击编造传播涉汛涉灾网络谣言",
+          "url": "https://www.news.cn/legal/20260713/633bc25e1a7e42179b37750c74bca6af/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f9fa7a0cf210fa",
+          "source": "新华社",
+          "title": "刚果（金）埃博拉疫情扩至5省 超1800例确诊",
+          "url": "https://www.news.cn/world/20260713/a43f995c5ea04ca29924cbccc6c08eb0/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "acf199668001d0",
+          "source": "新华社",
+          "title": "可回收火箭打通商业闭环 商业航天企业争先上市",
+          "url": "https://www.news.cn/tech/20260713/533644cdad134f9e82405fd93ade9a89/c.html",
           "date": "2026-07-13",
           "keyword": "综合时政"
         },
@@ -14080,10 +14216,34 @@
           "keyword": "综合时政"
         },
         {
+          "id": "81e95994a92b6f",
+          "source": "新华社",
+          "title": "国际原油期货价格12日显著上涨，涨幅超3%",
+          "url": "https://www.news.cn/world/20260713/79469770513f4d328353c2b67287fc04/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
           "id": "b2f9574f505790",
           "source": "新华社",
           "title": "委内瑞拉地震死亡人数升至4490人",
           "url": "https://www.news.cn/20260713/7ae5f442f9854fcd91f9a3525808c999/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6551cefe670656",
+          "source": "新华社",
+          "title": "快递业提速彰显发展活力",
+          "url": "https://www.news.cn/tech/20260713/9da4bea774014ab9a1a12073832ac757/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0fdbc098674b87",
+          "source": "新华社",
+          "title": "文化中国行|西夏陵申遗成功周年观察",
+          "url": "https://www.news.cn/culture/20260713/fcbc5ce2710947aa885cd88b04a70513/c.html",
           "date": "2026-07-13",
           "keyword": "综合时政"
         },
@@ -14096,10 +14256,26 @@
           "keyword": "综合时政"
         },
         {
+          "id": "650f4a4e84dd31",
+          "source": "新华社",
+          "title": "沈阳启动全市防汛二级应急响应 停课停工",
+          "url": "https://www.news.cn/politics/20260713/b83c54e41c594142b5a2bdc77928bd45/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
           "id": "9ed4560ce06c94",
           "source": "新华社",
           "title": "泰国曼谷一啤酒餐厅发生火灾致27人死亡",
           "url": "https://www.news.cn/20260713/ad760e9e10d84363ab3f999d6e41099e/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f358b062bd7aa7",
+          "source": "新华社",
+          "title": "环青赛丨车手、蜂农与游客共赴一年花期之约",
+          "url": "https://www.news.cn/sports/20260713/b4e7dcda35cd4a8db836489bc8ca1c5a/c.html",
           "date": "2026-07-13",
           "keyword": "综合时政"
         },
@@ -14112,10 +14288,58 @@
           "keyword": "综合时政"
         },
         {
-          "id": "7e4ef71978f900",
+          "id": "675cdb08ee94f1",
+          "source": "新华社",
+          "title": "简易形式展现营养优劣 食品包装正面标签待推广",
+          "url": "https://www.news.cn/fortune/20260713/c9983d6bb2864103bc2882d0a29c68fc/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2de7ad3a965b61",
+          "source": "新华社",
+          "title": "组合驾驶辅助系统安全国家标准发布",
+          "url": "https://www.news.cn/tech/20260713/2743197edc704a85bcb94b5f5c19e49b/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "10f6ec0670e99f",
           "source": "新华社",
           "title": "美军称对伊朗发起新一轮打击",
-          "url": "https://www.news.cn/world/20260713/c351e9330ba145a18f25d78e2e694057/c.html",
+          "url": "https://www.news.cn/20260713/5309225918c243dca259d04e4f37a14c/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cceae033b9bae9",
+          "source": "新华社",
+          "title": "诸强归位 巨星闪耀——世界杯四分之一决赛综述",
+          "url": "https://www.news.cn/sports/20260713/f41a43b48fdb496c9c2549d3e5f0ef72/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ef86a5c53ce60e",
+          "source": "新华社",
+          "title": "赖东丽：巧手剪出民族风",
+          "url": "https://www.news.cn/culture/20260713/1eb12e7cd3de4b7aaed59b8f409e68a1/c.html?page=1",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9b0f91d07c44e5",
+          "source": "新华社",
+          "title": "辛纳卫冕温网 夺第五座大满贯奖杯",
+          "url": "https://www.news.cn/sports/20260713/8e974c4b04a04bd7b595ad1898db5c60/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ee46389d088079",
+          "source": "新华社",
+          "title": "追光丨哨声一响，广东人把早茶店吃成观赛席",
+          "url": "https://www.news.cn/sports/20260713/6d6e24ff85fc4e85878ee80ca70d090f/c.html",
           "date": "2026-07-13",
           "keyword": "综合时政"
         },
@@ -14126,73 +14350,119 @@
           "url": "https://www.news.cn/sports/20260713/40e986849aed48c68b460edcb8b55ce7/c.html",
           "date": "2026-07-13",
           "keyword": "综合时政"
+        },
+        {
+          "id": "e3479aa15dec70",
+          "source": "新华社",
+          "title": "防晒是遮得越严越好吗",
+          "url": "https://www.news.cn/fashion/20260713/117ff21915014aa089638c4341321524/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "102379286523db",
+          "source": "新华社",
+          "title": "防汛防台风，各部门这样部署",
+          "url": "https://www.news.cn/politics/20260713/48fc3f33b15d488a85b830a284cd2329/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1f8991bf65086d",
+          "source": "求是",
+          "title": "为解决人类重大问题贡献中国智慧、中国方案、中国力量",
+          "url": "https://www.qstheory.cn/20260713/7c35a7a6a66d42d2bf8c547e59f62c0a/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "96ace4f7043e4b",
+          "source": "求是",
+          "title": "何谓数字霸权",
+          "url": "https://www.qstheory.cn/20260713/f4481664a8e54fdb8cbcbccb30e3ec73/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "41b46315b0d463",
+          "source": "求是",
+          "title": "天人合一、万物并育的生态理念源远流长",
+          "url": "https://www.qstheory.cn/20260713/13e8271b292c43149d771f42a5df8046/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "45bb95f87391db",
+          "source": "求是",
+          "title": "如何理解民族团结进步促进法的内涵要义？",
+          "url": "https://www.qstheory.cn/20260713/349e00ed09e342ba9a1c6948ecb1e28c/c.html",
+          "date": "2026-07-13",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
         {
           "source": "新闻联播",
-          "status": "error",
+          "status": "ok",
           "count": 0,
-          "duration": 47.7,
-          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260713.shtml"
+          "duration": 0.3
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 21,
-          "duration": 3.2
+          "duration": 2.0
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 11,
-          "duration": 2.2
+          "count": 34,
+          "duration": 2.5
         },
         {
           "source": "半月谈",
           "status": "ok",
-          "count": 0,
-          "duration": 14.0
+          "count": 2,
+          "duration": 26.1
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
+          "count": 7,
           "duration": 6.5
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 19,
-          "duration": 1.6
+          "duration": 1.2
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.3
+          "duration": 12.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.4
+          "duration": 2.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 0,
-          "duration": 9.6
+          "count": 1,
+          "duration": 7.8
         },
         {
           "source": "广东发布",
-          "status": "error",
+          "status": "ok",
           "count": 0,
-          "duration": 17.9,
-          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+          "duration": 40.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-13T08:00:19+08:00"
+  "generatedAt": "2026-07-13T10:08:55+08:00"
 }
