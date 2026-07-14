@@ -1115,17 +1115,51 @@
           <div class="study-timeline" id="study-timeline"></div>
         </section>
         <section class="clock-content">
-          <article class="live-clock-card" aria-label="当前时间与学习计时器">
-            <button type="button" class="live-clock" id="live-clock" aria-label="切换时间显示格式">00:00</button>
-            <p class="clock-format-hint">当前时间</p>
-            <div class="active-elapsed" id="active-elapsed" hidden>本次学习 00:00</div>
-            <div class="timer-actions" id="timer-actions">
-              <button type="button" class="study-start-button" id="start-study"><i data-lucide="play" aria-hidden="true"></i><span>开始学习！</span></button>
+          <div class="clock-card-carousel" id="clock-card-carousel">
+            <div class="clock-card-track">
+              <article class="live-clock-card clock-mode-card" data-clock-mode="clock" aria-label="当前时间与学习计时器">
+                <button type="button" class="live-clock" id="live-clock" aria-label="切换时间显示格式">00:00</button>
+                <p class="clock-format-hint">当前时间</p>
+                <div class="active-elapsed" id="active-elapsed" hidden>本次学习 00:00</div>
+                <div class="timer-actions" id="timer-actions">
+                  <button type="button" class="study-start-button" id="start-study"><i data-lucide="play" aria-hidden="true"></i><span>开始学习！</span></button>
+                </div>
+                <button type="button" class="clock-fullscreen-enter" id="enter-fullscreen-clock" title="进入全屏时钟" aria-label="进入全屏时钟">
+                  <i data-lucide="maximize-2" aria-hidden="true"></i>
+                </button>
+              </article>
+
+              <article class="question-timer-card clock-mode-card" data-clock-mode="questions" aria-label="做题循环计时器">
+                <header class="question-card-header">
+                  <div><p class="eyebrow">QUESTION TIMER</p><h2>做题计时</h2></div>
+                  <div class="question-card-tools">
+                    <button type="button" class="icon-button" id="reset-question-timer" title="重新设置" aria-label="重新设置做题计时"><i data-lucide="rotate-ccw" aria-hidden="true"></i></button>
+                    <button type="button" class="icon-button" id="pause-question-timer" title="暂停做题计时" aria-label="暂停做题计时" disabled><i data-lucide="pause" aria-hidden="true"></i></button>
+                  </div>
+                </header>
+                <div class="question-settings">
+                  <label><span>题目数量</span><input type="number" id="question-count" min="1" max="200" step="1" inputmode="numeric" value="40"></label>
+                  <label><span>每题时间（分钟）</span><input type="number" id="question-minutes" min="0.5" max="60" step="0.5" inputmode="decimal" value="3"></label>
+                </div>
+                <div class="question-progress-wrap" id="question-progress-wrap">
+                  <svg class="question-progress" viewBox="0 0 120 120" aria-hidden="true">
+                    <circle class="question-progress-track" cx="60" cy="60" r="52"></circle>
+                    <circle class="question-progress-value" id="question-progress-value" cx="60" cy="60" r="52" pathLength="100"></circle>
+                  </svg>
+                  <div class="question-progress-copy"><span id="question-progress-label">准备开始</span><strong id="question-time-left">03:00</strong></div>
+                </div>
+                <p class="question-round-status" id="question-round-status" aria-live="polite">第 1 题 / 共 40 题 · 含本题剩余 40 题</p>
+                <button type="button" class="question-start-button" id="start-question-timer"><i data-lucide="play" aria-hidden="true"></i><span>开始做题</span></button>
+                <button type="button" class="clock-fullscreen-enter question-fullscreen-enter" id="enter-question-fullscreen" title="进入全屏做题计时" aria-label="进入全屏做题计时">
+                  <i data-lucide="maximize-2" aria-hidden="true"></i>
+                </button>
+              </article>
             </div>
-            <button type="button" class="clock-fullscreen-enter" id="enter-fullscreen-clock" title="进入全屏时钟" aria-label="进入全屏时钟">
-              <i data-lucide="maximize-2" aria-hidden="true"></i>
-            </button>
-          </article>
+          </div>
+          <div class="clock-mode-dots" role="group" aria-label="计时卡片切换">
+            <button type="button" class="active" data-clock-mode-target="clock" aria-label="切换到当前时间" aria-pressed="true"></button>
+            <button type="button" data-clock-mode-target="questions" aria-label="切换到做题计时" aria-pressed="false"></button>
+          </div>
           <div class="record-heading">
             <div>
               <p class="eyebrow" id="record-date-label">今日</p>
@@ -1215,8 +1249,32 @@
       </section>
     </div>
 
-    <section class="fullscreen-clock" id="fullscreen-clock" aria-label="全屏时钟" hidden>
-      <button type="button" class="fullscreen-clock-time" id="fullscreen-clock-time" aria-label="切换时间显示格式">00:00</button>
+    <section class="fullscreen-clock" id="fullscreen-clock" aria-label="全屏计时" hidden>
+      <div class="fullscreen-mode-carousel" id="fullscreen-mode-carousel">
+        <div class="fullscreen-mode-track">
+          <section class="fullscreen-mode-slide fullscreen-time-slide" data-fullscreen-mode="clock">
+            <button type="button" class="fullscreen-clock-time" id="fullscreen-clock-time" aria-label="切换时间显示格式">00:00</button>
+          </section>
+          <section class="fullscreen-mode-slide fullscreen-question-slide" data-fullscreen-mode="questions">
+            <div class="fullscreen-question-remaining"><strong id="fullscreen-question-remaining">40</strong><span>剩余题目<br>含本题</span></div>
+            <div class="fullscreen-question-tools">
+              <button type="button" id="fullscreen-reset-question" title="重新设置" aria-label="重新设置做题计时"><i data-lucide="rotate-ccw" aria-hidden="true"></i></button>
+              <button type="button" id="fullscreen-pause-question" title="暂停做题计时" aria-label="暂停做题计时" disabled><i data-lucide="pause" aria-hidden="true"></i></button>
+            </div>
+            <div class="fullscreen-question-progress" id="fullscreen-question-progress">
+              <svg viewBox="0 0 120 120" aria-hidden="true">
+                <circle class="question-progress-track" cx="60" cy="60" r="52"></circle>
+                <circle class="question-progress-value" id="fullscreen-question-progress-value" cx="60" cy="60" r="52" pathLength="100"></circle>
+              </svg>
+              <div><span id="fullscreen-question-label">第 1 题</span><strong id="fullscreen-question-time">03:00</strong><small id="fullscreen-question-status">准备开始</small></div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="fullscreen-mode-dots" role="group" aria-label="全屏模式切换">
+        <button type="button" class="active" data-fullscreen-mode-target="clock" aria-label="切换到全屏时钟" aria-pressed="true"></button>
+        <button type="button" data-fullscreen-mode-target="questions" aria-label="切换到全屏做题计时" aria-pressed="false"></button>
+      </div>
       <button type="button" class="fullscreen-clock-exit" id="exit-fullscreen-clock" title="退出全屏时钟" aria-label="退出全屏时钟">
         <i data-lucide="minimize-2" aria-hidden="true"></i>
       </button>
@@ -1645,7 +1703,7 @@
       refreshIcons();
     })();
   </script>
-  <script src="clock.js?v=20260712-1"></script>
-  <script src="backup.js?v=20260713-1"></script>
+  <script src="clock.js?v=20260714-1"></script>
+  <script src="backup.js?v=20260714-1"></script>
 </body>
 </html>

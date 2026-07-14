@@ -4,11 +4,13 @@
   const SCHEMA = "see-you-on-land-backup";
   const VERSION = 1;
   const LAST_EXPORT_KEY = "summer-politics-last-export-v1";
+  const REQUIRED_DATA_NAMES = ["progress", "sessions", "activeSession", "clockShowsSeconds"];
   const DATA_KEYS = {
     progress: "summer-politics-learning-progress-v1",
     sessions: "summer-politics-study-sessions-v1",
     activeSession: "summer-politics-active-study-v1",
-    clockShowsSeconds: "summer-politics-clock-seconds-v1"
+    clockShowsSeconds: "summer-politics-clock-seconds-v1",
+    questionTimer: "summer-politics-question-timer-v1"
   };
 
   const dom = {
@@ -84,6 +86,20 @@
     }
   }
 
+  function validateQuestionTimer(raw) {
+    if (raw === null) return;
+    const value = parseStoredJSON(raw, null);
+    const statuses = ["idle", "running", "paused", "completed"];
+    const valid = isPlainObject(value) &&
+      Number.isInteger(value.totalQuestions) && value.totalQuestions >= 1 && value.totalQuestions <= 200 &&
+      Number.isInteger(value.secondsPerQuestion) && value.secondsPerQuestion >= 30 && value.secondsPerQuestion <= 3600 &&
+      Number.isInteger(value.currentQuestion) && value.currentQuestion >= 1 && value.currentQuestion <= value.totalQuestions &&
+      statuses.includes(value.status) && ["question", "ring"].includes(value.phase) &&
+      validNumber(value.remainingMs) &&
+      (value.status !== "running" || validNumber(value.phaseEndsAt, 1));
+    if (!valid) throw new Error("做题计时数据格式不正确");
+  }
+
   function snapshot() {
     const data = Object.fromEntries(
       Object.entries(DATA_KEYS).map(([name, key]) => [name, localStorage.getItem(key)])
@@ -106,16 +122,20 @@
     if (!isPlainObject(backup) || backup.schema !== SCHEMA || backup.version !== VERSION || !isPlainObject(backup.data)) {
       throw new Error("这不是本网站生成的有效备份文件");
     }
-    for (const name of Object.keys(DATA_KEYS)) {
+    const data = { ...backup.data };
+    for (const name of REQUIRED_DATA_NAMES) {
       if (!(name in backup.data) || (backup.data[name] !== null && typeof backup.data[name] !== "string")) {
         throw new Error("备份文件缺少必要数据");
       }
     }
-    validateProgress(backup.data.progress);
-    validateSessions(backup.data.sessions);
-    validateActiveSession(backup.data.activeSession);
-    validateClockFormat(backup.data.clockShowsSeconds);
-    return backup.data;
+    if (!("questionTimer" in data)) data.questionTimer = null;
+    if (data.questionTimer !== null && typeof data.questionTimer !== "string") throw new Error("做题计时数据格式不正确");
+    validateProgress(data.progress);
+    validateSessions(data.sessions);
+    validateActiveSession(data.activeSession);
+    validateClockFormat(data.clockShowsSeconds);
+    validateQuestionTimer(data.questionTimer);
+    return data;
   }
 
   function setStatus(message, isError = false) {

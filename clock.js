@@ -4,25 +4,37 @@
   const SESSION_KEY = "summer-politics-study-sessions-v1";
   const ACTIVE_KEY = "summer-politics-active-study-v1";
   const CLOCK_FORMAT_KEY = "summer-politics-clock-seconds-v1";
+  const QUESTION_TIMER_KEY = "summer-politics-question-timer-v1";
+  const QUESTION_RING_MS = 7000;
   const DAY_MS = 86400000;
 
   let sessions = loadJSON(SESSION_KEY, []);
   let activeSession = loadJSON(ACTIVE_KEY, null);
   let showSeconds = localStorage.getItem(CLOCK_FORMAT_KEY) === "true";
+  let questionTimer = sanitizeQuestionTimer(loadJSON(QUESTION_TIMER_KEY, null));
   let selectedDate = dayKey(Date.now());
   let statsRange = "day";
+  let clockMode = "clock";
   let wakeLock = null;
   let wakeLockRequestInFlight = false;
   let wakeLockEpoch = 0;
+  let audioContext = null;
+  let bellNodes = [];
+  let bellPhaseEndAt = null;
+  let normalCarouselTimer = null;
+  let fullscreenCarouselTimer = null;
 
   const dom = {
     clockMain: document.getElementById("clock-main-panel"),
     statsPanel: document.getElementById("clock-stats-panel"),
     timeline: document.getElementById("study-timeline"),
+    cardCarousel: document.getElementById("clock-card-carousel"),
+    fullscreenCarousel: document.getElementById("fullscreen-mode-carousel"),
     liveClock: document.getElementById("live-clock"),
     fullscreenClock: document.getElementById("fullscreen-clock"),
     fullscreenTime: document.getElementById("fullscreen-clock-time"),
     enterFullscreen: document.getElementById("enter-fullscreen-clock"),
+    enterQuestionFullscreen: document.getElementById("enter-question-fullscreen"),
     exitFullscreen: document.getElementById("exit-fullscreen-clock"),
     siteFullscreen: document.getElementById("site-fullscreen-toggle"),
     siteFullscreenLabel: document.getElementById("site-fullscreen-label"),
@@ -43,7 +55,25 @@
     editStart: document.getElementById("edit-record-start"),
     editEnd: document.getElementById("edit-record-end"),
     editMinutes: document.getElementById("edit-record-minutes"),
-    formError: document.getElementById("timer-form-error")
+    formError: document.getElementById("timer-form-error"),
+    questionCount: document.getElementById("question-count"),
+    questionMinutes: document.getElementById("question-minutes"),
+    questionProgressWrap: document.getElementById("question-progress-wrap"),
+    questionProgress: document.getElementById("question-progress-value"),
+    questionProgressLabel: document.getElementById("question-progress-label"),
+    questionTimeLeft: document.getElementById("question-time-left"),
+    questionRoundStatus: document.getElementById("question-round-status"),
+    questionStart: document.getElementById("start-question-timer"),
+    questionReset: document.getElementById("reset-question-timer"),
+    questionPause: document.getElementById("pause-question-timer"),
+    fullscreenQuestionProgressWrap: document.getElementById("fullscreen-question-progress"),
+    fullscreenQuestionProgress: document.getElementById("fullscreen-question-progress-value"),
+    fullscreenQuestionLabel: document.getElementById("fullscreen-question-label"),
+    fullscreenQuestionTime: document.getElementById("fullscreen-question-time"),
+    fullscreenQuestionStatus: document.getElementById("fullscreen-question-status"),
+    fullscreenQuestionRemaining: document.getElementById("fullscreen-question-remaining"),
+    fullscreenQuestionReset: document.getElementById("fullscreen-reset-question"),
+    fullscreenQuestionPause: document.getElementById("fullscreen-pause-question")
   };
 
   function loadJSON(key, fallback) {
@@ -55,6 +85,30 @@
     }
   }
 
+  function clamp(value, minimum, maximum) {
+    return Math.min(maximum, Math.max(minimum, value));
+  }
+
+  function sanitizeQuestionTimer(value) {
+    const source = value && typeof value === "object" && !Array.isArray(value) ? value : {};
+    const totalQuestions = clamp(Math.round(Number(source.totalQuestions) || 40), 1, 200);
+    const secondsPerQuestion = clamp(Math.round(Number(source.secondsPerQuestion) || 180), 30, 3600);
+    const currentQuestion = clamp(Math.round(Number(source.currentQuestion) || 1), 1, totalQuestions);
+    const phase = source.phase === "ring" ? "ring" : "question";
+    const allowedStatuses = ["idle", "running", "paused", "completed"];
+    let status = allowedStatuses.includes(source.status) ? source.status : "idle";
+    let phaseEndsAt = Number.isFinite(source.phaseEndsAt) ? source.phaseEndsAt : null;
+    const phaseDuration = phase === "ring" ? QUESTION_RING_MS : secondsPerQuestion * 1000;
+    let remainingMs = Number.isFinite(source.remainingMs) ? clamp(source.remainingMs, 0, phaseDuration) : phaseDuration;
+
+    if (status === "running" && !phaseEndsAt) status = "paused";
+    if (status !== "running") phaseEndsAt = null;
+    if (status === "idle") remainingMs = secondsPerQuestion * 1000;
+    if (status === "completed") remainingMs = 0;
+
+    return { totalQuestions, secondsPerQuestion, currentQuestion, status, phase, remainingMs, phaseEndsAt };
+  }
+
   function saveSessions() {
     localStorage.setItem(SESSION_KEY, JSON.stringify(sessions));
   }
@@ -62,6 +116,10 @@
   function saveActive() {
     if (activeSession) localStorage.setItem(ACTIVE_KEY, JSON.stringify(activeSession));
     else localStorage.removeItem(ACTIVE_KEY);
+  }
+
+  function saveQuestionTimer() {
+    localStorage.setItem(QUESTION_TIMER_KEY, JSON.stringify(questionTimer));
   }
 
   function refreshIcons() {
@@ -127,6 +185,282 @@
     const minutes = Math.floor(totalSeconds % 3600 / 60);
     const seconds = totalSeconds % 60;
     return hours ? `${pad(hours)}:${pad(minutes)}:${pad(seconds)}` : `${pad(minutes)}:${pad(seconds)}`;
+  }
+
+  function questionCountdown(milliseconds) {
+    const totalSeconds = Math.max(0, Math.ceil(milliseconds / 1000));
+    const minutes = Math.floor(totalSeconds / 60);
+    const seconds = totalSeconds % 60;
+    return `${pad(minutes)}:${pad(seconds)}`;
+  }
+
+  function questionRemaining(now = Date.now()) {
+    if (questionTimer.status === "running") return Math.max(0, questionTimer.phaseEndsAt - now);
+    return Math.max(0, questionTimer.remainingMs);
+  }
+
+  async function primeQuestionAudio() {
+    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+    if (!AudioContextClass) return null;
+    if (!audioContext) audioContext = new AudioContextClass();
+    if (audioContext.state === "suspended") await audioContext.resume();
+    return audioContext;
+  }
+
+  function stopQuestionBell() {
+    bellNodes.forEach(node => {
+      try { node.stop(); } catch {}
+    });
+    bellNodes = [];
+    bellPhaseEndAt = null;
+    try { navigator.vibrate?.(0); } catch {}
+  }
+
+  async function playQuestionBell(durationMs, targetEndAt) {
+    if (durationMs <= 0 || bellPhaseEndAt === targetEndAt) return;
+    stopQuestionBell();
+    bellPhaseEndAt = targetEndAt;
+    try {
+      const context = await primeQuestionAudio();
+      if (!context || bellPhaseEndAt !== targetEndAt || questionTimer.status !== "running" || questionTimer.phase !== "ring") return;
+      const startAt = context.currentTime + 0.02;
+      const seconds = Math.max(0.1, durationMs / 1000);
+      for (let offset = 0; offset < seconds; offset += 0.82) {
+        const toneLength = Math.min(0.68, seconds - offset);
+        [880, 1320].forEach((frequency, index) => {
+          const oscillator = context.createOscillator();
+          const gain = context.createGain();
+          const toneStart = startAt + offset;
+          oscillator.type = "sine";
+          oscillator.frequency.setValueAtTime(frequency, toneStart);
+          gain.gain.setValueAtTime(0.0001, toneStart);
+          gain.gain.exponentialRampToValueAtTime(index ? 0.035 : 0.07, toneStart + 0.025);
+          gain.gain.exponentialRampToValueAtTime(0.0001, toneStart + toneLength);
+          oscillator.connect(gain).connect(context.destination);
+          oscillator.start(toneStart);
+          oscillator.stop(toneStart + toneLength + 0.02);
+          bellNodes.push(oscillator);
+        });
+      }
+      const vibrationPattern = [];
+      for (let elapsed = 0; elapsed < durationMs; elapsed += 820) vibrationPattern.push(260, Math.min(560, Math.max(0, durationMs - elapsed - 260)));
+      try { navigator.vibrate?.(vibrationPattern); } catch {}
+    } catch {
+      if (bellPhaseEndAt === targetEndAt) bellPhaseEndAt = null;
+    }
+  }
+
+  function questionTimerIdle(totalQuestions = questionTimer.totalQuestions, secondsPerQuestion = questionTimer.secondsPerQuestion) {
+    return {
+      totalQuestions,
+      secondsPerQuestion,
+      currentQuestion: 1,
+      status: "idle",
+      phase: "question",
+      remainingMs: secondsPerQuestion * 1000,
+      phaseEndsAt: null
+    };
+  }
+
+  function advanceQuestionTimer(now = Date.now()) {
+    if (questionTimer.status !== "running") return false;
+    let changed = false;
+    let transitions = 0;
+    while (questionTimer.status === "running" && now >= questionTimer.phaseEndsAt && transitions < 500) {
+      transitions += 1;
+      changed = true;
+      const previousEnd = questionTimer.phaseEndsAt;
+      if (questionTimer.phase === "question") {
+        questionTimer.phase = "ring";
+        questionTimer.remainingMs = QUESTION_RING_MS;
+        questionTimer.phaseEndsAt = previousEnd + QUESTION_RING_MS;
+      } else if (questionTimer.currentQuestion >= questionTimer.totalQuestions) {
+        questionTimer.status = "completed";
+        questionTimer.remainingMs = 0;
+        questionTimer.phaseEndsAt = null;
+        stopQuestionBell();
+      } else {
+        questionTimer.currentQuestion += 1;
+        questionTimer.phase = "question";
+        questionTimer.remainingMs = questionTimer.secondsPerQuestion * 1000;
+        questionTimer.phaseEndsAt = previousEnd + questionTimer.remainingMs;
+        stopQuestionBell();
+      }
+    }
+    if (changed) saveQuestionTimer();
+    if (questionTimer.status === "running" && questionTimer.phase === "ring") {
+      playQuestionBell(questionRemaining(now), questionTimer.phaseEndsAt);
+    } else if (bellPhaseEndAt !== null || bellNodes.length) {
+      stopQuestionBell();
+    }
+    if (changed) syncWakeLock();
+    return changed;
+  }
+
+  function updatePauseButton(button, paused, disabled) {
+    const iconName = paused ? "play" : "pause";
+    const label = paused ? "继续做题计时" : "暂停做题计时";
+    button.disabled = disabled;
+    button.title = label;
+    button.setAttribute("aria-label", label);
+    if (button.dataset.iconName !== iconName) {
+      button.dataset.iconName = iconName;
+      button.innerHTML = `<i data-lucide="${iconName}" aria-hidden="true"></i>`;
+      refreshIcons();
+    }
+  }
+
+  function renderQuestionTimer(now = Date.now()) {
+    const remainingMs = questionRemaining(now);
+    const phaseDuration = questionTimer.phase === "ring" ? QUESTION_RING_MS : questionTimer.secondsPerQuestion * 1000;
+    const progress = questionTimer.status === "completed" ? 0 : clamp(remainingMs / phaseDuration, 0, 1);
+    const strokeOffset = (100 - progress * 100).toFixed(2);
+    const remainingQuestions = questionTimer.status === "completed" ? 0 : questionTimer.totalQuestions - questionTimer.currentQuestion + 1;
+    const locked = questionTimer.status === "running" || questionTimer.status === "paused";
+    const paused = questionTimer.status === "paused";
+    const ringing = questionTimer.phase === "ring" && questionTimer.status !== "completed";
+    let progressLabel = `第 ${questionTimer.currentQuestion} 题`;
+    let statusLabel = `第 ${questionTimer.currentQuestion} 题 / 共 ${questionTimer.totalQuestions} 题 · 含本题剩余 ${remainingQuestions} 题`;
+    let fullscreenStatus = paused ? "已暂停" : "本题剩余";
+
+    if (questionTimer.status === "idle") {
+      progressLabel = "准备开始";
+      fullscreenStatus = "准备开始";
+    } else if (questionTimer.status === "completed") {
+      progressLabel = "全部完成";
+      statusLabel = `已完成全部 ${questionTimer.totalQuestions} 题`;
+      fullscreenStatus = "全部完成";
+    } else if (ringing) {
+      progressLabel = paused ? "换题铃声暂停" : "换题铃声";
+      statusLabel = `第 ${questionTimer.currentQuestion} 题计时结束 · 7 秒换题铃声`;
+      fullscreenStatus = paused ? "铃声已暂停" : (questionTimer.currentQuestion === questionTimer.totalQuestions ? "完成提示" : "即将进入下一题");
+    }
+
+    if (document.activeElement !== dom.questionCount) dom.questionCount.value = String(questionTimer.totalQuestions);
+    if (document.activeElement !== dom.questionMinutes) dom.questionMinutes.value = String(questionTimer.secondsPerQuestion / 60).replace(/\.0$/, "");
+    dom.questionCount.disabled = locked;
+    dom.questionMinutes.disabled = locked;
+    dom.questionProgress.style.strokeDashoffset = strokeOffset;
+    dom.fullscreenQuestionProgress.style.strokeDashoffset = strokeOffset;
+    dom.questionProgressWrap.classList.toggle("ringing", ringing);
+    dom.fullscreenQuestionProgressWrap.classList.toggle("ringing", ringing);
+    dom.questionProgressWrap.classList.toggle("completed", questionTimer.status === "completed");
+    dom.fullscreenQuestionProgressWrap.classList.toggle("completed", questionTimer.status === "completed");
+    dom.questionProgressLabel.textContent = progressLabel;
+    dom.questionTimeLeft.textContent = questionCountdown(remainingMs);
+    dom.questionRoundStatus.textContent = statusLabel;
+    dom.fullscreenQuestionRemaining.textContent = String(remainingQuestions);
+    dom.fullscreenQuestionLabel.textContent = ringing ? `第 ${questionTimer.currentQuestion} 题完成` : progressLabel;
+    dom.fullscreenQuestionTime.textContent = questionCountdown(remainingMs);
+    dom.fullscreenQuestionStatus.textContent = fullscreenStatus;
+    dom.questionStart.hidden = locked;
+    dom.questionStart.querySelector("span").textContent = questionTimer.status === "completed" ? "再来一轮" : "开始做题";
+    updatePauseButton(dom.questionPause, paused, !locked);
+    updatePauseButton(dom.fullscreenQuestionPause, paused, !locked);
+  }
+
+  function applyQuestionSettings() {
+    if (questionTimer.status === "running" || questionTimer.status === "paused") return;
+    const totalQuestions = clamp(Math.round(Number(dom.questionCount.value) || 40), 1, 200);
+    const secondsPerQuestion = clamp(Math.round((Number(dom.questionMinutes.value) || 3) * 60), 30, 3600);
+    questionTimer = questionTimerIdle(totalQuestions, secondsPerQuestion);
+    saveQuestionTimer();
+    renderQuestionTimer();
+  }
+
+  function startQuestionTimer() {
+    if (questionTimer.status === "running" || questionTimer.status === "paused") return;
+    applyQuestionSettings();
+    primeQuestionAudio().catch(() => null);
+    questionTimer.status = "running";
+    questionTimer.phase = "question";
+    questionTimer.currentQuestion = 1;
+    questionTimer.remainingMs = questionTimer.secondsPerQuestion * 1000;
+    questionTimer.phaseEndsAt = Date.now() + questionTimer.remainingMs;
+    saveQuestionTimer();
+    renderQuestionTimer();
+    syncWakeLock();
+  }
+
+  function toggleQuestionPause() {
+    if (questionTimer.status === "running") {
+      questionTimer.remainingMs = questionRemaining();
+      questionTimer.status = "paused";
+      questionTimer.phaseEndsAt = null;
+      stopQuestionBell();
+    } else if (questionTimer.status === "paused") {
+      primeQuestionAudio().catch(() => null);
+      questionTimer.status = "running";
+      questionTimer.phaseEndsAt = Date.now() + questionTimer.remainingMs;
+      if (questionTimer.phase === "ring") playQuestionBell(questionTimer.remainingMs, questionTimer.phaseEndsAt);
+    } else {
+      return;
+    }
+    saveQuestionTimer();
+    renderQuestionTimer();
+    syncWakeLock();
+  }
+
+  function resetQuestionTimer() {
+    const active = questionTimer.status === "running" || questionTimer.status === "paused";
+    if (active && !window.confirm("确定重置本轮做题计时吗？当前进度将清零。")) return;
+    stopQuestionBell();
+    questionTimer = questionTimerIdle();
+    saveQuestionTimer();
+    renderQuestionTimer();
+    syncWakeLock();
+  }
+
+  function updateQuestionTimer() {
+    const now = Date.now();
+    advanceQuestionTimer(now);
+    renderQuestionTimer(now);
+  }
+
+  function carouselMode(element) {
+    if (!element?.clientWidth) return clockMode;
+    return Math.round(element.scrollLeft / element.clientWidth) >= 1 ? "questions" : "clock";
+  }
+
+  function scrollCarouselToMode(element, mode, behavior = "smooth") {
+    if (!element?.clientWidth) return;
+    element.scrollTo({ left: mode === "questions" ? element.clientWidth : 0, behavior });
+  }
+
+  function renderClockMode() {
+    document.querySelectorAll("[data-clock-mode-target]").forEach(button => {
+      const active = button.dataset.clockModeTarget === clockMode;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
+    document.querySelectorAll("[data-fullscreen-mode-target]").forEach(button => {
+      const active = button.dataset.fullscreenModeTarget === clockMode;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
+  }
+
+  function setClockMode(mode, source = null, behavior = "smooth") {
+    clockMode = mode === "questions" ? "questions" : "clock";
+    renderClockMode();
+    if (source !== dom.cardCarousel) scrollCarouselToMode(dom.cardCarousel, clockMode, behavior);
+    if (source !== dom.fullscreenCarousel && !dom.fullscreenClock.hidden) scrollCarouselToMode(dom.fullscreenCarousel, clockMode, behavior);
+  }
+
+  function scheduleCarouselSync(element, fullscreen = false) {
+    const timer = fullscreen ? fullscreenCarouselTimer : normalCarouselTimer;
+    if (timer) window.clearTimeout(timer);
+    const nextTimer = window.setTimeout(() => setClockMode(carouselMode(element), element, "auto"), 80);
+    if (fullscreen) fullscreenCarouselTimer = nextTimer;
+    else normalCarouselTimer = nextTimer;
+  }
+
+  function syncFullscreenCarouselPosition() {
+    if (dom.fullscreenClock.hidden) return;
+    requestAnimationFrame(() => scrollCarouselToMode(dom.fullscreenCarousel, clockMode, "auto"));
+    window.setTimeout(() => {
+      if (!dom.fullscreenClock.hidden) scrollCarouselToMode(dom.fullscreenCarousel, clockMode, "auto");
+    }, 160);
   }
 
   function elapsedNow() {
@@ -264,15 +598,19 @@
     return Boolean(document.fullscreenElement || document.webkitFullscreenElement);
   }
 
+  function shouldHoldWakeLock() {
+    return !dom.fullscreenClock.hidden || questionTimer.status === "running";
+  }
+
   async function requestWakeLock() {
     if (!("wakeLock" in navigator) || wakeLock || wakeLockRequestInFlight) return;
-    if (document.visibilityState !== "visible" || dom.fullscreenClock.hidden) return;
+    if (document.visibilityState !== "visible" || !shouldHoldWakeLock()) return;
 
     const requestEpoch = wakeLockEpoch;
     wakeLockRequestInFlight = true;
     try {
       const lock = await navigator.wakeLock.request("screen");
-      if (requestEpoch !== wakeLockEpoch || dom.fullscreenClock.hidden) {
+      if (requestEpoch !== wakeLockEpoch || !shouldHoldWakeLock()) {
         await lock.release();
         return;
       }
@@ -284,7 +622,7 @@
       wakeLock = null;
     } finally {
       wakeLockRequestInFlight = false;
-      if (requestEpoch !== wakeLockEpoch && document.visibilityState === "visible" && !dom.fullscreenClock.hidden) {
+      if (requestEpoch !== wakeLockEpoch && document.visibilityState === "visible" && shouldHoldWakeLock()) {
         requestWakeLock();
       }
     }
@@ -300,10 +638,16 @@
     } catch {}
   }
 
+  function syncWakeLock() {
+    if (document.visibilityState === "visible" && shouldHoldWakeLock()) requestWakeLock();
+    else releaseWakeLock();
+  }
+
   async function enterFullscreenClock() {
     dom.fullscreenClock.hidden = false;
     dom.fullscreenClock.classList.add("force-landscape");
     document.body.classList.add("clock-fullscreen-active");
+    syncFullscreenCarouselPosition();
     refreshIcons();
     const wakeLockRequest = requestWakeLock();
 
@@ -319,11 +663,11 @@
     } catch {
       // CSS rotates the clock when orientation locking is unavailable.
     }
+    syncFullscreenCarouselPosition();
     await wakeLockRequest;
   }
 
   async function exitFullscreenClock() {
-    await releaseWakeLock();
     try {
       if (document.exitFullscreen && document.fullscreenElement) await document.exitFullscreen();
       else if (document.webkitExitFullscreen && document.webkitFullscreenElement) document.webkitExitFullscreen();
@@ -336,6 +680,7 @@
     dom.fullscreenClock.hidden = true;
     dom.fullscreenClock.classList.remove("force-landscape");
     document.body.classList.remove("clock-fullscreen-active");
+    syncWakeLock();
   }
 
   function syncFullscreenState() {
@@ -546,21 +891,50 @@
 
   dom.liveClock.addEventListener("click", toggleClockFormat);
   dom.fullscreenTime.addEventListener("click", toggleClockFormat);
-  dom.enterFullscreen.addEventListener("click", enterFullscreenClock);
+  dom.enterFullscreen.addEventListener("click", () => {
+    setClockMode("clock", null, "auto");
+    enterFullscreenClock();
+  });
+  dom.enterQuestionFullscreen.addEventListener("click", () => {
+    setClockMode("questions", null, "auto");
+    enterFullscreenClock();
+  });
   dom.exitFullscreen.addEventListener("click", exitFullscreenClock);
   dom.siteFullscreen.addEventListener("click", toggleSiteFullscreen);
   document.addEventListener("fullscreenchange", () => {
     syncFullscreenState();
+    syncFullscreenCarouselPosition();
     renderSiteFullscreenButton();
   });
   document.addEventListener("webkitfullscreenchange", () => {
     syncFullscreenState();
+    syncFullscreenCarouselPosition();
     renderSiteFullscreenButton();
   });
   document.addEventListener("visibilitychange", () => {
-    if (document.visibilityState === "visible" && !dom.fullscreenClock.hidden) requestWakeLock();
-    else if (document.visibilityState === "hidden") releaseWakeLock();
+    if (document.visibilityState === "visible") {
+      advanceQuestionTimer();
+      renderQuestionTimer();
+    }
+    syncWakeLock();
   });
+
+  dom.cardCarousel.addEventListener("scroll", () => scheduleCarouselSync(dom.cardCarousel, false), { passive: true });
+  dom.fullscreenCarousel.addEventListener("scroll", () => scheduleCarouselSync(dom.fullscreenCarousel, true), { passive: true });
+  document.querySelectorAll("[data-clock-mode-target]").forEach(button => {
+    button.addEventListener("click", () => setClockMode(button.dataset.clockModeTarget));
+  });
+  document.querySelectorAll("[data-fullscreen-mode-target]").forEach(button => {
+    button.addEventListener("click", () => setClockMode(button.dataset.fullscreenModeTarget));
+  });
+
+  dom.questionCount.addEventListener("change", applyQuestionSettings);
+  dom.questionMinutes.addEventListener("change", applyQuestionSettings);
+  dom.questionStart.addEventListener("click", startQuestionTimer);
+  dom.questionPause.addEventListener("click", toggleQuestionPause);
+  dom.fullscreenQuestionPause.addEventListener("click", toggleQuestionPause);
+  dom.questionReset.addEventListener("click", resetQuestionTimer);
+  dom.fullscreenQuestionReset.addEventListener("click", resetQuestionTimer);
 
   dom.timeline.addEventListener("click", event => {
     const button = event.target.closest("button[data-study-date]");
@@ -600,14 +974,20 @@
   document.addEventListener("keydown", event => {
     if (event.key === "Escape" && !dom.modal.hidden) closeEdit();
   });
+  window.addEventListener("pagehide", stopQuestionBell);
 
   if (!Array.isArray(sessions)) sessions = [];
   if (activeSession && (!activeSession.startedAt || !["running", "paused"].includes(activeSession.status))) activeSession = null;
+  advanceQuestionTimer();
   renderTimeline();
   renderRecords();
   renderTimerControls();
+  renderQuestionTimer();
+  renderClockMode();
   renderStats();
   renderSiteFullscreenButton();
   updateClock();
+  syncWakeLock();
   window.setInterval(updateClock, 1000);
+  window.setInterval(updateQuestionTimer, 250);
 })();
