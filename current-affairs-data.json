@@ -15698,10 +15698,10 @@
           "keyword": "人工智能"
         },
         {
-          "id": "e1199c5b8a59e5",
+          "id": "f1b4250abcbc88",
           "source": "新华社",
-          "title": "为加强全球人工智能发展治理注入中国动力",
-          "url": "https://www.news.cn/politics/leaders/20260714/346882ba5d1647cda7860ee74f0ce057/c.html",
+          "title": "新华社评论员：共同推动人工智能服务全球发展、增进人类福祉",
+          "url": "https://www.news.cn/politics/20260714/e6a8633994bc481991ab0d1089e49b03/c.html",
           "date": "2026-07-14",
           "keyword": "人工智能"
         },
@@ -16050,6 +16050,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "5c5a97c005ae34",
+          "source": "新华社",
+          "title": "14日恢复对伊海上封锁",
+          "url": "https://www.news.cn/world/20260714/21c4fc55958b4036aa48e32fc63e52e8/c.html",
+          "date": "2026-07-14",
+          "keyword": "综合时政"
+        },
+        {
           "id": "46678105718a13",
           "source": "新华社",
           "title": "乌克兰首都基辅传出密集爆炸声",
@@ -16082,6 +16090,30 @@
           "keyword": "综合时政"
         },
         {
+          "id": "309583216bda92",
+          "source": "新华社",
+          "title": "伯纳姆锁定英国工党党首选举“唯一候选人”",
+          "url": "https://www.news.cn/world/20260714/e1b532d3a308447194f273c4609ba4b1/c.html",
+          "date": "2026-07-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b85b19ac850b90",
+          "source": "新华社",
+          "title": "国家防办向吉林调拨中央防汛物资",
+          "url": "https://www.news.cn/politics/20260714/5dda65fb4d3d441bbe404be09347ff08/c.html",
+          "date": "2026-07-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e1199c5b8a59e5",
+          "source": "新华社",
+          "title": "国际社会期待",
+          "url": "https://www.news.cn/politics/leaders/20260714/346882ba5d1647cda7860ee74f0ce057/c.html",
+          "date": "2026-07-14",
+          "keyword": "综合时政"
+        },
+        {
           "id": "0e72dca8f5d456",
           "source": "新华社",
           "title": "委内瑞拉地震死亡人数升至4561人",
@@ -16106,14 +16138,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "f1b4250abcbc88",
-          "source": "新华社",
-          "title": "新华社评论员",
-          "url": "https://www.news.cn/politics/20260714/e6a8633994bc481991ab0d1089e49b03/c.html",
-          "date": "2026-07-14",
-          "keyword": "综合时政"
-        },
-        {
           "id": "28d9f6ae25707f",
           "source": "新华社",
           "title": "沙特南部遭胡塞武装导弹袭击",
@@ -16124,16 +16148,16 @@
         {
           "id": "8b6fcf072292f7",
           "source": "新华社",
-          "title": "特朗普：将对霍尔木兹海峡货运收取20%费用",
+          "title": "特朗普：将对海峡货运收取20%费用",
           "url": "https://www.news.cn/world/20260714/ff375d56ff1f48d385c7db3fe042f611/c.html",
           "date": "2026-07-14",
           "keyword": "综合时政"
         },
         {
-          "id": "5c5a97c005ae34",
+          "id": "0c160f07d9304b",
           "source": "新华社",
           "title": "美军宣布将于14日恢复对伊朗的海上封锁",
-          "url": "https://www.news.cn/world/20260714/21c4fc55958b4036aa48e32fc63e52e8/c.html",
+          "url": "https://www.news.cn/20260714/6d47f2d17de04ab3bf0b0247bc9f6857/c.html",
           "date": "2026-07-14",
           "keyword": "综合时政"
         },
@@ -16142,6 +16166,14 @@
           "source": "新华社",
           "title": "美军称开始对伊朗发动“连续第三晚”打击",
           "url": "https://www.news.cn/20260714/4c4b2f124e0144b7a36b435bc2518ddc/c.html",
+          "date": "2026-07-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b7603d9142a38e",
+          "source": "新华社",
+          "title": "美军：对伊发动“连续第三晚”打击",
+          "url": "https://www.news.cn/world/20260714/7ce06fc22c8045e68a1473a2f5ba4fc4/c.html",
           "date": "2026-07-14",
           "keyword": "综合时政"
         },
@@ -16160,6 +16192,14 @@
           "url": "https://www.news.cn/20260714/2a3305f9b86f45229de55873c4652dee/c.html",
           "date": "2026-07-14",
           "keyword": "综合时政"
+        },
+        {
+          "id": "66d405bf22f333",
+          "source": "新华社",
+          "title": "记者手记丨东非运输大动脉见证零关税红利",
+          "url": "https://www.news.cn/silkroad/20260714/9079fbb4ebec48189e80bf7e9c12d02e/c.html",
+          "date": "2026-07-14",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -16167,65 +16207,66 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 4.8,
+          "duration": 28.1,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260714.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 32,
-          "duration": 2.5
+          "duration": 2.3
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 16,
-          "duration": 3.1
+          "count": 21,
+          "duration": 2.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 18.7
+          "duration": 34.7
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.0
+          "duration": 5.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 21,
-          "duration": 1.9
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.2
+          "duration": 13.7
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.1
+          "duration": 3.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.2
+          "duration": 9.6
         },
         {
           "source": "广东发布",
-          "status": "ok",
+          "status": "error",
           "count": 0,
-          "duration": 55.9
+          "duration": 19.1,
+          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-14T06:59:45+08:00"
+  "generatedAt": "2026-07-14T08:01:44+08:00"
 }
