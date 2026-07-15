@@ -18052,34 +18052,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "cc49cb324aa95d",
+          "id": "1c14b66e4ab566",
           "source": "新华社",
           "title": "世界杯｜扩军改革有得失 百场答卷待终章",
-          "url": "https://www.news.cn/sports/20260715/6996d8d6f98c4fd99a16ec56e50831e2/c.html",
+          "url": "https://www.news.cn/20260715/6d42a1af8b394678941603403053b656/c.html",
           "date": "2026-07-15",
           "keyword": "综合时政"
         },
         {
-          "id": "87783b51eec2cc",
+          "id": "b3df493be551a1",
           "source": "新华社",
-          "title": "伊媒：伊朗格什姆岛、阿巴斯港等多地传出爆炸声",
-          "url": "https://www.news.cn/20260715/805b207513954b4f9312efaf292180f9/c.html",
+          "title": "中企承建克罗地亚重要项目打通关键隧道",
+          "url": "https://www.news.cn/silkroad/20260715/aae0f68c42bc49a99fb613ea6a0144c8/c.html",
           "date": "2026-07-15",
           "keyword": "综合时政"
         },
         {
-          "id": "62fc581b423839",
+          "id": "0b71d321e02aed",
           "source": "新华社",
-          "title": "伊朗向位于约旦的美军基地发动报复性袭击",
-          "url": "https://www.news.cn/20260715/1d5bd873812240008f3f5b7e368e7cd1/c.html",
-          "date": "2026-07-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "ec3137c8c13750",
-          "source": "新华社",
-          "title": "伊朗地方政府：霍尔木兹海峡发生交火",
-          "url": "https://www.news.cn/20260715/0df25b7250a14be3aab980b682480795/c.html",
+          "title": "伊报复性袭击美军基地",
+          "url": "https://www.news.cn/world/20260715/f47e106cd80140758efc2fd27f069802/c.html",
           "date": "2026-07-15",
           "keyword": "综合时政"
         },
@@ -18092,18 +18084,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "35126b17b15a44",
+          "id": "8feb917825bc57",
           "source": "新华社",
-          "title": "委内瑞拉地震死亡人数升至4734人",
-          "url": "https://www.news.cn/20260715/7c35439dcc0d498e98e9f081c00cdb95/c.html",
+          "title": "凌晨两点，外卖小哥脱下一只鞋、救了一栋楼",
+          "url": "https://www.news.cn/local/20260715/ee922d88e2a74d03b6c6a554ae25e5c1/c.html",
           "date": "2026-07-15",
           "keyword": "综合时政"
         },
         {
-          "id": "5e7f778186c92d",
+          "id": "9ddd0e403655dd",
           "source": "新华社",
-          "title": "恢复对伊朗实施海上封锁",
-          "url": "https://www.news.cn/world/20260715/c28e69e36d12483c965121031d51d3a3/c.html",
+          "title": "古巴半月内第三次全国大停电",
+          "url": "https://www.news.cn/20260715/920e9fbdcbd640ed83b53786cc272dfc/c.html",
+          "date": "2026-07-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0eeb411b2f4c3d",
+          "source": "新华社",
+          "title": "哥伦比亚军方营救45名被绑架平民 两名士兵牺牲",
+          "url": "https://www.news.cn/world/20260715/243701ede3a94450bfd4c4525b8aa10b/c.html",
+          "date": "2026-07-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1fcc59bf189ea1",
+          "source": "新华社",
+          "title": "基层干部自费10亿Token“手搓”防汛App引关注 本人回应网友疑问",
+          "url": "https://www.news.cn/local/20260715/48d208d146c94773a1b6aa76939b6223/c.html",
+          "date": "2026-07-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4e81656b628009",
+          "source": "新华社",
+          "title": "委内瑞拉地震死亡人数升至4734人",
+          "url": "https://www.news.cn/world/20260715/ec92b02c815b45979e53f0986c8fde4d/c.html",
+          "date": "2026-07-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "acd69f221719f6",
+          "source": "新华社",
+          "title": "对伊发动新一轮打击",
+          "url": "https://www.news.cn/world/20260715/c548edba4a2249f4927315538872bb4d/c.html",
           "date": "2026-07-15",
           "keyword": "综合时政"
         },
@@ -18116,6 +18140,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "a71a004b30d6a3",
+          "source": "新华社",
+          "title": "智利首都发生交通事故致5人死亡",
+          "url": "https://www.news.cn/20260715/218449ad005549ada49e4c841c7ad8cc/c.html",
+          "date": "2026-07-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3d91cd232f7f23",
+          "source": "新华社",
+          "title": "比利时首都布鲁塞尔市中心大楼火灾造成6人死亡",
+          "url": "https://www.news.cn/world/20260715/973fa7c589a245bda3984cb410c4b2d6/c.html",
+          "date": "2026-07-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "e40aade255a02e",
           "source": "新华社",
           "title": "法国举行国庆阅兵",
@@ -18124,34 +18164,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "981b208e4bb353",
+          "source": "新华社",
+          "title": "法国枫丹白露大火6人涉嫌引发火情被捕",
+          "url": "https://www.news.cn/20260715/71aa04006d524eb4b5436f4706b8f131/c.html",
+          "date": "2026-07-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "33a296ff741622",
           "source": "新华社",
-          "title": "特朗普： 用贸易投资协议取代霍尔木兹海峡货物收费",
+          "title": "特朗普：用贸易投资协议取代霍尔木兹海峡货物收费",
           "url": "https://www.news.cn/world/20260715/8f6d3caaa3714552bb8b88c561fceea9/c.html",
           "date": "2026-07-15",
           "keyword": "综合时政"
         },
         {
-          "id": "06dd61e023e017",
+          "id": "d34f6a666c43d3",
           "source": "新华社",
-          "title": "美军宣布恢复对伊朗实施海上封锁",
-          "url": "https://www.news.cn/20260715/e13849ba7a3f4f40b51e45b9afa44f42/c.html",
+          "title": "美众院通过永久采用夏令时法案",
+          "url": "https://www.news.cn/20260715/e194438838b0419b954b69c9582bd9e4/c.html",
           "date": "2026-07-15",
           "keyword": "综合时政"
         },
         {
-          "id": "b4b8b0f6449ea7",
+          "id": "5e7f778186c92d",
           "source": "新华社",
-          "title": "美军继续打击伊朗",
-          "url": "https://www.news.cn/world/20260715/8a8d72aff0b24cc9979cf6dfd84425da/c.html",
-          "date": "2026-07-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "faf30f344cbfb8",
-          "source": "新华社",
-          "title": "美军继续打击伊朗 霍尔木兹海峡博弈持续",
-          "url": "https://www.news.cn/20260715/bb142f79b2e34d92b92312138d4fc44c/c.html",
+          "title": "美军恢复对伊海上封锁",
+          "url": "https://www.news.cn/world/20260715/c28e69e36d12483c965121031d51d3a3/c.html",
           "date": "2026-07-15",
           "keyword": "综合时政"
         },
@@ -18164,6 +18204,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "eebeba242f76d0",
+          "source": "新华社",
+          "title": "西班牙2:0淘汰法国",
+          "url": "https://www.news.cn/sports/20260715/78c8488847954349bb65f265405420b1/c.html",
+          "date": "2026-07-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "348bc217601875",
           "source": "新华社",
           "title": "西班牙淘汰法国 率先挺进世界杯决赛",
@@ -18172,18 +18220,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "eebeba242f76d0",
+          "id": "8d5c42188ce4c0",
           "source": "新华社",
-          "title": "西班牙淘汰法国晋级决赛",
-          "url": "https://www.news.cn/sports/20260715/78c8488847954349bb65f265405420b1/c.html",
+          "title": "队史第二次进决赛",
+          "url": "https://www.news.cn/sports/20260715/3bf320dfde08498f9513f09dc5be5e4f/c.html",
           "date": "2026-07-15",
           "keyword": "综合时政"
         },
         {
-          "id": "f1bb82649f6550",
+          "id": "2c6f94d832673e",
+          "source": "新华社",
+          "title": "防灾减灾救灾一线见闻丨他们在泥泞中送上健康守护",
+          "url": "https://www.news.cn/20260715/c96d951030c5490eabc6f31868111579/c.html",
+          "date": "2026-07-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "69d383b1a3492a",
+          "source": "新华社",
+          "title": "阿联酋两艘油轮遇袭伤亡人数升至2死14伤",
+          "url": "https://www.news.cn/20260715/bc8fd91c81784ef58dd116ed6393bf57/c.html",
+          "date": "2026-07-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6f319a642349b9",
           "source": "新华社",
           "title": "黎巴嫩和以色列在罗马举行新一轮会谈",
-          "url": "https://www.news.cn/20260715/9d7be613b8e94e63b060461bd15bbad4/c.html",
+          "url": "https://www.news.cn/world/20260715/797442e856774df2bd0b40f855785118/c.html",
           "date": "2026-07-15",
           "keyword": "综合时政"
         }
@@ -18193,65 +18257,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 56.6,
+          "duration": 11.1,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260715.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 30,
-          "duration": 0.9
+          "duration": 2.0
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 20,
-          "duration": 2.6
+          "count": 28,
+          "duration": 3.4
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 21.1
+          "duration": 11.7
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.0
+          "duration": 5.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 26,
-          "duration": 0.4
+          "duration": 2.2
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 15.2
+          "duration": 14.2
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.4
+          "duration": 3.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.6
+          "duration": 9.2
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 30.0
+          "duration": 78.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-15T07:04:22+08:00"
+  "generatedAt": "2026-07-15T08:02:33+08:00"
 };
