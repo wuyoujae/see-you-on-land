@@ -19618,7 +19618,638 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 88.3
         }
       ]
+    },
+    {
+      "date": "2026-07-16",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 5
+        },
+        {
+          "name": "人工智能",
+          "count": 4
+        },
+        {
+          "name": "防汛救灾",
+          "count": 3
+        },
+        {
+          "name": "经济",
+          "count": 3
+        },
+        {
+          "name": "中国共产党",
+          "count": 2
+        },
+        {
+          "name": "中国经济",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "88660897807268",
+          "source": "人民日报",
+          "title": "《习近平谈治国理政》第五卷哈萨克斯坦推介会在阿斯塔纳举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169081.html",
+          "date": "2026-07-16",
+          "keyword": "习近平"
+        },
+        {
+          "id": "98369e808e9ce9",
+          "source": "光明日报",
+          "title": "《习近平谈治国理政》第五卷哈萨克斯坦推介会在阿斯塔纳举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19446.html",
+          "date": "2026-07-16",
+          "keyword": "习近平"
+        },
+        {
+          "id": "90a1becda9d3b1",
+          "source": "新华社",
+          "title": "习近平总书记上海考察重要讲话激励干部群众创造美好新生活",
+          "url": "https://www.news.cn/politics/leaders/20260716/8cf6e08cce7c4a8e8a7c1f57949f266d/c.html",
+          "date": "2026-07-16",
+          "keyword": "习近平"
+        },
+        {
+          "id": "fa396000668be4",
+          "source": "新华社",
+          "title": "习近平总书记引领推动城市更新的故事",
+          "url": "https://www.news.cn/politics/xxjxs/20260716/fa7223990f8c43ec9ebdca0f0a90b6a2/c.html",
+          "date": "2026-07-16",
+          "keyword": "习近平"
+        },
+        {
+          "id": "e00eda7d927e2a",
+          "source": "新华社",
+          "title": "金色相框｜习近平在上海考察",
+          "url": "https://www.news.cn/politics/leaders/20260716/c909c1a95bb5499b924c9e919846482b/c.html",
+          "date": "2026-07-16",
+          "keyword": "习近平"
+        },
+        {
+          "id": "3bceced5a3fc8b",
+          "source": "人民日报",
+          "title": "“人工智能全球治理的重要引领者”（外媒记者看中国）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169079.html",
+          "date": "2026-07-16",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "92ed10c5496708",
+          "source": "人民日报",
+          "title": "竞合共生，中欧人士热议人工智能发展合作机遇",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169082.html",
+          "date": "2026-07-16",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "1b9647a34071d6",
+          "source": "光明日报",
+          "title": "共同推动人工智能发展迈上更高水平",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19447.html",
+          "date": "2026-07-16",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "fd6aacfdd5f823",
+          "source": "新华社",
+          "title": "中国为推进人工智能全球治理和国际合作贡献智慧力量",
+          "url": "https://www.news.cn/world/20260716/b3f986b7749747b1b79a3b9283a8e7e5/c.html",
+          "date": "2026-07-16",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "73e95772e87b61",
+          "source": "人民日报",
+          "title": "中国经济展现强大韧性活力（权威发布）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169071.html",
+          "date": "2026-07-16",
+          "keyword": "经济"
+        },
+        {
+          "id": "8076eb554d1b25",
+          "source": "人民日报",
+          "title": "加强协同联动 全力防汛救灾（扎实做好防灾救灾各项工作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169088.html",
+          "date": "2026-07-16",
+          "keyword": "防汛救灾"
+        },
+        {
+          "id": "afb4a631fff50d",
+          "source": "人民日报",
+          "title": "暴雨中一路守护（防汛救灾一线故事）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169089.html",
+          "date": "2026-07-16",
+          "keyword": "防汛救灾"
+        },
+        {
+          "id": "0d9d0fc5145920",
+          "source": "光明日报",
+          "title": "金融服务实体经济质效不断提升",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19437.html",
+          "date": "2026-07-16",
+          "keyword": "经济"
+        },
+        {
+          "id": "0c669cc1b0e88b",
+          "source": "新华社",
+          "title": "以底线思维、极限思维做好防汛救灾工作",
+          "url": "https://www.news.cn/politics/leaders/20260716/7d528997aaca43ceb7fea74c81a72a1f/c.html",
+          "date": "2026-07-16",
+          "keyword": "防汛救灾"
+        },
+        {
+          "id": "b20138c77e824d",
+          "source": "新华社",
+          "title": "透视“十五五”开局之年中国经济半年报",
+          "url": "https://www.news.cn/fortune/20260716/d9987206498147fd90628df7aad921b8/c.html",
+          "date": "2026-07-16",
+          "keyword": "经济"
+        },
+        {
+          "id": "3f462c6ba5467f",
+          "source": "人民日报",
+          "title": "在庆祝中国共产党成立105周年大会上的讲话",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169087.html",
+          "date": "2026-07-16",
+          "keyword": "中国共产党"
+        },
+        {
+          "id": "5d82cf5ae592af",
+          "source": "光明日报",
+          "title": "在庆祝中国共产党成立105周年大会上的讲话",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19444.html",
+          "date": "2026-07-16",
+          "keyword": "中国共产党"
+        },
+        {
+          "id": "5acc2873e3e19e",
+          "source": "人民日报",
+          "title": "гАКдє†ињСеє≥и∞Иж≤їеЫљзРЖжФњгАЛзђђдЇФеНЈеУИиР®еЕЛжЦѓеЭ¶жО®дїЛдЉЪеЬ®йШњжЦѓе°ФзЇ≥дЄЊи°М",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169050.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b8f46b16ff0f96",
+          "source": "人民日报",
+          "title": "еЕ®йЭҐиЈµи°МдЇЇж∞СеЯОеЄВзРЖењµ йЂШиі®йЗПжО®ињЫеЯОеЄВжЫіжЦ∞",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169047.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "20b61503b0a299",
+          "source": "人民日报",
+          "title": "еЬ®еЇЖз•ЭдЄ≠еЫљеЕ±дЇІеЕЪжИРзЂЛ105еС®еєіе§ІдЉЪдЄКзЪДиЃ≤иѓЭ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169048.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "18cd0821b88505",
+          "source": "人民日报",
+          "title": "еЭЪжМБдЇЇж∞СиЗ≥дЄК з≠СзЙҐеЇХзЇњжАЭзїі",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169049.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "75035fd8a9d5d9",
+          "source": "人民日报",
+          "title": "йЯ©ж≠£дЉЪиІБжЦ∞и•њеЕ∞еЙНжАїзРЖзЇ¶зњ∞¬ЈеЯЇ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169051.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "44c64eeb869e51",
+          "source": "人民日报",
+          "title": "《新时代治国理政纪实》第一卷中文繁体版在香港首发",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169070.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b132a0518273ea",
+          "source": "人民日报",
+          "title": "一篇声明，满纸“双标”（寰宇平）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169083.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dd04bd7fd17f3a",
+          "source": "人民日报",
+          "title": "公开通报3起整治形式主义为基层减负典型问题",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169085.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b2e730c57970a4",
+          "source": "人民日报",
+          "title": "坚持人民至上 筑牢底线思维",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169074.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8e613f3c053061",
+          "source": "人民日报",
+          "title": "城市更新，做深做细做实（今日谈）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169073.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "54ac89429e963c",
+          "source": "人民日报",
+          "title": "展示前沿技术 加强对话交流",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169080.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ae112330852722",
+          "source": "人民日报",
+          "title": "救援的“快”与“慢”（编辑手记）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169090.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "af788fa2a34af6",
+          "source": "人民日报",
+          "title": "积极推动高效能治理 更好促进高水平安全和高质量发展",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169072.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2a33b4598a1c8c",
+          "source": "人民日报",
+          "title": "落实“两个更加注重” 建设更高水平的社会主义法治国家",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169086.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "062114c96474da",
+          "source": "光明日报",
+          "title": "《新时代治国理政纪实》第一卷中文繁体版在香港首发",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19431.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "72aa0db9341dcb",
+          "source": "光明日报",
+          "title": "【光明时评】人文资源，县域转型发展的重要支撑",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19455.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5ddc0b94b2cf5a",
+          "source": "光明日报",
+          "title": "【光明论坛】“两个结合”焕发马克思主义强大生命力",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19451.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1799dfd76aa22d",
+          "source": "光明日报",
+          "title": "【光明论坛】用法典统筹推进生态环境系统治理",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19453.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7536c17790273b",
+          "source": "光明日报",
+          "title": "【文化评析】让书的样子更美",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19452.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "128af0d341e9ff",
+          "source": "光明日报",
+          "title": "【新闻随笔】高校研学，应多些“研”少点“游”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19454.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4017be3205edba",
+          "source": "光明日报",
+          "title": "上半年全社会用电量同比增长5.3%",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19440.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7d9f17cc4903d9",
+          "source": "光明日报",
+          "title": "以城市更新激活发展动能",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19436.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "47a08665aa4b4c",
+          "source": "光明日报",
+          "title": "党旗映雪域 实干践初心",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19433.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "21c12f402ba8db",
+          "source": "光明日报",
+          "title": "全面践行人民城市理念 高质量推进城市更新",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19443.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3832f8b0786957",
+          "source": "光明日报",
+          "title": "公开通报3起整治形式主义为基层减负典型问题",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19435.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c2f3977c46d1a9",
+          "source": "光明日报",
+          "title": "厚植为民情怀 办好民生实事",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19432.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a0dd007e638b2d",
+          "source": "光明日报",
+          "title": "坚持人民至上 筑牢底线思维",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19445.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "80304ee7d8631f",
+          "source": "光明日报",
+          "title": "重庆：沉浸式职业体验促精准就业",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19438.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "002118f5612bf5",
+          "source": "光明日报",
+          "title": "韧性持续彰显 发展向新向优",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19434.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "27db0920f5c794",
+          "source": "光明日报",
+          "title": "韩正会见新西兰前总理约翰·基",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19430.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ab3fbd90d162ec",
+          "source": "新华社",
+          "title": "世界杯丨淘汰赛：阿根廷队战胜英格兰队",
+          "url": "https://www.news.cn/sports/20260716/0d21815fcfb4402fa92a65fa87998920/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9ab6830d24a16d",
+          "source": "新华社",
+          "title": "乌克兰首都基辅遭空袭 多次传出爆炸声",
+          "url": "https://www.news.cn/20260716/cdc789af275c46f6ad8bbe21a747440b/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "79157a11ac9281",
+          "source": "新华社",
+          "title": "人民的小事就是我们的大事",
+          "url": "https://www.news.cn/politics/leaders/20260716/fd753fa3ced84a00aa607ac26d68ae58/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d99a638fabf2b9",
+          "source": "新华社",
+          "title": "伊朗卫生部：美国近期对伊军事打击已致35人死亡",
+          "url": "https://www.news.cn/20260716/c0b8bc82d6464360a2b2d8b7d91a031f/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8fe8485a11de40",
+          "source": "新华社",
+          "title": "俄方证实扎波罗热核电站总工程师遇袭身亡",
+          "url": "https://www.news.cn/20260716/7514946715e5451aa67271de6af52d57/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f60a786c2baa51",
+          "source": "新华社",
+          "title": "俄称“志愿联盟”国家在乌克兰部署兵力不可接受",
+          "url": "https://www.news.cn/20260716/d128891672f944f0a31ff35519cc1138/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1986a27d3cacd9",
+          "source": "新华社",
+          "title": "坚持党建引领基层治理",
+          "url": "https://www.news.cn/politics/leaders/20260716/7391bb26c9444cbebbeeb30454f5e15b/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "61ade4c42998b9",
+          "source": "新华社",
+          "title": "委内瑞拉地震死亡人数升至4829人",
+          "url": "https://www.news.cn/world/20260716/131ca95d3d054318b3e774cb1d4b1ba2/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4e717ce1e0e33a",
+          "source": "新华社",
+          "title": "将与西班牙争冠",
+          "url": "https://www.news.cn/sports/20260716/f2f351acaa3042e19e96aa41f2276492/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bf1cf9f9fd7213",
+          "source": "新华社",
+          "title": "把人民城市建成民生暖心港湾",
+          "url": "https://www.news.cn/politics/leaders/20260716/2cc3c280143b42c5a26b5648e1e7f026/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d0f1360785ffa4",
+          "source": "新华社",
+          "title": "日本羽毛球公开赛：国羽多项晋级次轮 李诗沣爆冷出局",
+          "url": "https://www.news.cn/sports/20260716/fb0e2b4843e94c3f9c981449477cc1f4/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f729a388a23a09",
+          "source": "新华社",
+          "title": "社区服务一定要搞好",
+          "url": "https://www.news.cn/video/20260716/814c47aca92c483497e6cc139ceba970/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b84636b6de5ed3",
+          "source": "新华社",
+          "title": "美军对伊朗再次发起打击",
+          "url": "https://www.news.cn/20260716/edd3fa675bae4cc4881222c32d67c16b/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a5c8958f7faa0b",
+          "source": "新华社",
+          "title": "美军对伊朗发起当天第二波打击",
+          "url": "https://www.news.cn/world/20260716/c46e39909c614e0494d5c7b2b223efbe/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a7f8540e147f1b",
+          "source": "新华社",
+          "title": "美军称击中一艘试图驶向伊朗港口的油轮",
+          "url": "https://www.news.cn/20260716/6b803247b4a4450ca3d4333a8bc1d88c/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "96e3d587eaa2e6",
+          "source": "新华社",
+          "title": "美国驻伊拉克埃尔比勒领馆附近传出爆炸声",
+          "url": "https://www.news.cn/world/20260716/7c6ee9559ac946ab9c056717a7d1ef5f/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f84696e7949424",
+          "source": "新华社",
+          "title": "英国拟对以色列非法定居点实施进出口贸易禁令",
+          "url": "https://www.news.cn/20260716/631f8d94412e448a8d1b1c39d02dac8a/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c7163add57d9db",
+          "source": "新华社",
+          "title": "跟着总书记感悟人民城市的“新”与“心”",
+          "url": "https://www.news.cn/politics/leaders/20260716/9c2bae6fae6f4bfd8bd4d37b026b9482/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d9c533c5e5ab13",
+          "source": "新华社",
+          "title": "阿根廷2:1逆转英格兰",
+          "url": "https://www.news.cn/sports/20260716/e8d27ace27b6478ca55b169755895852/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "888a673fedc843",
+          "source": "新华社",
+          "title": "阿根廷逆转绝杀英格兰",
+          "url": "https://www.news.cn/sports/20260716/5605064c00bd49b2830965c554b4b728/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 21.0,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260716.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "ok",
+          "count": 21,
+          "duration": 1.5
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 26,
+          "duration": 2.8
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.4
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.1
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 20,
+          "duration": 0.5
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 14.3
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 3.0
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.1
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 47.6
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-07-15T23:24:43+08:00"
+  "generatedAt": "2026-07-16T07:04:17+08:00"
 };
