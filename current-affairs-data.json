@@ -19621,14 +19621,14 @@
     },
     {
       "date": "2026-07-16",
-      "keyword": "习近平",
+      "keyword": "人工智能",
       "keywords": [
         {
-          "name": "习近平",
-          "count": 5
+          "name": "人工智能",
+          "count": 4
         },
         {
-          "name": "人工智能",
+          "name": "习近平",
           "count": 4
         },
         {
@@ -19650,46 +19650,6 @@
       ],
       "articles": [
         {
-          "id": "88660897807268",
-          "source": "人民日报",
-          "title": "《习近平谈治国理政》第五卷哈萨克斯坦推介会在阿斯塔纳举行",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169081.html",
-          "date": "2026-07-16",
-          "keyword": "习近平"
-        },
-        {
-          "id": "98369e808e9ce9",
-          "source": "光明日报",
-          "title": "《习近平谈治国理政》第五卷哈萨克斯坦推介会在阿斯塔纳举行",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19446.html",
-          "date": "2026-07-16",
-          "keyword": "习近平"
-        },
-        {
-          "id": "90a1becda9d3b1",
-          "source": "新华社",
-          "title": "习近平总书记上海考察重要讲话激励干部群众创造美好新生活",
-          "url": "https://www.news.cn/politics/leaders/20260716/8cf6e08cce7c4a8e8a7c1f57949f266d/c.html",
-          "date": "2026-07-16",
-          "keyword": "习近平"
-        },
-        {
-          "id": "fa396000668be4",
-          "source": "新华社",
-          "title": "习近平总书记引领推动城市更新的故事",
-          "url": "https://www.news.cn/politics/xxjxs/20260716/fa7223990f8c43ec9ebdca0f0a90b6a2/c.html",
-          "date": "2026-07-16",
-          "keyword": "习近平"
-        },
-        {
-          "id": "e00eda7d927e2a",
-          "source": "新华社",
-          "title": "金色相框｜习近平在上海考察",
-          "url": "https://www.news.cn/politics/leaders/20260716/c909c1a95bb5499b924c9e919846482b/c.html",
-          "date": "2026-07-16",
-          "keyword": "习近平"
-        },
-        {
           "id": "3bceced5a3fc8b",
           "source": "人民日报",
           "title": "“人工智能全球治理的重要引领者”（外媒记者看中国）",
@@ -19698,12 +19658,28 @@
           "keyword": "人工智能"
         },
         {
+          "id": "88660897807268",
+          "source": "人民日报",
+          "title": "《习近平谈治国理政》第五卷哈萨克斯坦推介会在阿斯塔纳举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169081.html",
+          "date": "2026-07-16",
+          "keyword": "习近平"
+        },
+        {
           "id": "92ed10c5496708",
           "source": "人民日报",
           "title": "竞合共生，中欧人士热议人工智能发展合作机遇",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202607/16/content_30169082.html",
           "date": "2026-07-16",
           "keyword": "人工智能"
+        },
+        {
+          "id": "98369e808e9ce9",
+          "source": "光明日报",
+          "title": "《习近平谈治国理政》第五卷哈萨克斯坦推介会在阿斯塔纳举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/16/content_19446.html",
+          "date": "2026-07-16",
+          "keyword": "习近平"
         },
         {
           "id": "1b9647a34071d6",
@@ -19720,6 +19696,22 @@
           "url": "https://www.news.cn/world/20260716/b3f986b7749747b1b79a3b9283a8e7e5/c.html",
           "date": "2026-07-16",
           "keyword": "人工智能"
+        },
+        {
+          "id": "e00eda7d927e2a",
+          "source": "新华社",
+          "title": "习近平在上海考察",
+          "url": "https://www.news.cn/politics/leaders/20260716/c909c1a95bb5499b924c9e919846482b/c.html",
+          "date": "2026-07-16",
+          "keyword": "习近平"
+        },
+        {
+          "id": "fa396000668be4",
+          "source": "新华社",
+          "title": "学习进行时丨习近平总书记引领推动城市更新的故事",
+          "url": "https://www.news.cn/politics/xxjxs/20260716/fa7223990f8c43ec9ebdca0f0a90b6a2/c.html",
+          "date": "2026-07-16",
+          "keyword": "习近平"
         },
         {
           "id": "73e95772e87b61",
@@ -20034,6 +20026,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "ab930b15ea094e",
+          "source": "新华社",
+          "title": "中国东方航空开通上海至第比利斯直飞航线",
+          "url": "https://www.news.cn/20260716/ca5a94886b5c45c6b0e7179858341057/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "9ab6830d24a16d",
           "source": "新华社",
           "title": "乌克兰首都基辅遭空袭 多次传出爆炸声",
@@ -20054,6 +20054,14 @@
           "source": "新华社",
           "title": "伊朗卫生部：美国近期对伊军事打击已致35人死亡",
           "url": "https://www.news.cn/20260716/c0b8bc82d6464360a2b2d8b7d91a031f/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f9f5d9009a0988",
+          "source": "新华社",
+          "title": "伊朗媒体：伊朗多地遭美军袭击",
+          "url": "https://www.news.cn/20260716/a78848855aa94f9d86110e9646a3db99/c.html",
           "date": "2026-07-16",
           "keyword": "综合时政"
         },
@@ -20082,10 +20090,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "61ade4c42998b9",
+          "id": "72c1320418b78f",
           "source": "新华社",
           "title": "委内瑞拉地震死亡人数升至4829人",
-          "url": "https://www.news.cn/world/20260716/131ca95d3d054318b3e774cb1d4b1ba2/c.html",
+          "url": "https://www.news.cn/20260716/f8a091a1f2774c249e6dc313e9d20bdb/c.html",
           "date": "2026-07-16",
           "keyword": "综合时政"
         },
@@ -20094,6 +20102,14 @@
           "source": "新华社",
           "title": "将与西班牙争冠",
           "url": "https://www.news.cn/sports/20260716/f2f351acaa3042e19e96aa41f2276492/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "987f3718073423",
+          "source": "新华社",
+          "title": "总书记心系人民城市建设",
+          "url": "https://www.news.cn/politics/leaders/20260716/20d3af8d71c04818b69f02342f03a18a/c.html",
           "date": "2026-07-16",
           "keyword": "综合时政"
         },
@@ -20114,6 +20130,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "53040099a9c2b2",
+          "source": "新华社",
+          "title": "森林野火致加拿大多地空气质量恶化 铁路交通受阻",
+          "url": "https://www.news.cn/20260716/0daad771e44b4068990b055d049ed0ce/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "f729a388a23a09",
           "source": "新华社",
           "title": "社区服务一定要搞好",
@@ -20130,10 +20154,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "a5c8958f7faa0b",
+          "id": "f0eabf08787c14",
           "source": "新华社",
           "title": "美军对伊朗发起当天第二波打击",
-          "url": "https://www.news.cn/world/20260716/c46e39909c614e0494d5c7b2b223efbe/c.html",
+          "url": "https://www.news.cn/20260716/21bf1749400b447e8136a00d79027e7d/c.html",
           "date": "2026-07-16",
           "keyword": "综合时政"
         },
@@ -20146,10 +20170,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "96e3d587eaa2e6",
+          "id": "565fa23ca6b7e2",
           "source": "新华社",
           "title": "美国驻伊拉克埃尔比勒领馆附近传出爆炸声",
-          "url": "https://www.news.cn/world/20260716/7c6ee9559ac946ab9c056717a7d1ef5f/c.html",
+          "url": "https://www.news.cn/20260716/7fc6a7725ee3489cb70c4c21125061e5/c.html",
           "date": "2026-07-16",
           "keyword": "综合时政"
         },
@@ -20166,6 +20190,14 @@
           "source": "新华社",
           "title": "跟着总书记感悟人民城市的“新”与“心”",
           "url": "https://www.news.cn/politics/leaders/20260716/9c2bae6fae6f4bfd8bd4d37b026b9482/c.html",
+          "date": "2026-07-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "90a1becda9d3b1",
+          "source": "新华社",
+          "title": "重要讲话激励干部群众创造美好新生活",
+          "url": "https://www.news.cn/politics/leaders/20260716/8cf6e08cce7c4a8e8a7c1f57949f266d/c.html",
           "date": "2026-07-16",
           "keyword": "综合时政"
         },
@@ -20191,65 +20223,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 21.0,
+          "duration": 19.1,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260716.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 21,
-          "duration": 1.5
+          "duration": 2.1
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 26,
-          "duration": 2.8
+          "count": 30,
+          "duration": 2.7
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 13.4
+          "duration": 18.2
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.1
+          "duration": 6.5
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 20,
-          "duration": 0.5
+          "duration": 2.1
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.3
+          "duration": 11.8
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.0
+          "duration": 2.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.1
+          "duration": 8.4
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 47.6
+          "duration": 51.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-16T07:04:17+08:00"
+  "generatedAt": "2026-07-16T08:08:18+08:00"
 }
