@@ -21520,7 +21520,92 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 61.0
         }
       ]
+    },
+    {
+      "date": "2026-07-17",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 1
+        }
+      ],
+      "articles": [
+        {
+          "id": "f67e956d82f85d",
+          "source": "新华社",
+          "title": "4名希腊议员因涉嫌欧盟农业补贴欺诈被起诉",
+          "url": "https://www.news.cn/20260717/2cbf905ffae34db69348eb28f34a0cc5/c.html",
+          "date": "2026-07-17",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 17.2,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260717.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.1,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202607/17/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 1,
+          "duration": 3.1
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 10.1
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.3
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.5,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202607/17/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.2
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.6
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.8
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 45.2
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-07-16T22:57:07+08:00"
+  "generatedAt": "2026-07-17T00:17:32+08:00"
 };
