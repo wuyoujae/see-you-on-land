@@ -23910,6 +23910,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "d315796520f798",
+          "source": "新华社",
+          "title": "两艘油轮在海峡爆炸起火",
+          "url": "https://www.news.cn/world/20260718/1c0b1a9285fa483cb8fca424ab2fdabe/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6c53201c2dfb7c",
+          "source": "新华社",
+          "title": "伊多地遭美军袭击",
+          "url": "https://www.news.cn/world/20260718/92eaf02b0a9d4abeb33fef9f56fd1ab2/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a364d77d08c6f8",
           "source": "新华社",
           "title": "伊朗多地遭美军袭击",
@@ -23995,65 +24011,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 40.4,
+          "duration": 72.8,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260718.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 27,
-          "duration": 2.1
+          "duration": 1.9
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 16,
-          "duration": 2.7
+          "count": 18,
+          "duration": 3.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 32.5
+          "duration": 28.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.1
+          "duration": 6.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 1.9
+          "duration": 1.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.6
+          "duration": 14.2
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.8
+          "duration": 3.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.6
+          "duration": 9.8
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 73.5
+          "duration": 77.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-18T06:55:56+08:00"
+  "generatedAt": "2026-07-18T07:58:55+08:00"
 };
