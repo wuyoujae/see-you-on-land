@@ -21928,10 +21928,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "f67e956d82f85d",
+          "id": "f4548c48ceaea6",
           "source": "新华社",
-          "title": "4名希腊议员因涉嫌欧盟农业补贴欺诈被起诉",
-          "url": "https://www.news.cn/20260717/2cbf905ffae34db69348eb28f34a0cc5/c.html",
+          "title": "世卫组织欧洲办事处：5国因高温“额外死亡”近万人",
+          "url": "https://www.news.cn/20260717/b74b695d1ec74775ae6dd2981e3a20a5/c.html",
           "date": "2026-07-17",
           "keyword": "综合时政"
         },
@@ -21944,6 +21944,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "98eb05c48112ef",
+          "source": "新华社",
+          "title": "乌克兰议会批准新一届内阁成员名单",
+          "url": "https://www.news.cn/20260717/9b0bc19b5b8d46ce825aee02a2ab8b46/c.html",
+          "date": "2026-07-17",
+          "keyword": "综合时政"
+        },
+        {
           "id": "fb96f90c71e11c",
           "source": "新华社",
           "title": "伊媒：伊朗布什尔市传出爆炸声",
@@ -21952,10 +21960,42 @@
           "keyword": "综合时政"
         },
         {
-          "id": "5f56caf2c8fb8d",
+          "id": "76d1fe7c80890c",
           "source": "新华社",
-          "title": "台风“美莎克”已致广西260多万人受灾",
-          "url": "https://www.news.cn/20260717/cd299fefb92e479fae936965c6302086/c.html",
+          "title": "伊媒：美国袭击伊朗阿巴斯港致7人受伤",
+          "url": "https://www.news.cn/20260717/3250e69889dd47c4ba5919b8ea760819/c.html",
+          "date": "2026-07-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bdfee11e2bc1b7",
+          "source": "新华社",
+          "title": "加纳中部三车相撞致至少12死44伤",
+          "url": "https://www.news.cn/20260717/ac214d1e6980475ab88bde25aa9152ba/c.html",
+          "date": "2026-07-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0817de6fd04fc5",
+          "source": "新华社",
+          "title": "南非开普敦附近核电站发生放射性污染事故",
+          "url": "https://www.news.cn/20260717/cc99c893050a4d1ab5cfef8b1165919a/c.html",
+          "date": "2026-07-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c86735ac3f076c",
+          "source": "新华社",
+          "title": "古巴外长：美国政府正为对古动武“试探舆论”",
+          "url": "https://www.news.cn/20260717/c75470773b5e44608a239444275294f0/c.html",
+          "date": "2026-07-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9cf155c9e88042",
+          "source": "新华社",
+          "title": "外商投资中国新动向",
+          "url": "https://www.news.cn/fortune/20260717/1083cbb626434eebb83ed04d9b35c563/c.html",
           "date": "2026-07-17",
           "keyword": "综合时政"
         },
@@ -21968,10 +22008,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "39dd9b881b4a64",
+          "id": "c6fb4c13f477f0",
           "source": "新华社",
           "title": "巴西外长斥鲁比奥“粗鲁”攻击卢拉 加征关税不正当",
-          "url": "https://www.news.cn/world/20260717/bec1819ec2ed40168237a641090c6231/c.html",
+          "url": "https://www.news.cn/20260717/04a9cb36ca0d453da87ecd0b357e8418/c.html",
           "date": "2026-07-17",
           "keyword": "综合时政"
         },
@@ -21984,10 +22024,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "f32c78d13ebdb5",
+          "id": "0a324719f7194a",
           "source": "新华社",
           "title": "欧盟要求谷歌开放安卓AI功能并共享搜索数据",
-          "url": "https://www.news.cn/world/20260717/aa6f1b1182964153a9f3ae4f1867c12b/c.html",
+          "url": "https://www.news.cn/20260717/62b03aa0c92e48a394b24bd03b40697b/c.html",
           "date": "2026-07-17",
           "keyword": "综合时政"
         },
@@ -22004,6 +22044,14 @@
           "source": "新华社",
           "title": "科威特防空系统拦截32架无人机",
           "url": "https://www.news.cn/20260717/5990e4a2f43b479ea27d4e2dc8af974b/c.html",
+          "date": "2026-07-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1d1692d7fe805f",
+          "source": "新华社",
+          "title": "美军在阿曼湾对一艘油轮登船检查",
+          "url": "https://www.news.cn/20260717/3e2f41e6b382439183452890e32f724b/c.html",
           "date": "2026-07-17",
           "keyword": "综合时政"
         },
@@ -22029,65 +22077,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 29.7,
+          "duration": 9.3,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260717.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 2.7
+          "duration": 3.1
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 14,
-          "duration": 3.5
+          "count": 20,
+          "duration": 2.8
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 13.3
+          "duration": 22.8
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 5.9
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 20,
-          "duration": 1.9
+          "duration": 1.4
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.7
+          "duration": 18.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.9
+          "duration": 3.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.7
+          "duration": 9.3
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 72.0
+          "duration": 45.6
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-17T07:02:07+08:00"
+  "generatedAt": "2026-07-17T08:10:19+08:00"
 }
