@@ -23438,7 +23438,83 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 78.7
         }
       ]
+    },
+    {
+      "date": "2026-07-18",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 0
+        }
+      ],
+      "articles": [],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 19.9,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260718.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.2,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202607/18/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.6
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 17.5
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.1
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.1,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202607/18/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.4
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.1
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.2
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 49.9
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-07-17T22:30:04+08:00"
+  "generatedAt": "2026-07-18T00:14:45+08:00"
 };
