@@ -23441,40 +23441,580 @@
     },
     {
       "date": "2026-07-18",
-      "keyword": "今日时政",
+      "keyword": "人工智能",
       "keywords": [
         {
-          "name": "今日时政",
-          "count": 0
+          "name": "人工智能",
+          "count": 18
+        },
+        {
+          "name": "习近平",
+          "count": 11
+        },
+        {
+          "name": "教育",
+          "count": 2
+        },
+        {
+          "name": "朝鲜",
+          "count": 2
         }
       ],
-      "articles": [],
+      "articles": [
+        {
+          "id": "0f7cce86e74e46",
+          "source": "人民日报",
+          "title": "《人工智能合作发展行动计划》发布",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169473.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "89a7d9fc84bda3",
+          "source": "人民日报",
+          "title": "《国际人工智能伦理治理行动计划》发布",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169474.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "9cd2cf19cd1f2a",
+          "source": "人民日报",
+          "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169403.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "0fcc947b33eba4",
+          "source": "人民日报",
+          "title": "二〇二六世界人工智能大会暨人工智能全球治理高级别会议主席声明",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169469.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "49556b441e05ec",
+          "source": "人民日报",
+          "title": "携手推动全球人工智能发展向上向善、造福人类（和音）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169470.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "e16fcdffbe687a",
+          "source": "人民日报",
+          "title": "携手构建公正合理的全球人工智能治理体系",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169468.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "67e1935bffff75",
+          "source": "光明日报",
+          "title": "2026世界人工智能大会暨人工智能全球治理高级别会议主席声明",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19581.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "4f5e5237f89ef6",
+          "source": "光明日报",
+          "title": "《人工智能合作发展行动计划》发布",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19582.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "730eb738bd0bd9",
+          "source": "光明日报",
+          "title": "《全球人工智能创新指数报告2026》发布",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19585.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "984427dd6039c3",
+          "source": "光明日报",
+          "title": "《国际人工智能伦理治理行动计划》发布",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19583.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "479a6af24d023a",
+          "source": "光明日报",
+          "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19596.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "baa82e80d03b80",
+          "source": "光明日报",
+          "title": "携手构建公正合理的全球人工智能治理体系",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19580.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "8c639e98ed8884",
+          "source": "新华社",
+          "title": "习近平主席引领人工智能发展“以人为本、向上向善”",
+          "url": "https://www.news.cn/politics/leaders/20260718/158854141c0d45f1ab9f208cc5a11a41/c.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "d8918a1a5e4c0a",
+          "source": "新华社",
+          "title": "共奏人工智能发展全球合作的交响",
+          "url": "https://www.news.cn/politics/leaders/20260718/2eaeac5c52254485bf9c7bfcfaf68f75/c.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "958ce18d96895b",
+          "source": "新华社",
+          "title": "把握应对人工智能机遇挑战 共创人类社会更加美好未来",
+          "url": "https://www.news.cn/politics/leaders/20260718/17cd720ba14a420ab71095624706d771/c.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "39214508595239",
+          "source": "新华社",
+          "title": "携手构建公正合理的全球人工智能治理体系",
+          "url": "https://www.news.cn/politics/leaders/20260718/1b3fe5199e32496f9b0219d4d9dc6913/c.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "bb20d66348bfd9",
+          "source": "新华社",
+          "title": "新华社评论员：让人工智能不断增进全人类福祉、推动人类文明进步",
+          "url": "https://www.news.cn/politics/20260718/ed8c924c2e61420b99a43ed40271f7df/c.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "c886690b523866",
+          "source": "新华社",
+          "title": "近镜头｜读懂习近平主席的人工智能“千里马”之喻",
+          "url": "https://www.news.cn/politics/leaders/20260718/adb414efd0294715bc17f7eb849bf469/c.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "590a059dbba786",
+          "source": "人民日报",
+          "title": "习近平会见柬埔寨首相洪玛奈",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169406.html",
+          "date": "2026-07-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "7886e4abf255b3",
+          "source": "人民日报",
+          "title": "习近平会见泰国总理阿努廷",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169405.html",
+          "date": "2026-07-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "dcc4311a572a6e",
+          "source": "人民日报",
+          "title": "习近平会见联合国秘书长古特雷斯",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169407.html",
+          "date": "2026-07-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "bb23f44e51092c",
+          "source": "人民日报",
+          "title": "坚持以习近平总书记关于国家粮食安全重要论述精神为指导 推动粮食安全保障法全面有效实施",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169425.html",
+          "date": "2026-07-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "2769711b6fcc32",
+          "source": "光明日报",
+          "title": "习近平会见柬埔寨首相洪玛奈",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19599.html",
+          "date": "2026-07-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "0cd2e81dd2066d",
+          "source": "光明日报",
+          "title": "习近平会见泰国总理阿努廷",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19598.html",
+          "date": "2026-07-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "d2d7ba4ced34eb",
+          "source": "光明日报",
+          "title": "习近平会见联合国秘书长古特雷斯",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19600.html",
+          "date": "2026-07-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "fdf2dd61fa87a9",
+          "source": "人民日报",
+          "title": "持续一体推进学查改 确保学习教育质效",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169424.html",
+          "date": "2026-07-18",
+          "keyword": "教育"
+        },
+        {
+          "id": "f82501491224fc",
+          "source": "人民日报",
+          "title": "王沪宁对朝鲜进行正式友好访问",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169417.html",
+          "date": "2026-07-18",
+          "keyword": "朝鲜"
+        },
+        {
+          "id": "7d034539eb101e",
+          "source": "光明日报",
+          "title": "持续一体推进学查改 确保学习教育质效",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19577.html",
+          "date": "2026-07-18",
+          "keyword": "教育"
+        },
+        {
+          "id": "8690ffc0591d93",
+          "source": "光明日报",
+          "title": "王沪宁对朝鲜进行正式友好访问",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19576.html",
+          "date": "2026-07-18",
+          "keyword": "朝鲜"
+        },
+        {
+          "id": "95325a77618fd5",
+          "source": "人民日报",
+          "title": "《智能体互信互联互操作全球合作倡议》发布",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169475.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c92cb0b692981f",
+          "source": "人民日报",
+          "title": "中巴呼吁美伊双方尽快停火复谈",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169472.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0d673e66a0b65f",
+          "source": "人民日报",
+          "title": "乌江之畔 加紧救援",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169429.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5fc67a9aaf85be",
+          "source": "人民日报",
+          "title": "促进团结进步 昂扬奋斗力量（权威发布）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169431.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7d6a3029cb69f3",
+          "source": "人民日报",
+          "title": "全国工会系统深入开展“劳模工匠助企行”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169433.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ba4becb9f621e8",
+          "source": "人民日报",
+          "title": "加强土壤、地下水和农业农村生态环境保护",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169432.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "54c0b2b2db2ace",
+          "source": "人民日报",
+          "title": "围绕中心 依法履职 把制度优势更好转化为治理效能",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169416.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f787bd002501fb",
+          "source": "人民日报",
+          "title": "外资对我国投资总体表现向好（权威发布）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169419.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f23a7d3d020762",
+          "source": "人民日报",
+          "title": "宏观政策靠前发力应对有力（年中经济观察）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169418.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7322452fbf4c39",
+          "source": "人民日报",
+          "title": "王毅分别会见联合国秘书长古特雷斯、俄罗斯总统办公厅副主任奥列什金",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169471.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a3bbca28a05fcb",
+          "source": "人民日报",
+          "title": "科学组织搜救 加强监测预警和巡查排险 切实保障人民群众生命财产安全",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169404.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9e27a43a60e2bd",
+          "source": "人民日报",
+          "title": "第十六次全国检察工作会议在京召开",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169427.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2b2da80276bce3",
+          "source": "人民日报",
+          "title": "落实责任 保障安全（今日谈）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169430.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8529cdc77f894d",
+          "source": "人民日报",
+          "title": "重庆彭水县发生一起山体崩塌",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169428.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "179fd2f339dd6e",
+          "source": "人民日报",
+          "title": "高质量建设自贸试验区 加快构建向北开放重要桥头堡",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169426.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "62aa87ad644569",
+          "source": "光明日报",
+          "title": "“在高质量发展中保障和改善民生”形势政策系列报告会第四场报告会在北京举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19578.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "540fd05db18d0c",
+          "source": "光明日报",
+          "title": "“敖仓·科技语料库”发布",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19587.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3780ab661153f3",
+          "source": "光明日报",
+          "title": "《智能体互信互联互操作全球合作倡议》发布",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19584.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "627b85d6734e6e",
+          "source": "光明日报",
+          "title": "为高校毕业生高质量就业保驾护航",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19579.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6183a0b43f66e5",
+          "source": "光明日报",
+          "title": "以检察履职守护百姓餐桌安全",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19574.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9843d58518d049",
+          "source": "光明日报",
+          "title": "促进团结进步 昂扬奋斗力量",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19570.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9fef848d8833da",
+          "source": "光明日报",
+          "title": "围绕中心 依法履职 把制度优势更好转化为治理效能",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19575.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3c2f84b5c06dff",
+          "source": "光明日报",
+          "title": "夏季稻香风光旖旎",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19572.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "657785dd0fbaf6",
+          "source": "光明日报",
+          "title": "外汇市场活力和韧性持续提升",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19573.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7cff98f813b89c",
+          "source": "光明日报",
+          "title": "磐石·科学基础大模型2.0发布",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19586.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f9d33b7c0c9f63",
+          "source": "光明日报",
+          "title": "科学组织搜救 加强监测预警和巡查排险 切实保障人民群众生命财产安全",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19597.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5187323b4f9249",
+          "source": "光明日报",
+          "title": "让文明之花绽放山乡沃野",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19571.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a364d77d08c6f8",
+          "source": "新华社",
+          "title": "伊朗多地遭美军袭击",
+          "url": "https://www.news.cn/20260718/1fe926c3586844afaec07dd98ba51620/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ff95f9bf5fe4f8",
+          "source": "新华社",
+          "title": "克罗地亚警方销毁多瑙河畔两枚二战时期航弹",
+          "url": "https://www.news.cn/20260718/d1a5056ba3ca47bdb80da36a4067f15d/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "03f387a5313d92",
+          "source": "新华社",
+          "title": "决赛首设中场表演 或将打破竞赛规则",
+          "url": "https://www.news.cn/sports/20260718/c00e52f2b9e54cb49be6a19bb3112f48/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4e2613070a90f5",
+          "source": "新华社",
+          "title": "切实保障人民群众生命财产安全",
+          "url": "https://www.news.cn/politics/leaders/20260718/701507b5a7ad4e1095f706f20b858538/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b7fc0f0acf453b",
+          "source": "新华社",
+          "title": "墨西哥南部海域7.4级地震暂无人员伤亡",
+          "url": "https://www.news.cn/20260718/584316f6ceed47d28ff7ff11ef8de782/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7af0fbcbf28dcf",
+          "source": "新华社",
+          "title": "墨西哥南部海域发生7.4级地震 海啸预警已取消",
+          "url": "https://www.news.cn/world/20260718/6d1f7b03fc924b98937f96f7ddee7f79/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "67bfafefe97031",
+          "source": "新华社",
+          "title": "委内瑞拉地震死亡人数升至5069人",
+          "url": "https://www.news.cn/20260718/3b6bf7e71aa947a79b0d5f6cc365f0f4/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "723878efdc74f5",
+          "source": "新华社",
+          "title": "美军对伊朗发动新一轮打击",
+          "url": "https://www.news.cn/20260718/c89490f97ad34002b5b30d858a3aaee6/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e4714827b7c390",
+          "source": "新华社",
+          "title": "重庆彭水县山体崩塌 现场加紧救援",
+          "url": "https://www.news.cn/photo/20260718/591deb9a3e134eb7872d437673c7ee7d/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5bb338d6c75724",
+          "source": "新华社",
+          "title": "默茨：德国将首次派常规部队参与法国核演习",
+          "url": "https://www.news.cn/20260718/35dd0f3988a2452c951e4e19e3abad39/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        }
+      ],
       "sourceStatus": [
         {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 19.9,
+          "duration": 40.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260718.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.2,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202607/18/node_01.html"
+          "status": "ok",
+          "count": 27,
+          "duration": 2.1
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 0,
-          "duration": 2.6
+          "count": 16,
+          "duration": 2.7
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 17.5
+          "duration": 32.5
         },
         {
           "source": "求是",
@@ -23484,37 +24024,36 @@
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.1,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202607/18/node_01.html"
+          "status": "ok",
+          "count": 23,
+          "duration": 1.9
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.4
+          "duration": 13.6
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.1
+          "duration": 2.8
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.2
+          "duration": 8.6
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 49.9
+          "duration": 73.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-18T00:14:45+08:00"
+  "generatedAt": "2026-07-18T06:55:56+08:00"
 }
