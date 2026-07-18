@@ -23445,7 +23445,7 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "人工智能",
-          "count": 21
+          "count": 20
         },
         {
           "name": "习近平",
@@ -23453,10 +23453,10 @@ window.CURRENT_AFFAIRS_DATA = {
         },
         {
           "name": "经济",
-          "count": 3
+          "count": 4
         },
         {
-          "name": "高质量发展",
+          "name": "机器人",
           "count": 2
         },
         {
@@ -23590,14 +23590,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "人工智能"
         },
         {
-          "id": "39214508595239",
-          "source": "新华社",
-          "title": "携手构建公正合理的全球人工智能治理体系",
-          "url": "https://www.news.cn/politics/leaders/20260718/1b3fe5199e32496f9b0219d4d9dc6913/c.html",
-          "date": "2026-07-18",
-          "keyword": "人工智能"
-        },
-        {
           "id": "bb20d66348bfd9",
           "source": "新华社",
           "title": "新华社评论员：让人工智能不断增进全人类福祉、推动人类文明进步",
@@ -23726,6 +23718,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
+          "id": "3d3930c8d0e3e2",
+          "source": "新华社",
+          "title": "全球瞭望｜新加坡学者说中国经济正转向新的增长格局",
+          "url": "https://www.news.cn/world/20260718/849e1543b0344e96a865336aad21d1d6/c.html",
+          "date": "2026-07-18",
+          "keyword": "经济"
+        },
+        {
           "id": "fdf2dd61fa87a9",
           "source": "人民日报",
           "title": "持续一体推进学查改 确保学习教育质效",
@@ -23740,14 +23740,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169417.html",
           "date": "2026-07-18",
           "keyword": "朝鲜"
-        },
-        {
-          "id": "62aa87ad644569",
-          "source": "光明日报",
-          "title": "“在高质量发展中保障和改善民生”形势政策系列报告会第四场报告会在北京举行",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19578.html",
-          "date": "2026-07-18",
-          "keyword": "高质量发展"
         },
         {
           "id": "7d034539eb101e",
@@ -23766,12 +23758,20 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "朝鲜"
         },
         {
-          "id": "c9b6ca3aed45f0",
+          "id": "c34c8d75c52990",
           "source": "新华社",
-          "title": "宁夏煤业践行伟大号召赋能高质量发展纪实",
-          "url": "http://nx.news.cn/20260718/2c38a192ed154f82a1f76fbeeec8ddbb/c.html",
+          "title": "世界模型重塑机器人“智慧大脑”",
+          "url": "https://www.news.cn/tech/20260718/56ab6f2431744e789fde50e08c262b22/c.html",
           "date": "2026-07-18",
-          "keyword": "高质量发展"
+          "keyword": "机器人"
+        },
+        {
+          "id": "6e3325cfa6f365",
+          "source": "新华社",
+          "title": "智能工业机器人助力新疆新能源项目施工",
+          "url": "https://www.news.cn/tech/20260718/961438415f814278816dbf753efc0959/c.html",
+          "date": "2026-07-18",
+          "keyword": "机器人"
         },
         {
           "id": "60dd9c03fd57d5",
@@ -23894,6 +23894,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "62aa87ad644569",
+          "source": "光明日报",
+          "title": "“在高质量发展中保障和改善民生”形势政策系列报告会第四场报告会在北京举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19578.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "540fd05db18d0c",
           "source": "光明日报",
           "title": "“敖仓·科技语料库”发布",
@@ -23990,6 +23998,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "48a5b9d4803212",
+          "source": "新华社",
+          "title": "2026年上半年海南出入境人员160.3万人次",
+          "url": "https://www.news.cn/20260718/f87b9ab40ef14344871022257b18673f/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d883dcce417005",
           "source": "新华社",
           "title": "4架无人机在美驻伊拉克埃尔比勒领馆附近被击落",
@@ -24022,10 +24038,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d757601438b0a4",
+          "id": "01bcba5d9097dc",
           "source": "新华社",
           "title": "中国足协发布有关申思等“禁足”人员的情况通报",
-          "url": "https://www.news.cn/sports/20260718/d724bd491f334542a35dedcdfa9de0d5/c.html",
+          "url": "https://www.news.cn/20260718/318e1ffd1a0e4fed86acce7bbc71beec/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24070,10 +24086,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "f6738aee082686",
+          "source": "新华社",
+          "title": "俄一物流中心遭无人机袭击7人死亡",
+          "url": "https://www.news.cn/20260718/c5e6ff95a2f74454bbbeb49fb51e5683/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fa0f0de017b252",
+          "source": "新华社",
+          "title": "俄罗斯抗议爱沙尼亚拆除苏联阵亡官兵纪念碑",
+          "url": "https://www.news.cn/20260718/9d7d11f5c4d0406c9e10dde84cea09fa/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "ff95f9bf5fe4f8",
           "source": "新华社",
           "title": "克罗地亚警方销毁多瑙河畔两枚二战时期航弹",
           "url": "https://www.news.cn/20260718/d1a5056ba3ca47bdb80da36a4067f15d/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "39f65b8153c494",
+          "source": "新华社",
+          "title": "全国“两优一先”风采录丨余小平：扎根田野 实干兴村",
+          "url": "https://www.news.cn/politics/20260718/571d299d069f44ae87fd40ec364b407a/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24094,6 +24134,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "061331126e6af2",
+          "source": "新华社",
+          "title": "加拿大野火烟雾或波及世界杯决赛",
+          "url": "https://www.news.cn/20260718/ec73c8443e0440e3895b4c92d104f86f/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "58816be79bcbd8",
+          "source": "新华社",
+          "title": "北京福建会客厅荔城推介周活动在京启幕",
+          "url": "https://www.news.cn/politics/20260718/1364197b10b744959a85358c6b6208fc/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "0610a9087ff939",
           "source": "新华社",
           "title": "国家 发改委安排3000万元支持重庆灾后应急恢复",
@@ -24102,18 +24158,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "b7fc0f0acf453b",
+          "id": "7826ca8f3fa41f",
           "source": "新华社",
-          "title": "墨西哥南部海域7.4级地震暂无人员伤亡",
-          "url": "https://www.news.cn/20260718/584316f6ceed47d28ff7ff11ef8de782/c.html",
+          "title": "委内瑞拉地震死亡人数升至5069人",
+          "url": "https://www.news.cn/world/20260718/28e1f8174900422b85eaaec00c3f53b1/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
         {
-          "id": "67bfafefe97031",
+          "id": "253d09007051a4",
           "source": "新华社",
-          "title": "委内瑞拉地震死亡人数升至5069人",
-          "url": "https://www.news.cn/20260718/3b6bf7e71aa947a79b0d5f6cc365f0f4/c.html",
+          "title": "我国学者破译皮肤衰老底层密码",
+          "url": "https://www.news.cn/world/20260718/b7eaa5726b4f4d51a3a59b124765f70e/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24122,6 +24178,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "我在景德镇丨王旭：瓷都逐梦，活出心之所向",
           "url": "https://www.news.cn/local/20260718/dc39e2d85b2d48caa450c7d8f01db6b8/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b9114590be17b5",
+          "source": "新华社",
+          "title": "捷克众议长将访华",
+          "url": "https://www.news.cn/20260718/36020244eb7f4011862c35b6377c1243/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f5ebf910527fde",
+          "source": "新华社",
+          "title": "新疆上半年外送电量同比增长逾25%",
+          "url": "https://www.news.cn/local/20260718/c12b4a33138a403096c2d86dafc11bac/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24146,6 +24218,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "欧盟呼吁以色列停止在约旦河西岸扩建定居点",
           "url": "https://www.news.cn/world/20260718/928e136eafba4e5f9c2a3adb2fcad977/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "554f316c860c7a",
+          "source": "新华社",
+          "title": "河北泊头：深耕绿色铸造 建设产业名城",
+          "url": "http://he.news.cn/20260718/16c78cef5dba450a8fd0d68050de7f31/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "56e8a276f2a1ac",
+          "source": "新华社",
+          "title": "泰国总理阿努廷抵达成都继续访华行程",
+          "url": "https://www.news.cn/20260718/973f0f08b7554b2c828082a7eff24f01/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24182,10 +24270,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "723878efdc74f5",
+          "id": "6a51b59c7420be",
           "source": "新华社",
           "title": "美军对伊朗发动新一轮打击",
-          "url": "https://www.news.cn/20260718/c89490f97ad34002b5b30d858a3aaee6/c.html",
+          "url": "https://www.news.cn/world/20260718/49255e5c7d334e32a0672c453baf110b/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8fc0dc0f1bc804",
+          "source": "新华社",
+          "title": "美军连续七晚打击伊朗 伊打击多处美军基地",
+          "url": "https://www.news.cn/world/20260718/76c977c555e14e5491274d70f636b9eb/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24238,10 +24334,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "5bb338d6c75724",
+          "id": "d0f546461e8d59",
+          "source": "新华社",
+          "title": "首届世界华语文学奖在港启动 总奖金达400万港元",
+          "url": "https://www.news.cn/gangao/20260718/5d78376402a74734ae0d9a086de2dfed/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a915e5e4ed2c8c",
           "source": "新华社",
           "title": "默茨：德国将首次派常规部队参与法国核演习",
-          "url": "https://www.news.cn/20260718/35dd0f3988a2452c951e4e19e3abad39/c.html",
+          "url": "https://www.news.cn/world/20260718/e381473e59864baa8e97bb99c645c602/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24259,65 +24363,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 70.8,
+          "duration": 71.4,
           "message": "HTTPSConnectionPool(host='tv.cctv.com', port=443): Read timed out. (read timeout=22)"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 27,
-          "duration": 3.3
+          "duration": 3.0
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 40,
-          "duration": 2.8
+          "count": 53,
+          "duration": 2.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 16.4
+          "duration": 51.6
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 3,
-          "duration": 6.2
+          "duration": 5.9
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 1.9
+          "duration": 1.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.9
+          "duration": 14.2
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.4
+          "duration": 5.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 9.7
+          "duration": 9.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 4,
-          "duration": 65.1
+          "duration": 54.2
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-18T12:46:56+08:00"
+  "generatedAt": "2026-07-18T15:00:06+08:00"
 };
