@@ -23445,7 +23445,7 @@
       "keywords": [
         {
           "name": "人工智能",
-          "count": 20
+          "count": 21
         },
         {
           "name": "习近平",
@@ -23465,6 +23465,10 @@
         },
         {
           "name": "教育",
+          "count": 2
+        },
+        {
+          "name": "科技",
           "count": 2
         }
       ],
@@ -23566,6 +23570,14 @@
           "keyword": "人工智能"
         },
         {
+          "id": "d86a241e60ec50",
+          "source": "新华社",
+          "title": "2026世界人工智能大会：硬核“黑科技” 有趣又有料",
+          "url": "https://www.news.cn/tech/20260718/5005b079e36244e583e94ccb62cd74dd/c.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
           "id": "39581b3acfd51f",
           "source": "新华社",
           "title": "习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话侧记",
@@ -23598,14 +23610,6 @@
           "keyword": "人工智能"
         },
         {
-          "id": "5dee3bdba543bb",
-          "source": "新华社",
-          "title": "近镜头｜共奏人工智能发展全球合作的交响",
-          "url": "https://www.news.cn/world/20260718/4ff522b5643d49f4a70dad1059d88d14/c.html",
-          "date": "2026-07-18",
-          "keyword": "人工智能"
-        },
-        {
           "id": "c886690b523866",
           "source": "新华社",
           "title": "近镜头｜读懂习近平主席的人工智能“千里马”之喻",
@@ -23618,6 +23622,14 @@
           "source": "求是",
           "title": "习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话侧记",
           "url": "https://www.qstheory.cn/20260718/4b46ffe1fbec49fbab4cd2deb81e196c/c.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "599251f4bdd604",
+          "source": "求是",
+          "title": "推动人工智能以人为本、向上向善",
+          "url": "https://www.qstheory.cn/20260718/1e0ade213feb44b6a9ec45b85a061c59/c.html",
           "date": "2026-07-18",
           "keyword": "人工智能"
         },
@@ -23750,6 +23762,14 @@
           "keyword": "教育"
         },
         {
+          "id": "540fd05db18d0c",
+          "source": "光明日报",
+          "title": "“敖仓·科技语料库”发布",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19587.html",
+          "date": "2026-07-18",
+          "keyword": "科技"
+        },
+        {
           "id": "7d034539eb101e",
           "source": "光明日报",
           "title": "持续一体推进学查改 确保学习教育质效",
@@ -23774,10 +23794,10 @@
           "keyword": "机器人"
         },
         {
-          "id": "60dd9c03fd57d5",
+          "id": "154e89bc671a69",
           "source": "中国政府网",
-          "title": "重庆彭水县发生一起山体崩塌 各方组织力量全力进行抢险搜救、安置救助等工作",
-          "url": "https://www.gov.cn/lianbo/202607/content_7075990.htm",
+          "title": "张国清赶赴重庆彭水县指导山体崩塌灾害现场搜救和应急处置工作",
+          "url": "https://www.gov.cn/yaowen/liebiao/202607/content_7076014.htm",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -23902,14 +23922,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "540fd05db18d0c",
-          "source": "光明日报",
-          "title": "“敖仓·科技语料库”发布",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19587.html",
-          "date": "2026-07-18",
-          "keyword": "综合时政"
-        },
-        {
           "id": "3780ab661153f3",
           "source": "光明日报",
           "title": "《智能体互信互联互操作全球合作倡议》发布",
@@ -23990,6 +24002,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "eb7b4f2da215ee",
+          "source": "学习强国",
+          "title": "张国清赶赴重庆彭水县指导山体崩塌灾害现场搜救和应急处置工作",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=15380640826212983325&item_id=15380640826212983325",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1efd37e7180c2c",
           "source": "广东发布",
           "title": "孟凡利主持召开省政府常务会议",
@@ -24054,14 +24074,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "5e361a343e0482",
-          "source": "新华社",
-          "title": "中国科学家首获门捷列夫国际基础科学奖",
-          "url": "https://www.news.cn/world/20260718/6e059aae29f043a9b319d9df2adbaa16/c.html",
-          "date": "2026-07-18",
-          "keyword": "综合时政"
-        },
-        {
           "id": "01bcba5d9097dc",
           "source": "新华社",
           "title": "中国足协发布有关申思等“禁足”人员的情况通报",
@@ -24074,6 +24086,14 @@
           "source": "新华社",
           "title": "中国足协：阿尔马赞不再担任U16国足主帅",
           "url": "https://www.news.cn/20260718/c1ca03dc65c54f718abe00b167c3df48/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "497f8bf51217a6",
+          "source": "新华社",
+          "title": "中老铁路助力暑期跨境游升温",
+          "url": "https://www.news.cn/local/20260718/cb752099384346e58736d2719d791810/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24098,6 +24118,14 @@
           "source": "新华社",
           "title": "从看风景到看未来——“中国游”的“新引力”",
           "url": "https://www.news.cn/world/20260718/2337766be23c43e2aeeca4f2b11a4f26/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0d114d0241ae99",
+          "source": "新华社",
+          "title": "以更扎实有效合作推进“一带一路”建设",
+          "url": "https://www.news.cn/politics/20260718/0b2e759b759c46848b397afad45455be/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24182,6 +24210,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "398e5ac64d8929",
+          "source": "新华社",
+          "title": "广西贵港：部分企业逐步恢复灾后生产",
+          "url": "https://www.news.cn/photo/20260718/164faca8c27f4954b0860fcdde0496e8/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "65b1281c12b8a0",
           "source": "新华社",
           "title": "张国清赶赴重庆彭水县指导山体崩塌灾害现场搜救和应急处置工作",
@@ -24194,14 +24230,6 @@
           "source": "新华社",
           "title": "我国学者破译皮肤衰老底层密码",
           "url": "https://www.news.cn/world/20260718/b7eaa5726b4f4d51a3a59b124765f70e/c.html",
-          "date": "2026-07-18",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "0534ef64ebb5b9",
-          "source": "新华社",
-          "title": "我在景德镇丨王旭：瓷都逐梦，活出心之所向",
-          "url": "https://www.news.cn/local/20260718/dc39e2d85b2d48caa450c7d8f01db6b8/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24262,10 +24290,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "3f5b3754c2dfca",
+          "id": "93d61fde240544",
           "source": "新华社",
-          "title": "欧盟拟调整碳排放交易体系 减轻企业脱碳压力",
-          "url": "https://www.news.cn/world/20260718/9a9337c3518a47cd95ad14dbf3c8fc63/c.html",
+          "title": "江苏举行高考“录取开放日”活动",
+          "url": "https://www.news.cn/photo/20260718/02e3c1a6d0e642c0bf17c5789926125c/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24294,6 +24322,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "676ff2aa1dc85a",
+          "source": "新华社",
+          "title": "特朗普帖文“优先访问权”拟售每月10万美元",
+          "url": "https://www.news.cn/world/20260718/a4fe2dc2e87d4cb8a65eed6480e6e297/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "cd5803c2110b86",
           "source": "新华社",
           "title": "监测机构：加拿大野火烟雾或波及世界杯决赛举办地",
@@ -24306,14 +24342,6 @@
           "source": "新华社",
           "title": "瞭望·治国理政纪事丨让绿水青山永远成为福建骄傲",
           "url": "https://www.news.cn/politics/leaders/20260718/cb9c6a0f09bb41499bf00e0349f38dcf/c.html",
-          "date": "2026-07-18",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "6a51b59c7420be",
-          "source": "新华社",
-          "title": "美军对伊朗发动新一轮打击",
-          "url": "https://www.news.cn/world/20260718/49255e5c7d334e32a0672c453baf110b/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24342,14 +24370,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "edb7d9efa33cbb",
-          "source": "新华社",
-          "title": "西班牙东北部林火已毁地1.2万公顷",
-          "url": "https://www.news.cn/world/20260718/c0290f9e619042e39bca9f25a3e58c88/c.html",
-          "date": "2026-07-18",
-          "keyword": "综合时政"
-        },
-        {
           "id": "931e4f2ee9fe7d",
           "source": "新华社",
           "title": "观风察雨守安澜——气象部门防汛防台风扫描",
@@ -24368,7 +24388,7 @@
         {
           "id": "e306b571f7111e",
           "source": "新华社",
-          "title": "重庆发布地质灾害气象风险橙色预警",
+          "title": "重庆地质灾害气象风险橙色预警",
           "url": "https://www.news.cn/local/20260718/f0a33d0e4cdd45dd8179cb1f79641e86/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
@@ -24419,14 +24439,14 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 20.7,
-          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260718.shtml"
+          "duration": 71.4,
+          "message": "HTTPSConnectionPool(host='tv.cctv.com', port=443): Read timed out. (read timeout=22)"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 27,
-          "duration": 1.4
+          "duration": 2.4
         },
         {
           "source": "新华社",
@@ -24438,46 +24458,46 @@
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 30.9
+          "duration": 25.8
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 3,
-          "duration": 6.0
+          "count": 4,
+          "duration": 6.3
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 1.5
+          "duration": 2.1
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.1
+          "duration": 14.6
         },
         {
           "source": "学习强国",
           "status": "ok",
-          "count": 0,
-          "duration": 3.6
+          "count": 1,
+          "duration": 3.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 7.9
+          "duration": 10.3
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 4,
-          "duration": 66.5
+          "duration": 58.0
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-18T16:49:49+08:00"
+  "generatedAt": "2026-07-18T18:16:56+08:00"
 }
