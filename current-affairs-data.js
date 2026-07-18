@@ -23460,6 +23460,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 3
         },
         {
+          "name": "高质量发展",
+          "count": 2
+        },
+        {
           "name": "机器人",
           "count": 2
         },
@@ -23834,6 +23838,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "教育"
         },
         {
+          "id": "62aa87ad644569",
+          "source": "光明日报",
+          "title": "“在高质量发展中保障和改善民生”形势政策系列报告会第四场报告会在北京举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19578.html",
+          "date": "2026-07-18",
+          "keyword": "高质量发展"
+        },
+        {
           "id": "540fd05db18d0c",
           "source": "光明日报",
           "title": "“敖仓·科技语料库”发布",
@@ -23848,6 +23860,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19577.html",
           "date": "2026-07-18",
           "keyword": "教育"
+        },
+        {
+          "id": "ffd39d862442ac",
+          "source": "新华社",
+          "title": "三江源筑牢生态根基推动高质量发展观察",
+          "url": "https://www.news.cn/politics/20260718/79eed7f5f2174e918b98d45c18778158/c.html",
+          "date": "2026-07-18",
+          "keyword": "高质量发展"
         },
         {
           "id": "c34c8d75c52990",
@@ -23974,14 +23994,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "高质量建设自贸试验区 加快构建向北开放重要桥头堡",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202607/18/content_30169426.html",
-          "date": "2026-07-18",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "62aa87ad644569",
-          "source": "光明日报",
-          "title": "“在高质量发展中保障和改善民生”形势政策系列报告会第四场报告会在北京举行",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19578.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24218,14 +24230,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "13c10971d57c6e",
-          "source": "新华社",
-          "title": "内蒙古自治区第36届旅游那达慕开幕",
-          "url": "https://www.news.cn/photo/20260718/8200d1176d3846f0a1a814063abd7045/c.html",
-          "date": "2026-07-18",
-          "keyword": "综合时政"
-        },
-        {
           "id": "4e2613070a90f5",
           "source": "新华社",
           "title": "切实保障人民群众生命财产安全",
@@ -24292,7 +24296,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "d84dca31cc21c4",
           "source": "新华社",
-          "title": "彭水山体崩塌最新救援进展及救援方案",
+          "title": "彭水山体崩塌救援进展及救援方案",
           "url": "https://www.news.cn/local/20260718/d9aad0f74f66428480102ff4ee8f9ab5/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
@@ -24444,7 +24448,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "e306b571f7111e",
           "source": "新华社",
-          "title": "重庆地灾气象风险橙色预警",
+          "title": "重庆地灾气象风险橙警",
           "url": "https://www.news.cn/local/20260718/f0a33d0e4cdd45dd8179cb1f79641e86/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
@@ -24559,64 +24563,64 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "ok",
           "count": 14,
-          "duration": 0.6
+          "duration": 0.9
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 27,
-          "duration": 2.1
+          "duration": 2.0
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.9
+          "duration": 2.4
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 39.1
+          "duration": 24.8
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 4,
-          "duration": 6.2
+          "duration": 6.9
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 2.2
+          "duration": 6.2
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.8
+          "duration": 12.8
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 2,
-          "duration": 3.1
+          "duration": 2.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 14.6
+          "duration": 9.2
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 4,
-          "duration": 86.7
+          "duration": 46.9
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-18T22:24:46+08:00"
+  "generatedAt": "2026-07-18T23:51:10+08:00"
 };
