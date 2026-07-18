@@ -23452,6 +23452,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 13
         },
         {
+          "name": "经济",
+          "count": 3
+        },
+        {
           "name": "高质量发展",
           "count": 2
         },
@@ -23461,10 +23465,6 @@ window.CURRENT_AFFAIRS_DATA = {
         },
         {
           "name": "朝鲜",
-          "count": 2
-        },
-        {
-          "name": "经济",
           "count": 2
         }
       ],
@@ -23710,6 +23710,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
+          "id": "b6438781d9a27b",
+          "source": "广东发布",
+          "title": "图解：孟凡利主持召开省政府常务会议强调坚定信心 接续奋斗 扎实做好下半年各项工作 确保完成全年经济社会发展目标任务",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4926584.html",
+          "date": "2026-07-18",
+          "keyword": "经济"
+        },
+        {
+          "id": "ce7793bef0c430",
+          "source": "广东发布",
+          "title": "孟凡利主持召开省政府常务会议强调坚定信心 接续奋斗 扎实做好下半年各项工作 确保完成全年经济社会发展目标任务",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4926573.html",
+          "date": "2026-07-18",
+          "keyword": "经济"
+        },
+        {
           "id": "fdf2dd61fa87a9",
           "source": "人民日报",
           "title": "持续一体推进学查改 确保学习教育质效",
@@ -23748,14 +23764,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://epaper.gmw.cn/gmrb/html/content/202607/18/content_19576.html",
           "date": "2026-07-18",
           "keyword": "朝鲜"
-        },
-        {
-          "id": "ce7793bef0c430",
-          "source": "广东发布",
-          "title": "孟凡利主持召开省政府常务会议强调坚定信心 接续奋斗 扎实做好下半年各项工作 确保完成全年经济社会发展目标任务",
-          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4926573.html",
-          "date": "2026-07-18",
-          "keyword": "经济"
         },
         {
           "id": "c9b6ca3aed45f0",
@@ -23974,10 +23982,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "1efd37e7180c2c",
+          "source": "广东发布",
+          "title": "孟凡利主持召开省政府常务会议",
+          "url": "https://www.gd.gov.cn/gdywdt/cwhy/xwtg/content/post_4926590.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d883dcce417005",
           "source": "新华社",
           "title": "4架无人机在美驻伊拉克埃尔比勒领馆附近被击落",
           "url": "https://www.news.cn/20260718/0727d8e2df8142f3a2bb69f9ce654ecd/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ab8a82e235b28d",
+          "source": "新华社",
+          "title": "中东局势刺激国际油价涨超4%",
+          "url": "https://www.news.cn/20260718/7323b90c9b274a05bde1c3088d266b64/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -23994,6 +24018,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "中国科学家首获门捷列夫国际基础科学奖",
           "url": "https://www.news.cn/world/20260718/6e059aae29f043a9b319d9df2adbaa16/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d757601438b0a4",
+          "source": "新华社",
+          "title": "中国足协发布有关申思等“禁足”人员的情况通报",
+          "url": "https://www.news.cn/sports/20260718/d724bd491f334542a35dedcdfa9de0d5/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24022,10 +24054,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a364d77d08c6f8",
+          "id": "6c53201c2dfb7c",
           "source": "新华社",
           "title": "伊朗多地遭美军袭击",
-          "url": "https://www.news.cn/20260718/1fe926c3586844afaec07dd98ba51620/c.html",
+          "url": "https://www.news.cn/world/20260718/92eaf02b0a9d4abeb33fef9f56fd1ab2/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "89ea5a417ea09e",
+          "source": "新华社",
+          "title": "俄一物流中心遭无人机袭击 至少7人死亡24人受伤",
+          "url": "https://www.news.cn/world/20260718/3379d8b13ad44fa0aebb213ff67a3584/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24038,10 +24078,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "03f387a5313d92",
+          "source": "新华社",
+          "title": "决赛首设中场表演 或将打破竞赛规则",
+          "url": "https://www.news.cn/sports/20260718/c00e52f2b9e54cb49be6a19bb3112f48/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "4e2613070a90f5",
           "source": "新华社",
           "title": "切实保障人民群众生命财产安全",
           "url": "https://www.news.cn/politics/leaders/20260718/701507b5a7ad4e1095f706f20b858538/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0610a9087ff939",
+          "source": "新华社",
+          "title": "国家 发改委安排3000万元支持重庆灾后应急恢复",
+          "url": "https://www.news.cn/politics/20260718/8887cde40e7d48fe8dc74965eb3d0e42/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24054,14 +24110,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "7af0fbcbf28dcf",
-          "source": "新华社",
-          "title": "墨西哥南部海域发生7.4级地震 海啸预警已取消",
-          "url": "https://www.news.cn/world/20260718/6d1f7b03fc924b98937f96f7ddee7f79/c.html",
-          "date": "2026-07-18",
-          "keyword": "综合时政"
-        },
-        {
           "id": "67bfafefe97031",
           "source": "新华社",
           "title": "委内瑞拉地震死亡人数升至5069人",
@@ -24070,10 +24118,58 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "0534ef64ebb5b9",
+          "source": "新华社",
+          "title": "我在景德镇丨王旭：瓷都逐梦，活出心之所向",
+          "url": "https://www.news.cn/local/20260718/dc39e2d85b2d48caa450c7d8f01db6b8/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ce706c5afe074f",
+          "source": "新华社",
+          "title": "暖心护航求职路 山东多措助力学子逐梦",
+          "url": "https://education.news.cn/20260718/c75f7ca242554b33bf52341d7c424893/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5ca14942f51802",
+          "source": "新华社",
+          "title": "权威数读｜一周“靓”数",
+          "url": "https://www.news.cn/fortune/20260718/9dcfe873784c4bbbb252772430d65420/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "42ce569b414cb5",
+          "source": "新华社",
+          "title": "欧盟呼吁以色列停止在约旦河西岸扩建定居点",
+          "url": "https://www.news.cn/world/20260718/928e136eafba4e5f9c2a3adb2fcad977/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cbb3391c88555f",
+          "source": "新华社",
+          "title": "特朗普指责加拿大野火殃及美空气 威胁以关税追偿",
+          "url": "https://www.news.cn/world/20260718/538c08dc05d447a6bc1e026cce3dcc59/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "cd5803c2110b86",
           "source": "新华社",
           "title": "监测机构：加拿大野火烟雾或波及世界杯决赛举办地",
           "url": "https://www.news.cn/20260718/b5af918daab141dbb9eb3c913e833f4a/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dee0c32c6e70eb",
+          "source": "新华社",
+          "title": "瞭望·治国理政纪事丨让绿水青山永远成为福建骄傲",
+          "url": "https://www.news.cn/politics/leaders/20260718/cb9c6a0f09bb41499bf00e0349f38dcf/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24110,6 +24206,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "edb7d9efa33cbb",
+          "source": "新华社",
+          "title": "西班牙东北部林火已毁地1.2万公顷",
+          "url": "https://www.news.cn/world/20260718/c0290f9e619042e39bca9f25a3e58c88/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "b310acf0928ac2",
           "source": "新华社",
           "title": "追光丨世界杯“鸡肋局”：动力不足、看点不少",
@@ -24122,6 +24226,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "重庆彭水县山体崩塌 现场加紧救援",
           "url": "https://www.news.cn/photo/20260718/591deb9a3e134eb7872d437673c7ee7d/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9c903030d6f8fa",
+          "source": "新华社",
+          "title": "镜观中国·新华社国内新闻照片一周精选",
+          "url": "https://www.news.cn/photo/20260718/0bd74c742c0d4661b716ddf985b65014/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24147,65 +24259,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 50.6,
-          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260718.shtml"
+          "duration": 70.8,
+          "message": "HTTPSConnectionPool(host='tv.cctv.com', port=443): Read timed out. (read timeout=22)"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 27,
-          "duration": 2.0
+          "duration": 3.3
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 28,
-          "duration": 3.0
+          "count": 40,
+          "duration": 2.8
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 33.0
+          "duration": 16.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 3,
-          "duration": 6.4
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 1.7
+          "duration": 1.9
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.7
+          "duration": 12.9
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.3
+          "duration": 2.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 8.2
+          "duration": 9.7
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 2,
-          "duration": 74.1
+          "count": 4,
+          "duration": 65.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-18T09:55:44+08:00"
+  "generatedAt": "2026-07-18T12:46:56+08:00"
 };
