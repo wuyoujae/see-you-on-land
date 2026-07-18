@@ -23445,11 +23445,11 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "人工智能",
-          "count": 25
+          "count": 26
         },
         {
           "name": "习近平",
-          "count": 16
+          "count": 18
         },
         {
           "name": "经济",
@@ -23586,10 +23586,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "人工智能"
         },
         {
-          "id": "39581b3acfd51f",
+          "id": "127576775caa3f",
           "source": "新华社",
-          "title": "习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话侧记",
-          "url": "https://www.news.cn/politics/leaders/20260718/6338b22fed024beca70956416430c817/c.html",
+          "title": "习近平主席在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的重要讲话引发与会人士热烈反响",
+          "url": "https://www.news.cn/politics/leaders/20260718/7db6ee9d2bfd4fc391a160cce0edac76/c.html",
           "date": "2026-07-18",
           "keyword": "人工智能"
         },
@@ -23610,10 +23610,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "人工智能"
         },
         {
-          "id": "bb20d66348bfd9",
+          "id": "2bba192efb64af",
           "source": "新华社",
-          "title": "新华社评论员：让人工智能不断增进全人类福祉、推动人类文明进步",
-          "url": "https://www.news.cn/politics/20260718/ed8c924c2e61420b99a43ed40271f7df/c.html",
+          "title": "携手推动人工智能向上向善造福人类——习近平主席重要讲话为加强全球人工智能治理贡献中国智慧",
+          "url": "https://www.news.cn/politics/leaders/20260718/de20b8f3f6204db1b6e793d8d4bb45a5/c.html",
+          "date": "2026-07-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "f71f30cab8230f",
+          "source": "新华社",
+          "title": "携手构建公正合理的全球人工智能治理体系述评之一",
+          "url": "https://www.news.cn/politics/20260718/ce29639ff5ea4906bcca0f486729ceec/c.html",
           "date": "2026-07-18",
           "keyword": "人工智能"
         },
@@ -23734,6 +23742,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "广东发布",
           "title": "习近平对重庆彭水县山体崩塌作出重要指示强调 科学组织搜救 加强监测预警和巡查排险 切实保障人民群众生命财产安全 李强作出批示",
           "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4926577.html",
+          "date": "2026-07-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "c8333eb4837dea",
+          "source": "新华社",
+          "title": "各地各部门贯彻落实习近平总书记重要指示精神抓实抓细安全工作",
+          "url": "https://www.news.cn/politics/leaders/20260718/a11271339f8e4e698059689c7f06ccce/c.html",
           "date": "2026-07-18",
           "keyword": "习近平"
         },
@@ -24058,6 +24074,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "ebce0f432dbd03",
+          "source": "学习强国",
+          "title": "王毅分别会见印尼、莱索托、多米尼克客人",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=1760493544605170376&item_id=1760493544605170376",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1efd37e7180c2c",
           "source": "广东发布",
           "title": "孟凡利主持召开省政府常务会议",
@@ -24154,14 +24178,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "0d114d0241ae99",
-          "source": "新华社",
-          "title": "以更扎实有效合作推进“一带一路”建设",
-          "url": "https://www.news.cn/politics/20260718/0b2e759b759c46848b397afad45455be/c.html",
-          "date": "2026-07-18",
-          "keyword": "综合时政"
-        },
-        {
           "id": "196536b6d08a09",
           "source": "新华社",
           "title": "伊朗称打击位于科威特、巴林、约旦的美军目标",
@@ -24182,14 +24198,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "俄罗斯抗议爱沙尼亚拆除苏联阵亡官兵纪念碑",
           "url": "https://www.news.cn/20260718/9d7d11f5c4d0406c9e10dde84cea09fa/c.html",
-          "date": "2026-07-18",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "94740921eac7c2",
-          "source": "新华社",
-          "title": "俄罗斯莫斯科州遭无人机袭击 逾30人死伤",
-          "url": "https://www.news.cn/world/20260718/e09e0c1f9c8443b79fc6d44752850b0f/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24226,14 +24234,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "44dc24bda61763",
-          "source": "新华社",
-          "title": "副外长：伊朗已停止履行伊美谅解备忘录",
-          "url": "https://www.news.cn/world/20260718/0eae0c4e313d4c3dac1dbefda73b7f41/c.html",
-          "date": "2026-07-18",
-          "keyword": "综合时政"
-        },
-        {
           "id": "061331126e6af2",
           "source": "新华社",
           "title": "加拿大野火烟雾或波及世界杯决赛",
@@ -24250,18 +24250,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d3016f96480fb3",
-          "source": "新华社",
-          "title": "国家矿山安全监察局山西局监察执法八处三级调研员李海潮接受监察调查",
-          "url": "https://www.news.cn/politics/20260718/809ab996755c4feabb406e09cef15e93/c.html",
-          "date": "2026-07-18",
-          "keyword": "综合时政"
-        },
-        {
           "id": "f8bf8546a764e2",
           "source": "新华社",
           "title": "外交部发言人就英钢国有化问题答记者问",
           "url": "https://www.news.cn/world/20260718/fd28fa731a0247718fe0bc657a0a3021/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "53cdbd44522e24",
+          "source": "新华社",
+          "title": "山西省朔州市委原常委、秘书长何向荣被开除党籍和公职",
+          "url": "https://www.news.cn/legal/20260718/fa296e41dc8848f6a21ca11021ff8f31/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a737c4085394c7",
+          "source": "新华社",
+          "title": "已停止履行伊美谅解备忘录",
+          "url": "https://www.news.cn/world/20260718/80ea540b3a4847d48f31713c91a0830b/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24282,10 +24290,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "253d09007051a4",
+          "id": "d84dca31cc21c4",
           "source": "新华社",
-          "title": "我国学者破译皮肤衰老底层密码",
-          "url": "https://www.news.cn/world/20260718/b7eaa5726b4f4d51a3a59b124765f70e/c.html",
+          "title": "彭水山体崩塌最新救援进展及救援方案",
+          "url": "https://www.news.cn/local/20260718/d9aad0f74f66428480102ff4ee8f9ab5/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "41e8f542182c02",
+          "source": "新华社",
+          "title": "报告显示我国农业绿色发展水平持续向好",
+          "url": "https://www.news.cn/politics/20260718/36d542c49339451abb999feefd012775/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24310,14 +24326,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "明日看点：金靴悬念与主帅告别交织的季军战",
           "url": "https://www.news.cn/sports/20260718/4506b287e3164fb88b68225c2d37480f/c.html",
-          "date": "2026-07-18",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "d84dca31cc21c4",
-          "source": "新华社",
-          "title": "最新救援进展及救援方案",
-          "url": "https://www.news.cn/local/20260718/d9aad0f74f66428480102ff4ee8f9ab5/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24410,18 +24418,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "931e4f2ee9fe7d",
+          "id": "aaf4c1548aaaff",
           "source": "新华社",
-          "title": "观风察雨守安澜——气象部门防汛防台风扫描",
-          "url": "https://www.news.cn/politics/20260718/cedd3cb3604c48638a167bcbae650912/c.html",
+          "title": "自然资源部介绍当前地灾防御工作",
+          "url": "https://www.news.cn/politics/20260718/83aecc85a05e486698684cd503cea8b8/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
         {
-          "id": "f6a190ab66aa65",
+          "id": "931e4f2ee9fe7d",
           "source": "新华社",
-          "title": "贵州从江：侗寨暑期研学热",
-          "url": "https://www.news.cn/photo/20260718/7662a15180aa4d1d9df2eead36ba90bb/c.html",
+          "title": "观风察雨守安澜——气象部门防汛防台风扫描",
+          "url": "https://www.news.cn/politics/20260718/cedd3cb3604c48638a167bcbae650912/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24436,7 +24444,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "e306b571f7111e",
           "source": "新华社",
-          "title": "重庆地质灾害气象风险橙色预警",
+          "title": "重庆地灾气象风险橙色预警",
           "url": "https://www.news.cn/local/20260718/f0a33d0e4cdd45dd8179cb1f79641e86/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
@@ -24551,64 +24559,64 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "ok",
           "count": 14,
-          "duration": 0.5
+          "duration": 0.6
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 27,
-          "duration": 3.4
+          "duration": 2.1
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.3
+          "duration": 2.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 23.1
+          "duration": 39.1
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 4,
-          "duration": 6.3
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 2.5
+          "duration": 2.2
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.7
+          "duration": 14.8
         },
         {
           "source": "学习强国",
           "status": "ok",
-          "count": 1,
-          "duration": 3.4
+          "count": 2,
+          "duration": 3.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 9.6
+          "duration": 14.6
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 4,
-          "duration": 62.9
+          "duration": 86.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-18T21:01:39+08:00"
+  "generatedAt": "2026-07-18T22:24:46+08:00"
 };
