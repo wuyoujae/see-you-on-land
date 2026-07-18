@@ -25076,10 +25076,42 @@
           "keyword": "综合时政"
         },
         {
+          "id": "5a8c7dd3061d1c",
+          "source": "新华社",
+          "title": "俄多地遭乌无人机袭击致9死",
+          "url": "https://www.news.cn/world/20260719/9bf6b7c6331142aeabe2230a6bd608f4/c.html",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "10152d01911516",
           "source": "新华社",
           "title": "俄称乌无人机袭击致9死 乌称打击俄物流枢纽",
           "url": "https://www.news.cn/20260719/c95cf3a0bb83488d94164c91db3b50f8/c.html",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "36cfec2b5de583",
+          "source": "新华社",
+          "title": "全国田径大奖赛总决赛：男子“飞人大战”邓信锐称雄",
+          "url": "https://www.news.cn/sports/20260719/0e1d1d065dfe4184b71ac7cc52a803e4/c.html",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c972e907428bf2",
+          "source": "新华社",
+          "title": "决赛明日将启",
+          "url": "https://www.news.cn/sports/20260719/2be5fdc8b1ae43b2874e25ee8ab5fdc1/c.html",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d9cf2674e487e6",
+          "source": "新华社",
+          "title": "动画电影《八仙！》上映：讲述“八仙”成仙前故事",
+          "url": "https://www.news.cn/politics/20260719/5119ebfddaa54c65bee99ceafcc19182/c.html",
           "date": "2026-07-19",
           "keyword": "综合时政"
         },
@@ -25108,10 +25140,42 @@
           "keyword": "综合时政"
         },
         {
-          "id": "0f6ebcf1c4abe1",
+          "id": "73fad491269889",
+          "source": "新华社",
+          "title": "基辅遭弹道导弹袭击",
+          "url": "https://www.news.cn/world/20260719/ef0cda4e3b2248728215b581f6bb0f07/c.html",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "83ab6f84b1713e",
+          "source": "新华社",
+          "title": "墨西哥总统将赴美观看世界杯决赛",
+          "url": "https://www.news.cn/world/20260719/b1b20f4bfa6046ed95f1b549fb2c01b6/c.html",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bbe693aec4e922",
+          "source": "新华社",
+          "title": "热爱各有星光 第25届环青赛“追风”群像",
+          "url": "https://www.news.cn/sports/20260719/0c056ec5c8044ca593c0a1b277bb9db5/c.html",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "176825c1e25e1e",
+          "source": "新华社",
+          "title": "王楚钦/孙颖莎无缘乒乓球全锦赛混双决赛",
+          "url": "https://www.news.cn/sports/20260719/8acc65d83df34a63b467c4c13fa9f258/c.html",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ac302181f811ec",
           "source": "新华社",
           "title": "美军对伊朗发动新一轮空袭",
-          "url": "https://www.news.cn/20260719/3c77e01f5351429fb7243e54cfeda470/c.html",
+          "url": "https://www.news.cn/20260719/bbbbe8c412344c75a5591d54e42148bd/c.html",
           "date": "2026-07-19",
           "keyword": "综合时政"
         },
@@ -25132,10 +25196,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "0ee058177bbc37",
+          "id": "32ad64e1c5e58b",
           "source": "新华社",
           "title": "美发动新一轮空袭",
-          "url": "https://www.news.cn/world/20260719/3a02589d773e4fd7ae6974bbfee25a73/c.html",
+          "url": "https://www.news.cn/world/20260719/a87aba973fa943a586f1ea2465c808b5/c.html",
           "date": "2026-07-19",
           "keyword": "综合时政"
         },
@@ -25144,6 +25208,14 @@
           "source": "新华社",
           "title": "美媒：约旦美军基地5天遭4袭 表明伊导弹库存充足",
           "url": "https://www.news.cn/20260719/ac132e0d6b764a0198fda6e1355a007d/c.html",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "09821067c771dc",
+          "source": "新华社",
+          "title": "英格兰获季军",
+          "url": "https://www.news.cn/sports/20260719/f8e58326031a4fae8738ef27557b16c7/c.html",
           "date": "2026-07-19",
           "keyword": "综合时政"
         },
@@ -25161,65 +25233,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 70.7,
-          "message": "HTTPSConnectionPool(host='tv.cctv.com', port=443): Read timed out. (read timeout=22)"
+          "duration": 26.3,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260719.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 30,
-          "duration": 1.4
+          "duration": 2.1
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 12,
-          "duration": 2.8
+          "count": 21,
+          "duration": 1.4
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 14.6
+          "duration": 12.0
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 7.3
+          "duration": 6.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 0.2
+          "duration": 1.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 11.3
+          "duration": 14.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 1.9
+          "duration": 2.9
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.8
+          "duration": 8.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 56.1
+          "duration": 70.9
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-19T06:59:13+08:00"
+  "generatedAt": "2026-07-19T07:58:53+08:00"
 }
