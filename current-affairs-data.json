@@ -23460,10 +23460,6 @@
           "count": 3
         },
         {
-          "name": "机器人",
-          "count": 2
-        },
-        {
           "name": "教育",
           "count": 2
         },
@@ -23778,22 +23774,6 @@
           "keyword": "教育"
         },
         {
-          "id": "c34c8d75c52990",
-          "source": "新华社",
-          "title": "世界模型重塑机器人“智慧大脑”",
-          "url": "https://www.news.cn/tech/20260718/56ab6f2431744e789fde50e08c262b22/c.html",
-          "date": "2026-07-18",
-          "keyword": "机器人"
-        },
-        {
-          "id": "6e3325cfa6f365",
-          "source": "新华社",
-          "title": "智能工业机器人助力新疆新能源项目施工",
-          "url": "https://www.news.cn/tech/20260718/961438415f814278816dbf753efc0959/c.html",
-          "date": "2026-07-18",
-          "keyword": "机器人"
-        },
-        {
           "id": "154e89bc671a69",
           "source": "中国政府网",
           "title": "张国清赶赴重庆彭水县指导山体崩塌灾害现场搜救和应急处置工作",
@@ -24010,14 +23990,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "1efd37e7180c2c",
-          "source": "广东发布",
-          "title": "孟凡利主持召开省政府常务会议",
-          "url": "https://www.gd.gov.cn/gdywdt/cwhy/xwtg/content/post_4926590.html",
-          "date": "2026-07-18",
-          "keyword": "综合时政"
-        },
-        {
           "id": "48a5b9d4803212",
           "source": "新华社",
           "title": "2026年上半年海南出入境人员160.3万人次",
@@ -24050,10 +24022,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "b310acf0928ac2",
+          "id": "c34c8d75c52990",
           "source": "新华社",
-          "title": "世界杯“鸡肋局”：动力不足、看点不少",
-          "url": "https://www.news.cn/sports/20260718/a9e707c2152441d4b1fd652993bb5e03/c.html",
+          "title": "世界模型重塑机器人“智慧大脑”",
+          "url": "https://www.news.cn/tech/20260718/56ab6f2431744e789fde50e08c262b22/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24130,6 +24102,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "196536b6d08a09",
+          "source": "新华社",
+          "title": "伊朗称打击位于科威特、巴林、约旦的美军目标",
+          "url": "https://www.news.cn/world/20260718/181101efc038439ebf95ffc4b9cc9305/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "f6738aee082686",
           "source": "新华社",
           "title": "俄一物流中心遭无人机袭击7人死亡",
@@ -24186,14 +24166,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "58816be79bcbd8",
-          "source": "新华社",
-          "title": "北京福建会客厅荔城推介周活动在京启幕",
-          "url": "https://www.news.cn/politics/20260718/1364197b10b744959a85358c6b6208fc/c.html",
-          "date": "2026-07-18",
-          "keyword": "综合时政"
-        },
-        {
           "id": "53498f688d5b1c",
           "source": "新华社",
           "title": "同心鏖战汛情一线 干群并肩共护家园",
@@ -24206,6 +24178,22 @@
           "source": "新华社",
           "title": "国家矿山安全监察局山西局监察执法八处三级调研员李海潮接受监察调查",
           "url": "https://www.news.cn/politics/20260718/809ab996755c4feabb406e09cef15e93/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f8bf8546a764e2",
+          "source": "新华社",
+          "title": "外交部发言人就英钢国有化问题答记者问",
+          "url": "https://www.news.cn/world/20260718/fd28fa731a0247718fe0bc657a0a3021/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9f0bb45ec134cc",
+          "source": "新华社",
+          "title": "广西洪涝灾区一线：清淤攻坚 恢复家园",
+          "url": "https://www.news.cn/politics/20260718/70bdfa2b671642cab7e933a5622600c9/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24274,14 +24262,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "5ca14942f51802",
-          "source": "新华社",
-          "title": "权威数读｜一周“靓”数",
-          "url": "https://www.news.cn/fortune/20260718/9dcfe873784c4bbbb252772430d65420/c.html",
-          "date": "2026-07-18",
-          "keyword": "综合时政"
-        },
-        {
           "id": "42ce569b414cb5",
           "source": "新华社",
           "title": "欧盟呼吁以色列停止在约旦河西岸扩建定居点",
@@ -24290,18 +24270,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "93d61fde240544",
+          "id": "2ac7fa61fb5d58",
           "source": "新华社",
-          "title": "江苏举行高考“录取开放日”活动",
-          "url": "https://www.news.cn/photo/20260718/02e3c1a6d0e642c0bf17c5789926125c/c.html",
+          "title": "水利部启动水文现代化建设三年行动",
+          "url": "https://www.news.cn/politics/20260718/14dcd31f76bc4a5a8ca43c233f8da9b6/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
         {
-          "id": "554f316c860c7a",
+          "id": "93d61fde240544",
           "source": "新华社",
-          "title": "河北泊头：深耕绿色铸造 建设产业名城",
-          "url": "http://he.news.cn/20260718/16c78cef5dba450a8fd0d68050de7f31/c.html",
+          "title": "江苏举行高考“录取开放日”活动",
+          "url": "https://www.news.cn/photo/20260718/02e3c1a6d0e642c0bf17c5789926125c/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24366,6 +24346,14 @@
           "source": "新华社",
           "title": "美官方数据显示美军对伊朗行动受伤人数增加14人",
           "url": "https://www.news.cn/20260718/a8b6cc567dd3463c943fad419d5c2fa8/c.html",
+          "date": "2026-07-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0a27c67363cf40",
+          "source": "新华社",
+          "title": "草原那达慕的不同打开方式",
+          "url": "https://www.news.cn/local/20260718/752a9a43101042b89694d73f051529e8/c.html",
           "date": "2026-07-18",
           "keyword": "综合时政"
         },
@@ -24439,65 +24427,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 71.4,
-          "message": "HTTPSConnectionPool(host='tv.cctv.com', port=443): Read timed out. (read timeout=22)"
+          "duration": 40.9,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260718.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 27,
-          "duration": 2.4
+          "duration": 2.0
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.0
+          "duration": 3.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 25.8
+          "duration": 29.0
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 4,
-          "duration": 6.3
+          "duration": 6.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 2.1
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.6
+          "duration": 19.0
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 1,
-          "duration": 3.5
+          "duration": 3.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 10.3
+          "duration": 9.7
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 4,
-          "duration": 58.0
+          "count": 3,
+          "duration": 58.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-18T18:16:56+08:00"
+  "generatedAt": "2026-07-18T19:51:35+08:00"
 }
