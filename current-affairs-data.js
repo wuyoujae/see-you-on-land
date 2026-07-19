@@ -24640,6 +24640,10 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "name": "中国共产党",
           "count": 2
+        },
+        {
+          "name": "教育",
+          "count": 2
         }
       ],
       "articles": [
@@ -24778,6 +24782,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/20260719/045fb3862b9f402783c525f8c02e7398/c.html",
           "date": "2026-07-19",
           "keyword": "经济"
+        },
+        {
+          "id": "8f3d241ac99e5d",
+          "source": "光明日报",
+          "title": "湖南师范大学外国语学院：AI融入课堂 教育更鲜活",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/19/content_19657.html",
+          "date": "2026-07-19",
+          "keyword": "教育"
+        },
+        {
+          "id": "cb65249dcf1961",
+          "source": "新闻联播",
+          "title": "【树立和践行正确政绩观】为民造福 真抓实干 推动学习教育见行见效",
+          "url": "https://tv.cctv.com/2026/07/19/VIDEciAF87NQRHDxomwXeYsA260719.shtml",
+          "date": "2026-07-19",
+          "keyword": "教育"
         },
         {
           "id": "3ea8eb22388d12",
@@ -25140,14 +25160,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8f3d241ac99e5d",
-          "source": "光明日报",
-          "title": "湖南师范大学外国语学院：AI融入课堂 教育更鲜活",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/19/content_19657.html",
-          "date": "2026-07-19",
-          "keyword": "综合时政"
-        },
-        {
           "id": "869188f8b19db6",
           "source": "光明日报",
           "title": "那达慕引客来",
@@ -25220,6 +25232,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "36cb1fcc8e60e4",
+          "source": "新华社",
+          "title": "乌克兰首都遭空袭1死15伤",
+          "url": "https://www.news.cn/world/20260719/946ff92eeccd422fa8e8c913a5f6436e/c.html",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1d8af4e0b18228",
           "source": "新华社",
           "title": "从一场大会看AI产业发展新方向",
@@ -25228,26 +25248,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "2f6b201314d28c",
-          "source": "新华社",
-          "title": "以赛促学 来看机器狗闯关大比拼",
-          "url": "https://www.news.cn/local/20260719/65aa7e2c471b451cbd8911c299456946/c.html",
-          "date": "2026-07-19",
-          "keyword": "综合时政"
-        },
-        {
           "id": "853a24e29b0572",
           "source": "新华社",
           "title": "伊媒：伊朗南部阿巴斯港和格什姆岛附近传出爆炸声",
           "url": "https://www.news.cn/20260719/ce370f59948345cf9b257b1f2b138edf/c.html",
-          "date": "2026-07-19",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "e474618007ccc9",
-          "source": "新华社",
-          "title": "伊方：将“毁灭性回击”",
-          "url": "https://www.news.cn/20260719/5ba1013ebe344d229b5375f4737ca8c1/c.html",
           "date": "2026-07-19",
           "keyword": "综合时政"
         },
@@ -25288,14 +25292,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "俄副外长：日本与乌克兰在无人机领域合作是敌对行为",
           "url": "https://www.news.cn/20260719/e89e1686abed45af90e0e181b715f058/c.html",
-          "date": "2026-07-19",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "9c5425b0d76c74",
-          "source": "新华社",
-          "title": "俄副外长：日本与乌在无人机领域合作是敌对行为",
-          "url": "https://www.news.cn/world/20260719/10a8790e25da40929a461e4a118f0c01/c.html",
           "date": "2026-07-19",
           "keyword": "综合时政"
         },
@@ -25428,6 +25424,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "6f12df31ed9845",
+          "source": "新华社",
+          "title": "我在现场丨乌江畔的昼夜救援，期待见证奇迹发生",
+          "url": "https://www.news.cn/politics/20260719/de89cf1b83714beabdb502841feda2de/c.html",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "705e0aba4a9411",
           "source": "新华社",
           "title": "持续用力抓好“最大的民生”",
@@ -25476,18 +25480,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "0a9d53e6fa3cc7",
+          "id": "050eb5ef1e9129",
           "source": "新华社",
           "title": "未来三天云南广西至长江中下游地区有较强降水",
-          "url": "https://www.news.cn/20260719/ba6fd7b7dff44f84b4944faaac356c3d/c.html",
+          "url": "https://www.news.cn/politics/20260719/a1fc3a1a884142fcabc60785f0eb2ecd/c.html",
           "date": "2026-07-19",
           "keyword": "综合时政"
         },
         {
-          "id": "de0404f66939a4",
+          "id": "39a4668bb08ab5",
           "source": "新华社",
-          "title": "格什姆岛遭导弹袭击",
-          "url": "https://www.news.cn/world/20260719/a3ea4032ce0f45ecb88d421c1d11a6fc/c.html",
+          "title": "李希在重庆调研",
+          "url": "https://www.news.cn/politics/leaders/20260719/000f2f27e55b4dacba01da5fc1e63d65/c.html",
           "date": "2026-07-19",
           "keyword": "综合时政"
         },
@@ -25532,6 +25536,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "ba5d4ebc36b63b",
+          "source": "新华社",
+          "title": "特写：清晨，万余藏羚羊跨过冰河",
+          "url": "https://www.news.cn/local/20260719/16e91692118a4c52b90fa58914e218b9/c.html",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1ed702d5df0be1",
           "source": "新华社",
           "title": "科威特称拦截“敌方”导弹和无人机袭击",
@@ -25572,14 +25584,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "32ad64e1c5e58b",
-          "source": "新华社",
-          "title": "美对伊发动新一轮空袭",
-          "url": "https://www.news.cn/world/20260719/a87aba973fa943a586f1ea2465c808b5/c.html",
-          "date": "2026-07-19",
-          "keyword": "综合时政"
-        },
-        {
           "id": "abcd6442966d5e",
           "source": "新华社",
           "title": "美方建议全球范围美公民提高警惕",
@@ -25612,10 +25616,98 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "457c9ab3823c7c",
+          "source": "新华社",
+          "title": "陈茂波：香港将出台政策支持中小企业采用AI",
+          "url": "https://www.news.cn/gangao/20260719/8cebd647cb194f24ac320f84dcbf99c1/c.html",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1d80773e2c507c",
           "source": "新华社",
           "title": "黑辽黔滇桂新等省份9条河流发生超警洪水",
           "url": "https://www.news.cn/20260719/cf9f5fee17794dcd9ed813d3fdcd91db/c.html",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b8c1e91004570b",
+          "source": "新闻联播",
+          "title": "“七一勋章”获得者吾哈斯·苏来曼：马背上的健康卫士",
+          "url": "https://tv.cctv.com/2026/07/19/VIDEuAX12GHFS7ufrjRuh3Ah260719.shtml",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7bf863548f1ea4",
+          "source": "新闻联播",
+          "title": "【新思想引领新征程】以人民为中心 绘就现代化城市民生幸福新画卷",
+          "url": "https://tv.cctv.com/2026/07/19/VIDEKB0zDafkD32iZL4Q9KWp260719.shtml",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0ccd8d812cf922",
+          "source": "新闻联播",
+          "title": "【新闻特写】连接彼此 共创未来",
+          "url": "https://tv.cctv.com/2026/07/19/VIDE5wcrT07x7kqxIlVXeWnW260719.shtml",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7ca2bbee3d2c0a",
+          "source": "新闻联播",
+          "title": "国内联播快讯",
+          "url": "https://tv.cctv.com/2026/07/19/VIDEgEPHe2HfKlfwgUUEKv5t260719.shtml",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c7bb67c92aa9a1",
+          "source": "新闻联播",
+          "title": "国家四部门部署做好地质灾害风险隐患巡查排查工作",
+          "url": "https://tv.cctv.com/2026/07/19/VIDExlLD2sBiFfgtqjlexDCU260719.shtml",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ba1c16e76d3c82",
+          "source": "新闻联播",
+          "title": "国际联播快讯",
+          "url": "https://tv.cctv.com/2026/07/19/VIDEVdlXXf31RiGjNK1rbFCL260719.shtml",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f65ede9432e2ed",
+          "source": "新闻联播",
+          "title": "我国国家物流枢纽发展取得明显成效",
+          "url": "https://tv.cctv.com/2026/07/19/VIDEvwFVzpp69hXkSD5GZ8f2260719.shtml",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "56973ae1418622",
+          "source": "新闻联播",
+          "title": "李希在重庆调研",
+          "url": "https://tv.cctv.com/2026/07/19/VIDEB2T9YEhrUoRQZ6MbTCRB260719.shtml",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e37d6c695030ab",
+          "source": "新闻联播",
+          "title": "神舟二十三号乘组在轨近两月 各项工作有序推进",
+          "url": "https://tv.cctv.com/2026/07/19/VIDEBxxgTl89vOUIfz7bWJV3260719.shtml",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a78fabfd6df3f4",
+          "source": "新闻联播",
+          "title": "美伊持续相互打击对方目标 伊朗称美违反承诺伊方已停止履行谅解备忘录",
+          "url": "https://tv.cctv.com/2026/07/19/VIDEio3TwwL5x9kWvuT223aV260719.shtml",
           "date": "2026-07-19",
           "keyword": "综合时政"
         }
@@ -25623,22 +25715,21 @@ window.CURRENT_AFFAIRS_DATA = {
       "sourceStatus": [
         {
           "source": "新闻联播",
-          "status": "error",
-          "count": 0,
-          "duration": 23.0,
-          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260719.shtml"
+          "status": "ok",
+          "count": 11,
+          "duration": 0.5
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 30,
-          "duration": 2.1
+          "duration": 1.6
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.3
+          "duration": 2.1
         },
         {
           "source": "半月谈",
@@ -25650,40 +25741,40 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "求是",
           "status": "ok",
           "count": 6,
-          "duration": 6.6
+          "duration": 6.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 2.1
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.8
+          "duration": 14.8
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.6
+          "duration": 3.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 10.0
+          "duration": 9.2
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 61.2
+          "duration": 78.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-19T18:24:01+08:00"
+  "generatedAt": "2026-07-19T19:53:29+08:00"
 };
