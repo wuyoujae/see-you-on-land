@@ -24627,7 +24627,7 @@
       "keywords": [
         {
           "name": "人工智能",
-          "count": 12
+          "count": 13
         },
         {
           "name": "习近平",
@@ -24635,7 +24635,7 @@
         },
         {
           "name": "经济",
-          "count": 3
+          "count": 4
         },
         {
           "name": "中国共产党",
@@ -24684,6 +24684,14 @@
           "source": "光明日报",
           "title": "人工智能赋能上海文旅",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202607/19/content_19659.html",
+          "date": "2026-07-19",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "dce0c8d8da07ae",
+          "source": "新华社",
+          "title": "2026世界人工智能大会助力企业协同共创",
+          "url": "https://www.news.cn/tech/20260719/1753fecc3dd2446995328c58365d087b/c.html",
           "date": "2026-07-19",
           "keyword": "人工智能"
         },
@@ -24788,6 +24796,14 @@
           "source": "新华社",
           "title": "意中小企业联合会：高温天气加重经济负担",
           "url": "https://www.news.cn/20260719/045fb3862b9f402783c525f8c02e7398/c.html",
+          "date": "2026-07-19",
+          "keyword": "经济"
+        },
+        {
+          "id": "5c0924cd7c6dce",
+          "source": "新华社",
+          "title": "新华时评·年中经济观察丨持续用力抓好“最大的民生”",
+          "url": "https://www.news.cn/politics/20260719/7af5368e0dfc42d3bcaa107d72f884bf/c.html",
           "date": "2026-07-19",
           "keyword": "经济"
         },
@@ -25200,6 +25216,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "8963fd68005148",
+          "source": "新华社",
+          "title": "一曲梁祝化蝶去 追忆作曲家陈钢",
+          "url": "https://www.news.cn/politics/20260719/8f49d870520d4f0080681a6252cd8ec5/c.html",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "42994312c25171",
           "source": "新华社",
           "title": "三伏天谨防“情绪中暑” 专家支招青少年快乐度夏",
@@ -25244,14 +25268,6 @@
           "source": "新华社",
           "title": "乌克兰首都基辅多地遭弹道导弹袭击",
           "url": "https://www.news.cn/world/20260719/ef0cda4e3b2248728215b581f6bb0f07/c.html",
-          "date": "2026-07-19",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "36cb1fcc8e60e4",
-          "source": "新华社",
-          "title": "乌克兰首都遭空袭1死15伤",
-          "url": "https://www.news.cn/world/20260719/946ff92eeccd422fa8e8c913a5f6436e/c.html",
           "date": "2026-07-19",
           "keyword": "综合时政"
         },
@@ -25332,14 +25348,6 @@
           "source": "新华社",
           "title": "决赛谁将登顶世界之巅",
           "url": "https://www.news.cn/sports/20260719/0b253825c4734a01960f4bec84159503/c.html",
-          "date": "2026-07-19",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "557612916a6350",
-          "source": "新华社",
-          "title": "加拿大总理：正“全员动员”应对严重野火灾情",
-          "url": "https://www.news.cn/world/20260719/a99607550b8848a6a175311ee8ef9cf7/c.html",
           "date": "2026-07-19",
           "keyword": "综合时政"
         },
@@ -25428,14 +25436,6 @@
           "source": "新华社",
           "title": "我在现场丨乌江畔的昼夜救援，期待见证奇迹发生",
           "url": "https://www.news.cn/politics/20260719/de89cf1b83714beabdb502841feda2de/c.html",
-          "date": "2026-07-19",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "3bfefdfad9bc06",
-          "source": "新华社",
-          "title": "探访中国新能源客车的智造密码",
-          "url": "https://www.news.cn/fortune/20260719/6493258edd034330b01211344629ad4d/c.html",
           "date": "2026-07-19",
           "keyword": "综合时政"
         },
@@ -25584,14 +25584,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "0f095e4d3ae61e",
-          "source": "新华社",
-          "title": "连翻35个跟头 “00后”秦腔武丑好功夫",
-          "url": "https://www.news.cn/local/20260719/0b55c2520f3941c5bb40b322f5eb7c1a/c.html",
-          "date": "2026-07-19",
-          "keyword": "综合时政"
-        },
-        {
           "id": "83712bdc1a04ff",
           "source": "新华社",
           "title": "重庆彭水山体崩塌救援进入第三天 各方力量全力搜救",
@@ -25604,6 +25596,14 @@
           "source": "新华社",
           "title": "重庆彭水崩塌灾害救援现场争分夺秒 救援不停",
           "url": "https://www.news.cn/local/20260719/178611e5d92c40499fb157ffe1946ee5/c.html",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b359039c9bd4f5",
+          "source": "新华社",
+          "title": "防灾减灾救灾一线见闻丨和志愿者一起送物资",
+          "url": "https://www.news.cn/politics/20260719/6da87b99e1a042859a3e0b4bcd73d706/c.html",
           "date": "2026-07-19",
           "keyword": "综合时政"
         },
@@ -25648,10 +25648,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "92f762415520a3",
+          "id": "5e13e95200fe9b",
           "source": "新闻联播",
-          "title": "《新闻联播》 20260719 19:00",
-          "url": "https://tv.cctv.com/2026/07/19/VIDEcBQNQJiY8ifo5LaxDK8V260719.shtml",
+          "title": "《新闻联播》 20260719 21:00",
+          "url": "https://tv.cctv.com/2026/07/19/VIDEq0sjDnvsKATGapoyWbwz260719.shtml",
           "date": "2026-07-19",
           "keyword": "综合时政"
         },
@@ -25733,64 +25733,64 @@
           "source": "新闻联播",
           "status": "ok",
           "count": 12,
-          "duration": 0.3
+          "duration": 0.2
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 30,
-          "duration": 1.1
+          "duration": 2.3
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.6
+          "duration": 2.1
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 20.8
+          "duration": 30.5
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 6,
-          "duration": 6.3
+          "duration": 6.6
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 1.7
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.4
+          "duration": 12.8
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 1,
-          "duration": 2.1
+          "duration": 2.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 8.6
+          "duration": 12.9
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 55.1
+          "duration": 63.0
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-19T21:03:33+08:00"
+  "generatedAt": "2026-07-19T22:51:26+08:00"
 }
