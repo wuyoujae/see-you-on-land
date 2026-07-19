@@ -24627,7 +24627,7 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "人工智能",
-          "count": 11
+          "count": 12
         },
         {
           "name": "习近平",
@@ -24692,6 +24692,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "世界人工智能合作组织未来将重点开展三方面工作",
           "url": "https://www.news.cn/world/20260719/9e49a03f5ce74864bd7b32f154aaad86/c.html",
+          "date": "2026-07-19",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "7d505c72c1cc39",
+          "source": "新华社",
+          "title": "在世界人工智能大会看AI赋能千行百业",
+          "url": "https://www.news.cn/photo/20260719/83028b0941fe4806aee0fadc798813de/c.html",
           "date": "2026-07-19",
           "keyword": "人工智能"
         },
@@ -25176,6 +25184,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "e28d1827f0ebdd",
+          "source": "学习强国",
+          "title": "李希在重庆调研",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=17366637161248501192&item_id=17366637161248501192",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "07dd02c172def2",
           "source": "广东发布",
           "title": "粤BA总决赛首场对决打响 东莞力克深圳拔得头筹",
@@ -25312,14 +25328,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "4d328cd0b1589c",
-          "source": "新华社",
-          "title": "全国乒乓球锦标赛(双打)：马龙/许昕晋级男双决赛",
-          "url": "https://www.news.cn/photo/20260719/e11e0917e6d547b29622dba0615061ca/c.html",
-          "date": "2026-07-19",
-          "keyword": "综合时政"
-        },
-        {
           "id": "f67bbe4714e860",
           "source": "新华社",
           "title": "决赛谁将登顶世界之巅",
@@ -25364,14 +25372,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "吃对“碳水”，越吃越年轻？",
           "url": "https://www.news.cn/politics/20260719/7b7e37b9e172406d8bbf7f15f180fc33/c.html",
-          "date": "2026-07-19",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "90a0bdc259f5a8",
-          "source": "新华社",
-          "title": "圭亚那一艘载有116人的渡轮倾覆",
-          "url": "https://www.news.cn/world/20260719/3cb95b4d05fd4b94934efab4c2d9f1a8/c.html",
           "date": "2026-07-19",
           "keyword": "综合时政"
         },
@@ -25432,14 +25432,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "705e0aba4a9411",
-          "source": "新华社",
-          "title": "持续用力抓好“最大的民生”",
-          "url": "https://www.news.cn/fortune/20260719/2100638bc9244f3d83504967569f06e3/c.html",
-          "date": "2026-07-19",
-          "keyword": "综合时政"
-        },
-        {
           "id": "3bfefdfad9bc06",
           "source": "新华社",
           "title": "探访中国新能源客车的智造密码",
@@ -25456,18 +25448,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "07dd4e8a1ac65a",
+          "id": "6cebd73a29c4bc",
           "source": "新华社",
-          "title": "日本羽毛球公开赛：冯彦哲/黄东萍夺得混双冠军",
-          "url": "https://www.news.cn/photo/20260719/68776e017f164ef3b07a569ec7024e0d/c.html",
+          "title": "新赛季乒超联赛迎扩军 赛制效仿混团",
+          "url": "https://www.news.cn/sports/20260719/e866d7dea52748ebaae0c9f1789f2b04/c.html",
           "date": "2026-07-19",
           "keyword": "综合时政"
         },
         {
-          "id": "f0eb8cbeb29099",
+          "id": "c9a118863277c9",
           "source": "新华社",
-          "title": "昆明警方通报：被冒用身份女子吸毒违法记录已更正",
-          "url": "https://www.news.cn/legal/20260719/1c2ebac85b8844adaf9d173469263fb1/c.html",
+          "title": "新闻分析丨全球粮食安全面临三大“灰犀牛”",
+          "url": "https://www.news.cn/world/20260719/9e0fa72d815b438bace3fc95209db3f6/c.html",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "07dd4e8a1ac65a",
+          "source": "新华社",
+          "title": "日本羽毛球公开赛：冯彦哲/黄东萍夺得混双冠军",
+          "url": "https://www.news.cn/photo/20260719/68776e017f164ef3b07a569ec7024e0d/c.html",
           "date": "2026-07-19",
           "keyword": "综合时政"
         },
@@ -25560,14 +25560,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "9d34371c316b66",
-          "source": "新华社",
-          "title": "绵阳通报四川幼儿师范高等专科学校招聘调查情况",
-          "url": "https://www.news.cn/legal/20260719/2f003eb63c2b469fa23433e64ec3b33d/c.html",
-          "date": "2026-07-19",
-          "keyword": "综合时政"
-        },
-        {
           "id": "3f1a5a202ebb9b",
           "source": "新华社",
           "title": "美军：完成新一轮对伊空袭",
@@ -25624,6 +25616,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "fafd252b65365c",
+          "source": "新华社",
+          "title": "马龙/许昕三夺乒乓球全锦赛男双冠军",
+          "url": "https://www.news.cn/sports/20260719/9799343b185a4f9fab16e35242bbb912/c.html",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1d51c8662d0197",
+          "source": "新华社",
+          "title": "黄金产业提质向新——中国国际黄金大会观察",
+          "url": "https://www.news.cn/fortune/20260719/13bf144280f84e328c46e4ffbaf91001/c.html",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1d80773e2c507c",
           "source": "新华社",
           "title": "黑辽黔滇桂新等省份9条河流发生超警洪水",
@@ -25636,6 +25644,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "title": "“七一勋章”获得者吾哈斯·苏来曼：马背上的健康卫士",
           "url": "https://tv.cctv.com/2026/07/19/VIDEuAX12GHFS7ufrjRuh3Ah260719.shtml",
+          "date": "2026-07-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "92f762415520a3",
+          "source": "新闻联播",
+          "title": "《新闻联播》 20260719 19:00",
+          "url": "https://tv.cctv.com/2026/07/19/VIDEcBQNQJiY8ifo5LaxDK8V260719.shtml",
           "date": "2026-07-19",
           "keyword": "综合时政"
         },
@@ -25716,65 +25732,65 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "source": "新闻联播",
           "status": "ok",
-          "count": 11,
-          "duration": 0.5
+          "count": 12,
+          "duration": 0.3
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 30,
-          "duration": 1.6
+          "duration": 1.1
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.1
+          "duration": 2.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 21.5
+          "duration": 20.8
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 6,
-          "duration": 6.7
+          "duration": 6.3
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 2.0
+          "duration": 1.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.8
+          "duration": 12.4
         },
         {
           "source": "学习强国",
           "status": "ok",
-          "count": 0,
-          "duration": 3.0
+          "count": 1,
+          "duration": 2.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 9.2
+          "duration": 8.6
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 78.4
+          "duration": 55.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-19T19:53:29+08:00"
+  "generatedAt": "2026-07-19T21:03:33+08:00"
 };
