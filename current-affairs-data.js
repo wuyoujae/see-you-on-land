@@ -24627,7 +24627,7 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "人工智能",
-          "count": 13
+          "count": 14
         },
         {
           "name": "习近平",
@@ -24708,6 +24708,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "在世界人工智能大会看AI赋能千行百业",
           "url": "https://www.news.cn/photo/20260719/83028b0941fe4806aee0fadc798813de/c.html",
+          "date": "2026-07-19",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "90cd3fc10aff02",
+          "source": "新华社",
+          "title": "强化风险意识 确保安全可控——携手构建公正合理的全球人工智能治理体系述评之二",
+          "url": "https://www.news.cn/politics/leaders/20260719/f3a01c5920dc4a7290cfe820beaaa328/c.html",
           "date": "2026-07-19",
           "keyword": "人工智能"
         },
@@ -25352,14 +25360,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "e36204141503ac",
-          "source": "新华社",
-          "title": "印尼投资部部长：对中印尼投资合作未来充满信心",
-          "url": "https://www.news.cn/world/20260719/dad8f029ca544b10a74b5e9b48e869db/c.html",
-          "date": "2026-07-19",
-          "keyword": "综合时政"
-        },
-        {
           "id": "8ba6798df6b5e3",
           "source": "新华社",
           "title": "印度最大核电站发生大规模数据泄露",
@@ -25733,64 +25733,64 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "ok",
           "count": 12,
-          "duration": 0.2
+          "duration": 0.4
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 30,
-          "duration": 2.3
+          "duration": 2.1
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.1
+          "duration": 2.4
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 30.5
+          "duration": 45.2
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 6,
-          "duration": 6.6
+          "duration": 6.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 1.8
+          "duration": 5.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.8
+          "duration": 12.5
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 1,
-          "duration": 2.5
+          "duration": 2.8
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 12.9
+          "duration": 13.1
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 63.0
+          "duration": 74.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-19T22:51:26+08:00"
+  "generatedAt": "2026-07-19T23:54:12+08:00"
 };
