@@ -27620,7 +27620,638 @@
           "duration": 72.3
         }
       ]
+    },
+    {
+      "date": "2026-07-21",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 3
+        },
+        {
+          "name": "经济",
+          "count": 3
+        },
+        {
+          "name": "人工智能",
+          "count": 2
+        },
+        {
+          "name": "十五五",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "9d97c535edbbc6",
+          "source": "人民日报",
+          "title": "国家主席习近平任免驻外大使",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169893.html",
+          "date": "2026-07-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "a450518ffeb41d",
+          "source": "人民日报",
+          "title": "工业对经济增长贡献率超35%（权威发布）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169908.html",
+          "date": "2026-07-21",
+          "keyword": "经济"
+        },
+        {
+          "id": "756bf77723dac7",
+          "source": "人民日报",
+          "title": "服务消费旺 商品消费稳（年中经济观察）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169894.html",
+          "date": "2026-07-21",
+          "keyword": "经济"
+        },
+        {
+          "id": "8ad626431eed6f",
+          "source": "人民日报",
+          "title": "辽宁深化改革撤并省级经济开发区",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169898.html",
+          "date": "2026-07-21",
+          "keyword": "经济"
+        },
+        {
+          "id": "f330999faf7505",
+          "source": "光明日报",
+          "title": "【光明论坛】深刻把握习近平党建思想的鲜明理论品格",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19810.html",
+          "date": "2026-07-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "2fd10917d3a995",
+          "source": "光明日报",
+          "title": "国家主席习近平任免驻外大使",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19794.html",
+          "date": "2026-07-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "30d66eb1b989d2",
+          "source": "光明日报",
+          "title": "【“十五五”我们躬身加油干】“城北好物”，更快更多飞出山",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19793.html",
+          "date": "2026-07-21",
+          "keyword": "十五五"
+        },
+        {
+          "id": "03cf93f22f6553",
+          "source": "光明日报",
+          "title": "【“十五五”我们躬身加油干】“百坭花海”，更艳更美引客来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19792.html",
+          "date": "2026-07-21",
+          "keyword": "十五五"
+        },
+        {
+          "id": "23831d4c38b1bd",
+          "source": "新华社",
+          "title": "2026世界人工智能大会闭幕",
+          "url": "https://www.news.cn/tech/20260721/36ec2df68e0d41b8b6f80763bcbe4783/c.html",
+          "date": "2026-07-21",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "81dc818e76b094",
+          "source": "新华社",
+          "title": "携手构建公正合理的全球人工智能治理体系述评之三",
+          "url": "https://www.news.cn/politics/leaders/20260721/3d1363e7e2804ebeaa7e670decd6ab37/c.html",
+          "date": "2026-07-21",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "219624f60dc550",
+          "source": "人民日报",
+          "title": "“企业发展越好，乡亲们的收入就越稳”（党旗在基层一线高高飘扬·乡村全面振兴）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169916.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9dacd6b4f2f875",
+          "source": "人民日报",
+          "title": "“没有现成的路可走，必须先干起来”（产业里的年轻人）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169910.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4f58cf60ab20f8",
+          "source": "人民日报",
+          "title": "“理想信念是共产党人精神上的‘钙’”（总书记的人民情怀）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169892.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "44281889beb62b",
+          "source": "人民日报",
+          "title": "中华人民共和国政府和泰王国政府关于面向繁荣中泰命运共同体的联合声明",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169902.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "009a5caf9cb157",
+          "source": "人民日报",
+          "title": "中美民间交往专题学术研讨活动举办",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169906.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c5f247b40773dd",
+          "source": "人民日报",
+          "title": "以认知突围破发展壁垒（人民论坛）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169915.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b6b3f96370fb50",
+          "source": "人民日报",
+          "title": "智能伙伴 共创未来",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169903.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "23dda90f41b885",
+          "source": "人民日报",
+          "title": "李强主持召开国务院常务会议",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169895.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b6097f6829049b",
+          "source": "人民日报",
+          "title": "李强同泰国总理阿努廷会谈",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169900.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "771d5aaeab5a25",
+          "source": "人民日报",
+          "title": "李强致电祝贺伯纳姆就任英国首相",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169901.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fc85946f16d39c",
+          "source": "人民日报",
+          "title": "泰国总理阿努廷向人民英雄纪念碑敬献花圈",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169907.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8d420fb8008a6e",
+          "source": "人民日报",
+          "title": "激活产业向“新”力（记者手记）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169909.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "65b99894efbf8d",
+          "source": "人民日报",
+          "title": "煎药有了智能系统（新场景里看活力）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169911.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3a0f60edab639b",
+          "source": "人民日报",
+          "title": "王毅会见下任联合国秘书长候选人罗德里格斯—伯基特",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169904.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a974fe681ac110",
+          "source": "人民日报",
+          "title": "王毅将出席中国—东盟外长会和上海合作组织成员国外长理事会会议并访问吉尔吉斯斯坦",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169905.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a223096a2b5ba3",
+          "source": "人民日报",
+          "title": "赵乐际会见泰国总理阿努廷",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169896.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2a260ec230ec92",
+          "source": "人民日报",
+          "title": "适老化改造，让居家养老安心更暖心（深阅读·关注适老化改造）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169914.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c84504ae206bc7",
+          "source": "人民日报",
+          "title": "重点地区72小时妥投率提升至87.4%",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169913.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ef0b1c09263edd",
+          "source": "光明日报",
+          "title": "“京津研发、唐山转化”助力区域产业共赢",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19847.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c8614ce00e85d3",
+          "source": "光明日报",
+          "title": "“村梨园”唱出文明和谐好乡风",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19868.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "967b9bcac6fabc",
+          "source": "光明日报",
+          "title": "“注重强健自身，始终充满生机活力”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19795.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e00369c1be3dd8",
+          "source": "光明日报",
+          "title": "【光明时评】产学研融合、一体化协同推动农业科技创新",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19814.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eb6f5928cf48ff",
+          "source": "光明日报",
+          "title": "【光明论坛·温故】单弦不成音，独木不成林",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19811.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "890eaa903d5ee8",
+          "source": "光明日报",
+          "title": "【大美中国】风光秀丽",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19797.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fa5745a8c0142b",
+          "source": "光明日报",
+          "title": "【我在现场】咱的故事咱来讲",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19798.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f4123cadf39663",
+          "source": "光明日报",
+          "title": "【改进文风大家谈】文到高处，言简而意丰",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19799.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "32f5ea7fdbbfc1",
+          "source": "光明日报",
+          "title": "【文化评析】“数字敦煌”探索文遗保护新模式",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19813.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "980181254440d8",
+          "source": "光明日报",
+          "title": "【活力中国调研行】上海：科创热潮奔涌 发展动能十足",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19845.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6e1a0995f3d77e",
+          "source": "光明日报",
+          "title": "上半年工业和信息化持续向新向优发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19842.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "be7be5ba192aca",
+          "source": "光明日报",
+          "title": "冰川美景醉游人",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19844.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a184483e759e9e",
+          "source": "光明日报",
+          "title": "培养更多与产业发展同频的技能人才",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19812.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8e227f4f4b5884",
+          "source": "光明日报",
+          "title": "完善法律监督体系 更好发挥检察监督重要作用",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19843.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b0719fc434b7d9",
+          "source": "光明日报",
+          "title": "李强主持召开国务院常务会议",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19861.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cc65128c5609b6",
+          "source": "光明日报",
+          "title": "李强同泰国总理阿努廷会谈",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19862.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f8123e54876990",
+          "source": "光明日报",
+          "title": "李强致电祝贺伯纳姆就任英国首相",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19864.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3c9cd592748a4d",
+          "source": "光明日报",
+          "title": "海南迎来暑期旅游旺季",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19866.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e9926d2a6a295d",
+          "source": "光明日报",
+          "title": "赋能千行百业 开启未来新篇",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19796.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "676fb19497fed1",
+          "source": "光明日报",
+          "title": "赵乐际会见泰国总理阿努廷",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19863.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e7b5895c00ec44",
+          "source": "光明日报",
+          "title": "近海生态系统野外受控试验平台投用",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19846.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3c034d5d6c3ba5",
+          "source": "新华社",
+          "title": "一油化船在霍尔木兹海峡附近遭袭",
+          "url": "https://www.news.cn/20260721/9960e5ee9c1941fb808acd5ea208d8c5/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cb79a5df466972",
+          "source": "新华社",
+          "title": "一男子向美国联邦调查局大楼投掷可燃物被捕",
+          "url": "https://www.news.cn/20260721/bde25b66a7894a649977c914be7ba749/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cd9178b027db49",
+          "source": "新华社",
+          "title": "中国使馆证实3名中国公民在俄境内无人机袭击中受伤",
+          "url": "https://www.news.cn/20260721/9996e499e17f431da416a8c1af7eaab2/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e759310a661563",
+          "source": "新华社",
+          "title": "中国使馆证实3名我公民在俄境内无人机袭击中受伤",
+          "url": "https://www.news.cn/world/20260721/960b07dd581c4cc7b4077b2f3520c3b3/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c64b901eabd9a2",
+          "source": "新华社",
+          "title": "以军启动在黎巴嫩南部首个“试点区域”撤军行动",
+          "url": "https://www.news.cn/world/20260721/e82b8c62ac1040d2beccf90b48b2d0e4/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b953367a8b19d3",
+          "source": "新华社",
+          "title": "俄罗斯宣布驱逐两名意大利武官",
+          "url": "https://www.news.cn/20260721/3daaa0880b7046e7807405dae9d6804d/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "66243446735308",
+          "source": "新华社",
+          "title": "初步计票：圣多美和普林西比总统诺瓦赢得连任",
+          "url": "https://www.news.cn/20260721/6a8bffc92dc1498cbad83cc62c154cc8/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f1c78953c85df4",
+          "source": "新华社",
+          "title": "匈牙利国际象棋大师波尔加尔谢绝出任总统",
+          "url": "https://www.news.cn/20260721/0dabe41bc51742dc9c7154b71c9733d5/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d584ed2b9aacc3",
+          "source": "新华社",
+          "title": "圭亚那沉船事故已致10人死亡",
+          "url": "https://www.news.cn/20260721/d0c6c716e4d74ef88336317d9d485cc1/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "374ddb29f8d6c6",
+          "source": "新华社",
+          "title": "对伊朗发动新一轮打击",
+          "url": "https://www.news.cn/world/20260721/d4e000d3debd4c5b8bb7cb5daa0688dc/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "476aa3b395e3c9",
+          "source": "新华社",
+          "title": "沙特主导联军：将保护在曼德海峡的成员国船只",
+          "url": "https://www.news.cn/20260721/7109dbfd8e654886a423431ff5c03215/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "381539b0ba8b5d",
+          "source": "新华社",
+          "title": "法媒：卢浮宫遭劫展厅即将重新开放",
+          "url": "https://www.news.cn/20260721/78f75886f7dd4081911e4908c7bb0c6e/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f8e6ddacc32cdb",
+          "source": "新华社",
+          "title": "特朗普暗示美军将对伊朗发动强硬报复",
+          "url": "https://www.news.cn/20260721/77eeeb95c921405f96cbef27dcb5eef1/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "859df56a8f1d6b",
+          "source": "新华社",
+          "title": "白宫：美国将对加拿大特定商品加征50%关税",
+          "url": "https://www.news.cn/20260721/2e7017b7c8ff441a9301506cc8268d9a/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "48a706d7b297c9",
+          "source": "新华社",
+          "title": "美军对伊朗发动新一轮打击",
+          "url": "https://www.news.cn/20260721/920233bacebc417ebc1e3b54d6475a71/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cec63278df049c",
+          "source": "新华社",
+          "title": "美联邦法官临时叫停派拉蒙天舞收购华纳兄弟",
+          "url": "https://www.news.cn/20260721/2564966b7a9e42ccae70ba60851fac85/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "44d3bcce949412",
+          "source": "新华社",
+          "title": "花旗集团上调中国股市资产配置评级",
+          "url": "https://www.news.cn/20260721/eb6d798146c24d93b117987b926545dc/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0dc99d7673fb94",
+          "source": "新华社",
+          "title": "英国“重塑”难在哪",
+          "url": "https://www.news.cn/world/20260721/6c3f678822c0474b9445772e0a0bd5f5/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6c640badd77d5c",
+          "source": "新华社",
+          "title": "阿富汗东部洪灾致20人死亡逾百人失踪",
+          "url": "https://www.news.cn/20260721/aac761acd5a94cbdb729c59f53eacea7/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 47.3,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260721.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "ok",
+          "count": 22,
+          "duration": 1.4
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 21,
+          "duration": 2.5
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 15.3
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.9
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 25,
+          "duration": 1.1
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.1
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.3
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 7.6
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 44.7
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-07-20T23:07:56+08:00"
+  "generatedAt": "2026-07-21T07:08:27+08:00"
 }
