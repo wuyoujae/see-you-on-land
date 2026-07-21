@@ -27627,18 +27627,26 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "人工智能",
-          "count": 5
+          "count": 8
         },
         {
           "name": "习近平",
-          "count": 5
+          "count": 8
+        },
+        {
+          "name": "经济",
+          "count": 4
+        },
+        {
+          "name": "中国共产党",
+          "count": 3
         },
         {
           "name": "十五五",
           "count": 3
         },
         {
-          "name": "经济",
+          "name": "科技",
           "count": 3
         },
         {
@@ -27646,7 +27654,7 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 2
         },
         {
-          "name": "科技",
+          "name": "共同体",
           "count": 2
         }
       ],
@@ -27676,6 +27684,62 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
+          "id": "363f3e132283a1",
+          "source": "半月谈",
+          "title": "深入学习贯彻习近平总书记在庆祝中国共产党成立105周年大会上重要讲话系列述评之十六",
+          "url": "http://www.banyuetan.org/yw/detail/20260721/1000200033137441784597242159298161_1.html",
+          "date": "2026-07-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "5ca24fcab40da6",
+          "source": "半月谈",
+          "title": "鼓励包容并蓄 促进文明互鉴——携手构建公正合理的全球人工智能治理体系述评之三",
+          "url": "http://www.banyuetan.org/dyp/detail/20260721/1000200033135231784596541142211881_1.html",
+          "date": "2026-07-21",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "79dade6048b043",
+          "source": "学习强国",
+          "title": "2026世界人工智能大会闭幕",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=7983927866909900540&item_id=7983927866909900540",
+          "date": "2026-07-21",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "619b7f6f04e927",
+          "source": "学习强国",
+          "title": "“必须持之以恒推进全面从严治党”——深入学习贯彻习近平总书记在庆祝中国共产党成立105周年大会上重要讲话系列述评之十六",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=7517183203274981801&item_id=7517183203274981801",
+          "date": "2026-07-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "713bbcc7372dc2",
+          "source": "学习强国",
+          "title": "人工智能气象服务系统“风和”大语言模型发布",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=17567174106418078776&item_id=17567174106418078776",
+          "date": "2026-07-21",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "fe1a8182f8fdcc",
+          "source": "学习强国",
+          "title": "推动人工智能以人为本、向上向善",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=13828602121062905589&item_id=13828602121062905589",
+          "date": "2026-07-21",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "baf6c704114204",
+          "source": "学习强国",
+          "title": "鼓励包容并蓄 促进文明互鉴——携手构建公正合理的全球人工智能治理体系述评之三",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=9709981436810950458&item_id=9709981436810950458",
+          "date": "2026-07-21",
+          "keyword": "人工智能"
+        },
+        {
           "id": "9247648abc9048",
           "source": "广东发布",
           "title": "习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实",
@@ -27692,25 +27756,17 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "人工智能"
         },
         {
-          "id": "81737467696475",
+          "id": "716fee1104ba5b",
           "source": "新华社",
-          "title": "2026世界人工智能大会闭幕 现场观众累计超40万人次",
-          "url": "https://www.news.cn/politics/20260721/ccc49a6fe8ac445ca78fbe314ed945e1/c.html",
+          "title": "习近平总书记的重要论述指引基础教育改革发展开创新局面",
+          "url": "https://www.news.cn/politics/leaders/20260721/370ff592137c43d283e86cc0bd921f9a/c.html",
           "date": "2026-07-21",
-          "keyword": "人工智能"
-        },
-        {
-          "id": "91cfa96002eb2d",
-          "source": "新华社",
-          "title": "入画入戏入心——人工智能助力中国传统文化焕发生机",
-          "url": "https://www.news.cn/info/20260721/bf29e5b375b44ce6b1da360854c83c38/c.html",
-          "date": "2026-07-21",
-          "keyword": "人工智能"
+          "keyword": "习近平"
         },
         {
           "id": "81dc818e76b094",
           "source": "新华社",
-          "title": "鼓励包容并蓄 促进文明互鉴——携手构建公正合理的全球人工智能治理体系述评之三",
+          "title": "携手构建公正合理的全球人工智能治理体系述评之三",
           "url": "https://www.news.cn/politics/leaders/20260721/3d1363e7e2804ebeaa7e670decd6ab37/c.html",
           "date": "2026-07-21",
           "keyword": "人工智能"
@@ -27748,6 +27804,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
+          "id": "8163413f4be167",
+          "source": "新华社",
+          "title": "国际油价重拾升势 世界经济还能扛住吗",
+          "url": "https://www.news.cn/world/20260721/d73d5fa78989413c804b0d59befada9c/c.html",
+          "date": "2026-07-21",
+          "keyword": "经济"
+        },
+        {
           "id": "30d66eb1b989d2",
           "source": "光明日报",
           "title": "【“十五五”我们躬身加油干】“城北好物”，更快更多飞出山",
@@ -27764,6 +27828,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "十五五"
         },
         {
+          "id": "e00369c1be3dd8",
+          "source": "光明日报",
+          "title": "【光明时评】产学研融合、一体化协同推动农业科技创新",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19814.html",
+          "date": "2026-07-21",
+          "keyword": "科技"
+        },
+        {
           "id": "1ed8d16f6e13e4",
           "source": "半月谈",
           "title": "“十五五”开局之年推进新一代通信网建设观察",
@@ -27772,10 +27844,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "十五五"
         },
         {
-          "id": "e00369c1be3dd8",
-          "source": "光明日报",
-          "title": "【光明时评】产学研融合、一体化协同推动农业科技创新",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19814.html",
+          "id": "7983e7d6e57ef9",
+          "source": "学习强国",
+          "title": "2030年林草科技进步贡献率将提升至65%",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=1977726902228262223&item_id=1977726902228262223",
           "date": "2026-07-21",
           "keyword": "科技"
         },
@@ -27786,6 +27858,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/tech/20260721/0d6bcfdf3a9641a9b194d11fea91ce7d/c.html",
           "date": "2026-07-21",
           "keyword": "科技"
+        },
+        {
+          "id": "669323576c8a5b",
+          "source": "求是",
+          "title": "中国共产党成功密码的系统凝练与理论升华",
+          "url": "https://www.qstheory.cn/20260721/ae3faacefdf9445cab82d5d35cee242a/c.html",
+          "date": "2026-07-21",
+          "keyword": "中国共产党"
+        },
+        {
+          "id": "44281889beb62b",
+          "source": "人民日报",
+          "title": "中华人民共和国政府和泰王国政府关于面向繁荣中泰命运共同体的联合声明",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169902.html",
+          "date": "2026-07-21",
+          "keyword": "共同体"
+        },
+        {
+          "id": "03e58a3828bc4a",
+          "source": "半月谈",
+          "title": "中华人民共和国政府和泰王国政府关于面向繁荣中泰命运共同体的联合声明",
+          "url": "http://www.banyuetan.org/yw/detail/20260721/1000200033137441784597113798221893_1.html",
+          "date": "2026-07-21",
+          "keyword": "共同体"
         },
         {
           "id": "219624f60dc550",
@@ -27808,14 +27904,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "“理想信念是共产党人精神上的‘钙’”（总书记的人民情怀）",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169892.html",
-          "date": "2026-07-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "44281889beb62b",
-          "source": "人民日报",
-          "title": "中华人民共和国政府和泰王国政府关于面向繁荣中泰命运共同体的联合声明",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169902.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -28092,10 +28180,130 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d8d8e3a52f31db",
+          "id": "005df514c25c03",
           "source": "半月谈",
-          "title": "梯田上的“红衣定终身”，让龙胜红瑶古老婚俗“活”起来",
-          "url": "http://www.banyuetan.org/dfgc/detail/20260721/1000200033136151784598829664299815_1.html",
+          "title": "9部门发文促进家政服务业高质量发展",
+          "url": "http://www.banyuetan.org/yw/detail/20260721/1000200033137441784596762856215600_1.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ad3a58a1518309",
+          "source": "半月谈",
+          "title": "中共新华社党组刊文：做永远的“四大队”队员",
+          "url": "http://www.banyuetan.org/yw/detail/20260721/1000200033137441784596847918216025_1.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5e8cd2d53accac",
+          "source": "半月谈",
+          "title": "南方多地强降雨持续局地有大暴雨 重庆新疆等地高温持久",
+          "url": "http://www.banyuetan.org/yw/detail/20260721/1000200033137441784596724361214567_1.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ad3cafe87b89f4",
+          "source": "半月谈",
+          "title": "国务院常务会议解读丨我国将优化社会保障体系",
+          "url": "http://www.banyuetan.org/yw/detail/20260721/1000200033137441784596980824218535_1.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "441e92f2e7e395",
+          "source": "半月谈",
+          "title": "护航“东北超” 答好治理卷",
+          "url": "http://www.banyuetan.org/dfgc/detail/20260721/1000200033136151784607034759226115_1.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5b753790cc3ff8",
+          "source": "半月谈",
+          "title": "持续向新向优发展——透视上半年工业和信息化走势",
+          "url": "http://www.banyuetan.org/yw/detail/20260721/1000200033137441784596934559217185_1.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "338c88cc4628ce",
+          "source": "半月谈",
+          "title": "李强致电祝贺伯纳姆就任英国首相",
+          "url": "http://www.banyuetan.org/yw/detail/20260721/1000200033137441784597058935220087_1.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b22277879c6aff",
+          "source": "半月谈",
+          "title": "白宫：美国将对加拿大特定商品加征50%关税",
+          "url": "http://www.banyuetan.org/yw/detail/20260721/1000200033137441784596590906212205_1.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "55a001d9e2feaa",
+          "source": "半月谈",
+          "title": "英国新首相伯纳姆组建内阁",
+          "url": "http://www.banyuetan.org/yw/detail/20260721/1000200033137441784596632887213657_1.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "734154d33b5577",
+          "source": "半月谈",
+          "title": "赵乐际会见泰国总理阿努廷",
+          "url": "http://www.banyuetan.org/yw/detail/20260721/1000200033137441784597034260219950_1.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4850761272fe0c",
+          "source": "学习强国",
+          "title": "两部门联合印发《养老服务师职业资格制度暂行规定》",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=5008707341390093392&item_id=5008707341390093392",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c36fbc9f92fb45",
+          "source": "学习强国",
+          "title": "中美民间交往专题学术研讨活动举办",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=16086687069807497662&item_id=16086687069807497662",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "899adc6c7e4f46",
+          "source": "学习强国",
+          "title": "以认知突围破发展壁垒",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=7985676345099939960&item_id=7985676345099939960",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "704d6830da9a52",
+          "source": "学习强国",
+          "title": "促家政服务业发展 9部门出台19条举措",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=3133808463205842112&item_id=3133808463205842112",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5d0668ad6f477c",
+          "source": "学习强国",
+          "title": "全国首列发往新疆的省际非遗主题列车抵疆",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=3039643857711185404&item_id=3039643857711185404",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "291d42c6543fac",
+          "source": "学习强国",
+          "title": "八一锐评：在新征程上跑好历史接力赛",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=11525971223741578108&item_id=11525971223741578108",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -28108,10 +28316,42 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "012ef1c7c8a9c4",
+          "source": "学习强国",
+          "title": "守住乡愁，激活文化动能",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=13097444177618135080&item_id=13097444177618135080",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "013843c4ac8a51",
           "source": "学习强国",
           "title": "文到高处，言简而意丰",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=11880227637400611596&item_id=11880227637400611596",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9ca454126decc5",
+          "source": "学习强国",
+          "title": "既要“厚书读薄”又要“薄书读厚”",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=4398926997025213671&item_id=4398926997025213671",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "04b8d0ac4365ca",
+          "source": "学习强国",
+          "title": "水利部维持对桂鄂湘洪水防御四级应急响应",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=4659010925280833755&item_id=4659010925280833755",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3799754635f974",
+          "source": "学习强国",
+          "title": "第二十七届青洽会签约总投资额758亿元",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=8585221164347121154&item_id=8585221164347121154",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -28124,26 +28364,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "6c0fff5261e314",
+          "id": "6e93817f23ab02",
           "source": "新华社",
-          "title": "“人民·丰碑——中国国家博物馆馆藏经典美术作品展”在国博举行",
-          "url": "https://www.news.cn/culture/20260721/81abe7a9f8b6432187fedca94b27a76d/c.html?page=1",
-          "date": "2026-07-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "191b8d8d39a9a7",
-          "source": "新华社",
-          "title": "“新”动四川",
-          "url": "https://www.news.cn/politics/20260721/d71c72989ef241d984f6a873cc9280c0/c.html",
-          "date": "2026-07-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "c7cbd17c963d9d",
-          "source": "新华社",
-          "title": "“箱包之都”产业升级 赋能就业“含金量”",
-          "url": "https://www.news.cn/fashion/20260721/966d373dd50148e0a697c3a3b368af5b/c.html",
+          "title": "“指环王”土星的戒指找回来啦",
+          "url": "https://www.news.cn/tech/20260721/14e810cfc3f4417896b8c60bddd46d3a/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -28164,6 +28388,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "e18a5d6a144f8b",
+          "source": "新华社",
+          "title": "与中国同行，共赴智能未来",
+          "url": "https://www.news.cn/tech/20260721/bc0a0e48596343988a73b95e78cb963e/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "2b1063f7615838",
           "source": "新华社",
           "title": "世界杯冠军西班牙队举行巡游庆祝活动",
@@ -28180,34 +28412,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "e759310a661563",
+          "id": "c8e5a1f5a79c48",
           "source": "新华社",
-          "title": "中国使馆证实3名我公民在俄境内无人机袭击中受伤",
-          "url": "https://www.news.cn/world/20260721/960b07dd581c4cc7b4077b2f3520c3b3/c.html",
+          "title": "中国之城丨辽宁丹东：江海环抱的边城",
+          "url": "https://www.news.cn/local/20260721/d63b8d2bbc164163a671fe5cc1804988/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
         {
-          "id": "15b8a0451933c4",
+          "id": "7ae34b17326999",
           "source": "新华社",
-          "title": "从“照单生产”到定义潮流 义乌世界杯生意推陈出新",
-          "url": "https://www.news.cn/fortune/20260721/18cf13e206ef49bb941d419892408998/c.html",
+          "title": "中国海警局新闻发言人就允许菲转运伤员发表谈话",
+          "url": "https://www.news.cn/politics/20260721/78fcd8be281042a689de4ae6c29b3783/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
         {
-          "id": "c64b901eabd9a2",
+          "id": "4210b6cf738ebb",
           "source": "新华社",
-          "title": "以军启动在黎巴嫩南部首个“试点区域”撤军行动",
-          "url": "https://www.news.cn/world/20260721/e82b8c62ac1040d2beccf90b48b2d0e4/c.html",
+          "title": "中央网信办举报中心上半年转交处置仿冒假冒网站759个 超八成被仿冒主体为企事业单位网站",
+          "url": "https://www.news.cn/politics/20260721/ceceed49dbcb4bae948d89adc5d48970/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
         {
-          "id": "f5971d5bab4a0d",
+          "id": "f739645c4686e1",
           "source": "新华社",
-          "title": "伊多地传出爆炸声",
-          "url": "https://www.news.cn/world/20260721/41fc4547c3d441ca847f017a6c2e7633/c.html",
+          "title": "中方呼吁推进海地政治过渡",
+          "url": "https://www.news.cn/20260721/0452025a243f48c1bda22663862f250a/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5bd8eb97ba4679",
+          "source": "新华社",
+          "title": "今天，缅怀“追光者”王大珩",
+          "url": "https://www.news.cn/politics/20260721/0e606563751d47bb828b1cbd771e3c21/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "786f35022c2b7f",
+          "source": "新华社",
+          "title": "从物理驱蚊到激光灭蚊，哪种灭蚊方式更有效？",
+          "url": "https://www.news.cn/tech/20260721/379289458b144def8ddc373396abc3c3/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -28236,6 +28484,38 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "a7c33512c745cd",
+          "source": "新华社",
+          "title": "公安部交管局发布暑期提醒：别让孩子坐“黑车”",
+          "url": "https://www.news.cn/legal/20260721/c3ea03fc7f0e4a1a99c8af75890b04d1/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3e73a26cea804c",
+          "source": "新华社",
+          "title": "冲刺“人形机器人第一城” 深圳何以跑成“机圈顶流”",
+          "url": "https://www.news.cn/20260721/344948a837eb42b699aa2badb8b9bfca/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1c5c8dea6c0eef",
+          "source": "新华社",
+          "title": "函博Vlog丨我跟书记去送饭：寻找两元爱心午餐背后的温情密码",
+          "url": "https://www.news.cn/local/20260721/ae3e85ff999d44d497a37e57fa4bbe0b/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fe72b36c17d6e1",
+          "source": "新华社",
+          "title": "刚果（金）埃博拉确诊病例超2400例",
+          "url": "https://www.news.cn/world/20260721/68e0906a3b4d401d8f18511be1b0640d/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "66243446735308",
           "source": "新华社",
           "title": "初步计票：圣多美和普林西比总统诺瓦赢得连任",
@@ -28260,42 +28540,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "3ca7da6e78ba4d",
+          "source": "新华社",
+          "title": "卢浮宫遭劫展厅将重新开放 不会放置此前珠宝展品",
+          "url": "https://www.news.cn/world/20260721/136b3eb4515e4fbab5bedbd09fa7e410/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "52ef0975717a97",
           "source": "新华社",
           "title": "厄瓜多尔军方摧毁逾10万株古柯植株",
           "url": "https://www.news.cn/20260721/4280e7f599d14a129cdfcf580de8dc99/c.html",
-          "date": "2026-07-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "5bdfe3f94db155",
-          "source": "新华社",
-          "title": "古特雷斯云南行：从洱海之滨到滇池之畔",
-          "url": "https://www.news.cn/local/20260721/ba92e13151044f80aa140386afcada5f/c.html",
-          "date": "2026-07-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "4732714b09d9c9",
-          "source": "新华社",
-          "title": "各级工会多措并举做好高温天气职工送清凉工作",
-          "url": "https://www.news.cn/government/20260721/647f0d22e46146c5b09fefb35220a5f7/c.html",
-          "date": "2026-07-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "ccb634497a7b5b",
-          "source": "新华社",
-          "title": "四大险企发声看好资本市场 部分险资逆势加仓",
-          "url": "https://www.news.cn/20260721/cf28409f6af44ad88c3295c945752071/c.html",
-          "date": "2026-07-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "d58837d15ff692",
-          "source": "新华社",
-          "title": "国家文物局要求博物馆暑期实事求是开展预约工作",
-          "url": "https://www.news.cn/culture/20260721/7a3a2c7668704f2da58f9cd82aace2e6/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -28316,18 +28572,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "79ce602b4137d2",
+          "id": "4594f6bad8f5f6",
           "source": "新华社",
-          "title": "如何申请国家助学贷款",
-          "url": "https://www.news.cn/politics/20260721/7e9c46cfccc040eda2da39e3c73df08c/c.html",
+          "title": "外交部边海司就菲在仁爱礁蓄意挑衅提出严正交涉",
+          "url": "https://www.news.cn/world/20260721/410bd3649f4940ffa083413627a30f86/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
         {
-          "id": "7b8f9ac3f4c4f6",
+          "id": "3eb4f64da4ebbd",
           "source": "新华社",
-          "title": "将数据中心搬上天，发展太空算力需要哪些技术突破",
-          "url": "https://www.news.cn/politics/20260721/35ede172e6c54eaca029af1df14f0c63/c.html",
+          "title": "广西洪涝重灾区路网已恢复通行",
+          "url": "https://www.news.cn/local/20260721/4b1c38de7d3e4701b6aca516cfc6d09d/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -28340,10 +28596,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "eb5b37bb461472",
+          "id": "23ea93930e3ffd",
           "source": "新华社",
-          "title": "文博金北京首店入驻apm，古法金靠“文化引流”靠“设计留人”",
-          "url": "https://www.news.cn/fashion/20260721/d7c0e4fe80f34293b3c8471486b6d2fc/c.html",
+          "title": "我国国家综合立体交通网里程超600万公里",
+          "url": "https://www.news.cn/politics/20260721/51d290d0a5f7408d90b5a7b6c4a712d1/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a38adb4e868005",
+          "source": "新华社",
+          "title": "我国将安排220亿元支持老旧营运货车报废更新",
+          "url": "https://www.news.cn/fortune/20260721/4a9b24b8126a4c06886a6e37fa591fb3/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "990351a18e3d34",
+          "source": "新华社",
+          "title": "我国将建设3000个以上电动重卡充换电站",
+          "url": "https://www.news.cn/fortune/20260721/c80c599cb44d49d882c0645c2b9846f2/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -28356,18 +28628,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "be1a4f7a85ebe9",
+          "id": "bb238951208d5f",
           "source": "新华社",
-          "title": "新场景新业态，地铁站里上新了",
-          "url": "https://www.news.cn/politics/20260721/7c8bed8817194a45af10bf96b67a00b0/c.html",
+          "title": "星空相册丨赴约夏日银河",
+          "url": "https://www.news.cn/photo/20260721/7f72def53c4c4898bcbdea8fcf827130/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
         {
-          "id": "e891bee62f002a",
+          "id": "2ce9429e24f5c4",
           "source": "新华社",
-          "title": "江苏南京：政务服务提质暖心",
-          "url": "https://www.news.cn/government/20260721/fa84e905409a4ba3a65f41e6fa06533a/c.html",
+          "title": "晨雾中的锡林郭勒草原",
+          "url": "https://www.news.cn/local/20260721/48533d2e1b0a49a59a3f882272d5b07b/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "22c6ae048c4b78",
+          "source": "新华社",
+          "title": "李坤说教育丨六小龄童分享《西游记》里的成长智慧",
+          "url": "https://www.news.cn/politics/20260721/7f81a37856f24da797bc95683d8b0e30/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -28396,26 +28676,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "82362f7db31f64",
+          "id": "6eb042dec578c7",
           "source": "新华社",
-          "title": "洪水预报如何实现？如何延长洪水预见期？",
-          "url": "https://www.news.cn/local/20260721/717f17665ace4853b018079b92138941/c.html",
-          "date": "2026-07-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "41acf65acd8a4d",
-          "source": "新华社",
-          "title": "海南三亚：黑鳍鲨再次到访蜈支洲岛",
-          "url": "https://www.news.cn/local/20260721/b4ab7481fdad455d96446e4c1493aaed/c.html",
-          "date": "2026-07-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "64425ab3c9fd8c",
-          "source": "新华社",
-          "title": "澳大利亚和谐侨社2026年“和合共生”论坛在悉尼举办",
-          "url": "https://www.news.cn/world/20260721/f380580bb87e4f3b9e0ec2eb1202c352/c.html",
+          "title": "活力中国调研行丨走进无锡“星工场”",
+          "url": "https://www.news.cn/photo/20260721/e76881b292c1413cb6c4240ec4306346/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -28436,10 +28700,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8cf81552d4cdcb",
+          "id": "d1b53e78b98d07",
+          "source": "新华社",
+          "title": "用工、价格全链条覆盖 万亿级家政服务赛道迎新政",
+          "url": "https://www.news.cn/20260721/6f2334f2c0b24f48a7c114eac6318918/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "859df56a8f1d6b",
           "source": "新华社",
           "title": "白宫：美国将对加拿大特定商品加征50%关税",
-          "url": "https://www.news.cn/world/20260721/bacb06d106bd4fabb50b454e3b47c9f0/c.html",
+          "url": "https://www.news.cn/20260721/2e7017b7c8ff441a9301506cc8268d9a/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -28460,18 +28732,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "6568edddedb15c",
+          "source": "新华社",
+          "title": "美军称对伊朗实施5小时打击",
+          "url": "https://www.news.cn/world/20260721/87a665971c2f488ba12c51c98494af01/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "dd77bf6c4179e6",
           "source": "新华社",
-          "title": "美国关税 为何“到期不下架”？贸易对象怎么应对？",
+          "title": "美国关税为何“到期不下架”？贸易对象怎么应对？",
           "url": "https://www.news.cn/fortune/20260721/c27fd5e8ddbe49d5b7b6904924200d02/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
         {
-          "id": "374ddb29f8d6c6",
+          "id": "120cfd5d30b8c4",
           "source": "新华社",
-          "title": "美对伊朗发动新一轮打击",
-          "url": "https://www.news.cn/world/20260721/d4e000d3debd4c5b8bb7cb5daa0688dc/c.html",
+          "title": "美国再发全球安全提醒",
+          "url": "https://www.news.cn/world/20260721/7257d1115e934b3d9aec155ec29a1a31/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fd29c464eff70d",
+          "source": "新华社",
+          "title": "美国将对加拿大特定商品加征50%关税",
+          "url": "https://www.news.cn/world/20260721/ff17e79e3fdf4ac98d72c43af029efb6/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -28480,6 +28768,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "美联邦法官临时叫停派拉蒙天舞收购华纳兄弟",
           "url": "https://www.news.cn/20260721/2564966b7a9e42ccae70ba60851fac85/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d3712769438c26",
+          "source": "新华社",
+          "title": "航空公司定期航线超1000条",
+          "url": "https://www.news.cn/politics/20260721/313d5bab9293464ca9ca077544117de1/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4aa21c39860216",
+          "source": "新华社",
+          "title": "虫咬后这些操作使不得 正确处理方法请收好",
+          "url": "https://www.news.cn/politics/20260721/5fd550de626b4b7e9d44648705d891ce/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -28508,10 +28812,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "669323576c8a5b",
+          "id": "b3b71453149871",
           "source": "求是",
-          "title": "中国共产党成功密码的系统凝练与理论升华",
-          "url": "https://www.qstheory.cn/20260721/ae3faacefdf9445cab82d5d35cee242a/c.html",
+          "title": "活力中国调研行 | 深耕基础研究沃土 孕育创新发展源头",
+          "url": "https://www.qstheory.cn/20260721/72e0cd323a974184817462e97c8155d2/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -28529,65 +28833,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 4.5,
+          "duration": 41.6,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260721.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 2.0
+          "duration": 2.4
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 52,
-          "duration": 3.1
+          "count": 60,
+          "duration": 2.5
         },
         {
           "source": "半月谈",
           "status": "ok",
-          "count": 2,
-          "duration": 17.4
+          "count": 14,
+          "duration": 22.6
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 4,
-          "duration": 6.8
+          "count": 5,
+          "duration": 6.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 25,
-          "duration": 0.8
+          "duration": 1.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.2
+          "duration": 13.1
         },
         {
           "source": "学习强国",
           "status": "ok",
-          "count": 2,
-          "duration": 2.5
+          "count": 18,
+          "duration": 4.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.0
+          "duration": 10.2
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 40.5
+          "duration": 88.8
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-21T10:04:15+08:00"
+  "generatedAt": "2026-07-21T13:46:47+08:00"
 };
