@@ -27634,16 +27634,16 @@
           "count": 10
         },
         {
-          "name": "十五五",
+          "name": "经济",
           "count": 7
         },
         {
-          "name": "经济",
+          "name": "高质量发展",
           "count": 6
         },
         {
-          "name": "高质量发展",
-          "count": 5
+          "name": "十五五",
+          "count": 6
         },
         {
           "name": "教育",
@@ -27796,14 +27796,6 @@
           "keyword": "人工智能"
         },
         {
-          "id": "23831d4c38b1bd",
-          "source": "新华社",
-          "title": "2026世界人工智能大会闭幕",
-          "url": "https://www.news.cn/tech/20260721/36ec2df68e0d41b8b6f80763bcbe4783/c.html",
-          "date": "2026-07-21",
-          "keyword": "人工智能"
-        },
-        {
           "id": "81dc818e76b094",
           "source": "新华社",
           "title": "携手构建公正合理的全球人工智能治理体系述评之三",
@@ -27812,68 +27804,20 @@
           "keyword": "人工智能"
         },
         {
-          "id": "cb2bd4e3760124",
+          "id": "73c12a73421349",
           "source": "新华社",
-          "title": "百日千万招聘专项行动推出人工智能等招聘专场",
-          "url": "https://www.news.cn/20260721/53a65ed39371474698f6392e7f2ba41c/c.html",
+          "title": "携手构建公正合理的全球人工智能治理体系述评之四",
+          "url": "https://www.news.cn/politics/leaders/20260721/da2e9f65df304c0bbf43987d22c0a312/c.html",
           "date": "2026-07-21",
           "keyword": "人工智能"
         },
         {
-          "id": "30d66eb1b989d2",
-          "source": "光明日报",
-          "title": "【“十五五”我们躬身加油干】“城北好物”，更快更多飞出山",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19793.html",
+          "id": "c10141415a2306",
+          "source": "新华社",
+          "title": "百日千万招聘专项行动推出人工智能等招聘专场",
+          "url": "https://www.news.cn/tech/20260721/8709e9d9ad7c4e1294834bcd4326065e/c.html",
           "date": "2026-07-21",
-          "keyword": "十五五"
-        },
-        {
-          "id": "03cf93f22f6553",
-          "source": "光明日报",
-          "title": "【“十五五”我们躬身加油干】“百坭花海”，更艳更美引客来",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19792.html",
-          "date": "2026-07-21",
-          "keyword": "十五五"
-        },
-        {
-          "id": "1ed8d16f6e13e4",
-          "source": "半月谈",
-          "title": "“十五五”开局之年推进新一代通信网建设观察",
-          "url": "http://www.banyuetan.org/dyp/detail/20260721/1000200033135231784598159672223781_1.html",
-          "date": "2026-07-21",
-          "keyword": "十五五"
-        },
-        {
-          "id": "bf7e1f1ab8f9d5",
-          "source": "学习强国",
-          "title": "交通运输部：“十五五”国家综合立体交通网主骨架建成率将提升至95%",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=6552775898814271516&item_id=6552775898814271516",
-          "date": "2026-07-21",
-          "keyword": "十五五"
-        },
-        {
-          "id": "cce0b3a3de7cf3",
-          "source": "学习强国",
-          "title": "国务院常务会议审议通过《知识产权保护和运用“十五五”规划》",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=9996279357708032059&item_id=9996279357708032059",
-          "date": "2026-07-21",
-          "keyword": "十五五"
-        },
-        {
-          "id": "cfe040137b90ca",
-          "source": "学习强国",
-          "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍加快建设交通强国、完善现代化综合交通运输体系有关情况",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=1193244665411016586&item_id=1193244665411016586",
-          "date": "2026-07-21",
-          "keyword": "十五五"
-        },
-        {
-          "id": "928689fc2b9900",
-          "source": "新闻联播",
-          "title": "【“十五五”开好局起好步】2030年我国基本建成现代化综合交通运输体系",
-          "url": "https://tv.cctv.com/2026/07/21/VIDEel3NGnt8ds3J4SOIU0yj260721.shtml",
-          "date": "2026-07-21",
-          "keyword": "十五五"
+          "keyword": "人工智能"
         },
         {
           "id": "a450518ffeb41d",
@@ -27908,6 +27852,14 @@
           "keyword": "经济"
         },
         {
+          "id": "45cde4e449a5a2",
+          "source": "新华社",
+          "title": "年中经济观察丨工业经济向新向优 新动能加快壮大",
+          "url": "https://www.news.cn/fortune/20260721/7c9ebfe217d749a987bc161190dd77db/c.html",
+          "date": "2026-07-21",
+          "keyword": "经济"
+        },
+        {
           "id": "a52c8807b7f4c6",
           "source": "新华社",
           "title": "河北石家庄：夏日冰雪经济热",
@@ -27924,6 +27876,22 @@
           "keyword": "经济"
         },
         {
+          "id": "30d66eb1b989d2",
+          "source": "光明日报",
+          "title": "【“十五五”我们躬身加油干】“城北好物”，更快更多飞出山",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19793.html",
+          "date": "2026-07-21",
+          "keyword": "十五五"
+        },
+        {
+          "id": "03cf93f22f6553",
+          "source": "光明日报",
+          "title": "【“十五五”我们躬身加油干】“百坭花海”，更艳更美引客来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/21/content_19792.html",
+          "date": "2026-07-21",
+          "keyword": "十五五"
+        },
+        {
           "id": "005df514c25c03",
           "source": "半月谈",
           "title": "9部门发文促进家政服务业高质量发展",
@@ -27932,20 +27900,36 @@
           "keyword": "高质量发展"
         },
         {
-          "id": "97a089ccd0ea94",
-          "source": "学习强国",
-          "title": "教育部职业教育与成人教育司负责人就2026年《职业教育专业目录》专业增补答记者问",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=8682818823496690560&item_id=8682818823496690560",
+          "id": "1ed8d16f6e13e4",
+          "source": "半月谈",
+          "title": "“十五五”开局之年推进新一代通信网建设观察",
+          "url": "http://www.banyuetan.org/dyp/detail/20260721/1000200033135231784598159672223781_1.html",
           "date": "2026-07-21",
-          "keyword": "教育"
+          "keyword": "十五五"
         },
         {
-          "id": "f4f8a30d1a0879",
+          "id": "ff7b3f6aecae36",
           "source": "学习强国",
-          "title": "谭洪政：中学科协赋能科技教育",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=6732753921247102478&item_id=6732753921247102478",
+          "title": "“在高质量发展中保障和改善民生”形势政策系列报告会第五场报告会在北京举行",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=8019665816759428397&item_id=8019665816759428397",
           "date": "2026-07-21",
-          "keyword": "教育"
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "bf7e1f1ab8f9d5",
+          "source": "学习强国",
+          "title": "交通运输部：“十五五”国家综合立体交通网主骨架建成率将提升至95%",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=6552775898814271516&item_id=6552775898814271516",
+          "date": "2026-07-21",
+          "keyword": "十五五"
+        },
+        {
+          "id": "cfe040137b90ca",
+          "source": "学习强国",
+          "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍加快建设交通强国、完善现代化综合交通运输体系有关情况",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=1193244665411016586&item_id=1193244665411016586",
+          "date": "2026-07-21",
+          "keyword": "十五五"
         },
         {
           "id": "876cd105ee3786",
@@ -27970,6 +27954,30 @@
           "url": "https://tv.cctv.com/2026/07/21/VIDE39Jvj2EcWWnXfsk0lO9n260721.shtml",
           "date": "2026-07-21",
           "keyword": "高质量发展"
+        },
+        {
+          "id": "928689fc2b9900",
+          "source": "新闻联播",
+          "title": "【“十五五”开好局起好步】2030年我国基本建成现代化综合交通运输体系",
+          "url": "https://tv.cctv.com/2026/07/21/VIDEel3NGnt8ds3J4SOIU0yj260721.shtml",
+          "date": "2026-07-21",
+          "keyword": "十五五"
+        },
+        {
+          "id": "97a089ccd0ea94",
+          "source": "学习强国",
+          "title": "教育部职业教育与成人教育司负责人就2026年《职业教育专业目录》专业增补答记者问",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=8682818823496690560&item_id=8682818823496690560",
+          "date": "2026-07-21",
+          "keyword": "教育"
+        },
+        {
+          "id": "f4f8a30d1a0879",
+          "source": "学习强国",
+          "title": "谭洪政：中学科协赋能科技教育",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=6732753921247102478&item_id=6732753921247102478",
+          "date": "2026-07-21",
+          "keyword": "教育"
         },
         {
           "id": "e00369c1be3dd8",
@@ -28436,14 +28444,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "ceb85fd4b2313c",
-          "source": "学习强国",
-          "title": "“五链”深度融合推动国企民企协同发展",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=472612617129366545&item_id=472612617129366545",
-          "date": "2026-07-21",
-          "keyword": "综合时政"
-        },
-        {
           "id": "033e8c24598b0d",
           "source": "学习强国",
           "title": "“逐日”蹄疾，电从太空来",
@@ -28740,6 +28740,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "5430c6e35132ec",
+          "source": "学习强国",
+          "title": "王毅、李鸿忠分别会见欧洲议会外事委员会代表团",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=16760956591605289899&item_id=16760956591605289899",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "4b20815176f3d7",
           "source": "学习强国",
           "title": "破解从实验室到市场“最后一公里”难题——北京大学探索技术经理人培养模式",
@@ -28924,26 +28932,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "e18a5d6a144f8b",
-          "source": "新华社",
-          "title": "与中国同行，共赴智能未来",
-          "url": "https://www.news.cn/tech/20260721/bc0a0e48596343988a73b95e78cb963e/c.html",
-          "date": "2026-07-21",
-          "keyword": "综合时政"
-        },
-        {
           "id": "76a36ebae04a6a",
           "source": "新华社",
           "title": "与你我相关，健康中国这样建设",
           "url": "https://www.news.cn/politics/20260721/69a6763253f04938964733cefd66d764/c.html",
-          "date": "2026-07-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "59f64269d73109",
-          "source": "新华社",
-          "title": "中共新华社党组刊文：做永远的“四大队”队员",
-          "url": "https://www.news.cn/politics/20260721/97cfedcff3bd48f68c781bf7fceb987e/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -28968,14 +28960,6 @@
           "source": "新华社",
           "title": "中方就菲律宾在仁爱礁蓄意挑衅提出严正交涉",
           "url": "https://www.news.cn/world/20260721/57ad18e4dd5045e8a1a4b9e17116c5b7/c.html",
-          "date": "2026-07-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "640c0ff41ec881",
-          "source": "新华社",
-          "title": "中老铁路部分列车晚点",
-          "url": "https://www.news.cn/politics/20260721/4fb83c14e6a146c2a952c200a0b1865d/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -29020,6 +29004,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "a479362a479b36",
+          "source": "新华社",
+          "title": "促家政服务业发展有新政策",
+          "url": "https://www.news.cn/fortune/20260721/77b6044fd85c4f3494e249e5591af64a/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1d97fc6c5d1257",
           "source": "新华社",
           "title": "全国首趟跨境海铁公“一单制”班列从烟台港开行",
@@ -29028,18 +29020,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "d1b1e316cd67e0",
+          "id": "813c4ab4369d5b",
           "source": "新华社",
-          "title": "北京：夏日荷花开",
-          "url": "https://www.news.cn/photo/20260721/8447a13c629a469b9fc399c11fc6dc7d/c.html",
-          "date": "2026-07-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "86abc781952997",
-          "source": "新华社",
-          "title": "吸纳重点群体就业的家政企业可享税收优惠",
-          "url": "https://www.news.cn/politics/20260721/358133f29afc4203ae5ab45d049b4fa1/c.html",
+          "title": "卢浮宫遭劫展厅将重新开放",
+          "url": "https://www.news.cn/photo/20260721/13321a0c61234d59bc7ca4fdc7aff532/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -29116,6 +29100,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "b1928b8119fc78",
+          "source": "新华社",
+          "title": "当地多部门启动应急响应",
+          "url": "https://www.news.cn/local/20260721/da72250abbbf4a0aa694b5eb34e5459c/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "64880b7a703ea2",
           "source": "新华社",
           "title": "彭水山体崩塌救援进行时",
@@ -29140,18 +29132,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "4ec42b5e2435af",
+          "id": "f22b4025404d74",
           "source": "新华社",
-          "title": "扬子江畔，看“黑色黄金”量产新景",
-          "url": "https://www.news.cn/fortune/20260721/d040e97e426e4cb4b5f999b056275e1e/c.html",
+          "title": "我国杂交水稻育种科研取得重要进展",
+          "url": "https://www.news.cn/20260721/bc9e030f915c443d9def6141316ba57b/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
         {
-          "id": "25682e318c8082",
+          "id": "4ec42b5e2435af",
           "source": "新华社",
-          "title": "支持家政服务按等级明码标价",
-          "url": "https://www.news.cn/fortune/20260721/ed4c071be8dc444088f8a6b6b73a6cf8/c.html",
+          "title": "扬子江畔，看“黑色黄金”量产新景",
+          "url": "https://www.news.cn/fortune/20260721/d040e97e426e4cb4b5f999b056275e1e/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -29172,10 +29164,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "d9eccaa31d59cc",
+          "id": "93b50df7028fd5",
           "source": "新华社",
-          "title": "日印高铁合作再生事端 印度被指“不守诚信”",
-          "url": "https://www.news.cn/world/20260721/b988470fbbd94afbbd5614e81064d0e3/c.html",
+          "title": "新型风电安装船在江苏启东交付启航",
+          "url": "https://www.news.cn/photo/20260721/d813a6aacd8d406089103255c4d798b6/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -29236,10 +29228,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "10cc62555b1d77",
+          "id": "7bd208dd6ed1a3",
           "source": "新华社",
-          "title": "民政部发布全国首批婚丧习俗改革典型案例",
-          "url": "https://www.news.cn/politics/20260721/3ef1a5e4bfc74df8b6d4f67824669397/c.html",
+          "title": "武契奇称将在辞去总统职务后参选总理",
+          "url": "https://www.news.cn/world/20260721/43dd9f8f90004b6a9ad760e0114c45a0/c.html",
+          "date": "2026-07-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "62b74f1952e31c",
+          "source": "新华社",
+          "title": "江苏大学学生暑期赴安徽金寨支教",
+          "url": "https://www.news.cn/photo/20260721/a2450b9253104104a461cc9b99705376/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -29252,10 +29252,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "e242b1697d3c05",
+          "id": "9d6267ad4d4d0c",
           "source": "新华社",
-          "title": "浙江桐庐：服务区变身“海底世界”",
-          "url": "https://www.news.cn/photo/20260721/6036e98fc9a545bdbcc7fffe50b3b55b/c.html",
+          "title": "王毅、李鸿忠分别会见欧洲议会外事委员会代表团",
+          "url": "https://www.news.cn/politics/leaders/20260721/d4a099848afc4c6c826af5ddda66ca99/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -29268,10 +29268,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "4f87ab0528b860",
+          "id": "d6444ff87686ef",
           "source": "新华社",
-          "title": "粮仓来了新“守仓人”",
-          "url": "https://www.news.cn/local/20260721/b96fd750947141c8be8902d2ff2c2f27/c.html",
+          "title": "破解“找阿姨难”",
+          "url": "https://www.news.cn/fortune/20260721/8dcc09f1c5284d06b9aa8e70081183c7/c.html",
           "date": "2026-07-21",
           "keyword": "综合时政"
         },
@@ -29463,31 +29463,31 @@
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 2.0
+          "duration": 1.5
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.0
+          "duration": 3.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 17,
-          "duration": 43.1
+          "duration": 20.8
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 8,
-          "duration": 6.2
+          "duration": 6.5
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 25,
-          "duration": 1.9
+          "duration": 1.8
         },
         {
           "source": "南方周末",
@@ -29499,22 +29499,22 @@
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 3.0
+          "duration": 2.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 9.4
+          "duration": 10.9
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 16,
-          "duration": 58.6
+          "duration": 62.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-21T21:25:58+08:00"
+  "generatedAt": "2026-07-21T23:40:29+08:00"
 }
