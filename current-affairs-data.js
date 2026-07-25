@@ -35359,14 +35359,14 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-07-25",
-      "keyword": "教育",
+      "keyword": "经济",
       "keywords": [
         {
-          "name": "教育",
-          "count": 4
+          "name": "经济",
+          "count": 5
         },
         {
-          "name": "经济",
+          "name": "教育",
           "count": 4
         },
         {
@@ -35400,14 +35400,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
-          "id": "ddc525f28259d0",
-          "source": "光明日报",
-          "title": "凝心聚力，办好人民满意的基础教育",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/25/content_20259.html",
-          "date": "2026-07-25",
-          "keyword": "教育"
-        },
-        {
           "id": "3e23646b06c99a",
           "source": "新华社",
           "title": "外贸“半年报”看经济第一大省高质量跃升",
@@ -35416,20 +35408,36 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
-          "id": "b384dedd3d0e10",
-          "source": "新华社",
-          "title": "家庭教育有何原则建议？这封信，致一年级新生家长",
-          "url": "https://education.news.cn/20260725/e9c19b3e4e124707b61153415fd3d644/c.html",
-          "date": "2026-07-25",
-          "keyword": "教育"
-        },
-        {
           "id": "9e4de15b0d29a2",
           "source": "新华社",
           "title": "欧洲央行首席经济学家：美国并非国际贸易主导力量",
           "url": "https://www.news.cn/20260725/143d6caf52ff4ec3abc730da7c84f787/c.html",
           "date": "2026-07-25",
           "keyword": "经济"
+        },
+        {
+          "id": "51d09eaa640d3f",
+          "source": "新华社",
+          "title": "让平台经济规范向好",
+          "url": "https://www.news.cn/fortune/20260725/bbff2c78684640589c150e4a483b0532/c.html",
+          "date": "2026-07-25",
+          "keyword": "经济"
+        },
+        {
+          "id": "ddc525f28259d0",
+          "source": "光明日报",
+          "title": "凝心聚力，办好人民满意的基础教育",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/25/content_20259.html",
+          "date": "2026-07-25",
+          "keyword": "教育"
+        },
+        {
+          "id": "b384dedd3d0e10",
+          "source": "新华社",
+          "title": "家庭教育有何原则建议？这封信，致一年级新生家长",
+          "url": "https://education.news.cn/20260725/e9c19b3e4e124707b61153415fd3d644/c.html",
+          "date": "2026-07-25",
+          "keyword": "教育"
         },
         {
           "id": "1903b8d270eb05",
@@ -35880,6 +35888,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "e69e1607991c1f",
+          "source": "广东发布",
+          "title": "黄坤明主持召开防御台风“红霞”视频调度会 迅速进入临战状态 立足最不利情况完善防御部署 齐心协力打赢台风防御硬仗 孟凡利参加",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4933643.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "7f0e0e3a7961c5",
           "source": "新华社",
           "title": "2026年上半年全国纪检监察机关立案53.8万件",
@@ -35912,14 +35928,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "27fa688a6acc6e",
-          "source": "新华社",
-          "title": "“红霞”加强",
-          "url": "https://www.news.cn/politics/20260725/42fd84cd9ea345fd9e0da85e8a97b4a6/c.html",
-          "date": "2026-07-25",
-          "keyword": "综合时政"
-        },
-        {
           "id": "b365613daeaede",
           "source": "新华社",
           "title": "一周“靓”数",
@@ -35936,26 +35944,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "5dd3cd24800ab5",
+          "source": "新华社",
+          "title": "专访中国气象局局长：筑牢气象防灾减灾第一道防线",
+          "url": "https://www.news.cn/politics/20260725/8f4b090a408d43759eeb04823082f04e/c.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "968f4f7d5a62e5",
           "source": "新华社",
           "title": "东盟国家驻华使节探访广西开放合作新机遇",
           "url": "https://www.news.cn/fortune/20260725/1b3220a2b349481a88937774df5c57d0/c.html",
-          "date": "2026-07-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "dcc459a346724c",
-          "source": "新华社",
-          "title": "中国气象局 启动二级重大气象灾害应急响应",
-          "url": "https://www.news.cn/politics/20260725/95f3b999cc7149d8aa66d3f19464db41/c.html",
-          "date": "2026-07-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "abc68a82f58512",
-          "source": "新华社",
-          "title": "中国的世界遗产总数达到61项 近年新增项目一览",
-          "url": "https://www.news.cn/politics/20260725/de4e672d9f83413387500b9f44c2ab1f/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
@@ -35968,18 +35968,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "9b5777860f3b1c",
+          "id": "d6d4c1260f210a",
           "source": "新华社",
-          "title": "中核集团原党组副书记、总经理顾军严重违纪违法被开除党籍",
-          "url": "https://www.news.cn/20260725/e30507540f174db4af20c3d5c020430e/c.html",
+          "title": "中核集团原总经理顾军被开除党籍",
+          "url": "https://www.news.cn/legal/20260725/125c1247886047998c815fecbc01342e/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
         {
-          "id": "7e14817c746b13",
+          "id": "66c69cf12848e8",
           "source": "新华社",
-          "title": "乌克兰基辅州遭导弹袭击致10人死亡",
-          "url": "https://www.news.cn/world/20260725/c4594b7cf75840a48da395d002a8c856/c.html",
+          "title": "中欧班列“东通道”同江特大桥完成架梁",
+          "url": "https://www.news.cn/photo/20260725/2fc8467134d0465ea34bd672511dcbe0/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
@@ -36016,10 +36016,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "384b34f74691f6",
+          "id": "e59ad7555d80e0",
           "source": "新华社",
-          "title": "全球首个本迪布焦型埃博拉疫苗临床试验启动人体接种",
-          "url": "https://www.news.cn/20260725/6716bf72999645afaa87fe41c1ac98fc/c.html",
+          "title": "伦敦市中心一警用巡逻艇撞桥致5名警察受伤",
+          "url": "https://www.news.cn/20260725/1136919e527f4450bd74f26848dce037/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
@@ -36032,18 +36032,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "3e9aa49e95bda6",
+          "id": "d998eb794109ea",
           "source": "新华社",
-          "title": "华润集团原党委委员、副总经理韩嵩严重违纪违法被开除党籍和公职",
-          "url": "https://www.news.cn/20260725/24712c92de1f4156877c6742372a030b/c.html",
+          "title": "华润集团原副总经理韩嵩被双开",
+          "url": "https://www.news.cn/legal/20260725/fb419aac366a46d6a660bbb00e63959d/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
         {
-          "id": "d73b1be7263150",
+          "id": "7fdb70d29ba2ec",
           "source": "新华社",
-          "title": "哥伦比亚宣布进入\"国家灾难状态\"以应对气象灾害",
-          "url": "https://www.news.cn/world/20260725/a5936729a6c449baac8e112d8496c675/c.html",
+          "title": "台风“红霞”逼近 海浪及风暴潮警报升级为红橙",
+          "url": "https://www.news.cn/politics/20260725/48481534ca304f06b1e6c21851a60445/c.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7948340a35bac7",
+          "source": "新华社",
+          "title": "和美国贸易摩擦升级 加拿大独自剪彩新跨国大桥",
+          "url": "https://www.news.cn/world/20260725/6ac58c34ee4c462a8783f5bc0a6f917d/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
@@ -36056,10 +36064,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8841f081709117",
+          "id": "b66d72099ca9ce",
           "source": "新华社",
-          "title": "国际刑事法院检察官卡里姆·汗被解职",
-          "url": "https://www.news.cn/world/20260725/630be94049684bee92219434fde58d3a/c.html",
+          "title": "国家防办调度部署防范工作",
+          "url": "https://www.news.cn/20260725/700df09910c744928966f7ecc8a4d8e6/c.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e7ec4ea5ed7fa7",
+          "source": "新华社",
+          "title": "填补世界遗产“瓷”空白",
+          "url": "https://www.news.cn/politics/20260725/395a13d342e24f0b843c01590b754dc5/c.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f5d2d4beee35cd",
+          "source": "新华社",
+          "title": "备战世界杯 中国U17男足新一期集训名单出炉",
+          "url": "https://www.news.cn/20260725/45adc567bdf3442ea45cd326e0302a0b/c.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4ec6dafdeb6362",
+          "source": "新华社",
+          "title": "夜游沈阳故宫",
+          "url": "https://www.news.cn/photo/20260725/755cda97cf3b4418b3e86f9a777abc75/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
@@ -36080,14 +36112,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "ad221aa147edd6",
-          "source": "新华社",
-          "title": "委内瑞拉宣布退出国际刑事法院",
-          "url": "https://www.news.cn/world/20260725/24e8f44f88094fa49299aeb1da461b39/c.html",
-          "date": "2026-07-25",
-          "keyword": "综合时政"
-        },
-        {
           "id": "9471f928f6535f",
           "source": "新华社",
           "title": "委内瑞拉震后一月 救援清理工作继续进行",
@@ -36104,26 +36128,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "b26faa9212c10c",
+          "id": "8128cdbae8cc32",
           "source": "新华社",
-          "title": "广东Ⅱ级防汛防台风应急响应",
-          "url": "https://www.news.cn/politics/20260725/2eb0da1e57a74f5f9869888383ea070b/c.html",
-          "date": "2026-07-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "f1d2b18e62ae5c",
-          "source": "新华社",
-          "title": "广东水利防汛防台风应急响应提升至Ⅱ级",
-          "url": "https://www.news.cn/20260725/d91404239dc84c77bb0f8dc67ebba3b2/c.html",
-          "date": "2026-07-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "347730c3398779",
-          "source": "新华社",
-          "title": "我国加快构建“宽进、严管、重处”建筑市场监管机制",
-          "url": "https://www.news.cn/legal/20260725/25155ff41535469ba530d9e6db2d6067/c.html",
+          "title": "携程被罚没51.79亿元",
+          "url": "https://www.news.cn/fortune/20260725/cbf7170e42de4b0f8e81e83dd41a2709/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
@@ -36144,6 +36152,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "0ff1be00a7096a",
+          "source": "新华社",
+          "title": "新华社出图丨这就是“千年瓷都”景德镇",
+          "url": "https://www.news.cn/politics/20260725/4023404321c44f318493ad97b5391a97/c.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a0812deb8662c9",
           "source": "新华社",
           "title": "日本自民党再曝丑闻 多人称被迫“进贡”大额资金",
@@ -36156,6 +36172,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "时光相册丨老照片里的千年瓷韵与时代新生",
           "url": "https://www.news.cn/politics/20260725/39351a0d75ef4846b01af614c016b2bf/c.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4affbf80da26f8",
+          "source": "新华社",
+          "title": "景德镇申遗现场直击：落槌之后全场掌声雷动",
+          "url": "https://www.news.cn/20260725/8cc9d75c998c4e0abb0a93286133e257/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
@@ -36176,6 +36200,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "e28035bbd3e919",
+          "source": "新华社",
+          "title": "泰中合作博览会见证两国互利发展新活力",
+          "url": "https://www.news.cn/world/20260725/184e655aaaed446fb5c16cb7ccd4f6d6/c.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "ac24fa101b02a1",
           "source": "新华社",
           "title": "派拉蒙天舞宣布推迟收购华纳兄弟交易",
@@ -36184,18 +36216,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "38e75a5de4f029",
+          "id": "de9d9b578e0cae",
           "source": "新华社",
-          "title": "海南省人大常委会原党组成员、副主任肖杰严重违纪违法被开除党籍",
-          "url": "https://www.news.cn/20260725/de79df17013d444fac2a8ddd29b2b4e8/c.html",
-          "date": "2026-07-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "a26be2fe52dc6c",
-          "source": "新华社",
-          "title": "海南省人大常委会原副主任肖杰被开除党籍",
-          "url": "https://www.news.cn/legal/20260725/200b7692c25943ea9d00ec68708677e7/c.html",
+          "title": "温福高铁控制性工程南阳楼隧道全面进洞施工",
+          "url": "https://www.news.cn/20260725/d19629f8c57e43fdafd25768707dd9a3/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
@@ -36224,18 +36248,42 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8128cdbae8cc32",
+          "id": "c74c236c121ac0",
           "source": "新华社",
-          "title": "罚没51.79亿元 市场监管总局对携程作出处罚",
-          "url": "https://www.news.cn/fortune/20260725/cbf7170e42de4b0f8e81e83dd41a2709/c.html",
+          "title": "皇岗口岸重建工作进入最后冲刺阶段",
+          "url": "https://www.news.cn/photo/20260725/f761468e020942eb9fa458f77b8697a5/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
         {
-          "id": "f2eb00616d64cb",
+          "id": "b08ddaaee2d6cb",
+          "source": "新华社",
+          "title": "看完上海低空展，老外们竟说了同一句话",
+          "url": "https://www.news.cn/fortune/20260725/c0e6984942b84554b1efd26eedef78e4/c.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "44b66b83ff765f",
+          "source": "新华社",
+          "title": "美“星舰”第13次试飞实现部分目标",
+          "url": "https://www.news.cn/world/20260725/3fe4ed842ec041e0b4582a66e7762e0c/c.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2a371428fa3782",
+          "source": "新华社",
+          "title": "美国多家科技企业联合声明支持开放权重模型",
+          "url": "https://www.news.cn/20260725/8d24044be1d6489c9d0bff9dd77a4d6f/c.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ec2939a56d9837",
           "source": "新华社",
           "title": "美国宣布制裁涉伊朗4名个人和9家企业",
-          "url": "https://www.news.cn/20260725/7a715ce730ba479fb7f9ad6401cb5ff3/c.html",
+          "url": "https://www.news.cn/world/20260725/7a69efb320b245da9cf7493eb5101e86/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
@@ -36256,10 +36304,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "3bec271e11d171",
+          "id": "da12fb38dd40ae",
           "source": "新华社",
           "title": "载有11名外国游客的快艇在印尼东部海域失联",
-          "url": "https://www.news.cn/20260725/495670ec6cac47a5968f164888f221ce/c.html",
+          "url": "https://www.news.cn/20260725/d204868d4cb542d6a3a752fc9508812d/c.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "38d33904ecb3a0",
+          "source": "新华社",
+          "title": "雪山高原皆赛场 小小少年追球忙",
+          "url": "https://www.news.cn/politics/20260725/abd8976ddd4b48318a444eda1fb669fd/c.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4780825200758e",
+          "source": "新华社",
+          "title": "雷雨叠加花粉 专家提醒小心“雷暴哮喘”",
+          "url": "https://www.news.cn/politics/20260725/d89e7042c02d484eb43bb23e199b4ce6/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
@@ -36268,14 +36332,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "韩国SK掌门人离婚案重审宣判",
           "url": "https://www.news.cn/20260725/3966b498d0e34fada6cc855c5c4653e2/c.html",
-          "date": "2026-07-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "fde17c8ac0afbc",
-          "source": "新华社",
-          "title": "首个本迪布焦型埃博拉疫苗临床试验启动人体接种",
-          "url": "https://www.news.cn/world/20260725/b9cd80978a0c40469af315d06463ea6e/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
@@ -36292,6 +36348,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "求是",
           "title": "“提高基层干部直接服务群众的本领”",
           "url": "https://www.qstheory.cn/20260725/760004082eaa4feca9b96ecda64e9111/c.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "927c2bf4e0e453",
+          "source": "求是",
+          "title": "两枚奖章，叩问基础研究之路",
+          "url": "https://www.qstheory.cn/20260725/090e99ece8f24e7d87a7e2930010d789/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
@@ -36325,65 +36389,66 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 4.7,
+          "duration": 31.2,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260725.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 31,
-          "duration": 1.9
+          "duration": 2.4
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 54,
-          "duration": 3.0
+          "count": 60,
+          "duration": 2.8
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 29.0
+          "duration": 20.0
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 6,
-          "duration": 6.5
+          "count": 7,
+          "duration": 8.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 24,
-          "duration": 1.0
+          "duration": 2.0
         },
         {
           "source": "南方周末",
-          "status": "ok",
+          "status": "error",
           "count": 0,
-          "duration": 12.4
+          "duration": 144.2,
+          "message": "HTTPSConnectionPool(host='www.infzm.com', port=443): Read timed out. (read timeout=22)"
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.4
+          "duration": 2.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 10.2
+          "duration": 11.3
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 2,
-          "duration": 48.7
+          "count": 3,
+          "duration": 54.6
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-25T13:39:50+08:00"
+  "generatedAt": "2026-07-25T16:00:45+08:00"
 };
