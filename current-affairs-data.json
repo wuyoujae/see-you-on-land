@@ -35388,6 +35388,10 @@
         {
           "name": "消费",
           "count": 3
+        },
+        {
+          "name": "科技",
+          "count": 2
         }
       ],
       "articles": [
@@ -35566,6 +35570,22 @@
           "url": "https://tv.cctv.com/2026/07/25/VIDEaW6Vw9LmU35NaGg7UEAA260725.shtml",
           "date": "2026-07-25",
           "keyword": "习近平"
+        },
+        {
+          "id": "5ef10d0683b0b1",
+          "source": "新华社",
+          "title": "第40届全国青少年科技创新大赛凸显国际交流愿景",
+          "url": "https://www.news.cn/20260725/8480cfaace724aae834b75e171c80bb7/c.html",
+          "date": "2026-07-25",
+          "keyword": "科技"
+        },
+        {
+          "id": "2a371428fa3782",
+          "source": "新华社",
+          "title": "美国多家科技企业联合声明支持开放权重模型",
+          "url": "https://www.news.cn/20260725/8d24044be1d6489c9d0bff9dd77a4d6f/c.html",
+          "date": "2026-07-25",
+          "keyword": "科技"
         },
         {
           "id": "bad1d821e8ea49",
@@ -35920,10 +35940,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "d4a8fd30688ba9",
+          "id": "d4f3dc790de2fa",
           "source": "学习强国",
           "title": "吉尔吉斯斯坦总统扎帕罗夫会见王毅",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=12319326338539286215&item_id=12319326338539286215",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=15602673236402689497&item_id=15602673236402689497",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "de5006c55099f2",
+          "source": "学习强国",
+          "title": "李鸿忠在内蒙古调研",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=17947549128188243829&item_id=17947549128188243829",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
@@ -35976,34 +36004,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "baa5cf5ae361fc",
-          "source": "新华社",
-          "title": "“红霞”将登陆香港至陆丰沿海",
-          "url": "https://www.news.cn/20260725/8e4cf42d0f2d4ddb83c1b69b6e047fad/c.html",
-          "date": "2026-07-25",
-          "keyword": "综合时政"
-        },
-        {
           "id": "760766a973842f",
           "source": "新华社",
           "title": "“陶瓷是中华瑰宝，是中华文明的重要名片”",
           "url": "https://www.news.cn/politics/leaders/20260725/a9cf5047ac2b41259784f4607dd9a39f/c.html",
-          "date": "2026-07-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "5dd3cd24800ab5",
-          "source": "新华社",
-          "title": "专访中国气象局局长：筑牢气象防灾减灾第一道防线",
-          "url": "https://www.news.cn/politics/20260725/8f4b090a408d43759eeb04823082f04e/c.html",
-          "date": "2026-07-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "de71f73eb1eee3",
-          "source": "新华社",
-          "title": "世界预防溺水日丨科学防溺，始于每个小细节",
-          "url": "https://www.news.cn/politics/20260725/a5209b877784455284fe6ba3652ed482/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
@@ -36040,14 +36044,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "547f38f570a374",
-          "source": "新华社",
-          "title": "交通运输部：强降雨一级防御响应",
-          "url": "https://www.news.cn/local/20260725/c4f4519255044092b2a2bccc66e7098e/c.html",
-          "date": "2026-07-25",
-          "keyword": "综合时政"
-        },
-        {
           "id": "1f6eb9b180ce39",
           "source": "新华社",
           "title": "以实干实效回应群众期盼",
@@ -36060,6 +36056,14 @@
           "source": "新华社",
           "title": "伦敦市中心一警用巡逻艇撞桥致5名警察受伤",
           "url": "https://www.news.cn/20260725/1136919e527f4450bd74f26848dce037/c.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5708e6420d8cca",
+          "source": "新华社",
+          "title": "免费地震预警功能一直“藏”在你我手机里",
+          "url": "https://www.news.cn/20260725/be6c164f488c4e5ba95562048d8b4d92/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
@@ -36088,10 +36092,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "f39f561cdb4486",
+          "id": "baa5cf5ae361fc",
           "source": "新华社",
-          "title": "台风预报难点",
-          "url": "https://www.news.cn/politics/20260725/f1de93f2d7c84980a6e30372d52f15e1/c.html",
+          "title": "台风“红霞”将登陆香港至陆丰沿海",
+          "url": "https://www.news.cn/20260725/8e4cf42d0f2d4ddb83c1b69b6e047fad/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
@@ -36160,6 +36164,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "2320677af29778",
+          "source": "新华社",
+          "title": "广东已提前转移超34万人",
+          "url": "https://www.news.cn/local/20260725/84981616d4534b4296cf9e9f9bdc4f03/c.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "77658df3be1bd6",
           "source": "新华社",
           "title": "把“千年瓷都”这张名片擦得更亮",
@@ -36216,6 +36228,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "fddbaaa09c5f27",
+          "source": "新华社",
+          "title": "次生灾害风险高",
+          "url": "https://www.news.cn/local/20260725/cd245282f04a42baae034e3832d6ab0e/c.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "9d542c89c9f8d9",
           "source": "新华社",
           "title": "渔船回港避台风“红霞”",
@@ -36244,6 +36264,14 @@
           "source": "新华社",
           "title": "皇岗口岸重建工作进入最后冲刺阶段",
           "url": "https://www.news.cn/photo/20260725/f761468e020942eb9fa458f77b8697a5/c.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7ceb5661e1cde5",
+          "source": "新华社",
+          "title": "直击防御一线",
+          "url": "https://www.news.cn/local/20260725/30404801a09943e39e77b205d554df96/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
@@ -36284,14 +36312,6 @@
           "source": "新华社",
           "title": "美丽中国丨探访广西山口红树林生态国家级自然保护区",
           "url": "https://www.news.cn/photo/20260725/76e76e493c0e4045b5e415c79b12c2ac/c.html",
-          "date": "2026-07-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "2a371428fa3782",
-          "source": "新华社",
-          "title": "美国多家科技企业联合声明支持开放权重模型",
-          "url": "https://www.news.cn/20260725/8d24044be1d6489c9d0bff9dd77a4d6f/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
@@ -36344,26 +36364,18 @@
           "keyword": "综合时政"
         },
         {
+          "id": "d3aae04246c49a",
+          "source": "新华社",
+          "title": "镜观·回响丨守护红树林 中国在行动",
+          "url": "https://www.news.cn/politics/leaders/20260725/1331a1cf4b844d048942909b06c21249/c.html",
+          "date": "2026-07-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "c82d2ab63738bb",
           "source": "新华社",
           "title": "镜观中国·新华社国内新闻照片一周精选",
           "url": "https://www.news.cn/photo/20260725/0095b3c6edb14ccbaea72730fabe4b7d/c.html",
-          "date": "2026-07-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "1aee38648b9d84",
-          "source": "新华社",
-          "title": "防御手段如何升级",
-          "url": "https://www.news.cn/local/20260725/9ff54df181ee4cb28d847080ce1854fb/c.html",
-          "date": "2026-07-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "c8d6d8c9bf555e",
-          "source": "新华社",
-          "title": "香港特区立法会议员完成国家事务研修考察",
-          "url": "https://www.news.cn/gangao/20260725/56517418cbc74f1a945e28637044760c/c.html",
           "date": "2026-07-25",
           "keyword": "综合时政"
         },
@@ -36509,64 +36521,64 @@
           "source": "新闻联播",
           "status": "ok",
           "count": 13,
-          "duration": 0.4
+          "duration": 0.2
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 31,
-          "duration": 2.4
+          "duration": 2.0
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.1
+          "duration": 2.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 40.8
+          "duration": 21.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 7,
-          "duration": 6.6
+          "duration": 6.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 24,
-          "duration": 1.9
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 15.3
+          "duration": 12.7
         },
         {
           "source": "学习强国",
           "status": "ok",
-          "count": 1,
-          "duration": 5.5
+          "count": 2,
+          "duration": 2.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.2
+          "duration": 9.2
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 3,
-          "duration": 60.9
+          "duration": 68.2
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-25T21:12:02+08:00"
+  "generatedAt": "2026-07-25T22:59:14+08:00"
 }
