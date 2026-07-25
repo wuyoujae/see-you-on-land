@@ -36581,40 +36581,512 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-07-26",
-      "keyword": "今日时政",
+      "keyword": "人工智能",
       "keywords": [
         {
-          "name": "今日时政",
-          "count": 0
+          "name": "人工智能",
+          "count": 2
         }
       ],
-      "articles": [],
+      "articles": [
+        {
+          "id": "2d9b30c1864432",
+          "source": "人民日报",
+          "title": "为破解全球人工智能治理难题贡献中国方案（国际论坛）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170988.html",
+          "date": "2026-07-26",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "7769e37217cd28",
+          "source": "光明日报",
+          "title": "APEC人工智能高级别论坛举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/26/content_20313.html",
+          "date": "2026-07-26",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "b487a8f0cc7900",
+          "source": "人民日报",
+          "title": "вҖңе…ӯеј зҪ‘вҖқеҰӮдҪ•иөӢиғҪзҺ°д»ЈеҢ–дә§дёҡдҪ“зі»пјҲиҜ»иҖ…зӮ№йўҳВ·е…ұеҗҢе…іжіЁпјү",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170974.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "57a80f21998ddb",
+          "source": "人民日报",
+          "title": "дёҠеҚҠе№ҙж–°иғҪжәҗйҮҚеҚЎй”ҖйҮҸеҗҢжҜ”еўһй•ҝ78.6%",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170978.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ae34c105d1d372",
+          "source": "人民日报",
+          "title": "еҚғе№ҙзӘ‘зҒ« иҫүжҳ дё–з•Ң",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170973.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4a1bfbb5cc21b2",
+          "source": "人民日报",
+          "title": "еӣҫзүҮжҠҘйҒ“",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170975.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c2d481c55d6246",
+          "source": "人民日报",
+          "title": "жҲӘиҮі6жңҲеә•жҲ‘еӣҪжҷәиғҪз®—еҠӣи§„жЁЎеҗҢжҜ”еўһй•ҝ177%",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170977.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fc678743e7f68e",
+          "source": "人民日报",
+          "title": "зҝ дә‘е»ҠдёҠжҹҸжЈ®жЈ®пјҲж ‘з«Ӣе’Ңи·өиЎҢжӯЈзЎ®ж”ҝз»©и§ӮВ·дёҖзәҝи§Ғй—»пјү",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170976.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6b3ea6543a452f",
+          "source": "人民日报",
+          "title": "и®©е…ЁзӨҫдјҡеҲӣдёҡеҲӣж–°зҺҜеўғжӣҙдјҳпјҲжҖ»д№Ұи®°зҡ„е…іеҲҮВ·иҗҪең°зҡ„еӣһе“Қпјү",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170972.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1d7dfe5c2ae27b",
+          "source": "人民日报",
+          "title": "“在拉中之间架起更多相知相亲的桥梁”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170991.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4934c7a627f0fe",
+          "source": "人民日报",
+          "title": "“推动巴西再工业化进程的重要力量”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170987.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d3475c10cc3884",
+          "source": "人民日报",
+          "title": "“让大家的日子芝麻开花节节高”（全国“两优一先”风采）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170995.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "76eab6174ddb98",
+          "source": "人民日报",
+          "title": "上半年全国纪检监察机关处分四十一点二万人",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170996.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fbc78782da2c3b",
+          "source": "人民日报",
+          "title": "上半年完成水利建设投资5151亿元",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170985.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d5d1c8f87f50e2",
+          "source": "人民日报",
+          "title": "中国经济展现出较强韧性（外媒看中国）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170990.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bb2cd005b233d1",
+          "source": "人民日报",
+          "title": "中央部门“晒账本”，花钱更加求“绩”问“效”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170983.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b756b3ccba30e0",
+          "source": "人民日报",
+          "title": "中方呼吁国际社会合力推动全球能源转型",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170993.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7c84905b9ed5b8",
+          "source": "人民日报",
+          "title": "中核集团原党组副书记、总经理顾军严重违纪违法被开除党籍",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30171000.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9cfd13d9a6e5f2",
+          "source": "人民日报",
+          "title": "共享生态文明 实现长期韧性",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170992.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4ee517f4531816",
+          "source": "人民日报",
+          "title": "加强监测预警 做好避险转移（扎实做好防灾救灾各项工作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170997.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "de864c55679b8b",
+          "source": "人民日报",
+          "title": "千年窑火 辉映世界",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170998.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ecc066fb240078",
+          "source": "人民日报",
+          "title": "华润集团原党委委员、副总经理韩嵩严重违纪违法被开除党籍和公职",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30171001.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cb167b36654dc7",
+          "source": "人民日报",
+          "title": "吉尔吉斯斯坦总统扎帕罗夫会见王毅",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170989.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "74e02b79afc1ab",
+          "source": "人民日报",
+          "title": "坚持以铸牢中华民族共同体意识为主线 推动民族团结进步促进法全面有效实施",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170994.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d143e043b3b72e",
+          "source": "人民日报",
+          "title": "市场监管总局依法对携程集团有限公司实施垄断行为作出行政处罚并责令其全面整改",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170979.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6350d4fe58933d",
+          "source": "人民日报",
+          "title": "放心用省心还，租车场景更多元（政策解读）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170980.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cbf65a34d67cbf",
+          "source": "人民日报",
+          "title": "最高检印发《人民检察事业发展“十五五”规划》",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30171002.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d9a69829965176",
+          "source": "人民日报",
+          "title": "查处携程垄断案释放反垄断反内卷强烈信号",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170981.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "97efd3df7a4c73",
+          "source": "人民日报",
+          "title": "海南省人大常委会原党组成员、副主任肖杰严重违纪违法被开除党籍",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170999.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7dbb5127c1b811",
+          "source": "人民日报",
+          "title": "累计发电装机容量同比增10.8%",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170982.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "17f1981cbcaeed",
+          "source": "人民日报",
+          "title": "落槌那一刻，掌声雷动",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170986.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6ec5de3e0eb186",
+          "source": "光明日报",
+          "title": "“必须积极应对前进道路上的风险挑战”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/26/content_20329.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f9e82bf3e8a2da",
+          "source": "光明日报",
+          "title": "“景德镇手工瓷业遗存”成功列入《世界遗产名录》",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/26/content_20330.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "19f683cea302f3",
+          "source": "光明日报",
+          "title": "【人民需要这样的科学家39】以一生，赴国需",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/26/content_20327.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0c4f9e8a6b13d7",
+          "source": "光明日报",
+          "title": "【大美中国】和美乡村",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/26/content_20332.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f9935d0064bdf2",
+          "source": "光明日报",
+          "title": "【科学家的信】一纸书简，一世北京情缘",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/26/content_20310.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "21941781ca4842",
+          "source": "光明日报",
+          "title": "一场跨越科研征途的相逢",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/26/content_20312.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8a81132d69991d",
+          "source": "光明日报",
+          "title": "上半年全国完成水利建设投资5151亿元",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/26/content_20317.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "07940bda44657e",
+          "source": "光明日报",
+          "title": "上半年全国纪检监察机关处分41.2万人",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/26/content_20320.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f2f56400bcbf44",
+          "source": "光明日报",
+          "title": "中欧班列“东通道”同江特大桥完成架梁",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/26/content_20292.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eb6cdd949d9843",
+          "source": "光明日报",
+          "title": "为每个孩子成长筑基 为民族复兴伟业蓄力",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/26/content_20291.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "68a66271a969db",
+          "source": "光明日报",
+          "title": "他的字典里，科学就是科学",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/26/content_20331.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "61c0884f1ed357",
+          "source": "光明日报",
+          "title": "国家防总提升针对广东的应急响应至三级",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/26/content_20314.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dc8d59a38eab5f",
+          "source": "光明日报",
+          "title": "擦亮中华文明重要名片",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/26/content_20328.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2e8d5bb7cbedb8",
+          "source": "光明日报",
+          "title": "景德镇：窑火千年的世界瓷都故事",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/26/content_20309.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "35fa7d43eee39d",
+          "source": "光明日报",
+          "title": "水利部针对7省区启动洪水防御Ⅳ级响应",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/26/content_20316.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "12167b9b9eb66c",
+          "source": "光明日报",
+          "title": "渔船回港避台风",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/26/content_20318.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7eb628641aa196",
+          "source": "光明日报",
+          "title": "邻里常相助 社区有温情",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/26/content_20319.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "36d3115cf0a42e",
+          "source": "新华社",
+          "title": "为何发布今年首个最高级别台风预警",
+          "url": "https://www.news.cn/politics/20260726/08ba72612eed489bb143474e58538cf7/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "417593767cc7d1",
+          "source": "新华社",
+          "title": "台湾民众集会\"反毒油\" 表达对民进党当局强烈不满",
+          "url": "https://www.news.cn/tw/20260726/88a2043e4db04e86982b6ea932375cd3/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2082d6bcb3cd56",
+          "source": "新华社",
+          "title": "台湾民众集会“反毒油” 表达对民进党当局强烈不满",
+          "url": "https://www.news.cn/20260726/e29175be00294966a324d19d5c1ea9ca/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f3138540254b54",
+          "source": "新华社",
+          "title": "台风\"红霞\"在广东惠州登陆",
+          "url": "https://www.news.cn/local/20260726/f72a3ef26871416dabf590313625c4fa/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "64b40e9ae89cbb",
+          "source": "新华社",
+          "title": "台风“红霞”在广东惠州登陆",
+          "url": "https://www.news.cn/20260726/4938a3ca82354017bfe8d7f5552b6dfe/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8b66ecfcc98079",
+          "source": "新华社",
+          "title": "广东将防风应急响应提升至Ⅰ级",
+          "url": "https://www.news.cn/local/20260726/b58d3bc9bd3b439b9a2eb135e04e2de7/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5930d4000cd1d0",
+          "source": "新华社",
+          "title": "广东水利防汛防台风应急响应提升至Ⅰ级",
+          "url": "https://www.news.cn/20260726/b37ebbe4def8454ba7743c9b04a01a29/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c32e96c15b6942",
+          "source": "新华社",
+          "title": "柏林发生汽车撞人事件致1死14伤",
+          "url": "https://www.news.cn/20260726/9f12e8136274406fa7cb06236031c99b/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "58f05736ef52c7",
+          "source": "新华社",
+          "title": "美媒：特朗普24日下令美军暂停打击伊朗",
+          "url": "https://www.news.cn/20260726/208a3c34bb58480582db5968146d970d/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "405e2d6959afa4",
+          "source": "新华社",
+          "title": "苏丹军方称夺回北科尔多凡州5处要地",
+          "url": "https://www.news.cn/20260726/49ecc3b6e4834a30957596098457cd99/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cf79a854c1babd",
+          "source": "新华社",
+          "title": "辛识平：一瓷耀天下，承古启新篇",
+          "url": "https://www.news.cn/politics/20260726/af8fed2207554988b0ce13ddc0c32fab/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        }
+      ],
       "sourceStatus": [
         {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 34.0,
-          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260726.shtml"
+          "duration": 70.5,
+          "message": "HTTPSConnectionPool(host='tv.cctv.com', port=443): Read timed out. (read timeout=22)"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 4.9,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202607/26/node_01.html"
+          "status": "ok",
+          "count": 30,
+          "duration": 2.1
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 0,
-          "duration": 2.8
+          "count": 11,
+          "duration": 2.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 13.8
+          "duration": 14.6
         },
         {
           "source": "求是",
@@ -36624,37 +37096,37 @@ window.CURRENT_AFFAIRS_DATA = {
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.3,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202607/26/node_01.html"
+          "status": "ok",
+          "count": 18,
+          "duration": 1.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.7
+          "duration": 12.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.3
+          "duration": 2.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.1
+          "duration": 8.6
         },
         {
           "source": "广东发布",
-          "status": "ok",
+          "status": "error",
           "count": 0,
-          "duration": 65.0
+          "duration": 18.2,
+          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-26T00:09:00+08:00"
+  "generatedAt": "2026-07-26T07:00:03+08:00"
 };
