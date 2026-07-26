@@ -36581,14 +36581,14 @@
     },
     {
       "date": "2026-07-26",
-      "keyword": "经济",
+      "keyword": "人工智能",
       "keywords": [
         {
-          "name": "经济",
-          "count": 3
+          "name": "人工智能",
+          "count": 2
         },
         {
-          "name": "人工智能",
+          "name": "经济",
           "count": 2
         }
       ],
@@ -36598,22 +36598,6 @@
           "source": "人民日报",
           "title": "中国经济展现出较强韧性（外媒看中国）",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170990.html",
-          "date": "2026-07-26",
-          "keyword": "经济"
-        },
-        {
-          "id": "31ebadf6dafcbd",
-          "source": "新华社",
-          "title": "看火爆“苏超” 享夏夜经济",
-          "url": "https://www.news.cn/photo/20260726/c3202941f4744ba1b0610b7215073124/c.html",
-          "date": "2026-07-26",
-          "keyword": "经济"
-        },
-        {
-          "id": "7d19f63a77c993",
-          "source": "新华社",
-          "title": "走进展会，看低空经济人才链“生长”",
-          "url": "https://www.news.cn/fortune/20260726/3588921e07914d46b7c2de093d6488ca/c.html",
           "date": "2026-07-26",
           "keyword": "经济"
         },
@@ -36632,6 +36616,14 @@
           "url": "https://epaper.gmw.cn/gmrb/html/content/202607/26/content_20313.html",
           "date": "2026-07-26",
           "keyword": "人工智能"
+        },
+        {
+          "id": "31ebadf6dafcbd",
+          "source": "新华社",
+          "title": "看火爆“苏超” 享夏夜经济",
+          "url": "https://www.news.cn/photo/20260726/c3202941f4744ba1b0610b7215073124/c.html",
+          "date": "2026-07-26",
+          "keyword": "经济"
         },
         {
           "id": "204a33027d2672",
@@ -37058,26 +37050,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "b790dced736f3a",
-          "source": "新华社",
-          "title": "“水泥森林”里的白衣稀客——极危鹦鹉香港安家记",
-          "url": "https://www.news.cn/gangao/20260726/65079fceb8454bc9a73d2bbe061933e8/c.html",
-          "date": "2026-07-26",
-          "keyword": "综合时政"
-        },
-        {
           "id": "032db1a8741baa",
           "source": "新华社",
           "title": "“红霞”强度减弱",
           "url": "https://www.news.cn/politics/20260726/21665c390391405f80908d209158251e/c.html",
-          "date": "2026-07-26",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "3acf343755d95a",
-          "source": "新华社",
-          "title": "“红霞”强度减弱 广东将防风应急响应调为Ⅱ级",
-          "url": "https://www.news.cn/politics/20260726/93b0f42fe06440b281ec7a219b780e62/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37098,6 +37074,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "ce5f818b85ebf5",
+          "source": "新华社",
+          "title": "《朝花夕拾》百年纪念版发布：收录鲁迅现存手稿",
+          "url": "https://www.news.cn/ci/20260726/898bfedf42c54053bae938cfdd065cd2/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
           "id": "422df4be9d2476",
           "source": "新华社",
           "title": "一瓷耀天下，承古启新篇",
@@ -37106,10 +37090,34 @@
           "keyword": "综合时政"
         },
         {
+          "id": "5f27882b0bb482",
+          "source": "新华社",
+          "title": "三部门向粤赣‌湘等地调拨2.5万件中央救灾物资",
+          "url": "https://www.news.cn/politics/20260726/8690af758ded4ac6912c085639234986/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
           "id": "53fc4c5790b507",
           "source": "新华社",
           "title": "上半年西部陆海新通道进出口总额超5000亿元",
           "url": "https://www.news.cn/fortune/20260726/cd9c5606484345caade632230eeea141/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c3f43a0675446d",
+          "source": "新华社",
+          "title": "上海交大医学院：全面调查仇某某发表医学论文及新华医院开展的一例临床研究",
+          "url": "https://www.news.cn/politics/20260726/4943ec3e93c349bcba96429895253a03/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c37e53c6d1bcda",
+          "source": "新华社",
+          "title": "不亦“乐”乎：中德学生歌声回荡彩云之南",
+          "url": "https://www.news.cn/local/20260726/150e7634ef7a46e7a05529bed8ecd7b8/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37130,14 +37138,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "0df48d730dc512",
-          "source": "新华社",
-          "title": "中国羽毛球公开赛：中国队提前锁定混双冠军",
-          "url": "https://www.news.cn/sports/20260726/a0c72da4acc94df9bb0ab8b184fb1cd5/c.html",
-          "date": "2026-07-26",
-          "keyword": "综合时政"
-        },
-        {
           "id": "e0f459c99d4b61",
           "source": "新华社",
           "title": "中央部门“晒账本”，花钱更加求“绩”问“效”",
@@ -37150,14 +37150,6 @@
           "source": "新华社",
           "title": "乡村振兴在行动 | 河南辉县市：山间民宿助力观光游向度假游迭代",
           "url": "http://www.ha.news.cn/20260726/86b8237f548a4004a6c8ef2fb4642c8b/c.html",
-          "date": "2026-07-26",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "f539e36d329cd5",
-          "source": "新华社",
-          "title": "今天决赛，一起为国羽加油",
-          "url": "https://www.news.cn/sports/20260726/32546feeb121433a93462a32f24c9c3c/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37182,6 +37174,14 @@
           "source": "新华社",
           "title": "俄打击乌港口设施 乌空袭致俄平民死伤",
           "url": "https://www.news.cn/world/20260726/9b3eacde08f647e0a82112d0ef581281/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b6de99cd915f3e",
+          "source": "新华社",
+          "title": "刘圣书/谭宁获得中国羽毛球公开赛女双冠军",
+          "url": "https://www.news.cn/20260726/1e0fd27671a24b8a8789d0809cd47131/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37226,10 +37226,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "f7d60572a54795",
+          "id": "14d5237bdad053",
           "source": "新华社",
-          "title": "国家发改委紧急安排1亿元支持广东灾后应急恢复",
-          "url": "https://www.news.cn/politics/20260726/346d7b097a554deeb91b5463cfd5de1b/c.html",
+          "title": "国家发改委安排1亿元支持广东灾害应急恢复",
+          "url": "https://www.news.cn/politics/20260726/41bb8bd13102498692c959c29566091d/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37238,6 +37238,14 @@
           "source": "新华社",
           "title": "国际射联全项世界杯：16岁杜雨宸首夺国际赛事金牌",
           "url": "https://www.news.cn/sports/20260726/411da14dfb954b189fb77c0313d2be95/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6ec6479bc87d67",
+          "source": "新华社",
+          "title": "在这里找到读懂当代中国的钥匙 海外华文媒体黔西南州参访侧记",
+          "url": "https://www.news.cn/politics/20260726/7852ba4bb3eb4ccf9419dfa4f6e2b35e/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37262,6 +37270,14 @@
           "source": "新华社",
           "title": "寻瓷记丨落马桥探秘：元青花窑址里藏着什么",
           "url": "https://www.news.cn/politics/20260726/dc87b6c8b8234887b8668337808fe0e2/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6bbbde282cae81",
+          "source": "新华社",
+          "title": "山西平陆黄河段现“潮汐树”景观",
+          "url": "https://www.news.cn/local/20260726/aa1a1a08341b4826b8e7cda574e5365f/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37298,6 +37314,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "0a947c4dce6bc5",
+          "source": "新华社",
+          "title": "成都地铁开放纳凉区：热浪里的共享“清凉”",
+          "url": "https://www.news.cn/photo/20260726/fc1276ace2dd4cd9acbb5f86e16871a4/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
           "id": "fd4f2ecee02c27",
           "source": "新华社",
           "title": "攀岩世青赛：中国队获三金一银三铜",
@@ -37306,10 +37330,34 @@
           "keyword": "综合时政"
         },
         {
+          "id": "c2e39419bb4199",
+          "source": "新华社",
+          "title": "文旅新探丨在格拉丹东长江源，看一场赛马盛会",
+          "url": "https://www.news.cn/20260726/0f74549c27aa4386a04dd2f3718619da/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "09f44965e8b4dc",
+          "source": "新华社",
+          "title": "新华时评丨中国遗产保护，为世界文明增光添彩",
+          "url": "https://www.news.cn/politics/20260726/6a86abb80d9146249ef3a80696917f01/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d3154798e8c8f1",
           "source": "新华社",
           "title": "日本连续5天出现“酷暑日” 创2010年以来纪录",
           "url": "https://www.news.cn/world/20260726/bcc696d101ad486692d2d9d424ead430/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b790dced736f3a",
+          "source": "新华社",
+          "title": "极危鹦鹉香港安家记",
+          "url": "https://www.news.cn/gangao/20260726/65079fceb8454bc9a73d2bbe061933e8/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37354,6 +37402,22 @@
           "keyword": "综合时政"
         },
         {
+          "id": "3b2f4f5f661792",
+          "source": "新华社",
+          "title": "特朗普下令暂停打击伊朗 伊方谴责乌克兰袭击商船",
+          "url": "https://www.news.cn/20260726/9d6ce4cb4cd84d92bfcf131e1d07622e/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f28018fa886c82",
+          "source": "新华社",
+          "title": "甘肃局地启动洪水防御Ⅳ级应急响应",
+          "url": "https://www.news.cn/local/20260726/609614ca13344ca5a8aa7da950c67eb0/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1e96cea4925fab",
           "source": "新华社",
           "title": "美媒：特朗普24日下令美军暂停打击伊朗",
@@ -37374,14 +37438,6 @@
           "source": "新华社",
           "title": "记者手记丨霍尔木兹海峡袭船通报里的“秘密”",
           "url": "https://www.news.cn/world/20260726/05ebe179f21e46ce993d094537d99056/c.html",
-          "date": "2026-07-26",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "56d5d221607bf1",
-          "source": "新华社",
-          "title": "越南籍船舶南沙海域遇险 37人获救",
-          "url": "https://www.news.cn/world/20260726/6716ae5a162744af8f4feb75638fed4d/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37447,8 +37503,8 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 71.5,
-          "message": "HTTPSConnectionPool(host='tv.cctv.com', port=443): Read timed out. (read timeout=22)"
+          "duration": 16.5,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260726.shtml"
         },
         {
           "source": "人民日报",
@@ -37459,53 +37515,53 @@
         {
           "source": "新华社",
           "status": "ok",
-          "count": 49,
-          "duration": 2.1
+          "count": 56,
+          "duration": 2.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 18.2
+          "duration": 20.5
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 3,
-          "duration": 5.9
+          "duration": 5.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 18,
-          "duration": 2.4
+          "duration": 6.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.8
+          "duration": 14.7
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.0
+          "duration": 3.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 9.0
+          "duration": 9.2
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 4,
-          "duration": 70.7
+          "duration": 60.2
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-26T13:57:23+08:00"
+  "generatedAt": "2026-07-26T16:16:23+08:00"
 }
