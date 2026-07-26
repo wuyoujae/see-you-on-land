@@ -36598,10 +36598,6 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "name": "教育",
           "count": 2
-        },
-        {
-          "name": "经济",
-          "count": 2
         }
       ],
       "articles": [
@@ -36630,14 +36626,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "消费"
         },
         {
-          "id": "d5d1c8f87f50e2",
-          "source": "人民日报",
-          "title": "中国经济展现出较强韧性（外媒看中国）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170990.html",
-          "date": "2026-07-26",
-          "keyword": "经济"
-        },
-        {
           "id": "2d9b30c1864432",
           "source": "人民日报",
           "title": "为破解全球人工智能治理难题贡献中国方案（国际论坛）",
@@ -36662,20 +36650,12 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
-          "id": "e315a6487a62bd",
+          "id": "4cb7275b56c30c",
           "source": "新华社",
-          "title": "孩子幼升小，家长怎么办？教育部来信支招了",
-          "url": "https://education.news.cn/20260726/38a1c06498614082b8dae3b9effb26d2/c.html",
+          "title": "顿珠卓玛：三十余载坚守，用爱深耕乡村教育",
+          "url": "https://education.news.cn/20260726/11cde4f77d7c472591cc77a023a822a9/c.html",
           "date": "2026-07-26",
           "keyword": "教育"
-        },
-        {
-          "id": "31ebadf6dafcbd",
-          "source": "新华社",
-          "title": "看火爆“苏超” 享夏夜经济",
-          "url": "https://www.news.cn/photo/20260726/c3202941f4744ba1b0610b7215073124/c.html",
-          "date": "2026-07-26",
-          "keyword": "经济"
         },
         {
           "id": "9b22584aedbf37",
@@ -36802,6 +36782,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "上半年完成水利建设投资5151亿元",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170985.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d5d1c8f87f50e2",
+          "source": "人民日报",
+          "title": "中国经济展现出较强韧性（外媒看中国）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/26/content_30170990.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37086,6 +37074,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "cde67fb358de4d",
+          "source": "广东发布",
+          "title": "本轮强降雨持续！须防范这些区域山洪灾害风险→",
+          "url": "https://www.gd.gov.cn/gdywdt/bmdt/content/post_4933710.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
           "id": "9b409c17278fd1",
           "source": "广东发布",
           "title": "省减灾委员会将省Ⅲ级救灾应急响应提升至Ⅱ级",
@@ -37102,10 +37098,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "251c5807e9ccf4",
+          "source": "新华社",
+          "title": "AI助力炼钢提“智”增“绿”",
+          "url": "https://www.news.cn/local/20260726/b1807aa836aa4fa995e813760b084988/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
           "id": "428e09502d4546",
           "source": "新华社",
           "title": "APEC林业部长级会议参会嘉宾陆续抵达深圳",
           "url": "https://www.news.cn/politics/20260726/58d789ea6ed747a48b52915063e00122/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0027e90139fac4",
+          "source": "新华社",
+          "title": "“千年瓷都” 圆梦世遗",
+          "url": "https://www.news.cn/politics/leaders/20260726/578efc07cea8497d8c865e9dd1ed04c4/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37134,10 +37146,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "97aa3693c7224a",
+          "id": "e11fb11486f62c",
           "source": "新华社",
-          "title": "《APEC数据促进增长高级别圆桌会主席声明》发布",
-          "url": "https://www.news.cn/politics/20260726/d227210ed861428a819e79e9e776f2e9/c.html",
+          "title": "“读者大会”亮相第34届书博会",
+          "url": "https://www.news.cn/local/20260726/7406ae0d0d084936a6cba228ef15b5a0/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37174,26 +37186,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "c3f43a0675446d",
+          "id": "a0102470b0a87a",
           "source": "新华社",
-          "title": "上海交大医学院：全面调查仇某某发表医学论文及新华医院开展的一例临床研究",
-          "url": "https://www.news.cn/politics/20260726/4943ec3e93c349bcba96429895253a03/c.html",
-          "date": "2026-07-26",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "c37e53c6d1bcda",
-          "source": "新华社",
-          "title": "不亦“乐”乎：中德学生歌声回荡彩云之南",
-          "url": "https://www.news.cn/local/20260726/150e7634ef7a46e7a05529bed8ecd7b8/c.html",
-          "date": "2026-07-26",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "2bce1d93332974",
-          "source": "新华社",
-          "title": "专家：中国为“人造太阳”工程作出重要贡献",
-          "url": "https://www.news.cn/world/20260726/45f44779dee64fd1ad5a8e0a5bc0412f/c.html",
+          "title": "东盟青年青海行：丝路传薪火 青春共远航",
+          "url": "https://www.news.cn/politics/20260726/2f9a7aba770748ad89c92c77f98eaed2/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37206,10 +37202,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "d25a9f8ea654f3",
+          "source": "新华社",
+          "title": "乌克兰袭击伊朗商船，双方缘何对抗升级？",
+          "url": "https://www.news.cn/world/20260726/9eb5c18c1e9e41f3bb8f064d3824b5ee/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
           "id": "ca520bb87ebe13",
           "source": "新华社",
           "title": "乡村振兴在行动 | 河南辉县市：山间民宿助力观光游向度假游迭代",
           "url": "http://www.ha.news.cn/20260726/86b8237f548a4004a6c8ef2fb4642c8b/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "172950f87ac725",
+          "source": "新华社",
+          "title": "伊朗称就霍尔木兹海峡航运管理与阿曼会谈有进展",
+          "url": "https://www.news.cn/20260726/08659b3df5264dc98f6062658293aa6a/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37222,34 +37234,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "93f09f42a0f651",
-          "source": "新华社",
-          "title": "俄打击乌港口设施 乌空袭致俄平民死伤",
-          "url": "https://www.news.cn/world/20260726/9b3eacde08f647e0a82112d0ef581281/c.html",
-          "date": "2026-07-26",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "dc4b8fe8d389f0",
-          "source": "新华社",
-          "title": "冲绳民众集会要求明确普天间机场归还期限",
-          "url": "https://www.news.cn/world/20260726/db2df3c7cb5b4366a0bc85d0c6b1646d/c.html",
-          "date": "2026-07-26",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "b6de99cd915f3e",
-          "source": "新华社",
-          "title": "刘圣书/谭宁获得中国羽毛球公开赛女双冠军",
-          "url": "https://www.news.cn/20260726/1e0fd27671a24b8a8789d0809cd47131/c.html",
-          "date": "2026-07-26",
-          "keyword": "综合时政"
-        },
-        {
           "id": "6c0ca26f896396",
           "source": "新华社",
           "title": "刚果（金）东部武装袭击致至少32名平民死亡",
           "url": "https://www.news.cn/20260726/12e138ecf13f417a9c1682d11948705c/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2366482a134fa7",
+          "source": "新华社",
+          "title": "北京圆明园：映日荷花别样红",
+          "url": "https://www.news.cn/photo/20260726/ded19f988e6f4bde9b90a06840aad1e4/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37266,6 +37262,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "南部战区就菲律宾拉拢域外国家组织所谓“联合巡航”发表谈话",
           "url": "https://www.news.cn/politics/20260726/fd448df779374a2e9709ad513b8bd268/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "261d29af9ccc42",
+          "source": "新华社",
+          "title": "博览群书，开卷有益",
+          "url": "https://www.news.cn/local/20260726/64961f14d2964cd2946198b1922309d6/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37294,10 +37298,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d78549cf280998",
+          "id": "1de91362305797",
           "source": "新华社",
-          "title": "四川眉山洪雅县玉屏山发生森林火灾 暂无伤亡报告",
-          "url": "https://www.news.cn/local/20260726/5721c0d524b24373b143e815314aeef8/c.html",
+          "title": "各界嘉宾共话新修订的《新华字典》时代价值",
+          "url": "https://www.news.cn/politics/20260726/3e6886afc1de4ec2a89c158ee5735952/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37318,22 +37322,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "7572c4e24f384a",
-          "source": "新华社",
-          "title": "在“飞鱼岛国”，中国旱稻正在解决“燃眉之急”",
-          "url": "https://www.news.cn/20260726/932f380426e64dc3976730e4330049ce/c.html",
-          "date": "2026-07-26",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "6ec6479bc87d67",
-          "source": "新华社",
-          "title": "在这里找到读懂当代中国的钥匙 海外华文媒体黔西南州参访侧记",
-          "url": "https://www.news.cn/politics/20260726/7852ba4bb3eb4ccf9419dfa4f6e2b35e/c.html",
-          "date": "2026-07-26",
-          "keyword": "综合时政"
-        },
-        {
           "id": "6ee28373986f29",
           "source": "新华社",
           "title": "宁夏多地陆续升级暴雨预警为红色",
@@ -37344,7 +37332,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "903bc7c3953a31",
           "source": "新华社",
-          "title": "广东11条河流超警",
+          "title": "广东 11条河流超警",
           "url": "https://www.news.cn/local/20260726/76d22d757b4a495d807ef83ca25cb4de/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
@@ -37374,6 +37362,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "0c67be8cefbaf2",
+          "source": "新华社",
+          "title": "总书记以“三个有利于”指引世界遗产申报保护",
+          "url": "https://www.news.cn/politics/leaders/20260726/6f07a77248c049fb8ef64ebcfe78b956/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
           "id": "39e4aa7ace3d90",
           "source": "新华社",
           "title": "总书记心系“中华瑰宝”",
@@ -37390,10 +37386,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "6657aa2b17e8cb",
+          "id": "c49a511404d5d3",
           "source": "新华社",
-          "title": "新华时评丨千年窑火 辉映世界",
-          "url": "https://www.news.cn/politics/20260726/3c13d383f9ab4451bf150c2dcc8eb18c/c.html",
+          "title": "时代人物丨党鑫蕊的最后一个假期",
+          "url": "https://www.news.cn/politics/20260726/a1bfee1bc3c6463b80ee86b58a8c889e/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37510,18 +37506,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "5aa565ba0e184e",
+          "id": "d56712ddc51a3a",
           "source": "新华社",
-          "title": "越南籍船舶南沙海域遇险 39人获救",
-          "url": "https://www.news.cn/20260726/5a8d8ed6f4cb40b19fa551e058e41310/c.html",
+          "title": "走进博物馆 学知识享清凉",
+          "url": "https://www.news.cn/photo/20260726/b42cb824895f4c1d89a63a77f68e63d9/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
         {
-          "id": "1e79987920f933",
+          "id": "5aa565ba0e184e",
           "source": "新华社",
-          "title": "那个熟悉全镇排水站和防洪堤的人，走了",
-          "url": "https://www.news.cn/local/20260726/5ae87cbb7839484ab123f1035ffa85ea/c.html",
+          "title": "越南籍船舶南沙海域遇险 39人获救",
+          "url": "https://www.news.cn/20260726/5a8d8ed6f4cb40b19fa551e058e41310/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37538,6 +37534,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "长江防总提升赣、湘防汛应急响应至Ⅲ级",
           "url": "https://www.news.cn/politics/20260726/6936fbae01384bc5bc6bf7e98c45c8f9/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "22d76c4fbaceb3",
+          "source": "新华社",
+          "title": "驻华使节访琼：看科创活力 寻合作机遇",
+          "url": "https://www.news.cn/world/20260726/8bfa858eb1b34ae8879766c959ddb322/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37643,64 +37647,64 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "ok",
           "count": 12,
-          "duration": 0.3
+          "duration": 0.2
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 30,
-          "duration": 2.2
+          "duration": 2.5
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.1
+          "duration": 3.0
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 28.0
+          "duration": 32.2
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 3,
-          "duration": 6.3
+          "duration": 6.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 18,
-          "duration": 1.9
+          "duration": 1.4
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.7
+          "duration": 13.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.3
+          "duration": 2.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 8.8
+          "duration": 10.7
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 4,
-          "duration": 100.3
+          "count": 5,
+          "duration": 68.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-26T20:00:13+08:00"
+  "generatedAt": "2026-07-26T21:23:26+08:00"
 };
