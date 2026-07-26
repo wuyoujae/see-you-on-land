@@ -36974,10 +36974,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "36d3115cf0a42e",
+          "id": "032db1a8741baa",
           "source": "新华社",
-          "title": "为何发布今年首个最高级别台风预警",
-          "url": "https://www.news.cn/politics/20260726/08ba72612eed489bb143474e58538cf7/c.html",
+          "title": "“红霞”强度减弱 中央气象台发布台风橙色预警",
+          "url": "https://www.news.cn/politics/20260726/21665c390391405f80908d209158251e/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "97aa3693c7224a",
+          "source": "新华社",
+          "title": "《APEC数据促进增长高级别圆桌会主席声明》发布",
+          "url": "https://www.news.cn/politics/20260726/d227210ed861428a819e79e9e776f2e9/c.html",
+          "date": "2026-07-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e0f459c99d4b61",
+          "source": "新华社",
+          "title": "中央部门“晒账本”，花钱更加求“绩”问“效”",
+          "url": "https://www.news.cn/politics/20260726/b2e0b67115184d3da1c43d3d5a702e28/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -36998,14 +37014,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "f3138540254b54",
-          "source": "新华社",
-          "title": "台风\"红霞\"在广东惠州登陆",
-          "url": "https://www.news.cn/local/20260726/f72a3ef26871416dabf590313625c4fa/c.html",
-          "date": "2026-07-26",
-          "keyword": "综合时政"
-        },
-        {
           "id": "64b40e9ae89cbb",
           "source": "新华社",
           "title": "台风“红霞”在广东惠州登陆",
@@ -37014,10 +37022,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "8b66ecfcc98079",
+          "id": "0c5d0aff8dc1c2",
           "source": "新华社",
           "title": "广东将防风应急响应提升至Ⅰ级",
-          "url": "https://www.news.cn/local/20260726/b58d3bc9bd3b439b9a2eb135e04e2de7/c.html",
+          "url": "https://www.news.cn/20260726/5ec584252e4e4d82b31c98ef8eb04469/c.html",
           "date": "2026-07-26",
           "keyword": "综合时政"
         },
@@ -37067,66 +37075,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 70.5,
-          "message": "HTTPSConnectionPool(host='tv.cctv.com', port=443): Read timed out. (read timeout=22)"
+          "duration": 53.9,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260726.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 30,
-          "duration": 2.1
+          "duration": 2.6
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 11,
-          "duration": 2.5
+          "count": 12,
+          "duration": 1.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 14.6
+          "duration": 24.1
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.1
+          "duration": 6.4
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 18,
-          "duration": 1.7
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.4
+          "duration": 14.6
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.7
+          "duration": 3.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.6
+          "duration": 9.5
         },
         {
           "source": "广东发布",
-          "status": "error",
+          "status": "ok",
           "count": 0,
-          "duration": 18.2,
-          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+          "duration": 82.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-26T07:00:03+08:00"
+  "generatedAt": "2026-07-26T08:10:23+08:00"
 }
