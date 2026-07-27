@@ -39725,80 +39725,631 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-07-28",
-      "keyword": "今日时政",
+      "keyword": "高质量发展",
       "keywords": [
         {
-          "name": "今日时政",
-          "count": 0
+          "name": "高质量发展",
+          "count": 3
+        },
+        {
+          "name": "习近平",
+          "count": 3
+        },
+        {
+          "name": "教育",
+          "count": 3
         }
       ],
-      "articles": [],
+      "articles": [
+        {
+          "id": "feede21020b2b3",
+          "source": "人民日报",
+          "title": "“为秘鲁教育事业发展注入新的活力”（共创繁荣发展新时代）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171382.html",
+          "date": "2026-07-28",
+          "keyword": "教育"
+        },
+        {
+          "id": "5cbdf71fa0707a",
+          "source": "人民日报",
+          "title": "“在高质量发展中保障和改善民生”形势政策系列报告会第七场报告会在北京举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171371.html",
+          "date": "2026-07-28",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "3ebc11fb8cf56f",
+          "source": "人民日报",
+          "title": "《中央宣传部、司法部关于开展法治宣传教育的第九个五年规划（2026—2030年）》",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171364.html",
+          "date": "2026-07-28",
+          "keyword": "教育"
+        },
+        {
+          "id": "ce3f535e5e0dd3",
+          "source": "人民日报",
+          "title": "习近平同巴西总统卢拉通电话",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171365.html",
+          "date": "2026-07-28",
+          "keyword": "习近平"
+        },
+        {
+          "id": "4f6be4ff05f54a",
+          "source": "人民日报",
+          "title": "推进残疾人事业全面发展、高质量发展（权威发布·开局起步“十五五”）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171391.html",
+          "date": "2026-07-28",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "57b09dc53ae870",
+          "source": "光明日报",
+          "title": "“在高质量发展中保障和改善民生”形势政策系列报告会第七场报告会在北京举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/28/content_20579.html",
+          "date": "2026-07-28",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "d898d590b32695",
+          "source": "光明日报",
+          "title": "《中央宣传部、司法部关于开展法治宣传教育的第九个五年规划（2026－2030年）》",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/28/content_20609.html",
+          "date": "2026-07-28",
+          "keyword": "教育"
+        },
+        {
+          "id": "9633226d31058e",
+          "source": "光明日报",
+          "title": "习近平同巴西总统卢拉通电话",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/28/content_20610.html",
+          "date": "2026-07-28",
+          "keyword": "习近平"
+        },
+        {
+          "id": "770b6424441b1e",
+          "source": "新华社",
+          "title": "《习近平党建思想的时代特质与世界意义》智库报告吉尔吉斯文、俄文版发布",
+          "url": "https://www.news.cn/politics/leaders/20260728/1656c1bb0a2b4c04b37a6769dad3b3e0/c.html",
+          "date": "2026-07-28",
+          "keyword": "习近平"
+        },
+        {
+          "id": "1c1961d0941565",
+          "source": "人民日报",
+          "title": "6月全国查处违反中央八项规定精神问题34700起",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171392.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6e4e6fd8d82329",
+          "source": "人民日报",
+          "title": "“七下八上”关键期，防汛举措如何落实落细（政策问答·回应关切）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171367.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "15bbb2eb943fdc",
+          "source": "人民日报",
+          "title": "“为国家持续发展提供坚强保障”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171389.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6c35750535969a",
+          "source": "人民日报",
+          "title": "“挖掘全球南方国家科技合作潜力”（2026中非人文交流年）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171386.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7ddd76ff10bc92",
+          "source": "人民日报",
+          "title": "上半年中央企业实现利润总额1.4万亿元",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171375.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "921940048b169b",
+          "source": "人民日报",
+          "title": "上半年规上工业企业利润同比增长18.7%",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171374.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "16b6de146da18f",
+          "source": "人民日报",
+          "title": "加速布局人工智能时代的“水电煤”（子夜走笔）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171380.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "70e0403d6e02a5",
+          "source": "人民日报",
+          "title": "博鳌亚洲论坛珀斯会议聚焦绿色转型",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171388.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8dc718ecbc82f7",
+          "source": "人民日报",
+          "title": "国办印发《关于国务院行政复议案件处理程序的若干规定》",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171369.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b96ac72b72159c",
+          "source": "人民日报",
+          "title": "广东智造激发产业动能（活力中国调研行）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171373.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "19c7f016121c3e",
+          "source": "人民日报",
+          "title": "我国农业植物实质性派生品种制度正式落地",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171378.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e0e9497bcbb555",
+          "source": "人民日报",
+          "title": "推动干部转作风、群众得实惠（树立和践行正确政绩观）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171366.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c7e6ceee5248a1",
+          "source": "人民日报",
+          "title": "搭建中德医学交流、文化互通的桥梁",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171390.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e52e59bf33ffda",
+          "source": "人民日报",
+          "title": "王毅将出席全球发展倡议5周年高级别会议",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171387.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "26a1030451a996",
+          "source": "人民日报",
+          "title": "甘肃渭源山洪灾害抢险搜救仍在进行（扎实做好防灾救灾各项工作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171393.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9bcfdcbee46723",
+          "source": "人民日报",
+          "title": "绿电直供数据中心，成就一片投资热土（年中数据微视角）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171379.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cb36d633a60cea",
+          "source": "人民日报",
+          "title": "车辆泡水，要及时取证报案（信息服务台）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171377.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "23d80ec31dde12",
+          "source": "人民日报",
+          "title": "辽宁长山群岛候鸟栖息地纳入世界自然遗产",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171368.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f2028af6fe4f41",
+          "source": "人民日报",
+          "title": "这份“信任票”，见证中国定力与担当（和音）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171384.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "048787cf498f44",
+          "source": "人民日报",
+          "title": "进一步加强妇女儿童合法权益保障",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171372.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "27fcfbed0a525f",
+          "source": "人民日报",
+          "title": "金正恩参谒中国人民志愿军烈士陵园",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171385.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5cfda20fa14443",
+          "source": "人民日报",
+          "title": "面向未来的投资（记者手记）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/28/content_30171383.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d0827a6fffcb82",
+          "source": "光明日报",
+          "title": "6月全国查处违反中央八项规定精神问题34700起",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/28/content_20581.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cad3a41bcc1f0a",
+          "source": "光明日报",
+          "title": "“必须持之以恒推进全面从严治党”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/28/content_20611.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e23f1fbc4b6718",
+          "source": "光明日报",
+          "title": "【光明时评】志愿服务为体育强国筑根基",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/28/content_20625.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c059b9d301734d",
+          "source": "光明日报",
+          "title": "【光明时评】高质量培训促技能人才成长",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/28/content_20624.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1c5cdd144b8b8d",
+          "source": "光明日报",
+          "title": "【光明论坛】提升通勤效率 促进都市圈一体化发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/28/content_20623.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "90a8cfc31d675d",
+          "source": "光明日报",
+          "title": "【光明论坛】要有温度地推进城市高质量更新",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/28/content_20622.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a74982b2d57b32",
+          "source": "光明日报",
+          "title": "【我是这样做学问的】从三重对话中汲取思想营养",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/28/content_20613.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f93e142d4bf82b",
+          "source": "光明日报",
+          "title": "【新闻随笔】“突破”源于青年学者敢为人先的勇气",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/28/content_20626.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2bed4d618b90ee",
+          "source": "光明日报",
+          "title": "【民生总关情】那夜、那雨、那情……",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/28/content_20612.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e0d1fdb171fed8",
+          "source": "光明日报",
+          "title": "保定理工学院：非遗赋能铸匠魂 馆校协同传文脉",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/28/content_20584.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8b32669a245572",
+          "source": "光明日报",
+          "title": "保障力量更坚实 发展信心更坚定",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/28/content_20578.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1ea0490f5f8350",
+          "source": "光明日报",
+          "title": "国办印发《关于国务院行政复议案件处理程序的若干规定》",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/28/content_20604.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b55e8885873105",
+          "source": "光明日报",
+          "title": "实字当头 干字为要",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/28/content_20605.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "353eec405339a4",
+          "source": "光明日报",
+          "title": "沈之荃院士逝世",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/28/content_20583.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "62d1df0129f196",
+          "source": "光明日报",
+          "title": "第九届进博会各项筹备工作稳步推进",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/28/content_20607.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b81b50a1361fea",
+          "source": "光明日报",
+          "title": "部署开展全民消防安全素质提升行动",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/28/content_20582.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1f143d484de741",
+          "source": "新华社",
+          "title": "2026上海合作组织媒体智库峰会探讨深化共识加强合作",
+          "url": "https://www.news.cn/world/20260728/3e7cba67db6b42d18accbc619d55b9fb/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e88a0cb2bb72f0",
+          "source": "新华社",
+          "title": "《新时代治国理政纪实》第一卷吉尔吉斯文版版权授权协议在吉交换",
+          "url": "https://www.news.cn/world/20260728/6d8a13828aee4acaa789556cc87a4a87/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d3139894043c75",
+          "source": "新华社",
+          "title": "中国驻日使馆发言人就日公布起诉村田晃大消息答问",
+          "url": "https://www.news.cn/world/20260728/f488961169dc4c04afcc95388a0f14d2/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3ed2f66c46e4ad",
+          "source": "新华社",
+          "title": "俄组建建筑工程部队 武装力量总人数增至242万余",
+          "url": "https://www.news.cn/world/20260728/3ffe6c2c13864f049513d4ef991c01b8/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "357de262a1e7dd",
+          "source": "新华社",
+          "title": "唐山50年浴火重生的精神密码",
+          "url": "https://www.news.cn/politics/20260728/edec1dd1e4b94f23910f7baac99a4ff2/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5497ddfb684ae0",
+          "source": "新华社",
+          "title": "坚持公平正义 完善全球治理——智库报告解读上合组织合作美好愿景",
+          "url": "https://www.news.cn/world/20260728/5f56a30dfa254a689d82ef069349add1/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ae101e3c94313f",
+          "source": "新华社",
+          "title": "年中经济观察｜房地产市场筑底回稳态势增强",
+          "url": "https://www.news.cn/fortune/20260728/3555bc53b6834e4b961b63ca4d052327/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "652aa27246952a",
+          "source": "新华社",
+          "title": "总书记引领推进高水平对外开放",
+          "url": "https://www.news.cn/politics/leaders/20260728/852028734f4f4ac3873d37ce9ece63ff/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ee161e5364a164",
+          "source": "新华社",
+          "title": "戈迪·豪跨国大桥开放通行",
+          "url": "https://www.news.cn/photo/20260728/160f309ef9c4400ba616248689172fa1/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4bf140a3880e05",
+          "source": "新华社",
+          "title": "新华时评丨携手同行 共绘上合组织新图景",
+          "url": "https://www.news.cn/world/20260728/c1014d78670f45b0b91feff14046ec91/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fb259576553365",
+          "source": "新华社",
+          "title": "新华时评丨民心可鉴，全球对华好感度持续攀升",
+          "url": "https://www.news.cn/world/20260728/a76178f841b144d8ad42850cdcaf3f2d/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "834ea9a7a36205",
+          "source": "新华社",
+          "title": "新华社国家高端智库发布《坚持公平正义 完善全球治理——上合组织合作的成就、机遇与展望》智库报告",
+          "url": "https://www.news.cn/world/20260728/e047113cc6e54e10913d365fc4d0b262/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "45ea1778b54e7f",
+          "source": "新华社",
+          "title": "沙特称摧毁自伊拉克方向无人机 伊总理下令调查",
+          "url": "https://www.news.cn/20260728/7a0cd5b89110456695189fad108502d4/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "817dec474869ab",
+          "source": "新华社",
+          "title": "海地总统选举再推迟 首轮投票拟于12月举行",
+          "url": "https://www.news.cn/20260728/648e1c83ebf349ad9e9d5527e9e57050/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "669d36470fab01",
+          "source": "新华社",
+          "title": "特朗普：有足够耐心与伊朗达成新协议 否则就开打",
+          "url": "https://www.news.cn/world/20260728/7bdd31da443c41bbaab31d91b2273697/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3b2e7a762f231b",
+          "source": "新华社",
+          "title": "特朗普：若外交努力失败就恢复对伊军事行动",
+          "url": "https://www.news.cn/20260728/4734efdf39424628a02c0fe527c59469/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "20f8360c0bf17a",
+          "source": "新华社",
+          "title": "罗马尼亚因无人机事件驱逐俄罗斯外交官",
+          "url": "https://www.news.cn/20260728/8f82f53de23546eab6e5a9c58fe6e11b/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0973ed48fe5bd3",
+          "source": "新华社",
+          "title": "美国驻多伦多总领事馆再遭枪击",
+          "url": "https://www.news.cn/world/20260728/0fe632e667cb41c09d0b94270b792e7f/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ee07d768f56458",
+          "source": "新华社",
+          "title": "美国驻多伦多总领馆再遭枪击",
+          "url": "https://www.news.cn/20260728/41549660acd647e9bc91d8b0874610ea/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "def6284d7b0071",
+          "source": "新华社",
+          "title": "美西雅图枪击事件致3死4伤 一名15岁嫌疑人被捕",
+          "url": "https://www.news.cn/20260728/8cc589659430452584a5f21b93ed1988/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "699d1967f6983d",
+          "source": "新华社",
+          "title": "英雄的城市 英雄的人民——唐山50年浴火重生的精神密码",
+          "url": "https://www.news.cn/20260728/9909426b32414745ada896eaffaec139/c.html",
+          "date": "2026-07-28",
+          "keyword": "综合时政"
+        }
+      ],
       "sourceStatus": [
         {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 31.7,
+          "duration": 10.0,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260728.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.1,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202607/28/node_01.html"
+          "status": "ok",
+          "count": 27,
+          "duration": 2.5
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 0,
-          "duration": 2.0
+          "count": 22,
+          "duration": 2.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 37.1
+          "duration": 28.8
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.6
+          "duration": 5.9
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.0,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202607/28/node_01.html"
+          "status": "ok",
+          "count": 19,
+          "duration": 1.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.1
+          "duration": 13.6
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.6
+          "duration": 2.9
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.0
+          "duration": 8.8
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 52.6
+          "duration": 58.6
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-28T00:16:50+08:00"
+  "generatedAt": "2026-07-28T07:07:20+08:00"
 };
