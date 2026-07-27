@@ -37711,10 +37711,30 @@
     },
     {
       "date": "2026-07-27",
-      "keyword": "消费",
+      "keyword": "习近平",
       "keywords": [
         {
+          "name": "习近平",
+          "count": 3
+        },
+        {
+          "name": "机器人",
+          "count": 3
+        },
+        {
           "name": "消费",
+          "count": 3
+        },
+        {
+          "name": "中国共产党",
+          "count": 2
+        },
+        {
+          "name": "高质量发展",
+          "count": 2
+        },
+        {
+          "name": "科技",
           "count": 2
         }
       ],
@@ -37736,12 +37756,100 @@
           "keyword": "消费"
         },
         {
+          "id": "68d7721ee235f3",
+          "source": "广东发布",
+          "title": "习近平文化思想引领中国世界遗产申报保护工作壮阔实践",
+          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4933735.html",
+          "date": "2026-07-27",
+          "keyword": "习近平"
+        },
+        {
+          "id": "47a395b06c470b",
+          "source": "新华社",
+          "title": "72台机器人将上岗 北京市属公园开启智慧管理模式",
+          "url": "https://www.news.cn/local/20260727/3edc87c5b365409a861470a1cf6fefd4/c.html",
+          "date": "2026-07-27",
+          "keyword": "机器人"
+        },
+        {
+          "id": "fd6229fcfa9971",
+          "source": "新华社",
+          "title": "72台机器人将陆续上岗 北京市属公园开启智慧管理新模式",
+          "url": "https://www.news.cn/20260727/6c18317be3ca44d3aa3ec67bb41c8627/c.html",
+          "date": "2026-07-27",
+          "keyword": "机器人"
+        },
+        {
+          "id": "7a54067e7eeb34",
+          "source": "新华社",
+          "title": "上半年餐饮业“M”型走势，藏着哪些消费新密码",
+          "url": "https://www.news.cn/food/20260727/e016177d158a40c983329e92a26db959/c.html",
+          "date": "2026-07-27",
+          "keyword": "消费"
+        },
+        {
+          "id": "83a3123a1cda77",
+          "source": "新华社",
+          "title": "数智润乡村丨“双胞胎”机器人：以科技赋能果业振兴",
+          "url": "https://xczx.news.cn/20260727/58467edcb0e44284927204d2586dbeb3/c.html",
+          "date": "2026-07-27",
+          "keyword": "机器人"
+        },
+        {
+          "id": "c736e245ba590b",
+          "source": "求是",
+          "title": "习近平总书记重要论述凝聚共同致力民族复兴强大力量",
+          "url": "https://www.qstheory.cn/20260727/1bd61adc4ab246f6825fe1294226ba6e/c.html",
+          "date": "2026-07-27",
+          "keyword": "习近平"
+        },
+        {
+          "id": "cea31ac7c843e7",
+          "source": "求是",
+          "title": "如何以坚定历史自信不断开辟管党治党、兴党强党新境界？——坚持不懈用习近平新时代中国特色社会主义思想凝心铸魂",
+          "url": "https://www.qstheory.cn/20260727/9092f042c3d44337bf67caf4f9994eda/c.html",
+          "date": "2026-07-27",
+          "keyword": "习近平"
+        },
+        {
           "id": "396cdcd1142ce8",
           "source": "人民日报",
           "title": "“中国共产党书写了人类发展史上的辉煌篇章”",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202607/27/content_30171079.html",
           "date": "2026-07-27",
-          "keyword": "综合时政"
+          "keyword": "中国共产党"
+        },
+        {
+          "id": "c930fab3abfca5",
+          "source": "人民日报",
+          "title": "协同推进高质量发展和高水平保护 加快建设人与自然和谐共生的美丽中国",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/27/content_30171135.html",
+          "date": "2026-07-27",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "f74a837b91044a",
+          "source": "新华社",
+          "title": "科技助力文博游“圈粉”海外游客",
+          "url": "https://www.news.cn/ci/20260727/938f27791fad472a96be646916cc80bd/c.html",
+          "date": "2026-07-27",
+          "keyword": "科技"
+        },
+        {
+          "id": "df2def90ed6cc6",
+          "source": "求是",
+          "title": "在增强供需适配性平衡性中推动高质量发展",
+          "url": "https://www.qstheory.cn/20260727/8f7c00d942e2444fbabf76b1dd0dfc65/c.html",
+          "date": "2026-07-27",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "d928e9854aba46",
+          "source": "求是",
+          "title": "注重强健自身，始终充满生机活力 | 中国共产党为什么能的关键密码⑥",
+          "url": "https://www.qstheory.cn/20260727/1f855eaf8b4847e3982d6c13d20bc846/c.html",
+          "date": "2026-07-27",
+          "keyword": "中国共产党"
         },
         {
           "id": "cd9a7b4b3e2e5b",
@@ -37844,14 +37952,6 @@
           "source": "人民日报",
           "title": "凝聚侨心侨力 共襄复兴伟业",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202607/27/content_30171065.html",
-          "date": "2026-07-27",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "c930fab3abfca5",
-          "source": "人民日报",
-          "title": "协同推进高质量发展和高水平保护 加快建设人与自然和谐共生的美丽中国",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/27/content_30171135.html",
           "date": "2026-07-27",
           "keyword": "综合时政"
         },
@@ -38064,10 +38164,130 @@
           "keyword": "综合时政"
         },
         {
+          "id": "0655d32888505c",
+          "source": "半月谈",
+          "title": "2026暑期档，用“中国好故事”赢回观众",
+          "url": "http://www.banyuetan.org/pl/detail/20260727/1000200033136001785113281452002761_1.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1e4123e291b7aa",
+          "source": "半月谈",
+          "title": "“千年瓷都”圆梦世遗",
+          "url": "http://www.banyuetan.org/dyp/detail/20260727/1000200033135231785116534717012990_1.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7a5ce8227a584b",
+          "source": "半月谈",
+          "title": "出片，新社交表达莫被流量捆绑",
+          "url": "http://www.banyuetan.org/jrt/detail/20260727/1000200033134991785114842282005394_1.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a2263dac9c64bf",
+          "source": "半月谈",
+          "title": "自带杯：“双碳”时尚新单品",
+          "url": "http://www.banyuetan.org/jrt/detail/20260727/1000200033134991785115868226008869_1.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e87bab077f925d",
+          "source": "半月谈",
+          "title": "退守胶片：在放慢中找回生活质感",
+          "url": "http://www.banyuetan.org/jrt/detail/20260727/1000200033134991785114404601004570_1.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5950b5b59626e8",
+          "source": "广东发布",
+          "title": "台风“红霞”强度减弱 全省累计转移近90万人",
+          "url": "https://www.gd.gov.cn/gdywdt/bmdt/content/post_4933740.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0b040c1a41ef19",
+          "source": "新华社",
+          "title": "1—6月全国规模以上工业企业利润增长18.7%",
+          "url": "https://www.news.cn/fortune/20260727/ee28a4c587a7453ebbef3574a49e5c79/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "60c19f9c2beef4",
+          "source": "新华社",
+          "title": "中企新工厂落地巴西助力智能配网建设",
+          "url": "https://www.news.cn/silkroad/20260727/ee4380c54c9b45beaddaf235ed01086c/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
           "id": "5d36761def42e5",
           "source": "新华社",
           "title": "也门胡塞武装称48小时内袭击三艘沙特油轮",
           "url": "https://www.news.cn/20260727/5cbb5f6b68894300b23759e92e9af1d1/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eca868bf2919a4",
+          "source": "新华社",
+          "title": "人造宝石闪亮全球市场",
+          "url": "https://www.news.cn/fashion/20260727/df8b4708ae134cfd991b88675dd8bd98/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "666c0a710276a5",
+          "source": "新华社",
+          "title": "从三个“第一”复盘携程垄断案始末",
+          "url": "https://www.news.cn/legal/20260727/fd5b6cec143a42b49e1af094369d35c5/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a9415cf491467b",
+          "source": "新华社",
+          "title": "伊朗外长谴责乌克兰袭击伊商船",
+          "url": "https://www.news.cn/world/20260727/5694ca2283dd4aa4bae76779b51f4470/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cbd20d3de020b3",
+          "source": "新华社",
+          "title": "伊朗外长谴责乌克兰袭击伊商船 强调将作出回应",
+          "url": "https://www.news.cn/20260727/981b722f52054dbe893db5d46906db40/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "522ddf5c1b39c2",
+          "source": "新华社",
+          "title": "伊朗最高领袖：保卫黎巴嫩是伊“战略使命”",
+          "url": "https://www.news.cn/20260727/7218e7b1c383429eacc06f2088ce7976/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8046ed2701084a",
+          "source": "新华社",
+          "title": "别说文物高冷！辽博这个展，看完嘴角压不下来",
+          "url": "https://www.news.cn/ci/20260727/83deb680cbfe4b68b072024c3b5a12e6/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "da7258ad7ad4c2",
+          "source": "新华社",
+          "title": "又救2名 中方共成功救援47名越南籍遇险人员",
+          "url": "https://www.news.cn/world/20260727/80da310ccb1847bdb891d92b9e55f823/c.html",
           "date": "2026-07-27",
           "keyword": "综合时政"
         },
@@ -38080,6 +38300,86 @@
           "keyword": "综合时政"
         },
         {
+          "id": "d9dbe4aa696b05",
+          "source": "新华社",
+          "title": "古特雷斯：以色列在戈兰高地的侵犯行为“不可接受”",
+          "url": "https://www.news.cn/world/20260727/18fab79cdc3e4943a8c200f2c8e71730/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b3fc50125b0cdf",
+          "source": "新华社",
+          "title": "台风暴雨洪流中 警察奋力营救车内被困群众",
+          "url": "https://www.news.cn/20260727/5bcaa7c973924d48ad8d2beb1ebd1258/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "608646f1474659",
+          "source": "新华社",
+          "title": "国际油价26日大幅下跌 黄金和白银价格明显上涨",
+          "url": "https://www.news.cn/world/20260727/68a7c3059afa47d098c5e638073bdafc/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5b6204fb1134b9",
+          "source": "新华社",
+          "title": "夏粮首破3000亿斤彰显农业韧性",
+          "url": "https://www.news.cn/food/20260727/4bb6452764ec4380b83c5d10e4e4b2f9/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e524a0fa153253",
+          "source": "新华社",
+          "title": "尝鲜的含金量",
+          "url": "https://www.news.cn/food/20260727/68ae765941dc460fb9eeebec718b72c7/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6783e3dea40722",
+          "source": "新华社",
+          "title": "找准为民服务的着力点",
+          "url": "https://www.news.cn/politics/20260727/00ca66d893cb4eb28e75dc2a300282d2/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "08b42104ff5722",
+          "source": "新华社",
+          "title": "抗议米莱言行 巴西召回驻阿根廷大使",
+          "url": "https://www.news.cn/20260727/5b32ae69734349e393bcdf63ef0278d4/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5dc3adec87c309",
+          "source": "新华社",
+          "title": "搜救工作持续进行",
+          "url": "https://www.news.cn/local/20260727/b1ee6ad268bc4489a42dd0e037d63f99/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4828078a3dd7b6",
+          "source": "新华社",
+          "title": "文化新观察｜以景德之名 续瓷之传奇",
+          "url": "https://www.news.cn/culture/20260727/123671b5bcff4951af2dc410d5aa0cbe/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "091da1f5058e67",
+          "source": "新华社",
+          "title": "新华社消息｜美伊暂停互袭 国际油价26日大幅下跌",
+          "url": "https://www.news.cn/20260727/0c46dae0e2a846a5a0c0d4058278a758/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
           "id": "f8c8a8f88ff9e3",
           "source": "新华社",
           "title": "柏林汽车撞人事件犯罪嫌疑人被警方击毙",
@@ -38088,10 +38388,98 @@
           "keyword": "综合时政"
         },
         {
-          "id": "ace2109184f3f2",
+          "id": "573fc40f6d91cc",
+          "source": "新华社",
+          "title": "海报｜一键收藏中国61项世界遗产最新“全家福”",
+          "url": "https://www.news.cn/politics/20260727/0e573d7f33e54a499c61a7664b7ee2ab/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b3186e5773d01d",
+          "source": "新华社",
+          "title": "美伊暂停互袭 国际油价26日大幅下跌",
+          "url": "https://www.news.cn/20260727/9bf2ce6175664d8680f68284d0e2af3b/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "71046df6c06ce6",
+          "source": "新华社",
+          "title": "美军7月重启伊朗战事以来逾200人受伤",
+          "url": "https://www.news.cn/20260727/2e4bfc0fc41848f494a75e51971b999b/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2ae4a21873d9cf",
+          "source": "新华社",
+          "title": "美国防部：美军因伊朗战事累计伤亡642人",
+          "url": "https://www.news.cn/20260727/ccae000147ad4bfc87482a7d09ae5935/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a7fc7732cabfa8",
+          "source": "新华社",
+          "title": "联合国秘书长呼吁解除对叙利亚所有制裁",
+          "url": "https://www.news.cn/20260727/a18f6ba7290142af94b48f6ffbf65c84/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "be899a6c865eaa",
+          "source": "新华社",
+          "title": "苏丹宣布全国约75%的医疗机构恢复运营",
+          "url": "https://www.news.cn/20260727/bc90969aa2004ece98234702e92e8d58/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f1eea949802f0a",
+          "source": "新华社",
+          "title": "蒙内铁路货运量累计突破5000万吨",
+          "url": "https://www.news.cn/20260727/1015f4fa16a44d368b8f1e6ba02e8f17/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "16ffb72d155364",
+          "source": "新华社",
+          "title": "走进博物馆 学知识享清凉",
+          "url": "https://www.news.cn/culture/20260727/84a4b43d882d44a3b4b03e7404018f33/c.html?page=1",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c206c1fe667deb",
           "source": "新华社",
           "title": "过火面积达约5万公顷 西班牙阿维拉山火规模创纪录",
-          "url": "https://www.news.cn/20260727/9cdbda62d3a84ebfa8baaef634553298/c.html",
+          "url": "https://www.news.cn/world/20260727/e3a82706dbf24a5cbe9712e31664de00/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7660943274a578",
+          "source": "新华社",
+          "title": "重庆彭水山体崩塌现场发现失联中巴车残骸",
+          "url": "https://www.news.cn/local/20260727/d970b7c40a2944168ae05d79e972b6a7/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "61a9b94ef20677",
+          "source": "新华社",
+          "title": "金正恩参谒中国人民志愿军烈士陵园",
+          "url": "https://www.news.cn/world/20260727/9b715412f26840528f30e31f5df09ce4/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6a3ddc79ab313e",
+          "source": "新华社",
+          "title": "零售店为何盯上潮玩生意",
+          "url": "https://www.news.cn/fashion/20260727/c7225abc0fad4b558f70123f080fc533/c.html",
           "date": "2026-07-27",
           "keyword": "综合时政"
         },
@@ -38102,6 +38490,38 @@
           "url": "https://www.news.cn/20260727/c954983551e44f0d9c4ca939c62295fc/c.html",
           "date": "2026-07-27",
           "keyword": "综合时政"
+        },
+        {
+          "id": "49889d25f906b0",
+          "source": "求是",
+          "title": "不断增强党的思想引领力",
+          "url": "https://www.qstheory.cn/20260727/57bea29b93f34c0fb6a7d248d883b61f/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d0a508d9ea4145",
+          "source": "求是",
+          "title": "如何以坚定历史自信不断开辟管党治党、兴党强党新境界？——坚定不移贯彻新时代党的组织路线",
+          "url": "https://www.qstheory.cn/20260727/5a9bb64a2ba9441985e6b6780c75b127/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "542cde97b34c43",
+          "source": "求是",
+          "title": "如何以坚定历史自信不断开辟管党治党、兴党强党新境界？——纵深推进党风廉政建设和反腐败斗争",
+          "url": "https://www.qstheory.cn/20260727/7095b85fc75f45a48b1a6b4408e61465/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ebe952d1761632",
+          "source": "求是",
+          "title": "总书记以“三个有利于”指引世界遗产申报保护",
+          "url": "https://www.qstheory.cn/20260727/c05d7a86c6a145f9a1a02d9dc2bc5f2d/c.html",
+          "date": "2026-07-27",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -38109,65 +38529,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 54.8,
+          "duration": 4.5,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260727.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 20,
-          "duration": 1.2
+          "duration": 1.9
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 5,
-          "duration": 2.5
+          "count": 40,
+          "duration": 2.9
         },
         {
           "source": "半月谈",
           "status": "ok",
-          "count": 0,
-          "duration": 14.8
+          "count": 5,
+          "duration": 22.7
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 6.0
+          "count": 8,
+          "duration": 6.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 1.6
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.4
+          "duration": 21.0
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.6
+          "duration": 3.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 10.1
+          "duration": 8.9
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 0,
-          "duration": 75.8
+          "count": 2,
+          "duration": 69.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-27T07:04:57+08:00"
+  "generatedAt": "2026-07-27T10:23:47+08:00"
 }
