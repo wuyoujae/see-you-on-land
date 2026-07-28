@@ -41675,80 +41675,459 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-07-29",
-      "keyword": "今日时政",
+      "keyword": "习近平",
       "keywords": [
         {
-          "name": "今日时政",
-          "count": 0
+          "name": "习近平",
+          "count": 4
+        },
+        {
+          "name": "习近平党建思想",
+          "count": 2
+        },
+        {
+          "name": "教育",
+          "count": 2
+        },
+        {
+          "name": "经济",
+          "count": 2
         }
       ],
-      "articles": [],
+      "articles": [
+        {
+          "id": "1d9000b87632d7",
+          "source": "人民日报",
+          "title": "习近平同斯洛伐克总统佩列格里尼会谈",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/29/content_30171776.html",
+          "date": "2026-07-29",
+          "keyword": "习近平"
+        },
+        {
+          "id": "13d7b69d3db011",
+          "source": "人民日报",
+          "title": "深入学习贯彻习近平党建思想 不断开创机关党建工作新局面",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/29/content_30171782.html",
+          "date": "2026-07-29",
+          "keyword": "习近平"
+        },
+        {
+          "id": "c28d68c810554d",
+          "source": "光明日报",
+          "title": "习近平同斯洛伐克总统佩列格里尼会谈",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20655.html",
+          "date": "2026-07-29",
+          "keyword": "习近平"
+        },
+        {
+          "id": "a1064639c84eb8",
+          "source": "光明日报",
+          "title": "深入学习贯彻习近平党建思想 不断开创机关党建工作新局面",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20651.html",
+          "date": "2026-07-29",
+          "keyword": "习近平"
+        },
+        {
+          "id": "5e259143bd9ea7",
+          "source": "人民日报",
+          "title": "税收大数据勾勒经济向好图景（权威发布·开局起步“十五五”）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/29/content_30171784.html",
+          "date": "2026-07-29",
+          "keyword": "经济"
+        },
+        {
+          "id": "5fb901b2940f8d",
+          "source": "光明日报",
+          "title": "AI重塑教育，我们该如何应对？",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20653.html",
+          "date": "2026-07-29",
+          "keyword": "教育"
+        },
+        {
+          "id": "34bd209556bc8b",
+          "source": "光明日报",
+          "title": "【光明时评】提高首发经济的外溢效果 持续激发消费活力",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20673.html",
+          "date": "2026-07-29",
+          "keyword": "经济"
+        },
+        {
+          "id": "fb57badf8551b5",
+          "source": "光明日报",
+          "title": "【光明论坛】推进革命老区基础教育提质升级",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20672.html",
+          "date": "2026-07-29",
+          "keyword": "教育"
+        },
+        {
+          "id": "a11574a30b9922",
+          "source": "人民日报",
+          "title": "“解题者”王戟（记者手记）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/29/content_30171799.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "36b15a253e981f",
+          "source": "人民日报",
+          "title": "中国科技创新秉持开放包容、互利共赢理念（国际论坛）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/29/content_30171792.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2f1d4405d130cd",
+          "source": "人民日报",
+          "title": "何立峰出席2026年亚太经合组织林业部长级会议开幕式并致辞",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/29/content_30171783.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1d22c3ab782266",
+          "source": "人民日报",
+          "title": "促进团结奋斗 汇聚磅礴力量",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/29/content_30171778.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "19168f7f0843f7",
+          "source": "人民日报",
+          "title": "全国政协召开“加快农业农村现代化”专题协商会",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/29/content_30171780.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "17c016bac0a463",
+          "source": "人民日报",
+          "title": "助力企业出海更稳健（政策解读）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/29/content_30171785.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f79975877294cf",
+          "source": "人民日报",
+          "title": "去年全国累计资助学生近一点六亿人次",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/29/content_30171786.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7fc3d48adf3e7a",
+          "source": "人民日报",
+          "title": "外交部：欢迎更多外国朋友近距离感受夏日中国的魅力",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/29/content_30171795.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b1aadc587fc341",
+          "source": "人民日报",
+          "title": "持续提升防灾减灾救灾能力 切实保障人民群众生命财产安全",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/29/content_30171779.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a165329f3ac0ed",
+          "source": "人民日报",
+          "title": "文莱苏丹哈桑纳尔会见董军",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/29/content_30171794.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3fef708f2e5da2",
+          "source": "人民日报",
+          "title": "斯洛伐克总统佩列格里尼向人民英雄纪念碑敬献花圈",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/29/content_30171796.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b40851a1dc0f4b",
+          "source": "人民日报",
+          "title": "更好凝聚侨心侨力 促进海内外中华儿女团结奋斗",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/29/content_30171777.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b0f6126b4a8dbc",
+          "source": "人民日报",
+          "title": "构建可持续发展的美好未来",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/29/content_30171790.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e5358671cf9cea",
+          "source": "人民日报",
+          "title": "王毅出席全球发展倡议5周年高级别会议",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/29/content_30171793.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3fd22e1973f06f",
+          "source": "人民日报",
+          "title": "看待产能问题要秉持全面、客观、公正的态度（权威发布）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/29/content_30171791.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b19560e2151e3d",
+          "source": "人民日报",
+          "title": "身有桎梏 心向鸿鹄",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202607/29/content_30171781.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "06f9227d5ce803",
+          "source": "光明日报",
+          "title": "【光明论坛】“三问于民”里的治理密码与人民情怀",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20670.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4ea3753711bc21",
+          "source": "光明日报",
+          "title": "【光明论坛】夯实社会工作高质量发展的人才基础",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20674.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "be4a23bbca1384",
+          "source": "光明日报",
+          "title": "【我在现场】固沙“尖兵”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20658.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fdb7d2bd706264",
+          "source": "光明日报",
+          "title": "【改进文风大家谈】好文风在于能触达人心",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20659.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "29f8fdd7fe79a9",
+          "source": "光明日报",
+          "title": "【文化评析】世界遗产是联通中国与世界的桥梁",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20671.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "825ee8019434dc",
+          "source": "光明日报",
+          "title": "【民生总关情】适意空间",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20657.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "239cedc02c1765",
+          "source": "光明日报",
+          "title": "中国产业发展带给世界的不是冲击而是机遇",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20646.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6bad55f0beb33b",
+          "source": "光明日报",
+          "title": "中欧班列累计开行量突破13万列",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20660.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "efb2b05f33f692",
+          "source": "光明日报",
+          "title": "以轮椅为“战车”的科研先锋",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20648.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "39368987066956",
+          "source": "光明日报",
+          "title": "全国政协召开“加快农业农村现代化”专题协商会",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20650.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "54aa6399df8e68",
+          "source": "光明日报",
+          "title": "持续提升防灾减灾救灾能力 切实保障人民群众生命财产安全",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20649.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2123db03927013",
+          "source": "光明日报",
+          "title": "更好凝聚侨心侨力 促进海内外中华儿女团结奋斗",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20656.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b592ad2d7d0db1",
+          "source": "光明日报",
+          "title": "更好发挥税收在国家治理中的作用",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20647.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d7377d68a73436",
+          "source": "光明日报",
+          "title": "江苏常州：家门口的养老服务托起“稳稳的幸福”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20654.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a0b715b7b3730d",
+          "source": "光明日报",
+          "title": "荞麦种植探索乡村振兴新路径",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202607/29/content_20652.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "39cd4f50f5b495",
+          "source": "新华社",
+          "title": "中方：政府间谈判是讨论安理会改革问题唯一合法平台",
+          "url": "https://www.news.cn/20260729/1827e269c40c443dade039450931a887/c.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e27b59f490489f",
+          "source": "新华社",
+          "title": "乌克兰伊朗外长就袭船事件通电话",
+          "url": "https://www.news.cn/20260729/4abe06a21bc94fc2a3e3761bf0d65a18/c.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3017ae77be6ef7",
+          "source": "新华社",
+          "title": "学习快评丨凝心聚力共圆复兴之梦",
+          "url": "https://www.news.cn/politics/20260729/bf03d15984864cf39e4caa52ec04f17d/c.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6fc026086b65f2",
+          "source": "新华社",
+          "title": "对伊朗军事行动 以来 特朗普与内塔尼亚胡首次会晤",
+          "url": "https://www.news.cn/20260729/7bad4653e4db41b78075891b3c212e92/c.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "68ab0cfc181eb6",
+          "source": "新华社",
+          "title": "日本强震致一工厂烟囱倒塌 9人下落不明",
+          "url": "https://www.news.cn/20260729/d40502aa50c74b3cb3c16fbcef36d477/c.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "773ee86c39915c",
+          "source": "新华社",
+          "title": "美乌总统白宫会谈讨论“爱国者”拦截弹生产",
+          "url": "https://www.news.cn/20260729/a29f5490e3d342bca9698da1f71c2934/c.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7019c46bbc4637",
+          "source": "新华社",
+          "title": "藤森庆子宣誓就任秘鲁总统",
+          "url": "https://www.news.cn/20260729/39caf4c022884ac8864f287475922eb5/c.html",
+          "date": "2026-07-29",
+          "keyword": "综合时政"
+        }
+      ],
       "sourceStatus": [
         {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 14.9,
+          "duration": 12.2,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260729.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.6,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202607/29/node_01.html"
+          "status": "ok",
+          "count": 19,
+          "duration": 1.3
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 0,
-          "duration": 2.6
+          "count": 7,
+          "duration": 2.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 17.8
+          "duration": 19.1
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.3
+          "duration": 6.1
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 9.0,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202607/29/node_01.html"
+          "status": "ok",
+          "count": 20,
+          "duration": 2.2
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.8
+          "duration": 12.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.9
+          "duration": 2.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.5
+          "duration": 8.8
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 49.4
+          "duration": 62.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-29T00:06:20+08:00"
+  "generatedAt": "2026-07-29T07:04:39+08:00"
 };
