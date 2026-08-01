@@ -47361,7 +47361,7 @@
         },
         {
           "name": "高温",
-          "count": 2
+          "count": 3
         }
       ],
       "articles": [
@@ -47482,6 +47482,14 @@
           "source": "新华社",
           "title": "中东部大范围高温桑拿天",
           "url": "https://www.news.cn/20260801/ce8f6b43259c43f69866a88830631515/c.html",
+          "date": "2026-08-01",
+          "keyword": "高温"
+        },
+        {
+          "id": "0410c38332a1ae",
+          "source": "新华社",
+          "title": "联合国秘书长呼吁各方采取行动应对极端高温",
+          "url": "https://www.news.cn/world/20260801/4e74a24c3de04546a0c023fca258d174/c.html",
           "date": "2026-08-01",
           "keyword": "高温"
         },
@@ -47934,6 +47942,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "cb57eecdbb125d",
+          "source": "新华社",
+          "title": "“全国优秀共产党员”陈桂平：“一只手”撑起一片天",
+          "url": "https://www.news.cn/politics/20260801/ec9e82a932e945778e83f9d29aa6df19/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
           "id": "9cd0a5369d6b1c",
           "source": "新华社",
           "title": "《给阿嬷的情书》在菲律宾首映",
@@ -47950,26 +47966,42 @@
           "keyword": "综合时政"
         },
         {
+          "id": "ebbca688a8a145",
+          "source": "新华社",
+          "title": "三部门向吉林黑龙江调拨1.1万件中央救灾物资",
+          "url": "https://www.news.cn/fortune/20260801/b8bcc8e72dc843d2a5965a37be7e5abc/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d17d17a82c0352",
+          "source": "新华社",
+          "title": "中亚国家和阿塞拜疆领导人呼吁加强区域合作",
+          "url": "https://www.news.cn/world/20260801/ad8a4882f70d44c0ba8c9ccd6f182ee5/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
           "id": "22d6760ea9fee1",
           "source": "新华社",
-          "title": "中国企业家代表团与美中贸委会及其会员企业交流座谈",
+          "title": "中国企业家代表团与美中贸委会及其会员企业交流 座谈",
           "url": "https://www.news.cn/world/20260801/68d4b68af22348ee929f377c71914649/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
         {
-          "id": "736798fbb679b6",
+          "id": "f2dc4c61292a96",
           "source": "新华社",
-          "title": "中国第三批埃博拉抗疫医疗专家组赴刚果（金）",
-          "url": "https://www.news.cn/20260801/c48d0d8903f04afc868d78ed0ffe22cd/c.html",
+          "title": "中国邮政发行《中国人民解放军军旗、军徽、军歌》纪念邮票",
+          "url": "https://www.news.cn/photo/20260801/bc043ad4dfe0444da8733366901c56cd/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
         {
-          "id": "d62c4b44a1a4a0",
+          "id": "579611d4309bb3",
           "source": "新华社",
-          "title": "乌克兰首都基辅遭弹道导弹袭击",
-          "url": "https://www.news.cn/world/20260801/100b4c89f27b4306aee7418ced1e4ae1/c.html",
+          "title": "中国驻南苏丹维和部队忠诚履职：为了和平的使命",
+          "url": "https://www.news.cn/world/20260801/4956f8ca1aca48d3a42c62199cb14d59/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
@@ -47994,14 +48026,6 @@
           "source": "新华社",
           "title": "南部战区位黄岩岛领海领空和周边海空域组织海空联合演训",
           "url": "https://www.news.cn/20260801/3ab67f0431894b5e94a8ee5ea127ce89/c.html",
-          "date": "2026-08-01",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "2b6d6673f71f5e",
-          "source": "新华社",
-          "title": "吉尔吉斯斯坦与阿塞拜疆签署同盟关系条约",
-          "url": "https://www.news.cn/world/20260801/b785762e183d4b3884d47a309527183d/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
@@ -48046,10 +48070,42 @@
           "keyword": "综合时政"
         },
         {
+          "id": "16b10cda09f645",
+          "source": "新华社",
+          "title": "夏日滇池焕新貌 生态赋能文旅融合发展",
+          "url": "https://www.news.cn/local/20260801/584a7a5c1acb4904841a28b0e9f50270/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "774ecd7383974d",
+          "source": "新华社",
+          "title": "大足石刻“数字体验展”在纽约开幕",
+          "url": "https://www.news.cn/20260801/784725cdde654b0ebaa4b2cf42b9f310/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "72b4768cd42650",
+          "source": "新华社",
+          "title": "大足石刻艺术与生活叙事展在纽约开展",
+          "url": "https://www.news.cn/photo/20260801/94e1c80d26b145a48c14c2425fa608ab/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
           "id": "5e0421a9dbe778",
           "source": "新华社",
           "title": "巴基斯坦煤矿爆炸致34人死亡 8人被困",
           "url": "https://www.news.cn/world/20260801/f1dc0a18084f4b7abb1fda6d09d788a9/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "85ae59797282d0",
+          "source": "新华社",
+          "title": "巴新外长重申坚定奉行一个中国政策",
+          "url": "https://www.news.cn/world/20260801/921d41e0ffc941849c382b43f938010a/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
@@ -48062,10 +48118,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "80e531b5e6cc10",
+          "id": "2859adb5af21ca",
           "source": "新华社",
-          "title": "悬空寺又出圈 文旅开发和游客体验双赢",
-          "url": "https://www.news.cn/local/20260801/211fbf19ed1c41ed8854e8a835c76820/c.html",
+          "title": "德国南部林火失控 已部署约330名应急人员灭火",
+          "url": "https://www.news.cn/world/20260801/98571a379c4a45da918bd84f08b1551c/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
@@ -48074,6 +48130,14 @@
           "source": "新华社",
           "title": "意大利暂停与西班牙的申根自由通行机制",
           "url": "https://www.news.cn/20260801/f7035a6fcdfc46078bfd22a2cc1a7f4b/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0f71299fd8000f",
+          "source": "新华社",
+          "title": "我国将建立黄岩岛保护区日常巡护制度",
+          "url": "https://www.news.cn/politics/20260801/2abea2bd716b4a3f991ccba0ef85fff0/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
@@ -48094,10 +48158,26 @@
           "keyword": "综合时政"
         },
         {
+          "id": "25ef6b3aaa0dad",
+          "source": "新华社",
+          "title": "新华网评：群星闪耀，中国青年的创新好戏才刚开场",
+          "url": "http://www.news.cn/comments/20260801/3f9cc27c46cf4649a95b38b5e5fae881/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
           "id": "87831330f4b9d7",
           "source": "新华社",
           "title": "新增65种药品 国家药品集采再扩围",
           "url": "https://www.news.cn/fortune/20260801/8ef03b539439440f8cc62a490b0629a7/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e12ce8fd17134d",
+          "source": "新华社",
+          "title": "新疆吉木萨尔：白杨河夏日景致太治愈",
+          "url": "https://xj.news.cn/20260801/98b739f03c87406bafdb5121b5168983/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
@@ -48134,6 +48214,30 @@
           "keyword": "综合时政"
         },
         {
+          "id": "9b8a60ca7bcfc9",
+          "source": "新华社",
+          "title": "权威数读丨一周“靓”数",
+          "url": "https://www.news.cn/20260801/08799f166b084f1eb050e158ea82d9e0/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f6941ae47b4d54",
+          "source": "新华社",
+          "title": "水利部针对黑龙江省启动洪水防御Ⅳ级响应",
+          "url": "https://www.news.cn/local/20260801/d1ef7bf0d61243ac9ca2441f2e0be675/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e5b2496ab502e9",
+          "source": "新华社",
+          "title": "江苏电网最高用电负荷突破1.6亿千瓦",
+          "url": "https://www.news.cn/local/20260801/8ed02c35f62c4376bc70f3b7bcb1f780/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
           "id": "fdb23d39702267",
           "source": "新华社",
           "title": "沿着“黄金大外环”，看中国式现代化的沿边沿海注脚",
@@ -48146,14 +48250,6 @@
           "source": "新华社",
           "title": "湿度影响壁画保存 科技如何助莫高窟应对气候变化",
           "url": "https://www.news.cn/20260801/c7fbe56ebb9b474bae4743d32691502f/c.html",
-          "date": "2026-08-01",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "f356777443ede9",
-          "source": "新华社",
-          "title": "特朗普称以色列对“全面解除”哈马斯武装协议很满意",
-          "url": "https://www.news.cn/world/20260801/9afa2bafe3374d439b83cf600cdf716c/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
@@ -48174,18 +48270,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "f0635d1867b48d",
+          "id": "5ea7ebddb2edc4",
           "source": "新华社",
-          "title": "电影《八仙！》票房破10亿元",
-          "url": "https://www.news.cn/politics/20260801/e133a1acbb194d4bb0493c441784374e/c.html",
+          "title": "电动汽车充电桩CCC认证8月1日起强制实施",
+          "url": "https://www.news.cn/legal/20260801/4e8a24d071944ed29a90d67eedd36e82/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
         {
-          "id": "c3d24be8d031ee",
+          "id": "7af73535de6ef3",
           "source": "新华社",
-          "title": "美以计划对伊朗能源设施发动迄今最猛烈轰炸",
-          "url": "https://www.news.cn/world/20260801/5f85c4ed6ff44ad6891a41a1cc8a9a70/c.html",
+          "title": "稻田图书馆激活乡村消费新场景",
+          "url": "https://www.news.cn/photo/20260801/c03451d7149748889870494f0d154588/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2c9e04a8c70504",
+          "source": "新华社",
+          "title": "绿色北疆跃动巾帼力量",
+          "url": "https://www.news.cn/local/20260801/174beec9f64844c6bef8a718c764795b/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
@@ -48194,6 +48298,14 @@
           "source": "新华社",
           "title": "美军一架F-35隐形战斗机在加州坠毁",
           "url": "https://www.news.cn/20260801/b2785bfbf7554a66bccee5215edce9f1/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c3d24be8d031ee",
+          "source": "新华社",
+          "title": "美媒：美以计划对伊朗能源设施发动迄今最猛烈轰炸",
+          "url": "https://www.news.cn/world/20260801/5f85c4ed6ff44ad6891a41a1cc8a9a70/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
@@ -48230,14 +48342,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "85bc90e11da717",
-          "source": "新华社",
-          "title": "跨越一甲子，这部红色音乐史诗为何久唱不衰",
-          "url": "https://www.news.cn/20260801/5c465ff1356d42a992ca3c7d8c6b8615/c.html",
-          "date": "2026-08-01",
-          "keyword": "综合时政"
-        },
-        {
           "id": "292ccb7f1bc210",
           "source": "新华社",
           "title": "这个夏天，香港书香满城",
@@ -48262,10 +48366,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "38d06fe44db9b1",
+          "id": "11a19015e098c3",
           "source": "新华社",
-          "title": "遭遇强烈反对 国际足联宣布放弃新商业提案",
-          "url": "https://www.news.cn/20260801/c68116b57b0f41b28b706379e0150b0e/c.html",
+          "title": "镜观中国丨老照片不褪色，子弟兵筑长堤",
+          "url": "https://www.news.cn/politics/20260801/93fe1ed5a5ab44699bbec1957a5cf7ee/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
@@ -48315,65 +48419,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 12.6,
+          "duration": 11.5,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260801.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 27,
-          "duration": 2.9
+          "duration": 1.4
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 47,
-          "duration": 3.5
+          "count": 60,
+          "duration": 2.0
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 39.6
+          "duration": 21.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 5,
-          "duration": 6.0
+          "duration": 7.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 34,
-          "duration": 5.9
+          "duration": 5.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.5
+          "duration": 12.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.6
+          "duration": 2.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 10.2
+          "duration": 9.5
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 5,
-          "duration": 46.9
+          "duration": 64.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-01T13:51:34+08:00"
+  "generatedAt": "2026-08-01T16:11:45+08:00"
 }
