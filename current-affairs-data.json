@@ -47348,11 +47348,11 @@
           "count": 4
         },
         {
-          "name": "中国共产党",
-          "count": 3
+          "name": "十五五",
+          "count": 4
         },
         {
-          "name": "十五五",
+          "name": "中国共产党",
           "count": 3
         },
         {
@@ -47366,12 +47366,36 @@
       ],
       "articles": [
         {
+          "id": "87feeba37e41b2",
+          "source": "人民日报",
+          "title": "国务院印发《知识产权保护和运用“十五五”规划》",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/01/content_30172552.html",
+          "date": "2026-08-01",
+          "keyword": "十五五"
+        },
+        {
+          "id": "9b5d1f747b37e2",
+          "source": "光明日报",
+          "title": "《工业绿色低碳发展“十五五”规划》印发",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/01/content_20919.html",
+          "date": "2026-08-01",
+          "keyword": "十五五"
+        },
+        {
           "id": "00b951180c88fd",
           "source": "光明日报",
           "title": "中央军委主席习近平签署通令 给1名个人记功",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/01/content_20926.html",
           "date": "2026-08-01",
           "keyword": "习近平"
+        },
+        {
+          "id": "105db4dd50c91b",
+          "source": "光明日报",
+          "title": "国务院印发《知识产权保护和运用“十五五”规划》",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/01/content_20934.html",
+          "date": "2026-08-01",
+          "keyword": "十五五"
         },
         {
           "id": "91bc7d0bdcba82",
@@ -47398,6 +47422,14 @@
           "keyword": "习近平"
         },
         {
+          "id": "78d47ffbba62f6",
+          "source": "新华社",
+          "title": "《全国供销合作社“十五五”发展规划》发布",
+          "url": "https://www.news.cn/politics/20260801/7b437262be9c4c87af951b7ed33f8160/c.html",
+          "date": "2026-08-01",
+          "keyword": "十五五"
+        },
+        {
           "id": "696e8e7579e68b",
           "source": "人民日报",
           "title": "“中国共产党展现了卓越的自我革新能力”",
@@ -47406,36 +47438,12 @@
           "keyword": "中国共产党"
         },
         {
-          "id": "87feeba37e41b2",
-          "source": "人民日报",
-          "title": "国务院印发《知识产权保护和运用“十五五”规划》",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/01/content_30172552.html",
-          "date": "2026-08-01",
-          "keyword": "十五五"
-        },
-        {
           "id": "c3cb95d0be1f6c",
           "source": "人民日报",
           "title": "庆祝中国共产党成立105周年优秀舞台艺术作品展演在京拉开帷幕",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/01/content_30172568.html",
           "date": "2026-08-01",
           "keyword": "中国共产党"
-        },
-        {
-          "id": "9b5d1f747b37e2",
-          "source": "光明日报",
-          "title": "《工业绿色低碳发展“十五五”规划》印发",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/01/content_20919.html",
-          "date": "2026-08-01",
-          "keyword": "十五五"
-        },
-        {
-          "id": "105db4dd50c91b",
-          "source": "光明日报",
-          "title": "国务院印发《知识产权保护和运用“十五五”规划》",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/01/content_20934.html",
-          "date": "2026-08-01",
-          "keyword": "十五五"
         },
         {
           "id": "7558533a98ccc8",
@@ -47934,6 +47942,22 @@
           "keyword": "综合时政"
         },
         {
+          "id": "05a813c5a67a3a",
+          "source": "新华社",
+          "title": "《黄岩岛国家级自然保护区管理办法》发布",
+          "url": "https://www.news.cn/politics/20260801/e1fd357c99c64784a1d9d4eef9d19bbd/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "22d6760ea9fee1",
+          "source": "新华社",
+          "title": "中国企业家代表团与美中贸委会及其会员企业交流座谈",
+          "url": "https://www.news.cn/world/20260801/68d4b68af22348ee929f377c71914649/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
           "id": "736798fbb679b6",
           "source": "新华社",
           "title": "中国第三批埃博拉抗疫医疗专家组赴刚果（金）",
@@ -47958,10 +47982,26 @@
           "keyword": "综合时政"
         },
         {
+          "id": "66c8149f73c16a",
+          "source": "新华社",
+          "title": "内蒙古乌兰察布：草原火山引游人",
+          "url": "https://www.news.cn/photo/20260801/568882f3fdb24ce488d30c76c01f0536/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
           "id": "680a3162e18f50",
           "source": "新华社",
           "title": "南部战区位黄岩岛领海领空和周边海空域组织海空联合演训",
           "url": "https://www.news.cn/20260801/3ab67f0431894b5e94a8ee5ea127ce89/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2b6d6673f71f5e",
+          "source": "新华社",
+          "title": "吉尔吉斯斯坦与阿塞拜疆签署同盟关系条约",
+          "url": "https://www.news.cn/world/20260801/b785762e183d4b3884d47a309527183d/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
@@ -48022,10 +48062,34 @@
           "keyword": "综合时政"
         },
         {
+          "id": "80e531b5e6cc10",
+          "source": "新华社",
+          "title": "悬空寺又出圈 文旅开发和游客体验双赢",
+          "url": "https://www.news.cn/local/20260801/211fbf19ed1c41ed8854e8a835c76820/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a8f7749798ff5d",
           "source": "新华社",
           "title": "意大利暂停与西班牙的申根自由通行机制",
           "url": "https://www.news.cn/20260801/f7035a6fcdfc46078bfd22a2cc1a7f4b/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d7bcbf5772d72c",
+          "source": "新华社",
+          "title": "我国首次依托水上通信渠道推送北极航道海冰预报",
+          "url": "https://www.news.cn/tech/20260801/78188f748004438e8366e54330e4bf6f/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "076950d93ba4f1",
+          "source": "新华社",
+          "title": "数智新生活丨VR、AR技术，带你解锁暑期文博游新玩法",
+          "url": "https://www.news.cn/20260801/f75a7a16a05e44ac836b23b5c3ee036d/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
@@ -48046,10 +48110,42 @@
           "keyword": "综合时政"
         },
         {
+          "id": "10663f17b2fa53",
+          "source": "新华社",
+          "title": "日本青森县附近海域发生5.8级地震",
+          "url": "https://www.news.cn/20260801/3d067a06dab44d69bd709464471ff825/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dee9a7a949818d",
+          "source": "新华社",
+          "title": "时评:用好各种机遇和优势 推动高质量发展行稳致远",
+          "url": "https://www.news.cn/20260801/10933cfeb4464ec59d4236fb4681fac5/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4557f74d2add05",
+          "source": "新华社",
+          "title": "暑运过半 全国铁路发送旅客超4.3亿人次",
+          "url": "https://www.news.cn/politics/20260801/0b70a4ceff35429fb2529d16134ec034/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
           "id": "fdb23d39702267",
           "source": "新华社",
           "title": "沿着“黄金大外环”，看中国式现代化的沿边沿海注脚",
           "url": "https://www.news.cn/20260801/3cf6f96f60e44188a7d6a283c592ec73/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "55c1355f265cba",
+          "source": "新华社",
+          "title": "湿度影响壁画保存 科技如何助莫高窟应对气候变化",
+          "url": "https://www.news.cn/20260801/c7fbe56ebb9b474bae4743d32691502f/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
@@ -48070,9 +48166,17 @@
           "keyword": "综合时政"
         },
         {
+          "id": "18f48a9f8dc3c3",
+          "source": "新华社",
+          "title": "甘肃张掖：荷塘绽芳华 清风引游人",
+          "url": "http://gs.news.cn/20260801/9e3bde2aee2c4a4495db0603ca6c6c01/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
           "id": "f0635d1867b48d",
           "source": "新华社",
-          "title": "电影《八仙！》票房突破10亿元 将陆续在海外上映",
+          "title": "电影《八仙！》票房破10亿元",
           "url": "https://www.news.cn/politics/20260801/e133a1acbb194d4bb0493c441784374e/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
@@ -48090,6 +48194,30 @@
           "source": "新华社",
           "title": "美军一架F-35隐形战斗机在加州坠毁",
           "url": "https://www.news.cn/20260801/b2785bfbf7554a66bccee5215edce9f1/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6b79cd2c833f70",
+          "source": "新华社",
+          "title": "美石油巨头二季度盈利暴增",
+          "url": "https://www.news.cn/20260801/c567fe7465ce45648a8c11e7402aadff/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "33f0021c8fed10",
+          "source": "新华社",
+          "title": "耿马傣族民间木偶戏：演绎傣乡烟火",
+          "url": "http://yn.news.cn/20260801/2ede688bb8de4dbab214228cbab73422/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9bb94991bd11f6",
+          "source": "新华社",
+          "title": "英媒：地缘政治扰动推高全球油轮运价",
+          "url": "https://www.news.cn/20260801/dd8bade6d27b4ebaac1e57371367b3fc/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
@@ -48126,10 +48254,58 @@
           "keyword": "综合时政"
         },
         {
+          "id": "4868521341dd37",
+          "source": "新华社",
+          "title": "通讯丨中国电动公交车助力阿塞拜疆绿色转型",
+          "url": "https://www.news.cn/world/20260801/6f0649b260864821873cd86aca640824/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
           "id": "38d06fe44db9b1",
           "source": "新华社",
           "title": "遭遇强烈反对 国际足联宣布放弃新商业提案",
           "url": "https://www.news.cn/20260801/c68116b57b0f41b28b706379e0150b0e/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e592585887b918",
+          "source": "求是",
+          "title": "向前一步走——写在中国人民解放军建军99周年之际",
+          "url": "https://www.qstheory.cn/20260801/2fe7f74bbf0e49bcbfc2347400246bb6/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8496644900a7ed",
+          "source": "求是",
+          "title": "坚持和加强党对军队的绝对领导 高质量推进国防和军队现代化",
+          "url": "https://www.qstheory.cn/20260801/3d17ecad1d8f4210860e95e13d9d0496/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3a2811b7421185",
+          "source": "求是",
+          "title": "总书记把舵定向高质量推进国防和军队现代化",
+          "url": "https://www.qstheory.cn/20260801/2c8400b1b7574165b51362c2df00e2e3/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1220d562b0b76c",
+          "source": "求是",
+          "title": "谋发展——深刻认识“最本质的特征”和“最大优势”",
+          "url": "https://www.qstheory.cn/20260801/d74d2371170c496bbec8e66aa8f8a0e7/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "920c10e0766af6",
+          "source": "求是",
+          "title": "高质量推进国防和军队现代化",
+          "url": "https://www.qstheory.cn/20260801/3925bb7dea7542da98d9524097af67a1/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         }
@@ -48139,65 +48315,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 9.6,
+          "duration": 12.6,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260801.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 27,
-          "duration": 1.7
+          "duration": 2.9
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 30,
-          "duration": 2.7
+          "count": 47,
+          "duration": 3.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 25.2
+          "duration": 39.6
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 10.7
+          "count": 5,
+          "duration": 6.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 34,
-          "duration": 1.8
+          "duration": 5.9
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.4
+          "duration": 14.5
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.5
+          "duration": 3.6
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.2
+          "duration": 10.2
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 5,
-          "duration": 66.5
+          "duration": 46.9
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-01T10:12:19+08:00"
+  "generatedAt": "2026-08-01T13:51:34+08:00"
 }
