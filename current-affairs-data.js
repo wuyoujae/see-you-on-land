@@ -47345,7 +47345,7 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "习近平",
-          "count": 7
+          "count": 8
         },
         {
           "name": "十五五",
@@ -47414,6 +47414,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "习近平总书记指引加快建设健康中国",
           "url": "https://www.news.cn/politics/leaders/20260801/118063e47eb145a283a33ef394370e37/c.html",
+          "date": "2026-08-01",
+          "keyword": "习近平"
+        },
+        {
+          "id": "137bb298657ca8",
+          "source": "新华社",
+          "title": "健康中国建设，习近平总书记指明科学方法论",
+          "url": "https://www.news.cn/politics/xxjxs/20260801/2c1e906e8d064c22abdb9fbd335ad785/c.html",
           "date": "2026-08-01",
           "keyword": "习近平"
         },
@@ -48306,14 +48314,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a4f336ef124369",
-          "source": "新华社",
-          "title": "河北围场的草原美景",
-          "url": "https://www.news.cn/photo/20260801/d2e65ab3d3944fc6a9f9fea1ab47ffc0/c.html",
-          "date": "2026-08-01",
-          "keyword": "综合时政"
-        },
-        {
           "id": "e848aae2264a86",
           "source": "新华社",
           "title": "活力中国调研行丨中国风电出海“捕风”",
@@ -48551,64 +48551,64 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "ok",
           "count": 13,
-          "duration": 0.8
+          "duration": 0.2
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 27,
-          "duration": 2.5
+          "duration": 1.1
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.4
+          "duration": 2.0
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 1,
-          "duration": 27.9
+          "duration": 36.6
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 6,
-          "duration": 6.8
+          "duration": 6.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 34,
-          "duration": 2.6
+          "duration": 6.4
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.2
+          "duration": 12.1
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.3
+          "duration": 2.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 13.1
+          "duration": 9.4
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 5,
-          "duration": 60.9
+          "duration": 60.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-01T22:56:42+08:00"
+  "generatedAt": "2026-08-01T23:58:09+08:00"
 };
