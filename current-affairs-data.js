@@ -47341,8 +47341,12 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-08-01",
-      "keyword": "中国共产党",
+      "keyword": "习近平",
       "keywords": [
+        {
+          "name": "习近平",
+          "count": 4
+        },
         {
           "name": "中国共产党",
           "count": 3
@@ -47350,9 +47354,49 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "name": "十五五",
           "count": 3
+        },
+        {
+          "name": "经济",
+          "count": 3
+        },
+        {
+          "name": "高温",
+          "count": 2
         }
       ],
       "articles": [
+        {
+          "id": "00b951180c88fd",
+          "source": "光明日报",
+          "title": "中央军委主席习近平签署通令 给1名个人记功",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/01/content_20926.html",
+          "date": "2026-08-01",
+          "keyword": "习近平"
+        },
+        {
+          "id": "91bc7d0bdcba82",
+          "source": "广东发布",
+          "title": "《求是》杂志发表习近平总书记重要文章《加快建设健康中国》",
+          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4936764.html",
+          "date": "2026-08-01",
+          "keyword": "习近平"
+        },
+        {
+          "id": "cf07d849ffac36",
+          "source": "广东发布",
+          "title": "习近平：加快建设健康中国",
+          "url": "https://www.gd.gov.cn/gdywdt/xwdt/content/post_4936758.html",
+          "date": "2026-08-01",
+          "keyword": "习近平"
+        },
+        {
+          "id": "29d61fe14325a7",
+          "source": "广东发布",
+          "title": "李强主持召开国务院常务会议 学习贯彻习近平总书记关于上半年经济形势和做好下半年经济工作的重要讲话精神",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4936759.html",
+          "date": "2026-08-01",
+          "keyword": "习近平"
+        },
         {
           "id": "696e8e7579e68b",
           "source": "人民日报",
@@ -47400,6 +47444,38 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/01/content_20916.html",
           "date": "2026-08-01",
           "keyword": "中国共产党"
+        },
+        {
+          "id": "57cd7297f48191",
+          "source": "光明日报",
+          "title": "我国经济呈现动能向新、结构向优发展态势",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/01/content_20917.html",
+          "date": "2026-08-01",
+          "keyword": "经济"
+        },
+        {
+          "id": "7cfa8204746efe",
+          "source": "新华社",
+          "title": "31省份经济“半年报”出炉 这些地方经济增速领跑全国",
+          "url": "https://www.news.cn/20260801/5c9d99696d10472e9c09f8af5d4c5ec8/c.html",
+          "date": "2026-08-01",
+          "keyword": "经济"
+        },
+        {
+          "id": "de0540bc6d68d0",
+          "source": "新华社",
+          "title": "“热穹顶”是本轮高温推手吗",
+          "url": "https://www.news.cn/politics/20260801/33db786a201e4ea082cb8a10e9d0a3b7/c.html",
+          "date": "2026-08-01",
+          "keyword": "高温"
+        },
+        {
+          "id": "13056da11fabd4",
+          "source": "新华社",
+          "title": "中东部大范围高温桑拿天",
+          "url": "https://www.news.cn/20260801/ce8f6b43259c43f69866a88830631515/c.html",
+          "date": "2026-08-01",
+          "keyword": "高温"
         },
         {
           "id": "693671053731d0",
@@ -47666,14 +47742,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "00b951180c88fd",
-          "source": "光明日报",
-          "title": "中央军委主席习近平签署通令 给1名个人记功",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/01/content_20926.html",
-          "date": "2026-08-01",
-          "keyword": "综合时政"
-        },
-        {
           "id": "5f98fc64e73e49",
           "source": "光明日报",
           "title": "中央宣传部 中央军委政治工作部联合发布12名“最美新时代革命军人”",
@@ -47770,14 +47838,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "57cd7297f48191",
-          "source": "光明日报",
-          "title": "我国经济呈现动能向新、结构向优发展态势",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/01/content_20917.html",
-          "date": "2026-08-01",
-          "keyword": "综合时政"
-        },
-        {
           "id": "6d181aabf7eb99",
           "source": "光明日报",
           "title": "智赋百业万象新",
@@ -47842,10 +47902,66 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "ecc01b697c493b",
+          "source": "广东发布",
+          "title": "广东省领导慰问驻粤部队官兵",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4936762.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2e43247592ed39",
+          "source": "广东发布",
+          "title": "省十四届人大常委会第二十六次会议闭幕 黄楚平出席会议并讲话",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4936765.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0166ac3d39f90e",
+          "source": "新华社",
+          "title": "2025年养老基金投资运营取得良好业绩",
+          "url": "https://www.news.cn/politics/20260801/90468b28f9c144ed918f4bc1d7202a15/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9cd0a5369d6b1c",
+          "source": "新华社",
+          "title": "《给阿嬷的情书》在菲律宾首映",
+          "url": "https://www.news.cn/world/20260801/570a75944f4b41fba2af8eca47644721/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "736798fbb679b6",
+          "source": "新华社",
+          "title": "中国第三批埃博拉抗疫医疗专家组赴刚果（金）",
+          "url": "https://www.news.cn/20260801/c48d0d8903f04afc868d78ed0ffe22cd/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d62c4b44a1a4a0",
           "source": "新华社",
-          "title": "乌克兰首都基辅遭弹道导弹袭击 传出强烈爆炸声",
+          "title": "乌克兰首都基辅遭弹道导弹袭击",
           "url": "https://www.news.cn/world/20260801/100b4c89f27b4306aee7418ced1e4ae1/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c44c95e833f73c",
+          "source": "新华社",
+          "title": "也门胡塞武装否认计划在曼德海峡征收通行费",
+          "url": "https://www.news.cn/20260801/9ddb80239d294f0eb8306d0a5bb09f3b/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "680a3162e18f50",
+          "source": "新华社",
+          "title": "南部战区位黄岩岛领海领空和周边海空域组织海空联合演训",
+          "url": "https://www.news.cn/20260801/3ab67f0431894b5e94a8ee5ea127ce89/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
@@ -47858,10 +47974,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "e63eba5dac28cc",
+          "source": "新华社",
+          "title": "向着如期实现建军百年奋斗目标阔步前行",
+          "url": "https://www.news.cn/20260801/58eb5a5767a14b0892d7bc9ef14de974/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "851269e886c177",
+          "source": "新华社",
+          "title": "商务部就美国将中企列入所谓涉疆法案实体清单答问",
+          "url": "https://www.news.cn/world/20260801/c11d10f57853465989b5fd1a005fb8a9/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
           "id": "ec1fcef46f335a",
           "source": "新华社",
           "title": "坚定不移走中国特色强军之路",
           "url": "https://www.news.cn/politics/leaders/20260801/7fac62b3d22b4aa2b8e5341c48cb4278/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8ac24efa249c0c",
+          "source": "新华社",
+          "title": "墨西哥瓦哈卡：手工织绣",
+          "url": "https://www.news.cn/world/20260801/d45375b834f544508d33c671fee6e133/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5e0421a9dbe778",
+          "source": "新华社",
+          "title": "巴基斯坦煤矿爆炸致34人死亡 8人被困",
+          "url": "https://www.news.cn/world/20260801/f1dc0a18084f4b7abb1fda6d09d788a9/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b253677e7fc7b6",
+          "source": "新华社",
+          "title": "强军有我｜庆祝中国人民解放军建军99周年主题海报",
+          "url": "https://www.news.cn/milpro/20260801/30638c287df6465bb2b286072d2ce303/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
@@ -47882,10 +48038,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "f6b5826dd7e353",
+          "source": "新华社",
+          "title": "日本熊本地震已造成36人死亡 近万人避难",
+          "url": "https://www.news.cn/world/20260801/ea6c91daa4ab4d35b93dd4eb3b6c67b0/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fdb23d39702267",
+          "source": "新华社",
+          "title": "沿着“黄金大外环”，看中国式现代化的沿边沿海注脚",
+          "url": "https://www.news.cn/20260801/3cf6f96f60e44188a7d6a283c592ec73/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f356777443ede9",
+          "source": "新华社",
+          "title": "特朗普称以色列对“全面解除”哈马斯武装协议很满意",
+          "url": "https://www.news.cn/world/20260801/9afa2bafe3374d439b83cf600cdf716c/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
           "id": "c5532cac55bdd5",
           "source": "新华社",
           "title": "特朗普：尚未同意授权乌克兰生产“爱国者”拦截弹",
           "url": "https://www.news.cn/20260801/ed4748560f984f5fb28b42e6d981abee/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f0635d1867b48d",
+          "source": "新华社",
+          "title": "电影《八仙！》票房突破10亿元 将陆续在海外上映",
+          "url": "https://www.news.cn/politics/20260801/e133a1acbb194d4bb0493c441784374e/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c3d24be8d031ee",
+          "source": "新华社",
+          "title": "美以计划对伊朗能源设施发动迄今最猛烈轰炸",
+          "url": "https://www.news.cn/world/20260801/5f85c4ed6ff44ad6891a41a1cc8a9a70/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
         },
@@ -47896,6 +48092,46 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/20260801/b2785bfbf7554a66bccee5215edce9f1/c.html",
           "date": "2026-08-01",
           "keyword": "综合时政"
+        },
+        {
+          "id": "81b853edd6fb9c",
+          "source": "新华社",
+          "title": "英雄城市再创辉煌",
+          "url": "https://www.news.cn/politics/leaders/20260801/399e2896109a4f238e44861aa99d8403/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "85bc90e11da717",
+          "source": "新华社",
+          "title": "跨越一甲子，这部红色音乐史诗为何久唱不衰",
+          "url": "https://www.news.cn/20260801/5c465ff1356d42a992ca3c7d8c6b8615/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "292ccb7f1bc210",
+          "source": "新华社",
+          "title": "这个夏天，香港书香满城",
+          "url": "https://www.news.cn/politics/20260801/6fbb51f2fd8e4faabf292bb0065a8b9f/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e1690c790fa832",
+          "source": "新华社",
+          "title": "追光丨高校师生重走长征路，他们最深的感悟是……",
+          "url": "https://www.news.cn/20260801/cf0dc5755e6545ccb8503851734bb570/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "38d06fe44db9b1",
+          "source": "新华社",
+          "title": "遭遇强烈反对 国际足联宣布放弃新商业提案",
+          "url": "https://www.news.cn/20260801/c68116b57b0f41b28b706379e0150b0e/c.html",
+          "date": "2026-08-01",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -47903,65 +48139,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 9.1,
+          "duration": 9.6,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260801.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 27,
-          "duration": 1.1
+          "duration": 1.7
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 7,
-          "duration": 2.5
+          "count": 30,
+          "duration": 2.7
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 10.1
+          "duration": 25.2
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.0
+          "duration": 10.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 34,
-          "duration": 1.1
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.2
+          "duration": 13.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.7
+          "duration": 2.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 7.4
+          "duration": 9.2
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 0,
-          "duration": 54.5
+          "count": 5,
+          "duration": 66.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-01T07:07:59+08:00"
+  "generatedAt": "2026-08-01T10:12:19+08:00"
 };
