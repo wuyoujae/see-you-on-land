@@ -48996,10 +48996,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "fcae78fdf07439",
+          "id": "635c4f093383e9",
+          "source": "广东发布",
+          "title": "东莞队，粤BA总冠军！",
+          "url": "https://www.gd.gov.cn/gdywdt/dsdt/content/post_4936808.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3e11794d7360a4",
           "source": "新华社",
           "title": "伊朗外长警告美国不要采取“冒险行动”",
+          "url": "https://www.news.cn/20260802/becbae1156614f16b5fc696ce9a5328a/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fcae78fdf07439",
+          "source": "新华社",
+          "title": "伊朗警告美国不要采取“冒险行动”",
           "url": "https://www.news.cn/world/20260802/cb098e764af742c296bb30123847c997/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c539cbc34d37b9",
+          "source": "新华社",
+          "title": "古巴多省发生断电",
+          "url": "https://www.news.cn/20260802/dce7d158c98f4218b703947b3d1e391e/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
@@ -49020,10 +49044,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "77532b730e09d4",
+          "source": "新华社",
+          "title": "川陕等局地雨势强劲",
+          "url": "https://www.news.cn/politics/20260802/adf2dce6ad9045a3a3cc56c7d7d75354/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
           "id": "738bca03848f06",
           "source": "新华社",
           "title": "巴基斯坦雪崩致一名中国籍登山者失联",
           "url": "https://www.news.cn/world/20260802/2a3defce9e86431fb598e920a675f153/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4efd44dfb171e5",
+          "source": "新华社",
+          "title": "店主闭店前退万余元会员费，顾客感动点赞",
+          "url": "https://www.news.cn/fortune/20260802/e85a24c71b764291b0b05bd274f52a27/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
@@ -49036,10 +49076,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "b430e7739cbd91",
+          "source": "新华社",
+          "title": "日本熊本县地震已造成38人死亡",
+          "url": "https://www.news.cn/world/20260802/dc661901869f4a6ca60722a950c46325/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "44c08defd13854",
+          "source": "新华社",
+          "title": "湖北宣恩：贡水河畔话三变",
+          "url": "https://www.news.cn/politics/20260802/aa16d2dff9c04be185fa0655cfc0a033/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
           "id": "5da090b931a86e",
           "source": "新华社",
           "title": "秘鲁南部发生坠机事故 13人死亡",
           "url": "https://www.news.cn/20260802/d0d5e5602e4d4796b396d24e64893b1b/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bcb612705cb4f6",
+          "source": "新华社",
+          "title": "箫中真意解语人 访香港洞箫大师谭宝硕",
+          "url": "https://www.news.cn/gangao/20260802/ddf08e7361924af899f8b3ff3964d4ac/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "03b5d9313a3cfe",
+          "source": "新华社",
+          "title": "美国爱达荷州一快餐店枪击致多人死伤",
+          "url": "https://www.news.cn/world/20260802/21dbc77992944b59aca464189c3e065c/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "26720b25c71eb1",
+          "source": "新华社",
+          "title": "美国爱达荷州发生枪击事件3死2伤",
+          "url": "https://www.news.cn/20260802/fc7e7cc5e2e14d95b57411770d33c4af/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
@@ -49050,6 +49130,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/20260802/3e62ec77fd71424fbc08135d5a0179f9/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
+        },
+        {
+          "id": "afd202524df126",
+          "source": "新华社",
+          "title": "莫斯科一咖啡馆发生爆炸 俄称系自制爆炸袭击",
+          "url": "https://www.news.cn/world/20260802/2c479d1837054c77a67c2da9dffa374b/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2706971dc9175e",
+          "source": "新华社",
+          "title": "被传递的将嘎",
+          "url": "https://www.news.cn/local/20260802/96bc8e81b4384d1d8cda8fde0407af8a/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -49057,65 +49153,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 10.1,
+          "duration": 13.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260802.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 24,
-          "duration": 1.9
+          "duration": 1.3
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 7,
-          "duration": 2.3
+          "count": 18,
+          "duration": 2.4
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 24.5
+          "duration": 35.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.8
+          "duration": 6.5
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 0.8
+          "duration": 1.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.4
+          "duration": 12.1
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.9
+          "duration": 2.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.5
+          "duration": 9.2
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 0,
-          "duration": 39.3
+          "count": 1,
+          "duration": 49.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-02T08:05:42+08:00"
+  "generatedAt": "2026-08-02T10:08:52+08:00"
 };
