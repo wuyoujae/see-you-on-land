@@ -48996,10 +48996,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "3e11794d7360a4",
+          "id": "fcae78fdf07439",
           "source": "新华社",
           "title": "伊朗外长警告美国不要采取“冒险行动”",
-          "url": "https://www.news.cn/20260802/becbae1156614f16b5fc696ce9a5328a/c.html",
+          "url": "https://www.news.cn/world/20260802/cb098e764af742c296bb30123847c997/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ee9585d1654199",
+          "source": "新华社",
+          "title": "古巴多省发生断电 电力联盟：线路跳闸",
+          "url": "https://www.news.cn/world/20260802/5a2dd7b2207e4549a17e009914386956/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d4dd9568817bde",
+          "source": "新华社",
+          "title": "因凡蒂诺犯众怒 ，足球也能有“股东”？",
+          "url": "https://www.news.cn/20260802/f9a11908062b4630a63d53823281dade/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
@@ -49008,6 +49024,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "巴基斯坦雪崩致一名中国籍登山者失联",
           "url": "https://www.news.cn/world/20260802/2a3defce9e86431fb598e920a675f153/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4ca28327e4259a",
+          "source": "新华社",
+          "title": "新一轮热浪袭击克罗地亚 多地发生野火",
+          "url": "https://www.news.cn/world/20260802/ff426868166c481c825902998b104f1a/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
@@ -49033,65 +49057,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 13.1,
+          "duration": 10.1,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260802.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 24,
-          "duration": 0.8
+          "duration": 1.9
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 4,
-          "duration": 2.5
+          "count": 7,
+          "duration": 2.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 8.7
+          "duration": 24.5
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.1
+          "duration": 6.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 0.4
+          "duration": 0.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.3
+          "duration": 12.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.2
+          "duration": 2.9
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.0
+          "duration": 8.5
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 44.1
+          "duration": 39.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-02T07:00:41+08:00"
+  "generatedAt": "2026-08-02T08:05:42+08:00"
 };
