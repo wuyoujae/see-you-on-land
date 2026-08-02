@@ -48618,10 +48618,6 @@
           "count": 5
         },
         {
-          "name": "产业发展",
-          "count": 2
-        },
-        {
           "name": "人工智能",
           "count": 2
         },
@@ -48693,15 +48689,7 @@
           "title": "产业发展开新局丨“十五五”开局，产业转型看得见",
           "url": "https://www.news.cn/fortune/20260802/b0d317d284ac4962a7ae87cdca7b3aa5/c.html",
           "date": "2026-08-02",
-          "keyword": "产业发展"
-        },
-        {
-          "id": "4310a0f24f929e",
-          "source": "新华社",
-          "title": "产业发展开新局丨透光又导电！这块玻璃很“智慧”",
-          "url": "https://www.news.cn/20260802/a8fce5d494004c0896c232b29a0794c6/c.html",
-          "date": "2026-08-02",
-          "keyword": "产业发展"
+          "keyword": "十五五"
         },
         {
           "id": "b26a04f31d3af2",
@@ -49056,6 +49044,22 @@
           "keyword": "综合时政"
         },
         {
+          "id": "31a14824eb3941",
+          "source": "新华社",
+          "title": "2026企业家太阳岛年会在哈尔滨举行",
+          "url": "https://www.news.cn/fortune/20260802/58b61ddc25f04269b8671ebe454dbb36/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7e671019ecb6a0",
+          "source": "新华社",
+          "title": "7月AI焦点：开放权重模型升温 全球协同治理提速",
+          "url": "https://www.news.cn/tech/20260802/17b04de909604f73a42bed40cc716229/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
           "id": "5df0267c47c359",
           "source": "新华社",
           "title": "“85后”讲解员胡石招：让厚重的历史变得鲜活",
@@ -49088,10 +49092,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "9efecd1f511a9d",
+          "id": "8fdbaa8af74982",
           "source": "新华社",
-          "title": "世卫：本轮疫情为刚果（金）史上最大埃博拉疫情",
-          "url": "https://www.news.cn/world/20260802/8568ca0bcf8f4278a653e59690a0d50d/c.html",
+          "title": "上海港单日集装箱吞吐量突破20万标准箱创新高",
+          "url": "https://www.news.cn/fortune/20260802/7ed5c6c6b78e4921979a1a7f1b92f964/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b916dc851a48e1",
+          "source": "新华社",
+          "title": "中印尼青年共话AI发展机遇与挑战",
+          "url": "https://www.news.cn/world/20260802/9b3701515fd040ca9b2f940f0ebfb3be/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
@@ -49104,10 +49116,34 @@
           "keyword": "综合时政"
         },
         {
+          "id": "7ae0a1a93eb67c",
+          "source": "新华社",
+          "title": "中国海警位黄岩岛附近海域组织维权执法管控演练",
+          "url": "https://www.news.cn/politics/20260802/0fcb0671d43d4a6db6f03dd9c6cafd07/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a2c5362353ccf7",
           "source": "新华社",
           "title": "中国贸促会组织企业家代表团访问美国",
           "url": "https://www.news.cn/world/20260802/135337d534c24f118842157bfd509263/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4902a21d891db6",
+          "source": "新华社",
+          "title": "中央政法委就开展深化扫黑除恶专项斗争答记者问",
+          "url": "https://www.news.cn/politics/20260802/086874edfc1141a9825faa78d24fbf18/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "98909c4f75a196",
+          "source": "新华社",
+          "title": "云南双江：云雾漫山处 “瞰”万亩野生古茶",
+          "url": "http://yn.news.cn/20260802/b9c977ef9bc442ffafddb69bba502cbe/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
@@ -49144,6 +49180,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "80edeaf53505bb",
+          "source": "新华社",
+          "title": "休达为何成为移民危机焦点 欧盟各国有何反应？",
+          "url": "https://www.news.cn/world/20260802/71da0772aa4442b094c7ab33e00e1fd8/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
           "id": "fcdf95b143e3a1",
           "source": "新华社",
           "title": "包钢板材厂爆炸事故调查报告公布",
@@ -49170,16 +49214,8 @@
         {
           "id": "92ba82ce565c17",
           "source": "新华社",
-          "title": "吉林发布山洪灾害、地质灾害气象风险黄色预警",
+          "title": "吉林 发布山洪灾害、地质灾害气象风险黄色预警",
           "url": "https://www.news.cn/politics/20260802/08db111d88774f1980278161f0e56023/c.html",
-          "date": "2026-08-02",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "15837acfa5a12e",
-          "source": "新华社",
-          "title": "哈尔滨：激活城市“本底”释放振兴动能",
-          "url": "https://www.news.cn/local/20260802/6d89cdc7285042908398463b11cdb6bf/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
@@ -49224,18 +49260,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "77532b730e09d4",
+          "id": "13db9b7b325d40",
           "source": "新华社",
-          "title": "川陕等地局地雨势仍强劲",
-          "url": "https://www.news.cn/politics/20260802/adf2dce6ad9045a3a3cc56c7d7d75354/c.html",
+          "title": "布洛阿特峰雪崩致登山家普尔贾遇难 一名中国公民失联",
+          "url": "https://www.news.cn/20260802/87ba93ddeacd468ca275a3031cb87fe7/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
         {
-          "id": "738bca03848f06",
+          "id": "8ebd1763a5e0f1",
           "source": "新华社",
-          "title": "巴基斯坦雪崩致一名中国籍登山者失联",
-          "url": "https://www.news.cn/world/20260802/2a3defce9e86431fb598e920a675f153/c.html",
+          "title": "广西阳朔：壮美峰林引客来",
+          "url": "https://www.news.cn/photo/20260802/5cbe1f20455443b39e36ecb01cf35554/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
@@ -49248,6 +49284,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "5031a1a325dccd",
+          "source": "新华社",
+          "title": "我的2027奋斗目标丨张沛源：驾着“战神”去远海巡航",
+          "url": "https://www.news.cn/politics/20260802/0226629b27c9476bb6c039b6cb591b85/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
           "id": "bda17627098487",
           "source": "新华社",
           "title": "摧毁3架F－35战机",
@@ -49256,10 +49300,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "4ca28327e4259a",
+          "id": "614812069e8bec",
           "source": "新华社",
-          "title": "新一轮热浪袭击克罗地亚 多地发生野火",
-          "url": "https://www.news.cn/world/20260802/ff426868166c481c825902998b104f1a/c.html",
+          "title": "数字技术赋能中国服务消费新图景",
+          "url": "https://www.news.cn/fortune/20260802/289b88002ea042d09e90ec9ab12fde8f/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0b3bc45b1b2bac",
+          "source": "新华社",
+          "title": "新华健康丨中暑不一定大汗淋漓，这种无汗情况更凶险",
+          "url": "https://www.news.cn/politics/20260802/887a00d0460c4ca68c307d6f47b748a4/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
@@ -49272,18 +49324,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "b430e7739cbd91",
+          "id": "6e6d344f8647c3",
           "source": "新华社",
-          "title": "日本熊本县地震已造成38人死亡",
-          "url": "https://www.news.cn/world/20260802/dc661901869f4a6ca60722a950c46325/c.html",
+          "title": "水利部对重庆启动洪水防御Ⅳ级应急响应",
+          "url": "https://www.news.cn/politics/20260802/e13a5ee6a9074339872dda8ecc10582b/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
         {
-          "id": "7464c64d6eae9e",
+          "id": "6cd8eb400905fe",
           "source": "新华社",
-          "title": "海报丨清凉一夏 热力全开",
-          "url": "https://www.news.cn/politics/20260802/ae496c0c649c43f1b2738b06782a7f7d/c.html",
+          "title": "河北安平：“共享智造”赋能丝网产业",
+          "url": "https://www.news.cn/photo/20260802/677ce4ea7afb4ddcbb11b575a661789e/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
@@ -49296,18 +49348,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "d7efcb1553c477",
+          "id": "19308e69760f26",
           "source": "新华社",
-          "title": "滁州有“让”",
-          "url": "https://www.news.cn/local/20260802/0f3293204d034775878aa56ab37b2959/c.html",
-          "date": "2026-08-02",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "c24e711f03278a",
-          "source": "新华社",
-          "title": "特朗普称同意取消军事打击伊朗",
-          "url": "https://www.news.cn/world/20260802/5def0279140843109f575d674e6c5c58/c.html",
+          "title": "热点问答丨巴拿马运河“缺水”影响几何",
+          "url": "https://www.news.cn/world/20260802/342cb0ebe88e4355bf7637487dcfa758/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
@@ -49328,26 +49372,34 @@
           "keyword": "综合时政"
         },
         {
-          "id": "bcb612705cb4f6",
+          "id": "008288eaa6c462",
           "source": "新华社",
-          "title": "箫中真意解语人 访香港洞箫大师谭宝硕",
-          "url": "https://www.news.cn/gangao/20260802/ddf08e7361924af899f8b3ff3964d4ac/c.html",
+          "title": "第十一届香港大学生外交夏令营启程",
+          "url": "https://www.news.cn/gangao/20260802/0af669fb2d91416c9c4953cf02e09b8f/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
         {
-          "id": "4ee93443b1a1d3",
+          "id": "60443e5a608f89",
+          "source": "新华社",
+          "title": "美国华盛顿州发生山火迫使数千人撤离",
+          "url": "https://www.news.cn/20260802/885749e3099f44c3856874270b847042/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "19bba927c507d0",
           "source": "新华社",
           "title": "美国对西部多地发布极端高温警报",
-          "url": "https://www.news.cn/world/20260802/90bb3300bc964db2bb1dab493861f83e/c.html",
+          "url": "https://www.news.cn/photo/20260802/6f39858c28074acc8b9baee47ba2882c/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
         {
-          "id": "03b5d9313a3cfe",
+          "id": "89ef4d62048637",
           "source": "新华社",
-          "title": "美国爱达荷州一快餐店枪击致多人死伤",
-          "url": "https://www.news.cn/world/20260802/21dbc77992944b59aca464189c3e065c/c.html",
+          "title": "美国林肯纪念堂倒影池风波再起",
+          "url": "https://www.news.cn/20260802/b484ec73c87c444999dcf4e6b183f6f8/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
@@ -49356,6 +49408,14 @@
           "source": "新华社",
           "title": "美国爱达荷州发生枪击事件3死2伤",
           "url": "https://www.news.cn/20260802/fc7e7cc5e2e14d95b57411770d33c4af/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a5f9e245cf5944",
+          "source": "新华社",
+          "title": "美国爱达荷州快餐店枪击事件已致3死7伤",
+          "url": "https://www.news.cn/20260802/aeb6967f59af412596956568e5e5d774/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
@@ -49392,26 +49452,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "2706971dc9175e",
+          "id": "4d512944de7dfd",
           "source": "新华社",
-          "title": "被传递的将嘎",
-          "url": "https://www.news.cn/local/20260802/96bc8e81b4384d1d8cda8fde0407af8a/c.html",
-          "date": "2026-08-02",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "3629d1103ea509",
-          "source": "新华社",
-          "title": "西班牙客机在克罗地亚降落时起落架受损",
-          "url": "https://www.news.cn/world/20260802/81f23295e64a49c68a0eaf3e1944b2c4/c.html",
-          "date": "2026-08-02",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "bfa89a420a4aa3",
-          "source": "新华社",
-          "title": "记者手记丨迦太基海角上的一抹蓝白",
-          "url": "https://www.news.cn/world/20260802/0b597041310f4bca87f06590daf6bb83/c.html",
+          "title": "这张脸明明很精致，我的DNA却让我快跑",
+          "url": "https://www.news.cn/tech/20260802/96dcaf210407425197e9fdc65aebbb9e/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
@@ -49428,6 +49472,22 @@
           "source": "新华社",
           "title": "铸魂强党丨办好中国的事情，关键在党",
           "url": "https://www.news.cn/politics/leaders/20260802/7bb6a30308a04ddeb5c9185daaab895e/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "56d2418f4339ed",
+          "source": "新华社",
+          "title": "防灾减灾救灾一线见闻丨内蒙古草原战旱情",
+          "url": "https://www.news.cn/local/20260802/af065eb30cb34a11a942ff3772d8e216/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7412cd7700fdaa",
+          "source": "新华社",
+          "title": "陈茂波：香港离岸人民币业务枢纽发展迎来新里程",
+          "url": "https://www.news.cn/gangao/20260802/2353c2a635b3421db630c54e96d8b7d6/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
@@ -49477,44 +49537,44 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 14.3,
+          "duration": 9.1,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260802.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 24,
-          "duration": 2.3
+          "duration": 2.2
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 52,
-          "duration": 2.2
+          "count": 60,
+          "duration": 1.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 37.0
+          "duration": 34.9
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 5,
-          "duration": 6.2
+          "duration": 5.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 1.8
+          "duration": 2.3
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.9
+          "duration": 13.9
         },
         {
           "source": "学习强国",
@@ -49526,16 +49586,16 @@
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.9
+          "duration": 10.3
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 71.1
+          "duration": 55.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-02T13:52:27+08:00"
+  "generatedAt": "2026-08-02T16:13:22+08:00"
 }
