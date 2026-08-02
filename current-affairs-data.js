@@ -49256,14 +49256,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "256760f7a2c7bc",
-          "source": "新华社",
-          "title": "哈尔滨从高校科研成果中寻找产业化潜力“种子”",
-          "url": "https://www.news.cn/politics/20260802/2a17e492885d473da89888944f111333/c.html",
-          "date": "2026-08-02",
-          "keyword": "综合时政"
-        },
-        {
           "id": "d6ff12073c6d78",
           "source": "新华社",
           "title": "国家外汇局：将继续稳步扩大外汇领域制度型开放",
@@ -49336,6 +49328,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "7dda623ed7059c",
+          "source": "新华社",
+          "title": "帕什尼扬连任亚美尼亚总理",
+          "url": "https://www.news.cn/world/20260802/de0f31f728cf40a18f0a30309df4030e/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
           "id": "bda17627098487",
           "source": "新华社",
           "title": "摧毁3架F－35战机",
@@ -49392,6 +49392,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "12abfe6410dced",
+          "source": "新华社",
+          "title": "河南2026年“三支一扶”计划发现有考试作弊行为",
+          "url": "https://www.news.cn/local/20260802/eb210b0b3b7e4e788e2752e98977d0b9/c.html",
+          "date": "2026-08-02",
+          "keyword": "综合时政"
+        },
+        {
           "id": "44c08defd13854",
           "source": "新华社",
           "title": "湖北宣恩：贡水河畔话三变",
@@ -49428,14 +49436,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "甘肃陇南：筑牢防汛堤坝 守护群众平安",
           "url": "https://www.news.cn/local/20260802/1d61fd9fd5a04c13bbd8c44f7feca743/c.html",
-          "date": "2026-08-02",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "382c9fe36a1d02",
-          "source": "新华社",
-          "title": "美国爱达荷州快餐店枪击事件已致3死7伤",
-          "url": "https://www.news.cn/world/20260802/f578783a5d9248cb9c04a3c1c755cb0e/c.html",
           "date": "2026-08-02",
           "keyword": "综合时政"
         },
@@ -49629,64 +49629,64 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "ok",
           "count": 11,
-          "duration": 0.6
+          "duration": 0.1
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 24,
-          "duration": 2.0
+          "duration": 1.2
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.3
+          "duration": 2.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 42.3
+          "duration": 19.1
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 5,
-          "duration": 5.9
+          "duration": 6.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 1.9
+          "duration": 1.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.9
+          "duration": 13.2
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.9
+          "duration": 2.6
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.8
+          "duration": 9.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 69.9
+          "duration": 56.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-02T22:59:07+08:00"
+  "generatedAt": "2026-08-02T23:59:55+08:00"
 };
