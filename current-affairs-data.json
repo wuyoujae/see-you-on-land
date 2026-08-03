@@ -49696,11 +49696,11 @@
           "count": 9
         },
         {
-          "name": "消费",
-          "count": 5
+          "name": "经济",
+          "count": 7
         },
         {
-          "name": "经济",
+          "name": "消费",
           "count": 5
         },
         {
@@ -49708,11 +49708,11 @@
           "count": 4
         },
         {
-          "name": "高温",
-          "count": 4
+          "name": "产业发展",
+          "count": 3
         },
         {
-          "name": "产业发展",
+          "name": "高温",
           "count": 3
         },
         {
@@ -49814,6 +49814,30 @@
           "keyword": "经济"
         },
         {
+          "id": "cd07cd57e4568d",
+          "source": "半月谈",
+          "title": "央行下半年将在提高金融服务实体经济质效等方面发力",
+          "url": "http://www.banyuetan.org/yw/detail/20260803/1000200033137441785718422464091569_1.html",
+          "date": "2026-08-03",
+          "keyword": "经济"
+        },
+        {
+          "id": "bd44ef79d4d992",
+          "source": "学习强国",
+          "title": "去年我国“三新”经济增加值占GDP比重达18.39%",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=10325848094491654864&item_id=10325848094491654864",
+          "date": "2026-08-03",
+          "keyword": "经济"
+        },
+        {
+          "id": "819fe1a23428de",
+          "source": "新华社",
+          "title": "新闻分析丨美国经济“不可能三角”矛盾交织冲击世界",
+          "url": "https://www.news.cn/world/20260803/ea3c2de08c024c438aa7423649c3e694/c.html",
+          "date": "2026-08-03",
+          "keyword": "经济"
+        },
+        {
           "id": "453e4d3fdd37ac",
           "source": "光明日报",
           "title": "【光明时评】把握暑期黄金窗口 释放体验消费活力",
@@ -49838,12 +49862,12 @@
           "keyword": "消费"
         },
         {
-          "id": "cd07cd57e4568d",
+          "id": "33327bfd4ab0ef",
           "source": "半月谈",
-          "title": "央行下半年将在提高金融服务实体经济质效等方面发力",
-          "url": "http://www.banyuetan.org/yw/detail/20260803/1000200033137441785718422464091569_1.html",
+          "title": "“交个停车费，顺带被办了个套餐”：别让“隐形扣费”啃食消费安全感",
+          "url": "http://www.banyuetan.org/jrt/detail/20260803/1000200033134991785728470639099553_1.html",
           "date": "2026-08-03",
-          "keyword": "经济"
+          "keyword": "消费"
         },
         {
           "id": "ee8654999b1385",
@@ -49854,20 +49878,28 @@
           "keyword": "消费"
         },
         {
-          "id": "e2e65be2f2a4b0",
-          "source": "新华社",
-          "title": "稻田图书馆激活乡村消费新场景",
-          "url": "https://www.news.cn/culture/20260803/36f2f80ebcdd4c3f8392088ca283b86d/c.html",
-          "date": "2026-08-03",
-          "keyword": "消费"
-        },
-        {
           "id": "2d36281152bfc7",
           "source": "光明日报",
           "title": "习近平总书记指引加快建设健康中国",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/03/content_21007.html",
           "date": "2026-08-03",
           "keyword": "习近平"
+        },
+        {
+          "id": "0619d982ae64f7",
+          "source": "求是",
+          "title": "让真理之光照亮复兴之路 ——学习《习近平谈治国理政》第一至五卷",
+          "url": "https://www.qstheory.cn/20260803/041937d5d612492d8e3b0b373cce1d12/c.html",
+          "date": "2026-08-03",
+          "keyword": "习近平"
+        },
+        {
+          "id": "18bfbf60d9d734",
+          "source": "半月谈",
+          "title": "2026企业家太阳岛年会聚焦产业发展新路径",
+          "url": "http://www.banyuetan.org/yw/detail/20260803/1000200033137441785719422582093374_1.html",
+          "date": "2026-08-03",
+          "keyword": "产业发展"
         },
         {
           "id": "cf8489b0980c96",
@@ -49886,36 +49918,12 @@
           "keyword": "高温"
         },
         {
-          "id": "61943a113f0584",
-          "source": "新华社",
-          "title": "全国仍有大范围降雨 东北至江南多地高温闷热持续",
-          "url": "https://www.news.cn/local/20260803/a7570c0f63bf48fbb8d840773262c91e/c.html",
-          "date": "2026-08-03",
-          "keyword": "高温"
-        },
-        {
           "id": "8c0e546ff132ae",
           "source": "新华社",
           "title": "多地高温闷热持续",
           "url": "https://www.news.cn/politics/20260803/76170da5c1e04aa08f866783d617fe4b/c.html",
           "date": "2026-08-03",
           "keyword": "高温"
-        },
-        {
-          "id": "0619d982ae64f7",
-          "source": "求是",
-          "title": "让真理之光照亮复兴之路 ——学习《习近平谈治国理政》第一至五卷",
-          "url": "https://www.qstheory.cn/20260803/041937d5d612492d8e3b0b373cce1d12/c.html",
-          "date": "2026-08-03",
-          "keyword": "习近平"
-        },
-        {
-          "id": "18bfbf60d9d734",
-          "source": "半月谈",
-          "title": "2026企业家太阳岛年会聚焦产业发展新路径",
-          "url": "http://www.banyuetan.org/yw/detail/20260803/1000200033137441785719422582093374_1.html",
-          "date": "2026-08-03",
-          "keyword": "产业发展"
         },
         {
           "id": "cfe36d2156433e",
@@ -50206,6 +50214,22 @@
           "keyword": "综合时政"
         },
         {
+          "id": "d1728acb261498",
+          "source": "半月谈",
+          "title": "“三高”青年勿焦心，幸福总会来敲门",
+          "url": "http://www.banyuetan.org/jrt/detail/20260803/1000200033134991785727350509097680_1.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bc401d4c6778f3",
+          "source": "半月谈",
+          "title": "从“一顿饭”到“一座桥”：一群老人持续12年的“午饭约定”",
+          "url": "http://www.banyuetan.org/jrt/detail/20260803/1000200033134991785727953658098615_1.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d6d081357b81f6",
           "source": "半月谈",
           "title": "住房城乡建设部就防范燃气安全事故约谈相关负责人",
@@ -50230,6 +50254,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "15fb7044da3be1",
+          "source": "半月谈",
+          "title": "景区NPC提供“临时女朋友”服务？文旅发展切莫“剑走偏锋”",
+          "url": "http://www.banyuetan.org/pl/detail/20260803/1000200033136001785726606240104116_1.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1e47376cd533df",
           "source": "半月谈",
           "title": "暴雨来袭 甘肃陇南全力开展防汛抗洪工作",
@@ -50238,10 +50270,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "975e297413c208",
+          "id": "e7da28175c0172",
           "source": "半月谈",
-          "title": "沪滇协作30周年，60余个云南籍务工家庭在沪温情团聚",
-          "url": "http://www.banyuetan.org/dfgc/detail/20260803/1000200033136151785721360223095045_1.html",
+          "title": "清凉驿站、免费早餐、专属保险……苏州这样宠爱“城市美容师”！",
+          "url": "http://www.banyuetan.org/dfgc/detail/20260803/1000200033136151785731502121105468_1.html",
           "date": "2026-08-03",
           "keyword": "综合时政"
         },
@@ -50270,6 +50302,62 @@
           "keyword": "综合时政"
         },
         {
+          "id": "9fb68e20f503ac",
+          "source": "学习强国",
+          "title": "2025年我国基本养老保险参保人数达107591万",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=3984682997194937424&item_id=3984682997194937424",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7efa8f6f479ac3",
+          "source": "学习强国",
+          "title": "2026年江源综合科学考察启动",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=1171441565549348377&item_id=1171441565549348377",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b92901c3203400",
+          "source": "学习强国",
+          "title": "C919高原型首架机完成首飞",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=4411959351011653824&item_id=4411959351011653824",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "06313e117ab000",
+          "source": "学习强国",
+          "title": "中俄首条跨境索道主体工程完工",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=48185699245180564&item_id=48185699245180564",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c9fbb3ed56893f",
+          "source": "学习强国",
+          "title": "广东扎实做好新时代侨务工作",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=884000007802410096&item_id=884000007802410096",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "288404c0f8f027",
+          "source": "学习强国",
+          "title": "树立和践行正确政绩观|云南曲靖：用民生实事书写幸福清单",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=3929457376969893304&item_id=3929457376969893304",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eca8ddea485572",
+          "source": "学习强国",
+          "title": "甘肃陇南：筑牢防汛堤坝 守护群众平安",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=8977417431351734481&item_id=8977417431351734481",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
           "id": "02a8e0dea250fe",
           "source": "广东发布",
           "title": "今年上半年珠三角九市GDP合计5.95万亿元 广深领跑 外贸撑腰 AI破局",
@@ -50278,26 +50366,34 @@
           "keyword": "综合时政"
         },
         {
-          "id": "607e8c258e900e",
+          "id": "5e0491c8449a16",
           "source": "新华社",
-          "title": "“共享租赁”备受追捧 专家：规范流程护航共赢路",
-          "url": "https://www.news.cn/legal/20260803/29c8f2b3ced546b4aa138e7cf3b00c42/c.html",
+          "title": "355万人次下赣江：“防溺之困”咋成“亲水之乐”",
+          "url": "https://www.news.cn/local/20260803/661446794a7b41d6a116c4166f697111/c.html",
           "date": "2026-08-03",
           "keyword": "综合时政"
         },
         {
-          "id": "ef8c1dd0312247",
+          "id": "258e0cc738034b",
           "source": "新华社",
-          "title": "“妈祖”为全球应对气候变化贡献中国智慧",
-          "url": "https://www.news.cn/politics/20260803/dcce4d886c494c02998f41806cf84a63/c.html",
+          "title": "“妈祖”方案赋能非洲多地防灾减灾",
+          "url": "https://www.news.cn/world/20260803/70e3047222c14bc89c9a96d47d4f0c68/c.html",
           "date": "2026-08-03",
           "keyword": "综合时政"
         },
         {
-          "id": "21377dc46c890b",
+          "id": "db23ef33f02fad",
           "source": "新华社",
-          "title": "一餐一饭照见老有所养",
-          "url": "https://www.news.cn/food/20260803/0a497c20960842dfb513aeba085e3f25/c.html",
+          "title": "“这是捐赠的，所以无价 ”",
+          "url": "https://www.news.cn/politics/20260803/969a20a530d24fbe813a24b5488d4fc5/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bf268c84234f17",
+          "source": "新华社",
+          "title": "《科学规划促发展》出版发行",
+          "url": "https://www.news.cn/politics/20260803/f564b9ca2e35438b98067f63b18d6ae0/c.html",
           "date": "2026-08-03",
           "keyword": "综合时政"
         },
@@ -50310,10 +50406,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "4e39a74c4071e3",
+          "id": "a5d148cbc2bbd3",
           "source": "新华社",
-          "title": "世界青年桥牌锦标赛首度落户中国 参赛规模创新高",
-          "url": "https://www.news.cn/politics/20260803/e4c2ae38d9994a3bbbe0162c3f44b41e/c.html",
+          "title": "两部门针对云南启动防汛四级应急响应",
+          "url": "https://www.news.cn/politics/20260803/d7b9e30c08f647a9a377955e65d656b6/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e2c6f1a0f6d4f8",
+          "source": "新华社",
+          "title": "中国再生资源开发集团原党委书记邢宏伟被“双开”",
+          "url": "https://www.news.cn/legal/20260803/05b8679799244f5fbed24aa8f249915f/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "90b0ad90a91ff9",
+          "source": "新华社",
+          "title": "中国证监会：提升中国指数和中国资产国际影响力",
+          "url": "https://www.news.cn/fortune/20260803/224d8bd483ed4e879282c7c8176f2612/c.html",
           "date": "2026-08-03",
           "keyword": "综合时政"
         },
@@ -50322,6 +50434,14 @@
           "source": "新华社",
           "title": "中央网信办从严处置一批违规网络娱乐团播账号",
           "url": "https://www.news.cn/politics/20260803/a7d6b80d031740d1b935e7dc12dd18df/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d8390f14c3130a",
+          "source": "新华社",
+          "title": "从“县级赛”到“省级赛”，贵州“村超”展现新动能",
+          "url": "https://www.news.cn/sports/20260803/24c29c926499404dbe55a7315a3cdb07/c.html",
           "date": "2026-08-03",
           "keyword": "综合时政"
         },
@@ -50366,6 +50486,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "b6081b674e34e2",
+          "source": "新华社",
+          "title": "佳木斯市人民政府党组成员、副市长仇文会被查",
+          "url": "https://www.news.cn/legal/20260803/d7065aad4ee74b5983cf63a9675c8434/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
           "id": "79693f1e0c77e5",
           "source": "新华社",
           "title": "俄媒：俄单日击落固定翼无人机数量创纪录",
@@ -50398,10 +50526,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "cbc07bc5f09601",
+          "id": "5dde51f74aa9eb",
           "source": "新华社",
-          "title": "印度大型药企因污染问题召回10款眼药水",
-          "url": "https://www.news.cn/world/20260803/baa0af9c8eb1498aba15a686216d404e/c.html",
+          "title": "南昌红谷滩:“一室双管家”保障农民工权益",
+          "url": "https://www.news.cn/government/20260803/963df272f9f64f40b53bcbeee990c7f1/c.html",
           "date": "2026-08-03",
           "keyword": "综合时政"
         },
@@ -50418,14 +50546,6 @@
           "source": "新华社",
           "title": "坚持党的全面领导和党中央集中统一领导",
           "url": "https://www.news.cn/politics/leaders/20260803/0bfca7c027e74920a87ebd1695f26163/c.html",
-          "date": "2026-08-03",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "fc70950939c3d2",
-          "source": "新华社",
-          "title": "埃及发生5.4级地震 开罗有明显震感",
-          "url": "https://www.news.cn/world/20260803/47bcf0566592413bb3c115f75ab44c08/c.html",
           "date": "2026-08-03",
           "keyword": "综合时政"
         },
@@ -50450,22 +50570,6 @@
           "source": "新华社",
           "title": "字里安阳日日新",
           "url": "https://www.news.cn/politics/20260803/de9ae532feb84b018be090d2e5673eae/c.html",
-          "date": "2026-08-03",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "1eade310d2b1b2",
-          "source": "新华社",
-          "title": "孙颖莎因伤将缺席WTT欧洲大满贯赛瑞典站",
-          "url": "https://www.news.cn/sports/20260803/c361e826e33c40a1bb99f72f9ec78a47/c.html",
-          "date": "2026-08-03",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "56c29efc8c10ff",
-          "source": "新华社",
-          "title": "宁夏固原出土两千多年前战国秦酒 如何酿造的？",
-          "url": "https://www.news.cn/local/20260803/b9d031c59adf419289852be1c2410784/c.html",
           "date": "2026-08-03",
           "keyword": "综合时政"
         },
@@ -50510,10 +50614,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "bf5039f9a17481",
+          "id": "e511a76ae89f4a",
           "source": "新华社",
-          "title": "无人机牧渔 “活鲜”更鲜活",
-          "url": "https://www.news.cn/food/20260803/e611827c47284ea880331ca1e0c41830/c.html",
+          "title": "意军方称在地中海拦截一艘俄“影子舰队”油轮",
+          "url": "https://www.news.cn/world/20260803/c55cb7b48a864853ad3e0a55841282e3/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aaabf48d95e3fe",
+          "source": "新华社",
+          "title": "文旅新探丨到锡林郭勒草原“追星”",
+          "url": "https://www.news.cn/local/20260803/29f730ec8af745e0a844e534c1292b48/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "13cc4b68e9e88c",
+          "source": "新华社",
+          "title": "日本称已与美国联合干预汇市 或追加行动",
+          "url": "https://www.news.cn/world/20260803/aed90fee646d4fbea84151e4854f66a5/c.html",
           "date": "2026-08-03",
           "keyword": "综合时政"
         },
@@ -50534,10 +50654,26 @@
           "keyword": "综合时政"
         },
         {
+          "id": "cf7506a953691f",
+          "source": "新华社",
+          "title": "暑运过半 全国铁路发送旅客超4.3亿人次",
+          "url": "https://www.news.cn/government/20260803/83719d5c84d84ff796ef386f88edd14e/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
           "id": "de84123a467d1e",
           "source": "新华社",
           "title": "更大力度扩内需 下半年宏观政策重点划定",
           "url": "https://www.news.cn/fortune/20260803/4c2219fcf32b4ade86206470ef3a3197/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7669a95ed5712c",
+          "source": "新华社",
+          "title": "李坤说教育丨这套“1234法则”教孩子正确用好AI",
+          "url": "https://education.news.cn/20260803/e22033c31485426bbaf78544160bf93b/c.html",
           "date": "2026-08-03",
           "keyword": "综合时政"
         },
@@ -50550,10 +50686,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "0fbc140e8c4055",
+          "id": "bc867e10c25ac3",
           "source": "新华社",
-          "title": "沈阳：老厂房变身文艺新空间",
-          "url": "https://www.news.cn/culture/20260803/84194f7aebb7419a9d39829d501b36e7/c.html",
+          "title": "湖北黄石：红旅融合 “热”力全开",
+          "url": "https://www.news.cn/politics/20260803/9c35347c7c1344f8ad3be5641fe86d52/c.html",
           "date": "2026-08-03",
           "keyword": "综合时政"
         },
@@ -50566,14 +50702,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "c1442db9c51f72",
-          "source": "新华社",
-          "title": "特朗普称美伊将于8月3日举行谈判",
-          "url": "https://www.news.cn/world/20260803/6513c69d5eaa4c3fa8f01ac805180cbc/c.html",
-          "date": "2026-08-03",
-          "keyword": "综合时政"
-        },
-        {
           "id": "646b3a1fd0dd9c",
           "source": "新华社",
           "title": "特朗普说美伊将谈判 伊朗称在霍尔木兹海峡划新航线",
@@ -50582,18 +50710,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "577202f32c39ba",
-          "source": "新华社",
-          "title": "百年 马迭尔冰棍的“清凉一夏”",
-          "url": "https://www.news.cn/politics/20260803/2816b0b954cf4f85a99c8493b8c00a9b/c.html",
-          "date": "2026-08-03",
-          "keyword": "综合时政"
-        },
-        {
           "id": "dff3cdeba78b1b",
           "source": "新华社",
           "title": "瞭望·第一学习丨提高人民军队打赢能力",
           "url": "https://www.news.cn/politics/leaders/20260803/97c02d594b794080b81af6ed75e6e007/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5dde821336a031",
+          "source": "新华社",
+          "title": "福建东山成立调查组核查抗生素牛蛙",
+          "url": "https://www.news.cn/fortune/20260803/ca248c8e5dfa42db96028d75230c7be9/c.html",
           "date": "2026-08-03",
           "keyword": "综合时政"
         },
@@ -50614,10 +50742,26 @@
           "keyword": "综合时政"
         },
         {
+          "id": "798f07cabdab4b",
+          "source": "新华社",
+          "title": "缅甸官方：昂山素季会见红十字国际委员会驻缅代表",
+          "url": "https://www.news.cn/20260803/cd6696d7ea5e408eb19378f2ee369297/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
           "id": "67877312105612",
           "source": "新华社",
           "title": "美国波特兰市发生枪击事件致1死5伤",
           "url": "https://www.news.cn/20260803/c00da06564ed4f998f64f1be84035d40/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ef8c1dd0312247",
+          "source": "新华社",
+          "title": "贡献中国智慧",
+          "url": "https://www.news.cn/politics/20260803/dcce4d886c494c02998f41806cf84a63/c.html",
           "date": "2026-08-03",
           "keyword": "综合时政"
         },
@@ -50634,14 +50778,6 @@
           "source": "新华社",
           "title": "这样的保研辅导，是“馅饼”还是“陷阱”？",
           "url": "https://www.news.cn/fortune/20260803/716b6424bc9646e3b827f44331b884ec/c.html",
-          "date": "2026-08-03",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "5d7a80adc2cdd2",
-          "source": "新华社",
-          "title": "阿曼附近一艘油轮报告听到爆炸声",
-          "url": "https://www.news.cn/world/20260803/40b67689d47c411a9220d8314a77cd49/c.html",
           "date": "2026-08-03",
           "keyword": "综合时政"
         },
@@ -50670,6 +50806,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "8885dd907d611e",
+          "source": "新华社",
+          "title": "黑龙江连发预警 局地累计雨量将超过100毫米",
+          "url": "https://www.news.cn/local/20260803/60c230c9bcec4557b81f3887a85d56e7/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d2a1cc95b48770",
           "source": "求是",
           "title": "办好中国的事情，关键在党",
@@ -50691,26 +50835,26 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 10.2,
+          "duration": 6.8,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260803.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 23,
-          "duration": 2.5
+          "duration": 2.4
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 54,
-          "duration": 2.3
+          "count": 60,
+          "duration": 2.1
         },
         {
           "source": "半月谈",
           "status": "ok",
-          "count": 14,
-          "duration": 27.9
+          "count": 18,
+          "duration": 41.7
         },
         {
           "source": "求是",
@@ -50722,34 +50866,34 @@
           "source": "光明日报",
           "status": "ok",
           "count": 21,
-          "duration": 2.7
+          "duration": 6.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.9
+          "duration": 14.8
         },
         {
           "source": "学习强国",
           "status": "ok",
-          "count": 0,
-          "duration": 3.6
+          "count": 8,
+          "duration": 3.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 9.1
+          "duration": 9.6
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 67.2
+          "duration": 82.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-03T10:11:20+08:00"
+  "generatedAt": "2026-08-03T14:17:07+08:00"
 }
