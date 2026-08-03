@@ -50058,6 +50058,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "607e8c258e900e",
+          "source": "新华社",
+          "title": "“共享租赁”备受追捧 专家：规范流程护航共赢路",
+          "url": "https://www.news.cn/legal/20260803/29c8f2b3ced546b4aa138e7cf3b00c42/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4e39a74c4071e3",
+          "source": "新华社",
+          "title": "世界青年桥牌锦标赛首度落户中国 参赛规模创新高",
+          "url": "https://www.news.cn/politics/20260803/e4c2ae38d9994a3bbbe0162c3f44b41e/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
           "id": "741b8ccccdbf6b",
           "source": "新华社",
           "title": "从调查报告看包钢板材厂“1·18”爆炸事故教训",
@@ -50074,10 +50090,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "b0bedd78033d9d",
+          "id": "e1b3e39082dc25",
           "source": "新华社",
           "title": "以媒：以高层从社交媒体获悉特朗普取消对伊联合打击",
-          "url": "https://www.news.cn/world/20260803/baf454d6fecf4d9aaa8d042c52d30180/c.html",
+          "url": "https://www.news.cn/20260803/c163fdb0895245019bd9b418c551eee7/c.html",
           "date": "2026-08-03",
           "keyword": "综合时政"
         },
@@ -50094,6 +50110,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "伊朗：正与阿曼讨论划定一条霍尔木兹海峡新航线",
           "url": "https://www.news.cn/20260803/748090240c7b416bb9a63531ecfe86cd/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5578326f8abd32",
+          "source": "新华社",
+          "title": "列国鉴丨记者观察：比利时，“薯条控”乐园",
+          "url": "https://www.news.cn/world/20260803/332e3fee33524a73a5736d180a2768d9/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6535fc32cfffef",
+          "source": "新华社",
+          "title": "四川宜宾高县4.8级地震 暂未接到人员伤亡报告",
+          "url": "https://www.news.cn/local/20260803/37ea76353aec42f28ff03a16c0d781e2/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4278a045a99a85",
+          "source": "新华社",
+          "title": "国际油价显著下跌",
+          "url": "https://www.news.cn/world/20260803/7b2882f229f74c70bc41db15041ef4b3/c.html",
           "date": "2026-08-03",
           "keyword": "综合时政"
         },
@@ -50130,10 +50170,66 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "e9475ac27ab3ab",
+          "id": "c1442db9c51f72",
+          "source": "新华社",
+          "title": "特朗普称美伊3日举行谈判",
+          "url": "https://www.news.cn/world/20260803/6513c69d5eaa4c3fa8f01ac805180cbc/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "654e60b6c3b029",
           "source": "新华社",
           "title": "特朗普称美伊3日将举行谈判",
-          "url": "https://www.news.cn/world/20260803/38b10deac3a448b98136e171bc4538a0/c.html",
+          "url": "https://www.news.cn/20260803/a2d748b0854941648ccca7ab09a84ad8/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "577202f32c39ba",
+          "source": "新华社",
+          "title": "百年 马迭尔冰棍的“清凉一夏”",
+          "url": "https://www.news.cn/politics/20260803/2816b0b954cf4f85a99c8493b8c00a9b/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "67877312105612",
+          "source": "新华社",
+          "title": "美国波特兰市发生枪击事件致1死5伤",
+          "url": "https://www.news.cn/20260803/c00da06564ed4f998f64f1be84035d40/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "23bb21d012c794",
+          "source": "新华社",
+          "title": "赛里木湖景区工作人员殴打旅游车司机事件情况通报",
+          "url": "https://www.news.cn/politics/20260803/f7f597c22c884f2ead4ebc9566cd61d2/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2fcdabacc70b49",
+          "source": "新华社",
+          "title": "这样的保研辅导，是“馅饼”还是“陷阱”？",
+          "url": "https://www.news.cn/fortune/20260803/716b6424bc9646e3b827f44331b884ec/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1a639be3fd4182",
+          "source": "新华社",
+          "title": "首届“全国青少年人工智能大赛”决赛上海开赛",
+          "url": "https://www.news.cn/tech/20260803/690fa4f418f647f2896ae2ea67f00961/c.html",
+          "date": "2026-08-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a1ff286f0e2d5f",
+          "source": "新华社",
+          "title": "黄河山西段结束禁渔期 多措并举涵养渔业资源",
+          "url": "https://www.news.cn/local/20260803/1e01388e74544db79e958cfb094e2ac1/c.html",
           "date": "2026-08-03",
           "keyword": "综合时政"
         }
@@ -50143,66 +50239,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.2,
+          "duration": 4.7,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260803.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 23,
-          "duration": 1.8
+          "duration": 2.4
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 10,
-          "duration": 2.4
+          "count": 22,
+          "duration": 3.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 13.6
+          "duration": 17.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.3
+          "duration": 6.6
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 21,
-          "duration": 0.2
+          "duration": 1.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.0
+          "duration": 11.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.1
+          "duration": 2.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.0
+          "duration": 9.7
         },
         {
           "source": "广东发布",
-          "status": "error",
+          "status": "ok",
           "count": 0,
-          "duration": 17.8,
-          "message": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+          "duration": 42.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-03T07:00:58+08:00"
+  "generatedAt": "2026-08-03T08:07:40+08:00"
 };
