@@ -563,7 +563,41 @@ body.clock-fullscreen-active { overflow: hidden; background: #000; }
 }
 
 .record-heading h2 { font-size: 22px; font-weight: 500; }
-.record-heading > span { color: var(--green); font-size: 15px; }
+
+.record-heading-actions {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.record-day-total {
+  margin-right: 3px;
+  color: var(--green);
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+.record-heading .record-transfer-button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--muted);
+}
+
+.record-heading .record-transfer-button:disabled { opacity: 0.35; cursor: default; }
+.record-heading .record-transfer-button .lucide { width: 18px; height: 18px; }
+.study-record-file { display: none; }
+
+.study-record-transfer-status {
+  margin: -3px 20px 8px;
+  color: var(--green);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.study-record-transfer-status.error { color: var(--red); }
+.study-record-transfer-status[hidden] { display: none; }
 
 .study-record-list { padding: 0 20px; }
 
@@ -766,6 +800,7 @@ body.clock-fullscreen-active { overflow: hidden; background: #000; }
   .question-timer-card { padding-left: 28px; padding-right: 28px; }
   .clock-fullscreen-enter { right: 28px; bottom: 24px; }
   .record-heading, .study-record-list, .stats-content { padding-left: 28px; padding-right: 28px; }
+  .study-record-transfer-status { margin-left: 28px; margin-right: 28px; }
   .timer-dialog { max-width: 560px; margin: 0 auto 22px; border-radius: 8px; }
 }
 

@@ -43,6 +43,10 @@
     recordDateLabel: document.getElementById("record-date-label"),
     recordDayTotal: document.getElementById("record-day-total"),
     recordList: document.getElementById("study-record-list"),
+    recordExport: document.getElementById("export-study-records"),
+    recordImport: document.getElementById("import-study-records"),
+    recordFile: document.getElementById("study-record-file"),
+    recordTransferStatus: document.getElementById("study-record-transfer-status"),
     statsPeriod: document.getElementById("stats-period"),
     statsSummary: document.getElementById("stats-summary"),
     chart: document.getElementById("study-bar-chart"),
@@ -508,6 +512,7 @@
   function renderRecords() {
     const records = sessionsForDay(selectedDate).sort((a, b) => b.start - a.start);
     const total = records.reduce((sum, item) => sum + item.durationMs, 0);
+    dom.recordExport.disabled = sessions.length === 0;
     dom.recordDateLabel.textContent = selectedDate === dayKey(Date.now()) ? `今日 · ${shortDate(selectedDate)}` : dateLabel(selectedDate);
     dom.recordDayTotal.textContent = records.length ? formatDuration(total) : "0分钟";
     if (!records.length) {
@@ -526,6 +531,101 @@
         </article>`;
     }).join("");
     refreshIcons();
+  }
+
+  function validStudyRecord(item) {
+    return item && typeof item === "object" && !Array.isArray(item) &&
+      typeof item.id === "string" && item.id.length > 0 &&
+      Number.isFinite(item.start) && item.start > 0 &&
+      Number.isFinite(item.end) && item.end >= item.start &&
+      Number.isFinite(item.durationMs) && item.durationMs >= 0;
+  }
+
+  function showRecordTransferStatus(message, isError = false) {
+    dom.recordTransferStatus.textContent = message;
+    dom.recordTransferStatus.classList.toggle("error", isError);
+    dom.recordTransferStatus.hidden = false;
+  }
+
+  function exportStudyRecords() {
+    try {
+      const records = sessions.filter(validStudyRecord).map(item => ({
+        id: item.id,
+        start: item.start,
+        end: item.end,
+        durationMs: item.durationMs
+      }));
+      const payload = {
+        schema: "see-you-on-land-study-records",
+        version: 1,
+        exportedAt: new Date().toISOString(),
+        summary: {
+          recordCount: records.length,
+          totalDurationMs: records.reduce((sum, item) => sum + item.durationMs, 0)
+        },
+        records
+      };
+      const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `学习记录-${dayKey(Date.now())}.json`;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+      showRecordTransferStatus(`已导出 ${records.length} 条学习记录。`);
+    } catch (error) {
+      showRecordTransferStatus(`导出失败：${error.message || "请稍后重试"}`, true);
+    }
+  }
+
+  function recordsFromImport(payload) {
+    if (Array.isArray(payload)) return payload;
+    if (payload?.schema === "see-you-on-land-study-records" && payload.version === 1 && Array.isArray(payload.records)) {
+      return payload.records;
+    }
+    if (payload?.schema === "see-you-on-land-backup" && payload.version === 1 && payload.data) {
+      if (payload.data.sessions === null) return [];
+      if (typeof payload.data.sessions !== "string") throw new Error("完整备份中的学习记录格式不正确");
+      const records = JSON.parse(payload.data.sessions);
+      if (Array.isArray(records)) return records;
+    }
+    throw new Error("这不是有效的学习记录文件");
+  }
+
+  async function importStudyRecords(file) {
+    try {
+      if (!file) return;
+      if (file.size > 5 * 1024 * 1024) throw new Error("文件不能超过 5MB");
+      const imported = recordsFromImport(JSON.parse(await file.text()));
+      if (imported.some(item => !validStudyRecord(item))) throw new Error("文件中存在无效的学习记录");
+
+      const ids = new Set(sessions.map(item => item.id));
+      const signatures = new Set(sessions.map(item => `${item.start}|${item.end}|${item.durationMs}`));
+      let added = 0;
+      imported.forEach(item => {
+        const signature = `${item.start}|${item.end}|${item.durationMs}`;
+        if (ids.has(item.id) || signatures.has(signature)) return;
+        sessions.push({ id: item.id, start: item.start, end: item.end, durationMs: item.durationMs });
+        ids.add(item.id);
+        signatures.add(signature);
+        added += 1;
+      });
+      sessions.sort((a, b) => a.start - b.start);
+      saveSessions();
+      renderTimeline();
+      renderRecords();
+      renderStats();
+      const skipped = imported.length - added;
+      showRecordTransferStatus(added
+        ? `已导入 ${added} 条学习记录${skipped ? `，跳过 ${skipped} 条重复记录` : ""}。`
+        : `没有新增记录，${skipped} 条记录均已存在。`);
+    } catch (error) {
+      showRecordTransferStatus(`导入失败：${error.message || "文件无法读取"}`, true);
+    } finally {
+      dom.recordFile.value = "";
+    }
   }
 
   function renderTimerControls() {
@@ -974,6 +1074,9 @@
   document.addEventListener("keydown", event => {
     if (event.key === "Escape" && !dom.modal.hidden) closeEdit();
   });
+  dom.recordExport.addEventListener("click", exportStudyRecords);
+  dom.recordImport.addEventListener("click", () => dom.recordFile.click());
+  dom.recordFile.addEventListener("change", () => importStudyRecords(dom.recordFile.files[0]));
   window.addEventListener("pagehide", stopQuestionBell);
 
   if (!Array.isArray(sessions)) sessions = [];

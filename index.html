@@ -1165,8 +1165,14 @@
               <p class="eyebrow" id="record-date-label">今日</p>
               <h2>学习记录</h2>
             </div>
-            <span id="record-day-total">0分钟</span>
+            <div class="record-heading-actions">
+              <span class="record-day-total" id="record-day-total">0分钟</span>
+              <button type="button" class="icon-button record-transfer-button" id="export-study-records" title="导出学习记录" aria-label="导出学习记录"><i data-lucide="download" aria-hidden="true"></i></button>
+              <button type="button" class="icon-button record-transfer-button" id="import-study-records" title="导入学习记录" aria-label="导入学习记录"><i data-lucide="upload" aria-hidden="true"></i></button>
+            </div>
           </div>
+          <input class="study-record-file" id="study-record-file" type="file" accept="application/json,.json" aria-label="选择学习记录文件">
+          <p class="study-record-transfer-status" id="study-record-transfer-status" role="status" aria-live="polite" hidden></p>
           <div class="study-record-list" id="study-record-list"></div>
         </section>
       </section>
@@ -1703,7 +1709,7 @@
       refreshIcons();
     })();
   </script>
-  <script src="clock.js?v=20260714-1"></script>
+  <script src="clock.js?v=20260803-1"></script>
   <script src="backup.js?v=20260714-1"></script>
 </body>
 </html>
