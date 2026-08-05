@@ -55136,7 +55136,450 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 58.3
         }
       ]
+    },
+    {
+      "date": "2026-08-06",
+      "keyword": "经济",
+      "keywords": [
+        {
+          "name": "经济",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "ed084e77f9a6be",
+          "source": "光明日报",
+          "title": "【光明时评】“十五五”首份经济半年报含“新”量高",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/06/content_21517.html",
+          "date": "2026-08-06",
+          "keyword": "经济"
+        },
+        {
+          "id": "b2e74c9e7f29b0",
+          "source": "光明日报",
+          "title": "瞧！这火热的夏日经济",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/06/content_21536.html",
+          "date": "2026-08-06",
+          "keyword": "经济"
+        },
+        {
+          "id": "381ec09695c38b",
+          "source": "人民日报",
+          "title": "“三个转变”看中原",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173363.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a8acbdb04f3798",
+          "source": "人民日报",
+          "title": "“希望引进更多中国经验和技术”（中国—吉尔吉斯斯坦媒体高质量共建“一带一路”联合采访）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173376.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8fc901f97c79f0",
+          "source": "人民日报",
+          "title": "“时间是最宝贵的资源”（高质量发展微视角）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173368.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6c667f46bccd50",
+          "source": "人民日报",
+          "title": "上半年我国服务出口增长17.6%",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173371.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2cbebfcec9c217",
+          "source": "人民日报",
+          "title": "两部门紧急预拨3.3亿元中央自然灾害救灾资金（扎实做好防灾救灾各项工作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173382.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "625e1a67f6faf8",
+          "source": "人民日报",
+          "title": "中国发起首例对外贸易国家安全调查",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173378.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e2d1a2aa1ed8ac",
+          "source": "人民日报",
+          "title": "中国对美国联邦通信委员会、美国土安全部系列涉华消极措施实施反制",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173375.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f432c1fb39596b",
+          "source": "人民日报",
+          "title": "为什么说科普和创新同等重要（读者点题·共同关注）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173366.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ff656ff9adc783",
+          "source": "人民日报",
+          "title": "以创新破瓶颈 以实业强产业（亲历者说）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173369.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d7fd018d835f9e",
+          "source": "人民日报",
+          "title": "公共交通更适老，老年人出行更从容（深阅读·关注适老化改造）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173380.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "867fb3e1e89004",
+          "source": "人民日报",
+          "title": "共赴跨越国界的围棋之约（APEC中国年：开放 创新 合作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173377.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d74f6ad312ba0a",
+          "source": "人民日报",
+          "title": "加快农业农村现代化 扎实推进乡村全面振兴",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173370.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "09edac76ae9879",
+          "source": "人民日报",
+          "title": "台风“白海豚”逐渐向华东沿海靠近",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173385.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7d1c4723ff5323",
+          "source": "人民日报",
+          "title": "向新而行，共拓全球发展新机遇（和音）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173374.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "897b27a65aca83",
+          "source": "人民日报",
+          "title": "外交部：坚决反对美方滥用国家力量无理打压中国企业",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173379.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1a0441e163c594",
+          "source": "人民日报",
+          "title": "外企见证中国先进制造业水平不断提升",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173373.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a5d820eaae4f34",
+          "source": "人民日报",
+          "title": "安排5000万元支持陕西灾后应急恢复（扎实做好防灾救灾各项工作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173383.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e15decf961b90c",
+          "source": "人民日报",
+          "title": "感悟“一个都不能少”（人民论坛）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173381.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dc3bb09f1e62ae",
+          "source": "人民日报",
+          "title": "福州深化实施新时代“堡垒工程”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173364.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "853b2a7fcde08e",
+          "source": "人民日报",
+          "title": "除作风之弊 兴实干之风",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/06/content_30173362.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ac8c497acbc2ce",
+          "source": "光明日报",
+          "title": "“以天下之利为利”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/06/content_21497.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ca1a3c6dd32080",
+          "source": "光明日报",
+          "title": "【“筑基”高质量·系列评论之四】加油！让教育涵润出彩人生",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/06/content_21495.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "048e7ba1d2b9fb",
+          "source": "光明日报",
+          "title": "【光明时评】以县域为单位统筹健全农村养老服务",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/06/content_21518.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "264424c2121625",
+          "source": "光明日报",
+          "title": "【光明论坛】遵循科研规律，深化科技评价改革",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/06/content_21514.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ee9bed954a40d2",
+          "source": "光明日报",
+          "title": "【大美中国】画船撑入花深处",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/06/content_21498.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e5ed9f0aae36ac",
+          "source": "光明日报",
+          "title": "【文化评析】来北京感受文化中心应有的气象",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/06/content_21515.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "28c682f79e1cd6",
+          "source": "光明日报",
+          "title": "【新闻随笔】历史街区应“留人、见物、存生活”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/06/content_21516.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aab759540f79c5",
+          "source": "光明日报",
+          "title": "【民生总关情】草原上有了“24小时图书馆”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/06/content_21499.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "381031bf9cd8eb",
+          "source": "光明日报",
+          "title": "以坚定的理想信念筑牢精神根基",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/06/content_21496.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2ae6da0ae24f74",
+          "source": "光明日报",
+          "title": "加强安全生产和劳动保护工作",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/06/content_21546.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "68ee5a6d978d4f",
+          "source": "光明日报",
+          "title": "加快构建现代化综合气象观测体系",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/06/content_21545.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "72a1ee3759ecc9",
+          "source": "光明日报",
+          "title": "因地制宜展优势 下好发展一盘棋",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/06/content_21544.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "67925ddcb460fb",
+          "source": "光明日报",
+          "title": "浙江宁波：以组织力量破解建设难题",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/06/content_21548.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b96a423e860dde",
+          "source": "光明日报",
+          "title": "深圳口岸今年入出境外国人突破500万人次",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/06/content_21537.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4e2740958eacae",
+          "source": "新华社",
+          "title": "也门胡塞武装称一天内袭击两艘沙特油轮",
+          "url": "https://www.news.cn/20260806/56bf917e8f46467099e73106ad6ad2ee/c.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "af76d8af06dfe9",
+          "source": "新华社",
+          "title": "伊朗与阿曼就霍尔木兹海峡拟定航道坐标达成一致",
+          "url": "https://www.news.cn/world/20260806/b30b280f94384e6a91176c2ff27ce48f/c.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8e3f303d81c058",
+          "source": "新华社",
+          "title": "伊朗称与阿曼接近达成协议 海峡现有两条航道将关闭",
+          "url": "https://www.news.cn/20260806/8766bd9f700d4a21ac7ad0e730e73f65/c.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b40003b44734f4",
+          "source": "新华社",
+          "title": "俄中选委主席：全力保障国家杜马选举安全",
+          "url": "https://www.news.cn/20260806/a960d283cded44909480a895df65b97b/c.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9c44544866f67a",
+          "source": "新华社",
+          "title": "俄无人机厂负责人遭汽车炸弹袭击",
+          "url": "https://www.news.cn/20260806/6ad9824d479e4825bf653b7077835ed2/c.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "86a8232270c284",
+          "source": "新华社",
+          "title": "卢拉：美国撤销巴西驻美大使签证是“不负责任”做法",
+          "url": "https://www.news.cn/20260806/9ba80ab9c6ad42a380066653a8d57f51/c.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "96d8903613a8fb",
+          "source": "新华社",
+          "title": "土耳其拟为解散库尔德工人党正式立法",
+          "url": "https://www.news.cn/20260806/c9beacaa38b540ad96791d0a671cf516/c.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1980159bf3c90d",
+          "source": "新华社",
+          "title": "委内瑞拉首都附近国际机场恢复商业货运航班",
+          "url": "https://www.news.cn/20260806/f8524956604a48b193319713392fdf4a/c.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "74d5bff513587e",
+          "source": "新华社",
+          "title": "海峡现有两条航道将关闭",
+          "url": "https://www.news.cn/world/20260806/25d5f4e65e5d4688ad469350dec686e6/c.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "225cdb930bb258",
+          "source": "新华社",
+          "title": "美国北卡州一住宅发生枪击致3死1伤",
+          "url": "https://www.news.cn/20260806/fad3e01f0253417697132016f21c8c62/c.html",
+          "date": "2026-08-06",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 7.3,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260806.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "ok",
+          "count": 20,
+          "duration": 1.5
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 10,
+          "duration": 2.6
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 7.6
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.1
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 16,
+          "duration": 1.9
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.2
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.5
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.6
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 43.2
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-08-05T23:12:14+08:00"
+  "generatedAt": "2026-08-06T07:06:19+08:00"
 };
