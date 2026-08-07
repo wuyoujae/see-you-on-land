@@ -58038,6 +58038,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "b9bef59d504022",
+          "source": "广东发布",
+          "title": "大湾区内地九市上半年用电量创新高",
+          "url": "https://www.gd.gov.cn/gdywdt/dsdt/content/post_4939310.html",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
           "id": "319f86cf170ee7",
           "source": "广东发布",
           "title": "广东培育省级以上工业设计机构数量居全国前列",
@@ -58166,6 +58174,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "a6e0d562f64896",
+          "source": "新华社",
+          "title": "两地启动国家地质灾害四级响应",
+          "url": "https://www.news.cn/politics/20260807/3b94331a0d914fe0800cc50d14c9ca78/c.html",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
           "id": "e8cb22128497d2",
           "source": "新华社",
           "title": "严密防范台风“白海豚”",
@@ -58238,10 +58254,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "0bdc0e347b4a6b",
+          "id": "c6bdbcd7686ba3",
           "source": "新华社",
-          "title": "台风“白海豚”即将进入东海",
-          "url": "https://www.news.cn/politics/20260807/4d4c965c89f442cd9690ab3c4e35e745/c.html",
+          "title": "台风“白海豚”预计在浙闽沿海登陆",
+          "url": "https://www.news.cn/local/20260807/407c3b0e23634253a97c3df5a1da64f6/c.html",
           "date": "2026-08-07",
           "keyword": "综合时政"
         },
@@ -58258,6 +58274,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "唠“科”话丨这些火箭，为何要选在海上发射？",
           "url": "https://www.news.cn/tech/20260807/0ce3bcd5043443ac9433c0d7420139f7/c.html",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a2c431f4186d46",
+          "source": "新华社",
+          "title": "四川宜宾市高县7日地震已造成1人死亡6人受伤",
+          "url": "https://www.news.cn/local/20260807/1f73b65183024108810ea0b34a1ba516/c.html",
           "date": "2026-08-07",
           "keyword": "综合时政"
         },
@@ -58338,14 +58362,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "当日本社会淡忘，他们在东京街头举起历史真相",
           "url": "https://www.news.cn/world/20260807/cd9ffed0f1fd4ef5aa09a1374f720f41/c.html",
-          "date": "2026-08-07",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "cac456e27d5a3e",
-          "source": "新华社",
-          "title": "成都高新区三个维度书写产业“进化论”",
-          "url": "https://www.news.cn/local/20260807/0ca36885acfe468d8b443515394fae25/c.html",
           "date": "2026-08-07",
           "keyword": "综合时政"
         },
@@ -58478,22 +58494,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a6e0d562f64896",
-          "source": "新华社",
-          "title": "浙江福建启动国家地质灾害四级响应",
-          "url": "https://www.news.cn/politics/20260807/3b94331a0d914fe0800cc50d14c9ca78/c.html",
-          "date": "2026-08-07",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "c863d544c33f8b",
-          "source": "新华社",
-          "title": "湖北省武汉市人大常委会副主任林文书接受审查调查",
-          "url": "https://www.news.cn/20260807/ca8bc71c0e6c4f819eaffadb4f6bb784/c.html",
-          "date": "2026-08-07",
-          "keyword": "综合时政"
-        },
-        {
           "id": "7619435c9b967d",
           "source": "新华社",
           "title": "热点问答丨“世界建筑之都”北京将让世界看到什么",
@@ -58566,10 +58566,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "7d9e4e4e8a2120",
+          "source": "新华社",
+          "title": "黑龙江多地抢排田间积水守护“北大仓”",
+          "url": "https://www.news.cn/local/20260807/c79aa84860ca4ae49dcae6c329771e43/c.html",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a35b50b70c950a",
+          "source": "新闻联播",
+          "title": "《新闻联播》 20260807 19:00",
+          "url": "https://tv.cctv.com/2026/08/07/VIDELaH76IGhjrogCtrtHuRZ260807.shtml",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
           "id": "7512722cd32fd4",
           "source": "新闻联播",
           "title": "上半年新能源重卡销量再创新高",
           "url": "https://tv.cctv.com/2026/08/07/VIDEQDvVTbc8QwfkS4e2EOeO260807.shtml",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b8c7ce410c6734",
+          "source": "新闻联播",
+          "title": "二十四节气·立秋",
+          "url": "https://tv.cctv.com/2026/08/07/VIDEw99tdZP3M8BYDSFyfAcz260807.shtml",
           "date": "2026-08-07",
           "keyword": "综合时政"
         },
@@ -58582,10 +58606,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "2892364339d3cd",
+          "source": "新闻联播",
+          "title": "伊朗称拟禁止敌对方通行霍尔木兹海峡",
+          "url": "https://tv.cctv.com/2026/08/07/VIDEDEv3uZ588jDwqv96flgq260807.shtml",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1e8ee934df661a",
+          "source": "新闻联播",
+          "title": "国内联播快讯",
+          "url": "https://tv.cctv.com/2026/08/07/VIDER8ESnNwNfHZ9l3XBy1zS260807.shtml",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5263ee6bc33649",
+          "source": "新闻联播",
+          "title": "国际联播快讯",
+          "url": "https://tv.cctv.com/2026/08/07/VIDEf9P9NvjIQIdT0t54gabc260807.shtml",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
           "id": "5444c317ca5afa",
           "source": "新闻联播",
           "title": "大面积单产提升持续加力 夯实秋粮稳产基础",
           "url": "https://tv.cctv.com/2026/08/07/VIDEVVeRW8B22evMyKBQF4Ah260807.shtml",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9ebc23f14eed36",
+          "source": "新闻联播",
+          "title": "我国重点生态保护区域保护成效显著",
+          "url": "https://tv.cctv.com/2026/08/07/VIDEX5WrAdKGujGVs8QjoISD260807.shtml",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fc32da1b1dd7fc",
+          "source": "新闻联播",
+          "title": "日本民众集会反对高市政权危险动向",
+          "url": "https://tv.cctv.com/2026/08/07/VIDEtVpf3Z4HjofbnTq4jEyz260807.shtml",
           "date": "2026-08-07",
           "keyword": "综合时政"
         },
@@ -58642,65 +58706,65 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "source": "新闻联播",
           "status": "ok",
-          "count": 5,
-          "duration": 0.2
+          "count": 12,
+          "duration": 0.4
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 25,
-          "duration": 2.0
+          "duration": 2.3
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 4.6
+          "duration": 2.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 19,
-          "duration": 34.5
+          "duration": 22.2
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 8,
-          "duration": 6.4
+          "duration": 6.3
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 18,
-          "duration": 5.7
+          "duration": 3.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.6
+          "duration": 13.1
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 3.4
+          "duration": 3.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 8.7
+          "duration": 9.3
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 16,
-          "duration": 63.7
+          "count": 17,
+          "duration": 60.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-07T19:42:22+08:00"
+  "generatedAt": "2026-08-07T20:48:49+08:00"
 };
