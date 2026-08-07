@@ -56914,6 +56914,14 @@
         {
           "name": "习近平党建思想",
           "count": 2
+        },
+        {
+          "name": "高质量发展",
+          "count": 2
+        },
+        {
+          "name": "高温",
+          "count": 2
         }
       ],
       "articles": [
@@ -56996,6 +57004,30 @@
           "url": "https://www.qstheory.cn/20260807/2b92ffc0e7c94819bb9e32c9ba255848/c.html",
           "date": "2026-08-07",
           "keyword": "习近平"
+        },
+        {
+          "id": "74cfa22de8a697",
+          "source": "新华社",
+          "title": "德国高温致死1.19万人 为2016年来最高纪录",
+          "url": "https://www.news.cn/20260807/ebe85b320cfe40cca7f1c42094a4ba0b/c.html",
+          "date": "2026-08-07",
+          "keyword": "高温"
+        },
+        {
+          "id": "75ac557704a9d6",
+          "source": "新华社",
+          "title": "聚焦高质量发展丨福建加速推进氢能从实验室走向市场",
+          "url": "http://www.fj.xinhuanet.com/20260807/f1af4844f4ee49d2ab4b00b466f108ac/c.html",
+          "date": "2026-08-07",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "015c69f2b34f52",
+          "source": "新华社",
+          "title": "高温持续，多地旱涝同防保民生",
+          "url": "https://www.news.cn/government/20260807/bfd9e487dd9448f1a6418a71db16a197/c.html",
+          "date": "2026-08-07",
+          "keyword": "高温"
         },
         {
           "id": "c4c9a599235488",
@@ -57398,6 +57430,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "2caa65b0c1535f",
+          "source": "新华社",
+          "title": "31省份上半年外贸成绩单出炉 见证产业提质跃迁",
+          "url": "https://www.news.cn/fortune/20260807/043105424c6a4f0d8ae3dba070fe14e6/c.html",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
           "id": "9b86e54c2f0672",
           "source": "新华社",
           "title": "“白海豚”靠近华东",
@@ -57410,6 +57450,22 @@
           "source": "新华社",
           "title": "一分钟两球 U17国足2:1逆转勒沃库森U17队",
           "url": "https://www.news.cn/20260807/927020ecf1fd41e7ac5827a0f81fa1b4/c.html",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7a66bdb0d27eb8",
+          "source": "新华社",
+          "title": "一年迎客450万人次，乡村运营如何“破圈”？",
+          "url": "https://www.news.cn/fortune/20260807/34c3ed8455a742dfbcdd11385807d378/c.html",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3e9f5ff59a5394",
+          "source": "新华社",
+          "title": "中国渔船在海上救起5名塞拉利昂渔民",
+          "url": "https://www.news.cn/20260807/7d2fb8b96130491580ca87faabaa1fae/c.html",
           "date": "2026-08-07",
           "keyword": "综合时政"
         },
@@ -57430,10 +57486,26 @@
           "keyword": "综合时政"
         },
         {
+          "id": "c6566212647bca",
+          "source": "新华社",
+          "title": "亚洲大学生篮球联赛：清华大学、上海交大晋级四强",
+          "url": "https://www.news.cn/sports/20260807/e8c83ecbb398414c8d7911af07040fb3/c.html",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
           "id": "584b6bdb8580de",
           "source": "新华社",
           "title": "什么是柔性制造？如何高效匹配差异化需求？",
           "url": "https://www.news.cn/fortune/20260807/427409edf7974da4b443f446e37dfff6/c.html",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "032d5e2e9efe03",
+          "source": "新华社",
+          "title": "今日立秋：夏色犹未尽 清风递秋音",
+          "url": "https://www.news.cn/politics/20260807/f0920a6502bc415ab257b2c339dbba9a/c.html",
           "date": "2026-08-07",
           "keyword": "综合时政"
         },
@@ -57478,6 +57550,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "2c404fc07fd568",
+          "source": "新华社",
+          "title": "千年古村的“共富密码”",
+          "url": "http://www.zj.xinhuanet.com/20260807/aa1ea4b3985249cd80fd7e4f403692ca/c.html",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a7f57c9c1634f4",
           "source": "新华社",
           "title": "叙利亚大马士革农村省“恐怖爆炸”致2死13伤",
@@ -57490,6 +57570,22 @@
           "source": "新华社",
           "title": "叙利亚大马士革农村省发生爆炸致2死13伤",
           "url": "https://www.news.cn/20260807/23f2f24a597741458c07dd6346a508ef/c.html",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9d54cbd6d5bdc9",
+          "source": "新华社",
+          "title": "叩问红山：百年考古现场的五千年文明回响",
+          "url": "https://www.news.cn/politics/20260807/3ee1ddfb2eb24c64a509da3ba9bf07ca/c.html",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ad44949cb37fd9",
+          "source": "新华社",
+          "title": "吴艳妮：亚运会轻装上阵、全力以赴",
+          "url": "https://www.news.cn/sports/20260807/ebdbfb211e2448ebbc4010232d67641a/c.html",
           "date": "2026-08-07",
           "keyword": "综合时政"
         },
@@ -57514,14 +57610,6 @@
           "source": "新华社",
           "title": "多款新药在网络平台首发",
           "url": "https://www.news.cn/politics/20260807/1749605f696145fbb784ba616a53599c/c.html",
-          "date": "2026-08-07",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "74cfa22de8a697",
-          "source": "新华社",
-          "title": "德国高温致死1.19万人 为2016年来最高纪录",
-          "url": "https://www.news.cn/20260807/ebe85b320cfe40cca7f1c42094a4ba0b/c.html",
           "date": "2026-08-07",
           "keyword": "综合时政"
         },
@@ -57574,6 +57662,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "a1051207588c21",
+          "source": "新华社",
+          "title": "特朗普行政令收紧“出生公民权” 遏止“生育旅游”",
+          "url": "https://www.news.cn/world/20260807/26ea34eb05cb4993922957d19ea69c7c/c.html",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
           "id": "080301301ddb0c",
           "source": "新华社",
           "title": "着力在为民造福上出实招、求实效",
@@ -57590,14 +57686,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "9adb28674858e9",
-          "source": "新华社",
-          "title": "积极应对汛情，多地交通运输部门搭建安全出行防线",
-          "url": "https://www.news.cn/government/20260807/53dad6644560421fb494cf52e651be7e/c.html",
-          "date": "2026-08-07",
-          "keyword": "综合时政"
-        },
-        {
           "id": "3b1d0ff0dfa102",
           "source": "新华社",
           "title": "红山文化新发掘持续补全中华文明实证链条",
@@ -57606,10 +57694,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "93e37359ed7361",
+          "id": "6b8d8cf98bc836",
           "source": "新华社",
-          "title": "美国将对多晶硅衍生品加征15%关税",
-          "url": "https://www.news.cn/world/20260807/7dc12ee0e0fe4a1da2be4b1047207e2b/c.html",
+          "title": "美将对多晶硅衍生品加征关税 引入最低进口价机制",
+          "url": "https://www.news.cn/world/20260807/5f906b55ef774a8c83806f00f692a1d5/c.html",
           "date": "2026-08-07",
           "keyword": "综合时政"
         },
@@ -57646,10 +57734,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "8b72fa5d15c680",
+          "id": "74095a5ab1e333",
           "source": "新华社",
           "title": "融资密集落地 AI视频大模型竞速商业化",
-          "url": "https://www.news.cn/tech/20260807/1605ef446e5045b7ba0ee55245ce731c/c.html",
+          "url": "https://www.news.cn/fortune/20260807/72b9328c9d4745c4afe1234192330ead/c.html",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "15e97687785414",
+          "source": "新华社",
+          "title": "贵州省遵义市人大常委会副主任刘东明接受审查调查",
+          "url": "https://www.news.cn/politics/20260807/933d9c9109de44f890f0b92d0d4b4d62/c.html",
           "date": "2026-08-07",
           "keyword": "综合时政"
         },
@@ -57699,65 +57795,66 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 7.8,
+          "duration": 4.6,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260807.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 25,
-          "duration": 1.5
+          "duration": 3.1
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 36,
-          "duration": 2.3
+          "count": 47,
+          "duration": 2.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 12,
-          "duration": 5.9
+          "duration": 23.7
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 5,
-          "duration": 5.9
+          "duration": 6.4
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 18,
-          "duration": 0.5
+          "duration": 2.2
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 11.3
+          "duration": 12.6
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.1
+          "duration": 3.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 9.4
+          "duration": 11.4
         },
         {
           "source": "广东发布",
-          "status": "ok",
+          "status": "error",
           "count": 0,
-          "duration": 36.8
+          "duration": 18.9,
+          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-07T09:33:44+08:00"
+  "generatedAt": "2026-08-07T10:21:51+08:00"
 }
