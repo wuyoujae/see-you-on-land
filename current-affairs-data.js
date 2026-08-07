@@ -56897,14 +56897,14 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-08-07",
-      "keyword": "经济",
+      "keyword": "科技",
       "keywords": [
         {
-          "name": "经济",
-          "count": 7
+          "name": "科技",
+          "count": 6
         },
         {
-          "name": "科技",
+          "name": "经济",
           "count": 6
         },
         {
@@ -56950,6 +56950,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
+          "id": "5aa08a00ef88d1",
+          "source": "人民日报",
+          "title": "加强科技金融领域数据开发利用",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/07/content_30173559.html",
+          "date": "2026-08-07",
+          "keyword": "科技"
+        },
+        {
           "id": "0673f743f58c2f",
           "source": "人民日报",
           "title": "柔性制造，高效匹配差异化需求（经济新方位·制造业新趋势）",
@@ -56964,38 +56972,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/07/content_21625.html",
           "date": "2026-08-07",
           "keyword": "经济"
-        },
-        {
-          "id": "c5a122da1043ae",
-          "source": "广东发布",
-          "title": "总书记的人民情怀 | “让内需成为经济发展的主动力”",
-          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4939440.html",
-          "date": "2026-08-07",
-          "keyword": "经济"
-        },
-        {
-          "id": "81cca48e76dd99",
-          "source": "新华社",
-          "title": "寻迹中国丨看秸秆如何变废为宝，土耳其留学生体验中国循环经济",
-          "url": "http://www.ah.xinhuanet.com/20260807/c07b71817a924427ab33e6123de31b8c/c.html",
-          "date": "2026-08-07",
-          "keyword": "经济"
-        },
-        {
-          "id": "dab01b2b892a77",
-          "source": "新华社",
-          "title": "新华社经济随笔：从工业曲线看产业发展新风景",
-          "url": "https://www.news.cn/fortune/20260807/33f75a6dfdc04b77a203d3bd029ba405/c.html",
-          "date": "2026-08-07",
-          "keyword": "经济"
-        },
-        {
-          "id": "5aa08a00ef88d1",
-          "source": "人民日报",
-          "title": "加强科技金融领域数据开发利用",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/07/content_30173559.html",
-          "date": "2026-08-07",
-          "keyword": "科技"
         },
         {
           "id": "e361fba9c893c6",
@@ -57028,6 +57004,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=4625385368657770480&item_id=4625385368657770480",
           "date": "2026-08-07",
           "keyword": "科技"
+        },
+        {
+          "id": "c5a122da1043ae",
+          "source": "广东发布",
+          "title": "总书记的人民情怀 | “让内需成为经济发展的主动力”",
+          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4939440.html",
+          "date": "2026-08-07",
+          "keyword": "经济"
+        },
+        {
+          "id": "dab01b2b892a77",
+          "source": "新华社",
+          "title": "新华社经济随笔：从工业曲线看产业发展新风景",
+          "url": "https://www.news.cn/fortune/20260807/33f75a6dfdc04b77a203d3bd029ba405/c.html",
+          "date": "2026-08-07",
+          "keyword": "经济"
         },
         {
           "id": "3ecef9c1892c9b",
@@ -58134,14 +58126,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "0b516bbfda525e",
-          "source": "新华社",
-          "title": "7月末我国外汇储备规模34188亿美元",
-          "url": "https://www.news.cn/fortune/20260807/6411e3a0326b4d019ba4e11d4765deda/c.html",
-          "date": "2026-08-07",
-          "keyword": "综合时政"
-        },
-        {
           "id": "541fa5ea21bfc3",
           "source": "新华社",
           "title": "“China Cool”火了，老外爱上中国避暑游",
@@ -58182,10 +58166,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a6e0d562f64896",
+          "id": "e92d18d24b1f48",
           "source": "新华社",
-          "title": "两地启动国家地质灾害四级响应",
-          "url": "https://www.news.cn/politics/20260807/3b94331a0d914fe0800cc50d14c9ca78/c.html",
+          "title": "两岸学者共研台海新局：洞察大局大势 推进祖国完全统一",
+          "url": "https://www.news.cn/tw/20260807/4f295ae18ffe4832b893569a6264df1a/c.html",
           "date": "2026-08-07",
           "keyword": "综合时政"
         },
@@ -58274,14 +58258,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "南水北调中线工程调水突破800亿立方米",
           "url": "https://www.news.cn/photo/20260807/e96d533bf8b44d57a3034ff836f52048/c.html",
-          "date": "2026-08-07",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "3c6c65a7cd637c",
-          "source": "新华社",
-          "title": "南水北调水源地保护专项基金启动 将用于五大领域",
-          "url": "https://www.news.cn/politics/20260807/e480c3c2e4ab49c8ae69cb806f050f88/c.html",
           "date": "2026-08-07",
           "keyword": "综合时政"
         },
@@ -58386,6 +58362,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "应对台风“白海豚” 浙江提升防台风应急响应至Ⅲ级",
           "url": "https://www.news.cn/20260807/38d0585f54ce4cce83dcd67cbb39fdcb/c.html",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bf4ffa6d8bdf19",
+          "source": "新华社",
+          "title": "微视频丨总书记心系全民健身",
+          "url": "https://www.news.cn/politics/leaders/20260807/2766dd7d04ac4b9aa8931494063012d8/c.html",
           "date": "2026-08-07",
           "keyword": "综合时政"
         },
@@ -58510,6 +58494,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "001350d41151dc",
+          "source": "新华社",
+          "title": "浙闽启动防汛防台风三级应急响应",
+          "url": "https://www.news.cn/politics/20260807/c43d611372e64e0e9fc17f89bac047cd/c.html",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
           "id": "3e0699c2981e96",
           "source": "新华社",
           "title": "直击甘浙特高压长江大跨越 高温下见证中国电网基建力量",
@@ -58538,6 +58530,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "立秋至 农事忙",
           "url": "https://www.news.cn/photo/20260807/e8a2caef11d14b629ff5749db357c32a/c.html",
+          "date": "2026-08-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "17b53ee75b669d",
+          "source": "新华社",
+          "title": "第38届大众电影百花奖系列活动开幕",
+          "url": "https://www.news.cn/politics/20260807/b76b6ce48fa34008a140574b00dadd86/c.html",
           "date": "2026-08-07",
           "keyword": "综合时政"
         },
@@ -58707,37 +58707,37 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "ok",
           "count": 12,
-          "duration": 0.2
+          "duration": 0.6
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 25,
-          "duration": 2.2
+          "duration": 2.9
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.6
+          "duration": 2.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 19,
-          "duration": 31.9
+          "duration": 26.5
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 8,
-          "duration": 6.4
+          "duration": 7.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 18,
-          "duration": 6.3
+          "duration": 2.1
         },
         {
           "source": "南方周末",
@@ -58749,22 +58749,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 3.0
+          "duration": 3.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 10.9
+          "duration": 11.4
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 17,
-          "duration": 77.7
+          "duration": 63.8
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-07T22:10:06+08:00"
+  "generatedAt": "2026-08-07T23:51:31+08:00"
 };
