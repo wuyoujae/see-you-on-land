@@ -58772,6 +58772,14 @@
         {
           "name": "经济",
           "count": 3
+        },
+        {
+          "name": "教育",
+          "count": 2
+        },
+        {
+          "name": "消费",
+          "count": 2
         }
       ],
       "articles": [
@@ -58798,6 +58806,30 @@
           "url": "https://www.news.cn/fortune/20260808/570e35f5b5a14ae7ac059d724922c29a/c.html",
           "date": "2026-08-08",
           "keyword": "经济"
+        },
+        {
+          "id": "3748edbad35dfa",
+          "source": "人民日报",
+          "title": "切实减轻教师非教育教学任务负担",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/08/content_30173750.html",
+          "date": "2026-08-08",
+          "keyword": "教育"
+        },
+        {
+          "id": "4f836662ab54bc",
+          "source": "新闻联播",
+          "title": "【一线调研】轨道串起消费新活力",
+          "url": "https://tv.cctv.com/2026/08/08/VIDE93ybzhKKN7HA8ZI2O7yP260808.shtml",
+          "date": "2026-08-08",
+          "keyword": "消费"
+        },
+        {
+          "id": "786742f5639b7e",
+          "source": "新闻联播",
+          "title": "【树立和践行正确政绩观】坚持民生优先 推动学习教育成果落到实处",
+          "url": "https://tv.cctv.com/2026/08/08/VIDEUoqNO0e8EkoIWhU9KcRd260808.shtml",
+          "date": "2026-08-08",
+          "keyword": "教育"
         },
         {
           "id": "2feb7a7e605088",
@@ -58932,14 +58964,6 @@
           "source": "人民日报",
           "title": "共同营造开放包容的国际产业合作环境（国际论坛）",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/08/content_30173741.html",
-          "date": "2026-08-08",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "3748edbad35dfa",
-          "source": "人民日报",
-          "title": "切实减轻教师非教育教学任务负担",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/08/content_30173750.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59250,8 +59274,24 @@
         {
           "id": "6034f90ccc687d",
           "source": "新华社",
-          "title": "“白海豚”与“巴威”相比如何？",
+          "title": "“白海豚”路径为何多变",
           "url": "https://www.news.cn/local/20260808/35143d5d163e409198f58edfc37fdbc1/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eb01cf30420207",
+          "source": "新华社",
+          "title": "“闭眼”等于风险降低？",
+          "url": "https://www.news.cn/politics/20260808/bb49651a90bd437fa92922cec30fdc33/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5bd80e78fa9c7d",
+          "source": "新华社",
+          "title": "《唱响非洲》第二季在内罗毕启动",
+          "url": "https://www.news.cn/world/20260808/0e2026130e3d4adc904ae451ee5a6c71/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59352,6 +59392,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "a61f52aa7920f4",
+          "source": "新华社",
+          "title": "叙利亚过渡政府部队遭袭致1死2伤",
+          "url": "https://www.news.cn/world/20260808/4ff13a45856e42f29378895fba4bf3f8/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "91c9bc4dfb8b19",
           "source": "新华社",
           "title": "台风“白海豚”来袭 国家防总、应急管理部启动响应",
@@ -59360,26 +59408,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "6e0832405a29ca",
-          "source": "新华社",
-          "title": "国家防总、应急管理部启动响应",
-          "url": "https://www.news.cn/politics/20260808/6c9b5bc565094925986c98fb1ea3a2eb/c.html",
-          "date": "2026-08-08",
-          "keyword": "综合时政"
-        },
-        {
           "id": "f928542424b817",
           "source": "新华社",
           "title": "外媒：高效的中国制造业让全球受益",
           "url": "https://www.news.cn/world/20260808/2bbfd8622a9147968ae24290a0a7945a/c.html",
-          "date": "2026-08-08",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "67457c0c1bdfd9",
-          "source": "新华社",
-          "title": "多地积极应对",
-          "url": "https://www.news.cn/local/20260808/d6f603ed7c914c1f8b5db6faa25b1b64/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59396,14 +59428,6 @@
           "source": "新华社",
           "title": "安徽的定力与活力",
           "url": "https://www.news.cn/local/20260808/57d53aff787e4ef0af7a5a719cc032c6/c.html",
-          "date": "2026-08-08",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "a7d86725e14a12",
-          "source": "新华社",
-          "title": "宝藏健康科普丨“白海豚”逼近 这项致死疾病风险飙升",
-          "url": "http://fj.news.cn/20260808/18c85a3b50834b21920e97509569f993/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59528,6 +59552,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "307849470f5c21",
+          "source": "新华社",
+          "title": "水利部将针对浙江洪水防御应急响应提升至Ⅲ级",
+          "url": "https://www.news.cn/politics/20260808/180dffcd18f94ba8a5d132a667122900/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "64ec21ae921107",
           "source": "新华社",
           "title": "水利部部署台风“白海豚”暴雨洪水防御工作",
@@ -59536,10 +59568,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "890dc799c0c0d9",
+          "id": "1d481e0ff12d7b",
           "source": "新华社",
-          "title": "水利部部署防御工作",
-          "url": "https://www.news.cn/politics/20260808/a12ca199ab234db49f21c7a2888b05a0/c.html",
+          "title": "河南西平县杀人嫌犯落网",
+          "url": "https://www.news.cn/legal/20260808/1a4d54d3c3354cd692f5fa9231fa4a84/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59584,14 +59616,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "f73293a545bb93",
-          "source": "新华社",
-          "title": "移民分歧激化 西班牙出台针对意大利反制措施",
-          "url": "https://www.news.cn/world/20260808/3381c6ee4c7a474c81c3033f8aaf2dd7/c.html",
-          "date": "2026-08-08",
-          "keyword": "综合时政"
-        },
-        {
           "id": "c0af4eab84b144",
           "source": "新华社",
           "title": "美军高层正寻求对伊战事“退出路径”",
@@ -59608,10 +59632,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "9b4e282950db51",
+          "id": "709fa8cc5eea74",
           "source": "新华社",
           "title": "美媒：马斯克拒绝让乌克兰用“星链”打击俄境内目标",
-          "url": "https://www.news.cn/world/20260808/f8fc92d2e3ea4e19b105b13556f62a3e/c.html",
+          "url": "https://www.news.cn/20260808/89c96b7346d7490780cfca5d56c43183/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59664,18 +59688,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "78ddc32e4bc54f",
+          "id": "bcfa9305d02d4f",
           "source": "新华社",
-          "title": "避免联邦政府“停摆” 美参议院通过临时拨款法案",
-          "url": "https://www.news.cn/world/20260808/3b35daac43224fb686c87a39ec9b5ec3/c.html",
+          "title": "述评：以全民健身托举健康中国",
+          "url": "https://www.news.cn/sports/20260808/4f8221d5623f4f678b86a7952ab88278/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
         {
-          "id": "1dd647d4c1b1ed",
+          "id": "78ddc32e4bc54f",
           "source": "新华社",
-          "title": "部分社交媒体因休达危机被欧盟委员会约谈",
-          "url": "https://www.news.cn/world/20260808/1483b52468ed442aaafd3233a3c22561/c.html",
+          "title": "避免联邦政府“停摆” 美参议院通过临时拨款法案",
+          "url": "https://www.news.cn/world/20260808/3b35daac43224fb686c87a39ec9b5ec3/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59708,6 +59732,102 @@
           "source": "新华社",
           "title": "韩国足协就世界杯失利及系列争议发布致歉信",
           "url": "https://www.news.cn/20260808/97feb7e1612c473a9bf0bad08e861f66/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0c5f5a774932e5",
+          "source": "新闻联播",
+          "title": "《新闻联播》 20260808 19:00",
+          "url": "https://tv.cctv.com/2026/08/08/VIDEoC3K8SpJcMZIiliuiYUf260808.shtml",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cbc7a5a312c351",
+          "source": "新闻联播",
+          "title": "【新思想引领新征程】完善全民健身公共服务体系 让发展成果惠及全体人民",
+          "url": "https://tv.cctv.com/2026/08/08/VIDE4p7WpVuSDpKeKKQZySqo260808.shtml",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "30876bcead5f11",
+          "source": "新闻联播",
+          "title": "上半年我国医药工业创新加速突破",
+          "url": "https://tv.cctv.com/2026/08/08/VIDEyv1JYEZoWwTWADpDxMzR260808.shtml",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "97289f8390747c",
+          "source": "新闻联播",
+          "title": "上半年我国经营主体结构持续优化",
+          "url": "https://tv.cctv.com/2026/08/08/VIDEVhg3p4hu9gNMmUYqC5vp260808.shtml",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6e8ac24aff57af",
+          "source": "新闻联播",
+          "title": "伊朗称与阿曼已明确霍尔木兹海峡协议的总体框架",
+          "url": "https://tv.cctv.com/2026/08/08/VIDE8oyA38VMBfgHWbXSUDsH260808.shtml",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "38bcaef938adc8",
+          "source": "新闻联播",
+          "title": "全国用电负荷创新高 电力保供积极应对",
+          "url": "https://tv.cctv.com/2026/08/08/VIDEsNSGEXV6ZQ8eLBZcT42W260808.shtml",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9ea5e30376ed52",
+          "source": "新闻联播",
+          "title": "台风“白海豚”逼近 各地加强防范",
+          "url": "https://tv.cctv.com/2026/08/08/VIDE07agVkQERMyORfz2f4YK260808.shtml",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fd7948b7b5f84c",
+          "source": "新闻联播",
+          "title": "国内联播快讯",
+          "url": "https://tv.cctv.com/2026/08/08/VIDEnUhQyP1XdG5eOXR90lzO260808.shtml",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dd3a84a9f94f6b",
+          "source": "新闻联播",
+          "title": "国际联播快讯",
+          "url": "https://tv.cctv.com/2026/08/08/VIDEcSCNQ9iPRGAl3DbZuKe2260808.shtml",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c7c31ac668f17a",
+          "source": "新闻联播",
+          "title": "暑期研学游升温 在旅途中增长知识",
+          "url": "https://tv.cctv.com/2026/08/08/VIDE78obkSHB0nkwlx078TeK260808.shtml",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bdeb941d319d9c",
+          "source": "新闻联播",
+          "title": "沙特土耳其巴基斯坦签署共同防务协议",
+          "url": "https://tv.cctv.com/2026/08/08/VIDEXXJy0KTMxO61zJpEgltV260808.shtml",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9643046ff607b8",
+          "source": "新闻联播",
+          "title": "移民问题引发分歧 西班牙出台针对意大利反制措施",
+          "url": "https://tv.cctv.com/2026/08/08/VIDEsLMe4KahxtHZkP76WRIE260808.shtml",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59755,52 +59875,51 @@
       "sourceStatus": [
         {
           "source": "新闻联播",
-          "status": "error",
-          "count": 0,
-          "duration": 20.1,
-          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260808.shtml"
+          "status": "ok",
+          "count": 14,
+          "duration": 0.4
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.9
+          "duration": 1.8
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.3
+          "duration": 2.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 1,
-          "duration": 26.9
+          "duration": 24.0
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 5,
-          "duration": 6.1
+          "duration": 5.9
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 2.5
+          "duration": 1.9
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.2
+          "duration": 13.5
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.3
+          "duration": 3.4
         },
         {
           "source": "中国政府网",
@@ -59812,10 +59931,10 @@
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 40.8
+          "duration": 57.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-08T19:23:58+08:00"
+  "generatedAt": "2026-08-08T20:35:24+08:00"
 }
