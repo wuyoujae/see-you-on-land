@@ -59757,65 +59757,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 13.7,
+          "duration": 8.7,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260808.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.9
+          "duration": 2.3
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.7
+          "duration": 2.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 1,
-          "duration": 15.3
+          "duration": 32.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 5,
-          "duration": 6.6
+          "duration": 5.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 4.3
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.8
+          "duration": 14.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.7
+          "duration": 3.6
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 8.9
+          "duration": 11.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 83.7
+          "duration": 64.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-08T17:33:24+08:00"
+  "generatedAt": "2026-08-08T18:26:55+08:00"
 };
