@@ -58771,7 +58771,11 @@
       "keywords": [
         {
           "name": "经济",
-          "count": 3
+          "count": 4
+        },
+        {
+          "name": "人工智能",
+          "count": 2
         },
         {
           "name": "教育",
@@ -58800,6 +58804,14 @@
           "keyword": "经济"
         },
         {
+          "id": "4b53ab3d620be8",
+          "source": "新华社",
+          "title": "中国经济面面观丨向善而行：人工智能时代如何迈向全球治理",
+          "url": "https://www.news.cn/20260808/3fb63406430a4d3bba93f13cb340fa7f/c.html",
+          "date": "2026-08-08",
+          "keyword": "经济"
+        },
+        {
           "id": "51c2a49c289cce",
           "source": "新华社",
           "title": "夏日经济乘“热”而上 消费市场向“新”而行",
@@ -58814,6 +58826,14 @@
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/08/content_30173750.html",
           "date": "2026-08-08",
           "keyword": "教育"
+        },
+        {
+          "id": "1f5e3d57ff4e12",
+          "source": "光明日报",
+          "title": "【推动高质量发展】“人工智能+”，解锁更多新可能",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/08/content_21626.html",
+          "date": "2026-08-08",
+          "keyword": "人工智能"
         },
         {
           "id": "4f836662ab54bc",
@@ -59088,14 +59108,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "1f5e3d57ff4e12",
-          "source": "光明日报",
-          "title": "【推动高质量发展】“人工智能+”，解锁更多新可能",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/08/content_21626.html",
-          "date": "2026-08-08",
-          "keyword": "综合时政"
-        },
-        {
           "id": "82020ea0d62449",
           "source": "光明日报",
           "title": "【民生总关情】“共享工具站”",
@@ -59272,6 +59284,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "4ce76ae288ed17",
+          "source": "新华社",
+          "title": "“加长版”中伏，教你如何科学健身",
+          "url": "https://www.news.cn/politics/20260808/10c8fb32494c483184e0f2a6aca994bd/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "6034f90ccc687d",
           "source": "新华社",
           "title": "“白海豚”路径为何多变",
@@ -59336,18 +59356,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "0b14910030adc5",
-          "source": "新华社",
-          "title": "伊朗战事打不下去了？",
-          "url": "https://www.news.cn/world/20260808/712027da6e7a4dc18f211f7d14a42402/c.html",
-          "date": "2026-08-08",
-          "keyword": "综合时政"
-        },
-        {
           "id": "b0abea9009f27c",
           "source": "新华社",
           "title": "伊朗战事打不下去了？美军参联会主席力主“翻篇”",
           "url": "https://www.news.cn/20260808/3fcbdb7e89894409a60f0905caf61501/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eaa24889a0dd89",
+          "source": "新华社",
+          "title": "伊：与阿曼“接近”达成协议并不意味重开海峡",
+          "url": "https://www.news.cn/world/20260808/eeccc6771afc4faab7ab850d69237070/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59432,10 +59452,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "52248920f44787",
+          "id": "0b14910030adc5",
           "source": "新华社",
-          "title": "家门口的运动场地，你都了解吗？",
-          "url": "http://www.news.cn/government/20260808/a02c120003b946eea0d7e98ac175e873/c.html",
+          "title": "战事打不下去了？",
+          "url": "https://www.news.cn/world/20260808/712027da6e7a4dc18f211f7d14a42402/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59444,14 +59464,6 @@
           "source": "新华社",
           "title": "打造世界级海洋港口群",
           "url": "https://www.news.cn/politics/leaders/20260808/7e5621e67d244269a9638e68d70a007d/c.html",
-          "date": "2026-08-08",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "21f59b4f46cc15",
-          "source": "新华社",
-          "title": "探秘一块锂电池的“重生”之旅",
-          "url": "https://www.news.cn/fortune/20260808/6078ac7f2c4f4f4c8d2d0434ab1dd95e/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59512,14 +59524,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "d0a14ca436d81f",
-          "source": "新华社",
-          "title": "最好的健康是把运动融入日常",
-          "url": "https://www.news.cn/sports/20260808/a30e61ca77104c0bbdf28fa8f0deac7a/c.html",
-          "date": "2026-08-08",
-          "keyword": "综合时政"
-        },
-        {
           "id": "d5f47b37486ae2",
           "source": "新华社",
           "title": "权威数读丨一周“靓”数",
@@ -59576,6 +59580,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "ed9b3e9d1bbc3f",
+          "source": "新华社",
+          "title": "浙江防台风应急响应提升至Ⅰ级 各地做好防台风工作",
+          "url": "https://www.news.cn/photo/20260808/40d10e7854af4b2ca7727e57f3e77587/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1887d0936c28e5",
           "source": "新华社",
           "title": "港珠澳大桥澳门跨境货物转运站三年服务逾8万车次",
@@ -59608,17 +59620,9 @@
           "keyword": "综合时政"
         },
         {
-          "id": "169af26d7dad22",
-          "source": "新华社",
-          "title": "第九届进博会首批展品从奥地利启运",
-          "url": "https://www.news.cn/world/20260808/127d019777574449b05c94e9c9f57c08/c.html",
-          "date": "2026-08-08",
-          "keyword": "综合时政"
-        },
-        {
           "id": "c0af4eab84b144",
           "source": "新华社",
-          "title": "美军高层正寻求对伊战事“退出路径”",
+          "title": "美军高层正寻求“退出路径”",
           "url": "https://www.news.cn/world/20260808/e9f35c69749d44e2ac38006b063f64ee/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
@@ -59672,10 +59676,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "ec29a8626684c8",
+          "id": "cee71d513d71f2",
           "source": "新华社",
-          "title": "跨越千年的热爱：文物里的健身雅趣",
-          "url": "https://www.news.cn/politics/20260808/2e7247abe10c423192a1057ecbc06aa8/c.html",
+          "title": "这个钢厂不“喝”一滴地下水",
+          "url": "https://www.news.cn/local/20260808/303e506069d24fd2b3550fcbf8354348/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59877,7 +59881,7 @@
           "source": "新闻联播",
           "status": "ok",
           "count": 14,
-          "duration": 0.6
+          "duration": 0.8
         },
         {
           "source": "人民日报",
@@ -59889,52 +59893,52 @@
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.2
+          "duration": 2.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 1,
-          "duration": 35.7
+          "duration": 26.2
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 5,
-          "duration": 7.5
+          "duration": 6.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 5.9
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.3
+          "duration": 13.2
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.8
+          "duration": 2.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 10.0
+          "duration": 9.9
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 65.4
+          "duration": 57.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-08T21:42:32+08:00"
+  "generatedAt": "2026-08-08T22:27:20+08:00"
 }
