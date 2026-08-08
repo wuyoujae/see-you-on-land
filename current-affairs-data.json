@@ -58767,42 +58767,66 @@
     },
     {
       "date": "2026-08-08",
-      "keyword": "国外汇储备规",
+      "keyword": "力提升粮食能",
       "keywords": [
         {
-          "name": "国外汇储备规",
-          "count": 2
+          "name": "力提升粮食能",
+          "count": 3
+        },
+        {
+          "name": "努力提升粮食",
+          "count": 3
+        },
+        {
+          "name": "升粮食能源资",
+          "count": 3
         },
         {
           "name": "国货物贸易进",
-          "count": 2
+          "count": 3
         },
         {
-          "name": "外汇储备规模",
-          "count": 2
-        },
-        {
-          "name": "我国外汇储备",
-          "count": 2
+          "name": "安全保障能力",
+          "count": 3
         },
         {
           "name": "我国货物贸易",
-          "count": 2
+          "count": 3
+        },
+        {
+          "name": "提升粮食能源",
+          "count": 3
         },
         {
           "name": "月我国货物贸",
-          "count": 2
-        },
-        {
-          "name": "物贸易进出口",
-          "count": 2
-        },
-        {
-          "name": "货物贸易进出",
-          "count": 2
+          "count": 3
         }
       ],
       "articles": [
+        {
+          "id": "2feb7a7e605088",
+          "source": "中国政府网",
+          "title": "前7月我国货物贸易进出口同比增长17.3%",
+          "url": "https://www.gov.cn/lianbo/202608/content_7077717.htm",
+          "date": "2026-08-08",
+          "keyword": "国货物贸易进"
+        },
+        {
+          "id": "182f19e8c082dd",
+          "source": "中国政府网",
+          "title": "总书记的人民情怀 | “努力提升粮食能源资源安全保障能力”",
+          "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7077718.htm",
+          "date": "2026-08-08",
+          "keyword": "力提升粮食能"
+        },
+        {
+          "id": "9f5784c8c49073",
+          "source": "人民日报",
+          "title": "“努力提升粮食能源资源安全保障能力”（总书记的人民情怀）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/08/content_30173728.html",
+          "date": "2026-08-08",
+          "keyword": "力提升粮食能"
+        },
         {
           "id": "e1fab9a4542c27",
           "source": "人民日报",
@@ -58812,28 +58836,20 @@
           "keyword": "国货物贸易进"
         },
         {
-          "id": "35c092bd1dcaec",
-          "source": "人民日报",
-          "title": "我国外汇储备规模为34188亿美元",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/08/content_30173738.html",
-          "date": "2026-08-08",
-          "keyword": "国外汇储备规"
-        },
-        {
-          "id": "76ce9ec7551930",
-          "source": "光明日报",
-          "title": "7月末我国外汇储备规模34188亿美元",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/08/content_21666.html",
-          "date": "2026-08-08",
-          "keyword": "国外汇储备规"
-        },
-        {
           "id": "73e68122c271e3",
           "source": "光明日报",
           "title": "前7个月我国货物贸易进出口增长17.3%",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/08/content_21665.html",
           "date": "2026-08-08",
           "keyword": "国货物贸易进"
+        },
+        {
+          "id": "a487570cff834f",
+          "source": "求是",
+          "title": "“努力提升粮食能源资源安全保障能力”",
+          "url": "https://www.qstheory.cn/20260808/b8f1332df4094791a8cca3cfda858afb/c.html",
+          "date": "2026-08-08",
+          "keyword": "力提升粮食能"
         },
         {
           "id": "ff024c1e9d02b0",
@@ -58848,14 +58864,6 @@
           "source": "人民日报",
           "title": "“中文+”助力尼泊尔培养复合型人才",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/08/content_30173740.html",
-          "date": "2026-08-08",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "9f5784c8c49073",
-          "source": "人民日报",
-          "title": "“努力提升粮食能源资源安全保障能力”（总书记的人民情怀）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/08/content_30173728.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -58996,6 +59004,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "35c092bd1dcaec",
+          "source": "人民日报",
+          "title": "我国外汇储备规模为34188亿美元",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/08/content_30173738.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "eeff18c7a1b387",
           "source": "人民日报",
           "title": "日本执政当局应停止在核问题上玩火",
@@ -59048,6 +59064,14 @@
           "source": "光明日报",
           "title": "7座红烧土坑排列与北斗七星高度相似",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/08/content_21655.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "76ce9ec7551930",
+          "source": "光明日报",
+          "title": "7月末我国外汇储备规模34188亿美元",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/08/content_21666.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59228,18 +59252,42 @@
           "keyword": "综合时政"
         },
         {
-          "id": "8c88eddc488a2c",
-          "source": "新华社",
-          "title": "中国援古巴新一批家用太阳能设备项目交付首批物资",
-          "url": "https://www.news.cn/world/20260808/e209743800294abaaba84a0400d4029e/c.html",
+          "id": "d4a8295d829c94",
+          "source": "广东发布",
+          "title": "全省现代化海洋牧场全产业链建设视频会召开 全力发动国企加大投资 聚力推动现代化海洋牧场建设提质增效",
+          "url": "https://www.gd.gov.cn/gdywdt/bmdt/content/post_4939771.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
         {
-          "id": "76ad72e48b8348",
+          "id": "87968798b941c1",
           "source": "新华社",
-          "title": "人民的健康、体质、幸福一脉相承",
-          "url": "https://www.news.cn/politics/xxjxs/20260808/648d2071351c4805b6001f9624671ad1/c.html",
+          "title": "中国东方电气集团有限公司原党组副书记宋致远被查",
+          "url": "https://www.news.cn/politics/20260808/90d96f83aa4e44d0940cb570d86dfeb5/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "09c5dafa039175",
+          "source": "新华社",
+          "title": "中国援古巴新一批家用太阳能设备项目交付首批物资",
+          "url": "https://www.news.cn/20260808/e69a299db2684d5db64142e4772e89b5/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9ab6a6a67fa61f",
+          "source": "新华社",
+          "title": "云南宣威火把节发生意外 16名群众不同程度灼伤",
+          "url": "https://www.news.cn/local/20260808/2a21bf87480640f799a8af0d445d992e/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e9ba0a2872dcb8",
+          "source": "新华社",
+          "title": "从独自抗癌到带队健身，她用28年筑起“邻里港湾”",
+          "url": "https://www.news.cn/politics/20260808/ebc7f26a3b4742cea7abfcabdafd0d67/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59252,10 +59300,42 @@
           "keyword": "综合时政"
         },
         {
+          "id": "2ba0f4ba400b44",
+          "source": "新华社",
+          "title": "以媒：未落实更迭伊朗政权计划 摩萨德高官被解职",
+          "url": "https://www.news.cn/world/20260808/a0fa393f57c14afe8ddcd08123777763/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f9fb38f990d253",
+          "source": "新华社",
+          "title": "体操中心公示亚运会三个分项中国队参赛运动员名单",
+          "url": "https://www.news.cn/sports/20260808/8fbe7a5336184c67aff5d3cadd337854/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fbda178c21e913",
+          "source": "新华社",
+          "title": "体育地理丨山河铺卷 运动为笔",
+          "url": "https://www.news.cn/sports/20260808/210a8ec514244d9cb531ee6294177447/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "8c7ca4992f76a3",
           "source": "新华社",
           "title": "俄乌互袭军事目标",
           "url": "https://www.news.cn/world/20260808/e5082ced19744b2abaac63991ab0653b/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a9395af978faf7",
+          "source": "新华社",
+          "title": "八旬民宿主理人和她的石头画美术馆",
+          "url": "https://www.news.cn/photo/20260808/2000cbb9dc5d410cbbbdf5818568c769/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59268,10 +59348,90 @@
           "keyword": "综合时政"
         },
         {
+          "id": "3d6168a1c071a9",
+          "source": "新华社",
+          "title": "剑指俄油气5大进口方 美参议院通过对俄制裁新法案",
+          "url": "https://www.news.cn/world/20260808/d39ba0e14a32487f8880c203c97001d9/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3a24a71f1e288d",
+          "source": "新华社",
+          "title": "加纳总统调整内阁 填补坠机事故所致空缺",
+          "url": "https://www.news.cn/20260808/054aaa8944944a77911c7ceb1ccebfd6/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "6b43c7a0cdff4b",
           "source": "新华社",
           "title": "化妆品可“量肤定制” 进一步满足消费者个性化需求",
           "url": "https://www.news.cn/fortune/20260808/6236bc8a10944bc5852142cd655eb30f/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1874b8d29a296c",
+          "source": "新华社",
+          "title": "单翼少年绿茵逐梦",
+          "url": "https://www.news.cn/sports/20260808/7a1f1c2f5b704ff28b001ccfd878e2ed/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "554a84fdeafffb",
+          "source": "新华社",
+          "title": "国际奥委会发布报告 聚焦网络恶意攻击与体育",
+          "url": "https://www.news.cn/sports/20260808/9f20273c5da84251a30b9353f9e545c1/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f38f2db3bf3cf2",
+          "source": "新华社",
+          "title": "土耳其称沙土巴三国防务协议与北约条款不冲突",
+          "url": "https://www.news.cn/world/20260808/cc7cf9c8ead94fa79c69f6953b9a30fa/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "500f31958d777e",
+          "source": "新华社",
+          "title": "外国嘉宾齐聚牛河梁遗址探寻红山文化的世界意义",
+          "url": "https://www.news.cn/world/20260808/ee385581e7704cfd9861c5b84aa25c93/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "76ad72e48b8348",
+          "source": "新华社",
+          "title": "学习进行时丨人民的健康、体质、幸福一脉相承",
+          "url": "https://www.news.cn/politics/xxjxs/20260808/648d2071351c4805b6001f9624671ad1/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a7d86725e14a12",
+          "source": "新华社",
+          "title": "宝藏健康科普丨“白海豚”逼近 这项致死疾病风险飙升",
+          "url": "http://fj.news.cn/20260808/18c85a3b50834b21920e97509569f993/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "52248920f44787",
+          "source": "新华社",
+          "title": "家门口的运动场地，你都了解吗？",
+          "url": "http://www.news.cn/government/20260808/a02c120003b946eea0d7e98ac175e873/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ab6151e6247ce3",
+          "source": "新华社",
+          "title": "山乡新画卷：“中国天眼”兴起研学热",
+          "url": "https://www.news.cn/tech/20260808/8204a558145a4494b39d52c9e8d5f1a4/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59292,10 +59452,66 @@
           "keyword": "综合时政"
         },
         {
+          "id": "1108f985741879",
+          "source": "新华社",
+          "title": "持续干旱致美最大水库水位降至历史最低",
+          "url": "https://www.news.cn/20260808/efdd23134b0f4124a8a1f5b7d51b1952/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "4e550b2c7dfe03",
           "source": "新华社",
           "title": "文物保护如何面对气候挑战",
           "url": "https://www.news.cn/politics/20260808/b47a71b201314694ac55e4753d726af4/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d6d0abe3355945",
+          "source": "新华社",
+          "title": "新华社出图丨运动，原来可以这么美",
+          "url": "https://www.news.cn/sports/20260808/cc56b739623c4828ba238ce3b8bb2e72/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ec2a3292f0051a",
+          "source": "新华社",
+          "title": "日观奇山 夜赏灯火 张家界惊艳中外游客",
+          "url": "http://hn.news.cn/20260808/fac4e0df138b40f39a60168918909858/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c0262af4ebe4e8",
+          "source": "新华社",
+          "title": "时光相册丨上场！一代代中国人的运动热爱",
+          "url": "https://www.news.cn/sports/20260808/303043f66c7a4fd9913bf77b0f123319/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6e007e54cf5f39",
+          "source": "新华社",
+          "title": "晚霞大海相伴，百年老港成为“最美海上运动场”",
+          "url": "https://www.news.cn/local/20260808/08878c950b9c40b1aff4f1e11ce3cc3d/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d0a14ca436d81f",
+          "source": "新华社",
+          "title": "最好的健康是把运动融入日常",
+          "url": "https://www.news.cn/sports/20260808/a30e61ca77104c0bbdf28fa8f0deac7a/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e1eb6fa1780487",
+          "source": "新华社",
+          "title": "来这里“Cool一夏”",
+          "url": "https://www.news.cn/world/20260808/7d09ee4bf2e24d79ab8003c130ee5f8e/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59316,18 +59532,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "3f953ac5d9b364",
+          "id": "875c22f63aa6d9",
           "source": "新华社",
-          "title": "美一消防直升机在犹他州坠毁",
-          "url": "https://www.news.cn/20260808/19e12c1ea16d4feba1b2c3be4207115b/c.html",
+          "title": "科特迪瓦举行阅兵庆祝独立66周年",
+          "url": "https://www.news.cn/photo/20260808/3ede9f0979404645960408216727d478/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
         {
-          "id": "3d6168a1c071a9",
+          "id": "f422831a4513c6",
           "source": "新华社",
-          "title": "美参议院通过对俄制裁新法案",
-          "url": "https://www.news.cn/world/20260808/d39ba0e14a32487f8880c203c97001d9/c.html",
+          "title": "科画丨天气炎热时食欲下降 记住这4点科学调理",
+          "url": "https://www.news.cn/politics/20260808/c843780418e74d2a94c413fc9f757a42/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3f953ac5d9b364",
+          "source": "新华社",
+          "title": "美一消防直升机在犹他州坠毁",
+          "url": "https://www.news.cn/20260808/19e12c1ea16d4feba1b2c3be4207115b/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59340,10 +59564,42 @@
           "keyword": "综合时政"
         },
         {
+          "id": "baaf0f7716e7bb",
+          "source": "新华社",
+          "title": "行走拉美手记丨“7分钟快速约会”受到阿根廷年轻人青睐",
+          "url": "https://www.news.cn/world/20260808/c55b1d0fb7144165a40ef665d98e5ae2/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "ee74c58d0d844e",
           "source": "新华社",
           "title": "西班牙将对来自意大利旅客实施临时边检措施",
           "url": "https://www.news.cn/20260808/96668412ed6b4dc2b8b3fc749d11045c/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "95e2e3318dc936",
+          "source": "新华社",
+          "title": "这样的中国，怎一个“酷”字了得",
+          "url": "https://www.news.cn/comments/20260808/a113692b543743fba6bbd32efc5f1f29/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e19086e910b22e",
+          "source": "新华社",
+          "title": "避暑城市那么多，曲靖何以通“优”",
+          "url": "https://www.news.cn/local/20260808/79b9ed12de894d528130aeabdcb220a8/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "efe41d8eca4670",
+          "source": "新华社",
+          "title": "铸魂强党丨坚持以党性立身做事",
+          "url": "https://www.news.cn/politics/leaders/20260808/764388c622f840c4998979f4fdc4fd1f/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59356,10 +59612,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "b959c9cf47733f",
+          "id": "1ef613fb1f4cdf",
           "source": "新华社",
-          "title": "香港宏福苑火灾跨部门调查最终报告：或由烟头引起",
-          "url": "https://www.news.cn/gangao/20260808/9298378dc62947c193605abfeb0700ae/c.html",
+          "title": "高温天科学运动指南",
+          "url": "https://www.news.cn/sports/20260808/506a8272ee0f4cf9bf34e4fc706b1c9e/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59370,6 +59626,30 @@
           "url": "https://www.news.cn/world/20260808/a89659fa2a2b4d25be2af7a289700eac/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
+        },
+        {
+          "id": "aac49ff0b3002d",
+          "source": "求是",
+          "title": "从“三个时间刻度”感悟新时代中国",
+          "url": "https://www.qstheory.cn/20260808/d5816da7d7734fd39ba1cfe386ce7e45/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "58dbf9cb95d8c8",
+          "source": "求是",
+          "title": "以心相交，成其久远——中国元首外交的世界情怀与大国气派",
+          "url": "https://www.qstheory.cn/20260808/4c63ffa5cc864ed69eb961a09470f0b5/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b0a7ab8a3be035",
+          "source": "求是",
+          "title": "以鲜明的问题导向加强自身建设——习近平党建思想理论品格系列述评之三",
+          "url": "https://www.qstheory.cn/20260808/0f0b161ae4c1449292790c003559ad8e/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -59377,65 +59657,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 10.8,
+          "duration": 13.7,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260808.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 2.5
+          "duration": 2.3
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 18,
-          "duration": 2.9
+          "count": 46,
+          "duration": 2.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 14.4
+          "duration": 12.7
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 6.6
+          "count": 4,
+          "duration": 5.9
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 2.6
+          "duration": 6.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.8
+          "duration": 14.6
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.3
+          "duration": 3.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 0,
-          "duration": 9.9
+          "count": 2,
+          "duration": 8.9
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 0,
-          "duration": 61.7
+          "count": 1,
+          "duration": 67.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-08T09:08:13+08:00"
+  "generatedAt": "2026-08-08T11:20:54+08:00"
 }
