@@ -58767,49 +58767,37 @@
     },
     {
       "date": "2026-08-08",
-      "keyword": "力提升粮食能",
+      "keyword": "消费",
       "keywords": [
         {
-          "name": "力提升粮食能",
-          "count": 3
-        },
-        {
-          "name": "努力提升粮食",
-          "count": 3
-        },
-        {
-          "name": "升粮食能源资",
-          "count": 3
-        },
-        {
-          "name": "国货物贸易进",
-          "count": 3
-        },
-        {
-          "name": "安全保障能力",
-          "count": 3
-        },
-        {
-          "name": "我国货物贸易",
-          "count": 3
-        },
-        {
-          "name": "提升粮食能源",
-          "count": 3
-        },
-        {
-          "name": "月我国货物贸",
-          "count": 3
+          "name": "消费",
+          "count": 2
         }
       ],
       "articles": [
+        {
+          "id": "6b43c7a0cdff4b",
+          "source": "新华社",
+          "title": "化妆品可“量肤定制” 进一步满足消费者个性化需求",
+          "url": "https://www.news.cn/fortune/20260808/6236bc8a10944bc5852142cd655eb30f/c.html",
+          "date": "2026-08-08",
+          "keyword": "消费"
+        },
+        {
+          "id": "a553cc165391b9",
+          "source": "新华社",
+          "title": "天津蓟州：山水引客来 文旅消费旺",
+          "url": "https://www.news.cn/photo/20260808/3586a2a48eb449e2a0b24c00a6c0ea65/c.html",
+          "date": "2026-08-08",
+          "keyword": "消费"
+        },
         {
           "id": "2feb7a7e605088",
           "source": "中国政府网",
           "title": "前7月我国货物贸易进出口同比增长17.3%",
           "url": "https://www.gov.cn/lianbo/202608/content_7077717.htm",
           "date": "2026-08-08",
-          "keyword": "国货物贸易进"
+          "keyword": "综合时政"
         },
         {
           "id": "182f19e8c082dd",
@@ -58817,39 +58805,7 @@
           "title": "总书记的人民情怀 | “努力提升粮食能源资源安全保障能力”",
           "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7077718.htm",
           "date": "2026-08-08",
-          "keyword": "力提升粮食能"
-        },
-        {
-          "id": "9f5784c8c49073",
-          "source": "人民日报",
-          "title": "“努力提升粮食能源资源安全保障能力”（总书记的人民情怀）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/08/content_30173728.html",
-          "date": "2026-08-08",
-          "keyword": "力提升粮食能"
-        },
-        {
-          "id": "e1fab9a4542c27",
-          "source": "人民日报",
-          "title": "前7月我国货物贸易进出口同比增长17.3%",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/08/content_30173736.html",
-          "date": "2026-08-08",
-          "keyword": "国货物贸易进"
-        },
-        {
-          "id": "73e68122c271e3",
-          "source": "光明日报",
-          "title": "前7个月我国货物贸易进出口增长17.3%",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/08/content_21665.html",
-          "date": "2026-08-08",
-          "keyword": "国货物贸易进"
-        },
-        {
-          "id": "a487570cff834f",
-          "source": "求是",
-          "title": "“努力提升粮食能源资源安全保障能力”",
-          "url": "https://www.qstheory.cn/20260808/b8f1332df4094791a8cca3cfda858afb/c.html",
-          "date": "2026-08-08",
-          "keyword": "力提升粮食能"
+          "keyword": "综合时政"
         },
         {
           "id": "ff024c1e9d02b0",
@@ -58864,6 +58820,14 @@
           "source": "人民日报",
           "title": "“中文+”助力尼泊尔培养复合型人才",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/08/content_30173740.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9f5784c8c49073",
+          "source": "人民日报",
+          "title": "“努力提升粮食能源资源安全保障能力”（总书记的人民情怀）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/08/content_30173728.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -58976,6 +58940,14 @@
           "source": "人民日报",
           "title": "切实减轻教师非教育教学任务负担",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/08/content_30173750.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e1fab9a4542c27",
+          "source": "人民日报",
+          "title": "前7月我国货物贸易进出口同比增长17.3%",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/08/content_30173736.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59148,6 +59120,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "73e68122c271e3",
+          "source": "光明日报",
+          "title": "前7个月我国货物贸易进出口增长17.3%",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/08/content_21665.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d3d214306290e1",
           "source": "光明日报",
           "title": "南水北调中线工程调水突破800亿立方米",
@@ -59292,6 +59272,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "8f68c7739e4250",
+          "source": "新华社",
+          "title": "从“一捆发菜”到“万家发财”，山海同心铺就振兴路",
+          "url": "https://www.news.cn/politics/20260808/3a6f0f741d454e5ab611790a226c41e4/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "e9ba0a2872dcb8",
           "source": "新华社",
           "title": "从独自抗癌到带队健身，她用28年筑起“邻里港湾”",
@@ -59304,14 +59292,6 @@
           "source": "新华社",
           "title": "以媒：以色列拘留巴勒斯坦未成年人数量“显著增长”",
           "url": "https://www.news.cn/20260808/0b23dd90b01c44fd8b27e5c3a7bf775c/c.html",
-          "date": "2026-08-08",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "2ba0f4ba400b44",
-          "source": "新华社",
-          "title": "以媒：未落实更迭伊朗政权计划 摩萨德高官被解职",
-          "url": "https://www.news.cn/world/20260808/a0fa393f57c14afe8ddcd08123777763/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59340,10 +59320,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "a9395af978faf7",
+          "id": "d6ff0d5ac422ff",
           "source": "新华社",
-          "title": "八旬民宿主理人和她的石头画美术馆",
-          "url": "https://www.news.cn/photo/20260808/2000cbb9dc5d410cbbbdf5818568c769/c.html",
+          "title": "全球瞭望｜卢旺达媒体：高效的中国制造业让全球受益",
+          "url": "https://www.news.cn/20260808/bd93519675ed45528eba855437bc152d/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59376,14 +59356,6 @@
           "source": "新华社",
           "title": "加纳总统调整内阁 填补坠机事故所致空缺",
           "url": "https://www.news.cn/world/20260808/758b641fea1041ce948b109aa76ba2c6/c.html",
-          "date": "2026-08-08",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "6b43c7a0cdff4b",
-          "source": "新华社",
-          "title": "化妆品可“量肤定制” 进一步满足消费者个性化需求",
-          "url": "https://www.news.cn/fortune/20260808/6236bc8a10944bc5852142cd655eb30f/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59532,6 +59504,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "8eb88b31db1d4a",
+          "source": "新华社",
+          "title": "晨曦中的“帐篷城”",
+          "url": "https://www.news.cn/photo/20260808/e8a9a9fedace47a1a4a7371cba72abde/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d0a14ca436d81f",
           "source": "新华社",
           "title": "最好的健康是把运动融入日常",
@@ -59560,6 +59540,14 @@
           "source": "新华社",
           "title": "气候变化考验石窟保护",
           "url": "https://www.news.cn/politics/20260808/81615c62467d4e5cbe8658c20c98546d/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d4c0b56337e5c7",
+          "source": "新华社",
+          "title": "白宫宴会厅改造再遇阻 特朗普斥裁决“不公”",
+          "url": "https://www.news.cn/20260808/e69c72b8be9741e49f878d9f4186c81b/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59596,6 +59584,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "ad5db75cfd4854",
+          "source": "新华社",
+          "title": "童书创作国际对话会在加拿大举行",
+          "url": "https://www.news.cn/20260808/6b596f3c0fd94803a3f88686de84e588/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "3f953ac5d9b364",
           "source": "新华社",
           "title": "美一消防直升机在犹他州坠毁",
@@ -59612,6 +59608,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "9b4e282950db51",
+          "source": "新华社",
+          "title": "美媒：马斯克拒绝让乌克兰用“星链”打击俄境内目标",
+          "url": "https://www.news.cn/world/20260808/f8fc92d2e3ea4e19b105b13556f62a3e/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "3106719b00926c",
           "source": "新华社",
           "title": "美官员：预计霍尔木兹海峡协议将“很快达成”",
@@ -59624,6 +59628,14 @@
           "source": "新华社",
           "title": "行走拉美手记丨“7分钟快速约会”受到阿根廷年轻人青睐",
           "url": "https://www.news.cn/world/20260808/c55b1d0fb7144165a40ef665d98e5ae2/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0a5d4ef857696b",
+          "source": "新华社",
+          "title": "贝森特称霍尔木兹海峡将逐步失去战略重要性",
+          "url": "https://www.news.cn/20260808/48892cc6252d44bd987891a3d63ff8bf/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59660,6 +59672,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "a67ed31e6b0d62",
+          "source": "新华社",
+          "title": "雄安日记丨绿茵情谊传万里",
+          "url": "https://www.news.cn/local/20260808/2a4322e3cfc748219c5ae9653ca482cb/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1ef613fb1f4cdf",
           "source": "新华社",
           "title": "高温天科学运动指南",
@@ -59672,6 +59692,14 @@
           "source": "新华社",
           "title": "黎巴嫩：黎以谈判在边界问题等方面取得进展",
           "url": "https://www.news.cn/20260808/e6bec461fc0d4dfabccf2154e8ca0328/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a487570cff834f",
+          "source": "求是",
+          "title": "“努力提升粮食能源资源安全保障能力”",
+          "url": "https://www.qstheory.cn/20260808/b8f1332df4094791a8cca3cfda858afb/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59713,44 +59741,44 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 11.8,
+          "duration": 7.8,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260808.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.9
+          "duration": 2.5
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 52,
-          "duration": 2.5
+          "count": 59,
+          "duration": 2.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 15.7
+          "duration": 26.8
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 5,
-          "duration": 7.2
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 5.5
+          "duration": 1.9
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.9
+          "duration": 12.7
         },
         {
           "source": "学习强国",
@@ -59762,16 +59790,16 @@
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 10.0
+          "duration": 9.5
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 60.4
+          "duration": 59.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-08T12:51:39+08:00"
+  "generatedAt": "2026-08-08T13:39:22+08:00"
 }
