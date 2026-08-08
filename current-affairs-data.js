@@ -58782,10 +58782,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 2
         },
         {
-          "name": "宏福苑火灾跨",
-          "count": 2
-        },
-        {
           "name": "我国外汇储备",
           "count": 2
         },
@@ -58794,11 +58790,15 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 2
         },
         {
-          "name": "或由烟头引起",
+          "name": "月我国货物贸",
           "count": 2
         },
         {
-          "name": "月我国货物贸",
+          "name": "物贸易进出口",
+          "count": 2
+        },
+        {
+          "name": "货物贸易进出",
           "count": 2
         }
       ],
@@ -58834,22 +58834,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/08/content_21665.html",
           "date": "2026-08-08",
           "keyword": "国货物贸易进"
-        },
-        {
-          "id": "585627d36e4e46",
-          "source": "新华社",
-          "title": "香港宏福苑火灾跨部门调查最终报告：大火或由烟头引起",
-          "url": "https://www.news.cn/20260808/e0f3570603fc43e8a2178f1517398456/c.html",
-          "date": "2026-08-08",
-          "keyword": "宏福苑火灾跨"
-        },
-        {
-          "id": "b959c9cf47733f",
-          "source": "新华社",
-          "title": "香港宏福苑火灾跨部门调查最终报告：或由烟头引起",
-          "url": "https://www.news.cn/gangao/20260808/9298378dc62947c193605abfeb0700ae/c.html",
-          "date": "2026-08-08",
-          "keyword": "宏福苑火灾跨"
         },
         {
           "id": "ff024c1e9d02b0",
@@ -59244,6 +59228,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "8c88eddc488a2c",
+          "source": "新华社",
+          "title": "中国援古巴新一批家用太阳能设备项目交付首批物资",
+          "url": "https://www.news.cn/world/20260808/e209743800294abaaba84a0400d4029e/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "76ad72e48b8348",
+          "source": "新华社",
+          "title": "人民的健康、体质、幸福一脉相承",
+          "url": "https://www.news.cn/politics/xxjxs/20260808/648d2071351c4805b6001f9624671ad1/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "4126e8510b63a5",
           "source": "新华社",
           "title": "以媒：以色列拘留巴勒斯坦未成年人数量“显著增长”",
@@ -59260,18 +59260,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "3086817d991fdd",
+          "id": "75d86f91d96de3",
           "source": "新华社",
-          "title": "俄乌互袭对方黑海船只等军事目标",
-          "url": "https://www.news.cn/20260808/ea355c38ab7b4d24967d1e30708630a8/c.html",
+          "title": "具身智能是什么？怎样影响未来？",
+          "url": "https://www.news.cn/tech/20260808/02480c2b77f54347bab741d7827c738b/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
         {
-          "id": "1ae0079d03959d",
+          "id": "6b43c7a0cdff4b",
+          "source": "新华社",
+          "title": "化妆品可“量肤定制” 进一步满足消费者个性化需求",
+          "url": "https://www.news.cn/fortune/20260808/6236bc8a10944bc5852142cd655eb30f/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "35d4c7ec195e88",
           "source": "新华社",
           "title": "德拉埃斯普列亚宣誓就任哥伦比亚总统",
-          "url": "https://www.news.cn/20260808/8d382349b17949309d3d7949869bc811/c.html",
+          "url": "https://www.news.cn/world/20260808/14b752d7c3b04e248a05a2ef536bdd4c/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7f0ced5a0b331f",
+          "source": "新华社",
+          "title": "打造世界级海洋港口群",
+          "url": "https://www.news.cn/politics/leaders/20260808/7e5621e67d244269a9638e68d70a007d/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4e550b2c7dfe03",
+          "source": "新华社",
+          "title": "文物保护如何面对气候挑战",
+          "url": "https://www.news.cn/politics/20260808/b47a71b201314694ac55e4753d726af4/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ca7362173b57f3",
+          "source": "新华社",
+          "title": "气候变化考验石窟保护",
+          "url": "https://www.news.cn/politics/20260808/81615c62467d4e5cbe8658c20c98546d/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59284,6 +59316,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "3f953ac5d9b364",
+          "source": "新华社",
+          "title": "美一消防直升机在犹他州坠毁",
+          "url": "https://www.news.cn/20260808/19e12c1ea16d4feba1b2c3be4207115b/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "3d6168a1c071a9",
           "source": "新华社",
           "title": "美参议院通过对俄制裁新法案",
@@ -59292,10 +59332,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "91852134f82f63",
+          "id": "d5ae78524fc62d",
+          "source": "新华社",
+          "title": "美媒：五角大楼拟年底前首次测试“金穹”反导系统",
+          "url": "https://www.news.cn/world/20260808/c084bf8b92474f12a96ff0da248602be/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ee74c58d0d844e",
           "source": "新华社",
           "title": "西班牙将对来自意大利旅客实施临时边检措施",
-          "url": "https://www.news.cn/world/20260808/fd2a50841ee04fa589b6fa28ec84b219/c.html",
+          "url": "https://www.news.cn/20260808/96668412ed6b4dc2b8b3fc749d11045c/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59306,6 +59354,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/world/20260808/ff6cda9acef8478aa455ae34d6dea350/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
+        },
+        {
+          "id": "b959c9cf47733f",
+          "source": "新华社",
+          "title": "香港宏福苑火灾跨部门调查最终报告：或由烟头引起",
+          "url": "https://www.news.cn/gangao/20260808/9298378dc62947c193605abfeb0700ae/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "42560cf644a481",
+          "source": "新华社",
+          "title": "黎巴嫩：黎以谈判在边界问题等方面取得进展",
+          "url": "https://www.news.cn/world/20260808/a89659fa2a2b4d25be2af7a289700eac/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -59313,65 +59377,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.5,
+          "duration": 10.8,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260808.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 2.1
+          "duration": 2.5
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 10,
-          "duration": 3.0
+          "count": 18,
+          "duration": 2.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 20.0
+          "duration": 14.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 5.9
+          "duration": 6.6
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 2.2
+          "duration": 2.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.7
+          "duration": 13.8
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.9
+          "duration": 3.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.9
+          "duration": 9.9
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 47.7
+          "duration": 61.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-08T07:37:46+08:00"
+  "generatedAt": "2026-08-08T09:08:13+08:00"
 };
