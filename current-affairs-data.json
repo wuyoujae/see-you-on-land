@@ -58774,6 +58774,10 @@
           "count": 4
         },
         {
+          "name": "习近平党建思想",
+          "count": 2
+        },
+        {
           "name": "人工智能",
           "count": 2
         },
@@ -58836,6 +58840,14 @@
           "keyword": "人工智能"
         },
         {
+          "id": "921a641a0f60f3",
+          "source": "新华社",
+          "title": "以强烈的使命担当勇担复兴重任——习近平党建思想理论品格系列述评之四",
+          "url": "https://www.news.cn/politics/leaders/20260808/70373e1cee7c40918aafd2a55bda9ef6/c.html",
+          "date": "2026-08-08",
+          "keyword": "习近平党建思想"
+        },
+        {
           "id": "4f836662ab54bc",
           "source": "新闻联播",
           "title": "【一线调研】轨道串起消费新活力",
@@ -58850,6 +58862,14 @@
           "url": "https://tv.cctv.com/2026/08/08/VIDEUoqNO0e8EkoIWhU9KcRd260808.shtml",
           "date": "2026-08-08",
           "keyword": "教育"
+        },
+        {
+          "id": "b0a7ab8a3be035",
+          "source": "求是",
+          "title": "以鲜明的问题导向加强自身建设——习近平党建思想理论品格系列述评之三",
+          "url": "https://www.qstheory.cn/20260808/0f0b161ae4c1449292790c003559ad8e/c.html",
+          "date": "2026-08-08",
+          "keyword": "习近平党建思想"
         },
         {
           "id": "2feb7a7e605088",
@@ -59284,14 +59304,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "4ce76ae288ed17",
-          "source": "新华社",
-          "title": "“加长版”中伏，教你如何科学健身",
-          "url": "https://www.news.cn/politics/20260808/10c8fb32494c483184e0f2a6aca994bd/c.html",
-          "date": "2026-08-08",
-          "keyword": "综合时政"
-        },
-        {
           "id": "6034f90ccc687d",
           "source": "新华社",
           "title": "“白海豚”路径为何多变",
@@ -59556,14 +59568,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "7eee741b96d52f",
-          "source": "新华社",
-          "title": "水利部将针对浙江洪水防御应急响应提升至Ⅲ级",
-          "url": "https://www.news.cn/politics/20260808/a7e78dacb36c4bb6956ea054ef701d19/c.html",
-          "date": "2026-08-08",
-          "keyword": "综合时政"
-        },
-        {
           "id": "64ec21ae921107",
           "source": "新华社",
           "title": "水利部部署台风“白海豚”暴雨洪水防御工作",
@@ -59576,6 +59580,14 @@
           "source": "新华社",
           "title": "河南西平县杀人嫌犯落网",
           "url": "https://www.news.cn/legal/20260808/1a4d54d3c3354cd692f5fa9231fa4a84/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7eee741b96d52f",
+          "source": "新华社",
+          "title": "浙江洪水防御Ⅲ级应急响应",
+          "url": "https://www.news.cn/politics/20260808/a7e78dacb36c4bb6956ea054ef701d19/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59700,14 +59712,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "78ddc32e4bc54f",
-          "source": "新华社",
-          "title": "避免联邦政府“停摆” 美参议院通过临时拨款法案",
-          "url": "https://www.news.cn/world/20260808/3b35daac43224fb686c87a39ec9b5ec3/c.html",
-          "date": "2026-08-08",
-          "keyword": "综合时政"
-        },
-        {
           "id": "efe41d8eca4670",
           "source": "新华社",
           "title": "铸魂强党丨坚持以党性立身做事",
@@ -59728,6 +59732,14 @@
           "source": "新华社",
           "title": "防灾害强田管 多地秋粮生产一线见闻",
           "url": "https://www.news.cn/politics/20260808/9f2effa1fc634f64b93057dbbfbed81a/c.html",
+          "date": "2026-08-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f1cfd11a96fb7f",
+          "source": "新华社",
+          "title": "降水极端性突出",
+          "url": "https://www.news.cn/politics/20260808/f6bd432bf29a446f94f3b9472c369b48/c.html",
           "date": "2026-08-08",
           "keyword": "综合时政"
         },
@@ -59860,14 +59872,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "b0a7ab8a3be035",
-          "source": "求是",
-          "title": "以鲜明的问题导向加强自身建设——习近平党建思想理论品格系列述评之三",
-          "url": "https://www.qstheory.cn/20260808/0f0b161ae4c1449292790c003559ad8e/c.html",
-          "date": "2026-08-08",
-          "keyword": "综合时政"
-        },
-        {
           "id": "e2568cd87b77d7",
           "source": "求是",
           "title": "日本《防卫白皮书》暴露高市谋求“军事国家”图谋",
@@ -59881,64 +59885,64 @@
           "source": "新闻联播",
           "status": "ok",
           "count": 14,
-          "duration": 0.8
+          "duration": 0.6
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 2.1
+          "duration": 1.5
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.9
+          "duration": 2.8
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 1,
-          "duration": 26.2
+          "duration": 46.6
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 5,
-          "duration": 6.0
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 1.8
+          "duration": 2.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.2
+          "duration": 15.0
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.5
+          "duration": 3.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 9.9
+          "duration": 10.5
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 57.7
+          "duration": 78.6
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-08T22:27:20+08:00"
+  "generatedAt": "2026-08-08T23:25:43+08:00"
 }
