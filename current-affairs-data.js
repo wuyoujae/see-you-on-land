@@ -59945,14 +59945,18 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-08-09",
-      "keyword": "消费",
+      "keyword": "习近平党建思想",
       "keywords": [
         {
-          "name": "消费",
-          "count": 3
+          "name": "习近平党建思想",
+          "count": 2
         },
         {
           "name": "暴雨",
+          "count": 2
+        },
+        {
+          "name": "消费",
           "count": 2
         },
         {
@@ -59961,6 +59965,14 @@ window.CURRENT_AFFAIRS_DATA = {
         }
       ],
       "articles": [
+        {
+          "id": "ed15a507d8ea6b",
+          "source": "人民日报",
+          "title": "为生物医药企业创新省时省钱（经济新方位·服务业扩能提质）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/09/content_30173785.html",
+          "date": "2026-08-09",
+          "keyword": "经济"
+        },
         {
           "id": "d2c12055209c78",
           "source": "人民日报",
@@ -59976,22 +59988,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/09/content_30173781.html",
           "date": "2026-08-09",
           "keyword": "消费"
-        },
-        {
-          "id": "443904456a18d1",
-          "source": "新华社",
-          "title": "“-6℃的夏天”如何“燃”起消费热？",
-          "url": "https://www.news.cn/sports/20260809/c27f8a1eecad471faaeb1a7db9541fc0/c.html",
-          "date": "2026-08-09",
-          "keyword": "消费"
-        },
-        {
-          "id": "ed15a507d8ea6b",
-          "source": "人民日报",
-          "title": "为生物医药企业创新省时省钱（经济新方位·服务业扩能提质）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/09/content_30173785.html",
-          "date": "2026-08-09",
-          "keyword": "经济"
         },
         {
           "id": "85ad2fad7b40fc",
@@ -60010,12 +60006,28 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "暴雨"
         },
         {
+          "id": "3f52dc6913c1de",
+          "source": "新华社",
+          "title": "习近平党建思想理论品格系列述评：以深厚的为民情怀增进人民福祉",
+          "url": "https://www.news.cn/politics/leaders/20260809/ed70cc68e3db4ef9a3b0afe9768bdaeb/c.html",
+          "date": "2026-08-09",
+          "keyword": "习近平党建思想"
+        },
+        {
           "id": "13fcb1cc37af5e",
           "source": "新华社",
           "title": "受台风影响 上海针对多区发布暴雨红色预警",
           "url": "https://www.news.cn/20260809/412ec3632bcd4d9fa88ddf75842a4ffc/c.html",
           "date": "2026-08-09",
           "keyword": "暴雨"
+        },
+        {
+          "id": "ee5efe9e921801",
+          "source": "求是",
+          "title": "以强烈的使命担当勇担复兴重任 ——习近平党建思想理论品格系列述评之四",
+          "url": "https://www.qstheory.cn/20260809/550416ff34264ec389947d40f605591e/c.html",
+          "date": "2026-08-09",
+          "keyword": "习近平党建思想"
         },
         {
           "id": "5a59d6c535d8e4",
@@ -60506,6 +60518,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "b627881ae051e6",
+          "source": "新华社",
+          "title": "从“单项选择”到“两翼齐飞”——体教融合赋能青少年足球学训并重",
+          "url": "https://www.news.cn/sports/20260809/0c35db89405d4dae970341955cdf9a89/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "75acebe24c0bd8",
           "source": "新华社",
           "title": "伊外长称目前伊美没有进行任何谈判",
@@ -60578,10 +60598,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d9853696440141",
+          "id": "9f57976bce385f",
           "source": "新华社",
-          "title": "台风“白海豚”在浙江玉环登陆 最大风力14级",
-          "url": "https://www.news.cn/local/20260809/0a90c99b431f4210bfb15a106bfd1e23/c.html",
+          "title": "台风“白海豚”在浙江乐清二次登陆",
+          "url": "https://www.news.cn/politics/20260809/c238c7193b5245ae9058f00d36a5063a/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60698,14 +60718,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "5f261ca11f836d",
-          "source": "新华社",
-          "title": "杭州机场取消航班388架次",
-          "url": "https://www.news.cn/local/20260809/9750dd80fb5546748e249785ef420cc1/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "af40568d38dbdd",
           "source": "新华社",
           "title": "极端天气已致菲律宾逾38万人受灾、6人死亡",
@@ -60778,6 +60790,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "da40c4894f57da",
+          "source": "新华社",
+          "title": "田间地头收获忙",
+          "url": "https://www.news.cn/photo/20260809/e70ab5b3d1f343d582ec0245da423832/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "25003c5fbda986",
           "source": "新华社",
           "title": "福建防台风应急响应升至二级",
@@ -60794,6 +60814,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "268d4ddad01e5a",
+          "source": "新华社",
+          "title": "警惕“风雨潮三碰头”叠加风险",
+          "url": "https://www.news.cn/politics/20260809/805d25ea3df9440f94bb749436a94735/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "7050970b266b9a",
           "source": "新华社",
           "title": "记者手记丨非洲三个“几内亚”的中国印记",
@@ -60802,26 +60830,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "e42c5745b1bb9c",
-          "source": "新华社",
-          "title": "货运火车的“分拣中心”，你见过吗？",
-          "url": "https://www.news.cn/politics/20260809/dafc49cb70754d018863ac55f0ca98a0/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "432dfc8f9cb193",
           "source": "新华社",
           "title": "走进传感谷 感知“芯”动能",
           "url": "https://www.news.cn/tech/20260809/404ac3b090df47c69e5eaa2c2281e233/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "28bd3563d1676b",
-          "source": "新华社",
-          "title": "近50只东方白鹳组团“下馆子”",
-          "url": "https://www.news.cn/local/20260809/d613ea78c4264792a756e0dcd78a2df4/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60862,14 +60874,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "高市早苗再度对“无核三原则”含糊表态",
           "url": "https://www.news.cn/20260809/b7fb3acbc0824da09a93e2d43f91e5fa/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "ee5efe9e921801",
-          "source": "求是",
-          "title": "以强烈的使命担当勇担复兴重任 ——习近平党建思想理论品格系列述评之四",
-          "url": "https://www.qstheory.cn/20260809/550416ff34264ec389947d40f605591e/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60919,65 +60923,66 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 12.1,
+          "duration": 18.5,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260809.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.7
+          "duration": 2.2
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.9
+          "duration": 2.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 16.9
+          "duration": 38.2
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 6,
-          "duration": 6.1
+          "duration": 6.3
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 29,
-          "duration": 2.1
+          "duration": 2.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.2
+          "duration": 13.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.6
+          "duration": 2.8
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.6
+          "duration": 8.4
         },
         {
           "source": "广东发布",
-          "status": "ok",
+          "status": "stale",
           "count": 2,
-          "duration": 73.8
+          "duration": 20.0,
+          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-09T18:28:29+08:00"
+  "generatedAt": "2026-08-09T19:24:06+08:00"
 };
