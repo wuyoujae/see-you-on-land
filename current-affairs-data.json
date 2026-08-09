@@ -59956,15 +59956,7 @@
           "count": 2
         },
         {
-          "name": "暴雨",
-          "count": 2
-        },
-        {
           "name": "经济",
-          "count": 2
-        },
-        {
-          "name": "高温",
           "count": 2
         }
       ],
@@ -60010,44 +60002,12 @@
           "keyword": "经济"
         },
         {
-          "id": "00ba49f6835566",
-          "source": "新华社",
-          "title": "上海针对多区发布暴雨红色预警",
-          "url": "https://www.news.cn/local/20260809/427ca55e297f47c19b0367e52511cb5f/c.html",
-          "date": "2026-08-09",
-          "keyword": "暴雨"
-        },
-        {
           "id": "17d0e875c0d747",
           "source": "新华社",
           "title": "两部门发文促进可再生能源高质量发展 解读",
           "url": "https://www.news.cn/fortune/20260809/46acd22c65d9452cae269601681f8516/c.html",
           "date": "2026-08-09",
           "keyword": "高质量发展"
-        },
-        {
-          "id": "13fcb1cc37af5e",
-          "source": "新华社",
-          "title": "受台风影响 上海针对多区发布暴雨红色预警",
-          "url": "https://www.news.cn/20260809/412ec3632bcd4d9fa88ddf75842a4ffc/c.html",
-          "date": "2026-08-09",
-          "keyword": "暴雨"
-        },
-        {
-          "id": "6dfd2052b5942b",
-          "source": "新华社",
-          "title": "杭州连续25天的高温结束 中东部暑热范围继续缩减",
-          "url": "https://www.news.cn/politics/20260809/ef9a11cf30244a8385505faff1673a57/c.html",
-          "date": "2026-08-09",
-          "keyword": "高温"
-        },
-        {
-          "id": "0c555d5bcc88a6",
-          "source": "新华社",
-          "title": "高温天气电动自行车充电需注意安全",
-          "url": "https://www.news.cn/politics/20260809/41209e050273426b94ec6045d456cedb/c.html",
-          "date": "2026-08-09",
-          "keyword": "高温"
         },
         {
           "id": "5a59d6c535d8e4",
@@ -60450,26 +60410,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "107bf763b409df",
-          "source": "新华社",
-          "title": "1872香港少年作家班的青春笔墨",
-          "url": "https://www.news.cn/gangao/20260809/b60cc44b7c104d79a88c10aba5820033/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "32c89431471691",
           "source": "新华社",
           "title": "7月份CPI同比上涨0.5%",
           "url": "https://www.news.cn/fortune/20260809/bc546082db0c4bb3bd2e8a67363198ae/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "469a3e90571eb6",
-          "source": "新华社",
-          "title": "7月份我国CPI同比上涨0.5%",
-          "url": "https://www.news.cn/20260809/308042fd78cf4908a5c973c76843a970/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60482,10 +60426,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "c908953af784d0",
+          "id": "7ddd2bb99af03d",
           "source": "新华社",
-          "title": "“枪口对准了我”，记者直击以军巴勒斯坦军事行动",
-          "url": "https://www.news.cn/world/20260809/2ff3e70fd84d447095dc07742a3802fc/c.html",
+          "title": "“沉下去”“转到位”“强保障”——浙江防范台风“白海豚”一线扫描",
+          "url": "https://www.news.cn/local/20260809/82f7f6bb941e49c8a72f7e2df500d69f/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e6c615105016a5",
+          "source": "新华社",
+          "title": "“白海豚”与此前的“巴威”有何异同？",
+          "url": "https://www.news.cn/local/20260809/8135e91186444320abef0cfd1039d880/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60498,18 +60450,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "37bae1df846dbb",
+          "id": "b90cc0f0720520",
           "source": "新华社",
-          "title": "“白海豚”逼近 福建将防台风应急响应提升至二级",
-          "url": "https://www.news.cn/20260809/2f939e3e2d1141a380ba57b298a028a5/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "59d4f1794d1bf2",
-          "source": "新华社",
-          "title": "“白海豚”风雨影响广、生命史超15天 台风红色预警发布",
-          "url": "https://www.news.cn/politics/20260809/a5d771365b5e4c8a88e323a54a2f5ca1/c.html",
+          "title": "万斯称美伊冲突仍处于“博弈中段”",
+          "url": "https://www.news.cn/20260809/1e9a9d786d61412885d25ebd53a532a2/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60530,10 +60474,26 @@
           "keyword": "综合时政"
         },
         {
+          "id": "00ba49f6835566",
+          "source": "新华社",
+          "title": "上海针对多区发布暴雨红色预警",
+          "url": "https://www.news.cn/local/20260809/427ca55e297f47c19b0367e52511cb5f/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "2563c457a524c0",
           "source": "新华社",
           "title": "专访丨中国零关税举措开启中非经贸合作新阶段",
           "url": "https://www.news.cn/world/20260809/fb548f8612564cf288a36721e0d58525/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fba29a7edf76f9",
+          "source": "新华社",
+          "title": "中国代表队首次参加国际核科学奥赛 获一金三银",
+          "url": "https://www.news.cn/world/20260809/fd54e35d2d57443d99b21e3eeec2b3a5/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60546,6 +60506,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "e54c8b79591af8",
+          "source": "新华社",
+          "title": "中国第16次北冰洋考察队“雪龙2”号开始冰站调查",
+          "url": "https://www.news.cn/tech/20260809/2d1d8dc294db41c18ea42dc2f53761e5/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "b3adbe8e4baf30",
           "source": "新华社",
           "title": "中国过敏防治周丨关注严重过敏反应 加强早期识别",
@@ -60554,18 +60522,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "3e6fac5640e241",
+          "id": "c86534d91b80f2",
           "source": "新华社",
-          "title": "中央气象台发布台风红色预警 为何发布最高级别预警",
-          "url": "https://www.news.cn/20260809/ebd67418e1fd403baf4f03c81ce36004/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "f85d671fadb95a",
-          "source": "新华社",
-          "title": "伊朗：重开霍尔木兹海峡的前提是美国满足5个条件",
-          "url": "https://www.news.cn/20260809/c7f91d0d0f5941cebfda32430b750259/c.html",
+          "title": "以媒：美军中央司令部司令访以讨论“多战线局势”",
+          "url": "https://www.news.cn/20260809/9f76b3fb99044be8bc66e79affc73ecb/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60586,14 +60546,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "73af4d2f9e6b41",
-          "source": "新华社",
-          "title": "养殖滩涂变身水上运动聚集地",
-          "url": "https://www.news.cn/local/20260809/e32a6a506a534473a477f7305ab6119d/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "515f58bea0df53",
           "source": "新华社",
           "title": "内蒙古自治区体育局原党组成员、副局长吴刚严重违纪违法被开除党籍",
@@ -60610,10 +60562,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "5a239dc82d4162",
+          "id": "59d4f1794d1bf2",
           "source": "新华社",
-          "title": "北京举办第三届养老护理职业技能大赛",
-          "url": "https://www.news.cn/20260809/4aa5c72ad02948a9ac99d0e681b1a39e/c.html",
+          "title": "台风红色预警发布",
+          "url": "https://www.news.cn/politics/20260809/a5d771365b5e4c8a88e323a54a2f5ca1/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60642,6 +60594,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "9c7fc489434a38",
+          "source": "新华社",
+          "title": "土外长称沙土巴三国共同防务协议有望扩员",
+          "url": "https://www.news.cn/20260809/9a3d0ff04d2141eb89b77a3b52a43893/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "88199f8e347536",
           "source": "新华社",
           "title": "地质灾害橙警",
@@ -60650,18 +60610,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "ca3b845b27b9d7",
-          "source": "新华社",
-          "title": "外国青年在山东青岛度过“考古之夏”",
-          "url": "https://www.news.cn/20260809/3279319e28ed4026a3d9e95d15a0bfe2/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "61473f8e141507",
           "source": "新华社",
           "title": "尼日尔两辆客车相撞致22死37伤",
           "url": "https://www.news.cn/world/20260809/b6807e0e7a1146d981d6a87f906f6535/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cfd2c4ab82f9ca",
+          "source": "新华社",
+          "title": "巴西里约发生直升机坠毁事故 至少4人死亡",
+          "url": "https://www.news.cn/20260809/9ee176cdc14a449595bb8ca84a248d26/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60690,34 +60650,34 @@
           "keyword": "综合时政"
         },
         {
-          "id": "b537a2447eaabb",
+          "id": "131146f21b2e6c",
           "source": "新华社",
-          "title": "拜登之子：拜登的癌症进一步扩散",
-          "url": "https://www.news.cn/20260809/edfedcd9901a4e19be6eb05074bf5314/c.html",
+          "title": "日本岩手县近海发生5.6级地震",
+          "url": "https://www.news.cn/20260809/1b5ecb85f88445c4b6c20f6bd51ca465/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
         {
-          "id": "e8f256daee1267",
-          "source": "新华社",
-          "title": "新华健康丨户外防虫怎么做？这些 情况 请及时就诊",
-          "url": "https://www.news.cn/politics/20260809/5e71d038623f4b06a2ceb6e15b996dd1/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "405273684d51f7",
+          "id": "deba530d1766fd",
           "source": "新华社",
           "title": "日本长野县山体滑坡或致约390人被困",
-          "url": "https://www.news.cn/20260809/336c5d4ce9cb4228bd695e2c3a4c3d13/c.html",
+          "url": "https://www.news.cn/world/20260809/fefc610b1878416e801625852a781f73/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
         {
-          "id": "1a8f0c0bc0e1b5",
+          "id": "cb71961dc6b888",
           "source": "新华社",
-          "title": "日本长野县山体滑坡疑似390人被困",
-          "url": "https://www.news.cn/20260809/227e44cc70504db0a792e4218083600a/c.html",
+          "title": "明日之星冠军杯决赛取消 U17国足、阿森纳并列冠军",
+          "url": "https://www.news.cn/sports/20260809/c3d55dded1844f1c8878174752dce67e/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9032c3e5b58cc0",
+          "source": "新华社",
+          "title": "武契奇会晤泽连斯基 双方同意深化经贸合作",
+          "url": "https://www.news.cn/20260809/aa62b83d885b428b8e0d3597f1f8b661/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60754,14 +60714,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "7bb74b11656fbb",
-          "source": "新华社",
-          "title": "浙江防台风应急响应提升至Ⅰ级 沿海严阵以待应对“白海豚”来袭",
-          "url": "https://www.news.cn/local/20260809/53dd3e0c44a0494788a20adfe3d34a7b/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "a91335f39f0d93",
           "source": "新华社",
           "title": "生猪养殖户有了兜底保障 这份收入险“新”在哪？",
@@ -60778,10 +60730,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "b751a6bf461ef5",
+          "id": "c2c8fa1b2bebab",
           "source": "新华社",
-          "title": "美国国防部被曝要求军工企业“大幅加快”武器生产",
-          "url": "https://www.news.cn/20260809/df1af3bc5ed0485d8a5b36bbedb59d2e/c.html",
+          "title": "秘鲁南部发生交通事故致至少13人死亡",
+          "url": "https://www.news.cn/20260809/887626e35d134c3d89b5451b1c582e6d/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60794,10 +60746,34 @@
           "keyword": "综合时政"
         },
         {
+          "id": "1e1950b9f0d1d4",
+          "source": "新华社",
+          "title": "美媒：美“爱国者”导弹库存不足1700枚",
+          "url": "https://www.news.cn/20260809/89440825bb654c518493067314551e91/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "93bb587e630943",
+          "source": "新华社",
+          "title": "美消防部门证实：犹他州消防直升机坠毁致两人遇难",
+          "url": "https://www.news.cn/20260809/8d44ae13948e4d2fb5b63c082236134c/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "8050c1e7ae6f52",
           "source": "新华社",
           "title": "记者手记丨从防洪到抗旱，荷兰经历气候变化之痛",
           "url": "https://www.news.cn/world/20260809/92bd119220c146fbbf8b9331df9026ef/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e42c5745b1bb9c",
+          "source": "新华社",
+          "title": "货运火车的“分拣中心”，你见过吗？",
+          "url": "https://www.news.cn/politics/20260809/dafc49cb70754d018863ac55f0ca98a0/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60818,6 +60794,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "28bd3563d1676b",
+          "source": "新华社",
+          "title": "近50只东方白鹳组团“下馆子”",
+          "url": "https://www.news.cn/local/20260809/d613ea78c4264792a756e0dcd78a2df4/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "cf7738879571ea",
           "source": "新华社",
           "title": "铸魂强党丨健全上下贯通执行有力的组织体系",
@@ -60826,10 +60810,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "c233dbbccf9667",
+          "id": "818c448c015d81",
           "source": "新华社",
-          "title": "防御台风“白海豚” 江西启动防汛四级应急响应",
-          "url": "https://www.news.cn/20260809/358f13010e344bd6b586d405d5776709/c.html",
+          "title": "陕西柞水：灾后重建进行时",
+          "url": "https://www.news.cn/local/20260809/655ae30581bc499fa535c5de8ac18bd2/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60862,6 +60846,14 @@
           "source": "新华社",
           "title": "高招选专业，究竟在选什么？别因“热门”窄化“热爱”",
           "url": "https://www.news.cn/politics/20260809/aeabdda0e6084ee8a36b42c236d64463/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0c555d5bcc88a6",
+          "source": "新华社",
+          "title": "高温天气电动自行车充电需注意安全",
+          "url": "https://www.news.cn/politics/20260809/41209e050273426b94ec6045d456cedb/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60927,65 +60919,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 10.2,
+          "duration": 6.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260809.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 6.2
+          "duration": 1.7
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.3
+          "duration": 2.8
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 16.2
+          "duration": 33.1
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 6,
-          "duration": 6.2
+          "duration": 6.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 29,
-          "duration": 1.5
+          "duration": 4.4
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.3
+          "duration": 13.0
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.5
+          "duration": 2.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 13.2
+          "duration": 12.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 74.9
+          "duration": 60.0
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-09T13:49:25+08:00"
+  "generatedAt": "2026-08-09T14:45:25+08:00"
 }
