@@ -59952,7 +59952,7 @@
           "count": 3
         },
         {
-          "name": "高质量发展",
+          "name": "暴雨",
           "count": 2
         },
         {
@@ -60002,12 +60002,20 @@
           "keyword": "经济"
         },
         {
-          "id": "17d0e875c0d747",
+          "id": "00ba49f6835566",
           "source": "新华社",
-          "title": "两部门发文促进可再生能源高质量发展 解读",
-          "url": "https://www.news.cn/fortune/20260809/46acd22c65d9452cae269601681f8516/c.html",
+          "title": "上海发布暴雨红色预警",
+          "url": "https://www.news.cn/local/20260809/427ca55e297f47c19b0367e52511cb5f/c.html",
           "date": "2026-08-09",
-          "keyword": "高质量发展"
+          "keyword": "暴雨"
+        },
+        {
+          "id": "87319e3095c3a0",
+          "source": "新华社",
+          "title": "暴雨强风威胁逼近",
+          "url": "https://www.news.cn/politics/20260809/d2a48324e0904b93862cf7b5c6eb643f/c.html",
+          "date": "2026-08-09",
+          "keyword": "暴雨"
         },
         {
           "id": "5a59d6c535d8e4",
@@ -60426,22 +60434,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "7ddd2bb99af03d",
-          "source": "新华社",
-          "title": "“沉下去”“转到位”“强保障”——浙江防范台风“白海豚”一线扫描",
-          "url": "https://www.news.cn/local/20260809/82f7f6bb941e49c8a72f7e2df500d69f/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "e6c615105016a5",
-          "source": "新华社",
-          "title": "“白海豚”与此前的“巴威”有何异同？",
-          "url": "https://www.news.cn/local/20260809/8135e91186444320abef0cfd1039d880/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "eaf63c1c5f7fed",
           "source": "新华社",
           "title": "“白海豚”来袭 对北京影响几何",
@@ -60474,10 +60466,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "00ba49f6835566",
+          "id": "e6c615105016a5",
           "source": "新华社",
-          "title": "上海针对多区发布暴雨红色预警",
-          "url": "https://www.news.cn/local/20260809/427ca55e297f47c19b0367e52511cb5f/c.html",
+          "title": "与“巴威”有何异同？",
+          "url": "https://www.news.cn/local/20260809/8135e91186444320abef0cfd1039d880/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60514,10 +60506,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "b3adbe8e4baf30",
+          "id": "e1009a8c06de3d",
           "source": "新华社",
-          "title": "中国过敏防治周丨关注严重过敏反应 加强早期识别",
-          "url": "https://www.news.cn/local/20260809/5e8419034af3495bb763e3355b4f3f88/c.html",
+          "title": "人形机器人在深圳多场景“上岗”",
+          "url": "https://www.news.cn/photo/20260809/2718db80a441469ea87dda9be2e7ca4d/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60562,10 +60554,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "59d4f1794d1bf2",
+          "id": "7a9f22eb786362",
           "source": "新华社",
-          "title": "台风红色预警发布",
-          "url": "https://www.news.cn/politics/20260809/a5d771365b5e4c8a88e323a54a2f5ca1/c.html",
+          "title": "印尼一火山景区因山火关闭 我领馆提醒公民勿前往",
+          "url": "https://www.news.cn/20260809/b409235120e945a098455726bd3bd494/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b1107e93381234",
+          "source": "新华社",
+          "title": "台风 “白海豚” 逼近 多地积极做好防范应对",
+          "url": "https://www.news.cn/politics/20260809/8444f84aac2847f9a969e774e2fed84c/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60580,8 +60580,16 @@
         {
           "id": "153c2efc9cd5a0",
           "source": "新华社",
-          "title": "国安普法小剧场之“腾空记”：为赚 流量 闯禁区 黑飞偷拍切莫为",
+          "title": "国安普法：为赚流量闯禁区 黑飞偷拍切莫为",
           "url": "https://www.news.cn/legal/20260809/6d692ac2f36f472d81073ac19f29e1a7/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8737b4ccb06b5e",
+          "source": "新华社",
+          "title": "国防部征兵办公室印发征兵工作人员职业道德准则",
+          "url": "https://www.news.cn/politics/20260809/04500f467cf949cabb309168966975b1/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60602,18 +60610,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "88199f8e347536",
+          "id": "e3d97d088df504",
           "source": "新华社",
-          "title": "地质灾害橙警",
-          "url": "https://www.news.cn/politics/20260809/c4d21b3e54624e99b59088e7ea1ece03/c.html",
+          "title": "宁夏：花粉过敏季即将到来，专家提示科学应对",
+          "url": "https://www.news.cn/politics/20260809/6761ca1a76024c5ebff363db45f830e4/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
         {
-          "id": "61473f8e141507",
+          "id": "023f7c65ff4df3",
           "source": "新华社",
           "title": "尼日尔两辆客车相撞致22死37伤",
-          "url": "https://www.news.cn/world/20260809/b6807e0e7a1146d981d6a87f906f6535/c.html",
+          "url": "https://www.news.cn/20260809/a9e1ef3675944c43a9d8d7b11d163fe8/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60634,6 +60642,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "f2abee6f900675",
+          "source": "新华社",
+          "title": "微纪录片丨不老顽童",
+          "url": "https://www.news.cn/local/20260809/1ffe7df39e4442c190d59c3f1e352a6e/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "016aeec92e0afd",
           "source": "新华社",
           "title": "我国渤海首个千亿方大气田一期开发项目全面投产",
@@ -60650,6 +60666,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "2d20590d56db8a",
+          "source": "新华社",
+          "title": "日本一核电机组因发电机报警自动停运",
+          "url": "https://www.news.cn/world/20260809/883ef9632cf34c3bb73da17d02f93c83/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "131146f21b2e6c",
           "source": "新华社",
           "title": "日本岩手县近海发生5.6级地震",
@@ -60658,10 +60682,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "deba530d1766fd",
+          "id": "405273684d51f7",
           "source": "新华社",
           "title": "日本长野县山体滑坡或致约390人被困",
-          "url": "https://www.news.cn/world/20260809/fefc610b1878416e801625852a781f73/c.html",
+          "url": "https://www.news.cn/20260809/336c5d4ce9cb4228bd695e2c3a4c3d13/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60698,18 +60722,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "d14aff3647949e",
-          "source": "新华社",
-          "title": "河北任丘：非遗亲子课堂解锁暑期新体验",
-          "url": "http://he.news.cn/20260809/ba020bce7a7e4e5b9c7553ea23d65225/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "aeead37710d3e6",
           "source": "新华社",
           "title": "浙江宁波：“兴村八事”“强社八法”推动共富善治",
           "url": "https://www.news.cn/local/20260809/8e242315ab1a4da4b4ce2f3131d56405/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7ddd2bb99af03d",
+          "source": "新华社",
+          "title": "浙江防台风一线扫描",
+          "url": "https://www.news.cn/local/20260809/82f7f6bb941e49c8a72f7e2df500d69f/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60724,7 +60748,7 @@
         {
           "id": "25003c5fbda986",
           "source": "新华社",
-          "title": "福建防台风应急响应提升至二级",
+          "title": "福建防台风应急响应升至二级",
           "url": "https://www.news.cn/local/20260809/5843637c1ab34d45bc42138df3b5a803/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
@@ -60734,6 +60758,14 @@
           "source": "新华社",
           "title": "秘鲁南部发生交通事故致至少13人死亡",
           "url": "https://www.news.cn/20260809/887626e35d134c3d89b5451b1c582e6d/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fdecc9da7db392",
+          "source": "新华社",
+          "title": "红色预警：“白海豚”即将登陆我国 路径渐清晰",
+          "url": "https://www.news.cn/politics/20260809/b4894452a0094388a3f4ce5c5cbee356/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60794,14 +60826,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "28bd3563d1676b",
-          "source": "新华社",
-          "title": "近50只东方白鹳组团“下馆子”",
-          "url": "https://www.news.cn/local/20260809/d613ea78c4264792a756e0dcd78a2df4/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "cf7738879571ea",
           "source": "新华社",
           "title": "铸魂强党丨健全上下贯通执行有力的组织体系",
@@ -60810,26 +60834,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "818c448c015d81",
-          "source": "新华社",
-          "title": "陕西柞水：灾后重建进行时",
-          "url": "https://www.news.cn/local/20260809/655ae30581bc499fa535c5de8ac18bd2/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "7a3f1d077e9ad6",
           "source": "新华社",
           "title": "雨天出行，这些汛期安全细节别忽视",
           "url": "https://www.news.cn/politics/20260809/a7af27687cbe4ba988c0354b0d851516/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "e6f19d7de6b754",
-          "source": "新华社",
-          "title": "风暴潮和海浪双红警报",
-          "url": "https://www.news.cn/politics/20260809/033e403237da4f318251387068e1953c/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60854,14 +60862,6 @@
           "source": "新华社",
           "title": "高温天气电动自行车充电需注意安全",
           "url": "https://www.news.cn/politics/20260809/41209e050273426b94ec6045d456cedb/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "9f572e6e20b724",
-          "source": "新华社",
-          "title": "黑海遇袭商船停靠土耳其港口",
-          "url": "https://www.news.cn/photo/20260809/34185b8bda724f51b0de9a131ce9c35c/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60919,38 +60919,38 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 6.4,
+          "duration": 15.1,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260809.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.7
+          "duration": 2.1
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.8
+          "duration": 3.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 33.1
+          "duration": 16.9
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 6,
-          "duration": 6.1
+          "duration": 6.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 29,
-          "duration": 4.4
+          "duration": 1.9
         },
         {
           "source": "南方周末",
@@ -60962,22 +60962,22 @@
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.5
+          "duration": 3.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 12.0
+          "duration": 13.8
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 60.0
+          "duration": 63.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-09T14:45:25+08:00"
+  "generatedAt": "2026-08-09T15:50:36+08:00"
 }
