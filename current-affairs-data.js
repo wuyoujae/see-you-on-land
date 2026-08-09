@@ -59945,22 +59945,22 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-08-09",
-      "keyword": "习近平党建思想",
+      "keyword": "消费",
       "keywords": [
+        {
+          "name": "消费",
+          "count": 3
+        },
+        {
+          "name": "经济",
+          "count": 3
+        },
         {
           "name": "习近平党建思想",
           "count": 2
         },
         {
-          "name": "暴雨",
-          "count": 2
-        },
-        {
-          "name": "消费",
-          "count": 2
-        },
-        {
-          "name": "经济",
+          "name": "文化中国",
           "count": 2
         }
       ],
@@ -59998,12 +59998,28 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
-          "id": "00ba49f6835566",
+          "id": "c834c72402923f",
           "source": "新华社",
-          "title": "上海发布暴雨红色预警",
-          "url": "https://www.news.cn/local/20260809/427ca55e297f47c19b0367e52511cb5f/c.html",
+          "title": "侨力汇湾区，广东书写侨助经济新篇章",
+          "url": "https://www.news.cn/local/20260809/ac0fc9e2f2df4b50a7e5f214a2b44d77/c.html",
           "date": "2026-08-09",
-          "keyword": "暴雨"
+          "keyword": "经济"
+        },
+        {
+          "id": "16008e121ce2fe",
+          "source": "新闻联播",
+          "title": "7月份居民消费价格指数保持温和上涨",
+          "url": "https://tv.cctv.com/2026/08/09/VIDEJaRlAbduybx5gQ6J1GBK260809.shtml",
+          "date": "2026-08-09",
+          "keyword": "消费"
+        },
+        {
+          "id": "f92e2c1ae092d2",
+          "source": "光明日报",
+          "title": "【文化中国行】聆听音乐与大地的合唱",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/09/content_21693.html",
+          "date": "2026-08-09",
+          "keyword": "文化中国"
         },
         {
           "id": "3f52dc6913c1de",
@@ -60014,12 +60030,12 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平党建思想"
         },
         {
-          "id": "13fcb1cc37af5e",
-          "source": "新华社",
-          "title": "受台风影响 上海针对多区发布暴雨红色预警",
-          "url": "https://www.news.cn/20260809/412ec3632bcd4d9fa88ddf75842a4ffc/c.html",
+          "id": "2c6d104a4fc3cd",
+          "source": "新闻联播",
+          "title": "【文化中国行】平遥古城活态保护焕发新光彩",
+          "url": "https://tv.cctv.com/2026/08/09/VIDEIhAm4EqEp0BSNMKvj4sF260809.shtml",
           "date": "2026-08-09",
-          "keyword": "暴雨"
+          "keyword": "文化中国"
         },
         {
           "id": "ee5efe9e921801",
@@ -60194,14 +60210,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "光明日报",
           "title": "【我是这样做学问的】甘坐冷板凳，实践中求真知",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/09/content_21712.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "f92e2c1ae092d2",
-          "source": "光明日报",
-          "title": "【文化中国行】聆听音乐与大地的合唱",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/09/content_21693.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60438,10 +60446,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "0384e80ee7d2a7",
+          "id": "9f57976bce385f",
           "source": "新华社",
-          "title": "“北大仓”迎来小麦收获季",
-          "url": "https://www.news.cn/photo/20260809/33e395e7be30419b91e5c57358d7fbe8/c.html",
+          "title": "“白海豚”在浙江乐清二次登陆",
+          "url": "https://www.news.cn/politics/20260809/c238c7193b5245ae9058f00d36a5063a/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "21582f785555a3",
+          "source": "新华社",
+          "title": "一场青少年足球赛中的三朵“金花”",
+          "url": "http://gs.news.cn/20260809/b36e5879e07043c780997c0b11e3e9b1/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60462,10 +60478,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a047e1896ebefb",
+          "id": "ece47e518e7f45",
           "source": "新华社",
-          "title": "上半年国内居民出游34.63亿人次",
-          "url": "https://www.news.cn/20260809/670a5cb5fb29462f874a1bb497559bc6/c.html",
+          "title": "上海共组织转移21.56万人",
+          "url": "https://www.news.cn/local/20260809/47fce599f4bd47d58e0bfd8a04796889/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60502,10 +60518,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "9c8940d0dfe8bd",
+          "source": "新华社",
+          "title": "中央气象台继续发布台风红色预警",
+          "url": "https://www.news.cn/politics/20260809/65287c2d6d194dce90c6d307ac8e8354/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "24ac0d6f9cd066",
           "source": "新华社",
           "title": "也门胡塞武装称袭击沙特阿美公司炼油厂",
           "url": "https://www.news.cn/20260809/b6acc5341c9940ac91862a5acb5276a1/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c950186daf8204",
+          "source": "新华社",
+          "title": "也门胡塞武装袭击政府军摩卡港",
+          "url": "https://www.news.cn/world/20260809/0f3396db7f5f4cbd9fb039f924157b09/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60518,6 +60550,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "e6231bb108ce59",
+          "source": "新华社",
+          "title": "从 “一枝独秀”到“百花齐放” 多赛联动点燃陇原足球热潮",
+          "url": "http://gs.news.cn/20260809/4ed489788b5040808056d3f73fb46472/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "b627881ae051e6",
           "source": "新华社",
           "title": "从“单项选择”到“两翼齐飞”——体教融合赋能青少年足球学训并重",
@@ -60526,18 +60566,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "75acebe24c0bd8",
+          "id": "842fde48aeac3c",
           "source": "新华社",
-          "title": "伊外长称目前伊美没有进行任何谈判",
-          "url": "https://www.news.cn/world/20260809/4a26ba21bc04428dac23cd7fc2736b19/c.html",
+          "title": "以色列拒绝“和平委员会”提出的加沙和平计划",
+          "url": "https://www.news.cn/world/20260809/a034bb2071704d3380d5ce6fefc6645c/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
         {
-          "id": "02206f1fe58cca",
+          "id": "a1c703e8437960",
           "source": "新华社",
           "title": "伊朗外长：目前伊美没有进行任何谈判",
-          "url": "https://www.news.cn/world/20260809/b8677c74c0c240909821e1c6275f66d7/c.html",
+          "url": "https://www.news.cn/20260809/34e0cab70500430bb219a1d6772a78cb/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9aabfb815eb95f",
+          "source": "新华社",
+          "title": "伊朗总统与最高领袖会面",
+          "url": "https://www.news.cn/world/20260809/06aff38164724c37a6cd542b0118deae/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60590,26 +60638,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "b1107e93381234",
+          "id": "13fcb1cc37af5e",
           "source": "新华社",
-          "title": "台风 “白海豚” 逼近 多地积极做好防范应对",
-          "url": "https://www.news.cn/politics/20260809/8444f84aac2847f9a969e774e2fed84c/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "9f57976bce385f",
-          "source": "新华社",
-          "title": "台风“白海豚”在浙江乐清二次登陆",
-          "url": "https://www.news.cn/politics/20260809/c238c7193b5245ae9058f00d36a5063a/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "575648ce6a56e7",
-          "source": "新华社",
-          "title": "台风“白海豚”影响上海",
-          "url": "https://www.news.cn/photo/20260809/a7f310a7516c49cf876a897985afa0ba/c.html",
+          "title": "受台风影响 上海针对多区发布暴雨红色预警",
+          "url": "https://www.news.cn/20260809/412ec3632bcd4d9fa88ddf75842a4ffc/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60630,6 +60662,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "7a07aefe102cb4",
+          "source": "新华社",
+          "title": "国家防总对上海江西启动防汛防台风四级应急响应",
+          "url": "https://www.news.cn/20260809/578594719e4645e7b4bc02430a3ed343/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "eac125f5cb686e",
           "source": "新华社",
           "title": "国防部征兵办公室印发征兵工作人员职业道德准则",
@@ -60646,10 +60686,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "02206f1fe58cca",
+          "source": "新华社",
+          "title": "外长：目前伊美没有进行任何谈判",
+          "url": "https://www.news.cn/world/20260809/b8677c74c0c240909821e1c6275f66d7/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "997e53eff2bf3a",
+          "source": "新华社",
+          "title": "大河之畔，陪着一场青少年足球赛事慢慢“长大”",
+          "url": "https://www.news.cn/sports/20260809/009c621d286c431e95912f387a086aa6/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "9fa022b89641d6",
           "source": "新华社",
           "title": "如何看待当前物价运行态势",
           "url": "https://www.news.cn/fortune/20260809/556afc7add514939b371fb1cc6d9fa30/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7f1f9781559747",
+          "source": "新华社",
+          "title": "山东滕州中小机床产业提档升级见闻",
+          "url": "https://www.news.cn/local/20260809/ede7a77a8ea54636a911a7475bcd0945/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60702,14 +60766,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "98bf50c179b6bf",
-          "source": "新华社",
-          "title": "暑期出发 打卡各地绝美风光",
-          "url": "https://www.news.cn/local/20260809/cac46646de464bd2804bd034eadd2cd4/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "7188123d0591e2",
           "source": "新华社",
           "title": "李家超：目标第三季度内发表香港第一个五年规划",
@@ -60734,34 +60790,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "c496999bfed6c3",
+          "id": "f2e6850712c625",
           "source": "新华社",
-          "title": "江西启动防汛四级应急响应",
-          "url": "https://www.news.cn/local/20260809/c9f018191ecf43c999f71cf2075fcee8/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "2b9209a4d563ee",
-          "source": "新华社",
-          "title": "沉浸式感受“闽超”看台的热辣滚烫",
-          "url": "http://www.fj.xinhuanet.com/20260809/e517bad88c394274abd68dbd03deb2cf/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "aeead37710d3e6",
-          "source": "新华社",
-          "title": "浙江宁波：“兴村八事”“强社八法”推动共富善治",
-          "url": "https://www.news.cn/local/20260809/8e242315ab1a4da4b4ce2f3131d56405/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "7ddd2bb99af03d",
-          "source": "新华社",
-          "title": "浙江防台风一线扫描",
-          "url": "https://www.news.cn/local/20260809/82f7f6bb941e49c8a72f7e2df500d69f/c.html",
+          "title": "活力中国调研行丨安徽蚌埠：培育玻璃新材料集群",
+          "url": "https://www.news.cn/photo/20260809/c67f9f642b0a4b5286d05a50400333c1/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60798,10 +60830,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "25003c5fbda986",
+          "id": "e87bfff5d4f1df",
           "source": "新华社",
-          "title": "福建防台风应急响应升至二级",
-          "url": "https://www.news.cn/local/20260809/5843637c1ab34d45bc42138df3b5a803/c.html",
+          "title": "直击台风“白海豚”登陆",
+          "url": "https://www.news.cn/photo/20260809/522a89d9152d44db82064c98ece1ec91/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60830,14 +60862,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "432dfc8f9cb193",
-          "source": "新华社",
-          "title": "走进传感谷 感知“芯”动能",
-          "url": "https://www.news.cn/tech/20260809/404ac3b090df47c69e5eaa2c2281e233/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "19c3566497cba3",
           "source": "新华社",
           "title": "速查，7月流行计算机病毒当心中招",
@@ -60854,14 +60878,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "7a3f1d077e9ad6",
-          "source": "新华社",
-          "title": "雨天出行，这些汛期安全细节别忽视",
-          "url": "https://www.news.cn/politics/20260809/a7af27687cbe4ba988c0354b0d851516/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "b6708340ca008b",
           "source": "新华社",
           "title": "韩国持续高温 电力需求创今年新高",
@@ -60874,6 +60890,94 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "高市早苗再度对“无核三原则”含糊表态",
           "url": "https://www.news.cn/20260809/b7fb3acbc0824da09a93e2d43f91e5fa/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9ea591d16d050a",
+          "source": "新闻联播",
+          "title": "《新闻联播》 20260809 19:00",
+          "url": "https://tv.cctv.com/2026/08/09/VIDESiaZAInwYQyTJ3AQsVF5260809.shtml",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bb6a5e91081b11",
+          "source": "新闻联播",
+          "title": "【新思想引领新征程】丰收背后的“稳”与“进”",
+          "url": "https://tv.cctv.com/2026/08/09/VIDEabECLRQCah67lR6gS0gu260809.shtml",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3eeb07092eef6d",
+          "source": "新闻联播",
+          "title": "伊朗称在美国接受其条件前不会重新开放霍尔木兹海峡",
+          "url": "https://tv.cctv.com/2026/08/09/VIDEGHeHVJz7pdAM7RwQlMkf260809.shtml",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "50acb95b7542d9",
+          "source": "新闻联播",
+          "title": "加拿大不列颠哥伦比亚省因林火快速蔓延进入紧急状态 大批居民撤离",
+          "url": "https://tv.cctv.com/2026/08/09/VIDEjvrE2j09HPrx8sNDhbjM260809.shtml",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9d25a7b85accee",
+          "source": "新闻联播",
+          "title": "台风“白海豚”登陆 各地各部门全力应对",
+          "url": "https://tv.cctv.com/2026/08/09/VIDEEZGTozXF67kBayc5SChA260809.shtml",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "91046b94ebd61b",
+          "source": "新闻联播",
+          "title": "国内联播快讯",
+          "url": "https://tv.cctv.com/2026/08/09/VIDEgtK4YldahFTctiC6Qqe9260809.shtml",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "83c62de3bce520",
+          "source": "新闻联播",
+          "title": "国际联播快讯",
+          "url": "https://tv.cctv.com/2026/08/09/VIDEaFRSZOyU0pcQluqWKqHM260809.shtml",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dbf0b518854712",
+          "source": "新闻联播",
+          "title": "我国加强对基础研究的长期稳定支持",
+          "url": "https://tv.cctv.com/2026/08/09/VIDE8pU23H91dRc8UaIrUUaX260809.shtml",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "efe0b0c9875af7",
+          "source": "新闻联播",
+          "title": "我国加快推进算力网建设",
+          "url": "https://tv.cctv.com/2026/08/09/VIDEoO2S1rOKRHhoRQpgf6zD260809.shtml",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5c41704c9149ea",
+          "source": "新闻联播",
+          "title": "我国加快自然资源“一张图”平台建设",
+          "url": "https://tv.cctv.com/2026/08/09/VIDE2hlaQwjCek3sSXEuqof4260809.shtml",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "431116a9818567",
+          "source": "新闻联播",
+          "title": "我国生态修复治理取得新成效",
+          "url": "https://tv.cctv.com/2026/08/09/VIDEYZaJY7RtREc6DzM6WMBU260809.shtml",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60921,28 +61025,27 @@ window.CURRENT_AFFAIRS_DATA = {
       "sourceStatus": [
         {
           "source": "新闻联播",
-          "status": "error",
-          "count": 0,
-          "duration": 18.5,
-          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260809.shtml"
+          "status": "ok",
+          "count": 13,
+          "duration": 0.3
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 2.2
+          "duration": 1.7
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.3
+          "duration": 2.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 38.2
+          "duration": 16.3
         },
         {
           "source": "求是",
@@ -60960,29 +61063,29 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.4
+          "duration": 12.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.8
+          "duration": 2.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.4
+          "duration": 12.9
         },
         {
           "source": "广东发布",
           "status": "stale",
           "count": 2,
-          "duration": 20.0,
+          "duration": 19.5,
           "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-09T19:24:06+08:00"
+  "generatedAt": "2026-08-09T20:37:21+08:00"
 };
