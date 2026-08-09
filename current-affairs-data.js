@@ -59945,18 +59945,18 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-08-09",
-      "keyword": "高质量发展",
+      "keyword": "消费",
       "keywords": [
         {
-          "name": "高质量发展",
-          "count": 2
-        },
-        {
           "name": "消费",
-          "count": 2
+          "count": 3
         },
         {
           "name": "经济",
+          "count": 3
+        },
+        {
+          "name": "高质量发展",
           "count": 2
         },
         {
@@ -59987,15 +59987,23 @@ window.CURRENT_AFFAIRS_DATA = {
           "title": "体验式消费带热运动相机（高质量发展微视角）",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/09/content_30173781.html",
           "date": "2026-08-09",
-          "keyword": "高质量发展"
+          "keyword": "消费"
         },
         {
-          "id": "17d0e875c0d747",
+          "id": "443904456a18d1",
           "source": "新华社",
-          "title": "两部门发文促进可再生能源高质量发展 解读",
-          "url": "https://www.news.cn/fortune/20260809/46acd22c65d9452cae269601681f8516/c.html",
+          "title": "“-6℃的夏天”如何“燃”起消费热？",
+          "url": "https://www.news.cn/sports/20260809/c27f8a1eecad471faaeb1a7db9541fc0/c.html",
           "date": "2026-08-09",
-          "keyword": "高质量发展"
+          "keyword": "消费"
+        },
+        {
+          "id": "85ad2fad7b40fc",
+          "source": "新华社",
+          "title": "上市公司上半年业绩预告折射经济韧性",
+          "url": "https://www.news.cn/fortune/20260809/f2f7948a10174f759bd09ede6fa6122d/c.html",
+          "date": "2026-08-09",
+          "keyword": "经济"
         },
         {
           "id": "a45af34485bd48",
@@ -60006,18 +60014,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
-          "id": "0c555d5bcc88a6",
+          "id": "17d0e875c0d747",
           "source": "新华社",
-          "title": "高温天气电动自行车充电需注意安全",
-          "url": "https://www.news.cn/politics/20260809/41209e050273426b94ec6045d456cedb/c.html",
+          "title": "两部门发文促进可再生能源高质量发展 解读",
+          "url": "https://www.news.cn/fortune/20260809/46acd22c65d9452cae269601681f8516/c.html",
+          "date": "2026-08-09",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "6dfd2052b5942b",
+          "source": "新华社",
+          "title": "杭州连续25天的高温结束 中东部暑热范围继续缩减",
+          "url": "https://www.news.cn/politics/20260809/ef9a11cf30244a8385505faff1673a57/c.html",
           "date": "2026-08-09",
           "keyword": "高温"
         },
         {
-          "id": "5e69f4e3f08492",
+          "id": "0c555d5bcc88a6",
           "source": "新华社",
-          "title": "高温预防肾结石，补水、饮食、运动是关键",
-          "url": "https://www.news.cn/20260809/860b0793873e4e1cbf97f2cc283a4fc3/c.html",
+          "title": "高温天气电动自行车充电需注意安全",
+          "url": "https://www.news.cn/politics/20260809/41209e050273426b94ec6045d456cedb/c.html",
           "date": "2026-08-09",
           "keyword": "高温"
         },
@@ -60454,10 +60470,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "59d4f1794d1bf2",
+          "source": "新华社",
+          "title": "“白海豚”风雨影响广、生命史超15天 台风红色预警发布",
+          "url": "https://www.news.cn/politics/20260809/a5d771365b5e4c8a88e323a54a2f5ca1/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "b90cc0f0720520",
           "source": "新华社",
           "title": "万斯称美伊冲突仍处于“博弈中段”",
           "url": "https://www.news.cn/20260809/1e9a9d786d61412885d25ebd53a532a2/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "39a41c78f3c20d",
+          "source": "新华社",
+          "title": "上半年全国共查办不正当竞争案件11465件",
+          "url": "https://www.news.cn/20260809/19ad4322d05741ac9b936ddfedd9bf65/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60470,18 +60502,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "fba29a7edf76f9",
+          "id": "2563c457a524c0",
           "source": "新华社",
-          "title": "中国代表队首次参加国际核科学奥赛 获一金三银",
-          "url": "https://www.news.cn/world/20260809/fd54e35d2d57443d99b21e3eeec2b3a5/c.html",
+          "title": "专访丨中国零关税举措开启中非经贸合作新阶段",
+          "url": "https://www.news.cn/world/20260809/fb548f8612564cf288a36721e0d58525/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
         {
-          "id": "379cae6c2b0efc",
+          "id": "fba29a7edf76f9",
           "source": "新华社",
-          "title": "中国气象局升级应急响应",
-          "url": "https://www.news.cn/20260809/59b24905ad2943deb77fb6cab7c8b488/c.html",
+          "title": "中国代表队首次参加国际核科学奥赛 获一金三银",
+          "url": "https://www.news.cn/world/20260809/fd54e35d2d57443d99b21e3eeec2b3a5/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60494,10 +60526,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "1e07eb74e05a6a",
+          "id": "b3adbe8e4baf30",
+          "source": "新华社",
+          "title": "中国过敏防治周丨关注严重过敏反应 加强早期识别",
+          "url": "https://www.news.cn/local/20260809/5e8419034af3495bb763e3355b4f3f88/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c86534d91b80f2",
           "source": "新华社",
           "title": "以媒：美军中央司令部司令访以讨论“多战线局势”",
-          "url": "https://www.news.cn/world/20260809/1ff7ceb2922641b496b13e04a3058768/c.html",
+          "url": "https://www.news.cn/20260809/9f76b3fb99044be8bc66e79affc73ecb/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "32a4aa65bb7894",
+          "source": "新华社",
+          "title": "伊：重开霍尔木兹海峡前提是美满足5个条件",
+          "url": "https://www.news.cn/world/20260809/43508b1247fe4d648c4ea64d60b6455c/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60518,6 +60566,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "515f58bea0df53",
+          "source": "新华社",
+          "title": "内蒙古自治区体育局原党组成员、副局长吴刚严重违纪违法被开除党籍",
+          "url": "https://www.news.cn/20260809/729a993266e04a7886332214bcdfcee8/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "09202b31b937b1",
           "source": "新华社",
           "title": "前7月进口增速高于出口8个百分点，意味着什么？",
@@ -60526,34 +60582,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "7133cc774328d8",
-          "source": "新华社",
-          "title": "加拿大一省多地野火快速蔓延 全省进入紧急状态",
-          "url": "https://www.news.cn/world/20260809/6814fe09f4ef4e85b1cd2930f9a90ee4/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "5a239dc82d4162",
           "source": "新华社",
           "title": "北京举办第三届养老护理职业技能大赛",
           "url": "https://www.news.cn/20260809/4aa5c72ad02948a9ac99d0e681b1a39e/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "f72a74347e715f",
-          "source": "新华社",
-          "title": "只是看看热闹？建“吃瓜群”传播同学隐私被判侵权",
-          "url": "https://www.news.cn/legal/20260809/3767ce0d15b245b4975a7f46e6f70df7/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "6dfd2052b5942b",
-          "source": "新华社",
-          "title": "台风“白海豚”影响显著增强",
-          "url": "https://www.news.cn/politics/20260809/ef9a11cf30244a8385505faff1673a57/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60582,10 +60614,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "9c7fc489434a38",
+          "id": "67647e63a205dd",
           "source": "新华社",
           "title": "土外长称沙土巴三国共同防务协议有望扩员",
-          "url": "https://www.news.cn/20260809/9a3d0ff04d2141eb89b77a3b52a43893/c.html",
+          "url": "https://www.news.cn/world/20260809/ae2a96a3c84d41a3b697799130378caf/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "88199f8e347536",
+          "source": "新华社",
+          "title": "地质灾害橙警",
+          "url": "https://www.news.cn/politics/20260809/c4d21b3e54624e99b59088e7ea1ece03/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60614,10 +60654,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d592dc007f32cd",
+          "id": "d87e82d04aefe4",
           "source": "新华社",
-          "title": "强对流蓝色预警：皖苏等6省市有10级以上雷暴大风",
-          "url": "https://www.news.cn/politics/20260809/df09413dc6624e53abb1dc17042d83b7/c.html",
+          "title": "平陆运河完成首次全航段巡航",
+          "url": "https://www.news.cn/politics/20260809/4bc791d7759a4d5aa673f6d4fe27edd4/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60634,6 +60674,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "执法记录仪能“管”住美国ICE吗？",
           "url": "https://www.news.cn/world/20260809/3f7436fe64ab4028a885d6f129aeb892/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dcd2ec9ca30334",
+          "source": "新华社",
+          "title": "拜登之子：拜登癌症进一步扩散 生活受到严重影响",
+          "url": "https://www.news.cn/world/20260809/af0c92aef4c14f2bba6e9668b1b0d506/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b537a2447eaabb",
+          "source": "新华社",
+          "title": "拜登之子：拜登的癌症进一步扩散",
+          "url": "https://www.news.cn/20260809/edfedcd9901a4e19be6eb05074bf5314/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60686,6 +60742,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "aeead37710d3e6",
+          "source": "新华社",
+          "title": "浙江宁波：“兴村八事”“强社八法”推动共富善治",
+          "url": "https://www.news.cn/local/20260809/8e242315ab1a4da4b4ce2f3131d56405/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "7bb74b11656fbb",
           "source": "新华社",
           "title": "浙江防台风应急响应提升至Ⅰ级 沿海严阵以待应对“白海豚”来袭",
@@ -60694,10 +60758,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "25003c5fbda986",
+          "id": "a91335f39f0d93",
           "source": "新华社",
-          "title": "福建防台风二级应急响应",
-          "url": "https://www.news.cn/local/20260809/5843637c1ab34d45bc42138df3b5a803/c.html",
+          "title": "生猪养殖户有了兜底保障 这份保险“新”在哪？",
+          "url": "https://www.news.cn/fortune/20260809/df69ac1c6c4c4490aea67f97ccf70800/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60706,14 +60770,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "秘鲁南部发生交通事故致至少13人死亡",
           "url": "https://www.news.cn/20260809/887626e35d134c3d89b5451b1c582e6d/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "b751a6bf461ef5",
-          "source": "新华社",
-          "title": "美国国防部被曝要求军工企业“大幅加快”武器生产",
-          "url": "https://www.news.cn/20260809/df1af3bc5ed0485d8a5b36bbedb59d2e/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60728,7 +60784,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "bd3c06078a1c5a",
           "source": "新华社",
-          "title": "美媒：“爱国者”导弹库存被曝不足1700枚",
+          "title": "美媒：美“爱国者”导弹库存不足1700枚",
           "url": "https://www.news.cn/world/20260809/a750fc8d57b040a384d20e9aa3f2a43a/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
@@ -60750,10 +60806,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "736943bbd533ec",
+          "id": "7133cc774328d8",
           "source": "新华社",
-          "title": "走，去文博场馆过暑假 如何让看展回归初衷？",
-          "url": "https://www.news.cn/local/20260809/45e0b98f59374272bdc64538f56fa5ed/c.html",
+          "title": "过百起野火同时燃烧 加拿大一省进入紧急状态",
+          "url": "https://www.news.cn/world/20260809/6814fe09f4ef4e85b1cd2930f9a90ee4/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60762,6 +60818,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "铸魂强党丨健全上下贯通执行有力的组织体系",
           "url": "https://www.news.cn/politics/leaders/20260809/eb1083e25486422595c4482c09fe886a/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e6f19d7de6b754",
+          "source": "新华社",
+          "title": "风暴潮和海浪双红警报",
+          "url": "https://www.news.cn/politics/20260809/033e403237da4f318251387068e1953c/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ba7dc1c099ad2c",
+          "source": "新华社",
+          "title": "高市早苗再度对“无核三原则”含糊表态",
+          "url": "https://www.news.cn/20260809/b7fb3acbc0824da09a93e2d43f91e5fa/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60835,66 +60907,66 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.7,
+          "duration": 13.2,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260809.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.9
+          "duration": 1.5
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 49,
-          "duration": 3.1
+          "count": 58,
+          "duration": 6.4
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 33.9
+          "duration": 25.8
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 6,
-          "duration": 6.4
+          "duration": 6.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 29,
-          "duration": 2.3
+          "duration": 1.3
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.8
+          "duration": 12.2
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.2
+          "duration": 2.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.2
+          "duration": 9.5
         },
         {
           "source": "广东发布",
           "status": "stale",
           "count": 2,
-          "duration": 18.9,
+          "duration": 19.8,
           "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-09T11:28:44+08:00"
+  "generatedAt": "2026-08-09T12:59:41+08:00"
 };
