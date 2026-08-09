@@ -60422,6 +60422,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "1e65afca910624",
+          "source": "南方周末",
+          "title": "AI浏览器Atlas停服：没能颠覆Chrome，也没赢过Agent AI看起来没能颠覆浏览器，融入了AI的浏览器反而更受益。什么才是AI时代的主入口？ 科创力 56分钟前",
+          "url": "https://www.infzm.com/contents/328058?source=133&source_1=998",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "0b9bf5f663514f",
           "source": "广东发布",
           "title": "总书记的人民情怀 | “努力提升粮食能源资源安全保障能力”",
@@ -60438,6 +60446,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "e7bd1142a35750",
+          "source": "广东发布",
+          "title": "黄坤明宣布：广东省第十七届运动会暨第十届残疾人运动会开幕",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4939809.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "38662ccecc2e2d",
           "source": "新华社",
           "title": "7月CPI同比上涨0.5%",
@@ -60446,10 +60462,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "9f57976bce385f",
+          "id": "023322ea4ead5f",
           "source": "新华社",
-          "title": "“白海豚”在浙江乐清二次登陆",
-          "url": "https://www.news.cn/politics/20260809/c238c7193b5245ae9058f00d36a5063a/c.html",
+          "title": "“白海豚”先后在浙江玉环和乐清登陆",
+          "url": "https://www.news.cn/politics/20260809/73b476c8ea1d47d19cd8b96873c8320c/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60494,14 +60510,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "c8e6261809a258",
-          "source": "新华社",
-          "title": "中国神话何以打动世界",
-          "url": "https://www.news.cn/local/20260809/edf79fd1dd2e4cfbae31da9b55d91fc6/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "aa7403c2e908bf",
           "source": "新华社",
           "title": "中国第16次北冰洋考察丨中国第16次北冰洋考察队“雪龙2”号开始冰站调查作业",
@@ -60514,14 +60522,6 @@
           "source": "新华社",
           "title": "中国第16次北冰洋考察队“雪龙2”号开始冰站调查",
           "url": "https://www.news.cn/tech/20260809/2d1d8dc294db41c18ea42dc2f53761e5/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "9c8940d0dfe8bd",
-          "source": "新华社",
-          "title": "中央气象台继续发布台风红色预警",
-          "url": "https://www.news.cn/politics/20260809/65287c2d6d194dce90c6d307ac8e8354/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60546,30 +60546,6 @@
           "source": "新华社",
           "title": "人形机器人在深圳多场景“上岗”",
           "url": "https://www.news.cn/photo/20260809/2718db80a441469ea87dda9be2e7ca4d/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "e6231bb108ce59",
-          "source": "新华社",
-          "title": "从 “一枝独秀”到“百花齐放” 多赛联动点燃陇原足球热潮",
-          "url": "http://gs.news.cn/20260809/4ed489788b5040808056d3f73fb46472/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "b627881ae051e6",
-          "source": "新华社",
-          "title": "从“单项选择”到“两翼齐飞”——体教融合赋能青少年足球学训并重",
-          "url": "https://www.news.cn/sports/20260809/0c35db89405d4dae970341955cdf9a89/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "842fde48aeac3c",
-          "source": "新华社",
-          "title": "以色列拒绝“和平委员会”提出的加沙和平计划",
-          "url": "https://www.news.cn/world/20260809/a034bb2071704d3380d5ce6fefc6645c/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60646,10 +60622,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "e25d69d3b21089",
+          "id": "9c8940d0dfe8bd",
           "source": "新华社",
-          "title": "国外归来，“花痴博士”倾力为月季装上“中国芯”",
-          "url": "https://www.news.cn/local/20260809/81cd07d525ea4fe0a5f6388e3ab82ef1/c.html",
+          "title": "台风红色预警继续发布",
+          "url": "https://www.news.cn/politics/20260809/65287c2d6d194dce90c6d307ac8e8354/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60742,6 +60718,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "c25fa928573b24",
+          "source": "新华社",
+          "title": "无人机威胁增多 德国新建机构研究应对",
+          "url": "https://www.news.cn/world/20260809/ad670931fa554998a591c8cbda94bfe8/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "13601889af9c27",
           "source": "新华社",
           "title": "日本一核电机组因发电机报警自动停运",
@@ -60790,6 +60774,22 @@
           "keyword": "综合时政"
         },
         {
+          "id": "1aaafbf079e625",
+          "source": "新华社",
+          "title": "沿黄河九省（区）青少年足球邀请赛四川女足卫冕",
+          "url": "https://www.news.cn/sports/20260809/46fd6a8477cb4bebb0b2a50e13cc7b54/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "70b32779627fbf",
+          "source": "新华社",
+          "title": "沿黄河九省（区）青少年足球邀请赛收官",
+          "url": "https://www.news.cn/photo/20260809/5d1dd0fe108d45b785196c0316e966c6/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "f2e6850712c625",
           "source": "新华社",
           "title": "活力中国调研行丨安徽蚌埠：培育玻璃新材料集群",
@@ -60806,10 +60806,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "7e3ee625634dc8",
+          "id": "8e67fbbbfb31a5",
           "source": "新华社",
-          "title": "现场直击丨迎战台风“白海豚”，上海有序开展人员转移安置工作",
-          "url": "https://www.news.cn/local/20260809/f3d799191e2943ae8a26e87831b55a86/c.html",
+          "title": "现场直击丨多方联动排险 上海全力迎战台风“白海豚”",
+          "url": "https://www.news.cn/politics/20260809/02b7bc51f4cb4961998f201391af8cb3/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60846,6 +60846,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "58297a7ca9ae15",
+          "source": "新华社",
+          "title": "美国“外行任大使”现象惹质疑",
+          "url": "https://www.news.cn/world/20260809/5865f4441485451e8ddc5a5d8b924fab/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "268d4ddad01e5a",
           "source": "新华社",
           "title": "警惕“风雨潮三碰头”叠加风险",
@@ -60858,6 +60866,14 @@
           "source": "新华社",
           "title": "记者手记丨非洲三个“几内亚”的中国印记",
           "url": "https://www.news.cn/world/20260809/8a7f23f18f6c4f018ca37f1dd7a29cfb/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "66d07e5ae1c1ae",
+          "source": "新华社",
+          "title": "追光丨1分钟496次，是怎样练成的？",
+          "url": "https://www.news.cn/sports/20260809/39377a8fae6940358a78fb8a22289582/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60890,14 +60906,6 @@
           "source": "新华社",
           "title": "高市早苗再度对“无核三原则”含糊表态",
           "url": "https://www.news.cn/20260809/b7fb3acbc0824da09a93e2d43f91e5fa/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "9ea591d16d050a",
-          "source": "新闻联播",
-          "title": "《新闻联播》 20260809 19:00",
-          "url": "https://tv.cctv.com/2026/08/09/VIDESiaZAInwYQyTJ3AQsVF5260809.shtml",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -61026,66 +61034,65 @@
         {
           "source": "新闻联播",
           "status": "ok",
-          "count": 13,
-          "duration": 0.3
+          "count": 12,
+          "duration": 0.5
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.7
+          "duration": 1.3
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.6
+          "duration": 2.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 16.3
+          "duration": 23.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 6,
-          "duration": 6.3
+          "duration": 5.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 29,
-          "duration": 2.5
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
-          "count": 0,
-          "duration": 12.4
+          "count": 1,
+          "duration": 13.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.7
+          "duration": 2.9
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 12.9
+          "duration": 16.1
         },
         {
           "source": "广东发布",
-          "status": "stale",
-          "count": 2,
-          "duration": 19.5,
-          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+          "status": "ok",
+          "count": 3,
+          "duration": 56.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-09T20:37:21+08:00"
+  "generatedAt": "2026-08-09T21:45:25+08:00"
 }
