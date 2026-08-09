@@ -60424,8 +60424,16 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "1e65afca910624",
           "source": "南方周末",
-          "title": "AI浏览器Atlas停服：没能颠覆Chrome，也没赢过Agent AI看起来没能颠覆浏览器，融入了AI的浏览器反而更受益。什么才是AI时代的主入口？ 科创力 56分钟前",
+          "title": "AI浏览器Atlas停服：没能颠覆Chrome，也没赢过Agent AI看起来没能颠覆浏览器，融入了AI的浏览器反而更受益。什么才是AI时代的主入口？ 科创力 1小时前",
           "url": "https://www.infzm.com/contents/328058?source=133&source_1=998",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c11752919c03c0",
+          "source": "广东发布",
+          "title": "广东省第十七届运动会暨第十届残疾人运动会开幕式在茂名举行 黄坤明宣布开幕 孟凡利致辞",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4939812.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60470,10 +60478,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "21582f785555a3",
+          "id": "808313d957fbbb",
           "source": "新华社",
-          "title": "一场青少年足球赛中的三朵“金花”",
-          "url": "http://gs.news.cn/20260809/b36e5879e07043c780997c0b11e3e9b1/c.html",
+          "title": "“绕不开”的霍尔木兹海峡",
+          "url": "https://www.news.cn/world/20260809/c932711506104ed98453a046fe392a36/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60496,7 +60504,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "ece47e518e7f45",
           "source": "新华社",
-          "title": "上海共组织转移21.56万人",
+          "title": "上海组织转移21.56万人",
           "url": "https://www.news.cn/local/20260809/47fce599f4bd47d58e0bfd8a04796889/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
@@ -60534,18 +60542,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "c950186daf8204",
-          "source": "新华社",
-          "title": "也门胡塞武装袭击政府军摩卡港",
-          "url": "https://www.news.cn/world/20260809/0f3396db7f5f4cbd9fb039f924157b09/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "e1009a8c06de3d",
           "source": "新华社",
           "title": "人形机器人在深圳多场景“上岗”",
           "url": "https://www.news.cn/photo/20260809/2718db80a441469ea87dda9be2e7ca4d/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3f1ce13c2b0f8e",
+          "source": "新华社",
+          "title": "以色列总理拒绝“和平委员会”提出的加沙和平计划",
+          "url": "https://www.news.cn/world/20260809/4c68cc2ee8034844bb353c47d0c29121/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60568,16 +60576,8 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "32a4aa65bb7894",
           "source": "新华社",
-          "title": "伊朗提出重开海峡5个条件",
+          "title": "伊朗提重开5个条件",
           "url": "https://www.news.cn/world/20260809/43508b1247fe4d648c4ea64d60b6455c/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "fe4ffd55df890a",
-          "source": "新华社",
-          "title": "俄乌互袭致多人死伤",
-          "url": "https://www.news.cn/world/20260809/d46b3cda1a6c4ec28b12be6413950179/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60664,7 +60664,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "02206f1fe58cca",
           "source": "新华社",
-          "title": "外长：目前伊美没有进行任何谈判",
+          "title": "外长：伊美没有任何谈判",
           "url": "https://www.news.cn/world/20260809/b8677c74c0c240909821e1c6275f66d7/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
@@ -60682,14 +60682,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "如何看待当前物价运行态势",
           "url": "https://www.news.cn/fortune/20260809/556afc7add514939b371fb1cc6d9fa30/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "7f1f9781559747",
-          "source": "新华社",
-          "title": "山东滕州中小机床产业提档升级见闻",
-          "url": "https://www.news.cn/local/20260809/ede7a77a8ea54636a911a7475bcd0945/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60714,14 +60706,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "我国渤海首个千亿方大气田一期开发项目全面投产",
           "url": "https://www.news.cn/fortune/20260809/d65f9718ceff45cf8cd86d5c6ebab1c4/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "c25fa928573b24",
-          "source": "新华社",
-          "title": "无人机威胁增多 德国新建机构研究应对",
-          "url": "https://www.news.cn/world/20260809/ad670931fa554998a591c8cbda94bfe8/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60798,6 +60782,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "5a27bd8f245bf4",
+          "source": "新华社",
+          "title": "湖北启动防汛四级应急响应",
+          "url": "https://www.news.cn/local/20260809/e6309cb9080c40f38406c6b54f2fd5af/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7f1f9781559747",
+          "source": "新华社",
+          "title": "滕州中小机床产业提档升级见闻",
+          "url": "https://www.news.cn/local/20260809/ede7a77a8ea54636a911a7475bcd0945/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "17a56c39813dfe",
           "source": "新华社",
           "title": "玉猪龙为啥这么“奇”——探寻红山文化出土的玉器",
@@ -60870,6 +60870,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "bd896095067638",
+          "source": "新华社",
+          "title": "身边的红色地标丨在红军标语博物馆，读懂笔墨里的信仰力量",
+          "url": "https://www.news.cn/politics/20260809/7fafef61f4ec49969c013e8291d0bacf/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "66d07e5ae1c1ae",
           "source": "新华社",
           "title": "追光丨1分钟496次，是怎样练成的？",
@@ -60906,6 +60914,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "高市早苗再度对“无核三原则”含糊表态",
           "url": "https://www.news.cn/20260809/b7fb3acbc0824da09a93e2d43f91e5fa/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "efe0d33807dcc1",
+          "source": "新闻联播",
+          "title": "《新闻联播》 20260809 21:00",
+          "url": "https://tv.cctv.com/2026/08/09/VIDEOP6oWw1IF5oMGdEhoW1r260809.shtml",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -61034,65 +61050,65 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "source": "新闻联播",
           "status": "ok",
-          "count": 12,
-          "duration": 0.5
+          "count": 13,
+          "duration": 0.6
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.3
+          "duration": 2.0
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.2
+          "duration": 7.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 23.4
+          "duration": 35.9
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 6,
-          "duration": 5.8
+          "duration": 6.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 29,
-          "duration": 1.8
+          "duration": 2.1
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 1,
-          "duration": 13.4
+          "duration": 14.1
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.9
+          "duration": 3.9
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 16.1
+          "duration": 10.3
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 3,
-          "duration": 56.1
+          "count": 4,
+          "duration": 57.8
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-09T21:45:25+08:00"
+  "generatedAt": "2026-08-09T22:30:20+08:00"
 };
