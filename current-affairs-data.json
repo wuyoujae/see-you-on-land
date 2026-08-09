@@ -60424,7 +60424,7 @@
         {
           "id": "1e65afca910624",
           "source": "南方周末",
-          "title": "AI浏览器Atlas停服：没能颠覆Chrome，也没赢过Agent AI看起来没能颠覆浏览器，融入了AI的浏览器反而更受益。什么才是AI时代的主入口？ 科创力 1小时前",
+          "title": "AI浏览器Atlas停服：没能颠覆Chrome，也没赢过Agent AI看起来没能颠覆浏览器，融入了AI的浏览器反而更受益。什么才是AI时代的主入口？ 科创力 2小时前 1评论",
           "url": "https://www.infzm.com/contents/328058?source=133&source_1=998",
           "date": "2026-08-09",
           "keyword": "综合时政"
@@ -60494,6 +60494,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "6b469015c7b8d7",
+          "source": "新华社",
+          "title": "一诺千金 笃行致远——中国元首外交的世界情怀与大国气派",
+          "url": "https://www.news.cn/politics/leaders/20260809/b9abc2b7c5e4462586ffd19ec9568287/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "39a41c78f3c20d",
           "source": "新华社",
           "title": "上半年全国共查办不正当竞争案件11465件",
@@ -60550,10 +60558,26 @@
           "keyword": "综合时政"
         },
         {
+          "id": "48519670a1d1e6",
+          "source": "新华社",
+          "title": "以媒称内塔尼亚胡助手涉嫌向卡塔尔泄密",
+          "url": "https://www.news.cn/20260809/9dcf28eab41f48818ffe9e638631d670/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "3f1ce13c2b0f8e",
           "source": "新华社",
           "title": "以色列总理拒绝“和平委员会”提出的加沙和平计划",
           "url": "https://www.news.cn/world/20260809/4c68cc2ee8034844bb353c47d0c29121/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ef82d487cdfadd",
+          "source": "新华社",
+          "title": "伊媒说议会国家安全委员会批准霍尔木兹海峡安全纲要",
+          "url": "https://www.news.cn/world/20260809/76964b22095b4bce8d76d89e57afc14b/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60582,14 +60606,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "60506ccf96e972",
-          "source": "新华社",
-          "title": "俄驻日大使：日本推翻“无核三原则”将招致邻国反制",
-          "url": "https://www.news.cn/20260809/ef2268ddd74344f1aa92d23be788495f/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "1496fe9aa471c7",
           "source": "新华社",
           "title": "全国青少年劳动技能与智能设计大赛激发创新活力",
@@ -60610,14 +60626,6 @@
           "source": "新华社",
           "title": "印尼一火山景区因山火关闭 我领馆提醒公民暂勿前往",
           "url": "https://www.news.cn/20260809/b409235120e945a098455726bd3bd494/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "13fcb1cc37af5e",
-          "source": "新华社",
-          "title": "受台风影响 上海针对多区发布暴雨红色预警",
-          "url": "https://www.news.cn/20260809/412ec3632bcd4d9fa88ddf75842a4ffc/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60710,18 +60718,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "13601889af9c27",
+          "id": "61cc1a91d6f1e4",
           "source": "新华社",
-          "title": "日本一核电机组因发电机报警自动停运",
-          "url": "https://www.news.cn/20260809/50fb231bc60346b1bc96ae5be50f1fec/c.html",
+          "title": "新华时评丨警钟长鸣，日本拥核野心不可纵容",
+          "url": "https://www.news.cn/world/20260809/db8ec22a4b284fae8a6d84cbfb2d1a00/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
         {
-          "id": "cb71961dc6b888",
+          "id": "13601889af9c27",
           "source": "新华社",
-          "title": "明日之星冠军杯决赛取消 U17国足、阿森纳并列冠军",
-          "url": "https://www.news.cn/sports/20260809/c3d55dded1844f1c8878174752dce67e/c.html",
+          "title": "日本一核电机组因发电机报警自动停运",
+          "url": "https://www.news.cn/20260809/50fb231bc60346b1bc96ae5be50f1fec/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60846,14 +60854,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "58297a7ca9ae15",
-          "source": "新华社",
-          "title": "美国“外行任大使”现象惹质疑",
-          "url": "https://www.news.cn/world/20260809/5865f4441485451e8ddc5a5d8b924fab/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "268d4ddad01e5a",
           "source": "新华社",
           "title": "警惕“风雨潮三碰头”叠加风险",
@@ -60912,7 +60912,7 @@
         {
           "id": "ba7dc1c099ad2c",
           "source": "新华社",
-          "title": "高市早苗再度对“无核三原则”含糊表态",
+          "title": "高市早苗 再度对“无核三原则”含糊表态",
           "url": "https://www.news.cn/20260809/b7fb3acbc0824da09a93e2d43f91e5fa/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
@@ -61051,7 +61051,7 @@
           "source": "新闻联播",
           "status": "ok",
           "count": 13,
-          "duration": 0.6
+          "duration": 0.7
         },
         {
           "source": "人民日报",
@@ -61063,52 +61063,52 @@
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 7.2
+          "duration": 3.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 35.9
+          "duration": 27.8
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 6,
-          "duration": 6.8
+          "duration": 6.9
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 29,
-          "duration": 2.1
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 1,
-          "duration": 14.1
+          "duration": 12.9
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.9
+          "duration": 2.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 10.3
+          "duration": 10.6
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 4,
-          "duration": 57.8
+          "duration": 56.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-09T22:30:20+08:00"
+  "generatedAt": "2026-08-09T23:26:04+08:00"
 }
