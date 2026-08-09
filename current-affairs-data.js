@@ -59945,22 +59945,18 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-08-09",
-      "keyword": "暴雨",
+      "keyword": "消费",
       "keywords": [
-        {
-          "name": "暴雨",
-          "count": 3
-        },
         {
           "name": "消费",
           "count": 3
         },
         {
-          "name": "经济",
+          "name": "暴雨",
           "count": 2
         },
         {
-          "name": "高温",
+          "name": "经济",
           "count": 2
         }
       ],
@@ -59990,30 +59986,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "消费"
         },
         {
-          "id": "00ba49f6835566",
-          "source": "新华社",
-          "title": "上海发布暴雨红色预警",
-          "url": "https://www.news.cn/local/20260809/427ca55e297f47c19b0367e52511cb5f/c.html",
-          "date": "2026-08-09",
-          "keyword": "暴雨"
-        },
-        {
-          "id": "13fcb1cc37af5e",
-          "source": "新华社",
-          "title": "受台风影响 上海针对多区发布暴雨红色预警",
-          "url": "https://www.news.cn/20260809/412ec3632bcd4d9fa88ddf75842a4ffc/c.html",
-          "date": "2026-08-09",
-          "keyword": "暴雨"
-        },
-        {
-          "id": "87319e3095c3a0",
-          "source": "新华社",
-          "title": "暴雨强风威胁逼近",
-          "url": "https://www.news.cn/politics/20260809/d2a48324e0904b93862cf7b5c6eb643f/c.html",
-          "date": "2026-08-09",
-          "keyword": "暴雨"
-        },
-        {
           "id": "ed15a507d8ea6b",
           "source": "人民日报",
           "title": "为生物医药企业创新省时省钱（经济新方位·服务业扩能提质）",
@@ -60030,20 +60002,20 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
-          "id": "b6708340ca008b",
+          "id": "00ba49f6835566",
           "source": "新华社",
-          "title": "韩国持续高温 电力需求创今年新高",
-          "url": "https://www.news.cn/20260809/6461267708e54b37b8aa8f455b660297/c.html",
+          "title": "上海发布暴雨红色预警",
+          "url": "https://www.news.cn/local/20260809/427ca55e297f47c19b0367e52511cb5f/c.html",
           "date": "2026-08-09",
-          "keyword": "高温"
+          "keyword": "暴雨"
         },
         {
-          "id": "0c555d5bcc88a6",
+          "id": "13fcb1cc37af5e",
           "source": "新华社",
-          "title": "高温天气电动自行车充电需注意安全",
-          "url": "https://www.news.cn/politics/20260809/41209e050273426b94ec6045d456cedb/c.html",
+          "title": "受台风影响 上海针对多区发布暴雨红色预警",
+          "url": "https://www.news.cn/20260809/412ec3632bcd4d9fa88ddf75842a4ffc/c.html",
           "date": "2026-08-09",
-          "keyword": "高温"
+          "keyword": "暴雨"
         },
         {
           "id": "5a59d6c535d8e4",
@@ -60486,14 +60458,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "e6c615105016a5",
-          "source": "新华社",
-          "title": "与“巴威”有何异同？",
-          "url": "https://www.news.cn/local/20260809/8135e91186444320abef0cfd1039d880/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "c23450e2f1372a",
           "source": "新华社",
           "title": "专家：台风“白海豚”路径渐清晰 高度警惕做好防范",
@@ -60550,10 +60514,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a1c703e8437960",
+          "id": "02206f1fe58cca",
           "source": "新华社",
           "title": "伊朗外长：目前伊美没有进行任何谈判",
-          "url": "https://www.news.cn/20260809/34e0cab70500430bb219a1d6772a78cb/c.html",
+          "url": "https://www.news.cn/world/20260809/b8677c74c0c240909821e1c6275f66d7/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60562,6 +60526,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "伊朗提出重开海峡5个条件",
           "url": "https://www.news.cn/world/20260809/43508b1247fe4d648c4ea64d60b6455c/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fe4ffd55df890a",
+          "source": "新华社",
+          "title": "俄乌互袭致多人死伤",
+          "url": "https://www.news.cn/world/20260809/d46b3cda1a6c4ec28b12be6413950179/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60602,6 +60574,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "台风 “白海豚” 逼近 多地积极做好防范应对",
           "url": "https://www.news.cn/politics/20260809/8444f84aac2847f9a969e774e2fed84c/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d9853696440141",
+          "source": "新华社",
+          "title": "台风“白海豚”在浙江玉环登陆 最大风力14级",
+          "url": "https://www.news.cn/local/20260809/0a90c99b431f4210bfb15a106bfd1e23/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60650,14 +60630,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "如何看待当前物价运行态势",
           "url": "https://www.news.cn/fortune/20260809/556afc7add514939b371fb1cc6d9fa30/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "e3d97d088df504",
-          "source": "新华社",
-          "title": "宁夏：花粉过敏季即将到来，专家提示科学应对",
-          "url": "https://www.news.cn/politics/20260809/6761ca1a76024c5ebff363db45f830e4/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60726,10 +60698,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "5f261ca11f836d",
+          "source": "新华社",
+          "title": "杭州机场取消航班388架次",
+          "url": "https://www.news.cn/local/20260809/9750dd80fb5546748e249785ef420cc1/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "af40568d38dbdd",
           "source": "新华社",
           "title": "极端天气已致菲律宾逾38万人受灾、6人死亡",
           "url": "https://www.news.cn/20260809/bee635aae53f44ef9113f1e1e2e4da7a/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4db8a32304932a",
+          "source": "新华社",
+          "title": "武汉试点智能捕蚊“黑科技”，20天灭蚊超7万只",
+          "url": "https://www.news.cn/local/20260809/2c75c5c35c7d4b4ba66f08df143f9a5f/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60742,10 +60730,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "52da3116d2e68d",
+          "id": "2b9209a4d563ee",
           "source": "新华社",
-          "title": "沃土·甘霖·引路人——青年拔尖创新人才这样养成",
-          "url": "https://education.news.cn/20260809/1b028e58d743431685a8d9b060b33e26/c.html",
+          "title": "沉浸式感受“闽超”看台的热辣滚烫",
+          "url": "http://www.fj.xinhuanet.com/20260809/e517bad88c394274abd68dbd03deb2cf/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60774,6 +60762,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "7e3ee625634dc8",
+          "source": "新华社",
+          "title": "现场直击丨迎战台风“白海豚”，上海有序开展人员转移安置工作",
+          "url": "https://www.news.cn/local/20260809/f3d799191e2943ae8a26e87831b55a86/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a91335f39f0d93",
           "source": "新华社",
           "title": "生猪养殖户有了兜底保障 这份收入险“新”在哪？",
@@ -60786,14 +60782,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "福建防台风应急响应升至二级",
           "url": "https://www.news.cn/local/20260809/5843637c1ab34d45bc42138df3b5a803/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "fdecc9da7db392",
-          "source": "新华社",
-          "title": "红色预警：“白海豚”即将登陆我国 路径渐清晰",
-          "url": "https://www.news.cn/politics/20260809/b4894452a0094388a3f4ce5c5cbee356/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60862,6 +60850,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "b6708340ca008b",
+          "source": "新华社",
+          "title": "韩国持续高温 电力需求创今年新高",
+          "url": "https://www.news.cn/20260809/6461267708e54b37b8aa8f455b660297/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "ba7dc1c099ad2c",
           "source": "新华社",
           "title": "高市早苗再度对“无核三原则”含糊表态",
@@ -60923,66 +60919,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 11.5,
+          "duration": 12.1,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260809.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 2.7
+          "duration": 1.7
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.4
+          "duration": 3.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 32.6
+          "duration": 16.9
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 6,
-          "duration": 6.3
+          "duration": 6.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 29,
-          "duration": 1.7
+          "duration": 2.1
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.5
+          "duration": 13.2
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.7
+          "duration": 2.6
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.2
+          "duration": 8.6
         },
         {
           "source": "广东发布",
-          "status": "stale",
+          "status": "ok",
           "count": 2,
-          "duration": 18.4,
-          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+          "duration": 73.8
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-09T17:34:16+08:00"
+  "generatedAt": "2026-08-09T18:28:29+08:00"
 };
