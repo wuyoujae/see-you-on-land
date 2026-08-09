@@ -59945,22 +59945,34 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-08-09",
-      "keyword": "消费",
+      "keyword": "暴雨",
       "keywords": [
-        {
-          "name": "消费",
-          "count": 3
-        },
         {
           "name": "暴雨",
           "count": 2
         },
         {
+          "name": "消费",
+          "count": 2
+        },
+        {
           "name": "经济",
+          "count": 2
+        },
+        {
+          "name": "高温",
           "count": 2
         }
       ],
       "articles": [
+        {
+          "id": "ed15a507d8ea6b",
+          "source": "人民日报",
+          "title": "为生物医药企业创新省时省钱（经济新方位·服务业扩能提质）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/09/content_30173785.html",
+          "date": "2026-08-09",
+          "keyword": "经济"
+        },
         {
           "id": "d2c12055209c78",
           "source": "人民日报",
@@ -59976,22 +59988,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/09/content_30173781.html",
           "date": "2026-08-09",
           "keyword": "消费"
-        },
-        {
-          "id": "443904456a18d1",
-          "source": "新华社",
-          "title": "“-6℃的夏天”如何“燃”起消费热？",
-          "url": "https://www.news.cn/sports/20260809/c27f8a1eecad471faaeb1a7db9541fc0/c.html",
-          "date": "2026-08-09",
-          "keyword": "消费"
-        },
-        {
-          "id": "ed15a507d8ea6b",
-          "source": "人民日报",
-          "title": "为生物医药企业创新省时省钱（经济新方位·服务业扩能提质）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/09/content_30173785.html",
-          "date": "2026-08-09",
-          "keyword": "经济"
         },
         {
           "id": "85ad2fad7b40fc",
@@ -60016,6 +60012,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/politics/20260809/d2a48324e0904b93862cf7b5c6eb643f/c.html",
           "date": "2026-08-09",
           "keyword": "暴雨"
+        },
+        {
+          "id": "b6708340ca008b",
+          "source": "新华社",
+          "title": "韩国持续高温 电力需求创今年新高",
+          "url": "https://www.news.cn/20260809/6461267708e54b37b8aa8f455b660297/c.html",
+          "date": "2026-08-09",
+          "keyword": "高温"
+        },
+        {
+          "id": "0c555d5bcc88a6",
+          "source": "新华社",
+          "title": "高温天气电动自行车充电需注意安全",
+          "url": "https://www.news.cn/politics/20260809/41209e050273426b94ec6045d456cedb/c.html",
+          "date": "2026-08-09",
+          "keyword": "高温"
         },
         {
           "id": "5a59d6c535d8e4",
@@ -60418,18 +60430,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "32c89431471691",
+          "id": "38662ccecc2e2d",
           "source": "新华社",
-          "title": "7月份CPI同比上涨0.5%",
-          "url": "https://www.news.cn/fortune/20260809/bc546082db0c4bb3bd2e8a67363198ae/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "a5f7330e9d8b5c",
-          "source": "新华社",
-          "title": "PPI同比上涨3.5%",
-          "url": "https://www.news.cn/20260809/9be28a37b0634c8b9e966a627caa866c/c.html",
+          "title": "7月CPI同比上涨0.5%",
+          "url": "https://www.news.cn/fortune/20260809/3e39b46e7f9d4643abdd3901715acaa1/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60474,26 +60478,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "2563c457a524c0",
-          "source": "新华社",
-          "title": "专访丨中国零关税举措开启中非经贸合作新阶段",
-          "url": "https://www.news.cn/world/20260809/fb548f8612564cf288a36721e0d58525/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "fba29a7edf76f9",
+          "id": "ef76388fc8dfa4",
           "source": "新华社",
           "title": "中国代表队首次参加国际核科学奥赛 获一金三银",
-          "url": "https://www.news.cn/world/20260809/fd54e35d2d57443d99b21e3eeec2b3a5/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "c8e6261809a258",
-          "source": "新华社",
-          "title": "中国神话何以打动世界",
-          "url": "https://www.news.cn/local/20260809/edf79fd1dd2e4cfbae31da9b55d91fc6/c.html",
+          "url": "https://www.news.cn/20260809/4602beff8e784141a648768a586abba1/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60502,6 +60490,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "中国第16次北冰洋考察队“雪龙2”号开始冰站调查",
           "url": "https://www.news.cn/tech/20260809/2d1d8dc294db41c18ea42dc2f53761e5/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6c4ee39468ad8d",
+          "source": "新华社",
+          "title": "也门胡塞武装称袭击沙特阿美公司炼油厂",
+          "url": "https://www.news.cn/world/20260809/b529c47fe55f4dab85fcc975ef924a32/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60538,6 +60534,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "1496fe9aa471c7",
+          "source": "新华社",
+          "title": "全国青少年劳动技能与智能设计大赛激发创新活力",
+          "url": "https://www.news.cn/politics/20260809/fce4a006187247a3b2bc053518f57235/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "515f58bea0df53",
           "source": "新华社",
           "title": "内蒙古自治区体育局原党组成员、副局长吴刚严重违纪违法被开除党籍",
@@ -60550,6 +60554,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "前7月进口增速高于出口8个百分点，意味着什么？",
           "url": "https://www.news.cn/20260809/5e119ecb4bad4e0aa9f64b957bec5977/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "47b41ed2d3e398",
+          "source": "新华社",
+          "title": "加拿大一省野火失控 逾2万人连夜逃离",
+          "url": "https://www.news.cn/world/20260809/8a1e59ac8f2e4385bae2e7ecbd5f0ea9/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60610,6 +60622,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "9fa022b89641d6",
+          "source": "新华社",
+          "title": "如何看待当前物价运行态势",
+          "url": "https://www.news.cn/fortune/20260809/556afc7add514939b371fb1cc6d9fa30/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "e3d97d088df504",
           "source": "新华社",
           "title": "宁夏：花粉过敏季即将到来，专家提示科学应对",
@@ -60622,14 +60642,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "尼日尔两辆客车相撞致22死37伤",
           "url": "https://www.news.cn/20260809/a9e1ef3675944c43a9d8d7b11d163fe8/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "cfd2c4ab82f9ca",
-          "source": "新华社",
-          "title": "巴西里约发生直升机坠毁事故 至少4人死亡",
-          "url": "https://www.news.cn/20260809/9ee176cdc14a449595bb8ca84a248d26/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60658,10 +60670,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "dcd2ec9ca30334",
+          "id": "b537a2447eaabb",
           "source": "新华社",
-          "title": "拜登之子：拜登癌症进一步扩散 生活受到严重影响",
-          "url": "https://www.news.cn/world/20260809/af0c92aef4c14f2bba6e9668b1b0d506/c.html",
+          "title": "拜登之子：拜登的癌症进一步扩散",
+          "url": "https://www.news.cn/20260809/edfedcd9901a4e19be6eb05074bf5314/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e8f256daee1267",
+          "source": "新华社",
+          "title": "新华健康丨户外防虫怎么做？这些 情况 请及时就诊",
+          "url": "https://www.news.cn/politics/20260809/5e71d038623f4b06a2ceb6e15b996dd1/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60694,6 +60714,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "明日之星冠军杯决赛取消 U17国足、阿森纳并列冠军",
           "url": "https://www.news.cn/sports/20260809/c3d55dded1844f1c8878174752dce67e/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6ca7be4963e3a6",
+          "source": "新华社",
+          "title": "极端天气已致菲律宾逾38万人受灾、6人死亡",
+          "url": "https://www.news.cn/world/20260809/d1380d8dc33944dcaf22a496d7a29c5c/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60770,6 +60798,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "4129ef632078ea",
+          "source": "新华社",
+          "title": "美国ICE将配齐执法记录仪 视频公布须“酌情”",
+          "url": "https://www.news.cn/world/20260809/de3f6c8807244a2f88c5c687bdc0d77a/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "cca43e3f485c10",
           "source": "新华社",
           "title": "美国防部要求军工企业“大幅加快”武器生产",
@@ -60794,22 +60830,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8050c1e7ae6f52",
-          "source": "新华社",
-          "title": "记者手记丨从防洪到抗旱，荷兰经历气候变化之痛",
-          "url": "https://www.news.cn/world/20260809/92bd119220c146fbbf8b9331df9026ef/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "e42c5745b1bb9c",
-          "source": "新华社",
-          "title": "货运火车的“分拣中心”，你见过吗？",
-          "url": "https://www.news.cn/politics/20260809/dafc49cb70754d018863ac55f0ca98a0/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
           "id": "432dfc8f9cb193",
           "source": "新华社",
           "title": "走进传感谷 感知“芯”动能",
@@ -60818,10 +60838,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "7133cc774328d8",
+          "id": "19c3566497cba3",
           "source": "新华社",
-          "title": "过百起野火同时燃烧 加拿大一省进入紧急状态",
-          "url": "https://www.news.cn/world/20260809/6814fe09f4ef4e85b1cd2930f9a90ee4/c.html",
+          "title": "速查，7月流行计算机病毒当心中招",
+          "url": "https://www.news.cn/legal/20260809/0fd4d9398bbe4a5da9cb1da3171c79c8/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60846,22 +60866,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "高市早苗再度对“无核三原则”含糊表态",
           "url": "https://www.news.cn/20260809/b7fb3acbc0824da09a93e2d43f91e5fa/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "a8df44bf52c85f",
-          "source": "新华社",
-          "title": "高招选专业，究竟在选什么？别因“热门”窄化“热爱”",
-          "url": "https://www.news.cn/politics/20260809/aeabdda0e6084ee8a36b42c236d64463/c.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "0c555d5bcc88a6",
-          "source": "新华社",
-          "title": "高温天气电动自行车充电需注意安全",
-          "url": "https://www.news.cn/politics/20260809/41209e050273426b94ec6045d456cedb/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60919,44 +60923,44 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 15.1,
+          "duration": 7.1,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260809.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 2.1
+          "duration": 2.2
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.5
+          "duration": 2.1
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 16.9
+          "duration": 41.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 6,
-          "duration": 6.0
+          "duration": 6.5
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 29,
-          "duration": 1.9
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.0
+          "duration": 14.5
         },
         {
           "source": "学习强国",
@@ -60968,16 +60972,16 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 13.8
+          "duration": 9.1
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 63.4
+          "duration": 45.0
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-09T15:50:36+08:00"
+  "generatedAt": "2026-08-09T16:35:58+08:00"
 };
