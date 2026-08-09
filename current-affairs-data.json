@@ -61111,14 +61111,14 @@
     },
     {
       "date": "2026-08-10",
-      "keyword": "人工智能",
+      "keyword": "国家安全",
       "keywords": [
         {
-          "name": "人工智能",
-          "count": 2
+          "name": "国家安全",
+          "count": 3
         },
         {
-          "name": "国家安全",
+          "name": "人工智能",
           "count": 2
         },
         {
@@ -61127,6 +61127,30 @@
         }
       ],
       "articles": [
+        {
+          "id": "804a5444ddc08e",
+          "source": "新华社",
+          "title": "伊朗任命雷扎伊为最高国家安全委员会秘书",
+          "url": "https://www.news.cn/20260810/16f3bd69fcb143db87c966ae34aa8543/c.html",
+          "date": "2026-08-10",
+          "keyword": "国家安全"
+        },
+        {
+          "id": "c510f39f7f55e9",
+          "source": "新华社",
+          "title": "伊朗议会国家安全委员会批准霍尔木兹海峡安全纲要",
+          "url": "https://www.news.cn/world/20260810/fc4e8758e7b8432ebd3a2dde4e917882/c.html",
+          "date": "2026-08-10",
+          "keyword": "国家安全"
+        },
+        {
+          "id": "ed5c4c956b02be",
+          "source": "新华社",
+          "title": "雷扎伊被任命为伊朗最高国家安全委员会秘书",
+          "url": "https://www.news.cn/20260810/04a182f710864e9d8e29f6b8c11bbb62/c.html",
+          "date": "2026-08-10",
+          "keyword": "国家安全"
+        },
         {
           "id": "a9adbf9e272af0",
           "source": "人民日报",
@@ -61158,22 +61182,6 @@
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/10/content_21762.html",
           "date": "2026-08-10",
           "keyword": "经济"
-        },
-        {
-          "id": "804a5444ddc08e",
-          "source": "新华社",
-          "title": "伊朗任命雷扎伊为最高国家安全委员会秘书",
-          "url": "https://www.news.cn/20260810/16f3bd69fcb143db87c966ae34aa8543/c.html",
-          "date": "2026-08-10",
-          "keyword": "国家安全"
-        },
-        {
-          "id": "c510f39f7f55e9",
-          "source": "新华社",
-          "title": "伊朗议会国家安全委员会批准霍尔木兹海峡安全纲要",
-          "url": "https://www.news.cn/world/20260810/fc4e8758e7b8432ebd3a2dde4e917882/c.html",
-          "date": "2026-08-10",
-          "keyword": "国家安全"
         },
         {
           "id": "9733484258baa3",
@@ -61432,9 +61440,17 @@
           "keyword": "综合时政"
         },
         {
+          "id": "d80e33f9f0c3bf",
+          "source": "新华社",
+          "title": "一场开幕式，让“塞上湖城”彻底出圈",
+          "url": "https://www.news.cn/local/20260810/94a98a8eb7734bf0bcc6aa4977b37506/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
           "id": "95f0f4f4a943bc",
           "source": "新华社",
-          "title": "以媒：内塔尼亚胡曾同意从加沙部分地区撤军 现已反悔",
+          "title": "以媒：内塔尼亚胡曾同意从加沙局地撤军 现已反悔",
           "url": "https://www.news.cn/20260810/43225ed5b6114754a0152eb13613d258/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
@@ -61464,10 +61480,26 @@
           "keyword": "综合时政"
         },
         {
+          "id": "05750a3bb43c1e",
+          "source": "新华社",
+          "title": "千年王陵以美学破圈",
+          "url": "https://www.news.cn/local/20260810/9c5e2edc59ab4c9fae4477d3457e243f/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
           "id": "838ac5227ed0d0",
           "source": "新华社",
           "title": "在开放创新合作中促进共同繁荣",
           "url": "https://www.news.cn/world/20260810/b509bd66393f4f94be03cb29eb0f2f95/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b3944ca483cb66",
+          "source": "新华社",
+          "title": "直击狂风暴雨下的台风“白海豚”登陆核心区",
+          "url": "https://www.news.cn/politics/20260810/f0af60ffec604f27ab51bfdfecbd582b/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -61485,65 +61517,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 12.4,
+          "duration": 7.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260810.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 19,
-          "duration": 1.8
+          "duration": 1.9
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 8,
-          "duration": 2.2
+          "count": 12,
+          "duration": 2.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 19.8
+          "duration": 12.2
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 5.9
+          "duration": 6.5
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 17,
-          "duration": 1.5
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.5
+          "duration": 12.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.9
+          "duration": 2.6
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.7
+          "duration": 8.9
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 60.0
+          "duration": 61.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-10T06:38:40+08:00"
+  "generatedAt": "2026-08-10T07:35:35+08:00"
 }
