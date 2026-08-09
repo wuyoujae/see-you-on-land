@@ -59949,6 +59949,14 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "消费",
+          "count": 3
+        },
+        {
+          "name": "高质量发展",
+          "count": 2
+        },
+        {
+          "name": "经济",
           "count": 2
         }
       ],
@@ -59968,6 +59976,38 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/09/content_30173781.html",
           "date": "2026-08-09",
           "keyword": "消费"
+        },
+        {
+          "id": "18ca91c6563f7d",
+          "source": "新华社",
+          "title": "销量增长 租赁成新选择 体验式消费带热运动相机",
+          "url": "https://www.news.cn/20260809/8fb84b3870d74b768748caec1d62903c/c.html",
+          "date": "2026-08-09",
+          "keyword": "消费"
+        },
+        {
+          "id": "ed15a507d8ea6b",
+          "source": "人民日报",
+          "title": "为生物医药企业创新省时省钱（经济新方位·服务业扩能提质）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/09/content_30173785.html",
+          "date": "2026-08-09",
+          "keyword": "经济"
+        },
+        {
+          "id": "17d0e875c0d747",
+          "source": "新华社",
+          "title": "两部门发文促进可再生能源高质量发展 解读",
+          "url": "https://www.news.cn/fortune/20260809/46acd22c65d9452cae269601681f8516/c.html",
+          "date": "2026-08-09",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "a45af34485bd48",
+          "source": "新华社",
+          "title": "山乡新画卷：流量变“留量” 村马奔腾激活夜经济",
+          "url": "https://www.news.cn/20260809/356633461a784f7ab5b2a17b4dffc339/c.html",
+          "date": "2026-08-09",
+          "keyword": "经济"
         },
         {
           "id": "5a59d6c535d8e4",
@@ -60030,14 +60070,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "为持续推动乡村全面振兴提供保障",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/09/content_30173797.html",
-          "date": "2026-08-09",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "ed15a507d8ea6b",
-          "source": "人民日报",
-          "title": "为生物医药企业创新省时省钱（经济新方位·服务业扩能提质）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/09/content_30173785.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60362,6 +60394,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "0b9bf5f663514f",
+          "source": "广东发布",
+          "title": "总书记的人民情怀 | “努力提升粮食能源资源安全保障能力”",
+          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4939790.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "797ae0f6555a68",
+          "source": "广东发布",
+          "title": "省运会暨省残运会开幕式今晚举办",
+          "url": "https://www.gd.gov.cn/gdywdt/bmdt/content/post_4939791.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c908953af784d0",
+          "source": "新华社",
+          "title": "“枪口对准了我”，记者直击以军巴勒斯坦军事行动",
+          "url": "https://www.news.cn/world/20260809/2ff3e70fd84d447095dc07742a3802fc/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "b90cc0f0720520",
           "source": "新华社",
           "title": "万斯称美伊冲突仍处于“博弈中段”",
@@ -60370,18 +60426,42 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "ef76388fc8dfa4",
+          "id": "fba29a7edf76f9",
           "source": "新华社",
           "title": "中国代表队首次参加国际核科学奥赛 获一金三银",
-          "url": "https://www.news.cn/20260809/4602beff8e784141a648768a586abba1/c.html",
+          "url": "https://www.news.cn/world/20260809/fd54e35d2d57443d99b21e3eeec2b3a5/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
         {
-          "id": "c86534d91b80f2",
+          "id": "1e07eb74e05a6a",
           "source": "新华社",
           "title": "以媒：美军中央司令部司令访以讨论“多战线局势”",
-          "url": "https://www.news.cn/20260809/9f76b3fb99044be8bc66e79affc73ecb/c.html",
+          "url": "https://www.news.cn/world/20260809/1ff7ceb2922641b496b13e04a3058768/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "273353cec22072",
+          "source": "新华社",
+          "title": "克罗地亚两列火车相撞致20人受伤",
+          "url": "https://www.news.cn/world/20260809/9dda7b78efc84ef4a05753475ee4787d/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "73af4d2f9e6b41",
+          "source": "新华社",
+          "title": "养殖滩涂变身水上运动聚集地",
+          "url": "https://www.news.cn/local/20260809/e32a6a506a534473a477f7305ab6119d/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "09202b31b937b1",
+          "source": "新华社",
+          "title": "前7月进口增速高于出口8个百分点，意味着什么？",
+          "url": "https://www.news.cn/20260809/5e119ecb4bad4e0aa9f64b957bec5977/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60394,6 +60474,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "5a239dc82d4162",
+          "source": "新华社",
+          "title": "北京举办第三届养老护理职业技能大赛",
+          "url": "https://www.news.cn/20260809/4aa5c72ad02948a9ac99d0e681b1a39e/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f72a74347e715f",
+          "source": "新华社",
+          "title": "只是看看热闹？建“吃瓜群”传播同学隐私被判侵权",
+          "url": "https://www.news.cn/legal/20260809/3767ce0d15b245b4975a7f46e6f70df7/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "9c7fc489434a38",
           "source": "新华社",
           "title": "土外长称沙土巴三国共同防务协议有望扩员",
@@ -60402,10 +60498,42 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "ca3b845b27b9d7",
+          "source": "新华社",
+          "title": "外国青年在山东青岛度过“考古之夏”",
+          "url": "https://www.news.cn/20260809/3279319e28ed4026a3d9e95d15a0bfe2/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
           "id": "cfd2c4ab82f9ca",
           "source": "新华社",
           "title": "巴西里约发生直升机坠毁事故 至少4人死亡",
           "url": "https://www.news.cn/20260809/9ee176cdc14a449595bb8ca84a248d26/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1a5d7495152c3f",
+          "source": "新华社",
+          "title": "我国渤海首个千亿方大气田Ⅰ期开发项目全面投产",
+          "url": "https://www.news.cn/local/20260809/1c16e4991dd642b0b680e462320ec4f1/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7bbdf3523d7a1e",
+          "source": "新华社",
+          "title": "执法记录仪能“管”住美国ICE吗？",
+          "url": "https://www.news.cn/world/20260809/3f7436fe64ab4028a885d6f129aeb892/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "131146f21b2e6c",
+          "source": "新华社",
+          "title": "日本岩手县近海发生5.6级地震",
+          "url": "https://www.news.cn/20260809/1b5ecb85f88445c4b6c20f6bd51ca465/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
         },
@@ -60432,6 +60560,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/20260809/8d44ae13948e4d2fb5b63c082236134c/c.html",
           "date": "2026-08-09",
           "keyword": "综合时政"
+        },
+        {
+          "id": "a8df44bf52c85f",
+          "source": "新华社",
+          "title": "高招选专业，究竟在选什么？别因“热门”窄化“热爱”",
+          "url": "https://www.news.cn/politics/20260809/aeabdda0e6084ee8a36b42c236d64463/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5e69f4e3f08492",
+          "source": "新华社",
+          "title": "高温预防肾结石，补水、饮食、运动是关键",
+          "url": "https://www.news.cn/20260809/860b0793873e4e1cbf97f2cc283a4fc3/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "56824bf402eb07",
+          "source": "新华社",
+          "title": "黑海遇袭商船停靠土耳其港口",
+          "url": "https://www.news.cn/world/20260809/42a384f50a884b3c8a002247cba0faa1/c.html",
+          "date": "2026-08-09",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -60439,65 +60591,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.6,
+          "duration": 6.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260809.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.2
+          "duration": 1.0
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 9,
-          "duration": 2.7
+          "count": 25,
+          "duration": 3.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 34.0
+          "duration": 31.2
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.0
+          "duration": 6.3
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 29,
-          "duration": 1.8
+          "duration": 1.2
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.6
+          "duration": 14.7
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.4
+          "duration": 3.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.7
+          "duration": 8.6
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 0,
-          "duration": 59.9
+          "count": 2,
+          "duration": 47.2
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-09T07:34:00+08:00"
+  "generatedAt": "2026-08-09T09:12:56+08:00"
 };
