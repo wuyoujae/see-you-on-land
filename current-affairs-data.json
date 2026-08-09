@@ -61108,7 +61108,442 @@
           "duration": 56.1
         }
       ]
+    },
+    {
+      "date": "2026-08-10",
+      "keyword": "人工智能",
+      "keywords": [
+        {
+          "name": "人工智能",
+          "count": 2
+        },
+        {
+          "name": "国家安全",
+          "count": 2
+        },
+        {
+          "name": "经济",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "a9adbf9e272af0",
+          "source": "人民日报",
+          "title": "开放共赢是人工智能发展的必由之路（和音）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173909.html",
+          "date": "2026-08-10",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "adb2ded9d56bc8",
+          "source": "人民日报",
+          "title": "生成式人工智能领域新设企业增长28.0%",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173906.html",
+          "date": "2026-08-10",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "54608c612c8a47",
+          "source": "人民日报",
+          "title": "麦香里的新品种（经济新方位）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173904.html",
+          "date": "2026-08-10",
+          "keyword": "经济"
+        },
+        {
+          "id": "7db8cbf728c599",
+          "source": "光明日报",
+          "title": "【光明论坛】“三新”经济正成为转型升级的新引擎",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/10/content_21762.html",
+          "date": "2026-08-10",
+          "keyword": "经济"
+        },
+        {
+          "id": "804a5444ddc08e",
+          "source": "新华社",
+          "title": "伊朗任命雷扎伊为最高国家安全委员会秘书",
+          "url": "https://www.news.cn/20260810/16f3bd69fcb143db87c966ae34aa8543/c.html",
+          "date": "2026-08-10",
+          "keyword": "国家安全"
+        },
+        {
+          "id": "c510f39f7f55e9",
+          "source": "新华社",
+          "title": "伊朗议会国家安全委员会批准霍尔木兹海峡安全纲要",
+          "url": "https://www.news.cn/world/20260810/fc4e8758e7b8432ebd3a2dde4e917882/c.html",
+          "date": "2026-08-10",
+          "keyword": "国家安全"
+        },
+        {
+          "id": "9733484258baa3",
+          "source": "人民日报",
+          "title": "7月居民消费价格指数同比上涨0.5%",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173905.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "06db2cea074e45",
+          "source": "人民日报",
+          "title": "вАЬеБЪиГљжЙШеЇХзЪДиБФеРИдљЬжИШеПВи∞ЛвАЭпЉИжЬАзЊОжЦ∞жЧґдї£йЭ©еСљеЖЫдЇЇпЉЙ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173913.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3ac7363e48f4e1",
+          "source": "人民日报",
+          "title": "вАЬеП™жЬЙжИСдїђдЄ≠еЫљеЕ±дЇІеЕЪдЇЇеЃЮзО∞дЇЖвАЭ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173902.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2b549947f54299",
+          "source": "人民日报",
+          "title": "дЄАзЙИиі£зЉЦпЉЪжЭ® жЧ≠ иЃЄ иѓЇ еЉ†еЄЕз•ѓ дЇМзЙИиі£зЉЦпЉЪжЮЧ зР≥ з•БеШЙжґ¶ йГ≠йЫ™е≤© дЄЙзЙИиі£зЉЦпЉЪйЯ©жЩУжШО еІЬ ж≥Ґ еЕ≥зЪУеЃЗ еЫЫзЙИиі£зЉЦпЉЪеИШ ењµ йЯ©жШ•зСґ йЩИ йЬЗ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173917.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "99432ec28dcf74",
+          "source": "人民日报",
+          "title": "еЇФеѓєеП∞й£О иљђзІїзЊ§дЉЧ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173915.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a545b7518f926e",
+          "source": "人民日报",
+          "title": "еЈЭжЄЭдЄ§жЭС дЄАеЉ†иУЭеЫЊпЉИжЈ±йШЕиѓїпЉЙ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173912.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2133102abfd316",
+          "source": "人民日报",
+          "title": "еП∞й£ОвАЬзЩљжµЈи±ЪвАЭеЬ®жµЩж±Яж≤њжµЈдЄ§жђ°зЩїйЩЖ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173916.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b0b9d14f381f37",
+          "source": "人民日报",
+          "title": "еЫЊзЙЗжК•йБУ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173901.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "766f71f7db2ab5",
+          "source": "人民日报",
+          "title": "еѓЉиѓї",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173903.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "94685efb3d993a",
+          "source": "人民日报",
+          "title": "жО®еК®йЂШиі®йЗПеЕЕеИЖе∞±дЄЪеПЦеЊЧжЦ∞ињЫе±ХпЉИвАЬеНБдЇФдЇФвАЭеЉАе•ље±АиµЈе•љж≠•пЉЙ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173900.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "148118a747173a",
+          "source": "人民日报",
+          "title": "жљЃжґМеНГеЄЖењЧжШВжЙђ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173899.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "301c968ba0e7ef",
+          "source": "人民日报",
+          "title": "ж≠¶жЭЊжЙУиЩОпЉМй¶ЦеЕИжШѓвАЬжХҐвАЭжЙУпЉИдЇЇж∞СиЃЇеЭЫпЉЙ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173914.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "756ea68a4a459f",
+          "source": "人民日报",
+          "title": "“APEC合作将结出更加丰硕的成果”（APEC中国年：开放 创新 合作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173910.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9244114eab4c60",
+          "source": "人民日报",
+          "title": "共同探寻宇宙膨胀的暗能量之谜",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173908.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "47851cb3c4abcc",
+          "source": "人民日报",
+          "title": "在“未来之城”播下友谊与梦想的种子",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173911.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aebe9c05b260ed",
+          "source": "人民日报",
+          "title": "潮涌千帆志昂扬",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173907.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "276931a036ac41",
+          "source": "光明日报",
+          "title": "“北大仓”迎来小麦收获季",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/10/content_21775.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3dbd3fd2e29b6f",
+          "source": "光明日报",
+          "title": "【“筑基”高质量·系列评论之六】努力！让国泰民安成为永世盛景",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/10/content_21752.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "54bb437a36aa40",
+          "source": "光明日报",
+          "title": "【光明论坛】发挥青年力量、释放高校国际传播潜力",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/10/content_21761.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c4f5218fc9cf31",
+          "source": "光明日报",
+          "title": "【光明论坛】科技投入，“舍得投”也要“投得好”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/10/content_21760.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "070e3604443899",
+          "source": "光明日报",
+          "title": "【文化评析】以文化符号涵养精神家园",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/10/content_21764.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f21abea8ec6332",
+          "source": "光明日报",
+          "title": "【文化评析】公众传播更要用字规范",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/10/content_21763.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "da3c91803131c6",
+          "source": "光明日报",
+          "title": "三千年，并不遥远",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/10/content_21777.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b1f5ed848deb1c",
+          "source": "光明日报",
+          "title": "以深厚的为民情怀增进人民福祉",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/10/content_21753.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3b6d1346a50ee9",
+          "source": "光明日报",
+          "title": "各美其美，美美与共",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/10/content_21754.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "831b8397e5cbff",
+          "source": "光明日报",
+          "title": "在游船上听红色故事",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/10/content_21779.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6656f140677d01",
+          "source": "光明日报",
+          "title": "天水师范大学：扎根陇原铸魂育人 多维协同思政润心",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/10/content_21781.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "92b149a13ba59b",
+          "source": "光明日报",
+          "title": "来宁夏，体验沉浸式“晒书”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/10/content_21778.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4413a4a55e2243",
+          "source": "光明日报",
+          "title": "殷墟：三千年文明正青春",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/10/content_21776.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "17666985878531",
+          "source": "光明日报",
+          "title": "浙江：向新求质，制造大省的“硬核”跃迁",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/10/content_21774.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "86a2b411f34b31",
+          "source": "光明日报",
+          "title": "草原体育盛会邂逅那达慕",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/10/content_21780.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "24af183ffdac71",
+          "source": "光明日报",
+          "title": "闯关夺隘 奋楫新程",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/10/content_21755.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "95f0f4f4a943bc",
+          "source": "新华社",
+          "title": "以媒：内塔尼亚胡曾同意从加沙部分地区撤军 现已反悔",
+          "url": "https://www.news.cn/20260810/43225ed5b6114754a0152eb13613d258/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "af819adb8a8c26",
+          "source": "新华社",
+          "title": "伊朗最高领袖任命佐勒加德尔为其政治顾问",
+          "url": "https://www.news.cn/20260810/cf31937b515e44ff83f2c8c9cdb9fae1/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f0ed1f68873afe",
+          "source": "新华社",
+          "title": "俄国防部：拦截285架乌克兰无人机并对乌发动空袭",
+          "url": "https://www.news.cn/20260810/d0c990e6baa6445e946406f047edb4db/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "92aea19b8eda5d",
+          "source": "新华社",
+          "title": "党中央国务院邀请优秀专家人才代表北戴河休假侧记",
+          "url": "https://www.news.cn/politics/20260810/d11e0d6b7e1a44709742dc9dd50ccf66/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "838ac5227ed0d0",
+          "source": "新华社",
+          "title": "在开放创新合作中促进共同繁荣",
+          "url": "https://www.news.cn/world/20260810/b509bd66393f4f94be03cb29eb0f2f95/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ebba94d0b80058",
+          "source": "新华社",
+          "title": "美国芝加哥市发生多起枪击事件致三死10伤",
+          "url": "https://www.news.cn/20260810/f068c13be08f46a2ba77470942ad68de/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 12.4,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260810.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "ok",
+          "count": 19,
+          "duration": 1.8
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 8,
+          "duration": 2.2
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 19.8
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.9
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 17,
+          "duration": 1.5
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.5
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.9
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.7
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 60.0
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-08-09T23:26:04+08:00"
+  "generatedAt": "2026-08-10T06:38:40+08:00"
 }
