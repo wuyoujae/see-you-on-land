@@ -61126,15 +61126,15 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 6
         },
         {
+          "name": "十五五",
+          "count": 6
+        },
+        {
           "name": "习近平党建思想",
           "count": 5
         },
         {
           "name": "人工智能",
-          "count": 5
-        },
-        {
-          "name": "十五五",
           "count": 5
         },
         {
@@ -61300,6 +61300,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
+          "id": "5dd9f5ab3b9d5c",
+          "source": "半月谈",
+          "title": "潮起渤海湾 奋楫“十五五”——党中央国务院邀请优秀专家人才代表北戴河休假侧记",
+          "url": "http://www.banyuetan.org/yw/detail/20260810/1000200033137441786327422810191709_1.html",
+          "date": "2026-08-10",
+          "keyword": "十五五"
+        },
+        {
           "id": "7fe567a22a9eea",
           "source": "学习强国",
           "title": "以科学的思想方法推进管党治党——习近平党建思想理论品格系列述评之六",
@@ -61316,12 +61324,52 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
+          "id": "38a8223a5fe7ba",
+          "source": "新华社",
+          "title": "“十五五”开局之年城市地下管网建设观察",
+          "url": "https://www.news.cn/politics/20260810/6f0c33e61217453da3bcbf85e036fcd3/c.html",
+          "date": "2026-08-10",
+          "keyword": "十五五"
+        },
+        {
+          "id": "8deaa80e9394b3",
+          "source": "新华社",
+          "title": "两部门解读《煤炭工业发展“十五五”规划》",
+          "url": "https://www.news.cn/politics/20260810/882e7817ec8e49e3b779e55e02095014/c.html",
+          "date": "2026-08-10",
+          "keyword": "十五五"
+        },
+        {
           "id": "7d641a5e7f1c6e",
           "source": "新华社",
           "title": "以科学的思想方法推进管党治党——习近平党建思想理论品格系列述评之六",
           "url": "https://www.news.cn/politics/20260810/31fb37eaa621408286158f594637fcf4/c.html",
           "date": "2026-08-10",
           "keyword": "习近平"
+        },
+        {
+          "id": "d9b30931954e29",
+          "source": "新华社",
+          "title": "四川阿坝：“十五五”期间将统筹推进长江黄河上游生态保护",
+          "url": "https://www.news.cn/politics/20260810/3faaa9288ab645a2a0b76f72e9f1483e/c.html",
+          "date": "2026-08-10",
+          "keyword": "十五五"
+        },
+        {
+          "id": "550f797417806c",
+          "source": "新华社",
+          "title": "央行“十五五”改革发展规划部署这些重点任务",
+          "url": "https://www.news.cn/politics/20260810/b592ed64b7714337bc608d77c17b0209/c.html",
+          "date": "2026-08-10",
+          "keyword": "十五五"
+        },
+        {
+          "id": "03fd3549ff6eb7",
+          "source": "新闻联播",
+          "title": "【凝心聚力 真抓实干 奋力实现“十五五”良好开局】共享智造助力河北激活产业集群新活力",
+          "url": "https://tv.cctv.com/2026/08/10/VIDERpcMJDHE5R9PMDmPsGyr260810.shtml",
+          "date": "2026-08-10",
+          "keyword": "十五五"
         },
         {
           "id": "8ae091edcb91b2",
@@ -61364,14 +61412,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "人工智能"
         },
         {
-          "id": "5dd9f5ab3b9d5c",
-          "source": "半月谈",
-          "title": "潮起渤海湾 奋楫“十五五”——党中央国务院邀请优秀专家人才代表北戴河休假侧记",
-          "url": "http://www.banyuetan.org/yw/detail/20260810/1000200033137441786327422810191709_1.html",
-          "date": "2026-08-10",
-          "keyword": "十五五"
-        },
-        {
           "id": "a4e0d8759b6489",
           "source": "学习强国",
           "title": "开放共赢是人工智能发展的必由之路",
@@ -61386,38 +61426,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.gd.gov.cn/gdywdt/bmdt/content/post_4939933.html",
           "date": "2026-08-10",
           "keyword": "人工智能"
-        },
-        {
-          "id": "8deaa80e9394b3",
-          "source": "新华社",
-          "title": "两部门解读《煤炭工业发展“十五五”规划》",
-          "url": "https://www.news.cn/politics/20260810/882e7817ec8e49e3b779e55e02095014/c.html",
-          "date": "2026-08-10",
-          "keyword": "十五五"
-        },
-        {
-          "id": "d9b30931954e29",
-          "source": "新华社",
-          "title": "四川阿坝：“十五五”期间将统筹推进长江黄河上游生态保护",
-          "url": "https://www.news.cn/politics/20260810/3faaa9288ab645a2a0b76f72e9f1483e/c.html",
-          "date": "2026-08-10",
-          "keyword": "十五五"
-        },
-        {
-          "id": "550f797417806c",
-          "source": "新华社",
-          "title": "央行“十五五”改革发展规划部署这些重点任务",
-          "url": "https://www.news.cn/politics/20260810/b592ed64b7714337bc608d77c17b0209/c.html",
-          "date": "2026-08-10",
-          "keyword": "十五五"
-        },
-        {
-          "id": "03fd3549ff6eb7",
-          "source": "新闻联播",
-          "title": "【凝心聚力 真抓实干 奋力实现“十五五”良好开局】共享智造助力河北激活产业集群新活力",
-          "url": "https://tv.cctv.com/2026/08/10/VIDERpcMJDHE5R9PMDmPsGyr260810.shtml",
-          "date": "2026-08-10",
-          "keyword": "十五五"
         },
         {
           "id": "e11bbf150d5f5c",
@@ -61756,6 +61764,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "af14aa3a6a46a4",
+          "source": "半月谈",
+          "title": "举起手机改变家乡",
+          "url": "http://www.banyuetan.org/byt/fanxianggushi/index.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
           "id": "081f15e3101ff3",
           "source": "半月谈",
           "title": "以媒：内塔尼亚胡曾同意从加沙部分地区撤军 现已反悔",
@@ -61784,6 +61800,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "半月谈",
           "title": "台风来临，他们搭起一条“空中生命线”",
           "url": "http://www.banyuetan.org/dyp/detail/20260810/1000200033135231786327559512193508_1.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ed24b229dfd6ff",
+          "source": "半月谈",
+          "title": "四代戎装九十五载 一家赤诚薪火相传",
+          "url": "http://www.banyuetan.org/dfgc/detail/20260810/1000200033136151786330859205177854_1.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -61824,14 +61848,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "半月谈",
           "title": "新华时评丨警钟长鸣，日本拥核野心不可纵容",
           "url": "http://www.banyuetan.org/yw/detail/20260810/1000200033137441786326876749184426_1.html",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "2d3f359dc2387f",
-          "source": "半月谈",
-          "title": "步长制药：子公司全方位搭建职工成长培育平台",
-          "url": "http://www.banyuetan.org/dfgc/detail/20260810/1000200033136151786362129842185672_1.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62468,6 +62484,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "ef574e66a17db2",
+          "source": "新华社",
+          "title": "中星4B卫星发射失利",
+          "url": "https://www.news.cn/20260810/22eaeb23bd104e9ebd5c290afe95f835/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
           "id": "cd09eba7e99153",
           "source": "新华社",
           "title": "为什么这里被称为美的殿堂？",
@@ -62500,18 +62524,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "c74cf4f099689b",
+          "id": "6a5a815a22f6fb",
           "source": "新华社",
-          "title": "保持定力、向质提升 民营企业创新动能持续增强",
-          "url": "https://www.news.cn/fortune/20260810/7a6276d34b1e474785a749a1463c0049/c.html",
+          "title": "伊朗最高领袖将任命数名高级军事指挥官",
+          "url": "https://www.news.cn/20260810/83fe6ba7017c4ca19b6ab44f70d53656/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
         {
-          "id": "e61eba2ffd1963",
+          "id": "c74cf4f099689b",
           "source": "新华社",
-          "title": "全球瞭望丨英媒：干预日元汇率暴露美国金融“软肋”",
-          "url": "https://www.news.cn/20260810/aa03390da49d4d11abc6e0d43671ed0e/c.html",
+          "title": "保持定力、向质提升 民营企业创新动能持续增强",
+          "url": "https://www.news.cn/fortune/20260810/7a6276d34b1e474785a749a1463c0049/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62524,10 +62548,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "38fb6f75389393",
+          "source": "新华社",
+          "title": "内塔尼亚胡拒加沙和平计划 以美一唱一和？",
+          "url": "https://www.news.cn/world/20260810/969e1e07493c4a7fa4b14ef2a49ebb6c/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
           "id": "54113f99da3167",
           "source": "新华社",
           "title": "台风“白海豚”带来强降雨",
           "url": "https://www.news.cn/photo/20260810/1e0e67a2dccf498985615dc3ec27f5d8/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d9d563128a50e7",
+          "source": "新华社",
+          "title": "哥伦比亚地震已致2死3伤",
+          "url": "https://www.news.cn/20260810/1bd52841deb94b1ead11d5ee4bfbba3d/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62572,6 +62612,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "f316ef5a1b9ec2",
+          "source": "新华社",
+          "title": "学习进行时丨携手构建亚太共同体",
+          "url": "https://www.news.cn/politics/xxjxs/20260810/493cd32f622141bf9866e536f48ea0af/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a7a2497505128c",
           "source": "新华社",
           "title": "宁夏7月外送电量、外送新能源电量双创新高",
@@ -62584,14 +62632,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "宁夏回族自治区十一届人大常委会原委员张志敏接受审查调查",
           "url": "https://www.news.cn/20260810/5191a050e3c549249e37078ac20e1c78/c.html",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "8268e80a9bcfd1",
-          "source": "新华社",
-          "title": "宁夏回族自治区十一届人大常委会原委员张志敏被查",
-          "url": "https://www.news.cn/politics/20260810/a8ed2434a0704c1a86177936a415f0f2/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62616,14 +62656,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "新华社权威速览丨什么是“以路治沙”",
           "url": "https://www.news.cn/politics/20260810/c26c6189d22e4279b97de9f9d095ee95/c.html",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "82bd097abb8cc5",
-          "source": "新华社",
-          "title": "日本6月经常项目转为逆差",
-          "url": "https://www.news.cn/20260810/245bb4eeefed42c7b98424d6c42899a2/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62700,22 +62732,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "b6de1860725356",
-          "source": "新华社",
-          "title": "西班牙对意“报复”实施 首日入境检查约200人",
-          "url": "https://www.news.cn/20260810/75536ffe866b465b93430dac29a7b438/c.html",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "718bf9c4cf32eb",
-          "source": "新华社",
-          "title": "跨越山海的功夫情缘——中国武术连接中非民心",
-          "url": "https://www.news.cn/world/20260810/64fe611be6e4432f9790c91fa2b6bfb5/c.html",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
           "id": "1f01d1134b21cc",
           "source": "新华社",
           "title": "铸魂强党丨建设堪当民族复兴重任的高素质干部队伍",
@@ -62760,14 +62776,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "陕港人才交流推介会在港举行",
           "url": "https://www.news.cn/20260810/cf2c54b8515543e68dec7da9fd89a3a7/c.html",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "7c5219bc5d7e13",
-          "source": "新华社",
-          "title": "青海省博物馆：暑期周一不闭馆",
-          "url": "https://www.news.cn/photo/20260810/077c547c76fe4b4787958012954602ea/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62903,58 +62911,58 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "status": "ok",
           "count": 19,
-          "duration": 2.9
+          "duration": 2.7
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 1.9
+          "duration": 4.2
         },
         {
           "source": "半月谈",
           "status": "ok",
-          "count": 20,
-          "duration": 27.5
+          "count": 21,
+          "duration": 18.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 9,
-          "duration": 5.9
+          "duration": 7.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 17,
-          "duration": 2.0
+          "duration": 5.9
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.6
+          "duration": 14.5
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 4.2
+          "duration": 3.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 10.2
+          "duration": 9.8
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 15,
-          "duration": 66.3
+          "duration": 60.9
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-10T22:19:20+08:00"
+  "generatedAt": "2026-08-10T23:56:07+08:00"
 };
