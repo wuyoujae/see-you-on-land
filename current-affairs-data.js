@@ -61115,7 +61115,7 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "经济",
-          "count": 11
+          "count": 10
         },
         {
           "name": "消费",
@@ -61138,12 +61138,12 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 5
         },
         {
-          "name": "就业",
-          "count": 3
+          "name": "暴雨",
+          "count": 4
         },
         {
-          "name": "中国共产党",
-          "count": 2
+          "name": "就业",
+          "count": 3
         }
       ],
       "articles": [
@@ -61200,14 +61200,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "夜演、夜航、夜宿……解锁夜经济N种模样",
           "url": "https://www.xinhuanet.com/fortune/20260810/1501e94a85454dd6a23056f4a33dcfe7/c.html",
-          "date": "2026-08-10",
-          "keyword": "经济"
-        },
-        {
-          "id": "1a0be2d5c31e34",
-          "source": "新华社",
-          "title": "美媒：特朗普倾向对伊经济施压而非军事打击",
-          "url": "https://www.news.cn/world/20260810/e28d697de87b4a7199a6fedf148feb1e/c.html",
           "date": "2026-08-10",
           "keyword": "经济"
         },
@@ -61428,6 +61420,38 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "十五五"
         },
         {
+          "id": "e11bbf150d5f5c",
+          "source": "半月谈",
+          "title": "迎战跨越4700公里的风雨考验——直击狂风暴雨下的台风“白海豚”登陆核心区",
+          "url": "http://www.banyuetan.org/yw/detail/20260810/1000200033137441786327184446187851_1.html",
+          "date": "2026-08-10",
+          "keyword": "暴雨"
+        },
+        {
+          "id": "0ba282a6d7ddb2",
+          "source": "学习强国",
+          "title": "水利部门全力做好台风暴雨洪水防御",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=5909271156914338403&item_id=5909271156914338403",
+          "date": "2026-08-10",
+          "keyword": "暴雨"
+        },
+        {
+          "id": "52cf23fdcc1fb5",
+          "source": "新华社",
+          "title": "“白海豚”北上西进 专家预判行进路线和暴雨落区",
+          "url": "https://www.news.cn/politics/20260810/98d0f0506ec74413a2fc35064e0aed95/c.html",
+          "date": "2026-08-10",
+          "keyword": "暴雨"
+        },
+        {
+          "id": "b643e0e148372b",
+          "source": "新华社",
+          "title": "水利部滚动会商部署暴雨洪水防御工作",
+          "url": "https://www.news.cn/politics/20260810/836492ebbdae44669eee3a0b67f78218/c.html",
+          "date": "2026-08-10",
+          "keyword": "暴雨"
+        },
+        {
           "id": "651844a0763fda",
           "source": "半月谈",
           "title": "推动高质量充分就业取得新进展",
@@ -61442,22 +61466,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/politics/20260810/cc103070be274470acf75a9b3e074611/c.html",
           "date": "2026-08-10",
           "keyword": "就业"
-        },
-        {
-          "id": "8e847785fa3747",
-          "source": "学习强国",
-          "title": "“只有我们中国共产党人实现了”",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2647682736819861893&item_id=2647682736819861893",
-          "date": "2026-08-10",
-          "keyword": "中国共产党"
-        },
-        {
-          "id": "b0a95e3abf96fd",
-          "source": "求是",
-          "title": "“只有我们中国共产党人实现了”",
-          "url": "https://www.qstheory.cn/20260810/ad6e20f2e2ca4660945f1ede4598bdd5/c.html",
-          "date": "2026-08-10",
-          "keyword": "中国共产党"
         },
         {
           "id": "220c6d36c854c7",
@@ -61836,14 +61844,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "e11bbf150d5f5c",
-          "source": "半月谈",
-          "title": "迎战跨越4700公里的风雨考验——直击狂风暴雨下的台风“白海豚”登陆核心区",
-          "url": "http://www.banyuetan.org/yw/detail/20260810/1000200033137441786327184446187851_1.html",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
           "id": "82c64d225f6b05",
           "source": "学习强国",
           "title": "15部门部署残疾预防日宣传教育活动",
@@ -61864,6 +61864,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "学习强国",
           "title": "“义新欧”中欧班列今年出口集装箱突破10万标箱",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=5920248523071467684&item_id=5920248523071467684",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8e847785fa3747",
+          "source": "学习强国",
+          "title": "“只有我们中国共产党人实现了”",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2647682736819861893&item_id=2647682736819861893",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62124,14 +62132,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "0ba282a6d7ddb2",
-          "source": "学习强国",
-          "title": "水利部门全力做好台风暴雨洪水防御",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=5909271156914338403&item_id=5909271156914338403",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
           "id": "7840c94e8d6a99",
           "source": "学习强国",
           "title": "江苏南通：以“绣花功夫”精修城市边角",
@@ -62372,26 +62372,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "6d99e46c6ea750",
+          "source": "新华社",
+          "title": "2026年中国国际服务贸易交易会看点前瞻",
+          "url": "https://www.news.cn/politics/20260810/bb82199619e743c7bc1e1ba2cc586ba9/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
           "id": "36736492140cfa",
           "source": "新华社",
           "title": "2026年服贸会倒计时1个月系列宣传活动在京举行",
           "url": "https://www.news.cn/photo/20260810/2d2857bd184e4906aa503483031d3058/c.html",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "6bd4baa0a992b7",
-          "source": "新华社",
-          "title": "3省启动国家地质灾害四级应急响应",
-          "url": "https://www.news.cn/local/20260810/d75846df76ab4a268a0084a973a57d2c/c.html",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "dbec5c25b08877",
-          "source": "新华社",
-          "title": "4省启动洪水防御Ⅳ级应急响应",
-          "url": "https://www.news.cn/politics/20260810/f5c501139fbd4193aaacdb74a41527a3/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62460,6 +62452,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "70e4ab9ff3c906",
+          "source": "新华社",
+          "title": "中国驻日使馆：台湾非国家，不存在“国格”一说",
+          "url": "https://www.news.cn/world/20260810/b105c515c99b4282a44e4fb43c50e952/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
           "id": "7407b8cada7963",
           "source": "新华社",
           "title": "中央政府将在澳门发行60亿元人民币国债",
@@ -62516,10 +62516,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "38fb6f75389393",
+          "id": "c6cf73c453317a",
           "source": "新华社",
-          "title": "内塔尼亚胡拒加沙和平计划 以美一唱一和？",
-          "url": "https://www.news.cn/world/20260810/969e1e07493c4a7fa4b14ef2a49ebb6c/c.html",
+          "title": "公安部开展深化扫黑除恶专项斗争第一轮集中收网 行动",
+          "url": "https://www.news.cn/legal/20260810/cfafc8c28ebd402ba497c62e121af170/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62528,22 +62528,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "台风“白海豚”带来强降雨",
           "url": "https://www.news.cn/photo/20260810/1e0e67a2dccf498985615dc3ec27f5d8/c.html",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "a45ace83a39ead",
-          "source": "新华社",
-          "title": "商务部：原产于墨西哥和美国的进口碧根果存在倾销",
-          "url": "https://www.news.cn/fortune/20260810/a97e895beb6e4a5687efa44961752665/c.html",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "2591491b79b834",
-          "source": "新华社",
-          "title": "国务院任免国家工作人员",
-          "url": "https://www.news.cn/politics/20260810/4f3ea1bb341b4f89bd54a9e1175c6886/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62580,10 +62564,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "6622ceda6b2cc5",
+          "id": "b4dcf6cc206828",
           "source": "新华社",
           "title": "外交部就一些菲律宾籍人员涉嫌违法被查处答问",
-          "url": "https://www.news.cn/world/20260810/fa4518dcf44d49c6aacae632d85a7a54/c.html",
+          "url": "https://www.news.cn/world/20260810/b187653b685a4bbe964b5fdd63b818bc/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62620,10 +62604,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "f1886135413ef8",
+          "id": "8854ccc0b3399d",
           "source": "新华社",
-          "title": "文化奇遇记丨课本上的名曲跃然眼前，沉浸式感受千年乐声",
-          "url": "https://www.news.cn/ci/20260810/c82682466dfd4b07acd8c64a46d245b4/c.html",
+          "title": "我国对原产于墨西哥和美国的进口碧根果实施临时反倾销措施",
+          "url": "https://www.news.cn/world/20260810/99e52e750bde4c15b3c8af78f4d6c2c8/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b49f3fdc9a3d43",
+          "source": "新华社",
+          "title": "新华社权威速览丨什么是“以路治沙”",
+          "url": "https://www.news.cn/politics/20260810/c26c6189d22e4279b97de9f9d095ee95/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62644,6 +62636,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "b9c326774d2d0c",
+          "source": "新华社",
+          "title": "权威快报丨第38届大众电影百花奖揭晓",
+          "url": "https://www.news.cn/politics/20260810/db8cb7a9ca3243a0a2e6fa62da468f85/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
           "id": "21d12187c9e1b8",
           "source": "新华社",
           "title": "烟台汽车产业在变革中赢得先机",
@@ -62652,18 +62652,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8285622f576684",
-          "source": "新华社",
-          "title": "直击台风“白海豚”登陆后现场",
-          "url": "https://www.news.cn/politics/20260810/aba6ed3f135d4b78a36e722f70218494/c.html",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
           "id": "10edbe8b6ce08f",
           "source": "新华社",
           "title": "空调器除湿可以一直开吗？",
           "url": "https://www.news.cn/tech/20260810/a003634bd9e34e8f9c7b6449aedfeccc/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0c6eb49b4dfc7d",
+          "source": "新华社",
+          "title": "第七届全国少数民族文艺会演汇聚48台优秀剧目",
+          "url": "https://www.news.cn/politics/20260810/11dadb6b467747da94126ad426660a7f/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62708,10 +62708,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "59698d4e4e71ec",
+          "id": "718bf9c4cf32eb",
           "source": "新华社",
-          "title": "追光丨U17国足练兵收获多 世少赛值得期待",
-          "url": "https://www.news.cn/sports/20260810/837e031d3e0a46cfa5ac02298cc09a30/c.html",
+          "title": "跨越山海的功夫情缘——中国武术连接中非民心",
+          "url": "https://www.news.cn/world/20260810/64fe611be6e4432f9790c91fa2b6bfb5/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62740,6 +62740,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "edb5fa948be0ff",
+          "source": "新华社",
+          "title": "防灾减灾救灾一线见闻丨上海首次将苏州河水“人工抢排”翻泄至黄浦江",
+          "url": "https://www.news.cn/politics/20260810/2c90a3a109bb4896879b7e1daf658624/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
           "id": "0b0e047dab206e",
           "source": "新华社",
           "title": "防范台风“白海豚”国铁成都局临时停运列车115趟",
@@ -62756,26 +62764,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "76f146db3d6773",
-          "source": "新华社",
-          "title": "除了登陆信息，台风天还要重点关注这些内容",
-          "url": "https://www.news.cn/20260810/a3aeb3f1b2b74412acd167fd494583eb/c.html",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
           "id": "7c5219bc5d7e13",
           "source": "新华社",
           "title": "青海省博物馆：暑期周一不闭馆",
           "url": "https://www.news.cn/photo/20260810/077c547c76fe4b4787958012954602ea/c.html",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "672ebac67fe982",
-          "source": "新华社",
-          "title": "食用油怎么选？记住这几点",
-          "url": "https://www.news.cn/20260810/5c3b9bb376fe4d1abc226417b10323b7/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62876,6 +62868,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "b0a95e3abf96fd",
+          "source": "求是",
+          "title": "“只有我们中国共产党人实现了”",
+          "url": "https://www.qstheory.cn/20260810/ad6e20f2e2ca4660945f1ede4598bdd5/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
           "id": "e99b8206e093c1",
           "source": "求是",
           "title": "一诺千金 笃行致远——中国元首外交的世界情怀与大国气派",
@@ -62897,25 +62897,25 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "ok",
           "count": 15,
-          "duration": 0.3
+          "duration": 0.7
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 19,
-          "duration": 2.5
+          "duration": 2.9
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.8
+          "duration": 1.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 20,
-          "duration": 39.3
+          "duration": 27.5
         },
         {
           "source": "求是",
@@ -62927,7 +62927,7 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "光明日报",
           "status": "ok",
           "count": 17,
-          "duration": 1.8
+          "duration": 2.0
         },
         {
           "source": "南方周末",
@@ -62939,22 +62939,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 3.0
+          "duration": 4.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 9.2
+          "duration": 10.2
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 15,
-          "duration": 62.8
+          "duration": 66.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-10T20:55:38+08:00"
+  "generatedAt": "2026-08-10T22:19:20+08:00"
 };
