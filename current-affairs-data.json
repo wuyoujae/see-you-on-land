@@ -61111,14 +61111,14 @@
     },
     {
       "date": "2026-08-10",
-      "keyword": "经济",
+      "keyword": "消费",
       "keywords": [
         {
-          "name": "经济",
-          "count": 9
+          "name": "消费",
+          "count": 8
         },
         {
-          "name": "消费",
+          "name": "经济",
           "count": 8
         },
         {
@@ -61134,19 +61134,27 @@
           "count": 5
         },
         {
-          "name": "暴雨",
-          "count": 3
-        },
-        {
           "name": "中国共产党",
           "count": 2
         },
         {
           "name": "中国经济",
           "count": 2
+        },
+        {
+          "name": "暴雨",
+          "count": 2
         }
       ],
       "articles": [
+        {
+          "id": "9733484258baa3",
+          "source": "人民日报",
+          "title": "7月居民消费价格指数同比上涨0.5%",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173905.html",
+          "date": "2026-08-10",
+          "keyword": "消费"
+        },
         {
           "id": "54608c612c8a47",
           "source": "人民日报",
@@ -61169,7 +61177,7 @@
           "title": "中国“陪伴经济”打开消费新空间",
           "url": "http://www.banyuetan.org/yw/detail/20260810/1000200033137441786327009711185569_1.html",
           "date": "2026-08-10",
-          "keyword": "经济"
+          "keyword": "消费"
         },
         {
           "id": "1bb3697775271b",
@@ -61180,60 +61188,20 @@
           "keyword": "经济"
         },
         {
-          "id": "28d4eaf5dcfd83",
-          "source": "学习强国",
-          "title": "“三新”经济正成为转型升级的新引擎",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=12568403688442868062&item_id=12568403688442868062",
-          "date": "2026-08-10",
-          "keyword": "经济"
-        },
-        {
-          "id": "a61949eb150da9",
-          "source": "学习强国",
-          "title": "上市公司业绩预告折射经济韧性",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=1283488241183844003&item_id=1283488241183844003",
-          "date": "2026-08-10",
-          "keyword": "经济"
-        },
-        {
-          "id": "1a0be2d5c31e34",
-          "source": "新华社",
-          "title": "美媒：特朗普倾向对伊经济施压而非军事打击",
-          "url": "https://www.news.cn/world/20260810/e28d697de87b4a7199a6fedf148feb1e/c.html",
-          "date": "2026-08-10",
-          "keyword": "经济"
-        },
-        {
-          "id": "098848e95dd5ef",
-          "source": "求是",
-          "title": "中国经济新动能“新”在哪里",
-          "url": "https://www.qstheory.cn/20260810/1e4f447f248349f5a6f5a289c10839cb/c.html",
-          "date": "2026-08-10",
-          "keyword": "经济"
-        },
-        {
-          "id": "94e38cd68c86bd",
-          "source": "求是",
-          "title": "能源保供和物价运行彰显中国经济韧性",
-          "url": "https://www.qstheory.cn/20260810/eb57ec5d3a8f466fb6b62d183421031d/c.html",
-          "date": "2026-08-10",
-          "keyword": "经济"
-        },
-        {
-          "id": "9733484258baa3",
-          "source": "人民日报",
-          "title": "7月居民消费价格指数同比上涨0.5%",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173905.html",
-          "date": "2026-08-10",
-          "keyword": "消费"
-        },
-        {
           "id": "14e538d4d737a2",
           "source": "学习强国",
           "title": "7月居民消费价格保持温和上涨",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=18083769316313375061&item_id=18083769316313375061",
           "date": "2026-08-10",
           "keyword": "消费"
+        },
+        {
+          "id": "28d4eaf5dcfd83",
+          "source": "学习强国",
+          "title": "“三新”经济正成为转型升级的新引擎",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=12568403688442868062&item_id=12568403688442868062",
+          "date": "2026-08-10",
+          "keyword": "经济"
         },
         {
           "id": "450096b300d262",
@@ -61260,6 +61228,22 @@
           "keyword": "消费"
         },
         {
+          "id": "1a0be2d5c31e34",
+          "source": "新华社",
+          "title": "美媒：特朗普倾向对伊经济施压而非军事打击",
+          "url": "https://www.news.cn/world/20260810/e28d697de87b4a7199a6fedf148feb1e/c.html",
+          "date": "2026-08-10",
+          "keyword": "经济"
+        },
+        {
+          "id": "098848e95dd5ef",
+          "source": "求是",
+          "title": "中国经济新动能“新”在哪里",
+          "url": "https://www.qstheory.cn/20260810/1e4f447f248349f5a6f5a289c10839cb/c.html",
+          "date": "2026-08-10",
+          "keyword": "经济"
+        },
+        {
           "id": "d56b7f2e9bb4c1",
           "source": "求是",
           "title": "以健全社会保障体系提振居民消费的实现路径是什么",
@@ -61274,6 +61258,14 @@
           "url": "https://www.qstheory.cn/20260810/ee8be9dfba0f46139d00ffe274c39e89/c.html",
           "date": "2026-08-10",
           "keyword": "消费"
+        },
+        {
+          "id": "94e38cd68c86bd",
+          "source": "求是",
+          "title": "能源保供和物价运行彰显中国经济韧性",
+          "url": "https://www.qstheory.cn/20260810/eb57ec5d3a8f466fb6b62d183421031d/c.html",
+          "date": "2026-08-10",
+          "keyword": "经济"
         },
         {
           "id": "dcf7d743b051a2",
@@ -61372,28 +61364,20 @@
           "keyword": "暴雨"
         },
         {
-          "id": "0ba282a6d7ddb2",
-          "source": "学习强国",
-          "title": "水利部门全力做好台风暴雨洪水防御",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=5909271156914338403&item_id=5909271156914338403",
-          "date": "2026-08-10",
-          "keyword": "暴雨"
-        },
-        {
-          "id": "ffb94c6e8f2913",
-          "source": "新华社",
-          "title": "10余省份将有暴雨",
-          "url": "https://www.news.cn/local/20260810/2c810d2096644e6d97eaefa139342dc9/c.html",
-          "date": "2026-08-10",
-          "keyword": "暴雨"
-        },
-        {
           "id": "8e847785fa3747",
           "source": "学习强国",
           "title": "“只有我们中国共产党人实现了”",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2647682736819861893&item_id=2647682736819861893",
           "date": "2026-08-10",
           "keyword": "中国共产党"
+        },
+        {
+          "id": "0ba282a6d7ddb2",
+          "source": "学习强国",
+          "title": "水利部门全力做好台风暴雨洪水防御",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=5909271156914338403&item_id=5909271156914338403",
+          "date": "2026-08-10",
+          "keyword": "暴雨"
         },
         {
           "id": "b0a95e3abf96fd",
@@ -61828,14 +61812,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "a7c6d610ac4bc9",
-          "source": "学习强国",
-          "title": "“氢”风徐来 前景可期",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=60649200448300049&item_id=60649200448300049",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
           "id": "0f0ad0df345886",
           "source": "学习强国",
           "title": "“翘边”的银河系，居然还“起皱”",
@@ -61852,10 +61828,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "983d93e223ffca",
+          "id": "f7ee1145092cae",
           "source": "学习强国",
-          "title": "个税凸显调节收入分配功能",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=7756647546869535800&item_id=7756647546869535800",
+          "title": "东华理工大学：校地协同育新人 思政一体化赋能法治研学",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=10139522652057867264&item_id=10139522652057867264",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -61884,10 +61860,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "8698a43c2c6342",
+          "id": "aed132f74a2be4",
           "source": "学习强国",
-          "title": "人民币“朋友圈”持续扩大释放多重效能",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=5575626853311148200&item_id=5575626853311148200",
+          "title": "云南：精准施策 筑牢暑期防溺水安全网",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=12532431340407733119&item_id=12532431340407733119",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -61896,14 +61872,6 @@
           "source": "学习强国",
           "title": "传奇康巴 奇境贡觉",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=6387111049609820219&item_id=6387111049609820219",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "f48e3cb837ecf3",
-          "source": "学习强国",
-          "title": "体育产业里的新机遇",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=16234879740508084980&item_id=16234879740508084980",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -61936,14 +61904,6 @@
           "source": "学习强国",
           "title": "内蒙古兴安盟：外汇市场避险服务提质增效",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=15052286806231047022&item_id=15052286806231047022",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "61fbebf0c4bedf",
-          "source": "学习强国",
-          "title": "创新发展，“氢”启未来",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=5974075142203643475&item_id=5974075142203643475",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -61996,10 +61956,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "9a67bbd98920d0",
+          "id": "aa74f0ad04b4c5",
           "source": "学习强国",
-          "title": "外资物流企业加码中国市场",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=17771563965947895267&item_id=17771563965947895267",
+          "title": "多元暑期托管暖民心 守护孩子快乐假期",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=14208025704851821525&item_id=14208025704851821525",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62028,14 +61988,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "bc4ab9fe592326",
-          "source": "学习强国",
-          "title": "家门口端稳幸福“饭碗”",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2531600973151195207&item_id=2531600973151195207",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
           "id": "4fb7000faddabd",
           "source": "学习强国",
           "title": "我国法院成功化解发生在霍尔木兹海峡的外轮碰撞纠纷",
@@ -62048,6 +62000,14 @@
           "source": "学习强国",
           "title": "我国牵头修订的黑色金属材料热处理基础领域国际标准发布",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=6321533209019923412&item_id=6321533209019923412",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "290a70d67aff45",
+          "source": "学习强国",
+          "title": "扬州大学有群“田管家”",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=13275132353890110699&item_id=13275132353890110699",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62108,6 +62068,22 @@
           "keyword": "综合时政"
         },
         {
+          "id": "a049e50c27538f",
+          "source": "学习强国",
+          "title": "江西应用科技学院：在边疆热土书写民族团结实践答卷",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=16761605644903358286&item_id=16761605644903358286",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b30c10e3435486",
+          "source": "学习强国",
+          "title": "江西强化六类儿童基本生活保障",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=1324279959585743294&item_id=1324279959585743294",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
           "id": "3c20f7436eae8d",
           "source": "学习强国",
           "title": "江西新余：何以攀高向新？",
@@ -62132,6 +62108,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "ee5cf1da240420",
+          "source": "学习强国",
+          "title": "河南：为学科特长高中生创造实践机会",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=7872276522945030963&item_id=7872276522945030963",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1b95a4e50e23e6",
           "source": "学习强国",
           "title": "深度调研：儿童青少年近视防控现状分析与对策思考",
@@ -62140,18 +62124,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "fb750d3e28f062",
-          "source": "学习强国",
-          "title": "科技投入，“舍得投”也要“投得好”",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=18208093331828364983&item_id=18208093331828364983",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
           "id": "511a0585b51af9",
           "source": "学习强国",
           "title": "筑牢健康中国建设的基层根基",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=10250615656440652364&item_id=10250615656440652364",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4f76d7eb0e5284",
+          "source": "学习强国",
+          "title": "精神科医生：暑期亲子“手机争夺战”焦点错位",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=11262824021427565506&item_id=11262824021427565506",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62172,18 +62156,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "d0d01c05dcb7b8",
+          "id": "a3a0f5bfd42b36",
           "source": "学习强国",
-          "title": "财金协同机制新 “乘”效可期",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2606833263595342973&item_id=2606833263595342973",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "f2324970ee6296",
-          "source": "学习强国",
-          "title": "金融保障如何为受灾群众托底",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=15819095227145428518&item_id=15819095227145428518",
+          "title": "选择专业，别因“热门”窄化“热爱”",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=3636298702359413397&item_id=3636298702359413397",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62200,6 +62176,22 @@
           "source": "学习强国",
           "title": "青海海东：不断推进医养融合发展",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=13456466850851325643&item_id=13456466850851325643",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bf4d91aeac1b73",
+          "source": "学习强国",
+          "title": "预警前置是未成年人保护的创新之举",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=4524607768745335914&item_id=4524607768745335914",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b3e1a51ac8de22",
+          "source": "学习强国",
+          "title": "首都医科大学探索思政育人路径 为医学人才成长厚植思想沃土",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=11928666808624465558&item_id=11928666808624465558",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62332,6 +62324,22 @@
           "keyword": "综合时政"
         },
         {
+          "id": "6bd4baa0a992b7",
+          "source": "新华社",
+          "title": "3省启动国家地质灾害四级应急响应",
+          "url": "https://www.news.cn/local/20260810/d75846df76ab4a268a0084a973a57d2c/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dbec5c25b08877",
+          "source": "新华社",
+          "title": "4省启动洪水防御Ⅳ级应急响应",
+          "url": "https://www.news.cn/politics/20260810/f5c501139fbd4193aaacdb74a41527a3/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
           "id": "0ee476b51f1d96",
           "source": "新华社",
           "title": "China Cool盛夏出圈丨在深圳，遇见未来体验未来",
@@ -62428,14 +62436,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "cdf5b5e4f22817",
-          "source": "新华社",
-          "title": "从上汽集团与通用汽车续约谈起",
-          "url": "https://www.news.cn/fortune/20260810/8b191635fc34430c96e2f40d4b5854dc/c.html",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
           "id": "e148f620952675",
           "source": "新华社",
           "title": "从受挫学徒到船舶“焊”将，他的故事不一般",
@@ -62476,26 +62476,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "bd2a5ea66dd6fc",
-          "source": "新华社",
-          "title": "公安部再次公布15起涉汛涉灾网络谣言案例",
-          "url": "https://www.news.cn/20260810/41df7cc1ffa64693bba77d9fe82a2ed5/c.html",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
           "id": "38fb6f75389393",
           "source": "新华社",
           "title": "内塔尼亚胡拒加沙和平计划 以美一唱一和？",
           "url": "https://www.news.cn/world/20260810/969e1e07493c4a7fa4b14ef2a49ebb6c/c.html",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "32c7dba8a307c0",
-          "source": "新华社",
-          "title": "创新的城，奋进的城——深圳积蓄亚太合作新动能",
-          "url": "http://www.gd.xinhuanet.com/20260810/28516d9226a940fcad5e6efbbd4e176d/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62516,10 +62500,26 @@
           "keyword": "综合时政"
         },
         {
+          "id": "a45ace83a39ead",
+          "source": "新华社",
+          "title": "商务部：原产于墨西哥和美国的进口碧根果存在倾销",
+          "url": "https://www.news.cn/fortune/20260810/a97e895beb6e4a5687efa44961752665/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
           "id": "2591491b79b834",
           "source": "新华社",
           "title": "国务院任免国家工作人员",
           "url": "https://www.news.cn/politics/20260810/4f3ea1bb341b4f89bd54a9e1175c6886/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "345bb44a4848b1",
+          "source": "新华社",
+          "title": "国宝画重点丨文物中“周游”列国，看孔子的弘道之路",
+          "url": "https://www.news.cn/politics/20260810/24dab46b55114433bacdcfee032689f0/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62620,14 +62620,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "0114c2952577ef",
-          "source": "新华社",
-          "title": "水利部针对冀鲁豫鄂4省启动洪水防御Ⅳ级应急响应",
-          "url": "https://www.news.cn/local/20260810/90fac00895c34a8eafed9462fdda225f/c.html",
-          "date": "2026-08-10",
-          "keyword": "综合时政"
-        },
-        {
           "id": "d16a96f32e6a58",
           "source": "新华社",
           "title": "河南省濮阳市人大常委会原副主任马宜品被开除党籍",
@@ -62638,7 +62630,7 @@
         {
           "id": "8285622f576684",
           "source": "新华社",
-          "title": "直击“白海豚”登陆后现场",
+          "title": "直击台风“白海豚”登陆后现场",
           "url": "https://www.news.cn/politics/20260810/aba6ed3f135d4b78a36e722f70218494/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
@@ -62704,6 +62696,14 @@
           "source": "新华社",
           "title": "铸魂强党丨建设堪当民族复兴重任的高素质干部队伍",
           "url": "https://www.news.cn/politics/leaders/20260810/61bf0c2e4bc24a8f93bc9d4c7782eee6/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fbcdec7c80c014",
+          "source": "新华社",
+          "title": "长征中的军事地理解读：万水千山只等闲之血战湘江",
+          "url": "https://www.news.cn/politics/20260810/5cb093e6446d418199a4580f7ac275f2/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -62777,65 +62777,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 11.0,
+          "duration": 8.3,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260810.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 19,
-          "duration": 2.0
+          "duration": 2.4
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 1.9
+          "duration": 2.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 20,
-          "duration": 22.4
+          "duration": 22.6
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 9,
-          "duration": 6.0
+          "duration": 8.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 17,
-          "duration": 1.8
+          "duration": 1.9
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.6
+          "duration": 14.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 2.1
+          "duration": 3.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 10.0
+          "duration": 11.7
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 15,
-          "duration": 48.2
+          "duration": 74.2
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-10T17:13:41+08:00"
+  "generatedAt": "2026-08-10T19:04:11+08:00"
 }
