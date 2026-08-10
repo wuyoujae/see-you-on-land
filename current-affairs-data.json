@@ -61115,10 +61115,14 @@
       "keywords": [
         {
           "name": "国家安全",
-          "count": 3
+          "count": 4
         },
         {
           "name": "人工智能",
+          "count": 2
+        },
+        {
+          "name": "消费",
           "count": 2
         },
         {
@@ -61138,8 +61142,16 @@
         {
           "id": "c510f39f7f55e9",
           "source": "新华社",
-          "title": "伊朗议会国家安全委员会批准霍尔木兹海峡安全纲要",
+          "title": "伊朗议会国家安全委员会批准海峡安全纲要",
           "url": "https://www.news.cn/world/20260810/fc4e8758e7b8432ebd3a2dde4e917882/c.html",
+          "date": "2026-08-10",
+          "keyword": "国家安全"
+        },
+        {
+          "id": "517c7fbd24014e",
+          "source": "新华社",
+          "title": "伊朗议会国家安全委员会批准霍尔木兹海峡安全纲要",
+          "url": "https://www.news.cn/20260810/30d1e0808bd94d3394817fc1a664a7c5/c.html",
           "date": "2026-08-10",
           "keyword": "国家安全"
         },
@@ -61150,6 +61162,14 @@
           "url": "https://www.news.cn/20260810/04a182f710864e9d8e29f6b8c11bbb62/c.html",
           "date": "2026-08-10",
           "keyword": "国家安全"
+        },
+        {
+          "id": "9733484258baa3",
+          "source": "人民日报",
+          "title": "7月居民消费价格指数同比上涨0.5%",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173905.html",
+          "date": "2026-08-10",
+          "keyword": "消费"
         },
         {
           "id": "a9adbf9e272af0",
@@ -61184,12 +61204,12 @@
           "keyword": "经济"
         },
         {
-          "id": "9733484258baa3",
-          "source": "人民日报",
-          "title": "7月居民消费价格指数同比上涨0.5%",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173905.html",
+          "id": "5d399f2e774361",
+          "source": "新华社",
+          "title": "爬山雇“搭子”看病找“陪诊” 外媒关注中国消费新热点",
+          "url": "https://www.news.cn/20260810/3b2e8192aff04157b899d0ac8a78827a/c.html",
           "date": "2026-08-10",
-          "keyword": "综合时政"
+          "keyword": "消费"
         },
         {
           "id": "06db2cea074e45",
@@ -61440,10 +61460,50 @@
           "keyword": "综合时政"
         },
         {
-          "id": "d80e33f9f0c3bf",
+          "id": "a9a3602abadc9c",
           "source": "新华社",
-          "title": "一场开幕式，让“塞上湖城”彻底出圈",
-          "url": "https://www.news.cn/local/20260810/94a98a8eb7734bf0bcc6aa4977b37506/c.html",
+          "title": "AI剧集“上星”，合规管理面临哪些新挑战？",
+          "url": "https://www.news.cn/legal/20260810/56c96b6761d8449c98ee66e98c5f3823/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d4f681dbeeab83",
+          "source": "新华社",
+          "title": "WTT横滨冠军赛：陈幸同获得女单亚军",
+          "url": "https://www.news.cn/20260810/66bfa92e48684b448b5545b53c317bec/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2dc24c190ce66b",
+          "source": "新华社",
+          "title": "上海“战”台风见闻",
+          "url": "https://www.news.cn/local/20260810/55fd07032b43457dbd788e2338629c98/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ab59ba91ef4ca3",
+          "source": "新华社",
+          "title": "中国援助津巴布韦旱灾综合应对项目启动",
+          "url": "https://www.news.cn/silkroad/20260810/a70026233e404535b888791a50704ba6/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d7d638f8a125b0",
+          "source": "新华社",
+          "title": "中外船舶有序撤离",
+          "url": "https://www.news.cn/local/20260810/01d00ee933d047bd8cf52b40d5b20bf0/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "838e8921fa3e22",
+          "source": "新华社",
+          "title": "中外船舶有序撤离 上海洋山边检这样迎战“白海豚”",
+          "url": "https://www.news.cn/20260810/2d85a8cdf5b645ef8e369bdf735cdd67/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -61480,10 +61540,34 @@
           "keyword": "综合时政"
         },
         {
-          "id": "05750a3bb43c1e",
+          "id": "0ef49b1fe1877c",
           "source": "新华社",
-          "title": "千年王陵以美学破圈",
-          "url": "https://www.news.cn/local/20260810/9c5e2edc59ab4c9fae4477d3457e243f/c.html",
+          "title": "全球瞭望｜卢旺达媒体：高效的中国制造业让全球受益",
+          "url": "https://www.news.cn/silkroad/20260810/ecf508fc283f41ec967c7154a21767e3/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bd2a5ea66dd6fc",
+          "source": "新华社",
+          "title": "公安部再次公布15起涉汛涉灾网络谣言案例",
+          "url": "https://www.news.cn/20260810/41df7cc1ffa64693bba77d9fe82a2ed5/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2e40f030bbd1d5",
+          "source": "新华社",
+          "title": "公安部网安局再次公布15起涉汛涉灾网络谣言案例",
+          "url": "https://www.news.cn/legal/20260810/5b3112aa566b4de6b8da6c8b710a96a7/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ebe41f89eeb654",
+          "source": "新华社",
+          "title": "农发行专家委员会原研究员黄小卫被开除党籍",
+          "url": "https://www.news.cn/legal/20260810/801ebe3292d14bcab0af23c00669067b/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -61496,10 +61580,66 @@
           "keyword": "综合时政"
         },
         {
+          "id": "d80e33f9f0c3bf",
+          "source": "新华社",
+          "title": "宁夏十七运会丨一场开幕式，让“塞上湖城”彻底出圈",
+          "url": "https://www.news.cn/local/20260810/94a98a8eb7734bf0bcc6aa4977b37506/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7da147e7c1844f",
+          "source": "新华社",
+          "title": "强化就业优先政策 推动高质量充分就业取得新进展",
+          "url": "https://www.news.cn/fortune/20260810/b0aa5e22867647f896cfc6d198093e82/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5a88b5ff232e6a",
+          "source": "新华社",
+          "title": "护航复工复产 金融保障如何为受灾群众托底？",
+          "url": "https://www.news.cn/20260810/e47f85600cee43e98c3cf8e96bb0f0e4/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3e9047e5529b13",
+          "source": "新华社",
+          "title": "斯里兰卡专家：进博会助力共建\"一带一路\"国家实现共同繁荣",
+          "url": "https://www.news.cn/silkroad/20260810/12d95a70202e480b80a99023c9c5f08d/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "079077454d7fb0",
+          "source": "新华社",
+          "title": "新华社访谈丨为生活写注脚的人",
+          "url": "https://www.news.cn/politics/20260810/7a9f7a71d1784156b0c9e337383f112b/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2ea8c070577b90",
+          "source": "新华社",
+          "title": "欢乐草原那达慕",
+          "url": "https://www.news.cn/local/20260810/820e4b467ae047f583df91436b85eec0/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
           "id": "b3944ca483cb66",
           "source": "新华社",
           "title": "直击狂风暴雨下的台风“白海豚”登陆核心区",
           "url": "https://www.news.cn/politics/20260810/f0af60ffec604f27ab51bfdfecbd582b/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "638728c386e8cc",
+          "source": "新华社",
+          "title": "答好“白海豚”这道题——上海“战”台风一线见闻",
+          "url": "https://www.news.cn/20260810/e4d80408bcb442e7b97bf8e2936fcd41/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
         },
@@ -61510,6 +61650,30 @@
           "url": "https://www.news.cn/20260810/f068c13be08f46a2ba77470942ad68de/c.html",
           "date": "2026-08-10",
           "keyword": "综合时政"
+        },
+        {
+          "id": "a0656965a004e2",
+          "source": "新华社",
+          "title": "聚焦基础科学：中外学者在京共促科研创新与合作",
+          "url": "https://www.news.cn/20260810/aa65678b6b4a40cda921cbf672aaaa79/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "05750a3bb43c1e",
+          "source": "新华社",
+          "title": "让游客“看得美”、“看得懂” 千年王陵以美学破圈",
+          "url": "https://www.news.cn/local/20260810/9c5e2edc59ab4c9fae4477d3457e243f/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3fa9e7580587cc",
+          "source": "新华社",
+          "title": "麦香里的新品种：一粒良种激活一方产业",
+          "url": "https://www.news.cn/20260810/83bd846ae14245259d97d7161eaf7552/c.html",
+          "date": "2026-08-10",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -61517,7 +61681,7 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 7.4,
+          "duration": 6.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260810.shtml"
         },
         {
@@ -61529,53 +61693,53 @@
         {
           "source": "新华社",
           "status": "ok",
-          "count": 12,
-          "duration": 2.3
+          "count": 32,
+          "duration": 2.4
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 12.2
+          "duration": 27.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.5
+          "duration": 6.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 17,
-          "duration": 1.8
+          "duration": 1.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.4
+          "duration": 12.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.6
+          "duration": 2.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.9
+          "duration": 9.1
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 61.5
+          "duration": 53.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-10T07:35:35+08:00"
+  "generatedAt": "2026-08-10T09:14:51+08:00"
 }
