@@ -62980,6 +62980,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 2
         },
         {
+          "name": "特朗普称",
+          "count": 2
+        },
+        {
           "name": "乌克兰",
           "count": 2
         }
@@ -63034,12 +63038,28 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "哥伦比亚"
         },
         {
+          "id": "01c41aa78f68f0",
+          "source": "新华社",
+          "title": "因伊朗提出战争赔偿 特朗普称也要向伊朗索赔",
+          "url": "https://www.news.cn/20260811/e3c2bd0f038c420c8ae2dd6504115c3d/c.html",
+          "date": "2026-08-11",
+          "keyword": "特朗普称"
+        },
+        {
           "id": "e8115a296e051a",
           "source": "新华社",
           "title": "强震已致111死87伤",
           "url": "https://www.news.cn/world/20260811/e8ba0bca064e4ce7beaef56743d02571/c.html",
           "date": "2026-08-11",
           "keyword": "强震已致"
+        },
+        {
+          "id": "4efa884654b22b",
+          "source": "新华社",
+          "title": "特朗普称美方“百分百”控制霍尔木兹海峡",
+          "url": "https://www.news.cn/world/20260811/2c894aa435874e67a996b123ab21c9c0/c.html",
+          "date": "2026-08-11",
+          "keyword": "特朗普称"
         },
         {
           "id": "8bfe173b3aaec2",
@@ -63370,10 +63390,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "01c41aa78f68f0",
+          "id": "5d3c44ab5334eb",
           "source": "新华社",
-          "title": "因伊朗提出战争赔偿 特朗普称也要向伊朗索赔",
-          "url": "https://www.news.cn/20260811/e3c2bd0f038c420c8ae2dd6504115c3d/c.html",
+          "title": "三大洲足联再批国际足联 全球足球治理分歧持续",
+          "url": "https://www.news.cn/sports/20260811/7fe9dfebc677452788de6ce01a05fc1d/c.html",
+          "date": "2026-08-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "070e686ae050c9",
+          "source": "新华社",
+          "title": "伊朗最高领袖正式任命6人担任高级军事职务",
+          "url": "https://www.news.cn/world/20260811/98a4bdf8ef274482aadb48721c1ed6d0/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
         },
@@ -63402,18 +63430,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "60c93e1941d628",
+          "id": "f104fd1dc98d43",
           "source": "新华社",
-          "title": "防卫预算申请额再创新高，日本有何图谋？",
-          "url": "https://www.news.cn/world/20260811/86042805280c489785fa2e46996cbeec/c.html",
+          "title": "通航前景不明 国际油价10日上涨约5%",
+          "url": "https://www.news.cn/world/20260811/020c5d9d60b742a6bd17347600dfd1d6/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
         },
         {
-          "id": "f104fd1dc98d43",
+          "id": "60c93e1941d628",
           "source": "新华社",
-          "title": "霍尔木兹海峡通航前景不明 国际油价10日上涨约5%",
-          "url": "https://www.news.cn/world/20260811/020c5d9d60b742a6bd17347600dfd1d6/c.html",
+          "title": "防卫预算申请额再创新高，日本有何图谋？",
+          "url": "https://www.news.cn/world/20260811/86042805280c489785fa2e46996cbeec/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
         }
@@ -63423,65 +63451,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 7.3,
+          "duration": 14.3,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260811.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 24,
-          "duration": 1.3
+          "duration": 6.5
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 11,
-          "duration": 1.9
+          "count": 14,
+          "duration": 2.1
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 13.6
+          "duration": 22.5
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 5.9
+          "duration": 6.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 19,
-          "duration": 1.1
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.8
+          "duration": 15.1
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.7
+          "duration": 2.8
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.5
+          "duration": 8.8
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 35.2
+          "duration": 56.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-11T06:43:40+08:00"
+  "generatedAt": "2026-08-11T07:39:54+08:00"
 };
