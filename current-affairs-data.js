@@ -62969,15 +62969,15 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "经济",
-          "count": 9
+          "count": 10
         },
         {
           "name": "习近平",
-          "count": 8
+          "count": 9
         },
         {
           "name": "十五五",
-          "count": 8
+          "count": 9
         },
         {
           "name": "中国经济",
@@ -62985,7 +62985,7 @@ window.CURRENT_AFFAIRS_DATA = {
         },
         {
           "name": "高质量发展",
-          "count": 4
+          "count": 5
         },
         {
           "name": "暴雨",
@@ -63046,6 +63046,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "学习强国",
           "title": "这组数据见证中国经济韧性活力",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=7231353953915406416&item_id=7231353953915406416",
+          "date": "2026-08-11",
+          "keyword": "经济"
+        },
+        {
+          "id": "a517d6097f10af",
+          "source": "广东发布",
+          "title": "孟凡利主持召开加快推进项目建设工作会议强调 坚决抓好下半年项目建设和投资工作 为经济高质量发展提供有力支撑",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4940751.html",
           "date": "2026-08-11",
           "keyword": "经济"
         },
@@ -63170,6 +63178,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
+          "id": "0b5535893f6798",
+          "source": "新闻联播",
+          "title": "“十五五”时期我国生态质量将稳步改善",
+          "url": "https://tv.cctv.com/2026/08/11/VIDEkVicmDGBNcAoYAk7z2Mk260811.shtml",
+          "date": "2026-08-11",
+          "keyword": "十五五"
+        },
+        {
+          "id": "68817e405e0cf3",
+          "source": "新闻联播",
+          "title": "习近平就哥伦比亚发生强烈地震向哥伦比亚总统致慰问电",
+          "url": "https://tv.cctv.com/2026/08/11/VIDEO2g6bRMoszRKBRrhYA2u260811.shtml",
+          "date": "2026-08-11",
+          "keyword": "习近平"
+        },
+        {
           "id": "08c97c1c3716f2",
           "source": "求是",
           "title": "以科学的思想方法推进管党治党 ——习近平党建思想理论品格系列述评之六",
@@ -63206,6 +63230,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "不断创造高质量发展新业绩（树立和践行正确政绩观）",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/11/content_30174308.html",
+          "date": "2026-08-11",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "3b587856d0bc0a",
+          "source": "学习强国",
+          "title": "树立和践行正确政绩观|各地深入开展学习教育，巩固拓展学习教育成果——不断创造高质量发展新业绩",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2405608077413837312&item_id=2405608077413837312",
+          "date": "2026-08-11",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "9bfad78e8d52f9",
+          "source": "新华社",
+          "title": "聚焦高质量发展丨江西余干何以崛起百亿汽摩配产业集群",
+          "url": "http://jx.news.cn/20260811/d1d3cb08024f446d81228dd5a4814501/c.html",
+          "date": "2026-08-11",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "19ee19d406a149",
+          "source": "求是",
+          "title": "不断创造高质量发展新业绩",
+          "url": "https://www.qstheory.cn/20260811/05e548d988ff4b6ea87c34c97f5ccaeb/c.html",
           "date": "2026-08-11",
           "keyword": "高质量发展"
         },
@@ -63258,14 +63306,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "消费"
         },
         {
-          "id": "3b587856d0bc0a",
-          "source": "学习强国",
-          "title": "树立和践行正确政绩观|各地深入开展学习教育，巩固拓展学习教育成果——不断创造高质量发展新业绩",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2405608077413837312&item_id=2405608077413837312",
-          "date": "2026-08-11",
-          "keyword": "高质量发展"
-        },
-        {
           "id": "2b7aa94330bedf",
           "source": "学习强国",
           "title": "水利部滚动会商部署台风“白海豚”暴雨洪水防御工作",
@@ -63280,22 +63320,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.gd.gov.cn/gdywdt/dsdt/content/post_4940462.html",
           "date": "2026-08-11",
           "keyword": "消费"
-        },
-        {
-          "id": "9bfad78e8d52f9",
-          "source": "新华社",
-          "title": "聚焦高质量发展丨江西余干何以崛起百亿汽摩配产业集群",
-          "url": "http://jx.news.cn/20260811/d1d3cb08024f446d81228dd5a4814501/c.html",
-          "date": "2026-08-11",
-          "keyword": "高质量发展"
-        },
-        {
-          "id": "19ee19d406a149",
-          "source": "求是",
-          "title": "不断创造高质量发展新业绩",
-          "url": "https://www.qstheory.cn/20260811/05e548d988ff4b6ea87c34c97f5ccaeb/c.html",
-          "date": "2026-08-11",
-          "keyword": "高质量发展"
         },
         {
           "id": "8bfe173b3aaec2",
@@ -64226,14 +64250,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "85e451792828aa",
-          "source": "新华社",
-          "title": "“白海豚”来袭 北京发多预警",
-          "url": "https://www.news.cn/local/20260811/8156cc67b09c4d2ebb3f78f07f0fafc0/c.html",
-          "date": "2026-08-11",
-          "keyword": "综合时政"
-        },
-        {
           "id": "a43b36f5abd373",
           "source": "新华社",
           "title": "“老百姓的事情是最重要的事情”",
@@ -64266,22 +64282,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "147d20b32c24af",
-          "source": "新华社",
-          "title": "两部门发布红色山洪灾害预警",
-          "url": "https://www.news.cn/politics/20260811/144d4d4942cc4207a88b636e8507d36c/c.html",
-          "date": "2026-08-11",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "6a17429cdd7962",
-          "source": "新华社",
-          "title": "两部门对京津启动防汛四级应急响应",
-          "url": "https://www.news.cn/local/20260811/29cf963307664aaf8fd6b7eec86540e6/c.html",
-          "date": "2026-08-11",
-          "keyword": "综合时政"
-        },
-        {
           "id": "bd3783ef193c7b",
           "source": "新华社",
           "title": "两部门征集年度计量支撑产业新质生产力发展项目",
@@ -64290,10 +64290,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "6faa8a7016f54d",
+          "id": "295f700cbce0ad",
           "source": "新华社",
-          "title": "中国印尼海军舰艇将位台岛以东海域开展通航演练",
-          "url": "https://www.news.cn/politics/20260811/47d558aec65f4a628197513232e36049/c.html",
+          "title": "中印尼两国海军舰艇将位台岛以东海域开展通航演练",
+          "url": "https://www.news.cn/world/20260811/c1efcf3e394f4995be1fb54668981438/c.html",
+          "date": "2026-08-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c6291ae1aa33ee",
+          "source": "新华社",
+          "title": "中国驻泰使馆：已接到在泰失踪女性家属的求助",
+          "url": "https://www.news.cn/world/20260811/121bbcbdd4764cedb5ac1c3ddda682f6/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
         },
@@ -64306,6 +64314,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "c5f1cdfd607e68",
+          "source": "新华社",
+          "title": "云南昆明：盘活闲置资源 活用桥下空间",
+          "url": "https://www.news.cn/photo/20260811/467d20906ff0476fb94dbe4395017063/c.html",
+          "date": "2026-08-11",
+          "keyword": "综合时政"
+        },
+        {
           "id": "82c6842c0b1393",
           "source": "新华社",
           "title": "五十载“追光”，璀璨一个大产业",
@@ -64314,10 +64330,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "618d2bd3041c59",
+          "id": "57b8c19bf4b32e",
           "source": "新华社",
           "title": "今年7月全国受理网络举报1778.5万件",
-          "url": "https://www.news.cn/legal/20260811/91d84bd870c64535847085aeb9b7166a/c.html",
+          "url": "https://www.news.cn/20260811/89e1a4fd565a4a0d8d8aee90dd6fc58a/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
         },
@@ -64402,6 +64418,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "2d20f7c433db80",
+          "source": "新华社",
+          "title": "壶口瀑布迎来暑期旅游高峰",
+          "url": "https://www.news.cn/photo/20260811/8bd00f471b964dca8710c327077adbf5/c.html",
+          "date": "2026-08-11",
+          "keyword": "综合时政"
+        },
+        {
           "id": "bb90d5a117af8b",
           "source": "新华社",
           "title": "外交部：敦促太平洋岛国论坛秘书处恪守一个 中国原则",
@@ -64442,6 +64466,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "616caee989c7df",
+          "source": "新华社",
+          "title": "应急管理部对北京启动国家地质灾害四级应急响应",
+          "url": "https://www.news.cn/local/20260811/d3a59c69f99547ccb3d2a587f1735d04/c.html",
+          "date": "2026-08-11",
+          "keyword": "综合时政"
+        },
+        {
           "id": "e5e4579002c58b",
           "source": "新华社",
           "title": "应急管理部：工贸企业要严防六类生产安全事故",
@@ -64454,14 +64486,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "开幕倒计时 在首钢提前剧透2026服贸会",
           "url": "https://www.news.cn/politics/20260811/e15ea590f4ec4f6da948bdc02bc45b98/c.html",
-          "date": "2026-08-11",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "778908d84a9b8e",
-          "source": "新华社",
-          "title": "微纪录片丨生命自有新的“站姿”",
-          "url": "https://www.news.cn/politics/20260811/90ee5e8686d34a3f97d12ee920c0dfcd/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
         },
@@ -64538,14 +64562,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "587b6989822bff",
-          "source": "新华社",
-          "title": "淠河发生第1号洪水",
-          "url": "https://www.news.cn/local/20260811/7e22c8d7fe73423a82344c0f16f6628c/c.html",
-          "date": "2026-08-11",
-          "keyword": "综合时政"
-        },
-        {
           "id": "964d532204488f",
           "source": "新华社",
           "title": "热点问答丨伊朗关键人事任命为何备受关注",
@@ -64570,6 +64586,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "5e5754b06d3c4c",
+          "source": "新华社",
+          "title": "纸张能隔火，化工新材料蝶变升级",
+          "url": "https://www.news.cn/fortune/20260811/d58008b29500458088fab3122c42cc25/c.html",
+          "date": "2026-08-11",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1c6f849ac52adc",
           "source": "新华社",
           "title": "网络爆火“骑行四件套”暗藏安全隐患，你中招了吗？",
@@ -64582,6 +64606,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "美丽中国丨秋风拂江城 荷韵满东湖",
           "url": "https://www.news.cn/photo/20260811/de4e3bc9b870411bb395ccb34f458571/c.html",
+          "date": "2026-08-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fad379cc3823cd",
+          "source": "新华社",
+          "title": "美伊“中局”博弈的考量与变量",
+          "url": "https://www.news.cn/world/20260811/54a8ddbb0aa4492f9a13f6c0cf6f02ab/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
         },
@@ -64658,10 +64690,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "bef1b707c843f3",
-          "source": "新华社",
-          "title": "防汛一线的科技新力量",
-          "url": "https://www.news.cn/politics/20260811/2739b27fa2b44afa96c28b97e438b922/c.html",
+          "id": "3578a1207a742b",
+          "source": "新闻联播",
+          "title": "【党旗在基层一线高高飘扬】风雨中的暖心守护",
+          "url": "https://tv.cctv.com/2026/08/11/VIDEPCs4SifFTTDk2qPCuGY8260811.shtml",
+          "date": "2026-08-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "85b69d85b2affc",
+          "source": "新闻联播",
+          "title": "【新思想引领新征程】织就更密更暖的社会保障安全网",
+          "url": "https://tv.cctv.com/2026/08/11/VIDECDo8QmAJbvZh1TiN0y2I260811.shtml",
+          "date": "2026-08-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "174c992a1655b1",
+          "source": "新闻联播",
+          "title": "各地各部门积极应对“白海豚”影响",
+          "url": "https://tv.cctv.com/2026/08/11/VIDEqciXPxRuEvb8KU5JBZ3w260811.shtml",
+          "date": "2026-08-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "08767deb58d7c2",
+          "source": "新闻联播",
+          "title": "各地抢抓农时做好田间管理",
+          "url": "https://tv.cctv.com/2026/08/11/VIDENZCoyuG1BQehHbcy8JbY260811.shtml",
+          "date": "2026-08-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b2424b0480f4e3",
+          "source": "新闻联播",
+          "title": "我国将加快打造现代煤炭产业体系",
+          "url": "https://tv.cctv.com/2026/08/11/VIDEKRWmdJllGmb4QWECxquf260811.shtml",
+          "date": "2026-08-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d0231579fdb7cd",
+          "source": "新闻联播",
+          "title": "文献纪录片《江泽民》今晚开始播出",
+          "url": "https://tv.cctv.com/2026/08/11/VIDEiJn77wlPx5eyoCWirJ7b260811.shtml",
           "date": "2026-08-11",
           "keyword": "综合时政"
         },
@@ -64717,67 +64789,66 @@ window.CURRENT_AFFAIRS_DATA = {
       "sourceStatus": [
         {
           "source": "新闻联播",
-          "status": "error",
-          "count": 0,
-          "duration": 13.4,
-          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260811.shtml"
+          "status": "ok",
+          "count": 8,
+          "duration": 0.2
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 24,
-          "duration": 2.7
+          "duration": 2.5
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.3
+          "duration": 1.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 24,
-          "duration": 18.1
+          "duration": 30.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 12,
-          "duration": 5.9
+          "duration": 5.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 19,
-          "duration": 1.6
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.4
+          "duration": 14.5
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 3.6
+          "duration": 3.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 10.0
+          "duration": 13.7
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 13,
-          "duration": 55.6
+          "count": 14,
+          "duration": 87.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-11T18:46:09+08:00"
+  "generatedAt": "2026-08-11T19:41:25+08:00"
 };
