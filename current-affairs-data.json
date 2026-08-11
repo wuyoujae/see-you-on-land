@@ -62972,16 +62972,12 @@
           "count": 10
         },
         {
-          "name": "经济",
-          "count": 10
-        },
-        {
           "name": "习近平",
           "count": 9
         },
         {
-          "name": "暴雨",
-          "count": 6
+          "name": "经济",
+          "count": 9
         },
         {
           "name": "高质量发展",
@@ -62989,6 +62985,10 @@
         },
         {
           "name": "中国经济",
+          "count": 5
+        },
+        {
+          "name": "暴雨",
           "count": 5
         },
         {
@@ -63018,28 +63018,12 @@
           "keyword": "十五五"
         },
         {
-          "id": "b7ab7c03bcb82d",
-          "source": "光明日报",
-          "title": "【光明时评】银发经济是风口，更是民生刚需",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/11/content_21809.html",
-          "date": "2026-08-11",
-          "keyword": "经济"
-        },
-        {
           "id": "11d74ee78b3fba",
           "source": "半月谈",
           "title": "“十五五”开局之年城市地下管网建设观察",
           "url": "http://www.banyuetan.org/dyp/detail/20260811/1000200033135231786415145919214237_1.html",
           "date": "2026-08-11",
           "keyword": "十五五"
-        },
-        {
-          "id": "81b7e76bc6ecf6",
-          "source": "半月谈",
-          "title": "从7月CPI看经济内生增长动力",
-          "url": "http://www.banyuetan.org/dyp/detail/20260811/1000200033135231786414920549212273_1.html",
-          "date": "2026-08-11",
-          "keyword": "经济"
         },
         {
           "id": "8c7f81f041f3b4",
@@ -63066,6 +63050,70 @@
           "keyword": "十五五"
         },
         {
+          "id": "9b1ac56ae73145",
+          "source": "学习强国",
+          "title": "央行“十五五”改革发展规划出炉 加快完善中央银行制度",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=6544793286844430068&item_id=6544793286844430068",
+          "date": "2026-08-11",
+          "keyword": "十五五"
+        },
+        {
+          "id": "b19885400e2e79",
+          "source": "学习强国",
+          "title": "煤炭工业发展“十五五”规划印发 到2030年智能化煤矿产能比例提升至75%",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=1596914567882484246&item_id=1596914567882484246",
+          "date": "2026-08-11",
+          "keyword": "十五五"
+        },
+        {
+          "id": "74e1cc9e7dbaaf",
+          "source": "新华社",
+          "title": "多部门联合印发《生态保护“十五五”规划》",
+          "url": "https://www.news.cn/politics/20260811/81111bb9f76b4270ad4ab62629d5ffd3/c.html",
+          "date": "2026-08-11",
+          "keyword": "十五五"
+        },
+        {
+          "id": "0b5535893f6798",
+          "source": "新闻联播",
+          "title": "“十五五”时期我国生态质量将稳步改善",
+          "url": "https://tv.cctv.com/2026/08/11/VIDEkVicmDGBNcAoYAk7z2Mk260811.shtml",
+          "date": "2026-08-11",
+          "keyword": "十五五"
+        },
+        {
+          "id": "092d37503459fb",
+          "source": "中国政府网",
+          "title": "习近平就哥伦比亚发生强烈地震向哥伦比亚总统德拉埃斯普列亚致慰问电",
+          "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7077895.htm",
+          "date": "2026-08-11",
+          "keyword": "习近平"
+        },
+        {
+          "id": "b7ab7c03bcb82d",
+          "source": "光明日报",
+          "title": "【光明时评】银发经济是风口，更是民生刚需",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/11/content_21809.html",
+          "date": "2026-08-11",
+          "keyword": "经济"
+        },
+        {
+          "id": "81b7e76bc6ecf6",
+          "source": "半月谈",
+          "title": "从7月CPI看经济内生增长动力",
+          "url": "http://www.banyuetan.org/dyp/detail/20260811/1000200033135231786414920549212273_1.html",
+          "date": "2026-08-11",
+          "keyword": "经济"
+        },
+        {
+          "id": "4040ed68f5912b",
+          "source": "半月谈",
+          "title": "以科学的思想方法推进管党治党——习近平党建思想理论品格系列述评之六",
+          "url": "http://www.banyuetan.org/dyp/detail/20260811/1000200033135231786409169128188175_1.html",
+          "date": "2026-08-11",
+          "keyword": "习近平"
+        },
+        {
           "id": "3c2825d347ee50",
           "source": "学习强国",
           "title": "中国经济持续释放确定性红利",
@@ -63082,28 +63130,20 @@
           "keyword": "经济"
         },
         {
+          "id": "43aec20c3cffac",
+          "source": "学习强国",
+          "title": "习近平就哥伦比亚发生强烈地震向哥伦比亚总统德拉埃斯普列亚致慰问电",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=16104809516605151053&item_id=16104809516605151053",
+          "date": "2026-08-11",
+          "keyword": "习近平"
+        },
+        {
           "id": "e429b0b9e32c22",
           "source": "学习强国",
           "title": "企业在全球经济治理体系变革中如何积极作为",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=8462807640383667597&item_id=8462807640383667597",
           "date": "2026-08-11",
           "keyword": "经济"
-        },
-        {
-          "id": "9b1ac56ae73145",
-          "source": "学习强国",
-          "title": "央行“十五五”改革发展规划出炉 加快完善中央银行制度",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=6544793286844430068&item_id=6544793286844430068",
-          "date": "2026-08-11",
-          "keyword": "十五五"
-        },
-        {
-          "id": "b19885400e2e79",
-          "source": "学习强国",
-          "title": "煤炭工业发展“十五五”规划印发 到2030年智能化煤矿产能比例提升至75%",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=1596914567882484246&item_id=1596914567882484246",
-          "date": "2026-08-11",
-          "keyword": "十五五"
         },
         {
           "id": "c91d4e823de2c5",
@@ -63130,62 +63170,6 @@
           "keyword": "经济"
         },
         {
-          "id": "74e1cc9e7dbaaf",
-          "source": "新华社",
-          "title": "多部门联合印发《生态保护“十五五”规划》",
-          "url": "https://www.news.cn/politics/20260811/81111bb9f76b4270ad4ab62629d5ffd3/c.html",
-          "date": "2026-08-11",
-          "keyword": "十五五"
-        },
-        {
-          "id": "3340ed6ebacad0",
-          "source": "新华社",
-          "title": "新疆大力发展养老金融 支持银发经济高质量发展",
-          "url": "https://www.news.cn/local/20260811/a3a59e6832d143d6962ea513b05212b2/c.html",
-          "date": "2026-08-11",
-          "keyword": "经济"
-        },
-        {
-          "id": "0b5535893f6798",
-          "source": "新闻联播",
-          "title": "“十五五”时期我国生态质量将稳步改善",
-          "url": "https://tv.cctv.com/2026/08/11/VIDEkVicmDGBNcAoYAk7z2Mk260811.shtml",
-          "date": "2026-08-11",
-          "keyword": "十五五"
-        },
-        {
-          "id": "9599e5f48b428d",
-          "source": "求是",
-          "title": "中国经济看速度更看“稳劲”",
-          "url": "https://www.qstheory.cn/20260811/92650c21d410484d814a76bca724ef94/c.html",
-          "date": "2026-08-11",
-          "keyword": "经济"
-        },
-        {
-          "id": "092d37503459fb",
-          "source": "中国政府网",
-          "title": "习近平就哥伦比亚发生强烈地震向哥伦比亚总统德拉埃斯普列亚致慰问电",
-          "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7077895.htm",
-          "date": "2026-08-11",
-          "keyword": "习近平"
-        },
-        {
-          "id": "4040ed68f5912b",
-          "source": "半月谈",
-          "title": "以科学的思想方法推进管党治党——习近平党建思想理论品格系列述评之六",
-          "url": "http://www.banyuetan.org/dyp/detail/20260811/1000200033135231786409169128188175_1.html",
-          "date": "2026-08-11",
-          "keyword": "习近平"
-        },
-        {
-          "id": "43aec20c3cffac",
-          "source": "学习强国",
-          "title": "习近平就哥伦比亚发生强烈地震向哥伦比亚总统德拉埃斯普列亚致慰问电",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=16104809516605151053&item_id=16104809516605151053",
-          "date": "2026-08-11",
-          "keyword": "习近平"
-        },
-        {
           "id": "ae2bbbd25306a4",
           "source": "新华社",
           "title": "习近平就哥伦比亚发生强烈地震向哥伦比亚总统德拉埃斯普列亚致慰问电",
@@ -63200,6 +63184,14 @@
           "url": "https://tv.cctv.com/2026/08/11/VIDEO2g6bRMoszRKBRrhYA2u260811.shtml",
           "date": "2026-08-11",
           "keyword": "习近平"
+        },
+        {
+          "id": "9599e5f48b428d",
+          "source": "求是",
+          "title": "中国经济看速度更看“稳劲”",
+          "url": "https://www.qstheory.cn/20260811/92650c21d410484d814a76bca724ef94/c.html",
+          "date": "2026-08-11",
+          "keyword": "经济"
         },
         {
           "id": "08c97c1c3716f2",
@@ -63234,6 +63226,22 @@
           "keyword": "习近平"
         },
         {
+          "id": "6e0ad46d18322c",
+          "source": "人民日报",
+          "title": "不断创造高质量发展新业绩（树立和践行正确政绩观）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/11/content_30174308.html",
+          "date": "2026-08-11",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "7a8dd40dcb6544",
+          "source": "半月谈",
+          "title": "“China Chic”圈粉外国消费者——把中国“好物”带回家",
+          "url": "http://www.banyuetan.org/jj/detail/20260811/1000200033136091786433782025196392_1.html",
+          "date": "2026-08-11",
+          "keyword": "消费"
+        },
+        {
           "id": "c1acc5a428ba99",
           "source": "半月谈",
           "title": "“白海豚”北上西进 专家预判行进路线和暴雨落区",
@@ -63256,46 +63264,6 @@
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=10838308470079884520&item_id=10838308470079884520",
           "date": "2026-08-11",
           "keyword": "暴雨"
-        },
-        {
-          "id": "2b7aa94330bedf",
-          "source": "学习强国",
-          "title": "水利部滚动会商部署台风“白海豚”暴雨洪水防御工作",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=8777878205328791616&item_id=8777878205328791616",
-          "date": "2026-08-11",
-          "keyword": "暴雨"
-        },
-        {
-          "id": "f5f13c254155db",
-          "source": "新华社",
-          "title": "“白海豚”停止编号 多地受残余系统影响仍有大暴雨",
-          "url": "https://www.news.cn/politics/20260811/ab003431bb4e4b17ad32268994878a42/c.html",
-          "date": "2026-08-11",
-          "keyword": "暴雨"
-        },
-        {
-          "id": "062b69e8ac6208",
-          "source": "新华社",
-          "title": "紧急提醒！暴雨来袭，这份保命避险指南请转发",
-          "url": "https://www.news.cn/politics/20260811/bbf534ca38b64b81a3290a87974dcbfc/c.html",
-          "date": "2026-08-11",
-          "keyword": "暴雨"
-        },
-        {
-          "id": "6e0ad46d18322c",
-          "source": "人民日报",
-          "title": "不断创造高质量发展新业绩（树立和践行正确政绩观）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/11/content_30174308.html",
-          "date": "2026-08-11",
-          "keyword": "高质量发展"
-        },
-        {
-          "id": "7a8dd40dcb6544",
-          "source": "半月谈",
-          "title": "“China Chic”圈粉外国消费者——把中国“好物”带回家",
-          "url": "http://www.banyuetan.org/jj/detail/20260811/1000200033136091786433782025196392_1.html",
-          "date": "2026-08-11",
-          "keyword": "消费"
         },
         {
           "id": "fec31b1d4fafb2",
@@ -63322,6 +63290,14 @@
           "keyword": "高质量发展"
         },
         {
+          "id": "2b7aa94330bedf",
+          "source": "学习强国",
+          "title": "水利部滚动会商部署台风“白海豚”暴雨洪水防御工作",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=8777878205328791616&item_id=8777878205328791616",
+          "date": "2026-08-11",
+          "keyword": "暴雨"
+        },
+        {
           "id": "6f250683fd75da",
           "source": "广东发布",
           "title": "珠江游串起消费新链条 上半年珠江游接待游客突破216万人次 同比增长11.34%",
@@ -63330,12 +63306,28 @@
           "keyword": "消费"
         },
         {
+          "id": "f5f13c254155db",
+          "source": "新华社",
+          "title": "“白海豚”停止编号 多地受残余系统影响仍有大暴雨",
+          "url": "https://www.news.cn/politics/20260811/ab003431bb4e4b17ad32268994878a42/c.html",
+          "date": "2026-08-11",
+          "keyword": "暴雨"
+        },
+        {
           "id": "fc6f5c114cebd6",
           "source": "新华社",
           "title": "体验“上新” 点亮文旅消费新空间",
           "url": "https://www.news.cn/20260811/8b13de9764e64537999137e5a08fe2a8/c.html",
           "date": "2026-08-11",
           "keyword": "消费"
+        },
+        {
+          "id": "06805572a33109",
+          "source": "新华社",
+          "title": "新疆出台法规护航棉花产业高质量发展",
+          "url": "https://www.news.cn/local/20260811/cb93c2186eda42e38a537d4a9f321b20/c.html",
+          "date": "2026-08-11",
+          "keyword": "高质量发展"
         },
         {
           "id": "19ee19d406a149",
@@ -64266,14 +64258,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "a54cd161ac9c94",
-          "source": "新华社",
-          "title": "11省洪水防御应急响应",
-          "url": "https://www.news.cn/politics/20260811/af0697c4dca348c5a380ae7a8bd5eb75/c.html",
-          "date": "2026-08-11",
-          "keyword": "综合时政"
-        },
-        {
           "id": "ce847d2283eaf1",
           "source": "新华社",
           "title": "WTT欧洲大满贯赛瑞典站首日：国乒六人晋级32强",
@@ -64286,14 +64270,6 @@
           "source": "新华社",
           "title": "“典藏山河——沈阳故宫博物院建院百年百件文物展”开幕",
           "url": "https://www.news.cn/photo/20260811/7ab0b2a96afc4a5184b635aa6ba5334d/c.html",
-          "date": "2026-08-11",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "a43b36f5abd373",
-          "source": "新华社",
-          "title": "“老百姓的事情是最重要的事情”",
-          "url": "https://www.news.cn/politics/leaders/20260811/7ecbd604e840469aa0826ac3a5758de2/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
         },
@@ -64314,10 +64290,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "bd3783ef193c7b",
+          "id": "b3ea3e58d6c3fd",
           "source": "新华社",
-          "title": "两部门征集年度计量支撑产业新质生产力发展项目",
-          "url": "https://www.news.cn/fortune/20260811/005540783923404985550592d9b450d1/c.html",
+          "title": "世界大象日：5年了，北上“短鼻家族”回家后怎么样了？",
+          "url": "https://www.news.cn/local/20260811/9a19817239104471878b6e2192f78f8c/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
         },
@@ -64346,10 +64322,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "6f5df09732cb13",
+          "id": "1892b7b2d66528",
           "source": "新华社",
           "title": "之江潮涌绘共富",
-          "url": "https://www.news.cn/politics/20260811/0cc505b0eb6b44f295c7f24bb90a95ad/c.html",
+          "url": "https://www.news.cn/politics/20260811/69282745c44e4af69a48517d0d3b8b55/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
         },
@@ -64434,14 +64410,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "616caee989c7df",
-          "source": "新华社",
-          "title": "北京启动国家地质灾害四级应急响应",
-          "url": "https://www.news.cn/local/20260811/d3a59c69f99547ccb3d2a587f1735d04/c.html",
-          "date": "2026-08-11",
-          "keyword": "综合时政"
-        },
-        {
           "id": "6d93ab3ba4a04f",
           "source": "新华社",
           "title": "台风“白海豚”过境后 宁波舟山港生产作业有序恢复",
@@ -64454,6 +64422,14 @@
           "source": "新华社",
           "title": "哥伦比亚强震已致169人死亡",
           "url": "https://www.news.cn/world/20260811/d13c74ddf05d4c01a8d915dd82ec1bc8/c.html",
+          "date": "2026-08-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2fa6278d90beb7",
+          "source": "新华社",
+          "title": "哥伦比亚强震致181人死",
+          "url": "https://www.news.cn/world/20260811/9d6a66de70ea4b129871583834822533/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
         },
@@ -64514,10 +64490,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "8c187deede44c8",
+          "id": "a43b36f5abd373",
           "source": "新华社",
-          "title": "开幕倒计时 在首钢提前剧透2026服贸会",
-          "url": "https://www.news.cn/politics/20260811/e15ea590f4ec4f6da948bdc02bc45b98/c.html",
+          "title": "总书记治国理政故事丨“老百姓的事情是最重要的事情”",
+          "url": "https://www.news.cn/politics/leaders/20260811/7ecbd604e840469aa0826ac3a5758de2/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
         },
@@ -64526,6 +64502,14 @@
           "source": "新华社",
           "title": "我们为什么舍不得夏天？",
           "url": "https://www.news.cn/politics/20260811/0b556abd2775411f82c74c810eab8a7c/c.html",
+          "date": "2026-08-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d05db64f006cd6",
+          "source": "新华社",
+          "title": "我国聚变加料领域首项ISO国际标准正式发布",
+          "url": "https://www.news.cn/tech/20260811/9caa2b17199d445aa06d89bb6faa8f07/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
         },
@@ -64554,10 +64538,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "173fb29211cad5",
+          "id": "6ba801f9d06e33",
           "source": "新华社",
-          "title": "江苏省南京市人大常委会原主任龙翔一审被判死缓",
-          "url": "https://www.news.cn/legal/20260811/e5b9c1d9d7084ed6a8157ca7b1b6b90a/c.html",
+          "title": "最贫困省份和咖啡产区受灾",
+          "url": "https://www.news.cn/world/20260811/b78b91da44374d809a1b70420773e0d7/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
         },
@@ -64626,6 +64610,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "abbcd86daa967a",
+          "source": "新华社",
+          "title": "美媒：巴基斯坦国防部长称美伊接近达成协议",
+          "url": "https://www.news.cn/world/20260811/a4f8add510f74285a5cc869b0eda448e/c.html",
+          "date": "2026-08-11",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d522a19e964ebe",
           "source": "新华社",
           "title": "自然资源部对北京启动地质灾害防御Ⅳ级响应",
@@ -64670,6 +64662,14 @@
           "source": "新华社",
           "title": "调水超900亿立方米 南水北调效益持续发挥",
           "url": "https://www.news.cn/politics/20260811/f882b62c70e046759a244a70047ae7f7/c.html",
+          "date": "2026-08-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7c542488e2ec03",
+          "source": "新华社",
+          "title": "身边的红色地标丨红军飞夺泸定桥纪念馆：永不褪色的红色丰碑",
+          "url": "https://www.news.cn/20260811/dd1b5fe0d5814afdbc907e573527aec7/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
         },
@@ -64847,13 +64847,13 @@
           "source": "新闻联播",
           "status": "ok",
           "count": 15,
-          "duration": 0.5
+          "duration": 0.4
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 24,
-          "duration": 2.8
+          "duration": 1.7
         },
         {
           "source": "新华社",
@@ -64865,46 +64865,46 @@
           "source": "半月谈",
           "status": "ok",
           "count": 24,
-          "duration": 26.0
+          "duration": 18.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 12,
-          "duration": 6.0
+          "duration": 6.5
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 19,
-          "duration": 1.7
+          "duration": 2.2
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.1
+          "duration": 11.1
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 3.0
+          "duration": 11.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 10.8
+          "duration": 8.9
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 14,
-          "duration": 55.6
+          "duration": 60.9
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-11T20:50:11+08:00"
+  "generatedAt": "2026-08-11T22:17:30+08:00"
 }
