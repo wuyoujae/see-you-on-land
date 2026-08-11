@@ -62984,15 +62984,15 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 6
         },
         {
-          "name": "消费",
-          "count": 5
-        },
-        {
           "name": "高质量发展",
           "count": 4
         },
         {
           "name": "暴雨",
+          "count": 4
+        },
+        {
+          "name": "消费",
           "count": 4
         },
         {
@@ -63138,10 +63138,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "十五五"
         },
         {
-          "id": "e200f45ff68abb",
+          "id": "43aec20c3cffac",
           "source": "学习强国",
           "title": "习近平就哥伦比亚发生强烈地震向哥伦比亚总统德拉埃斯普列亚致慰问电",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=8148963229316813267&item_id=8148963229316813267",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=16104809516605151053&item_id=16104809516605151053",
           "date": "2026-08-11",
           "keyword": "习近平"
         },
@@ -63202,52 +63202,20 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
-          "id": "7a8dd40dcb6544",
-          "source": "半月谈",
-          "title": "“China Chic”圈粉外国消费者——把中国“好物”带回家",
-          "url": "http://www.banyuetan.org/jj/detail/20260811/1000200033136091786433782025196392_1.html",
-          "date": "2026-08-11",
-          "keyword": "消费"
-        },
-        {
-          "id": "fec31b1d4fafb2",
-          "source": "学习强国",
-          "title": "以退税红利带动入境消费提质升级",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=10023046518896117616&item_id=10023046518896117616",
-          "date": "2026-08-11",
-          "keyword": "消费"
-        },
-        {
-          "id": "cbc1365ccd395a",
-          "source": "学习强国",
-          "title": "助力文旅消费不能只盯旺季",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=160344200205762621&item_id=160344200205762621",
-          "date": "2026-08-11",
-          "keyword": "消费"
-        },
-        {
-          "id": "6f250683fd75da",
-          "source": "广东发布",
-          "title": "珠江游串起消费新链条 上半年珠江游接待游客突破216万人次 同比增长11.34%",
-          "url": "https://www.gd.gov.cn/gdywdt/dsdt/content/post_4940462.html",
-          "date": "2026-08-11",
-          "keyword": "消费"
-        },
-        {
-          "id": "b6176f8b7b59b6",
-          "source": "新华社",
-          "title": "把中国“好物”带回家 “China Chic”圈粉外国消费者",
-          "url": "https://www.news.cn/fortune/20260811/ceb96fc9e8d6429681c2ef58ae5b13d1/c.html",
-          "date": "2026-08-11",
-          "keyword": "消费"
-        },
-        {
           "id": "6e0ad46d18322c",
           "source": "人民日报",
           "title": "不断创造高质量发展新业绩（树立和践行正确政绩观）",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/11/content_30174308.html",
           "date": "2026-08-11",
           "keyword": "高质量发展"
+        },
+        {
+          "id": "7a8dd40dcb6544",
+          "source": "半月谈",
+          "title": "“China Chic”圈粉外国消费者——把中国“好物”带回家",
+          "url": "http://www.banyuetan.org/jj/detail/20260811/1000200033136091786433782025196392_1.html",
+          "date": "2026-08-11",
+          "keyword": "消费"
         },
         {
           "id": "c1acc5a428ba99",
@@ -63274,6 +63242,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "暴雨"
         },
         {
+          "id": "fec31b1d4fafb2",
+          "source": "学习强国",
+          "title": "以退税红利带动入境消费提质升级",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=10023046518896117616&item_id=10023046518896117616",
+          "date": "2026-08-11",
+          "keyword": "消费"
+        },
+        {
+          "id": "cbc1365ccd395a",
+          "source": "学习强国",
+          "title": "助力文旅消费不能只盯旺季",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=160344200205762621&item_id=160344200205762621",
+          "date": "2026-08-11",
+          "keyword": "消费"
+        },
+        {
           "id": "3b587856d0bc0a",
           "source": "学习强国",
           "title": "树立和践行正确政绩观|各地深入开展学习教育，巩固拓展学习教育成果——不断创造高质量发展新业绩",
@@ -63288,6 +63272,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=8777878205328791616&item_id=8777878205328791616",
           "date": "2026-08-11",
           "keyword": "暴雨"
+        },
+        {
+          "id": "6f250683fd75da",
+          "source": "广东发布",
+          "title": "珠江游串起消费新链条 上半年珠江游接待游客突破216万人次 同比增长11.34%",
+          "url": "https://www.gd.gov.cn/gdywdt/dsdt/content/post_4940462.html",
+          "date": "2026-08-11",
+          "keyword": "消费"
         },
         {
           "id": "9bfad78e8d52f9",
@@ -64236,7 +64228,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "85e451792828aa",
           "source": "新华社",
-          "title": "“白海豚”来袭 北京多预警齐发",
+          "title": "“白海豚”来袭 北京发多预警",
           "url": "https://www.news.cn/local/20260811/8156cc67b09c4d2ebb3f78f07f0fafc0/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
@@ -64270,6 +64262,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "专家谈哥伦比亚地震与委内瑞拉地震区别",
           "url": "https://www.news.cn/20260811/1e1380b868ff4c18827e0773f7b45360/c.html",
+          "date": "2026-08-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "147d20b32c24af",
+          "source": "新华社",
+          "title": "两部门发布红色山洪灾害预警",
+          "url": "https://www.news.cn/politics/20260811/144d4d4942cc4207a88b636e8507d36c/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
         },
@@ -64322,14 +64322,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "eb8f2b4d4d50b4",
-          "source": "新华社",
-          "title": "从卖场到生活场：沈阳商超焕发新活力",
-          "url": "https://www.news.cn/fortune/20260811/4e2d7fd808ea4fdab58bf0b6d7f63bcf/c.html",
-          "date": "2026-08-11",
-          "keyword": "综合时政"
-        },
-        {
           "id": "8dbc33cfc6d096",
           "source": "新华社",
           "title": "做陶俑、品美食、见生活，老外在烟火气中感受中国“Cool”",
@@ -64378,14 +64370,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "26cfd3c69e82d8",
-          "source": "新华社",
-          "title": "台风“白海豚”登陆后浙江抢险救灾一线见闻",
-          "url": "https://www.news.cn/politics/20260811/2acd03f00bd9455ab09853e007c3ceab/c.html",
-          "date": "2026-08-11",
-          "keyword": "综合时政"
-        },
-        {
           "id": "6d93ab3ba4a04f",
           "source": "新华社",
           "title": "台风“白海豚”过境后 宁波舟山港生产作业有序恢复",
@@ -64414,6 +64398,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "哥伦比亚新政府宣布承认以色列对戈兰高地主权",
           "url": "https://www.news.cn/20260811/92027fb9f62144fda407dce460a1d996/c.html",
+          "date": "2026-08-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bb90d5a117af8b",
+          "source": "新华社",
+          "title": "外交部：敦促太平洋岛国论坛秘书处恪守一个 中国原则",
+          "url": "https://www.news.cn/world/20260811/00f71bcf228f431d9ad6ecef08fbafc3/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
         },
@@ -64516,7 +64508,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "a54cd161ac9c94",
           "source": "新华社",
-          "title": "水利部：维持对11省份的洪水防御应急响应",
+          "title": "水利部维持对11省洪水防御应急响应",
           "url": "https://www.news.cn/politics/20260811/af0697c4dca348c5a380ae7a8bd5eb75/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
@@ -64566,6 +64558,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "特朗普称美国对伊朗有三种“策略”",
           "url": "https://www.news.cn/world/20260811/cb760e15e1bf45daaefad6f15562ae5a/c.html",
+          "date": "2026-08-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "585e7855dd05de",
+          "source": "新华社",
+          "title": "直面“白海豚” 一位村委会主任的风雨昼夜",
+          "url": "https://www.news.cn/politics/20260811/51b9b5235aef40309d8b89fb8539b5c5/c.html",
           "date": "2026-08-11",
           "keyword": "综合时政"
         },
@@ -64719,65 +64719,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 4.9,
+          "duration": 13.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260811.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 24,
-          "duration": 1.9
+          "duration": 2.7
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.0
+          "duration": 2.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 24,
-          "duration": 26.9
+          "duration": 18.1
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 12,
-          "duration": 6.1
+          "duration": 5.9
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 19,
-          "duration": 2.2
+          "duration": 1.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.2
+          "duration": 13.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 1.8
+          "duration": 3.6
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 9.1
+          "duration": 10.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 13,
-          "duration": 49.2
+          "duration": 55.6
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-11T17:56:09+08:00"
+  "generatedAt": "2026-08-11T18:46:09+08:00"
 };
