@@ -65301,6 +65301,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "4add1d7096f602",
+          "source": "新华社",
+          "title": "哥伦比亚地震：捐赠物资支援灾区",
+          "url": "https://www.news.cn/photo/20260812/7410026e70da4cc7895a4da350c6b4c5/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "6dfb9491888af4",
           "source": "新华社",
           "title": "哥伦比亚强震死亡人数升至188人",
@@ -65362,66 +65370,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 10.7,
+          "duration": 7.7,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260812.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 23,
-          "duration": 1.3
+          "duration": 1.7
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 8,
-          "duration": 2.4
+          "count": 9,
+          "duration": 2.8
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 6.7
+          "duration": 24.5
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 2,
-          "duration": 6.2
+          "duration": 6.5
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 21,
-          "duration": 1.3
+          "duration": 1.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.6
+          "duration": 12.2
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.4
+          "duration": 2.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.6
+          "duration": 8.4
         },
         {
           "source": "广东发布",
-          "status": "error",
+          "status": "ok",
           "count": 0,
-          "duration": 18.0,
-          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+          "duration": 66.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-12T06:48:33+08:00"
+  "generatedAt": "2026-08-12T07:44:59+08:00"
 };
