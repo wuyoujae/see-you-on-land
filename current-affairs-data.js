@@ -64912,6 +64912,22 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "习近平",
+          "count": 4
+        },
+        {
+          "name": "经济",
+          "count": 3
+        },
+        {
+          "name": "中国经济",
+          "count": 2
+        },
+        {
+          "name": "生态保护",
+          "count": 2
+        },
+        {
+          "name": "十五五",
           "count": 2
         },
         {
@@ -64919,11 +64935,43 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 2
         },
         {
-          "name": "经济",
+          "name": "科技",
           "count": 2
         }
       ],
       "articles": [
+        {
+          "id": "b9c845730f16f2",
+          "source": "人民日报",
+          "title": "习近平就哥伦比亚发生强烈地震向哥伦比亚总统德拉埃斯普列亚致慰问电",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/12/content_30174422.html",
+          "date": "2026-08-12",
+          "keyword": "习近平"
+        },
+        {
+          "id": "f098c587394039",
+          "source": "光明日报",
+          "title": "习近平就哥伦比亚发生强烈地震向哥伦比亚总统德拉埃斯普列亚致慰问电",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/12/content_21958.html",
+          "date": "2026-08-12",
+          "keyword": "习近平"
+        },
+        {
+          "id": "fcd0c02cc5e27a",
+          "source": "半月谈",
+          "title": "习近平就哥伦比亚发生强烈地震向哥伦比亚总统德拉埃斯普列亚致慰问电",
+          "url": "http://www.banyuetan.org/dyp/detail/20260812/1000200033135231786496019423197387_1.html",
+          "date": "2026-08-12",
+          "keyword": "习近平"
+        },
+        {
+          "id": "296891119074bb",
+          "source": "求是",
+          "title": "深学笃行习近平外交思想 奋力开创中国特色大国外交新局面",
+          "url": "https://www.qstheory.cn/20260812/8856dd944df64b82af8c617ae34ea220/c.html",
+          "date": "2026-08-12",
+          "keyword": "习近平"
+        },
         {
           "id": "74c55b6bd938fe",
           "source": "人民日报",
@@ -64941,20 +64989,20 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
+          "id": "ea19d7a1513f84",
+          "source": "求是",
+          "title": "中国经济向新向优向好的内在逻辑",
+          "url": "https://www.qstheory.cn/20260812/52f722e92f0a423fb7054e5f70686f26/c.html",
+          "date": "2026-08-12",
+          "keyword": "经济"
+        },
+        {
           "id": "1437dd74ff6e65",
           "source": "人民日报",
           "title": "为智能充电桩设计“大脑”（新质生产力创造就业新空间）",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/12/content_30174371.html",
           "date": "2026-08-12",
           "keyword": "就业"
-        },
-        {
-          "id": "b9c845730f16f2",
-          "source": "人民日报",
-          "title": "习近平就哥伦比亚发生强烈地震向哥伦比亚总统德拉埃斯普列亚致慰问电",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/12/content_30174422.html",
-          "date": "2026-08-12",
-          "keyword": "习近平"
         },
         {
           "id": "1cb8a5587e9c4d",
@@ -64965,12 +65013,44 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "就业"
         },
         {
-          "id": "f098c587394039",
+          "id": "97d510235c05c8",
           "source": "光明日报",
-          "title": "习近平就哥伦比亚发生强烈地震向哥伦比亚总统德拉埃斯普列亚致慰问电",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/12/content_21958.html",
+          "title": "【光明论坛】科技创新须增强体系化攻关能力",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/12/content_21971.html",
           "date": "2026-08-12",
-          "keyword": "习近平"
+          "keyword": "科技"
+        },
+        {
+          "id": "2a470c6335009e",
+          "source": "光明日报",
+          "title": "多部门联合印发《生态保护“十五五”规划》",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/12/content_21949.html",
+          "date": "2026-08-12",
+          "keyword": "生态保护"
+        },
+        {
+          "id": "3819791d17d7dd",
+          "source": "半月谈",
+          "title": "多部门联合印发《生态保护“十五五”规划》",
+          "url": "http://www.banyuetan.org/yw/detail/20260812/1000200033137441786496059912198798_1.html",
+          "date": "2026-08-12",
+          "keyword": "生态保护"
+        },
+        {
+          "id": "2600ba6ac6eef7",
+          "source": "新华社",
+          "title": "“七下八上”防汛关键期 这些科技装备大显身手",
+          "url": "https://www.news.cn/tech/20260812/51bf35be821f4dbd8650c35e4b09ff05/c.html",
+          "date": "2026-08-12",
+          "keyword": "科技"
+        },
+        {
+          "id": "e392e7ed6c529c",
+          "source": "中国政府网",
+          "title": "上半年互联网业务收入同比增10.1%",
+          "url": "https://www.gov.cn/lianbo/202608/content_7077915.htm",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
         },
         {
           "id": "18bc910ce893e9",
@@ -65157,14 +65237,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "97d510235c05c8",
-          "source": "光明日报",
-          "title": "【光明论坛】科技创新须增强体系化攻关能力",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/12/content_21971.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "0203c527db14d0",
           "source": "光明日报",
           "title": "【大美中国】宜人风光",
@@ -65221,14 +65293,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "2a470c6335009e",
-          "source": "光明日报",
-          "title": "多部门联合印发《生态保护“十五五”规划》",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/12/content_21949.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "4b36c2dea5f088",
           "source": "光明日报",
           "title": "山海相续三十载 文脉交融谱新篇",
@@ -65277,10 +65341,98 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "48623a54877e82",
+          "source": "半月谈",
+          "title": "中印尼两国海军舰艇将位台岛以东海域开展通航演练",
+          "url": "http://www.banyuetan.org/yw/detail/20260812/1000200033137441786497192385230342_1.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3e3c10988f7fe6",
+          "source": "半月谈",
+          "title": "中方严斥美国炮制“弹道导弹发射通报”涉华共同发言",
+          "url": "http://www.banyuetan.org/yw/detail/20260812/1000200033137441786496928479229211_1.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9d5844021d9e0b",
+          "source": "半月谈",
+          "title": "台风“白海豚”致强降雨 多地积极应对",
+          "url": "http://www.banyuetan.org/yw/detail/20260812/1000200033137441786496639123202349_1.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c5b0aae87dfa65",
+          "source": "半月谈",
+          "title": "水利部对北京天津启动洪水防御Ⅳ级应急响应",
+          "url": "http://www.banyuetan.org/yw/detail/20260812/1000200033137441786496838450228478_1.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9de3043401becc",
+          "source": "半月谈",
+          "title": "百花为大众盛开——从第38届大众电影百花奖看新时代中国电影发展创新",
+          "url": "http://www.banyuetan.org/yw/detail/20260812/1000200033137441786496450628200089_1.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5d39d9bd63fb70",
+          "source": "半月谈",
+          "title": "积极防汛防台风 各地多措并举筑牢安全堤坝",
+          "url": "http://www.banyuetan.org/yw/detail/20260812/1000200033137441786496761388227878_1.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e18889d637dc56",
+          "source": "半月谈",
+          "title": "纸张能隔火，化工新材料蝶变升级",
+          "url": "http://www.banyuetan.org/yw/detail/20260812/1000200033137441786496164145199050_1.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f5278529ec3657",
+          "source": "半月谈",
+          "title": "美媒：巴基斯坦国防部长称美伊已接近达成协议",
+          "url": "http://www.banyuetan.org/yw/detail/20260812/1000200033137441786497280876231908_1.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a42e1be1606cec",
+          "source": "半月谈",
+          "title": "调水超900亿立方米 南水北调效益持续发挥",
+          "url": "http://www.banyuetan.org/yw/detail/20260812/1000200033137441786496534801201717_1.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "8f75515b7fd6a4",
           "source": "新华社",
           "title": "“人民艺术家”郭兰英逝世",
           "url": "https://www.news.cn/politics/20260812/9f4923c5179b46f480b8e05a7a075f3d/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "28f9324ec4b891",
+          "source": "新华社",
+          "title": "“人民艺术家”郭兰英逝世 享年97岁",
+          "url": "https://www.news.cn/politics/20260812/72aa5d5a285b4e51bbf77d5979e8d0ad/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3428982ab1e817",
+          "source": "新华社",
+          "title": "“典藏山河——沈阳故宫博物院建院百年百件文物展”开幕",
+          "url": "https://www.news.cn/culture/20260812/2cf1bc5465264908bb0b849c44c0ce0d/c.html?page=1",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -65293,6 +65445,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "5bbaa4f47c1129",
+          "source": "新华社",
+          "title": "丰富产品供给 培育新场景新体验 暑期文旅新意足",
+          "url": "https://www.news.cn/20260812/9afe658f344e4f7aa5bc39cd6b2ca5a2/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e7c2ec182a3553",
+          "source": "新华社",
+          "title": "乍得举行庆祝独立66周年活动",
+          "url": "https://www.news.cn/photo/20260812/d148e47d873347928f9f81f6b50d9881/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "ca24bb12ec56dd",
           "source": "新华社",
           "title": "也门胡塞武装表示愿与沙特对话",
@@ -65301,10 +65469,42 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "9467f02137a24f",
+          "source": "新华社",
+          "title": "云南省曲靖市沾益区：减掉基层无力承接的履职事项",
+          "url": "https://www.news.cn/local/20260812/6fe1debb8c80410da92bc1c0a4e2ce91/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "354e85083d2c83",
+          "source": "新华社",
+          "title": "从“卖设备”到“卖智能”工程机械畅销海外底气何在",
+          "url": "https://www.news.cn/fortune/20260812/a1dbed8b89704fb889121cca7f41c850/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2b2b94f04e11f8",
+          "source": "新华社",
+          "title": "原创歌舞剧《丹达魂》在拉萨演出",
+          "url": "https://www.news.cn/culture/20260812/5847f8542de7462bb0c6901cf508957f/c.html?page=1",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "4add1d7096f602",
           "source": "新华社",
           "title": "哥伦比亚地震：捐赠物资支援灾区",
           "url": "https://www.news.cn/photo/20260812/7410026e70da4cc7895a4da350c6b4c5/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "53724025b03ffe",
+          "source": "新华社",
+          "title": "哥伦比亚强震已致188人死亡 最贫困省份受灾严重",
+          "url": "https://www.news.cn/20260812/e6d0110274e34b8fa97cffa47b48fb00/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -65325,10 +65525,74 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "4ba59a40dd39f6",
+          "source": "新华社",
+          "title": "当智能眼镜成“行走的摄像头”，隐私边界如何守住？",
+          "url": "https://www.news.cn/legal/20260812/d5873938392b4a66836932d3d2dcf489/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d65249aacb85a6",
+          "source": "新华社",
+          "title": "数十家国有文艺院团将经典剧目搬进直播间",
+          "url": "https://www.news.cn/local/20260812/6692e4c4d77e475daa7ac499bf728465/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "556d1684574096",
+          "source": "新华社",
+          "title": "新能源汽车涉水维修费远超车险保额 争议如何解",
+          "url": "https://www.news.cn/legal/20260812/06fc5e7a750249e69892194776ffe962/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5000b11bd79b75",
+          "source": "新华社",
+          "title": "水位告急！莱茵河航道或中断",
+          "url": "https://www.news.cn/world/20260812/f4115daeebde40f182b3a4e5abfe5ed8/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "5b26df60165e1e",
           "source": "新华社",
           "title": "水利部对北京天津启动洪水防御Ⅳ级应急响应",
           "url": "https://www.news.cn/politics/20260812/cc4694a1a6404bf6bf54f4906a0130eb/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fa9ea326a03700",
+          "source": "新华社",
+          "title": "沈阳故宫博物院：百件文物回望百年历程",
+          "url": "https://www.news.cn/local/20260812/44e2b5b99a9d4d1db19da9eee6c01654/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ea74f7fa889c93",
+          "source": "新华社",
+          "title": "现场直击｜台风“白海豚”致强降雨 多地积极应对",
+          "url": "https://www.news.cn/politics/20260812/6f41edfafa67494ba13a35f02a2f9f9c/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "71c74bf75f24af",
+          "source": "新华社",
+          "title": "百日千万招聘专项行动推出八万余人次需求",
+          "url": "https://www.news.cn/politics/20260812/ed365eb17ddc48188dbcbeac1a064506/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c5987da5ccfd1f",
+          "source": "新华社",
+          "title": "第十一届“人道之星”国际人道法网络知识竞赛启动",
+          "url": "https://www.news.cn/world/20260812/803de104172e4971a0acfb3f744da900/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -65341,10 +65605,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "a65f833ee7094e",
+          "source": "新华社",
+          "title": "美媒：美军2025年对也门的打击致数百平民伤亡",
+          "url": "https://www.news.cn/20260812/f87be613667f4f658c3210e35fa1fe33/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "c7794e3cbd587b",
           "source": "新华社",
           "title": "马里军方称两个月内打死超过1800名恐怖分子",
           "url": "https://www.news.cn/20260812/ba44990750934993aa3efd0bd471abc5/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "32ed796b8eaa9d",
+          "source": "求是",
+          "title": "“老百姓的事情是最重要的事情”",
+          "url": "https://www.qstheory.cn/20260812/567fec9a28e041c5b6ba5045d0b5bee9/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -65370,65 +65650,66 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 7.7,
+          "duration": 9.5,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260812.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 23,
-          "duration": 1.7
+          "duration": 1.9
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 9,
-          "duration": 2.8
+          "count": 27,
+          "duration": 1.9
         },
         {
           "source": "半月谈",
           "status": "ok",
-          "count": 0,
-          "duration": 24.5
+          "count": 11,
+          "duration": 18.0
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 2,
-          "duration": 6.5
+          "count": 5,
+          "duration": 7.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 21,
-          "duration": 1.6
+          "duration": 1.4
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.2
+          "duration": 12.8
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.3
+          "duration": 3.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 0,
-          "duration": 8.4
+          "count": 1,
+          "duration": 8.5
         },
         {
           "source": "广东发布",
-          "status": "ok",
+          "status": "error",
           "count": 0,
-          "duration": 66.4
+          "duration": 18.0,
+          "message": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-12T07:44:59+08:00"
+  "generatedAt": "2026-08-12T09:20:54+08:00"
 };
