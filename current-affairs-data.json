@@ -64915,10 +64915,6 @@
           "count": 6
         },
         {
-          "name": "生态保护",
-          "count": 4
-        },
-        {
           "name": "习近平",
           "count": 4
         },
@@ -64932,6 +64928,10 @@
         },
         {
           "name": "中国经济",
+          "count": 3
+        },
+        {
+          "name": "生态保护",
           "count": 3
         },
         {
@@ -65014,7 +65014,7 @@
           "title": "多部门联合印发《生态保护“十五五”规划》",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/12/content_21949.html",
           "date": "2026-08-12",
-          "keyword": "生态保护"
+          "keyword": "十五五"
         },
         {
           "id": "fcd0c02cc5e27a",
@@ -65038,7 +65038,7 @@
           "title": "多部门联合印发《生态保护“十五五”规划》",
           "url": "http://www.banyuetan.org/yw/detail/20260812/1000200033137441786496059912198798_1.html",
           "date": "2026-08-12",
-          "keyword": "生态保护"
+          "keyword": "十五五"
         },
         {
           "id": "970d282e140e5e",
@@ -65046,7 +65046,7 @@
           "title": "多部门联合印发《生态保护“十五五”规划》",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=18010194556013903152&item_id=18010194556013903152",
           "date": "2026-08-12",
-          "keyword": "生态保护"
+          "keyword": "十五五"
         },
         {
           "id": "da854ff7e6a872",
@@ -65057,20 +65057,20 @@
           "keyword": "消费"
         },
         {
-          "id": "a33c2d24e50de3",
-          "source": "新华社",
-          "title": "“十五五”时期，生态保护有这些新举措",
-          "url": "https://www.news.cn/politics/20260812/60db1463024346aca4bda845923aaedc/c.html",
-          "date": "2026-08-12",
-          "keyword": "生态保护"
-        },
-        {
           "id": "a61f2c656451d7",
           "source": "新华社",
           "title": "住房纳入大宗消费范畴 释放内需增长动能",
           "url": "https://www.news.cn/fortune/20260812/40dc446673f842fda54b2fa44b45d0a8/c.html",
           "date": "2026-08-12",
           "keyword": "消费"
+        },
+        {
+          "id": "3e99408d7cc58a",
+          "source": "新华社",
+          "title": "向新向优向好 聚力“十五五”良好开局",
+          "url": "https://www.news.cn/fortune/20260812/c504d3861fd74b70818af39a303c4a8f/c.html",
+          "date": "2026-08-12",
+          "keyword": "十五五"
         },
         {
           "id": "d6c087313ced50",
@@ -65465,6 +65465,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "af14aa3a6a46a4",
+          "source": "半月谈",
+          "title": "举起手机改变家乡",
+          "url": "http://www.banyuetan.org/byt/fanxianggushi/index.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "9d5844021d9e0b",
           "source": "半月谈",
           "title": "台风“白海豚”致强降雨 多地积极应对",
@@ -65517,6 +65525,14 @@
           "source": "半月谈",
           "title": "美媒：巴基斯坦国防部长称美伊已接近达成协议",
           "url": "http://www.banyuetan.org/yw/detail/20260812/1000200033137441786497280876231908_1.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "495d40291454d9",
+          "source": "半月谈",
+          "title": "老百姓的口碑才是最好的招牌",
+          "url": "http://www.banyuetan.org/pl/detail/20260812/1000200033136001786514778558235774_1.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -65633,6 +65649,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "20ebed231437c5",
+          "source": "新华社",
+          "title": "China Cool盛夏出圈丨在九寨沟，老外赞叹20℃的清凉",
+          "url": "https://www.news.cn/20260812/93acb572d41e4f5ebd3e26717ae2c312/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "01c3a5a414c8f9",
           "source": "新华社",
           "title": "“AI+汽车”应用再上大台阶",
@@ -65665,18 +65689,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "c5cd41af000ac9",
+          "id": "9009d800f8342f",
           "source": "新华社",
-          "title": "中国故事丨向地心出发：亿年秘境催生避暑新潮流",
-          "url": "https://www.news.cn/politics/20260812/eb7421bef31f4ab3b34e50da951b0453/c.html",
+          "title": "世界大象日丨没有妈妈的小象怎么长大",
+          "url": "https://www.news.cn/world/20260812/1ba2cee37d7949b1bc75c6d55c6203d4/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
         {
-          "id": "74998c11626a12",
+          "id": "b63dea40982b53",
+          "source": "新华社",
+          "title": "两部门对河南启动防汛三级应急响应",
+          "url": "https://www.news.cn/20260812/340d190f0d1c4119bc305281f15951ba/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a529aee972c07e",
           "source": "新华社",
           "title": "中国海军第49批护航编队起航赴亚丁湾",
-          "url": "https://www.news.cn/politics/20260812/5ca952f5bcec44caae1db2a9f26cce5b/c.html",
+          "url": "https://www.news.cn/20260812/d1a3d56f211b45ec932db4d853b99e36/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -65753,6 +65785,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "3bdf2eb20532ae",
+          "source": "新华社",
+          "title": "亚洲象何以成为“雨林工程师”",
+          "url": "https://www.news.cn/politics/20260812/61067870b39a4f86bd694536a6470887/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "354e85083d2c83",
           "source": "新华社",
           "title": "从“卖设备”到“卖智能”工程机械畅销海外底气何在",
@@ -65793,26 +65833,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "53724025b03ffe",
-          "source": "新华社",
-          "title": "哥伦比亚强震已致188人死亡 最贫困省份受灾严重",
-          "url": "https://www.news.cn/20260812/e6d0110274e34b8fa97cffa47b48fb00/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "6dfb9491888af4",
           "source": "新华社",
           "title": "哥伦比亚强震死亡人数升至188人",
           "url": "https://www.news.cn/20260812/179b44bdf17043e98660eaf84c9edbf6/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "d21d21a5f91890",
-          "source": "新华社",
-          "title": "委内瑞拉外长：委以同意恢复领事服务",
-          "url": "https://www.news.cn/20260812/06e26c44e5684448a0e2fe18909e3d85/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -65825,10 +65849,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "7f200883760b65",
+          "id": "780aac39491053",
           "source": "新华社",
           "title": "平陆运河实船试验正式启动",
-          "url": "https://www.news.cn/politics/20260812/43003647a1ba4497b846455a6687a9c4/c.html",
+          "url": "https://www.news.cn/20260812/ac61e6931b9a46d3a1ad22ef1548520a/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -65881,10 +65905,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "2e773732f9fa16",
+          "id": "23886116caa59a",
           "source": "新华社",
           "title": "新西兰总理赢得党团信任投票继续担任国家党领导人",
-          "url": "https://www.news.cn/world/20260812/e9b4a0ba1e3e4cafb3db36a65c70f3b8/c.html",
+          "url": "https://www.news.cn/20260812/ae15850ca71b487580f4109dc79228ca/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -65907,7 +65931,7 @@
         {
           "id": "5b26df60165e1e",
           "source": "新华社",
-          "title": "水利部对北京天津启动洪水防御Ⅳ级应急响应",
+          "title": "水利部对京津启动洪水防御Ⅳ级应急响应",
           "url": "https://www.news.cn/politics/20260812/cc4694a1a6404bf6bf54f4906a0130eb/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
@@ -65917,6 +65941,14 @@
           "source": "新华社",
           "title": "沈阳故宫博物院展出百件文物回望百年发展历程",
           "url": "https://www.news.cn/local/20260812/44e2b5b99a9d4d1db19da9eee6c01654/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "02a4880fb2fd7d",
+          "source": "新华社",
+          "title": "特朗普证实参加北约峰会后曾秘密换乘飞机",
+          "url": "https://www.news.cn/20260812/d7fe1e926e9a45898a398ece9719aaa5/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -65953,26 +65985,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "a65f833ee7094e",
+          "id": "446d46075e013b",
           "source": "新华社",
           "title": "美媒：美军2025年对也门的打击致数百平民伤亡",
-          "url": "https://www.news.cn/20260812/f87be613667f4f658c3210e35fa1fe33/c.html",
+          "url": "https://www.news.cn/world/20260812/b066fa3efb5f44e1b677662d4404182f/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
         {
-          "id": "f80b8707888164",
+          "id": "795092433974bd",
           "source": "新华社",
           "title": "考古新发现将“龙凤”组合推至龙山时期",
-          "url": "https://www.news.cn/politics/20260812/ae6bf13433a044908867dfb39a6850ee/c.html",
+          "url": "https://www.news.cn/20260812/c63f3c604e01426bb13e7caa49172cea/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
         {
-          "id": "d14f6f48ef9cef",
+          "id": "7a70917b745926",
           "source": "新华社",
           "title": "起火印尼客轮上人员均已撤离 暂无人员伤亡报告",
-          "url": "https://www.news.cn/world/20260812/4e21d34eea234e18acd1921e67b38d50/c.html",
+          "url": "https://www.news.cn/20260812/0443090a55c84d0f97557e1805d6271d/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66001,10 +66033,26 @@
           "keyword": "综合时政"
         },
         {
+          "id": "ebf33d7eba3315",
+          "source": "新华社",
+          "title": "韦布望远镜在银河系中心黑洞附近发现水和尘埃",
+          "url": "https://www.news.cn/20260812/20e8894e69004487896412c5dc5d38c8/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "c7794e3cbd587b",
           "source": "新华社",
           "title": "马里军方称两个月内打死超过1800名恐怖分子",
           "url": "https://www.news.cn/20260812/ba44990750934993aa3efd0bd471abc5/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "219c896b6db5fd",
+          "source": "新华社",
+          "title": "驻日美军一架“鱼鹰”运输机紧急着陆",
+          "url": "https://www.news.cn/20260812/bcc2d3aa56c24077ab97d6d485603f1e/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66046,65 +66094,66 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 5.2,
+          "duration": 11.5,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260812.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 23,
-          "duration": 2.3
+          "duration": 3.6
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 55,
-          "duration": 2.3
+          "count": 59,
+          "duration": 2.9
         },
         {
           "source": "半月谈",
           "status": "ok",
-          "count": 15,
-          "duration": 24.8
+          "count": 17,
+          "duration": 14.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 6,
-          "duration": 5.8
+          "duration": 6.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 21,
-          "duration": 1.6
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.7
+          "duration": 13.8
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 15,
-          "duration": 2.6
+          "duration": 2.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 9.7
+          "duration": 8.4
         },
         {
           "source": "广东发布",
-          "status": "ok",
+          "status": "stale",
           "count": 1,
-          "duration": 58.8
+          "duration": 18.8,
+          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-12T12:02:32+08:00"
+  "generatedAt": "2026-08-12T14:09:39+08:00"
 }
