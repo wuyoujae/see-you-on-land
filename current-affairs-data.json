@@ -67187,6 +67187,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "0c218acad22674",
+          "source": "新华社",
+          "title": "巴西总统顾问批评美国政府发布“门罗主义”视频",
+          "url": "https://www.news.cn/20260813/da75b5542da948eaa61a9f90d9529904/c.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
           "id": "c11f0931c8a5c3",
           "source": "新华社",
           "title": "日食景观现身天宇",
@@ -67225,6 +67233,14 @@
           "url": "https://www.news.cn/20260813/01ce203c9bfc40809c00648df4797c44/c.html",
           "date": "2026-08-13",
           "keyword": "综合时政"
+        },
+        {
+          "id": "85c9584508aeb6",
+          "source": "新华社",
+          "title": "美战略石油储备不足3亿桶 创43年来新低",
+          "url": "https://www.news.cn/world/20260813/9df0c1e3fd0f4ed29b11169c7ecaa982/c.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -67232,65 +67248,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 10.0,
+          "duration": 10.9,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260813.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 20,
-          "duration": 1.1
+          "duration": 2.3
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 8,
-          "duration": 2.3
+          "count": 10,
+          "duration": 2.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 11.5
+          "duration": 15.8
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.2
+          "duration": 5.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.0
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.0
+          "duration": 14.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 1.9
+          "duration": 3.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.6
+          "duration": 9.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 51.6
+          "duration": 59.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-13T06:47:32+08:00"
+  "generatedAt": "2026-08-13T07:46:20+08:00"
 }
