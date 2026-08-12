@@ -66815,7 +66815,482 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 63.9
         }
       ]
+    },
+    {
+      "date": "2026-08-13",
+      "keyword": "十五五",
+      "keywords": [
+        {
+          "name": "十五五",
+          "count": 3
+        }
+      ],
+      "articles": [
+        {
+          "id": "d0c92a7d75372d",
+          "source": "人民日报",
+          "title": "5年10万亿元消费增量有支撑（经济新方位·解码“十五五”专项规划）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174615.html",
+          "date": "2026-08-13",
+          "keyword": "十五五"
+        },
+        {
+          "id": "e34584c0e7dce1",
+          "source": "人民日报",
+          "title": "农业机器人4S店，能干些啥（奋进“十五五” 一线见闻）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174621.html",
+          "date": "2026-08-13",
+          "keyword": "十五五"
+        },
+        {
+          "id": "e3c0e5a009f2b7",
+          "source": "新华社",
+          "title": "“十五五”开局之年各地培育壮大新兴产业观察",
+          "url": "https://www.news.cn/politics/20260813/cb0bae041e9c449682a1c1f72dc59877/c.html",
+          "date": "2026-08-13",
+          "keyword": "十五五"
+        },
+        {
+          "id": "a98172b30c1700",
+          "source": "人民日报",
+          "title": "“专心做好技术攻关这件事”（我在中国创业）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174622.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e765cb3278ccca",
+          "source": "人民日报",
+          "title": "中国全方位推动人工智能全球治理走深走实",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174611.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1c5f350755460d",
+          "source": "人民日报",
+          "title": "从“一片叶子富了一方百姓”看共同富裕",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174617.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "519c9836a7f7fe",
+          "source": "人民日报",
+          "title": "前7月京津冀地区进出口值创新高",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174631.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a66c19d53a0a6e",
+          "source": "人民日报",
+          "title": "台风“白海豚”残余环流影响持续",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174627.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "999ae5cfdac69d",
+          "source": "人民日报",
+          "title": "国产大飞机正式执飞国际商业航线",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174619.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4fe165f795448a",
+          "source": "人民日报",
+          "title": "在于都，感悟伟大长征精神（在现场·暑期里的大思政课）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174628.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "71a00b9652542f",
+          "source": "人民日报",
+          "title": "坚持系统观念 夯实防灾能力（深阅读·扎实做好防灾救灾各项工作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174626.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "00b19073aacc52",
+          "source": "人民日报",
+          "title": "培育更多“中国服务”品牌",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174613.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b509329b698d90",
+          "source": "人民日报",
+          "title": "将学习教育成果固化为制度机制（树立和践行正确政绩观）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174612.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "93636256e542ba",
+          "source": "人民日报",
+          "title": "平陆运河实船试验正式启动",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174614.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ab252078346182",
+          "source": "人民日报",
+          "title": "新能源汽车月度新车销量占比首超60%",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174618.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9255b954fde3a0",
+          "source": "人民日报",
+          "title": "朱镕基同志逝世",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174610.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cbcb5d6d3b7b14",
+          "source": "人民日报",
+          "title": "电商物流指数7月为111.2点",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174620.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a78736bd8c3ac8",
+          "source": "人民日报",
+          "title": "篡改历史，日本右翼否定战后定论祸患不断（寰宇平）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174623.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f06988c38dfc0b",
+          "source": "人民日报",
+          "title": "贴近群众生活 满足多样需求（编辑手记）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174616.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a6a65a153c4902",
+          "source": "人民日报",
+          "title": "雅万高铁上半年列车正点率达99.4%，客户满意度保持高位",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174625.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "47a6337d7a11f2",
+          "source": "人民日报",
+          "title": "黄河实现连续27年不断流",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/13/content_30174632.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dcba5bc89ea061",
+          "source": "光明日报",
+          "title": "“核心价值观百场讲坛”第171场将走进新疆阿克苏",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22029.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cd22930b535667",
+          "source": "光明日报",
+          "title": "“镍都”金昌：变矿山伤疤为绿地公园",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22024.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9644dfe883e3d7",
+          "source": "光明日报",
+          "title": "【光明时评】以红色文化滋养文明乡风",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22045.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "492cd461573ca0",
+          "source": "光明日报",
+          "title": "【光明时评】实践育人，要破解“走过场”现象",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22046.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f9491f9ee25abc",
+          "source": "光明日报",
+          "title": "【光明论坛】以法典实施推动全民生态文明行动",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22044.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5e0b04fa3b6c52",
+          "source": "光明日报",
+          "title": "【光明论坛】让城市社区更宜居更温暖",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22043.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a132e687f56712",
+          "source": "光明日报",
+          "title": "【改进文风大家谈】行文须畅达",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22061.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b66e1996ad3636",
+          "source": "光明日报",
+          "title": "【新闻随笔】安全永远是行业发展的底线",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22047.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a3f2290a8be9e6",
+          "source": "光明日报",
+          "title": "【晒晒咱的国之重器45】强流重离子加速器：探秘原子核的内部世界",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22060.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eb1d6433a4a837",
+          "source": "光明日报",
+          "title": "万余工业屋顶变身“绿电站”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22020.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d95b07f7574784",
+          "source": "光明日报",
+          "title": "促进特许经营健康有序发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22026.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7d36c5357671d8",
+          "source": "光明日报",
+          "title": "厦门网：让红色历史在阅读中抵达人心",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22030.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2a74852700f1cf",
+          "source": "光明日报",
+          "title": "夯实根基增活力 稳中有进向未来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22019.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4f9f621301cf09",
+          "source": "光明日报",
+          "title": "山东省济南市商河县：以全链条人才服务助推县域高质量发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22031.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7c7167511de7bd",
+          "source": "光明日报",
+          "title": "平陆运河实船试验正式启动",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22059.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d3837d44eb0ed8",
+          "source": "光明日报",
+          "title": "新能源汽车月度新车销量占比首超60%",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22058.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "17dedd7c75f186",
+          "source": "光明日报",
+          "title": "朱镕基同志逝世",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22057.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1151c992b7c317",
+          "source": "光明日报",
+          "title": "河北廊坊：着力打造红色故事思政课",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22023.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5ae7543b9a18af",
+          "source": "光明日报",
+          "title": "浙江：完善创新生态 加速产业孵化",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22025.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f0a13d45eb86d9",
+          "source": "光明日报",
+          "title": "物流业景气指数保持在扩张区间",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22022.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ec747e83c18397",
+          "source": "光明日报",
+          "title": "青海玛沁：秋日草原美",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22021.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3a0c436d432767",
+          "source": "光明日报",
+          "title": "黄河流域水生态修复持续深化",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/13/content_22062.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c13f4aa9208d9a",
+          "source": "新华社",
+          "title": "伊拉克总理重申国际联盟9月30日前完成撤军",
+          "url": "https://www.news.cn/20260813/a2d263df352541d2928a138873402bed/c.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b6e00b2070e440",
+          "source": "新华社",
+          "title": "哥伦比亚强震遇难人数升至241人",
+          "url": "https://www.news.cn/20260813/f0bf5ea883324d4dbc37a487dedabc27/c.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c11f0931c8a5c3",
+          "source": "新华社",
+          "title": "日食景观现身天宇",
+          "url": "https://www.news.cn/photo/20260813/22202163e72d4714a4f74263c4611eaa/c.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cbafe569ded014",
+          "source": "新华社",
+          "title": "白宫新闻秘书莱维特将于本月底离职",
+          "url": "https://www.news.cn/20260813/7b940602d3f1415199f1bf7c1728ce48/c.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "89a6e7ff9ee26f",
+          "source": "新华社",
+          "title": "科威特挫败一起针对重要设施的恐袭图谋",
+          "url": "https://www.news.cn/20260813/305fab5157014d108b154b95b4548020/c.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c545a1c0538ecb",
+          "source": "新华社",
+          "title": "美国佐治亚州校园枪击事件致两人受伤",
+          "url": "https://www.news.cn/20260813/3c3675b43a3c4b569a156463da9d71b9/c.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3744063eb281b5",
+          "source": "新华社",
+          "title": "美国得州一“阿帕奇”直升机坠毁 两人死亡",
+          "url": "https://www.news.cn/20260813/01ce203c9bfc40809c00648df4797c44/c.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 10.0,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260813.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "ok",
+          "count": 20,
+          "duration": 1.1
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 8,
+          "duration": 2.3
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 11.5
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.2
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 22,
+          "duration": 1.0
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.0
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 1.9
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.6
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 51.6
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-08-12T23:55:56+08:00"
+  "generatedAt": "2026-08-13T06:47:32+08:00"
 };
