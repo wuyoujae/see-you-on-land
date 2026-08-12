@@ -65595,7 +65595,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "35e0dee05d054b",
           "source": "南方周末",
-          "title": "中共中央 全国人大常委会 国务院 全国政协讣告 朱镕基同志逝世 4小时前",
+          "title": "中共中央 全国人大常委会 国务院 全国政协讣告 朱镕基同志逝世 5小时前",
           "url": "https://www.infzm.com/contents/328255?source=133&source_1=998",
           "date": "2026-08-12",
           "keyword": "综合时政"
@@ -66145,10 +66145,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "5abdf7a1674987",
+          "id": "6e7061289ce949",
           "source": "新华社",
           "title": "731部队原队员证实日军曾在中国埋藏毒气弹",
-          "url": "https://www.news.cn/politics/20260812/f5fba9093ec644a3916bda299897e99e/c.html",
+          "url": "https://www.news.cn/politics/20260812/8af0e250a0c0428daefcbd29a3422b48/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66181,14 +66181,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "China Cool盛夏出圈丨在九寨沟，老外赞叹20℃的清凉",
           "url": "https://www.news.cn/20260812/93acb572d41e4f5ebd3e26717ae2c312/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "805c2ab9e5af21",
-          "source": "新华社",
-          "title": "“八仙”的神通里，燃着文化的薪火",
-          "url": "https://www.news.cn/comments/20260812/ad440bc2bde74b18b11a1256976fc3f3/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66297,14 +66289,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "e3846cc8b57c76",
-          "source": "新华社",
-          "title": "哥伦比亚宣布为地震遇难者哀悼3天",
-          "url": "https://www.news.cn/world/20260812/a0b0026fe6454d15b5c18b59c1c7a36a/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "f35270bb811c57",
           "source": "新华社",
           "title": "国际海上保险市场因中东战事面临高额赔付",
@@ -66377,6 +66361,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "8cad2725e23b54",
+          "source": "新华社",
+          "title": "实干笃行绘新绿",
+          "url": "https://www.news.cn/politics/leaders/20260812/3ae82d793da2494ab7364f31a80d6729/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a8381ae0d5ff96",
           "source": "新华社",
           "title": "山西全力防范应对台风“白海豚”",
@@ -66393,10 +66385,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "cfd1f3c34441ce",
+          "id": "5b7097505311ff",
           "source": "新华社",
-          "title": "当C919降落乌兰巴托",
-          "url": "https://www.news.cn/tech/20260812/a88d35706046461088a5a874ffe81423/c.html",
+          "title": "总书记治国理政故事丨“最重要的就是一个都不能少”",
+          "url": "https://www.news.cn/politics/leaders/20260812/784a7abbdc02440dbfcb916ef692dd80/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66437,14 +66429,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "新能源汽车迎来两个“首次”突破，怎么看",
           "url": "https://www.news.cn/fortune/20260812/750af955cbe04d348c64e990cab25efa/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "0a16aeed5ce496",
-          "source": "新华社",
-          "title": "普京：欧盟“扣船越货”如“海盗”，俄将反制",
-          "url": "https://www.news.cn/world/20260812/ebb29d48e0944c9d834d27f883aecefd/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66521,6 +66505,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "595adabf799e45",
+          "source": "新华社",
+          "title": "特朗普宣称“美国完全控制着霍尔木兹海峡”",
+          "url": "https://www.news.cn/20260812/041c4eaf3ef64f25b1c82f3df19ff91c/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "6b221ad0ed46b7",
           "source": "新华社",
           "title": "福建省南平市委副书记、市长林建接受审查调查",
@@ -66541,6 +66533,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "美媒：伊朗把美国拖入不对称战争",
           "url": "https://www.news.cn/world/20260812/52b29de2417e448a8ae59b24373d0887/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "46f8b77ab4a71c",
+          "source": "新华社",
+          "title": "苏翊鸣被联合国任命为“体育促土地”大使",
+          "url": "https://www.news.cn/sports/20260812/f138885a94c8496f8691dbc2f6130905/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66577,18 +66577,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "0cd88f93d6fa82",
-          "source": "新华社",
-          "title": "韩国前总统尹锡悦面临新指控",
-          "url": "https://www.news.cn/world/20260812/d2c400f19bc04e968389712bee482eee/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "0249af02b3be43",
           "source": "新华社",
           "title": "风雨坚守 防汛防台一线筑牢安全堤坝",
           "url": "https://www.news.cn/20260812/5c286b70fd064caea094ea3e80b3a63b/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "31a179efd5f4ce",
+          "source": "新华社",
+          "title": "飞向更广阔蓝天",
+          "url": "https://www.news.cn/fortune/20260812/a049bb0861a443308830ae84fa99441a/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66601,10 +66601,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "61402ec706de8e",
+          "id": "71d81ef38ef9b1",
           "source": "新华社",
           "title": "黄河实现连续27年不断流",
-          "url": "https://www.news.cn/20260812/d95eeaa67cf24d03aba0fda91e71bc4a/c.html",
+          "url": "https://www.news.cn/politics/20260812/3d81bbc101014c10b6d3272d89d012b2/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66758,64 +66758,64 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "ok",
           "count": 11,
-          "duration": 0.2
+          "duration": 0.4
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 23,
-          "duration": 2.2
+          "duration": 1.6
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.6
+          "duration": 18.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 22,
-          "duration": 33.8
+          "duration": 30.7
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 10,
-          "duration": 6.5
+          "duration": 7.3
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 21,
-          "duration": 2.7
+          "duration": 1.4
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 1,
-          "duration": 14.3
+          "duration": 12.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 3.1
+          "duration": 3.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 9.9
+          "duration": 17.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 15,
-          "duration": 78.2
+          "duration": 63.9
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-12T22:19:22+08:00"
+  "generatedAt": "2026-08-12T23:55:56+08:00"
 };
