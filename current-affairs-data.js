@@ -65137,6 +65137,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "97c9a441bd801d",
+          "source": "中国政府网",
+          "title": "中共中央 全国人大常委会 国务院 全国政协讣告 朱镕基同志逝世",
+          "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7077937.htm",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5ce9b0dbc55127",
+          "source": "中国政府网",
+          "title": "市场监管总局批准发布338项重要国家标准",
+          "url": "https://www.gov.cn/lianbo/202608/content_7077923.htm",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "18bc910ce893e9",
           "source": "人民日报",
           "title": "“一条通往进步、合作与协同发展的道路”（大道之行）",
@@ -65587,7 +65603,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "35e0dee05d054b",
           "source": "南方周末",
-          "title": "中共中央 全国人大常委会 国务院 全国政协讣告 朱镕基同志逝世 1小时前",
+          "title": "中共中央 全国人大常委会 国务院 全国政协讣告 朱镕基同志逝世 2小时前",
           "url": "https://www.infzm.com/contents/328255?source=133&source_1=998",
           "date": "2026-08-12",
           "keyword": "综合时政"
@@ -66041,6 +66057,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "5dfe0cf30af428",
+          "source": "广东发布",
+          "title": "中共中央 全国人大常委会 国务院 全国政协讣告 朱镕基同志逝世",
+          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4941233.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "05a6beefeaebf6",
           "source": "广东发布",
           "title": "增20.5% 今年前7个月广东外贸进出口保持强劲势头",
@@ -66129,10 +66153,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "c14ead8890ec74",
+          "id": "f56007aef42256",
           "source": "新华社",
           "title": "C919圆满完成首次国际商业航班飞行",
-          "url": "https://www.news.cn/politics/20260812/247b56dbb82e4bf2903b0a8ddd67b5de/c.html",
+          "url": "https://www.news.cn/photo/20260812/20c39abd47434330b7c664f2bd9233cd/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66161,10 +66185,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8defc28ba9b4be",
+          "id": "75d28b8c911d06",
           "source": "新华社",
-          "title": "“镍都”金昌：变矿山伤疤为绿地公园",
-          "url": "https://www.news.cn/photo/20260812/4fee7916a27743dfa0330ccc0b9ad07f/c.html",
+          "title": "“白海豚”停编影响仍在",
+          "url": "https://www.news.cn/politics/20260812/a7422c00cda64cfbaa10238a95a29ada/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a95eca182bb15c",
+          "source": "新华社",
+          "title": "“白海豚”停编影响仍在 警惕降水叠加风险",
+          "url": "https://www.news.cn/20260812/7bea93d93fb24588b25d6045b8297e57/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66177,14 +66209,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "6079792f6236e9",
-          "source": "新华社",
-          "title": "一缕药香传承千年风雅",
-          "url": "https://www.news.cn/photo/20260812/c6826955034742b08a40610ec03e7e78/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "e0df5cdc33296d",
           "source": "新华社",
           "title": "中共中央 全国人大常委会 国务院 全国政协讣告 朱镕基 同志逝世",
@@ -66193,18 +66217,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "74998c11626a12",
+          "id": "0154b58d88c796",
           "source": "新华社",
-          "title": "中国海军第49批护航编队起航赴亚丁湾",
-          "url": "https://www.news.cn/politics/20260812/5ca952f5bcec44caae1db2a9f26cce5b/c.html",
+          "title": "中国海军红河舰与印尼海军“莱”号护卫舰位台岛以东海域圆满完成通航演练",
+          "url": "https://www.news.cn/tw/20260812/def41f4ff7eb423795fa521eea78ca29/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
         {
-          "id": "144bc660e38c35",
+          "id": "341d204b018232",
+          "source": "新华社",
+          "title": "中白“神鹰-2026”空降兵联合训练开幕",
+          "url": "https://www.news.cn/20260812/1e85bd15187e4a96bb4edf5574f60f11/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1f66a01e1dce87",
           "source": "新华社",
           "title": "中足联：对辽宁铁人涉裁判声明通报批评并罚款",
-          "url": "https://www.news.cn/20260812/dd606889b0d44b35abd9d6b4957a617e/c.html",
+          "url": "https://www.news.cn/sports/20260812/eb03d32f1f9b43f081161aa7d4ade9ca/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66225,18 +66257,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "2a03e85f363e36",
-          "source": "新华社",
-          "title": "乌蒙山深处房车云集",
-          "url": "https://www.news.cn/photo/20260812/7f09e3f9d612472a96a2b9ac8304cb3d/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "239348675e3dca",
           "source": "新华社",
           "title": "今年前7个月京津冀地区进出口值创历史同期新高",
           "url": "https://www.news.cn/20260812/5491dfdbe7bb4ce7bd1a2aedf9d2ee13/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "83965916172e2a",
+          "source": "新华社",
+          "title": "以“迅”应“汛” 天津全力防范应对强降雨见闻",
+          "url": "https://www.news.cn/local/20260812/9e74df8b074b424da797a83dab1f750a/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66257,26 +66289,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "df816779e69501",
-          "source": "新华社",
-          "title": "印尼客轮起火已确认1人死亡 搜救仍在继续",
-          "url": "https://www.news.cn/20260812/42a4a407e6114795916301886681e455/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "fb76a9656c053b",
+          "id": "e3b5011c9cb565",
           "source": "新华社",
           "title": "合武高铁湖北段首座超5千米隧道贯通",
-          "url": "https://www.news.cn/20260812/61e39949cd314504bf6d874a0a2d00f6/c.html",
+          "url": "https://www.news.cn/local/20260812/f35fa9019f6e4a0b99cf6a10284f08b6/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
         {
-          "id": "91511c5c5669f8",
+          "id": "f35270bb811c57",
           "source": "新华社",
-          "title": "哥伦比亚强震伤亡人数上升 最贫困省份受灾严重",
-          "url": "https://www.news.cn/world/20260812/1fd6a71c01024e1d85465bd454ddf332/c.html",
+          "title": "国际海上保险市场因中东战事面临高额赔付",
+          "url": "https://www.news.cn/20260812/00555c0a1a2c4d5eb403b180f3dd1ae7/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "27ee53d7ac1820",
+          "source": "新华社",
+          "title": "国际能源署下调2026年全球石油需求预期",
+          "url": "https://www.news.cn/20260812/45df61cf35f0423fbb70a0a3dcf97d58/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66289,10 +66321,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "e629f5ce49b08e",
+          "source": "新华社",
+          "title": "外交部：暂无中国公民在哥伦比亚地震中伤亡报告",
+          "url": "https://www.news.cn/world/20260812/400afce8e89c434b86e58074bf532db1/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "9e50c6afb24941",
           "source": "新华社",
           "title": "多地科创突围 “中国智造”聚力跃升",
           "url": "https://www.news.cn/tech/20260812/ca1629faa6e0415ca37759f681d07b79/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9c4bf78f687f7b",
+          "source": "新华社",
+          "title": "大河长流 歌声不息",
+          "url": "https://www.news.cn/politics/20260812/518fb05278ba4d829a7c876ebf4fdb4f/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66337,14 +66385,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "f43ea1c09e5ef5",
-          "source": "新华社",
-          "title": "持续干旱致美最大水库水位降至历史最低",
-          "url": "https://www.news.cn/photo/20260812/4cd630fdaf854e3aa7434ff6ca2d9bfe/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "eba3396e740d6a",
           "source": "新华社",
           "title": "摩萨德前局长称以方人员多次“踩点”伊朗核设施",
@@ -66385,14 +66425,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "5226477c5f5892",
-          "source": "新华社",
-          "title": "新能源汽车月度新车销量占比首超60%",
-          "url": "https://www.news.cn/20260812/c8ac05d031c54a17966ea1df928ea5c1/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "9a71734120afb1",
           "source": "新华社",
           "title": "新能源汽车迎来两个“首次”突破，怎么看",
@@ -66409,14 +66441,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "c6cbaafc87ecb9",
-          "source": "新华社",
-          "title": "最高法发布7件典型案例促进特许经营健康有序发展",
-          "url": "https://www.news.cn/20260812/5dfa5ca8ff444f1da1eb880d24675744/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "ef5ca4d2cabd5f",
           "source": "新华社",
           "title": "杭州空港前7个月离境退税验核金额突破1亿元",
@@ -66425,17 +66449,17 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "943259489144dc",
+          "id": "3e4f31494e09d6",
           "source": "新华社",
-          "title": "武大靖出任中国短道速滑队主教练",
-          "url": "https://www.news.cn/20260812/ba24f1616e09411f8c0179349c24a962/c.html",
+          "title": "水利部滚动部署应对台风“白海豚”残余环流影响",
+          "url": "https://www.news.cn/20260812/7b4a1ba16f7b43cbaae1e29df168e5a9/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
         {
           "id": "2300bad38a81af",
           "source": "新华社",
-          "title": "水利部滚动部署应对台风“白海豚”残余环流影响",
+          "title": "水利部部署应对残余环流影响",
           "url": "https://www.news.cn/politics/20260812/924e1c052f2a422696d95a519650d938/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
@@ -66457,34 +66481,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "efc94cde69f628",
+          "id": "d830f92c831b09",
           "source": "新华社",
-          "title": "河南防汛一线观察：把防线筑在狂风暴雨之前",
-          "url": "https://www.news.cn/local/20260812/a4d20b25a3cc475c8255c8a3db436eea/c.html",
+          "title": "河南淮河以北地区防汛应急响应升至三级",
+          "url": "https://www.news.cn/politics/20260812/6bdcd2206b314df2a03e2126a0098934/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
         {
-          "id": "f606faeca47e64",
+          "id": "951d7320e63379",
           "source": "新华社",
-          "title": "津巴布韦船只倾覆已致15人死亡、多人失踪",
-          "url": "https://www.news.cn/world/20260812/3399e3b868294ca5a132f30d2fb99975/c.html",
+          "title": "津巴布韦船只倾覆已致44人死亡",
+          "url": "https://www.news.cn/20260812/efca30a8769d4d7fa085585675407d1a/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
         {
-          "id": "c8b74cf6a5a536",
-          "source": "新华社",
-          "title": "浙江舟山：台风过后景区恢复开放",
-          "url": "https://www.news.cn/photo/20260812/a4ce3c7fe4ed4c4daec96e1fce72aedc/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "c3940556d2fbd7",
+          "id": "324c762648b847",
           "source": "新华社",
           "title": "淮河流域沙颍河发生2026年第1号洪水",
-          "url": "https://www.news.cn/politics/20260812/682262dbfd124b0e8053bc2e6d063049/c.html",
+          "url": "https://www.news.cn/20260812/1208c060c8074032ab0a6fa55bd1ed72/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "67463bfa2795a2",
+          "source": "新华社",
+          "title": "淮河防总对河南淮河以北地区提升防汛应急响应至三级",
+          "url": "https://www.news.cn/20260812/9ce4b7b1278d45f18086416d0ad65266/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66497,14 +66521,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "2810bb63d44128",
-          "source": "新华社",
-          "title": "美共和党重金阻击一“摇摆州”民主党议员候选人",
-          "url": "https://www.news.cn/world/20260812/ec4b6a25d78c4c61bbb47d61a3255aa6/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "9ec5c7ff3fb074",
           "source": "新华社",
           "title": "美国撤销联邦政府设备使用TikTok禁令",
@@ -66513,10 +66529,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "f9cb89623f189f",
+          "id": "dd70d955e9b6e7",
           "source": "新华社",
-          "title": "美国特使首访在即 乌方有终战新提议",
-          "url": "https://www.news.cn/world/20260812/543cd2a2a3df4f1abad49e547c067fe5/c.html",
+          "title": "美媒：伊朗把美国拖入不对称战争",
+          "url": "https://www.news.cn/world/20260812/52b29de2417e448a8ae59b24373d0887/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1cdc6fde8114bb",
+          "source": "新华社",
+          "title": "贵州省公布招投标领域不正之风和腐败问题典型案例",
+          "url": "https://www.news.cn/legal/20260812/8b23a83c844040f3a47cc76c8bff8f3c/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66537,14 +66561,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "2ed791c1dcd642",
-          "source": "新华社",
-          "title": "青海玛沁：秋日草原美",
-          "url": "https://www.news.cn/photo/20260812/9767d7841b494f76b5ce4303b28839b2/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "cda41190ae25ae",
           "source": "新华社",
           "title": "青稞成熟绘就丰收美景",
@@ -66553,10 +66569,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "fb24a99a727923",
+          "id": "96b77e61e37762",
           "source": "新华社",
           "title": "韩最高法院终审判决日企赔偿二战遭强征劳工受害者",
-          "url": "https://www.news.cn/20260812/1d641402572d4c9f8400bc1ee82dc533/c.html",
+          "url": "https://www.news.cn/world/20260812/c25ed11e2e26424698032513b709d8d9/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66577,10 +66593,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "21b2f69151fbf7",
+          "source": "新华社",
+          "title": "驻韩美军士兵夜店打人 检方求刑6个月",
+          "url": "https://www.news.cn/20260812/baa8228c0a054182a629ae3bfbf4c37e/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "61402ec706de8e",
           "source": "新华社",
           "title": "黄河实现连续27年不断流",
           "url": "https://www.news.cn/20260812/d95eeaa67cf24d03aba0fda91e71bc4a/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9a3d9066b125aa",
+          "source": "新闻联播",
+          "title": "《新闻联播》 20260812 19:00",
+          "url": "https://tv.cctv.com/2026/08/12/VIDEOW6abQ7e990AJFd4gomB260812.shtml",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66593,10 +66625,74 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "e94de08bef4c6a",
+          "source": "新闻联播",
+          "title": "中共中央 全国人大常委会 国务院 全国政协讣告 朱镕基同志逝世",
+          "url": "https://tv.cctv.com/2026/08/12/VIDEE9FxfzyGSv9qoTE0LbX1260812.shtml",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f2883ea4acb701",
+          "source": "新闻联播",
+          "title": "全国蔬菜供应总体形势平稳",
+          "url": "https://tv.cctv.com/2026/08/12/VIDExJWKhIg4RnousPIDSGnE260812.shtml",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4ee17692d22cdd",
+          "source": "新闻联播",
+          "title": "各地各部门积极应对强降雨天气",
+          "url": "https://tv.cctv.com/2026/08/12/VIDEOZyJe3BoVEhSB1qNAkai260812.shtml",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d0032c09b62697",
+          "source": "新闻联播",
+          "title": "哥伦比亚强震灾情严重 救援加紧进行",
+          "url": "https://tv.cctv.com/2026/08/12/VIDEmiQ6NQ7qPQOR2XR0mpOa260812.shtml",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6796a241c4b9e1",
+          "source": "新闻联播",
+          "title": "国内联播快讯",
+          "url": "https://tv.cctv.com/2026/08/12/VIDEuey6FZKa1KSKwLBTa1b0260812.shtml",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a4dacc61fdcf72",
+          "source": "新闻联播",
+          "title": "国际联播快讯",
+          "url": "https://tv.cctv.com/2026/08/12/VIDEV48xoxk6ad3zZvMXjqQ9260812.shtml",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "38ee8f1bd51a63",
+          "source": "新闻联播",
+          "title": "我国汽车出口延续强劲增长态势",
+          "url": "https://tv.cctv.com/2026/08/12/VIDE9sUTpqlUuhyz0eWfuLq4260812.shtml",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "de1530a5adb16b",
           "source": "新闻联播",
           "title": "文献纪录片《江泽民》今晚继续播出",
           "url": "https://tv.cctv.com/2026/08/12/VIDEJ9gN4g8Iu1FPCqgwnLXx260812.shtml",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "38476b41676559",
+          "source": "新闻联播",
+          "title": "核电工程建设稳步推进 总装机规模居世界第一",
+          "url": "https://tv.cctv.com/2026/08/12/VIDEQToSsEsDFpucpHHCkUxr260812.shtml",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66653,66 +66749,65 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "source": "新闻联播",
           "status": "ok",
-          "count": 2,
-          "duration": 0.2
+          "count": 11,
+          "duration": 0.8
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 23,
-          "duration": 1.6
+          "duration": 2.4
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.5
+          "duration": 2.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 22,
-          "duration": 28.0
+          "duration": 16.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 9,
-          "duration": 6.1
+          "duration": 5.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 21,
-          "duration": 5.6
+          "duration": 1.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 1,
-          "duration": 12.2
+          "duration": 13.9
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 2.5
+          "duration": 3.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 1,
-          "duration": 8.7
+          "count": 3,
+          "duration": 9.2
         },
         {
           "source": "广东发布",
-          "status": "stale",
-          "count": 14,
-          "duration": 18.2,
-          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+          "status": "ok",
+          "count": 15,
+          "duration": 60.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-12T19:44:00+08:00"
+  "generatedAt": "2026-08-12T20:55:12+08:00"
 };
