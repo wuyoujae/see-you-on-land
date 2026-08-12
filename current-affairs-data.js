@@ -64915,11 +64915,11 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 7
         },
         {
-          "name": "消费",
-          "count": 5
+          "name": "十五五",
+          "count": 4
         },
         {
-          "name": "十五五",
+          "name": "消费",
           "count": 4
         },
         {
@@ -65001,52 +65001,20 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
-          "id": "73ab02f4d6d012",
-          "source": "半月谈",
-          "title": "体验“上新” 点亮文旅消费新空间",
-          "url": "http://www.banyuetan.org/jj/detail/20260812/1000200033136091786499527973204946_1.html",
-          "date": "2026-08-12",
-          "keyword": "消费"
-        },
-        {
-          "id": "adf6290470a58b",
-          "source": "学习强国",
-          "title": "体验“上新” 点亮文旅消费新空间",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=7835800527951868441&item_id=7835800527951868441",
-          "date": "2026-08-12",
-          "keyword": "消费"
-        },
-        {
-          "id": "6f0122c0c7563e",
-          "source": "广东发布",
-          "title": "离境退税“2.0版”政策落地月余 广州入境消费持续升温",
-          "url": "https://www.gd.gov.cn/gdywdt/dsdt/content/post_4940862.html",
-          "date": "2026-08-12",
-          "keyword": "消费"
-        },
-        {
-          "id": "a61f2c656451d7",
-          "source": "新华社",
-          "title": "住房纳入大宗消费范畴 释放内需增长动能",
-          "url": "https://www.news.cn/fortune/20260812/40dc446673f842fda54b2fa44b45d0a8/c.html",
-          "date": "2026-08-12",
-          "keyword": "消费"
-        },
-        {
-          "id": "d6c087313ced50",
-          "source": "求是",
-          "title": "怎么看上半年消费领域新变化",
-          "url": "https://www.qstheory.cn/20260812/a64b2a6bde3d468094ce9a472a786ae9/c.html",
-          "date": "2026-08-12",
-          "keyword": "消费"
-        },
-        {
           "id": "2a470c6335009e",
           "source": "光明日报",
           "title": "多部门联合印发《生态保护“十五五”规划》",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/12/content_21949.html",
           "date": "2026-08-12",
           "keyword": "十五五"
+        },
+        {
+          "id": "73ab02f4d6d012",
+          "source": "半月谈",
+          "title": "体验“上新” 点亮文旅消费新空间",
+          "url": "http://www.banyuetan.org/jj/detail/20260812/1000200033136091786499527973204946_1.html",
+          "date": "2026-08-12",
+          "keyword": "消费"
         },
         {
           "id": "3819791d17d7dd",
@@ -65057,6 +65025,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "十五五"
         },
         {
+          "id": "adf6290470a58b",
+          "source": "学习强国",
+          "title": "体验“上新” 点亮文旅消费新空间",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=7835800527951868441&item_id=7835800527951868441",
+          "date": "2026-08-12",
+          "keyword": "消费"
+        },
+        {
           "id": "970d282e140e5e",
           "source": "学习强国",
           "title": "多部门联合印发《生态保护“十五五”规划》",
@@ -65065,12 +65041,28 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "十五五"
         },
         {
+          "id": "6f0122c0c7563e",
+          "source": "广东发布",
+          "title": "离境退税“2.0版”政策落地月余 广州入境消费持续升温",
+          "url": "https://www.gd.gov.cn/gdywdt/dsdt/content/post_4940862.html",
+          "date": "2026-08-12",
+          "keyword": "消费"
+        },
+        {
           "id": "3e99408d7cc58a",
           "source": "新华社",
           "title": "向新向优向好 聚力“十五五”良好开局",
           "url": "https://www.news.cn/fortune/20260812/c504d3861fd74b70818af39a303c4a8f/c.html",
           "date": "2026-08-12",
           "keyword": "十五五"
+        },
+        {
+          "id": "d6c087313ced50",
+          "source": "求是",
+          "title": "怎么看上半年消费领域新变化",
+          "url": "https://www.qstheory.cn/20260812/a64b2a6bde3d468094ce9a472a786ae9/c.html",
+          "date": "2026-08-12",
+          "keyword": "消费"
         },
         {
           "id": "b9c845730f16f2",
@@ -65603,7 +65595,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "35e0dee05d054b",
           "source": "南方周末",
-          "title": "中共中央 全国人大常委会 国务院 全国政协讣告 朱镕基同志逝世 2小时前",
+          "title": "中共中央 全国人大常委会 国务院 全国政协讣告 朱镕基同志逝世 4小时前",
           "url": "https://www.infzm.com/contents/328255?source=133&source_1=998",
           "date": "2026-08-12",
           "keyword": "综合时政"
@@ -66153,6 +66145,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "5abdf7a1674987",
+          "source": "新华社",
+          "title": "731部队原队员证实日军曾在中国埋藏毒气弹",
+          "url": "https://www.news.cn/politics/20260812/f5fba9093ec644a3916bda299897e99e/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aa3b5174375b66",
+          "source": "新华社",
+          "title": "731部队海拉尔支队档案揭露日军掩盖细菌战罪行",
+          "url": "https://www.news.cn/20260812/c8d74b45f4da43cbaf5fb3e21544e141/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "f56007aef42256",
           "source": "新华社",
           "title": "C919圆满完成首次国际商业航班飞行",
@@ -66177,10 +66185,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a48f701d7ea4bb",
+          "id": "805c2ab9e5af21",
           "source": "新华社",
-          "title": "“断水”+“驱逐”，蚊子肆虐可以这样防",
-          "url": "https://www.news.cn/politics/20260812/2c09557248ea4d1295c3bdc492c816ae/c.html",
+          "title": "“八仙”的神通里，燃着文化的薪火",
+          "url": "https://www.news.cn/comments/20260812/ad440bc2bde74b18b11a1256976fc3f3/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66217,6 +66225,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "74998c11626a12",
+          "source": "新华社",
+          "title": "中国海军第49批护航编队起航赴亚丁湾",
+          "url": "https://www.news.cn/politics/20260812/5ca952f5bcec44caae1db2a9f26cce5b/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "0154b58d88c796",
           "source": "新华社",
           "title": "中国海军红河舰与印尼海军“莱”号护卫舰位台岛以东海域圆满完成通航演练",
@@ -66229,14 +66245,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "中白“神鹰-2026”空降兵联合训练开幕",
           "url": "https://www.news.cn/20260812/1e85bd15187e4a96bb4edf5574f60f11/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "1f66a01e1dce87",
-          "source": "新华社",
-          "title": "中足联：对辽宁铁人涉裁判声明通报批评并罚款",
-          "url": "https://www.news.cn/sports/20260812/eb03d32f1f9b43f081161aa7d4ade9ca/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66265,22 +66273,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "83965916172e2a",
-          "source": "新华社",
-          "title": "以“迅”应“汛” 天津全力防范应对强降雨见闻",
-          "url": "https://www.news.cn/local/20260812/9e74df8b074b424da797a83dab1f750a/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "488f51358c390f",
-          "source": "新华社",
-          "title": "伊拉克北部库区首府再遭无人机袭击",
-          "url": "https://www.news.cn/20260812/850e653aa0ae4e7facf2cb9d83fff376/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "c1565365bab4c1",
           "source": "新华社",
           "title": "初秋梯田 晨雾缭绕",
@@ -66289,10 +66281,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "e5fdf1e59db40d",
+          "source": "新华社",
+          "title": "北京全市结束防汛应急响应",
+          "url": "https://www.news.cn/20260812/33c50f982fc240308b2f3fd958ad3a05/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "e3b5011c9cb565",
           "source": "新华社",
           "title": "合武高铁湖北段首座超5千米隧道贯通",
           "url": "https://www.news.cn/local/20260812/f35fa9019f6e4a0b99cf6a10284f08b6/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e3846cc8b57c76",
+          "source": "新华社",
+          "title": "哥伦比亚宣布为地震遇难者哀悼3天",
+          "url": "https://www.news.cn/world/20260812/a0b0026fe6454d15b5c18b59c1c7a36a/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66313,10 +66321,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "9ca77853e07bbc",
+          "id": "e3fd99d5af272a",
           "source": "新华社",
-          "title": "在“县”谋商：“世界超市”托举“台商二代”链接全球",
-          "url": "https://www.news.cn/fortune/20260812/bee6e1e745394734a964835e2e61ff8a/c.html",
+          "title": "在时代大河里为人民放歌——追忆郭兰英",
+          "url": "https://www.news.cn/politics/20260812/6f9e6f6f65e64ab6b8eadbc9d2b33d5d/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66329,18 +66337,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "9e50c6afb24941",
+          "id": "2b96176e1ae230",
           "source": "新华社",
-          "title": "多地科创突围 “中国智造”聚力跃升",
-          "url": "https://www.news.cn/tech/20260812/ca1629faa6e0415ca37759f681d07b79/c.html",
+          "title": "外国人体验非遗 感受更鲜活有趣的中国",
+          "url": "https://www.news.cn/world/20260812/455d4f5d521a4a99b8f7b66d553f7b03/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
         {
-          "id": "9c4bf78f687f7b",
+          "id": "9e50c6afb24941",
           "source": "新华社",
-          "title": "大河长流 歌声不息",
-          "url": "https://www.news.cn/politics/20260812/518fb05278ba4d829a7c876ebf4fdb4f/c.html",
+          "title": "多地科创突围 “中国智造”聚力跃升",
+          "url": "https://www.news.cn/tech/20260812/ca1629faa6e0415ca37759f681d07b79/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66353,10 +66361,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "58f57012a885a6",
+          "id": "f30312c4d55449",
           "source": "新华社",
-          "title": "央行将开展隔夜逆回购操作",
-          "url": "https://www.news.cn/20260812/80b2a79136cd4c09ae9ccff38a6cb778/c.html",
+          "title": "央行报告：充分发挥货币信贷政策导向作用",
+          "url": "https://www.news.cn/fortune/20260812/aac7f65996ec45eba65992d39360c9ec/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66369,10 +66377,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "a8381ae0d5ff96",
+          "source": "新华社",
+          "title": "山西全力防范应对台风“白海豚”",
+          "url": "https://www.news.cn/20260812/f682e7ec1b2d46bd949fdb75a31b3608/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "7f200883760b65",
           "source": "新华社",
           "title": "平陆运河实船试验正式启动",
           "url": "https://www.news.cn/politics/20260812/43003647a1ba4497b846455a6687a9c4/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cfd1f3c34441ce",
+          "source": "新华社",
+          "title": "当C919降落乌兰巴托",
+          "url": "https://www.news.cn/tech/20260812/a88d35706046461088a5a874ffe81423/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66409,22 +66433,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "95a334651469a3",
-          "source": "新华社",
-          "title": "新华健康丨吃对也能瘦，分体质饮食减脂指南请查收",
-          "url": "https://www.news.cn/politics/20260812/38bdbf8e6edd4389a759a87be8d4d93f/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "805c2ab9e5af21",
-          "source": "新华社",
-          "title": "新华网评丨“八仙”的神通里，燃着文化的薪火",
-          "url": "https://www.news.cn/comments/20260812/ad440bc2bde74b18b11a1256976fc3f3/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "9a71734120afb1",
           "source": "新华社",
           "title": "新能源汽车迎来两个“首次”突破，怎么看",
@@ -66433,10 +66441,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "2515d6f4fd6125",
+          "id": "0a16aeed5ce496",
           "source": "新华社",
-          "title": "普京：北约渗透亚太地区致冲突可能性增加",
-          "url": "https://www.news.cn/world/20260812/dd605339bdb44e23af570f2964ef3a7b/c.html",
+          "title": "普京：欧盟“扣船越货”如“海盗”，俄将反制",
+          "url": "https://www.news.cn/world/20260812/ebb29d48e0944c9d834d27f883aecefd/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "12e08cd0f4d807",
+          "source": "新华社",
+          "title": "暑期“文旅热”持续升温 深圳展馆迎客流高峰",
+          "url": "https://www.news.cn/local/20260812/b4c48f0bfac749058a051d0cca333192/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66449,26 +66465,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "3e4f31494e09d6",
-          "source": "新华社",
-          "title": "水利部滚动部署应对台风“白海豚”残余环流影响",
-          "url": "https://www.news.cn/20260812/7b4a1ba16f7b43cbaae1e29df168e5a9/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
           "id": "2300bad38a81af",
           "source": "新华社",
           "title": "水利部部署应对残余环流影响",
           "url": "https://www.news.cn/politics/20260812/924e1c052f2a422696d95a519650d938/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "d74f7bf8df8d9c",
-          "source": "新华社",
-          "title": "江苏启东：台风过境 重启出海开捕",
-          "url": "https://www.news.cn/local/20260812/647c4dbb2081415fb09958e2bfa17be9/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66497,10 +66497,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "324c762648b847",
+          "id": "e060ddd15e8e8a",
           "source": "新华社",
-          "title": "淮河流域沙颍河发生2026年第1号洪水",
-          "url": "https://www.news.cn/20260812/1208c060c8074032ab0a6fa55bd1ed72/c.html",
+          "title": "海拉尔支队档案揭露日军掩盖细菌战罪行",
+          "url": "https://www.news.cn/world/20260812/e0d82c4155e34968b2138328c50656b5/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66517,6 +66517,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "渔船竞发开捕忙",
           "url": "https://www.news.cn/photo/20260812/ddae26716c6f47e08d7373562b7f89cf/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6b221ad0ed46b7",
+          "source": "新华社",
+          "title": "福建省南平市委副书记、市长林建接受审查调查",
+          "url": "https://www.news.cn/politics/20260812/e0b73ccacce44899838851ed0d89444d/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66545,10 +66553,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "cc71c504e8a01d",
+          "id": "a62ed20e8dec2e",
           "source": "新华社",
-          "title": "重庆建工集团原党委委员、副总经理程亮被“双开”",
-          "url": "https://www.news.cn/politics/20260812/d35d10dbc669480e9811fbb1f7bc5933/c.html",
+          "title": "辽宁省挂牌督办朝阳市3人中毒死亡事故",
+          "url": "https://www.news.cn/20260812/7679e64b68fa4cb193a80097c99080cc/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66569,10 +66577,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "96b77e61e37762",
+          "id": "0cd88f93d6fa82",
           "source": "新华社",
-          "title": "韩最高法院终审判决日企赔偿二战遭强征劳工受害者",
-          "url": "https://www.news.cn/world/20260812/c25ed11e2e26424698032513b709d8d9/c.html",
+          "title": "韩国前总统尹锡悦面临新指控",
+          "url": "https://www.news.cn/world/20260812/d2c400f19bc04e968389712bee482eee/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66581,14 +66589,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "风雨坚守 防汛防台一线筑牢安全堤坝",
           "url": "https://www.news.cn/20260812/5c286b70fd064caea094ea3e80b3a63b/c.html",
-          "date": "2026-08-12",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "359d4647f7fe4d",
-          "source": "新华社",
-          "title": "风雨过后迎开渔 护航东海“第一网”",
-          "url": "https://www.news.cn/politics/20260812/0c43e56e311b436cb67bea6b5bb05e7d/c.html",
           "date": "2026-08-12",
           "keyword": "综合时政"
         },
@@ -66729,6 +66729,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "a373573adfffb5",
+          "source": "求是",
+          "title": "沙土巴“三结义”发出了什么信号？",
+          "url": "https://www.qstheory.cn/20260812/d601bcdb21534b278275b8595e0584fc/c.html",
+          "date": "2026-08-12",
+          "keyword": "综合时政"
+        },
+        {
           "id": "e98ce8c80afeab",
           "source": "求是",
           "title": "生态环境法典筑牢生态系统治理法治基石",
@@ -66750,64 +66758,64 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "ok",
           "count": 11,
-          "duration": 0.8
+          "duration": 0.2
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 23,
-          "duration": 2.4
+          "duration": 2.2
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.2
+          "duration": 2.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 22,
-          "duration": 16.4
+          "duration": 33.8
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 9,
-          "duration": 5.8
+          "count": 10,
+          "duration": 6.5
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 21,
-          "duration": 1.7
+          "duration": 2.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 1,
-          "duration": 13.9
+          "duration": 14.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 3.5
+          "duration": 3.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 9.2
+          "duration": 9.9
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 15,
-          "duration": 60.4
+          "duration": 78.2
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-12T20:55:12+08:00"
+  "generatedAt": "2026-08-12T22:19:22+08:00"
 };
