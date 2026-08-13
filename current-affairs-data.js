@@ -66822,11 +66822,11 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "十五五",
-          "count": 11
+          "count": 12
         },
         {
           "name": "经济",
-          "count": 5
+          "count": 7
         },
         {
           "name": "教育",
@@ -66943,6 +66943,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "十五五"
         },
         {
+          "id": "783796ddd76aad",
+          "source": "新闻联播",
+          "title": "【凝心聚力 真抓实干 奋力实现“十五五”良好开局】天津持续加强港口支撑 推动港产城融合发展",
+          "url": "https://tv.cctv.com/2026/08/13/VIDEJKW7wCzQ24ZfuYi38GL4260813.shtml",
+          "date": "2026-08-13",
+          "keyword": "十五五"
+        },
+        {
           "id": "8da76c678a91cc",
           "source": "学习强国",
           "title": "2026数智经济论坛在河北廊坊举行",
@@ -66963,6 +66971,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "经济政策一线微观察丨流水线变风景线，暑期“工厂游”火了",
           "url": "https://www.news.cn/fortune/20260813/f80e1a8e2d454af0927e7403ed7fb8e6/c.html",
+          "date": "2026-08-13",
+          "keyword": "经济"
+        },
+        {
+          "id": "f0c16388c4137a",
+          "source": "新闻联播",
+          "title": "哥伦比亚震后搜救持续 国家进入经济紧急状态",
+          "url": "https://tv.cctv.com/2026/08/13/VIDEkBoyf5XhVH10QjFNOQvp260813.shtml",
+          "date": "2026-08-13",
+          "keyword": "经济"
+        },
+        {
+          "id": "be9e7e4ad3f349",
+          "source": "新闻联播",
+          "title": "金融服务实体经济质效不断提升",
+          "url": "https://tv.cctv.com/2026/08/13/VIDEI0R8jissUX9XpdVUT8bi260813.shtml",
           "date": "2026-08-13",
           "keyword": "经济"
         },
@@ -68057,8 +68081,16 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "b59c27dfe251fe",
           "source": "新华社",
-          "title": "两部门预拨8000万元支持河南、湖北、安徽应急抢险救灾",
+          "title": "两部门紧急预拨8000万元中央自然灾害救灾资金",
           "url": "https://www.news.cn/politics/20260813/c0a9703de8e544e7a8495494f8f70dec/c.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c3b61551a60557",
+          "source": "新华社",
+          "title": "两部门预拨8000万元支持河南、湖北、安徽应急抢险救灾",
+          "url": "https://www.news.cn/20260813/fda223c30c4242f7a9909d2549748f2a/c.html",
           "date": "2026-08-13",
           "keyword": "综合时政"
         },
@@ -68079,10 +68111,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "5a816692044fe7",
+          "id": "7b1e21d20e81f4",
           "source": "新华社",
-          "title": "云南昭阳：避暑旅居市场“热”力十足",
-          "url": "https://www.news.cn/photo/20260813/05a806a894274a87a4dcfc64fbf88f48/c.html",
+          "title": "乌克兰将停止公布俄罗斯导弹袭击详细数据",
+          "url": "https://www.news.cn/world/20260813/7846a3cb66484618b26b9c8344a44224/c.html",
           "date": "2026-08-13",
           "keyword": "综合时政"
         },
@@ -68151,6 +68183,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "6421304e88c956",
+          "source": "新华社",
+          "title": "台风“残涡”为何偏爱制造极端暴雨？",
+          "url": "https://www.news.cn/politics/20260813/f43acbb372f14aca88b664543a3b9160/c.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
           "id": "01c28b94062dd3",
           "source": "新华社",
           "title": "各地党员干部筑牢防汛救灾防线",
@@ -68191,18 +68231,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "dc2128e12f1ab7",
+          "id": "053cbf47828ad9",
           "source": "新华社",
-          "title": "对伊动武“不管用” 美国重提制裁",
-          "url": "https://www.news.cn/world/20260813/52a5212ee0e64ecfaa6b9cf80baaeb27/c.html",
+          "title": "天津地铁8号线进入空载试运行阶段",
+          "url": "https://www.news.cn/20260813/383148217044404fa357019ce4af651e/c.html",
           "date": "2026-08-13",
           "keyword": "综合时政"
         },
         {
-          "id": "af34111cf6e4e6",
+          "id": "cc7f977d03635a",
           "source": "新华社",
-          "title": "山东济南：家政服务“提质”又“增智”",
-          "url": "https://www.news.cn/local/20260813/dd2858f3354e4b62af6b7ab43606cc7b/c.html",
+          "title": "央行将开展1万亿元买断式逆回购操作",
+          "url": "https://www.news.cn/20260813/77521d4b52ad4854951d2a9ae454c6d9/c.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2cc8479d59b1bd",
+          "source": "新华社",
+          "title": "委内瑞拉政府与反对派对话 美国干涉意图受质疑",
+          "url": "https://www.news.cn/world/20260813/ab3ae077da184d56ab571adb1dc144dd/c.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dc2128e12f1ab7",
+          "source": "新华社",
+          "title": "对伊动武“不管用” 美国重提制裁",
+          "url": "https://www.news.cn/world/20260813/52a5212ee0e64ecfaa6b9cf80baaeb27/c.html",
           "date": "2026-08-13",
           "keyword": "综合时政"
         },
@@ -68215,10 +68271,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "73b594f11f0f54",
+          "id": "a2840acbd02138",
           "source": "新华社",
-          "title": "德国反垄断机构认可“50+1”足球规则 要求统一执行",
-          "url": "https://www.news.cn/sports/20260813/b5a42d5d104649928a0c39cf63338396/c.html",
+          "title": "德天瀑布迎丰水期，广西边关文旅升温",
+          "url": "https://www.news.cn/local/20260813/8f104d9ddac14bfd87f23434ce1e198f/c.html",
           "date": "2026-08-13",
           "keyword": "综合时政"
         },
@@ -68231,42 +68287,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a775fc043eda60",
-          "source": "新华社",
-          "title": "日本企业物价指数连续两个月维持7%以上高位",
-          "url": "https://www.news.cn/20260813/7d4df9c0dbfe4570b84817d4f8c5b1ed/c.html",
-          "date": "2026-08-13",
-          "keyword": "综合时政"
-        },
-        {
           "id": "1fa36e7742756a",
           "source": "新华社",
           "title": "李强签署国务院令",
           "url": "https://www.news.cn/politics/leaders/20260813/13b488f7f382454abd54c6e57f8a1ec6/c.html",
-          "date": "2026-08-13",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "27c9ecf51d9992",
-          "source": "新华社",
-          "title": "杭州：“小候鸟”的暑期夏令营",
-          "url": "https://www.news.cn/photo/20260813/9fbd670e0daa4c88b97cdc02d4cb94fc/c.html",
-          "date": "2026-08-13",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "422193280ddd64",
-          "source": "新华社",
-          "title": "极端高温或令欧盟国家损失约1800亿欧元",
-          "url": "https://www.news.cn/20260813/e377d8b7dc4a4548a9588341b15f4d3e/c.html",
-          "date": "2026-08-13",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "dc03514e0b2e7f",
-          "source": "新华社",
-          "title": "河南郏县长桥镇北汝河段民堤溃口 暂无人员伤亡",
-          "url": "https://www.news.cn/20260813/7be834e6dc454c45b4d02a4f3c7a5421/c.html",
           "date": "2026-08-13",
           "keyword": "综合时政"
         },
@@ -68291,14 +68315,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "海南：高标准建设国际旅游消费中心",
           "url": "https://www.news.cn/photo/20260813/f0cf88bfad3d49e4b1475f172fd5c634/c.html",
-          "date": "2026-08-13",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "df98413972e02b",
-          "source": "新华社",
-          "title": "滞洪区的雨夜守护",
-          "url": "https://www.news.cn/photo/20260813/eef77d07566f4a6d86944d5542a75cf7/c.html",
           "date": "2026-08-13",
           "keyword": "综合时政"
         },
@@ -68439,6 +68455,86 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "6ae7591f3ea0e8",
+          "source": "新华社",
+          "title": "香港美食博览开幕 搭建食品跨国合作桥梁",
+          "url": "https://www.news.cn/20260813/1103e73f6e6b42d19e06a231181967de/c.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c25d35747a0f5c",
+          "source": "新闻联播",
+          "title": "【新思想引领新征程】做大“蛋糕”缩小差距 浙江扎实推进共同富裕示范区建设",
+          "url": "https://tv.cctv.com/2026/08/13/VIDEs3LaaJkjWK5kB1HpLLsd260813.shtml",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e09f53d43251cb",
+          "source": "新闻联播",
+          "title": "中东部降雨持续 各地各部门多举措应对",
+          "url": "https://tv.cctv.com/2026/08/13/VIDEDHI6gMdPR4IzbrYzBfUj260813.shtml",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a2377f9756b6ab",
+          "source": "新闻联播",
+          "title": "中国亚洲象种群呈现逆势增长",
+          "url": "https://tv.cctv.com/2026/08/13/VIDEgMghzOLbaaymeLcoLtzV260813.shtml",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "842d50ac78dead",
+          "source": "新闻联播",
+          "title": "国内联播快讯",
+          "url": "https://tv.cctv.com/2026/08/13/VIDEIt8AQpaynRkmoeOL2U1e260813.shtml",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "56bd3e7fa20a0c",
+          "source": "新闻联播",
+          "title": "国家巡回医疗队开展驻点帮扶 优质诊疗下沉中西部县域",
+          "url": "https://tv.cctv.com/2026/08/13/VIDEoOS3PLWKRCbtyTyRLkKD260813.shtml",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2bd066c2e8a08c",
+          "source": "新闻联播",
+          "title": "我国加快推动新一代通信网建设",
+          "url": "https://tv.cctv.com/2026/08/13/VIDES6rg6MFTsV66bHW8ChYG260813.shtml",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5cb2ab32135b63",
+          "source": "新闻联播",
+          "title": "我国常态化帮扶实现稳健开局",
+          "url": "https://tv.cctv.com/2026/08/13/VIDEC3XjP6jP30rsRBXgmmRe260813.shtml",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6e1f0d759e1cf7",
+          "source": "新闻联播",
+          "title": "文献纪录片《江泽民》今晚继续播出",
+          "url": "https://tv.cctv.com/2026/08/13/VIDEDi8WvrWGl1Pu0zK2qZp8260813.shtml",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c9ea452757f392",
+          "source": "新闻联播",
+          "title": "韩国市民团体举行“慰安妇”受害者纪念活动",
+          "url": "https://tv.cctv.com/2026/08/13/VIDE8r48hMLaoTJ7DJJ6ac3r260813.shtml",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
           "id": "67d3879a1bb2c4",
           "source": "求是",
           "title": "以深化周边发展融合推动构建周边命运共同体",
@@ -68474,10 +68570,9 @@ window.CURRENT_AFFAIRS_DATA = {
       "sourceStatus": [
         {
           "source": "新闻联播",
-          "status": "error",
-          "count": 0,
-          "duration": 9.2,
-          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260813.shtml"
+          "status": "ok",
+          "count": 12,
+          "duration": 0.3
         },
         {
           "source": "人民日报",
@@ -68489,52 +68584,52 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.0
+          "duration": 2.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 19,
-          "duration": 16.9
+          "duration": 33.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 7,
-          "duration": 5.8
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.7
+          "duration": 2.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.0
+          "duration": 14.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 3.1
+          "duration": 3.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 9.0
+          "duration": 11.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 11,
-          "duration": 68.3
+          "duration": 76.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-13T19:01:32+08:00"
+  "generatedAt": "2026-08-13T19:53:53+08:00"
 };
