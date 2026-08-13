@@ -66822,7 +66822,7 @@
       "keywords": [
         {
           "name": "十五五",
-          "count": 13
+          "count": 12
         },
         {
           "name": "经济",
@@ -66830,7 +66830,11 @@
         },
         {
           "name": "教育",
-          "count": 4
+          "count": 5
+        },
+        {
+          "name": "机器人",
+          "count": 3
         },
         {
           "name": "高质量发展",
@@ -66842,10 +66846,6 @@
         },
         {
           "name": "习近平",
-          "count": 2
-        },
-        {
-          "name": "机器人",
           "count": 2
         },
         {
@@ -66915,14 +66915,6 @@
           "source": "新华社",
           "title": "“十五五”开局之年各地培育壮大新兴产业观察",
           "url": "https://www.news.cn/politics/20260813/cb0bae041e9c449682a1c1f72dc59877/c.html",
-          "date": "2026-08-13",
-          "keyword": "十五五"
-        },
-        {
-          "id": "33e30822b3d9d9",
-          "source": "新华社",
-          "title": "“十五五”首条千万吨级原油管道投产",
-          "url": "https://www.news.cn/politics/20260813/7fd515ca273f42d5aeeb7ff76a15405a/c.html",
           "date": "2026-08-13",
           "keyword": "十五五"
         },
@@ -67031,6 +67023,30 @@
           "keyword": "教育"
         },
         {
+          "id": "271eae4e4471ae",
+          "source": "新华社",
+          "title": "西南医科大学：已对言语失当辅导员严肃批评教育",
+          "url": "https://www.news.cn/politics/20260813/e073c0fd94dd44618a046ae8d7c37b8d/c.html",
+          "date": "2026-08-13",
+          "keyword": "教育"
+        },
+        {
+          "id": "1dfa4b4026a3b6",
+          "source": "新华社",
+          "title": "活力中国调研行丨服务型机器人何时走入家庭",
+          "url": "https://www.news.cn/talking/20260813/96b54043cbb54dbfb274e157766ec863/c.html",
+          "date": "2026-08-13",
+          "keyword": "机器人"
+        },
+        {
+          "id": "8319b7a6b8908d",
+          "source": "新华社",
+          "title": "第二届世界人形机器人运动会参赛机器人数量较上届翻两番",
+          "url": "https://www.news.cn/sports/20260813/95487950b2f3442f83075c5486b2155a/c.html",
+          "date": "2026-08-13",
+          "keyword": "机器人"
+        },
+        {
           "id": "e765cb3278ccca",
           "source": "人民日报",
           "title": "中国全方位推动人工智能全球治理走深走实",
@@ -67061,14 +67077,6 @@
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=17320759498952008940&item_id=17320759498952008940",
           "date": "2026-08-13",
           "keyword": "就业"
-        },
-        {
-          "id": "1dfa4b4026a3b6",
-          "source": "新华社",
-          "title": "活力中国调研行丨服务型机器人何时走入家庭",
-          "url": "https://www.news.cn/talking/20260813/96b54043cbb54dbfb274e157766ec863/c.html",
-          "date": "2026-08-13",
-          "keyword": "机器人"
         },
         {
           "id": "181cebcdb11d93",
@@ -67407,14 +67415,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "796dddc4b4f370",
-          "source": "半月谈",
-          "title": "2026年中国联通重庆市分公司国企开放日活动举行",
-          "url": "http://www.banyuetan.org/dfgc/detail/20260813/1000200033136151786589206185245716_1.html",
-          "date": "2026-08-13",
-          "keyword": "综合时政"
-        },
-        {
           "id": "92fb9ae8d55e87",
           "source": "半月谈",
           "title": "731部队海拉尔支队档案揭露日军掩盖细菌战罪行",
@@ -67531,6 +67531,14 @@
           "source": "半月谈",
           "title": "江淮江南华南多分散性强降雨 中东部暑热缓解四川新疆高温持续",
           "url": "http://www.banyuetan.org/yw/detail/20260813/1000200033137441786583808799216744_1.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f339dbd22d5d31",
+          "source": "半月谈",
+          "title": "江苏媒体“走进体彩” 超146万人“云围观”阳光开奖",
+          "url": "http://www.banyuetan.org/dfgc/detail/20260813/1000200033136151786626257367230179_1.html",
           "date": "2026-08-13",
           "keyword": "综合时政"
         },
@@ -68103,14 +68111,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "95dc7cf0671825",
-          "source": "新华社",
-          "title": "两岸青少年戏剧技艺文化交流体验营在厦门开营",
-          "url": "https://www.news.cn/tw/20260813/120fb2df168941b9a6c7ab5d59a9ad33/c.html",
-          "date": "2026-08-13",
-          "keyword": "综合时政"
-        },
-        {
           "id": "b59c27dfe251fe",
           "source": "新华社",
           "title": "两部门紧急预拨8000万元中央自然灾害救灾资金",
@@ -68127,18 +68127,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "7b1e21d20e81f4",
+          "id": "5d7a1bb9fa660d",
           "source": "新华社",
-          "title": "乌克兰将停止公布俄罗斯导弹袭击详细数据",
-          "url": "https://www.news.cn/world/20260813/7846a3cb66484618b26b9c8344a44224/c.html",
+          "title": "中国红十字 会总会向河南调拨救灾物资",
+          "url": "https://www.news.cn/politics/20260813/eb34926a5f65438393be20671d7fa72f/c.html",
           "date": "2026-08-13",
           "keyword": "综合时政"
         },
         {
-          "id": "1de50329eb3f43",
+          "id": "7b1e21d20e81f4",
           "source": "新华社",
-          "title": "京沪联手协商共治 推动外卖骑手算法向善而行",
-          "url": "https://www.news.cn/20260813/37fec57c6e3746ada3c29e5f612ba248/c.html",
+          "title": "乌克兰将停止公布俄罗斯导弹袭击详细数据",
+          "url": "https://www.news.cn/world/20260813/7846a3cb66484618b26b9c8344a44224/c.html",
           "date": "2026-08-13",
           "keyword": "综合时政"
         },
@@ -68191,6 +68191,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "7aac38ec5b67f9",
+          "source": "新华社",
+          "title": "加纳首都多车相撞致至少11人死亡",
+          "url": "https://www.news.cn/world/20260813/08980864ec8a428aa0c54d57a8dd0b97/c.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
           "id": "30beea5514f04d",
           "source": "新华社",
           "title": "受“白海豚”影响 14个国家级观测站日雨量破历史极值",
@@ -68223,10 +68231,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "e02425722166ea",
+          "id": "e2a5f2f428efa4",
           "source": "新华社",
-          "title": "多瑙河水位过低 罗马尼亚唯一核电站全面停运",
-          "url": "https://www.news.cn/20260813/100d180c9e3e43c4a6dba45f46d6c1e7/c.html",
+          "title": "土耳其一观光游船起火 逾百人跳海避险",
+          "url": "https://www.news.cn/20260813/a1546e9118794aabb11dc75ed4ceb14d/c.html",
           "date": "2026-08-13",
           "keyword": "综合时政"
         },
@@ -68275,6 +68283,14 @@
           "source": "新华社",
           "title": "张宏等3人获2026未来科学大奖",
           "url": "https://www.news.cn/20260813/8ee1a4e6b93a4b5d9dd33fd5a56a47cf/c.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5182ea75b6596b",
+          "source": "新华社",
+          "title": "我国高速服务区建成充电基础设施（枪）8.54万个",
+          "url": "https://www.news.cn/20260813/12ed944169b64446bb25cb224afa1cbb/c.html",
           "date": "2026-08-13",
           "keyword": "综合时政"
         },
@@ -68351,22 +68367,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "ba515680bde31a",
-          "source": "新华社",
-          "title": "潍宿高铁全线控制性工程建设取得新进展",
-          "url": "https://www.news.cn/20260813/26151b7b7b6549709e60adef9a41150c/c.html",
-          "date": "2026-08-13",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "b1272ac29ea2e8",
-          "source": "新华社",
-          "title": "澳门招商投资促进局：上半年接获近两百家企业投资计划",
-          "url": "https://www.news.cn/gangao/20260813/f07f93c316e2478aa7cc55b9115b02c6/c.html",
-          "date": "2026-08-13",
-          "keyword": "综合时政"
-        },
-        {
           "id": "e40b045762bd9e",
           "source": "新华社",
           "title": "福建宁德一造船厂起火 12人受伤",
@@ -68407,6 +68407,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "8b6608f34c8ba2",
+          "source": "新华社",
+          "title": "荷兰鹿特丹港发生爆炸致1死多伤",
+          "url": "https://www.news.cn/20260813/d80aed2cc3a041c198ffc395ab1eec89/c.html",
+          "date": "2026-08-13",
+          "keyword": "综合时政"
+        },
+        {
           "id": "b0323c1fc628bc",
           "source": "新华社",
           "title": "西康高铁启动试运行",
@@ -68435,14 +68443,6 @@
           "source": "新华社",
           "title": "铸魂强党丨一体推进不敢腐不能腐不想腐",
           "url": "https://www.news.cn/politics/leaders/20260813/082eec81b25c4e0a8ae09cef89854f66/c.html",
-          "date": "2026-08-13",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "3f95e3346bd5c7",
-          "source": "新华社",
-          "title": "雄忻高铁正线铺轨全部完成",
-          "url": "https://www.news.cn/20260813/c8f1475cd3544c1dbb0e7c6236d594ea/c.html",
           "date": "2026-08-13",
           "keyword": "综合时政"
         },
@@ -68596,31 +68596,31 @@
           "source": "新闻联播",
           "status": "ok",
           "count": 15,
-          "duration": 0.3
+          "duration": 0.9
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 20,
-          "duration": 2.3
+          "duration": 2.6
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.5
+          "duration": 2.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 19,
-          "duration": 20.5
+          "duration": 30.7
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 7,
-          "duration": 6.0
+          "duration": 6.3
         },
         {
           "source": "光明日报",
@@ -68632,28 +68632,29 @@
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.9
+          "duration": 12.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 3.4
+          "duration": 2.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 8.7
+          "duration": 9.3
         },
         {
           "source": "广东发布",
-          "status": "ok",
+          "status": "stale",
           "count": 11,
-          "duration": 88.5
+          "duration": 19.2,
+          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-13T20:57:21+08:00"
+  "generatedAt": "2026-08-13T22:20:32+08:00"
 }
