@@ -70968,6 +70968,22 @@
           "keyword": "综合时政"
         },
         {
+          "id": "0b60e032ad1349",
+          "source": "新华社",
+          "title": "印尼弗洛勒斯岛附近海域发生7.7级地震",
+          "url": "https://www.news.cn/world/20260815/8bf54b003d7948db9bacd597c2709a30/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "28405a0f663db6",
+          "source": "新华社",
+          "title": "哈尔滨加快推动危旧房屋“自主更新、原拆原建”",
+          "url": "https://www.news.cn/20260815/df47680c4e334e969ef8ef960837689d/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "14310f13ce853d",
           "source": "新华社",
           "title": "喀麦隆发生车祸 致16死逾40伤",
@@ -70976,10 +70992,42 @@
           "keyword": "综合时政"
         },
         {
+          "id": "53bebc4f3214f2",
+          "source": "新华社",
+          "title": "国际范儿浓 张家界入境游升温",
+          "url": "https://www.news.cn/20260815/4ad348fd36734f7fbb1edd00e8e6f51e/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d0e6a49b64bb44",
+          "source": "新华社",
+          "title": "新华社快讯：印尼弗洛勒斯岛附近海域发生7.7级地震",
+          "url": "https://www.news.cn/20260815/d6120df123dc4f1dad91feec2863bc03/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2bbac3584ef8f1",
+          "source": "新华社",
+          "title": "新华社快讯：日本防卫大臣小泉进次郎参拜靖国神社",
+          "url": "https://www.news.cn/20260815/1c1059e131014b239db4ab6d08e11d98/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "3f5b857927f9ec",
           "source": "新华社",
           "title": "新华社评论员：以高水平法治护航美丽中国建设",
           "url": "https://www.news.cn/politics/20260815/a2b654be4dac41eba2a94d3b792a8af5/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8a45450ddd5b7e",
+          "source": "新华社",
+          "title": "日本防卫大臣小泉进次郎参拜靖国神社",
+          "url": "https://www.news.cn/world/20260815/27cd59d1a7194f49b4be84bcb4c6a97d/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71021,44 +71069,44 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 10.6,
+          "duration": 7.9,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260815.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 23,
-          "duration": 0.6
+          "duration": 2.5
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 9,
-          "duration": 2.4
+          "count": 15,
+          "duration": 2.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 22.1
+          "duration": 19.0
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 5.7
+          "duration": 6.3
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.3
+          "duration": 2.1
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.3
+          "duration": 13.0
         },
         {
           "source": "学习强国",
@@ -71070,16 +71118,17 @@
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 7.6
+          "duration": 10.5
         },
         {
           "source": "广东发布",
-          "status": "ok",
+          "status": "error",
           "count": 0,
-          "duration": 53.5
+          "duration": 18.7,
+          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-15T06:30:24+08:00"
+  "generatedAt": "2026-08-15T07:25:59+08:00"
 }
