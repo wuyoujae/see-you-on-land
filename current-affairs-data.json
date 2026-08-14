@@ -69958,6 +69958,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "904b3eba1685b6",
+          "source": "新华社",
+          "title": "“特别要更好地关心呵护‘一老一小’”",
+          "url": "https://www.news.cn/politics/leaders/20260814/6e4ee2117e374c4db3966219754f6103/c.html",
+          "date": "2026-08-14",
+          "keyword": "综合时政"
+        },
+        {
           "id": "24db7e40fdbf83",
           "source": "新华社",
           "title": "“白海豚”为何后期雨量这么大",
@@ -70018,14 +70026,6 @@
           "source": "新华社",
           "title": "中疾控：新冠在部分省份已出现下降趋势",
           "url": "https://www.news.cn/politics/20260814/be51d4f63ca443cca62f1e4e5fb49423/c.html",
-          "date": "2026-08-14",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "0d3b75257774b2",
-          "source": "新华社",
-          "title": "二季度末普惠型小微企业贷款余额同比增长8%",
-          "url": "https://www.news.cn/fortune/20260814/c03b159dafaf4891a94da4c41e1ceb52/c.html",
           "date": "2026-08-14",
           "keyword": "综合时政"
         },
@@ -70094,10 +70094,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "f6c6bcef452e3c",
+          "id": "526d5fb4aec042",
           "source": "新华社",
           "title": "前7个月邮政行业寄递业务量同比增长4.2%",
-          "url": "https://www.news.cn/20260814/184cc0369d31439b87256dc1521827b4/c.html",
+          "url": "https://www.news.cn/fortune/20260814/b250ab8be74a4962ac23198811983100/c.html",
           "date": "2026-08-14",
           "keyword": "综合时政"
         },
@@ -70214,18 +70214,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "1c73332ff22c2c",
-          "source": "新华社",
-          "title": "快递包装“瘦身”进展如何",
-          "url": "https://www.news.cn/politics/20260814/10384e355ec649289008acbc9e3e8185/c.html",
-          "date": "2026-08-14",
-          "keyword": "综合时政"
-        },
-        {
           "id": "41d4d5de2335d5",
           "source": "新华社",
           "title": "我国首次集中发布西中南沙岛礁生态系统状况",
           "url": "https://www.news.cn/local/20260814/b59936d004ad4644b8a1064ab10f0a6d/c.html",
+          "date": "2026-08-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d52e53415a8187",
+          "source": "新华社",
+          "title": "新华解码｜未来五年，安全应急装备产业这样发展",
+          "url": "https://www.news.cn/politics/20260814/20cc961669ab4a48b9e5a5f5e486f0e9/c.html",
           "date": "2026-08-14",
           "keyword": "综合时政"
         },
@@ -70318,6 +70318,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "9e27b1da35f296",
+          "source": "新华社",
+          "title": "英国连续第二日发生火车脱轨事故",
+          "url": "https://www.news.cn/20260814/b4546d42f4604b9395496cb3fd699db1/c.html",
+          "date": "2026-08-14",
+          "keyword": "综合时政"
+        },
+        {
           "id": "12ebeafd1086bf",
           "source": "新华社",
           "title": "让我们的星球永耀伟大胜利荣光——写在日本无条件投降81周年之际",
@@ -70362,14 +70370,6 @@
           "source": "新华社",
           "title": "面孔为证 百余位日军“慰安妇”制度受害者影像在南京展出",
           "url": "https://www.news.cn/world/20260814/073f4ffe1fd047c39692303015b33ffa/c.html",
-          "date": "2026-08-14",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "fbbfa8a33ba271",
-          "source": "新华社",
-          "title": "香港两支队伍荣登“行政长官表扬榜”",
-          "url": "https://www.news.cn/gangao/20260814/99fd3ef0a75e45068317e2f6137f6ecc/c.html",
           "date": "2026-08-14",
           "keyword": "综合时政"
         },
@@ -70515,43 +70515,43 @@
           "source": "新闻联播",
           "status": "ok",
           "count": 15,
-          "duration": 0.2
+          "duration": 0.9
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 21,
-          "duration": 2.0
+          "duration": 3.0
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.5
+          "duration": 3.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 19,
-          "duration": 16.5
+          "duration": 26.5
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 9,
-          "duration": 6.3
+          "duration": 6.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.8
+          "duration": 1.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.7
+          "duration": 13.3
         },
         {
           "source": "学习强国",
@@ -70563,16 +70563,16 @@
           "source": "中国政府网",
           "status": "ok",
           "count": 4,
-          "duration": 13.0
+          "duration": 8.5
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 13,
-          "duration": 80.9
+          "duration": 84.2
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-14T22:13:45+08:00"
+  "generatedAt": "2026-08-14T23:46:31+08:00"
 }
