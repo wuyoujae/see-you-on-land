@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#ffffff">
   <title>暑假时政学习清单</title>
-  <link rel="stylesheet" href="clock.css?v=20260711-2">
+  <link rel="stylesheet" href="clock.css?v=20260815-1">
   <style>
     :root {
       --bg: #ffffff;
@@ -1120,6 +1120,10 @@
               <article class="live-clock-card clock-mode-card" data-clock-mode="clock" aria-label="当前时间与学习计时器">
                 <button type="button" class="live-clock" id="live-clock" aria-label="切换时间显示格式">00:00</button>
                 <p class="clock-format-hint">当前时间</p>
+                <label class="study-subject-picker" for="study-subject">
+                  <span>本次学习科目</span>
+                  <input id="study-subject" type="text" list="study-subject-options" maxlength="30" autocomplete="off" placeholder="请选择或输入科目" required>
+                </label>
                 <div class="active-elapsed" id="active-elapsed" hidden>本次学习 00:00</div>
                 <div class="timer-actions" id="timer-actions">
                   <button type="button" class="study-start-button" id="start-study"><i data-lucide="play" aria-hidden="true"></i><span>开始学习！</span></button>
@@ -1129,9 +1133,9 @@
                 </button>
               </article>
 
-              <article class="question-timer-card clock-mode-card" data-clock-mode="questions" aria-label="做题循环计时器">
+              <article class="question-timer-card clock-mode-card" data-clock-mode="questions" aria-label="做题总倒计时器">
                 <header class="question-card-header">
-                  <div><p class="eyebrow">QUESTION TIMER</p><h2>做题计时</h2></div>
+                  <div><p class="eyebrow">QUESTION TIMER</p><h2>做题总计时</h2></div>
                   <div class="question-card-tools">
                     <button type="button" class="icon-button" id="reset-question-timer" title="重新设置" aria-label="重新设置做题计时"><i data-lucide="rotate-ccw" aria-hidden="true"></i></button>
                     <button type="button" class="icon-button" id="pause-question-timer" title="暂停做题计时" aria-label="暂停做题计时" disabled><i data-lucide="pause" aria-hidden="true"></i></button>
@@ -1146,9 +1150,9 @@
                     <circle class="question-progress-track" cx="60" cy="60" r="52"></circle>
                     <circle class="question-progress-value" id="question-progress-value" cx="60" cy="60" r="52" pathLength="100"></circle>
                   </svg>
-                  <div class="question-progress-copy"><span id="question-progress-label">准备开始</span><strong id="question-time-left">03:00</strong></div>
+                  <div class="question-progress-copy"><span id="question-progress-label">总倒计时</span><strong id="question-time-left">02:00:00</strong></div>
                 </div>
-                <p class="question-round-status" id="question-round-status" aria-live="polite">第 1 题 / 共 40 题 · 含本题剩余 40 题</p>
+                <p class="question-round-status" id="question-round-status" aria-live="polite">40 题 × 每题 3 分钟 · 共 120 分钟</p>
                 <button type="button" class="question-start-button" id="start-question-timer"><i data-lucide="play" aria-hidden="true"></i><span>开始做题</span></button>
                 <button type="button" class="clock-fullscreen-enter question-fullscreen-enter" id="enter-question-fullscreen" title="进入全屏做题计时" aria-label="进入全屏做题计时">
                   <i data-lucide="maximize-2" aria-hidden="true"></i>
@@ -1172,6 +1176,22 @@
             </div>
           </div>
           <input class="study-record-file" id="study-record-file" type="file" accept="application/json,.json" aria-label="选择学习记录文件">
+          <datalist id="study-subject-options">
+            <option value="政治理论"></option>
+            <option value="常识判断"></option>
+            <option value="言语理解与表达"></option>
+            <option value="选词填空"></option>
+            <option value="片段阅读"></option>
+            <option value="语句表达"></option>
+            <option value="数量关系"></option>
+            <option value="数字推理"></option>
+            <option value="判断推理"></option>
+            <option value="图形推理"></option>
+            <option value="逻辑判断"></option>
+            <option value="科学推理"></option>
+            <option value="资料分析"></option>
+            <option value="申论"></option>
+          </datalist>
           <p class="study-record-transfer-status" id="study-record-transfer-status" role="status" aria-live="polite" hidden></p>
           <div class="study-record-list" id="study-record-list"></div>
         </section>
@@ -1243,6 +1263,7 @@
         </header>
         <form id="timer-edit-form">
           <input type="hidden" id="edit-record-id">
+          <label>学习科目<input type="text" id="edit-record-subject" list="study-subject-options" maxlength="30" autocomplete="off" required></label>
           <label>开始时间<input type="datetime-local" id="edit-record-start" required></label>
           <label>结束时间<input type="datetime-local" id="edit-record-end" required></label>
           <label>有效学习分钟<input type="number" id="edit-record-minutes" min="1" max="1440" step="1" required></label>
@@ -1262,7 +1283,7 @@
             <button type="button" class="fullscreen-clock-time" id="fullscreen-clock-time" aria-label="切换时间显示格式">00:00</button>
           </section>
           <section class="fullscreen-mode-slide fullscreen-question-slide" data-fullscreen-mode="questions">
-            <div class="fullscreen-question-remaining"><strong id="fullscreen-question-remaining">40</strong><span>剩余题目<br>含本题</span></div>
+            <div class="fullscreen-question-remaining"><strong id="fullscreen-question-remaining">40</strong><span>题目总数</span></div>
             <div class="fullscreen-question-tools">
               <button type="button" id="fullscreen-reset-question" title="重新设置" aria-label="重新设置做题计时"><i data-lucide="rotate-ccw" aria-hidden="true"></i></button>
               <button type="button" id="fullscreen-pause-question" title="暂停做题计时" aria-label="暂停做题计时" disabled><i data-lucide="pause" aria-hidden="true"></i></button>
@@ -1272,7 +1293,7 @@
                 <circle class="question-progress-track" cx="60" cy="60" r="52"></circle>
                 <circle class="question-progress-value" id="fullscreen-question-progress-value" cx="60" cy="60" r="52" pathLength="100"></circle>
               </svg>
-              <div><span id="fullscreen-question-label">第 1 题</span><strong id="fullscreen-question-time">03:00</strong><small id="fullscreen-question-status">准备开始</small></div>
+              <div><span id="fullscreen-question-label">总倒计时</span><strong id="fullscreen-question-time">02:00:00</strong><small id="fullscreen-question-status">准备开始</small></div>
             </div>
           </section>
         </div>
@@ -1709,7 +1730,7 @@
       refreshIcons();
     })();
   </script>
-  <script src="clock.js?v=20260803-1"></script>
-  <script src="backup.js?v=20260714-1"></script>
+  <script src="clock.js?v=20260815-1"></script>
+  <script src="backup.js?v=20260815-1"></script>
 </body>
 </html>

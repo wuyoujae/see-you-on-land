@@ -205,9 +205,6 @@
   transition: stroke-dashoffset 220ms linear, stroke 180ms ease;
 }
 
-.question-progress-wrap.ringing .question-progress-value,
-.fullscreen-question-progress.ringing .question-progress-value { stroke: #b06b16; }
-
 .question-progress-wrap.completed .question-progress-value,
 .fullscreen-question-progress.completed .question-progress-value { opacity: 0; }
 
@@ -223,7 +220,7 @@
 .question-progress-copy strong {
   margin-top: 5px;
   font-family: "SF Mono", "Roboto Mono", "Courier New", monospace;
-  font-size: 34px;
+  font-size: 31px;
   font-weight: 400;
   font-variant-numeric: tabular-nums;
   line-height: 1;
@@ -501,6 +498,35 @@ body.clock-fullscreen-active { overflow: hidden; background: #000; }
 
 .clock-format-hint { margin-top: 8px; color: var(--muted); font-size: 13px; }
 
+.study-subject-picker {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  max-width: 360px;
+  margin: 22px auto 0;
+  color: var(--muted);
+  font-size: 15px;
+  text-align: left;
+}
+
+.study-subject-picker input {
+  width: 100%;
+  min-height: 46px;
+  padding: 9px 12px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.study-subject-picker input:disabled {
+  background: var(--surface-strong);
+  color: var(--muted);
+}
+
 .active-elapsed {
   width: fit-content;
   margin: 16px auto 0;
@@ -613,6 +639,18 @@ body.clock-fullscreen-active { overflow: hidden; background: #000; }
   font-family: "Songti SC", "STSong", "SimSun", Georgia, serif;
   font-size: 24px;
   font-weight: 400;
+  line-height: 1.35;
+}
+
+.record-subject {
+  width: fit-content;
+  margin-bottom: 6px;
+  padding: 3px 7px;
+  border: 1px solid #bfd9d1;
+  border-radius: 3px;
+  background: var(--green-soft);
+  color: var(--green);
+  font-size: 13px;
   line-height: 1.35;
 }
 
@@ -784,6 +822,10 @@ body.clock-fullscreen-active { overflow: hidden; background: #000; }
   background: var(--bg);
   color: var(--ink);
   font-size: 16px;
+}
+
+@media (max-width: 360px) {
+  .study-subject-picker { grid-template-columns: 1fr; gap: 7px; }
 }
 
 .form-error { min-height: 20px; color: var(--red); font-size: 13px; }
