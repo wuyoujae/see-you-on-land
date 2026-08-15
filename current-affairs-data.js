@@ -70579,7 +70579,19 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "经济",
-          "count": 3
+          "count": 4
+        },
+        {
+          "name": "中国式现代化",
+          "count": 2
+        },
+        {
+          "name": "习近平",
+          "count": 2
+        },
+        {
+          "name": "消费",
+          "count": 2
         }
       ],
       "articles": [
@@ -70608,6 +70620,70 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
+          "id": "01ee44ad6b9626",
+          "source": "求是",
+          "title": "推动经济持续向新向优向好发展",
+          "url": "https://www.qstheory.cn/20260815/fbc3ca2906334219be46d453607e8a44/c.html",
+          "date": "2026-08-15",
+          "keyword": "经济"
+        },
+        {
+          "id": "7251ad7ee1f2e9",
+          "source": "人民日报",
+          "title": "“让中国式现代化的底色更加亮丽”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/15/content_30175026.html",
+          "date": "2026-08-15",
+          "keyword": "中国式现代化"
+        },
+        {
+          "id": "f4998b976d9ac6",
+          "source": "人民日报",
+          "title": "差异化供给回应消费新需求（专家点评）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/15/content_30175035.html",
+          "date": "2026-08-15",
+          "keyword": "消费"
+        },
+        {
+          "id": "df032515b88f47",
+          "source": "光明日报",
+          "title": "习近平生态文明思想引领美丽中国建设谱新篇",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/15/content_22231.html",
+          "date": "2026-08-15",
+          "keyword": "习近平"
+        },
+        {
+          "id": "af1e8186cb9ca0",
+          "source": "新华社",
+          "title": "美国消费者信心指数明显回落",
+          "url": "https://www.news.cn/20260815/000ca6124ef84d858c5993380dc557b4/c.html",
+          "date": "2026-08-15",
+          "keyword": "消费"
+        },
+        {
+          "id": "e54075e99119e6",
+          "source": "求是",
+          "title": "“让中国式现代化的底色更加亮丽”",
+          "url": "https://www.qstheory.cn/20260815/b3a8de7a0f79412ea3f908045adde4b0/c.html",
+          "date": "2026-08-15",
+          "keyword": "中国式现代化"
+        },
+        {
+          "id": "cb5fe2bb709c1a",
+          "source": "求是",
+          "title": "习近平生态文明思想引领美丽中国建设谱新篇",
+          "url": "https://www.qstheory.cn/20260815/817842f2345f42d398db53bb7d966a6f/c.html",
+          "date": "2026-08-15",
+          "keyword": "习近平"
+        },
+        {
+          "id": "236b48319268ac",
+          "source": "中国政府网",
+          "title": "截至6月底电动汽车充电基础设施总数同比增长43.2%",
+          "url": "https://www.gov.cn/lianbo/202608/content_7078100.htm",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "5b774f7864e15d",
           "source": "人民日报",
           "title": "2026年全国生态日活动主题确定",
@@ -70620,14 +70696,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "40余米溃口 两天完成封堵（在现场）",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/15/content_30175048.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "7251ad7ee1f2e9",
-          "source": "人民日报",
-          "title": "“让中国式现代化的底色更加亮丽”",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/15/content_30175026.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -70708,14 +70776,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "多部门支持河南应对洪涝灾害",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/15/content_30175051.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "f4998b976d9ac6",
-          "source": "人民日报",
-          "title": "差异化供给回应消费新需求（专家点评）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/15/content_30175035.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -70820,14 +70880,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "光明日报",
           "title": "中国人民银行将发行江泽民诞辰100周年纪念币",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/15/content_22238.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "df032515b88f47",
-          "source": "光明日报",
-          "title": "习近平生态文明思想引领美丽中国建设谱新篇",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/15/content_22231.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -70968,6 +71020,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "07d9718fb1da0a",
+          "source": "新华社",
+          "title": "31个省区市“晒账本” 上半年地方财政运行平稳",
+          "url": "https://www.news.cn/fortune/20260815/c6ef6c10362b4ea1a27217d39fb2bdf5/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "13ce2f148904a8",
+          "source": "新华社",
+          "title": "81年前的今天，日本投降了",
+          "url": "https://www.news.cn/world/20260815/368c01aae7b3432e922786c3d14ae23c/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a15a202995e996",
+          "source": "新华社",
+          "title": "WTT欧洲大满贯赛瑞典站：林诗栋/蒯曼混双夺冠",
+          "url": "https://www.news.cn/sports/20260815/e0ab1f9a38d54ea4a79765dac903ad31/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "5f03bd3cebedea",
           "source": "新华社",
           "title": "“这一刻，所有的苦和累都值得”",
@@ -70980,6 +71056,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "中国人民银行将发行江泽民诞辰100周年纪念币",
           "url": "https://www.news.cn/fortune/20260815/8f8ad33a76f94c598ba9b6e3091737fb/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5ccecca9a74a67",
+          "source": "新华社",
+          "title": "为什么我们要不断重温这段历史",
+          "url": "https://www.news.cn/politics/20260815/f5384b954ee04d41a339723ffc6ef524/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71000,10 +71084,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "87c83696db240d",
+          "id": "5b2ee85ee163ce",
           "source": "新华社",
-          "title": "印尼发生7.7级地震并引发海啸预警",
-          "url": "https://www.news.cn/world/20260815/5f018bf311ef411bb50d4fa1c9b22ca3/c.html",
+          "title": "印尼7.7级地震已致2人死亡 海啸预警解除",
+          "url": "https://www.news.cn/world/20260815/8e596c50a09e4b748b6eef8d226451d9/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71016,10 +71100,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "14310f13ce853d",
+          "id": "49d3182e12cf15",
           "source": "新华社",
-          "title": "喀麦隆发生车祸 致16死逾40伤",
-          "url": "https://www.news.cn/20260815/8b9ea3b685544a60acbe5fc41928856c/c.html",
+          "title": "国际范儿浓 张家界入境游持续升温",
+          "url": "https://www.news.cn/fortune/20260815/8ad6c3732f5b44d396aedf391fad8efb/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71032,6 +71116,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "fc839633ae6c66",
+          "source": "新华社",
+          "title": "学习新语丨绿色承诺一以贯之",
+          "url": "https://www.news.cn/politics/leaders/20260815/130b782918c448b9ae0d954e07b12c4e/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cac03ad771df79",
+          "source": "新华社",
+          "title": "寻找照片中的TA丨在受降之城听见胜利回响",
+          "url": "https://www.news.cn/politics/20260815/ba618d97908b455cb9654f24335965c0/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "641da865b18901",
+          "source": "新华社",
+          "title": "巴勒斯坦谴责以方定居点“民事执法权”移交计划",
+          "url": "https://www.news.cn/20260815/d75bee36d70842df9efaef452fc75c38/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "427bdf37577565",
           "source": "新华社",
           "title": "德国北威州发生森林火灾",
@@ -71040,18 +71148,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d0e6a49b64bb44",
+          "id": "e314ddc2421d78",
           "source": "新华社",
-          "title": "新华社快讯：印尼弗洛勒斯岛附近海域发生7.7级地震",
-          "url": "https://www.news.cn/20260815/d6120df123dc4f1dad91feec2863bc03/c.html",
+          "title": "思想铸魂 法典护航——全国生态日看美丽中国实践",
+          "url": "https://www.news.cn/legal/20260815/c59b13ae920340d7abcb50d453b175af/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
         {
-          "id": "2bbac3584ef8f1",
+          "id": "615623596307c3",
           "source": "新华社",
-          "title": "新华社快讯：日本防卫大臣小泉进次郎参拜靖国神社",
-          "url": "https://www.news.cn/20260815/1c1059e131014b239db4ab6d08e11d98/c.html",
+          "title": "把北京建设得更美",
+          "url": "https://www.news.cn/politics/leaders/20260815/d587524c973744f5a327f5d71748c20b/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71064,10 +71172,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "30edd23af6b470",
+          "id": "b56f28f4fc847a",
           "source": "新华社",
-          "title": "日本防卫大臣参拜",
-          "url": "https://www.news.cn/world/20260815/aaad2db11f7245658aa195faee27b158/c.html",
+          "title": "日本一内阁大臣及自民党高层多人参拜靖国神社",
+          "url": "https://www.news.cn/20260815/1fd301465dd7471f9e8388c637864df5/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7c1bfcf1a4e7bb",
+          "source": "新华社",
+          "title": "日本防卫大臣小泉进次郎参拜靖国神社",
+          "url": "https://www.news.cn/20260815/b03ec383418c489a83780e4d4dcbbe94/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8d86e0fdc2d29d",
+          "source": "新华社",
+          "title": "普京致电金正恩：俄朝正在各方面积极合作",
+          "url": "https://www.news.cn/world/20260815/646c3c43cdd14fa386637bfdcccb625b/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71088,26 +71212,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "aba6bd01856b42",
-          "source": "新华社",
-          "title": "特朗普：击败伊朗后会宣布霍尔木兹海峡为美国领土",
-          "url": "https://www.news.cn/20260815/905802b853f44fdfa53acd97405a9883/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
           "id": "40faccd2c07423",
           "source": "新华社",
           "title": "生态环境法典正式施行",
           "url": "https://www.news.cn/legal/20260815/4d8bee3676e2434d849a39cad1226159/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "fc839633ae6c66",
-          "source": "新华社",
-          "title": "绿色承诺一以贯之",
-          "url": "https://www.news.cn/politics/leaders/20260815/130b782918c448b9ae0d954e07b12c4e/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71128,6 +71236,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "00936d430793cb",
+          "source": "新华社",
+          "title": "美国密歇根州发生枪击事件 6人死亡",
+          "url": "https://www.news.cn/20260815/6c8ccebbb8b3460e982df9dc3ec539f4/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "b91c567ef8af2a",
           "source": "新华社",
           "title": "胡塞武装称袭击沙特油企设施和也门政府军控制地区",
@@ -71136,10 +71252,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d5852b396d714e",
+          "id": "2acdf381326fbf",
           "source": "新华社",
           "title": "苏丹北科尔多凡州袭击致14名平民死亡",
-          "url": "https://www.news.cn/world/20260815/10e2decfa002439d88ce00f45bdf905d/c.html",
+          "url": "https://www.news.cn/20260815/74a11db437d342b2ad6e088480172787/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ca48ff32600fbd",
+          "source": "新华社",
+          "title": "赞比亚恢复大选计票",
+          "url": "https://www.news.cn/20260815/f4f06d8b859048808f3a574b9ef8fa6e/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71152,18 +71276,58 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "02ab8b39bcb58b",
+          "id": "98447f3c7d268c",
           "source": "新华社",
-          "title": "高市早苗向靖国神社供奉“玉串料”",
-          "url": "https://www.news.cn/world/20260815/6e76da810c984062a05a3b7cc097e8f5/c.html",
+          "title": "金正恩凭吊抗日革命烈士",
+          "url": "https://www.news.cn/20260815/933d2d7c30f145339f4eca58ad973b07/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
         {
-          "id": "3fde449b9563cf",
+          "id": "8b7fef432434ff",
+          "source": "新华社",
+          "title": "铸魂强党丨切实担负起管党治党政治责任",
+          "url": "https://www.news.cn/politics/leaders/20260815/7ee866857f7e4cdcab064477ef9faa59/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "718ba7cb4aed0b",
+          "source": "新华社",
+          "title": "阿联酋称一船只在霍尔木兹海峡遭袭",
+          "url": "https://www.news.cn/20260815/fcf77accadb64be6bba6a288e74d3221/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "91c245e9b636c7",
+          "source": "新华社",
+          "title": "高市早苗向靖国神社供奉“玉串料”",
+          "url": "https://www.news.cn/20260815/3027ae067fa149bbacde3749974ee92d/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "59b5df993f72b9",
           "source": "新华社",
           "title": "黎方要求明确以撤军时间 真主党重申拒绝框架协议",
-          "url": "https://www.news.cn/20260815/790dcf5689ae498d9816a4892b67accb/c.html",
+          "url": "https://www.news.cn/world/20260815/7f07207c6a604cb7806ea65732f57650/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "255d9c818657d1",
+          "source": "求是",
+          "title": "《求是》杂志评论员：以高质量供给拓展内需增长新空间",
+          "url": "https://www.qstheory.cn/20260815/0ee6a06742aa4efeb981384b58cb5736/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ffe86232227a11",
+          "source": "求是",
+          "title": "持续深化改革攻坚",
+          "url": "https://www.qstheory.cn/20260815/0ee6a06742aa4efeb981384b58cb5736/c.html、",
           "date": "2026-08-15",
           "keyword": "综合时政"
         }
@@ -71173,7 +71337,7 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.5,
+          "duration": 9.1,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260815.shtml"
         },
         {
@@ -71185,53 +71349,53 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "source": "新华社",
           "status": "ok",
-          "count": 26,
-          "duration": 2.4
+          "count": 39,
+          "duration": 1.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 11.9
+          "duration": 20.2
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 6.4
+          "count": 5,
+          "duration": 5.6
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.3
+          "duration": 1.9
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 11.1
+          "duration": 14.6
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.7
+          "duration": 2.9
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 0,
-          "duration": 10.5
+          "count": 1,
+          "duration": 8.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 56.3
+          "duration": 71.0
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-15T08:53:52+08:00"
+  "generatedAt": "2026-08-15T10:12:30+08:00"
 };
