@@ -71120,14 +71120,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "13ce2f148904a8",
-          "source": "新华社",
-          "title": "81年前的今天，日本投降了",
-          "url": "https://www.news.cn/world/20260815/368c01aae7b3432e922786c3d14ae23c/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
           "id": "473880961e4ac5",
           "source": "新华社",
           "title": "China Cool盛夏出圈丨老外在鲁赏山海访圣地品美食",
@@ -71192,14 +71184,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "5ccecca9a74a67",
-          "source": "新华社",
-          "title": "为什么我们要不断重温这段历史",
-          "url": "https://www.news.cn/politics/20260815/f5384b954ee04d41a339723ffc6ef524/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
           "id": "a6385196ef121e",
           "source": "新华社",
           "title": "为冰川做“立体CT” 解码冰川消融气候密码",
@@ -71220,6 +71204,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "从“守边”到“兴边” 新时代边海防建设高质量发展综述",
           "url": "https://www.news.cn/20260815/b09f385f1f17424092a74a24ee4e37d5/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6c0876e0fb8568",
+          "source": "新华社",
+          "title": "从雪域牧场到“村超”赛场：绿茵场上共叙“一家亲”",
+          "url": "https://www.news.cn/20260815/25542edbdc254e3eac11662228eb409e/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71280,6 +71272,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "5c6fed1ab1b7b5",
+          "source": "新华社",
+          "title": "印尼强震死亡人数升至47人",
+          "url": "https://www.news.cn/world/20260815/90c5a49f6363480aa414569e6e76cb84/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d9917dcbde9521",
           "source": "新华社",
           "title": "国防部就日本政要参拜靖国神社答问",
@@ -71304,14 +71304,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "cac03ad771df79",
-          "source": "新华社",
-          "title": "寻找照片中的TA丨在受降之城听见胜利回响",
-          "url": "https://www.news.cn/politics/20260815/ba618d97908b455cb9654f24335965c0/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
           "id": "b255d070994f05",
           "source": "新华社",
           "title": "尼日利亚各界人士热议中国对非零关税机遇",
@@ -71324,6 +71316,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "抓好农村基层组织建设",
           "url": "https://www.news.cn/politics/leaders/20260815/2ce88ec0908c4965a3fc67e8118bef2e/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1323d2063fa55e",
+          "source": "新华社",
+          "title": "投降日“拜鬼”，日本执政当局死抱军国主义执念",
+          "url": "https://www.news.cn/world/20260815/492bd1d073924ebd8dbdeeb8df8239b5/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71372,6 +71372,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "智库报告解析生态环境法典的中国创新与世界贡献",
           "url": "https://www.news.cn/20260815/ebe0dee125a644009491f8bd8fce4e36/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b41ce654688471",
+          "source": "新华社",
+          "title": "暑期荆楚文博热 少年寻踪文脉间",
+          "url": "https://www.news.cn/photo/20260815/9556e78d36ca413294d299cdfb3e31a2/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71456,14 +71464,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "043b2411d5d897",
-          "source": "新华社",
-          "title": "碎片化运动变成无效努力？避开误区，才能动得健康",
-          "url": "https://www.news.cn/local/20260815/be65e3c4b48446d999391ec3e20d74cb/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
           "id": "ed912b7d26b8a2",
           "source": "新华社",
           "title": "神奇吗？“喂养”热带雨林的竟是沙漠？",
@@ -71480,10 +71480,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a2b2ef46f30abc",
+          "id": "1aebc47711a86c",
           "source": "新华社",
-          "title": "美国弗吉尼亚州立大学发生枪击事件 多人中枪",
-          "url": "https://www.news.cn/world/20260815/cd96875bac2e44c0a91f23e5bc790d3b/c.html",
+          "title": "若尔盖湿地：生态修复成效显著",
+          "url": "https://www.news.cn/photo/20260815/204bb6700259460cb7305f736763d67e/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71683,59 +71683,58 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "status": "ok",
           "count": 23,
-          "duration": 2.9
+          "duration": 2.6
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.6
+          "duration": 2.1
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 20.2
+          "duration": 21.9
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 7,
-          "duration": 6.0
+          "duration": 5.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.9
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 1,
-          "duration": 12.4
+          "duration": 14.1
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 3,
-          "duration": 2.4
+          "duration": 2.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 4,
-          "duration": 9.3
+          "duration": 10.9
         },
         {
           "source": "广东发布",
-          "status": "stale",
+          "status": "ok",
           "count": 2,
-          "duration": 22.3,
-          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+          "duration": 64.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-15T21:26:13+08:00"
+  "generatedAt": "2026-08-15T22:17:26+08:00"
 };
