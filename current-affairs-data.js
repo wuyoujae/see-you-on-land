@@ -70579,7 +70579,7 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "习近平",
-          "count": 10
+          "count": 11
         },
         {
           "name": "经济",
@@ -70604,6 +70604,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "中国政府网",
           "title": "习近平：提高防灾减灾救灾能力",
           "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7078121.htm",
+          "date": "2026-08-15",
+          "keyword": "习近平"
+        },
+        {
+          "id": "1cd3428d8dae36",
+          "source": "中国政府网",
+          "title": "纪念江泽民同志诞辰100周年大会17日上午在京隆重举行 习近平将出席大会并发表重要讲话",
+          "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7078133.htm",
           "date": "2026-08-15",
           "keyword": "习近平"
         },
@@ -70664,10 +70672,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
-          "id": "cb5fe2bb709c1a",
+          "id": "0661c8c4063074",
           "source": "求是",
-          "title": "习近平生态文明思想引领美丽中国建设谱新篇",
-          "url": "https://www.qstheory.cn/20260815/817842f2345f42d398db53bb7d966a6f/c.html",
+          "title": "纪念江泽民同志诞辰100周年大会17日上午在京隆重举行 习近平将出席大会并发表重要讲话",
+          "url": "https://www.qstheory.cn/20260815/9e6b5202999d4dea93dabdbb4e17d3c1/c.html",
           "date": "2026-08-15",
           "keyword": "习近平"
         },
@@ -71128,14 +71136,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "93ef7bbe96a17b",
-          "source": "新华社",
-          "title": "Vlog丨打卡2026上海书展，看阅读如何数智焕新",
-          "url": "https://www.news.cn/20260815/ffd1282878da4d848ca558a9395f623f/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
           "id": "736a8b8c7bb5cd",
           "source": "新华社",
           "title": "WTT欧洲大满贯赛瑞典站：王曼昱晋级女单四强",
@@ -71264,14 +71264,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8c501b3b60d770",
-          "source": "新华社",
-          "title": "加拿大媒体：加美关税谈判陷入僵局",
-          "url": "https://www.news.cn/world/20260815/40efcb112fa4442d824cbca62dd86563/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
           "id": "cf331c0882f8b4",
           "source": "新华社",
           "title": "南京大屠杀再添新证",
@@ -71392,10 +71384,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "c9161fd0ed28bc",
+          "id": "b67eb77a7bf530",
           "source": "新华社",
-          "title": "武汉大学团队获马来西亚首个国外考古发掘执照",
-          "url": "https://education.news.cn/20260815/edcfc92bd1f24f7a8e4fc9303a60bf95/c.html",
+          "title": "河南周口贾鲁河堤坝溃口顺利合龙",
+          "url": "https://www.news.cn/local/20260815/844bd853c61048a8ade082bcedf51ebd/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71404,6 +71396,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "淮河防总、淮委调整淮河流域应急响应",
           "url": "https://www.news.cn/local/20260815/2bda7fea261b486c97b4fdb0b56d2995/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8110cb0414c085",
+          "source": "新华社",
+          "title": "湖南怀化：箱包“出海记”",
+          "url": "https://www.news.cn/20260815/99811b3b70cf4e4ba142fd6ee6e3ddd5/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71464,6 +71464,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "ed912b7d26b8a2",
+          "source": "新华社",
+          "title": "神奇吗？“喂养”热带雨林的竟是沙漠？",
+          "url": "https://www.news.cn/20260815/5c53cdd5db234916a5f98539e4dd6c51/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "2e3cf3c19d9e96",
           "source": "新华社",
           "title": "第32届萨拉热窝电影节开幕",
@@ -71472,10 +71480,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "4f21957fffc910",
+          "id": "a2b2ef46f30abc",
           "source": "新华社",
-          "title": "网上煽动二次“闯关”休达 西班牙军警严阵以待",
-          "url": "https://www.news.cn/world/20260815/609567f41835425cb25d852d69979028/c.html",
+          "title": "美国弗吉尼亚州立大学发生枪击事件 多人中枪",
+          "url": "https://www.news.cn/world/20260815/cd96875bac2e44c0a91f23e5bc790d3b/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71669,37 +71677,37 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "ok",
           "count": 13,
-          "duration": 0.9
+          "duration": 0.6
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 23,
-          "duration": 3.4
+          "duration": 2.9
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.2
+          "duration": 2.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 36.4
+          "duration": 20.2
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 7,
-          "duration": 7.0
+          "duration": 6.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 5.9
+          "duration": 1.9
         },
         {
           "source": "南方周末",
@@ -71711,22 +71719,23 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "学习强国",
           "status": "ok",
           "count": 3,
-          "duration": 3.2
+          "duration": 2.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 3,
-          "duration": 12.0
+          "count": 4,
+          "duration": 9.3
         },
         {
           "source": "广东发布",
-          "status": "ok",
+          "status": "stale",
           "count": 2,
-          "duration": 37.5
+          "duration": 22.3,
+          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-15T20:25:32+08:00"
+  "generatedAt": "2026-08-15T21:26:13+08:00"
 };
