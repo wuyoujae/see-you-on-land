@@ -71136,22 +71136,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a414e96aaff66e",
-          "source": "新华社",
-          "title": "一根翠竹延伸的产业链",
-          "url": "https://www.news.cn/local/20260815/0ef5022bb03e4f989caa0d99aff13b9a/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "5c89791ae1c747",
-          "source": "新华社",
-          "title": "两部门将针对江苏的防汛应急响应提升至三级",
-          "url": "https://www.news.cn/politics/20260815/8defa7d7daf04c7484e7729ead5198fa/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
           "id": "a937cc39bf3dc9",
           "source": "新华社",
           "title": "中国人民抗日战争纪念馆举办“赓续胜利荣光”主题社教活动",
@@ -71164,14 +71148,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "中国向哥伦比亚提供紧急人道主义地震救灾援助",
           "url": "https://www.news.cn/20260815/3e635c43873341aea7cae1f024f923a3/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "54899b37761774",
-          "source": "新华社",
-          "title": "中国驻埃及大使馆：《开罗宣言》纪念碑对公众开放",
-          "url": "https://www.news.cn/world/20260815/7062e6088d5047e28dae168fe4c039f0/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71194,16 +71170,16 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "5cc0fdd4ba7b60",
           "source": "新华社",
-          "title": "产业发展开新局丨记者手记：透过外贸成绩看园区赋能",
+          "title": "产业发展开新局丨透过外贸成绩看苏州工业园区赋能",
           "url": "https://www.news.cn/fortune/20260815/dcb3dfb929204faead1088c2a9145769/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
         {
-          "id": "e3f5b5ce274949",
+          "id": "984f26a6d23256",
           "source": "新华社",
-          "title": "今年前7月全国铁路发送旅客28亿人次 创同期新高",
-          "url": "https://www.news.cn/fortune/20260815/ad4bdddbb8e345dcaf55f349f67678a0/c.html",
+          "title": "从“守边”到“兴边” 新时代边海防建设高质量发展综述",
+          "url": "https://www.news.cn/20260815/b09f385f1f17424092a74a24ee4e37d5/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71244,6 +71220,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "全国生态日｜昼夜穿行高黎贡 看见万物共生的云南",
           "url": "http://yn.news.cn/20260815/c37d40828ef248a9bc3bd2e56819bc0c/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3e6fa7451b5522",
+          "source": "新华社",
+          "title": "全国首例适用生态环境法典审理的案件在浙江衢州宣判",
+          "url": "https://www.news.cn/legal/20260815/1ef7f5223ce04b6eb7e9fbe90e948683/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71408,10 +71392,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "8297dfa57c54df",
+          "source": "新华社",
+          "title": "淮河防总、淮委调整淮河流域应急响应",
+          "url": "https://www.news.cn/local/20260815/2bda7fea261b486c97b4fdb0b56d2995/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1be0925140a0b9",
           "source": "新华社",
           "title": "澳研究人员利用干细胞培育出人类心脏瓣膜组织",
           "url": "https://www.news.cn/20260815/4d86f7e1917748d6b19da9826f33f2d9/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b21be1b576e43f",
+          "source": "新华社",
+          "title": "特朗普想要霍尔木兹海峡，能实现吗？",
+          "url": "https://www.news.cn/20260815/e41d2e3b0a2c45fd97fb3143d0fe064c/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71472,10 +71472,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "aa9dc92daad376",
+          "id": "8d5fd52a5a9748",
           "source": "新华社",
-          "title": "精神昆仑，生命约定——对话作家 毕淑敏",
-          "url": "https://www.news.cn/politics/20260815/8506e4a931254d7c97c581a20451925f/c.html",
+          "title": "追光丨在山野间，感受雪场的新浪漫",
+          "url": "https://www.news.cn/20260815/483c9622bc0f4351969f43a90e3e478e/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71565,65 +71565,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 12.0,
+          "duration": 12.8,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260815.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 23,
-          "duration": 1.5
+          "duration": 2.4
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.2
+          "duration": 3.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 14.4
+          "duration": 28.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 7,
-          "duration": 6.1
+          "duration": 6.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.7
+          "duration": 2.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 1,
-          "duration": 12.6
+          "duration": 13.2
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 3,
-          "duration": 2.6
+          "duration": 3.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 8.6
+          "duration": 10.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 76.8
+          "duration": 60.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-15T18:17:58+08:00"
+  "generatedAt": "2026-08-15T19:16:07+08:00"
 };
