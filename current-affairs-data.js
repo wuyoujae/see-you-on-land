@@ -71677,64 +71677,64 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "ok",
           "count": 13,
-          "duration": 0.6
+          "duration": 0.5
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 23,
-          "duration": 2.6
+          "duration": 1.8
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.1
+          "duration": 2.4
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 21.9
+          "duration": 23.8
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 7,
-          "duration": 5.7
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 2.0
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 1,
-          "duration": 14.1
+          "duration": 13.1
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 3,
-          "duration": 2.7
+          "duration": 2.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 4,
-          "duration": 10.9
+          "duration": 8.9
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 64.3
+          "duration": 63.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-15T22:17:26+08:00"
+  "generatedAt": "2026-08-15T23:15:37+08:00"
 };
