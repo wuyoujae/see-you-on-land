@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#ffffff">
   <title>暑假时政学习清单</title>
-  <link rel="stylesheet" href="clock.css?v=20260815-1">
+  <link rel="stylesheet" href="clock.css?v=20260815-2">
   <style>
     :root {
       --bg: #ffffff;
@@ -1120,10 +1120,30 @@
               <article class="live-clock-card clock-mode-card" data-clock-mode="clock" aria-label="当前时间与学习计时器">
                 <button type="button" class="live-clock" id="live-clock" aria-label="切换时间显示格式">00:00</button>
                 <p class="clock-format-hint">当前时间</p>
-                <label class="study-subject-picker" for="study-subject">
-                  <span>本次学习科目</span>
-                  <input id="study-subject" type="text" list="study-subject-options" maxlength="30" autocomplete="off" placeholder="请选择或输入科目" required>
-                </label>
+                <div class="study-subject-picker">
+                  <label for="study-subject">本次学习科目</label>
+                  <div class="study-subject-control">
+                    <select id="study-subject" required>
+                      <option value="">请选择科目</option>
+                      <option value="政治理论">政治理论</option>
+                      <option value="常识判断">常识判断</option>
+                      <option value="言语理解与表达">言语理解与表达</option>
+                      <option value="选词填空">选词填空</option>
+                      <option value="片段阅读">片段阅读</option>
+                      <option value="语句表达">语句表达</option>
+                      <option value="数量关系">数量关系</option>
+                      <option value="数字推理">数字推理</option>
+                      <option value="判断推理">判断推理</option>
+                      <option value="图形推理">图形推理</option>
+                      <option value="逻辑判断">逻辑判断</option>
+                      <option value="科学推理">科学推理</option>
+                      <option value="资料分析">资料分析</option>
+                      <option value="申论">申论</option>
+                      <option value="__custom__">其他（自定义）</option>
+                    </select>
+                    <input id="study-custom-subject" type="text" maxlength="30" autocomplete="off" placeholder="输入自定义科目" aria-label="自定义学习科目" hidden>
+                  </div>
+                </div>
                 <div class="active-elapsed" id="active-elapsed" hidden>本次学习 00:00</div>
                 <div class="timer-actions" id="timer-actions">
                   <button type="button" class="study-start-button" id="start-study"><i data-lucide="play" aria-hidden="true"></i><span>开始学习！</span></button>
@@ -1176,22 +1196,6 @@
             </div>
           </div>
           <input class="study-record-file" id="study-record-file" type="file" accept="application/json,.json" aria-label="选择学习记录文件">
-          <datalist id="study-subject-options">
-            <option value="政治理论"></option>
-            <option value="常识判断"></option>
-            <option value="言语理解与表达"></option>
-            <option value="选词填空"></option>
-            <option value="片段阅读"></option>
-            <option value="语句表达"></option>
-            <option value="数量关系"></option>
-            <option value="数字推理"></option>
-            <option value="判断推理"></option>
-            <option value="图形推理"></option>
-            <option value="逻辑判断"></option>
-            <option value="科学推理"></option>
-            <option value="资料分析"></option>
-            <option value="申论"></option>
-          </datalist>
           <p class="study-record-transfer-status" id="study-record-transfer-status" role="status" aria-live="polite" hidden></p>
           <div class="study-record-list" id="study-record-list"></div>
         </section>
@@ -1263,7 +1267,27 @@
         </header>
         <form id="timer-edit-form">
           <input type="hidden" id="edit-record-id">
-          <label>学习科目<input type="text" id="edit-record-subject" list="study-subject-options" maxlength="30" autocomplete="off" required></label>
+          <label>学习科目
+            <select id="edit-record-subject" required>
+              <option value="">请选择科目</option>
+              <option value="政治理论">政治理论</option>
+              <option value="常识判断">常识判断</option>
+              <option value="言语理解与表达">言语理解与表达</option>
+              <option value="选词填空">选词填空</option>
+              <option value="片段阅读">片段阅读</option>
+              <option value="语句表达">语句表达</option>
+              <option value="数量关系">数量关系</option>
+              <option value="数字推理">数字推理</option>
+              <option value="判断推理">判断推理</option>
+              <option value="图形推理">图形推理</option>
+              <option value="逻辑判断">逻辑判断</option>
+              <option value="科学推理">科学推理</option>
+              <option value="资料分析">资料分析</option>
+              <option value="申论">申论</option>
+              <option value="__custom__">其他（自定义）</option>
+            </select>
+          </label>
+          <label id="edit-custom-subject-wrap" hidden>自定义科目<input type="text" id="edit-custom-subject" maxlength="30" autocomplete="off"></label>
           <label>开始时间<input type="datetime-local" id="edit-record-start" required></label>
           <label>结束时间<input type="datetime-local" id="edit-record-end" required></label>
           <label>有效学习分钟<input type="number" id="edit-record-minutes" min="1" max="1440" step="1" required></label>
@@ -1730,7 +1754,7 @@
       refreshIcons();
     })();
   </script>
-  <script src="clock.js?v=20260815-1"></script>
+  <script src="clock.js?v=20260815-2"></script>
   <script src="backup.js?v=20260815-1"></script>
 </body>
 </html>

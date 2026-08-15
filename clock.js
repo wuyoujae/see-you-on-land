@@ -6,6 +6,11 @@
   const CLOCK_FORMAT_KEY = "summer-politics-clock-seconds-v1";
   const QUESTION_TIMER_KEY = "summer-politics-question-timer-v1";
   const LAST_SUBJECT_KEY = "summer-politics-last-study-subject-v1";
+  const CUSTOM_SUBJECT_VALUE = "__custom__";
+  const PRESET_SUBJECTS = new Set([
+    "政治理论", "常识判断", "言语理解与表达", "选词填空", "片段阅读", "语句表达",
+    "数量关系", "数字推理", "判断推理", "图形推理", "逻辑判断", "科学推理", "资料分析", "申论"
+  ]);
   const QUESTION_RING_MS = 7000;
   const DAY_MS = 86400000;
 
@@ -58,11 +63,14 @@
     editForm: document.getElementById("timer-edit-form"),
     editId: document.getElementById("edit-record-id"),
     editSubject: document.getElementById("edit-record-subject"),
+    editCustomSubject: document.getElementById("edit-custom-subject"),
+    editCustomSubjectWrap: document.getElementById("edit-custom-subject-wrap"),
     editStart: document.getElementById("edit-record-start"),
     editEnd: document.getElementById("edit-record-end"),
     editMinutes: document.getElementById("edit-record-minutes"),
     formError: document.getElementById("timer-form-error"),
     studySubject: document.getElementById("study-subject"),
+    studyCustomSubject: document.getElementById("study-custom-subject"),
     questionCount: document.getElementById("question-count"),
     questionMinutes: document.getElementById("question-minutes"),
     questionProgressWrap: document.getElementById("question-progress-wrap"),
@@ -118,6 +126,50 @@
 
   function normalizeSubject(value) {
     return String(value ?? "").trim().replace(/\s+/g, " ").slice(0, 30);
+  }
+
+  function selectedSubject(select, customInput) {
+    return select.value === CUSTOM_SUBJECT_VALUE ? normalizeSubject(customInput.value) : normalizeSubject(select.value);
+  }
+
+  function toggleCustomSubject(select, customInput, customWrap = null, focus = false) {
+    const custom = select.value === CUSTOM_SUBJECT_VALUE;
+    if (customWrap) customWrap.hidden = !custom;
+    else customInput.hidden = !custom;
+    customInput.required = custom;
+    if (custom && focus) requestAnimationFrame(() => customInput.focus());
+  }
+
+  function setSubjectControls(select, customInput, subject, customWrap = null) {
+    const normalized = normalizeSubject(subject);
+    if (!normalized) {
+      select.value = "";
+      customInput.value = "";
+    } else if (PRESET_SUBJECTS.has(normalized)) {
+      select.value = normalized;
+      customInput.value = "";
+    } else {
+      select.value = CUSTOM_SUBJECT_VALUE;
+      customInput.value = normalized;
+    }
+    toggleCustomSubject(select, customInput, customWrap);
+  }
+
+  function validateSubjectControls(select, customInput) {
+    select.setCustomValidity("");
+    customInput.setCustomValidity("");
+    if (!select.value) {
+      select.setCustomValidity("请选择本次学习科目");
+      select.reportValidity();
+      return "";
+    }
+    const subject = selectedSubject(select, customInput);
+    if (!subject) {
+      customInput.setCustomValidity("请输入自定义学习科目");
+      customInput.reportValidity();
+      return "";
+    }
+    return subject;
   }
 
   function saveSessions() {
@@ -342,12 +394,19 @@
     dom.fullscreenQuestionProgress.style.strokeDashoffset = strokeOffset;
     dom.questionProgressWrap.classList.toggle("completed", questionTimer.status === "completed");
     dom.fullscreenQuestionProgressWrap.classList.toggle("completed", questionTimer.status === "completed");
+    const countdownText = questionCountdown(remainingMs);
+    const veryLongCountdown = countdownText.length > 8;
+    const longCountdown = countdownText.length > 5;
     dom.questionProgressLabel.textContent = progressLabel;
-    dom.questionTimeLeft.textContent = questionCountdown(remainingMs);
+    dom.questionTimeLeft.textContent = countdownText;
+    dom.questionTimeLeft.classList.toggle("countdown-long", longCountdown);
+    dom.questionTimeLeft.classList.toggle("countdown-very-long", veryLongCountdown);
     dom.questionRoundStatus.textContent = statusLabel;
     dom.fullscreenQuestionRemaining.textContent = String(questionTimer.totalQuestions);
     dom.fullscreenQuestionLabel.textContent = progressLabel;
-    dom.fullscreenQuestionTime.textContent = questionCountdown(remainingMs);
+    dom.fullscreenQuestionTime.textContent = countdownText;
+    dom.fullscreenQuestionTime.classList.toggle("countdown-long", longCountdown);
+    dom.fullscreenQuestionTime.classList.toggle("countdown-very-long", veryLongCountdown);
     dom.fullscreenQuestionStatus.textContent = fullscreenStatus;
     dom.questionStart.hidden = locked;
     dom.questionStart.querySelector("span").textContent = questionTimer.status === "completed" ? "再来一轮" : "开始做题";
@@ -624,11 +683,13 @@
   function renderTimerControls() {
     if (!activeSession) {
       dom.studySubject.disabled = false;
+      dom.studyCustomSubject.disabled = false;
       dom.activeElapsed.hidden = true;
       dom.timerActions.innerHTML = '<button type="button" class="study-start-button" id="start-study"><i data-lucide="play" aria-hidden="true"></i><span>开始学习！</span></button>';
     } else {
-      dom.studySubject.value = normalizeSubject(activeSession.subject) || "未分类";
+      setSubjectControls(dom.studySubject, dom.studyCustomSubject, normalizeSubject(activeSession.subject) || "未分类");
       dom.studySubject.disabled = true;
+      dom.studyCustomSubject.disabled = true;
       dom.activeElapsed.hidden = false;
       const paused = activeSession.status === "paused";
       dom.timerActions.innerHTML = `
@@ -641,14 +702,8 @@
 
   function startStudy() {
     if (activeSession) return;
-    const subject = normalizeSubject(dom.studySubject.value);
-    if (!subject) {
-      dom.studySubject.setCustomValidity("请选择或输入本次学习科目");
-      dom.studySubject.reportValidity();
-      dom.studySubject.focus();
-      return;
-    }
-    dom.studySubject.setCustomValidity("");
+    const subject = validateSubjectControls(dom.studySubject, dom.studyCustomSubject);
+    if (!subject) return;
     localStorage.setItem(LAST_SUBJECT_KEY, subject);
     const now = Date.now();
     activeSession = { id: `active-${now}`, subject, startedAt: now, resumedAt: now, accumulatedMs: 0, status: "running" };
@@ -844,7 +899,7 @@
     const record = sessions.find(item => item.id === recordId);
     if (!record) return;
     dom.editId.value = record.id;
-    dom.editSubject.value = normalizeSubject(record.subject) || "未分类";
+    setSubjectControls(dom.editSubject, dom.editCustomSubject, normalizeSubject(record.subject) || "未分类", dom.editCustomSubjectWrap);
     dom.editStart.value = inputDateTime(record.start);
     dom.editEnd.value = inputDateTime(record.end);
     dom.editMinutes.value = Math.max(1, Math.round(record.durationMs / 60000));
@@ -861,7 +916,7 @@
   function saveEdit(event) {
     event.preventDefault();
     const record = sessions.find(item => item.id === dom.editId.value);
-    const subject = normalizeSubject(dom.editSubject.value);
+    const subject = validateSubjectControls(dom.editSubject, dom.editCustomSubject);
     const start = new Date(dom.editStart.value).getTime();
     const end = new Date(dom.editEnd.value).getTime();
     const minutes = Number(dom.editMinutes.value);
@@ -1085,16 +1140,27 @@
   dom.recordExport.addEventListener("click", exportStudyRecords);
   dom.recordImport.addEventListener("click", () => dom.recordFile.click());
   dom.recordFile.addEventListener("change", () => importStudyRecords(dom.recordFile.files[0]));
-  dom.studySubject.addEventListener("input", () => {
+  dom.studySubject.addEventListener("change", () => {
     dom.studySubject.setCustomValidity("");
-    const subject = normalizeSubject(dom.studySubject.value);
+    toggleCustomSubject(dom.studySubject, dom.studyCustomSubject, null, true);
+    const subject = selectedSubject(dom.studySubject, dom.studyCustomSubject);
     if (subject && !activeSession) localStorage.setItem(LAST_SUBJECT_KEY, subject);
   });
+  dom.studyCustomSubject.addEventListener("input", () => {
+    dom.studyCustomSubject.setCustomValidity("");
+    const subject = selectedSubject(dom.studySubject, dom.studyCustomSubject);
+    if (subject && !activeSession) localStorage.setItem(LAST_SUBJECT_KEY, subject);
+  });
+  dom.editSubject.addEventListener("change", () => {
+    dom.editSubject.setCustomValidity("");
+    toggleCustomSubject(dom.editSubject, dom.editCustomSubject, dom.editCustomSubjectWrap, true);
+  });
+  dom.editCustomSubject.addEventListener("input", () => dom.editCustomSubject.setCustomValidity(""));
   window.addEventListener("pagehide", stopQuestionBell);
 
   if (!Array.isArray(sessions)) sessions = [];
   if (activeSession && (!activeSession.startedAt || !["running", "paused"].includes(activeSession.status))) activeSession = null;
-  dom.studySubject.value = normalizeSubject(activeSession?.subject || localStorage.getItem(LAST_SUBJECT_KEY));
+  setSubjectControls(dom.studySubject, dom.studyCustomSubject, activeSession?.subject || localStorage.getItem(LAST_SUBJECT_KEY));
   advanceQuestionTimer();
   renderTimeline();
   renderRecords();
