@@ -70579,7 +70579,7 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "习近平",
-          "count": 9
+          "count": 10
         },
         {
           "name": "经济",
@@ -70636,6 +70636,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "《求是》杂志发表习近平总书记重要文章",
           "url": "https://www.news.cn/politics/leaders/20260815/854323230b14483b8d12e7d4490d1fe3/c.html",
+          "date": "2026-08-15",
+          "keyword": "习近平"
+        },
+        {
+          "id": "acef5e98714a4a",
+          "source": "新华社",
+          "title": "纪念江泽民同志诞辰100周年大会17日上午在京隆重举行 习近平将出席大会并发表重要讲话",
+          "url": "https://www.news.cn/politics/leaders/20260815/ffb1de28745445ed93283ca80b80a090/c.html",
           "date": "2026-08-15",
           "keyword": "习近平"
         },
@@ -71088,6 +71096,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "e95b55e6afc48c",
+          "source": "新华社",
+          "title": "2名中国公民受轻伤",
+          "url": "https://www.news.cn/20260815/809d83ccfecc4b83bde2102e596a8297/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "f6d41392f7234a",
           "source": "新华社",
           "title": "731部队“活体解剖”部门私人相册首次被发现",
@@ -71108,6 +71124,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "China Cool盛夏出圈丨老外在鲁赏山海访圣地品美食",
           "url": "https://www.news.cn/world/20260815/e52c9f9a68214c5ebc7fbd3e54ef6c43/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "93ef7bbe96a17b",
+          "source": "新华社",
+          "title": "Vlog丨打卡2026上海书展，看阅读如何数智焕新",
+          "url": "https://www.news.cn/20260815/ffd1282878da4d848ca558a9395f623f/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "736a8b8c7bb5cd",
+          "source": "新华社",
+          "title": "WTT欧洲大满贯赛瑞典站：王曼昱晋级女单四强",
+          "url": "https://www.news.cn/20260815/054d1a8a17ad4465a18091e0b11c0f21/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71148,6 +71180,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "中国向哥伦比亚提供紧急人道主义地震救灾援助",
           "url": "https://www.news.cn/20260815/3e635c43873341aea7cae1f024f923a3/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "54899b37761774",
+          "source": "新华社",
+          "title": "中国驻埃及大使馆：《开罗宣言》纪念碑对公众开放",
+          "url": "https://www.news.cn/world/20260815/7062e6088d5047e28dae168fe4c039f0/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71216,18 +71256,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "5fdbf16708fad2",
+          "id": "3e6fa7451b5522",
           "source": "新华社",
-          "title": "全国生态日｜昼夜穿行高黎贡 看见万物共生的云南",
-          "url": "http://yn.news.cn/20260815/c37d40828ef248a9bc3bd2e56819bc0c/c.html",
+          "title": "全国首例适用生态环境法典审理的案件在衢州宣判",
+          "url": "https://www.news.cn/legal/20260815/1ef7f5223ce04b6eb7e9fbe90e948683/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
         {
-          "id": "3e6fa7451b5522",
+          "id": "8c501b3b60d770",
           "source": "新华社",
-          "title": "全国首例适用生态环境法典审理的案件在浙江衢州宣判",
-          "url": "https://www.news.cn/legal/20260815/1ef7f5223ce04b6eb7e9fbe90e948683/c.html",
+          "title": "加拿大媒体：加美关税谈判陷入僵局",
+          "url": "https://www.news.cn/world/20260815/40efcb112fa4442d824cbca62dd86563/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71248,26 +71288,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "217fd056b141fc",
-          "source": "新华社",
-          "title": "嘱托为笔，绘天地国色",
-          "url": "https://www.news.cn/politics/leaders/20260815/c2c3a5cc9c8e46e68b4ee3edf96a7d50/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "d9cd2236a694ff",
+          "id": "d9917dcbde9521",
           "source": "新华社",
           "title": "国防部就日本政要参拜靖国神社答问",
-          "url": "https://www.news.cn/politics/20260815/bdd46e2be4274fecb7f51025215b26ed/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "cdb310f42b56d4",
-          "source": "新华社",
-          "title": "多趟境内航班被取消",
-          "url": "https://www.news.cn/world/20260815/9efab120c0c94fa0968b57088b45dd62/c.html",
+          "url": "https://www.news.cn/world/20260815/d2a74c18b90c4b9d89cf5e390c8622f5/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71288,14 +71312,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "fc839633ae6c66",
-          "source": "新华社",
-          "title": "学习新语丨绿色承诺一以贯之",
-          "url": "https://www.news.cn/politics/leaders/20260815/130b782918c448b9ae0d954e07b12c4e/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
           "id": "cac03ad771df79",
           "source": "新华社",
           "title": "寻找照片中的TA丨在受降之城听见胜利回响",
@@ -71308,14 +71324,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "尼日利亚各界人士热议中国对非零关税机遇",
           "url": "https://www.news.cn/20260815/2855b8b1ceb74b01b4bdcda23633e7df/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "615623596307c3",
-          "source": "新华社",
-          "title": "把北京建设得更美",
-          "url": "https://www.news.cn/politics/leaders/20260815/d587524c973744f5a327f5d71748c20b/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71368,6 +71376,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "3d686141516766",
+          "source": "新华社",
+          "title": "智库报告解析生态环境法典的中国创新与世界贡献",
+          "url": "https://www.news.cn/20260815/ebe0dee125a644009491f8bd8fce4e36/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "6de927fbd0896e",
           "source": "新华社",
           "title": "最高检：以高质效办案促进生态环境法典实施",
@@ -71380,14 +71396,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "武汉大学团队获马来西亚首个国外考古发掘执照",
           "url": "https://education.news.cn/20260815/edcfc92bd1f24f7a8e4fc9303a60bf95/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "c3f9b9837bef04",
-          "source": "新华社",
-          "title": "活力中国调研行丨湖南张家界：多元业态激活暑期文旅活力",
-          "url": "https://www.news.cn/photo/20260815/f895d7598d494401b284891fd58934fc/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71464,10 +71472,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "6a5081e163e851",
+          "id": "4f21957fffc910",
           "source": "新华社",
-          "title": "答案写在山河之间",
-          "url": "https://www.news.cn/politics/20260815/b8e8d942630841d19c5fd3e61df938b3/c.html",
+          "title": "网上煽动二次“闯关”休达 西班牙军警严阵以待",
+          "url": "https://www.news.cn/world/20260815/609567f41835425cb25d852d69979028/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71536,10 +71544,106 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d1e708d3d44d47",
-          "source": "新华社",
-          "title": "香港各界积极为香港首个五年规划建言献策",
-          "url": "https://www.news.cn/gangao/20260815/bd4ae02a7fbb4c5eb8f9ec34284355a8/c.html",
+          "id": "1cb4f470da1196",
+          "source": "新闻联播",
+          "title": "《新闻联播》 20260815 19:00",
+          "url": "https://tv.cctv.com/2026/08/15/VIDEPgszGviTgYypy1wtbkPG260815.shtml",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bfde9fdc72ae48",
+          "source": "新闻联播",
+          "title": "【凝心聚力 真抓实干 奋力实现“十五五”良好开局】北京建设历史文化名城 让保护与发展相融共生",
+          "url": "https://tv.cctv.com/2026/08/15/VIDEqwFAzvZGVd6CbsUcKFAR260815.shtml",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4cb22c46d606cd",
+          "source": "新闻联播",
+          "title": "【新思想引领新征程】法治护航美丽中国建设 筑牢中华民族永续发展生态根基",
+          "url": "https://tv.cctv.com/2026/08/15/VIDE7WEGk17RZci8pxUWnIZK260815.shtml",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0c3c22d9696cd1",
+          "source": "新闻联播",
+          "title": "【新闻特写】中国，我还会再来！",
+          "url": "https://tv.cctv.com/2026/08/15/VIDEvuouIsGeGQnqrJI4NqAs260815.shtml",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c3287f1eec4fc7",
+          "source": "新闻联播",
+          "title": "各地创新举措 推进完整社区建设",
+          "url": "https://tv.cctv.com/2026/08/15/VIDEJk2LIiALVv8UxOZjxwZ0260815.shtml",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fefe1c142147d6",
+          "source": "新闻联播",
+          "title": "国内联播快讯",
+          "url": "https://tv.cctv.com/2026/08/15/VIDEpetCqbixbGMW31pgK8pV260815.shtml",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d8c6cff49b731f",
+          "source": "新闻联播",
+          "title": "国际人士批评日本歪曲历史 加速“再军事化”等危险举动",
+          "url": "https://tv.cctv.com/2026/08/15/VIDEmI1ENHQIKOt4rRKN0wDW260815.shtml",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0e95a068382a72",
+          "source": "新闻联播",
+          "title": "国际联播快讯",
+          "url": "https://tv.cctv.com/2026/08/15/VIDEPvk8hzxApfSiiOrMC9Eb260815.shtml",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "41b6ebcfd37ccb",
+          "source": "新闻联播",
+          "title": "多地出现强降雨天气 防汛救灾加紧进行",
+          "url": "https://tv.cctv.com/2026/08/15/VIDEPuPDI7L2MZTyWvRAIf5K260815.shtml",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ec9a96bd45cc8d",
+          "source": "新闻联播",
+          "title": "我国多措并举加快绿色低碳发展",
+          "url": "https://tv.cctv.com/2026/08/15/VIDEMmrl3ZG7JAYbAdKdJDqh260815.shtml",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bd75c7d568afa6",
+          "source": "新闻联播",
+          "title": "文献纪录片《江泽民》今晚继续播出",
+          "url": "https://tv.cctv.com/2026/08/15/VIDENjISEHFm5KywcI62bXax260815.shtml",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "17d461a42c6827",
+          "source": "新闻联播",
+          "title": "日本无条件投降81周年 各地举行活动铭记历史缅怀先烈",
+          "url": "https://tv.cctv.com/2026/08/15/VIDEZsFjsuHdMOLKTfLsOd2G260815.shtml",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "74f3cb105026fe",
+          "source": "新闻联播",
+          "title": "日本民众举行集会 敦促日本政府反省侵略战争罪行",
+          "url": "https://tv.cctv.com/2026/08/15/VIDE1xVUMZV5fNO4ERr5mTtT260815.shtml",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71563,46 +71667,45 @@ window.CURRENT_AFFAIRS_DATA = {
       "sourceStatus": [
         {
           "source": "新闻联播",
-          "status": "error",
-          "count": 0,
-          "duration": 12.8,
-          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260815.shtml"
+          "status": "ok",
+          "count": 13,
+          "duration": 0.9
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 23,
-          "duration": 2.4
+          "duration": 3.4
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.3
+          "duration": 2.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 28.4
+          "duration": 36.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 7,
-          "duration": 6.0
+          "duration": 7.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 2.6
+          "duration": 5.9
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 1,
-          "duration": 13.2
+          "duration": 12.4
         },
         {
           "source": "学习强国",
@@ -71614,16 +71717,16 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 10.0
+          "duration": 12.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 60.7
+          "duration": 37.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-15T19:16:07+08:00"
+  "generatedAt": "2026-08-15T20:25:32+08:00"
 };
