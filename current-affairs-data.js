@@ -70575,8 +70575,12 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-08-15",
-      "keyword": "经济",
+      "keyword": "习近平",
       "keywords": [
+        {
+          "name": "习近平",
+          "count": 4
+        },
         {
           "name": "经济",
           "count": 4
@@ -70586,11 +70590,7 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 2
         },
         {
-          "name": "习近平",
-          "count": 2
-        },
-        {
-          "name": "消费",
+          "name": "科技",
           "count": 2
         }
       ],
@@ -70612,12 +70612,44 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
+          "id": "df032515b88f47",
+          "source": "光明日报",
+          "title": "习近平生态文明思想引领美丽中国建设谱新篇",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/15/content_22231.html",
+          "date": "2026-08-15",
+          "keyword": "习近平"
+        },
+        {
+          "id": "9fb6c77b7e5710",
+          "source": "新华社",
+          "title": "《求是》杂志发表习近平总书记重要文章",
+          "url": "https://www.news.cn/politics/leaders/20260815/854323230b14483b8d12e7d4490d1fe3/c.html",
+          "date": "2026-08-15",
+          "keyword": "习近平"
+        },
+        {
           "id": "be5c215ce4bb85",
           "source": "新华社",
           "title": "古巴外长谴责美国对古实施极限施压和经济扼杀政策",
           "url": "https://www.news.cn/20260815/46a2c535fdcf48b1bd5ffea93828464d/c.html",
           "date": "2026-08-15",
           "keyword": "经济"
+        },
+        {
+          "id": "cd129f8768909c",
+          "source": "求是",
+          "title": "《求是》杂志发表习近平总书记重要文章《提高防灾减灾救灾能力》",
+          "url": "https://www.qstheory.cn/20260815/2927c3292ea046d89efd4b51ee110b1f/c.html",
+          "date": "2026-08-15",
+          "keyword": "习近平"
+        },
+        {
+          "id": "cb5fe2bb709c1a",
+          "source": "求是",
+          "title": "习近平生态文明思想引领美丽中国建设谱新篇",
+          "url": "https://www.qstheory.cn/20260815/817842f2345f42d398db53bb7d966a6f/c.html",
+          "date": "2026-08-15",
+          "keyword": "习近平"
         },
         {
           "id": "01ee44ad6b9626",
@@ -70636,28 +70668,20 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "中国式现代化"
         },
         {
-          "id": "f4998b976d9ac6",
-          "source": "人民日报",
-          "title": "差异化供给回应消费新需求（专家点评）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/15/content_30175035.html",
-          "date": "2026-08-15",
-          "keyword": "消费"
-        },
-        {
-          "id": "df032515b88f47",
+          "id": "b1c8060928a85e",
           "source": "光明日报",
-          "title": "习近平生态文明思想引领美丽中国建设谱新篇",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/15/content_22231.html",
+          "title": "江苏出台科技成果转化“20条”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/15/content_22256.html",
           "date": "2026-08-15",
-          "keyword": "习近平"
+          "keyword": "科技"
         },
         {
-          "id": "255c9039a9547e",
+          "id": "72d9848bf7138a",
           "source": "新华社",
-          "title": "美国消费者信心指数明显回落",
-          "url": "https://www.news.cn/world/20260815/5c163bd57540401aa9edd4738a9588ab/c.html",
+          "title": "强化竞争力 我国科技期刊向世界舞台迈进",
+          "url": "https://www.news.cn/tech/20260815/f1e5af1a266349e1863d8cfcbe523251/c.html",
           "date": "2026-08-15",
-          "keyword": "消费"
+          "keyword": "科技"
         },
         {
           "id": "e54075e99119e6",
@@ -70666,14 +70690,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.qstheory.cn/20260815/b3a8de7a0f79412ea3f908045adde4b0/c.html",
           "date": "2026-08-15",
           "keyword": "中国式现代化"
-        },
-        {
-          "id": "cb5fe2bb709c1a",
-          "source": "求是",
-          "title": "习近平生态文明思想引领美丽中国建设谱新篇",
-          "url": "https://www.qstheory.cn/20260815/817842f2345f42d398db53bb7d966a6f/c.html",
-          "date": "2026-08-15",
-          "keyword": "习近平"
         },
         {
           "id": "236b48319268ac",
@@ -70776,6 +70792,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "多部门支持河南应对洪涝灾害",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/15/content_30175051.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f4998b976d9ac6",
+          "source": "人民日报",
+          "title": "差异化供给回应消费新需求（专家点评）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/15/content_30175035.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -70956,14 +70980,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "b1c8060928a85e",
-          "source": "光明日报",
-          "title": "江苏出台科技成果转化“20条”",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/15/content_22256.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
           "id": "b248b3a7abfdce",
           "source": "光明日报",
           "title": "相关监测显示：2025年南海区海洋生态状况总体稳定",
@@ -71060,18 +71076,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "e49ad62bb288cc",
-          "source": "新华社",
-          "title": "“地球独生子”黔金丝猴的接力守护",
-          "url": "https://www.news.cn/politics/20260815/c1e133f4bc974194b37c7f13fb8cc3ac/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
           "id": "41fa6c79bf4c9e",
           "source": "新华社",
           "title": "“空手来 满箱回”：外国人都来深圳买什么",
           "url": "https://www.news.cn/fortune/20260815/be1831b6a4ff4e5cb6de2643e71bb213/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "42e345d22f0689",
+          "source": "新华社",
+          "title": "《开罗宣言》纪念碑对公众开放",
+          "url": "https://www.news.cn/20260815/c8ef8687d66d4f639ca41b2e44183ba6/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3e6a3a7ee7f95f",
+          "source": "新华社",
+          "title": "《提高防灾减灾救灾能力》",
+          "url": "https://www.news.cn/politics/leaders/20260815/1ec409e566d4468f894d90ffb5484e5b/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71084,10 +71108,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "5c89791ae1c747",
+          "source": "新华社",
+          "title": "两部门将针对江苏的防汛应急响应提升至三级",
+          "url": "https://www.news.cn/politics/20260815/8defa7d7daf04c7484e7729ead5198fa/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a937cc39bf3dc9",
+          "source": "新华社",
+          "title": "中国人民抗日战争纪念馆举办“赓续胜利荣光”主题社教活动",
+          "url": "https://www.news.cn/photo/20260815/fd3e03cdbcb04d9dab26022e0aea899c/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "89589d1c61224f",
           "source": "新华社",
           "title": "中国人民银行将发行江泽民诞辰100周年纪念币",
           "url": "https://www.news.cn/fortune/20260815/8f8ad33a76f94c598ba9b6e3091737fb/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "54899b37761774",
+          "source": "新华社",
+          "title": "中国驻埃及大使馆：《开罗宣言》纪念碑对公众开放",
+          "url": "https://www.news.cn/world/20260815/7062e6088d5047e28dae168fe4c039f0/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71164,6 +71212,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "3309e4187e3cc1",
+          "source": "新华社",
+          "title": "全国生态日丨行至蜀道，看千年古柏何以长青",
+          "url": "https://www.news.cn/politics/20260815/1d87c71409684fe1b26dd63d7b907350/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "4da407ec2e1eb3",
           "source": "新华社",
           "title": "内蒙古自治区人大财经委主任委员冯玉臻被查",
@@ -71172,26 +71228,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8bfe311fe6906d",
+          "id": "cf331c0882f8b4",
           "source": "新华社",
-          "title": "农药包装进回收仓：中国乡村生态治理网络日益完善",
-          "url": "https://www.news.cn/politics/20260815/d62dc67baf5744f682e61a7bc82fe8cb/c.html",
+          "title": "南京大屠杀再添新证",
+          "url": "https://www.news.cn/world/20260815/eb9fa11bbd26445f9aaa9d40ba879eb8/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
         {
-          "id": "cdb310f42b56d4",
+          "id": "9dd7924f00857b",
           "source": "新华社",
-          "title": "印尼强震已致20人死亡 多趟境内航班被取消",
-          "url": "https://www.news.cn/world/20260815/9efab120c0c94fa0968b57088b45dd62/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "585b8342fb8acd",
-          "source": "新华社",
-          "title": "在中国最北群岛 赴候鸟之约",
-          "url": "https://www.news.cn/video/20260815/a548d5bb9b7c4d4b9c8e7f83efa08838/c.html",
+          "title": "塞尔维亚总统武契奇视察中企承建世博会场馆",
+          "url": "https://www.news.cn/20260815/c5a7a02f9bf64a3ab5049f82d50008e7/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71260,10 +71308,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "dd43413a378130",
+          "id": "7f7ff68a44ba78",
           "source": "新华社",
-          "title": "推动生态环境损害赔偿制度改革进程 十大案例发布",
-          "url": "https://www.news.cn/legal/20260815/0f5a7f3c6fb446849c3f76d5174f9785/c.html",
+          "title": "推动生态环境损害赔偿制度改革进程十大案例发布",
+          "url": "https://www.news.cn/legal/20260815/6747859feab448e8bf37f069f7d06de6/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71316,18 +71364,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "1546fdf13c10f9",
+          "id": "c3f9b9837bef04",
           "source": "新华社",
-          "title": "武契奇视察中企承建世博会场馆：塞中友谊牢不可破",
-          "url": "https://www.news.cn/world/20260815/9dabe2a4143a405c8bcfba27edc06ad7/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "ffd3ee9e4f1015",
-          "source": "新华社",
-          "title": "波兰华沙市中心发现50余枚二战未爆炮弹",
-          "url": "https://www.news.cn/world/20260815/5cff546c02164ee29b353f6c7139cbe6/c.html",
+          "title": "活力中国调研行丨湖南张家界：多元业态激活暑期文旅活力",
+          "url": "https://www.news.cn/photo/20260815/f895d7598d494401b284891fd58934fc/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71336,14 +71376,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "澳研究人员利用干细胞培育出人类心脏瓣膜组织",
           "url": "https://www.news.cn/20260815/4d86f7e1917748d6b19da9826f33f2d9/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "00d3cf6c313544",
-          "source": "新华社",
-          "title": "特朗普证实部署中东的“林肯”号航母将被替换",
-          "url": "https://www.news.cn/20260815/a15a9b5a03a6419f87431f076a9cdaf9/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71388,10 +71420,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "c2f26ac855663e",
+          "id": "aa9dc92daad376",
           "source": "新华社",
-          "title": "美国密歇根州发生枪击事件 6人死亡",
-          "url": "https://www.news.cn/world/20260815/7578103a770047fe8931d5db80b1a78a/c.html",
+          "title": "精神昆仑，生命约定——对话作家 毕淑敏",
+          "url": "https://www.news.cn/politics/20260815/8506e4a931254d7c97c581a20451925f/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71408,14 +71440,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "胡塞武装称袭击沙特油企设施和也门政府军控制地区",
           "url": "https://www.news.cn/20260815/55a3735869434b70ad33c7c0082a3fbe/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "2acdf381326fbf",
-          "source": "新华社",
-          "title": "苏丹北科尔多凡州袭击致14名平民死亡",
-          "url": "https://www.news.cn/20260815/74a11db437d342b2ad6e088480172787/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71444,14 +71468,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8f9d87a0cc51b8",
-          "source": "新华社",
-          "title": "长兴泥石流灾害救援直击",
-          "url": "https://www.news.cn/local/20260815/8459555e930240318413a428c2608c2c/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
           "id": "718ba7cb4aed0b",
           "source": "新华社",
           "title": "阿联酋称一船只在霍尔木兹海峡遭袭",
@@ -71476,10 +71492,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "02cd79a69b0e95",
-          "source": "新华社",
-          "title": "领略内蒙古的生态之美",
-          "url": "https://www.news.cn/politics/20260815/6d788d7a2af54befabef90d692099871/c.html",
+          "id": "e8a7a30ce4b6f0",
+          "source": "求是",
+          "title": "《求是》杂志编辑部：如何筑牢灾害治理的坚实屏障",
+          "url": "https://www.qstheory.cn/20260815/7f214b3fd624473cbd0fde9049fb13bb/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71490,14 +71506,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.qstheory.cn/20260815/0ee6a06742aa4efeb981384b58cb5736/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
-        },
-        {
-          "id": "ffe86232227a11",
-          "source": "求是",
-          "title": "持续深化改革攻坚",
-          "url": "https://www.qstheory.cn/20260815/0ee6a06742aa4efeb981384b58cb5736/c.html、",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -71505,65 +71513,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 12.9,
+          "duration": 4.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260815.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 23,
-          "duration": 2.2
+          "duration": 2.7
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.6
+          "duration": 2.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 43.5
+          "duration": 21.4
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 5,
-          "duration": 5.9
+          "count": 6,
+          "duration": 6.4
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.8
+          "duration": 2.1
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.0
+          "duration": 12.8
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.0
+          "duration": 3.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 13.4
+          "duration": 8.7
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 62.3
+          "duration": 66.0
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-15T14:28:01+08:00"
+  "generatedAt": "2026-08-15T15:26:49+08:00"
 };
