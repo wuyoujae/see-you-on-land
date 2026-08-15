@@ -180,6 +180,7 @@
 
 .question-progress-wrap {
   position: relative;
+  container-type: inline-size;
   width: 178px;
   height: 178px;
   margin: 18px auto 0;
@@ -224,7 +225,11 @@
   font-weight: 400;
   font-variant-numeric: tabular-nums;
   line-height: 1;
+  white-space: nowrap;
 }
+
+.question-progress-copy strong.countdown-long { font-size: 26px; font-size: 15cqi; }
+.question-progress-copy strong.countdown-very-long { font-size: 23px; font-size: 13cqi; }
 
 .question-round-status {
   margin-top: 11px;
@@ -412,6 +417,7 @@
 
 .fullscreen-question-progress {
   position: relative;
+  container-type: inline-size;
   width: clamp(220px, 45vmin, 430px);
   height: clamp(220px, 45vmin, 430px);
 }
@@ -436,7 +442,10 @@
   font-weight: 400;
   line-height: 1;
   font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
+.fullscreen-question-progress strong.countdown-long { font-size: 64px; font-size: 15cqi; }
+.fullscreen-question-progress strong.countdown-very-long { font-size: 54px; font-size: 13cqi; }
 .fullscreen-question-progress small { margin-top: 12px; color: #b8bdbc; font-size: clamp(13px, 1.7vw, 18px); }
 
 .fullscreen-mode-dots {
@@ -510,6 +519,15 @@ body.clock-fullscreen-active { overflow: hidden; background: #000; }
   text-align: left;
 }
 
+.study-subject-picker label { white-space: nowrap; }
+
+.study-subject-control {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+
+.study-subject-picker select,
 .study-subject-picker input {
   width: 100%;
   min-height: 46px;
@@ -522,10 +540,19 @@ body.clock-fullscreen-active { overflow: hidden; background: #000; }
   font-size: 16px;
 }
 
+.study-subject-picker select {
+  appearance: auto;
+  cursor: pointer;
+}
+
+.study-subject-picker select:disabled,
 .study-subject-picker input:disabled {
   background: var(--surface-strong);
   color: var(--muted);
+  cursor: default;
 }
+
+.study-subject-picker input[hidden] { display: none; }
 
 .active-elapsed {
   width: fit-content;
@@ -813,7 +840,9 @@ body.clock-fullscreen-active { overflow: hidden; background: #000; }
 
 .timer-dialog form { display: grid; gap: 15px; margin-top: 20px; }
 .timer-dialog label { display: grid; gap: 7px; color: var(--muted); font-size: 14px; }
-.timer-dialog input {
+.timer-dialog label[hidden] { display: none; }
+.timer-dialog input,
+.timer-dialog select {
   width: 100%;
   min-height: 46px;
   padding: 10px 12px;
@@ -823,6 +852,8 @@ body.clock-fullscreen-active { overflow: hidden; background: #000; }
   color: var(--ink);
   font-size: 16px;
 }
+
+.timer-dialog select { appearance: auto; }
 
 @media (max-width: 360px) {
   .study-subject-picker { grid-template-columns: 1fr; gap: 7px; }
