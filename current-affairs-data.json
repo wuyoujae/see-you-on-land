@@ -71734,7 +71734,582 @@
           "duration": 63.1
         }
       ]
+    },
+    {
+      "date": "2026-08-16",
+      "keyword": "上午在京隆重",
+      "keywords": [
+        {
+          "name": "上午在京隆重",
+          "count": 2
+        },
+        {
+          "name": "人就日本政要",
+          "count": 2
+        },
+        {
+          "name": "减灾救灾能力",
+          "count": 2
+        },
+        {
+          "name": "午在京隆重举",
+          "count": 2
+        },
+        {
+          "name": "厄瓜多尔总统",
+          "count": 2
+        },
+        {
+          "name": "发言人就日本",
+          "count": 2
+        },
+        {
+          "name": "多尔总统诺沃",
+          "count": 2
+        },
+        {
+          "name": "尔总统诺沃亚",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "4f2f0713d8536f",
+          "source": "人民日报",
+          "title": "厄瓜多尔总统诺沃亚今起对我国进行国事访问",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175135.html",
+          "date": "2026-08-16",
+          "keyword": "厄瓜多尔总统"
+        },
+        {
+          "id": "d2fa18efb46361",
+          "source": "人民日报",
+          "title": "国防部新闻发言人就日本政要参拜靖国神社答记者问",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175134.html",
+          "date": "2026-08-16",
+          "keyword": "人就日本政要"
+        },
+        {
+          "id": "d7b66288232176",
+          "source": "人民日报",
+          "title": "外交部发言人就日本政要参拜供奉甲级战犯的靖国神社答记者问",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175133.html",
+          "date": "2026-08-16",
+          "keyword": "人就日本政要"
+        },
+        {
+          "id": "9873b3416d4ada",
+          "source": "人民日报",
+          "title": "提高防灾减灾救灾能力",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175090.html",
+          "date": "2026-08-16",
+          "keyword": "减灾救灾能力"
+        },
+        {
+          "id": "6a8af20ad61fb3",
+          "source": "人民日报",
+          "title": "纪念江泽民同志诞辰100周年大会17日上午在京隆重举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175091.html",
+          "date": "2026-08-16",
+          "keyword": "上午在京隆重"
+        },
+        {
+          "id": "58137deca09696",
+          "source": "光明日报",
+          "title": "提高防灾减灾救灾能力",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22299.html",
+          "date": "2026-08-16",
+          "keyword": "减灾救灾能力"
+        },
+        {
+          "id": "089037afef399d",
+          "source": "光明日报",
+          "title": "纪念江泽民同志诞辰100周年大会17日上午在京隆重举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22300.html",
+          "date": "2026-08-16",
+          "keyword": "上午在京隆重"
+        },
+        {
+          "id": "93cdc540c9da96",
+          "source": "新华社",
+          "title": "厄瓜多尔总统诺沃亚抵达北京开始访华",
+          "url": "https://www.news.cn/world/20260816/6ad569c4376e45a9a9c477dc9dfe7a55/c.html",
+          "date": "2026-08-16",
+          "keyword": "厄瓜多尔总统"
+        },
+        {
+          "id": "a2867373073e8b",
+          "source": "人民日报",
+          "title": "ńŞÇŠë╣ŠŚąŠťČńżÁňŹÄŔÁäŠľÖňůąŔŚĆňŹŚń║Č",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175121.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7ebd34d4b9f71f",
+          "source": "人民日报",
+          "title": "ńŞÇšëłŔ┤úš╝ľ´╝ÜŔâíň«ëšÉ¬ Ŕ«Ş Ŕ»║ ň╝áň«çŠŁ░ ń║îšëłŔ┤úš╝ľ´╝ÜňÉĽ ŔÄë ÚâşÚŤ¬ň▓ę ň┤ö Šľî ńŞëšëłŔ┤úš╝ľ´╝ÜňÉ┤ ňłÜ ňĹĘ Ŕ╝ľ Ŕ░óńŻ│ň«ü ňŤŤšëłŔ┤úš╝ľ´╝Üňłś ň┐Á ÚčęŠśąšĹÂ ÚÖł Úťç",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175125.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d46e3f5262d067",
+          "source": "人民日报",
+          "title": "ńŞÇš║┐ň╝ÇŔ»ż ňşŽń╗ąŔç┤šöĘ´╝łňťĘšÄ░ňť║┬ĚŠÜĹŠťčÚçîšÜäňĄžŠÇŁŠö┐Ŕ»ż´╝ë",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175122.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ae2abdd1fc756f",
+          "source": "人民日报",
+          "title": "ń║îŃÇçń║îňůşň╣┤ňůĘňŤŻšöčŠÇüŠŚąńŞ╗ňť║Š┤╗ňŐĘňťĘňćůŔĺÖňĆĄňĹ╝ń╝ŽŔ┤Łň░öńŞżňŐ×",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175119.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6df5c9c6dc4c92",
+          "source": "人民日报",
+          "title": "ń╝śŠÁüšĘő š«ÇŠîçŠáç ňó×ŠÜľŠäĆ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175120.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ee888d79e7bcdb",
+          "source": "人民日报",
+          "title": "ňůĘňŤŻÚŽľńżőÚÇéšöĘšöčŠÇüšÄ»ňóâŠ│ĽňůŞň«íšÉćšÜäŠíłń╗ÂňťĘŠÁÖŠ▒čŔíóňĚ×ň«úňłĄ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175123.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "43dafcc1c98fbb",
+          "source": "人民日报",
+          "title": "ň╣┐ňĹŐ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175126.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0eeb52457ffa37",
+          "source": "人民日报",
+          "title": "Š▓│ňŹŚňĹĘňĆúŔ┤żÚ▓üŠ▓│ňáĄÚś▓Š║âňĆúňÉłÚżÖ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175124.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fff11467399f66",
+          "source": "人民日报",
+          "title": "“中国为全球防治荒漠化作出重要贡献”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175132.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a65e80ea202640",
+          "source": "人民日报",
+          "title": "《开罗宣言》纪念碑对公众开放",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175138.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "73efaac7846223",
+          "source": "人民日报",
+          "title": "一坛酸汤，如何从山间到舌尖（奋进“十五五” 一线见闻）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175097.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d7511ea5c76742",
+          "source": "人民日报",
+          "title": "中国品牌汽车走进非洲千家万户",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175130.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "79612c9b8960bd",
+          "source": "人民日报",
+          "title": "中欧北极快航常态化",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175100.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "efb3c08677b447",
+          "source": "人民日报",
+          "title": "切实维护人民群众生命财产安全和社会稳定",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175092.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "84585bd1d2c740",
+          "source": "人民日报",
+          "title": "医疗检验收费迎来全国“一把尺”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175099.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "66fe9e169342f7",
+          "source": "人民日报",
+          "title": "古城新“潮”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175095.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "01bfe2b8a29e16",
+          "source": "人民日报",
+          "title": "志愿巡河护生态",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175094.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "81e6fe1c18223d",
+          "source": "人民日报",
+          "title": "推动中厄全面战略伙伴关系不断走深走实（大使随笔）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175131.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ac7e66c285d39d",
+          "source": "人民日报",
+          "title": "浙江在科技前沿领域加快突破（活力中国调研行）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175093.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "efd4c41e8a0325",
+          "source": "人民日报",
+          "title": "算好三本账 走稳绿色路（今日谈）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175096.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "63e36c5fe41f09",
+          "source": "人民日报",
+          "title": "萨尔瓦多立法大会主席将访华",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175137.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6c4adacab6b339",
+          "source": "光明日报",
+          "title": "1至7月全国铁路发送旅客28亿人次",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22276.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4dd11d22ad50d2",
+          "source": "光明日报",
+          "title": "2026年全国生态日主场活动在内蒙古呼伦贝尔举办",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22291.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d07f44074008d7",
+          "source": "光明日报",
+          "title": "“彼此看见 彼此回应 彼此照亮”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22281.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e6dc5b9618fd93",
+          "source": "光明日报",
+          "title": "“核心价值观百场讲坛”第171场在新疆阿克苏举办",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22278.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6adb97acd03fc7",
+          "source": "光明日报",
+          "title": "“风电长廊”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22297.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "694465058c28d7",
+          "source": "光明日报",
+          "title": "【大美中国】山水悦目",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22302.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6c48981af8d1cc",
+          "source": "光明日报",
+          "title": "【我是这样做学问的】科学研究要有长期攻坚的心理准备",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22304.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5e1b5f272dbea5",
+          "source": "光明日报",
+          "title": "【晒晒咱的镇馆之宝63】《雪景寒林图》：可“消暑”的古画",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22303.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "41e020425b66a0",
+          "source": "光明日报",
+          "title": "传统节日点亮千年古镇",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22286.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e451038729eb0a",
+          "source": "光明日报",
+          "title": "全国首例适用生态环境法典审理的案件在浙江衢州宣判",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22294.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4bf48be81685db",
+          "source": "光明日报",
+          "title": "南京大屠杀史料捐赠与历史记忆传承活动举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22295.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c69361ec7bdeae",
+          "source": "光明日报",
+          "title": "同心同德 携手奋斗",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22280.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bb0d0e55b4e1ff",
+          "source": "光明日报",
+          "title": "向新向优 链通全球",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22301.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b0c8fc123f2a8d",
+          "source": "光明日报",
+          "title": "国家防总提升江苏防汛应急响应至三级",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22275.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c2d5ff963ce805",
+          "source": "光明日报",
+          "title": "弘扬社会主义核心价值观 铸牢中华民族共同体意识",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22279.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e9dff6814dbd46",
+          "source": "光明日报",
+          "title": "我国矿业绿色转型发展成效显著",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22287.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "23e330b6c3f36d",
+          "source": "光明日报",
+          "title": "新时代版《长征组歌》交响合唱音乐会举办",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22283.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e8161b650c6825",
+          "source": "光明日报",
+          "title": "暑托班里话安全",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22285.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "82a1119b6702e0",
+          "source": "光明日报",
+          "title": "最高检发布检察公益诉讼服务保障美丽中国建设典型案例",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22293.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4efecc223376b3",
+          "source": "光明日报",
+          "title": "水利部针对太湖流域洪水防御应急响应提升至Ⅲ级",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22274.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2f78336535137d",
+          "source": "光明日报",
+          "title": "江苏成立博物馆文创联盟",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22284.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "56c8a9e8fdcb45",
+          "source": "光明日报",
+          "title": "河南周口贾鲁河堤坝溃口顺利合龙",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22273.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5b188979dbf43a",
+          "source": "光明日报",
+          "title": "若尔盖湿地：生态修复成效显著",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22296.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6ba12465d440c4",
+          "source": "光明日报",
+          "title": "让党的创新理论直抵人心",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22292.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "909673739667a7",
+          "source": "光明日报",
+          "title": "让津派文学绽放光影异彩",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22282.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3994dcc0423d56",
+          "source": "光明日报",
+          "title": "运河文化润旅途",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22277.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "976f28cff74d44",
+          "source": "新华社",
+          "title": "中国队在第38届国际信息学奥赛斩获3金1银",
+          "url": "https://www.news.cn/20260816/54a4ef818ddb448494f08115206b35ed/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "407336049c8e9a",
+          "source": "新华社",
+          "title": "关于生态文明建设，总书记这样阐述",
+          "url": "https://www.news.cn/politics/leaders/20260816/9578d352b5c947bfbc7c9dfff9419fd6/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cc6fb2c65bdb44",
+          "source": "新华社",
+          "title": "日本侵略历史 不容翻案 重蹈覆辙必遭彻底清算",
+          "url": "https://www.news.cn/world/20260816/4f66da8850954d23884ece9d5f8089e2/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "358338812435a1",
+          "source": "新华社",
+          "title": "津巴布韦船只倾覆事故死亡人数升至68人",
+          "url": "https://www.news.cn/20260816/c58a28974ae94ea1a0ffa5baa6170ddf/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 10.5,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260816.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "ok",
+          "count": 26,
+          "duration": 1.2
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 5,
+          "duration": 2.7
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 19.1
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.9
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 28,
+          "duration": 1.6
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.0
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.7
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.1
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 43.9
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-08-15T23:15:37+08:00"
+  "generatedAt": "2026-08-16T06:28:46+08:00"
 }
