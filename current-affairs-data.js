@@ -70588,10 +70588,6 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "name": "中国式现代化",
           "count": 2
-        },
-        {
-          "name": "科技",
-          "count": 2
         }
       ],
       "articles": [
@@ -70706,22 +70702,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/15/content_30175026.html",
           "date": "2026-08-15",
           "keyword": "中国式现代化"
-        },
-        {
-          "id": "b1c8060928a85e",
-          "source": "光明日报",
-          "title": "江苏出台科技成果转化“20条”",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/15/content_22256.html",
-          "date": "2026-08-15",
-          "keyword": "科技"
-        },
-        {
-          "id": "72d9848bf7138a",
-          "source": "新华社",
-          "title": "强化竞争力 我国科技期刊向世界舞台迈进",
-          "url": "https://www.news.cn/tech/20260815/f1e5af1a266349e1863d8cfcbe523251/c.html",
-          "date": "2026-08-15",
-          "keyword": "科技"
         },
         {
           "id": "e54075e99119e6",
@@ -71020,6 +71000,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "b1c8060928a85e",
+          "source": "光明日报",
+          "title": "江苏出台科技成果转化“20条”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/15/content_22256.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "b248b3a7abfdce",
           "source": "光明日报",
           "title": "相关监测显示：2025年南海区海洋生态状况总体稳定",
@@ -71056,6 +71044,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "光明日报",
           "title": "跨国公司本外币跨境资金集中运营业务推广至全国",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/15/content_22253.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "75de53a31ded5c",
+          "source": "南方周末",
+          "title": "领航丨共绘美丽中国新画卷",
+          "url": "https://www.infzm.com/contents/328521",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71108,6 +71104,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "473880961e4ac5",
+          "source": "新华社",
+          "title": "China Cool盛夏出圈丨老外在鲁赏山海访圣地品美食",
+          "url": "https://www.news.cn/world/20260815/e52c9f9a68214c5ebc7fbd3e54ef6c43/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "5a1958fa572c68",
           "source": "新华社",
           "title": "“核心价值观百场讲坛”第171场在新疆阿克苏举办",
@@ -71120,6 +71124,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "《提高防灾减灾救灾能力》",
           "url": "https://www.news.cn/politics/leaders/20260815/1ec409e566d4468f894d90ffb5484e5b/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "22c58f5ee02128",
+          "source": "新华社",
+          "title": "《给阿嬷的情书》在台首映 跨海诉情深",
+          "url": "https://www.news.cn/tw/20260815/c7d01d0c02fe4721a1b4992373efd320/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71180,6 +71192,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "5cc0fdd4ba7b60",
+          "source": "新华社",
+          "title": "产业发展开新局丨记者手记：透过外贸成绩看园区赋能",
+          "url": "https://www.news.cn/fortune/20260815/dcb3dfb929204faead1088c2a9145769/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "e3f5b5ce274949",
           "source": "新华社",
           "title": "今年前7月全国铁路发送旅客28亿人次 创同期新高",
@@ -71220,10 +71240,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8c501b3b60d770",
+          "id": "5fdbf16708fad2",
           "source": "新华社",
-          "title": "加拿大媒体：加美关税谈判陷入僵局",
-          "url": "https://www.news.cn/world/20260815/40efcb112fa4442d824cbca62dd86563/c.html",
+          "title": "全国生态日｜昼夜穿行高黎贡 看见万物共生的云南",
+          "url": "http://yn.news.cn/20260815/c37d40828ef248a9bc3bd2e56819bc0c/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71252,10 +71272,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "3b09f7cd5ea198",
+          "id": "d9cd2236a694ff",
           "source": "新华社",
-          "title": "外交部就日本政要参拜供奉甲级战犯的靖国神社答问",
-          "url": "https://www.news.cn/world/20260815/b0642f439e7046d3a769d42c3f35e4d5/c.html",
+          "title": "国防部就日本政要参拜靖国神社答问",
+          "url": "https://www.news.cn/politics/20260815/bdd46e2be4274fecb7f51025215b26ed/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71308,18 +71328,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a4eaf76a445c3a",
-          "source": "新华社",
-          "title": "广东：“健康大篷车”开进工厂里 已惠及1.2万余人",
-          "url": "https://www.news.cn/20260815/2bb2c57b8f764a0f935d5beb8582e73e/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
           "id": "615623596307c3",
           "source": "新华社",
           "title": "把北京建设得更美",
           "url": "https://www.news.cn/politics/leaders/20260815/d587524c973744f5a327f5d71748c20b/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3f2894dd09a95d",
+          "source": "新华社",
+          "title": "抓好农村基层组织建设",
+          "url": "https://www.news.cn/politics/leaders/20260815/2ce88ec0908c4965a3fc67e8118bef2e/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71368,22 +71388,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "最高检：以高质效办案促进生态环境法典实施",
           "url": "https://www.news.cn/legal/20260815/8ff388da16d04ce7b57856278bfa548b/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "3f9120a084f27e",
-          "source": "新华社",
-          "title": "月球为何会有“两副面孔”？月壤研究再获新进展",
-          "url": "https://www.news.cn/politics/20260815/ba6f1f032e2c40cabee1ea1d39b2d04f/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "13de1ac6b93637",
-          "source": "新华社",
-          "title": "欧美同学会发布2026年“归巢计划”",
-          "url": "https://www.news.cn/world/20260815/d154c7a2195d4fa89f738422d70177e6/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71476,14 +71480,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "4f21957fffc910",
-          "source": "新华社",
-          "title": "网上煽动二次“闯关”休达 西班牙军警严阵以待",
-          "url": "https://www.news.cn/world/20260815/609567f41835425cb25d852d69979028/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
           "id": "90fe488fb9e68d",
           "source": "新华社",
           "title": "铭记历史 缅怀先烈",
@@ -71532,6 +71528,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "2e892f8e63d2bd",
+          "source": "新华社",
+          "title": "香港举行“纪念抗日英烈谒碑典礼” 缅怀抗日英烈",
+          "url": "https://www.news.cn/gangao/20260815/1dca21d9911a45f8b614b37ef687d78d/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d1e708d3d44d47",
           "source": "新华社",
           "title": "香港各界积极为香港首个五年规划建言献策",
@@ -71561,65 +71565,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 6.1,
+          "duration": 12.0,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260815.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 23,
-          "duration": 1.9
+          "duration": 1.5
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.5
+          "duration": 2.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 35.0
+          "duration": 14.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 7,
-          "duration": 6.3
+          "duration": 6.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 2.1
+          "duration": 1.7
         },
         {
           "source": "南方周末",
           "status": "ok",
-          "count": 0,
-          "duration": 12.7
+          "count": 1,
+          "duration": 12.6
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 3,
-          "duration": 2.5
+          "duration": 2.6
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 9.0
+          "duration": 8.6
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 58.0
+          "duration": 76.8
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-15T17:22:02+08:00"
+  "generatedAt": "2026-08-15T18:17:58+08:00"
 };
