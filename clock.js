@@ -5,6 +5,7 @@
   const ACTIVE_KEY = "summer-politics-active-study-v1";
   const CLOCK_FORMAT_KEY = "summer-politics-clock-seconds-v1";
   const QUESTION_TIMER_KEY = "summer-politics-question-timer-v1";
+  const LAST_SUBJECT_KEY = "summer-politics-last-study-subject-v1";
   const QUESTION_RING_MS = 7000;
   const DAY_MS = 86400000;
 
@@ -56,10 +57,12 @@
     modal: document.getElementById("timer-edit-modal"),
     editForm: document.getElementById("timer-edit-form"),
     editId: document.getElementById("edit-record-id"),
+    editSubject: document.getElementById("edit-record-subject"),
     editStart: document.getElementById("edit-record-start"),
     editEnd: document.getElementById("edit-record-end"),
     editMinutes: document.getElementById("edit-record-minutes"),
     formError: document.getElementById("timer-form-error"),
+    studySubject: document.getElementById("study-subject"),
     questionCount: document.getElementById("question-count"),
     questionMinutes: document.getElementById("question-minutes"),
     questionProgressWrap: document.getElementById("question-progress-wrap"),
@@ -97,20 +100,24 @@
     const source = value && typeof value === "object" && !Array.isArray(value) ? value : {};
     const totalQuestions = clamp(Math.round(Number(source.totalQuestions) || 40), 1, 200);
     const secondsPerQuestion = clamp(Math.round(Number(source.secondsPerQuestion) || 180), 30, 3600);
-    const currentQuestion = clamp(Math.round(Number(source.currentQuestion) || 1), 1, totalQuestions);
-    const phase = source.phase === "ring" ? "ring" : "question";
+    const totalDurationMs = totalQuestions * secondsPerQuestion * 1000;
     const allowedStatuses = ["idle", "running", "paused", "completed"];
-    let status = allowedStatuses.includes(source.status) ? source.status : "idle";
-    let phaseEndsAt = Number.isFinite(source.phaseEndsAt) ? source.phaseEndsAt : null;
-    const phaseDuration = phase === "ring" ? QUESTION_RING_MS : secondsPerQuestion * 1000;
-    let remainingMs = Number.isFinite(source.remainingMs) ? clamp(source.remainingMs, 0, phaseDuration) : phaseDuration;
+    let status = source.mode === "total" && allowedStatuses.includes(source.status) ? source.status : "idle";
+    let endsAt = Number.isFinite(source.endsAt) ? source.endsAt : null;
+    let alertEndsAt = Number.isFinite(source.alertEndsAt) ? source.alertEndsAt : null;
+    let remainingMs = Number.isFinite(source.remainingMs) ? clamp(source.remainingMs, 0, totalDurationMs) : totalDurationMs;
 
-    if (status === "running" && !phaseEndsAt) status = "paused";
-    if (status !== "running") phaseEndsAt = null;
-    if (status === "idle") remainingMs = secondsPerQuestion * 1000;
+    if (status === "running" && !endsAt) status = "paused";
+    if (status !== "running") endsAt = null;
+    if (status === "idle") remainingMs = totalDurationMs;
     if (status === "completed") remainingMs = 0;
+    if (status !== "completed") alertEndsAt = null;
 
-    return { totalQuestions, secondsPerQuestion, currentQuestion, status, phase, remainingMs, phaseEndsAt };
+    return { mode: "total", totalQuestions, secondsPerQuestion, totalDurationMs, status, remainingMs, endsAt, alertEndsAt };
+  }
+
+  function normalizeSubject(value) {
+    return String(value ?? "").trim().replace(/\s+/g, " ").slice(0, 30);
   }
 
   function saveSessions() {
@@ -193,13 +200,14 @@
 
   function questionCountdown(milliseconds) {
     const totalSeconds = Math.max(0, Math.ceil(milliseconds / 1000));
-    const minutes = Math.floor(totalSeconds / 60);
+    const hours = Math.floor(totalSeconds / 3600);
+    const minutes = Math.floor(totalSeconds % 3600 / 60);
     const seconds = totalSeconds % 60;
-    return `${pad(minutes)}:${pad(seconds)}`;
+    return hours ? `${pad(hours)}:${pad(minutes)}:${pad(seconds)}` : `${pad(minutes)}:${pad(seconds)}`;
   }
 
   function questionRemaining(now = Date.now()) {
-    if (questionTimer.status === "running") return Math.max(0, questionTimer.phaseEndsAt - now);
+    if (questionTimer.status === "running") return Math.max(0, questionTimer.endsAt - now);
     return Math.max(0, questionTimer.remainingMs);
   }
 
@@ -226,7 +234,7 @@
     bellPhaseEndAt = targetEndAt;
     try {
       const context = await primeQuestionAudio();
-      if (!context || bellPhaseEndAt !== targetEndAt || questionTimer.status !== "running" || questionTimer.phase !== "ring") return;
+      if (!context || bellPhaseEndAt !== targetEndAt || questionTimer.status !== "completed" || questionTimer.alertEndsAt !== targetEndAt) return;
       const startAt = context.currentTime + 0.02;
       const seconds = Math.max(0.1, durationMs / 1000);
       for (let offset = 0; offset < seconds; offset += 0.82) {
@@ -255,48 +263,39 @@
   }
 
   function questionTimerIdle(totalQuestions = questionTimer.totalQuestions, secondsPerQuestion = questionTimer.secondsPerQuestion) {
+    const totalDurationMs = totalQuestions * secondsPerQuestion * 1000;
     return {
+      mode: "total",
       totalQuestions,
       secondsPerQuestion,
-      currentQuestion: 1,
+      totalDurationMs,
       status: "idle",
-      phase: "question",
-      remainingMs: secondsPerQuestion * 1000,
-      phaseEndsAt: null
+      remainingMs: totalDurationMs,
+      endsAt: null,
+      alertEndsAt: null
     };
   }
 
   function advanceQuestionTimer(now = Date.now()) {
-    if (questionTimer.status !== "running") return false;
     let changed = false;
-    let transitions = 0;
-    while (questionTimer.status === "running" && now >= questionTimer.phaseEndsAt && transitions < 500) {
-      transitions += 1;
+    if (questionTimer.status === "running" && now >= questionTimer.endsAt) {
+      const completedAt = questionTimer.endsAt;
       changed = true;
-      const previousEnd = questionTimer.phaseEndsAt;
-      if (questionTimer.phase === "question") {
-        questionTimer.phase = "ring";
-        questionTimer.remainingMs = QUESTION_RING_MS;
-        questionTimer.phaseEndsAt = previousEnd + QUESTION_RING_MS;
-      } else if (questionTimer.currentQuestion >= questionTimer.totalQuestions) {
-        questionTimer.status = "completed";
-        questionTimer.remainingMs = 0;
-        questionTimer.phaseEndsAt = null;
-        stopQuestionBell();
-      } else {
-        questionTimer.currentQuestion += 1;
-        questionTimer.phase = "question";
-        questionTimer.remainingMs = questionTimer.secondsPerQuestion * 1000;
-        questionTimer.phaseEndsAt = previousEnd + questionTimer.remainingMs;
-        stopQuestionBell();
-      }
+      questionTimer.status = "completed";
+      questionTimer.remainingMs = 0;
+      questionTimer.endsAt = null;
+      questionTimer.alertEndsAt = completedAt + QUESTION_RING_MS;
     }
-    if (changed) saveQuestionTimer();
-    if (questionTimer.status === "running" && questionTimer.phase === "ring") {
-      playQuestionBell(questionRemaining(now), questionTimer.phaseEndsAt);
-    } else if (bellPhaseEndAt !== null || bellNodes.length) {
+    if (questionTimer.status === "completed" && questionTimer.alertEndsAt > now) {
+      playQuestionBell(questionTimer.alertEndsAt - now, questionTimer.alertEndsAt);
+    } else if (questionTimer.alertEndsAt && questionTimer.alertEndsAt <= now) {
+      questionTimer.alertEndsAt = null;
+      changed = true;
+      stopQuestionBell();
+    } else if (questionTimer.status !== "completed" && (bellPhaseEndAt !== null || bellNodes.length)) {
       stopQuestionBell();
     }
+    if (changed) saveQuestionTimer();
     if (changed) syncWakeLock();
     return changed;
   }
@@ -316,28 +315,23 @@
 
   function renderQuestionTimer(now = Date.now()) {
     const remainingMs = questionRemaining(now);
-    const phaseDuration = questionTimer.phase === "ring" ? QUESTION_RING_MS : questionTimer.secondsPerQuestion * 1000;
-    const progress = questionTimer.status === "completed" ? 0 : clamp(remainingMs / phaseDuration, 0, 1);
+    const progress = questionTimer.status === "completed" ? 0 : clamp(remainingMs / questionTimer.totalDurationMs, 0, 1);
     const strokeOffset = (100 - progress * 100).toFixed(2);
-    const remainingQuestions = questionTimer.status === "completed" ? 0 : questionTimer.totalQuestions - questionTimer.currentQuestion + 1;
     const locked = questionTimer.status === "running" || questionTimer.status === "paused";
     const paused = questionTimer.status === "paused";
-    const ringing = questionTimer.phase === "ring" && questionTimer.status !== "completed";
-    let progressLabel = `第 ${questionTimer.currentQuestion} 题`;
-    let statusLabel = `第 ${questionTimer.currentQuestion} 题 / 共 ${questionTimer.totalQuestions} 题 · 含本题剩余 ${remainingQuestions} 题`;
-    let fullscreenStatus = paused ? "已暂停" : "本题剩余";
+    const minutesPerQuestion = String(questionTimer.secondsPerQuestion / 60).replace(/\.0$/, "");
+    const totalMinutes = questionTimer.totalDurationMs / 60000;
+    let progressLabel = paused ? "已暂停" : "总倒计时";
+    let statusLabel = `${questionTimer.totalQuestions} 题 × 每题 ${minutesPerQuestion} 分钟 · 共 ${totalMinutes} 分钟`;
+    let fullscreenStatus = paused ? "已暂停" : `${questionTimer.totalQuestions} 题 · 每题 ${minutesPerQuestion} 分钟`;
 
     if (questionTimer.status === "idle") {
-      progressLabel = "准备开始";
+      progressLabel = "总倒计时";
       fullscreenStatus = "准备开始";
     } else if (questionTimer.status === "completed") {
-      progressLabel = "全部完成";
-      statusLabel = `已完成全部 ${questionTimer.totalQuestions} 题`;
-      fullscreenStatus = "全部完成";
-    } else if (ringing) {
-      progressLabel = paused ? "换题铃声暂停" : "换题铃声";
-      statusLabel = `第 ${questionTimer.currentQuestion} 题计时结束 · 7 秒换题铃声`;
-      fullscreenStatus = paused ? "铃声已暂停" : (questionTimer.currentQuestion === questionTimer.totalQuestions ? "完成提示" : "即将进入下一题");
+      progressLabel = "时间到";
+      statusLabel = `${questionTimer.totalQuestions} 题的总计时已结束`;
+      fullscreenStatus = "本轮计时完成";
     }
 
     if (document.activeElement !== dom.questionCount) dom.questionCount.value = String(questionTimer.totalQuestions);
@@ -346,15 +340,13 @@
     dom.questionMinutes.disabled = locked;
     dom.questionProgress.style.strokeDashoffset = strokeOffset;
     dom.fullscreenQuestionProgress.style.strokeDashoffset = strokeOffset;
-    dom.questionProgressWrap.classList.toggle("ringing", ringing);
-    dom.fullscreenQuestionProgressWrap.classList.toggle("ringing", ringing);
     dom.questionProgressWrap.classList.toggle("completed", questionTimer.status === "completed");
     dom.fullscreenQuestionProgressWrap.classList.toggle("completed", questionTimer.status === "completed");
     dom.questionProgressLabel.textContent = progressLabel;
     dom.questionTimeLeft.textContent = questionCountdown(remainingMs);
     dom.questionRoundStatus.textContent = statusLabel;
-    dom.fullscreenQuestionRemaining.textContent = String(remainingQuestions);
-    dom.fullscreenQuestionLabel.textContent = ringing ? `第 ${questionTimer.currentQuestion} 题完成` : progressLabel;
+    dom.fullscreenQuestionRemaining.textContent = String(questionTimer.totalQuestions);
+    dom.fullscreenQuestionLabel.textContent = progressLabel;
     dom.fullscreenQuestionTime.textContent = questionCountdown(remainingMs);
     dom.fullscreenQuestionStatus.textContent = fullscreenStatus;
     dom.questionStart.hidden = locked;
@@ -377,10 +369,9 @@
     applyQuestionSettings();
     primeQuestionAudio().catch(() => null);
     questionTimer.status = "running";
-    questionTimer.phase = "question";
-    questionTimer.currentQuestion = 1;
-    questionTimer.remainingMs = questionTimer.secondsPerQuestion * 1000;
-    questionTimer.phaseEndsAt = Date.now() + questionTimer.remainingMs;
+    questionTimer.remainingMs = questionTimer.totalDurationMs;
+    questionTimer.endsAt = Date.now() + questionTimer.remainingMs;
+    questionTimer.alertEndsAt = null;
     saveQuestionTimer();
     renderQuestionTimer();
     syncWakeLock();
@@ -390,13 +381,12 @@
     if (questionTimer.status === "running") {
       questionTimer.remainingMs = questionRemaining();
       questionTimer.status = "paused";
-      questionTimer.phaseEndsAt = null;
+      questionTimer.endsAt = null;
       stopQuestionBell();
     } else if (questionTimer.status === "paused") {
       primeQuestionAudio().catch(() => null);
       questionTimer.status = "running";
-      questionTimer.phaseEndsAt = Date.now() + questionTimer.remainingMs;
-      if (questionTimer.phase === "ring") playQuestionBell(questionTimer.remainingMs, questionTimer.phaseEndsAt);
+      questionTimer.endsAt = Date.now() + questionTimer.remainingMs;
     } else {
       return;
     }
@@ -524,6 +514,7 @@
       return `
         <article class="study-record">
           <div>
+            <p class="record-subject">${escapeHTML(normalizeSubject(item.subject) || "未分类")}</p>
             <h3 class="record-duration">学习了 ${escapeHTML(formatDuration(item.durationMs))}</h3>
             <p class="record-time-range">${escapeHTML(timeLabel(item.start))} - ${escapeHTML(timeLabel(item.end, crossesDay))}</p>
           </div>
@@ -538,7 +529,8 @@
       typeof item.id === "string" && item.id.length > 0 &&
       Number.isFinite(item.start) && item.start > 0 &&
       Number.isFinite(item.end) && item.end >= item.start &&
-      Number.isFinite(item.durationMs) && item.durationMs >= 0;
+      Number.isFinite(item.durationMs) && item.durationMs >= 0 &&
+      (item.subject === undefined || (typeof item.subject === "string" && item.subject.trim().length <= 30));
   }
 
   function showRecordTransferStatus(message, isError = false) {
@@ -553,7 +545,8 @@
         id: item.id,
         start: item.start,
         end: item.end,
-        durationMs: item.durationMs
+        durationMs: item.durationMs,
+        subject: normalizeSubject(item.subject)
       }));
       const payload = {
         schema: "see-you-on-land-study-records",
@@ -602,12 +595,12 @@
       if (imported.some(item => !validStudyRecord(item))) throw new Error("文件中存在无效的学习记录");
 
       const ids = new Set(sessions.map(item => item.id));
-      const signatures = new Set(sessions.map(item => `${item.start}|${item.end}|${item.durationMs}`));
+      const signatures = new Set(sessions.map(item => `${item.start}|${item.end}|${item.durationMs}|${normalizeSubject(item.subject)}`));
       let added = 0;
       imported.forEach(item => {
-        const signature = `${item.start}|${item.end}|${item.durationMs}`;
+        const signature = `${item.start}|${item.end}|${item.durationMs}|${normalizeSubject(item.subject)}`;
         if (ids.has(item.id) || signatures.has(signature)) return;
-        sessions.push({ id: item.id, start: item.start, end: item.end, durationMs: item.durationMs });
+        sessions.push({ id: item.id, start: item.start, end: item.end, durationMs: item.durationMs, subject: normalizeSubject(item.subject) });
         ids.add(item.id);
         signatures.add(signature);
         added += 1;
@@ -630,23 +623,35 @@
 
   function renderTimerControls() {
     if (!activeSession) {
+      dom.studySubject.disabled = false;
       dom.activeElapsed.hidden = true;
       dom.timerActions.innerHTML = '<button type="button" class="study-start-button" id="start-study"><i data-lucide="play" aria-hidden="true"></i><span>开始学习！</span></button>';
     } else {
+      dom.studySubject.value = normalizeSubject(activeSession.subject) || "未分类";
+      dom.studySubject.disabled = true;
       dom.activeElapsed.hidden = false;
       const paused = activeSession.status === "paused";
       dom.timerActions.innerHTML = `
         <button type="button" class="pause-study-button" data-timer-action="${paused ? "resume" : "pause"}"><i data-lucide="${paused ? "play" : "pause"}" aria-hidden="true"></i><span>${paused ? "继续学习" : "暂停学习"}</span></button>
         <button type="button" class="stop-study-button" data-timer-action="stop"><i data-lucide="square" aria-hidden="true"></i><span>终止学习</span></button>`;
-      dom.activeElapsed.textContent = `${paused ? "已暂停" : "本次学习"} ${stopwatch(elapsedNow())}`;
+      dom.activeElapsed.textContent = `${normalizeSubject(activeSession.subject) || "未分类"} · ${paused ? "已暂停" : "本次学习"} ${stopwatch(elapsedNow())}`;
     }
     refreshIcons();
   }
 
   function startStudy() {
     if (activeSession) return;
+    const subject = normalizeSubject(dom.studySubject.value);
+    if (!subject) {
+      dom.studySubject.setCustomValidity("请选择或输入本次学习科目");
+      dom.studySubject.reportValidity();
+      dom.studySubject.focus();
+      return;
+    }
+    dom.studySubject.setCustomValidity("");
+    localStorage.setItem(LAST_SUBJECT_KEY, subject);
     const now = Date.now();
-    activeSession = { id: `active-${now}`, startedAt: now, resumedAt: now, accumulatedMs: 0, status: "running" };
+    activeSession = { id: `active-${now}`, subject, startedAt: now, resumedAt: now, accumulatedMs: 0, status: "running" };
     selectedDate = dayKey(now);
     saveActive();
     renderTimeline();
@@ -675,7 +680,7 @@
     if (!activeSession) return;
     const end = Date.now();
     const durationMs = elapsedNow();
-    sessions.push({ id: `study-${end}-${Math.random().toString(36).slice(2, 7)}`, start: activeSession.startedAt, end, durationMs });
+    sessions.push({ id: `study-${end}-${Math.random().toString(36).slice(2, 7)}`, subject: normalizeSubject(activeSession.subject), start: activeSession.startedAt, end, durationMs });
     selectedDate = dayKey(activeSession.startedAt);
     activeSession = null;
     saveActive();
@@ -691,7 +696,7 @@
     const time = `${pad(now.getHours())}:${pad(now.getMinutes())}${showSeconds ? `:${pad(now.getSeconds())}` : ""}`;
     dom.liveClock.textContent = time;
     dom.fullscreenTime.textContent = time;
-    if (activeSession) dom.activeElapsed.textContent = `${activeSession.status === "paused" ? "已暂停" : "本次学习"} ${stopwatch(elapsedNow())}`;
+    if (activeSession) dom.activeElapsed.textContent = `${normalizeSubject(activeSession.subject) || "未分类"} · ${activeSession.status === "paused" ? "已暂停" : "本次学习"} ${stopwatch(elapsedNow())}`;
   }
 
   function isFullscreen() {
@@ -839,6 +844,7 @@
     const record = sessions.find(item => item.id === recordId);
     if (!record) return;
     dom.editId.value = record.id;
+    dom.editSubject.value = normalizeSubject(record.subject) || "未分类";
     dom.editStart.value = inputDateTime(record.start);
     dom.editEnd.value = inputDateTime(record.end);
     dom.editMinutes.value = Math.max(1, Math.round(record.durationMs / 60000));
@@ -855,13 +861,15 @@
   function saveEdit(event) {
     event.preventDefault();
     const record = sessions.find(item => item.id === dom.editId.value);
+    const subject = normalizeSubject(dom.editSubject.value);
     const start = new Date(dom.editStart.value).getTime();
     const end = new Date(dom.editEnd.value).getTime();
     const minutes = Number(dom.editMinutes.value);
-    if (!record || !Number.isFinite(start) || !Number.isFinite(end) || end <= start || !Number.isFinite(minutes) || minutes < 1) {
-      dom.formError.textContent = "请检查开始时间、结束时间和有效学习分钟。";
+    if (!record || !subject || !Number.isFinite(start) || !Number.isFinite(end) || end <= start || !Number.isFinite(minutes) || minutes < 1) {
+      dom.formError.textContent = "请检查学习科目、开始时间、结束时间和有效学习分钟。";
       return;
     }
+    record.subject = subject;
     record.start = start;
     record.end = end;
     record.durationMs = minutes * 60000;
@@ -1077,10 +1085,16 @@
   dom.recordExport.addEventListener("click", exportStudyRecords);
   dom.recordImport.addEventListener("click", () => dom.recordFile.click());
   dom.recordFile.addEventListener("change", () => importStudyRecords(dom.recordFile.files[0]));
+  dom.studySubject.addEventListener("input", () => {
+    dom.studySubject.setCustomValidity("");
+    const subject = normalizeSubject(dom.studySubject.value);
+    if (subject && !activeSession) localStorage.setItem(LAST_SUBJECT_KEY, subject);
+  });
   window.addEventListener("pagehide", stopQuestionBell);
 
   if (!Array.isArray(sessions)) sessions = [];
   if (activeSession && (!activeSession.startedAt || !["running", "paused"].includes(activeSession.status))) activeSession = null;
+  dom.studySubject.value = normalizeSubject(activeSession?.subject || localStorage.getItem(LAST_SUBJECT_KEY));
   advanceQuestionTimer();
   renderTimeline();
   renderRecords();

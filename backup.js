@@ -10,7 +10,8 @@
     sessions: "summer-politics-study-sessions-v1",
     activeSession: "summer-politics-active-study-v1",
     clockShowsSeconds: "summer-politics-clock-seconds-v1",
-    questionTimer: "summer-politics-question-timer-v1"
+    questionTimer: "summer-politics-question-timer-v1",
+    studySubject: "summer-politics-last-study-subject-v1"
   };
 
   const dom = {
@@ -63,7 +64,8 @@
       typeof item.id === "string" &&
       validNumber(item.start, 1) &&
       validNumber(item.end, item.start) &&
-      validNumber(item.durationMs)
+      validNumber(item.durationMs) &&
+      (item.subject === undefined || (typeof item.subject === "string" && item.subject.length <= 30))
     );
     if (!valid) throw new Error("学习计时记录格式不正确");
   }
@@ -76,7 +78,8 @@
       validNumber(value.startedAt, 1) &&
       validNumber(value.accumulatedMs) &&
       ["running", "paused"].includes(value.status) &&
-      (value.status === "paused" || validNumber(value.resumedAt, 1));
+      (value.status === "paused" || validNumber(value.resumedAt, 1)) &&
+      (value.subject === undefined || (typeof value.subject === "string" && value.subject.length <= 30));
     if (!valid) throw new Error("进行中的计时数据格式不正确");
   }
 
@@ -90,14 +93,26 @@
     if (raw === null) return;
     const value = parseStoredJSON(raw, null);
     const statuses = ["idle", "running", "paused", "completed"];
-    const valid = isPlainObject(value) &&
+    const validTotal = isPlainObject(value) && value.mode === "total" &&
+      Number.isInteger(value.totalQuestions) && value.totalQuestions >= 1 && value.totalQuestions <= 200 &&
+      Number.isInteger(value.secondsPerQuestion) && value.secondsPerQuestion >= 30 && value.secondsPerQuestion <= 3600 &&
+      validNumber(value.totalDurationMs, 30000) && statuses.includes(value.status) &&
+      validNumber(value.remainingMs) &&
+      (value.status !== "running" || validNumber(value.endsAt, 1)) &&
+      (value.alertEndsAt === null || value.alertEndsAt === undefined || validNumber(value.alertEndsAt, 1));
+    const validLegacy = isPlainObject(value) &&
       Number.isInteger(value.totalQuestions) && value.totalQuestions >= 1 && value.totalQuestions <= 200 &&
       Number.isInteger(value.secondsPerQuestion) && value.secondsPerQuestion >= 30 && value.secondsPerQuestion <= 3600 &&
       Number.isInteger(value.currentQuestion) && value.currentQuestion >= 1 && value.currentQuestion <= value.totalQuestions &&
-      statuses.includes(value.status) && ["question", "ring"].includes(value.phase) &&
-      validNumber(value.remainingMs) &&
+      statuses.includes(value.status) && ["question", "ring"].includes(value.phase) && validNumber(value.remainingMs) &&
       (value.status !== "running" || validNumber(value.phaseEndsAt, 1));
-    if (!valid) throw new Error("做题计时数据格式不正确");
+    if (!validTotal && !validLegacy) throw new Error("做题计时数据格式不正确");
+  }
+
+  function validateStudySubject(raw) {
+    if (raw !== null && (typeof raw !== "string" || raw.length > 30)) {
+      throw new Error("学习科目设置格式不正确");
+    }
   }
 
   function snapshot() {
@@ -129,12 +144,14 @@
       }
     }
     if (!("questionTimer" in data)) data.questionTimer = null;
+    if (!("studySubject" in data)) data.studySubject = null;
     if (data.questionTimer !== null && typeof data.questionTimer !== "string") throw new Error("做题计时数据格式不正确");
     validateProgress(data.progress);
     validateSessions(data.sessions);
     validateActiveSession(data.activeSession);
     validateClockFormat(data.clockShowsSeconds);
     validateQuestionTimer(data.questionTimer);
+    validateStudySubject(data.studySubject);
     return data;
   }
 
