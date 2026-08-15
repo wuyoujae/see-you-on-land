@@ -70612,10 +70612,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
-          "id": "4afa277e2efd12",
+          "id": "be5c215ce4bb85",
           "source": "新华社",
           "title": "古巴外长谴责美国对古实施极限施压和经济扼杀政策",
-          "url": "https://www.news.cn/world/20260815/e8be57a5a64448d385b46646b4bf53e6/c.html",
+          "url": "https://www.news.cn/20260815/46a2c535fdcf48b1bd5ffea93828464d/c.html",
           "date": "2026-08-15",
           "keyword": "经济"
         },
@@ -71020,10 +71020,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "c2d28831abb9b2",
+          "id": "145e89cd3a66e2",
           "source": "新华社",
-          "title": "2026年全国生态日主场活动在内蒙古呼伦贝尔市举办",
-          "url": "https://www.news.cn/photo/20260815/4bbb7efbe8aa4ba9b69b0d5d3ec62835/c.html",
+          "title": "2026年全国生态日主场活动在内蒙古呼伦贝尔举办",
+          "url": "https://www.news.cn/politics/20260815/c9a10cda470d452b827ec115fbf05035/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71040,14 +71040,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "731部队“活体解剖”部门私人相册首次被发现",
           "url": "https://www.news.cn/world/20260815/232cd732e9584a6cb828556a15a81981/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "5e979c5ef0bdb8",
-          "source": "新华社",
-          "title": "7月份中国快递发展指数同比提升2.4%",
-          "url": "https://www.news.cn/fortune/20260815/c62ed76d0c244477a3388ff82c815634/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71132,6 +71124,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "66af2903948975",
+          "source": "新华社",
+          "title": "以军空袭黎南部致至少7人死亡",
+          "url": "https://www.news.cn/20260815/f66236c60eae48a2b3c305e1f8de527e/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8e9762ba4c7e29",
+          "source": "新华社",
+          "title": "以高水平法治护航美丽中国建设",
+          "url": "https://www.news.cn/politics/20260815/ea87714e8c5b4340b2f017897c0773cc/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d3d720e3f2e6c9",
           "source": "新华社",
           "title": "伊外长：无意延长停火协议 未决定重启谈判",
@@ -71140,18 +71148,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "2854e5918ecb09",
+          "id": "23af0d8c7c9d78",
           "source": "新华社",
-          "title": "伊朗回应特朗普：霍尔木兹海峡开放与关闭由伊朗掌控",
-          "url": "https://www.news.cn/20260815/9f0c8651b99c4a03b18fe54eb060c5a8/c.html",
+          "title": "伊拉克石油出口量达伊朗战事爆发以来峰值",
+          "url": "https://www.news.cn/world/20260815/8f96acd72a8246198b3e64351b26d6ce/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
         {
-          "id": "3309e4187e3cc1",
+          "id": "2854e5918ecb09",
           "source": "新华社",
-          "title": "全国生态日丨行至蜀道，看千年古柏何以长青",
-          "url": "https://www.news.cn/politics/20260815/1d87c71409684fe1b26dd63d7b907350/c.html",
+          "title": "伊朗回应特朗普：霍尔木兹海峡开放与关闭由伊朗掌控",
+          "url": "https://www.news.cn/20260815/9f0c8651b99c4a03b18fe54eb060c5a8/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71172,26 +71180,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "1a144671d9bf48",
+          "id": "cdb310f42b56d4",
           "source": "新华社",
-          "title": "北京今年已刑拘450余涉诈运金嫌疑人 打掉73个车队",
-          "url": "https://www.news.cn/legal/20260815/6898eba4e8c646c38c03d4d03b93f4c6/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "358a27c4203ef9",
-          "source": "新华社",
-          "title": "卢拉：巴西将在大选后决定是否接受美驻巴大使提名",
-          "url": "https://www.news.cn/20260815/b56b17692613448e80d8f19cbedc0b8d/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "c17069b64197d4",
-          "source": "新华社",
-          "title": "印尼7.7级强震现场画面",
-          "url": "https://www.news.cn/world/20260815/e2ae9e11226e464597b7e154e144839a/c.html",
+          "title": "印尼强震已致20人死亡 多趟境内航班被取消",
+          "url": "https://www.news.cn/world/20260815/9efab120c0c94fa0968b57088b45dd62/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71200,14 +71192,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "在中国最北群岛 赴候鸟之约",
           "url": "https://www.news.cn/video/20260815/a548d5bb9b7c4d4b9c8e7f83efa08838/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "1546fdf13c10f9",
-          "source": "新华社",
-          "title": "塞尔维亚总统武契奇视察中企承建世博会场馆",
-          "url": "https://www.news.cn/world/20260815/9dabe2a4143a405c8bcfba27edc06ad7/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71252,34 +71236,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "f510343a6e3bd2",
-          "source": "新华社",
-          "title": "已造成至少20人死亡",
-          "url": "https://www.news.cn/world/20260815/923f487488c741edb2df9ecb5b5125e2/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "95894e651f3bce",
-          "source": "新华社",
-          "title": "巴勒斯坦谴责以方定居点“民事执法权”移交计划",
-          "url": "https://www.news.cn/world/20260815/724cb7b171454fbd8300945a66ceb4e5/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "427bdf37577565",
-          "source": "新华社",
-          "title": "德国北威州发生森林火灾",
-          "url": "https://www.news.cn/photo/20260815/1b0aa916f77b4cc7a2e35464761950a3/c.html",
-          "date": "2026-08-15",
-          "keyword": "综合时政"
-        },
-        {
           "id": "e314ddc2421d78",
           "source": "新华社",
           "title": "思想铸魂 法典护航——全国生态日看美丽中国实践",
           "url": "https://www.news.cn/legal/20260815/c59b13ae920340d7abcb50d453b175af/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4fe1f87550dbc8",
+          "source": "新华社",
+          "title": "房屋遭受大楼玻璃幕墙光污染，可依法维权",
+          "url": "https://www.news.cn/legal/20260815/e70b5aa4e1974a2389f0408843f70f0f/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71332,10 +71300,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "3f9120a084f27e",
+          "source": "新华社",
+          "title": "月球为何会有“两副面孔”？月壤研究再获新进展",
+          "url": "https://www.news.cn/politics/20260815/ba6f1f032e2c40cabee1ea1d39b2d04f/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "13de1ac6b93637",
           "source": "新华社",
           "title": "欧美同学会发布2026年“归巢计划”",
           "url": "https://www.news.cn/world/20260815/d154c7a2195d4fa89f738422d70177e6/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1546fdf13c10f9",
+          "source": "新华社",
+          "title": "武契奇视察中企承建世博会场馆：塞中友谊牢不可破",
+          "url": "https://www.news.cn/world/20260815/9dabe2a4143a405c8bcfba27edc06ad7/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71364,17 +71348,17 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "aba6bd01856b42",
+          "id": "45a71b98868cdf",
           "source": "新华社",
-          "title": "特朗普：击败伊朗后会宣布霍尔木兹海峡为美国领土",
-          "url": "https://www.news.cn/20260815/905802b853f44fdfa53acd97405a9883/c.html",
+          "title": "甘肃将5市干旱防御Ⅳ级应急响应调整为Ⅲ级",
+          "url": "https://www.news.cn/local/20260815/55171375413b4912b91e0bb4cb9e368f/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
         {
           "id": "40faccd2c07423",
           "source": "新华社",
-          "title": "生态环境法典正式施行",
+          "title": "生态环境法典施行",
           "url": "https://www.news.cn/legal/20260815/4d8bee3676e2434d849a39cad1226159/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
@@ -71384,6 +71368,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "生态环境法典的中国创新与世界贡献",
           "url": "https://www.news.cn/legal/20260815/51f091f974944b73aa5d9cbe02358fc4/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6cd57595b81f77",
+          "source": "新华社",
+          "title": "疑似受沙门氏菌污染 美国千万枚鸡蛋被召回",
+          "url": "https://www.news.cn/20260815/0f7c7c1a5c4b46598d2801375f47bcd7/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71468,6 +71460,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "a1750856d4cdb6",
+          "source": "新华社",
+          "title": "韩国总统李在明提出“包容稳定的对朝和平共处蓝图”",
+          "url": "https://www.news.cn/world/20260815/5406848afe8f408fa8988c10204b96e8/c.html",
+          "date": "2026-08-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "ee6f3b3fb4180a",
           "source": "新华社",
           "title": "韩国总统李在明提出对朝“和平共处蓝图”",
@@ -71476,10 +71476,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "3fde449b9563cf",
+          "id": "02cd79a69b0e95",
           "source": "新华社",
-          "title": "黎方要求明确以撤军时间 真主党重申拒绝框架协议",
-          "url": "https://www.news.cn/20260815/790dcf5689ae498d9816a4892b67accb/c.html",
+          "title": "领略内蒙古的生态之美",
+          "url": "https://www.news.cn/politics/20260815/6d788d7a2af54befabef90d692099871/c.html",
           "date": "2026-08-15",
           "keyword": "综合时政"
         },
@@ -71505,65 +71505,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 11.9,
+          "duration": 12.9,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260815.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 23,
-          "duration": 2.5
+          "duration": 2.2
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.5
+          "duration": 2.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 27.6
+          "duration": 43.5
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 5,
-          "duration": 6.1
+          "duration": 5.9
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 2.2
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 11.7
+          "duration": 13.0
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.4
+          "duration": 2.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 10.0
+          "duration": 13.4
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 62.1
+          "duration": 62.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-15T13:20:51+08:00"
+  "generatedAt": "2026-08-15T14:28:01+08:00"
 };
