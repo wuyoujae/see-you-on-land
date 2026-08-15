@@ -72230,6 +72230,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "daf68acfaeb6f1",
+          "source": "新华社",
+          "title": "摩洛哥加强边境管控 拦截294名企图非法越境人员",
+          "url": "https://www.news.cn/20260816/ac7ed8e0d8024e529024e778234fc059/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "cc6fb2c65bdb44",
           "source": "新华社",
           "title": "日本侵略历史 不容翻案 重蹈覆辙必遭彻底清算",
@@ -72251,26 +72259,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 10.5,
+          "duration": 10.7,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260816.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.2
+          "duration": 2.1
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 5,
-          "duration": 2.7
+          "count": 6,
+          "duration": 2.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 19.1
+          "duration": 13.0
         },
         {
           "source": "求是",
@@ -72282,34 +72290,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "光明日报",
           "status": "ok",
           "count": 28,
-          "duration": 1.6
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.0
+          "duration": 13.7
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.7
+          "duration": 3.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.1
+          "duration": 9.6
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 43.9
+          "duration": 57.2
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-16T06:28:46+08:00"
+  "generatedAt": "2026-08-16T07:24:48+08:00"
 };
