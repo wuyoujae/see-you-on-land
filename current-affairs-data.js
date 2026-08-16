@@ -71778,6 +71778,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
+          "id": "933def778b2821",
+          "source": "中国政府网",
+          "title": "朱镕基同志遗体18日火化 天安门等地将下半旗志哀",
+          "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7078189.htm",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a2867373073e8b",
           "source": "人民日报",
           "title": "ńŞÇŠë╣ŠŚąŠťČńżÁňŹÄŔÁäŠľÖňůąŔŚĆňŹŚń║Č",
@@ -72234,6 +72242,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "59d63ba374153e",
+          "source": "新华社",
+          "title": "WTT欧洲大满贯赛瑞典站：国乒三将晋级女单四强",
+          "url": "https://www.news.cn/sports/20260816/002dfffb55b44db7ba53c72c3d45c765/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "ab0a4d23422872",
           "source": "新华社",
           "title": "“流沙之上建大楼”——美债困局为何越陷越深",
@@ -72262,6 +72278,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "中欧北极快航正式常态化运营 畅通“冰上丝绸之路”",
           "url": "https://www.news.cn/fortune/20260816/c46b0bf52b62496f80e655d8d51d978f/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "58ab99b9bb5252",
+          "source": "新华社",
+          "title": "乌克兰首都基辅响起强烈爆炸声",
+          "url": "https://www.news.cn/world/20260816/17a234389d8e4facb58da6e21f89e89a/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72362,14 +72386,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "e83d3d4a876d10",
-          "source": "新华社",
-          "title": "广西贺州：一条古道，串起千年文脉",
-          "url": "https://www.news.cn/local/20260816/fc64b40cde03467baabfa9cbf9ceac0e/c.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
           "id": "444afd6d3a1b6a",
           "source": "新华社",
           "title": "应急管理部调派13支排涝队伍赴周口开展排涝作业",
@@ -72410,14 +72426,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a4d40dc7ba6005",
-          "source": "新华社",
-          "title": "新华视点丨极端降雨考验北方城市韧性",
-          "url": "https://www.news.cn/politics/20260816/98739e768f7649ec92d777b9da2081e4/c.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
           "id": "cc6fb2c65bdb44",
           "source": "新华社",
           "title": "日本侵略历史 不容翻案 重蹈覆辙必遭彻底清算",
@@ -72450,10 +72458,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "0b1a50cc2bbb56",
+          "source": "新华社",
+          "title": "沙颍河界首段水位突破历史极值 干群全力筑牢防线",
+          "url": "https://www.news.cn/local/20260816/815d90e924d4462884b5f5a70d289c77/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f2451987acc619",
+          "source": "新华社",
+          "title": "泸沽湖偶遇后 两岸“费家人”重聚浙江濮院",
+          "url": "https://www.news.cn/tw/20260816/6bab38911cb143db96723524db63a24b/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "358338812435a1",
           "source": "新华社",
           "title": "津巴布韦船只倾覆事故死亡人数升至68人",
           "url": "https://www.news.cn/20260816/c58a28974ae94ea1a0ffa5baa6170ddf/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9985f01354969a",
+          "source": "新华社",
+          "title": "焦裕禄全家福上唯独少了他自己",
+          "url": "https://www.news.cn/politics/20260816/46c8b6a7d2e64fa58dbc8d6183f85a06/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72482,6 +72514,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "a4d40dc7ba6005",
+          "source": "新华社",
+          "title": "记者调研：极端降雨考验北方城市韧性",
+          "url": "https://www.news.cn/politics/20260816/98739e768f7649ec92d777b9da2081e4/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "94994e863b438b",
+          "source": "新华社",
+          "title": "跃江出海：青藏高原冷水鱼远销世界",
+          "url": "https://www.news.cn/local/20260816/68c069af858a4618878ebd3e5e649a0d/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "ca0d103aafc5ef",
           "source": "新华社",
           "title": "金正恩回电普京：展望两国美好未来时感到自豪",
@@ -72502,6 +72550,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "韩国：纪念光复节",
           "url": "https://www.news.cn/world/20260816/d3300d915a1545888700650f884950af/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "27fe139f835fda",
+          "source": "新华社",
+          "title": "龙某造谣“青岛大学新校徽被指像旭日旗”被行拘并处罚款",
+          "url": "https://www.news.cn/legal/20260816/0d85a95501c84122b1a0e26c7eacdb3a/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72535,65 +72591,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.1,
+          "duration": 8.5,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260816.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.8
+          "duration": 2.6
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 37,
-          "duration": 2.2
+          "count": 43,
+          "duration": 1.7
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 10.5
+          "duration": 25.7
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 3,
-          "duration": 6.0
+          "duration": 6.3
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 28,
-          "duration": 1.5
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.8
+          "duration": 16.0
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 1,
-          "duration": 3.1
+          "duration": 3.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 0,
-          "duration": 9.4
+          "count": 1,
+          "duration": 9.2
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 3,
-          "duration": 54.2
+          "duration": 63.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-16T15:27:20+08:00"
+  "generatedAt": "2026-08-16T16:22:41+08:00"
 };
