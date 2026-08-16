@@ -71746,6 +71746,10 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "name": "高质量发展",
           "count": 3
+        },
+        {
+          "name": "科技",
+          "count": 2
         }
       ],
       "articles": [
@@ -71796,6 +71800,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/gangao/20260816/1c98a306c092496e933718bb7c7f8c78/c.html",
           "date": "2026-08-16",
           "keyword": "高质量发展"
+        },
+        {
+          "id": "ac7e66c285d39d",
+          "source": "人民日报",
+          "title": "浙江在科技前沿领域加快突破（活力中国调研行）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175093.html",
+          "date": "2026-08-16",
+          "keyword": "科技"
+        },
+        {
+          "id": "42905f9e5c27a8",
+          "source": "新华社",
+          "title": "产业发展开新局丨南京江宁：在推动科技创新和产业创新融合上努力打头阵",
+          "url": "https://www.news.cn/photo/20260816/52f8d4b9835541279089f4106ca2d482/c.html",
+          "date": "2026-08-16",
+          "keyword": "科技"
         },
         {
           "id": "933def778b2821",
@@ -71978,14 +71998,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "提高防灾减灾救灾能力",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175090.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "ac7e66c285d39d",
-          "source": "人民日报",
-          "title": "浙江在科技前沿领域加快突破（活力中国调研行）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175093.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72270,6 +72282,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "453f857eb9da65",
+          "source": "新华社",
+          "title": "“双抢”三变筑粮安",
+          "url": "https://www.news.cn/local/20260816/b89fb92826e043e0a59af7f031469f84/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "8fa1df2e904cde",
           "source": "新华社",
           "title": "一场移民危机牵动申根",
@@ -72310,6 +72330,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "fee39464fee0df",
+          "source": "新华社",
+          "title": "云南个旧：完善“一老一小”就医服务",
+          "url": "https://www.news.cn/photo/20260816/cb9face52ed7471db9a21de488775cdd/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "2fcfecc5619be5",
           "source": "新华社",
           "title": "今天，向焦裕禄致敬",
@@ -72338,14 +72366,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "休达“无事”的一天",
           "url": "https://www.news.cn/world/20260816/999645418b8145739400bfa84e510c88/c.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "e733e39846da22",
-          "source": "新华社",
-          "title": "俄罗斯史学家：日本“再军事化”威胁巨大",
-          "url": "https://www.news.cn/world/20260816/4674630bd0214e3fba0b395e2aae00d6/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72432,7 +72452,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "ae83d5dc230d82",
           "source": "新华社",
-          "title": "安徽界首：水位破极值 干群筑牢安全防线",
+          "title": "安徽：水位破极值 干群筑牢安全防线",
           "url": "https://www.news.cn/photo/20260816/98aa0a1105c44b82ac1ab5b6d6d7c7d6/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
@@ -72502,18 +72522,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "cc6fb2c65bdb44",
+          "id": "ab0a4d23422872",
           "source": "新华社",
-          "title": "新华时评丨日本侵略历史不容翻案 重蹈覆辙必遭彻底清算",
-          "url": "https://www.news.cn/world/20260816/4f66da8850954d23884ece9d5f8089e2/c.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "c69846c3ccba01",
-          "source": "新华社",
-          "title": "新华社消息丨中国使馆：日政要参拜靖国神社严重挑战战后国际秩序",
-          "url": "https://www.news.cn/world/20260816/976a3780a4504315a682fefba7027227/c.html",
+          "title": "新闻分析丨“流沙之上建大楼”——美债困局为何越陷越深",
+          "url": "https://www.news.cn/world/20260816/c9203fc6eae94a0a84c7db983b82bd85/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72598,14 +72610,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8f2c81158a3d97",
-          "source": "新华社",
-          "title": "特朗普再促参议院通过全年采用夏令时法案",
-          "url": "https://www.news.cn/world/20260816/b415cdf39b81447d85d4f4784f6a3d40/c.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
           "id": "01b5daba3bc297",
           "source": "新华社",
           "title": "研究显示新型微生物光合系统有望高效生产化学品",
@@ -72614,10 +72618,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "38f764bd93527c",
+          "id": "66217d9e1c3749",
           "source": "新华社",
-          "title": "综述丨欧洲加速汽车电动化转型挑战产业传统格局",
-          "url": "https://www.news.cn/fortune/20260816/8e5f6d4abee44dfca55d872f34d300b0/c.html",
+          "title": "脱离民众、部署混乱 航母风波凸显美军困境",
+          "url": "https://www.news.cn/20260816/3fc616d940d14aa79876cc5063cf87ba/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72670,10 +72674,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "ca0d103aafc5ef",
+          "id": "e75c5c3862fc56",
           "source": "新华社",
-          "title": "金正恩回电普京：展望两国美好未来时感到自豪",
-          "url": "https://www.news.cn/world/20260816/31313309a31b4deca862d571378fd72e/c.html",
+          "title": "镜观世界丨基多：赤道上的文化古城",
+          "url": "https://www.news.cn/photo/20260816/d8e0956d4fbc47ae9e389dafa062785c/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72739,66 +72743,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 9.5,
+          "duration": 10.9,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260816.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 2.1
+          "duration": 3.3
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 1.9
+          "duration": 2.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 38.0
+          "duration": 29.6
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 3,
-          "duration": 5.9
+          "duration": 6.4
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 28,
-          "duration": 1.9
+          "duration": 1.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.8
+          "duration": 14.2
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 1,
-          "duration": 3.1
+          "duration": 2.9
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 8.2
+          "duration": 9.1
         },
         {
           "source": "广东发布",
-          "status": "stale",
+          "status": "ok",
           "count": 3,
-          "duration": 21.8,
-          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+          "duration": 67.0
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-16T18:17:20+08:00"
+  "generatedAt": "2026-08-16T19:16:01+08:00"
 };
