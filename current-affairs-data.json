@@ -72202,6 +72202,22 @@
           "keyword": "综合时政"
         },
         {
+          "id": "ab0a4d23422872",
+          "source": "新华社",
+          "title": "“流沙之上建大楼”——美债困局为何越陷越深",
+          "url": "https://www.news.cn/world/20260816/c9203fc6eae94a0a84c7db983b82bd85/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "49796f380d53ef",
+          "source": "新华社",
+          "title": "一店卖全球，跨境电商推动中国制造加速出海",
+          "url": "https://www.news.cn/fortune/20260816/fd2fabb0067546dc94360edf7aa4166b/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "976f28cff74d44",
           "source": "新华社",
           "title": "中国队在第38届国际信息学奥赛斩获3金1银",
@@ -72218,10 +72234,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "b211b9047ac6be",
+          "id": "fa32de980a5513",
           "source": "新华社",
           "title": "以色列空袭黎巴嫩南部迪尔扎赫拉尼镇",
-          "url": "https://www.news.cn/photo/20260816/868e7b874eef4f7b891633c4fce25022/c.html",
+          "url": "https://www.news.cn/world/20260816/f2f98a2e39f6449c8e2f0f4f0a27b8eb/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72250,10 +72266,26 @@
           "keyword": "综合时政"
         },
         {
+          "id": "924e49f0207b45",
+          "source": "新华社",
+          "title": "台湾团体：警惕日本“新型军国主义”危害台海安全",
+          "url": "https://www.news.cn/tw/20260816/bb50f8d3f6df45b5b11c9dce111aeaf9/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "9a8d4dcd6633f3",
           "source": "新华社",
           "title": "图片故事丨高原上的“荒野守护者”",
           "url": "https://www.news.cn/photo/20260816/3af21da8b0ec40159f18a3bb5ffade1b/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "243fc935b2e402",
+          "source": "新华社",
+          "title": "多地新发现一批日军侵华史料实物",
+          "url": "https://www.news.cn/world/20260816/681f925ab9a2403f858754985bda2654/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72270,6 +72302,14 @@
           "source": "新华社",
           "title": "山东乳山:“健康方舟”守护海岛群众健康",
           "url": "https://www.news.cn/photo/20260816/7e13d1c39b6c429a94ff005b31b73f07/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7ee5dc7359727e",
+          "source": "新华社",
+          "title": "打卡“龙餐馆” 读懂一座西北矿区的光影新生",
+          "url": "https://www.news.cn/politics/20260816/f933c2b6287d4e0492b78cee92c320c3/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72298,6 +72338,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "eb2fc0d861e0fc",
+          "source": "新华社",
+          "title": "暴雨和洪水已造成美国印第安纳州6人死亡",
+          "url": "https://www.news.cn/20260816/b67836e2559b40a2b65081817bc87088/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1ee8e5bdd10ddd",
           "source": "新华社",
           "title": "比利时发生大规模野火 数百居民被疏散",
@@ -72314,10 +72362,34 @@
           "keyword": "综合时政"
         },
         {
+          "id": "01b5daba3bc297",
+          "source": "新华社",
+          "title": "研究显示新型微生物光合系统有望高效生产化学品",
+          "url": "https://www.news.cn/20260816/7a6a1536ade041cabbedd16d0cf80e2e/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9da4ff40d835f9",
+          "source": "新华社",
+          "title": "美国肯塔基州发生枪击事件致1死4伤",
+          "url": "https://www.news.cn/world/20260816/095edaf0d193431990df309856cfa816/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "ca0d103aafc5ef",
           "source": "新华社",
           "title": "金正恩回电普京：展望两国美好未来时感到自豪",
           "url": "https://www.news.cn/world/20260816/31313309a31b4deca862d571378fd72e/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "393c7d011a1cdd",
+          "source": "新华社",
+          "title": "韩国：纪念光复节",
+          "url": "https://www.news.cn/world/20260816/d3300d915a1545888700650f884950af/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         }
@@ -72327,65 +72399,66 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 6.8,
+          "duration": 9.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260816.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.6
+          "duration": 1.9
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 15,
-          "duration": 4.2
+          "count": 24,
+          "duration": 2.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 19.4
+          "duration": 11.8
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.0
+          "duration": 6.6
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 28,
-          "duration": 1.5
+          "duration": 1.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.5
+          "duration": 12.9
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.6
+          "duration": 2.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.8
+          "duration": 10.6
         },
         {
           "source": "广东发布",
-          "status": "ok",
+          "status": "stale",
           "count": 3,
-          "duration": 45.8
+          "duration": 18.6,
+          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-16T10:19:58+08:00"
+  "generatedAt": "2026-08-16T11:43:14+08:00"
 }
