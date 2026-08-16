@@ -71741,7 +71741,7 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "习近平",
-          "count": 5
+          "count": 8
         },
         {
           "name": "高质量发展",
@@ -71749,6 +71749,18 @@ window.CURRENT_AFFAIRS_DATA = {
         },
         {
           "name": "科技",
+          "count": 3
+        },
+        {
+          "name": "产业发展",
+          "count": 2
+        },
+        {
+          "name": "科技创新",
+          "count": 2
+        },
+        {
+          "name": "十五五",
           "count": 2
         }
       ],
@@ -71794,12 +71806,28 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
-          "id": "4d1297facfec7d",
-          "source": "新华社",
-          "title": "澳门各界期盼“三五”规划开创高质量发展新局面",
-          "url": "https://www.news.cn/gangao/20260816/1c98a306c092496e933718bb7c7f8c78/c.html",
+          "id": "2a0cfcc74ca465",
+          "source": "新闻联播",
+          "title": "《求是》杂志发表习近平总书记重要文章《提高防灾减灾救灾能力》",
+          "url": "https://tv.cctv.com/2026/08/16/VIDEdZxu2YI46CcbP0tker32260816.shtml",
           "date": "2026-08-16",
-          "keyword": "高质量发展"
+          "keyword": "习近平"
+        },
+        {
+          "id": "d4c558a91d0b23",
+          "source": "新闻联播",
+          "title": "纪念江泽民同志诞辰100周年大会17日上午在京隆重举行 习近平将出席大会并发表重要讲话",
+          "url": "https://tv.cctv.com/2026/08/16/VIDE7IfTW6ugPX7m32gG1qmM260816.shtml",
+          "date": "2026-08-16",
+          "keyword": "习近平"
+        },
+        {
+          "id": "20c54b75d5061d",
+          "source": "求是",
+          "title": "【新闻联播】《求是》杂志发表习近平总书记重要文章《提高防灾减灾救灾能力》",
+          "url": "https://www.qstheory.cn/20260816/b64f3bdf18c04539bc65f55603666b47/c.html",
+          "date": "2026-08-16",
+          "keyword": "习近平"
         },
         {
           "id": "ac7e66c285d39d",
@@ -71816,6 +71844,38 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/photo/20260816/52f8d4b9835541279089f4106ca2d482/c.html",
           "date": "2026-08-16",
           "keyword": "科技"
+        },
+        {
+          "id": "4d1297facfec7d",
+          "source": "新华社",
+          "title": "澳门各界期盼“三五”规划开创高质量发展新局面",
+          "url": "https://www.news.cn/gangao/20260816/1c98a306c092496e933718bb7c7f8c78/c.html",
+          "date": "2026-08-16",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "3d8755247a08b9",
+          "source": "新闻联播",
+          "title": "【凝心聚力 真抓实干 奋力实现“十五五”良好开局】重庆加快推动科技创新和产业创新深度融合",
+          "url": "https://tv.cctv.com/2026/08/16/VIDEcFoXfxerCCrmXQcGSj0h260816.shtml",
+          "date": "2026-08-16",
+          "keyword": "科技"
+        },
+        {
+          "id": "73efaac7846223",
+          "source": "人民日报",
+          "title": "一坛酸汤，如何从山间到舌尖（奋进“十五五” 一线见闻）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175097.html",
+          "date": "2026-08-16",
+          "keyword": "十五五"
+        },
+        {
+          "id": "817f50064beecc",
+          "source": "新闻联播",
+          "title": "以源头创新激发产业发展新动能",
+          "url": "https://tv.cctv.com/2026/08/16/VIDEnJyYK7uxmK3w6sECuwls260816.shtml",
+          "date": "2026-08-16",
+          "keyword": "产业发展"
         },
         {
           "id": "933def778b2821",
@@ -71902,14 +71962,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "《开罗宣言》纪念碑对公众开放",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175138.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "73efaac7846223",
-          "source": "人民日报",
-          "title": "一坛酸汤，如何从山间到舌尖（奋进“十五五” 一线见闻）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175097.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72354,14 +72406,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "fa32de980a5513",
-          "source": "新华社",
-          "title": "以色列空袭黎巴嫩南部迪尔扎赫拉尼镇",
-          "url": "https://www.news.cn/world/20260816/f2f98a2e39f6449c8e2f0f4f0a27b8eb/c.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
           "id": "0ff768f2edb646",
           "source": "新华社",
           "title": "休达“无事”的一天",
@@ -72382,6 +72426,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "利比亚一发电站附近爆炸 首都等多地停电",
           "url": "https://www.news.cn/20260816/df8e06dd9a4e44388526f16735ed365f/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e4fbef7ab29a35",
+          "source": "新华社",
+          "title": "南海伏季休渔期结束 渔船出海作业",
+          "url": "https://www.news.cn/photo/20260816/cf237069281046a193928374bd5f703f/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72522,14 +72574,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "ab0a4d23422872",
-          "source": "新华社",
-          "title": "新闻分析丨“流沙之上建大楼”——美债困局为何越陷越深",
-          "url": "https://www.news.cn/world/20260816/c9203fc6eae94a0a84c7db983b82bd85/c.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
           "id": "ce729ec74472f2",
           "source": "新华社",
           "title": "日媒：警惕高市政权“回归战前”倾向",
@@ -72602,6 +72646,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "44741ca139fce7",
+          "source": "新华社",
+          "title": "湖南双峰：辣酱晾晒正当时",
+          "url": "https://www.news.cn/photo/20260816/85c09af4383f44738a5591bfb126677d/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "9985f01354969a",
           "source": "新华社",
           "title": "焦裕禄全家福上唯独少了他自己",
@@ -72614,6 +72666,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "研究显示新型微生物光合系统有望高效生产化学品",
           "url": "https://www.news.cn/20260816/7a6a1536ade041cabbedd16d0cf80e2e/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e834bbd5dd3a48",
+          "source": "新华社",
+          "title": "美丽中国丨壮美哈克崖山",
+          "url": "https://www.news.cn/photo/20260816/eb54bd1afa1e4ea3a32683e862c34fec/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72698,18 +72758,106 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "393c7d011a1cdd",
-          "source": "新华社",
-          "title": "韩国：纪念光复节",
-          "url": "https://www.news.cn/world/20260816/d3300d915a1545888700650f884950af/c.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
           "id": "27fe139f835fda",
           "source": "新华社",
           "title": "龙某造谣“青岛大学新校徽被指像旭日旗”被行拘并处罚款",
           "url": "https://www.news.cn/legal/20260816/0d85a95501c84122b1a0e26c7eacdb3a/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "75f3466fb37fae",
+          "source": "新闻联播",
+          "title": "《新闻联播》 20260816 19:00",
+          "url": "https://tv.cctv.com/2026/08/16/VIDEX7TetkkSqLjxRWGx3V9Z260816.shtml",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "279d0546a58a3e",
+          "source": "新闻联播",
+          "title": "【文化中国行】琢石续千秋 凝灰岩文保破解世界难题",
+          "url": "https://tv.cctv.com/2026/08/16/VIDELKQ2IsL68EtBp0gyjqau260816.shtml",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c6397c70b21315",
+          "source": "新闻联播",
+          "title": "【活力中国调研行】“陪跑”团队跑出创新加速度",
+          "url": "https://tv.cctv.com/2026/08/16/VIDEnC9l6nVx9IhDUEvQvIOz260816.shtml",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "80efb5b8f77fc3",
+          "source": "新闻联播",
+          "title": "伊朗称与阿曼就霍尔木兹海峡航运路线图达成协议",
+          "url": "https://tv.cctv.com/2026/08/16/VIDEEeRuQq2MvVFON25xPf50260816.shtml",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ff842a893a9a5c",
+          "source": "新闻联播",
+          "title": "南海海域和东海部分海域今天开渔",
+          "url": "https://tv.cctv.com/2026/08/16/VIDEC30aUZN1EX6TomV6Rjqh260816.shtml",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "468012d9d8ca01",
+          "source": "新闻联播",
+          "title": "国内联播快讯",
+          "url": "https://tv.cctv.com/2026/08/16/VIDEX8DPJqQz0nHUwSl351tt260816.shtml",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "56ee1594293da5",
+          "source": "新闻联播",
+          "title": "国际联播快讯",
+          "url": "https://tv.cctv.com/2026/08/16/VIDErHlDXaTe2csrK74gE5gm260816.shtml",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b7b1d1d329f3a5",
+          "source": "新闻联播",
+          "title": "基层中医药服务再升级 群众家门口享优质诊疗",
+          "url": "https://tv.cctv.com/2026/08/16/VIDEqlDQzzVXlrJJkAJzDF9V260816.shtml",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ecaf60b48ab993",
+          "source": "新闻联播",
+          "title": "文献纪录片《江泽民》今晚继续播出",
+          "url": "https://tv.cctv.com/2026/08/16/VIDExgjfFTkDLxFRt47jxNwk260816.shtml",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "df478f1b1a8de0",
+          "source": "新闻联播",
+          "title": "朱镕基同志遗体18日火化 天安门等地将下半旗志哀",
+          "url": "https://tv.cctv.com/2026/08/16/VIDEels71DWwu7EezRgyBKfN260816.shtml",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "82fb652a3835ef",
+          "source": "新闻联播",
+          "title": "河南江苏等地加紧进行防汛救灾工作",
+          "url": "https://tv.cctv.com/2026/08/16/VIDEeBVc3ZVx0hSOLmSIgr0K260816.shtml",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5106c3f93d913d",
+          "source": "新闻联播",
+          "title": "织密农村物流网 释放乡村新活力",
+          "url": "https://tv.cctv.com/2026/08/16/VIDE7b5yq8nsBgS5uiG0JSZy260816.shtml",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72741,16 +72889,15 @@ window.CURRENT_AFFAIRS_DATA = {
       "sourceStatus": [
         {
           "source": "新闻联播",
-          "status": "error",
-          "count": 0,
-          "duration": 10.9,
-          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260816.shtml"
+          "status": "ok",
+          "count": 16,
+          "duration": 0.3
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 3.3
+          "duration": 1.9
         },
         {
           "source": "新华社",
@@ -72762,46 +72909,46 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 29.6
+          "duration": 18.9
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 3,
-          "duration": 6.4
+          "count": 4,
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 28,
-          "duration": 1.6
+          "duration": 2.2
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.2
+          "duration": 11.7
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 1,
-          "duration": 2.9
+          "duration": 3.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 9.1
+          "duration": 19.8
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 3,
-          "duration": 67.0
+          "duration": 64.9
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-16T19:16:01+08:00"
+  "generatedAt": "2026-08-16T20:27:24+08:00"
 };
