@@ -71741,10 +71741,22 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "习近平",
-          "count": 4
+          "count": 5
+        },
+        {
+          "name": "高质量发展",
+          "count": 3
         }
       ],
       "articles": [
+        {
+          "id": "5091ae84fa4d27",
+          "source": "中国政府网",
+          "title": "习近平总书记指引企业坚定不移走高质量发展之路",
+          "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7078194.htm",
+          "date": "2026-08-16",
+          "keyword": "习近平"
+        },
         {
           "id": "4c4aa4bc57c92a",
           "source": "广东发布",
@@ -71776,6 +71788,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/politics/leaders/20260816/fbe5d0d67ce14d2ca094e6017549c857/c.html",
           "date": "2026-08-16",
           "keyword": "习近平"
+        },
+        {
+          "id": "4d1297facfec7d",
+          "source": "新华社",
+          "title": "澳门各界期盼“三五”规划开创高质量发展新局面",
+          "url": "https://www.news.cn/gangao/20260816/1c98a306c092496e933718bb7c7f8c78/c.html",
+          "date": "2026-08-16",
+          "keyword": "高质量发展"
         },
         {
           "id": "933def778b2821",
@@ -72298,6 +72318,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "8fa1df2e904cde",
+          "source": "新华社",
+          "title": "从休达到罗马 一场移民危机引发申根内部边检争议",
+          "url": "https://www.news.cn/world/20260816/bcb922a4fde64d3999b6195b9dd8e169/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "fa32de980a5513",
           "source": "新华社",
           "title": "以色列空袭黎巴嫩南部迪尔扎赫拉尼镇",
@@ -72338,6 +72366,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "635c21f54de4e8",
+          "source": "新华社",
+          "title": "印尼东努沙登加拉省宣布进入灾害紧急响应状态",
+          "url": "https://www.news.cn/20260816/05f4810a5c684eefa94fec4535eedf2d/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "93cdc540c9da96",
           "source": "新华社",
           "title": "厄瓜多尔总统诺沃亚抵达北京开始访华",
@@ -72350,6 +72386,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "台湾团体：警惕日本“新型军国主义”危害台海安全",
           "url": "https://www.news.cn/tw/20260816/bb50f8d3f6df45b5b11c9dce111aeaf9/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "95baca003cb535",
+          "source": "新华社",
+          "title": "国际人士眼里的中国：开放发展 可靠担当 魅力十足",
+          "url": "https://www.news.cn/20260816/ad0a47888ab744cfa82fd12a01779227/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72378,6 +72422,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "ae83d5dc230d82",
+          "source": "新华社",
+          "title": "安徽界首：水位破极值 干群筑牢安全防线",
+          "url": "https://www.news.cn/photo/20260816/98aa0a1105c44b82ac1ab5b6d6d7c7d6/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "2f3efed52f830a",
           "source": "新华社",
           "title": "山东乳山:“健康方舟”守护海岛群众健康",
@@ -72390,6 +72442,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "应急管理部调派13支排涝队伍赴周口开展排涝作业",
           "url": "https://www.news.cn/local/20260816/ffd0e39fad944021a8622ffc96316ec7/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "80fe7e3c732430",
+          "source": "新华社",
+          "title": "当世界走近，这座小城以“中国式好客”相待",
+          "url": "https://www.news.cn/local/20260816/4c27c7e1cc88497a9ed8277a828a1f6c/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72418,6 +72478,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "e83d3d4a876d10",
+          "source": "新华社",
+          "title": "文旅新探丨广西贺州：一条古道，串起千年文脉",
+          "url": "https://www.news.cn/local/20260816/fc64b40cde03467baabfa9cbf9ceac0e/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cc6fb2c65bdb44",
+          "source": "新华社",
+          "title": "新华时评丨日本侵略历史不容翻案 重蹈覆辙必遭彻底清算",
+          "url": "https://www.news.cn/world/20260816/4f66da8850954d23884ece9d5f8089e2/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "c69846c3ccba01",
           "source": "新华社",
           "title": "新华社消息丨中国使馆：日政要参拜靖国神社严重挑战战后国际秩序",
@@ -72426,10 +72502,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "cc6fb2c65bdb44",
+          "id": "a81c33d1824922",
           "source": "新华社",
-          "title": "日本侵略历史 不容翻案 重蹈覆辙必遭彻底清算",
-          "url": "https://www.news.cn/world/20260816/4f66da8850954d23884ece9d5f8089e2/c.html",
+          "title": "日政要参拜靖国神社遭国际社会强烈反对",
+          "url": "https://www.news.cn/world/20260816/fd6cea77d7dd4bf5a158848e3c77cc5d/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72454,6 +72530,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "比利时发生大规模野火 数百居民被疏散",
           "url": "https://www.news.cn/20260816/2ac68a96168647b9a070eb03d506b15d/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d0dfe917f810b5",
+          "source": "新华社",
+          "title": "江苏泗洪：服务驿站暖人心",
+          "url": "https://www.news.cn/photo/20260816/49c4d0c35f7e462ab57185ccdf3afdfd/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72498,10 +72582,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "71685aa4d72991",
+          "id": "38f764bd93527c",
           "source": "新华社",
-          "title": "美国肯塔基州枪击致1死4伤",
-          "url": "https://www.news.cn/world/20260816/3fcd7941ebb94251b1c8d91934adb240/c.html",
+          "title": "综述丨欧洲加速汽车电动化转型挑战产业传统格局",
+          "url": "https://www.news.cn/fortune/20260816/8e5f6d4abee44dfca55d872f34d300b0/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72526,6 +72610,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "跃江出海：青藏高原冷水鱼远销世界",
           "url": "https://www.news.cn/local/20260816/68c069af858a4618878ebd3e5e649a0d/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5393cd4036fc88",
+          "source": "新华社",
+          "title": "身边的红色地标丨晋冀鲁豫边区革命纪念馆里童声讲述烽火事",
+          "url": "https://www.news.cn/20260816/27523cc91ee742a0a432a9e8f5cfe1dd/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "56e75c32e98865",
+          "source": "新华社",
+          "title": "近万名中外“小发明家”齐聚郑州展风采",
+          "url": "https://www.news.cn/photo/20260816/6e9c7e08571a490f8ffca049275c2c7e/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b739628ff372a8",
+          "source": "新华社",
+          "title": "追光丨备战世界杯，中国U17女足迎冠军杯“小考”",
+          "url": "https://www.news.cn/sports/20260816/46a93db0772044c6881b4b7658936b49/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72591,44 +72699,44 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.5,
+          "duration": 9.2,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260816.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 2.6
+          "duration": 1.8
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 43,
-          "duration": 1.7
+          "count": 55,
+          "duration": 3.0
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 25.7
+          "duration": 25.9
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 3,
-          "duration": 6.3
+          "duration": 6.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 28,
-          "duration": 2.0
+          "duration": 2.1
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 16.0
+          "duration": 14.5
         },
         {
           "source": "学习强国",
@@ -72639,17 +72747,17 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 1,
-          "duration": 9.2
+          "count": 2,
+          "duration": 8.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 3,
-          "duration": 63.7
+          "duration": 71.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-16T16:22:41+08:00"
+  "generatedAt": "2026-08-16T17:23:01+08:00"
 };
