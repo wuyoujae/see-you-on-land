@@ -72406,10 +72406,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "512dff0ae2f49b",
+          "source": "新华社",
+          "title": "人海·微光丨21年坚守，只为村里孩子们",
+          "url": "https://education.news.cn/20260816/c9708dc93ba040a5aa0287c3abae94ec/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "2fcfecc5619be5",
           "source": "新华社",
           "title": "今天，向焦裕禄致敬",
           "url": "https://www.news.cn/politics/20260816/6f61d79ede95477d9b4603c29b2ffaea/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bd2dc69b4e7a4b",
+          "source": "新华社",
+          "title": "伊朗军方：美国不得进入波斯湾及周边海域",
+          "url": "https://www.news.cn/world/20260816/36b8a8413b8c4c3496dda4b31452d9a3/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72474,6 +72490,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "台湾团体：警惕日本“新型军国主义”危害台海安全",
           "url": "https://www.news.cn/tw/20260816/bb50f8d3f6df45b5b11c9dce111aeaf9/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9262db220e4927",
+          "source": "新华社",
+          "title": "品尝咸阳版“深夜食堂”里的汇通面",
+          "url": "https://www.news.cn/20260816/e040f18044194f4fb60a4dc72ad4c48a/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72630,14 +72654,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d0dfe917f810b5",
-          "source": "新华社",
-          "title": "江苏泗洪：服务驿站暖人心",
-          "url": "https://www.news.cn/photo/20260816/49c4d0c35f7e462ab57185ccdf3afdfd/c.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
           "id": "0b1a50cc2bbb56",
           "source": "新华社",
           "title": "沙颍河界首段水位突破历史极值 干群全力筑牢防线",
@@ -72678,34 +72694,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "f6435603d830f9",
-          "source": "新华社",
-          "title": "第十九届香港青少年军事夏令营结业",
-          "url": "https://www.news.cn/20260816/050433aa3fe14344a137e8c9693d104a/c.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "1d0610768f45a6",
-          "source": "新华社",
-          "title": "美媒：海湾盟友对美沮丧情绪持续上升",
-          "url": "https://www.news.cn/world/20260816/67532a63a7f9474bac469b08382875b5/c.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
           "id": "66217d9e1c3749",
           "source": "新华社",
           "title": "脱离民众、部署混乱 航母风波凸显美军困境",
           "url": "https://www.news.cn/20260816/3fc616d940d14aa79876cc5063cf87ba/c.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "a4d40dc7ba6005",
-          "source": "新华社",
-          "title": "记者调研：极端降雨考验北方城市韧性",
-          "url": "https://www.news.cn/politics/20260816/98739e768f7649ec92d777b9da2081e4/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72746,6 +72738,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "镜观世界丨基多：赤道上的文化古城",
           "url": "https://www.news.cn/photo/20260816/d8e0956d4fbc47ae9e389dafa062785c/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c17913239cc090",
+          "source": "新华社",
+          "title": "陈茂波：巩固提升香港国际航空枢纽地位",
+          "url": "https://www.news.cn/gangao/20260816/ca8927b5683546dbadaf3e19b69e6a3a/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72891,13 +72891,13 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "ok",
           "count": 16,
-          "duration": 0.5
+          "duration": 0.4
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.6
+          "duration": 1.8
         },
         {
           "source": "新华社",
@@ -72909,46 +72909,47 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 25.1
+          "duration": 18.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 4,
-          "duration": 6.3
+          "duration": 6.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 28,
-          "duration": 1.4
+          "duration": 5.9
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.6
+          "duration": 11.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 1,
-          "duration": 2.7
+          "duration": 2.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 10.9
+          "duration": 10.6
         },
         {
           "source": "广东发布",
-          "status": "ok",
+          "status": "stale",
           "count": 3,
-          "duration": 58.4
+          "duration": 19.0,
+          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-16T22:17:58+08:00"
+  "generatedAt": "2026-08-16T23:16:06+08:00"
 };
