@@ -72326,10 +72326,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "59d63ba374153e",
+          "id": "5f47df10a8f336",
           "source": "新华社",
-          "title": "WTT欧洲大满贯赛瑞典站：国乒三将晋级女单四强",
-          "url": "https://www.news.cn/sports/20260816/002dfffb55b44db7ba53c72c3d45c765/c.html",
+          "title": "WTT瑞典站：王艺迪、王曼昱会师女单决赛",
+          "url": "https://www.news.cn/sports/20260816/0cb98ae769f94c52885fd83d337ee6d1/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72358,6 +72358,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "6e118bf4db4f4f",
+          "source": "新华社",
+          "title": "中企助力约旦能源转型",
+          "url": "https://www.news.cn/20260816/613a098b413249d4b7bb36b15546794c/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1a6354972c05d7",
           "source": "新华社",
           "title": "中国空间站动态丨“太空家园”在轨科研忙",
@@ -72382,10 +72390,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "58ab99b9bb5252",
+          "id": "119972aa31807f",
           "source": "新华社",
-          "title": "乌克兰首都基辅响起强烈爆炸声",
-          "url": "https://www.news.cn/world/20260816/17a234389d8e4facb58da6e21f89e89a/c.html",
+          "title": "乌克兰多地遭空袭 乌海军打击俄导弹系统",
+          "url": "https://www.news.cn/20260816/86bbcaae003747628dfdaa35fffaa0f8/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72402,6 +72410,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "今天，向焦裕禄致敬",
           "url": "https://www.news.cn/politics/20260816/6f61d79ede95477d9b4603c29b2ffaea/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d73f5880e5b733",
+          "source": "新华社",
+          "title": "伊朗议会通过反渗透法案",
+          "url": "https://www.news.cn/world/20260816/3adb2bf895034283b52458a82a6831d8/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72438,10 +72454,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "635c21f54de4e8",
+          "id": "a8aadfa0434a06",
           "source": "新华社",
-          "title": "印尼东努沙登加拉省宣布进入灾害紧急响应状态",
-          "url": "https://www.news.cn/20260816/05f4810a5c684eefa94fec4535eedf2d/c.html",
+          "title": "印度一乘客欲携枪登机 枪支走火击伤安检员",
+          "url": "https://www.news.cn/world/20260816/013c7455c3384bbcafd7903e0130b74b/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72486,6 +72502,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "e834bbd5dd3a48",
+          "source": "新华社",
+          "title": "壮美哈克崖山",
+          "url": "https://www.news.cn/photo/20260816/eb54bd1afa1e4ea3a32683e862c34fec/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "243fc935b2e402",
           "source": "新华社",
           "title": "多地新发现一批日军侵华史料实物",
@@ -72498,14 +72522,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "安徽：水位破极值 干群筑牢安全防线",
           "url": "https://www.news.cn/photo/20260816/98aa0a1105c44b82ac1ab5b6d6d7c7d6/c.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "2f3efed52f830a",
-          "source": "新华社",
-          "title": "山东乳山:“健康方舟”守护海岛群众健康",
-          "url": "https://www.news.cn/photo/20260816/7e13d1c39b6c429a94ff005b31b73f07/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72662,10 +72678,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "e834bbd5dd3a48",
+          "id": "f6435603d830f9",
           "source": "新华社",
-          "title": "美丽中国丨壮美哈克崖山",
-          "url": "https://www.news.cn/photo/20260816/eb54bd1afa1e4ea3a32683e862c34fec/c.html",
+          "title": "第十九届香港青少年军事夏令营结业",
+          "url": "https://www.news.cn/20260816/050433aa3fe14344a137e8c9693d104a/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72682,14 +72698,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "脱离民众、部署混乱 航母风波凸显美军困境",
           "url": "https://www.news.cn/20260816/3fc616d940d14aa79876cc5063cf87ba/c.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "c870d5ad24b2b0",
-          "source": "新华社",
-          "title": "菲律宾极端降雨天气已致23人死亡 受灾人口超490万",
-          "url": "https://www.news.cn/20260816/7b6f0d3f3b3f4748b961c53513e19273/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72742,14 +72750,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "fa4fd59470d70a",
-          "source": "新华社",
-          "title": "阿根廷首都举行“珍奇古书展”",
-          "url": "https://www.news.cn/photo/20260816/fd8f7862586244a682820b199b4c6245/c.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
           "id": "dcfe561d23cd57",
           "source": "新华社",
           "title": "韩军向越过东部军事分界线朝鲜军人鸣枪警告",
@@ -72760,7 +72760,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "27fe139f835fda",
           "source": "新华社",
-          "title": "龙某造谣“青岛大学新校徽被指像旭日旗”被行拘并处罚款",
+          "title": "龙某造谣“青岛大学新校徽被指像旭日旗”被行政拘留并处罚款",
           "url": "https://www.news.cn/legal/20260816/0d85a95501c84122b1a0e26c7eacdb3a/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
@@ -72891,64 +72891,64 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "ok",
           "count": 16,
-          "duration": 0.4
+          "duration": 0.5
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.7
+          "duration": 1.6
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 1.8
+          "duration": 3.1
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 41.3
+          "duration": 25.1
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 4,
-          "duration": 5.9
+          "duration": 6.3
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 28,
-          "duration": 1.5
+          "duration": 1.4
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.8
+          "duration": 12.6
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 1,
-          "duration": 2.9
+          "duration": 2.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 8.1
+          "duration": 10.9
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 3,
-          "duration": 78.6
+          "duration": 58.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-16T21:28:03+08:00"
+  "generatedAt": "2026-08-16T22:17:58+08:00"
 };
