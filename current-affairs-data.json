@@ -72202,6 +72202,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "cb1cf93986ae2a",
+          "source": "新华社",
+          "title": "2026“中国戏演出季”在奥地利精彩启幕",
+          "url": "https://www.news.cn/20260816/6ed896bf63d74d60b4bf66de6133e11f/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "ab0a4d23422872",
           "source": "新华社",
           "title": "“流沙之上建大楼”——美债困局为何越陷越深",
@@ -72230,6 +72238,14 @@
           "source": "新华社",
           "title": "中欧北极快航正式常态化运营 畅通“冰上丝绸之路”",
           "url": "https://www.news.cn/fortune/20260816/c46b0bf52b62496f80e655d8d51d978f/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2fcfecc5619be5",
+          "source": "新华社",
+          "title": "今天，向焦裕禄致敬",
+          "url": "https://www.news.cn/politics/20260816/6f61d79ede95477d9b4603c29b2ffaea/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72306,6 +72322,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "444afd6d3a1b6a",
+          "source": "新华社",
+          "title": "应急管理部调派13支排涝队伍赴周口开展排涝作业",
+          "url": "https://www.news.cn/local/20260816/ffd0e39fad944021a8622ffc96316ec7/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "7ee5dc7359727e",
           "source": "新华社",
           "title": "打卡“龙餐馆” 读懂一座西北矿区的光影新生",
@@ -72370,10 +72394,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "9da4ff40d835f9",
+          "id": "71685aa4d72991",
           "source": "新华社",
-          "title": "美国肯塔基州发生枪击事件致1死4伤",
-          "url": "https://www.news.cn/world/20260816/095edaf0d193431990df309856cfa816/c.html",
+          "title": "美国肯塔基州枪击致1死4伤",
+          "url": "https://www.news.cn/world/20260816/3fcd7941ebb94251b1c8d91934adb240/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72423,65 +72447,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 11.4,
+          "duration": 14.7,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260816.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 2.1
+          "duration": 1.2
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 24,
-          "duration": 2.1
+          "count": 27,
+          "duration": 2.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 13.8
+          "duration": 27.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 3,
-          "duration": 5.8
+          "duration": 6.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 28,
-          "duration": 5.7
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.9
+          "duration": 14.5
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.5
+          "duration": 2.8
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 12.3
+          "duration": 8.7
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 3,
-          "duration": 64.9
+          "duration": 53.8
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-16T12:31:20+08:00"
+  "generatedAt": "2026-08-16T13:23:34+08:00"
 }
