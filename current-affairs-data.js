@@ -72392,6 +72392,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/world/20260816/d3300d915a1545888700650f884950af/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
+        },
+        {
+          "id": "4420f112868379",
+          "source": "求是",
+          "title": "为中国式现代化厚植绿色底色",
+          "url": "https://www.qstheory.cn/20260816/bdb18863d7294104b3c0251dd67377de/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ae066efec55b22",
+          "source": "求是",
+          "title": "切实维护人民群众生命财产安全和社会稳定",
+          "url": "https://www.qstheory.cn/20260816/1695e8699d77451f8b89757230b41c5d/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c52103d8941b40",
+          "source": "求是",
+          "title": "让党的创新理论直抵人心",
+          "url": "https://www.qstheory.cn/20260816/24270edcdd0843a887cd08f18e568741/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -72399,66 +72423,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 9.4,
+          "duration": 11.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260816.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.9
+          "duration": 2.1
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 24,
-          "duration": 2.5
+          "duration": 2.1
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 11.8
+          "duration": 13.8
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 6.6
+          "count": 3,
+          "duration": 5.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 28,
-          "duration": 1.7
+          "duration": 5.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.9
+          "duration": 13.9
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.4
+          "duration": 2.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 10.6
+          "duration": 12.3
         },
         {
           "source": "广东发布",
-          "status": "stale",
+          "status": "ok",
           "count": 3,
-          "duration": 18.6,
-          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+          "duration": 64.9
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-16T11:43:14+08:00"
+  "generatedAt": "2026-08-16T12:31:20+08:00"
 };
