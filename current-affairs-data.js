@@ -72258,6 +72258,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "93bc54d6876ff6",
+          "source": "新华社",
+          "title": "伊朗称3名飞行员遭卡塔尔扣押 卡塔尔否认",
+          "url": "https://www.news.cn/world/20260816/28283ae0071b497b9bd4d604ff998648/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "407336049c8e9a",
           "source": "新华社",
           "title": "关于生态文明建设，总书记这样阐述",
@@ -72322,10 +72330,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "e83d3d4a876d10",
+          "source": "新华社",
+          "title": "广西贺州：一条古道，串起千年文脉",
+          "url": "https://www.news.cn/local/20260816/fc64b40cde03467baabfa9cbf9ceac0e/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "444afd6d3a1b6a",
           "source": "新华社",
           "title": "应急管理部调派13支排涝队伍赴周口开展排涝作业",
           "url": "https://www.news.cn/local/20260816/ffd0e39fad944021a8622ffc96316ec7/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "caf8b3d88ed3e9",
+          "source": "新华社",
+          "title": "我国成功发射卫星互联网低轨24组卫星",
+          "url": "https://www.news.cn/tech/20260816/9bbbd2e72e4f489580552951691252b1/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72354,6 +72378,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "a4d40dc7ba6005",
+          "source": "新华社",
+          "title": "新华视点丨极端降雨考验北方城市韧性",
+          "url": "https://www.news.cn/politics/20260816/98739e768f7649ec92d777b9da2081e4/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "cc6fb2c65bdb44",
           "source": "新华社",
           "title": "日本侵略历史 不容翻案 重蹈覆辙必遭彻底清算",
@@ -72366,6 +72398,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "暴雨和洪水已造成美国印第安纳州6人死亡",
           "url": "https://www.news.cn/20260816/b67836e2559b40a2b65081817bc87088/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "12e899ff3d6cfc",
+          "source": "新华社",
+          "title": "朱镕基同志遗体18日火化 天安门等地将下半旗志哀",
+          "url": "https://www.news.cn/politics/20260816/811689847d1f402292e1238d3faf429c/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72402,10 +72442,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "457486c7dd581c",
+          "source": "新华社",
+          "title": "美媒称特朗普再次要求修改新航母设计",
+          "url": "https://www.news.cn/world/20260816/e99d6f295cea4bf99c67a0c9b5bf05d4/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "ca0d103aafc5ef",
           "source": "新华社",
           "title": "金正恩回电普京：展望两国美好未来时感到自豪",
           "url": "https://www.news.cn/world/20260816/31313309a31b4deca862d571378fd72e/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fa4fd59470d70a",
+          "source": "新华社",
+          "title": "阿根廷首都举行“珍奇古书展”",
+          "url": "https://www.news.cn/photo/20260816/fd8f7862586244a682820b199b4c6245/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72447,65 +72503,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 14.7,
+          "duration": 12.5,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260816.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.2
+          "duration": 1.6
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 27,
-          "duration": 2.6
+          "count": 34,
+          "duration": 3.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 27.3
+          "duration": 37.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 3,
-          "duration": 6.0
+          "duration": 6.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 28,
-          "duration": 1.8
+          "duration": 2.1
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.5
+          "duration": 14.2
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.8
+          "duration": 3.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.7
+          "duration": 8.4
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 3,
-          "duration": 53.8
+          "duration": 50.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-16T13:23:34+08:00"
+  "generatedAt": "2026-08-16T14:30:28+08:00"
 };
