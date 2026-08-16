@@ -72358,6 +72358,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "1a6354972c05d7",
+          "source": "新华社",
+          "title": "中国空间站动态丨“太空家园”在轨科研忙",
+          "url": "https://www.news.cn/tech/20260816/f7c3f781f2e84b71a8e37da808a5b9e1/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "976f28cff74d44",
           "source": "新华社",
           "title": "中国队在第38届国际信息学奥赛斩获3金1银",
@@ -72394,14 +72402,6 @@
           "source": "新华社",
           "title": "今天，向焦裕禄致敬",
           "url": "https://www.news.cn/politics/20260816/6f61d79ede95477d9b4603c29b2ffaea/c.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "45a381b9769164",
-          "source": "新华社",
-          "title": "以军称打死真主党“巴德部队”一名高级指挥官",
-          "url": "https://www.news.cn/world/20260816/c8ff61b4d2ac4683af8c94b8834321dc/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72494,14 +72494,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "1a24bea290cf65",
-          "source": "新华社",
-          "title": "大帽山上的生态恢复答卷",
-          "url": "https://www.news.cn/gangao/20260816/364afdc19c8843119933b6c7c8869a5d/c.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
           "id": "ae83d5dc230d82",
           "source": "新华社",
           "title": "安徽：水位破极值 干群筑牢安全防线",
@@ -72518,9 +72510,17 @@
           "keyword": "综合时政"
         },
         {
-          "id": "444afd6d3a1b6a",
+          "id": "679fc90ba0684b",
           "source": "新华社",
           "title": "应急管理部调派13支排涝队伍赴周口开展排涝作业",
+          "url": "https://www.news.cn/20260816/e7f5214c8c274a618fdecb0f84715657/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "444afd6d3a1b6a",
+          "source": "新华社",
+          "title": "应急管理部调派13支队伍赴周口开展排涝作业",
           "url": "https://www.news.cn/local/20260816/ffd0e39fad944021a8622ffc96316ec7/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
@@ -72566,10 +72566,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "e83d3d4a876d10",
+          "id": "2f669a65560caa",
           "source": "新华社",
-          "title": "文旅新探丨广西贺州：一条古道，串起千年文脉",
-          "url": "https://www.news.cn/local/20260816/fc64b40cde03467baabfa9cbf9ceac0e/c.html",
+          "title": "新昌通报“如是书院”调查进展：存在殴打体罚等行为",
+          "url": "https://www.news.cn/20260816/d75a430bc26c4063868eb4d0141409bc/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72630,14 +72630,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "f2451987acc619",
-          "source": "新华社",
-          "title": "泸沽湖偶遇后 两岸“费家人”重聚浙江濮院",
-          "url": "https://www.news.cn/tw/20260816/6bab38911cb143db96723524db63a24b/c.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
           "id": "358338812435a1",
           "source": "新华社",
           "title": "津巴布韦船只倾覆事故死亡人数升至68人",
@@ -72678,6 +72670,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "1d0610768f45a6",
+          "source": "新华社",
+          "title": "美媒：海湾盟友对美沮丧情绪持续上升",
+          "url": "https://www.news.cn/world/20260816/67532a63a7f9474bac469b08382875b5/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "66217d9e1c3749",
           "source": "新华社",
           "title": "脱离民众、部署混乱 航母风波凸显美军困境",
@@ -72702,10 +72702,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "94994e863b438b",
+          "id": "f296a66dd9495d",
           "source": "新华社",
-          "title": "跃江出海：青藏高原冷水鱼远销世界",
-          "url": "https://www.news.cn/local/20260816/68c069af858a4618878ebd3e5e649a0d/c.html",
+          "title": "贾鲁河周口川汇区段溃口抢险直击",
+          "url": "https://www.news.cn/local/20260816/26988f531626471892fcbb1e441aba93/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72891,64 +72891,64 @@
           "source": "新闻联播",
           "status": "ok",
           "count": 16,
-          "duration": 0.3
+          "duration": 0.4
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.9
+          "duration": 1.7
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.5
+          "duration": 1.8
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 18.9
+          "duration": 41.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 4,
-          "duration": 6.2
+          "duration": 5.9
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 28,
-          "duration": 2.2
+          "duration": 1.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 11.7
+          "duration": 14.8
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 1,
-          "duration": 3.0
+          "duration": 2.9
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 19.8
+          "duration": 8.1
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 3,
-          "duration": 64.9
+          "duration": 78.6
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-16T20:27:24+08:00"
+  "generatedAt": "2026-08-16T21:28:03+08:00"
 }
