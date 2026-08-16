@@ -71744,6 +71744,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 2
         },
         {
+          "name": "中欧北极快航",
+          "count": 2
+        },
+        {
           "name": "人就日本政要",
           "count": 2
         },
@@ -71766,13 +71770,17 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "name": "多尔总统诺沃",
           "count": 2
-        },
-        {
-          "name": "尔总统诺沃亚",
-          "count": 2
         }
       ],
       "articles": [
+        {
+          "id": "79612c9b8960bd",
+          "source": "人民日报",
+          "title": "中欧北极快航常态化",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175100.html",
+          "date": "2026-08-16",
+          "keyword": "中欧北极快航"
+        },
         {
           "id": "4f2f0713d8536f",
           "source": "人民日报",
@@ -71828,6 +71836,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/16/content_22300.html",
           "date": "2026-08-16",
           "keyword": "上午在京隆重"
+        },
+        {
+          "id": "d98b4ae3056a3f",
+          "source": "新华社",
+          "title": "中欧北极快航正式常态化运营 畅通“冰上丝绸之路”",
+          "url": "https://www.news.cn/fortune/20260816/c46b0bf52b62496f80e655d8d51d978f/c.html",
+          "date": "2026-08-16",
+          "keyword": "中欧北极快航"
         },
         {
           "id": "93cdc540c9da96",
@@ -71930,14 +71946,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "中国品牌汽车走进非洲千家万户",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175130.html",
-          "date": "2026-08-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "79612c9b8960bd",
-          "source": "人民日报",
-          "title": "中欧北极快航常态化",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/16/content_30175100.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
         },
@@ -72252,6 +72260,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/20260816/c58a28974ae94ea1a0ffa5baa6170ddf/c.html",
           "date": "2026-08-16",
           "keyword": "综合时政"
+        },
+        {
+          "id": "ca0d103aafc5ef",
+          "source": "新华社",
+          "title": "金正恩回电普京：展望两国美好未来时感到自豪",
+          "url": "https://www.news.cn/world/20260816/31313309a31b4deca862d571378fd72e/c.html",
+          "date": "2026-08-16",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -72259,65 +72275,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 10.7,
+          "duration": 9.2,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260816.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 2.1
+          "duration": 2.0
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 6,
-          "duration": 2.9
+          "count": 8,
+          "duration": 3.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 13.0
+          "duration": 19.7
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 5.9
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 28,
-          "duration": 2.0
+          "duration": 1.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.7
+          "duration": 12.6
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.1
+          "duration": 3.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.6
+          "duration": 8.5
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 57.2
+          "duration": 46.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-16T07:24:48+08:00"
+  "generatedAt": "2026-08-16T08:56:19+08:00"
 };
