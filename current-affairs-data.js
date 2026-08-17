@@ -72956,7 +72956,7 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "习近平",
-          "count": 6
+          "count": 10
         },
         {
           "name": "十五五",
@@ -72968,6 +72968,10 @@ window.CURRENT_AFFAIRS_DATA = {
         },
         {
           "name": "人工智能",
+          "count": 2
+        },
+        {
+          "name": "经济",
           "count": 2
         },
         {
@@ -73009,6 +73013,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
+          "id": "26cc7f54ce766f",
+          "source": "新华社",
+          "title": "纪念江泽民同志诞辰100周年大会在京隆重举行 习近平发表重要讲话",
+          "url": "https://www.news.cn/politics/leaders/20260817/c09eaee334464122a24e6a6b67e756a3/c.html",
+          "date": "2026-08-17",
+          "keyword": "习近平"
+        },
+        {
           "id": "0a8a5c3adb7fc4",
           "source": "新华社",
           "title": "纪念江泽民同志诞辰100周年大会隆重举行 习近平出席大会并发表重要讲话",
@@ -73017,10 +73029,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
+          "id": "eb7b35bfea3808",
+          "source": "求是",
+          "title": "习近平：在纪念江泽民同志诞辰100周年大会上的讲话",
+          "url": "https://www.qstheory.cn/20260817/ed2f221e712b483a84b43e09a1986aaa/c.html",
+          "date": "2026-08-17",
+          "keyword": "习近平"
+        },
+        {
           "id": "87449896a4a585",
           "source": "求是",
-          "title": "纪念江泽民同志诞辰100周年大会在京隆重举行 习近平出席大会并发表重要讲话",
+          "title": "新华社快讯：纪念江泽民同志诞辰100周年大会在京隆重举行 习近平出席大会并发表重要讲话",
           "url": "https://www.qstheory.cn/20260817/2eae50518fef43178663f8d26cbcb55f/c.html",
+          "date": "2026-08-17",
+          "keyword": "习近平"
+        },
+        {
+          "id": "6611dae8d28277",
+          "source": "求是",
+          "title": "纪念江泽民同志诞辰100周年大会在京隆重举行 习近平发表重要讲话",
+          "url": "https://www.qstheory.cn/20260817/611852f5979341a5a45733cb6addf9a6/c.html",
+          "date": "2026-08-17",
+          "keyword": "习近平"
+        },
+        {
+          "id": "c24acee27b0c27",
+          "source": "求是",
+          "title": "纪念江泽民同志诞辰100周年大会隆重举行 习近平出席大会并发表重要讲话",
+          "url": "https://www.qstheory.cn/20260817/6266e75ff8d645cbae7dd5ef445c11ae/c.html",
           "date": "2026-08-17",
           "keyword": "习近平"
         },
@@ -73089,12 +73125,28 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "人工智能"
         },
         {
+          "id": "0ab78961f9f1fd",
+          "source": "人民日报",
+          "title": "技术经理人，深度参与企业成长（经济新方位·从“0”到“1”，把“1”拉长）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/17/content_30175276.html",
+          "date": "2026-08-17",
+          "keyword": "经济"
+        },
+        {
           "id": "f2038a1909e198",
           "source": "新华社",
           "title": "我国中东部高温闷热天气发展 四川盆地强降雨频繁",
           "url": "https://www.news.cn/politics/20260817/8095fcdb3aed45539539b07e9e3d18b2/c.html",
           "date": "2026-08-17",
           "keyword": "高温"
+        },
+        {
+          "id": "57858f19822b0c",
+          "source": "新华社",
+          "title": "新闻分析丨美日联手“保日元”难除日本经济沉疴",
+          "url": "https://www.news.cn/world/20260817/988c971223b2483a8d0df4adc8f5cc2e/c.html",
+          "date": "2026-08-17",
+          "keyword": "经济"
         },
         {
           "id": "0a1d474a47a67a",
@@ -73205,14 +73257,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "四川云南辽宁黑龙江等地有强降雨",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/17/content_30175296.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "0ab78961f9f1fd",
-          "source": "人民日报",
-          "title": "技术经理人，深度参与企业成长（经济新方位·从“0”到“1”，把“1”拉长）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/17/content_30175276.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -73489,14 +73533,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "28d4d2f3bff250",
-          "source": "半月谈",
-          "title": "婚前协议不“伤”情：这届年轻人，把婚姻的账算在领证之前",
-          "url": "http://www.banyuetan.org/jrt/detail/20260817/1000200033134991786931784253279163_1.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
           "id": "ce0c8936a61927",
           "source": "半月谈",
           "title": "将“经验型应对”升级为“制度化能力”",
@@ -73549,6 +73585,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "半月谈",
           "title": "沙颍河之畔 排涝战犹酣——周口市灾后恢复一线见闻",
           "url": "http://www.banyuetan.org/yw/detail/20260817/1000200033137441786928783651244750_1.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "66b48fb833381c",
+          "source": "半月谈",
+          "title": "河北：备教材 迎开学",
+          "url": "http://www.banyuetan.org/jy/detail/20260817/1000200033136041786948101926255582_1.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -73705,10 +73749,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a771991a3a2d9a",
+          "id": "6202a4164e219b",
           "source": "新华社",
-          "title": "U18男篮亚洲杯中国队取两连胜",
-          "url": "https://www.xinhuanet.com/sports/20260817/39783974c1894dc986171d376758a1be/c.html",
+          "title": "U17女排世锦赛：中国队获得季军",
+          "url": "https://www.news.cn/20260817/1ab1b1e2c32c4d259fe130345e32d979/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -73721,26 +73765,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a3b02c261e2cfb",
+          "id": "c04a8f06642ede",
           "source": "新华社",
-          "title": "WTT欧洲大满贯赛瑞典站：王曼昱女单登顶",
-          "url": "https://www.xinhuanet.com/sports/20260817/c9bbb14242f84abfad1cffbcad2ab567/c.html",
+          "title": "《联合国防治荒漠化公约》缔约方大会聚焦土地恢复",
+          "url": "https://www.news.cn/world/20260817/c7b2b154aa944f9b852762eb25b58e04/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
         {
-          "id": "f718c546213879",
+          "id": "74ac68549680f1",
           "source": "新华社",
-          "title": "《培育钻石毛坯分级》团体标准推动产业实现跨越式升级",
-          "url": "https://www.news.cn/fashion/20260817/bfc759c6803d4ae98acb92e7b2d7c04c/c.html",
+          "title": "专访丨阿联酋与中国金融合作前景广阔",
+          "url": "https://www.news.cn/world/20260817/c485936a540b43a8ac6138af4b05d18d/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
         {
-          "id": "8b9716a8e781fb",
+          "id": "df363509ba225f",
           "source": "新华社",
-          "title": "乌袭击俄大型物流枢纽 俄打击乌军工企业和炼油厂",
-          "url": "https://www.news.cn/world/20260817/7dffacee9e97465d9598c552002bbff5/c.html",
+          "title": "中国U17女足以5:0大胜皇家马德里U17女足",
+          "url": "https://www.news.cn/20260817/c41418d9a7934a8a874c73a0956fbef2/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a2a961d3e4c4c1",
+          "source": "新华社",
+          "title": "九江：地下净水赋能城市绿意",
+          "url": "http://www.jx.xinhuanet.com/20260817/58905cb6b7fc45f3a840e7403fbc2837/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -73769,6 +73821,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "09660e56c68290",
+          "source": "新华社",
+          "title": "俄罗斯别尔哥罗德州一村庄遭乌军袭击 6人丧生",
+          "url": "https://www.news.cn/world/20260817/145ec4ddb0974254af9009cb478abdaf/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
           "id": "7afb0d41f4c8d3",
           "source": "新华社",
           "title": "八国外长谴责以色列拒绝接受加沙和平计划",
@@ -73785,10 +73845,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "146861de899523",
+          "id": "1a46267fa6ea13",
           "source": "新华社",
-          "title": "化妆品新国标落地：重金属限量领跑国际，儿童产品严上加严",
-          "url": "https://www.news.cn/fashion/20260817/052d5bd4bc624a408bfe210b00a2a72b/c.html",
+          "title": "印度东北部发生踩踏事件致至少7人死亡",
+          "url": "https://www.news.cn/20260817/59252eb5b0db456fb1cd0666d047f4db/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -73833,26 +73893,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "3e4ed0fb7fa21a",
+          "id": "73d73254f57632",
           "source": "新华社",
-          "title": "尼日利亚各界人士热议中国对非零关税机遇",
-          "url": "https://www.news.cn/silkroad/20260817/3cf54b651551411abf42d540c77349de/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "60f62594e6b25b",
-          "source": "新华社",
-          "title": "巴西发生旅游巴士翻车事故 至少10人死亡",
-          "url": "https://www.news.cn/20260817/e9d80247d4da4a4fb098a09c03be4eb5/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "11c2e5e705dffc",
-          "source": "新华社",
-          "title": "巴西大选法定竞选活动正式开启",
-          "url": "https://www.news.cn/world/20260817/9707c0c59fcc469fa7718817936b5036/c.html",
+          "title": "安徽池州：流云飞渡太朴山",
+          "url": "http://ah.news.cn/20260817/8ca9f9ad86774fa39d48fc76c0e53400/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -73897,18 +73941,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "64f65297a56ee8",
+          "id": "4eae606afe2420",
           "source": "新华社",
-          "title": "时薪最高百元，“临时妈妈”靠谱吗？",
-          "url": "https://www.news.cn/fortune/20260817/813ad9e682c043ea9b28ba68c5db7a80/c.html",
+          "title": "日本关东地区强降雨已致10人死亡",
+          "url": "https://www.news.cn/20260817/9327c418e9c84556a012cc01e9f74877/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
         {
-          "id": "df363509ba225f",
+          "id": "64f65297a56ee8",
           "source": "新华社",
-          "title": "明日之星冠军杯：中国U17女足取得“开门红”",
-          "url": "https://www.news.cn/20260817/c41418d9a7934a8a874c73a0956fbef2/c.html",
+          "title": "时薪最高百元，“临时妈妈”靠谱吗？",
+          "url": "https://www.news.cn/fortune/20260817/813ad9e682c043ea9b28ba68c5db7a80/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -73937,6 +73981,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "c74f3b8fa045ea",
+          "source": "新华社",
+          "title": "机构警告全球食品价格通胀或迎来新一轮危机",
+          "url": "https://www.news.cn/world/20260817/ee1365587605423daff158ff6c66e1f5/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a4f7236dfe6c7c",
           "source": "新华社",
           "title": "某涉密人员多次微信群泄密被追究刑事责任",
@@ -73953,18 +74005,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "5c5cb9f6f2dcbe",
+          "id": "b69e2205f9e286",
           "source": "新华社",
-          "title": "河北：备教材 迎开学",
-          "url": "https://www.news.cn/photo/20260817/c75d08c9058c49b0b7c8fe7d8958078b/c.html",
+          "title": "江西万载：打造“行走的思政课”",
+          "url": "http://www.jx.news.cn/20260817/703f9c347af242dfa6f0ed6569b504e3/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
         {
-          "id": "48df2d3a94d6b1",
+          "id": "5c5cb9f6f2dcbe",
           "source": "新华社",
-          "title": "津巴布韦船只倾覆事故死亡人数升至84人",
-          "url": "https://www.news.cn/20260817/4d809cd584844eb6a2e2565b6f16460e/c.html",
+          "title": "河北：备教材 迎开学",
+          "url": "https://www.news.cn/photo/20260817/c75d08c9058c49b0b7c8fe7d8958078b/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -73981,22 +74033,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "澳研究人员绘制心脏信号图谱助力心脏病研究",
           "url": "https://www.news.cn/20260817/7470509e42cf4acf9279783d0c7794b2/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "9d753d20a651db",
-          "source": "新华社",
-          "title": "特朗普发声后 韩国防部称韩美军演正按计划进行",
-          "url": "https://www.news.cn/world/20260817/2b3c2ab4ad404d359c29e94720df111f/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "94111fd387a9ca",
-          "source": "新华社",
-          "title": "特朗普要求“大幅缩减”美韩军演规模",
-          "url": "https://www.news.cn/20260817/ce0b322312704a0692df55e830a844c8/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74033,26 +74069,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "4ed17fcec23546",
-          "source": "新华社",
-          "title": "私自记录涉密会议内容，某涉密人员多次微信群泄密被追究刑事责任",
-          "url": "https://www.news.cn/politics/20260817/53a589900a03456aa569d6a5fd7fb680/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
           "id": "20251aed875030",
           "source": "新华社",
           "title": "积极因素持续汇聚 A股稳市场信号密集释放",
           "url": "https://www.news.cn/fortune/20260817/cff8d36526f340a683ad5e118e83261a/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "cb82a0bf0e28fa",
-          "source": "新华社",
-          "title": "纪念江泽民同志诞辰100周年大会17日上午在京隆重举行",
-          "url": "https://www.news.cn/politics/leaders/20260817/60c44dad590b48e1bbaf2f47864f6b57/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74065,14 +74085,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "52110bfaa39032",
-          "source": "新华社",
-          "title": "美方否认在马岛主权争端中改变立场",
-          "url": "https://www.news.cn/20260817/4b91d5647f214754a322f03af315b959/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
           "id": "7a14b46e6bbeef",
           "source": "新华社",
           "title": "美：“林肯”号心理健康相关案例数在现役航母中最低",
@@ -74081,10 +74093,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "cf1ca6dc141802",
+          "source": "新华社",
+          "title": "艺术体操世锦赛落幕 中国队获1银1铜",
+          "url": "https://www.news.cn/20260817/bb2dbb4cbcdd40a18b0e40a577d89a30/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
           "id": "ad76a6a972b6cb",
           "source": "新华社",
           "title": "蓝鲸和长须鲸在东南大西洋目击记录增加",
           "url": "https://www.news.cn/20260817/97e19fb34b644dc4b6fc8947badc3b9f/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f7fa5f29c740f0",
+          "source": "新华社",
+          "title": "记者手记丨河内街头驶来“中国绿”",
+          "url": "https://www.news.cn/world/20260817/89f4c1ee84914f399d7f99238d55b0a6/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74105,10 +74133,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "52b8eb698e684a",
+          "id": "60267aafb6d18e",
           "source": "新华社",
-          "title": "走进蒙古国残疾儿童康复发展中心",
-          "url": "https://www.news.cn/world/20260817/3ba107e8b9044cfd837f275d551724a9/c.html",
+          "title": "阿森纳战胜曼城赢得英格兰社区盾杯",
+          "url": "https://www.news.cn/20260817/2f69b111263c4a9aad24cebb407e101d/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74174,44 +74202,44 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 7.3,
+          "duration": 8.3,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260817.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 29,
-          "duration": 2.8
+          "duration": 2.3
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.0
+          "duration": 2.1
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 21,
-          "duration": 33.6
+          "duration": 32.7
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 4,
-          "duration": 5.8
+          "count": 7,
+          "duration": 6.5
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.5
+          "duration": 4.1
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.8
+          "duration": 14.0
         },
         {
           "source": "学习强国",
@@ -74223,16 +74251,16 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 9.0
+          "duration": 8.6
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 69.0
+          "duration": 65.6
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-17T13:31:59+08:00"
+  "generatedAt": "2026-08-17T14:41:45+08:00"
 };
