@@ -72956,7 +72956,7 @@
       "keywords": [
         {
           "name": "习近平",
-          "count": 4
+          "count": 6
         },
         {
           "name": "十五五",
@@ -72985,6 +72985,14 @@
           "keyword": "习近平"
         },
         {
+          "id": "512975056d32f9",
+          "source": "中国政府网",
+          "title": "纪念江泽民同志诞辰100周年大会隆重举行 习近平出席大会并发表重要讲话",
+          "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7078240.htm",
+          "date": "2026-08-17",
+          "keyword": "习近平"
+        },
+        {
           "id": "18d75547fe0f72",
           "source": "半月谈",
           "title": "习近平总书记指引企业坚定不移走高质量发展之路",
@@ -73005,6 +73013,14 @@
           "source": "新华社",
           "title": "纪念江泽民同志诞辰100周年大会隆重举行 习近平出席大会并发表重要讲话",
           "url": "https://www.news.cn/politics/20260817/564676d6ea454c0281e8727ace633f78/c.html",
+          "date": "2026-08-17",
+          "keyword": "习近平"
+        },
+        {
+          "id": "87449896a4a585",
+          "source": "求是",
+          "title": "新华社快讯：纪念江泽民同志诞辰100周年大会在京隆重举行 习近平出席大会并发表重要讲话",
+          "url": "https://www.qstheory.cn/20260817/2eae50518fef43178663f8d26cbcb55f/c.html",
           "date": "2026-08-17",
           "keyword": "习近平"
         },
@@ -73441,6 +73457,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "af14aa3a6a46a4",
+          "source": "半月谈",
+          "title": "举起手机改变家乡",
+          "url": "http://www.banyuetan.org/byt/fanxianggushi/index.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
           "id": "30b2f3ae1ea853",
           "source": "半月谈",
           "title": "南海伏季休渔期结束 渔船出海作业",
@@ -73513,14 +73537,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "ed89d1fb1e6ce0",
-          "source": "半月谈",
-          "title": "智治惠民 重庆电信为山城生活添彩",
-          "url": "http://www.banyuetan.org/dfgc/detail/20260817/1000200033136151786935247956251646_1.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
           "id": "e44c9e0f5be01f",
           "source": "半月谈",
           "title": "朱镕基同志遗体18日火化 天安门等地将下半旗志哀",
@@ -73549,6 +73565,14 @@
           "source": "半月谈",
           "title": "理性“抗幽”，别交智商税",
           "url": "http://www.banyuetan.org/jrt/detail/20260817/1000200033134991786932637478281765_1.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8aec7fca41d22a",
+          "source": "半月谈",
+          "title": "红军学校再响从军誓言——江西瑞金举行2026年军校新生入学欢送仪式",
+          "url": "http://www.banyuetan.org/dfgc/detail/20260817/1000200033136151786939233519252169_1.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -73929,6 +73953,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "5c5cb9f6f2dcbe",
+          "source": "新华社",
+          "title": "河北：备教材 迎开学",
+          "url": "https://www.news.cn/photo/20260817/c75d08c9058c49b0b7c8fe7d8958078b/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
           "id": "48df2d3a94d6b1",
           "source": "新华社",
           "title": "津巴布韦船只倾覆事故死亡人数升至84人",
@@ -73941,6 +73973,14 @@
           "source": "新华社",
           "title": "湖北邮政在十堰等地开展寄递物流进村兜底服务观察",
           "url": "https://www.news.cn/local/20260817/3bebc3ce9f4e4dff88eb6a83c1d99a5f/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bcbb4f61ec21d7",
+          "source": "新华社",
+          "title": "澳研究人员绘制心脏信号图谱助力心脏病研究",
+          "url": "https://www.news.cn/20260817/7470509e42cf4acf9279783d0c7794b2/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74013,6 +74053,14 @@
           "source": "新华社",
           "title": "纪念江泽民同志诞辰100周年大会17日上午在京隆重举行",
           "url": "https://www.news.cn/politics/leaders/20260817/60c44dad590b48e1bbaf2f47864f6b57/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "02be717ea2e67c",
+          "source": "新华社",
+          "title": "美国两大水库水位相继跌至历史最低点",
+          "url": "https://www.news.cn/20260817/57698238771f47f0be62d9953bd284d4/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74126,66 +74174,66 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 7.3,
+          "duration": 12.3,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260817.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 29,
-          "duration": 2.5
+          "duration": 3.6
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 57,
-          "duration": 2.1
+          "count": 60,
+          "duration": 2.8
         },
         {
           "source": "半月谈",
           "status": "ok",
-          "count": 20,
-          "duration": 13.2
+          "count": 21,
+          "duration": 20.3
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 3,
-          "duration": 5.9
+          "count": 4,
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 2.0
+          "duration": 1.3
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 16.0
+          "duration": 12.7
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 10,
-          "duration": 3.1
+          "duration": 2.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 1,
-          "duration": 9.0
+          "count": 2,
+          "duration": 14.0
         },
         {
           "source": "广东发布",
           "status": "stale",
           "count": 1,
-          "duration": 19.3,
+          "duration": 18.4,
           "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-17T11:44:33+08:00"
+  "generatedAt": "2026-08-17T12:35:39+08:00"
 }
