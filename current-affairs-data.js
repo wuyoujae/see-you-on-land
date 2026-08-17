@@ -72963,6 +72963,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 2
         },
         {
+          "name": "习近平",
+          "count": 2
+        },
+        {
           "name": "十五五",
           "count": 2
         }
@@ -73023,6 +73027,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/17/content_30175290.html",
           "date": "2026-08-17",
           "keyword": "十五五"
+        },
+        {
+          "id": "bd4d5f4c34cc43",
+          "source": "半月谈",
+          "title": "纪念江泽民同志诞辰100周年大会17日上午在京隆重举行<br>习近平将出席大会并发表重要讲话",
+          "url": "http://www.banyuetan.org/dyp/detail/20260817/1000200033135231786927315100238633_1.html",
+          "date": "2026-08-17",
+          "keyword": "习近平"
+        },
+        {
+          "id": "19ef49aa8c2981",
+          "source": "求是",
+          "title": "习近平总书记指引企业坚定不移走高质量发展之路",
+          "url": "https://www.qstheory.cn/20260817/505b06151dcf4773971f7aecc685ba22/c.html",
+          "date": "2026-08-17",
+          "keyword": "习近平"
         },
         {
           "id": "0a1d474a47a67a",
@@ -73385,10 +73405,42 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "8b9716a8e781fb",
+          "source": "新华社",
+          "title": "乌袭击俄大型物流枢纽 俄打击乌军工企业和炼油厂",
+          "url": "https://www.news.cn/world/20260817/7dffacee9e97465d9598c552002bbff5/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8eddb87c9a1c4e",
+          "source": "新华社",
+          "title": "伊朗：伊美谅解备忘录“维护尊严、展现实力”",
+          "url": "https://www.news.cn/world/20260817/fc7595e9cdd047db9743355100fa6774/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "00ba2d16623cb1",
+          "source": "新华社",
+          "title": "公安机关网安部门破获3起影视领域舆情敲诈案件",
+          "url": "https://www.news.cn/legal/20260817/e35cab9fd70048cb8a01c2504b42b8e7/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
           "id": "46ca3c4bda52ce",
           "source": "新华社",
           "title": "哥伦比亚强震已致289人死亡 逾18万人受灾",
           "url": "https://www.news.cn/20260817/48831fe545e6492ea5d2d26f101758b2/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3e4ed0fb7fa21a",
+          "source": "新华社",
+          "title": "尼日利亚各界人士热议中国对非零关税机遇",
+          "url": "https://www.news.cn/silkroad/20260817/3cf54b651551411abf42d540c77349de/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -73401,10 +73453,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "11c2e5e705dffc",
+          "source": "新华社",
+          "title": "巴西大选法定竞选活动正式开启",
+          "url": "https://www.news.cn/world/20260817/9707c0c59fcc469fa7718817936b5036/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "64f65297a56ee8",
+          "source": "新华社",
+          "title": "时薪最高百元，“临时妈妈”靠谱吗？",
+          "url": "https://www.news.cn/fortune/20260817/813ad9e682c043ea9b28ba68c5db7a80/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
           "id": "df363509ba225f",
           "source": "新华社",
           "title": "明日之星冠军杯：中国U17女足取得“开门红”",
           "url": "https://www.news.cn/20260817/c41418d9a7934a8a874c73a0956fbef2/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f14c944bf9a274",
+          "source": "新华社",
+          "title": "月饼香飘毛乌素 殷玉珍和“赛考斯”终于要重逢了",
+          "url": "https://www.news.cn/local/20260817/cb73f991f4274a7a944de73bb8671801/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a4f7236dfe6c7c",
+          "source": "新华社",
+          "title": "某涉密人员多次微信群泄密被追究刑事责任",
+          "url": "https://www.news.cn/20260817/cbe502d22ae24dfb973b7de16351b5dd/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5f308b049ff2c1",
+          "source": "新华社",
+          "title": "标准化、职业化、产业化 让家政服务方便找放心用",
+          "url": "https://www.news.cn/fortune/20260817/56992d8d663b4b8baf46257791128810/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -73425,10 +73517,74 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "7b2180d45ef090",
+          "source": "新华社",
+          "title": "电商“AB货”，乱象背后是行业内卷",
+          "url": "https://www.news.cn/fortune/20260817/c4b2c4447f5b491ebc81d2e5b7870c84/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4ed17fcec23546",
+          "source": "新华社",
+          "title": "私自记录涉密会议内容，某涉密人员多次微信群泄密被追究刑事责任",
+          "url": "https://www.news.cn/politics/20260817/53a589900a03456aa569d6a5fd7fb680/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
           "id": "52110bfaa39032",
           "source": "新华社",
           "title": "美方否认在马岛主权争端中改变立场",
           "url": "https://www.news.cn/20260817/4b91d5647f214754a322f03af315b959/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "073dfe33f07e01",
+          "source": "新华社",
+          "title": "警惕过度依赖 AI成未成年人“聊天搭子”，如何引导",
+          "url": "https://www.news.cn/tech/20260817/e23e9d1e9f034750a5f190b82b6491c3/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "52b8eb698e684a",
+          "source": "新华社",
+          "title": "走进蒙古国残疾儿童康复发展中心",
+          "url": "https://www.news.cn/world/20260817/3ba107e8b9044cfd837f275d551724a9/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cb46bf619692be",
+          "source": "新华社",
+          "title": "韩国庆尚南道泥石流致一人死亡、20余人被困",
+          "url": "https://www.news.cn/world/20260817/3d0021653569404f9f52f473f28027d8/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7dd3d6f89daff0",
+          "source": "求是",
+          "title": "引领全面建设社会主义现代化强国的历史性跨越",
+          "url": "https://www.qstheory.cn/20260817/ad06e75a54d64706813281d1bdfcf82f/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dfb0e57323c203",
+          "source": "求是",
+          "title": "构建自主完备、开放高效的国家创新体系",
+          "url": "https://www.qstheory.cn/20260817/79c65b96ee7a46d88ef4b9426c544429/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9abca6e8b29b56",
+          "source": "求是",
+          "title": "涵养支撑新质战斗力生成的新型军事人才生态",
+          "url": "https://www.qstheory.cn/20260817/e610da59d60648eabc6149acce34f634/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         }
@@ -73438,65 +73594,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.4,
+          "duration": 8.6,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260817.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 29,
-          "duration": 1.5
+          "duration": 1.8
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 7,
-          "duration": 2.2
+          "count": 21,
+          "duration": 3.0
         },
         {
           "source": "半月谈",
           "status": "ok",
-          "count": 0,
-          "duration": 14.0
+          "count": 1,
+          "duration": 18.7
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
+          "count": 4,
           "duration": 6.3
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.4
+          "duration": 1.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.7
+          "duration": 13.0
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.9
+          "duration": 2.6
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.2
+          "duration": 9.4
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 59.1
+          "duration": 43.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-17T07:23:59+08:00"
+  "generatedAt": "2026-08-17T08:54:16+08:00"
 };
