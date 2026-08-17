@@ -72983,7 +72983,7 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 2
         },
         {
-          "name": "就业",
+          "name": "机器人",
           "count": 2
         }
       ],
@@ -73365,20 +73365,20 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "十五五"
         },
         {
-          "id": "1ccb628ef45ed3",
-          "source": "人民日报",
-          "title": "产才对接促就业",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/17/content_30175294.html",
+          "id": "4d39772258308e",
+          "source": "学习强国",
+          "title": "前7个月我国工业机器人产量同比增长28.5%",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=4448660601790878791&item_id=4448660601790878791",
           "date": "2026-08-17",
-          "keyword": "就业"
+          "keyword": "机器人"
         },
         {
-          "id": "575df2f8aacfbc",
-          "source": "学习强国",
-          "title": "“城市更新”催生就业新赛道，职教如何精准发力",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=17818612115935292030&item_id=17818612115935292030",
+          "id": "3b1d6555b3ac2a",
+          "source": "新华社",
+          "title": "搬运50公斤重物 香港科企发布“生产力工具型”人形机器人",
+          "url": "https://www.news.cn/20260817/fe438d36ce1840a08b1a292c9d1d9e97/c.html",
           "date": "2026-08-17",
-          "keyword": "就业"
+          "keyword": "机器人"
         },
         {
           "id": "0a1d474a47a67a",
@@ -73425,6 +73425,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "云端搭起便民桥（在现场）",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/17/content_30175298.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1ccb628ef45ed3",
+          "source": "人民日报",
+          "title": "产才对接促就业",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/17/content_30175294.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -73901,6 +73909,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "575df2f8aacfbc",
+          "source": "学习强国",
+          "title": "“城市更新”催生就业新赛道，职教如何精准发力",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=17818612115935292030&item_id=17818612115935292030",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
           "id": "102788cec8ef49",
           "source": "学习强国",
           "title": "《江泽民外交文选》出版发行",
@@ -73929,14 +73945,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "学习强国",
           "title": "以高质量供给拓展内需增长新空间",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=12344908481547810852&item_id=12344908481547810852",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "4d39772258308e",
-          "source": "学习强国",
-          "title": "前7个月我国工业机器人产量同比增长28.5%",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=4448660601790878791&item_id=4448660601790878791",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74373,14 +74381,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "e687eb7726a134",
-          "source": "新华社",
-          "title": "一对青年夫妻的琉璃“破圈”之路",
-          "url": "https://www.news.cn/local/20260817/9cbf69d492904c18ad091519f37726ea/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
           "id": "8c7d26bf42b764",
           "source": "新华社",
           "title": "世界最长海底高铁隧道完成带压盾构换刀",
@@ -74437,10 +74437,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8ad41268e9514d",
+          "id": "00dc22701e8656",
           "source": "新华社",
-          "title": "产业发展新开局丨辽宁大连：氢能产业带动绿色发展",
-          "url": "https://www.news.cn/photo/20260817/b5a65175a1074cf9a2b2857fbf2f6391/c.html",
+          "title": "今年前7个月访港旅客3122万人次",
+          "url": "https://www.news.cn/20260817/46df1a4b26d44a33b81bc9c29e420dc0/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74449,6 +74449,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "今年烟台港中非件杂货运量突破600万吨",
           "url": "https://www.news.cn/photo/20260817/272a154d6ea348468185b79338a3935d/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ac097be4c9b979",
+          "source": "新华社",
+          "title": "以家为哨 同心守边——边境线上的夫妻哨",
+          "url": "https://www.news.cn/photo/20260817/e559301512594c1395cc7d5d018ead40/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74509,14 +74517,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "fa98a669102707",
-          "source": "新华社",
-          "title": "卡拉斯称欧盟将提出新一轮对俄制裁计划",
-          "url": "https://www.news.cn/world/20260817/ad7868cecd4c4354be53a59bbce43028/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
           "id": "f52632bd939b78",
           "source": "新华社",
           "title": "印尼强震死亡人数升至68人",
@@ -74573,14 +74573,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "62bed1f8f1bf89",
-          "source": "新华社",
-          "title": "外交部评高市致辞：模糊侵略罪责，大开历史倒车",
-          "url": "https://www.news.cn/world/20260817/4dbd46eac7c34fda8d6906b063fe0f22/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
           "id": "f725cba2b4262c",
           "source": "新华社",
           "title": "央行新增8家数字人民币业务运营机构",
@@ -74597,10 +74589,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "dfd613ebeb9c5f",
+          "id": "9bd8a9fe99b56d",
           "source": "新华社",
-          "title": "广西南丹一村屯发生山体滑坡致1人死亡仍有4人被困",
-          "url": "https://www.news.cn/politics/20260817/9ed2fbc0a2704394a97459eff746e6e7/c.html",
+          "title": "微视频丨旗语",
+          "url": "https://www.news.cn/local/20260817/ce5fd2f2abec42ab94f100dfbd3a0211/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74621,26 +74613,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "dd17c39c4176d9",
+          "source": "新华社",
+          "title": "文化新观察丨“龙餐馆”的一餐一饭，何以打动人心",
+          "url": "https://www.news.cn/politics/20260817/9136187add904509b57f8724f5b1a814/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
           "id": "8348ae11cb0b2c",
           "source": "新华社",
           "title": "新华解码丨如何培育国家级零碳工厂、零碳算力设施",
           "url": "https://www.news.cn/fortune/20260817/a895f3aacf344a4c9fdeb013441e6835/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "a6714ba1479b5f",
-          "source": "新华社",
-          "title": "日本学者披露日军非人道人体实验新罪证",
-          "url": "https://www.news.cn/world/20260817/c38ff5f012064797b2ef1efe6b370eee/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "07d21c25d4bbf0",
-          "source": "新华社",
-          "title": "有个别中国公民受伤",
-          "url": "https://www.news.cn/world/20260817/88a55e9c8b54490f8c0e0b0ab5ed8d5d/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74661,18 +74645,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "33c896f8d0f8ce",
-          "source": "新华社",
-          "title": "民调：过半选民认为在现任美国政府治下财务状况恶化",
-          "url": "https://www.news.cn/20260817/053a8cd901a9475caf4f84a109f0899e/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
           "id": "aab32f06717b82",
           "source": "新华社",
           "title": "江泽民生平和思想研讨会在京举行 蔡奇出席开幕式并讲话",
           "url": "https://www.news.cn/politics/leaders/20260817/d06c7d56c0314a4892d78d5a2f7c1f9f/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b18bdbfc2e75ca",
+          "source": "新华社",
+          "title": "江苏无锡：全域落地“红灯停表” 化解骑手时效焦虑",
+          "url": "https://www.news.cn/photo/20260817/db8e940b006041b49a48c0cad971e542/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74689,14 +74673,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "淮河防总、淮委调整淮河流域应急响应",
           "url": "https://www.news.cn/politics/20260817/0b0adcaad2e741f0aaed15a11c697ef7/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "8f08f37e60c402",
-          "source": "新华社",
-          "title": "特朗普拿美韩军演开刀 美朝对话会重启吗？",
-          "url": "https://www.news.cn/world/20260817/b481039e8ab849dc975952b489bb4d01/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74725,10 +74701,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "361c5a885159e4",
+          "id": "a3cceef7b22f1c",
           "source": "新华社",
           "title": "研究显示台风是华北极端暴雨增多的重要推手",
-          "url": "https://www.news.cn/20260817/fe6398601421437fb43c4d6979b6df2d/c.html",
+          "url": "https://www.news.cn/politics/20260817/5f108cc8d77945c88e14074f5dc274af/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74749,6 +74725,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "856bc32d7e9049",
+          "source": "新华社",
+          "title": "约旦国王阿卜杜拉二世接受新华社专访（全文）",
+          "url": "https://www.news.cn/world/20260817/2b502eab1e9644ca8091c58f9c145c18/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "05158694ce3a12",
+          "source": "新华社",
+          "title": "美国“缩减”美韩联合军演规模暴露政策挫败感",
+          "url": "https://www.news.cn/world/20260817/1e8a51eb5e694d7f9a05590195e98408/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
           "id": "45e5b6ad4ac4e6",
           "source": "新华社",
           "title": "羽毛球世锦赛今日开战：最后的“21分制”，谁将登顶",
@@ -74761,6 +74753,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "胡塞武装称袭击了沙特海军登陆舰和军用艇",
           "url": "https://www.news.cn/20260817/f7f3d0645e8944f0a2ff553a7dcc4380/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "93aa2e11f67830",
+          "source": "新华社",
+          "title": "英国监狱怪象：人满为患提前放 狱警不足牢房空",
+          "url": "https://www.news.cn/20260817/65ff7313b3f14b8bb25e7e5380875e3a/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74874,64 +74874,64 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "ok",
           "count": 11,
-          "duration": 0.6
+          "duration": 0.8
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 29,
-          "duration": 1.8
+          "duration": 2.0
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.3
+          "duration": 2.4
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 22,
-          "duration": 41.5
+          "duration": 22.6
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 8,
-          "duration": 5.9
+          "duration": 6.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 5.2
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.5
+          "duration": 13.0
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 2.7
+          "duration": 2.8
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 6,
-          "duration": 10.9
+          "duration": 10.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 17,
-          "duration": 151.4
+          "duration": 66.8
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-17T21:37:57+08:00"
+  "generatedAt": "2026-08-17T22:22:47+08:00"
 };
