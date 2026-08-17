@@ -73019,7 +73019,7 @@
         {
           "id": "87449896a4a585",
           "source": "求是",
-          "title": "新华社快讯：纪念江泽民同志诞辰100周年大会在京隆重举行 习近平出席大会并发表重要讲话",
+          "title": "纪念江泽民同志诞辰100周年大会在京隆重举行 习近平出席大会并发表重要讲话",
           "url": "https://www.qstheory.cn/20260817/2eae50518fef43178663f8d26cbcb55f/c.html",
           "date": "2026-08-17",
           "keyword": "习近平"
@@ -73697,6 +73697,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "3cd4f4bcd12dba",
+          "source": "新华社",
+          "title": "AI焕新保险服务",
+          "url": "https://www.news.cn/tech/20260817/a88c17e352274080b17fe334fb34b010/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a771991a3a2d9a",
           "source": "新华社",
           "title": "U18男篮亚洲杯中国队取两连胜",
@@ -73725,14 +73733,6 @@
           "source": "新华社",
           "title": "《培育钻石毛坯分级》团体标准推动产业实现跨越式升级",
           "url": "https://www.news.cn/fashion/20260817/bfc759c6803d4ae98acb92e7b2d7c04c/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "ecce051c55624a",
-          "source": "新华社",
-          "title": "乌军袭击俄大型物流枢纽 俄打击乌军工企业和炼油厂",
-          "url": "https://www.news.cn/20260817/1794a0a7548a4cd8ac3c6bc7a130ecab/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74081,6 +74081,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "ad76a6a972b6cb",
+          "source": "新华社",
+          "title": "蓝鲸和长须鲸在东南大西洋目击记录增加",
+          "url": "https://www.news.cn/20260817/97e19fb34b644dc4b6fc8947badc3b9f/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
           "id": "f2f16a5816ec34",
           "source": "新华社",
           "title": "财金联动持续加力 放大促内需政策效能",
@@ -74109,14 +74117,6 @@
           "source": "新华社",
           "title": "隐形水印上线，AI写作开始留痕",
           "url": "https://www.news.cn/tech/20260817/4f4331a44de547d697f90d98b55d13a1/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "cb46bf619692be",
-          "source": "新华社",
-          "title": "韩国庆尚南道泥石流致一人死亡、20余人被困",
-          "url": "https://www.news.cn/world/20260817/3d0021653569404f9f52f473f28027d8/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74174,66 +74174,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 12.3,
+          "duration": 7.3,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260817.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 29,
-          "duration": 3.6
+          "duration": 2.8
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.8
+          "duration": 2.0
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 21,
-          "duration": 20.3
+          "duration": 33.6
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 4,
-          "duration": 6.2
+          "duration": 5.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.3
+          "duration": 1.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.7
+          "duration": 14.8
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 10,
-          "duration": 2.7
+          "duration": 2.6
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 14.0
+          "duration": 9.0
         },
         {
           "source": "广东发布",
-          "status": "stale",
+          "status": "ok",
           "count": 1,
-          "duration": 18.4,
-          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+          "duration": 69.0
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-17T12:35:39+08:00"
+  "generatedAt": "2026-08-17T13:31:59+08:00"
 }
