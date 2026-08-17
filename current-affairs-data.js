@@ -74939,7 +74939,526 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 66.5
         }
       ]
+    },
+    {
+      "date": "2026-08-18",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 4
+        },
+        {
+          "name": "经济",
+          "count": 4
+        }
+      ],
+      "articles": [
+        {
+          "id": "5436c52eeab63d",
+          "source": "人民日报",
+          "title": "“助力孟加拉国电力结构优化和经济发展”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175578.html",
+          "date": "2026-08-18",
+          "keyword": "经济"
+        },
+        {
+          "id": "9873068e784b93",
+          "source": "人民日报",
+          "title": "习近平就印度尼西亚发生强烈地震向印尼总统普拉博沃致慰问电",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175562.html",
+          "date": "2026-08-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "332357c53c5d39",
+          "source": "人民日报",
+          "title": "深入贯彻落实党中央决策部署 努力完成全年经济社会发展目标任务",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175572.html",
+          "date": "2026-08-18",
+          "keyword": "经济"
+        },
+        {
+          "id": "287497160df251",
+          "source": "人民日报",
+          "title": "阿塞拜疆语版节目《习近平的文化情缘》启播活动在巴库举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175563.html",
+          "date": "2026-08-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "373c10fedd51b7",
+          "source": "光明日报",
+          "title": "习近平就印度尼西亚发生强烈地震向印尼总统普拉博沃致慰问电",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22468.html",
+          "date": "2026-08-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "7063f0a7fb865a",
+          "source": "光明日报",
+          "title": "前七个月国民经济总体平稳、向新向优",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22455.html",
+          "date": "2026-08-18",
+          "keyword": "经济"
+        },
+        {
+          "id": "a7a3e7ad6a072b",
+          "source": "光明日报",
+          "title": "深入贯彻落实党中央决策部署 努力完成全年经济社会发展目标任务",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22449.html",
+          "date": "2026-08-18",
+          "keyword": "经济"
+        },
+        {
+          "id": "155e829b91a371",
+          "source": "光明日报",
+          "title": "阿塞拜疆语版节目《习近平的文化情缘》启播活动在巴库举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22469.html",
+          "date": "2026-08-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "916e0bbdaebf9a",
+          "source": "人民日报",
+          "title": "вАЬжЦ∞вАЭвАЬжЩЇвАЭвАЬзїњвАЭпЉМдњГеК®иГљиљђжНҐжПРйАЯпЉИжЭГе®БеПСеЄГпЉЙ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175568.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "82200594c3f76c",
+          "source": "人民日报",
+          "title": "гАКзЯ≥ж≤єе§©зДґж∞ФеПСе±ХвАЬеНБдЇФдЇФвАЭиІДеИТгАЛеН∞еПС",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175567.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6dbccea9181cfa",
+          "source": "人民日报",
+          "title": "гАКзїЉеРИдЇ§йАЪињРиЊУж†ЗеЗЖеМЦеПСе±ХвАЬеНБдЇФдЇФвАЭиІДеИТгАЛеН∞еПС",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175569.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5c067667b38cca",
+          "source": "人民日报",
+          "title": "дЄАзЙИиі£зЉЦпЉЪиГ°еЃЙзР™ иµµ жФњ ж†ЊењГжА° дЇМзЙИиі£зЉЦпЉЪеРХ иОЙ еЉ†еЃЙеЃЗ йЩИ йЬЗ дЄЙзЙИиі£зЉЦпЉЪзЙЯеЃЧзРЃ еС® иЉЦ и∞Ґдљ≥еЃБ еЫЫзЙИиі£зЉЦпЉЪеИШ ењµ йЯ©жШ•зСґ дљЩ зТЗ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175586.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "27b1194969b286",
+          "source": "人民日报",
+          "title": "дЄ≠еЫљйВЃжФњеПСи°МгАКзЇ™ењµж±Яж≥љж∞СеРМењЧиѓЮиЊ∞100еС®еєігАЛзЇ™ењµйВЃз•®",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175566.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f0c211628d1e73",
+          "source": "人民日报",
+          "title": "еЫЫеЈЭзЫЖеЬ∞дЇСеНЧжµЈеНЧз≠ЙеЬ∞жЬЙеЉЇйЩНйЫ®",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175585.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6f8b3753bbe9c8",
+          "source": "人民日报",
+          "title": "еЬ®ж±Яж≥љж∞СзФЯеє≥еТМжАЭжГ≥з†ФиЃ®дЉЪдЄКзЪДиЃ≤иѓЭ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175582.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "06de807c97e7b0",
+          "source": "人民日报",
+          "title": "еЬ®зЇ™ењµж±Яж≥љж∞СеРМењЧиѓЮиЊ∞100еС®еєіе§ІдЉЪдЄКзЪДиЃ≤иѓЭ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175565.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "54a4f0c186e511",
+          "source": "人民日报",
+          "title": "жЩЃжГ†еЮЛе∞ПеЊЃдЉБдЄЪиіЈжђЊдљЩйҐЭеРМжѓФеҐЮ8%",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175570.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7557ba82a165ff",
+          "source": "人民日报",
+          "title": "жЩЇжЕІжФњеК° йЂШжХИдЊњж∞СпЉИжЈ±йШЕиѓїпЉЙ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175583.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f24a6a1575b11b",
+          "source": "人民日报",
+          "title": "зЯ•иѓЖдЇІжЭГжЬНеК°еК©еКЫзІНдЄЪеПСе±Х",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175584.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e1ab236984da21",
+          "source": "人民日报",
+          "title": "йШње°ЮжЛЬзЦЖиѓ≠зЙИиКВзЫЃгАКдє†ињСеє≥зЪДжЦЗеМЦжГЕзЉШгАЛеРѓжТ≠жіїеК®еЬ®еЈіеЇУдЄЊи°М",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175571.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "74e67c8ede76b9",
+          "source": "人民日报",
+          "title": "《江泽民外交文选》出版发行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175564.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3090cae80f9a6b",
+          "source": "人民日报",
+          "title": "《联合国防治荒漠化公约》第十七次缔约方大会开幕",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175580.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dcb35211e539ba",
+          "source": "人民日报",
+          "title": "共同谱写中约战略伙伴关系新篇章（大使随笔）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175574.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3bca239c91f9b6",
+          "source": "人民日报",
+          "title": "加强相互理解才能实现更好发展（国际论坛）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175575.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "114d1a29ef439e",
+          "source": "人民日报",
+          "title": "外交部介绍约旦国王阿卜杜拉二世访华有关安排",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175577.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fd87154d6f0811",
+          "source": "人民日报",
+          "title": "智利外长佩雷斯将访华",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175579.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "175a47a9dfc44d",
+          "source": "人民日报",
+          "title": "江泽民生平和思想研讨会在京举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175573.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8c0e6e23201cda",
+          "source": "人民日报",
+          "title": "第四届俄罗斯—中国互利合作“萌芽”论坛开幕",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175581.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "545a4a9f892c6b",
+          "source": "人民日报",
+          "title": "约旦国王阿卜杜拉二世今起对我国进行国事访问",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175576.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d1f5718ebe69a2",
+          "source": "人民日报",
+          "title": "纪念江泽民同志诞辰100周年大会在京隆重举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/18/content_30175561.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c3493e2376f3c8",
+          "source": "光明日报",
+          "title": "1至7月全国铁路完成固定资产投资4406亿元",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22461.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4d941390ccb6f5",
+          "source": "光明日报",
+          "title": "7月我国外汇市场供求基本平衡",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22459.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "60f4942054a992",
+          "source": "光明日报",
+          "title": "《江泽民外交文选》出版发行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22470.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e70caae560ed44",
+          "source": "光明日报",
+          "title": "《石油天然气发展“十五五”规划》发布",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22458.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b7398eabfea291",
+          "source": "光明日报",
+          "title": "上半年可再生能源发电装机占电力总装机60.7%",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22460.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "02423ff440550c",
+          "source": "光明日报",
+          "title": "中国人民银行新增8家数字人民币业务运营机构",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22452.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ab7b726611c3c0",
+          "source": "光明日报",
+          "title": "中国邮政发行《纪念江泽民同志诞辰100周年》纪念邮票",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22481.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a430d22e6ab542",
+          "source": "光明日报",
+          "title": "医保基金即时结算改革目标提前完成",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22456.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dd93196114456d",
+          "source": "光明日报",
+          "title": "国风天幕引游人",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22457.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fe6cc80495b3df",
+          "source": "光明日报",
+          "title": "在江泽民生平和思想研讨会上的讲话",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22451.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "68c76a3eda9d75",
+          "source": "光明日报",
+          "title": "在纪念江泽民同志诞辰100周年大会上的讲话",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22480.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3d7f7b41e375ba",
+          "source": "光明日报",
+          "title": "如何培育国家级零碳工厂、零碳算力设施",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22454.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1b2a807c040f00",
+          "source": "光明日报",
+          "title": "川渝跨界协同 共护一湾碧水",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22483.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d41fa3e8c11f06",
+          "source": "光明日报",
+          "title": "我国倡议设立国际草原日",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22482.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4fe1328baf1fae",
+          "source": "光明日报",
+          "title": "江泽民生平和思想研讨会在京举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22450.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dd616e30c9a874",
+          "source": "光明日报",
+          "title": "纪念江泽民同志诞辰100周年大会在京隆重举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/18/content_22467.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9ad6209458f9cd",
+          "source": "新华社",
+          "title": "中国政府援助哥伦比亚紧急人道主义地震救灾物资启运",
+          "url": "https://www.news.cn/20260818/641b3210c154421a8f5c479983e3be77/c.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e1e199e82a0a5f",
+          "source": "新华社",
+          "title": "中国政府援助哥伦比亚紧急人道主义救灾物资启运",
+          "url": "https://www.news.cn/world/20260818/0cc48bfde9b44c3a996a2f55c4ec2c8c/c.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2783635c5e6dc8",
+          "source": "新华社",
+          "title": "俄外长：日本企图借抨击俄罗斯掩盖自身军事动向",
+          "url": "https://www.news.cn/20260818/42d2aa0e60a64813ab39c94b23d35423/c.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "78f3fca25d93b5",
+          "source": "新华社",
+          "title": "希腊一架私人直升机坠毁致3人死亡",
+          "url": "https://www.news.cn/20260818/1616ee267c544e5d9b2956f8e8576c66/c.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "57a6b159eb4f30",
+          "source": "新华社",
+          "title": "库什纳见内塔尼亚胡 寻求推进“加沙和平计划”",
+          "url": "https://www.news.cn/20260818/c2fdd858f4b14703883916e785e4c0f7/c.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fc1f4cdb2762ad",
+          "source": "新华社",
+          "title": "比利时东部大规模野火仍未得到控制",
+          "url": "https://www.news.cn/20260818/6d15547124584a35abe06af045bb4120/c.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6766d7ee167c7f",
+          "source": "新华社",
+          "title": "特朗普称金正恩已回应其“对话”请求",
+          "url": "https://www.news.cn/20260818/f6d3bd10b9464f6d9de089778721af23/c.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7c573ae34a3488",
+          "source": "新华社",
+          "title": "特朗普：伊朗“不会达成我认为必要的那种协议”",
+          "url": "https://www.news.cn/20260818/fdc06cb4d4b548d7ae6796f2a64dcbbd/c.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3305130da8a405",
+          "source": "新华社",
+          "title": "阿富汗喀布尔一学校门前发生爆炸 多人受伤",
+          "url": "https://www.news.cn/20260818/23df013fc5f9403497bc48c344592f00/c.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 4.5,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260818.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "ok",
+          "count": 26,
+          "duration": 0.9
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 9,
+          "duration": 2.2
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 7.4
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.1
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 20,
+          "duration": 1.3
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.3
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.5
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 7.6
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 40.8
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-08-17T23:22:30+08:00"
+  "generatedAt": "2026-08-18T06:30:35+08:00"
 };
