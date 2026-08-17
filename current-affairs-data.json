@@ -72956,7 +72956,7 @@
       "keywords": [
         {
           "name": "习近平",
-          "count": 20
+          "count": 21
         },
         {
           "name": "经济",
@@ -73105,6 +73105,14 @@
           "source": "新闻联播",
           "title": "纪念江泽民同志诞辰100周年大会在京隆重举行 习近平发表重要讲话",
           "url": "https://tv.cctv.com/2026/08/17/VIDEfqhYuocGB9YbQVQEie70260817.shtml",
+          "date": "2026-08-17",
+          "keyword": "习近平"
+        },
+        {
+          "id": "a8956724ddd4b7",
+          "source": "求是",
+          "title": "习近平就印度尼西亚发生强烈地震向印尼总统普拉博沃致慰问电",
+          "url": "https://www.qstheory.cn/20260817/7c640c9132814c5c949bfb3189abfe26/c.html",
           "date": "2026-08-17",
           "keyword": "习近平"
         },
@@ -74365,14 +74373,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "062af8fb219b23",
-          "source": "新华社",
-          "title": "“60天谈判期”已满 美国“体面退出”成奢望",
-          "url": "https://www.news.cn/world/20260817/0092d50596824fb6b73d03d69d42a561/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
           "id": "0817b859286fff",
           "source": "新华社",
           "title": "《江泽民外交文选》出版发行",
@@ -74469,14 +74469,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "ff1d96a528ff9a",
-          "source": "新华社",
-          "title": "伊朗伊斯兰革命卫队否认与美国通过秘密渠道对话",
-          "url": "https://www.news.cn/world/20260817/4ffa2b2a2d114ed0af8514e56d976cf6/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
           "id": "668a18f330bbb0",
           "source": "新华社",
           "title": "伊朗称正与阿曼敲定霍尔木兹海峡谅解协议",
@@ -74517,10 +74509,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "f52632bd939b78",
+          "id": "2e7c70277f2218",
           "source": "新华社",
-          "title": "印尼强震死亡人数升至68人",
-          "url": "https://www.news.cn/world/20260817/0396b0bf122144f3b0018ccd2a10c197/c.html",
+          "title": "医保支付改革让“家门口”就医“治得好、负担小”",
+          "url": "https://www.news.cn/politics/20260817/abc1c4cfe1fa4889b4e20726ec219a33/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74581,6 +74573,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "b0197fac4453aa",
+          "source": "新华社",
+          "title": "已为美国履行谅解备忘录设定最后期限",
+          "url": "https://www.news.cn/world/20260817/6c1a40c7eff243aca669f0eb9b108fc2/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
           "id": "3de52fb0fd0094",
           "source": "新华社",
           "title": "巴西音乐人举办全中文演唱会 庆祝巴中建交52周年",
@@ -74605,14 +74605,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "899db72019ae7e",
-          "source": "新华社",
-          "title": "揭秘代理退保黑灰产链条",
-          "url": "https://www.news.cn/fortune/20260817/cbcc11131c7d4b8e84a75c47b1008ef8/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
           "id": "dd17c39c4176d9",
           "source": "新华社",
           "title": "文化新观察丨“龙餐馆”的一餐一饭，何以打动人心",
@@ -74621,10 +74613,26 @@
           "keyword": "综合时政"
         },
         {
+          "id": "899db72019ae7e",
+          "source": "新华社",
+          "title": "新华视点丨揭秘代理退保黑灰产链条",
+          "url": "https://www.news.cn/fortune/20260817/cbcc11131c7d4b8e84a75c47b1008ef8/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
           "id": "8348ae11cb0b2c",
           "source": "新华社",
           "title": "新华解码丨如何培育国家级零碳工厂、零碳算力设施",
           "url": "https://www.news.cn/fortune/20260817/a895f3aacf344a4c9fdeb013441e6835/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f99983c975b18f",
+          "source": "新华社",
+          "title": "日本第22轮核污染水排海总量近8000吨",
+          "url": "https://www.news.cn/20260817/1d01dbf2eeb242ceacdf213b08ca0351/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74641,6 +74649,14 @@
           "source": "新华社",
           "title": "李强主持召开国务院第十二次全体会议",
           "url": "https://www.news.cn/politics/leaders/20260817/3b4128a7dc6146039767bcb4bb6564de/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "33c896f8d0f8ce",
+          "source": "新华社",
+          "title": "民调：过半选民认为在现任美国政府治下财务状况恶化",
+          "url": "https://www.news.cn/20260817/053a8cd901a9475caf4f84a109f0899e/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74677,10 +74693,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "ff38f0dacf48fa",
+          "id": "b7f36bc18f4a78",
           "source": "新华社",
-          "title": "特朗普称与伊朗伊斯兰革命卫队存在秘密沟通渠道",
-          "url": "https://www.news.cn/20260817/b08b17bb6490475999961dadd7f6ce34/c.html",
+          "title": "特朗普称与伊朗革命卫队秘密沟通 伊朗回应：幻觉",
+          "url": "https://www.news.cn/world/20260817/60c5613006004c7ea710d847ec2c38af/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74741,22 +74757,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "45e5b6ad4ac4e6",
-          "source": "新华社",
-          "title": "羽毛球世锦赛今日开战：最后的“21分制”，谁将登顶",
-          "url": "https://www.news.cn/sports/20260817/62893495b9474b29a4f816d7298f649e/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "0a6a8662317c53",
-          "source": "新华社",
-          "title": "胡塞武装称袭击了沙特海军登陆舰和军用艇",
-          "url": "https://www.news.cn/20260817/f7f3d0645e8944f0a2ff553a7dcc4380/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
           "id": "93aa2e11f67830",
           "source": "新华社",
           "title": "英国监狱怪象：人满为患提前放 狱警不足牢房空",
@@ -74773,18 +74773,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "3d79702dc77bf7",
-          "source": "新华社",
-          "title": "金民锡当选韩国执政党共同民主党党首",
-          "url": "https://www.news.cn/20260817/f2a69c2bd4fd42a9aee9acff84406506/c.html",
-          "date": "2026-08-17",
-          "keyword": "综合时政"
-        },
-        {
           "id": "70a4e06970f841",
           "source": "新华社",
           "title": "青海省供销合作社联合社原党组书记、主任朱小青被开除党籍和公职",
           "url": "https://www.news.cn/20260817/7772188176844311bd65ce5622998284/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cdc4b25f50b730",
+          "source": "新华社",
+          "title": "韩美军演引发韩国民间团体抗议",
+          "url": "https://www.news.cn/20260817/8ad7fa0a6c4247518ed4f1bbd031870c/c.html",
+          "date": "2026-08-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "40c94c4e4ad405",
+          "source": "新华社",
+          "title": "黑龙江连发气象风险预警",
+          "url": "https://www.news.cn/local/20260817/43468e4785174d2da3ab68519eb70a7e/c.html",
           "date": "2026-08-17",
           "keyword": "综合时政"
         },
@@ -74874,64 +74882,64 @@
           "source": "新闻联播",
           "status": "ok",
           "count": 11,
-          "duration": 0.8
+          "duration": 0.5
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 29,
-          "duration": 2.0
+          "duration": 2.4
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.4
+          "duration": 5.8
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 22,
-          "duration": 22.6
+          "duration": 25.5
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 8,
-          "duration": 6.1
+          "count": 9,
+          "duration": 8.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 2.0
+          "duration": 6.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.0
+          "duration": 13.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 2.8
+          "duration": 2.6
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 6,
-          "duration": 10.0
+          "duration": 18.6
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 17,
-          "duration": 66.8
+          "duration": 66.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-17T22:22:47+08:00"
+  "generatedAt": "2026-08-17T23:22:30+08:00"
 }
