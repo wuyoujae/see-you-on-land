@@ -77161,6 +77161,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "f7e517da3180bb",
+          "source": "新华社",
+          "title": "中方呼吁国际社会坚持多轨并进推动解决利比亚问题",
+          "url": "https://www.news.cn/world/20260819/b8b58293521a41ef934113ff703c74fa/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "82689e86bf59db",
           "source": "新华社",
           "title": "以军持续对加沙地带发动打击 巴方称6死14伤",
@@ -77193,6 +77201,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "1fb6dcd527fce9",
+          "source": "新华社",
+          "title": "英格兰地区少雨干旱",
+          "url": "https://www.news.cn/photo/20260819/8556a5cdd1674fc99fbe5106cb2e4d60/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "0342afdf857fca",
           "source": "新华社",
           "title": "青海海西州直辖区发生5.6级地震",
@@ -77206,65 +77222,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 6.2,
+          "duration": 8.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260819.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 19,
-          "duration": 1.7
+          "duration": 2.8
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 5,
+          "count": 7,
           "duration": 1.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 17.6
+          "duration": 14.7
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.3
+          "duration": 5.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 16,
-          "duration": 1.1
+          "duration": 1.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.3
+          "duration": 14.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.7
+          "duration": 3.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 7.7
+          "duration": 8.8
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 53.6
+          "duration": 64.0
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-19T06:30:10+08:00"
+  "generatedAt": "2026-08-19T07:26:55+08:00"
 }
