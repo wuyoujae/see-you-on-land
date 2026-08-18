@@ -74946,7 +74946,7 @@
       "keywords": [
         {
           "name": "经济",
-          "count": 7
+          "count": 8
         },
         {
           "name": "习近平",
@@ -75019,6 +75019,14 @@
           "source": "广东发布",
           "title": "李强主持召开国务院第十二次全体会议强调 深入贯彻落实党中央决策部署 努力完成全年经济社会发展目标任务",
           "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4943576.html",
+          "date": "2026-08-18",
+          "keyword": "经济"
+        },
+        {
+          "id": "39052818104cdc",
+          "source": "新华社",
+          "title": "多地密集布局词元经济赛道 探索本土化发展路径",
+          "url": "https://www.news.cn/fortune/20260818/fdafa99043e548a49cf079c4a87fb1bf/c.html",
           "date": "2026-08-18",
           "keyword": "经济"
         },
@@ -75439,6 +75447,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "af14aa3a6a46a4",
+          "source": "半月谈",
+          "title": "举起手机改变家乡",
+          "url": "http://www.banyuetan.org/byt/fanxianggushi/index.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "2d04f1bc874e1c",
           "source": "半月谈",
           "title": "刘利平：让古核桃焕新生结出“金果果”",
@@ -75499,6 +75515,14 @@
           "source": "半月谈",
           "title": "美国“缩减”美韩联合军演规模暴露政策挫败感",
           "url": "http://www.banyuetan.org/yw/detail/20260818/1000200033137441787015671034263548_1.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "268d164db5d09a",
+          "source": "新华社",
+          "title": "7月楼市韧性彰显 市场企稳基础进一步夯实",
+          "url": "https://www.news.cn/fortune/20260818/90c6eef88c2b481298925f41259e1593/c.html",
           "date": "2026-08-18",
           "keyword": "综合时政"
         },
@@ -75663,6 +75687,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "f8f935fe36c7f7",
+          "source": "新华社",
+          "title": "感染因素有哪些？国家疾控局发布HPV疫苗科普问答",
+          "url": "https://www.news.cn/politics/20260818/ec870712bc3f4ab8b55fbc3198406c29/c.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "890930c1846c48",
           "source": "新华社",
           "title": "我国在量子技术国际标准领域取得新进展",
@@ -75691,6 +75723,22 @@
           "source": "新华社",
           "title": "新华健康丨防晒只是防晒黑吗？",
           "url": "http://www.news.cn/politics/20260818/2d18bc7b1ee74db8b9196944ca4deeaa/c.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "571fd8247f44a4",
+          "source": "新华社",
+          "title": "新赛道投资扩围提质",
+          "url": "https://www.news.cn/fortune/20260818/f06f46437f3046d1a68fc2dad82d87f5/c.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7c0c5ca5d0a05d",
+          "source": "新华社",
+          "title": "梅亦当选南昌市人民政府市长",
+          "url": "https://www.news.cn/politics/20260818/8ebdb2ffdcc34f0c8de26bad077ec9f3/c.html",
           "date": "2026-08-18",
           "keyword": "综合时政"
         },
@@ -75807,6 +75855,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "ffc4596d946e8f",
+          "source": "新华社",
+          "title": "菲律宾官员：校园枪击案致1死9伤 枪手已自杀",
+          "url": "https://www.news.cn/world/20260818/c9be706791644f1c94beda4d2b636bf8/c.html",
+          "date": "2026-08-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "35b67379dc8f10",
           "source": "新华社",
           "title": "菲律宾校园枪击案2人中枪 枪手为学生",
@@ -75868,44 +75924,44 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 14.8,
+          "duration": 9.1,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260818.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 2.5
+          "duration": 1.8
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 44,
+          "count": 50,
           "duration": 2.3
         },
         {
           "source": "半月谈",
           "status": "ok",
-          "count": 14,
-          "duration": 18.1
+          "count": 15,
+          "duration": 31.0
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 4,
-          "duration": 6.9
+          "duration": 5.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 20,
-          "duration": 4.5
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.1
+          "duration": 14.3
         },
         {
           "source": "学习强国",
@@ -75917,16 +75973,16 @@
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 8.8
+          "duration": 8.9
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 59.1
+          "duration": 68.9
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-18T11:40:46+08:00"
+  "generatedAt": "2026-08-18T12:30:57+08:00"
 }
