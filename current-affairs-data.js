@@ -79191,10 +79191,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "158b07b4ef8b19",
+          "source": "新华社",
+          "title": "中国U17女足击败曼城U17女足",
+          "url": "https://www.news.cn/sports/20260820/ee9a96531cda43cfb7740e6ebaae9e20/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
           "id": "c6e2c26fbe9ae3",
           "source": "新华社",
           "title": "中国U17女足击败曼城U17女足 小组赛三战全胜晋级",
           "url": "https://www.news.cn/20260820/500738f406e24c7082095051ab28bcb3/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0d9829e75bb587",
+          "source": "新华社",
+          "title": "中方：团结合作应始终作为安理会最核心工作方法",
+          "url": "https://www.news.cn/world/20260820/0996cf2ec41f4515bfbe8ba5494ffff0/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -79247,14 +79263,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "3787fd972dba64",
-          "source": "新华社",
-          "title": "总统办公室副主任被解职",
-          "url": "https://www.news.cn/world/20260820/c49140dcb1604280b24cb6824c90686d/c.html",
-          "date": "2026-08-20",
-          "keyword": "综合时政"
-        },
-        {
           "id": "7abef19994ede5",
           "source": "新华社",
           "title": "特朗普称可能在“某个时候”恢复与伊朗谈判",
@@ -79271,10 +79279,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "dbf82dbefbbae7",
+          "id": "5a83720598d56a",
           "source": "新华社",
           "title": "美国联邦政府债务突破40万亿美元",
-          "url": "https://www.news.cn/20260820/54b73b297af24350afc56cff95b7282a/c.html",
+          "url": "https://www.news.cn/20260820/d0b2f84f95f04e5e9919c651f1e58854/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -79300,50 +79308,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 11.2,
+          "duration": 12.1,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260820.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 33,
-          "duration": 1.4
+          "duration": 2.3
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 13,
-          "duration": 2.1
+          "count": 14,
+          "duration": 1.7
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 8.4
+          "duration": 15.2
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.1
+          "duration": 5.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 0.9
+          "duration": 0.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 11.4
+          "duration": 14.5
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.0
+          "duration": 2.4
         },
         {
           "source": "中国政府网",
@@ -79353,13 +79361,12 @@ window.CURRENT_AFFAIRS_DATA = {
         },
         {
           "source": "广东发布",
-          "status": "error",
+          "status": "ok",
           "count": 0,
-          "duration": 17.3,
-          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+          "duration": 70.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-20T06:29:48+08:00"
+  "generatedAt": "2026-08-20T07:27:25+08:00"
 };
