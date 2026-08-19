@@ -76875,15 +76875,19 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 5
         },
         {
-          "name": "科技",
-          "count": 4
-        },
-        {
           "name": "高质量发展",
           "count": 3
         },
         {
+          "name": "科技",
+          "count": 3
+        },
+        {
           "name": "习近平党建思想",
+          "count": 2
+        },
+        {
+          "name": "十五五",
           "count": 2
         },
         {
@@ -76945,30 +76949,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "科技"
         },
         {
-          "id": "196d2985926d0c",
-          "source": "新华社",
-          "title": "1亿人次打卡的科技馆，到底有什么“魔力”？",
-          "url": "https://www.news.cn/20260819/869aec94e1bf4ddcb8f8b39299220aee/c.html",
-          "date": "2026-08-19",
-          "keyword": "科技"
-        },
-        {
-          "id": "f06d384056316f",
-          "source": "新华社",
-          "title": "《Vita》期刊首期纸质版发布 加快培育世界一流科技期刊",
-          "url": "https://www.news.cn/20260819/b4f9edd3ee894d0f8991bc11c5af5475/c.html",
-          "date": "2026-08-19",
-          "keyword": "科技"
-        },
-        {
-          "id": "a251c2ffece8fc",
-          "source": "新华社",
-          "title": "从“不敢保”到“抱团保” 科技保险机制稳步健全",
-          "url": "https://www.news.cn/20260819/ff3b7183d54b43dbbaa8722e2213c378/c.html",
-          "date": "2026-08-19",
-          "keyword": "科技"
-        },
-        {
           "id": "ef5abd8de47b9a",
           "source": "光明日报",
           "title": "【光明时评】用好机遇和优势推动高质量发展行稳致远",
@@ -76993,6 +76973,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "高质量发展"
         },
         {
+          "id": "196d2985926d0c",
+          "source": "新华社",
+          "title": "1亿人次打卡的科技馆，到底有什么“魔力”？",
+          "url": "https://www.news.cn/20260819/869aec94e1bf4ddcb8f8b39299220aee/c.html",
+          "date": "2026-08-19",
+          "keyword": "科技"
+        },
+        {
+          "id": "f06d384056316f",
+          "source": "新华社",
+          "title": "《Vita》期刊首期纸质版发布 加快培育世界一流科技期刊",
+          "url": "https://www.news.cn/20260819/b4f9edd3ee894d0f8991bc11c5af5475/c.html",
+          "date": "2026-08-19",
+          "keyword": "科技"
+        },
+        {
+          "id": "6e20ee6f55beb4",
+          "source": "人民日报",
+          "title": "一刻钟半径，满足居民多元需求（奋进“十五五” 一线见闻）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/19/content_30175776.html",
+          "date": "2026-08-19",
+          "keyword": "十五五"
+        },
+        {
           "id": "6d9ccc69fc2f9a",
           "source": "人民日报",
           "title": "优化城乡社区岗位吸纳高校毕业生就业",
@@ -77015,6 +77019,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "http://www.banyuetan.org/yw/detail/20260819/1000200033137441787102592430287999_1.html",
           "date": "2026-08-19",
           "keyword": "消费"
+        },
+        {
+          "id": "4e0f710bcb0aef",
+          "source": "新华社",
+          "title": "全民医保“十五五”规划来了",
+          "url": "https://www.news.cn/20260819/4ee789277434460495121aba4f07dcde/c.html",
+          "date": "2026-08-19",
+          "keyword": "十五五"
         },
         {
           "id": "9c4232ac833983",
@@ -77125,14 +77137,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "иЛ±жК•еСКпЉЪдЄ≠еЫљзїњиЙ≤дЇІдЄЪеПСе±ХеК©еКЫеЕ®зРГдљОзҐ≥иљђеЮЛ",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/19/content_30175785.html",
-          "date": "2026-08-19",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "6e20ee6f55beb4",
-          "source": "人民日报",
-          "title": "一刻钟半径，满足居民多元需求（奋进“十五五” 一线见闻）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/19/content_30175776.html",
           "date": "2026-08-19",
           "keyword": "综合时政"
         },
@@ -77537,6 +77541,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "ccee671bb47488",
+          "source": "新华社",
+          "title": "“散瞳验光”真相",
+          "url": "https://www.news.cn/20260819/941eccced48344d19aed05b0d6b43cdf/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "df2db9006a3f15",
           "source": "新华社",
           "title": "《文明的根脉与回响——昆仑文化的历史渊源、精神内涵与时代价值》智库报告发布 全文",
@@ -77549,14 +77561,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "一厅多用，电影院变身文化会客厅",
           "url": "https://www.news.cn/ci/20260819/f96238f44a7446a387574e2715707c71/c.html",
-          "date": "2026-08-19",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "d615b9cf134b42",
-          "source": "新华社",
-          "title": "两场机器人盛会接踵而至：未来感背后是产业跃升",
-          "url": "https://www.news.cn/tech/20260819/7839c535c16d4d46b62f3dc1bca2202c/c.html",
           "date": "2026-08-19",
           "keyword": "综合时政"
         },
@@ -77617,10 +77621,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "3bd8ba240f4d58",
+          "source": "新华社",
+          "title": "健康我来说丨中医眼中的干眼症",
+          "url": "https://www.news.cn/20260819/fbe5bd7ce7a14299805428f5fab32739/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "96380830bf829d",
           "source": "新华社",
           "title": "再度“翻红” 定制汽车客运何以“加速跑”？",
           "url": "https://www.news.cn/politics/20260819/c981c30d4f6d459aaa3d7625e5912cf7/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "34292c58269cda",
+          "source": "新华社",
+          "title": "协同共治 保障二手房交易安全",
+          "url": "https://www.news.cn/20260819/37a25bc0d9a44ee197a61f16c3f4d911/c.html",
           "date": "2026-08-19",
           "keyword": "综合时政"
         },
@@ -77637,14 +77657,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "台陆委会妄称民众进出大陆会有风险 国台办回应",
           "url": "https://www.news.cn/20260819/63040d5c5f8947fa97c2ef1b3ff28ac2/c.html",
-          "date": "2026-08-19",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "9db4aee1f42f66",
-          "source": "新华社",
-          "title": "告别“千脸一面”，AI短剧要跳出模板化内卷",
-          "url": "https://www.news.cn/tech/20260819/35975d33c7494bd48bc16217e09aeb54/c.html",
           "date": "2026-08-19",
           "keyword": "综合时政"
         },
@@ -77673,34 +77685,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "7c6b0946073141",
-          "source": "新华社",
-          "title": "如何培育国家级零碳工厂和零碳算力设施",
-          "url": "https://www.news.cn/tech/20260819/bc3bab40449e4bb9beb305aae7992c9c/c.html",
-          "date": "2026-08-19",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "d52e28fa2ab28c",
-          "source": "新华社",
-          "title": "嫦娥七号器箭组合体完成垂直转运",
-          "url": "https://www.news.cn/20260819/c037d0193c95465ebe84b7c1cde2b7e6/c.html",
-          "date": "2026-08-19",
-          "keyword": "综合时政"
-        },
-        {
           "id": "35eb8ee7cb3693",
           "source": "新华社",
           "title": "嫦娥七号近日将择机发射 器箭组合体完成垂直转运",
           "url": "https://www.news.cn/tech/20260819/e8eb6d0ccf2b47c6b0868fc503954a97/c.html",
-          "date": "2026-08-19",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "6d21eb9f5887b6",
-          "source": "新华社",
-          "title": "孩子越长大越不愿意和父母沟通，怎么办？",
-          "url": "https://education.news.cn/20260819/bd646c68701f4477a7fb9bb873d143ef/c.html",
           "date": "2026-08-19",
           "keyword": "综合时政"
         },
@@ -77761,6 +77749,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "2ad4fabb8b7da8",
+          "source": "新华社",
+          "title": "昆仑，昆仑！",
+          "url": "https://www.news.cn/politics/20260819/77e2e90c496d48d2af5fa6ef39d84a59/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "da31c7783f8064",
           "source": "新华社",
           "title": "朱雀三号遥二运载火箭发射成功 一子级成功着陆预定位置",
@@ -77789,14 +77785,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "没有归期的等待——追寻那些动人的红军爱情故事",
           "url": "https://www.news.cn/politics/20260819/db19844810b2430d809a2d95c16d3df8/c.html",
-          "date": "2026-08-19",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "302e2f2a2b77fb",
-          "source": "新华社",
-          "title": "河南省纪委监委驻省市场监督管理局纪检监察组组长李锋接受纪律审查和监察调查",
-          "url": "https://www.news.cn/legal/20260819/f99864490fc9420f9477db0b5c9d43d1/c.html",
           "date": "2026-08-19",
           "keyword": "综合时政"
         },
@@ -77841,18 +77829,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "5956e70cf97a0f",
-          "source": "新华社",
-          "title": "突破2500亿元能级：苏州“药”业做对了啥",
-          "url": "https://www.news.cn/fortune/20260819/f65058816183484399e156a2ee88df13/c.html",
-          "date": "2026-08-19",
-          "keyword": "综合时政"
-        },
-        {
           "id": "1aa0f8d13a3104",
           "source": "新华社",
           "title": "美媒：特朗普指示谈判团队停止与伊朗接触",
           "url": "https://www.news.cn/world/20260819/7db2567c625d458fa2967a6bbea4e216/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "779f01c74756fc",
+          "source": "新华社",
+          "title": "美韩联合军演日程减半 特朗普被曝想今秋会金正恩",
+          "url": "https://www.news.cn/world/20260819/0b410a01517440fc894e874599b441ac/c.html",
           "date": "2026-08-19",
           "keyword": "综合时政"
         },
@@ -77897,6 +77885,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "64aabaf7701cca",
+          "source": "新华社",
+          "title": "赵乐际会见厄瓜多尔总统诺沃亚",
+          "url": "https://www.news.cn/politics/leaders/20260819/1e4c5fa88cd049bbbda0735ccb0bb355/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0c3edf351a0e7e",
+          "source": "新华社",
+          "title": "这些革命年代的合照，藏着怎样动人的爱情？",
+          "url": "https://www.news.cn/politics/20260819/7601c40c2f6f473dbedb31d001d68193/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "7747e3e8c2b54d",
           "source": "新华社",
           "title": "造谣“校徽像旭日旗”被拘 怎能损害校园声誉换流量",
@@ -77913,6 +77917,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "1056f4b238e523",
+          "source": "新华社",
+          "title": "陈新武当选重庆市市长",
+          "url": "https://www.news.cn/20260819/b84a331de25e449ca22b8794a6c6a131/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "e24c2020a99df3",
           "source": "新华社",
           "title": "青海海西发生5.6级地震 暂无人员伤亡报告",
@@ -77925,14 +77937,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "韩美联合军演将提前6天结束",
           "url": "https://www.news.cn/20260819/ebefc20682ed4ee79fea5fbda854d446/c.html",
-          "date": "2026-08-19",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "f1bf2212e97e41",
-          "source": "新华社",
-          "title": "韩美联合军演将提前6天结束 日程缩短过半",
-          "url": "https://www.news.cn/world/20260819/18db2f4107e24305a28b506c39573161/c.html",
           "date": "2026-08-19",
           "keyword": "综合时政"
         },
@@ -77990,65 +77994,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 7.8,
+          "duration": 8.2,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260819.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 19,
-          "duration": 2.9
+          "duration": 4.8
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.4
+          "duration": 2.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 14,
-          "duration": 10.4
+          "duration": 18.0
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 4,
-          "duration": 6.2
+          "duration": 5.9
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 16,
-          "duration": 1.4
+          "duration": 1.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.4
+          "duration": 14.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 21,
-          "duration": 2.5
+          "duration": 3.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 7.7
+          "duration": 11.5
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 48.7
+          "duration": 57.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-19T11:42:03+08:00"
+  "generatedAt": "2026-08-19T12:32:25+08:00"
 };
