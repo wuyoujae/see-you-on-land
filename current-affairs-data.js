@@ -78113,14 +78113,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "67c5b077129740",
-          "source": "新华社",
-          "title": "世界摄影日：最满意的一张照片，永远是下一张",
-          "url": "https://www.news.cn/politics/20260819/9b4c0a0994f84c709cfb497dcc9e7b87/c.html",
-          "date": "2026-08-19",
-          "keyword": "综合时政"
-        },
-        {
           "id": "13d63c4c17e9c5",
           "source": "新华社",
           "title": "两部门联合发布“最美医生”先进事迹",
@@ -78145,6 +78137,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "96a57cd70d9047",
+          "source": "新华社",
+          "title": "中澳两国央行续签双边本币互换协议",
+          "url": "https://www.news.cn/20260819/bf39dcb2819742cdb0393704df721a94/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "7da233e4a78414",
           "source": "新华社",
           "title": "为民造福的接力：长征出发地看中国革命老区",
@@ -78153,18 +78153,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "54e568717f3cc6",
+          "id": "89b3ad4893b53c",
           "source": "新华社",
-          "title": "伊朗称未与美进行任何直接对话",
-          "url": "https://www.news.cn/world/20260819/0d4de65744d84517a808bce1995f174a/c.html",
+          "title": "从“四个宁可”到“七个坚持”，正确政绩观一脉相承",
+          "url": "https://www.news.cn/politics/xxjxs/20260819/cc443f8f626345eba2a11edb5e7aa96d/c.html",
           "date": "2026-08-19",
           "keyword": "综合时政"
         },
         {
-          "id": "8f9e5f834c5369",
+          "id": "54e568717f3cc6",
           "source": "新华社",
-          "title": "俄罗斯与乌克兰交换206名被俘人员",
-          "url": "https://www.news.cn/20260819/81c7963bff1142caa88bad1e001db0a9/c.html",
+          "title": "伊朗称未与美进行任何直接对话",
+          "url": "https://www.news.cn/world/20260819/0d4de65744d84517a808bce1995f174a/c.html",
           "date": "2026-08-19",
           "keyword": "综合时政"
         },
@@ -78297,6 +78297,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "31a6fdbb372188",
+          "source": "新华社",
+          "title": "微视频｜苍生大医",
+          "url": "https://www.news.cn/politics/leaders/20260819/e2431dc0eac94ff3836e13732bbe527b/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "411544eb159909",
           "source": "新华社",
           "title": "扎根，两位援疆医生的共同选择",
@@ -78405,14 +78413,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "美媒：五角大楼评估减少在中东军事存在",
           "url": "https://www.news.cn/world/20260819/4b10381ea46b41eababfbd130f878706/c.html",
-          "date": "2026-08-19",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "7e7b8a961ec1bf",
-          "source": "新华社",
-          "title": "美财政部拟扩大回购规模抑制国债收益率狂飙",
-          "url": "https://www.news.cn/20260819/ee3f6f7753b6452c8d757765a186c3c5/c.html",
           "date": "2026-08-19",
           "keyword": "综合时政"
         },
@@ -78638,65 +78638,64 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "ok",
           "count": 15,
-          "duration": 0.4
+          "duration": 0.9
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 19,
-          "duration": 1.6
+          "duration": 2.3
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.0
+          "duration": 1.8
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 16,
-          "duration": 25.3
+          "duration": 19.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 8,
-          "duration": 6.6
+          "duration": 5.9
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 16,
-          "duration": 3.8
+          "duration": 4.3
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.2
+          "duration": 13.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 2.5
+          "duration": 3.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 7,
-          "duration": 11.4
+          "duration": 10.5
         },
         {
           "source": "广东发布",
-          "status": "stale",
+          "status": "ok",
           "count": 15,
-          "duration": 18.3,
-          "message": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+          "duration": 61.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-19T22:27:30+08:00"
+  "generatedAt": "2026-08-19T23:25:50+08:00"
 };
