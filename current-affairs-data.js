@@ -76868,8 +76868,12 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-08-19",
-      "keyword": "习近平",
+      "keyword": "科技",
       "keywords": [
+        {
+          "name": "科技",
+          "count": 3
+        },
         {
           "name": "习近平",
           "count": 2
@@ -76880,6 +76884,30 @@ window.CURRENT_AFFAIRS_DATA = {
         }
       ],
       "articles": [
+        {
+          "id": "566ce2847880b8",
+          "source": "人民日报",
+          "title": "让企业站到科技创新前沿（活力中国调研行）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/19/content_30175773.html",
+          "date": "2026-08-19",
+          "keyword": "科技"
+        },
+        {
+          "id": "196d2985926d0c",
+          "source": "新华社",
+          "title": "1亿人次打卡的科技馆，到底有什么“魔力”？",
+          "url": "https://www.news.cn/20260819/869aec94e1bf4ddcb8f8b39299220aee/c.html",
+          "date": "2026-08-19",
+          "keyword": "科技"
+        },
+        {
+          "id": "f06d384056316f",
+          "source": "新华社",
+          "title": "《Vita》期刊首期纸质版发布 加快培育世界一流科技期刊",
+          "url": "https://www.news.cn/20260819/b4f9edd3ee894d0f8991bc11c5af5475/c.html",
+          "date": "2026-08-19",
+          "keyword": "科技"
+        },
         {
           "id": "6d9ccc69fc2f9a",
           "source": "人民日报",
@@ -77049,14 +77077,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "566ce2847880b8",
-          "source": "人民日报",
-          "title": "让企业站到科技创新前沿（活力中国调研行）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/19/content_30175773.html",
-          "date": "2026-08-19",
-          "keyword": "综合时政"
-        },
-        {
           "id": "74b0e2a823740e",
           "source": "光明日报",
           "title": "2026上合组织数字经济论坛将共筑智启未来新篇章",
@@ -77161,6 +77181,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "efe125ddc38c80",
+          "source": "新华社",
+          "title": "《Vita》首期纸质版发布 采用完全开放获取模式",
+          "url": "https://www.news.cn/tech/20260819/8ea7488d540142f197216474659ba1af/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "13d63c4c17e9c5",
+          "source": "新华社",
+          "title": "两部门发布“最美医生”先进事迹",
+          "url": "https://www.news.cn/politics/20260819/bb09578318ec4e4680a6c2bc2ce6c253/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "061502755d2f76",
+          "source": "新华社",
+          "title": "中央宣传部、国家卫生健康委联合发布“最美医生”先进事迹",
+          "url": "https://www.news.cn/20260819/275ccaa656ab43ea8552c096dd23dcb2/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "f7e517da3180bb",
           "source": "新华社",
           "title": "中方呼吁国际社会坚持多轨并进推动解决利比亚问题",
@@ -77177,10 +77221,42 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8c2f48cbdcead6",
+          "id": "96380830bf829d",
           "source": "新华社",
-          "title": "厄瓜多尔外交官巴基角逐下一任联合国秘书长",
-          "url": "https://www.news.cn/world/20260819/92220f11ed4541dab69402e630133fe7/c.html",
+          "title": "再度“翻红” 定制汽车客运何以“加速跑”？",
+          "url": "https://www.news.cn/politics/20260819/c981c30d4f6d459aaa3d7625e5912cf7/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7e56b868a63296",
+          "source": "新华社",
+          "title": "广大医务人员是最美的天使",
+          "url": "https://www.news.cn/20260819/d97e67cd5f8943bb95505a8e995ac1a4/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "18d278bb454629",
+          "source": "新华社",
+          "title": "我国首次实现火箭陆地回收",
+          "url": "https://www.news.cn/politics/20260819/1a901f63eb2c43fd9793eaf6849bce47/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ee7f4c78cf5d7a",
+          "source": "新华社",
+          "title": "截至6月底 全国基本养老保险参保人数达10.76亿人",
+          "url": "https://www.news.cn/fortune/20260819/b094247deb1f4986a7febc404a1ed17b/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "346686d5ece077",
+          "source": "新华社",
+          "title": "新国标发布，化妆品怎么选？儿童产品需标“小金盾”",
+          "url": "https://www.news.cn/politics/20260819/bbbaaa9d1f0c47b9af1c6bff0d7c96bb/c.html",
           "date": "2026-08-19",
           "keyword": "综合时政"
         },
@@ -77193,10 +77269,42 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "40aed9f6988846",
+          "source": "新华社",
+          "title": "朱雀三号遥二发射成功",
+          "url": "https://www.news.cn/20260819/c985736a354d4e2495f61ec39c53a1de/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "77830a7a581a2c",
+          "source": "新华社",
+          "title": "津巴布韦船只倾覆事故已致93人死亡 另有7人失踪",
+          "url": "https://www.news.cn/20260819/446f07eae86649b4bf9090c488da0178/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "07d118affaa0b5",
+          "source": "新华社",
+          "title": "烟火人间抵万金",
+          "url": "https://www.news.cn/20260819/3d985ffe6e664f77a834d8d3a78efbd2/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "6e5e56eb708c59",
           "source": "新华社",
           "title": "美国宣布制裁国际刑事法院院长赤根智子",
           "url": "https://www.news.cn/world/20260819/d4cf1b83427d4bb59f83c787d834fc4b/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7a0126dd84be37",
+          "source": "新华社",
+          "title": "致敬“白衣战士”",
+          "url": "https://www.news.cn/politics/20260819/def853c9f8574554a767a2ff9e917519/c.html",
           "date": "2026-08-19",
           "keyword": "综合时政"
         },
@@ -77209,10 +77317,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "0342afdf857fca",
+          "id": "cfd6c7be5c2b19",
           "source": "新华社",
-          "title": "青海海西州直辖区发生5.6级地震",
-          "url": "https://www.news.cn/local/20260819/f8d99dc0314c4e8ca2eb7b04570b2888/c.html",
+          "title": "通讯丨一座矿山里的中蒙荒漠化防治合作实践",
+          "url": "https://www.news.cn/silkroad/20260819/52130c3c521b4a5ba28b28a6eaa5e4b8/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "44f61c48aacfdc",
+          "source": "新华社",
+          "title": "那个考了电工证的大学生，回村干了件“大事”",
+          "url": "https://www.news.cn/20260819/ad52f49ff57c432d9ac9a24992f0d6a2/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e24c2020a99df3",
+          "source": "新华社",
+          "title": "青海海西发生5.6级地震 暂无人员伤亡报告",
+          "url": "https://www.news.cn/20260819/c8d7a02538f14079b5ffb3db38183788/c.html",
+          "date": "2026-08-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4b4a695f47e675",
+          "source": "新华社",
+          "title": "韩媒称韩美联合军演日程将减半 韩国防部称无法确认",
+          "url": "https://www.news.cn/20260819/2fb1867301684e728f9ebe1e8671f496/c.html",
           "date": "2026-08-19",
           "keyword": "综合时政"
         }
@@ -77222,65 +77354,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.4,
+          "duration": 4.5,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260819.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 19,
-          "duration": 2.8
+          "duration": 2.9
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 7,
-          "duration": 1.9
+          "count": 23,
+          "duration": 2.0
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 14.7
+          "duration": 15.0
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 5.7
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 16,
-          "duration": 1.5
+          "duration": 1.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.3
+          "duration": 12.1
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.7
+          "duration": 2.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.8
+          "duration": 8.5
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 64.0
+          "duration": 57.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-19T07:26:55+08:00"
+  "generatedAt": "2026-08-19T08:53:41+08:00"
 };
