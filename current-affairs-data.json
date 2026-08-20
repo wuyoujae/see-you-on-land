@@ -78702,15 +78702,15 @@
       "keywords": [
         {
           "name": "习近平",
-          "count": 9
+          "count": 10
         },
         {
           "name": "经济",
-          "count": 7
+          "count": 8
         },
         {
           "name": "人工智能",
-          "count": 6
+          "count": 7
         },
         {
           "name": "十五五",
@@ -78791,6 +78791,14 @@
           "keyword": "习近平"
         },
         {
+          "id": "3c155f3321c14c",
+          "source": "新闻联播",
+          "title": "习近平致电祝贺希奇莱马当选连任赞比亚总统",
+          "url": "https://tv.cctv.com/2026/08/20/VIDEcmsGuaYJzfS1zRsMfTSi260820.shtml",
+          "date": "2026-08-20",
+          "keyword": "习近平"
+        },
+        {
           "id": "e08f033d521276",
           "source": "求是",
           "title": "习近平致电祝贺希奇莱马当选连任赞比亚总统",
@@ -78847,18 +78855,26 @@
           "keyword": "经济"
         },
         {
-          "id": "873185e8bf816e",
+          "id": "41dd851f4f53fa",
           "source": "新华社",
-          "title": "中方回应美宣布对伊朗实施“毁灭性经济行动”",
-          "url": "https://www.news.cn/world/20260820/535df376e6a14ac7a60694b034b4625e/c.html",
+          "title": "伊朗副外长：美方将下一场失败称为“经济战”",
+          "url": "https://www.news.cn/20260820/92ed8aa56de04417856dc610b11c1a4a/c.html",
           "date": "2026-08-20",
           "keyword": "经济"
         },
         {
-          "id": "9cc9a76f2b55ed",
-          "source": "新华社",
-          "title": "巴新官员：将加强对华经贸合作 推动经济可持续增长",
-          "url": "https://www.news.cn/20260820/018731b7e37543eea60ea42e8918c9cc/c.html",
+          "id": "66e0e37aa52cdb",
+          "source": "新闻联播",
+          "title": "我国工业经济新动能贡献持续增强",
+          "url": "https://tv.cctv.com/2026/08/20/VIDEZ60jR1WWrkiCXqU1l7EW260820.shtml",
+          "date": "2026-08-20",
+          "keyword": "经济"
+        },
+        {
+          "id": "7b1ffbf3803a5c",
+          "source": "新闻联播",
+          "title": "美总统称对伊朗实施毁灭性经济行动 伊朗称严禁敌对船只进入霍尔木兹海峡",
+          "url": "https://tv.cctv.com/2026/08/20/VIDEeLiqYkjH7s5UyD3ygGwf260820.shtml",
           "date": "2026-08-20",
           "keyword": "经济"
         },
@@ -78891,6 +78907,14 @@
           "source": "新华社",
           "title": "专家学者共话人工智能赋能教育可持续发展",
           "url": "https://www.news.cn/20260820/72857196b4c440be93a5b21b56d34954/c.html",
+          "date": "2026-08-20",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "71f6457dde5f96",
+          "source": "新华社",
+          "title": "人工智能+交通运输：丰富场景供给，深化场景应用",
+          "url": "https://www.news.cn/fortune/20260820/7b572d9a672845c1a2924ef4d4903610/c.html",
           "date": "2026-08-20",
           "keyword": "人工智能"
         },
@@ -80103,18 +80127,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "f7c9918ba497aa",
+          "id": "51240f2232c7ee",
           "source": "新华社",
-          "title": "一油轮在亚丁湾被武装人员控制",
-          "url": "https://www.news.cn/20260820/98d0e0c5044243c1aebf715709876e81/c.html",
+          "title": "“有船通行”背后的霍尔木兹海峡之困",
+          "url": "https://www.news.cn/world/20260820/e949e3ea260f43af925d91411fab6a60/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
         {
-          "id": "1fede2143426d8",
+          "id": "f7c9918ba497aa",
           "source": "新华社",
-          "title": "一路通、百业兴 吉林白山边境小镇气象新",
-          "url": "https://www.news.cn/photo/20260820/2a9a4b1871ed49b7afe794bc2f5314b5/c.html",
+          "title": "一油轮在亚丁湾被武装人员控制",
+          "url": "https://www.news.cn/20260820/98d0e0c5044243c1aebf715709876e81/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -80143,18 +80167,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "3008ef1c9aa27e",
+          "id": "f3898fb31d5fbf",
           "source": "新华社",
-          "title": "两部门发文推动服务类社会救助发展",
-          "url": "https://www.news.cn/politics/20260820/f71c353383ab4019b546ca270a3ffe0f/c.html",
+          "title": "上海积极推动机关和企事业单位运动场地开放",
+          "url": "https://www.news.cn/local/20260820/bd6113d172f548458aa578a498067b68/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
         {
-          "id": "a4c30c313d3743",
+          "id": "3008ef1c9aa27e",
           "source": "新华社",
-          "title": "中国240小时过境免签“朋友圈”扩展至57国",
-          "url": "https://www.news.cn/20260820/5dc69b0a18a942f1aedc927f700b4deb/c.html",
+          "title": "两部门发文推动服务类社会救助发展",
+          "url": "https://www.news.cn/politics/20260820/f71c353383ab4019b546ca270a3ffe0f/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -80167,14 +80191,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "a4b774d11ed111",
-          "source": "新华社",
-          "title": "中方反对欧方滥用单边工具打压中国企业",
-          "url": "https://www.news.cn/world/20260820/83e2d2ced52f470a8a3dfba4967d7d1b/c.html",
-          "date": "2026-08-20",
-          "keyword": "综合时政"
-        },
-        {
           "id": "736c89b1d90874",
           "source": "新华社",
           "title": "云有什么好看的？还真挺好看的",
@@ -80183,10 +80199,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "51240f2232c7ee",
+          "id": "4e088817e6c8ce",
           "source": "新华社",
-          "title": "分析：“有船通行”背后的霍尔木兹海峡之困",
-          "url": "https://www.news.cn/world/20260820/e949e3ea260f43af925d91411fab6a60/c.html",
+          "title": "人机共生 共赴智造未来",
+          "url": "https://www.news.cn/tech/20260820/7a3dd4fb8a884951b3cb4471eb5f9b0f/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1a122c7a02005c",
+          "source": "新华社",
+          "title": "伊朗真要“由守转攻”？",
+          "url": "https://www.news.cn/world/20260820/6690fdd995f24bc691cebc5f227bb2ed/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -80195,6 +80219,14 @@
           "source": "新华社",
           "title": "南京超大直径长江隧道建成通车",
           "url": "https://www.news.cn/20260820/84597da619124d0cbcbf92f0986c67e5/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d07c8e32356a70",
+          "source": "新华社",
+          "title": "南海热带低压致华南强风雨 9月或有较强台风北上",
+          "url": "https://www.news.cn/politics/20260820/c31bb02797c74b29814efa9d68641abe/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -80215,18 +80247,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "331f29c00e3902",
+          "id": "7ad64455687e76",
           "source": "新华社",
-          "title": "哈里王子被曝月内返英定居 欲与家人缓和关系",
-          "url": "https://www.news.cn/20260820/47ba802dc59a477b9219168c35a23074/c.html",
-          "date": "2026-08-20",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "fdf94f1bef2b85",
-          "source": "新华社",
-          "title": "商务部回应美方炮制所谓“影子转运网络”虚假叙事、",
-          "url": "https://www.news.cn/world/20260820/c50a870a4adf4b609c71e55a2635be5d/c.html",
+          "title": "商务部回应美征收无人机关税等热点问题",
+          "url": "https://www.news.cn/world/20260820/1f2d6e4496284af9899f9115b3786565/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -80255,10 +80279,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "62d1fda4acd432",
+          "id": "4d8444388a7185",
           "source": "新华社",
           "title": "天津每年将向海河、大运河等生态补水10亿立方米",
-          "url": "https://www.news.cn/local/20260820/992adfebd86a47c3b253f87f7babf0d0/c.html",
+          "url": "https://www.news.cn/20260820/f474f8289567446fa0a670315d1174a2/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -80271,18 +80295,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "64d75aa58bcc77",
+          "id": "7156f5521d8c53",
           "source": "新华社",
           "title": "工信部再次批复开展卫星物联网业务商用试验",
-          "url": "https://www.news.cn/politics/20260820/4b07a41485c6429cafefd0545901172f/c.html",
-          "date": "2026-08-20",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "79835ba298dbf4",
-          "source": "新华社",
-          "title": "巴基斯坦谴责美驻印大使涉争议地区的失实言论",
-          "url": "https://www.news.cn/20260820/cb07ba497cd149f2a528352c2b04e9f8/c.html",
+          "url": "https://www.news.cn/fortune/20260820/c2080de18ad147ff99c34808744bb307/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -80303,14 +80319,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "1ce7789917c39f",
-          "source": "新华社",
-          "title": "恒大集团、恒大地产、许家印等案一审宣判",
-          "url": "https://www.news.cn/legal/20260820/737dfb54ab564fb8a549ba392af9fb0a/c.html",
-          "date": "2026-08-20",
-          "keyword": "综合时政"
-        },
-        {
           "id": "38dd6622f440f6",
           "source": "新华社",
           "title": "我国首次实现火箭陆地回收 外媒：仅仅是开始",
@@ -80319,10 +80327,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "b3f573834d1e09",
+          "id": "71851b74e9326a",
           "source": "新华社",
-          "title": "拍案丨亲姐弟打假官司 揭秘新型逃债局",
-          "url": "https://www.news.cn/legal/20260820/d2a3675fa5954b019bfc10709d3dbbbb/c.html",
+          "title": "摄影记者vlog：去藏北，看高原赛马盛会",
+          "url": "https://www.news.cn/local/20260820/647a9fce37434328afeba2e44a191901/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -80367,10 +80375,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "b502708d1c7e61",
+          "id": "404f2267a2c312",
           "source": "新华社",
-          "title": "河南省政府副秘书长、办公厅主任何雄接受审查调查",
-          "url": "https://www.news.cn/legal/20260820/b44096ff52b34dd3b29b952d052499f8/c.html",
+          "title": "沿G331吉林段感受边疆乡村振兴脉动",
+          "url": "https://www.news.cn/local/20260820/a9492d814e9444fdb9166f51f0836732/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -80383,10 +80391,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "65d74fa408c61d",
+          "id": "1d87f315e72beb",
           "source": "新华社",
           "title": "涉120家机构 八部门开展检验检测机构监督抽查",
-          "url": "https://www.news.cn/legal/20260820/a5a4d72dc1414066b7eddee2be2d74f8/c.html",
+          "url": "https://www.news.cn/politics/20260820/037f313e3fd343fdb85b9273f73f8a55/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -80399,6 +80407,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "d5ec76d648093b",
+          "source": "新华社",
+          "title": "秦腔表演中 一人如何同时演两角？",
+          "url": "https://www.news.cn/local/20260820/503acbca8a1144578af46a517d7d648f/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
           "id": "cc85c0c0c822a2",
           "source": "新华社",
           "title": "第七届中非媒体合作论坛在京开幕",
@@ -80407,10 +80423,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "4c49281e40ad5e",
+          "id": "c33c2c2a85125d",
           "source": "新华社",
-          "title": "第七届全国少数民族文艺会演参演剧目《英歌》在京上演",
-          "url": "https://www.news.cn/photo/20260820/30d0c78fc745460aa57df6283bc47873/c.html",
+          "title": "第二十九届北京国际音乐节将举办系列惠民公益活动",
+          "url": "https://www.news.cn/20260820/dcb42807fe824cbeb43e993c48d84423/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -80431,18 +80447,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "7cd44ac08c5d6f",
+          "id": "1347a9e052a6ee",
           "source": "新华社",
-          "title": "美国一直升机与小飞机相撞致一死2伤",
-          "url": "https://www.news.cn/20260820/752bc461384640fc9345263068335973/c.html",
+          "title": "美债突破40万亿美元引发广泛担忧",
+          "url": "https://www.news.cn/20260820/c28e23c1c54a42c69879353cad2dbcd0/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
         {
-          "id": "65df110de5a6c3",
+          "id": "7830a823e63fcf",
           "source": "新华社",
-          "title": "美征收无人机关税问题",
-          "url": "https://www.news.cn/world/20260820/d9647b5f0d804126b3241561e11d61ba/c.html",
+          "title": "美军称“华盛顿”号航母已部署在中东",
+          "url": "https://www.news.cn/world/20260820/228e2012da4f4ba7b847f8bdc5db8fa2/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7cd44ac08c5d6f",
+          "source": "新华社",
+          "title": "美国一直升机与小飞机相撞致一死2伤",
+          "url": "https://www.news.cn/20260820/752bc461384640fc9345263068335973/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -80471,14 +80495,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "8c7386bbafe182",
-          "source": "新华社",
-          "title": "西班牙拟将500名滞留休达的未成年移民送至本土",
-          "url": "https://www.news.cn/20260820/b4ba0cae13df4fce9a99a4a1f6deaa9b/c.html",
-          "date": "2026-08-20",
-          "keyword": "综合时政"
-        },
-        {
           "id": "4475788b08f566",
           "source": "新华社",
           "title": "贵州民族歌舞剧《锦·蓝》亮相第七届全国少数民族文艺会演",
@@ -80503,6 +80519,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "58b048be7cb0c4",
+          "source": "新华社",
+          "title": "金饰克价月内涨超100元，金价缘何反弹",
+          "url": "https://www.news.cn/fortune/20260820/a56fd6f12d464a45a027b4285e7b295d/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
           "id": "bf87f494d19bd4",
           "source": "新华社",
           "title": "韩国总统李在明会见王毅",
@@ -80515,6 +80539,86 @@
           "source": "新华社",
           "title": "风速大移动慢 飓风“拉拉”持续影响夏威夷",
           "url": "https://www.news.cn/20260820/ecdee633c6294b2fb2e6410713d86dd3/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2a6427affc9156",
+          "source": "新闻联播",
+          "title": "《新闻联播》 20260820 19:00",
+          "url": "https://tv.cctv.com/2026/08/20/VIDEeGQjWDD58U9vbzeGkea4260820.shtml",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ed69c01dc803dc",
+          "source": "新闻联播",
+          "title": "【新思想引领新征程】优质医疗资源下沉惠民 绘就健康中国新图景",
+          "url": "https://tv.cctv.com/2026/08/20/VIDEpWzKKIu5KPKr3W1RKhWc260820.shtml",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "422c97de3183f6",
+          "source": "新闻联播",
+          "title": "中共中央 国务院 中央军委关于给张陆颁发“二级航天功勋奖章” 授予武飞、张洪章“英雄航天员”荣誉称号并颁发“三级航天功勋奖章”的决定",
+          "url": "https://tv.cctv.com/2026/08/20/VIDEKz4mJtZEqDUD67fe5BI0260820.shtml",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a169b2d85766a5",
+          "source": "新闻联播",
+          "title": "丰收时节 特色农产品助农增收",
+          "url": "https://tv.cctv.com/2026/08/20/VIDE9Ug9xbjZLXIxwJCpexIJ260820.shtml",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1593685a5bc9f9",
+          "source": "新闻联播",
+          "title": "各地重大工程稳步推进",
+          "url": "https://tv.cctv.com/2026/08/20/VIDEoyJLVNHIF2o07PzxuE07260820.shtml",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "61ea5f9f6f7b56",
+          "source": "新闻联播",
+          "title": "国内联播快讯",
+          "url": "https://tv.cctv.com/2026/08/20/VIDEMCIfDHEX2z3FySQhEPqP260820.shtml",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "10f7489e513b40",
+          "source": "新闻联播",
+          "title": "国际联播快讯",
+          "url": "https://tv.cctv.com/2026/08/20/VIDEbsp8oEYrYMgwRP2TGagy260820.shtml",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "99fe80a84214bd",
+          "source": "新闻联播",
+          "title": "日本民众抗议高市政权危险动向将国家引向战争边缘",
+          "url": "https://tv.cctv.com/2026/08/20/VIDEqEDEYLw3rD6T8R19YI50260820.shtml",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1bde81d5d98a00",
+          "source": "新闻联播",
+          "title": "美国联邦政府债务首次超40万亿美元 美媒称美结构性危机加剧",
+          "url": "https://tv.cctv.com/2026/08/20/VIDEMZUp8tOHjskHbfGFRw24260820.shtml",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "999088dc4304dd",
+          "source": "新闻联播",
+          "title": "赵乐际同萨尔瓦多立法大会主席举行会谈",
+          "url": "https://tv.cctv.com/2026/08/20/VIDEnoV0zKIXpaTsKrkkv6Yw260820.shtml",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -80594,67 +80698,66 @@
       "sourceStatus": [
         {
           "source": "新闻联播",
-          "status": "error",
-          "count": 0,
-          "duration": 8.2,
-          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260820.shtml"
+          "status": "ok",
+          "count": 13,
+          "duration": 0.3
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 33,
-          "duration": 3.0
+          "duration": 1.5
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.1
+          "duration": 2.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 19,
-          "duration": 28.6
+          "duration": 16.9
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 15,
-          "duration": 5.9
+          "duration": 6.4
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 5.9
+          "duration": 3.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.5
+          "duration": 12.9
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 2.7
+          "duration": 3.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 10.9
+          "duration": 9.8
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 15,
-          "duration": 65.9
+          "duration": 63.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-20T19:22:29+08:00"
+  "generatedAt": "2026-08-20T20:35:28+08:00"
 }
