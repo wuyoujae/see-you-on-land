@@ -78713,19 +78713,11 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 3
         },
         {
-          "name": "高质量发展",
-          "count": 2
-        },
-        {
           "name": "乡村振兴",
           "count": 2
         },
         {
           "name": "十五五",
-          "count": 2
-        },
-        {
-          "name": "机器人",
           "count": 2
         },
         {
@@ -78855,36 +78847,12 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "十五五"
         },
         {
-          "id": "ab87459984c7fd",
-          "source": "人民日报",
-          "title": "世界机器人大会开幕",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/20/content_30176075.html",
-          "date": "2026-08-20",
-          "keyword": "机器人"
-        },
-        {
           "id": "e36d07c4f0bea8",
           "source": "学习强国",
           "title": "中国科技期刊集体倡议恪守科研诚信",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=8983454189632878391&item_id=8983454189632878391",
           "date": "2026-08-20",
           "keyword": "科技"
-        },
-        {
-          "id": "fcea562953b240",
-          "source": "新华社",
-          "title": "25年产业风云：高质量发展的飞跃与突围",
-          "url": "https://www.news.cn/fortune/20260820/07c8abd063ab4a02bdfe980710c2c003/c.html",
-          "date": "2026-08-20",
-          "keyword": "高质量发展"
-        },
-        {
-          "id": "895471d36a0d25",
-          "source": "新华社",
-          "title": "上半年机器人产业规上企业营收达1655亿元",
-          "url": "https://www.news.cn/tech/20260820/85ea8d1b25284b428fbd5b549879c7aa/c.html",
-          "date": "2026-08-20",
-          "keyword": "机器人"
         },
         {
           "id": "d1ec8ebeea868a",
@@ -78909,14 +78877,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/photo/20260820/8dacc8fc62384a3f92c296575859bb7d/c.html",
           "date": "2026-08-20",
           "keyword": "乡村振兴"
-        },
-        {
-          "id": "cf3aea60300de6",
-          "source": "求是",
-          "title": "“三五”规划正式公布 澳门迈向高质量发展新阶段",
-          "url": "https://www.qstheory.cn/20260820/5c23e3b5c12e476f9b7a9bc82b5cb18d/c.html",
-          "date": "2026-08-20",
-          "keyword": "高质量发展"
         },
         {
           "id": "c6a753a2993c24",
@@ -78963,6 +78923,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "“看见西藏：新时代 新发展”故事分享会在加德满都举行",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/20/content_30176086.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ab87459984c7fd",
+          "source": "人民日报",
+          "title": "世界机器人大会开幕",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/20/content_30176075.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -79655,6 +79623,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "e965a5fa8abc16",
+          "source": "新华社",
+          "title": "15省进入紧急状态",
+          "url": "https://www.news.cn/20260820/5a81eae361a3401c8106d5f1a333cf76/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d151a8785fea3c",
           "source": "新华社",
           "title": "2026年两岸关系研讨会在武汉开幕",
@@ -79667,6 +79643,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "万钢谈新能源汽车：我们走到了世界前列，但还有很多事可以做",
           "url": "https://www.news.cn/politics/20260820/46bb8f3f3d8544e2833142c86be60d02/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cfcee9620d9578",
+          "source": "新华社",
+          "title": "上海出台楼市“沪八条” 公积金政策再优化",
+          "url": "https://www.news.cn/20260820/92f89a71bcb5471b8e044e7332a3953c/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -79775,14 +79759,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "e89990d7c44683",
-          "source": "新华社",
-          "title": "哥伦比亚强震死亡人数升至319人 4469人受伤",
-          "url": "https://www.news.cn/world/20260820/80009409c0ad43b9a2b25d0e9e9df808/c.html",
-          "date": "2026-08-20",
-          "keyword": "综合时政"
-        },
-        {
           "id": "dfa6e1d2415c7a",
           "source": "新华社",
           "title": "商务部公布对原产于美国、欧盟、台湾地区和日本的进口共聚聚甲醛反倾销措施相关企业税率继承的决定",
@@ -79835,6 +79811,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "新华健康丨孩子一放假就像“变了个人”？原因很多家长没想到",
           "url": "https://www.news.cn/20260820/90988cef106c4513bee7c793140f40db/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fcea562953b240",
+          "source": "新华社",
+          "title": "新华深读丨中国新能源汽车25年产业风云",
+          "url": "https://www.news.cn/fortune/20260820/07c8abd063ab4a02bdfe980710c2c003/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -80071,6 +80055,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "cf3aea60300de6",
+          "source": "求是",
+          "title": "“三五”规划正式公布 澳门迈向高质量发展新阶段",
+          "url": "https://www.qstheory.cn/20260820/5c23e3b5c12e476f9b7a9bc82b5cb18d/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
           "id": "231e9cda803433",
           "source": "求是",
           "title": "中国240小时过境免签“朋友圈”扩展至57国",
@@ -80156,65 +80148,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 4.6,
+          "duration": 14.3,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260820.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 33,
-          "duration": 1.7
+          "duration": 2.4
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.7
+          "duration": 2.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 17,
-          "duration": 23.2
+          "duration": 27.6
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 14,
-          "duration": 6.3
+          "duration": 5.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 3.8
+          "duration": 2.3
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.3
+          "duration": 15.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 22,
-          "duration": 2.6
+          "duration": 4.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 9.5
+          "duration": 12.5
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 63.9
+          "duration": 51.6
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-20T13:26:22+08:00"
+  "generatedAt": "2026-08-20T14:36:20+08:00"
 };
