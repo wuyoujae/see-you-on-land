@@ -80007,6 +80007,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "25d17e58a87305",
+          "source": "新华社",
+          "title": "网络数据安全风险评估办法今起施行 如何申请认证",
+          "url": "https://www.news.cn/politics/20260820/c6b5e53ccc554d1c8fbc2bb820e756ab/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
           "id": "b2885ab7c055c8",
           "source": "新华社",
           "title": "美债狂飙如何危害全球",
@@ -80051,14 +80059,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "通胀居高不下",
           "url": "https://www.news.cn/world/20260820/b2401ec49fae43c2b5113a27f1c087cb/c.html",
-          "date": "2026-08-20",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "34d460a2ad2928",
-          "source": "新华社",
-          "title": "阿佤山，甜蜜入画来",
-          "url": "https://www.news.cn/20260820/7ae3691b9a34426886505521809802c2/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -80156,66 +80156,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 9.4,
+          "duration": 4.6,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260820.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 33,
-          "duration": 2.1
+          "duration": 1.7
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.4
+          "duration": 2.7
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 17,
-          "duration": 23.8
+          "duration": 23.2
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 14,
-          "duration": 5.8
+          "duration": 6.3
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 1.6
+          "duration": 3.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.3
+          "duration": 12.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 22,
-          "duration": 3.1
+          "duration": 2.6
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 8.9
+          "duration": 9.5
         },
         {
           "source": "广东发布",
-          "status": "stale",
+          "status": "ok",
           "count": 2,
-          "duration": 20.4,
-          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+          "duration": 63.9
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-20T12:31:37+08:00"
+  "generatedAt": "2026-08-20T13:26:22+08:00"
 };
