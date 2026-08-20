@@ -78706,7 +78706,7 @@
         },
         {
           "name": "经济",
-          "count": 10
+          "count": 9
         },
         {
           "name": "人工智能",
@@ -78739,14 +78739,6 @@
           "keyword": "习近平"
         },
         {
-          "id": "e1ea677905fc5a",
-          "source": "人民日报",
-          "title": "中试平台助更多样品走向量产（经济新方位·从“0”到“1”，把“1”拉长）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/20/content_30176071.html",
-          "date": "2026-08-20",
-          "keyword": "经济"
-        },
-        {
           "id": "be79b0f757d5d9",
           "source": "人民日报",
           "title": "习近平致电祝贺鲍卡就任匈牙利总统",
@@ -78763,14 +78755,6 @@
           "keyword": "习近平"
         },
         {
-          "id": "024cbe5635275a",
-          "source": "光明日报",
-          "title": "江西制造职业技术学院经济管理学院：“双师红匠”铸魂育人",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/20/content_22845.html",
-          "date": "2026-08-20",
-          "keyword": "经济"
-        },
-        {
           "id": "bb97a7bfa68853",
           "source": "半月谈",
           "title": "习近平致电祝贺鲍卡就任匈牙利总统",
@@ -78779,36 +78763,12 @@
           "keyword": "习近平"
         },
         {
-          "id": "02a721da9aaa8d",
-          "source": "半月谈",
-          "title": "特朗普宣布对伊朗实施“毁灭性经济行动”",
-          "url": "http://www.banyuetan.org/yw/detail/20260820/1000200033137441787188233882311776_1.html",
-          "date": "2026-08-20",
-          "keyword": "经济"
-        },
-        {
           "id": "a52876e6f7021d",
           "source": "学习强国",
           "title": "习近平致电祝贺希奇莱马当选连任赞比亚总统",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=1450650278601807934&item_id=1450650278601807934",
           "date": "2026-08-20",
           "keyword": "习近平"
-        },
-        {
-          "id": "fee1702c3bc9b7",
-          "source": "学习强国",
-          "title": "十二载薪火赓续，对外经济贸易大学研究生支教团深耕云南勐腊 以青春培育边疆学子",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=7566414321913493000&item_id=7566414321913493000",
-          "date": "2026-08-20",
-          "keyword": "经济"
-        },
-        {
-          "id": "74f20f4f7d2f3e",
-          "source": "学习强国",
-          "title": "我国与10个APEC经济体实现AEO互认",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=16793899886373176871&item_id=16793899886373176871",
-          "date": "2026-08-20",
-          "keyword": "经济"
         },
         {
           "id": "1a72df175a234a",
@@ -78827,10 +78787,66 @@
           "keyword": "习近平"
         },
         {
-          "id": "41dd851f4f53fa",
-          "source": "新华社",
-          "title": "伊朗副外长：美方将下一场失败称为“经济战”",
-          "url": "https://www.news.cn/20260820/92ed8aa56de04417856dc610b11c1a4a/c.html",
+          "id": "3c155f3321c14c",
+          "source": "新闻联播",
+          "title": "习近平致电祝贺希奇莱马当选连任赞比亚总统",
+          "url": "https://tv.cctv.com/2026/08/20/VIDEcmsGuaYJzfS1zRsMfTSi260820.shtml",
+          "date": "2026-08-20",
+          "keyword": "习近平"
+        },
+        {
+          "id": "e08f033d521276",
+          "source": "求是",
+          "title": "习近平致电祝贺希奇莱马当选连任赞比亚总统",
+          "url": "https://www.qstheory.cn/20260820/2abdacdbea6c4a3f88b821c21527a631/c.html",
+          "date": "2026-08-20",
+          "keyword": "习近平"
+        },
+        {
+          "id": "e272015b81fb8d",
+          "source": "求是",
+          "title": "坚持以习近平党建思想为引领 推动党在革命性锻造中更加坚强有力",
+          "url": "https://www.qstheory.cn/20260820/10a707aa4f314f58a847b2a50f6a5d68/c.html",
+          "date": "2026-08-20",
+          "keyword": "习近平"
+        },
+        {
+          "id": "e1ea677905fc5a",
+          "source": "人民日报",
+          "title": "中试平台助更多样品走向量产（经济新方位·从“0”到“1”，把“1”拉长）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/20/content_30176071.html",
+          "date": "2026-08-20",
+          "keyword": "经济"
+        },
+        {
+          "id": "024cbe5635275a",
+          "source": "光明日报",
+          "title": "江西制造职业技术学院经济管理学院：“双师红匠”铸魂育人",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/20/content_22845.html",
+          "date": "2026-08-20",
+          "keyword": "经济"
+        },
+        {
+          "id": "02a721da9aaa8d",
+          "source": "半月谈",
+          "title": "特朗普宣布对伊朗实施“毁灭性经济行动”",
+          "url": "http://www.banyuetan.org/yw/detail/20260820/1000200033137441787188233882311776_1.html",
+          "date": "2026-08-20",
+          "keyword": "经济"
+        },
+        {
+          "id": "fee1702c3bc9b7",
+          "source": "学习强国",
+          "title": "十二载薪火赓续，对外经济贸易大学研究生支教团深耕云南勐腊 以青春培育边疆学子",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=7566414321913493000&item_id=7566414321913493000",
+          "date": "2026-08-20",
+          "keyword": "经济"
+        },
+        {
+          "id": "74f20f4f7d2f3e",
+          "source": "学习强国",
+          "title": "我国与10个APEC经济体实现AEO互认",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=16793899886373176871&item_id=16793899886373176871",
           "date": "2026-08-20",
           "keyword": "经济"
         },
@@ -78851,14 +78867,6 @@
           "keyword": "经济"
         },
         {
-          "id": "3c155f3321c14c",
-          "source": "新闻联播",
-          "title": "习近平致电祝贺希奇莱马当选连任赞比亚总统",
-          "url": "https://tv.cctv.com/2026/08/20/VIDEcmsGuaYJzfS1zRsMfTSi260820.shtml",
-          "date": "2026-08-20",
-          "keyword": "习近平"
-        },
-        {
           "id": "66e0e37aa52cdb",
           "source": "新闻联播",
           "title": "我国工业经济新动能贡献持续增强",
@@ -78873,22 +78881,6 @@
           "url": "https://tv.cctv.com/2026/08/20/VIDEeLiqYkjH7s5UyD3ygGwf260820.shtml",
           "date": "2026-08-20",
           "keyword": "经济"
-        },
-        {
-          "id": "e08f033d521276",
-          "source": "求是",
-          "title": "习近平致电祝贺希奇莱马当选连任赞比亚总统",
-          "url": "https://www.qstheory.cn/20260820/2abdacdbea6c4a3f88b821c21527a631/c.html",
-          "date": "2026-08-20",
-          "keyword": "习近平"
-        },
-        {
-          "id": "e272015b81fb8d",
-          "source": "求是",
-          "title": "坚持以习近平党建思想为引领 推动党在革命性锻造中更加坚强有力",
-          "url": "https://www.qstheory.cn/20260820/10a707aa4f314f58a847b2a50f6a5d68/c.html",
-          "date": "2026-08-20",
-          "keyword": "习近平"
         },
         {
           "id": "04f24eafb83190",
@@ -80419,6 +80411,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "686c786ba21629",
+          "source": "新华社",
+          "title": "澳门举办纪念孙中山诞辰活动 以青年对话搭建两岸沟通桥梁",
+          "url": "https://www.news.cn/20260820/3e35219b86a246b1b81ae8e6e27ce91c/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
           "id": "16b7bb7df163e2",
           "source": "新华社",
           "title": "第一视角领略我国首次实现火箭陆地回收全过程",
@@ -80509,7 +80509,7 @@
         {
           "id": "c51069c01d1bd6",
           "source": "新华社",
-          "title": "还江于民 漳州打造田园都市新名片",
+          "title": "还江于民 漳州 打造 田园都市新名片",
           "url": "https://www.news.cn/local/20260820/d4dc86a415964376bb8b5f29be17d8eb/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
@@ -80696,13 +80696,13 @@
           "source": "新闻联播",
           "status": "ok",
           "count": 13,
-          "duration": 0.8
+          "duration": 0.3
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 33,
-          "duration": 4.3
+          "duration": 2.8
         },
         {
           "source": "新华社",
@@ -80714,13 +80714,13 @@
           "source": "半月谈",
           "status": "ok",
           "count": 19,
-          "duration": 27.6
+          "duration": 33.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 15,
-          "duration": 6.5
+          "duration": 5.9
         },
         {
           "source": "光明日报",
@@ -80732,28 +80732,28 @@
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.6
+          "duration": 13.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 2.6
+          "duration": 3.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 19.2
+          "duration": 10.3
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 15,
-          "duration": 67.0
+          "duration": 58.0
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-20T22:31:29+08:00"
+  "generatedAt": "2026-08-20T23:28:38+08:00"
 }
