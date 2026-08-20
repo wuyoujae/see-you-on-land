@@ -78698,14 +78698,18 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-08-20",
-      "keyword": "习近平",
+      "keyword": "消费",
       "keywords": [
         {
-          "name": "习近平",
-          "count": 2
+          "name": "消费",
+          "count": 3
         },
         {
           "name": "经济",
+          "count": 3
+        },
+        {
+          "name": "习近平",
           "count": 2
         }
       ],
@@ -78717,6 +78721,46 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/20/content_30176071.html",
           "date": "2026-08-20",
           "keyword": "经济"
+        },
+        {
+          "id": "0b223d0425dd28",
+          "source": "人民日报",
+          "title": "情绪消费，“新”在哪里（读者点题·共同关注）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/20/content_30176067.html",
+          "date": "2026-08-20",
+          "keyword": "消费"
+        },
+        {
+          "id": "024cbe5635275a",
+          "source": "光明日报",
+          "title": "江西制造职业技术学院经济管理学院：“双师红匠”铸魂育人",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/20/content_22845.html",
+          "date": "2026-08-20",
+          "keyword": "经济"
+        },
+        {
+          "id": "bb34a8c7157972",
+          "source": "新华社",
+          "title": "情绪消费“新”在哪里？",
+          "url": "https://www.news.cn/20260820/fa4d8ffd38a04469a147f7083427792c/c.html",
+          "date": "2026-08-20",
+          "keyword": "消费"
+        },
+        {
+          "id": "fc1de6b31b17bf",
+          "source": "新华社",
+          "title": "特朗普宣布对伊朗实施“毁灭性经济行动”",
+          "url": "https://www.news.cn/20260820/9f83cc830e974123a74e220b793307ab/c.html",
+          "date": "2026-08-20",
+          "keyword": "经济"
+        },
+        {
+          "id": "375068c96c2cbd",
+          "source": "新华社",
+          "title": "莫让AI客服给消费者“添堵”",
+          "url": "https://www.news.cn/legal/20260820/cb57086992194c39ac39cc5dbf452d37/c.html",
+          "date": "2026-08-20",
+          "keyword": "消费"
         },
         {
           "id": "be79b0f757d5d9",
@@ -78733,14 +78777,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/20/content_22830.html",
           "date": "2026-08-20",
           "keyword": "习近平"
-        },
-        {
-          "id": "024cbe5635275a",
-          "source": "光明日报",
-          "title": "江西制造职业技术学院经济管理学院：“双师红匠”铸魂育人",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/20/content_22845.html",
-          "date": "2026-08-20",
-          "keyword": "经济"
         },
         {
           "id": "6e3a742f87b82b",
@@ -78875,14 +78911,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "建设优质高效医疗服务体系 更好满足人民群众健康需求",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/20/content_30176070.html",
-          "date": "2026-08-20",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "0b223d0425dd28",
-          "source": "人民日报",
-          "title": "情绪消费，“新”在哪里（读者点题·共同关注）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/20/content_30176067.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -79191,6 +79219,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "3d64d2f1621252",
+          "source": "新华社",
+          "title": "严打编造传播涉灾网络谣言 公安机关公布典型案例",
+          "url": "https://www.news.cn/20260820/383102aea2a841d1a685d266bb068dd6/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
           "id": "158b07b4ef8b19",
           "source": "新华社",
           "title": "中国U17女足击败曼城U17女足",
@@ -79231,10 +79267,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "883b571786ec5d",
+          "id": "3b86270fc19ece",
           "source": "新华社",
           "title": "乌空军称俄军对基辅发动大规模弹道导弹袭击",
-          "url": "https://www.news.cn/20260820/61edbe9f5b5e4c74aa9ccea453d712c7/c.html",
+          "url": "https://www.news.cn/world/20260820/4ad356a1d7f64535aee729f1ace7d8c9/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -79255,10 +79291,42 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "b02047f22dffea",
+          "source": "新华社",
+          "title": "公安机关持续严厉打击编造传播涉台风等涉灾网络谣言，公布4起典型案例",
+          "url": "https://www.news.cn/legal/20260820/5c5b3e6d8a384ba4975c4a653d6e3d98/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
           "id": "fd3cc9f3f4896e",
           "source": "新华社",
           "title": "内塔尼亚胡警告土耳其勿在叙利亚扩大军事部署",
           "url": "https://www.news.cn/20260820/501944e2984e4a37af5b28aa642411fe/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "369d9c16613ff5",
+          "source": "新华社",
+          "title": "厚植企业信用底色 增强亚太贸易韧性",
+          "url": "https://www.news.cn/world/20260820/35f8c3991d5c4483a500ea5bf4faf842/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "54709fb74ac7b8",
+          "source": "新华社",
+          "title": "土耳其驳以色列“无稽之谈” 美特使称空袭不必要",
+          "url": "https://www.news.cn/20260820/c26a8c9eb70d43bc81dded737009e0bf/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ea3bbd0e494c87",
+          "source": "新华社",
+          "title": "暑期孩子去哪？多地文化场馆创新开展托管服务",
+          "url": "https://www.news.cn/local/20260820/46f38de3b07b418d99008195543d40b2/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         },
@@ -79295,10 +79363,42 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "434be1766c432b",
+          "source": "新华社",
+          "title": "覆盖超八成国土面积，国家水网长什么样？",
+          "url": "https://www.news.cn/fortune/20260820/4b48e0321e1e49bcb9d2d129d7d3bb91/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "34d460a2ad2928",
+          "source": "新华社",
+          "title": "阿佤山，甜蜜入画来",
+          "url": "https://www.news.cn/20260820/7ae3691b9a34426886505521809802c2/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
           "id": "c567e2f96119b6",
           "source": "新华社",
           "title": "阿根廷首都一机场因可疑包裹紧急疏散部分区域",
           "url": "https://www.news.cn/20260820/50859fbcc8bf4b28ad128fee47ae66dd/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b9e01ed1815d45",
+          "source": "新华社",
+          "title": "霍林郭勒的变迁：从荒原到“绿电城”",
+          "url": "https://www.news.cn/local/20260820/21b50beeae85408d901757f8c72426fa/c.html",
+          "date": "2026-08-20",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "be294cda2fb234",
+          "source": "求是",
+          "title": "今天，防灾减灾救灾何以极端重要",
+          "url": "https://www.qstheory.cn/20260820/32deb976ba764cf78436914368ca214f/c.html",
           "date": "2026-08-20",
           "keyword": "综合时政"
         }
@@ -79308,65 +79408,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 12.1,
+          "duration": 12.2,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260820.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 33,
-          "duration": 2.3
+          "duration": 2.0
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 14,
-          "duration": 1.7
+          "count": 25,
+          "duration": 2.8
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 15.2
+          "duration": 14.1
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 5.8
+          "count": 1,
+          "duration": 5.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 0.8
+          "duration": 1.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.5
+          "duration": 14.1
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.4
+          "duration": 3.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.4
+          "duration": 8.8
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 70.5
+          "duration": 65.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-20T07:27:25+08:00"
+  "generatedAt": "2026-08-20T08:53:32+08:00"
 };
