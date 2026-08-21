@@ -80756,10 +80756,10 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-08-21",
-      "keyword": "机器人",
+      "keyword": "消费",
       "keywords": [
         {
-          "name": "机器人",
+          "name": "消费",
           "count": 5
         },
         {
@@ -80767,7 +80767,7 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 4
         },
         {
-          "name": "消费",
+          "name": "机器人",
           "count": 4
         },
         {
@@ -80775,63 +80775,11 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 3
         },
         {
-          "name": "人工智能",
-          "count": 2
-        },
-        {
           "name": "经济",
           "count": 2
         }
       ],
       "articles": [
-        {
-          "id": "63b286925815de",
-          "source": "半月谈",
-          "title": "“十骏”腾跃向未来——广东人形机器人产业加速崛起",
-          "url": "http://www.banyuetan.org/kj/detail/20260821/1000200033136211787275730137315521_1.html",
-          "date": "2026-08-21",
-          "keyword": "机器人"
-        },
-        {
-          "id": "d082b9b8982c95",
-          "source": "半月谈",
-          "title": "从“炫技”到“实干”，机器人走向更多真实场景",
-          "url": "http://www.banyuetan.org/yw/detail/20260821/1000200033137441787274994997336105_1.html",
-          "date": "2026-08-21",
-          "keyword": "机器人"
-        },
-        {
-          "id": "0ffb5f6c46be04",
-          "source": "新华社",
-          "title": "从“上场”到“进厂” 资本加码押注人形机器人产业前景",
-          "url": "https://www.news.cn/20260821/ad40c5e9011b44b3ad09deef0f48cd39/c.html",
-          "date": "2026-08-21",
-          "keyword": "机器人"
-        },
-        {
-          "id": "3f52f0751e775d",
-          "source": "新华社",
-          "title": "从“上场”到“进厂” 资本加码押注人形机器人产业化前景",
-          "url": "https://www.news.cn/tech/20260821/7a5887cfc6b2417ab561bf5364f82da1/c.html",
-          "date": "2026-08-21",
-          "keyword": "机器人"
-        },
-        {
-          "id": "68bc561c33f14f",
-          "source": "新华社",
-          "title": "第二届世界人形机器人运动会即将开幕",
-          "url": "https://www.news.cn/photo/20260821/6820d2e600f143cf807b60ee2aefbab5/c.html",
-          "date": "2026-08-21",
-          "keyword": "机器人"
-        },
-        {
-          "id": "a205d09da5b31d",
-          "source": "人民日报",
-          "title": "习近平致电祝贺希奇莱马当选连任赞比亚总统",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/21/content_30176293.html",
-          "date": "2026-08-21",
-          "keyword": "习近平"
-        },
         {
           "id": "844686d5145914",
           "source": "人民日报",
@@ -80849,6 +80797,38 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "消费"
         },
         {
+          "id": "8b8b3109656f76",
+          "source": "光明日报",
+          "title": "我国消费市场保持向新向优发展态势",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/21/content_22922.html",
+          "date": "2026-08-21",
+          "keyword": "消费"
+        },
+        {
+          "id": "796192e85d9e02",
+          "source": "新华社",
+          "title": "今年以来消费品以旧换新已惠及1.78亿人次",
+          "url": "https://www.news.cn/fortune/20260821/aaa42d832af1448c9cba3373ad31a2c1/c.html",
+          "date": "2026-08-21",
+          "keyword": "消费"
+        },
+        {
+          "id": "c90b7d1862872b",
+          "source": "新华社",
+          "title": "今年以来消费品以旧换新政策惠及1.78亿人次",
+          "url": "https://www.news.cn/20260821/5a591d4cd5be469492ecb31558ac3c2c/c.html",
+          "date": "2026-08-21",
+          "keyword": "消费"
+        },
+        {
+          "id": "a205d09da5b31d",
+          "source": "人民日报",
+          "title": "习近平致电祝贺希奇莱马当选连任赞比亚总统",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/21/content_30176293.html",
+          "date": "2026-08-21",
+          "keyword": "习近平"
+        },
+        {
           "id": "2197026dfd8e9f",
           "source": "光明日报",
           "title": "习近平致电祝贺希奇莱马当选连任赞比亚总统",
@@ -80857,12 +80837,12 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
-          "id": "8b8b3109656f76",
-          "source": "光明日报",
-          "title": "我国消费市场保持向新向优发展态势",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/21/content_22922.html",
+          "id": "63b286925815de",
+          "source": "半月谈",
+          "title": "“十骏”腾跃向未来——广东人形机器人产业加速崛起",
+          "url": "http://www.banyuetan.org/kj/detail/20260821/1000200033136211787275730137315521_1.html",
           "date": "2026-08-21",
-          "keyword": "消费"
+          "keyword": "机器人"
         },
         {
           "id": "ec771035569f2a",
@@ -80873,6 +80853,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
+          "id": "d082b9b8982c95",
+          "source": "半月谈",
+          "title": "从“炫技”到“实干”，机器人走向更多真实场景",
+          "url": "http://www.banyuetan.org/yw/detail/20260821/1000200033137441787274994997336105_1.html",
+          "date": "2026-08-21",
+          "keyword": "机器人"
+        },
+        {
           "id": "aed3f33763cfb4",
           "source": "广东发布",
           "title": "习近平致电祝贺希奇莱马当选连任赞比亚总统",
@@ -80881,12 +80869,20 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
-          "id": "796192e85d9e02",
+          "id": "0ffb5f6c46be04",
           "source": "新华社",
-          "title": "今年以来消费品以旧换新已惠及1.78亿人次",
-          "url": "https://www.news.cn/fortune/20260821/aaa42d832af1448c9cba3373ad31a2c1/c.html",
+          "title": "从“上场”到“进厂” 资本加码押注人形机器人产业前景",
+          "url": "https://www.news.cn/20260821/ad40c5e9011b44b3ad09deef0f48cd39/c.html",
           "date": "2026-08-21",
-          "keyword": "消费"
+          "keyword": "机器人"
+        },
+        {
+          "id": "68bc561c33f14f",
+          "source": "新华社",
+          "title": "第二届世界人形机器人运动会即将开幕",
+          "url": "https://www.news.cn/photo/20260821/6820d2e600f143cf807b60ee2aefbab5/c.html",
+          "date": "2026-08-21",
+          "keyword": "机器人"
         },
         {
           "id": "7115b6d07bb2e0",
@@ -80913,14 +80909,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "高质量发展"
         },
         {
-          "id": "71422313091c7d",
-          "source": "人民日报",
-          "title": "​交通需求与人工智能技术加速对接（政策解读）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/21/content_30176300.html",
-          "date": "2026-08-21",
-          "keyword": "人工智能"
-        },
-        {
           "id": "ab5f9cb80b99c1",
           "source": "人民日报",
           "title": "我国与APEC其他经济体进出口前7月同比增21%",
@@ -80937,12 +80925,20 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
-          "id": "7962c9010d2e91",
-          "source": "新华社",
-          "title": "交通运输领域人工智能加快落地应用",
-          "url": "https://www.news.cn/tech/20260821/1004ff49908b4f16a2f4116f91040191/c.html",
+          "id": "c74e34ca864071",
+          "source": "中国政府网",
+          "title": "谌贻琴在北京市调研时强调 加快建设足球青训体系 提升竞技体育后备人才培养水平",
+          "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7078762.htm",
           "date": "2026-08-21",
-          "keyword": "人工智能"
+          "keyword": "综合时政"
+        },
+        {
+          "id": "71422313091c7d",
+          "source": "人民日报",
+          "title": "​交通需求与人工智能技术加速对接（政策解读）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/21/content_30176300.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
         },
         {
           "id": "48e163c2f39d5e",
@@ -81529,22 +81525,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "44b46a33f2ddc8",
-          "source": "新华社",
-          "title": "七国敦促以色列撤回“E1区”定居点建设计划",
-          "url": "https://www.news.cn/20260821/45fa58cee6ac41aba1d56db121d08f62/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "f177c478f2c6c6",
-          "source": "新华社",
-          "title": "三部门印发通知",
-          "url": "https://www.news.cn/fortune/20260821/148226b0c44d43d183613f80310e3f32/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
           "id": "960b75938865f1",
           "source": "新华社",
           "title": "上海临港：以开放之姿赴时代之约",
@@ -81563,7 +81543,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "1ae50b067cdb48",
           "source": "新华社",
-          "title": "下半年财政部将及时谋划出台务实管用的增量政策",
+          "title": "下半年将及时谋划出台务实管用的增量政策",
           "url": "https://www.news.cn/fortune/20260821/f002a9c71b7f45eb86f2c9f6fc0975b8/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
@@ -81577,10 +81557,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a0f72031554abc",
+          "id": "386c8e2464852d",
           "source": "新华社",
           "title": "中国与瑞士宣布完成自贸协定升级谈判",
-          "url": "https://www.news.cn/world/20260821/dc098618915e4f178ca8c60cdddd4eeb/c.html",
+          "url": "https://www.news.cn/20260821/70afd921b13b46d194cbb8af5e6b0d0b/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -81617,14 +81597,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "f5122f5a14933a",
-          "source": "新华社",
-          "title": "乌克兰首都遭空袭死亡人数升至15人",
-          "url": "https://www.news.cn/20260821/379d5d5e906a45b59cf173a2f4c8b93c/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
           "id": "f6b2f54c7ca941",
           "source": "新华社",
           "title": "乌蒙山区的暑期托管，让儿童假期有“趣”处",
@@ -81633,18 +81605,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "672ba140eb4e28",
+          "id": "5d6f73989211e8",
           "source": "新华社",
-          "title": "人民币市场汇价（8月21日）",
-          "url": "https://www.news.cn/20260821/7332c02bc5dd460ab1007db61330491c/c.html",
+          "title": "人民币国际使用推介会助力中肯经贸合作",
+          "url": "https://www.news.cn/20260821/2b69b985acb64d1e891772f9cb086bc5/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
         {
-          "id": "12fe4c72c5b65d",
+          "id": "672ba140eb4e28",
           "source": "新华社",
-          "title": "优化完善财政金融协同促内需政策",
-          "url": "https://www.news.cn/fortune/20260821/371e089b16b546558224cc07139731e5/c.html",
+          "title": "人民币市场汇价（8月21日）",
+          "url": "https://www.news.cn/20260821/7332c02bc5dd460ab1007db61330491c/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -81665,33 +81637,25 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "92202634710638",
+          "id": "7a2fa28e2d4856",
           "source": "新华社",
           "title": "刚果（金）埃博拉确诊病例超5200例",
-          "url": "https://www.news.cn/world/20260821/7f1ad09b4f2040a59335acb6d5ee28b0/c.html",
+          "url": "https://www.news.cn/20260821/a4ca1e57de2b49d89904e46573973247/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
         {
-          "id": "ef3885351a8f57",
-          "source": "新华社",
-          "title": "印度古吉拉特邦发生假酒中毒事件致9人死",
-          "url": "https://www.news.cn/20260821/7cee116c416a456991b85ac63d3508f4/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "46f6ba3faceafa",
+          "id": "54e7b9be326ba4",
           "source": "新华社",
           "title": "古巴谴责美国对古新一轮制裁",
-          "url": "https://www.news.cn/world/20260821/003f2cc8d04f473a953e0ecf498e3bdf/c.html",
+          "url": "https://www.news.cn/20260821/d7e34b1f69664d56949f4716b509bd52/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
         {
           "id": "44fbcff933a971",
           "source": "新华社",
-          "title": "台风“美莎克”致广西南宁贵港159人遇难10人失联 两地全面转入灾后恢复重建阶段",
+          "title": "台风“美莎克”致广西南宁贵港159人遇难10人失联",
           "url": "https://www.news.cn/20260821/da3bdd0ad47148c4a61d809ea0f9e9ab/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
@@ -81721,14 +81685,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "1bcff695cf2c65",
-          "source": "新华社",
-          "title": "塞内加尔对美国制裁塞籍国际刑事法院官员表示关切",
-          "url": "https://www.news.cn/20260821/0c53fedcf72f4bfc801a223c164a8909/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
           "id": "38b8b17e57fdd7",
           "source": "新华社",
           "title": "夏日中国丨迎风逐浪，海定波宁",
@@ -81753,6 +81709,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "3bb96fe70a1ac0",
+          "source": "新华社",
+          "title": "巴拿马运河下调船舶日通行量应对厄尔尼诺影响",
+          "url": "https://www.news.cn/20260821/9b4f9cc875ee46768dacdf7505baf3f0/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "72fd1cab958670",
+          "source": "新华社",
+          "title": "成渝中线高铁全线首条接触网导线成功架设",
+          "url": "https://www.news.cn/photo/20260821/02b403e35d26402da1b9277ae326726e/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "80ce2979bb67a4",
           "source": "新华社",
           "title": "我不是大牌色，我是中国传统色",
@@ -81769,14 +81741,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "6b8d1b59f5b266",
-          "source": "新华社",
-          "title": "挪威外交部：美关税政策持续制造不确定性",
-          "url": "https://www.news.cn/20260821/984b03af70a041669a72e8adcfef30e0/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
           "id": "9cb9cf6f776005",
           "source": "新华社",
           "title": "文化奇遇记丨当科幻照进现实，在“南天门计划”展里感受中式浪漫",
@@ -81789,6 +81753,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "新华智见丨追星铸“箭”的人",
           "url": "https://www.news.cn/20260821/72d5c9cb01ca4b9baf7b9fde34e7fc7a/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7ae290dce18811",
+          "source": "新华社",
+          "title": "日本核心CPI连续59个月同比上涨",
+          "url": "https://www.news.cn/fortune/20260821/b503b87bdf184f8ea7dcc29b9c5784c4/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fab7f29f65d776",
+          "source": "新华社",
+          "title": "日本静冈县一大型船舶起火致1死9伤",
+          "url": "https://www.news.cn/20260821/b8afa398d4cb48289e21caabe7cd0c38/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -81813,14 +81793,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "检察机关依法对江敦涛涉嫌受贿案提起公诉",
           "url": "https://www.news.cn/legal/20260821/5676209a78ce4217bd4a76f08ad5c9ed/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "8ca4283c06cfbf",
-          "source": "新华社",
-          "title": "武契奇：塞尔维亚议会选举将于10月下旬举行",
-          "url": "https://www.news.cn/20260821/87f948f596bc40d9b6a5c8d4ab9988e0/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -81873,18 +81845,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "db12acd4462526",
+          "id": "034fdfee26ca0b",
           "source": "新华社",
-          "title": "美国决定批准对卡塔尔45亿美元军售",
-          "url": "https://www.news.cn/20260821/f1989548f13045e180c0ccc91df7ef90/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "88f7d64aa11261",
-          "source": "新华社",
-          "title": "美国纽约州一女子涉嫌策划袭击州议会大厦被捕",
-          "url": "https://www.news.cn/20260821/ec7ad41f7c094ffaa3c1a660ac87baae/c.html",
+          "title": "美国阿拉斯加州一架载8人飞机坠毁 伤亡不明",
+          "url": "https://www.news.cn/20260821/5e5f991565f14eaeb21fd7bee2bd02dc/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -81897,10 +81861,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "cd168404122b9a",
+          "id": "041c1ff3f36efe",
           "source": "新华社",
-          "title": "联合国大会继续举行秘书长候选人互动对话",
-          "url": "https://www.news.cn/20260821/9f3babae0018480682c5147e350d6d5e/c.html",
+          "title": "美媒：“林肯”号航母结束中东任务启程返美",
+          "url": "https://www.news.cn/20260821/a85c115043a14153b53a4ddd6656ebc2/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -81917,6 +81881,46 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "谌贻琴在北京市调研：加快建设足球青训体系",
           "url": "https://www.news.cn/sports/20260821/68898ce2fb114add94f2aa75b5714c69/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8d6c8c587b5992",
+          "source": "新华社",
+          "title": "财政部：努力实现财政重点领域风险进一步化解",
+          "url": "https://www.news.cn/20260821/4489563a9ee74e8c890efdcd233b259d/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dcd259811a6958",
+          "source": "新华社",
+          "title": "财政部：注重政策工具统筹协调",
+          "url": "https://www.news.cn/20260821/62a0e462577a4371997c6b23a6a10649/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "11b74f5bcda442",
+          "source": "新华社",
+          "title": "财政部：集中财力保障国家重大战略任务和基本民生",
+          "url": "https://www.news.cn/20260821/bf540ccdeb4e4ccf8dd343144f5adf77/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "12fe4c72c5b65d",
+          "source": "新华社",
+          "title": "财政金融协同促内需政策已优化完善",
+          "url": "https://www.news.cn/fortune/20260821/371e089b16b546558224cc07139731e5/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0c6ce37c6fa5ba",
+          "source": "新华社",
+          "title": "走进南非伊西曼格利索湿地公园",
+          "url": "https://www.news.cn/photo/20260821/8ba430650614433680bfbbe0a0e24448/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82006,65 +82010,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.8,
+          "duration": 9.2,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260821.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 32,
-          "duration": 2.6
+          "duration": 2.8
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.2
+          "duration": 2.4
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 17,
-          "duration": 18.4
+          "duration": 22.9
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 8,
-          "duration": 5.7
+          "duration": 7.4
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 26,
-          "duration": 4.3
+          "duration": 2.3
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.9
+          "duration": 14.1
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 8,
-          "duration": 2.8
+          "duration": 3.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 0,
-          "duration": 16.3
+          "count": 1,
+          "duration": 11.2
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 54.1
+          "duration": 61.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-21T12:33:13+08:00"
+  "generatedAt": "2026-08-21T13:28:39+08:00"
 };
