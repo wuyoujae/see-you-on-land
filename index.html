@@ -7,6 +7,7 @@
   <title>暑假时政学习清单</title>
   <link rel="stylesheet" href="clock.css?v=20260815-2">
   <link rel="stylesheet" href="search.css?v=20260821-4">
+  <link rel="stylesheet" href="wrong-questions.css?v=20260821-1">
   <style>
     :root {
       --bg: #ffffff;
@@ -1245,10 +1246,16 @@
             <i data-lucide="chevron-down" aria-hidden="true"></i>
           </button>
         </div>
-        <button type="button" class="icon-button solver-settings-button" id="open-solver-settings" title="搜题设置" aria-label="打开搜题设置">
-          <i data-lucide="settings-2" aria-hidden="true"></i>
-          <span class="solver-settings-dot" id="solver-settings-dot" aria-hidden="true"></span>
-        </button>
+        <div class="solver-header-actions">
+          <button type="button" class="icon-button solver-wrong-book-button" id="open-wrong-book" title="错题本" aria-label="打开错题本">
+            <i data-lucide="book-open-check" aria-hidden="true"></i>
+            <span class="solver-wrong-book-badge" id="wrong-book-due-badge" aria-label="0道待复习" hidden>0</span>
+          </button>
+          <button type="button" class="icon-button solver-settings-button" id="open-solver-settings" title="搜题设置" aria-label="打开搜题设置">
+            <i data-lucide="settings-2" aria-hidden="true"></i>
+            <span class="solver-settings-dot" id="solver-settings-dot" aria-hidden="true"></span>
+          </button>
+        </div>
       </header>
 
       <section class="solver-workspace" id="solver-workspace">
@@ -1281,6 +1288,61 @@
         <input type="file" id="solver-upload-input" accept="image/png,image/jpeg,image/webp,image/gif" multiple hidden>
       </form>
     </main>
+
+    <section class="wrong-book" id="wrong-book" aria-labelledby="wrong-book-title" hidden>
+      <header class="wrong-book-header">
+        <button type="button" class="icon-button" id="close-wrong-book" title="返回搜题" aria-label="返回搜题">
+          <i data-lucide="arrow-left" aria-hidden="true"></i>
+        </button>
+        <div>
+          <p class="eyebrow" id="wrong-book-kicker">REVIEW</p>
+          <h1 id="wrong-book-title">错题本</h1>
+        </div>
+        <div class="wrong-book-header-actions" id="wrong-book-transfer-actions">
+          <button type="button" class="icon-button" id="import-wrong-questions" title="导入错题" aria-label="导入错题"><i data-lucide="upload" aria-hidden="true"></i></button>
+          <button type="button" class="icon-button" id="export-wrong-questions" title="导出错题" aria-label="导出错题"><i data-lucide="download" aria-hidden="true"></i></button>
+        </div>
+      </header>
+
+      <div class="wrong-book-list-view" id="wrong-book-list-view">
+        <section class="wrong-book-overview" aria-label="错题复习概况">
+          <div><strong id="wrong-book-due-count">0</strong><span>今日待复习</span></div>
+          <div><strong id="wrong-book-total-count">0</strong><span>错题总数</span></div>
+          <button type="button" id="start-wrong-review"><i data-lucide="play" aria-hidden="true"></i><span>开始复习</span></button>
+        </section>
+
+        <div class="wrong-book-toolbar">
+          <div class="wrong-book-tabs" role="tablist" aria-label="错题范围">
+            <button type="button" class="active" data-wrong-scope="due" role="tab" aria-selected="true">待复习</button>
+            <button type="button" data-wrong-scope="all" role="tab" aria-selected="false">全部</button>
+          </div>
+          <label class="wrong-book-subject-filter">
+            <span class="visually-hidden">筛选科目</span>
+            <select id="wrong-book-subject"><option value="">全部科目</option></select>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </label>
+        </div>
+
+        <p class="wrong-book-status" id="wrong-book-status" role="status" aria-live="polite"></p>
+        <div class="wrong-book-records" id="wrong-book-records"></div>
+      </div>
+
+      <div class="wrong-book-review-view" id="wrong-book-review-view" hidden>
+        <div class="wrong-review-progress">
+          <span id="wrong-review-position">1 / 1</span>
+          <span id="wrong-review-subject">科目</span>
+        </div>
+        <div class="wrong-review-track"><span id="wrong-review-progress-bar"></span></div>
+        <article class="wrong-review-content" id="wrong-review-content"></article>
+        <footer class="wrong-review-actions" aria-label="本题掌握程度">
+          <button type="button" data-review-grade="forgot"><i data-lucide="rotate-ccw" aria-hidden="true"></i><span>忘记</span><small>明天</small></button>
+          <button type="button" data-review-grade="fuzzy"><i data-lucide="circle-help" aria-hidden="true"></i><span>模糊</span><small>稍后再看</small></button>
+          <button type="button" data-review-grade="mastered"><i data-lucide="check" aria-hidden="true"></i><span>掌握</span><small>延长间隔</small></button>
+        </footer>
+      </div>
+    </section>
+
+    <input type="file" id="wrong-question-import-input" accept="application/json,.json" hidden>
 
     <nav class="tab-bar" aria-label="主导航">
       <button type="button" class="tab-item active" data-tab="dashboard" aria-selected="true">
@@ -1861,6 +1923,7 @@
   <script src="backup.js?v=20260815-1"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked@18.0.10/lib/marked.umd.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/dompurify@3.4.14/dist/purify.min.js"></script>
-  <script src="search.js?v=20260821-3"></script>
+  <script src="wrong-questions.js?v=20260821-1"></script>
+  <script src="search.js?v=20260821-4"></script>
 </body>
 </html>

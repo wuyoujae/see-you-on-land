@@ -20,6 +20,9 @@ def main():
         "/clock.js": ("text/javascript; charset=utf-8", ROOT / "clock.js"),
         "/search.css": ("text/css; charset=utf-8", ROOT / "search.css"),
         "/search.js": ("text/javascript; charset=utf-8", ROOT / "search.js"),
+        "/wrong-questions.css": ("text/css; charset=utf-8", ROOT / "wrong-questions.css"),
+        "/wrong-questions.js": ("text/javascript; charset=utf-8", ROOT / "wrong-questions.js"),
+        "/wrong-question-taxonomy.json": ("application/json; charset=utf-8", ROOT / "wrong-question-taxonomy.json"),
     }
     route_source = ",\n".join(
         f"  {json.dumps(route)}: {{ type: {json.dumps(content_type)}, body: {javascript_string(path)} }}"

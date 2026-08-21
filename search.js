@@ -64,6 +64,7 @@
   let persistenceTimer = 0;
   let reasoningTimer = 0;
   let databasePromise = null;
+  const wrongAnalysisControllers = new Map();
 
   function loadSettings() {
     try {
@@ -255,6 +256,14 @@
       reasoningSeconds: Number.isFinite(Number(message?.reasoningSeconds)) ? Number(message.reasoningSeconds) : 0,
       status: message?.status === "streaming" ? "stopped" : (message?.status || "done"),
       modelName: typeof message?.modelName === "string" ? message.modelName : "",
+      wrongQuestionStatus: message?.role === "assistant"
+        ? (message?.wrongQuestionStatus === "analyzing" ? "error" : (message?.wrongQuestionStatus || "idle"))
+        : "idle",
+      wrongQuestionAnalysis: message?.role === "assistant" && message?.wrongQuestionAnalysis && typeof message.wrongQuestionAnalysis === "object"
+        ? message.wrongQuestionAnalysis
+        : null,
+      wrongQuestionId: message?.role === "assistant" && typeof message?.wrongQuestionId === "string" ? message.wrongQuestionId : "",
+      wrongQuestionError: message?.role === "assistant" && typeof message?.wrongQuestionError === "string" ? message.wrongQuestionError : "",
       createdAt: Number(message?.createdAt) || Date.now()
     })).filter(message => message.role === "user" || message.text || message.reasoning) : [];
     return {
@@ -664,6 +673,147 @@
     return reasoning;
   }
 
+  function wrongQuestionSource(session, assistantMessage) {
+    if (!session || !assistantMessage) return null;
+    const index = session.messages.findIndex(message => message.id === assistantMessage.id);
+    for (let position = index - 1; position >= 0; position -= 1) {
+      if (session.messages[position].role === "user") return session.messages[position];
+    }
+    return null;
+  }
+
+  function wrongQuestionKindLabel(kind) {
+    return ({
+      term: "词义辨析",
+      rule: "规则",
+      formula: "公式",
+      method: "方法",
+      mistake: "易错点",
+      material_point: "材料要点",
+      argument: "论点论据",
+      fact: "知识事实",
+      other: "知识点"
+    })[kind] || "知识点";
+  }
+
+  function createWrongCandidate(id, titleText, description, checked = false, kind = "") {
+    const label = document.createElement("label");
+    label.className = "solver-wrong-candidate";
+    const input = document.createElement("input");
+    input.type = "checkbox";
+    input.name = "wrong-items";
+    input.value = id;
+    input.checked = checked;
+    const check = document.createElement("span");
+    check.className = "solver-wrong-check";
+    check.innerHTML = '<i data-lucide="check" aria-hidden="true"></i>';
+    const copy = document.createElement("span");
+    copy.className = "solver-wrong-candidate-copy";
+    const title = document.createElement("strong");
+    title.textContent = kind ? `${titleText} · ${wrongQuestionKindLabel(kind)}` : titleText;
+    const summary = document.createElement("span");
+    summary.textContent = description;
+    copy.appendChild(title);
+    if (description) copy.appendChild(summary);
+    label.append(input, check, copy);
+    return label;
+  }
+
+  function createWrongCaptureElement(message) {
+    const capture = document.createElement("section");
+    capture.className = "solver-wrong-capture";
+    capture.dataset.wrongCapture = message.id;
+    const status = message.wrongQuestionStatus || "idle";
+
+    if (status === "analyzing") {
+      const loading = document.createElement("div");
+      loading.className = "solver-wrong-loading";
+      loading.innerHTML = '<i data-lucide="loader-circle" aria-hidden="true"></i><span>正在识别题型与可复习知识…</span>';
+      capture.appendChild(loading);
+      return capture;
+    }
+
+    if (status === "error") {
+      const error = document.createElement("div");
+      error.className = "solver-wrong-error";
+      const copy = document.createElement("span");
+      copy.textContent = message.wrongQuestionError || "未能自动整理错题。";
+      const retry = document.createElement("button");
+      retry.type = "button";
+      retry.dataset.wrongAction = "retry";
+      retry.dataset.messageId = message.id;
+      retry.textContent = "重新识别";
+      error.append(copy, retry);
+      capture.appendChild(error);
+      return capture;
+    }
+
+    if (status !== "ready" || !message.wrongQuestionAnalysis) {
+      capture.hidden = true;
+      return capture;
+    }
+
+    const analysis = message.wrongQuestionAnalysis;
+    const header = document.createElement("div");
+    header.className = "solver-wrong-capture-header";
+    const title = document.createElement("h3");
+    title.className = "solver-wrong-capture-title";
+    title.textContent = "记录这次不会的内容";
+    const type = document.createElement("span");
+    type.className = "solver-wrong-type";
+    type.textContent = [analysis.subjectLabel, analysis.typeLabel].filter(Boolean).join(" · ");
+    header.append(title, type);
+
+    const intro = document.createElement("p");
+    intro.className = "solver-wrong-capture-intro";
+    intro.textContent = "选择需要以后单独复习的内容，也可以补充自己的易错点。";
+    const candidates = document.createElement("div");
+    candidates.className = "solver-wrong-candidates";
+    candidates.appendChild(createWrongCandidate("__whole__", "整道题与解题方法", "保留原题、答案和完整解析"));
+    (analysis.candidates || []).forEach(item => {
+      candidates.appendChild(createWrongCandidate(
+        item.id,
+        item.title,
+        [item.summary, ...(item.details || [])].filter(Boolean).join("；"),
+        false,
+        item.kind
+      ));
+    });
+
+    const custom = document.createElement("label");
+    custom.className = "solver-wrong-custom";
+    const customLabel = document.createElement("span");
+    customLabel.textContent = "自定义补充";
+    const customInput = document.createElement("input");
+    customInput.type = "text";
+    customInput.maxLength = 300;
+    customInput.dataset.wrongCustom = "";
+    customInput.placeholder = "例如：容易忽略转折后的核心句";
+    custom.append(customLabel, customInput);
+
+    const captureStatus = document.createElement("p");
+    captureStatus.className = "solver-wrong-capture-status";
+    captureStatus.setAttribute("role", "status");
+    const actions = document.createElement("div");
+    actions.className = "solver-wrong-capture-actions";
+    const skip = document.createElement("button");
+    skip.type = "button";
+    skip.className = "solver-wrong-skip";
+    skip.dataset.wrongAction = "dismiss";
+    skip.dataset.messageId = message.id;
+    skip.textContent = "稍后记录";
+    const save = document.createElement("button");
+    save.type = "button";
+    save.className = "solver-wrong-save";
+    save.dataset.wrongAction = "save";
+    save.dataset.messageId = message.id;
+    save.disabled = true;
+    save.textContent = "保存到错题本";
+    actions.append(skip, save);
+    capture.append(header, intro, candidates, custom, captureStatus, actions);
+    return capture;
+  }
+
   function createMessageElement(message) {
     const article = document.createElement("article");
     article.className = `solver-message ${message.role}${message.status === "error" ? " error" : ""}`;
@@ -703,6 +853,8 @@
     article.append(heading, reasoning, copy);
 
     if (message.status !== "streaming" && message.text) {
+      const capture = createWrongCaptureElement(message);
+      article.appendChild(capture);
       const footer = document.createElement("div");
       footer.className = "solver-message-footer";
       const copyButton = document.createElement("button");
@@ -713,6 +865,18 @@
       copyButton.setAttribute("aria-label", "复制回答");
       copyButton.innerHTML = '<i data-lucide="copy" aria-hidden="true"></i>';
       footer.appendChild(copyButton);
+      const wrongButton = document.createElement("button");
+      wrongButton.type = "button";
+      wrongButton.className = message.wrongQuestionStatus === "saved" ? "solver-wrong-saved-link" : "solver-wrong-trigger";
+      wrongButton.dataset.messageId = message.id;
+      if (message.wrongQuestionStatus === "saved" && message.wrongQuestionId) {
+        wrongButton.dataset.wrongAction = "open-record";
+        wrongButton.innerHTML = '<i data-lucide="book-check" aria-hidden="true"></i><span>已加入错题本</span>';
+      } else {
+        wrongButton.dataset.wrongAction = "open";
+        wrongButton.innerHTML = '<i data-lucide="bookmark-plus" aria-hidden="true"></i><span>记录错题</span>';
+      }
+      footer.appendChild(wrongButton);
       if (message.status === "stopped") {
         const stopped = document.createElement("span");
         stopped.textContent = "已停止生成";
@@ -751,6 +915,63 @@
     else copy.textContent = "正在分析题目…";
     copy.classList.toggle("solver-stream-cursor", message.status === "streaming");
     scrollToLatest(true);
+  }
+
+  function rerenderAssistantMessage(message, smooth = false) {
+    const article = Array.from(dom.messages.querySelectorAll("[data-message-id]")).find(item => item.dataset.messageId === message.id);
+    if (!article) {
+      renderConversation();
+      return;
+    }
+    article.replaceWith(createMessageElement(message));
+    refreshIcons(dom.messages);
+    if (smooth) scrollToLatest(true);
+  }
+
+  function updateWrongSaveButton(capture) {
+    if (!capture) return;
+    const selected = capture.querySelector('input[name="wrong-items"]:checked');
+    const custom = capture.querySelector("[data-wrong-custom]")?.value.trim();
+    const save = capture.querySelector('[data-wrong-action="save"]');
+    if (save) save.disabled = !selected && !custom;
+  }
+
+  async function analyzeWrongQuestion(session, userMessage, assistantMessage) {
+    if (!window.wrongQuestionBook || !session || !userMessage || !assistantMessage?.text) return;
+    wrongAnalysisControllers.get(assistantMessage.id)?.abort();
+    const controller = new AbortController();
+    wrongAnalysisControllers.set(assistantMessage.id, controller);
+    assistantMessage.wrongQuestionStatus = "analyzing";
+    assistantMessage.wrongQuestionError = "";
+    scheduleSessionSave(session);
+    if (activeSessionId === session.id) rerenderAssistantMessage(assistantMessage, true);
+    try {
+      await window.wrongQuestionBook.ready;
+      const analysis = await window.wrongQuestionBook.analyzeQuestion({
+        apiKey: settings.apiKey,
+        model: settings.model,
+        headers: openRouterHeaders,
+        userMessage,
+        assistantText: assistantMessage.text,
+        signal: controller.signal
+      });
+      if (wrongAnalysisControllers.get(assistantMessage.id) !== controller) return;
+      assistantMessage.wrongQuestionAnalysis = analysis;
+      assistantMessage.wrongQuestionStatus = "ready";
+      assistantMessage.wrongQuestionError = "";
+    } catch (error) {
+      if (error?.name === "AbortError") return;
+      assistantMessage.wrongQuestionStatus = "error";
+      assistantMessage.wrongQuestionError = error?.status === 402
+        ? "错题整理需要额外调用一次模型，当前额度不足。"
+        : "自动整理失败，可以重新识别。";
+    } finally {
+      if (wrongAnalysisControllers.get(assistantMessage.id) === controller) {
+        wrongAnalysisControllers.delete(assistantMessage.id);
+        scheduleSessionSave(session, true);
+        if (activeSessionId === session.id) rerenderAssistantMessage(assistantMessage, true);
+      }
+    }
   }
 
   function scrollToLatest(smooth = false) {
@@ -937,6 +1158,7 @@
     const session = activeSession();
     if (!session) return;
     const sessionMessages = session.messages;
+    let shouldAnalyzeWrongQuestion = false;
     const userMessage = {
       id: `user-${Date.now()}`,
       role: "user",
@@ -963,6 +1185,10 @@
       reasoningEndedAt: 0,
       status: "streaming",
       modelName: currentModelLabel(),
+      wrongQuestionStatus: "idle",
+      wrongQuestionAnalysis: null,
+      wrongQuestionId: "",
+      wrongQuestionError: "",
       createdAt: Date.now()
     };
     sessionMessages.push(assistant);
@@ -1011,6 +1237,7 @@
       });
       if (!assistant.text.trim()) throw new Error("模型没有返回正文内容，请更换模型后重试。");
       assistant.status = "done";
+      shouldAnalyzeWrongQuestion = true;
     } catch (error) {
       if (error?.name === "AbortError") {
         if (assistant.text.trim() || assistant.reasoning.trim()) {
@@ -1038,6 +1265,9 @@
         conversation = sessionMessages;
         renderConversation();
         renderSessionList();
+      }
+      if (shouldAnalyzeWrongQuestion) {
+        window.setTimeout(() => analyzeWrongQuestion(session, userMessage, assistant), 0);
       }
     }
   }
@@ -1089,16 +1319,101 @@
   });
 
   dom.messages.addEventListener("click", async event => {
-    const button = event.target.closest("button[data-copy-message]");
-    if (!button) return;
-    const message = conversation.find(item => item.id === button.dataset.copyMessage);
-    if (!message?.text) return;
-    try {
-      await navigator.clipboard.writeText(message.text);
-      setStatus("回答已复制。", false);
-    } catch {
-      setStatus("复制失败，请长按回答文字复制。", true);
+    const copyButton = event.target.closest("button[data-copy-message]");
+    if (copyButton) {
+      const message = conversation.find(item => item.id === copyButton.dataset.copyMessage);
+      if (!message?.text) return;
+      try {
+        await navigator.clipboard.writeText(message.text);
+        setStatus("回答已复制。", false);
+      } catch {
+        setStatus("复制失败，请长按回答文字复制。", true);
+      }
+      return;
     }
+
+    const button = event.target.closest("button[data-wrong-action]");
+    if (!button) return;
+    const session = activeSession();
+    const message = session?.messages.find(item => item.id === button.dataset.messageId);
+    if (!session || !message) return;
+    const userMessage = wrongQuestionSource(session, message);
+    const action = button.dataset.wrongAction;
+
+    if (action === "open-record") {
+      window.wrongQuestionBook?.open(message.wrongQuestionId);
+      return;
+    }
+    if (action === "open") {
+      if (message.wrongQuestionAnalysis) {
+        message.wrongQuestionStatus = "ready";
+        scheduleSessionSave(session);
+        rerenderAssistantMessage(message, true);
+      } else {
+        analyzeWrongQuestion(session, userMessage, message);
+      }
+      return;
+    }
+    if (action === "retry") {
+      analyzeWrongQuestion(session, userMessage, message);
+      return;
+    }
+    if (action === "dismiss") {
+      message.wrongQuestionStatus = "dismissed";
+      scheduleSessionSave(session);
+      rerenderAssistantMessage(message);
+      return;
+    }
+    if (action !== "save") return;
+
+    const article = event.target.closest(".solver-message");
+    const capture = article?.querySelector("[data-wrong-capture]");
+    const captureStatus = capture?.querySelector(".solver-wrong-capture-status");
+    const selectedIds = Array.from(capture?.querySelectorAll('input[name="wrong-items"]:checked') || []).map(input => input.value);
+    const customText = capture?.querySelector("[data-wrong-custom]")?.value.trim() || "";
+    if (!selectedIds.length && !customText) {
+      if (captureStatus) {
+        captureStatus.textContent = "请至少选择或填写一项需要复习的内容。";
+        captureStatus.classList.add("error");
+      }
+      return;
+    }
+    button.disabled = true;
+    button.textContent = "保存中…";
+    if (captureStatus) {
+      captureStatus.textContent = "";
+      captureStatus.classList.remove("error");
+    }
+    try {
+      const record = await window.wrongQuestionBook.saveFromConversation({
+        sessionId: session.id,
+        userMessage,
+        assistantMessage: message,
+        selectedIds,
+        customText
+      });
+      message.wrongQuestionId = record.id;
+      message.wrongQuestionStatus = "saved";
+      scheduleSessionSave(session, true);
+      rerenderAssistantMessage(message);
+      setStatus("已保存到错题本，今天即可开始复习。", false);
+    } catch (error) {
+      button.disabled = false;
+      button.textContent = "保存到错题本";
+      if (captureStatus) {
+        captureStatus.textContent = error?.message || "错题保存失败，请重试。";
+        captureStatus.classList.add("error");
+      }
+    }
+  });
+
+  dom.messages.addEventListener("input", event => {
+    const capture = event.target.closest("[data-wrong-capture]");
+    if (capture) updateWrongSaveButton(capture);
+  });
+  dom.messages.addEventListener("change", event => {
+    const capture = event.target.closest("[data-wrong-capture]");
+    if (capture) updateWrongSaveButton(capture);
   });
 
   dom.settingsButton.addEventListener("click", () => openSettings());
@@ -1177,7 +1492,23 @@
       scrollToLatest(false);
     }
   });
+  window.addEventListener("wrong-question:deleted", event => {
+    const recordId = event.detail?.record?.id;
+    if (!recordId) return;
+    sessions.forEach(session => {
+      let changed = false;
+      session.messages.forEach(message => {
+        if (message.wrongQuestionId !== recordId) return;
+        message.wrongQuestionId = "";
+        message.wrongQuestionStatus = message.wrongQuestionAnalysis ? "ready" : "idle";
+        changed = true;
+      });
+      if (changed) scheduleSessionSave(session, true);
+    });
+    renderConversation();
+  });
   window.addEventListener("pagehide", () => {
+    wrongAnalysisControllers.forEach(controller => controller.abort());
     const session = activeSession();
     if (session) scheduleSessionSave(session, true);
   });
