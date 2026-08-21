@@ -83343,6 +83343,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "20efe3f01dfc5a",
+          "source": "新华社",
+          "title": "乌克兰首都基辅响起强烈爆炸声",
+          "url": "https://www.news.cn/20260822/3f04249ae16e4aa99a615ce94252ea33/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "26a86b72745208",
           "source": "新华社",
           "title": "乍得中部部族冲突致至少10人死亡",
@@ -83355,6 +83363,14 @@
           "source": "新华社",
           "title": "习近平强党兴党的故事｜“发挥好支部的战斗堡垒作用”",
           "url": "https://www.news.cn/politics/leaders/20260822/d3bdb9e4815449e08686b060005794cf/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3c29a3e7679824",
+          "source": "新华社",
+          "title": "土耳其寻求对内塔尼亚胡发布“红色通缉令”",
+          "url": "https://www.news.cn/20260822/223b8c71ee894503837e8026c3aba208/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83375,6 +83391,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "a42ddf6d1856d1",
+          "source": "新华社",
+          "title": "瑞典校园持剑袭击事件致1死3伤",
+          "url": "https://www.news.cn/20260822/df04168bd1b1471cb145059e818ae92a/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "2db3a188e99908",
           "source": "新华社",
           "title": "美国务院批准对韩出售1.25亿美元“响尾蛇”导弹",
@@ -83387,6 +83411,14 @@
           "source": "新华社",
           "title": "美国最高法院暂时允许白宫宴会厅项目继续进行",
           "url": "https://www.news.cn/20260822/0b7b3dd7343248a8857cf00fb9dac428/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e93eb709746ae9",
+          "source": "新华社",
+          "title": "荷兰对优步网约车公司开出8.25亿欧元罚单",
+          "url": "https://www.news.cn/20260822/620f1f3d1c5041a48b5453b032f2a809/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83407,14 +83439,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "54b4bf0c082f3f",
-          "source": "新华社",
-          "title": "阿根廷足协：将上诉",
-          "url": "https://www.news.cn/sports/20260822/13bb2602bcda439395939271c4db30e0/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
           "id": "de137a45715fe9",
           "source": "新华社",
           "title": "阿根廷足协：将向国际足联上诉委员会上诉",
@@ -83428,65 +83452,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 4.7,
+          "duration": 8.3,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260822.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 34,
-          "duration": 1.3
+          "duration": 1.7
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 11,
-          "duration": 2.6
+          "count": 14,
+          "duration": 2.4
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 22.1
+          "duration": 52.6
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.1
+          "duration": 5.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 1.7
+          "duration": 1.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.9
+          "duration": 14.7
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.4
+          "duration": 3.6
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 7.4
+          "duration": 8.7
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 47.2
+          "duration": 58.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-22T06:31:30+08:00"
+  "generatedAt": "2026-08-22T07:29:05+08:00"
 }
