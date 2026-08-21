@@ -18,6 +18,8 @@ def main():
         "/current-affairs-data.js": ("text/javascript; charset=utf-8", ROOT / "current-affairs-data.js"),
         "/clock.css": ("text/css; charset=utf-8", ROOT / "clock.css"),
         "/clock.js": ("text/javascript; charset=utf-8", ROOT / "clock.js"),
+        "/search.css": ("text/css; charset=utf-8", ROOT / "search.css"),
+        "/search.js": ("text/javascript; charset=utf-8", ROOT / "search.js"),
     }
     route_source = ",\n".join(
         f"  {json.dumps(route)}: {{ type: {json.dumps(content_type)}, body: {javascript_string(path)} }}"
