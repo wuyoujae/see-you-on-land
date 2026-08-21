@@ -82831,7 +82831,662 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 71.8
         }
       ]
+    },
+    {
+      "date": "2026-08-22",
+      "keyword": "教育",
+      "keywords": [
+        {
+          "name": "教育",
+          "count": 2
+        },
+        {
+          "name": "科技",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "b9d35675078322",
+          "source": "人民日报",
+          "title": "广州强化科技创新和产业创新深度融合",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176466.html",
+          "date": "2026-08-22",
+          "keyword": "科技"
+        },
+        {
+          "id": "0a6e6ba3cbd824",
+          "source": "光明日报",
+          "title": "【人民需要这样的教育家㊴】田本娜：在孩子心里“种”汉字",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22977.html",
+          "date": "2026-08-22",
+          "keyword": "教育"
+        },
+        {
+          "id": "378dd8f96b9e03",
+          "source": "光明日报",
+          "title": "教育部部署第42个教师节宣传庆祝工作",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22970.html",
+          "date": "2026-08-22",
+          "keyword": "教育"
+        },
+        {
+          "id": "1c5bd25b842862",
+          "source": "光明日报",
+          "title": "科技馆成暑期出行热门选择",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22974.html",
+          "date": "2026-08-22",
+          "keyword": "科技"
+        },
+        {
+          "id": "871c543e4f6445",
+          "source": "人民日报",
+          "title": "7月全社会用电量创历史新高",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176467.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b598f15ee9e1fe",
+          "source": "人民日报",
+          "title": "РђІСИГтЏйу╗ЈТхјуџёжЪДТђДСИјТ┤╗тіЏ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176469.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "54e83b85f82317",
+          "source": "人民日报",
+          "title": "ТЅјт«ътЂџтЦйтєюСИџжў▓уЂЙтЄЈуЂЙтиЦСйю тЁетіЏС╗ЦУх┤тц║тЈќтЁет╣┤у▓«жБЪСИ░ТћХ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176468.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d6ff00edf54d37",
+          "source": "人民日报",
+          "title": "У┤хтиъСИ╗тіеУъЇтЁЦтЁежЮбт╝ђТћЙТа╝т▒ђ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176474.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8abbcc61c2dc24",
+          "source": "人民日报",
+          "title": "вҖңдәҡеӨӘйқ’е№ҙжұҮВ·иғҪжәҗеҲӣжңӘжқҘвҖқжҙ»еҠЁеңЁж·ұеңідёҫиЎҢ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176486.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "abec3b98295f86",
+          "source": "人民日报",
+          "title": "дёӯеӣҪдјҒдёҡеҠ©еҠӣжӢүзҫҺеӣҪе®¶еҸ‘еұ•дә’иҒ”зҪ‘ж–°дёҡжҖҒ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176477.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6bc1ae0f363eb3",
+          "source": "人民日报",
+          "title": "дёӯеӣҪдәәжқғз ”з©¶дјҡд»ЈиЎЁеӣўи®ҝй—®е°јжіҠе°”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176487.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "033c92a28650cb",
+          "source": "人民日报",
+          "title": "дёӯеӣҪе°ұж·ұеҢ–дәҡеӨӘзІ®йЈҹе®үе…ЁеҗҲдҪңжҸҗеҮәеҖЎи®®",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176484.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5df27e39750f92",
+          "source": "人民日报",
+          "title": "дёӯеӣҪеҚ°е°јеӨ–й•ҝйҳІй•ҝвҖң2+2вҖқеҜ№иҜқжңәеҲ¶дёҫиЎҢз¬¬дәҢж¬ЎйғЁй•ҝзә§дјҡи®®",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176481.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d758f2a019eb42",
+          "source": "人民日报",
+          "title": "дёӯеӣҪеҚ°е°је…ЁйқўжҲҳз•ҘеҜ№иҜқжңәеҲ¶дёҫиЎҢйҰ–ж¬Ўдјҡи®®",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176479.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "272041fc17ca04",
+          "source": "人民日报",
+          "title": "еңЁж’’е“ҲжӢүжІҷжј еӯ•иӮІз»ҝиүІеёҢжңӣпјҲеӣҪйҷ…и®әеқӣпјү",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176478.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "395d8f509d3544",
+          "source": "人民日报",
+          "title": "еӣҫзүҮжҠҘйҒ“",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176480.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "71f84ee6b12ad7",
+          "source": "人民日报",
+          "title": "з§‘еЁҒзү№еӨ–дәӨеӨ§иҮЈжқ°жӢүиө«е°Ҷи®ҝеҚҺ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176483.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "68a391518f478c",
+          "source": "人民日报",
+          "title": "зәҰж—ҰеӣҪзҺӢйҳҝеҚңжқңжӢүдәҢдё–еҗ‘дәәж°‘иӢұйӣ„зәӘеҝөзў‘ж•¬зҢ®иҠұеңҲ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176482.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "861f24bc3a089c",
+          "source": "人民日报",
+          "title": "иҒ”еҗҲеӣҪдәәе·ҘжҷәиғҪдёҺдәәзұ»еҸ‘еұ•е…ЁзҗғеҜ№иҜқеңЁиҘҝе®үдёҫеҠһ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176485.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d70871b1fce880",
+          "source": "人民日报",
+          "title": "сђіт»╣тцќТіЋУхёу«АуљєтіъТ│Ћ№╝ѕС┐«У«бтЙЂТ▒ѓТёЈУДЂуе┐№╝ЅсђІтЈЉтИЃ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176475.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "90a676421d1664",
+          "source": "人民日报",
+          "title": "тЁетЏйСИђУѕгтЁгтЁ▒жбёу«ЌТћХтЁЦтЅЇ7Тюѕт╣│уе│УЙЃт┐ФтбъжЋ┐",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176472.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eee8f7e58e9539",
+          "source": "人民日报",
+          "title": "тЏЙуЅЄТіЦжЂЊ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176473.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f7ad30c35246a1",
+          "source": "人民日报",
+          "title": "тіат┐Фт╗║У«ЙУХ│уљЃжЮњУ«ГСйЊу│╗ ТЈљтЇЄуФъТіђСйЊУѓ▓тљјтцЄС║║ТЅЇтЪ╣тЁ╗Т░┤т╣│",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176470.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9967bd247d8662",
+          "source": "人民日报",
+          "title": "тљЅТъЌТъёт╗║СйЊуј░Тюгтю░уЅ╣УЅ▓уј░С╗БтїќС║ДСИџСйЊу│╗",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176476.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4ff891fb27241c",
+          "source": "人民日报",
+          "title": "уюЪжЄЉуЎйжЊХТіЋтЙЌТЏ┤т«ъ Тћ┐уГќСИЙТјфУљйтЙЌТЏ┤тЄє№╝ѕТЮЃтеЂтЈЉтИЃ┬ит╝ђт▒ђУхиТГЦРђютЇЂС║ћС║ћРђЮ№╝Ѕ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176471.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cf09be6503f9d6",
+          "source": "人民日报",
+          "title": "今年第19号台风生成",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176492.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "da528be959d18e",
+          "source": "人民日报",
+          "title": "以工作的确定性应对自然灾害的不确定性（人民论坛）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176490.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7e6adbb1bc1a83",
+          "source": "人民日报",
+          "title": "全国人大常委会法工委通报拟审议的法律草案情况",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176489.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "93961413526ce0",
+          "source": "人民日报",
+          "title": "吉林构建体现本地特色现代化产业体系",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176460.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a52b9861ea72d0",
+          "source": "人民日报",
+          "title": "守护自然资源 建设美丽中国（权威发布）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176488.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "54e02bb24a1dca",
+          "source": "人民日报",
+          "title": "我国早稻产量连续6年稳定在560亿斤以上",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176464.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f527b466a32503",
+          "source": "人民日报",
+          "title": "我国自研新一代深水多功能海洋工程船完工交付",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176491.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b4a9653816e07c",
+          "source": "人民日报",
+          "title": "暑运迎来返程高峰",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176465.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "42adeab41a6f27",
+          "source": "人民日报",
+          "title": "有效扩大国内需求",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176461.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "696a8df576fdfe",
+          "source": "人民日报",
+          "title": "李强主持召开国务院常务会议",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176462.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ac698d74e388b2",
+          "source": "人民日报",
+          "title": "贵州主动融入全面开放格局",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176459.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a6875227862ed3",
+          "source": "人民日报",
+          "title": "赵乐际会见约旦国王阿卜杜拉二世",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/22/content_30176463.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3f4903fa096378",
+          "source": "光明日报",
+          "title": "2026年全国早稻产量565.8亿斤",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22962.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ead515e9a8e196",
+          "source": "光明日报",
+          "title": "2026年全国职工原创诗歌征集活动启动",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22971.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "45c4e1f74fb845",
+          "source": "光明日报",
+          "title": "7月全社会用电量创月度历史新高",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22963.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b6ff5d77a64528",
+          "source": "光明日报",
+          "title": "“京铁燕赵班列·交投冀闽号”首发",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22964.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2582c8d9c06789",
+          "source": "光明日报",
+          "title": "《产业工人队伍建设改革蓝皮书》发布",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22988.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ce20e9ee890dc8",
+          "source": "光明日报",
+          "title": "【大美中国】山清水秀",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22979.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "156ff3f532a754",
+          "source": "光明日报",
+          "title": "【晒晒咱的镇馆之宝64】一幅题词手卷寄藏革命情",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22981.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "69dd140a88d56a",
+          "source": "光明日报",
+          "title": "【民生总关情】爱心洗衣坊",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22980.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "355ca2f6e55660",
+          "source": "光明日报",
+          "title": "从“三北”到世界：我国防沙治沙的实践与担当",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22978.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1e620fe6c3d034",
+          "source": "光明日报",
+          "title": "壶口瀑布气势磅礴",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22968.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "077eedd45ff879",
+          "source": "光明日报",
+          "title": "处暑近 农事忙",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22992.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "923722d887fdf1",
+          "source": "光明日报",
+          "title": "守住文化根脉 架起民心桥梁",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22989.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b2b893ba53b774",
+          "source": "光明日报",
+          "title": "心肌毛细血管可修建心脏应急通道",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22973.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4c34011d1cf072",
+          "source": "光明日报",
+          "title": "护好群众看病钱救命钱",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22987.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a000ca4b67d4cb",
+          "source": "光明日报",
+          "title": "攻坚克难，只为山河添锦绣",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22965.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "22a9e9da5fa436",
+          "source": "光明日报",
+          "title": "文学作桥 山海相逢",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22975.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9207e63d12a4dc",
+          "source": "光明日报",
+          "title": "李强主持召开国务院常务会议",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22985.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7fac17c3b2af51",
+          "source": "光明日报",
+          "title": "积极财政政策有力支撑高质量发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22961.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6c43cc511e2460",
+          "source": "光明日报",
+          "title": "第34届广州博览会第十二届国际发明展览会同期开幕",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22966.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f6a6d8e4561eff",
+          "source": "光明日报",
+          "title": "第八届昆明美术双年展举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22972.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d15ca1f6d1d3fd",
+          "source": "光明日报",
+          "title": "赵乐际会见约旦国王阿卜杜拉二世",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22986.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "83872bd7ea453a",
+          "source": "光明日报",
+          "title": "陕西绥德：一顿饭里的民生温度",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22991.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "837fd430bce22b",
+          "source": "光明日报",
+          "title": "高灵敏室温“悬磁仪”研制成功",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22969.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "822d9b1dad195b",
+          "source": "光明日报",
+          "title": "黑河东居延海实现连续22年不干涸",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22967.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "491afc82426664",
+          "source": "新华社",
+          "title": "乌克兰一购物中心遭无人机袭击 至少15人死亡",
+          "url": "https://www.news.cn/20260822/2f644557ef37477a979dc52c601da57f/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "26a86b72745208",
+          "source": "新华社",
+          "title": "乍得中部部族冲突致至少10人死亡",
+          "url": "https://www.news.cn/20260822/41127a69524f4a72bc5634bc40eaf470/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1e058757eec7cd",
+          "source": "新华社",
+          "title": "习近平强党兴党的故事｜“发挥好支部的战斗堡垒作用”",
+          "url": "https://www.news.cn/politics/leaders/20260822/d3bdb9e4815449e08686b060005794cf/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "db988edce87ff9",
+          "source": "新华社",
+          "title": "安理会举行联合国秘书长遴选第二轮意向性投票",
+          "url": "https://www.news.cn/20260822/adc020ee934c47408c9aff28f1a83e42/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "568d035d342001",
+          "source": "新华社",
+          "title": "我国考古机构将首次走进南美洲开展联合考古",
+          "url": "https://www.news.cn/20260822/7fcb7f3a4e02455d819eccfed633b23f/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2db3a188e99908",
+          "source": "新华社",
+          "title": "美国务院批准对韩出售1.25亿美元“响尾蛇”导弹",
+          "url": "https://www.news.cn/20260822/fead00a298af4441a1894de747f32c9e/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cea34b2999344d",
+          "source": "新华社",
+          "title": "美国最高法院暂时允许白宫宴会厅项目继续进行",
+          "url": "https://www.news.cn/20260822/0b7b3dd7343248a8857cf00fb9dac428/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3aad6e880b2d6c",
+          "source": "新华社",
+          "title": "近120个品牌集结 成都国际车展释放消费新动能",
+          "url": "https://www.news.cn/20260822/371a25db07bd4678b0c69177dfec98ce/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eb9c82d78e0c18",
+          "source": "新华社",
+          "title": "阿巴斯呼吁以色列停止并取消“E1区”定居点招标",
+          "url": "https://www.news.cn/20260822/0ff4223b99c14610815ccb64a919cafd/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "54b4bf0c082f3f",
+          "source": "新华社",
+          "title": "阿根廷足协：将上诉",
+          "url": "https://www.news.cn/sports/20260822/13bb2602bcda439395939271c4db30e0/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "de137a45715fe9",
+          "source": "新华社",
+          "title": "阿根廷足协：将向国际足联上诉委员会上诉",
+          "url": "https://www.news.cn/20260822/99422841f2ea4de8841ef65927b9f793/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 4.7,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260822.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "ok",
+          "count": 34,
+          "duration": 1.3
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 11,
+          "duration": 2.6
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 22.1
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.1
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 27,
+          "duration": 1.7
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.9
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.4
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 7.4
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 47.2
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-08-21T23:28:11+08:00"
+  "generatedAt": "2026-08-22T06:31:30+08:00"
 };
