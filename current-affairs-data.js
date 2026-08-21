@@ -80756,15 +80756,15 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-08-21",
-      "keyword": "消费",
+      "keyword": "高质量发展",
       "keywords": [
         {
-          "name": "消费",
+          "name": "高质量发展",
           "count": 3
         },
         {
-          "name": "高质量发展",
-          "count": 2
+          "name": "消费",
+          "count": 3
         },
         {
           "name": "习近平",
@@ -80785,6 +80785,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "消费"
         },
         {
+          "id": "7115b6d07bb2e0",
+          "source": "人民日报",
+          "title": "苏州以科技创新驱动高质量发展",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/21/content_30176297.html",
+          "date": "2026-08-21",
+          "keyword": "高质量发展"
+        },
+        {
           "id": "d6241f3840ec24",
           "source": "光明日报",
           "title": "【光明时评】县域消费正成扩内需强劲引擎",
@@ -80799,6 +80807,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/21/content_22922.html",
           "date": "2026-08-21",
           "keyword": "消费"
+        },
+        {
+          "id": "9c7c933de15ec0",
+          "source": "光明日报",
+          "title": "推动“十五五”时期工会工作高质量发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/21/content_22932.html",
+          "date": "2026-08-21",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "76f295fa672eb1",
+          "source": "求是",
+          "title": "强化理论思维 推动哲学社会科学高质量发展",
+          "url": "https://www.qstheory.cn/20260821/020ed53bd14b4e9d871951d06e9dfb4f/c.html",
+          "date": "2026-08-21",
+          "keyword": "高质量发展"
         },
         {
           "id": "a205d09da5b31d",
@@ -80817,28 +80841,12 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
-          "id": "7115b6d07bb2e0",
-          "source": "人民日报",
-          "title": "苏州以科技创新驱动高质量发展",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/21/content_30176297.html",
-          "date": "2026-08-21",
-          "keyword": "高质量发展"
-        },
-        {
           "id": "2197026dfd8e9f",
           "source": "光明日报",
           "title": "习近平致电祝贺希奇莱马当选连任赞比亚总统",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/21/content_22937.html",
           "date": "2026-08-21",
           "keyword": "习近平"
-        },
-        {
-          "id": "9c7c933de15ec0",
-          "source": "光明日报",
-          "title": "推动“十五五”时期工会工作高质量发展",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/21/content_22932.html",
-          "date": "2026-08-21",
-          "keyword": "高质量发展"
         },
         {
           "id": "9e3b848aa71927",
@@ -81249,14 +81257,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "db212b4b7f2dce",
-          "source": "新华社",
-          "title": "《给阿嬷的情书》在缅甸首映",
-          "url": "https://www.news.cn/20260821/9318f73fad094f75839162c83a3e2ea5/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
           "id": "44b46a33f2ddc8",
           "source": "新华社",
           "title": "七国敦促以色列撤回“E1区”定居点建设计划",
@@ -81265,10 +81265,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "52e96c15e483fc",
+          "id": "a0f72031554abc",
           "source": "新华社",
-          "title": "中国集装箱船首次成功抵俄摩尔曼斯克港",
-          "url": "https://www.news.cn/world/20260821/2198fdbbd0684564b90208c479bd6137/c.html",
+          "title": "中国与瑞士宣布完成自贸协定升级谈判",
+          "url": "https://www.news.cn/world/20260821/dc098618915e4f178ca8c60cdddd4eeb/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bc94c72fa763a0",
+          "source": "新华社",
+          "title": "中国茶饮品牌拓展国际市场 外国人爱上“中国茶”",
+          "url": "https://www.news.cn/fortune/20260821/cf22b06577044226a4493ef9c3700a8b/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -81305,10 +81313,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "72017d923f02e0",
+          "source": "新华社",
+          "title": "传统项目“火热” 新兴运动“破圈” 让运动陪伴暑假",
+          "url": "https://education.news.cn/20260821/331fcd313a7749b4a7126b2405988d82/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "45d07875c81fa1",
           "source": "新华社",
           "title": "俄罗斯：日本应全面承认二战结果 停止美化侵略历史",
           "url": "https://www.news.cn/20260821/b0da67917f474d44a7bf580b418dd767/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4bd4b0d7ac125d",
+          "source": "新华社",
+          "title": "兴隆湖泄洪后下游“大鱼随便捡”？ 提醒：勿涉险下水",
+          "url": "https://www.news.cn/20260821/e9b94e3f6c1b4bf292641fbd57cb0ba8/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -81353,10 +81377,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "11319321e7fb11",
+          "source": "新华社",
+          "title": "第七届全国少数民族文艺会演参演剧目《英歌》在京上演",
+          "url": "https://www.news.cn/culture/20260821/932cd7fea0a74d1f9ae58ad9555e21a7/c.html?page=1",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "db12acd4462526",
           "source": "新华社",
           "title": "美国决定批准对卡塔尔45亿美元军售",
           "url": "https://www.news.cn/20260821/f1989548f13045e180c0ccc91df7ef90/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "88f7d64aa11261",
+          "source": "新华社",
+          "title": "美国纽约州一女子涉嫌策划袭击州议会大厦被捕",
+          "url": "https://www.news.cn/20260821/ec7ad41f7c094ffaa3c1a660ac87baae/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -81367,6 +81407,54 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/20260821/9f3babae0018480682c5147e350d6d5e/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
+        },
+        {
+          "id": "689888662a10a8",
+          "source": "新华社",
+          "title": "进一步满足人民群众多元安居需求",
+          "url": "https://www.news.cn/politics/20260821/b5f097254bb040d0a5f4deacf6ded4a3/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "563c9f4736892b",
+          "source": "新华社",
+          "title": "避暑游市场“清凉游”升温 供给多元、需求旺盛",
+          "url": "https://www.news.cn/20260821/b2f7067b785a4b4582f8a9e1372609d3/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "202ef7de6389ed",
+          "source": "求是",
+          "title": "准确把握生态环境法典的基本精神和实践要求",
+          "url": "https://www.qstheory.cn/20260821/36fd1024465541cab75c140a79f4e8ac/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9682b2897efd0d",
+          "source": "求是",
+          "title": "坚持以党的政治建设为统领",
+          "url": "https://www.qstheory.cn/20260821/17bb3807b63e4923a292eb1f14c3134e/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a6e2038cb4f424",
+          "source": "求是",
+          "title": "如何提升灾害治理能力和水平",
+          "url": "https://www.qstheory.cn/20260821/3936fc790353476aa530800bf56e1847/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5690d5bfe7c497",
+          "source": "求是",
+          "title": "开创新时代我国工运事业和工会工作新局面",
+          "url": "https://www.qstheory.cn/20260821/5a43231dcb73437f808a24b8112eb215/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -81374,65 +81462,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.5,
+          "duration": 11.8,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260821.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 32,
-          "duration": 2.4
+          "duration": 2.9
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 16,
-          "duration": 4.6
+          "count": 22,
+          "duration": 2.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 34.0
+          "duration": 13.2
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 5.7
+          "count": 5,
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 26,
-          "duration": 2.2
+          "duration": 2.1
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.5
+          "duration": 12.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.8
+          "duration": 2.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.5
+          "duration": 7.3
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 63.4
+          "duration": 49.9
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-21T07:30:18+08:00"
+  "generatedAt": "2026-08-21T08:56:55+08:00"
 };
