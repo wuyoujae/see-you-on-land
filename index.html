@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#ffffff">
   <title>暑假时政学习清单</title>
   <link rel="stylesheet" href="clock.css?v=20260815-2">
-  <link rel="stylesheet" href="search.css?v=20260821-3">
+  <link rel="stylesheet" href="search.css?v=20260821-4">
   <style>
     :root {
       --bg: #ffffff;
@@ -1236,12 +1236,10 @@
       </section>
     </main>
 
-    <main id="view-search" class="view search-view" aria-labelledby="solver-title">
+    <main id="view-search" class="view search-view" aria-label="拍题搜题">
       <header class="solver-header">
         <div>
-          <p class="eyebrow">VISUAL SOLVER</p>
-          <h1 id="solver-title">拍题搜题</h1>
-          <button type="button" class="solver-session-switch" id="open-solver-sessions" aria-label="切换对话">
+          <button type="button" class="solver-session-switch" id="open-solver-sessions" aria-label="切换对话" aria-haspopup="dialog" aria-controls="solver-sessions-modal" title="切换对话">
             <i data-lucide="messages-square" aria-hidden="true"></i>
             <span id="solver-current-session">新对话</span>
             <i data-lucide="chevron-down" aria-hidden="true"></i>
