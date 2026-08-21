@@ -6,6 +6,7 @@
   <meta name="theme-color" content="#ffffff">
   <title>暑假时政学习清单</title>
   <link rel="stylesheet" href="clock.css?v=20260815-2">
+  <link rel="stylesheet" href="search.css?v=20260821-1">
   <style>
     :root {
       --bg: #ffffff;
@@ -695,7 +696,7 @@
       height: calc(var(--nav-height) + env(safe-area-inset-bottom));
       padding-bottom: env(safe-area-inset-bottom);
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(6, 1fr);
       background: rgba(255, 255, 255, 0.96);
       backdrop-filter: blur(16px);
       border-top: 1px solid var(--line);
@@ -1235,6 +1236,54 @@
       </section>
     </main>
 
+    <main id="view-search" class="view search-view" aria-labelledby="solver-title">
+      <header class="solver-header">
+        <div>
+          <p class="eyebrow">VISUAL SOLVER</p>
+          <h1 id="solver-title">拍题搜题</h1>
+        </div>
+        <button type="button" class="icon-button solver-settings-button" id="open-solver-settings" title="搜题设置" aria-label="打开搜题设置">
+          <i data-lucide="settings-2" aria-hidden="true"></i>
+          <span class="solver-settings-dot" id="solver-settings-dot" aria-hidden="true"></span>
+        </button>
+      </header>
+
+      <section class="solver-workspace" id="solver-workspace">
+        <div class="solver-welcome" id="solver-welcome">
+          <span class="solver-mark" aria-hidden="true"><i data-lucide="scan-search"></i></span>
+          <h2>这道题，我们一起拆开。</h2>
+          <p>拍下题目，或从相册上传图片。</p>
+        </div>
+        <div class="solver-messages" id="solver-messages" role="log" aria-live="polite" hidden></div>
+      </section>
+
+      <form class="solver-composer" id="solver-composer">
+        <div class="solver-image-preview" id="solver-image-preview" aria-label="待发送图片" hidden></div>
+        <textarea id="solver-prompt" rows="1" maxlength="6000" placeholder="输入问题，或先拍下题目…" aria-label="搜题问题"></textarea>
+        <div class="solver-composer-actions">
+          <div class="solver-media-actions">
+            <button type="button" class="solver-icon-button" id="solver-camera" title="拍照" aria-label="拍照">
+              <i data-lucide="camera" aria-hidden="true"></i>
+            </button>
+            <button type="button" class="solver-icon-button" id="solver-upload" title="从本地上传图片" aria-label="从本地上传图片">
+              <i data-lucide="image-up" aria-hidden="true"></i>
+            </button>
+          </div>
+          <button type="button" class="solver-model-button" id="solver-model-button" aria-label="选择搜题模型">
+            <i data-lucide="bot" aria-hidden="true"></i>
+            <span id="solver-model-label">配置模型</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </button>
+          <button type="submit" class="solver-send-button" id="solver-send" title="发送" aria-label="发送问题">
+            <i data-lucide="arrow-up" aria-hidden="true"></i>
+          </button>
+        </div>
+        <p class="solver-status" id="solver-status" role="status" aria-live="polite" hidden></p>
+        <input type="file" id="solver-camera-input" accept="image/png,image/jpeg,image/webp,image/gif" capture="environment" hidden>
+        <input type="file" id="solver-upload-input" accept="image/png,image/jpeg,image/webp,image/gif" multiple hidden>
+      </form>
+    </main>
+
     <nav class="tab-bar" aria-label="主导航">
       <button type="button" class="tab-item active" data-tab="dashboard" aria-selected="true">
         <span class="tab-icon"><i data-lucide="layout-dashboard" aria-hidden="true"></i></span>
@@ -1243,6 +1292,10 @@
       <button type="button" class="tab-item" data-tab="list" aria-selected="false">
         <span class="tab-icon"><i data-lucide="layout-grid" aria-hidden="true"></i></span>
         <span>清单</span>
+      </button>
+      <button type="button" class="tab-item" data-tab="search" aria-selected="false">
+        <span class="tab-icon"><i data-lucide="scan-search" aria-hidden="true"></i></span>
+        <span>搜题</span>
       </button>
       <button type="button" class="tab-item" data-tab="news" aria-selected="false">
         <span class="tab-icon"><i data-lucide="newspaper" aria-hidden="true"></i></span>
@@ -1296,6 +1349,49 @@
             <button type="button" class="delete-record-button" id="delete-study-record">删除记录</button>
             <button type="submit" class="save-record-button">保存修改</button>
           </div>
+        </form>
+      </section>
+    </div>
+
+    <div class="solver-settings-modal" id="solver-settings-modal" hidden>
+      <div class="solver-settings-backdrop" data-close-solver-settings></div>
+      <section class="solver-settings-dialog" role="dialog" aria-modal="true" aria-labelledby="solver-settings-title">
+        <header class="solver-settings-header">
+          <div>
+            <p class="eyebrow">OPENROUTER</p>
+            <h2 id="solver-settings-title">搜题设置</h2>
+          </div>
+          <button type="button" class="icon-button" data-close-solver-settings aria-label="关闭搜题设置"><i data-lucide="x" aria-hidden="true"></i></button>
+        </header>
+        <form id="solver-settings-form">
+          <label class="solver-settings-field">
+            <span>API Key</span>
+            <span class="solver-secret-field">
+              <input type="password" id="solver-api-key" autocomplete="off" spellcheck="false" placeholder="sk-or-v1-…" required>
+              <button type="button" id="toggle-solver-api-key" title="显示 API Key" aria-label="显示 API Key"><i data-lucide="eye" aria-hidden="true"></i></button>
+            </span>
+          </label>
+          <p class="solver-settings-note">密钥仅保存在当前浏览器，不会写入网站备份。<a href="https://openrouter.ai/settings/keys" target="_blank" rel="noopener noreferrer">获取 API Key</a></p>
+          <label class="solver-settings-field">
+            <span>多模态模型</span>
+            <select id="solver-model-select" required>
+              <option value="google/gemini-3.6-flash">Google · Gemini 3.6 Flash</option>
+              <option value="openai/gpt-5.6-luna">OpenAI · GPT-5.6 Luna</option>
+              <option value="anthropic/claude-sonnet-5">Anthropic · Claude Sonnet 5</option>
+              <option value="google/gemini-2.5-flash-lite">Google · Gemini 2.5 Flash Lite</option>
+              <option value="__custom__">其他模型 ID</option>
+            </select>
+          </label>
+          <label class="solver-settings-field" id="solver-custom-model-wrap" hidden>
+            <span>模型 ID</span>
+            <input type="text" id="solver-custom-model" maxlength="120" autocomplete="off" spellcheck="false" placeholder="例如 google/gemini-3.6-flash">
+          </label>
+          <p class="solver-settings-status" id="solver-settings-status" role="status" aria-live="polite"></p>
+          <div class="solver-settings-actions">
+            <button type="button" class="solver-test-button" id="test-solver-connection">测试连接</button>
+            <button type="submit" class="solver-save-button">保存设置</button>
+          </div>
+          <button type="button" class="solver-clear-button" id="clear-solver-chat"><i data-lucide="trash-2" aria-hidden="true"></i><span>清空当前对话</span></button>
         </form>
       </section>
     </div>
@@ -1678,6 +1774,7 @@
         if (tab === "list") renderCategoryGrid();
         if (tab === "news") renderNews();
         refreshIcons();
+        window.dispatchEvent(new CustomEvent("summer-politics:tabchange", { detail: { tab } }));
       }
 
       document.querySelectorAll(".tab-item").forEach(button => {
@@ -1756,5 +1853,6 @@
   </script>
   <script src="clock.js?v=20260815-2"></script>
   <script src="backup.js?v=20260815-1"></script>
+  <script src="search.js?v=20260821-1"></script>
 </body>
 </html>
