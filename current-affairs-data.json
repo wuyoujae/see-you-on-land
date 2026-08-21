@@ -80767,12 +80767,12 @@
           "count": 8
         },
         {
-          "name": "十五五",
+          "name": "机器人",
           "count": 8
         },
         {
-          "name": "机器人",
-          "count": 8
+          "name": "十五五",
+          "count": 7
         },
         {
           "name": "消费",
@@ -80929,22 +80929,6 @@
           "keyword": "机器人"
         },
         {
-          "id": "a7f9a51aa7b54a",
-          "source": "学习强国",
-          "title": "全国总工会：团结动员亿万职工为推进“十五五”规划实施作贡献",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=15322270806399295361&item_id=15322270806399295361",
-          "date": "2026-08-21",
-          "keyword": "十五五"
-        },
-        {
-          "id": "99c9621ee86b19",
-          "source": "学习强国",
-          "title": "财政部：“十五五”时期我国将建设更为强大稳固的财政",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=3449400561001201555&item_id=3449400561001201555",
-          "date": "2026-08-21",
-          "keyword": "十五五"
-        },
-        {
           "id": "b0bec3deb7f1d7",
           "source": "广东发布",
           "title": "全省高等教育高质量发展座谈会召开 坚持扎根中国大地办大学 把我省高等教育事业办得更好水平更高 黄坤明主持并讲话 孟凡利出席",
@@ -80959,14 +80943,6 @@
           "url": "https://www.news.cn/photo/20260821/d7c1c57fc78d4fe89e926c879c19cfac/c.html",
           "date": "2026-08-21",
           "keyword": "机器人"
-        },
-        {
-          "id": "80bef3442e28c6",
-          "source": "新华社",
-          "title": "“十五五”我国将全力构建现代气候业务体系",
-          "url": "https://www.news.cn/politics/20260821/7287f14c4b684202bdab44a8714bed74/c.html",
-          "date": "2026-08-21",
-          "keyword": "十五五"
         },
         {
           "id": "d9126760ad6b43",
@@ -80985,28 +80961,12 @@
           "keyword": "高质量发展"
         },
         {
-          "id": "a848b629c3e35b",
-          "source": "新华社",
-          "title": "财政部介绍“十五五”财政改革发展有关情况",
-          "url": "https://www.news.cn/fortune/20260821/a7468813494d4d85b8604f23fd52cbf4/c.html",
-          "date": "2026-08-21",
-          "keyword": "十五五"
-        },
-        {
           "id": "a1aac293aa4735",
           "source": "求是",
           "title": "从“炫技”到“实干”，机器人走向更多真实场景",
           "url": "https://www.qstheory.cn/20260821/809b592449da4126984804ff5b1ae997/c.html",
           "date": "2026-08-21",
           "keyword": "机器人"
-        },
-        {
-          "id": "0ca6a464091026",
-          "source": "求是",
-          "title": "全总就《中国工运事业和工会工作“十五五”规划》答问",
-          "url": "https://www.qstheory.cn/20260821/9959db7fd50848489c62769c7bef8405/c.html",
-          "date": "2026-08-21",
-          "keyword": "十五五"
         },
         {
           "id": "76f295fa672eb1",
@@ -81023,6 +80983,38 @@
           "url": "https://www.qstheory.cn/20260821/148c1369e21b4008bb9d964bdf0ef5ed/c.html",
           "date": "2026-08-21",
           "keyword": "机器人"
+        },
+        {
+          "id": "a7f9a51aa7b54a",
+          "source": "学习强国",
+          "title": "全国总工会：团结动员亿万职工为推进“十五五”规划实施作贡献",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=15322270806399295361&item_id=15322270806399295361",
+          "date": "2026-08-21",
+          "keyword": "十五五"
+        },
+        {
+          "id": "99c9621ee86b19",
+          "source": "学习强国",
+          "title": "财政部：“十五五”时期我国将建设更为强大稳固的财政",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=3449400561001201555&item_id=3449400561001201555",
+          "date": "2026-08-21",
+          "keyword": "十五五"
+        },
+        {
+          "id": "a848b629c3e35b",
+          "source": "新华社",
+          "title": "财政部介绍“十五五”财政改革发展有关情况",
+          "url": "https://www.news.cn/fortune/20260821/a7468813494d4d85b8604f23fd52cbf4/c.html",
+          "date": "2026-08-21",
+          "keyword": "十五五"
+        },
+        {
+          "id": "0ca6a464091026",
+          "source": "求是",
+          "title": "全总就《中国工运事业和工会工作“十五五”规划》答问",
+          "url": "https://www.qstheory.cn/20260821/9959db7fd50848489c62769c7bef8405/c.html",
+          "date": "2026-08-21",
+          "keyword": "十五五"
         },
         {
           "id": "844686d5145914",
@@ -82169,6 +82161,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "12415ae5108d2a",
+          "source": "新华社",
+          "title": "5个年轻人在国新办发布厅讲述守护绿水青山的故事",
+          "url": "https://www.news.cn/politics/20260821/4199caefe2024adb951ba7bbe11e4d9f/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "0d072806b44860",
           "source": "新华社",
           "title": "69名泰国涉华业务公职人员即将启程福建学习中文",
@@ -82321,6 +82321,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "e2904b6336672e",
+          "source": "新华社",
+          "title": "台湾旅游展秋季展登场 潮玩成为两岸文旅交流新节点",
+          "url": "https://www.news.cn/20260821/d8ca15001f6d43e5ad5ca16c8eb1597b/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "7bbc851858ac7c",
           "source": "新华社",
           "title": "国家科教基础设施IP-SAFE项目主体装置成功出束",
@@ -82333,6 +82341,14 @@
           "source": "新华社",
           "title": "在德出生的第二对大熊猫双胞胎迎来两岁生日",
           "url": "https://www.news.cn/world/20260821/a2f6ad109c7247cb9ff747f1e859beaa/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "820f6bd5e343fb",
+          "source": "新华社",
+          "title": "坚守民族大义 共谋复兴伟业——2026年两岸关系研讨会综述",
+          "url": "https://www.news.cn/20260821/5e3a3d69e73d4951b16b47ba8e3eac57/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82401,14 +82417,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "c80f4687ebafdd",
-          "source": "新华社",
-          "title": "德国近四分之一企业面临技工短缺",
-          "url": "https://www.news.cn/20260821/993efdbd958f41c28fa94c586206e0ee/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
           "id": "80ce2979bb67a4",
           "source": "新华社",
           "title": "我不是大牌色，我是中国传统色",
@@ -82437,6 +82445,14 @@
           "source": "新华社",
           "title": "挪威积极筹备以主宾国身份参加今年服贸会",
           "url": "https://www.news.cn/20260821/b2a79eb4989442ca955efc8e7d365a5b/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "465984d5f60f91",
+          "source": "新华社",
+          "title": "日本八丈岛东部海域发生5.5级地震 东京有震感",
+          "url": "https://www.news.cn/20260821/d75103b3b6dd4061ba29c93d5037f9c7/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82477,14 +82493,6 @@
           "source": "新华社",
           "title": "破瓶颈 强联动 质量强链“成绩单”公布",
           "url": "https://www.news.cn/fortune/20260821/2b4e6956bca04224ab1c14584dddcb96/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "ddd6d71e709610",
-          "source": "新华社",
-          "title": "秘鲁国宝与明十三陵珍宝在首博“同框”",
-          "url": "https://www.news.cn/20260821/78f87df9e0fd4df98c006f99e411b603/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82531,16 +82539,8 @@
         {
           "id": "45d62659e5c565",
           "source": "新华社",
-          "title": "翻开福建先民“生活日记”",
+          "title": "翻开福建先民的“生活日记”",
           "url": "https://www.news.cn/local/20260821/3a7a989bc73b435bba36e407e6a44f16/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "ae20c218850aa1",
-          "source": "新华社",
-          "title": "英国气象局预测今年将迎最强厄尔尼诺",
-          "url": "https://www.news.cn/20260821/d9550e95bcff49189fcae98d70d42536/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82774,64 +82774,64 @@
           "source": "新闻联播",
           "status": "ok",
           "count": 13,
-          "duration": 0.3
+          "duration": 4.2
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 32,
-          "duration": 2.0
+          "duration": 1.6
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.3
+          "duration": 3.7
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 23,
-          "duration": 34.7
+          "duration": 28.7
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 18,
-          "duration": 5.8
+          "duration": 6.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 26,
-          "duration": 6.7
+          "duration": 1.9
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 16.1
+          "duration": 14.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 3.4
+          "duration": 3.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 4,
-          "duration": 8.8
+          "duration": 9.8
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 11,
-          "duration": 60.1
+          "duration": 71.8
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-21T22:29:52+08:00"
+  "generatedAt": "2026-08-21T23:28:11+08:00"
 }
