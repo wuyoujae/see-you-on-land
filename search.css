@@ -20,26 +20,24 @@
   z-index: 2;
 }
 
-.solver-header > div:first-child { min-width: 0; }
-
-.solver-header h1 {
-  margin: 0;
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 1.2;
-}
+.solver-header > div:first-child { flex: 1 1 auto; min-width: 0; }
 
 .solver-session-switch {
-  max-width: min(62vw, 320px);
+  max-width: min(72vw, 560px);
+  min-height: 44px;
   display: flex;
   align-items: center;
-  gap: 6px;
-  margin-top: 8px;
-  padding: 0;
+  gap: 10px;
+  margin: 0;
+  padding: 4px 0;
   border: 0;
   background: transparent;
-  color: var(--muted);
-  font-size: 13px;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: left;
   cursor: pointer;
 }
 
@@ -52,9 +50,12 @@
 
 .solver-session-switch .lucide {
   flex: 0 0 auto;
-  width: 15px;
-  height: 15px;
+  width: 21px;
+  height: 21px;
+  color: var(--muted);
 }
+
+.solver-session-switch .lucide:last-child { width: 18px; height: 18px; }
 
 .solver-settings-button {
   position: relative;

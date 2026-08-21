@@ -1,0 +1,534 @@
+{
+  "version": "2026.08",
+  "scope": "2026国考公共科目、2026广东省考公共科目，以及广东行政执法和公安专业科目",
+  "basis": [
+    {
+      "title": "中央机关及其直属机构2026年度考试录用公务员公共科目笔试考试大纲",
+      "url": "https://www.forestry.gov.cn/c/www/gsgg/645383.jhtml"
+    },
+    {
+      "title": "广东省2026年考试录用公务员公告及笔试大纲附件",
+      "url": "https://www.pjq.gov.cn/zwgk/rsxx/zlxx/content/post_3530390.html"
+    }
+  ],
+  "notes": [
+    "官方大纲规定科目和测查能力；下列细分题型与记录字段是为错题产品设计形成的稳定分类。",
+    "国考判断推理包含图形推理、定义判断、类比推理、逻辑判断；广东省考包含图形推理、逻辑判断、科学推理。",
+    "面试、体能测评和个别招录机关另行组织的专业能力测试不属于本题库范围。"
+  ],
+  "commonRecordFields": [
+    "原题图片与文字",
+    "考试范围与来源",
+    "科目、题型和子题型",
+    "用户答案与正确答案",
+    "错误原因：知识盲区、方法错误、审题错误、计算错误、时间不足或猜测",
+    "AI解析与用户补充",
+    "难度、标签、创建时间和复习状态"
+  ],
+  "subjects": [
+    {
+      "id": "political_theory",
+      "label": "政治理论",
+      "types": [
+        {
+          "id": "theory_concept",
+          "label": "理论概念与基本原理",
+          "recordUnit": "一个概念、原理或立场观点方法",
+          "recordFields": ["规范表述", "核心关键词", "适用情境", "易混概念", "错误选项改正", "权威出处"]
+        },
+        {
+          "id": "important_statement",
+          "label": "重要论断与原文出处",
+          "recordUnit": "一句重要论断",
+          "recordFields": ["完整原文", "讲话人", "会议或文件", "时间", "上下文主题", "高频挖空词"]
+        },
+        {
+          "id": "policy_strategy",
+          "label": "方针政策与战略部署",
+          "recordUnit": "一项政策、战略或任务",
+          "recordFields": ["目标", "原则", "重点任务", "适用范围", "时间节点", "政策来源", "易错表述"]
+        },
+        {
+          "id": "meeting_document",
+          "label": "重要会议与文件",
+          "recordUnit": "一次会议或一份文件",
+          "recordFields": ["名称", "届次与时间", "主题", "主要决定", "新提法", "历史定位", "关联文件"]
+        },
+        {
+          "id": "policy_application",
+          "label": "理论政策案例应用",
+          "recordUnit": "案例与理论知识点的对应关系",
+          "recordFields": ["案例特征", "对应理论或政策", "判断链条", "适用条件", "反例", "错误选项原因"]
+        }
+      ]
+    },
+    {
+      "id": "general_knowledge",
+      "label": "常识判断/常识应用",
+      "types": [
+        {
+          "id": "law",
+          "label": "法律常识",
+          "recordUnit": "一条法律规则或一个法律概念",
+          "recordFields": ["法律名称与条文", "主体", "适用条件", "程序与期限", "法律后果", "例外", "生效或修订时间"]
+        },
+        {
+          "id": "economy_finance",
+          "label": "经济与金融常识",
+          "recordUnit": "一个经济概念、指标或政策工具",
+          "recordFields": ["定义", "作用机制", "影响方向", "适用场景", "相近概念", "典型指标或公式"]
+        },
+        {
+          "id": "history_party_history",
+          "label": "历史与党史",
+          "recordUnit": "一个人物、事件、制度或时间节点",
+          "recordFields": ["时间", "人物", "地点", "事件经过", "意义", "前后事件", "易混对应"]
+        },
+        {
+          "id": "culture_literature",
+          "label": "人文、文学与传统文化",
+          "recordUnit": "一项作品、作者、典故、制度或文化知识",
+          "recordFields": ["名称", "作者或时代", "内容与出处", "文化含义", "关联人物事件", "易混项"]
+        },
+        {
+          "id": "geography_national",
+          "label": "地理、国情与资源",
+          "recordUnit": "一个区域、地理规律或国情事实",
+          "recordFields": ["空间位置", "形成原因", "主要特征", "分布规律", "资源与产业", "地图定位", "易混区域"]
+        },
+        {
+          "id": "ecology_society",
+          "label": "生态、社会与公共管理",
+          "recordUnit": "一个生态规律、社会制度或治理概念",
+          "recordFields": ["定义", "主体职责", "运行机制", "政策目标", "典型案例", "边界与例外"]
+        },
+        {
+          "id": "science_life",
+          "label": "科技与生活常识",
+          "recordUnit": "一个科学原理、技术或生活现象",
+          "recordFields": ["原理", "条件", "现象与结果", "应用", "安全注意", "常见误区"]
+        }
+      ]
+    },
+    {
+      "id": "verbal",
+      "label": "言语理解与表达",
+      "types": [
+        {
+          "id": "word_fill_content_word",
+          "label": "选词填空-实词辨析",
+          "recordUnit": "题目中的每个候选实词",
+          "recordFields": ["词义", "语义侧重点", "适用对象", "固定搭配", "感情色彩", "语体色彩", "近义词差异", "例句"]
+        },
+        {
+          "id": "word_fill_idiom",
+          "label": "选词填空-成语与惯用语",
+          "recordUnit": "题目中的每个候选成语或惯用语",
+          "recordFields": ["完整释义", "出处或典故", "适用对象", "褒贬色彩", "使用条件", "易错用法", "近义成语", "例句"]
+        },
+        {
+          "id": "word_fill_function_word",
+          "label": "选词填空-关联词与虚词",
+          "recordUnit": "一组关联词或虚词用法",
+          "recordFields": ["逻辑关系", "固定搭配", "前后分句要求", "语序位置", "易混关联词", "原文线索"]
+        },
+        {
+          "id": "main_idea",
+          "label": "片段阅读-主旨概括",
+          "recordUnit": "一种文段结构和对应主旨",
+          "recordFields": ["主题词", "中心句", "文段结构", "重点位置", "正确概括", "干扰项类型"]
+        },
+        {
+          "id": "intention",
+          "label": "片段阅读-意图判断",
+          "recordUnit": "作者的问题、观点或对策意图",
+          "recordFields": ["核心问题", "作者观点", "意图层级", "对策来源", "合理引申边界", "干扰项原因"]
+        },
+        {
+          "id": "detail",
+          "label": "片段阅读-细节判断",
+          "recordUnit": "一个原文信息与选项的对应关系",
+          "recordFields": ["原文定位", "选项改写", "偷换概念", "范围变化", "时态或语气变化", "无中生有信息"]
+        },
+        {
+          "id": "sentence_understanding",
+          "label": "片段阅读-词句理解与指代",
+          "recordUnit": "一个指定词句或指代对象",
+          "recordFields": ["上下文含义", "指代对象", "关键词拆解", "修辞或语境", "表层与深层含义", "错误理解"]
+        },
+        {
+          "id": "attitude_inference",
+          "label": "片段阅读-态度、推断与下文",
+          "recordUnit": "作者态度或由文本支持的推断",
+          "recordFields": ["态度词", "证据句", "推断链", "下文衔接点", "推断边界", "过度推断项"]
+        },
+        {
+          "id": "title",
+          "label": "片段阅读-标题选择",
+          "recordUnit": "材料主题与标题拟定规则",
+          "recordFields": ["核心话题", "中心观点", "材料体裁", "标题范围", "表达风格", "干扰标题缺陷"]
+        },
+        {
+          "id": "sentence_fill",
+          "label": "语句表达-语句填空",
+          "recordUnit": "空缺位置承担的语篇功能",
+          "recordFields": ["前后话题", "逻辑关系", "指代对应", "句式照应", "过渡或总结功能", "正确衔接句"]
+        },
+        {
+          "id": "sentence_order",
+          "label": "语句表达-语句排序",
+          "recordUnit": "一组可复用的排序线索",
+          "recordFields": ["首句特征", "指代捆绑", "关联词捆绑", "时间或空间顺序", "话题推进", "尾句特征", "最终顺序"]
+        },
+        {
+          "id": "long_passage",
+          "label": "篇章阅读",
+          "recordUnit": "篇章结构或一道子题的方法",
+          "recordFields": ["全文主题", "段落功能", "结构图", "关键信息位置", "子题类型", "定位线索", "跨段关系"]
+        }
+      ]
+    },
+    {
+      "id": "quantitative",
+      "label": "数量关系",
+      "types": [
+        {
+          "id": "sequence_basic",
+          "label": "数字推理-基础数列",
+          "recordUnit": "一条数列规律",
+          "recordFields": ["数列特征", "差或比", "规律表达式", "适用识别信号", "验证过程", "下一项"]
+        },
+        {
+          "id": "sequence_composite",
+          "label": "数字推理-多级、递推与组合数列",
+          "recordUnit": "一条复合数列规律",
+          "recordFields": ["分组方式", "层级变换", "递推关系", "特殊数字", "验证过程", "易误判规律"]
+        },
+        {
+          "id": "equation",
+          "label": "数学运算-方程与不定方程",
+          "recordUnit": "一个数量关系模型",
+          "recordFields": ["变量定义", "等量关系", "方程", "整数或范围约束", "代入技巧", "答案验证"]
+        },
+        {
+          "id": "engineering",
+          "label": "数学运算-工程问题",
+          "recordUnit": "一种工程效率模型",
+          "recordFields": ["工作总量设定", "效率关系", "合作阶段", "核心公式", "快速赋值", "易错时间段"]
+        },
+        {
+          "id": "journey",
+          "label": "数学运算-行程问题",
+          "recordUnit": "一种行程模型",
+          "recordFields": ["路程速度时间关系", "相遇或追及", "分段过程", "比例关系", "图示", "单位换算"]
+        },
+        {
+          "id": "proportion_mixture",
+          "label": "数学运算-比例、浓度与平均数",
+          "recordUnit": "一种比例或混合模型",
+          "recordFields": ["基准量", "比例关系", "十字交叉或加权", "变化前后", "核心公式", "单位"]
+        },
+        {
+          "id": "economics",
+          "label": "数学运算-经济利润",
+          "recordUnit": "一种成本、售价、利润模型",
+          "recordFields": ["成本", "标价与售价", "折扣", "利润与利润率", "总量关系", "促销条件"]
+        },
+        {
+          "id": "count_probability",
+          "label": "数学运算-排列组合与概率",
+          "recordUnit": "一种计数或概率模型",
+          "recordFields": ["事件定义", "分类或分步", "限制条件", "组合公式", "总情况与有利情况", "重复或遗漏检查"]
+        },
+        {
+          "id": "geometry",
+          "label": "数学运算-几何问题",
+          "recordUnit": "一个几何性质或公式",
+          "recordFields": ["图形", "已知条件", "长度面积体积公式", "相似或比例", "辅助线", "空间展开", "单位"]
+        },
+        {
+          "id": "number_theory",
+          "label": "数学运算-数论与整除余数",
+          "recordUnit": "一个整除、余数或周期规律",
+          "recordFields": ["整除特征", "余数关系", "最小公倍数或最大公约数", "周期", "奇偶质合", "范围约束"]
+        },
+        {
+          "id": "sets_extreme",
+          "label": "数学运算-集合、容斥与最值",
+          "recordUnit": "一种集合或最不利模型",
+          "recordFields": ["集合定义", "容斥公式", "重复计数", "最不利原则", "边界条件", "画图方法"]
+        },
+        {
+          "id": "arrangement_misc",
+          "label": "数学运算-排列、年龄、日期与其他",
+          "recordUnit": "一种场景化数学模型",
+          "recordFields": ["场景类型", "对象与约束", "周期或年龄差", "排列规则", "公式或枚举法", "答案验证"]
+        }
+      ]
+    },
+    {
+      "id": "judgment_reasoning",
+      "label": "判断推理",
+      "types": [
+        {
+          "id": "graphic_position",
+          "label": "图形推理-位置与运动",
+          "recordUnit": "一条平移、旋转或翻转规律",
+          "recordFields": ["移动元素", "方向", "步长", "旋转角度", "翻转轴", "循环周期", "规律图示"]
+        },
+        {
+          "id": "graphic_attribute",
+          "label": "图形推理-属性与样式",
+          "recordUnit": "一个图形属性规律",
+          "recordFields": ["对称性", "曲直属性", "开闭性", "凹凸性", "黑白或阴影", "属性变化"]
+        },
+        {
+          "id": "graphic_count",
+          "label": "图形推理-数量规律",
+          "recordUnit": "一个可计数元素与运算规律",
+          "recordFields": ["点线面角素", "计数口径", "数量序列", "加减同异运算", "特殊交点", "验证"]
+        },
+        {
+          "id": "graphic_structure",
+          "label": "图形推理-结构、连接与拓扑",
+          "recordUnit": "一个结构或连接规律",
+          "recordFields": ["部分关系", "连接方式", "遍历路径", "内外相交", "公共部分", "拓扑不变量"]
+        },
+        {
+          "id": "graphic_operation",
+          "label": "图形推理-叠加与运算",
+          "recordUnit": "一条图形运算规则",
+          "recordFields": ["对应位置", "同异规则", "去同存异", "颜色运算", "叠加顺序", "运算表"]
+        },
+        {
+          "id": "graphic_spatial",
+          "label": "图形推理-空间重构与截面",
+          "recordUnit": "一个空间对应关系",
+          "recordFields": ["相邻与相对面", "公共边点", "旋转方向", "展开图路径", "截面形成条件", "错误选项冲突"]
+        },
+        {
+          "id": "definition",
+          "label": "定义判断",
+          "recordUnit": "一个定义及其必要要件",
+          "recordFields": ["定义原文", "主体", "客体", "行为", "条件", "目的或结果", "排除项", "正反例"]
+        },
+        {
+          "id": "analogy",
+          "label": "类比推理",
+          "recordUnit": "一组词项间关系",
+          "recordFields": ["一级关系", "二级关系", "词性与语法", "前后顺序", "必然或或然", "对应造句", "易混关系"]
+        },
+        {
+          "id": "logic_translation",
+          "label": "逻辑判断-翻译推理",
+          "recordUnit": "一条逻辑命题与推导规则",
+          "recordFields": ["条件翻译", "充分必要关系", "逆否命题", "且或规则", "真假关系", "推导链"]
+        },
+        {
+          "id": "logic_arrangement",
+          "label": "逻辑判断-分析推理",
+          "recordUnit": "一组对象约束及排布方法",
+          "recordFields": ["对象", "硬约束", "软约束", "表格或连线", "突破口", "排除过程", "唯一解"]
+        },
+        {
+          "id": "logic_strengthen_weaken",
+          "label": "逻辑判断-加强与削弱",
+          "recordUnit": "一条论证链及选项作用",
+          "recordFields": ["论点", "论据", "论证方式", "逻辑缺口", "加强或削弱类型", "力度比较", "无关项原因"]
+        },
+        {
+          "id": "logic_assumption",
+          "label": "逻辑判断-前提与假设",
+          "recordUnit": "论证成立所需的一项必要联系",
+          "recordFields": ["论点", "论据", "缺失联系", "必要性验证", "否定代入结果", "错误前提"]
+        },
+        {
+          "id": "logic_explain_evaluate",
+          "label": "逻辑判断-解释、评价与结论",
+          "recordUnit": "一个待解释现象或论证评价点",
+          "recordFields": ["矛盾现象", "解释机制", "评价标准", "可推出结论", "信息充分性", "选项作用"]
+        },
+        {
+          "id": "science_physics",
+          "label": "科学推理-物理",
+          "recordUnit": "一个物理模型、定律或公式",
+          "recordFields": ["研究对象", "受力或过程图", "已知条件", "定律或公式", "方向与单位", "结论", "常见误区"]
+        },
+        {
+          "id": "science_chemistry",
+          "label": "科学推理-化学",
+          "recordUnit": "一个化学性质、反应或实验规则",
+          "recordFields": ["物质", "反应条件", "现象", "产物", "方程式或守恒", "实验安全", "易混性质"]
+        },
+        {
+          "id": "science_biology",
+          "label": "科学推理-生物",
+          "recordUnit": "一个生命过程或生物规律",
+          "recordFields": ["对象层级", "结构与功能", "过程条件", "因果机制", "遗传或生态关系", "反例"]
+        },
+        {
+          "id": "science_experiment",
+          "label": "科学推理-实验与图表",
+          "recordUnit": "一个实验设计或数据结论",
+          "recordFields": ["实验目的", "自变量", "因变量", "控制变量", "对照组", "图表趋势", "结论边界", "误差来源"]
+        }
+      ]
+    },
+    {
+      "id": "data_analysis",
+      "label": "资料分析",
+      "types": [
+        {
+          "id": "reading_comparison",
+          "label": "直接查找、排序与比较",
+          "recordUnit": "一项统计口径和定位方法",
+          "recordFields": ["指标名称", "时间", "地区或对象", "单位", "统计口径", "定位位置", "比较基准"]
+        },
+        {
+          "id": "growth",
+          "label": "基期、现期、增长量与增长率",
+          "recordUnit": "一个增长关系模型",
+          "recordFields": ["现期量", "基期量", "增长量", "增长率", "核心公式", "速算方法", "正负号"]
+        },
+        {
+          "id": "proportion",
+          "label": "比重与比重变化",
+          "recordUnit": "一个部分与总体关系",
+          "recordFields": ["部分量", "总体量", "现期比重", "基期比重", "变化方向", "百分点", "两期比重公式"]
+        },
+        {
+          "id": "average",
+          "label": "平均数与平均数变化",
+          "recordUnit": "一个总量与份数关系",
+          "recordFields": ["总量", "份数", "平均数", "两期变化", "增长率比较", "加权口径"]
+        },
+        {
+          "id": "multiple_ratio",
+          "label": "倍数、比值与差额",
+          "recordUnit": "两个指标的数量关系",
+          "recordFields": ["比较对象", "被比较对象", "倍数或比值", "多几倍与是几倍", "差额", "单位统一"]
+        },
+        {
+          "id": "contribution_cagr",
+          "label": "贡献率、拉动增长与年均增长",
+          "recordUnit": "一个复合增长指标",
+          "recordFields": ["指标定义", "分子分母", "基期口径", "核心公式", "年份间隔", "近似方法"]
+        },
+        {
+          "id": "mixed_population",
+          "label": "混合增长与十字交叉",
+          "recordUnit": "两个部分合成总体的关系",
+          "recordFields": ["总体增长率", "部分增长率", "部分基期量", "十字交叉", "混合方向", "比例结果"]
+        },
+        {
+          "id": "comprehensive",
+          "label": "综合判断",
+          "recordUnit": "一个选项的验证过程",
+          "recordFields": ["选项结论", "所需数据", "判断或计算方法", "估算阈值", "单位与口径", "验证结果", "优先验证顺序"]
+        }
+      ]
+    },
+    {
+      "id": "essay",
+      "label": "申论",
+      "types": [
+        {
+          "id": "summary",
+          "label": "归纳概括",
+          "recordUnit": "一个材料要点或分类标准",
+          "recordFields": ["作答对象", "材料定位", "关键词", "规范概括词", "分类维度", "遗漏要点", "字数压缩表达"]
+        },
+        {
+          "id": "analysis",
+          "label": "综合分析",
+          "recordUnit": "一句话、观点、现象或关系的分析框架",
+          "recordFields": ["解释对象", "核心观点", "原因", "影响", "关系或评价", "结论与对策", "材料依据"]
+        },
+        {
+          "id": "countermeasure",
+          "label": "提出对策",
+          "recordUnit": "一个问题与对应对策",
+          "recordFields": ["问题表现", "原因", "责任主体", "措施", "实施方式", "保障机制", "可行性", "材料来源"]
+        },
+        {
+          "id": "implementation",
+          "label": "贯彻执行与应用文",
+          "recordUnit": "一种文种或一项执行任务",
+          "recordFields": ["身份", "对象", "目的", "文种", "格式", "正文结构", "语气", "材料要点", "字数要求"]
+        },
+        {
+          "id": "essay_writing",
+          "label": "申发论述/大作文",
+          "recordUnit": "一个中心论点、分论点或论据",
+          "recordFields": ["主题", "立意", "标题", "中心论点", "分论点", "材料论据", "政策理论", "案例", "结构", "问题段落修改"]
+        }
+      ]
+    },
+    {
+      "id": "administrative_enforcement",
+      "label": "行政执法专业",
+      "types": [
+        {
+          "id": "legal_rule",
+          "label": "法律基础与执法依据",
+          "recordUnit": "一条行政执法法律规则",
+          "recordFields": ["法律名称与条文", "执法主体", "适用条件", "权限", "程序", "期限", "法律后果", "救济渠道"]
+        },
+        {
+          "id": "procedure_case",
+          "label": "执法程序与案例判断",
+          "recordUnit": "一个案件节点及合法性判断",
+          "recordFields": ["事实", "行为性质", "管辖", "证据", "程序节点", "裁量条件", "决定", "违法点"]
+        },
+        {
+          "id": "statement_choice",
+          "label": "判断、单选与多选",
+          "recordUnit": "一个选项对应的独立规则",
+          "recordFields": ["选项原文", "正误", "错误字词", "规范改写", "依据条文", "适用例外"]
+        },
+        {
+          "id": "enforcement_essay",
+          "label": "行政执法申论",
+          "recordUnit": "一个依法办事或公共服务方案",
+          "recordFields": ["公众需求", "执法目标", "法律依据", "处置步骤", "沟通方式", "服务措施", "风险与复盘"]
+        }
+      ]
+    },
+    {
+      "id": "police_professional",
+      "label": "公安专业",
+      "types": [
+        {
+          "id": "professional_quality",
+          "label": "职业素养",
+          "recordUnit": "一项政治素质、职业道德或纪律要求",
+          "recordFields": ["规范要求", "行为边界", "禁止事项", "适用情境", "依据", "错误做法"]
+        },
+        {
+          "id": "law_police_basics",
+          "label": "法律与公安基础知识",
+          "recordUnit": "一条法律规则或公安工作知识",
+          "recordFields": ["概念", "法律依据", "主体与职权", "条件与程序", "期限", "监督方式", "历史或政策沿革"]
+        },
+        {
+          "id": "practical_ability",
+          "label": "群众、行政、信息与实务工作",
+          "recordUnit": "一种公安工作方法",
+          "recordFields": ["任务目标", "信息线索", "工作对象", "沟通协调", "调查研判", "规范步骤", "风险点"]
+        },
+        {
+          "id": "emergency_scenario",
+          "label": "应急处置与情境题",
+          "recordUnit": "一个情境节点的处置决策",
+          "recordFields": ["事态判断", "法律依据", "处置优先级", "现场措施", "信息上报", "协同主体", "善后恢复", "错误处置"]
+        },
+        {
+          "id": "police_essay",
+          "label": "公安申论",
+          "recordUnit": "一个行政管理或依法处置方案",
+          "recordFields": ["事实与风险", "信息收集", "行政目标", "法律程序", "处置方案", "舆情或群众沟通", "复盘改进"]
+        }
+      ]
+    }
+  ]
+}
