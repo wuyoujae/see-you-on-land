@@ -80776,7 +80776,7 @@
         },
         {
           "name": "人工智能",
-          "count": 3
+          "count": 2
         },
         {
           "name": "经济",
@@ -80889,14 +80889,6 @@
           "keyword": "消费"
         },
         {
-          "id": "71422313091c7d",
-          "source": "人民日报",
-          "title": "​交通需求与人工智能技术加速对接（政策解读）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/21/content_30176300.html",
-          "date": "2026-08-21",
-          "keyword": "人工智能"
-        },
-        {
           "id": "7115b6d07bb2e0",
           "source": "人民日报",
           "title": "苏州以科技创新驱动高质量发展",
@@ -80913,28 +80905,20 @@
           "keyword": "高质量发展"
         },
         {
-          "id": "7962c9010d2e91",
-          "source": "新华社",
-          "title": "交通运输领域人工智能加快落地应用",
-          "url": "https://www.news.cn/tech/20260821/1004ff49908b4f16a2f4116f91040191/c.html",
-          "date": "2026-08-21",
-          "keyword": "人工智能"
-        },
-        {
-          "id": "01f0d25388cd66",
-          "source": "新华社",
-          "title": "首批41个典型场景启动建设 “人工智能+交通运输”加速落地",
-          "url": "https://www.news.cn/tech/20260821/d8fe479b19324a99aa0a2d871b600859/c.html",
-          "date": "2026-08-21",
-          "keyword": "人工智能"
-        },
-        {
           "id": "76f295fa672eb1",
           "source": "求是",
           "title": "强化理论思维 推动哲学社会科学高质量发展",
           "url": "https://www.qstheory.cn/20260821/020ed53bd14b4e9d871951d06e9dfb4f/c.html",
           "date": "2026-08-21",
           "keyword": "高质量发展"
+        },
+        {
+          "id": "71422313091c7d",
+          "source": "人民日报",
+          "title": "​交通需求与人工智能技术加速对接（政策解读）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/21/content_30176300.html",
+          "date": "2026-08-21",
+          "keyword": "人工智能"
         },
         {
           "id": "ab5f9cb80b99c1",
@@ -80951,6 +80935,14 @@
           "url": "http://www.banyuetan.org/jrt/detail/20260821/1000200033134991787275101954314425_1.html",
           "date": "2026-08-21",
           "keyword": "经济"
+        },
+        {
+          "id": "7962c9010d2e91",
+          "source": "新华社",
+          "title": "交通运输领域人工智能加快落地应用",
+          "url": "https://www.news.cn/tech/20260821/1004ff49908b4f16a2f4116f91040191/c.html",
+          "date": "2026-08-21",
+          "keyword": "人工智能"
         },
         {
           "id": "48e163c2f39d5e",
@@ -81633,6 +81625,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "f6b2f54c7ca941",
+          "source": "新华社",
+          "title": "乌蒙山区的暑期托管，让儿童假期有“趣”处",
+          "url": "https://education.news.cn/20260821/dde2db05200f4b64b7dd148467e08835/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "672ba140eb4e28",
           "source": "新华社",
           "title": "人民币市场汇价（8月21日）",
@@ -81645,14 +81645,6 @@
           "source": "新华社",
           "title": "优化完善财政金融协同促内需政策",
           "url": "https://www.news.cn/fortune/20260821/371e089b16b546558224cc07139731e5/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "72017d923f02e0",
-          "source": "新华社",
-          "title": "传统项目“火热” 新兴运动“破圈” 让运动陪伴暑假",
-          "url": "https://education.news.cn/20260821/331fcd313a7749b4a7126b2405988d82/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -81693,6 +81685,14 @@
           "source": "新华社",
           "title": "古巴谴责美国对古新一轮制裁",
           "url": "https://www.news.cn/world/20260821/003f2cc8d04f473a953e0ecf498e3bdf/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "44fbcff933a971",
+          "source": "新华社",
+          "title": "台风“美莎克”致广西南宁贵港159人遇难10人失联 两地全面转入灾后恢复重建阶段",
+          "url": "https://www.news.cn/20260821/da3bdd0ad47148c4a61d809ea0f9e9ab/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -81913,6 +81913,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "0ae90f7109739a",
+          "source": "新华社",
+          "title": "谌贻琴在北京市调研：加快建设足球青训体系",
+          "url": "https://www.news.cn/sports/20260821/68898ce2fb114add94f2aa75b5714c69/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d6bcb43543a638",
           "source": "新华社",
           "title": "跳水世青赛将在克罗地亚开赛 中国队六名小将参赛",
@@ -81925,14 +81933,6 @@
           "source": "新华社",
           "title": "这里的老外不见外",
           "url": "https://www.news.cn/20260821/0d8369dec3fa4adf9fb7faa1cb4cb460/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "4e0f7c2d927e62",
-          "source": "新华社",
-          "title": "适度运动可以治疗腰痛",
-          "url": "https://www.news.cn/sci-tech/20260821/96b8f86b56154d488dc871cc358e575c/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82006,65 +82006,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 11.9,
+          "duration": 8.8,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260821.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 32,
-          "duration": 1.4
+          "duration": 2.6
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.0
+          "duration": 2.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 17,
-          "duration": 23.9
+          "duration": 18.4
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 8,
-          "duration": 5.9
+          "duration": 5.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.0
+          "duration": 4.3
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.4
+          "duration": 13.9
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 8,
-          "duration": 3.1
+          "duration": 2.8
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.2
+          "duration": 16.3
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 128.6
+          "duration": 54.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-21T11:47:27+08:00"
+  "generatedAt": "2026-08-21T12:33:13+08:00"
 }
