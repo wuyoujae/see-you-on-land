@@ -80760,11 +80760,7 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "经济",
-          "count": 10
-        },
-        {
-          "name": "机器人",
-          "count": 9
+          "count": 11
         },
         {
           "name": "高质量发展",
@@ -80772,11 +80768,15 @@ window.CURRENT_AFFAIRS_DATA = {
         },
         {
           "name": "十五五",
-          "count": 7
+          "count": 8
+        },
+        {
+          "name": "机器人",
+          "count": 8
         },
         {
           "name": "消费",
-          "count": 5
+          "count": 6
         },
         {
           "name": "人工智能",
@@ -80841,6 +80841,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
+          "id": "804716b67fa4d6",
+          "source": "新华社",
+          "title": "暑期经济“热”力足 消费释放新动能",
+          "url": "https://www.news.cn/fortune/20260821/3186b5cc42e94e18b2dfb6fb9ca09db0/c.html",
+          "date": "2026-08-21",
+          "keyword": "经济"
+        },
+        {
           "id": "eb25befc2bcc2d",
           "source": "新闻联播",
           "title": "【“十五五”开好局起好步】积极财政政策助推经济社会高质量发展",
@@ -80871,6 +80879,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://tv.cctv.com/2026/08/21/VIDEmNJiGk3n1BGKNWUfxRGE260821.shtml",
           "date": "2026-08-21",
           "keyword": "经济"
+        },
+        {
+          "id": "7115b6d07bb2e0",
+          "source": "人民日报",
+          "title": "苏州以科技创新驱动高质量发展",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/21/content_30176297.html",
+          "date": "2026-08-21",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "9c7c933de15ec0",
+          "source": "光明日报",
+          "title": "推动“十五五”时期工会工作高质量发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/21/content_22932.html",
+          "date": "2026-08-21",
+          "keyword": "高质量发展"
         },
         {
           "id": "63b286925815de",
@@ -80905,86 +80929,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "机器人"
         },
         {
-          "id": "245055c57e291f",
-          "source": "新华社",
-          "title": "2026世界机器人大会丨人机共生：看机器人点亮未来生活",
-          "url": "https://www.news.cn/photo/20260821/d7c1c57fc78d4fe89e926c879c19cfac/c.html",
-          "date": "2026-08-21",
-          "keyword": "机器人"
-        },
-        {
-          "id": "d9126760ad6b43",
-          "source": "新华社",
-          "title": "世界机器人大会丨机器人“上班族”都能做哪些工作？",
-          "url": "https://www.news.cn/tech/20260821/e7ba0768b098420684a165dbfdd8b71a/c.html",
-          "date": "2026-08-21",
-          "keyword": "机器人"
-        },
-        {
-          "id": "2a63fdf50e3889",
-          "source": "新华社",
-          "title": "第二届世界人形机器人运动会丨比跑步跳舞，更要比“干活”",
-          "url": "https://www.news.cn/tech/20260821/11f2ebaa5b0341b3b957f31bef793f48/c.html",
-          "date": "2026-08-21",
-          "keyword": "机器人"
-        },
-        {
-          "id": "a1aac293aa4735",
-          "source": "求是",
-          "title": "从“炫技”到“实干”，机器人走向更多真实场景",
-          "url": "https://www.qstheory.cn/20260821/809b592449da4126984804ff5b1ae997/c.html",
-          "date": "2026-08-21",
-          "keyword": "机器人"
-        },
-        {
-          "id": "43543cde9d78a6",
-          "source": "求是",
-          "title": "技术突破、市场领跑——中国机器人产业蓬勃发展",
-          "url": "https://www.qstheory.cn/20260821/148c1369e21b4008bb9d964bdf0ef5ed/c.html",
-          "date": "2026-08-21",
-          "keyword": "机器人"
-        },
-        {
-          "id": "7115b6d07bb2e0",
-          "source": "人民日报",
-          "title": "苏州以科技创新驱动高质量发展",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/21/content_30176297.html",
-          "date": "2026-08-21",
-          "keyword": "高质量发展"
-        },
-        {
-          "id": "9c7c933de15ec0",
-          "source": "光明日报",
-          "title": "推动“十五五”时期工会工作高质量发展",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/21/content_22932.html",
-          "date": "2026-08-21",
-          "keyword": "高质量发展"
-        },
-        {
-          "id": "b0bec3deb7f1d7",
-          "source": "广东发布",
-          "title": "全省高等教育高质量发展座谈会召开 坚持扎根中国大地办大学 把我省高等教育事业办得更好水平更高 黄坤明主持并讲话 孟凡利出席",
-          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4945564.html",
-          "date": "2026-08-21",
-          "keyword": "高质量发展"
-        },
-        {
-          "id": "1597b421a872ef",
-          "source": "新华社",
-          "title": "促进网信企业高质量发展五年行动计划发布",
-          "url": "https://www.news.cn/politics/20260821/05473be5f53843a397b128c16a648ec9/c.html",
-          "date": "2026-08-21",
-          "keyword": "高质量发展"
-        },
-        {
-          "id": "76f295fa672eb1",
-          "source": "求是",
-          "title": "强化理论思维 推动哲学社会科学高质量发展",
-          "url": "https://www.qstheory.cn/20260821/020ed53bd14b4e9d871951d06e9dfb4f/c.html",
-          "date": "2026-08-21",
-          "keyword": "高质量发展"
-        },
-        {
           "id": "a7f9a51aa7b54a",
           "source": "学习强国",
           "title": "全国总工会：团结动员亿万职工为推进“十五五”规划实施作贡献",
@@ -81001,6 +80945,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "十五五"
         },
         {
+          "id": "b0bec3deb7f1d7",
+          "source": "广东发布",
+          "title": "全省高等教育高质量发展座谈会召开 坚持扎根中国大地办大学 把我省高等教育事业办得更好水平更高 黄坤明主持并讲话 孟凡利出席",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4945564.html",
+          "date": "2026-08-21",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "245055c57e291f",
+          "source": "新华社",
+          "title": "2026世界机器人大会丨人机共生：看机器人点亮未来生活",
+          "url": "https://www.news.cn/photo/20260821/d7c1c57fc78d4fe89e926c879c19cfac/c.html",
+          "date": "2026-08-21",
+          "keyword": "机器人"
+        },
+        {
           "id": "80bef3442e28c6",
           "source": "新华社",
           "title": "“十五五”我国将全力构建现代气候业务体系",
@@ -81009,12 +80969,60 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "十五五"
         },
         {
+          "id": "d9126760ad6b43",
+          "source": "新华社",
+          "title": "世界机器人大会丨机器人“上班族”都能做哪些工作？",
+          "url": "https://www.news.cn/tech/20260821/e7ba0768b098420684a165dbfdd8b71a/c.html",
+          "date": "2026-08-21",
+          "keyword": "机器人"
+        },
+        {
+          "id": "1597b421a872ef",
+          "source": "新华社",
+          "title": "促进网信企业高质量发展五年行动计划发布",
+          "url": "https://www.news.cn/politics/20260821/05473be5f53843a397b128c16a648ec9/c.html",
+          "date": "2026-08-21",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "a848b629c3e35b",
+          "source": "新华社",
+          "title": "财政部介绍“十五五”财政改革发展有关情况",
+          "url": "https://www.news.cn/fortune/20260821/a7468813494d4d85b8604f23fd52cbf4/c.html",
+          "date": "2026-08-21",
+          "keyword": "十五五"
+        },
+        {
+          "id": "a1aac293aa4735",
+          "source": "求是",
+          "title": "从“炫技”到“实干”，机器人走向更多真实场景",
+          "url": "https://www.qstheory.cn/20260821/809b592449da4126984804ff5b1ae997/c.html",
+          "date": "2026-08-21",
+          "keyword": "机器人"
+        },
+        {
           "id": "0ca6a464091026",
           "source": "求是",
           "title": "全总就《中国工运事业和工会工作“十五五”规划》答问",
           "url": "https://www.qstheory.cn/20260821/9959db7fd50848489c62769c7bef8405/c.html",
           "date": "2026-08-21",
           "keyword": "十五五"
+        },
+        {
+          "id": "76f295fa672eb1",
+          "source": "求是",
+          "title": "强化理论思维 推动哲学社会科学高质量发展",
+          "url": "https://www.qstheory.cn/20260821/020ed53bd14b4e9d871951d06e9dfb4f/c.html",
+          "date": "2026-08-21",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "43543cde9d78a6",
+          "source": "求是",
+          "title": "技术突破、市场领跑——中国机器人产业蓬勃发展",
+          "url": "https://www.qstheory.cn/20260821/148c1369e21b4008bb9d964bdf0ef5ed/c.html",
+          "date": "2026-08-21",
+          "keyword": "机器人"
         },
         {
           "id": "844686d5145914",
@@ -82161,14 +82169,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "262bea47c35611",
-          "source": "新华社",
-          "title": "2026福祉博览会：助残助老辅具本届参加以旧换新",
-          "url": "https://www.news.cn/20260821/ec2cdc377b064ef8a18cda1fab7f5204/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
           "id": "0d072806b44860",
           "source": "新华社",
           "title": "69名泰国涉华业务公职人员即将启程福建学习中文",
@@ -82225,14 +82225,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "f542b9502a741c",
-          "source": "新华社",
-          "title": "中国与阿联酋将举行“猎鹰盾牌-2026”空军联合训练",
-          "url": "https://www.news.cn/world/20260821/3973919301ed451db127d2c508b242c2/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
           "id": "95a21acdcf5620",
           "source": "新华社",
           "title": "中国具身智能迎来规模化应用关键窗口期",
@@ -82257,18 +82249,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "cebe5cb93af32b",
+          "id": "615afd7e458df6",
           "source": "新华社",
-          "title": "举重国家队训练备战亚运会",
-          "url": "https://www.news.cn/photo/20260821/bc02ae9e76664ebc9935bb2db83a43ad/c.html",
+          "title": "中国非遗馆推出“可以观”非遗社教演艺活动",
+          "url": "https://www.news.cn/20260821/b16d04c4909c4dc0b6826bab270fe460/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
         {
-          "id": "03117ebf742a43",
+          "id": "cebe5cb93af32b",
           "source": "新华社",
-          "title": "云南警官学院党委原书记胡水旺接受纪律审查和监察调查",
-          "url": "https://www.news.cn/20260821/abfa0be814d841b8a632b230d9bed8ca/c.html",
+          "title": "举重国家队训练备战亚运会",
+          "url": "https://www.news.cn/photo/20260821/bc02ae9e76664ebc9935bb2db83a43ad/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82285,22 +82277,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "从“量身定制”的新场景看未来产业发展密码",
           "url": "https://www.news.cn/fortune/20260821/8ba407745db74d97a362b3af183cef1e/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "1502f22eb801c0",
-          "source": "新华社",
-          "title": "伊朗议长：必须制定计划应对制裁",
-          "url": "https://www.news.cn/20260821/15a097381c6c47ea8d53121a64a34a26/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "b21d3d05944c5c",
-          "source": "新华社",
-          "title": "促内需 财政金融协同政策“组合拳”迎来优化",
-          "url": "https://www.news.cn/fortune/20260821/7ae9775401dc4fc3bd77b59a4f261483/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82329,14 +82305,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "7f234aa9efb230",
-          "source": "新华社",
-          "title": "北京发布2026年社保缴费工资基数上下限",
-          "url": "https://www.news.cn/local/20260821/411d9b1804d8435aa8cd80903de02d00/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
           "id": "5ff6c64f4a83c2",
           "source": "新华社",
           "title": "十四届全国人大常委会第二十四次会议有关法律案 前瞻",
@@ -82353,14 +82321,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "e2904b6336672e",
-          "source": "新华社",
-          "title": "台湾旅游展秋季展登场 潮玩成为两岸文旅交流新节点",
-          "url": "https://www.news.cn/20260821/d8ca15001f6d43e5ad5ca16c8eb1597b/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
           "id": "7bbc851858ac7c",
           "source": "新华社",
           "title": "国家科教基础设施IP-SAFE项目主体装置成功出束",
@@ -82369,10 +82329,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "820f6bd5e343fb",
+          "id": "c0655e2be1f6c9",
           "source": "新华社",
-          "title": "坚守民族大义 共谋复兴伟业——2026年两岸关系研讨会综述",
-          "url": "https://www.news.cn/20260821/5e3a3d69e73d4951b16b47ba8e3eac57/c.html",
+          "title": "在德出生的第二对大熊猫双胞胎迎来两岁生日",
+          "url": "https://www.news.cn/world/20260821/a2f6ad109c7247cb9ff747f1e859beaa/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "90bcb6a6bef8a5",
+          "source": "新华社",
+          "title": "夏日寻味记丨“火炉”城里火锅热",
+          "url": "https://www.news.cn/local/20260821/1da86fc598df4ff3aee807a1a3ea545c/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82385,10 +82353,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "6b51378750a6cc",
+          "id": "322da976e4d6ef",
           "source": "新华社",
-          "title": "山东菏泽：户外大屏海报致敬功勋模范",
-          "url": "https://www.news.cn/photo/20260821/2e7e2a638bf8428e846e03fa2b6f5f79/c.html",
+          "title": "学习手记丨让文旅在传承与创新中紧密相融",
+          "url": "https://www.news.cn/politics/leaders/20260821/99a1f28385964fe5a551f4b9bd5b9081/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82433,6 +82401,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "c80f4687ebafdd",
+          "source": "新华社",
+          "title": "德国近四分之一企业面临技工短缺",
+          "url": "https://www.news.cn/20260821/993efdbd958f41c28fa94c586206e0ee/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "80ce2979bb67a4",
           "source": "新华社",
           "title": "我不是大牌色，我是中国传统色",
@@ -82457,18 +82433,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "9cb9cf6f776005",
+          "id": "6bc2ed142a3f4f",
           "source": "新华社",
-          "title": "文化奇遇记丨当科幻照进现实，在“南天门计划”展里感受中式浪漫",
-          "url": "https://www.news.cn/ci/20260821/2adc172c23ae4c788fbe2d9e59ba1488/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "eaa654924e7b80",
-          "source": "新华社",
-          "title": "日本佐贺县多车相撞事故致16人受伤",
-          "url": "https://www.news.cn/20260821/05a34a7f5c8649638da120e56a28816d/c.html",
+          "title": "挪威积极筹备以主宾国身份参加今年服贸会",
+          "url": "https://www.news.cn/20260821/b2a79eb4989442ca955efc8e7d365a5b/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82485,14 +82453,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "潞安化工集团有限公司原副总经理韩玉明被开除党籍和公职",
           "url": "https://www.news.cn/20260821/a7cdc2e99a6c4e79b11ab847fd22b446/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "9f1ec22e36e57f",
-          "source": "新华社",
-          "title": "热点追踪丨这个暑假，“入境游”格外火",
-          "url": "https://www.news.cn/fortune/20260821/cd5f20eb1bc7419dbd75e90ee1db4e28/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82521,10 +82481,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "34c719a3d01c2f",
+          "id": "ddd6d71e709610",
           "source": "新华社",
-          "title": "福建东山岛的山海之约",
-          "url": "https://www.news.cn/local/20260821/7c0d246ffff34f57935d445f26ce657a/c.html",
+          "title": "秘鲁国宝与明十三陵珍宝在首博“同框”",
+          "url": "https://www.news.cn/20260821/78f87df9e0fd4df98c006f99e411b603/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82537,10 +82497,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "09d7105706c86b",
+          "source": "新华社",
+          "title": "第二十九届成都国际汽车展开幕",
+          "url": "https://www.news.cn/photo/20260821/af1f48ce4e854ee08c230f5ed0ab50e3/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "9105dc48f9d2bd",
           "source": "新华社",
           "title": "第四届中国航协（CATA）航空大会将于9月举行",
           "url": "https://www.news.cn/20260821/4c8c52cb09f343bfbb0a7afea62470b4/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9471b6577c5d82",
+          "source": "新华社",
+          "title": "粤港澳三地博物馆馆藏清代广东绘画精品在澳门展出",
+          "url": "https://www.news.cn/20260821/74f759c74c824467af73c13ce4ea96be/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "93d705a4864e6a",
+          "source": "新华社",
+          "title": "精心准备迎开学",
+          "url": "https://www.news.cn/photo/20260821/550c56c9e05b421d8ec1bff9efb130f5/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "45d62659e5c565",
+          "source": "新华社",
+          "title": "翻开福建先民“生活日记”",
+          "url": "https://www.news.cn/local/20260821/3a7a989bc73b435bba36e407e6a44f16/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ae20c218850aa1",
+          "source": "新华社",
+          "title": "英国气象局预测今年将迎最强厄尔尼诺",
+          "url": "https://www.news.cn/20260821/d9550e95bcff49189fcae98d70d42536/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82553,6 +82553,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "b21d3d05944c5c",
+          "source": "新华社",
+          "title": "财政 金融协同促内需政策“组合拳”迎来优化",
+          "url": "https://www.news.cn/fortune/20260821/7ae9775401dc4fc3bd77b59a4f261483/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "3bf94cbff264b4",
           "source": "新华社",
           "title": "赵乐际会见约旦国王阿卜杜拉二世",
@@ -82561,26 +82569,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "64a16ad04ab645",
-          "source": "新华社",
-          "title": "跨越68海里的两岸故事",
-          "url": "https://www.news.cn/local/20260821/c5741f2ec23f4ab292bf30bac4d68d5f/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "7734cc73ce0682",
-          "source": "新华社",
-          "title": "金融监管总局发文强化非车险综合治理",
-          "url": "https://www.news.cn/fortune/20260821/f7ba275087bd46b38495ba127559ced2/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
           "id": "4b71558bcd0971",
           "source": "新华社",
           "title": "镜观中国丨始终把人民生命安全放在首位",
           "url": "https://www.news.cn/politics/20260821/0f63620859d24a48aa930d921eb7f89c/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ca4633e11354c4",
+          "source": "新华社",
+          "title": "闽味土特产叫得响",
+          "url": "https://www.news.cn/local/20260821/747339b811ca433cb40c6c8e501374a6/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82780,58 +82780,58 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "status": "ok",
           "count": 32,
-          "duration": 2.2
+          "duration": 2.0
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.2
+          "duration": 2.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 23,
-          "duration": 26.0
+          "duration": 34.7
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 18,
-          "duration": 6.1
+          "duration": 5.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.8
+          "duration": 6.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.5
+          "duration": 16.1
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 3.8
+          "duration": 3.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 4,
-          "duration": 11.6
+          "duration": 8.8
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 11,
-          "duration": 100.4
+          "duration": 60.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-21T21:42:11+08:00"
+  "generatedAt": "2026-08-21T22:29:52+08:00"
 };
