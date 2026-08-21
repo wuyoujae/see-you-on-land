@@ -20,11 +20,40 @@
   z-index: 2;
 }
 
+.solver-header > div:first-child { min-width: 0; }
+
 .solver-header h1 {
   margin: 0;
   font-size: 30px;
   font-weight: 500;
   line-height: 1.2;
+}
+
+.solver-session-switch {
+  max-width: min(62vw, 320px);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.solver-session-switch span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.solver-session-switch .lucide {
+  flex: 0 0 auto;
+  width: 15px;
+  height: 15px;
 }
 
 .solver-settings-button {
@@ -103,7 +132,7 @@
 
 .solver-messages {
   width: 100%;
-  padding: 18px 20px 26px;
+  padding: 18px 20px 38px;
 }
 
 .solver-messages[hidden] { display: none; }
@@ -164,8 +193,108 @@
   font-family: "Songti SC", "STSong", "SimSun", Georgia, serif;
   font-size: 17px;
   line-height: 1.85;
-  white-space: pre-wrap;
   overflow-wrap: anywhere;
+}
+
+.solver-markdown > :first-child { margin-top: 0; }
+.solver-markdown > :last-child { margin-bottom: 0; }
+.solver-markdown p { margin: 0 0 0.9em; }
+.solver-markdown h1,
+.solver-markdown h2,
+.solver-markdown h3,
+.solver-markdown h4 {
+  margin: 1.25em 0 0.55em;
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.45;
+}
+.solver-markdown h1 { font-size: 22px; }
+.solver-markdown h2 { font-size: 20px; }
+.solver-markdown h3 { font-size: 18px; }
+.solver-markdown h4 { font-size: 17px; }
+.solver-markdown strong { font-weight: 600; }
+.solver-markdown ul,
+.solver-markdown ol { margin: 0 0 1em; padding-left: 1.45em; }
+.solver-markdown li + li { margin-top: 0.35em; }
+.solver-markdown blockquote {
+  margin: 1em 0;
+  padding: 2px 0 2px 13px;
+  border-left: 3px solid var(--red);
+  color: var(--muted);
+}
+.solver-markdown pre {
+  margin: 1em 0;
+  padding: 13px 14px;
+  overflow-x: auto;
+  border-radius: 5px;
+  background: #151919;
+  color: #f4f7f6;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 13px;
+  line-height: 1.65;
+}
+.solver-markdown code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  letter-spacing: 0;
+}
+.solver-markdown :not(pre) > code {
+  padding: 2px 5px;
+  border-radius: 3px;
+  background: var(--surface);
+  color: var(--red);
+  font-size: 0.88em;
+}
+.solver-markdown a { color: var(--blue); text-underline-offset: 3px; }
+.solver-markdown hr { margin: 1.2em 0; border: 0; border-top: 1px solid var(--line); }
+.solver-markdown table {
+  display: block;
+  width: 100%;
+  margin: 1em 0;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 14px;
+}
+.solver-markdown th,
+.solver-markdown td { padding: 8px 10px; border: 1px solid var(--line); text-align: left; }
+.solver-markdown th { background: var(--surface); font-weight: 600; }
+.solver-markdown img { max-width: 100%; height: auto; }
+
+.solver-reasoning {
+  width: 100%;
+  margin: 0 0 16px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+}
+
+.solver-reasoning[hidden] { display: none; }
+
+.solver-reasoning summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 42px;
+  padding: 8px 11px;
+  color: var(--muted);
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.solver-reasoning summary::-webkit-details-marker { display: none; }
+.solver-reasoning summary .lucide { width: 16px; height: 16px; color: var(--red); }
+.solver-reasoning-title { color: var(--ink); }
+.solver-reasoning-time { margin-left: auto; }
+.solver-reasoning-chevron { transition: transform 160ms ease; }
+.solver-reasoning[open] .solver-reasoning-chevron { transform: rotate(180deg); }
+.solver-reasoning-copy {
+  padding: 0 12px 13px;
+  color: #5d6664;
+  font-family: "Songti SC", "STSong", "SimSun", Georgia, serif;
+  font-size: 14px;
+  line-height: 1.75;
 }
 
 .solver-message.error .solver-assistant-copy { color: var(--red); }
@@ -209,7 +338,7 @@
   flex: 0 0 auto;
   width: calc(100% - 40px);
   max-width: 720px;
-  margin: 0 auto 2px;
+  margin: 10px auto 2px;
   padding: 14px;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -482,6 +611,143 @@
 
 .solver-clear-button .lucide { width: 17px; height: 17px; }
 
+.solver-sessions-modal[hidden] { display: none; }
+
+.solver-sessions-modal {
+  position: absolute;
+  inset: 0;
+  z-index: 415;
+  display: grid;
+  align-items: end;
+}
+
+.solver-sessions-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 20, 20, 0.44);
+}
+
+.solver-sessions-dialog {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-height: 82%;
+  padding: 20px 20px calc(20px + env(safe-area-inset-bottom));
+  overflow-y: auto;
+  border-radius: 8px 8px 0 0;
+  background: var(--bg);
+}
+
+.solver-sessions-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.solver-sessions-header h2 { margin: 0; font-size: 24px; font-weight: 500; }
+.solver-sessions-header .icon-button { width: 42px; height: 42px; border: 0; background: transparent; }
+
+.solver-new-session {
+  width: 100%;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 20px 0 10px;
+  border: 1px solid var(--ink);
+  border-radius: 5px;
+  background: var(--ink);
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.solver-new-session .lucide { width: 18px; height: 18px; }
+.solver-session-list { display: grid; }
+
+.solver-session-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  min-height: 70px;
+  border-bottom: 1px solid var(--line);
+}
+
+.solver-session-row.current { box-shadow: inset 3px 0 0 var(--red); }
+
+.solver-session-main {
+  min-width: 0;
+  display: grid;
+  gap: 5px;
+  padding: 12px 10px;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+
+.solver-session-title {
+  overflow: hidden;
+  color: var(--ink);
+  font-size: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.solver-session-meta { color: var(--muted); font-size: 12px; }
+.solver-session-actions { display: flex; align-items: center; }
+.solver-session-action {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+.solver-session-action.delete { color: var(--red); }
+.solver-session-action .lucide { width: 16px; height: 16px; }
+
+.solver-session-rename-form {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 40px 40px;
+  align-items: center;
+  gap: 4px;
+  padding: 10px;
+}
+
+.solver-session-rename-form input {
+  width: 100%;
+  min-height: 42px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--ink);
+  font: inherit;
+  font-size: 15px;
+}
+
+.solver-session-rename-form button {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.solver-session-rename-form button[type="submit"] { color: var(--green); }
+.solver-session-rename-form .lucide { width: 17px; height: 17px; }
+
 @keyframes solver-rise {
   from { opacity: 0; transform: translateY(8px); }
   to { opacity: 1; transform: translateY(0); }
@@ -505,6 +771,12 @@
   .solver-messages { padding-left: 28px; padding-right: 28px; }
   .solver-composer { width: calc(100% - 56px); }
   .solver-settings-dialog {
+    max-width: 560px;
+    margin: 0 auto 22px;
+    padding: 24px 28px 26px;
+    border-radius: 8px;
+  }
+  .solver-sessions-dialog {
     max-width: 560px;
     margin: 0 auto 22px;
     padding: 24px 28px 26px;

@@ -2,15 +2,20 @@
   "use strict";
 
   const SETTINGS_KEY = "summer-politics-openrouter-settings-v1";
+  const ACTIVE_SESSION_KEY = "summer-politics-ai-active-session-v1";
+  const DB_NAME = "summer-politics-ai-sessions";
+  const DB_VERSION = 1;
+  const SESSION_STORE = "sessions";
   const CHAT_ENDPOINT = "https://openrouter.ai/api/v1/chat/completions";
   const DEFAULT_MODEL = "google/gemini-3.6-flash";
   const MAX_IMAGES = 4;
   const MAX_FILE_BYTES = 12 * 1024 * 1024;
+  const PERSIST_DELAY = 500;
   const SUPPORTED_IMAGE_TYPES = new Set(["image/png", "image/jpeg", "image/webp", "image/gif"]);
   const SYSTEM_PROMPT = [
     "你是一名严谨的公务员考试辅导老师。",
     "请先准确识别图片中的题干、选项、图表和条件，再作答。",
-    "回答使用中文，先给出明确答案，再分步骤说明推理过程；涉及计算时写出关键算式。",
+    "回答使用中文和规范 Markdown，先给出明确答案，再分步骤说明推理过程；涉及计算时写出关键算式。",
     "如果图片模糊、题目信息不完整或无法确定，请明确指出缺失内容，不要猜测。"
   ].join("");
 
@@ -37,16 +42,29 @@
     modelInput: document.getElementById("solver-model-input"),
     settingsStatus: document.getElementById("solver-settings-status"),
     testConnection: document.getElementById("test-solver-connection"),
-    clearChat: document.getElementById("clear-solver-chat")
+    clearChat: document.getElementById("clear-solver-chat"),
+    sessionButton: document.getElementById("open-solver-sessions"),
+    currentSession: document.getElementById("solver-current-session"),
+    sessionsModal: document.getElementById("solver-sessions-modal"),
+    sessionList: document.getElementById("solver-session-list"),
+    newSession: document.getElementById("solver-new-session")
   };
 
-  if (!dom.view || !dom.composer || !dom.settingsModal) return;
+  if (!dom.view || !dom.composer || !dom.settingsModal || !dom.sessionsModal) return;
 
   let settings = loadSettings();
   let attachments = [];
+  let sessions = [];
+  let activeSessionId = "";
   let conversation = [];
   let requestController = null;
+  let requestPromise = null;
   let sending = false;
+  let sessionsReady = false;
+  let persistenceTimer = 0;
+  let reasoningTimer = 0;
+  let databasePromise = null;
+
   function loadSettings() {
     try {
       const value = JSON.parse(localStorage.getItem(SETTINGS_KEY));
@@ -92,12 +110,13 @@
   }
 
   function openSettings(message = "") {
+    closeSessions();
     dom.apiKey.value = settings.apiKey;
     dom.apiKey.type = "password";
     dom.modelInput.value = settings.model;
     setSettingsStatus(message);
     dom.settingsModal.hidden = false;
-    refreshIcons();
+    refreshIcons(dom.settingsModal);
     requestAnimationFrame(() => (settings.apiKey ? dom.modelInput : dom.apiKey).focus());
   }
 
@@ -161,6 +180,329 @@
     }
   }
 
+  function openDatabase() {
+    if (databasePromise) return databasePromise;
+    databasePromise = new Promise((resolve, reject) => {
+      if (!window.indexedDB) {
+        reject(new Error("当前浏览器不支持 IndexedDB"));
+        return;
+      }
+      const request = indexedDB.open(DB_NAME, DB_VERSION);
+      request.onupgradeneeded = () => {
+        const database = request.result;
+        if (!database.objectStoreNames.contains(SESSION_STORE)) {
+          const store = database.createObjectStore(SESSION_STORE, { keyPath: "id" });
+          store.createIndex("updatedAt", "updatedAt");
+        }
+      };
+      request.onsuccess = () => resolve(request.result);
+      request.onerror = () => reject(request.error || new Error("对话数据库打开失败"));
+    });
+    return databasePromise;
+  }
+
+  async function readSessions() {
+    const database = await openDatabase();
+    return new Promise((resolve, reject) => {
+      const request = database.transaction(SESSION_STORE, "readonly").objectStore(SESSION_STORE).getAll();
+      request.onsuccess = () => resolve(request.result || []);
+      request.onerror = () => reject(request.error || new Error("对话读取失败"));
+    });
+  }
+
+  async function writeSession(session) {
+    const database = await openDatabase();
+    return new Promise((resolve, reject) => {
+      const request = database.transaction(SESSION_STORE, "readwrite").objectStore(SESSION_STORE).put(session);
+      request.onsuccess = () => resolve();
+      request.onerror = () => reject(request.error || new Error("对话保存失败"));
+    });
+  }
+
+  async function removeSessionRecord(id) {
+    const database = await openDatabase();
+    return new Promise((resolve, reject) => {
+      const request = database.transaction(SESSION_STORE, "readwrite").objectStore(SESSION_STORE).delete(id);
+      request.onsuccess = () => resolve();
+      request.onerror = () => reject(request.error || new Error("对话删除失败"));
+    });
+  }
+
+  function createSessionRecord(title = "新对话") {
+    const now = Date.now();
+    return {
+      id: `session-${now}-${Math.random().toString(36).slice(2, 8)}`,
+      title,
+      createdAt: now,
+      updatedAt: now,
+      messages: []
+    };
+  }
+
+  function normalizeSession(value) {
+    const fallback = createSessionRecord();
+    const messages = Array.isArray(value?.messages) ? value.messages.map(message => ({
+      id: String(message?.id || `${message?.role || "message"}-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`),
+      role: message?.role === "assistant" ? "assistant" : "user",
+      text: typeof message?.text === "string" ? message.text : "",
+      images: Array.isArray(message?.images) ? message.images : [],
+      reasoning: typeof message?.reasoning === "string" ? message.reasoning : "",
+      reasoningDetails: Array.isArray(message?.reasoningDetails) ? message.reasoningDetails.map(detail => {
+        const copy = { ...detail };
+        delete copy.__key;
+        return copy;
+      }) : [],
+      reasoningSeconds: Number.isFinite(Number(message?.reasoningSeconds)) ? Number(message.reasoningSeconds) : 0,
+      status: message?.status === "streaming" ? "stopped" : (message?.status || "done"),
+      modelName: typeof message?.modelName === "string" ? message.modelName : "",
+      createdAt: Number(message?.createdAt) || Date.now()
+    })).filter(message => message.role === "user" || message.text || message.reasoning) : [];
+    return {
+      id: typeof value?.id === "string" ? value.id : fallback.id,
+      title: typeof value?.title === "string" && value.title.trim() ? value.title.trim().slice(0, 60) : fallback.title,
+      createdAt: Number(value?.createdAt) || fallback.createdAt,
+      updatedAt: Number(value?.updatedAt) || fallback.updatedAt,
+      messages
+    };
+  }
+
+  function activeSession() {
+    return sessions.find(session => session.id === activeSessionId) || null;
+  }
+
+  function sessionTitleFromMessage(message) {
+    const text = String(message?.text || "").replace(/\s+/g, " ").trim();
+    if (text) return text.slice(0, 26);
+    return message?.images?.length ? "图片题目" : "新对话";
+  }
+
+  function updateCurrentSessionLabel() {
+    dom.currentSession.textContent = activeSession()?.title || "新对话";
+  }
+
+  function scheduleSessionSave(session = activeSession(), immediate = false) {
+    if (!session) return;
+    session.updatedAt = Date.now();
+    window.clearTimeout(persistenceTimer);
+    const save = async () => {
+      persistenceTimer = 0;
+      try {
+        await writeSession(session);
+      } catch (error) {
+        setStatus(error.message || "对话记录保存失败。", true);
+      }
+    };
+    if (immediate) save();
+    else persistenceTimer = window.setTimeout(save, PERSIST_DELAY);
+  }
+
+  async function initializeSessions() {
+    try {
+      sessions = (await readSessions()).map(normalizeSession).sort((a, b) => b.updatedAt - a.updatedAt);
+    } catch (error) {
+      sessions = [];
+      setStatus(`${error.message || "对话记录读取失败"}，本次对话可能无法保留。`, true);
+    }
+    if (!sessions.length) {
+      const session = createSessionRecord();
+      sessions = [session];
+      scheduleSessionSave(session, true);
+    }
+    const remembered = localStorage.getItem(ACTIVE_SESSION_KEY);
+    activeSessionId = sessions.some(session => session.id === remembered) ? remembered : sessions[0].id;
+    localStorage.setItem(ACTIVE_SESSION_KEY, activeSessionId);
+    conversation = activeSession()?.messages || [];
+    sessionsReady = true;
+    updateCurrentSessionLabel();
+    renderConversation();
+    renderSessionList();
+    updateSendButton();
+  }
+
+  function formatSessionTime(timestamp) {
+    const date = new Date(timestamp);
+    const today = new Date();
+    const sameDay = date.toDateString() === today.toDateString();
+    return sameDay
+      ? date.toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit" })
+      : date.toLocaleDateString("zh-CN", { month: "numeric", day: "numeric" });
+  }
+
+  function renderSessionList() {
+    dom.sessionList.innerHTML = "";
+    sessions.slice().sort((a, b) => b.updatedAt - a.updatedAt).forEach(session => {
+      const row = document.createElement("div");
+      row.className = `solver-session-row${session.id === activeSessionId ? " current" : ""}`;
+      row.dataset.sessionId = session.id;
+      row.setAttribute("role", "listitem");
+
+      const main = document.createElement("button");
+      main.type = "button";
+      main.className = "solver-session-main";
+      main.dataset.sessionAction = "switch";
+      const title = document.createElement("span");
+      title.className = "solver-session-title";
+      title.textContent = session.title;
+      const meta = document.createElement("span");
+      meta.className = "solver-session-meta";
+      const turns = session.messages.filter(message => message.role === "user").length;
+      meta.textContent = `${formatSessionTime(session.updatedAt)} · ${turns} 轮`;
+      main.append(title, meta);
+
+      const actions = document.createElement("div");
+      actions.className = "solver-session-actions";
+      const rename = document.createElement("button");
+      rename.type = "button";
+      rename.className = "solver-session-action";
+      rename.dataset.sessionAction = "rename";
+      rename.title = "重命名";
+      rename.setAttribute("aria-label", `重命名${session.title}`);
+      rename.innerHTML = '<i data-lucide="pencil" aria-hidden="true"></i>';
+      const remove = document.createElement("button");
+      remove.type = "button";
+      remove.className = "solver-session-action delete";
+      remove.dataset.sessionAction = "delete";
+      remove.title = "删除对话";
+      remove.setAttribute("aria-label", `删除${session.title}`);
+      remove.innerHTML = '<i data-lucide="trash-2" aria-hidden="true"></i>';
+      actions.append(rename, remove);
+      row.append(main, actions);
+      dom.sessionList.appendChild(row);
+    });
+    refreshIcons(dom.sessionList);
+  }
+
+  function openSessions() {
+    closeSettings();
+    renderSessionList();
+    dom.sessionsModal.hidden = false;
+    refreshIcons(dom.sessionsModal);
+  }
+
+  function closeSessions() {
+    dom.sessionsModal.hidden = true;
+  }
+
+  async function waitForActiveRequest() {
+    if (!sending || !requestPromise) return;
+    requestController?.abort();
+    try {
+      await requestPromise;
+    } catch {
+      // sendQuestion converts request failures into message state.
+    }
+  }
+
+  async function createNewSession() {
+    await waitForActiveRequest();
+    const session = createSessionRecord();
+    sessions.unshift(session);
+    activeSessionId = session.id;
+    conversation = session.messages;
+    localStorage.setItem(ACTIVE_SESSION_KEY, activeSessionId);
+    scheduleSessionSave(session, true);
+    attachments = [];
+    renderAttachments();
+    updateCurrentSessionLabel();
+    renderConversation();
+    renderSessionList();
+    closeSessions();
+    requestAnimationFrame(() => dom.prompt.focus());
+  }
+
+  async function switchSession(id) {
+    if (id === activeSessionId) {
+      closeSessions();
+      return;
+    }
+    await waitForActiveRequest();
+    const session = sessions.find(item => item.id === id);
+    if (!session) return;
+    activeSessionId = session.id;
+    conversation = session.messages;
+    localStorage.setItem(ACTIVE_SESSION_KEY, activeSessionId);
+    attachments = [];
+    renderAttachments();
+    updateCurrentSessionLabel();
+    renderConversation();
+    renderSessionList();
+    closeSessions();
+  }
+
+  function beginRenameSession(id) {
+    const session = sessions.find(item => item.id === id);
+    if (!session) return;
+    renderSessionList();
+    const row = dom.sessionList.querySelector(`[data-session-id="${id}"]`);
+    if (!row) return;
+    row.querySelector(".solver-session-main").hidden = true;
+    row.querySelector(".solver-session-actions").hidden = true;
+    const form = document.createElement("form");
+    form.className = "solver-session-rename-form";
+    form.dataset.renameSession = id;
+    const input = document.createElement("input");
+    input.type = "text";
+    input.name = "session-title";
+    input.required = true;
+    input.maxLength = 60;
+    input.value = session.title;
+    input.setAttribute("aria-label", "对话名称");
+    const save = document.createElement("button");
+    save.type = "submit";
+    save.title = "保存名称";
+    save.setAttribute("aria-label", "保存对话名称");
+    save.innerHTML = '<i data-lucide="check" aria-hidden="true"></i>';
+    const cancel = document.createElement("button");
+    cancel.type = "button";
+    cancel.dataset.cancelRename = "";
+    cancel.title = "取消重命名";
+    cancel.setAttribute("aria-label", "取消重命名");
+    cancel.innerHTML = '<i data-lucide="x" aria-hidden="true"></i>';
+    form.append(input, save, cancel);
+    row.prepend(form);
+    refreshIcons();
+    requestAnimationFrame(() => {
+      input.focus();
+      input.select();
+    });
+  }
+
+  function saveSessionTitle(id, value) {
+    const session = sessions.find(item => item.id === id);
+    if (!session) return;
+    const title = String(value || "").replace(/\s+/g, " ").trim().slice(0, 60);
+    if (!title) return;
+    session.title = title;
+    scheduleSessionSave(session, true);
+    updateCurrentSessionLabel();
+    renderSessionList();
+  }
+
+  async function deleteSession(id) {
+    const session = sessions.find(item => item.id === id);
+    if (!session || !window.confirm(`确定删除“${session.title}”吗？此操作无法撤销。`)) return;
+    if (id === activeSessionId) await waitForActiveRequest();
+    sessions = sessions.filter(item => item.id !== id);
+    try {
+      await removeSessionRecord(id);
+    } catch (error) {
+      setStatus(error.message || "对话删除失败。", true);
+      return;
+    }
+    if (!sessions.length) sessions.push(createSessionRecord());
+    if (id === activeSessionId) {
+      activeSessionId = sessions[0].id;
+      conversation = sessions[0].messages;
+      localStorage.setItem(ACTIVE_SESSION_KEY, activeSessionId);
+      scheduleSessionSave(sessions[0], true);
+      attachments = [];
+      renderAttachments();
+      renderConversation();
+    }
+    updateCurrentSessionLabel();
+    renderSessionList();
+  }
+
   function fileToDataURL(file) {
     return new Promise((resolve, reject) => {
       const reader = new FileReader();
@@ -190,7 +532,6 @@
     if (!SUPPORTED_IMAGE_TYPES.has(file.type)) throw new Error(`${file.name} 不是支持的图片格式`);
     if (file.size > MAX_FILE_BYTES) throw new Error(`${file.name} 超过 12MB`);
     if (file.type === "image/gif" || file.size <= 2.5 * 1024 * 1024) return fileToDataURL(file);
-
     try {
       const bitmap = await createImageBitmap(file);
       const scale = Math.min(1, 2000 / Math.max(bitmap.width, bitmap.height));
@@ -253,7 +594,74 @@
     });
     dom.preview.hidden = attachments.length === 0;
     updateSendButton();
-    refreshIcons();
+    refreshIcons(dom.preview);
+  }
+
+  function escapeHtml(value) {
+    const node = document.createElement("div");
+    node.textContent = String(value ?? "");
+    return node.innerHTML;
+  }
+
+  function renderMarkdown(element, source) {
+    const text = String(source || "");
+    if (!text) {
+      element.textContent = "";
+      return;
+    }
+    if (!window.marked?.parse || !window.DOMPurify?.sanitize) {
+      element.innerHTML = escapeHtml(text).replace(/\n/g, "<br>");
+      return;
+    }
+    const parsed = window.marked.parse(text, { gfm: true, breaks: true });
+    element.innerHTML = window.DOMPurify.sanitize(parsed, {
+      USE_PROFILES: { html: true },
+      FORBID_TAGS: ["style"],
+      FORBID_ATTR: ["style"]
+    });
+    element.querySelectorAll("a[href]").forEach(link => {
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+    });
+  }
+
+  function formatReasoningDuration(message) {
+    let seconds = Number(message.reasoningSeconds) || 0;
+    if (message.status === "streaming" && message.reasoningStartedAt) {
+      const end = message.reasoningEndedAt || Date.now();
+      seconds = Math.max(seconds, (end - message.reasoningStartedAt) / 1000);
+    }
+    const rounded = Math.max(1, Math.round(seconds));
+    return message.status === "streaming" && !message.reasoningEndedAt
+      ? `深度思考中 · ${rounded} 秒`
+      : `深度思考了 ${rounded} 秒`;
+  }
+
+  function createReasoningElement(message) {
+    const reasoning = document.createElement("details");
+    reasoning.className = "solver-reasoning";
+    reasoning.hidden = !message.reasoning;
+    reasoning.open = message.status === "streaming" && Boolean(message.reasoning);
+
+    const summary = document.createElement("summary");
+    summary.innerHTML = '<i data-lucide="brain-circuit" aria-hidden="true"></i>';
+    const title = document.createElement("span");
+    title.className = "solver-reasoning-title";
+    title.textContent = "深度思考";
+    const timer = document.createElement("span");
+    timer.className = "solver-reasoning-time";
+    timer.textContent = formatReasoningDuration(message);
+    const chevron = document.createElement("i");
+    chevron.className = "solver-reasoning-chevron";
+    chevron.setAttribute("data-lucide", "chevron-down");
+    chevron.setAttribute("aria-hidden", "true");
+    summary.append(title, timer, chevron);
+
+    const copy = document.createElement("div");
+    copy.className = "solver-reasoning-copy solver-markdown";
+    renderMarkdown(copy, message.reasoning);
+    reasoning.append(summary, copy);
+    return reasoning;
   }
 
   function createMessageElement(message) {
@@ -262,7 +670,7 @@
     article.dataset.messageId = message.id;
 
     if (message.role === "user") {
-      if (message.images.length) {
+      if (message.images?.length) {
         const images = document.createElement("div");
         images.className = "solver-message-images";
         message.images.forEach(image => {
@@ -287,10 +695,12 @@
     label.textContent = message.modelName || "解题助手";
     heading.appendChild(label);
 
+    const reasoning = createReasoningElement(message);
     const copy = document.createElement("div");
-    copy.className = `solver-assistant-copy${message.status === "streaming" ? " solver-stream-cursor" : ""}`;
-    copy.textContent = message.text || (message.status === "streaming" ? "正在识别题目…" : "");
-    article.append(heading, copy);
+    copy.className = `solver-assistant-copy solver-markdown${message.status === "streaming" ? " solver-stream-cursor" : ""}`;
+    if (message.text) renderMarkdown(copy, message.text);
+    else copy.textContent = message.status === "streaming" ? "正在分析题目…" : "";
+    article.append(heading, reasoning, copy);
 
     if (message.status !== "streaming" && message.text) {
       const footer = document.createElement("div");
@@ -319,8 +729,8 @@
     dom.messages.hidden = !hasMessages;
     dom.messages.innerHTML = "";
     conversation.forEach(message => dom.messages.appendChild(createMessageElement(message)));
-    refreshIcons();
-    scrollToLatest();
+    refreshIcons(dom.messages);
+    scrollToLatest(false);
   }
 
   function updateAssistantMessage(message) {
@@ -329,23 +739,36 @@
       renderConversation();
       return;
     }
+    const reasoning = article.querySelector(".solver-reasoning");
+    const wasHidden = reasoning.hidden;
+    reasoning.hidden = !message.reasoning;
+    if (wasHidden && message.reasoning) reasoning.open = true;
+    renderMarkdown(reasoning.querySelector(".solver-reasoning-copy"), message.reasoning);
+    reasoning.querySelector(".solver-reasoning-time").textContent = formatReasoningDuration(message);
+
     const copy = article.querySelector(".solver-assistant-copy");
-    copy.textContent = message.text || "正在识别题目…";
+    if (message.text) renderMarkdown(copy, message.text);
+    else copy.textContent = "正在分析题目…";
     copy.classList.toggle("solver-stream-cursor", message.status === "streaming");
-    scrollToLatest();
+    scrollToLatest(true);
   }
 
-  function scrollToLatest() {
+  function scrollToLatest(smooth = false) {
     requestAnimationFrame(() => {
-      dom.workspace.scrollTo({ top: dom.workspace.scrollHeight, behavior: "smooth" });
+      dom.workspace.scrollTo({ top: dom.workspace.scrollHeight, behavior: smooth ? "smooth" : "auto" });
     });
   }
 
   function apiMessages(messages) {
-    return messages.slice(-12).map(message => {
-      if (message.role === "assistant") return { role: "assistant", content: message.text };
+    return messages.filter(message => message.status !== "error" && message.status !== "streaming").map(message => {
+      if (message.role === "assistant") {
+        const result = { role: "assistant", content: message.text };
+        if (message.reasoningDetails?.length) result.reasoning_details = message.reasoningDetails;
+        else if (message.reasoning) result.reasoning = message.reasoning;
+        return result;
+      }
       const content = [{ type: "text", text: message.text || "请识别并解答图片中的题目。" }];
-      message.images.forEach(image => {
+      (message.images || []).forEach(image => {
         content.push({ type: "image_url", image_url: { url: image.dataUrl } });
       });
       return { role: "user", content };
@@ -358,6 +781,42 @@
     return value.map(part => typeof part === "string" ? part : (part?.text || part?.content || "")).join("");
   }
 
+  function reasoningDelta(delta) {
+    const details = Array.isArray(delta?.reasoning_details) ? delta.reasoning_details : [];
+    const visible = details.map(detail => {
+      if (detail?.type === "reasoning.text") return detail.text || "";
+      if (detail?.type === "reasoning.summary") return detail.summary || "";
+      return "";
+    }).join("");
+    return visible || contentDelta(delta?.reasoning || delta?.reasoning_content);
+  }
+
+  function mergeReasoningDetails(target, incoming) {
+    incoming.forEach(detail => {
+      if (!detail || typeof detail !== "object") return;
+      const key = `${detail.index ?? ""}|${detail.id ?? ""}|${detail.type ?? ""}|${detail.format ?? ""}`;
+      const existing = target.find(item => item.__key === key);
+      if (!existing) {
+        target.push({ ...detail, __key: key });
+        return;
+      }
+      ["text", "summary", "data"].forEach(field => {
+        if (typeof detail[field] === "string") existing[field] = `${existing[field] || ""}${detail[field]}`;
+      });
+      Object.keys(detail).forEach(field => {
+        if (!["text", "summary", "data"].includes(field) && detail[field] != null) existing[field] = detail[field];
+      });
+    });
+  }
+
+  function cleanReasoningDetails(details) {
+    return details.map(detail => {
+      const copy = { ...detail };
+      delete copy.__key;
+      return copy;
+    });
+  }
+
   async function responseError(response) {
     const payload = await response.json().catch(() => null);
     const message = payload?.error?.message || `请求失败（${response.status}）`;
@@ -366,50 +825,69 @@
     throw error;
   }
 
-  async function consumeStream(response, onDelta) {
+  async function consumeStream(response, onChunk) {
     if (!response.body) {
       const payload = await response.json();
       if (payload.error) throw new Error(payload.error.message || "模型返回错误");
-      onDelta(contentDelta(payload?.choices?.[0]?.message?.content));
+      const message = payload?.choices?.[0]?.message || {};
+      onChunk({
+        text: contentDelta(message.content),
+        reasoning: reasoningDelta(message),
+        reasoningDetails: message.reasoning_details || []
+      });
       return;
     }
 
     const reader = response.body.getReader();
     const decoder = new TextDecoder();
     let buffer = "";
-    let streamComplete = false;
-    while (!streamComplete) {
+    let complete = false;
+    const processLine = rawLine => {
+      const line = rawLine.trim();
+      if (!line.startsWith("data:")) return;
+      const data = line.slice(5).trim();
+      if (!data) return;
+      if (data === "[DONE]") {
+        complete = true;
+        return;
+      }
+      let chunk;
+      try {
+        chunk = JSON.parse(data);
+      } catch {
+        return;
+      }
+      if (chunk.error) throw new Error(chunk.error.message || "模型生成中断");
+      const choice = chunk?.choices?.[0];
+      if (choice?.error) throw new Error(choice.error.message || "模型生成中断");
+      const delta = choice?.delta || {};
+      onChunk({
+        text: contentDelta(delta.content),
+        reasoning: reasoningDelta(delta),
+        reasoningDetails: Array.isArray(delta.reasoning_details) ? delta.reasoning_details : []
+      });
+    };
+
+    while (!complete) {
       const { done, value } = await reader.read();
       if (done) break;
       buffer += decoder.decode(value, { stream: true });
       const lines = buffer.split("\n");
       buffer = lines.pop() || "";
-      for (const rawLine of lines) {
-        const line = rawLine.trim();
-        if (!line.startsWith("data:")) continue;
-        const data = line.slice(5).trim();
-        if (!data || data === "[DONE]") {
-          if (data === "[DONE]") streamComplete = true;
-          continue;
-        }
-        let chunk;
-        try {
-          chunk = JSON.parse(data);
-        } catch {
-          continue;
-        }
-        if (chunk.error) throw new Error(chunk.error.message || "模型生成中断");
-        const delta = contentDelta(chunk?.choices?.[0]?.delta?.content);
-        if (delta) onDelta(delta);
-      }
+      for (const line of lines) processLine(line);
     }
+    buffer += decoder.decode();
+    if (buffer.trim() && !complete) processLine(buffer);
   }
 
   function friendlyError(error) {
     if (error?.name === "AbortError") return "已停止生成。";
+    if (error?.status === 400) return error.message || "请求内容或模型 ID 无效。";
     if (error?.status === 401) return "API Key 无效，请在设置中重新填写。";
     if (error?.status === 402) return "OpenRouter 账户额度不足，请充值或更换模型。";
+    if (error?.status === 403) return error.message || "当前 API Key 没有调用该模型的权限。";
     if (error?.status === 429) return "请求过于频繁，请稍后再试。";
+    if (error?.status === 502) return "当前模型服务异常，请稍后重试。";
     if (error?.status === 503) return "当前模型暂时没有可用服务，请更换模型。";
     if (error instanceof TypeError) return "无法连接 OpenRouter，请检查网络后重试。";
     return error?.message || "搜题失败，请稍后重试。";
@@ -425,49 +903,78 @@
     dom.sendButton.setAttribute("aria-label", value ? "停止生成" : "发送问题");
     dom.sendButton.innerHTML = `<i data-lucide="${value ? "square" : "arrow-up"}" aria-hidden="true"></i>`;
     updateSendButton();
-    refreshIcons();
+    refreshIcons(dom.sendButton);
   }
 
   function updateSendButton() {
-    dom.sendButton.disabled = !sending && !dom.prompt.value.trim() && attachments.length === 0;
+    dom.sendButton.disabled = !sessionsReady || (!sending && !dom.prompt.value.trim() && attachments.length === 0);
+  }
+
+  function startReasoningClock(message) {
+    if (!message.reasoningStartedAt) message.reasoningStartedAt = Date.now();
+    window.clearInterval(reasoningTimer);
+    reasoningTimer = window.setInterval(() => {
+      if (message.status !== "streaming" || !message.reasoningStartedAt || message.reasoningEndedAt) {
+        window.clearInterval(reasoningTimer);
+        reasoningTimer = 0;
+        return;
+      }
+      const article = dom.messages.querySelector(`[data-message-id="${message.id}"]`);
+      const timer = article?.querySelector(".solver-reasoning-time");
+      if (timer) timer.textContent = formatReasoningDuration(message);
+    }, 500);
   }
 
   async function sendQuestion() {
-    if (sending) {
-      requestController?.abort();
-      return;
-    }
+    if (!sessionsReady) return;
     if (!settings.apiKey || !settings.model) {
-      setStatus("请先配置 OpenRouter API Key 和多模态模型。", true);
+      setStatus("请先配置 OpenRouter API Key 和模型。", true);
       openSettings("完成设置后即可开始搜题。");
       return;
     }
-
     const text = dom.prompt.value.trim();
     if (!text && !attachments.length) return;
+    const session = activeSession();
+    if (!session) return;
+    const sessionMessages = session.messages;
     const userMessage = {
       id: `user-${Date.now()}`,
       role: "user",
       text,
       images: attachments.map(image => ({ ...image })),
-      status: "done"
+      reasoning: "",
+      reasoningDetails: [],
+      reasoningSeconds: 0,
+      status: "done",
+      createdAt: Date.now()
     };
-    conversation.push(userMessage);
-    const history = conversation.filter(message => message.status !== "error");
+    sessionMessages.push(userMessage);
+    if (session.title === "新对话") session.title = sessionTitleFromMessage(userMessage);
+    const history = sessionMessages.filter(message => message.status !== "error");
     const assistant = {
       id: `assistant-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
       role: "assistant",
       text: "",
       images: [],
+      reasoning: "",
+      reasoningDetails: [],
+      reasoningSeconds: 0,
+      reasoningStartedAt: 0,
+      reasoningEndedAt: 0,
       status: "streaming",
-      modelName: currentModelLabel()
+      modelName: currentModelLabel(),
+      createdAt: Date.now()
     };
-    conversation.push(assistant);
+    sessionMessages.push(assistant);
+    conversation = sessionMessages;
     attachments = [];
     dom.prompt.value = "";
     resizePrompt();
     renderAttachments();
+    updateCurrentSessionLabel();
     renderConversation();
+    renderSessionList();
+    scheduleSessionSave(session, true);
     setStatus("");
     setSending(true);
     requestController = new AbortController();
@@ -480,33 +987,70 @@
         body: JSON.stringify({
           model: settings.model,
           messages: [{ role: "system", content: SYSTEM_PROMPT }, ...apiMessages(history)],
+          reasoning: { enabled: true, exclude: false },
+          plugins: [{ id: "context-compression", enabled: false }],
           stream: true
         })
       });
       if (!response.ok) await responseError(response);
-      await consumeStream(response, delta => {
-        assistant.text += delta;
+      await consumeStream(response, chunk => {
+        if (chunk.reasoning) {
+          if (!assistant.reasoning) startReasoningClock(assistant);
+          assistant.reasoning += chunk.reasoning;
+        }
+        if (chunk.reasoningDetails.length) mergeReasoningDetails(assistant.reasoningDetails, chunk.reasoningDetails);
+        if (chunk.text) {
+          if (assistant.reasoning && !assistant.reasoningEndedAt) {
+            assistant.reasoningEndedAt = Date.now();
+            assistant.reasoningSeconds = (assistant.reasoningEndedAt - assistant.reasoningStartedAt) / 1000;
+          }
+          assistant.text += chunk.text;
+        }
         updateAssistantMessage(assistant);
+        scheduleSessionSave(session);
       });
-      if (!assistant.text.trim()) throw new Error("模型没有返回文字内容，请更换模型后重试。");
+      if (!assistant.text.trim()) throw new Error("模型没有返回正文内容，请更换模型后重试。");
       assistant.status = "done";
-      renderConversation();
     } catch (error) {
       if (error?.name === "AbortError") {
-        if (assistant.text.trim()) {
+        if (assistant.text.trim() || assistant.reasoning.trim()) {
           assistant.status = "stopped";
         } else {
-          conversation = conversation.filter(message => message.id !== assistant.id);
+          const index = sessionMessages.findIndex(message => message.id === assistant.id);
+          if (index >= 0) sessionMessages.splice(index, 1);
         }
       } else {
         assistant.status = "error";
         assistant.text = friendlyError(error);
       }
-      renderConversation();
     } finally {
+      window.clearInterval(reasoningTimer);
+      reasoningTimer = 0;
+      if (assistant.reasoning && !assistant.reasoningEndedAt) {
+        assistant.reasoningEndedAt = Date.now();
+        assistant.reasoningSeconds = (assistant.reasoningEndedAt - assistant.reasoningStartedAt) / 1000;
+      }
+      assistant.reasoningDetails = cleanReasoningDetails(assistant.reasoningDetails);
       requestController = null;
       setSending(false);
+      scheduleSessionSave(session, true);
+      if (activeSessionId === session.id) {
+        conversation = sessionMessages;
+        renderConversation();
+        renderSessionList();
+      }
     }
+  }
+
+  function beginSend() {
+    if (sending) {
+      requestController?.abort();
+      return;
+    }
+    requestPromise = sendQuestion();
+    requestPromise.finally(() => {
+      requestPromise = null;
+    });
   }
 
   function resizePrompt() {
@@ -541,7 +1085,7 @@
   });
   dom.composer.addEventListener("submit", event => {
     event.preventDefault();
-    sendQuestion();
+    beginSend();
   });
 
   dom.messages.addEventListener("click", async event => {
@@ -565,7 +1109,7 @@
     dom.apiKeyToggle.title = show ? "隐藏 API Key" : "显示 API Key";
     dom.apiKeyToggle.setAttribute("aria-label", dom.apiKeyToggle.title);
     dom.apiKeyToggle.innerHTML = `<i data-lucide="${show ? "eye-off" : "eye"}" aria-hidden="true"></i>`;
-    refreshIcons();
+    refreshIcons(dom.apiKeyToggle);
   });
   dom.modelInput.addEventListener("input", () => dom.modelInput.setCustomValidity(""));
   dom.apiKey.addEventListener("input", () => dom.apiKey.setCustomValidity(""));
@@ -580,30 +1124,69 @@
     closeSettings();
     setStatus("搜题设置已保存。", false);
   });
-  dom.clearChat.addEventListener("click", () => {
-    if (!conversation.length) {
+  dom.clearChat.addEventListener("click", async () => {
+    const session = activeSession();
+    if (!session?.messages.length) {
       setSettingsStatus("当前没有对话记录。");
       return;
     }
-    if (!window.confirm("确定清空当前搜题对话吗？")) return;
-    requestController?.abort();
-    conversation = [];
+    if (!window.confirm("确定清空当前对话吗？")) return;
+    await waitForActiveRequest();
+    session.messages = [];
+    session.title = "新对话";
+    conversation = session.messages;
+    scheduleSessionSave(session, true);
+    updateCurrentSessionLabel();
     renderConversation();
+    renderSessionList();
     setSettingsStatus("当前对话已清空。", "success");
   });
+
+  dom.sessionButton.addEventListener("click", openSessions);
+  document.querySelectorAll("[data-close-solver-sessions]").forEach(element => element.addEventListener("click", closeSessions));
+  dom.newSession.addEventListener("click", createNewSession);
+  dom.sessionList.addEventListener("click", event => {
+    const button = event.target.closest("button[data-session-action]");
+    const row = event.target.closest("[data-session-id]");
+    if (!button || !row) return;
+    const id = row.dataset.sessionId;
+    if (button.dataset.sessionAction === "switch") switchSession(id);
+    if (button.dataset.sessionAction === "rename") beginRenameSession(id);
+    if (button.dataset.sessionAction === "delete") deleteSession(id);
+  });
+  dom.sessionList.addEventListener("submit", event => {
+    const form = event.target.closest("form[data-rename-session]");
+    if (!form) return;
+    event.preventDefault();
+    saveSessionTitle(form.dataset.renameSession, new FormData(form).get("session-title"));
+  });
+  dom.sessionList.addEventListener("click", event => {
+    if (!event.target.closest("button[data-cancel-rename]")) return;
+    renderSessionList();
+  });
+
   document.addEventListener("keydown", event => {
-    if (event.key === "Escape" && !dom.settingsModal.hidden) closeSettings();
+    if (event.key !== "Escape") return;
+    if (!dom.settingsModal.hidden) closeSettings();
+    if (!dom.sessionsModal.hidden) closeSessions();
   });
   window.addEventListener("summer-politics:tabchange", event => {
     if (event.detail?.tab === "search") {
       renderConfigurationState();
-      scrollToLatest();
+      updateCurrentSessionLabel();
+      scrollToLatest(false);
     }
+  });
+  window.addEventListener("pagehide", () => {
+    const session = activeSession();
+    if (session) scheduleSessionSave(session, true);
   });
 
   renderConfigurationState();
+  dom.view.dataset.markdownReady = window.marked?.parse && window.DOMPurify?.sanitize ? "true" : "fallback";
   renderAttachments();
   renderConversation();
   resizePrompt();
   refreshIcons();
+  initializeSessions();
 })();
