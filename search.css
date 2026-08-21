@@ -289,9 +289,9 @@
 .solver-preview-remove .lucide { width: 14px; height: 14px; }
 
 .solver-composer-actions {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 9px;
 }
 
@@ -315,29 +315,6 @@
 }
 
 .solver-icon-button:hover { background: var(--surface); color: var(--ink); }
-
-.solver-model-button {
-  min-width: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  padding: 0 8px;
-  border: 0;
-  background: transparent;
-  color: var(--muted);
-  font-size: 13px;
-  cursor: pointer;
-}
-
-.solver-model-button span {
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.solver-model-button .lucide { flex: 0 0 auto; width: 16px; height: 16px; }
 
 .solver-send-button {
   border: 1px solid var(--ink);
@@ -521,7 +498,6 @@
   .solver-welcome h2 { font-size: 30px; }
   .solver-messages { padding-left: 16px; padding-right: 16px; }
   .solver-composer { width: calc(100% - 24px); padding: 12px; }
-  .solver-model-button { padding: 0 4px; }
 }
 
 @media (min-width: 600px) {

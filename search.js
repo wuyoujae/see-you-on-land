@@ -3,8 +3,6 @@
 
   const SETTINGS_KEY = "summer-politics-openrouter-settings-v1";
   const CHAT_ENDPOINT = "https://openrouter.ai/api/v1/chat/completions";
-  const MODELS_ENDPOINT = "https://openrouter.ai/api/v1/models?input_modalities=image&output_modalities=text&sort=most-popular";
-  const CUSTOM_MODEL_VALUE = "__custom__";
   const DEFAULT_MODEL = "google/gemini-3.6-flash";
   const MAX_IMAGES = 4;
   const MAX_FILE_BYTES = 12 * 1024 * 1024;
@@ -28,8 +26,6 @@
     uploadButton: document.getElementById("solver-upload"),
     cameraInput: document.getElementById("solver-camera-input"),
     uploadInput: document.getElementById("solver-upload-input"),
-    modelButton: document.getElementById("solver-model-button"),
-    modelLabel: document.getElementById("solver-model-label"),
     sendButton: document.getElementById("solver-send"),
     status: document.getElementById("solver-status"),
     settingsButton: document.getElementById("open-solver-settings"),
@@ -38,9 +34,7 @@
     settingsForm: document.getElementById("solver-settings-form"),
     apiKey: document.getElementById("solver-api-key"),
     apiKeyToggle: document.getElementById("toggle-solver-api-key"),
-    modelSelect: document.getElementById("solver-model-select"),
-    customModelWrap: document.getElementById("solver-custom-model-wrap"),
-    customModel: document.getElementById("solver-custom-model"),
+    modelInput: document.getElementById("solver-model-input"),
     settingsStatus: document.getElementById("solver-settings-status"),
     testConnection: document.getElementById("test-solver-connection"),
     clearChat: document.getElementById("clear-solver-chat")
@@ -53,19 +47,15 @@
   let conversation = [];
   let requestController = null;
   let sending = false;
-  let visionModels = [];
-  let modelsLoaded = false;
-
   function loadSettings() {
     try {
       const value = JSON.parse(localStorage.getItem(SETTINGS_KEY));
       return {
         apiKey: typeof value?.apiKey === "string" ? value.apiKey.trim() : "",
-        model: typeof value?.model === "string" && value.model.trim() ? value.model.trim() : DEFAULT_MODEL,
-        modelName: typeof value?.modelName === "string" ? value.modelName.trim() : ""
+        model: typeof value?.model === "string" && value.model.trim() ? value.model.trim() : DEFAULT_MODEL
       };
     } catch {
-      return { apiKey: "", model: DEFAULT_MODEL, modelName: "" };
+      return { apiKey: "", model: DEFAULT_MODEL };
     }
   }
 
@@ -94,103 +84,21 @@
   }
 
   function currentModelLabel() {
-    if (settings.modelName) return settings.modelName;
-    const model = visionModels.find(item => item.id === settings.model);
-    if (model?.name) return model.name;
-    const fallback = Array.from(dom.modelSelect.options).find(option => option.value === settings.model);
-    return fallback?.textContent || settings.model.split("/").pop() || "配置模型";
+    return settings.model.split("/").pop() || "解题助手";
   }
 
   function renderConfigurationState() {
     dom.settingsDot.classList.toggle("configured", Boolean(settings.apiKey && settings.model));
-    dom.modelLabel.textContent = currentModelLabel();
-    dom.modelLabel.title = settings.model;
-  }
-
-  function selectedModelFromForm() {
-    return dom.modelSelect.value === CUSTOM_MODEL_VALUE
-      ? normalizeModel(dom.customModel.value)
-      : normalizeModel(dom.modelSelect.value);
-  }
-
-  function toggleCustomModel(focus = false) {
-    const custom = dom.modelSelect.value === CUSTOM_MODEL_VALUE;
-    dom.customModelWrap.hidden = !custom;
-    dom.customModel.required = custom;
-    if (custom && focus) requestAnimationFrame(() => dom.customModel.focus());
-  }
-
-  function setModelControls(model) {
-    const normalized = normalizeModel(model) || DEFAULT_MODEL;
-    const optionExists = Array.from(dom.modelSelect.options).some(option => option.value === normalized);
-    if (optionExists) {
-      dom.modelSelect.value = normalized;
-      dom.customModel.value = "";
-    } else {
-      dom.modelSelect.value = CUSTOM_MODEL_VALUE;
-      dom.customModel.value = normalized;
-    }
-    toggleCustomModel();
-  }
-
-  function priceLabel(model) {
-    const promptPrice = Number(model?.pricing?.prompt);
-    if (!Number.isFinite(promptPrice) || promptPrice <= 0) return promptPrice === 0 ? " · 免费" : "";
-    const perMillion = promptPrice * 1_000_000;
-    return ` · $${perMillion < 0.01 ? perMillion.toFixed(3) : perMillion.toFixed(2)}/M`;
-  }
-
-  function populateModelOptions(models) {
-    const selected = selectedModelFromForm() || settings.model || DEFAULT_MODEL;
-    const unique = new Map();
-    models.forEach(model => {
-      if (model?.id && !unique.has(model.id)) unique.set(model.id, model);
-    });
-
-    dom.modelSelect.innerHTML = "";
-    Array.from(unique.values()).slice(0, 100).forEach(model => {
-      const option = document.createElement("option");
-      option.value = model.id;
-      option.textContent = `${model.name || model.id}${priceLabel(model)}`;
-      dom.modelSelect.appendChild(option);
-    });
-    const customOption = document.createElement("option");
-    customOption.value = CUSTOM_MODEL_VALUE;
-    customOption.textContent = "其他模型 ID";
-    dom.modelSelect.appendChild(customOption);
-    setModelControls(selected);
-  }
-
-  async function loadVisionModels() {
-    if (modelsLoaded) return;
-    setSettingsStatus("正在获取可用的多模态模型…");
-    try {
-      const headers = settings.apiKey ? { Authorization: `Bearer ${settings.apiKey}` } : {};
-      const response = await fetch(MODELS_ENDPOINT, { headers });
-      if (!response.ok) throw new Error(`模型列表请求失败（${response.status}）`);
-      const payload = await response.json();
-      visionModels = Array.isArray(payload.data)
-        ? payload.data.filter(model => model?.architecture?.input_modalities?.includes("image") && model?.architecture?.output_modalities?.includes("text"))
-        : [];
-      if (!visionModels.length) throw new Error("没有获取到可用的图片模型");
-      populateModelOptions(visionModels);
-      modelsLoaded = true;
-      setSettingsStatus(`已获取 ${visionModels.length} 个支持图片输入的模型。`, "success");
-    } catch (error) {
-      setModelControls(settings.model);
-      setSettingsStatus(`${error.message || "模型列表加载失败"}，仍可手动填写模型 ID。`, "error");
-    }
   }
 
   function openSettings(message = "") {
     dom.apiKey.value = settings.apiKey;
     dom.apiKey.type = "password";
-    setModelControls(settings.model);
+    dom.modelInput.value = settings.model;
     setSettingsStatus(message);
     dom.settingsModal.hidden = false;
     refreshIcons();
-    loadVisionModels();
-    requestAnimationFrame(() => (settings.apiKey ? dom.modelSelect : dom.apiKey).focus());
+    requestAnimationFrame(() => (settings.apiKey ? dom.modelInput : dom.apiKey).focus());
   }
 
   function closeSettings() {
@@ -201,43 +109,53 @@
 
   function validateSettingsForm() {
     const apiKey = dom.apiKey.value.trim();
-    const model = selectedModelFromForm();
+    const model = normalizeModel(dom.modelInput.value);
     dom.apiKey.setCustomValidity("");
-    dom.modelSelect.setCustomValidity("");
-    dom.customModel.setCustomValidity("");
+    dom.modelInput.setCustomValidity("");
     if (!apiKey) {
       dom.apiKey.setCustomValidity("请输入 OpenRouter API Key");
       dom.apiKey.reportValidity();
       return null;
     }
     if (!model) {
-      const input = dom.modelSelect.value === CUSTOM_MODEL_VALUE ? dom.customModel : dom.modelSelect;
-      input.setCustomValidity("请选择或输入模型 ID");
-      input.reportValidity();
+      dom.modelInput.setCustomValidity("请输入模型 ID");
+      dom.modelInput.reportValidity();
       return null;
     }
-    const selectedOption = dom.modelSelect.selectedOptions[0];
-    const modelName = dom.modelSelect.value === CUSTOM_MODEL_VALUE
-      ? model.split("/").pop()
-      : (selectedOption?.textContent || model).replace(/ · \$.*$/, "").replace(/ · 免费$/, "");
-    return { apiKey, model, modelName };
+    return { apiKey, model };
+  }
+
+  function openRouterHeaders(apiKey) {
+    return {
+      Authorization: `Bearer ${apiKey}`,
+      "Content-Type": "application/json",
+      "HTTP-Referer": `${location.origin}${location.pathname}`,
+      "X-OpenRouter-Title": "See You On Land - Visual Solver"
+    };
   }
 
   async function testConnection() {
     const values = validateSettingsForm();
     if (!values) return;
     dom.testConnection.disabled = true;
-    setSettingsStatus("正在验证 API Key…");
+    setSettingsStatus("正在验证 API Key 和模型…");
     try {
-      const response = await fetch("https://openrouter.ai/api/v1/key", {
-        headers: { Authorization: `Bearer ${values.apiKey}` }
+      const response = await fetch(CHAT_ENDPOINT, {
+        method: "POST",
+        headers: openRouterHeaders(values.apiKey),
+        body: JSON.stringify({
+          model: values.model,
+          messages: [{ role: "user", content: "Reply with OK." }],
+          max_tokens: 4,
+          stream: false
+        })
       });
-      const payload = await response.json().catch(() => ({}));
-      if (!response.ok) throw new Error(payload?.error?.message || `验证失败（${response.status}）`);
-      const remaining = Number(payload?.data?.limit_remaining);
-      setSettingsStatus(Number.isFinite(remaining) ? `连接成功，可用额度 $${remaining.toFixed(2)}。` : "连接成功，API Key 可用。", "success");
+      if (!response.ok) await responseError(response);
+      const payload = await response.json();
+      if (!payload?.choices?.[0]?.message) throw new Error("模型没有返回有效响应");
+      setSettingsStatus("连接成功，API Key 和模型均可用。", "success");
     } catch (error) {
-      setSettingsStatus(error.message || "连接失败，请检查 API Key。", "error");
+      setSettingsStatus(friendlyError(error), "error");
     } finally {
       dom.testConnection.disabled = false;
     }
@@ -558,12 +476,7 @@
       const response = await fetch(CHAT_ENDPOINT, {
         method: "POST",
         signal: requestController.signal,
-        headers: {
-          Authorization: `Bearer ${settings.apiKey}`,
-          "Content-Type": "application/json",
-          "HTTP-Referer": `${location.origin}${location.pathname}`,
-          "X-OpenRouter-Title": "上岸学习 · 拍题搜题"
-        },
+        headers: openRouterHeaders(settings.apiKey),
         body: JSON.stringify({
           model: settings.model,
           messages: [{ role: "system", content: SYSTEM_PROMPT }, ...apiMessages(history)],
@@ -645,7 +558,6 @@
   });
 
   dom.settingsButton.addEventListener("click", () => openSettings());
-  dom.modelButton.addEventListener("click", () => openSettings());
   document.querySelectorAll("[data-close-solver-settings]").forEach(element => element.addEventListener("click", closeSettings));
   dom.apiKeyToggle.addEventListener("click", () => {
     const show = dom.apiKey.type === "password";
@@ -655,11 +567,7 @@
     dom.apiKeyToggle.innerHTML = `<i data-lucide="${show ? "eye-off" : "eye"}" aria-hidden="true"></i>`;
     refreshIcons();
   });
-  dom.modelSelect.addEventListener("change", () => {
-    dom.modelSelect.setCustomValidity("");
-    toggleCustomModel(true);
-  });
-  dom.customModel.addEventListener("input", () => dom.customModel.setCustomValidity(""));
+  dom.modelInput.addEventListener("input", () => dom.modelInput.setCustomValidity(""));
   dom.apiKey.addEventListener("input", () => dom.apiKey.setCustomValidity(""));
   dom.testConnection.addEventListener("click", testConnection);
   dom.settingsForm.addEventListener("submit", event => {
@@ -693,7 +601,6 @@
     }
   });
 
-  setModelControls(settings.model);
   renderConfigurationState();
   renderAttachments();
   renderConversation();
