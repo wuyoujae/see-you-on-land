@@ -80763,11 +80763,11 @@
           "count": 10
         },
         {
-          "name": "高质量发展",
-          "count": 8
+          "name": "机器人",
+          "count": 9
         },
         {
-          "name": "机器人",
+          "name": "高质量发展",
           "count": 8
         },
         {
@@ -80779,12 +80779,12 @@
           "count": 5
         },
         {
-          "name": "习近平",
+          "name": "人工智能",
           "count": 4
         },
         {
-          "name": "人工智能",
-          "count": 3
+          "name": "习近平",
+          "count": 4
         },
         {
           "name": "教育",
@@ -80873,22 +80873,6 @@
           "keyword": "经济"
         },
         {
-          "id": "7115b6d07bb2e0",
-          "source": "人民日报",
-          "title": "苏州以科技创新驱动高质量发展",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/21/content_30176297.html",
-          "date": "2026-08-21",
-          "keyword": "高质量发展"
-        },
-        {
-          "id": "9c7c933de15ec0",
-          "source": "光明日报",
-          "title": "推动“十五五”时期工会工作高质量发展",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/21/content_22932.html",
-          "date": "2026-08-21",
-          "keyword": "高质量发展"
-        },
-        {
           "id": "63b286925815de",
           "source": "半月谈",
           "title": "“十骏”腾跃向未来——广东人形机器人产业加速崛起",
@@ -80921,14 +80905,6 @@
           "keyword": "机器人"
         },
         {
-          "id": "b0bec3deb7f1d7",
-          "source": "广东发布",
-          "title": "全省高等教育高质量发展座谈会召开 坚持扎根中国大地办大学 把我省高等教育事业办得更好水平更高 黄坤明主持并讲话 孟凡利出席",
-          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4945564.html",
-          "date": "2026-08-21",
-          "keyword": "高质量发展"
-        },
-        {
           "id": "245055c57e291f",
           "source": "新华社",
           "title": "2026世界机器人大会丨人机共生：看机器人点亮未来生活",
@@ -80937,12 +80913,12 @@
           "keyword": "机器人"
         },
         {
-          "id": "1597b421a872ef",
+          "id": "d9126760ad6b43",
           "source": "新华社",
-          "title": "促进网信企业高质量发展五年行动计划发布",
-          "url": "https://www.news.cn/politics/20260821/05473be5f53843a397b128c16a648ec9/c.html",
+          "title": "世界机器人大会丨机器人“上班族”都能做哪些工作？",
+          "url": "https://www.news.cn/tech/20260821/e7ba0768b098420684a165dbfdd8b71a/c.html",
           "date": "2026-08-21",
-          "keyword": "高质量发展"
+          "keyword": "机器人"
         },
         {
           "id": "2a63fdf50e3889",
@@ -80961,20 +80937,52 @@
           "keyword": "机器人"
         },
         {
-          "id": "76f295fa672eb1",
-          "source": "求是",
-          "title": "强化理论思维 推动哲学社会科学高质量发展",
-          "url": "https://www.qstheory.cn/20260821/020ed53bd14b4e9d871951d06e9dfb4f/c.html",
-          "date": "2026-08-21",
-          "keyword": "高质量发展"
-        },
-        {
           "id": "43543cde9d78a6",
           "source": "求是",
           "title": "技术突破、市场领跑——中国机器人产业蓬勃发展",
           "url": "https://www.qstheory.cn/20260821/148c1369e21b4008bb9d964bdf0ef5ed/c.html",
           "date": "2026-08-21",
           "keyword": "机器人"
+        },
+        {
+          "id": "7115b6d07bb2e0",
+          "source": "人民日报",
+          "title": "苏州以科技创新驱动高质量发展",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/21/content_30176297.html",
+          "date": "2026-08-21",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "9c7c933de15ec0",
+          "source": "光明日报",
+          "title": "推动“十五五”时期工会工作高质量发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/21/content_22932.html",
+          "date": "2026-08-21",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "b0bec3deb7f1d7",
+          "source": "广东发布",
+          "title": "全省高等教育高质量发展座谈会召开 坚持扎根中国大地办大学 把我省高等教育事业办得更好水平更高 黄坤明主持并讲话 孟凡利出席",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4945564.html",
+          "date": "2026-08-21",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "1597b421a872ef",
+          "source": "新华社",
+          "title": "促进网信企业高质量发展五年行动计划发布",
+          "url": "https://www.news.cn/politics/20260821/05473be5f53843a397b128c16a648ec9/c.html",
+          "date": "2026-08-21",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "76f295fa672eb1",
+          "source": "求是",
+          "title": "强化理论思维 推动哲学社会科学高质量发展",
+          "url": "https://www.qstheory.cn/20260821/020ed53bd14b4e9d871951d06e9dfb4f/c.html",
+          "date": "2026-08-21",
+          "keyword": "高质量发展"
         },
         {
           "id": "a7f9a51aa7b54a",
@@ -81041,6 +81049,14 @@
           "keyword": "消费"
         },
         {
+          "id": "71422313091c7d",
+          "source": "人民日报",
+          "title": "​交通需求与人工智能技术加速对接（政策解读）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/21/content_30176300.html",
+          "date": "2026-08-21",
+          "keyword": "人工智能"
+        },
+        {
           "id": "a205d09da5b31d",
           "source": "人民日报",
           "title": "习近平致电祝贺希奇莱马当选连任赞比亚总统",
@@ -81065,22 +81081,6 @@
           "keyword": "习近平"
         },
         {
-          "id": "aed3f33763cfb4",
-          "source": "广东发布",
-          "title": "习近平致电祝贺希奇莱马当选连任赞比亚总统",
-          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4945031.html",
-          "date": "2026-08-21",
-          "keyword": "习近平"
-        },
-        {
-          "id": "71422313091c7d",
-          "source": "人民日报",
-          "title": "​交通需求与人工智能技术加速对接（政策解读）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/21/content_30176300.html",
-          "date": "2026-08-21",
-          "keyword": "人工智能"
-        },
-        {
           "id": "97ec82e9fb8bcf",
           "source": "学习强国",
           "title": "交通运输领域人工智能加快落地应用",
@@ -81093,6 +81093,22 @@
           "source": "学习强国",
           "title": "人工智能+交通运输：丰富场景供给，深化场景应用",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=5552164468444337996&item_id=5552164468444337996",
+          "date": "2026-08-21",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "aed3f33763cfb4",
+          "source": "广东发布",
+          "title": "习近平致电祝贺希奇莱马当选连任赞比亚总统",
+          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4945031.html",
+          "date": "2026-08-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "a314e84c2213e8",
+          "source": "新华社",
+          "title": "联合国人工智能与人类发展全球对话在西安举办",
+          "url": "https://www.news.cn/20260821/69529c6126904d9080324a62e131b189/c.html",
           "date": "2026-08-21",
           "keyword": "人工智能"
         },
@@ -81117,6 +81133,14 @@
           "source": "中国政府网",
           "title": "促内需 财政金融协同政策“组合拳”迎来优化",
           "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7078804.htm",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2278ac86c114a3",
+          "source": "中国政府网",
+          "title": "刘国中在安排部署秋粮生产和农业防灾减灾工作时强调 扎实做好农业防灾减灾工作 全力以赴夺取全年粮食丰收",
+          "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7078822.htm",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -81857,6 +81881,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "2bd97e0b293f35",
+          "source": "学习强国",
+          "title": "刘国中安排部署秋粮生产和农业防灾减灾工作",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=1693507243868604010&item_id=1693507243868604010",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "9650cb59fac203",
           "source": "学习强国",
           "title": "加强医保监管 守护群众健康",
@@ -81917,14 +81949,6 @@
           "source": "学习强国",
           "title": "旗帜鲜明反对伪史论",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=11825972234877346531&item_id=11825972234877346531",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "efb49910d4f490",
-          "source": "学习强国",
-          "title": "景德镇学院：服务陶瓷产业 传播法治力量",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=929292691445173937&item_id=929292691445173937",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82153,14 +82177,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "5169112b5f66d2",
-          "source": "新华社",
-          "title": "7月份民航旅客运输量同比增长3.9%",
-          "url": "https://www.news.cn/20260821/10d717fd3a724fe1b99fd6d7674f54f7/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
           "id": "562b24a6ad292a",
           "source": "新华社",
           "title": "81年前的今天，这里让世界瞩目",
@@ -82171,7 +82187,7 @@
         {
           "id": "22c6d95bcd4029",
           "source": "新华社",
-          "title": "G228国道助力沿线村镇百姓增收、产业兴旺",
+          "title": "G228国道助力沿线 村镇 百姓增收、产业兴旺",
           "url": "https://www.news.cn/local/20260821/a8a9f5b726de457597f0db3ca7d5d3e5/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
@@ -82185,26 +82201,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "affc2a43fb64e7",
+          "id": "de5c48fb159705",
           "source": "新华社",
-          "title": "万斯称对伊战事“进入新阶段”",
-          "url": "https://www.news.cn/world/20260821/6577f42d2df44eceb1b89d4813e2418b/c.html",
+          "title": "《对外投资管理办法(修订征求意见稿)》公开征意见",
+          "url": "https://www.news.cn/20260821/60cee2ad3a4d43bd804fdb0baf213d11/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
         {
-          "id": "2e869a579aa7aa",
+          "id": "b61c9c952476e7",
           "source": "新华社",
-          "title": "上海临港新片区将进一步放宽政策招才引才",
-          "url": "https://www.news.cn/local/20260821/aa17587d2a8d4d1b91d63710f8213b14/c.html",
+          "title": "两部门 针对琼桂粤启动应急响应",
+          "url": "https://www.news.cn/politics/20260821/f361eec8d0834abb933ab6a1c3505ccd/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
         {
-          "id": "386c8e2464852d",
+          "id": "f9e653be7ea054",
           "source": "新华社",
-          "title": "中国与瑞士宣布完成自贸协定升级谈判",
-          "url": "https://www.news.cn/20260821/70afd921b13b46d194cbb8af5e6b0d0b/c.html",
+          "title": "两部门发文细化人民币买卖活动监管要求",
+          "url": "https://www.news.cn/fortune/20260821/eec03f3969dd4b24b29cea9d5f49739a/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82213,6 +82229,14 @@
           "source": "新华社",
           "title": "中国与阿联酋将举行“猎鹰盾牌-2026”空军联合训练",
           "url": "https://www.news.cn/world/20260821/3973919301ed451db127d2c508b242c2/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "95a21acdcf5620",
+          "source": "新华社",
+          "title": "中国具身智能迎来规模化应用关键窗口期",
+          "url": "https://www.news.cn/tech/20260821/3451415940a047a3a3f90f8fb4e51b4b/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82229,22 +82253,6 @@
           "source": "新华社",
           "title": "中国第16次北冰洋考察队完成全部冰站调查",
           "url": "https://www.news.cn/tech/20260821/84db66a7d5e548a384f4a4173d7c62e5/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "a891aefde35a69",
-          "source": "新华社",
-          "title": "中国集装箱船首次成功抵达俄摩尔曼斯克港",
-          "url": "https://www.news.cn/20260821/095871e872fe48cd922b117af44a4991/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "0d0b0c85bf1fc8",
-          "source": "新华社",
-          "title": "中疾控专家：目前新冠疫情已出现下降趋势",
-          "url": "https://www.news.cn/politics/20260821/170bd9614c3b4cf39bda184703bac299/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82305,6 +82313,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "f93cddb1031d9e",
+          "source": "新华社",
+          "title": "刘国中安排部署秋粮生产和农业防灾减灾工作",
+          "url": "https://www.news.cn/politics/leaders/20260821/fb9fb5f67bad4828aa25b8b400e95d8f/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "c59ae1286981b7",
           "source": "新华社",
           "title": "前7个月我国吸收外资4383.3亿元",
@@ -82337,26 +82353,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "ee1a427b03f064",
-          "source": "新华社",
-          "title": "反“内卷” 市场监管总局公布经营者集中审查案例",
-          "url": "https://www.news.cn/fortune/20260821/f2f36acb66684406a57a9203d1aa57bb/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
           "id": "e2904b6336672e",
           "source": "新华社",
           "title": "台湾旅游展秋季展登场 潮玩成为两岸文旅交流新节点",
           "url": "https://www.news.cn/20260821/d8ca15001f6d43e5ad5ca16c8eb1597b/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "8e21bb12d05429",
-          "source": "新华社",
-          "title": "国家中医药管理局原局长于文明一审被判十五年",
-          "url": "https://www.news.cn/legal/20260821/2d09fb6ff9614466bf70ae19d19887d5/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82385,18 +82385,34 @@
           "keyword": "综合时政"
         },
         {
+          "id": "6b51378750a6cc",
+          "source": "新华社",
+          "title": "山东菏泽：户外大屏海报致敬功勋模范",
+          "url": "https://www.news.cn/photo/20260821/2e7e2a638bf8428e846e03fa2b6f5f79/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "90cf0a33116b7e",
           "source": "新华社",
-          "title": "山东 迎新一轮降雨并发布地质灾害、山洪灾害预警",
+          "title": "山东迎新一轮降雨",
           "url": "https://www.news.cn/local/20260821/afbcacfb2ac94718a1c0e22c548adebb/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
         {
-          "id": "6b51378750a6cc",
+          "id": "caf2c0fa76e333",
           "source": "新华社",
-          "title": "山东菏泽：户外大屏海报致敬功勋模范",
-          "url": "https://www.news.cn/photo/20260821/2e7e2a638bf8428e846e03fa2b6f5f79/c.html",
+          "title": "山西省人民政府驻北京办事处原党组成员、副主任张建平被开除党籍",
+          "url": "https://www.news.cn/20260821/d7ab12e47c4f4ff78b668030f5f7d8c0/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9c9ac4f2eeab3b",
+          "source": "新华社",
+          "title": "山西省投资促进局原党组书记、局长杨春权被开除党籍和公职",
+          "url": "https://www.news.cn/20260821/b28b5fe397d44c05b7d2efb3ec2f0caa/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82409,18 +82425,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "4111531dd8de44",
+          "id": "06bee21caad9bc",
           "source": "新华社",
-          "title": "广西壮族自治区国资委原党委书记、主任管跃庆接受纪律审查和监察调查",
-          "url": "https://www.news.cn/20260821/edc951ce08564d2182bab3514d3babb3/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "609ef140cb247e",
-          "source": "新华社",
-          "title": "成渝中线高铁全线首条接触网导线成功架设",
-          "url": "https://www.news.cn/20260821/a66c6117b3f341e6a4f090139b5dc1e4/c.html",
+          "title": "德国储气水平跌至历年同期最低",
+          "url": "https://www.news.cn/20260821/0f98c6ae112c4a60a1b2519097d26f8c/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82473,6 +82481,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "662edd2e00b139",
+          "source": "新华社",
+          "title": "潞安化工集团有限公司原副总经理韩玉明被开除党籍和公职",
+          "url": "https://www.news.cn/20260821/a7cdc2e99a6c4e79b11ab847fd22b446/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "9f1ec22e36e57f",
           "source": "新华社",
           "title": "热点追踪丨这个暑假，“入境游”格外火",
@@ -82489,14 +82505,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "d315b17efb5a8a",
-          "source": "新华社",
-          "title": "瑞士一建筑起火致5人失踪8人受伤",
-          "url": "https://www.news.cn/20260821/baa1a5cfb6f84a6a8091e224cf7baaeb/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
           "id": "48c278132ad49a",
           "source": "新华社",
           "title": "看展丨深海寻宝，打开沉睡千年的“时光宝盒”",
@@ -82505,10 +82513,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "e3fe3aba805bf1",
+          "id": "904d0c157c4d51",
           "source": "新华社",
-          "title": "研究：气候变化或致欧洲野火过火面积激增",
-          "url": "https://www.news.cn/20260821/901af6a8c7754ac89913179be7dbb2a3/c.html",
+          "title": "破瓶颈 强联动 质量强链“成绩单”公布",
+          "url": "https://www.news.cn/fortune/20260821/2b4e6956bca04224ab1c14584dddcb96/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82529,26 +82537,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "d7d3dba77082f9",
+          "id": "9105dc48f9d2bd",
           "source": "新华社",
-          "title": "解决质量堵点卡点问题15万个 质量强链成果公布",
-          "url": "https://www.news.cn/20260821/698025520fcc4c66ac8a31e89ea4419b/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "a9343176bafd2d",
-          "source": "新华社",
-          "title": "讲好“绿色中国” 生态环境法典中英双语版图书亮相",
-          "url": "https://www.news.cn/20260821/681e7c6b560d481ab89319808bc5a753/c.html",
-          "date": "2026-08-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "f0cf642de287ea",
-          "source": "新华社",
-          "title": "谁在为美国加码制裁伊朗“埋单”",
-          "url": "https://www.news.cn/world/20260821/03401f6a9cf54babbb7513fbbd2e8e84/c.html",
+          "title": "第四届中国航协（CATA）航空大会将于9月举行",
+          "url": "https://www.news.cn/20260821/4c8c52cb09f343bfbb0a7afea62470b4/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82581,6 +82573,22 @@
           "source": "新华社",
           "title": "金融监管总局发文强化非车险综合治理",
           "url": "https://www.news.cn/fortune/20260821/f7ba275087bd46b38495ba127559ced2/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4b71558bcd0971",
+          "source": "新华社",
+          "title": "镜观中国丨始终把人民生命安全放在首位",
+          "url": "https://www.news.cn/politics/20260821/0f63620859d24a48aa930d921eb7f89c/c.html",
+          "date": "2026-08-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8c781a1c72c1b2",
+          "source": "新华社",
+          "title": "黑龙江省检察院原党组成员、巡视员徐军严重违纪违法被开除党籍",
+          "url": "https://www.news.cn/20260821/e7468f0c065b4b42ad18b417454e02e7/c.html",
           "date": "2026-08-21",
           "keyword": "综合时政"
         },
@@ -82772,25 +82780,25 @@
           "source": "人民日报",
           "status": "ok",
           "count": 32,
-          "duration": 1.5
+          "duration": 2.2
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.5
+          "duration": 2.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 23,
-          "duration": 24.8
+          "duration": 26.0
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 18,
-          "duration": 6.3
+          "duration": 6.1
         },
         {
           "source": "光明日报",
@@ -82802,28 +82810,28 @@
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.3
+          "duration": 14.5
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 3.4
+          "duration": 3.8
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 3,
-          "duration": 9.3
+          "count": 4,
+          "duration": 11.6
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 11,
-          "duration": 49.9
+          "duration": 100.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-21T20:34:45+08:00"
+  "generatedAt": "2026-08-21T21:42:11+08:00"
 }
