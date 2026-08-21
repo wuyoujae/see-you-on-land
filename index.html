@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#ffffff">
   <title>暑假时政学习清单</title>
   <link rel="stylesheet" href="clock.css?v=20260815-2">
-  <link rel="stylesheet" href="search.css?v=20260821-2">
+  <link rel="stylesheet" href="search.css?v=20260821-3">
   <style>
     :root {
       --bg: #ffffff;
@@ -1241,6 +1241,11 @@
         <div>
           <p class="eyebrow">VISUAL SOLVER</p>
           <h1 id="solver-title">拍题搜题</h1>
+          <button type="button" class="solver-session-switch" id="open-solver-sessions" aria-label="切换对话">
+            <i data-lucide="messages-square" aria-hidden="true"></i>
+            <span id="solver-current-session">新对话</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </button>
         </div>
         <button type="button" class="icon-button solver-settings-button" id="open-solver-settings" title="搜题设置" aria-label="打开搜题设置">
           <i data-lucide="settings-2" aria-hidden="true"></i>
@@ -1378,6 +1383,24 @@
           </div>
           <button type="button" class="solver-clear-button" id="clear-solver-chat"><i data-lucide="trash-2" aria-hidden="true"></i><span>清空当前对话</span></button>
         </form>
+      </section>
+    </div>
+
+    <div class="solver-sessions-modal" id="solver-sessions-modal" hidden>
+      <div class="solver-sessions-backdrop" data-close-solver-sessions></div>
+      <section class="solver-sessions-dialog" role="dialog" aria-modal="true" aria-labelledby="solver-sessions-title">
+        <header class="solver-sessions-header">
+          <div>
+            <p class="eyebrow">SESSIONS</p>
+            <h2 id="solver-sessions-title">对话记录</h2>
+          </div>
+          <button type="button" class="icon-button" data-close-solver-sessions aria-label="关闭对话记录"><i data-lucide="x" aria-hidden="true"></i></button>
+        </header>
+        <button type="button" class="solver-new-session" id="solver-new-session">
+          <i data-lucide="plus" aria-hidden="true"></i>
+          <span>新建对话</span>
+        </button>
+        <div class="solver-session-list" id="solver-session-list" role="list"></div>
       </section>
     </div>
 
@@ -1838,6 +1861,8 @@
   </script>
   <script src="clock.js?v=20260815-2"></script>
   <script src="backup.js?v=20260815-1"></script>
-  <script src="search.js?v=20260821-2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@18.0.10/lib/marked.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.4.14/dist/purify.min.js"></script>
+  <script src="search.js?v=20260821-3"></script>
 </body>
 </html>
