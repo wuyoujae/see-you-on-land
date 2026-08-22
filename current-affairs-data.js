@@ -83335,10 +83335,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "363d970495138b",
+          "source": "广东发布",
+          "title": "今年第19号台风生成 中心附近最大风力8级 广东启动防风Ⅳ级应急响应",
+          "url": "https://www.gd.gov.cn/gdywdt/bmdt/content/post_4945614.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c224108395b6f7",
+          "source": "广东发布",
+          "title": "李强主持召开国务院常务会议 听取新一代通信网建设情况汇报等",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4945608.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fc2446bd12e86a",
+          "source": "新华社",
+          "title": "中印尼专家探讨中国式现代化与“黄金印尼2045”对接",
+          "url": "https://www.news.cn/silkroad/20260822/da25337289574076be3ef2692a3363c5/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "34ac181aee8a91",
+          "source": "新华社",
+          "title": "中拉青年合作提出创新减贫方案",
+          "url": "https://www.news.cn/silkroad/20260822/8b9d7b46cea445bd8624331f2f4b5f9e/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "491afc82426664",
           "source": "新华社",
           "title": "乌克兰一购物中心遭无人机袭击 至少15人死亡",
           "url": "https://www.news.cn/20260822/2f644557ef37477a979dc52c601da57f/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "187ed5544d69d8",
+          "source": "新华社",
+          "title": "乌克兰一购物中心遭袭至少15死",
+          "url": "https://www.news.cn/world/20260822/d853f48459ce44329b0d66b78aafb33f/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83361,8 +83401,24 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "1e058757eec7cd",
           "source": "新华社",
-          "title": "习近平强党兴党的故事｜“发挥好支部的战斗堡垒作用”",
+          "title": "习近平强党兴党的故事丨“发挥好支部的战斗堡垒作用”",
           "url": "https://www.news.cn/politics/leaders/20260822/d3bdb9e4815449e08686b060005794cf/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "39af650e730bdb",
+          "source": "新华社",
+          "title": "卢拉与特朗普通话 反对美国对巴商品加征关税",
+          "url": "https://www.news.cn/20260822/cc1e6a1df4b34fe5b7f581c019853202/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b9bd1b6378837f",
+          "source": "新华社",
+          "title": "古巴谴责美国对古新一轮制裁",
+          "url": "https://www.news.cn/world/20260822/9d56755cbc514ae29276eefb670d6bc0/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83371,6 +83427,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "土耳其寻求对内塔尼亚胡发布“红色通缉令”",
           "url": "https://www.news.cn/20260822/223b8c71ee894503837e8026c3aba208/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3f50088661e5a5",
+          "source": "新华社",
+          "title": "基辅响起强烈爆炸",
+          "url": "https://www.news.cn/world/20260822/4a34412de74746d3bd367bb87a4683a4/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83391,10 +83455,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "76c47d29864cc7",
+          "source": "新华社",
+          "title": "河南淅川：千年古刹藏山林",
+          "url": "https://www.news.cn/photo/20260822/be5696c81bd64c358cab55f452dc23ca/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3e24176d62ccec",
+          "source": "新华社",
+          "title": "特稿丨中国贡献助力全球防治荒漠化“重燃希望”",
+          "url": "https://www.news.cn/silkroad/20260822/eaf74717f58a4ed1aa7e024fdc737fde/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a42ddf6d1856d1",
           "source": "新华社",
           "title": "瑞典校园持剑袭击事件致1死3伤",
           "url": "https://www.news.cn/20260822/df04168bd1b1471cb145059e818ae92a/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "844351cdfe4ff4",
+          "source": "新华社",
+          "title": "祁连山北麓生态环境蝶变十年观察",
+          "url": "https://www.news.cn/20260822/a6cde242707a4c3d8d74d0e47be13350/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83415,10 +83503,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "c532aeb5f02577",
+          "source": "新华社",
+          "title": "美媒：美计划偿还联合国8.5亿美元欠款",
+          "url": "https://www.news.cn/world/20260822/aff60474ea9d4af094df477ee889eab7/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "e93eb709746ae9",
           "source": "新华社",
           "title": "荷兰对优步网约车公司开出8.25亿欧元罚单",
           "url": "https://www.news.cn/20260822/620f1f3d1c5041a48b5453b032f2a809/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f4949c0f340add",
+          "source": "新华社",
+          "title": "评论丨​钟才文：中国经济的韧性与活力",
+          "url": "https://www.news.cn/politics/20260822/31821e06af2d446bae37efe4fb275163/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6341ebdd687286",
+          "source": "新华社",
+          "title": "走近黑龙江自贸试验区绥芬河片区",
+          "url": "https://www.news.cn/20260822/d3487af643264f599c09ca66f016e606/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83439,10 +83551,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "54b4bf0c082f3f",
+          "source": "新华社",
+          "title": "阿根廷足协：将上诉",
+          "url": "https://www.news.cn/sports/20260822/13bb2602bcda439395939271c4db30e0/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "de137a45715fe9",
           "source": "新华社",
           "title": "阿根廷足协：将向国际足联上诉委员会上诉",
           "url": "https://www.news.cn/20260822/99422841f2ea4de8841ef65927b9f793/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "352b9e08c2ed7a",
+          "source": "求是",
+          "title": "如何提升灾害治理能力和水平",
+          "url": "https://www.qstheory.cn/20260822/a7ddb85a9a004981bc1c99ddfa6d2a04/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         }
@@ -83452,65 +83580,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.3,
+          "duration": 10.6,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260822.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 34,
-          "duration": 1.7
+          "duration": 3.6
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 14,
-          "duration": 2.4
+          "count": 27,
+          "duration": 2.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 52.6
+          "duration": 30.7
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 5.8
+          "count": 1,
+          "duration": 6.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 1.5
+          "duration": 1.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.7
+          "duration": 12.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.6
+          "duration": 2.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.7
+          "duration": 8.9
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 0,
-          "duration": 58.7
+          "count": 2,
+          "duration": 44.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-22T07:29:05+08:00"
+  "generatedAt": "2026-08-22T08:53:36+08:00"
 };
