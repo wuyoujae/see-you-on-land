@@ -1,13 +1,15 @@
 (() => {
   "use strict";
 
-  const SETTINGS_KEY = "summer-politics-openrouter-settings-v1";
+  const SETTINGS_KEY = "summer-politics-responses-settings-v2";
+  const LEGACY_SETTINGS_KEY = "summer-politics-openrouter-settings-v1";
   const ACTIVE_SESSION_KEY = "summer-politics-ai-active-session-v1";
   const DB_NAME = "summer-politics-ai-sessions";
   const DB_VERSION = 1;
   const SESSION_STORE = "sessions";
-  const CHAT_ENDPOINT = "https://openrouter.ai/api/v1/chat/completions";
-  const DEFAULT_MODEL = "google/gemini-3.6-flash";
+  const DEFAULT_BASE_URL = "https://api.openai.com/v1";
+  const LEGACY_BASE_URL = "https://openrouter.ai/api/v1";
+  const DEFAULT_MODEL = "gpt-5.6";
   const MAX_IMAGES = 4;
   const MAX_FILE_BYTES = 12 * 1024 * 1024;
   const PERSIST_DELAY = 500;
@@ -39,6 +41,7 @@
     settingsForm: document.getElementById("solver-settings-form"),
     apiKey: document.getElementById("solver-api-key"),
     apiKeyToggle: document.getElementById("toggle-solver-api-key"),
+    baseUrl: document.getElementById("solver-base-url"),
     modelInput: document.getElementById("solver-model-input"),
     settingsStatus: document.getElementById("solver-settings-status"),
     testConnection: document.getElementById("test-solver-connection"),
@@ -68,13 +71,16 @@
 
   function loadSettings() {
     try {
-      const value = JSON.parse(localStorage.getItem(SETTINGS_KEY));
+      const saved = localStorage.getItem(SETTINGS_KEY);
+      const value = JSON.parse(saved || localStorage.getItem(LEGACY_SETTINGS_KEY));
+      const migrated = !saved && Boolean(value);
       return {
         apiKey: typeof value?.apiKey === "string" ? value.apiKey.trim() : "",
+        baseUrl: normalizeBaseUrl(value?.baseUrl || (migrated ? LEGACY_BASE_URL : DEFAULT_BASE_URL)) || DEFAULT_BASE_URL,
         model: typeof value?.model === "string" && value.model.trim() ? value.model.trim() : DEFAULT_MODEL
       };
     } catch {
-      return { apiKey: "", model: DEFAULT_MODEL };
+      return { apiKey: "", baseUrl: DEFAULT_BASE_URL, model: DEFAULT_MODEL };
     }
   }
 
@@ -84,6 +90,28 @@
 
   function normalizeModel(value) {
     return String(value ?? "").trim().slice(0, 120);
+  }
+
+  function normalizeBaseUrl(value) {
+    const text = String(value ?? "").trim().replace(/\/+$/, "").slice(0, 500);
+    if (!text) return "";
+    try {
+      const url = new URL(text);
+      if (!/^https?:$/.test(url.protocol)) return "";
+      return text;
+    } catch {
+      return "";
+    }
+  }
+
+  function responsesEndpoint(baseUrl) {
+    const normalized = normalizeBaseUrl(baseUrl);
+    if (!normalized) return "";
+    const url = new URL(normalized);
+    const path = url.pathname.replace(/\/+$/, "");
+    if (/\/responses$/i.test(path)) return url.toString().replace(/\/$/, "");
+    url.pathname = !path || path === "/" ? "/v1/responses" : `${path}/responses`;
+    return url.toString().replace(/\/$/, "");
   }
 
   function refreshIcons() {
@@ -107,18 +135,19 @@
   }
 
   function renderConfigurationState() {
-    dom.settingsDot.classList.toggle("configured", Boolean(settings.apiKey && settings.model));
+    dom.settingsDot.classList.toggle("configured", Boolean(settings.apiKey && settings.baseUrl && settings.model));
   }
 
   function openSettings(message = "") {
     closeSessions();
     dom.apiKey.value = settings.apiKey;
     dom.apiKey.type = "password";
+    dom.baseUrl.value = settings.baseUrl;
     dom.modelInput.value = settings.model;
     setSettingsStatus(message);
     dom.settingsModal.hidden = false;
     refreshIcons(dom.settingsModal);
-    requestAnimationFrame(() => (settings.apiKey ? dom.modelInput : dom.apiKey).focus());
+    requestAnimationFrame(() => (settings.apiKey ? dom.baseUrl : dom.apiKey).focus());
   }
 
   function closeSettings() {
@@ -129,12 +158,19 @@
 
   function validateSettingsForm() {
     const apiKey = dom.apiKey.value.trim();
+    const baseUrl = normalizeBaseUrl(dom.baseUrl.value);
     const model = normalizeModel(dom.modelInput.value);
     dom.apiKey.setCustomValidity("");
+    dom.baseUrl.setCustomValidity("");
     dom.modelInput.setCustomValidity("");
     if (!apiKey) {
-      dom.apiKey.setCustomValidity("请输入 OpenRouter API Key");
+      dom.apiKey.setCustomValidity("请输入 API Key");
       dom.apiKey.reportValidity();
+      return null;
+    }
+    if (!baseUrl) {
+      dom.baseUrl.setCustomValidity("请输入有效的 HTTP 或 HTTPS Base URL");
+      dom.baseUrl.reportValidity();
       return null;
     }
     if (!model) {
@@ -142,15 +178,13 @@
       dom.modelInput.reportValidity();
       return null;
     }
-    return { apiKey, model };
+    return { apiKey, baseUrl, model };
   }
 
-  function openRouterHeaders(apiKey) {
+  function responsesHeaders(apiKey) {
     return {
       Authorization: `Bearer ${apiKey}`,
-      "Content-Type": "application/json",
-      "HTTP-Referer": `${location.origin}${location.pathname}`,
-      "X-OpenRouter-Title": "See You On Land - Visual Solver"
+      "Content-Type": "application/json"
     };
   }
 
@@ -160,20 +194,21 @@
     dom.testConnection.disabled = true;
     setSettingsStatus("正在验证 API Key 和模型…");
     try {
-      const response = await fetch(CHAT_ENDPOINT, {
+      const response = await fetch(responsesEndpoint(values.baseUrl), {
         method: "POST",
-        headers: openRouterHeaders(values.apiKey),
+        headers: responsesHeaders(values.apiKey),
         body: JSON.stringify({
           model: values.model,
-          messages: [{ role: "user", content: "Reply with OK." }],
-          max_tokens: 4,
-          stream: false
+          input: "Reply with OK.",
+          max_output_tokens: 64,
+          stream: false,
+          store: false
         })
       });
       if (!response.ok) await responseError(response);
       const payload = await response.json();
-      if (!payload?.choices?.[0]?.message) throw new Error("模型没有返回有效响应");
-      setSettingsStatus("连接成功，API Key 和模型均可用。", "success");
+      if (!responseOutputText(payload)) throw new Error(payload?.error?.message || "模型没有返回有效响应");
+      setSettingsStatus("连接成功，Responses API、API Key 和模型均可用。", "success");
     } catch (error) {
       setSettingsStatus(friendlyError(error), "error");
     } finally {
@@ -949,8 +984,9 @@
       await window.wrongQuestionBook.ready;
       const analysis = await window.wrongQuestionBook.analyzeQuestion({
         apiKey: settings.apiKey,
+        endpoint: responsesEndpoint(settings.baseUrl),
         model: settings.model,
-        headers: openRouterHeaders,
+        headers: responsesHeaders,
         userMessage,
         assistantText: assistantMessage.text,
         signal: controller.signal
@@ -980,62 +1016,32 @@
     });
   }
 
-  function apiMessages(messages) {
+  function responsesInput(messages) {
     return messages.filter(message => message.status !== "error" && message.status !== "streaming").map(message => {
       if (message.role === "assistant") {
-        const result = { role: "assistant", content: message.text };
-        if (message.reasoningDetails?.length) result.reasoning_details = message.reasoningDetails;
-        else if (message.reasoning) result.reasoning = message.reasoning;
-        return result;
+        return { type: "message", role: "assistant", content: message.text };
       }
-      const content = [{ type: "text", text: message.text || "请识别并解答图片中的题目。" }];
+      const content = [{ type: "input_text", text: message.text || "请识别并解答图片中的题目。" }];
       (message.images || []).forEach(image => {
-        content.push({ type: "image_url", image_url: { url: image.dataUrl } });
+        content.push({ type: "input_image", image_url: image.dataUrl, detail: "auto" });
       });
-      return { role: "user", content };
+      return { type: "message", role: "user", content };
     });
   }
 
-  function contentDelta(value) {
-    if (typeof value === "string") return value;
-    if (!Array.isArray(value)) return "";
-    return value.map(part => typeof part === "string" ? part : (part?.text || part?.content || "")).join("");
+  function responseOutputText(payload) {
+    if (typeof payload?.output_text === "string") return payload.output_text;
+    return (payload?.output || []).flatMap(item => item?.type === "message" ? (item.content || []) : [])
+      .filter(part => part?.type === "output_text" || part?.type === "text")
+      .map(part => part.text || "")
+      .join("");
   }
 
-  function reasoningDelta(delta) {
-    const details = Array.isArray(delta?.reasoning_details) ? delta.reasoning_details : [];
-    const visible = details.map(detail => {
-      if (detail?.type === "reasoning.text") return detail.text || "";
-      if (detail?.type === "reasoning.summary") return detail.summary || "";
-      return "";
-    }).join("");
-    return visible || contentDelta(delta?.reasoning || delta?.reasoning_content);
-  }
-
-  function mergeReasoningDetails(target, incoming) {
-    incoming.forEach(detail => {
-      if (!detail || typeof detail !== "object") return;
-      const key = `${detail.index ?? ""}|${detail.id ?? ""}|${detail.type ?? ""}|${detail.format ?? ""}`;
-      const existing = target.find(item => item.__key === key);
-      if (!existing) {
-        target.push({ ...detail, __key: key });
-        return;
-      }
-      ["text", "summary", "data"].forEach(field => {
-        if (typeof detail[field] === "string") existing[field] = `${existing[field] || ""}${detail[field]}`;
-      });
-      Object.keys(detail).forEach(field => {
-        if (!["text", "summary", "data"].includes(field) && detail[field] != null) existing[field] = detail[field];
-      });
-    });
-  }
-
-  function cleanReasoningDetails(details) {
-    return details.map(detail => {
-      const copy = { ...detail };
-      delete copy.__key;
-      return copy;
-    });
+  function responseReasoningText(payload) {
+    return (payload?.output || []).filter(item => item?.type === "reasoning").flatMap(item => [
+      ...(item.summary || []).map(part => part?.text || ""),
+      ...(item.content || []).map(part => part?.text || "")
+    ]).filter(Boolean).join("\n\n");
   }
 
   async function responseError(response) {
@@ -1046,15 +1052,37 @@
     throw error;
   }
 
-  async function consumeStream(response, onChunk) {
-    if (!response.body) {
+  async function createResponseRequest(body, signal, allowReasoningFallback = false) {
+    const request = async payload => {
+      const response = await fetch(responsesEndpoint(settings.baseUrl), {
+        method: "POST",
+        signal,
+        headers: responsesHeaders(settings.apiKey),
+        body: JSON.stringify(payload)
+      });
+      if (!response.ok) await responseError(response);
+      return response;
+    };
+    try {
+      return await request(body);
+    } catch (error) {
+      const unsupportedReasoning = error?.status === 400
+        && body.reasoning
+        && /reasoning|summary|unsupported|unknown|unrecognized|extra field|not allowed/i.test(error.message || "");
+      if (!allowReasoningFallback || !unsupportedReasoning) throw error;
+      const fallback = { ...body };
+      delete fallback.reasoning;
+      return request(fallback);
+    }
+  }
+
+  async function consumeResponsesStream(response, onChunk) {
+    if (!response.body || !String(response.headers.get("content-type") || "").includes("text/event-stream")) {
       const payload = await response.json();
       if (payload.error) throw new Error(payload.error.message || "模型返回错误");
-      const message = payload?.choices?.[0]?.message || {};
       onChunk({
-        text: contentDelta(message.content),
-        reasoning: reasoningDelta(message),
-        reasoningDetails: message.reasoning_details || []
+        text: responseOutputText(payload),
+        reasoning: responseReasoningText(payload)
       });
       return;
     }
@@ -1063,6 +1091,8 @@
     const decoder = new TextDecoder();
     let buffer = "";
     let complete = false;
+    let sawText = false;
+    let sawReasoning = false;
     const processLine = rawLine => {
       const line = rawLine.trim();
       if (!line.startsWith("data:")) return;
@@ -1072,21 +1102,31 @@
         complete = true;
         return;
       }
-      let chunk;
+      let event;
       try {
-        chunk = JSON.parse(data);
+        event = JSON.parse(data);
       } catch {
         return;
       }
-      if (chunk.error) throw new Error(chunk.error.message || "模型生成中断");
-      const choice = chunk?.choices?.[0];
-      if (choice?.error) throw new Error(choice.error.message || "模型生成中断");
-      const delta = choice?.delta || {};
-      onChunk({
-        text: contentDelta(delta.content),
-        reasoning: reasoningDelta(delta),
-        reasoningDetails: Array.isArray(delta.reasoning_details) ? delta.reasoning_details : []
-      });
+      if (event.error || event.type === "error" || event.type === "response.failed") {
+        throw new Error(event.error?.message || event.message || event.response?.error?.message || "模型生成中断");
+      }
+      if (event.type === "response.output_text.delta") {
+        sawText = true;
+        onChunk({ text: event.delta || "", reasoning: "" });
+      } else if (event.type === "response.reasoning_summary_text.delta" || event.type === "response.reasoning_text.delta") {
+        sawReasoning = true;
+        onChunk({ text: "", reasoning: event.delta || "" });
+      } else if (event.type === "response.completed" || event.type === "response.incomplete") {
+        if (!sawText || !sawReasoning) {
+          const finalResponse = event.response || {};
+          onChunk({
+            text: sawText ? "" : responseOutputText(finalResponse),
+            reasoning: sawReasoning ? "" : responseReasoningText(finalResponse)
+          });
+        }
+        complete = true;
+      }
     };
 
     while (!complete) {
@@ -1105,12 +1145,12 @@
     if (error?.name === "AbortError") return "已停止生成。";
     if (error?.status === 400) return error.message || "请求内容或模型 ID 无效。";
     if (error?.status === 401) return "API Key 无效，请在设置中重新填写。";
-    if (error?.status === 402) return "OpenRouter 账户额度不足，请充值或更换模型。";
+    if (error?.status === 402) return "API 账户额度不足，请充值或更换服务。";
     if (error?.status === 403) return error.message || "当前 API Key 没有调用该模型的权限。";
     if (error?.status === 429) return "请求过于频繁，请稍后再试。";
     if (error?.status === 502) return "当前模型服务异常，请稍后重试。";
     if (error?.status === 503) return "当前模型暂时没有可用服务，请更换模型。";
-    if (error instanceof TypeError) return "无法连接 OpenRouter，请检查网络后重试。";
+    if (error instanceof TypeError) return "无法连接 Responses API，请检查 Base URL、CORS 和网络。";
     return error?.message || "搜题失败，请稍后重试。";
   }
 
@@ -1148,8 +1188,8 @@
 
   async function sendQuestion() {
     if (!sessionsReady) return;
-    if (!settings.apiKey || !settings.model) {
-      setStatus("请先配置 OpenRouter API Key 和模型。", true);
+    if (!settings.apiKey || !settings.baseUrl || !settings.model) {
+      setStatus("请先配置 API Key、Base URL 和模型。", true);
       openSettings("完成设置后即可开始搜题。");
       return;
     }
@@ -1206,25 +1246,20 @@
     requestController = new AbortController();
 
     try {
-      const response = await fetch(CHAT_ENDPOINT, {
-        method: "POST",
-        signal: requestController.signal,
-        headers: openRouterHeaders(settings.apiKey),
-        body: JSON.stringify({
-          model: settings.model,
-          messages: [{ role: "system", content: SYSTEM_PROMPT }, ...apiMessages(history)],
-          reasoning: { enabled: true, exclude: false },
-          plugins: [{ id: "context-compression", enabled: false }],
-          stream: true
-        })
-      });
-      if (!response.ok) await responseError(response);
-      await consumeStream(response, chunk => {
+      const response = await createResponseRequest({
+        model: settings.model,
+        instructions: SYSTEM_PROMPT,
+        input: responsesInput(history),
+        reasoning: { summary: "auto" },
+        truncation: "auto",
+        stream: true,
+        store: false
+      }, requestController.signal, true);
+      await consumeResponsesStream(response, chunk => {
         if (chunk.reasoning) {
           if (!assistant.reasoning) startReasoningClock(assistant);
           assistant.reasoning += chunk.reasoning;
         }
-        if (chunk.reasoningDetails.length) mergeReasoningDetails(assistant.reasoningDetails, chunk.reasoningDetails);
         if (chunk.text) {
           if (assistant.reasoning && !assistant.reasoningEndedAt) {
             assistant.reasoningEndedAt = Date.now();
@@ -1257,7 +1292,6 @@
         assistant.reasoningEndedAt = Date.now();
         assistant.reasoningSeconds = (assistant.reasoningEndedAt - assistant.reasoningStartedAt) / 1000;
       }
-      assistant.reasoningDetails = cleanReasoningDetails(assistant.reasoningDetails);
       requestController = null;
       setSending(false);
       scheduleSessionSave(session, true);
@@ -1427,6 +1461,7 @@
     refreshIcons(dom.apiKeyToggle);
   });
   dom.modelInput.addEventListener("input", () => dom.modelInput.setCustomValidity(""));
+  dom.baseUrl.addEventListener("input", () => dom.baseUrl.setCustomValidity(""));
   dom.apiKey.addEventListener("input", () => dom.apiKey.setCustomValidity(""));
   dom.testConnection.addEventListener("click", testConnection);
   dom.settingsForm.addEventListener("submit", event => {

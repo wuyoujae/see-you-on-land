@@ -4,7 +4,6 @@
   const DB_NAME = "summer-politics-wrong-questions";
   const DB_VERSION = 1;
   const STORE_NAME = "wrongQuestions";
-  const CHAT_ENDPOINT = "https://openrouter.ai/api/v1/chat/completions";
   const TAXONOMY_URL = "wrong-question-taxonomy.json?v=20260821-1";
   const DAY = 24 * 60 * 60 * 1000;
   const MAX_IMPORT_BYTES = 30 * 1024 * 1024;
@@ -559,14 +558,16 @@
     }
   }
 
-  function jsonContent(value) {
-    if (typeof value === "string") return value;
-    if (!Array.isArray(value)) return "";
-    return value.map(part => typeof part === "string" ? part : (part?.text || part?.content || "")).join("");
+  function responseOutputText(payload) {
+    if (typeof payload?.output_text === "string") return payload.output_text;
+    return (payload?.output || []).flatMap(item => item?.type === "message" ? (item.content || []) : [])
+      .filter(part => part?.type === "output_text" || part?.type === "text")
+      .map(part => part.text || "")
+      .join("");
   }
 
   function parseJsonContent(value) {
-    const text = jsonContent(value).trim().replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/i, "");
+    const text = String(value || "").trim().replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/i, "");
     try {
       return JSON.parse(text);
     } catch {
@@ -610,7 +611,7 @@
     };
   }
 
-  function analysisMessages(userMessage, assistantText) {
+  function analysisRequest(userMessage, assistantText) {
     const instructions = [
       "你是公务员考试错题整理器。请识别题目所属科目和具体题型，并提取值得以后单独复习的最小知识单元。",
       "只能从下面给定的科目ID和题型ID中选择。不要创造新的ID。",
@@ -624,17 +625,20 @@
       "6. 如果图片信息不完整，仍需根据可见题干和解析做最稳妥分类，不要编造原题事实。"
     ].join("\n");
     const content = [{
-      type: "text",
+      type: "input_text",
       text: `题目文字：\n${userMessage.text || "（题目主要在图片中）"}\n\n已有解析：\n${assistantText}`
     }];
     (userMessage.images || []).forEach(image => {
-      if (image.dataUrl) content.push({ type: "image_url", image_url: { url: image.dataUrl } });
+      if (image.dataUrl) content.push({ type: "input_image", image_url: image.dataUrl, detail: "auto" });
     });
-    return [{ role: "system", content: instructions }, { role: "user", content }];
+    return {
+      instructions,
+      input: [{ type: "message", role: "user", content }]
+    };
   }
 
-  async function requestAnalysis(body, apiKey, headers, signal) {
-    const response = await fetch(CHAT_ENDPOINT, {
+  async function requestAnalysis(endpoint, body, apiKey, headers, signal) {
+    const response = await fetch(endpoint, {
       method: "POST",
       signal,
       headers: typeof headers === "function" ? headers(apiKey) : {
@@ -650,9 +654,9 @@
       throw error;
     }
     const payload = await response.json();
-    const message = payload?.choices?.[0]?.message;
-    if (!message) throw new Error("模型没有返回错题分类");
-    return parseJsonContent(message.content);
+    const output = responseOutputText(payload);
+    if (!output) throw new Error(payload?.error?.message || "模型没有返回错题分类");
+    return parseJsonContent(output);
   }
 
   function normalizeAnalysis(value) {
@@ -679,39 +683,32 @@
     };
   }
 
-  async function analyzeQuestion({ apiKey, model, headers, userMessage, assistantText, signal }) {
+  async function analyzeQuestion({ apiKey, endpoint, model, headers, userMessage, assistantText, signal }) {
     await taxonomyReady;
-    const messages = analysisMessages(userMessage, assistantText);
-    const base = { model, messages, stream: false };
+    if (!endpoint) throw new Error("Responses API Base URL 无效");
+    const request = analysisRequest(userMessage, assistantText);
+    const base = { model, ...request, stream: false, store: false };
     let value;
     try {
-      value = await requestAnalysis({
+      value = await requestAnalysis(endpoint, {
         ...base,
-        response_format: {
-          type: "json_schema",
-          json_schema: { name: "wrong_question_analysis", strict: true, schema: analysisSchema() }
-        },
-        plugins: [{ id: "response-healing" }],
-        provider: { require_parameters: true }
+        text: {
+          format: { type: "json_schema", name: "wrong_question_analysis", strict: true, schema: analysisSchema() }
+        }
       }, apiKey, headers, signal);
     } catch (error) {
       if (error?.name === "AbortError") throw error;
-      value = await requestAnalysis({
+      if (error?.status && ![400, 404, 422].includes(error.status)) throw error;
+      value = await requestAnalysis(endpoint, {
         ...base,
-        messages: [
-          ...messages,
-          { role: "system", content: "仅输出一个合法JSON对象，不要使用Markdown代码块。字段必须为subjectId、subjectLabel、typeId、typeLabel、confidence、title、correctAnswer、candidates；candidates每项包含kind、title、summary、details。" }
-        ],
-        response_format: { type: "json_object" },
-        plugins: [{ id: "response-healing" }]
+        instructions: `${request.instructions}\n仅输出一个合法JSON对象，不要使用Markdown代码块。字段必须为subjectId、subjectLabel、typeId、typeLabel、confidence、title、correctAnswer、candidates；candidates每项包含kind、title、summary、details。`,
+        text: { format: { type: "json_object" } }
       }, apiKey, headers, signal).catch(async fallbackError => {
         if (fallbackError?.name === "AbortError") throw fallbackError;
-        return requestAnalysis({
+        if (fallbackError?.status && ![400, 404, 422].includes(fallbackError.status)) throw fallbackError;
+        return requestAnalysis(endpoint, {
           ...base,
-          messages: [
-            ...messages,
-            { role: "system", content: "仅输出一个合法JSON对象，不要使用Markdown代码块。" }
-          ]
+          instructions: `${request.instructions}\n仅输出一个合法JSON对象，不要使用Markdown代码块。`
         }, apiKey, headers, signal);
       });
     }

@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#ffffff">
   <title>暑假时政学习清单</title>
   <link rel="stylesheet" href="clock.css?v=20260815-2">
-  <link rel="stylesheet" href="search.css?v=20260821-4">
+  <link rel="stylesheet" href="search.css?v=20260822-1">
   <link rel="stylesheet" href="wrong-questions.css?v=20260821-1">
   <style>
     :root {
@@ -1418,7 +1418,7 @@
       <section class="solver-settings-dialog" role="dialog" aria-modal="true" aria-labelledby="solver-settings-title">
         <header class="solver-settings-header">
           <div>
-            <p class="eyebrow">OPENROUTER</p>
+            <p class="eyebrow">RESPONSES API</p>
             <h2 id="solver-settings-title">搜题设置</h2>
           </div>
           <button type="button" class="icon-button" data-close-solver-settings aria-label="关闭搜题设置"><i data-lucide="x" aria-hidden="true"></i></button>
@@ -1427,14 +1427,19 @@
           <label class="solver-settings-field">
             <span>API Key</span>
             <span class="solver-secret-field">
-              <input type="password" id="solver-api-key" autocomplete="off" spellcheck="false" placeholder="sk-or-v1-…" required>
+              <input type="password" id="solver-api-key" autocomplete="off" spellcheck="false" placeholder="sk-…" required>
               <button type="button" id="toggle-solver-api-key" title="显示 API Key" aria-label="显示 API Key"><i data-lucide="eye" aria-hidden="true"></i></button>
             </span>
           </label>
-          <p class="solver-settings-note">密钥仅保存在当前浏览器，不会写入网站备份。<a href="https://openrouter.ai/settings/keys" target="_blank" rel="noopener noreferrer">获取 API Key</a></p>
+          <p class="solver-settings-note">密钥仅保存在当前浏览器，不会写入网站备份。<a href="https://platform.openai.com/api-keys" target="_blank" rel="noopener noreferrer">OpenAI API Key</a></p>
+          <label class="solver-settings-field">
+            <span>Base URL</span>
+            <input type="url" id="solver-base-url" maxlength="500" autocomplete="url" spellcheck="false" placeholder="https://api.openai.com/v1" required>
+          </label>
+          <p class="solver-settings-note">支持填写到 <code>/v1</code>，或直接填写完整的 <code>/v1/responses</code> 地址。</p>
           <label class="solver-settings-field">
             <span>模型 ID</span>
-            <input type="text" id="solver-model-input" maxlength="120" autocomplete="off" spellcheck="false" placeholder="例如 google/gemini-3.6-flash" required>
+            <input type="text" id="solver-model-input" maxlength="120" autocomplete="off" spellcheck="false" placeholder="例如 gpt-5.6" required>
           </label>
           <p class="solver-settings-status" id="solver-settings-status" role="status" aria-live="polite"></p>
           <div class="solver-settings-actions">
@@ -1923,7 +1928,7 @@
   <script src="backup.js?v=20260815-1"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked@18.0.10/lib/marked.umd.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/dompurify@3.4.14/dist/purify.min.js"></script>
-  <script src="wrong-questions.js?v=20260821-1"></script>
-  <script src="search.js?v=20260821-4"></script>
+  <script src="wrong-questions.js?v=20260822-1"></script>
+  <script src="search.js?v=20260822-1"></script>
 </body>
 </html>
