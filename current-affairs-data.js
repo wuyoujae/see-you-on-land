@@ -83499,6 +83499,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "3adaecc363c7ba",
+          "source": "新华社",
+          "title": "G331国道大久才江口特大桥主塔封顶",
+          "url": "https://www.news.cn/photo/20260822/3e36b6cc86b3446caefa5470b7db25a6/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1e058757eec7cd",
           "source": "新华社",
           "title": "“发挥好支部的战斗堡垒作用”",
@@ -83515,18 +83523,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "e8ac7143ca2f64",
+          "id": "bf8e3834387d74",
           "source": "新华社",
-          "title": "不止一颗奶糖：上海老字号“大白兔”圈粉外国游客",
-          "url": "https://www.news.cn/local/20260822/5b9ad63f0ca840c3b86abdc681a84c3c/c.html",
+          "title": "上海野生动物园大熊猫龙凤胎一岁啦",
+          "url": "https://www.news.cn/local/20260822/fd4a75142f2241918c53b1f3d1ac0d66/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
         {
-          "id": "fc2446bd12e86a",
+          "id": "e8ac7143ca2f64",
           "source": "新华社",
-          "title": "中印尼专家探讨中国式现代化与“黄金印尼2045”对接",
-          "url": "https://www.news.cn/silkroad/20260822/da25337289574076be3ef2692a3363c5/c.html",
+          "title": "不止一颗奶糖：上海老字号“大白兔”圈粉外国游客",
+          "url": "https://www.news.cn/local/20260822/5b9ad63f0ca840c3b86abdc681a84c3c/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83603,17 +83611,9 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a85af97277e0af",
-          "source": "新华社",
-          "title": "台北自动化工业展举行 展商期待两岸“智造”机遇",
-          "url": "https://www.news.cn/tw/20260822/2b8706166b704d86a662daa66452298b/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
           "id": "0196dfbc4f24aa",
           "source": "新华社",
-          "title": "台风暴雨预警",
+          "title": "台风暴雨预警 中国气象局启动四级应急响应",
           "url": "https://www.news.cn/20260822/9206c321c99b44af8236ab888e46eb68/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
@@ -83659,6 +83659,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "020e4c16f37c45",
+          "source": "新华社",
+          "title": "处暑遇开学 中医支招守护中小学生健康",
+          "url": "https://www.news.cn/politics/20260822/1b339d835db1481a98a85002a4339c08/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "83e3e65c1f326d",
           "source": "新华社",
           "title": "多特蒙德CEO：引援首要标准是实力不是市场",
@@ -83671,14 +83679,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "广西升级发布洪水黄色预警",
           "url": "https://www.news.cn/local/20260822/ebaa3047870446ed85cf03815bd84d59/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "adc205a0237000",
-          "source": "新华社",
-          "title": "悬空寺何以悬空？",
-          "url": "https://www.news.cn/local/20260822/c29b1654e7ad4448966ecbb2beb8b4ae/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83725,8 +83725,16 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "4d987ccc3462e4",
           "source": "新华社",
-          "title": "水利部对广东广西海南启动洪水防御Ⅳ级应急响应",
+          "title": "水利部对多地启动洪水防御Ⅳ级响应",
           "url": "https://www.news.cn/politics/20260822/cd34ef665bbf4f0ebef08d9b2cbbf62c/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8f6e030b74c0c1",
+          "source": "新华社",
+          "title": "水利部对广东广西海南启动洪水防御Ⅳ级应急响应",
+          "url": "https://www.news.cn/20260822/f65cbecd69924d57a7c407bee0e8f325/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83735,14 +83743,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "河北康保回应“白菜收购环节蘸取甲醛溶液”相关问题",
           "url": "https://www.news.cn/legal/20260822/f3b5010b3e6745b59312d1c8378e1858/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "76c47d29864cc7",
-          "source": "新华社",
-          "title": "河南淅川：千年古刹藏山林",
-          "url": "https://www.news.cn/photo/20260822/be5696c81bd64c358cab55f452dc23ca/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83763,26 +83763,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "fbc83266472c75",
-          "source": "新华社",
-          "title": "特写丨当“国宝”遇见加德满都的童年",
-          "url": "https://www.news.cn/20260822/eaf0616562594e8d88c03f9b863ae100/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
           "id": "86e420916b2ac5",
           "source": "新华社",
           "title": "特朗普称不会放弃对伊朗的军事选项",
           "url": "https://www.news.cn/world/20260822/b324605c2ef241a287fa82fbc25ccee5/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "3e24176d62ccec",
-          "source": "新华社",
-          "title": "特稿丨中国贡献助力全球防治荒漠化“重燃希望”",
-          "url": "https://www.news.cn/silkroad/20260822/eaf74717f58a4ed1aa7e024fdc737fde/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83811,6 +83795,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "345be07317617b",
+          "source": "新华社",
+          "title": "福建启动防台风四级应急响应",
+          "url": "https://www.news.cn/local/20260822/4bae67e55c9b4bd2b98bf2fef48bcc7a/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "8dfc928f46a7ca",
           "source": "新华社",
           "title": "科学与健康丨从“工具”到“搭档” AI应怎样助力科研",
@@ -83823,6 +83815,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "第二届“粤港澳青少年新疆行”文体交流活动启动",
           "url": "https://www.news.cn/gangao/20260822/4b9212b8da5b4ee6ae5ecb14a0e47b01/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dab183b6515f90",
+          "source": "新华社",
+          "title": "第十届海峡两岸艺术名家邀请展在台北揭幕",
+          "url": "https://www.news.cn/tw/20260822/b7b946208dfd4c44b6c884cb5977f111/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83867,6 +83867,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "8af713cf12cb12",
+          "source": "新华社",
+          "title": "节令之美丨处暑逢末伏收官 迎来晚出伏",
+          "url": "https://www.news.cn/politics/20260822/740d091138c149628464edf61133013f/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "2bc57ba5f21a19",
           "source": "新华社",
           "title": "苍山洱海间 骑行正当时",
@@ -83879,14 +83887,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "行业创新的速度和温度",
           "url": "https://www.news.cn/20260822/8228727253194592847bd2242f547b1a/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "29b24f0b7e69ac",
-          "source": "新华社",
-          "title": "行走拉美手记丨今夜，在古巴街头看电影",
-          "url": "https://www.news.cn/world/20260822/e20a475598a34328b3201f379e7c7068/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -84000,7 +84000,7 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 6.1,
+          "duration": 9.7,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260822.shtml"
         },
         {
@@ -84013,52 +84013,52 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.8
+          "duration": 3.1
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 19.8
+          "duration": 23.1
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 13,
-          "duration": 6.0
+          "duration": 6.4
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 1.6
+          "duration": 1.9
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 11.3
+          "duration": 12.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 2,
-          "duration": 2.0
+          "duration": 2.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 9.4
+          "duration": 10.5
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 63.2
+          "duration": 44.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-22T18:18:10+08:00"
+  "generatedAt": "2026-08-22T19:16:24+08:00"
 };
