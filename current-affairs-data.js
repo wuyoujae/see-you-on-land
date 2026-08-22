@@ -83395,6 +83395,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "dc76e267a6ba36",
+          "source": "学习强国",
+          "title": "印度尼西亚总统普拉博沃会见王毅一行",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=3004544075525115251&item_id=3004544075525115251",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "363d970495138b",
           "source": "广东发布",
           "title": "今年第19号台风生成 中心附近最大风力8级 广东启动防风Ⅳ级应急响应",
@@ -83467,18 +83475,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "26a86b72745208",
-          "source": "新华社",
-          "title": "乍得中部部族冲突致至少10人死亡",
-          "url": "https://www.news.cn/20260822/41127a69524f4a72bc5634bc40eaf470/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
           "id": "cb95e095d83393",
           "source": "新华社",
           "title": "伊朗外交部：美国实施新制裁毫无国际法依据",
           "url": "https://www.news.cn/world/20260822/2413459559594f00ac04f639ccafbafc/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "da3ca7b1cd47d0",
+          "source": "新华社",
+          "title": "俄外交部：西方机构直接调查问询俄国内法人“违法”",
+          "url": "https://www.news.cn/world/20260822/d36f5a5943974678af8372e508a23ff6/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83495,6 +83503,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "刚果（金）收到首批埃博拉疫苗 将评估保护效果",
           "url": "https://www.news.cn/world/20260822/efcc916d957f4318838cbd25aa0de4e6/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dd4682f2a1de47",
+          "source": "新华社",
+          "title": "华北在建最大跨径提篮钢箱拱桥转入拱部施工阶段",
+          "url": "https://www.news.cn/20260822/42bdf134c9cb44a594c72374acca8731/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83587,10 +83603,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "db988edce87ff9",
+          "id": "83e3e65c1f326d",
           "source": "新华社",
-          "title": "安理会举行联合国秘书长遴选第二轮意向性投票",
-          "url": "https://www.news.cn/20260822/adc020ee934c47408c9aff28f1a83e42/c.html",
+          "title": "多特蒙德CEO：引援首要标准是实力不是市场",
+          "url": "https://www.news.cn/20260822/c990eca1035a4673b8cf4659a0f19588/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83599,6 +83615,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "我国考古机构将首次走进南美洲开展联合考古",
           "url": "https://www.news.cn/20260822/7fcb7f3a4e02455d819eccfed633b23f/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f7678d654fde6e",
+          "source": "新华社",
+          "title": "新渔光曲 闽东大黄鱼游出大产业",
+          "url": "https://www.news.cn/local/20260822/80a3064d9e834e91ad0c45f1b5d4991a/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4fb267970c605e",
+          "source": "新华社",
+          "title": "日晕、布罗肯现象和圆形彩虹有何不同？气象科普区分差异",
+          "url": "https://www.news.cn/politics/20260822/1fa6f54c2dc24684afd8ff407868ae2f/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83615,6 +83647,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "河南淅川：千年古刹藏山林",
           "url": "https://www.news.cn/photo/20260822/be5696c81bd64c358cab55f452dc23ca/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fbc83266472c75",
+          "source": "新华社",
+          "title": "特写丨当“国宝”遇见加德满都的童年",
+          "url": "https://www.news.cn/20260822/eaf0616562594e8d88c03f9b863ae100/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83651,10 +83691,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "2db3a188e99908",
+          "id": "590120c9a9e687",
           "source": "新华社",
           "title": "美国务院批准对韩出售1.25亿美元“响尾蛇”导弹",
-          "url": "https://www.news.cn/20260822/fead00a298af4441a1894de747f32c9e/c.html",
+          "url": "https://www.news.cn/world/20260822/57360e90689247348516cd73a699cae8/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83719,6 +83759,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "阿巴斯呼吁以色列停止并取消“E1区”定居点招标",
           "url": "https://www.news.cn/20260822/0ff4223b99c14610815ccb64a919cafd/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6f777323241b6b",
+          "source": "新华社",
+          "title": "阿曼与伊朗外长讨论恢复霍尔木兹海峡自由航行",
+          "url": "https://www.news.cn/20260822/943cb7df997e4b81b0041f3193e0806b/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83816,65 +83864,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 6.7,
+          "duration": 7.6,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260822.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 34,
-          "duration": 2.4
+          "duration": 2.3
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 41,
-          "duration": 2.4
+          "count": 46,
+          "duration": 2.1
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 15.9
+          "duration": 24.0
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 13,
-          "duration": 6.4
+          "duration": 6.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 1.5
+          "duration": 2.2
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.2
+          "duration": 13.9
         },
         {
           "source": "学习强国",
           "status": "ok",
-          "count": 0,
-          "duration": 2.9
+          "count": 1,
+          "duration": 3.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 12.8
+          "duration": 8.8
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 72.4
+          "duration": 64.8
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-22T12:27:33+08:00"
+  "generatedAt": "2026-08-22T13:22:33+08:00"
 };
