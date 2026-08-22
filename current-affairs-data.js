@@ -82845,11 +82845,19 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 3
         },
         {
+          "name": "中国共产党",
+          "count": 2
+        },
+        {
           "name": "中国经济",
           "count": 2
         },
         {
           "name": "教育",
+          "count": 2
+        },
+        {
+          "name": "消费",
           "count": 2
         },
         {
@@ -82929,6 +82937,38 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22974.html",
           "date": "2026-08-22",
           "keyword": "科技"
+        },
+        {
+          "id": "5aafcf449b3d72",
+          "source": "学习强国",
+          "title": "中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2510251689812398216&item_id=2510251689812398216",
+          "date": "2026-08-22",
+          "keyword": "中国共产党"
+        },
+        {
+          "id": "bf89b76ed41e51",
+          "source": "新华社",
+          "title": "受权发布丨中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
+          "url": "https://www.news.cn/politics/20260822/66896bd92e254592af1dc67477d5711b/c.html",
+          "date": "2026-08-22",
+          "keyword": "中国共产党"
+        },
+        {
+          "id": "3517b7c2d16f83",
+          "source": "新华社",
+          "title": "沉浸式文旅撬动云南建水暑期消费",
+          "url": "https://www.news.cn/local/20260822/847c3c537ed24d18a885adb9da5ac559/c.html",
+          "date": "2026-08-22",
+          "keyword": "消费"
+        },
+        {
+          "id": "b7f79cd92d9e39",
+          "source": "新华社",
+          "title": "首店加快集聚 天津建设国际消费中心城市观察",
+          "url": "https://www.news.cn/local/20260822/0d1bfd551ba34b2bab4c4d518dc6d714/c.html",
+          "date": "2026-08-22",
+          "keyword": "消费"
         },
         {
           "id": "582bcded46c5c4",
@@ -83427,6 +83467,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "fb43155e12103c",
+          "source": "新华社",
+          "title": "万株向日葵盛放 惊艳这个秋天",
+          "url": "https://www.news.cn/local/20260822/c6d28ea0ee6e4fa6ac572f027808e30c/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "e8ac7143ca2f64",
           "source": "新华社",
           "title": "不止一颗奶糖：上海老字号“大白兔”圈粉外国游客",
@@ -83483,14 +83531,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "cb95e095d83393",
-          "source": "新华社",
-          "title": "伊朗外交部：美国实施新制裁毫无国际法依据",
-          "url": "https://www.news.cn/world/20260822/2413459559594f00ac04f639ccafbafc/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
           "id": "da3ca7b1cd47d0",
           "source": "新华社",
           "title": "俄外交部：西方机构直接调查问询俄国内法人“违法”",
@@ -83543,14 +83583,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "印度尼西亚总统普拉博沃会见王毅一行",
           "url": "https://www.news.cn/politics/leaders/20260822/a8f6d0306f3a484f94fb14b590aa4a7b/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "bf89b76ed41e51",
-          "source": "新华社",
-          "title": "受权发布丨中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
-          "url": "https://www.news.cn/politics/20260822/66896bd92e254592af1dc67477d5711b/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83619,10 +83651,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "568d035d342001",
+          "id": "ce304852f53737",
           "source": "新华社",
           "title": "我国考古机构将首次走进南美洲开展联合考古",
-          "url": "https://www.news.cn/20260822/7fcb7f3a4e02455d819eccfed633b23f/c.html",
+          "url": "https://www.news.cn/world/20260822/e9ea823697be4751b4adf5255167b215/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fa6f1cad724853",
+          "source": "新华社",
+          "title": "新华社国内新闻照片一周精选",
+          "url": "https://www.news.cn/photo/20260822/e5591ced97da468a84dcd42e06abc974/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83647,6 +83687,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "河南淅川：千年古刹藏山林",
           "url": "https://www.news.cn/photo/20260822/be5696c81bd64c358cab55f452dc23ca/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9362ebadbbd529",
+          "source": "新华社",
+          "title": "爱知·名古屋亚运会火炬传递启动",
+          "url": "https://www.news.cn/20260822/59a8c5ab286741af8b9bf093ef6f555b/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83703,6 +83751,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "美国务院批准对韩出售1.25亿美元“响尾蛇”导弹",
           "url": "https://www.news.cn/world/20260822/57360e90689247348516cd73a699cae8/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "254cbafb75d866",
+          "source": "新华社",
+          "title": "美国对伊朗“史上最严制裁”能奏效吗",
+          "url": "https://www.news.cn/20260822/55b3acfc267e40f98e81189eb95a173d/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83775,14 +83831,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "阿曼与伊朗外长讨论恢复霍尔木兹海峡自由航行",
           "url": "https://www.news.cn/20260822/943cb7df997e4b81b0041f3193e0806b/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "b7f79cd92d9e39",
-          "source": "新华社",
-          "title": "首店加快集聚 天津建设国际消费中心城市观察",
-          "url": "https://www.news.cn/local/20260822/0d1bfd551ba34b2bab4c4d518dc6d714/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83872,65 +83920,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 11.2,
+          "duration": 8.2,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260822.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 34,
-          "duration": 2.6
+          "duration": 2.3
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 47,
-          "duration": 1.8
+          "count": 51,
+          "duration": 4.7
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 19.3
+          "duration": 24.9
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 13,
-          "duration": 5.7
+          "duration": 6.5
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 1.8
+          "duration": 2.2
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.8
+          "duration": 12.7
         },
         {
           "source": "学习强国",
           "status": "ok",
-          "count": 1,
-          "duration": 3.0
+          "count": 2,
+          "duration": 2.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 11.0
+          "duration": 9.1
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 65.3
+          "duration": 79.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-22T14:30:18+08:00"
+  "generatedAt": "2026-08-22T15:28:00+08:00"
 };
