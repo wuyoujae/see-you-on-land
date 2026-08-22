@@ -82834,8 +82834,16 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-08-22",
-      "keyword": "中国经济",
+      "keyword": "高质量发展",
       "keywords": [
+        {
+          "name": "高质量发展",
+          "count": 3
+        },
+        {
+          "name": "经济",
+          "count": 3
+        },
         {
           "name": "中国经济",
           "count": 2
@@ -82850,6 +82858,46 @@ window.CURRENT_AFFAIRS_DATA = {
         }
       ],
       "articles": [
+        {
+          "id": "7fac17c3b2af51",
+          "source": "光明日报",
+          "title": "积极财政政策有力支撑高质量发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22961.html",
+          "date": "2026-08-22",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "f4949c0f340add",
+          "source": "新华社",
+          "title": "评论丨​钟才文：中国经济的韧性与活力",
+          "url": "https://www.news.cn/politics/20260822/31821e06af2d446bae37efe4fb275163/c.html",
+          "date": "2026-08-22",
+          "keyword": "经济"
+        },
+        {
+          "id": "b393e6456c6b3f",
+          "source": "求是",
+          "title": "《促进网信企业高质量发展行动计划（2026-2030年）》印发",
+          "url": "https://www.qstheory.cn/20260822/336ea68ac06a4ad890eae08971e06bad/c.html",
+          "date": "2026-08-22",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "14bc0e99debaa9",
+          "source": "求是",
+          "title": "发挥积极财政政策作用 推动经济社会高质量发展",
+          "url": "https://www.qstheory.cn/20260822/c2acd2ad89f9496ea0cf4df36e3860a9/c.html",
+          "date": "2026-08-22",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "a8891ae059dae8",
+          "source": "求是",
+          "title": "钟才文：​中国经济的韧性与活力",
+          "url": "https://www.qstheory.cn/20260822/92c63db717a24a50a37dc7dbabc9375f/c.html",
+          "date": "2026-08-22",
+          "keyword": "经济"
+        },
         {
           "id": "b9d35675078322",
           "source": "人民日报",
@@ -82883,20 +82931,20 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "科技"
         },
         {
-          "id": "f4949c0f340add",
-          "source": "新华社",
-          "title": "评论丨​钟才文：中国经济的韧性与活力",
-          "url": "https://www.news.cn/politics/20260822/31821e06af2d446bae37efe4fb275163/c.html",
+          "id": "582bcded46c5c4",
+          "source": "中国政府网",
+          "title": "解读：国务院常务会议部署新一代通信网建设",
+          "url": "https://www.gov.cn/zhengce/202608/content_7078876.htm",
           "date": "2026-08-22",
-          "keyword": "中国经济"
+          "keyword": "综合时政"
         },
         {
-          "id": "a8891ae059dae8",
-          "source": "求是",
-          "title": "钟才文：​中国经济的韧性与活力",
-          "url": "https://www.qstheory.cn/20260822/92c63db717a24a50a37dc7dbabc9375f/c.html",
+          "id": "8f8b59aa389a77",
+          "source": "中国政府网",
+          "title": "解读：国务院常务会议部署进一步清理拖欠企业账款工作",
+          "url": "https://www.gov.cn/zhengce/202608/content_7078874.htm",
           "date": "2026-08-22",
-          "keyword": "中国经济"
+          "keyword": "综合时政"
         },
         {
           "id": "871c543e4f6445",
@@ -83299,14 +83347,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "7fac17c3b2af51",
-          "source": "光明日报",
-          "title": "积极财政政策有力支撑高质量发展",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22961.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
           "id": "6c43cc511e2460",
           "source": "光明日报",
           "title": "第34届广州博览会第十二届国际发明展览会同期开幕",
@@ -83427,6 +83467,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "cb95e095d83393",
+          "source": "新华社",
+          "title": "伊朗外交部：美国实施新制裁毫无国际法依据",
+          "url": "https://www.news.cn/world/20260822/2413459559594f00ac04f639ccafbafc/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "dfc7dd1f9d2089",
           "source": "新华社",
           "title": "全面建设海洋强省",
@@ -83463,6 +83511,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "古巴谴责美国对古新一轮制裁",
           "url": "https://www.news.cn/world/20260822/9d56755cbc514ae29276eefb670d6bc0/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0196dfbc4f24aa",
+          "source": "新华社",
+          "title": "台风 、暴雨双预警 中国气象局启动四级应急响应",
+          "url": "https://www.news.cn/20260822/9206c321c99b44af8236ab888e46eb68/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83595,6 +83651,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "8dc5afd75df866",
+          "source": "新华社",
+          "title": "诗里酒里，汾阳等你",
+          "url": "http://www.sx.xinhuanet.com/20260822/9f48ffaa1b794ec39618b51dc16db1fc/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "6341ebdd687286",
           "source": "新华社",
           "title": "走近黑龙江自贸试验区绥芬河片区",
@@ -83627,6 +83691,46 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "a5bb778bec7313",
+          "source": "求是",
+          "title": "两部门发文细化人民币买卖活动监管要求",
+          "url": "https://www.qstheory.cn/20260822/3b04bbf66b254007a540c969799e1b7a/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "903c6e2b9aa3a9",
+          "source": "求是",
+          "title": "中国印尼外长防长“2+2”对话机制举行第二次部长级会议",
+          "url": "https://www.qstheory.cn/20260822/613bbe2c928d406bb0eed60877cc80b0/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a4a762e21fbb10",
+          "source": "求是",
+          "title": "中国早稻产量连续6年稳定在560亿斤以上",
+          "url": "https://www.qstheory.cn/20260822/785d82dc8fbb43528492eba838b71997/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fe08c4178fcb5d",
+          "source": "求是",
+          "title": "中国第16次北冰洋考察队完成全部冰站调查",
+          "url": "https://www.qstheory.cn/20260822/fcbecd6db82e4095aee162ee0da1ce77/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "81674097926f78",
+          "source": "求是",
+          "title": "中国财政金融协同促内需一揽子政策扩容",
+          "url": "https://www.qstheory.cn/20260822/d479c0d57f354e0680d20bd1631374a4/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "67046bfa46e21b",
           "source": "求是",
           "title": "有效扩大国内需求",
@@ -83639,6 +83743,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "求是",
           "title": "求是网评论员：如何提升灾害治理能力和水平",
           "url": "https://www.qstheory.cn/20260822/a7ddb85a9a004981bc1c99ddfa6d2a04/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "315d6710ad9b5e",
+          "source": "求是",
+          "title": "美国政府紧急下场救市难解美债危局",
+          "url": "https://www.qstheory.cn/20260822/4279771465e24bb594a7ad5c3e64e625/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83656,66 +83768,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 9.8,
+          "duration": 8.6,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260822.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 34,
-          "duration": 2.0
+          "duration": 2.5
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 32,
-          "duration": 2.3
+          "count": 35,
+          "duration": 2.1
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 12.9
+          "duration": 29.7
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 5,
-          "duration": 6.4
+          "count": 13,
+          "duration": 6.3
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 1.8
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 11.6
+          "duration": 14.8
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.1
+          "duration": 3.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 0,
-          "duration": 8.8
+          "count": 2,
+          "duration": 8.7
         },
         {
           "source": "广东发布",
-          "status": "stale",
+          "status": "ok",
           "count": 2,
-          "duration": 17.7,
-          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+          "duration": 63.2
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-22T10:13:29+08:00"
+  "generatedAt": "2026-08-22T11:38:19+08:00"
 };
