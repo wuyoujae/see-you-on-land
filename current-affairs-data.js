@@ -84570,26 +84570,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 7.8,
+          "duration": 8.6,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260823.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.1
+          "duration": 2.0
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 3,
-          "duration": 2.5
+          "duration": 3.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 20.2
+          "duration": 17.6
         },
         {
           "source": "求是",
@@ -84607,28 +84607,28 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.2
+          "duration": 13.6
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.0
+          "duration": 3.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.2
+          "duration": 7.2
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 57.5
+          "duration": 43.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-23T06:28:51+08:00"
+  "generatedAt": "2026-08-23T07:24:58+08:00"
 };
