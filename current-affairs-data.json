@@ -82849,15 +82849,15 @@
           "count": 3
         },
         {
+          "name": "机器人",
+          "count": 3
+        },
+        {
           "name": "科技",
           "count": 3
         },
         {
           "name": "中国经济",
-          "count": 2
-        },
-        {
-          "name": "机器人",
           "count": 2
         },
         {
@@ -82971,12 +82971,36 @@
           "keyword": "高质量发展"
         },
         {
+          "id": "c3e2dcd378820a",
+          "source": "新华社",
+          "title": "2026世界机器人大会迎来大量观众",
+          "url": "https://www.news.cn/photo/20260822/f162c5a420ab4e8ca900562808b71db2/c.html",
+          "date": "2026-08-22",
+          "keyword": "机器人"
+        },
+        {
+          "id": "5a0250f710f99c",
+          "source": "新华社",
+          "title": "加速跑 世界人形机器人运动会启幕",
+          "url": "https://www.news.cn/tech/20260822/1f62f563c72241cbae252030caeabc5d/c.html",
+          "date": "2026-08-22",
+          "keyword": "机器人"
+        },
+        {
           "id": "658ccce69be68a",
           "source": "新华社",
           "title": "智能科技营造养宠新生活",
           "url": "https://www.news.cn/tech/20260822/d22921dd9457484384819ebd224efaf0/c.html",
           "date": "2026-08-22",
           "keyword": "科技"
+        },
+        {
+          "id": "2775e7def6548b",
+          "source": "新华社",
+          "title": "特稿丨世界机器人大会成全球观察中国“机”遇窗口",
+          "url": "https://www.news.cn/tech/20260822/3a77fd23ae66475982ab8ca3b31272c7/c.html",
+          "date": "2026-08-22",
+          "keyword": "机器人"
         },
         {
           "id": "b393e6456c6b3f",
@@ -83001,22 +83025,6 @@
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22970.html",
           "date": "2026-08-22",
           "keyword": "教育"
-        },
-        {
-          "id": "c3e2dcd378820a",
-          "source": "新华社",
-          "title": "2026世界机器人大会迎来大量观众",
-          "url": "https://www.news.cn/photo/20260822/f162c5a420ab4e8ca900562808b71db2/c.html",
-          "date": "2026-08-22",
-          "keyword": "机器人"
-        },
-        {
-          "id": "2775e7def6548b",
-          "source": "新华社",
-          "title": "特稿丨世界机器人大会成全球观察中国“机”遇窗口",
-          "url": "https://www.news.cn/tech/20260822/3a77fd23ae66475982ab8ca3b31272c7/c.html",
-          "date": "2026-08-22",
-          "keyword": "机器人"
         },
         {
           "id": "582bcded46c5c4",
@@ -83539,10 +83547,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "e102beb5bf0f64",
+          "id": "64ab4dd746d9ae",
           "source": "新华社",
           "title": "两部门对福建启动防汛防台风四级应急响应",
-          "url": "https://www.news.cn/20260822/8b1e56ee3df9435c9163e2f57c8cc3a4/c.html",
+          "url": "https://www.news.cn/politics/20260822/4d107375781849d59b85a624e820f93c/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cec5b533bd4e2b",
+          "source": "新华社",
+          "title": "中企承建塞内加尔高速公路项目提前通车",
+          "url": "https://www.news.cn/20260822/b6332ae02cf74823b2f2da6b06a6a03f/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d8d1c370dbe403",
+          "source": "新华社",
+          "title": "以色列袭击叙利亚南部致一人受伤",
+          "url": "https://www.news.cn/world/20260822/ad3d15bc7aa34795b7fbf49e7fbdfc5d/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83567,6 +83591,14 @@
           "source": "新华社",
           "title": "伊朗议长称美国为了以色列无视其他盟友利益",
           "url": "https://www.news.cn/world/20260822/91128f92c5cc456db1133821f566814b/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "da3ca7b1cd47d0",
+          "source": "新华社",
+          "title": "俄外交部：西方机构直接调查问询俄国内法人“违法”",
+          "url": "https://www.news.cn/world/20260822/d36f5a5943974678af8372e508a23ff6/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83619,14 +83651,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "0196dfbc4f24aa",
-          "source": "新华社",
-          "title": "台风暴雨预警 中国气象局启动四级应急响应",
-          "url": "https://www.news.cn/20260822/9206c321c99b44af8236ab888e46eb68/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
           "id": "c3f24b17124aa4",
           "source": "新华社",
           "title": "国境线上看振兴 “北疆”边境皆盛景",
@@ -83675,14 +83699,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "09b350e3970cb3",
-          "source": "新华社",
-          "title": "广西升级发布洪水黄色预警",
-          "url": "https://www.news.cn/local/20260822/ebaa3047870446ed85cf03815bd84d59/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
           "id": "2ff80bb761ac42",
           "source": "新华社",
           "title": "广西洪灾中送出数万份热饭的他突然离世，网友温情缅怀",
@@ -83723,26 +83739,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "b532356168ac57",
+          "id": "3128a37d03e743",
           "source": "新华社",
-          "title": "旅游市场迸发新活力",
-          "url": "https://www.news.cn/fortune/20260822/8b98c7ebb61246fa978bee6ebc16f982/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "4d987ccc3462e4",
-          "source": "新华社",
-          "title": "水利部对多地启动洪水防御Ⅳ级响应",
-          "url": "https://www.news.cn/politics/20260822/cd34ef665bbf4f0ebef08d9b2cbbf62c/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "8f6e030b74c0c1",
-          "source": "新华社",
-          "title": "水利部对广东广西海南启动洪水防御Ⅳ级应急响应",
-          "url": "https://www.news.cn/20260822/f65cbecd69924d57a7c407bee0e8f325/c.html",
+          "title": "水利部专题部署台风“紫檀”暴雨洪水防御工作",
+          "url": "https://www.news.cn/politics/20260822/f174a0c37f0e449bb0c6cd14b3623d42/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83751,6 +83751,14 @@
           "source": "新华社",
           "title": "河北康保回应“白菜收购环节蘸取甲醛溶液”相关问题",
           "url": "https://www.news.cn/legal/20260822/f3b5010b3e6745b59312d1c8378e1858/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "74eb82dc049b2e",
+          "source": "新华社",
+          "title": "河北秦皇岛：千年雄关引客来",
+          "url": "https://www.news.cn/local/20260822/8ab0c6e2cee2476ab8663758748f4146/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83811,22 +83819,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "63d2383fb128f2",
-          "source": "新华社",
-          "title": "福建南安：两岸共谒民族英雄郑成功",
-          "url": "https://www.news.cn/20260822/5864508ab2f64cacbc7a0d55c7d43b9e/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "345be07317617b",
-          "source": "新华社",
-          "title": "福建启动防台风四级应急响应",
-          "url": "https://www.news.cn/local/20260822/4bae67e55c9b4bd2b98bf2fef48bcc7a/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
           "id": "8dfc928f46a7ca",
           "source": "新华社",
           "title": "科学与健康丨从“工具”到“搭档” AI应怎样助力科研",
@@ -83875,10 +83867,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "eb3c04d64ebd73",
+          "id": "2374a79405af43",
           "source": "新华社",
           "title": "美官员：约40艘油轮21日晚通过霍尔木兹海峡",
-          "url": "https://www.news.cn/20260822/ca8e2226332f40f29bf7ea2e525bb55d/c.html",
+          "url": "https://www.news.cn/world/20260822/d7fc81604ac946e49522dd614e3c41c7/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83911,6 +83903,14 @@
           "source": "新华社",
           "title": "近海智能无人艇“埕安一号”在天津投入运行",
           "url": "https://www.news.cn/20260822/bab57dad9f484d5381b2344f744d0c1b/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ed656ccd040bc9",
+          "source": "新华社",
+          "title": "银兰高铁：6小时深夜鏖战 保障暑运畅通",
+          "url": "https://www.news.cn/local/20260822/faab019be7b8461bbd8cbf8c7de44a11/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -84088,64 +84088,64 @@
           "source": "新闻联播",
           "status": "ok",
           "count": 11,
-          "duration": 0.8
+          "duration": 0.3
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 34,
-          "duration": 4.0
+          "duration": 1.9
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.1
+          "duration": 2.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 21.1
+          "duration": 18.8
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 13,
-          "duration": 6.7
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 1.4
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.0
+          "duration": 12.6
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 2,
-          "duration": 2.6
+          "duration": 2.8
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 10.1
+          "duration": 8.9
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 50.3
+          "duration": 75.9
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-22T22:16:17+08:00"
+  "generatedAt": "2026-08-22T23:15:55+08:00"
 }
