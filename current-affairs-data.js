@@ -82834,19 +82834,19 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-08-22",
-      "keyword": "高质量发展",
+      "keyword": "经济",
       "keywords": [
         {
-          "name": "高质量发展",
-          "count": 3
-        },
-        {
           "name": "经济",
-          "count": 3
+          "count": 4
         },
         {
           "name": "中国共产党",
-          "count": 2
+          "count": 3
+        },
+        {
+          "name": "高质量发展",
+          "count": 3
         },
         {
           "name": "中国经济",
@@ -82867,12 +82867,12 @@ window.CURRENT_AFFAIRS_DATA = {
       ],
       "articles": [
         {
-          "id": "7fac17c3b2af51",
-          "source": "光明日报",
-          "title": "积极财政政策有力支撑高质量发展",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22961.html",
+          "id": "79068d89d46ceb",
+          "source": "新华社",
+          "title": "王毅会见印尼国家经济委员会主席卢胡特",
+          "url": "https://www.news.cn/politics/leaders/20260822/ff90a4bb564241fea57c4cfd8ad87fcd/c.html",
           "date": "2026-08-22",
-          "keyword": "高质量发展"
+          "keyword": "经济"
         },
         {
           "id": "f4949c0f340add",
@@ -82883,20 +82883,12 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
-          "id": "b393e6456c6b3f",
-          "source": "求是",
-          "title": "《促进网信企业高质量发展行动计划（2026-2030年）》印发",
-          "url": "https://www.qstheory.cn/20260822/336ea68ac06a4ad890eae08971e06bad/c.html",
-          "date": "2026-08-22",
-          "keyword": "高质量发展"
-        },
-        {
           "id": "14bc0e99debaa9",
           "source": "求是",
           "title": "发挥积极财政政策作用 推动经济社会高质量发展",
           "url": "https://www.qstheory.cn/20260822/c2acd2ad89f9496ea0cf4df36e3860a9/c.html",
           "date": "2026-08-22",
-          "keyword": "高质量发展"
+          "keyword": "经济"
         },
         {
           "id": "a8891ae059dae8",
@@ -82905,6 +82897,46 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.qstheory.cn/20260822/92c63db717a24a50a37dc7dbabc9375f/c.html",
           "date": "2026-08-22",
           "keyword": "经济"
+        },
+        {
+          "id": "7fac17c3b2af51",
+          "source": "光明日报",
+          "title": "积极财政政策有力支撑高质量发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22961.html",
+          "date": "2026-08-22",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "5aafcf449b3d72",
+          "source": "学习强国",
+          "title": "中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2510251689812398216&item_id=2510251689812398216",
+          "date": "2026-08-22",
+          "keyword": "中国共产党"
+        },
+        {
+          "id": "bf89b76ed41e51",
+          "source": "新华社",
+          "title": "受权发布丨中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
+          "url": "https://www.news.cn/politics/20260822/66896bd92e254592af1dc67477d5711b/c.html",
+          "date": "2026-08-22",
+          "keyword": "中国共产党"
+        },
+        {
+          "id": "b393e6456c6b3f",
+          "source": "求是",
+          "title": "《促进网信企业高质量发展行动计划（2026-2030年）》印发",
+          "url": "https://www.qstheory.cn/20260822/336ea68ac06a4ad890eae08971e06bad/c.html",
+          "date": "2026-08-22",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "48944c044d7ba9",
+          "source": "求是",
+          "title": "中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
+          "url": "https://www.qstheory.cn/20260822/4107540d94e8473389ff3ac582fc7f1c/c.html",
+          "date": "2026-08-22",
+          "keyword": "中国共产党"
         },
         {
           "id": "b9d35675078322",
@@ -82937,22 +82969,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22974.html",
           "date": "2026-08-22",
           "keyword": "科技"
-        },
-        {
-          "id": "5aafcf449b3d72",
-          "source": "学习强国",
-          "title": "中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2510251689812398216&item_id=2510251689812398216",
-          "date": "2026-08-22",
-          "keyword": "中国共产党"
-        },
-        {
-          "id": "bf89b76ed41e51",
-          "source": "新华社",
-          "title": "受权发布丨中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
-          "url": "https://www.news.cn/politics/20260822/66896bd92e254592af1dc67477d5711b/c.html",
-          "date": "2026-08-22",
-          "keyword": "中国共产党"
         },
         {
           "id": "3517b7c2d16f83",
@@ -83499,14 +83515,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "491afc82426664",
-          "source": "新华社",
-          "title": "乌克兰一购物中心遭无人机袭击 至少15人死亡",
-          "url": "https://www.news.cn/20260822/2f644557ef37477a979dc52c601da57f/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
           "id": "187ed5544d69d8",
           "source": "新华社",
           "title": "乌克兰一购物中心遭袭至少15死",
@@ -83519,6 +83527,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "乌克兰首都基辅响起强烈爆炸声",
           "url": "https://www.news.cn/20260822/3f04249ae16e4aa99a615ce94252ea33/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d31f77294060c7",
+          "source": "新华社",
+          "title": "五角大楼解雇军报负责人 指其“不服从命令”",
+          "url": "https://www.news.cn/20260822/f8194eac9a374678ab4cac1a45ee4b9e/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83579,10 +83595,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "e4f02cef04bc5e",
+          "id": "d4d0d0f83ecbc9",
           "source": "新华社",
-          "title": "印度尼西亚总统普拉博沃会见王毅一行",
-          "url": "https://www.news.cn/politics/leaders/20260822/a8f6d0306f3a484f94fb14b590aa4a7b/c.html",
+          "title": "双线布局，日本“扩军外交”何其危险",
+          "url": "https://www.news.cn/world/20260822/906c825b27614d25b8617cc98a4a8b94/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83603,10 +83619,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "a85af97277e0af",
+          "source": "新华社",
+          "title": "台北自动化工业展举行 展商期待两岸“智造”机遇",
+          "url": "https://www.news.cn/tw/20260822/2b8706166b704d86a662daa66452298b/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "0196dfbc4f24aa",
           "source": "新华社",
           "title": "台风暴雨预警 中国气象局启动四级应急响应",
           "url": "https://www.news.cn/20260822/9206c321c99b44af8236ab888e46eb68/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f65c88c5211b42",
+          "source": "新华社",
+          "title": "名画《韩熙载夜宴图》亮相浙博",
+          "url": "https://www.news.cn/politics/20260822/d7f7b23da8fc414a9d0ac76c92dfcc49/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83635,6 +83667,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "37878e77f8a28b",
+          "source": "新华社",
+          "title": "在泸定桥畔“重返”绝地突围的战斗岁月",
+          "url": "https://www.news.cn/politics/20260822/387b6678f79d47969d4c5cd35f2c7f1a/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "3f50088661e5a5",
           "source": "新华社",
           "title": "基辅响起强烈爆炸",
@@ -83651,10 +83691,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "ce304852f53737",
+          "id": "adc205a0237000",
           "source": "新华社",
-          "title": "我国考古机构将首次走进南美洲开展联合考古",
-          "url": "https://www.news.cn/world/20260822/e9ea823697be4751b4adf5255167b215/c.html",
+          "title": "悬空寺何以悬空？",
+          "url": "https://www.news.cn/local/20260822/c29b1654e7ad4448966ecbb2beb8b4ae/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83667,10 +83707,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "f7678d654fde6e",
+          "id": "b532356168ac57",
           "source": "新华社",
-          "title": "新渔光曲 闽东大黄鱼游出大产业",
-          "url": "https://www.news.cn/local/20260822/80a3064d9e834e91ad0c45f1b5d4991a/c.html",
+          "title": "旅游市场迸发新活力",
+          "url": "https://www.news.cn/fortune/20260822/8b98c7ebb61246fa978bee6ebc16f982/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4fb267970c605e",
+          "source": "新华社",
+          "title": "日晕、布罗肯现象和圆形彩虹有何不同？气象科普区分差异",
+          "url": "https://www.news.cn/politics/20260822/1fa6f54c2dc24684afd8ff407868ae2f/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3bf2899aa574f7",
+          "source": "新华社",
+          "title": "果园撑起“防雹伞” 果农吃下“定心丸”",
+          "url": "https://www.news.cn/local/20260822/093f093265c1407fb6bb136dffcabab2/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83739,18 +83795,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "ec1c4b3ef5a7c8",
+          "id": "63d2383fb128f2",
           "source": "新华社",
-          "title": "美加未达成贸易协议",
-          "url": "https://www.news.cn/world/20260822/885f7f1a08cc4f979a9d9826b681c189/c.html",
+          "title": "福建南安：两岸共谒民族英雄郑成功",
+          "url": "https://www.news.cn/20260822/5864508ab2f64cacbc7a0d55c7d43b9e/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
         {
-          "id": "590120c9a9e687",
+          "id": "8dfc928f46a7ca",
           "source": "新华社",
-          "title": "美国务院批准对韩出售1.25亿美元“响尾蛇”导弹",
-          "url": "https://www.news.cn/world/20260822/57360e90689247348516cd73a699cae8/c.html",
+          "title": "科学与健康丨从“工具”到“搭档” AI应怎样助力科研",
+          "url": "https://www.news.cn/tech/20260822/d8084713b4a444348bc435efdd100c2d/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "729c6345a6926f",
+          "source": "新华社",
+          "title": "精准破局急难愁盼 暖“新”举措显温度",
+          "url": "https://www.news.cn/local/20260822/e77ca064fd674ed9a86f7c6e1b8f496f/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ec1c4b3ef5a7c8",
+          "source": "新华社",
+          "title": "美加未达成贸易协议",
+          "url": "https://www.news.cn/world/20260822/885f7f1a08cc4f979a9d9826b681c189/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83787,6 +83859,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "2bc57ba5f21a19",
+          "source": "新华社",
+          "title": "苍山洱海间 骑行正当时",
+          "url": "https://www.news.cn/photo/20260822/91d5e8077b094060986a4364b5b392f8/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "e93eb709746ae9",
           "source": "新华社",
           "title": "荷兰对优步网约车公司开出8.25亿欧元罚单",
@@ -83803,6 +83883,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "dd10b118150e04",
+          "source": "新华社",
+          "title": "记者手记丨一条路，这样穿越大凉山",
+          "url": "https://www.news.cn/politics/20260822/eeff326b89e74e67809a0f567c4112bd/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "6341ebdd687286",
           "source": "新华社",
           "title": "走近黑龙江自贸试验区绥芬河片区",
@@ -83811,18 +83899,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a14815bf5e27b0",
+          "id": "4b997fe6721dd9",
           "source": "新华社",
-          "title": "通讯丨中企扎根南非助力当地产业新生",
-          "url": "https://www.news.cn/world/20260822/11b691890d3b4b9685b7a97def67adce/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "eb9c82d78e0c18",
-          "source": "新华社",
-          "title": "阿巴斯呼吁以色列停止并取消“E1区”定居点招标",
-          "url": "https://www.news.cn/20260822/0ff4223b99c14610815ccb64a919cafd/c.html",
+          "title": "通讯丨澜湄减贫示范村为缅甸乡村建设提供有益借鉴",
+          "url": "https://www.news.cn/world/20260822/3785c33e2afa414f82c532d4c2c847fb/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83831,14 +83911,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "阿曼与伊朗外长讨论恢复霍尔木兹海峡自由航行",
           "url": "https://www.news.cn/20260822/943cb7df997e4b81b0041f3193e0806b/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "206808675bcd09",
-          "source": "求是",
-          "title": "“发挥好支部的战斗堡垒作用”",
-          "url": "https://www.qstheory.cn/20260822/1575ad408dd244dd89e328c4332294e4/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83920,65 +83992,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.2,
+          "duration": 11.8,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260822.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 34,
-          "duration": 2.3
+          "duration": 1.9
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 51,
-          "duration": 4.7
+          "count": 60,
+          "duration": 1.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 24.9
+          "duration": 20.1
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 13,
-          "duration": 6.5
+          "duration": 5.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 2.2
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.7
+          "duration": 14.6
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 2,
-          "duration": 2.0
+          "duration": 3.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 9.1
+          "duration": 8.3
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 79.7
+          "duration": 69.6
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-22T15:28:00+08:00"
+  "generatedAt": "2026-08-22T16:22:30+08:00"
 };
