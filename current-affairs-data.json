@@ -83587,14 +83587,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "39af650e730bdb",
-          "source": "新华社",
-          "title": "卢拉与特朗普通话 反对美国对巴商品加征关税",
-          "url": "https://www.news.cn/20260822/cc1e6a1df4b34fe5b7f581c019853202/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
           "id": "d4d0d0f83ecbc9",
           "source": "新华社",
           "title": "双线布局，日本“扩军外交”何其危险",
@@ -83731,10 +83723,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "8f6e030b74c0c1",
+          "id": "4d987ccc3462e4",
           "source": "新华社",
           "title": "水利部对广东广西海南启动洪水防御Ⅳ级应急响应",
-          "url": "https://www.news.cn/20260822/f65cbecd69924d57a7c407bee0e8f325/c.html",
+          "url": "https://www.news.cn/politics/20260822/cd34ef665bbf4f0ebef08d9b2cbbf62c/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83751,6 +83743,14 @@
           "source": "新华社",
           "title": "河南淅川：千年古刹藏山林",
           "url": "https://www.news.cn/photo/20260822/be5696c81bd64c358cab55f452dc23ca/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "02bc1bd6efaebd",
+          "source": "新华社",
+          "title": "热浪侵袭 欧洲“超额死亡人数”逾3.2万",
+          "url": "https://www.news.cn/20260822/ad0c1192de0b496baf78e83add681f09/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83787,10 +83787,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "a42ddf6d1856d1",
+          "id": "411eed3069b313",
           "source": "新华社",
-          "title": "瑞典校园持剑袭击事件致1死3伤",
-          "url": "https://www.news.cn/20260822/df04168bd1b1471cb145059e818ae92a/c.html",
+          "title": "研究发现运动时释放的一种分子可增强肌肉功能",
+          "url": "https://www.news.cn/20260822/b855ed4d2410408bafee1d94f7e99b25/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83875,14 +83875,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "e93eb709746ae9",
-          "source": "新华社",
-          "title": "荷兰对优步网约车公司开出8.25亿欧元罚单",
-          "url": "https://www.news.cn/20260822/620f1f3d1c5041a48b5453b032f2a809/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
           "id": "ef5d7df23c5659",
           "source": "新华社",
           "title": "行业创新的速度和温度",
@@ -83911,6 +83903,14 @@
           "source": "新华社",
           "title": "通讯丨澜湄减贫示范村为缅甸乡村建设提供有益借鉴",
           "url": "https://www.news.cn/world/20260822/3785c33e2afa414f82c532d4c2c847fb/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0c48dc67d70162",
+          "source": "新华社",
+          "title": "防范“简拉维” 福建启动防台风四级应急响应",
+          "url": "https://www.news.cn/20260822/5c8f35b9c4b8486e8db2145fd2ae7767/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -84000,50 +84000,50 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 4.6,
+          "duration": 6.1,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260822.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 34,
-          "duration": 2.0
+          "duration": 1.8
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.4
+          "duration": 2.8
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 18.3
+          "duration": 19.8
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 13,
-          "duration": 5.8
+          "duration": 6.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 3.9
+          "duration": 1.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.6
+          "duration": 11.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 2,
-          "duration": 3.3
+          "duration": 2.0
         },
         {
           "source": "中国政府网",
@@ -84055,10 +84055,10 @@
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 54.3
+          "duration": 63.2
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-22T17:22:13+08:00"
+  "generatedAt": "2026-08-22T18:18:10+08:00"
 }
