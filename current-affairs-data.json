@@ -82834,15 +82834,15 @@
     },
     {
       "date": "2026-08-22",
-      "keyword": "经济",
+      "keyword": "中国共产党",
       "keywords": [
         {
-          "name": "经济",
+          "name": "中国共产党",
           "count": 5
         },
         {
-          "name": "中国共产党",
-          "count": 4
+          "name": "经济",
+          "count": 5
         },
         {
           "name": "高质量发展",
@@ -82859,13 +82859,25 @@
         {
           "name": "教育",
           "count": 2
-        },
-        {
-          "name": "消费",
-          "count": 2
         }
       ],
       "articles": [
+        {
+          "id": "8d4657a61a40b0",
+          "source": "中国政府网",
+          "title": "中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
+          "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7078902.htm",
+          "date": "2026-08-22",
+          "keyword": "中国共产党"
+        },
+        {
+          "id": "5aafcf449b3d72",
+          "source": "学习强国",
+          "title": "中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2510251689812398216&item_id=2510251689812398216",
+          "date": "2026-08-22",
+          "keyword": "中国共产党"
+        },
         {
           "id": "d3a7f3022af593",
           "source": "学习强国",
@@ -82873,6 +82885,14 @@
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=15249773396441841564&item_id=15249773396441841564",
           "date": "2026-08-22",
           "keyword": "经济"
+        },
+        {
+          "id": "bf89b76ed41e51",
+          "source": "新华社",
+          "title": "受权发布丨中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
+          "url": "https://www.news.cn/politics/20260822/66896bd92e254592af1dc67477d5711b/c.html",
+          "date": "2026-08-22",
+          "keyword": "中国共产党"
         },
         {
           "id": "79068d89d46ceb",
@@ -82891,6 +82911,22 @@
           "keyword": "经济"
         },
         {
+          "id": "0b1d8ec99700ba",
+          "source": "新闻联播",
+          "title": "中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
+          "url": "https://tv.cctv.com/2026/08/22/VIDEeFV139KTAeoSl1K8vm57260822.shtml",
+          "date": "2026-08-22",
+          "keyword": "中国共产党"
+        },
+        {
+          "id": "48944c044d7ba9",
+          "source": "求是",
+          "title": "中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
+          "url": "https://www.qstheory.cn/20260822/4107540d94e8473389ff3ac582fc7f1c/c.html",
+          "date": "2026-08-22",
+          "keyword": "中国共产党"
+        },
+        {
           "id": "14bc0e99debaa9",
           "source": "求是",
           "title": "发挥积极财政政策作用 推动经济社会高质量发展",
@@ -82905,38 +82941,6 @@
           "url": "https://www.qstheory.cn/20260822/92c63db717a24a50a37dc7dbabc9375f/c.html",
           "date": "2026-08-22",
           "keyword": "经济"
-        },
-        {
-          "id": "8d4657a61a40b0",
-          "source": "中国政府网",
-          "title": "中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
-          "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7078902.htm",
-          "date": "2026-08-22",
-          "keyword": "中国共产党"
-        },
-        {
-          "id": "5aafcf449b3d72",
-          "source": "学习强国",
-          "title": "中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2510251689812398216&item_id=2510251689812398216",
-          "date": "2026-08-22",
-          "keyword": "中国共产党"
-        },
-        {
-          "id": "bf89b76ed41e51",
-          "source": "新华社",
-          "title": "受权发布丨中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
-          "url": "https://www.news.cn/politics/20260822/66896bd92e254592af1dc67477d5711b/c.html",
-          "date": "2026-08-22",
-          "keyword": "中国共产党"
-        },
-        {
-          "id": "48944c044d7ba9",
-          "source": "求是",
-          "title": "中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
-          "url": "https://www.qstheory.cn/20260822/4107540d94e8473389ff3ac582fc7f1c/c.html",
-          "date": "2026-08-22",
-          "keyword": "中国共产党"
         },
         {
           "id": "b9d35675078322",
@@ -82993,22 +82997,6 @@
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22970.html",
           "date": "2026-08-22",
           "keyword": "教育"
-        },
-        {
-          "id": "22947cffe16496",
-          "source": "新华社",
-          "title": "提上限、扩范围 多家银行更新个人消费贷贴息细则",
-          "url": "https://www.news.cn/fortune/20260822/ddbbd8aa8f8f4a2dbcf7e865ccfaa8ae/c.html",
-          "date": "2026-08-22",
-          "keyword": "消费"
-        },
-        {
-          "id": "3517b7c2d16f83",
-          "source": "新华社",
-          "title": "沉浸式文旅撬动云南建水暑期消费",
-          "url": "https://www.news.cn/local/20260822/847c3c537ed24d18a885adb9da5ac559/c.html",
-          "date": "2026-08-22",
-          "keyword": "消费"
         },
         {
           "id": "582bcded46c5c4",
@@ -83627,18 +83615,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "ebb68e1c1dfcbb",
+          "id": "41c28c70f7d33b",
           "source": "新华社",
-          "title": "哥伦比亚强震死亡人数升至329人",
-          "url": "https://www.news.cn/20260822/2d8616f8e419489383a2ec819cf86321/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "0c40e1205f74b9",
-          "source": "新华社",
-          "title": "四川马边遭遇强降雨",
-          "url": "https://www.news.cn/20260822/2c49a5accfca4cfd942b07c1888dcb20/c.html",
+          "title": "国家防总、应急管理部对福建启动应急响应",
+          "url": "https://www.news.cn/20260822/f892727617364423829b460a01c84b17/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83675,10 +83655,26 @@
           "keyword": "综合时政"
         },
         {
+          "id": "8d56c149c6e5f8",
+          "source": "新华社",
+          "title": "尼日利亚中部数十人遭武装人员绑架",
+          "url": "https://www.news.cn/20260822/9984f09463f149829148c9d6ee4a8b7a/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "09b350e3970cb3",
           "source": "新华社",
           "title": "广西升级发布洪水黄色预警",
           "url": "https://www.news.cn/local/20260822/ebaa3047870446ed85cf03815bd84d59/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "22947cffe16496",
+          "source": "新华社",
+          "title": "提上限、扩范围 多家银行更新个人消费贷贴息细则",
+          "url": "https://www.news.cn/fortune/20260822/ddbbd8aa8f8f4a2dbcf7e865ccfaa8ae/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83771,6 +83767,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "2775e7def6548b",
+          "source": "新华社",
+          "title": "特稿丨世界机器人大会成全球观察中国“机”遇窗口",
+          "url": "https://www.news.cn/tech/20260822/3a77fd23ae66475982ab8ca3b31272c7/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "411eed3069b313",
           "source": "新华社",
           "title": "研究发现运动时释放的一种分子可增强肌肉功能",
@@ -83859,14 +83863,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "05537adfbdf590",
-          "source": "新华社",
-          "title": "船舶海工，转型升级把握“深蓝”新机遇",
-          "url": "https://www.news.cn/fortune/20260822/06648cd588494e9e8179b808171d9d14/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
           "id": "8af713cf12cb12",
           "source": "新华社",
           "title": "节令之美丨处暑逢末伏收官 迎来晚出伏",
@@ -83891,18 +83887,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "dd10b118150e04",
+          "id": "da50b86203b5b9",
           "source": "新华社",
-          "title": "记者手记丨一条路，这样穿越大凉山",
-          "url": "https://www.news.cn/politics/20260822/eeff326b89e74e67809a0f567c4112bd/c.html",
+          "title": "近海智能无人艇“埕安一号”在天津投入运行",
+          "url": "https://www.news.cn/20260822/bab57dad9f484d5381b2344f744d0c1b/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
         {
-          "id": "4b997fe6721dd9",
+          "id": "19c714bcb879c7",
           "source": "新华社",
-          "title": "通讯丨澜湄减贫示范村为缅甸乡村建设提供有益借鉴",
-          "url": "https://www.news.cn/world/20260822/3785c33e2afa414f82c532d4c2c847fb/c.html",
+          "title": "近海智能无人艇“埕安一号”投入运行",
+          "url": "https://www.news.cn/local/20260822/a352750035f847889e169ed21bbbe72c/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "11e3460c116811",
+          "source": "新华社",
+          "title": "野牦牛“断奶记”",
+          "url": "https://www.news.cn/local/20260822/83c5f0d4118a47c89679b4503afa7b5f/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83919,6 +83923,86 @@
           "source": "新华社",
           "title": "阿曼与伊朗外长讨论恢复霍尔木兹海峡自由航行",
           "url": "https://www.news.cn/20260822/943cb7df997e4b81b0041f3193e0806b/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "963efd0192b579",
+          "source": "新闻联播",
+          "title": "《新闻联播》 20260822 19:00",
+          "url": "https://tv.cctv.com/2026/08/22/VIDExD9Hf6mYyhGqfvKfCUlP260822.shtml",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f9c4c256a06c5c",
+          "source": "新闻联播",
+          "title": "【凝心聚力 真抓实干 奋力实现“十五五”良好开局】山东打造商业航天产业高地",
+          "url": "https://tv.cctv.com/2026/08/22/VIDECjJBMSnYboYSvW7YL96H260822.shtml",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cdbc28ec37fe44",
+          "source": "新闻联播",
+          "title": "【文化中国行】留住佛光寺的“千年目光”",
+          "url": "https://tv.cctv.com/2026/08/22/VIDEhp0QTB56WeNlO1ANF9dp260822.shtml",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3eae035b25d340",
+          "source": "新闻联播",
+          "title": "【新思想引领新征程】拓展共建“一带一路”合作新空间 铺就共赢之路",
+          "url": "https://tv.cctv.com/2026/08/22/VIDE9E7OqciY0AvBdIArJpbp260822.shtml",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "73c0a9f3b85c97",
+          "source": "新闻联播",
+          "title": "今年1—7月高技术产业吸引外资同比增长32.7%",
+          "url": "https://tv.cctv.com/2026/08/22/VIDE9Angn5KFKUxXRwmMiDJz260822.shtml",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fbd25648b12e28",
+          "source": "新闻联播",
+          "title": "伊称将持续增强国防力量以应对威胁 美称不会放弃对伊军事选项",
+          "url": "https://tv.cctv.com/2026/08/22/VIDEHYPifEH503g8Oj61khQ4260822.shtml",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c40c97ac68a9ab",
+          "source": "新闻联播",
+          "title": "加拿大宣布暂停加美贸易谈判并实施对等反制",
+          "url": "https://tv.cctv.com/2026/08/22/VIDEghPC3lscc2WzJHaUv6bb260822.shtml",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "90b2c8909f64cb",
+          "source": "新闻联播",
+          "title": "国内联播快讯",
+          "url": "https://tv.cctv.com/2026/08/22/VIDErIxwLVg7XN8WwymVllLh260822.shtml",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b31884cd2a92c7",
+          "source": "新闻联播",
+          "title": "国际联播快讯",
+          "url": "https://tv.cctv.com/2026/08/22/VIDEPnOgCiyERbv2eEzIO5Zm260822.shtml",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b5df2022bf7936",
+          "source": "新闻联播",
+          "title": "我国实现多领域高端钢材自主量产",
+          "url": "https://tv.cctv.com/2026/08/22/VIDENcx2oUVedBtxf59z37zE260822.shtml",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83998,67 +84082,66 @@
       "sourceStatus": [
         {
           "source": "新闻联播",
-          "status": "error",
-          "count": 0,
-          "duration": 9.7,
-          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260822.shtml"
+          "status": "ok",
+          "count": 11,
+          "duration": 0.5
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 34,
-          "duration": 1.8
+          "duration": 2.2
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.1
+          "duration": 2.1
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 23.1
+          "duration": 36.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 13,
-          "duration": 6.4
+          "duration": 7.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 1.9
+          "duration": 2.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.3
+          "duration": 14.6
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 2,
-          "duration": 2.2
+          "duration": 3.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 10.5
+          "duration": 9.4
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 44.7
+          "duration": 62.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-22T19:16:24+08:00"
+  "generatedAt": "2026-08-22T20:26:47+08:00"
 }
