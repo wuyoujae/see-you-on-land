@@ -82857,6 +82857,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 2
         },
         {
+          "name": "机器人",
+          "count": 2
+        },
+        {
           "name": "教育",
           "count": 2
         }
@@ -82997,6 +83001,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/22/content_22970.html",
           "date": "2026-08-22",
           "keyword": "教育"
+        },
+        {
+          "id": "c3e2dcd378820a",
+          "source": "新华社",
+          "title": "2026世界机器人大会迎来大量观众",
+          "url": "https://www.news.cn/photo/20260822/f162c5a420ab4e8ca900562808b71db2/c.html",
+          "date": "2026-08-22",
+          "keyword": "机器人"
+        },
+        {
+          "id": "2775e7def6548b",
+          "source": "新华社",
+          "title": "特稿丨世界机器人大会成全球观察中国“机”遇窗口",
+          "url": "https://www.news.cn/tech/20260822/3a77fd23ae66475982ab8ca3b31272c7/c.html",
+          "date": "2026-08-22",
+          "keyword": "机器人"
         },
         {
           "id": "582bcded46c5c4",
@@ -83519,18 +83539,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d31f77294060c7",
+          "id": "e102beb5bf0f64",
           "source": "新华社",
-          "title": "五角大楼解雇军报负责人 指其“不服从命令”",
-          "url": "https://www.news.cn/20260822/f8194eac9a374678ab4cac1a45ee4b9e/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "d8d1c370dbe403",
-          "source": "新华社",
-          "title": "以色列袭击叙利亚南部致一人受伤",
-          "url": "https://www.news.cn/world/20260822/ad3d15bc7aa34795b7fbf49e7fbdfc5d/c.html",
+          "title": "两部门对福建启动防汛防台风四级应急响应",
+          "url": "https://www.news.cn/20260822/8b1e56ee3df9435c9163e2f57c8cc3a4/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83555,14 +83567,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "伊朗议长称美国为了以色列无视其他盟友利益",
           "url": "https://www.news.cn/world/20260822/91128f92c5cc456db1133821f566814b/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "da3ca7b1cd47d0",
-          "source": "新华社",
-          "title": "俄外交部：西方机构直接调查问询俄国内法人“违法”",
-          "url": "https://www.news.cn/world/20260822/d36f5a5943974678af8372e508a23ff6/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83619,14 +83623,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "台风暴雨预警 中国气象局启动四级应急响应",
           "url": "https://www.news.cn/20260822/9206c321c99b44af8236ab888e46eb68/c.html",
-          "date": "2026-08-22",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "a21431611a200c",
-          "source": "新华社",
-          "title": "名画《韩熙载夜宴图》亮相浙博",
-          "url": "https://www.news.cn/20260822/25c09019eb5c41a5a3e010b7e41044fd/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83783,18 +83779,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "9362ebadbbd529",
+          "id": "aff16701f4c74a",
           "source": "新华社",
           "title": "爱知·名古屋亚运会火炬传递启动",
-          "url": "https://www.news.cn/20260822/59a8c5ab286741af8b9bf093ef6f555b/c.html",
+          "url": "https://www.news.cn/sports/20260822/807a0418e5fd428a8644940f06ff6871/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
         {
-          "id": "2775e7def6548b",
+          "id": "66af75a478bd72",
           "source": "新华社",
-          "title": "特稿丨世界机器人大会成全球观察中国“机”遇窗口",
-          "url": "https://www.news.cn/tech/20260822/3a77fd23ae66475982ab8ca3b31272c7/c.html",
+          "title": "瑞典研究人员开发出能估算细胞生物学年龄的新工具",
+          "url": "https://www.news.cn/20260822/7c6631274e824c7aaa4ff4f2058b9787/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -83875,6 +83871,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "美加未达成贸易协议",
           "url": "https://www.news.cn/world/20260822/885f7f1a08cc4f979a9d9826b681c189/c.html",
+          "date": "2026-08-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eb3c04d64ebd73",
+          "source": "新华社",
+          "title": "美官员：约40艘油轮21日晚通过霍尔木兹海峡",
+          "url": "https://www.news.cn/20260822/ca8e2226332f40f29bf7ea2e525bb55d/c.html",
           "date": "2026-08-22",
           "keyword": "综合时政"
         },
@@ -84084,64 +84088,64 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "ok",
           "count": 11,
-          "duration": 0.2
+          "duration": 0.8
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 34,
-          "duration": 2.0
+          "duration": 4.0
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 9.7
+          "duration": 3.1
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 35.6
+          "duration": 21.1
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 13,
-          "duration": 7.0
+          "duration": 6.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 1.7
+          "duration": 1.4
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.3
+          "duration": 12.0
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 2,
-          "duration": 1.9
+          "duration": 2.6
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 10.6
+          "duration": 10.1
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 50.5
+          "duration": 50.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-22T21:28:14+08:00"
+  "generatedAt": "2026-08-22T22:16:17+08:00"
 };
