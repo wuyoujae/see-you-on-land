@@ -84191,7 +84191,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "ddb0a38ed63f29",
           "source": "新华社",
-          "title": "伊朗称参与美对伊“经济战”的周边国家将被视为敌人",
+          "title": "伊称将视参与美对伊“经济战”的周边国家为敌",
           "url": "https://www.news.cn/world/20260823/592aece68a054b8ebdec5156438cc55d/c.html",
           "date": "2026-08-23",
           "keyword": "经济"
@@ -84645,6 +84645,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "63278807eb8415",
+          "source": "新华社",
+          "title": "“赛考斯”受邀来华参观交流",
+          "url": "https://www.news.cn/world/20260823/3d32f495096d4f109e02ee816a643051/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d43567f257e430",
+          "source": "新华社",
+          "title": "《玛纳斯》歌舞剧亮相比什凯克",
+          "url": "https://www.news.cn/20260823/9232c6284e684de4a4a0ae5cad2747db/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "344693adcf9358",
           "source": "新华社",
           "title": "一粒“洋种子”在黄土高原变成“金穗子”",
@@ -84677,6 +84693,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "8f213eaeeb63de",
+          "source": "新华社",
+          "title": "今日将与殷玉珍重逢",
+          "url": "https://www.news.cn/politics/20260823/17cc69f94fbe49e5a7d50ed68055ca8d/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "2b89cb436ed094",
           "source": "新华社",
           "title": "八月，镌刻在1314号界碑上的家国浪漫",
@@ -84693,10 +84717,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "ca59b9351a4b80",
+          "id": "d006e900452e5c",
           "source": "新华社",
           "title": "匈牙利保克什核电站3号机组恢复发电",
-          "url": "https://www.news.cn/world/20260823/98c91c13c132471a82d1061ea082f789/c.html",
+          "url": "https://www.news.cn/20260823/dbedb0a6520e47feb44ea30810f4487f/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84705,14 +84729,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "南海影像日志丨南海之疆 砺警强能",
           "url": "https://www.news.cn/photo/20260823/e76d003d94714dd0bdd27b17a5614617/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "3a0f633a85c58a",
-          "source": "新华社",
-          "title": "台风“紫檀”已造成广西13条河流19个站超警",
-          "url": "https://www.news.cn/20260823/63790b0266fc4a6cbde48a5af489b235/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84765,10 +84781,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "698fc319d9c52d",
+          "id": "ed0e57267c118b",
           "source": "新华社",
-          "title": "日本茨城县5.9级地震 附近多处核设施暂未见异常",
-          "url": "https://www.news.cn/world/20260823/67c20dd3380f4602ad922331c9784da7/c.html",
+          "title": "日本茨城县地震致37人受伤 多地水管爆裂交通受阻",
+          "url": "https://www.news.cn/world/20260823/978358a7192b428181521d8f94dbb266/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84813,6 +84829,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "3e9ed4efae6119",
+          "source": "新华社",
+          "title": "渝昆高铁盐津南站进入冲刺阶段",
+          "url": "https://www.news.cn/local/20260823/265e47d1584e40329184dcf226a9c901/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "432ee19082fa40",
           "source": "新华社",
           "title": "温度丨出诊两万次，他驾一叶扁舟护库区百姓安康",
@@ -84845,6 +84869,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "926bbeb1151e7c",
+          "source": "新华社",
+          "title": "纪录片《海丝双城记》：讲述中埃文明对话故事",
+          "url": "https://www.news.cn/20260823/696b04d5bffb4a05a7958f28fe4dec4a/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "c530f654c605b6",
           "source": "新华社",
           "title": "美债收益率走高 欧洲债市承压加剧",
@@ -84853,18 +84885,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "63278807eb8415",
-          "source": "新华社",
-          "title": "美国友人“赛考斯”受邀来华参观交流",
-          "url": "https://www.news.cn/world/20260823/3d32f495096d4f109e02ee816a643051/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
           "id": "1089c42c588b8f",
           "source": "新华社",
           "title": "美政府欲撤销美国律协“法学院认证权”",
           "url": "https://www.news.cn/20260823/62b75e6e60ed4257b202a0034734ce5a/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a69cf20a154f42",
+          "source": "新华社",
+          "title": "美特使称以“诱土开战” 以外长否认",
+          "url": "https://www.news.cn/world/20260823/315bece88ec1433ba944f9213ed1f297/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84954,38 +84986,38 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 11.4,
+          "duration": 11.9,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260823.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 2.4
+          "duration": 1.6
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 40,
-          "duration": 3.2
+          "count": 44,
+          "duration": 2.4
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 25.6
+          "duration": 32.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 7,
-          "duration": 5.8
+          "duration": 6.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 24,
-          "duration": 2.3
+          "duration": 1.8
         },
         {
           "source": "南方周末",
@@ -84997,22 +85029,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.0
+          "duration": 2.6
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 12.0
+          "duration": 7.3
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 75.4
+          "duration": 65.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-23T12:32:24+08:00"
+  "generatedAt": "2026-08-23T13:25:05+08:00"
 };
