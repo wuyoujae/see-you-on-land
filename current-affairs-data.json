@@ -85327,6 +85327,10 @@
         {
           "name": "消费",
           "count": 2
+        },
+        {
+          "name": "经济",
+          "count": 2
         }
       ],
       "articles": [
@@ -85337,6 +85341,14 @@
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/24/content_30176637.html",
           "date": "2026-08-24",
           "keyword": "高质量发展"
+        },
+        {
+          "id": "70af1d1524fdf0",
+          "source": "人民日报",
+          "title": "上半年经济增长4.7%说明了什么？",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/24/content_30176629.html",
+          "date": "2026-08-24",
+          "keyword": "经济"
         },
         {
           "id": "f5c61691f4b32a",
@@ -85395,6 +85407,14 @@
           "keyword": "消费"
         },
         {
+          "id": "92c51944be7127",
+          "source": "新华社",
+          "title": "钟才文：上半年经济增长4.7%说明了什么？",
+          "url": "https://www.news.cn/fortune/20260824/6d8a753f7a8f45b4a1e51e8a9daf3e52/c.html",
+          "date": "2026-08-24",
+          "keyword": "经济"
+        },
+        {
           "id": "cb973f2804b129",
           "source": "人民日报",
           "title": "“更好把握中国发展带来的机遇”",
@@ -85415,14 +85435,6 @@
           "source": "人民日报",
           "title": "“营造风清气正的政治生态”（总书记的人民情怀）",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/24/content_30176621.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "70af1d1524fdf0",
-          "source": "人民日报",
-          "title": "上半年经济增长4.7%说明了什么？",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/24/content_30176629.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -85691,6 +85703,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "5c2baca99c3c02",
+          "source": "新华社",
+          "title": "叙利亚媒体：叙以举行会谈推动局势缓和",
+          "url": "https://www.news.cn/20260824/c9a1ce4f3294445db14b49d54717801a/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
           "id": "5d7af3161dcc57",
           "source": "新华社",
           "title": "美国内华达州里诺市4万多居民因野火紧急撤离",
@@ -85704,65 +85724,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 10.4,
+          "duration": 10.1,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260824.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 21,
-          "duration": 1.1
+          "duration": 1.2
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 4,
-          "duration": 2.4
+          "count": 6,
+          "duration": 2.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 13.3
+          "duration": 21.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.3
+          "duration": 6.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 21,
-          "duration": 0.4
+          "duration": 1.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.2
+          "duration": 12.6
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.7
+          "duration": 2.6
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.6
+          "duration": 7.7
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 47.4
+          "duration": 54.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-24T06:29:05+08:00"
+  "generatedAt": "2026-08-24T07:25:32+08:00"
 }
