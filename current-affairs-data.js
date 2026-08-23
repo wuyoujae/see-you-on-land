@@ -84169,6 +84169,10 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "name": "科技",
           "count": 2
+        },
+        {
+          "name": "经济",
+          "count": 2
         }
       ],
       "articles": [
@@ -84187,6 +84191,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/23/content_30176528.html",
           "date": "2026-08-23",
           "keyword": "中国共产党"
+        },
+        {
+          "id": "71d87978d65c04",
+          "source": "人民日报",
+          "title": "中国是世界经济增长的积极贡献者和强大稳定锚",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/23/content_30176537.html",
+          "date": "2026-08-23",
+          "keyword": "经济"
         },
         {
           "id": "b097d62d8e060a",
@@ -84245,6 +84257,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "机器人"
         },
         {
+          "id": "2801317806a0e8",
+          "source": "新华社",
+          "title": "评论丨钟才文：中国是世界经济增长的积极贡献者和强大稳定锚",
+          "url": "https://www.news.cn/fortune/20260823/e5df147f9d0f4751b725d39af50a6306/c.html",
+          "date": "2026-08-23",
+          "keyword": "经济"
+        },
+        {
+          "id": "2eadbf4edd7b57",
+          "source": "中国政府网",
+          "title": "网上商品和服务零售额前7月增4.8%",
+          "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7078918.htm",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "8ab4a473560468",
           "source": "人民日报",
           "title": "“今天的世界可以从中国学到很多”",
@@ -84281,14 +84309,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "两部门发布红色山洪灾害气象预警",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/23/content_30176552.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "71d87978d65c04",
-          "source": "人民日报",
-          "title": "中国是世界经济增长的积极贡献者和强大稳定锚",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/23/content_30176537.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84541,6 +84561,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "3932aa755e9d2f",
+          "source": "广东发布",
+          "title": "“三台共舞”局面再现 未来几日广东局部有大暴雨",
+          "url": "https://www.gd.gov.cn/gdywdt/bmdt/content/post_4945666.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fad223b875dd50",
+          "source": "广东发布",
+          "title": "广东省第十七届运动会闭幕 下届由汕尾接力承办 山海同在 好心梦圆",
+          "url": "https://www.gd.gov.cn/gdywdt/dsdt/content/post_4945664.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "530ebe67b51c27",
+          "source": "新华社",
+          "title": "一艘土耳其商船在黑海遇袭 致1死8伤",
+          "url": "https://www.news.cn/20260823/00008b5ba94643d9b407f67890ca6dc8/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "e758e23a08b71f",
           "source": "新华社",
           "title": "加拿大宣布对美等额反制关税将于9月8日生效",
@@ -84549,18 +84593,74 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "649ed887265e09",
+          "id": "d006e900452e5c",
           "source": "新华社",
-          "title": "普京：俄军加大力度打击乌方企业",
-          "url": "https://www.news.cn/world/20260823/932fe922f6014a2bad6012c9403f478c/c.html",
+          "title": "匈牙利保克什核电站3号机组恢复发电",
+          "url": "https://www.news.cn/20260823/dbedb0a6520e47feb44ea30810f4487f/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
         {
-          "id": "9ba2a138082fa9",
+          "id": "ff5823bf70cec8",
+          "source": "新华社",
+          "title": "强风暴横扫波罗的海三国 致两人死亡",
+          "url": "https://www.news.cn/20260823/f1967ce0486c4da3864dd899f2268e2d/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f50362b7d2327a",
+          "source": "新华社",
+          "title": "拉脱维亚遭遇严重风暴灾害 超18万用户停电",
+          "url": "https://www.news.cn/20260823/1cad7c8cbe224ffda6efeb9f3d57dc2d/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a170858ad32822",
+          "source": "新华社",
+          "title": "日本茨城县5.9级地震 附近多处核设施暂未见异常",
+          "url": "https://www.news.cn/20260823/be4e77677b554ed7b938949fd902bc93/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6e7707d0483631",
+          "source": "新华社",
+          "title": "普京：俄军加大力度打击乌方企业",
+          "url": "https://www.news.cn/20260823/11071f55adb2413a956e35bd54695799/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "92f1e55a2ea981",
           "source": "新华社",
           "title": "泰南三府发生爆炸纵火事件 那拉提瓦府实施宵禁",
-          "url": "https://www.news.cn/world/20260823/9a53933fa62f41beae81cbcf8e996afa/c.html",
+          "url": "https://www.news.cn/20260823/e8eda0460fe1457990e520e80c0fe192/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "98671ee4c1dc86",
+          "source": "新华社",
+          "title": "美国友人“赛考斯”受邀来华参观交流",
+          "url": "https://www.news.cn/20260823/85fe2db92d054242994ecfe39252fecd/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "20aca67ca5be99",
+          "source": "新华社",
+          "title": "美部署在保加利亚军机结束任务飞离驻地",
+          "url": "https://www.news.cn/20260823/809009af17b14d85ba7248aad7fc4a0d/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d7be351206559c",
+          "source": "新华社",
+          "title": "英国一起交通事故造成7人死亡 包括2名执勤警员",
+          "url": "https://www.news.cn/20260823/228128b8fd1e4f03a5d6684d6caf7c24/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         }
@@ -84570,65 +84670,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.6,
+          "duration": 6.9,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260823.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 2.0
+          "duration": 1.5
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 3,
-          "duration": 3.3
+          "count": 12,
+          "duration": 3.4
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 17.6
+          "duration": 26.9
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 5.8
+          "duration": 6.6
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 24,
-          "duration": 1.8
+          "duration": 1.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.6
+          "duration": 12.1
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.2
+          "duration": 2.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 0,
-          "duration": 7.2
+          "count": 1,
+          "duration": 8.4
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 0,
-          "duration": 43.7
+          "count": 2,
+          "duration": 39.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-23T07:24:58+08:00"
+  "generatedAt": "2026-08-23T08:57:21+08:00"
 };
