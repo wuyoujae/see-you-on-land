@@ -84199,7 +84199,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "2801317806a0e8",
           "source": "新华社",
-          "title": "评论丨钟才文：中国是世界经济增长的积极贡献者和强大稳定锚",
+          "title": "钟才文：中国是世界经济增长的积极贡献者和强大 稳定锚",
           "url": "https://www.news.cn/fortune/20260823/e5df147f9d0f4751b725d39af50a6306/c.html",
           "date": "2026-08-23",
           "keyword": "经济"
@@ -84685,6 +84685,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "4cdb6324c5cf88",
+          "source": "新华社",
+          "title": "中阿启动干旱、荒漠化和土地退化防治五年行动计划",
+          "url": "https://www.news.cn/world/20260823/40b6d6c2fde843bca057177a924fea6c/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "6cd8007ef71289",
           "source": "新华社",
           "title": "亚太各界在大连共议电动汽车充电标准协同",
@@ -84729,6 +84737,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "南海影像日志丨南海之疆 砺警强能",
           "url": "https://www.news.cn/photo/20260823/e76d003d94714dd0bdd27b17a5614617/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c5fb7c3892222e",
+          "source": "新华社",
+          "title": "台湾南部持续强降雨 多地停班停课",
+          "url": "https://www.news.cn/20260823/41908f344ac145f4ad41e42814094595/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84781,6 +84797,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "1d25081ee2caf4",
+          "source": "新华社",
+          "title": "新华读报丨中国汽车出口激增，运输船一船难求",
+          "url": "https://www.news.cn/fortune/20260823/3bc9794b5afb4aaaaf5ec32bfcff5551/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "ed0e57267c118b",
           "source": "新华社",
           "title": "日本茨城县地震致37人受伤 多地水管爆裂交通受阻",
@@ -84829,6 +84853,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "08ddaaff992db8",
+          "source": "新华社",
+          "title": "渐有新凉递好秋",
+          "url": "https://www.news.cn/politics/20260823/0126abc19f014a799c8c5818e5daba92/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "3e9ed4efae6119",
           "source": "新华社",
           "title": "渝昆高铁盐津南站进入冲刺阶段",
@@ -84849,14 +84881,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "神农架AI物种识别系统助力金丝猴野生个体精准追踪",
           "url": "https://www.news.cn/politics/20260823/a08520f327a942a8902aebe807c532e5/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "2f0ab261543d38",
-          "source": "新华社",
-          "title": "秋色格外动人",
-          "url": "https://www.news.cn/politics/20260823/81ef0111fb2b4e0aa050d4e31d9f8df3/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84986,65 +85010,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 11.9,
+          "duration": 9.7,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260823.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.6
+          "duration": 1.8
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 44,
-          "duration": 2.4
+          "count": 47,
+          "duration": 2.1
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 32.3
+          "duration": 38.1
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 7,
-          "duration": 6.1
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 24,
-          "duration": 1.8
+          "duration": 2.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.4
+          "duration": 13.9
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.6
+          "duration": 2.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 7.3
+          "duration": 10.3
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 65.3
+          "duration": 83.6
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-23T13:25:05+08:00"
+  "generatedAt": "2026-08-23T14:32:10+08:00"
 };
