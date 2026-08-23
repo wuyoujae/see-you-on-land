@@ -84637,6 +84637,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "3412d18ee695a5",
+          "source": "新华社",
+          "title": "“治沙英雄”殷玉珍：27年找寻 绿洲为信",
+          "url": "https://www.news.cn/20260823/7e1ecca8b4ea484e91505cfb2f8a3bd4/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "344693adcf9358",
           "source": "新华社",
           "title": "一粒“洋种子”在黄土高原变成“金穗子”",
@@ -84669,14 +84677,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "2f0ab261543d38",
-          "source": "新华社",
-          "title": "今日处暑：秋色格外动人",
-          "url": "https://www.news.cn/politics/20260823/81ef0111fb2b4e0aa050d4e31d9f8df3/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
           "id": "2b89cb436ed094",
           "source": "新华社",
           "title": "八月，镌刻在1314号界碑上的家国浪漫",
@@ -84697,6 +84697,14 @@
           "source": "新华社",
           "title": "匈牙利保克什核电站3号机组恢复发电",
           "url": "https://www.news.cn/world/20260823/98c91c13c132471a82d1061ea082f789/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "39b0bc7b7b8188",
+          "source": "新华社",
+          "title": "南海影像日志丨南海之疆 砺警强能",
+          "url": "https://www.news.cn/photo/20260823/e76d003d94714dd0bdd27b17a5614617/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84773,6 +84781,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "94ba3bb790e80e",
+          "source": "新华社",
+          "title": "未来三天中东部天气闷热 北方25日起迎明显降温",
+          "url": "https://www.news.cn/politics/20260823/8c5599ec48374d02a122bfb8e131bb89/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "32d6b2ce969df8",
           "source": "新华社",
           "title": "权威数读·观中国丨本周，这些数据值得关注",
@@ -84809,6 +84825,14 @@
           "source": "新华社",
           "title": "神农架AI物种识别系统助力金丝猴野生个体精准追踪",
           "url": "https://www.news.cn/politics/20260823/a08520f327a942a8902aebe807c532e5/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2f0ab261543d38",
+          "source": "新华社",
+          "title": "秋色格外动人",
+          "url": "https://www.news.cn/politics/20260823/81ef0111fb2b4e0aa050d4e31d9f8df3/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84930,65 +84954,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 10.4,
+          "duration": 11.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260823.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.5
+          "duration": 2.4
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 37,
-          "duration": 3.5
+          "count": 40,
+          "duration": 3.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 20.1
+          "duration": 25.6
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 7,
-          "duration": 6.2
+          "duration": 5.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 24,
-          "duration": 2.1
+          "duration": 2.3
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.0
+          "duration": 14.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.3
+          "duration": 3.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 9.1
+          "duration": 12.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 60.3
+          "duration": 75.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-23T11:45:56+08:00"
+  "generatedAt": "2026-08-23T12:32:24+08:00"
 }
