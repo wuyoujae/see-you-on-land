@@ -84156,7 +84156,7 @@
         },
         {
           "name": "机器人",
-          "count": 4
+          "count": 5
         },
         {
           "name": "消费",
@@ -84257,6 +84257,14 @@
           "source": "新华社",
           "title": "2026世界人形机器人运动会赛况",
           "url": "https://www.news.cn/photo/20260823/202023db663a4b779eab72a4c22e5e92/c.html",
+          "date": "2026-08-23",
+          "keyword": "机器人"
+        },
+        {
+          "id": "8f88c8e4096798",
+          "source": "新华社",
+          "title": "机器人再次打破人类世界纪录",
+          "url": "https://www.news.cn/tech/20260823/733344cd39e2489897a27dfdb9daa69c/c.html",
           "date": "2026-08-23",
           "keyword": "机器人"
         },
@@ -84653,18 +84661,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "f973976498f005",
+          "id": "44c8b28997b199",
           "source": "新华社",
-          "title": "“声动”二十四节气·处暑",
-          "url": "https://www.news.cn/politics/20260823/4f1211eba2bb4748bdeffc8474408e95/c.html",
+          "title": "27年前帮中国治沙造林的“赛考斯”，今天回来了",
+          "url": "https://www.news.cn/politics/20260823/9ba01ceb3b564130b0d1a33363b1e1d3/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
         {
-          "id": "44c8b28997b199",
+          "id": "f973976498f005",
           "source": "新华社",
-          "title": "“赛考斯”，回来了",
-          "url": "https://www.news.cn/politics/20260823/9ba01ceb3b564130b0d1a33363b1e1d3/c.html",
+          "title": "“声动”二十四节气·处暑",
+          "url": "https://www.news.cn/politics/20260823/4f1211eba2bb4748bdeffc8474408e95/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84701,6 +84709,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "605099f5b26c45",
+          "source": "新华社",
+          "title": "中企参建的坦桑尼亚一水电站项目投用",
+          "url": "https://www.news.cn/world/20260823/e5ffdf273539416384f0513f637540bb/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "357c50a551f4e7",
           "source": "新华社",
           "title": "中俄记者走进苏州感受江南韵味",
@@ -84709,10 +84725,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "c684f4266d7157",
+          "id": "4cdb6324c5cf88",
           "source": "新华社",
           "title": "中阿启动干旱、荒漠化和土地退化防治五年行动计划",
-          "url": "https://www.news.cn/20260823/d3df030780774e05b6df3e2b92cc77d4/c.html",
+          "url": "https://www.news.cn/world/20260823/40b6d6c2fde843bca057177a924fea6c/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84725,18 +84741,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "8f213eaeeb63de",
-          "source": "新华社",
-          "title": "今日将与殷玉珍在鄂尔多斯重逢",
-          "url": "https://www.news.cn/politics/20260823/17cc69f94fbe49e5a7d50ed68055ca8d/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "6f762a151eb090",
+          "id": "55e0c2aaf3e048",
           "source": "新华社",
           "title": "冯彦哲/黄东萍获得羽毛球世锦赛混双亚军",
-          "url": "https://www.news.cn/sports/20260823/20a6c099935b4a03adb5cb78b4f2d0e9/c.html",
+          "url": "https://www.news.cn/20260823/05d21d8acae94061bcb7627889891aa7/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84821,14 +84829,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "d94df566b20467",
-          "source": "新华社",
-          "title": "守好千年文脉 “做活”一城光景",
-          "url": "https://www.news.cn/local/20260823/65178529e9b24cf999343576038692b9/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
           "id": "3b1de919f4a863",
           "source": "新华社",
           "title": "巴基斯坦陆军参谋长将访问伊朗",
@@ -84857,6 +84857,14 @@
           "source": "新华社",
           "title": "应急响应升至二级",
           "url": "https://www.news.cn/politics/20260823/6ad60019dccb49cb99b326efe51ce3ca/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c77a64e2721884",
+          "source": "新华社",
+          "title": "应急管理部对云南启动国家地质灾害四级应急响应",
+          "url": "https://www.news.cn/politics/20260823/709fc70638bc4336816739b1e62d8c50/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84905,14 +84913,6 @@
           "source": "新华社",
           "title": "新对话·金顶之约丨问天·磁场与远方",
           "url": "https://www.news.cn/politics/20260823/d094cfe43560483cb9a1513e0aad0f22/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "599d434fb2e7e7",
-          "source": "新华社",
-          "title": "日本茨城县地震致37人受伤",
-          "url": "https://www.news.cn/20260823/8b9f9043506f4325ae17540e5836bdb5/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84981,6 +84981,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "5755d7507e43bb",
+          "source": "新华社",
+          "title": "特写：“我回到了我的第二个家”",
+          "url": "https://www.news.cn/world/20260823/31d29c32cb7a4dcf99895fc10b4f77a2/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "2f3da8c266bb04",
           "source": "新华社",
           "title": "电视剧《江海潮生》弘扬爱国企业家精神",
@@ -85023,8 +85031,16 @@
         {
           "id": "b060f9fa395a03",
           "source": "新华社",
-          "title": "自然资源部对云南启动地质灾害防御Ⅳ级响应",
+          "title": "自然资源部启动防御Ⅳ级响应",
           "url": "https://www.news.cn/politics/20260823/cf486b930dd641239b358bf01810a0de/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "54fbdb13b19378",
+          "source": "新华社",
+          "title": "自然资源部对云南启动地质灾害防御Ⅳ级响应",
+          "url": "https://www.news.cn/20260823/2dd5475963a0471ca05d3ddfdf91a696/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -85033,14 +85049,6 @@
           "source": "新华社",
           "title": "行走河源昆仑 叩问文明根脉——2026昆仑文化论坛调研纪行",
           "url": "http://qh.news.cn/20260823/e69966b61d114d6e887528edb43084cd/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "659e168d631aec",
-          "source": "新华社",
-          "title": "被称作“中国最早的方便面”的礼泉烙面，有何魅力？听这一家人说",
-          "url": "https://www.news.cn/20260823/2d627fabf1cf4cc891ca8b0be5989038/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -85057,14 +85065,6 @@
           "source": "新华社",
           "title": "陈茂波：香港特区政府全方位推动AI落地和普及应用",
           "url": "https://www.news.cn/20260823/ad9eccd11ca149d99398f6d634014756/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "7cf45e2da20e3c",
-          "source": "新华社",
-          "title": "韵动节拍丨处暑消残暑 运动解秋乏",
-          "url": "https://www.news.cn/politics/20260823/f8fc7780b700457193d4dd2f2b0e14d5/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -85114,66 +85114,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 11.0,
+          "duration": 11.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260823.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.3
+          "duration": 1.6
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.8
+          "duration": 2.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 19.4
+          "duration": 43.1
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 7,
-          "duration": 6.3
+          "duration": 6.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 24,
-          "duration": 1.8
+          "duration": 1.9
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.7
+          "duration": 12.5
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.5
+          "duration": 2.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 8.1
+          "duration": 9.9
         },
         {
           "source": "广东发布",
-          "status": "stale",
+          "status": "ok",
           "count": 2,
-          "duration": 18.2,
-          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+          "duration": 61.0
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-23T18:17:53+08:00"
+  "generatedAt": "2026-08-23T19:17:16+08:00"
 }
