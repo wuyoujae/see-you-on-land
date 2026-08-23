@@ -84155,15 +84155,15 @@
           "count": 5
         },
         {
+          "name": "科技",
+          "count": 4
+        },
+        {
           "name": "机器人",
           "count": 3
         },
         {
           "name": "消费",
-          "count": 3
-        },
-        {
-          "name": "科技",
           "count": 3
         },
         {
@@ -84229,6 +84229,30 @@
           "keyword": "科技"
         },
         {
+          "id": "9aa5bf286eef4c",
+          "source": "光明日报",
+          "title": "中国工程科技东北振兴战略研究院成立",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/23/content_23044.html",
+          "date": "2026-08-23",
+          "keyword": "科技"
+        },
+        {
+          "id": "8650b0d66d1ded",
+          "source": "新华社",
+          "title": "科技之“眼”助力肯尼亚野生动物保护",
+          "url": "https://www.news.cn/world/20260823/e84c1af0a8cc4d7693593ac9cfaa3e47/c.html",
+          "date": "2026-08-23",
+          "keyword": "科技"
+        },
+        {
+          "id": "6b1b77767f3d00",
+          "source": "求是",
+          "title": "企业应成为科技创新“出题人”",
+          "url": "https://www.qstheory.cn/20260823/3b6ebf98aec041eda6a07832170391ac/c.html",
+          "date": "2026-08-23",
+          "keyword": "科技"
+        },
+        {
           "id": "3a1d851a029362",
           "source": "人民日报",
           "title": "消费品以旧换新政策惠及1.78亿人次",
@@ -84243,14 +84267,6 @@
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/23/content_30176540.html",
           "date": "2026-08-23",
           "keyword": "机器人"
-        },
-        {
-          "id": "9aa5bf286eef4c",
-          "source": "光明日报",
-          "title": "中国工程科技东北振兴战略研究院成立",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/23/content_23044.html",
-          "date": "2026-08-23",
-          "keyword": "科技"
         },
         {
           "id": "0a51edaad4af00",
@@ -84275,14 +84291,6 @@
           "url": "https://www.news.cn/fortune/20260823/c6eca108c36a4a0497a43f9e4b180bf7/c.html",
           "date": "2026-08-23",
           "keyword": "机器人"
-        },
-        {
-          "id": "6b1b77767f3d00",
-          "source": "求是",
-          "title": "企业应成为科技创新“出题人”",
-          "url": "https://www.qstheory.cn/20260823/3b6ebf98aec041eda6a07832170391ac/c.html",
-          "date": "2026-08-23",
-          "keyword": "科技"
         },
         {
           "id": "6c119845c8e911",
@@ -84709,10 +84717,26 @@
           "keyword": "综合时政"
         },
         {
+          "id": "280a47aa2525e8",
+          "source": "新华社",
+          "title": "以守护作答：绘就人与自然和谐共生的时代图景",
+          "url": "https://www.news.cn/politics/20260823/03c0df98688043068ec440345c80b0f7/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "2b89cb436ed094",
           "source": "新华社",
           "title": "八月，镌刻在1314号界碑上的家国浪漫",
           "url": "https://www.news.cn/politics/20260823/c5473dda04ef49de9fff01df10b6dcfc/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b6cfa947d062d6",
+          "source": "新华社",
+          "title": "别乱“贴秋膘” 医生提醒秋季养生重在健脾",
+          "url": "https://www.news.cn/politics/20260823/533826e5aefc4991893769ad7d190e12/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84729,6 +84753,14 @@
           "source": "新华社",
           "title": "匈牙利保克什核电站3号机组恢复发电",
           "url": "https://www.news.cn/20260823/dbedb0a6520e47feb44ea30810f4487f/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "176668ade23059",
+          "source": "新华社",
+          "title": "北京迎雷阵雨 已发布多重预警",
+          "url": "https://www.news.cn/politics/20260823/437dd44d439d4a70b4b057f7f16bccbd/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84821,14 +84853,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "94ba3bb790e80e",
-          "source": "新华社",
-          "title": "未来三天中东部天气闷热 北方25日起迎明显降温",
-          "url": "https://www.news.cn/politics/20260823/8c5599ec48374d02a122bfb8e131bb89/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
           "id": "32d6b2ce969df8",
           "source": "新华社",
           "title": "权威数读·观中国丨本周，这些数据值得关注",
@@ -84849,6 +84873,14 @@
           "source": "新华社",
           "title": "泰南三府发生爆炸纵火事件 那拉提瓦府实施宵禁",
           "url": "https://www.news.cn/world/20260823/9a53933fa62f41beae81cbcf8e996afa/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9da1b381bcbaef",
+          "source": "新华社",
+          "title": "海南食品出口上半年增长超四成",
+          "url": "https://www.news.cn/fortune/20260823/b4d40234bb2c4b248323b8d494c7c5bc/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84877,10 +84909,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "5ed37ee8c80d19",
+          "id": "736897a21834cb",
           "source": "新华社",
-          "title": "神农架AI物种识别系统助力金丝猴野生个体精准追踪",
-          "url": "https://www.news.cn/politics/20260823/a08520f327a942a8902aebe807c532e5/c.html",
+          "title": "科学与健康丨规范收费 让“美丽账单”回归清朗",
+          "url": "https://www.news.cn/politics/20260823/c53f19cf164049aa9b4fd66ebce86223/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84957,6 +84989,22 @@
           "keyword": "综合时政"
         },
         {
+          "id": "8488bfd575aa9b",
+          "source": "新华社",
+          "title": "记者手记丨向绿而行，中国船舶加速驶向零碳未来",
+          "url": "https://www.news.cn/politics/20260823/bf0cc82788c84327b740e9af9828912e/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "18e1ba472791b5",
+          "source": "新华社",
+          "title": "陈茂波：香港特区政府全方位推动AI落地和普及应用",
+          "url": "https://www.news.cn/gangao/20260823/7b368594ee00482d915021ab92e8e883/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "7cf45e2da20e3c",
           "source": "新华社",
           "title": "韵动节拍丨处暑消残暑 运动解秋乏",
@@ -85010,26 +85058,26 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 9.7,
+          "duration": 9.0,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260823.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.8
+          "duration": 1.5
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 47,
-          "duration": 2.1
+          "count": 53,
+          "duration": 3.8
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 38.1
+          "duration": 27.1
         },
         {
           "source": "求是",
@@ -85041,34 +85089,34 @@
           "source": "光明日报",
           "status": "ok",
           "count": 24,
-          "duration": 2.6
+          "duration": 5.4
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.9
+          "duration": 12.7
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.4
+          "duration": 2.8
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 10.3
+          "duration": 10.1
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 83.6
+          "duration": 62.9
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-23T14:32:10+08:00"
+  "generatedAt": "2026-08-23T15:29:52+08:00"
 }
