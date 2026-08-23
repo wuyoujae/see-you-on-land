@@ -84148,8 +84148,20 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-08-23",
-      "keyword": "中国共产党",
+      "keyword": "经济",
       "keywords": [
+        {
+          "name": "经济",
+          "count": 4
+        },
+        {
+          "name": "机器人",
+          "count": 3
+        },
+        {
+          "name": "科技",
+          "count": 3
+        },
         {
           "name": "中国共产党",
           "count": 2
@@ -84161,37 +84173,9 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "name": "十五五",
           "count": 2
-        },
-        {
-          "name": "机器人",
-          "count": 2
-        },
-        {
-          "name": "科技",
-          "count": 2
-        },
-        {
-          "name": "经济",
-          "count": 2
         }
       ],
       "articles": [
-        {
-          "id": "a71deb9ead5231",
-          "source": "人民日报",
-          "title": "2026绿色算力（人工智能）大会举行",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/23/content_30176553.html",
-          "date": "2026-08-23",
-          "keyword": "人工智能"
-        },
-        {
-          "id": "93de7e2633f2f8",
-          "source": "人民日报",
-          "title": "中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/23/content_30176528.html",
-          "date": "2026-08-23",
-          "keyword": "中国共产党"
-        },
         {
           "id": "71d87978d65c04",
           "source": "人民日报",
@@ -84201,12 +84185,28 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
-          "id": "b097d62d8e060a",
-          "source": "人民日报",
-          "title": "人工智能进课堂，如何学得更好（解码“十五五”专项规划）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/23/content_30176535.html",
+          "id": "ddb0a38ed63f29",
+          "source": "新华社",
+          "title": "伊朗称参与美对伊“经济战”的周边国家将被视为敌人",
+          "url": "https://www.news.cn/world/20260823/592aece68a054b8ebdec5156438cc55d/c.html",
           "date": "2026-08-23",
-          "keyword": "人工智能"
+          "keyword": "经济"
+        },
+        {
+          "id": "2801317806a0e8",
+          "source": "新华社",
+          "title": "评论丨钟才文：中国是世界经济增长的积极贡献者和强大稳定锚",
+          "url": "https://www.news.cn/fortune/20260823/e5df147f9d0f4751b725d39af50a6306/c.html",
+          "date": "2026-08-23",
+          "keyword": "经济"
+        },
+        {
+          "id": "e2e51e1fbb55b8",
+          "source": "求是",
+          "title": "钟才文：中国是世界经济增长的积极贡献者和强大稳定锚",
+          "url": "https://www.qstheory.cn/20260823/d697790d55c94484bff0294cabd7d0a9/c.html",
+          "date": "2026-08-23",
+          "keyword": "经济"
         },
         {
           "id": "300e6f945cb702",
@@ -84217,28 +84217,12 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "科技"
         },
         {
-          "id": "ae3d4429587a8f",
-          "source": "人民日报",
-          "title": "残疾人出行 可申请陪护（奋进“十五五” 一线见闻）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/23/content_30176549.html",
-          "date": "2026-08-23",
-          "keyword": "十五五"
-        },
-        {
           "id": "141b545a79fbd0",
           "source": "人民日报",
           "title": "第二届世界人形机器人运动会开幕",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/23/content_30176540.html",
           "date": "2026-08-23",
           "keyword": "机器人"
-        },
-        {
-          "id": "3ea2c2d7f77c58",
-          "source": "光明日报",
-          "title": "中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/23/content_23047.html",
-          "date": "2026-08-23",
-          "keyword": "中国共产党"
         },
         {
           "id": "9aa5bf286eef4c",
@@ -84257,12 +84241,60 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "机器人"
         },
         {
-          "id": "2801317806a0e8",
+          "id": "a6a3306b17f69b",
           "source": "新华社",
-          "title": "评论丨钟才文：中国是世界经济增长的积极贡献者和强大稳定锚",
-          "url": "https://www.news.cn/fortune/20260823/e5df147f9d0f4751b725d39af50a6306/c.html",
+          "title": "机器人成中国高端制造出口新名片",
+          "url": "https://www.news.cn/fortune/20260823/c6eca108c36a4a0497a43f9e4b180bf7/c.html",
           "date": "2026-08-23",
-          "keyword": "经济"
+          "keyword": "机器人"
+        },
+        {
+          "id": "6b1b77767f3d00",
+          "source": "求是",
+          "title": "企业应成为科技创新“出题人”",
+          "url": "https://www.qstheory.cn/20260823/3b6ebf98aec041eda6a07832170391ac/c.html",
+          "date": "2026-08-23",
+          "keyword": "科技"
+        },
+        {
+          "id": "a71deb9ead5231",
+          "source": "人民日报",
+          "title": "2026绿色算力（人工智能）大会举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/23/content_30176553.html",
+          "date": "2026-08-23",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "93de7e2633f2f8",
+          "source": "人民日报",
+          "title": "中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/23/content_30176528.html",
+          "date": "2026-08-23",
+          "keyword": "中国共产党"
+        },
+        {
+          "id": "b097d62d8e060a",
+          "source": "人民日报",
+          "title": "人工智能进课堂，如何学得更好（解码“十五五”专项规划）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/23/content_30176535.html",
+          "date": "2026-08-23",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "ae3d4429587a8f",
+          "source": "人民日报",
+          "title": "残疾人出行 可申请陪护（奋进“十五五” 一线见闻）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/23/content_30176549.html",
+          "date": "2026-08-23",
+          "keyword": "十五五"
+        },
+        {
+          "id": "3ea2c2d7f77c58",
+          "source": "光明日报",
+          "title": "中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/23/content_23047.html",
+          "date": "2026-08-23",
+          "keyword": "中国共产党"
         },
         {
           "id": "2eadbf4edd7b57",
@@ -84577,10 +84609,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "3412d18ee695a5",
+          "source": "新华社",
+          "title": "“治沙英雄”殷玉珍：27年找寻 绿洲为信",
+          "url": "https://www.news.cn/20260823/7e1ecca8b4ea484e91505cfb2f8a3bd4/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "45159895edc5e3",
+          "source": "新华社",
+          "title": "“紫檀”最强可达强热带风暴级",
+          "url": "https://www.news.cn/politics/20260823/dc454a1590f24e07a600f90a82d7faa8/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "530ebe67b51c27",
           "source": "新华社",
           "title": "一艘土耳其商船在黑海遇袭 致1死8伤",
           "url": "https://www.news.cn/20260823/00008b5ba94643d9b407f67890ca6dc8/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7cf5342614e6de",
+          "source": "新华社",
+          "title": "中国创新药出海跑出加速度",
+          "url": "https://www.news.cn/world/20260823/caf5ed4e51e54d9aa065aad64cd73710/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6cd8007ef71289",
+          "source": "新华社",
+          "title": "亚太各界在大连共议电动汽车充电标准协同",
+          "url": "https://www.news.cn/fortune/20260823/5a3c3e9bbd3648a494b3bf0f34a0c5c3/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2b89cb436ed094",
+          "source": "新华社",
+          "title": "八月，镌刻在1314号界碑上的家国浪漫",
+          "url": "https://www.news.cn/politics/20260823/c5473dda04ef49de9fff01df10b6dcfc/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84593,58 +84665,106 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d006e900452e5c",
+          "id": "ca59b9351a4b80",
           "source": "新华社",
           "title": "匈牙利保克什核电站3号机组恢复发电",
-          "url": "https://www.news.cn/20260823/dbedb0a6520e47feb44ea30810f4487f/c.html",
+          "url": "https://www.news.cn/world/20260823/98c91c13c132471a82d1061ea082f789/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
         {
-          "id": "ff5823bf70cec8",
+          "id": "a034ce77c25b0e",
+          "source": "新华社",
+          "title": "图片故事丨养护院里的“银龄剧场”",
+          "url": "https://www.news.cn/photo/20260823/bdc68d4daba44c9b9fc77120989cabd6/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1901dffd8d81ec",
           "source": "新华社",
           "title": "强风暴横扫波罗的海三国 致两人死亡",
-          "url": "https://www.news.cn/20260823/f1967ce0486c4da3864dd899f2268e2d/c.html",
+          "url": "https://www.news.cn/world/20260823/5588c6e3b95243f4aaf8c59441601da6/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
         {
-          "id": "f50362b7d2327a",
-          "source": "新华社",
-          "title": "拉脱维亚遭遇严重风暴灾害 超18万用户停电",
-          "url": "https://www.news.cn/20260823/1cad7c8cbe224ffda6efeb9f3d57dc2d/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "a170858ad32822",
+          "id": "698fc319d9c52d",
           "source": "新华社",
           "title": "日本茨城县5.9级地震 附近多处核设施暂未见异常",
-          "url": "https://www.news.cn/20260823/be4e77677b554ed7b938949fd902bc93/c.html",
+          "url": "https://www.news.cn/world/20260823/67c20dd3380f4602ad922331c9784da7/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
         {
-          "id": "6e7707d0483631",
+          "id": "649ed887265e09",
           "source": "新华社",
           "title": "普京：俄军加大力度打击乌方企业",
-          "url": "https://www.news.cn/20260823/11071f55adb2413a956e35bd54695799/c.html",
+          "url": "https://www.news.cn/world/20260823/932fe922f6014a2bad6012c9403f478c/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
         {
-          "id": "92f1e55a2ea981",
+          "id": "94ba3bb790e80e",
+          "source": "新华社",
+          "title": "未来三天南方沿海雨势强劲",
+          "url": "https://www.news.cn/politics/20260823/8c5599ec48374d02a122bfb8e131bb89/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9dbd72fa89f7c3",
+          "source": "新华社",
+          "title": "权威快报丨第48届世界技能大赛中国代表团成立",
+          "url": "https://www.news.cn/politics/20260823/131a052c606541f3807b4ef3af04942c/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "32d6b2ce969df8",
+          "source": "新华社",
+          "title": "权威数读·观中国丨本周，这些数据值得关注",
+          "url": "https://www.news.cn/fortune/20260823/ee66f80a11b244a4a8aa494b9f64382e/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9ba2a138082fa9",
           "source": "新华社",
           "title": "泰南三府发生爆炸纵火事件 那拉提瓦府实施宵禁",
-          "url": "https://www.news.cn/20260823/e8eda0460fe1457990e520e80c0fe192/c.html",
+          "url": "https://www.news.cn/world/20260823/9a53933fa62f41beae81cbcf8e996afa/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
         {
-          "id": "98671ee4c1dc86",
+          "id": "432ee19082fa40",
+          "source": "新华社",
+          "title": "温度丨出诊两万次，他驾一叶扁舟护库区百姓安康",
+          "url": "https://www.news.cn/photo/20260823/aecf3670e3434700aeefdec84734617c/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5ed37ee8c80d19",
+          "source": "新华社",
+          "title": "神农架AI物种识别系统助力金丝猴野生个体精准追踪",
+          "url": "https://www.news.cn/politics/20260823/a08520f327a942a8902aebe807c532e5/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "63278807eb8415",
           "source": "新华社",
           "title": "美国友人“赛考斯”受邀来华参观交流",
-          "url": "https://www.news.cn/20260823/85fe2db92d054242994ecfe39252fecd/c.html",
+          "url": "https://www.news.cn/world/20260823/3d32f495096d4f109e02ee816a643051/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1089c42c588b8f",
+          "source": "新华社",
+          "title": "美政府欲撤销美国律协“法学院认证权”",
+          "url": "https://www.news.cn/20260823/62b75e6e60ed4257b202a0034734ce5a/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84663,6 +84783,38 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/20260823/228128b8fd1e4f03a5d6684d6caf7c24/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
+        },
+        {
+          "id": "3f062b402d0351",
+          "source": "新华社",
+          "title": "莱维特透露离职后去向",
+          "url": "https://www.news.cn/20260823/8318b7077e7a4f0680435e96ce842cbf/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bc330c7432ace9",
+          "source": "新华社",
+          "title": "莱维特透露离职后去向:加入“让美国再次伟大”委员会",
+          "url": "https://www.news.cn/world/20260823/b8b28a9ffe79444690a7a7923ec8e513/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7d20ca3092a583",
+          "source": "新华社",
+          "title": "香港故事丨香港青年升旗手逐梦记",
+          "url": "https://www.news.cn/gangao/20260823/ad373daec75549a78b73a131e8f6acc5/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9232fe3da460f7",
+          "source": "求是",
+          "title": "长征中锤炼坚强党性的历史经验及启示",
+          "url": "https://www.qstheory.cn/20260823/6bb681063e054d39be3c51b25cda6103/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -84670,65 +84822,66 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 6.9,
+          "duration": 13.8,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260823.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.5
+          "duration": 1.6
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 12,
-          "duration": 3.4
+          "count": 28,
+          "duration": 2.8
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 26.9
+          "duration": 27.2
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 6.6
+          "count": 3,
+          "duration": 6.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 24,
-          "duration": 1.7
+          "duration": 1.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.1
+          "duration": 12.2
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.4
+          "duration": 2.8
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 8.4
+          "duration": 7.9
         },
         {
           "source": "广东发布",
-          "status": "ok",
+          "status": "stale",
           "count": 2,
-          "duration": 39.3
+          "duration": 18.5,
+          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-23T08:57:21+08:00"
+  "generatedAt": "2026-08-23T10:22:56+08:00"
 };
