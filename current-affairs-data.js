@@ -84152,7 +84152,7 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "经济",
-          "count": 5
+          "count": 6
         },
         {
           "name": "科技",
@@ -84193,6 +84193,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "伊称将视参与美对伊“经济战”的周边国家为敌",
           "url": "https://www.news.cn/world/20260823/592aece68a054b8ebdec5156438cc55d/c.html",
+          "date": "2026-08-23",
+          "keyword": "经济"
+        },
+        {
+          "id": "f5664fff28e96a",
+          "source": "新华社",
+          "title": "经济热点问答丨加美贸易谈判为何谈崩了",
+          "url": "https://www.news.cn/world/20260823/cd4165efdc994bbb896237eb554a35c8/c.html",
           "date": "2026-08-23",
           "keyword": "经济"
         },
@@ -84645,26 +84653,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "3412d18ee695a5",
+          "id": "e3be9a3b32085b",
           "source": "新华社",
-          "title": "“治沙英雄”殷玉珍：27年找寻 绿洲为信",
-          "url": "https://www.news.cn/20260823/7e1ecca8b4ea484e91505cfb2f8a3bd4/c.html",
+          "title": "42头亚洲象“做客” 云南宁洱全力守护人象平安",
+          "url": "https://www.news.cn/local/20260823/8d19a6cfd9a8490cb2ca4c63e6c32254/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
         {
-          "id": "63278807eb8415",
+          "id": "f973976498f005",
           "source": "新华社",
-          "title": "“赛考斯”受邀来华参观交流",
-          "url": "https://www.news.cn/world/20260823/3d32f495096d4f109e02ee816a643051/c.html",
+          "title": "“声动”二十四节气·处暑",
+          "url": "https://www.news.cn/politics/20260823/4f1211eba2bb4748bdeffc8474408e95/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
         {
-          "id": "d43567f257e430",
+          "id": "44c8b28997b199",
+          "source": "新华社",
+          "title": "“赛考斯”，回来了",
+          "url": "https://www.news.cn/politics/20260823/9ba01ceb3b564130b0d1a33363b1e1d3/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1c7e376faec916",
           "source": "新华社",
           "title": "《玛纳斯》歌舞剧亮相比什凯克",
-          "url": "https://www.news.cn/20260823/9232c6284e684de4a4a0ae5cad2747db/c.html",
+          "url": "https://www.news.cn/world/20260823/dfcafc1db95941f99a4d145b56e6f508/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84681,6 +84697,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "一艘土耳其商船在黑海遇袭 致1死8伤",
           "url": "https://www.news.cn/20260823/00008b5ba94643d9b407f67890ca6dc8/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d7bbdfdceb6dfb",
+          "source": "新华社",
+          "title": "三部门调拨2万件中央救灾物资",
+          "url": "https://www.news.cn/politics/20260823/c02b4d70bab14d14a99550e8a6def7e7/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "53f6470ff74bfb",
+          "source": "新华社",
+          "title": "不会游泳的他 用一根鱼竿救了两条命",
+          "url": "https://www.news.cn/politics/20260823/35a593e057c04c8eb52a34aec9277406/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84711,16 +84743,8 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "8f213eaeeb63de",
           "source": "新华社",
-          "title": "今日将与殷玉珍重逢",
+          "title": "今日将与殷玉珍在鄂尔多斯重逢",
           "url": "https://www.news.cn/politics/20260823/17cc69f94fbe49e5a7d50ed68055ca8d/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "280a47aa2525e8",
-          "source": "新华社",
-          "title": "以守护作答：绘就人与自然和谐共生的时代图景",
-          "url": "https://www.news.cn/politics/20260823/03c0df98688043068ec440345c80b0f7/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84737,14 +84761,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "别乱“贴秋膘” 医生提醒秋季养生重在健脾",
           "url": "https://www.news.cn/politics/20260823/533826e5aefc4991893769ad7d190e12/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "e758e23a08b71f",
-          "source": "新华社",
-          "title": "加拿大宣布对美等额反制关税将于9月8日生效",
-          "url": "https://www.news.cn/world/20260823/4d98019c8b24439eadc9ee8ac899f953/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84781,10 +84797,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "45159895edc5e3",
+          "id": "069edb4da46e38",
           "source": "新华社",
-          "title": "台风蓝色预警：“紫檀”来了",
-          "url": "https://www.news.cn/politics/20260823/dc454a1590f24e07a600f90a82d7faa8/c.html",
+          "title": "台风“紫檀”已致广西13条河流19个站超警",
+          "url": "https://www.news.cn/local/20260823/dbb070c8d1fb4530b3bdefeee56f2b99/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8488bfd575aa9b",
+          "source": "新华社",
+          "title": "向绿而行，中国船舶加速驶向零碳未来",
+          "url": "https://www.news.cn/politics/20260823/bf0cc82788c84327b740e9af9828912e/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e9389bb713afb9",
+          "source": "新华社",
+          "title": "哈萨克斯坦举行一院制议会库鲁尔泰首届选举",
+          "url": "https://www.news.cn/20260823/cb86d19e5e9d4555a007703a679c074d/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84797,10 +84829,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "069edb4da46e38",
+          "id": "2f0ab261543d38",
           "source": "新华社",
-          "title": "广西：13条河流19个站超警",
-          "url": "https://www.news.cn/local/20260823/dbb070c8d1fb4530b3bdefeee56f2b99/c.html",
+          "title": "处暑的秋色格外动人",
+          "url": "https://www.news.cn/politics/20260823/81ef0111fb2b4e0aa050d4e31d9f8df3/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b1aa06058529ef",
+          "source": "新华社",
+          "title": "大理古城游人如潮",
+          "url": "https://www.news.cn/photo/20260823/beacbb7625134a1b8d6ae8c903484f6b/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3b1de919f4a863",
+          "source": "新华社",
+          "title": "巴基斯坦陆军参谋长将访问伊朗",
+          "url": "https://www.news.cn/20260823/7ed01750b8a641b2849fbcafd5e292e3/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1efbaf2dd9a388",
+          "source": "新华社",
+          "title": "广东：多地迎来强降雨 积极防御应对台风",
+          "url": "https://www.news.cn/local/20260823/88241925ea054f9e98bee29034ffafe9/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84821,10 +84877,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "03c6f4f7ea34c8",
+          "source": "新华社",
+          "title": "探索高品质养老服务“厦门路径”",
+          "url": "https://www.news.cn/fortune/20260823/75d567a830d64c01bbfbcc9fc3fcc011/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "7cf5342614e6de",
           "source": "新华社",
           "title": "新华网国际看点丨中国创新药出海跑出加速度",
           "url": "https://www.news.cn/world/20260823/caf5ed4e51e54d9aa065aad64cd73710/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "06d6b6d962002e",
+          "source": "新华社",
+          "title": "新华网评·蒸蒸日上的中国丨微光成炬 守护人间烟火",
+          "url": "https://www.news.cn/comments/20260823/095592362d4f44658b60d2629e07a314/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84845,14 +84917,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "649ed887265e09",
-          "source": "新华社",
-          "title": "普京：俄军加大力度打击乌方企业",
-          "url": "https://www.news.cn/world/20260823/932fe922f6014a2bad6012c9403f478c/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
           "id": "32d6b2ce969df8",
           "source": "新华社",
           "title": "权威数读·观中国丨本周，这些数据值得关注",
@@ -84865,6 +84929,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "樊振东新赛季德甲首秀独得两分",
           "url": "https://www.news.cn/sports/20260823/20212cf36c5144d68b27bc4b58c65d4f/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "185c3ffaf99598",
+          "source": "新华社",
+          "title": "河南济源：愚公故里游客多",
+          "url": "https://www.news.cn/photo/20260823/f73d2220bd374e1f886fcf3c5bbbce47/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84885,14 +84957,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "08ddaaff992db8",
-          "source": "新华社",
-          "title": "渐有新凉递好秋",
-          "url": "https://www.news.cn/politics/20260823/0126abc19f014a799c8c5818e5daba92/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
           "id": "3e9ed4efae6119",
           "source": "新华社",
           "title": "渝昆高铁盐津南站进入冲刺阶段",
@@ -84909,10 +84973,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "736897a21834cb",
+          "id": "653768757fad7a",
           "source": "新华社",
-          "title": "科学与健康丨规范收费 让“美丽账单”回归清朗",
-          "url": "https://www.news.cn/politics/20260823/c53f19cf164049aa9b4fd66ebce86223/c.html",
+          "title": "澳大利亚大陆首次发现哺乳动物感染H5型禽流感",
+          "url": "https://www.news.cn/world/20260823/c6a612777f184998a43d0e0b5d4f80c4/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5ed37ee8c80d19",
+          "source": "新华社",
+          "title": "神农架AI物种识别系统助力金丝猴野生个体精准追踪",
+          "url": "https://www.news.cn/politics/20260823/a08520f327a942a8902aebe807c532e5/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84965,14 +85037,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "5d213f2f5b0926",
-          "source": "新华社",
-          "title": "羽毛球世锦赛：国羽闯入三项双打决赛",
-          "url": "https://www.news.cn/sports/20260823/27f559160cb2432b8d1e0ec507f550b5/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
           "id": "d7be351206559c",
           "source": "新华社",
           "title": "英国一起交通事故造成7人死亡 包括2名执勤警员",
@@ -84989,10 +85053,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8488bfd575aa9b",
+          "id": "736897a21834cb",
           "source": "新华社",
-          "title": "记者手记丨向绿而行，中国船舶加速驶向零碳未来",
-          "url": "https://www.news.cn/politics/20260823/bf0cc82788c84327b740e9af9828912e/c.html",
+          "title": "规范收费 让“美丽账单”回归清朗",
+          "url": "https://www.news.cn/politics/20260823/c53f19cf164049aa9b4fd66ebce86223/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -85009,14 +85073,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "韵动节拍丨处暑消残暑 运动解秋乏",
           "url": "https://www.news.cn/politics/20260823/f8fc7780b700457193d4dd2f2b0e14d5/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "7d20ca3092a583",
-          "source": "新华社",
-          "title": "香港故事丨香港青年升旗手逐梦记",
-          "url": "https://www.news.cn/gangao/20260823/ad373daec75549a78b73a131e8f6acc5/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -85058,65 +85114,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 9.0,
+          "duration": 10.3,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260823.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.5
+          "duration": 0.8
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 53,
-          "duration": 3.8
+          "count": 60,
+          "duration": 3.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 27.1
+          "duration": 40.1
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 7,
-          "duration": 6.2
+          "duration": 6.4
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 24,
-          "duration": 5.4
+          "duration": 2.1
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.7
+          "duration": 12.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.8
+          "duration": 2.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 10.1
+          "duration": 12.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 62.9
+          "duration": 61.2
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-23T15:29:52+08:00"
+  "generatedAt": "2026-08-23T16:24:14+08:00"
 };
