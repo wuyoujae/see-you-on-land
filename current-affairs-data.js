@@ -84152,7 +84152,7 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "经济",
-          "count": 7
+          "count": 8
         },
         {
           "name": "机器人",
@@ -84161,6 +84161,10 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "name": "消费",
           "count": 4
+        },
+        {
+          "name": "人工智能",
+          "count": 3
         },
         {
           "name": "十五五",
@@ -84175,10 +84179,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 2
         },
         {
-          "name": "人工智能",
-          "count": 2
-        },
-        {
           "name": "生态保护",
           "count": 2
         }
@@ -84189,6 +84189,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "中国是世界经济增长的积极贡献者和强大稳定锚",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/23/content_30176537.html",
+          "date": "2026-08-23",
+          "keyword": "经济"
+        },
+        {
+          "id": "4cae40aee7f4e6",
+          "source": "新华社",
+          "title": "2026绿色算力（人工智能）大会：聚焦词元经济",
+          "url": "https://www.news.cn/tech/20260823/074492b3358c44ebbf4309a55fa7f9e0/c.html",
           "date": "2026-08-23",
           "keyword": "经济"
         },
@@ -84209,10 +84217,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
-          "id": "a110c0a9817ff9",
+          "id": "4e1aac165a7ffc",
           "source": "新华社",
           "title": "经济设施接连遭袭，普京称乌克兰打开“潘多拉魔盒”",
-          "url": "https://www.news.cn/world/20260823/86d36046be814a349bc00e9879a8b8ec/c.html",
+          "url": "https://www.news.cn/20260823/bc0fc76b9d4849ca93a1782596399b1b/c.html",
           "date": "2026-08-23",
           "keyword": "经济"
         },
@@ -84313,12 +84321,20 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "消费"
         },
         {
+          "id": "a71deb9ead5231",
+          "source": "人民日报",
+          "title": "2026绿色算力（人工智能）大会举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/23/content_30176553.html",
+          "date": "2026-08-23",
+          "keyword": "人工智能"
+        },
+        {
           "id": "b097d62d8e060a",
           "source": "人民日报",
           "title": "人工智能进课堂，如何学得更好（解码“十五五”专项规划）",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/23/content_30176535.html",
           "date": "2026-08-23",
-          "keyword": "十五五"
+          "keyword": "人工智能"
         },
         {
           "id": "300e6f945cb702",
@@ -84359,14 +84375,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.qstheory.cn/20260823/3b6ebf98aec041eda6a07832170391ac/c.html",
           "date": "2026-08-23",
           "keyword": "科技"
-        },
-        {
-          "id": "a71deb9ead5231",
-          "source": "人民日报",
-          "title": "2026绿色算力（人工智能）大会举行",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/23/content_30176553.html",
-          "date": "2026-08-23",
-          "keyword": "人工智能"
         },
         {
           "id": "93de7e2633f2f8",
@@ -84729,14 +84737,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "53f6470ff74bfb",
-          "source": "新华社",
-          "title": "不会游泳的他 用一根鱼竿救了两条命",
-          "url": "https://www.news.cn/politics/20260823/35a593e057c04c8eb52a34aec9277406/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
           "id": "357c50a551f4e7",
           "source": "新华社",
           "title": "中俄记者走进苏州感受江南韵味",
@@ -84773,6 +84773,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "伊朗总统：伊朗应摆脱“既非战争、也非和平”状态",
           "url": "https://www.news.cn/world/20260823/1ea0092dbf05434791b304b3563b1bc9/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0857eaeebc8de6",
+          "source": "新华社",
+          "title": "伊朗称针对美各种敌对行动均已制定应对方案",
+          "url": "https://www.news.cn/world/20260823/fc04f4c1aae34809a169965030172ac4/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -84897,14 +84905,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "3b1de919f4a863",
-          "source": "新华社",
-          "title": "巴基斯坦陆军参谋长将访问伊朗",
-          "url": "https://www.news.cn/20260823/7ed01750b8a641b2849fbcafd5e292e3/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
           "id": "1efbaf2dd9a388",
           "source": "新华社",
           "title": "广东多地迎来强降雨",
@@ -85003,7 +85003,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "72008896eab351",
           "source": "新华社",
-          "title": "殷玉珍和“赛考斯”，重逢了",
+          "title": "殷玉珍和“赛考斯”重逢了",
           "url": "https://www.news.cn/world/20260823/619e7a8decec4acfa02447366667a145/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
@@ -85025,14 +85025,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "9da1b381bcbaef",
-          "source": "新华社",
-          "title": "海南食品出口上半年增长超四成",
-          "url": "https://www.news.cn/fortune/20260823/b4d40234bb2c4b248323b8d494c7c5bc/c.html",
-          "date": "2026-08-23",
-          "keyword": "综合时政"
-        },
-        {
           "id": "432ee19082fa40",
           "source": "新华社",
           "title": "温度丨出诊两万次，他驾一叶扁舟护库区百姓安康",
@@ -85041,10 +85033,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d62ee947bade47",
+          "id": "4101d00ce7ac0d",
           "source": "新华社",
-          "title": "澳大利亚大陆首次发现哺乳动物感染H5型禽流感",
-          "url": "https://www.news.cn/20260823/ac940fe192f94d408f0c60625a56cd0c/c.html",
+          "title": "王毅会见约旦副首相兼外交大臣萨法迪",
+          "url": "https://www.news.cn/politics/leaders/20260823/3a4c1610f94142e788a552db5085960a/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -85057,10 +85049,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "2f0ab261543d38",
+          "id": "6620a5e3f039c5",
           "source": "新华社",
-          "title": "秋色格外动人",
-          "url": "https://www.news.cn/politics/20260823/81ef0111fb2b4e0aa050d4e31d9f8df3/c.html",
+          "title": "突尼斯附近海域非法移民船倾覆已致11人死亡",
+          "url": "https://www.news.cn/20260823/02e09cf26dee47ac8cf35390bcac18bb/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -85105,10 +85097,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "659e168d631aec",
+          "id": "1c62ed5b7dea6b",
           "source": "新华社",
-          "title": "被称作“中国最早的方便面”的礼泉烙面，有何魅力？听这一家人说",
-          "url": "https://www.news.cn/20260823/2d627fabf1cf4cc891ca8b0be5989038/c.html",
+          "title": "英国纵贯铁路公司称因停电取消英全境大部分列车服务",
+          "url": "https://www.news.cn/20260823/5c7ad57862c840f28614150013a95d85/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -85117,6 +85109,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "规范收费 让“美丽账单”回归清朗",
           "url": "https://www.news.cn/politics/20260823/c53f19cf164049aa9b4fd66ebce86223/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c735a272e4a50d",
+          "source": "新华社",
+          "title": "跨越20多年的“绿色之约”",
+          "url": "https://www.news.cn/politics/20260823/6ed8fae7e345476383b3a3f2698a0892/c.html",
           "date": "2026-08-23",
           "keyword": "综合时政"
         },
@@ -85201,6 +85201,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "37671ca1600068",
+          "source": "求是",
+          "title": "为什么有的党员、干部在对党忠诚方面出现偏差？",
+          "url": "https://www.qstheory.cn/20260823/c5ab7178b281472398e35ee416ace6ad/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0436853b8199e8",
+          "source": "求是",
+          "title": "对党忠诚不会凭空产生，也不会自然保鲜",
+          "url": "https://www.qstheory.cn/20260823/e3feeae611b14d3ca61dc4cddc0b2af7/c.html",
+          "date": "2026-08-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1f103cef064882",
           "source": "求是",
           "title": "报告显示：我国算力全链条绿色化成效初显",
@@ -85230,64 +85246,64 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "ok",
           "count": 14,
-          "duration": 0.4
+          "duration": 0.3
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 2.4
+          "duration": 1.2
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.5
+          "duration": 2.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 26.0
+          "duration": 45.4
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 7,
-          "duration": 6.4
+          "count": 9,
+          "duration": 6.3
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 24,
-          "duration": 2.4
+          "duration": 6.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.9
+          "duration": 14.5
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.5
+          "duration": 2.8
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 9.4
+          "duration": 11.9
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 51.0
+          "duration": 87.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-23T22:18:36+08:00"
+  "generatedAt": "2026-08-23T23:18:35+08:00"
 };
