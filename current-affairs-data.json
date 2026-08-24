@@ -87285,6 +87285,10 @@
         {
           "name": "经济",
           "count": 3
+        },
+        {
+          "name": "高质量发展",
+          "count": 2
         }
       ],
       "articles": [
@@ -87353,10 +87357,10 @@
           "keyword": "教育"
         },
         {
-          "id": "bbffc978414f35",
+          "id": "8e9f0c60c2a396",
           "source": "新华社",
-          "title": "美国财长 公布多项针对伊朗的经济制裁措施",
-          "url": "https://www.news.cn/world/20260825/871ac57f29b840d4b2437fc18f16bff2/c.html",
+          "title": "美国财长公布多项针对伊朗的经济制裁措施",
+          "url": "https://www.news.cn/20260825/5d1fda7886e044d7bb5185e539af0e1c/c.html",
           "date": "2026-08-25",
           "keyword": "经济"
         },
@@ -87367,6 +87371,22 @@
           "url": "https://www.news.cn/world/20260825/64c9d5062e184df0846a69d80bfc952c/c.html",
           "date": "2026-08-25",
           "keyword": "经济"
+        },
+        {
+          "id": "42b1aa0b47392b",
+          "source": "人民日报",
+          "title": "推动高质量发展行稳致远",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177036.html",
+          "date": "2026-08-25",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "c640f006675ec0",
+          "source": "新华社",
+          "title": "钟才文：推动高质量发展行稳致远",
+          "url": "https://www.news.cn/fortune/20260825/e85b55bf018b4721abe04e3ed016def5/c.html",
+          "date": "2026-08-25",
+          "keyword": "高质量发展"
         },
         {
           "id": "7c12ccee9b8bb6",
@@ -87461,14 +87481,6 @@
           "source": "人民日报",
           "title": "创造经得起实践、人民、历史检验的实绩",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177028.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "42b1aa0b47392b",
-          "source": "人民日报",
-          "title": "推动高质量发展行稳致远",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177036.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -87691,7 +87703,7 @@
         {
           "id": "39db2cff0942f6",
           "source": "新华社",
-          "title": "伊朗最高领袖顾问：回应美方威胁将比以往更加坚决",
+          "title": "伊朗最高领袖顾问：伊朗的回应将比以往更加坚决",
           "url": "https://www.news.cn/world/20260825/a3257910cd364121be643181120283cd/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
@@ -87713,6 +87725,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "3a2b0216729e72",
+          "source": "新华社",
+          "title": "加拿大 强硬回应美国关税升级威胁 政界人士密集表态",
+          "url": "https://www.news.cn/world/20260825/221f7df999e946649aa6e56d52d355f0/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "69c560d5add2a5",
           "source": "新华社",
           "title": "奥地利两架小型飞机相撞致两人死亡",
@@ -87729,6 +87749,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "2d942fc531ca71",
+          "source": "新华社",
+          "title": "深刻理解天下为公、天下大同的社会理想",
+          "url": "https://www.news.cn/politics/leaders/20260825/71ae943fe9c84f4cb399d61d0275afb1/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "df1c1ac3260309",
           "source": "新华社",
           "title": "特朗普说美对加汽车和钢铁进口关税将提高至50%",
@@ -87741,6 +87769,14 @@
           "source": "新华社",
           "title": "美军称在东太平洋打击“贩毒船”致两人死亡",
           "url": "https://www.news.cn/20260825/ad4f4ac6e32047d6b9cb1c5c630a2b47/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3436af6b004959",
+          "source": "新华社",
+          "title": "美国宣布正式撤销叙利亚“支恐国家”认定",
+          "url": "https://www.news.cn/20260825/aa4264105a1f4303b487a640e7483d65/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -87766,65 +87802,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 6.0,
+          "duration": 13.0,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260825.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 0.6
+          "duration": 1.6
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 13,
-          "duration": 2.8
+          "count": 17,
+          "duration": 4.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 9.1
+          "duration": 18.8
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.2
+          "duration": 6.6
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 20,
-          "duration": 0.4
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 11.1
+          "duration": 13.0
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.0
+          "duration": 3.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.8
+          "duration": 10.2
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 37.4
+          "duration": 56.0
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-25T06:32:31+08:00"
+  "generatedAt": "2026-08-25T07:26:25+08:00"
 }
