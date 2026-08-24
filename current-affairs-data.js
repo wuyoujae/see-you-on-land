@@ -85991,10 +85991,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "1224206464d4ef",
+          "id": "9614a2a9c80d5c",
           "source": "新华社",
           "title": "“简拉维”登陆泉州",
-          "url": "https://www.news.cn/politics/20260824/69792845d6914d24b360e3f125843ee0/c.html",
+          "url": "https://www.news.cn/local/20260824/60c52e0422be4568a605145820e5b222/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86003,6 +86003,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "“那真是一票难求！”",
           "url": "https://www.news.cn/politics/20260824/d1e19aac126b44b69ab621c0d961903f/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "155c2931e39199",
+          "source": "新华社",
+          "title": "三预警齐发，三级重大气象灾害应急响应启动",
+          "url": "https://www.news.cn/local/20260824/2916ac3af4c5450696cbe8731649ffd0/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86135,18 +86143,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "3099629d280572",
-          "source": "新华社",
-          "title": "出伏后，可以这样养生",
-          "url": "http://www.news.cn/sci-tech/20260824/e1ed3cd0bfcc4173a33a6071185207e1/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
           "id": "ad8e5d5f329863",
           "source": "新华社",
           "title": "南靖土楼：古井活水盈盈，文旅活力满满",
           "url": "https://www.news.cn/local/20260824/438f5e6e01924aa4848a966ae2d6f15d/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b484fc7627b048",
+          "source": "新华社",
+          "title": "厦门湖里区通报企业涉嫌违规消杀情况",
+          "url": "https://www.news.cn/20260824/07e0caa401154a7da6ca40eaa7b94e1f/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86167,10 +86175,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "0c29b3c4f5c7d2",
+          "id": "08a4e15a1f4fd6",
           "source": "新华社",
-          "title": "国务院食安办等多部门指导地方严查甲醛白菜",
-          "url": "https://www.news.cn/government/20260824/36cb29f1c4d84e649ba5c9da7d97bf87/c.html",
+          "title": "台风“简拉维”已在福建泉州沿海登陆",
+          "url": "https://www.news.cn/20260824/67bd153b23474419b2fd53dc3548e060/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5c45215df33ef7",
+          "source": "新华社",
+          "title": "哈马斯回应以色列警告：那只是加沙儿童的玩具",
+          "url": "https://www.news.cn/world/20260824/1534ab215a184cc3b3f7cdcada0b7616/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86223,14 +86239,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a9399efbe7a889",
-          "source": "新华社",
-          "title": "挪威国王哈拉尔五世住院 王储哈康代行元首职责",
-          "url": "https://www.news.cn/world/20260824/465eee8757f443158bf0c71982b6d2ea/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
           "id": "9c415459ad4158",
           "source": "新华社",
           "title": "新华访谈丨梁晓声：文学即人学 用笔记录平凡人生",
@@ -86247,10 +86255,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "9058f3dfa5f854",
+          "id": "b113b51b301ae6",
           "source": "新华社",
-          "title": "权威快报丨中国语言资源保护工程成果展示馆开馆",
-          "url": "https://www.news.cn/politics/20260824/b99c37e6124349d9ae8d04d4d774d3f4/c.html",
+          "title": "朝中社：日本军国主义野心严重挑战世界和平与安全",
+          "url": "https://www.news.cn/world/20260824/20c815943915404c97bad400f1dba139/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6aae4f7712bf2f",
+          "source": "新华社",
+          "title": "欧盟批准61亿欧元对乌军援",
+          "url": "https://www.news.cn/20260824/352c2a6f5c8e4f65b416c699235c79be/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86279,22 +86295,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8b178e2c2afbce",
-          "source": "新华社",
-          "title": "沈阳对违规售卖兽用管制药品门店依法立案调查",
-          "url": "https://www.news.cn/legal/20260824/0417840ce4ed4e1d895c243560680f98/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "726896035f1fe6",
-          "source": "新华社",
-          "title": "法国今夏超过300人溺亡 较2025年同期高出14%",
-          "url": "https://www.news.cn/world/20260824/65741c8ea4894493be2f998eb9d0daca/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
           "id": "2e9d82408adac4",
           "source": "新华社",
           "title": "法国普罗万古城迎来丰收节",
@@ -86307,6 +86307,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "活力中国调研行丨宁德：高山县城的“冷”与“热”",
           "url": "https://www.news.cn/local/20260824/d2aa4ded51d3450cb7d36a44c3cf561f/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "de8eb18a6418a3",
+          "source": "新华社",
+          "title": "王沪宁主持召开全国政协主席会议",
+          "url": "https://www.news.cn/politics/leaders/20260824/1a58fcdba8ef46b5865c05b937c73131/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "12c41f3aeedaaa",
+          "source": "新华社",
+          "title": "称以“占领”戈兰高地 美特使纠正“失言”",
+          "url": "https://www.news.cn/world/20260824/662fc0f84f2e4ba786b39901bb9dbea8/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86351,10 +86367,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "ba7d843fed1b8c",
+          "id": "805dd0d8c32d79",
           "source": "新华社",
-          "title": "财政金融协同促内需举措“再升级”",
-          "url": "https://www.news.cn/money/20260824/23f0ab00cf8541559ff2a121c5c234c6/c.html",
+          "title": "菲律宾一艘拖船在吕宋岛附近沉没",
+          "url": "https://www.news.cn/20260824/71a5e130e60b43ffb837e6a0577dc7fe/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86371,22 +86387,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "重庆沙坪坝：红色文化“燃”动暑期游",
           "url": "https://www.news.cn/local/20260824/d468b58f54c14579997a0dd176a263ec/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "956b695cadf8da",
-          "source": "新华社",
-          "title": "险企资产负债管理新规发布 从事后评估向全程嵌入转变",
-          "url": "https://www.news.cn/money/20260824/c0068bb8c1e94304be2029a771373a4a/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "55016698e71b90",
-          "source": "新华社",
-          "title": "雷同的AI短剧走不远",
-          "url": "https://www.news.cn/tech/20260824/2fad1d556d3f4462a77a4b80d1fdbc32/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86452,65 +86452,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 7.5,
+          "duration": 4.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260824.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 21,
-          "duration": 2.1
+          "duration": 1.4
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.0
+          "duration": 4.4
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 15,
-          "duration": 20.2
+          "duration": 20.0
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 13,
-          "duration": 6.5
+          "duration": 6.4
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 21,
-          "duration": 1.6
+          "duration": 1.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.1
+          "duration": 12.6
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 6,
-          "duration": 2.7
+          "duration": 2.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 8.5
+          "duration": 8.3
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 77.9
+          "duration": 60.6
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-24T13:34:53+08:00"
+  "generatedAt": "2026-08-24T14:44:07+08:00"
 };
