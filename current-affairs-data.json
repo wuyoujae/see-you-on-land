@@ -85329,15 +85329,15 @@
           "count": 5
         },
         {
-          "name": "消费",
-          "count": 5
-        },
-        {
           "name": "科技",
           "count": 5
         },
         {
           "name": "就业",
+          "count": 4
+        },
+        {
+          "name": "消费",
           "count": 4
         }
       ],
@@ -85679,14 +85679,6 @@
           "keyword": "人工智能"
         },
         {
-          "id": "f160a53aeef19d",
-          "source": "光明日报",
-          "title": "【光明时评】情怀消费如何撬动千亿市场",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/24/content_23119.html",
-          "date": "2026-08-24",
-          "keyword": "消费"
-        },
-        {
           "id": "e6f21ac702500d",
           "source": "光明日报",
           "title": "【光明论坛】以高质量科技供给赋能产业创新",
@@ -85695,36 +85687,12 @@
           "keyword": "科技"
         },
         {
-          "id": "54d2e13c092adb",
-          "source": "光明日报",
-          "title": "【光明论坛】提质惠民，释放服务消费潜力",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/24/content_23117.html",
-          "date": "2026-08-24",
-          "keyword": "消费"
-        },
-        {
           "id": "4957ba31c164cc",
           "source": "半月谈",
           "title": "2026绿色算力（人工智能）大会：算得快、用得省",
           "url": "http://www.banyuetan.org/yw/detail/20260824/1000200033137441787532746318358066_1.html",
           "date": "2026-08-24",
           "keyword": "人工智能"
-        },
-        {
-          "id": "2502be1a6f66c2",
-          "source": "半月谈",
-          "title": "汽车消费新观察：当“买一台车”成为“选一种生活”",
-          "url": "http://www.banyuetan.org/jj/detail/20260824/1000200033136091787555853685386770_1.html",
-          "date": "2026-08-24",
-          "keyword": "消费"
-        },
-        {
-          "id": "9b4f3ae4ee26df",
-          "source": "半月谈",
-          "title": "老外扎堆打卡，上海老字号解锁跨文化消费新体验",
-          "url": "http://www.banyuetan.org/jmcs/detail/20260824/1000200033136171787555789514384103_1.html",
-          "date": "2026-08-24",
-          "keyword": "消费"
         },
         {
           "id": "7899077d59f5e3",
@@ -85759,14 +85727,6 @@
           "keyword": "科技"
         },
         {
-          "id": "caa63a7c849054",
-          "source": "新华社",
-          "title": "“首”字出圈，厦门构建消费新引力场",
-          "url": "https://www.news.cn/fortune/20260824/72e6fa201bbf4760b2824ecd527869df/c.html",
-          "date": "2026-08-24",
-          "keyword": "消费"
-        },
-        {
           "id": "5c4cd7d14477b4",
           "source": "新华社",
           "title": "外交部：美官员攻击中国科技企业言论颠倒黑白",
@@ -85789,6 +85749,38 @@
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/24/content_30176630.html",
           "date": "2026-08-24",
           "keyword": "就业"
+        },
+        {
+          "id": "f160a53aeef19d",
+          "source": "光明日报",
+          "title": "【光明时评】情怀消费如何撬动千亿市场",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/24/content_23119.html",
+          "date": "2026-08-24",
+          "keyword": "消费"
+        },
+        {
+          "id": "54d2e13c092adb",
+          "source": "光明日报",
+          "title": "【光明论坛】提质惠民，释放服务消费潜力",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/24/content_23117.html",
+          "date": "2026-08-24",
+          "keyword": "消费"
+        },
+        {
+          "id": "2502be1a6f66c2",
+          "source": "半月谈",
+          "title": "汽车消费新观察：当“买一台车”成为“选一种生活”",
+          "url": "http://www.banyuetan.org/jj/detail/20260824/1000200033136091787555853685386770_1.html",
+          "date": "2026-08-24",
+          "keyword": "消费"
+        },
+        {
+          "id": "9b4f3ae4ee26df",
+          "source": "半月谈",
+          "title": "老外扎堆打卡，上海老字号解锁跨文化消费新体验",
+          "url": "http://www.banyuetan.org/jmcs/detail/20260824/1000200033136171787555789514384103_1.html",
+          "date": "2026-08-24",
+          "keyword": "消费"
         },
         {
           "id": "ce2bdc8a70bd23",
@@ -86671,6 +86663,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "f820061ce13175",
+          "source": "新华社",
+          "title": "“赛考斯”的花环",
+          "url": "https://www.news.cn/20260824/a4384ae1204f45a2b47a3d4f6b0f8f81/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
           "id": "e18110f5c6e9f8",
           "source": "新华社",
           "title": "三部门发文 推进家庭医生签约服务",
@@ -86683,14 +86683,6 @@
           "source": "新华社",
           "title": "上半年国内手机出货量超98%支持北斗定位",
           "url": "https://www.news.cn/fortune/20260824/0bf022b844374f3d808b1e5721903967/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "58e195ffa72c79",
-          "source": "新华社",
-          "title": "世卫组织：刚果（金）埃博拉疫情进入“决定性时刻”",
-          "url": "https://www.news.cn/20260824/53facabffc8549bd922fec2a642fb34d/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86751,14 +86743,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "1175d88d250132",
-          "source": "新华社",
-          "title": "中方祝贺哈萨克斯坦库鲁尔泰选举顺利举行",
-          "url": "https://www.news.cn/20260824/21e9a3ff06f64ee3a2820db445e18c80/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
           "id": "52c793b301cc2f",
           "source": "新华社",
           "title": "中白“神鹰-2026”空降兵联合训练圆满结束",
@@ -86779,6 +86763,14 @@
           "source": "新华社",
           "title": "今天的毛乌素沙地，藏着几代人不变的坚守",
           "url": "https://www.news.cn/20260824/315ca304d3164b9982771b08981ee29f/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1bdc581a3313ff",
+          "source": "新华社",
+          "title": "从东到西，从西到东，看基层挂职干部的“双向奔赴”",
+          "url": "https://www.news.cn/20260824/7d8cae9bec2a401e8985d6d110305d60/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86847,14 +86839,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "58d511b0d17792",
-          "source": "新华社",
-          "title": "城市“C位”致敬科学家，是对崇尚科学最好的代言",
-          "url": "https://www.news.cn/politics/20260824/bd8d51aa490b4014b15a365283280cdd/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
           "id": "a73104d920522e",
           "source": "新华社",
           "title": "央行将开展隔夜逆回购操作",
@@ -86911,6 +86895,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "a97d0cbec3e351",
+          "source": "新华社",
+          "title": "欢喜梁上，说不尽的欢喜",
+          "url": "https://www.news.cn/20260824/bbb93d19dfb745b783570c3cf66c2edf/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
           "id": "be7880a6b5241b",
           "source": "新华社",
           "title": "欧盟新批准61亿欧元对乌克兰军援",
@@ -86931,6 +86923,14 @@
           "source": "新华社",
           "title": "歼轰7飞机总设计师陈一坚逝世",
           "url": "https://www.news.cn/20260824/816cefe4cd2c4edb991e9fff47a62cb6/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f8d160aef874dd",
+          "source": "新华社",
+          "title": "殷玉珍的菜单",
+          "url": "https://www.news.cn/20260824/95962efe82f14ca4be347cd8ee0f8c7f/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -87175,6 +87175,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "bef498d9087fc9",
+          "source": "求是",
+          "title": "中约联合声明",
+          "url": "https://www.qstheory.cn/20260824/64b19315e4f344ae813e95c2d6761583/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
           "id": "0f1c3b18773eda",
           "source": "求是",
           "title": "全国累计收购小麦超9000万吨",
@@ -87204,64 +87212,64 @@
           "source": "新闻联播",
           "status": "ok",
           "count": 16,
-          "duration": 0.4
+          "duration": 0.7
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 21,
-          "duration": 2.0
+          "duration": 3.2
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.5
+          "duration": 5.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 21,
-          "duration": 27.7
+          "duration": 31.6
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 15,
-          "duration": 6.1
+          "count": 16,
+          "duration": 6.4
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 21,
-          "duration": 5.7
+          "duration": 2.3
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.6
+          "duration": 13.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 2.2
+          "duration": 2.8
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 4,
-          "duration": 8.1
+          "duration": 10.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 14,
-          "duration": 63.0
+          "duration": 54.0
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-24T22:00:35+08:00"
+  "generatedAt": "2026-08-24T22:36:41+08:00"
 }
