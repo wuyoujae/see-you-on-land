@@ -85310,19 +85310,19 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "经济",
-          "count": 14
+          "count": 13
+        },
+        {
+          "name": "习近平",
+          "count": 9
         },
         {
           "name": "机器人",
           "count": 9
         },
         {
-          "name": "习近平",
-          "count": 8
-        },
-        {
           "name": "消费",
-          "count": 7
+          "count": 6
         },
         {
           "name": "人工智能",
@@ -85407,14 +85407,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
-          "id": "3c8712a368a9a2",
-          "source": "新华社",
-          "title": "四川曾家山：清凉经济激发消费新活力",
-          "url": "https://www.news.cn/photo/20260824/7c6f8c78204f425b80a35e2db50fc426/c.html",
-          "date": "2026-08-24",
-          "keyword": "经济"
-        },
-        {
           "id": "92c51944be7127",
           "source": "新华社",
           "title": "钟才文：上半年经济增长4.7%说明了什么？",
@@ -85455,6 +85447,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
+          "id": "697711a2ff635e",
+          "source": "中国政府网",
+          "title": "习近平为约旦国王阿卜杜拉二世举行欢迎仪式",
+          "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7078973.htm",
+          "date": "2026-08-24",
+          "keyword": "习近平"
+        },
+        {
+          "id": "092956dd452879",
+          "source": "中国政府网",
+          "title": "习近平同约旦国王阿卜杜拉二世会谈",
+          "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7078977.htm",
+          "date": "2026-08-24",
+          "keyword": "习近平"
+        },
+        {
+          "id": "93b7486c174546",
+          "source": "中国政府网",
+          "title": "习近平同约旦国王阿卜杜拉二世共同出席合作文件签字仪式",
+          "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7078981.htm",
+          "date": "2026-08-24",
+          "keyword": "习近平"
+        },
+        {
           "id": "280222bfe5a921",
           "source": "半月谈",
           "title": "2026世界人形机器人运动会赛况",
@@ -85487,62 +85503,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "机器人"
         },
         {
-          "id": "b58ba007ac417c",
-          "source": "学习强国",
-          "title": "打破多项纪录！第二届世界人形机器人运动会在比什么？",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=12222045999075251028&item_id=12222045999075251028",
-          "date": "2026-08-24",
-          "keyword": "机器人"
-        },
-        {
-          "id": "24f187c59b92d3",
-          "source": "广东发布",
-          "title": "前7月深圳外贸增长32.8% 进出口规模创新高 机器人出口大增逾10倍",
-          "url": "https://www.gd.gov.cn/gdywdt/ydylygd/content/post_4945868.html",
-          "date": "2026-08-24",
-          "keyword": "机器人"
-        },
-        {
-          "id": "9480781f2c46b6",
-          "source": "新华社",
-          "title": "不止跑步，机器人运动会比什么？",
-          "url": "https://www.news.cn/tech/20260824/9829ee76333946848932b84b85471efd/c.html",
-          "date": "2026-08-24",
-          "keyword": "机器人"
-        },
-        {
-          "id": "7b0188a955653b",
-          "source": "新华社",
-          "title": "新华网评·蒸蒸日上的中国丨机器人竞速，何止于快",
-          "url": "https://www.news.cn/comments/20260824/fd172f21241b445d8cb5a6c263cd9e74/c.html",
-          "date": "2026-08-24",
-          "keyword": "机器人"
-        },
-        {
-          "id": "f3fb0b489e200f",
-          "source": "求是",
-          "title": "中国机器人产业“加速跑”为世界提供新机遇",
-          "url": "https://www.qstheory.cn/20260824/a97b31d753384fe883eb3d1bac892048/c.html",
-          "date": "2026-08-24",
-          "keyword": "机器人"
-        },
-        {
-          "id": "697711a2ff635e",
-          "source": "中国政府网",
-          "title": "8月24日，国家主席习近平在北京为来华进行国事访问的约旦国王阿卜杜拉二世举行欢迎仪式",
-          "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7078973.htm",
-          "date": "2026-08-24",
-          "keyword": "习近平"
-        },
-        {
-          "id": "092956dd452879",
-          "source": "中国政府网",
-          "title": "习近平同约旦国王阿卜杜拉二世会谈",
-          "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7078977.htm",
-          "date": "2026-08-24",
-          "keyword": "习近平"
-        },
-        {
           "id": "9035575e2b418d",
           "source": "学习强国",
           "title": "学习领悟《习近平党建文选》①：旗帜鲜明讲政治",
@@ -85559,12 +85519,36 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
+          "id": "b58ba007ac417c",
+          "source": "学习强国",
+          "title": "打破多项纪录！第二届世界人形机器人运动会在比什么？",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=12222045999075251028&item_id=12222045999075251028",
+          "date": "2026-08-24",
+          "keyword": "机器人"
+        },
+        {
           "id": "6d7781a999a7db",
           "source": "学习强国",
           "title": "深入学习贯彻习近平党建思想 以更高标准、更实举措完成好全年各项工作任务",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=15852254704058620769&item_id=15852254704058620769",
           "date": "2026-08-24",
           "keyword": "习近平"
+        },
+        {
+          "id": "24f187c59b92d3",
+          "source": "广东发布",
+          "title": "前7月深圳外贸增长32.8% 进出口规模创新高 机器人出口大增逾10倍",
+          "url": "https://www.gd.gov.cn/gdywdt/ydylygd/content/post_4945868.html",
+          "date": "2026-08-24",
+          "keyword": "机器人"
+        },
+        {
+          "id": "9480781f2c46b6",
+          "source": "新华社",
+          "title": "不止跑步，机器人运动会比什么？",
+          "url": "https://www.news.cn/tech/20260824/9829ee76333946848932b84b85471efd/c.html",
+          "date": "2026-08-24",
+          "keyword": "机器人"
         },
         {
           "id": "3b4a52dddfa346",
@@ -85589,6 +85573,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/politics/leaders/20260824/a47238efd5694d3e9bc3231c37173466/c.html",
           "date": "2026-08-24",
           "keyword": "习近平"
+        },
+        {
+          "id": "7b0188a955653b",
+          "source": "新华社",
+          "title": "新华网评·蒸蒸日上的中国丨机器人竞速，何止于快",
+          "url": "https://www.news.cn/comments/20260824/fd172f21241b445d8cb5a6c263cd9e74/c.html",
+          "date": "2026-08-24",
+          "keyword": "机器人"
+        },
+        {
+          "id": "f3fb0b489e200f",
+          "source": "求是",
+          "title": "中国机器人产业“加速跑”为世界提供新机遇",
+          "url": "https://www.qstheory.cn/20260824/a97b31d753384fe883eb3d1bac892048/c.html",
+          "date": "2026-08-24",
+          "keyword": "机器人"
         },
         {
           "id": "f160a53aeef19d",
@@ -86151,14 +86151,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "5e32c19d9450be",
-          "source": "学习强国",
-          "title": "中印边界问题特别代表第25次会晤将在北京举行",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=1259369955087261119&item_id=1259369955087261119",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
           "id": "d811e0ae93873d",
           "source": "学习强国",
           "title": "中国语言资源保护工程成果展示馆开馆",
@@ -86407,6 +86399,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "fb510867504da9",
+          "source": "学习强国",
+          "title": "王毅同科威特外交大臣杰拉赫会谈",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=18145573625842133944&item_id=18145573625842133944",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
           "id": "7cc00d24c774b9",
           "source": "学习强国",
           "title": "王沪宁主持召开全国政协主席会议",
@@ -86639,6 +86639,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "e1b0bff8ac7ebc",
+          "source": "新华社",
+          "title": "中国语言资源保护工程成果展示馆开馆",
+          "url": "https://www.news.cn/photo/20260824/646979d6102442179f6958360c805fa0/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d2d9dc772bbe3a",
           "source": "新华社",
           "title": "中埃“文明之鹰-2026”空军联合训练迎来首个飞行日",
@@ -86703,6 +86711,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "96c5451f5cf5d2",
+          "source": "新华社",
+          "title": "信用修复等16条措施已落地 让办税缴费更便利",
+          "url": "https://www.news.cn/fortune/20260824/ebf6f9bb43ee4766afa2e6ba455fdf4b/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
           "id": "dd85ccdfb0683f",
           "source": "新华社",
           "title": "全国累计收购小麦超9000万吨",
@@ -86715,14 +86731,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "全球独角兽大会在港开幕 助力企业借港出海",
           "url": "https://www.news.cn/20260824/482b6e961a4e42858ee44716b07b45f7/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "b18e2da47b7d94",
-          "source": "新华社",
-          "title": "内蒙古高质量建设国家重要农畜产品生产基地",
-          "url": "https://www.news.cn/local/20260824/773afb85801440fba413f492197e6548/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86911,14 +86919,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "f340d0bdfee1e3",
-          "source": "新华社",
-          "title": "算力全链条绿色化成效初显",
-          "url": "https://www.news.cn/fortune/20260824/82e47d93c3154aa0a9f99d6c94fed7dc/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
           "id": "90241f5421938c",
           "source": "新华社",
           "title": "美军称对伊海上封锁已改变70艘商船航向",
@@ -86963,6 +86963,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "阿曼外交大臣将访问伊朗",
           "url": "https://www.news.cn/20260824/939c8aa664b640f88f6a0a4f28c1cd8e/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "680eaac2f8566a",
+          "source": "新华社",
+          "title": "陈武同志逝世",
+          "url": "https://www.news.cn/politics/20260824/4149d696d5614a9ba6b01927338bc532/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -87036,44 +87044,44 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 11.5,
+          "duration": 9.9,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260824.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 21,
-          "duration": 2.2
+          "duration": 2.9
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.4
+          "duration": 1.8
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 20,
-          "duration": 13.9
+          "duration": 18.9
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 13,
-          "duration": 6.3
+          "duration": 6.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 21,
-          "duration": 1.7
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.5
+          "duration": 13.5
         },
         {
           "source": "学习强国",
@@ -87084,17 +87092,17 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 2,
-          "duration": 11.6
+          "count": 3,
+          "duration": 8.7
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 14,
-          "duration": 42.6
+          "duration": 68.0
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-24T17:41:11+08:00"
+  "generatedAt": "2026-08-24T18:33:23+08:00"
 };
