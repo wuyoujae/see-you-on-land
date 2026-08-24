@@ -85314,18 +85314,22 @@
         },
         {
           "name": "消费",
-          "count": 6
+          "count": 5
+        },
+        {
+          "name": "机器人",
+          "count": 4
         },
         {
           "name": "人工智能",
           "count": 3
         },
         {
-          "name": "机器人",
+          "name": "就业",
           "count": 3
         },
         {
-          "name": "就业",
+          "name": "科技",
           "count": 3
         },
         {
@@ -85334,10 +85338,6 @@
         },
         {
           "name": "十五五",
-          "count": 2
-        },
-        {
-          "name": "科技",
           "count": 2
         }
       ],
@@ -85447,20 +85447,44 @@
           "keyword": "消费"
         },
         {
-          "id": "ab07cb9325e53a",
-          "source": "新华社",
-          "title": "黄金消费迎旺季 小克重产品成新宠",
-          "url": "https://www.news.cn/fashion/20260824/5b195c653f384390b56bdbb8165b03fd/c.html",
-          "date": "2026-08-24",
-          "keyword": "消费"
-        },
-        {
           "id": "c0e2ba7596d22a",
           "source": "求是",
           "title": "每年最高补5000元！消费贷贴息政策优化 购车装修等纳入补贴",
           "url": "https://www.qstheory.cn/20260824/843b003d32984b7db13712ae06e27e7a/c.html",
           "date": "2026-08-24",
           "keyword": "消费"
+        },
+        {
+          "id": "280222bfe5a921",
+          "source": "半月谈",
+          "title": "2026世界人形机器人运动会赛况",
+          "url": "http://www.banyuetan.org/jrt/detail/20260824/1000200033134991787535411634335294_1.html",
+          "date": "2026-08-24",
+          "keyword": "机器人"
+        },
+        {
+          "id": "096fbbbcef39a4",
+          "source": "半月谈",
+          "title": "中国机器人产业“加速跑”为世界提供新机遇",
+          "url": "http://www.banyuetan.org/yw/detail/20260824/1000200033137441787532649829357779_1.html",
+          "date": "2026-08-24",
+          "keyword": "机器人"
+        },
+        {
+          "id": "5614cffb1981f6",
+          "source": "新华社",
+          "title": "从“实验室”到“后厨” 炒菜机器人产业加速发展",
+          "url": "https://www.news.cn/tech/20260824/bea11be278d84cc29fb61181261b9ab1/c.html",
+          "date": "2026-08-24",
+          "keyword": "机器人"
+        },
+        {
+          "id": "f7701b35c54ae1",
+          "source": "新华社",
+          "title": "当科技遇上体育，看机器人解锁花式运动技能",
+          "url": "https://www.news.cn/tech/20260824/71f5952389814a6dac65237c82cabe76/c.html",
+          "date": "2026-08-24",
+          "keyword": "机器人"
         },
         {
           "id": "f5c61691f4b32a",
@@ -85487,12 +85511,12 @@
           "keyword": "就业"
         },
         {
-          "id": "280222bfe5a921",
-          "source": "半月谈",
-          "title": "2026世界人形机器人运动会赛况",
-          "url": "http://www.banyuetan.org/jrt/detail/20260824/1000200033134991787535411634335294_1.html",
+          "id": "e6f21ac702500d",
+          "source": "光明日报",
+          "title": "【光明论坛】以高质量科技供给赋能产业创新",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/24/content_23115.html",
           "date": "2026-08-24",
-          "keyword": "机器人"
+          "keyword": "科技"
         },
         {
           "id": "4957ba31c164cc",
@@ -85503,14 +85527,6 @@
           "keyword": "人工智能"
         },
         {
-          "id": "096fbbbcef39a4",
-          "source": "半月谈",
-          "title": "中国机器人产业“加速跑”为世界提供新机遇",
-          "url": "http://www.banyuetan.org/yw/detail/20260824/1000200033137441787532649829357779_1.html",
-          "date": "2026-08-24",
-          "keyword": "机器人"
-        },
-        {
           "id": "ce2bdc8a70bd23",
           "source": "学习强国",
           "title": "黑龙江出台政策措施支持创业带动就业",
@@ -85519,12 +85535,12 @@
           "keyword": "就业"
         },
         {
-          "id": "5614cffb1981f6",
-          "source": "新华社",
-          "title": "从“实验室”到“后厨” 炒菜机器人产业加速发展",
-          "url": "https://www.news.cn/tech/20260824/bea11be278d84cc29fb61181261b9ab1/c.html",
+          "id": "61f0b1ab65127a",
+          "source": "求是",
+          "title": "以高质量科技供给赋能产业创新",
+          "url": "https://www.qstheory.cn/20260824/96343d10eaa14dac8034a4b7f45ee060/c.html",
           "date": "2026-08-24",
-          "keyword": "机器人"
+          "keyword": "科技"
         },
         {
           "id": "0ecba55e6a9c08",
@@ -85549,22 +85565,6 @@
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/24/content_30176628.html",
           "date": "2026-08-24",
           "keyword": "十五五"
-        },
-        {
-          "id": "e6f21ac702500d",
-          "source": "光明日报",
-          "title": "【光明论坛】以高质量科技供给赋能产业创新",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/24/content_23115.html",
-          "date": "2026-08-24",
-          "keyword": "科技"
-        },
-        {
-          "id": "61f0b1ab65127a",
-          "source": "求是",
-          "title": "以高质量科技供给赋能产业创新",
-          "url": "https://www.qstheory.cn/20260824/96343d10eaa14dac8034a4b7f45ee060/c.html",
-          "date": "2026-08-24",
-          "keyword": "科技"
         },
         {
           "id": "61cf116dd7ece4",
@@ -85991,18 +85991,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "3f2e9c4f622d36",
-          "source": "新华社",
-          "title": "中俄记者走进苏州感受江南韵味",
-          "url": "https://www.news.cn/culture/20260824/de6ebda14054497f857eca24d07dfbcd/c.html?page=1",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
           "id": "deb8f766074cf8",
           "source": "新华社",
           "title": "中国援突尼斯加贝斯肿瘤中心项目开工建设",
           "url": "https://www.news.cn/20260824/5e02a11cb6e84a448644d4c85352054a/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "52149bf5dca21c",
+          "source": "新华社",
+          "title": "中国篮协解读",
+          "url": "https://www.news.cn/sports/20260824/eb21b618f2ea452e8cecea9b45823ceb/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86023,14 +86023,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "db338ffb18afb1",
-          "source": "新华社",
-          "title": "中阿启动干旱、荒漠化和土地退化防治五年行动计划",
-          "url": "https://www.news.cn/silkroad/20260824/baa1fa7ddeca4b56a5496a60284cfe7d/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
           "id": "69da81b8875b01",
           "source": "新华社",
           "title": "人民币市场汇价（8月24日）",
@@ -86043,14 +86035,6 @@
           "source": "新华社",
           "title": "从“买不起”到“卖不动” 日本米价为何大起大落",
           "url": "https://www.news.cn/world/20260824/02cba0052f074c4bb8f697b20876dca9/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "d817158ff21d35",
-          "source": "新华社",
-          "title": "从“仿制”到“原创”国货美妆品牌加速创新",
-          "url": "https://www.news.cn/fashion/20260824/3a888526356b4780baefffae19ae0226/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86271,6 +86255,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "8e46befaa08ee4",
+          "source": "新华社",
+          "title": "水利部发布洪水黄色预警 提醒这12省份注意防范",
+          "url": "https://www.news.cn/politics/20260824/9767f80cd1eb49ff8545e58213dec311/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
           "id": "726896035f1fe6",
           "source": "新华社",
           "title": "法国今夏超过300人溺亡 较2025年同期高出14%",
@@ -86287,10 +86279,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "45c6b4316cfc33",
+          "id": "46b7e5c458ce5d",
           "source": "新华社",
-          "title": "洪水漫城 救援不歇——广西宁明县抗洪一线见闻",
-          "url": "https://www.news.cn/local/20260824/296ac96b84ae45ae911ad12ac62ff3cc/c.html",
+          "title": "活力中国调研行丨宁德：高山县城的“冷”与“热”",
+          "url": "https://www.news.cn/local/20260824/d2aa4ded51d3450cb7d36a44c3cf561f/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86299,14 +86291,6 @@
           "source": "新华社",
           "title": "福建厦门：鹭岛文脉续新篇",
           "url": "https://www.news.cn/culture/20260824/682354f7d13e41f993f0aa7d5d2a5c17/c.html?page=1",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "bbf115e79cd9d4",
-          "source": "新华社",
-          "title": "第二届全国青少年田径运动会开幕 王雅茹斩获首金",
-          "url": "https://www.news.cn/sports/20260824/78055cfa534b48e3bb55f8d86553f237/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86335,6 +86319,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "6b31dfc8c3ca4d",
+          "source": "新华社",
+          "title": "胡金秋领衔中国男篮亚运会公示名单",
+          "url": "https://www.news.cn/sports/20260824/59dda2f1e31749688504a94689527e68/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
           "id": "ba7d843fed1b8c",
           "source": "新华社",
           "title": "财政金融协同促内需举措“再升级”",
@@ -86355,6 +86347,14 @@
           "source": "新华社",
           "title": "重庆沙坪坝：红色文化“燃”动暑期游",
           "url": "https://www.news.cn/local/20260824/d468b58f54c14579997a0dd176a263ec/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8505f8a5963593",
+          "source": "新华社",
+          "title": "野火失控，美国内华达州4万多居民紧急撤离",
+          "url": "https://www.news.cn/world/20260824/3495365f37af4ef48ba2250f21bdd36b/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86420,65 +86420,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 7.2,
+          "duration": 4.5,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260824.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 21,
-          "duration": 1.7
+          "duration": 2.0
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.5
+          "duration": 2.7
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 15,
-          "duration": 20.3
+          "duration": 16.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 9,
-          "duration": 6.0
+          "duration": 6.4
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 21,
-          "duration": 2.0
+          "duration": 4.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.5
+          "duration": 12.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 6,
-          "duration": 3.9
+          "duration": 4.8
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 9.2
+          "duration": 8.8
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 62.5
+          "duration": 57.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-24T11:50:13+08:00"
+  "generatedAt": "2026-08-24T12:39:50+08:00"
 }
