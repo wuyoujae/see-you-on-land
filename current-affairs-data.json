@@ -87269,7 +87269,562 @@
           "duration": 62.7
         }
       ]
+    },
+    {
+      "date": "2026-08-25",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 4
+        },
+        {
+          "name": "教育",
+          "count": 3
+        },
+        {
+          "name": "经济",
+          "count": 3
+        }
+      ],
+      "articles": [
+        {
+          "id": "057cc9e8e4b79f",
+          "source": "人民日报",
+          "title": "习近平同约旦国王阿卜杜拉二世会谈",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177026.html",
+          "date": "2026-08-25",
+          "keyword": "习近平"
+        },
+        {
+          "id": "802ad5df61ad21",
+          "source": "人民日报",
+          "title": "习近平致电祝贺阿拉姆吉尔就任孟加拉国总统",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177029.html",
+          "date": "2026-08-25",
+          "keyword": "习近平"
+        },
+        {
+          "id": "3ba5f7f2d7c9f3",
+          "source": "光明日报",
+          "title": "习近平同约旦国王阿卜杜拉二世会谈",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23271.html",
+          "date": "2026-08-25",
+          "keyword": "习近平"
+        },
+        {
+          "id": "475062c813f5b0",
+          "source": "光明日报",
+          "title": "习近平致电祝贺阿拉姆吉尔就任孟加拉国总统",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23275.html",
+          "date": "2026-08-25",
+          "keyword": "习近平"
+        },
+        {
+          "id": "c25e4d41673e7a",
+          "source": "人民日报",
+          "title": "不断巩固拓展学习教育成果（今日谈）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177034.html",
+          "date": "2026-08-25",
+          "keyword": "教育"
+        },
+        {
+          "id": "dae5edb3fd0481",
+          "source": "人民日报",
+          "title": "巩固拓展树立和践行正确政绩观学习教育成果 努力创造经得起实践人民历史检验的实绩",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177027.html",
+          "date": "2026-08-25",
+          "keyword": "教育"
+        },
+        {
+          "id": "a8ce5234b3fd47",
+          "source": "光明日报",
+          "title": "【光明时评】从养老到享老：重塑银发经济的价值坐标",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23267.html",
+          "date": "2026-08-25",
+          "keyword": "经济"
+        },
+        {
+          "id": "60210f68eae1fb",
+          "source": "光明日报",
+          "title": "巩固拓展树立和践行正确政绩观学习教育成果 努力创造经得起实践人民历史检验的实绩",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23273.html",
+          "date": "2026-08-25",
+          "keyword": "教育"
+        },
+        {
+          "id": "bbffc978414f35",
+          "source": "新华社",
+          "title": "美国财长 公布多项针对伊朗的经济制裁措施",
+          "url": "https://www.news.cn/world/20260825/871ac57f29b840d4b2437fc18f16bff2/c.html",
+          "date": "2026-08-25",
+          "keyword": "经济"
+        },
+        {
+          "id": "14c9319cf98f23",
+          "source": "新华社",
+          "title": "美宣布对伊朗实施“经济孤立”新措施加大施压",
+          "url": "https://www.news.cn/world/20260825/64c9d5062e184df0846a69d80bfc952c/c.html",
+          "date": "2026-08-25",
+          "keyword": "经济"
+        },
+        {
+          "id": "7c12ccee9b8bb6",
+          "source": "人民日报",
+          "title": "16条举措落地便利办税缴费",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177044.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e816f91206dac9",
+          "source": "人民日报",
+          "title": "“不仅造福中国人民，也利好世界人民”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30176935.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d455e8cdcd00b2",
+          "source": "人民日报",
+          "title": "“中国精准扶贫战略体现国家治理能力的现代化”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30176936.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "70c9c87e9817b7",
+          "source": "人民日报",
+          "title": "“埃及汽车工业本土化迈出了坚实一步”（中国—埃及媒体高质量共建“一带一路”联合采访）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30176937.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "35ef92500fe3ad",
+          "source": "人民日报",
+          "title": "“换位思考”的三重境界（人民论坛）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177047.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fed9bb7f52fcf2",
+          "source": "人民日报",
+          "title": "中企承建塞内加尔高速公路项目提前通车",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30176943.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "05d0350398e3d4",
+          "source": "人民日报",
+          "title": "中华人民共和国和约旦哈希姆王国关于深化中约战略伙伴关系的联合声明",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177035.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "19df808a755b33",
+          "source": "人民日报",
+          "title": "中印边界问题特别代表第二十五次会晤将在北京举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30176939.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "834439a009d16d",
+          "source": "人民日报",
+          "title": "中国与瑞士宣布完成自贸协定升级谈判",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30176942.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "59f7ea62c87df2",
+          "source": "人民日报",
+          "title": "中国与维谢格拉德集团专家学者展望务实合作前景",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30176941.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "55c7d1d0ccecf3",
+          "source": "人民日报",
+          "title": "全国小麦收购量超9000万吨",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177038.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "45c965c9e2059f",
+          "source": "人民日报",
+          "title": "创造经得起实践、人民、历史检验的实绩",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177028.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "42b1aa0b47392b",
+          "source": "人民日报",
+          "title": "推动高质量发展行稳致远",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177036.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "49c407de907e11",
+          "source": "人民日报",
+          "title": "李强会见约旦国王阿卜杜拉二世",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177030.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "03b0c646e995bc",
+          "source": "人民日报",
+          "title": "王毅同科威特外交大臣杰拉赫会谈",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30176938.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "05bfdebba06877",
+          "source": "人民日报",
+          "title": "王沪宁主持召开全国政协主席会议",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177031.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aeac14e90fc36f",
+          "source": "人民日报",
+          "title": "王沪宁会见第三届中美1.5轨对话美方代表",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30176934.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6e38ec3af52788",
+          "source": "人民日报",
+          "title": "电动汽车充电基础设施增41.9%",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177043.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c549c541356830",
+          "source": "人民日报",
+          "title": "肖捷出席第八次发展中国家议员研讨班开班式",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30176940.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "27437c5932b255",
+          "source": "人民日报",
+          "title": "闻令而动 竭诚为民（权威发布）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177046.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a5691a3e026171",
+          "source": "人民日报",
+          "title": "陈武同志逝世",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177033.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2f0c47ecd84305",
+          "source": "人民日报",
+          "title": "韩正会见科威特外交大臣杰拉赫",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177032.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a1ed69b898f735",
+          "source": "光明日报",
+          "title": "“智芯”点亮“冰丝带”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23249.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "425a4b13141b52",
+          "source": "光明日报",
+          "title": "【光明时评】用运动解锁城市消费新场景",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23268.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f9461048a1f807",
+          "source": "光明日报",
+          "title": "【光明论坛】建设健康中国 从守好一日三餐开始",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23265.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b381c6aceedceb",
+          "source": "光明日报",
+          "title": "【光明论坛】防灾减灾救灾要坚持立足于防",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23264.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1bfa5946b573f0",
+          "source": "光明日报",
+          "title": "【新闻随笔】避暑游里，读懂鲜活的中国",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23266.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "630b330fb5e9d0",
+          "source": "光明日报",
+          "title": "上半年国内手机出货量超98%支持北斗定位",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23276.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "49b61c310fc4b3",
+          "source": "光明日报",
+          "title": "全国累计收购小麦超9000万吨",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23272.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e394cc3776c85c",
+          "source": "光明日报",
+          "title": "创造经得起实践、人民、历史检验的实绩",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23274.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ac5585ded00336",
+          "source": "光明日报",
+          "title": "李强会见约旦国王阿卜杜拉二世",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23243.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c21f96bbe6d1b9",
+          "source": "光明日报",
+          "title": "江西传媒职业学院：推进“大思政课”建设 以红色文化培育传媒人才",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23251.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1dfc56ebd035ed",
+          "source": "光明日报",
+          "title": "王沪宁主持召开全国政协主席会议",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23245.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "866f5e44ea6678",
+          "source": "光明日报",
+          "title": "王沪宁会见第三届中美1.5轨对话美方代表",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23244.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aa7049abe8c8bb",
+          "source": "光明日报",
+          "title": "躬身实干防风险 应急守护为民安",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23247.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c856a236d0a71e",
+          "source": "光明日报",
+          "title": "陈武同志逝世",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23277.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "efa378b3fa088f",
+          "source": "光明日报",
+          "title": "韩正会见科威特外交大臣杰拉赫",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23246.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cb2179d1c7557a",
+          "source": "光明日报",
+          "title": "马宗晋院士逝世",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23250.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eaa28597eca8d2",
+          "source": "新华社",
+          "title": "乌媒说英首相已批准与乌克兰分享导弹技术",
+          "url": "https://www.news.cn/20260825/b2b425519201459ebd90932f18934fb6/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f72bd5e18f7ea0",
+          "source": "新华社",
+          "title": "以军称摧毁两处哈马斯武器库",
+          "url": "https://www.news.cn/20260825/bd2620dab9744f50af8cec2fc9206d1a/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "39db2cff0942f6",
+          "source": "新华社",
+          "title": "伊朗最高领袖顾问：回应美方威胁将比以往更加坚决",
+          "url": "https://www.news.cn/world/20260825/a3257910cd364121be643181120283cd/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f700f07eb36801",
+          "source": "新华社",
+          "title": "伊朗称其贸易伙伴“不会认真对待”美方制裁言论",
+          "url": "https://www.news.cn/20260825/adb742e3ccee4c8d88a22fcda8005ea1/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c8a657dc873b3a",
+          "source": "新华社",
+          "title": "内塔尼亚胡声称伊朗曾企图暗杀其子",
+          "url": "https://www.news.cn/20260825/d018b07129df4927a7f9d2dfa8dafc8f/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "69c560d5add2a5",
+          "source": "新华社",
+          "title": "奥地利两架小型飞机相撞致两人死亡",
+          "url": "https://www.news.cn/20260825/0fee064c9c624cf9bba20e09cf6ebe6e/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3d4259198c55fc",
+          "source": "新华社",
+          "title": "日本市民团体举办“日军毒气展” 揭露军国主义暴行",
+          "url": "https://www.news.cn/20260825/3891cd6200784c1b9b16be5ab32aaa6f/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "df1c1ac3260309",
+          "source": "新华社",
+          "title": "特朗普说美对加汽车和钢铁进口关税将提高至50%",
+          "url": "https://www.news.cn/world/20260825/332435f235e74f21872ca8add982d385/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "171b543a349c04",
+          "source": "新华社",
+          "title": "美军称在东太平洋打击“贩毒船”致两人死亡",
+          "url": "https://www.news.cn/20260825/ad4f4ac6e32047d6b9cb1c5c630a2b47/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cfa9fb578000b6",
+          "source": "新华社",
+          "title": "美国财长：任何为伊朗洗钱的实体将被移出美元体系",
+          "url": "https://www.news.cn/20260825/ea2ffcf7c0b5462e8ee4cfc29edb5d84/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1799df4918017f",
+          "source": "新华社",
+          "title": "美国财长：特朗普正就停止与伊朗往来致电多方领导人",
+          "url": "https://www.news.cn/20260825/a7d3eee23f8a4c3f868bd477b967a563/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 6.0,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260825.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "ok",
+          "count": 26,
+          "duration": 0.6
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 13,
+          "duration": 2.8
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.1
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.2
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 20,
+          "duration": 0.4
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 11.1
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.0
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.8
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 37.4
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-08-24T23:34:47+08:00"
+  "generatedAt": "2026-08-25T06:32:31+08:00"
 }
