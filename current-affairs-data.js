@@ -85310,14 +85310,14 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "经济",
-          "count": 9
-        },
-        {
-          "name": "消费",
-          "count": 5
+          "count": 11
         },
         {
           "name": "机器人",
+          "count": 5
+        },
+        {
+          "name": "消费",
           "count": 4
         },
         {
@@ -85399,10 +85399,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
+          "id": "90b8ac7c8be5aa",
+          "source": "求是",
+          "title": "中国构建“黄金大外环”激活经济新走廊",
+          "url": "https://www.qstheory.cn/20260824/cae178dba81b427e940a9712f601f1da/c.html",
+          "date": "2026-08-24",
+          "keyword": "经济"
+        },
+        {
           "id": "8ae0ec437ea36f",
           "source": "求是",
           "title": "我国经济动能向新、结构向优",
           "url": "https://www.qstheory.cn/20260824/4b6dc5499be748ed8d58fa1680d4ca58/c.html",
+          "date": "2026-08-24",
+          "keyword": "经济"
+        },
+        {
+          "id": "eaf5b729c4cfb5",
+          "source": "求是",
+          "title": "新一代通信网撬动智能经济新潜能",
+          "url": "https://www.qstheory.cn/20260824/fafdfb7fe58d44dfad1a68d2f16a6dd2/c.html",
           "date": "2026-08-24",
           "keyword": "经济"
         },
@@ -85413,46 +85429,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.qstheory.cn/20260824/e21169c216bd4878a0578d15a8ce02da/c.html",
           "date": "2026-08-24",
           "keyword": "经济"
-        },
-        {
-          "id": "f160a53aeef19d",
-          "source": "光明日报",
-          "title": "【光明时评】情怀消费如何撬动千亿市场",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/24/content_23119.html",
-          "date": "2026-08-24",
-          "keyword": "消费"
-        },
-        {
-          "id": "54d2e13c092adb",
-          "source": "光明日报",
-          "title": "【光明论坛】提质惠民，释放服务消费潜力",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/24/content_23117.html",
-          "date": "2026-08-24",
-          "keyword": "消费"
-        },
-        {
-          "id": "1ac2246e8bf39c",
-          "source": "新华社",
-          "title": "AI“点亮”半年报 智能消费持续扩容",
-          "url": "https://www.news.cn/tech/20260824/62a999287cee42d5a27bed5d7674357b/c.html",
-          "date": "2026-08-24",
-          "keyword": "消费"
-        },
-        {
-          "id": "b73935d679d1c9",
-          "source": "新华社",
-          "title": "老外扎堆打卡，上海老字号解锁跨文化消费新体验",
-          "url": "https://www.news.cn/fortune/20260824/c858d4b02d6e42b0b17498a272b980fb/c.html",
-          "date": "2026-08-24",
-          "keyword": "消费"
-        },
-        {
-          "id": "c0e2ba7596d22a",
-          "source": "求是",
-          "title": "每年最高补5000元！消费贷贴息政策优化 购车装修等纳入补贴",
-          "url": "https://www.qstheory.cn/20260824/843b003d32984b7db13712ae06e27e7a/c.html",
-          "date": "2026-08-24",
-          "keyword": "消费"
         },
         {
           "id": "280222bfe5a921",
@@ -85485,6 +85461,46 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/tech/20260824/71f5952389814a6dac65237c82cabe76/c.html",
           "date": "2026-08-24",
           "keyword": "机器人"
+        },
+        {
+          "id": "f3fb0b489e200f",
+          "source": "求是",
+          "title": "中国机器人产业“加速跑”为世界提供新机遇",
+          "url": "https://www.qstheory.cn/20260824/a97b31d753384fe883eb3d1bac892048/c.html",
+          "date": "2026-08-24",
+          "keyword": "机器人"
+        },
+        {
+          "id": "f160a53aeef19d",
+          "source": "光明日报",
+          "title": "【光明时评】情怀消费如何撬动千亿市场",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/24/content_23119.html",
+          "date": "2026-08-24",
+          "keyword": "消费"
+        },
+        {
+          "id": "54d2e13c092adb",
+          "source": "光明日报",
+          "title": "【光明论坛】提质惠民，释放服务消费潜力",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/24/content_23117.html",
+          "date": "2026-08-24",
+          "keyword": "消费"
+        },
+        {
+          "id": "1ac2246e8bf39c",
+          "source": "新华社",
+          "title": "AI“点亮”半年报 智能消费持续扩容",
+          "url": "https://www.news.cn/tech/20260824/62a999287cee42d5a27bed5d7674357b/c.html",
+          "date": "2026-08-24",
+          "keyword": "消费"
+        },
+        {
+          "id": "b73935d679d1c9",
+          "source": "新华社",
+          "title": "老外扎堆打卡，上海老字号解锁跨文化消费新体验",
+          "url": "https://www.news.cn/fortune/20260824/c858d4b02d6e42b0b17498a272b980fb/c.html",
+          "date": "2026-08-24",
+          "keyword": "消费"
         },
         {
           "id": "f5c61691f4b32a",
@@ -85975,6 +85991,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "1224206464d4ef",
+          "source": "新华社",
+          "title": "“简拉维”登陆泉州",
+          "url": "https://www.news.cn/politics/20260824/69792845d6914d24b360e3f125843ee0/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1854104f79a937",
           "source": "新华社",
           "title": "“那真是一票难求！”",
@@ -85995,6 +86019,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "中国援突尼斯加贝斯肿瘤中心项目开工建设",
           "url": "https://www.news.cn/20260824/5e02a11cb6e84a448644d4c85352054a/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b5572e43ec0acf",
+          "source": "新华社",
+          "title": "中国气象局升级应急响应",
+          "url": "https://www.news.cn/20260824/05f30c72a5344f78a7824867bc6b91f9/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86043,6 +86075,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "以总理警告哈马斯停止从加沙向以色列“放风筝”",
           "url": "https://www.news.cn/20260824/3539bfb0769b4b4e8a5c8de14575ee81/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "957053b7d3557e",
+          "source": "新华社",
+          "title": "伊朗发布霍尔木兹海峡通行新规",
+          "url": "https://www.news.cn/world/20260824/7b95420c92754f88a605015b2fc855f6/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86103,26 +86143,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "2f9e5fdec632b2",
-          "source": "新华社",
-          "title": "华南沿海强降雨频繁",
-          "url": "https://www.news.cn/politics/20260824/bd034ccda6f64054a7027f526765a029/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
           "id": "ad8e5d5f329863",
           "source": "新华社",
           "title": "南靖土楼：古井活水盈盈，文旅活力满满",
           "url": "https://www.news.cn/local/20260824/438f5e6e01924aa4848a966ae2d6f15d/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "957053b7d3557e",
-          "source": "新华社",
-          "title": "发布霍尔木兹海峡通行新规",
-          "url": "https://www.news.cn/world/20260824/7b95420c92754f88a605015b2fc855f6/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86191,14 +86215,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "b1954ed1c4c6f7",
-          "source": "新华社",
-          "title": "应急小课堂 | 地质灾害避险系列微动漫",
-          "url": "https://www.news.cn/government/20260824/c1b3ead3b0a54715b55230383f18ef10/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
           "id": "d994961a25de35",
           "source": "新华社",
           "title": "把基层治理难题变成干部成长“考题”",
@@ -86239,14 +86255,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "fdc4acb959158b",
-          "source": "新华社",
-          "title": "检察机关依法对金之镇涉嫌受贿案提起公诉",
-          "url": "https://www.news.cn/legal/20260824/5f28c2e965ff4daf849455d131785594/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
           "id": "467f8e2e4c9a93",
           "source": "新华社",
           "title": "殷玉珍和“赛考斯”，重逢了",
@@ -86255,10 +86263,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "be05c80de89cda",
+          "source": "新华社",
+          "title": "民调：超七成加拿大民众支持退出加美贸易谈判",
+          "url": "https://www.news.cn/world/20260824/a4d37d98bd654a54b4d9982d622b1f12/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
           "id": "8e46befaa08ee4",
           "source": "新华社",
-          "title": "水利部发布洪水黄色预警 提醒这12省份注意防范",
+          "title": "水利部发布洪水黄色预警",
           "url": "https://www.news.cn/politics/20260824/9767f80cd1eb49ff8545e58213dec311/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8b178e2c2afbce",
+          "source": "新华社",
+          "title": "沈阳对违规售卖兽用管制药品门店依法立案调查",
+          "url": "https://www.news.cn/legal/20260824/0417840ce4ed4e1d895c243560680f98/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86287,14 +86311,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "3ac19531949ef1",
-          "source": "新华社",
-          "title": "福建厦门：鹭岛文脉续新篇",
-          "url": "https://www.news.cn/culture/20260824/682354f7d13e41f993f0aa7d5d2a5c17/c.html?page=1",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
           "id": "f340d0bdfee1e3",
           "source": "新华社",
           "title": "算力全链条绿色化成效初显",
@@ -86307,6 +86323,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "美国内华达州里诺市4万多居民因野火紧急撤离",
           "url": "https://www.news.cn/20260824/af0340cb15d343b7b8af66b03ba2355b/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b5505b3bdf9a8e",
+          "source": "新华社",
+          "title": "美财长称美伊战事进入“终局”",
+          "url": "https://www.news.cn/world/20260824/babde7b4cadd41c3bc85b834eef5c227/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86351,14 +86375,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8505f8a5963593",
-          "source": "新华社",
-          "title": "野火失控，美国内华达州4万多居民紧急撤离",
-          "url": "https://www.news.cn/world/20260824/3495365f37af4ef48ba2250f21bdd36b/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
           "id": "956b695cadf8da",
           "source": "新华社",
           "title": "险企资产负债管理新规发布 从事后评估向全程嵌入转变",
@@ -86375,18 +86391,42 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "4b33174dc67cc4",
-          "source": "求是",
-          "title": "“梁王”登顶，中国队时隔八年再夺世锦赛男双冠军",
-          "url": "https://www.qstheory.cn/20260824/62159c3d9991445c96e72fb59ef03f37/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
-        },
-        {
           "id": "0aa7d5dfe98ce5",
           "source": "求是",
           "title": "“营造风清气正的政治生态”",
           "url": "https://www.qstheory.cn/20260824/9b4b336293e6453c859650f8e3f99396/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aa041db93cd155",
+          "source": "求是",
+          "title": "一场逼近市中心的山火，烧出美国野火治理的“硬伤”",
+          "url": "https://www.qstheory.cn/20260824/607f404354d14b42ab4301c1cc465e7e/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9cffaca83657b6",
+          "source": "求是",
+          "title": "中国语言资源保护工程成果展示馆在长沙开馆",
+          "url": "https://www.qstheory.cn/20260824/b56a4acaaa95427c841e5e9fc2c7c56c/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4e655317b0c9a5",
+          "source": "求是",
+          "title": "中央网信办深入推进网络娱乐团播乱象整治工作",
+          "url": "https://www.qstheory.cn/20260824/51751a7b18b941c8be11f9dcd4988afa/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0f1c3b18773eda",
+          "source": "求是",
+          "title": "全国累计收购小麦超9000万吨",
+          "url": "https://www.qstheory.cn/20260824/db8054dac1664ebb8867381afd6798d8/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -86405,14 +86445,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.qstheory.cn/20260824/57b206eb229a4e19b861db551078568e/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
-        },
-        {
-          "id": "d38f8b32cfc3c8",
-          "source": "求是",
-          "title": "水利部：全国29条河流仍维持超警",
-          "url": "https://www.qstheory.cn/20260824/f5731c4b916b47de8ede4298a17c501a/c.html",
-          "date": "2026-08-24",
-          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -86420,65 +86452,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 4.5,
+          "duration": 7.5,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260824.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 21,
-          "duration": 2.0
+          "duration": 2.1
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.7
+          "duration": 3.0
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 15,
-          "duration": 16.3
+          "duration": 20.2
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 9,
-          "duration": 6.4
+          "count": 13,
+          "duration": 6.5
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 21,
-          "duration": 4.0
+          "duration": 1.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.3
+          "duration": 13.1
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 6,
-          "duration": 4.8
+          "duration": 2.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 8.8
+          "duration": 8.5
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 57.3
+          "duration": 77.9
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-24T12:39:50+08:00"
+  "generatedAt": "2026-08-24T13:34:53+08:00"
 };
