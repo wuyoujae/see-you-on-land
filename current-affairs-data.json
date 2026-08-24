@@ -85306,14 +85306,18 @@
     },
     {
       "date": "2026-08-24",
-      "keyword": "高质量发展",
+      "keyword": "经济",
       "keywords": [
         {
-          "name": "高质量发展",
-          "count": 2
+          "name": "经济",
+          "count": 4
         },
         {
           "name": "人工智能",
+          "count": 3
+        },
+        {
+          "name": "高质量发展",
           "count": 2
         },
         {
@@ -85327,26 +85331,38 @@
         {
           "name": "消费",
           "count": 2
-        },
-        {
-          "name": "经济",
-          "count": 2
         }
       ],
       "articles": [
-        {
-          "id": "0ecba55e6a9c08",
-          "source": "人民日报",
-          "title": "“西藏走出了一条符合当地实际的高质量发展之路”",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/24/content_30176637.html",
-          "date": "2026-08-24",
-          "keyword": "高质量发展"
-        },
         {
           "id": "70af1d1524fdf0",
           "source": "人民日报",
           "title": "上半年经济增长4.7%说明了什么？",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/24/content_30176629.html",
+          "date": "2026-08-24",
+          "keyword": "经济"
+        },
+        {
+          "id": "38db53ca422d77",
+          "source": "半月谈",
+          "title": "上半年经济增长4.7%说明了什么？",
+          "url": "http://www.banyuetan.org/yw/detail/20260824/1000200033137441787532422891356848_1.html",
+          "date": "2026-08-24",
+          "keyword": "经济"
+        },
+        {
+          "id": "c7e12246681773",
+          "source": "新华社",
+          "title": "中国构建“黄金大外环”激活经济新走廊",
+          "url": "https://www.news.cn/fortune/20260824/27d03bf7a8ed49aca13d0fb333c7368d/c.html",
+          "date": "2026-08-24",
+          "keyword": "经济"
+        },
+        {
+          "id": "92c51944be7127",
+          "source": "新华社",
+          "title": "钟才文：上半年经济增长4.7%说明了什么？",
+          "url": "https://www.news.cn/fortune/20260824/6d8a753f7a8f45b4a1e51e8a9daf3e52/c.html",
           "date": "2026-08-24",
           "keyword": "经济"
         },
@@ -85365,6 +85381,22 @@
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/24/content_30176624.html",
           "date": "2026-08-24",
           "keyword": "人工智能"
+        },
+        {
+          "id": "4957ba31c164cc",
+          "source": "半月谈",
+          "title": "2026绿色算力（人工智能）大会：算得快、用得省",
+          "url": "http://www.banyuetan.org/yw/detail/20260824/1000200033137441787532746318358066_1.html",
+          "date": "2026-08-24",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "0ecba55e6a9c08",
+          "source": "人民日报",
+          "title": "“西藏走出了一条符合当地实际的高质量发展之路”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/24/content_30176637.html",
+          "date": "2026-08-24",
+          "keyword": "高质量发展"
         },
         {
           "id": "d5e8f43fa506c8",
@@ -85405,14 +85437,6 @@
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/24/content_23117.html",
           "date": "2026-08-24",
           "keyword": "消费"
-        },
-        {
-          "id": "92c51944be7127",
-          "source": "新华社",
-          "title": "钟才文：上半年经济增长4.7%说明了什么？",
-          "url": "https://www.news.cn/fortune/20260824/6d8a753f7a8f45b4a1e51e8a9daf3e52/c.html",
-          "date": "2026-08-24",
-          "keyword": "经济"
         },
         {
           "id": "cb973f2804b129",
@@ -85679,10 +85703,74 @@
           "keyword": "综合时政"
         },
         {
+          "id": "096fbbbcef39a4",
+          "source": "半月谈",
+          "title": "中国机器人产业“加速跑”为世界提供新机遇",
+          "url": "http://www.banyuetan.org/yw/detail/20260824/1000200033137441787532649829357779_1.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c406bf82028a60",
+          "source": "半月谈",
+          "title": "学习手记丨“走技能成才、技能报国之路”",
+          "url": "http://www.banyuetan.org/dyp/detail/20260824/1000200033135231787532242677354184_1.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c82cd0517203de",
+          "source": "半月谈",
+          "title": "新华网评·蒸蒸日上的中国丨微光成炬，守护人间烟火",
+          "url": "http://www.banyuetan.org/yw/detail/20260824/1000200033137441787532310177355498_1.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "45530a07164507",
+          "source": "新华社",
+          "title": "2026“村超”全国赛收官 多地球队向榕江发出感谢信",
+          "url": "https://www.news.cn/local/20260824/fdbc6f8f34fd45e18e60249794f61b54/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "950080823819c7",
+          "source": "新华社",
+          "title": "《玛纳斯》歌舞剧亮相比什凯克",
+          "url": "https://www.news.cn/world/20260824/42325d6212fb4689a17d13fdfad0a0fe/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "367d1c8c3b6e32",
+          "source": "新华社",
+          "title": "中俄记者走进苏州感受江南韵味",
+          "url": "https://www.news.cn/world/20260824/85739efa262d43e4971a461c72ae4a31/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "db338ffb18afb1",
+          "source": "新华社",
+          "title": "中阿启动干旱、荒漠化和土地退化防治五年行动计划",
+          "url": "https://www.news.cn/silkroad/20260824/baa1fa7ddeca4b56a5496a60284cfe7d/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
           "id": "56e4fbbad106f0",
           "source": "新华社",
           "title": "以总理警告哈马斯停止从加沙向以色列“放风筝”",
           "url": "https://www.news.cn/20260824/3539bfb0769b4b4e8a5c8de14575ee81/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "27994fb2dee7cc",
+          "source": "新华社",
+          "title": "俄单日击落269架乌无人机 普京：继续加强攻势",
+          "url": "https://www.news.cn/world/20260824/dbb7e8a1775447079d2ff499845671e2/c.html",
           "date": "2026-08-24",
           "keyword": "综合时政"
         },
@@ -85711,6 +85799,54 @@
           "keyword": "综合时政"
         },
         {
+          "id": "51c02c83480e98",
+          "source": "新华社",
+          "title": "四川宜宾市长宁县发生4.7级地震 震源深度5千米",
+          "url": "https://www.news.cn/politics/20260824/a3ebd5f6c72a45aead7412c1fae3e5af/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "45c6b4316cfc33",
+          "source": "新华社",
+          "title": "广西：洪水漫城 救援不歇",
+          "url": "https://www.news.cn/local/20260824/296ac96b84ae45ae911ad12ac62ff3cc/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a9399efbe7a889",
+          "source": "新华社",
+          "title": "挪威国王哈拉尔五世住院 王储哈康代行元首职责",
+          "url": "https://www.news.cn/world/20260824/465eee8757f443158bf0c71982b6d2ea/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "467f8e2e4c9a93",
+          "source": "新华社",
+          "title": "殷玉珍和“赛考斯”，重逢了",
+          "url": "https://www.news.cn/politics/20260824/b9da16c6252f40a0a5a65e2e77656da4/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2e9d82408adac4",
+          "source": "新华社",
+          "title": "法国普罗万古城迎来丰收节",
+          "url": "https://www.news.cn/photo/20260824/a8d83a147a63499fa79ed5b56a03b230/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c1a769789d1f53",
+          "source": "新华社",
+          "title": "特写丨为中阿荒漠化治理合作绘就新蓝图",
+          "url": "https://www.news.cn/silkroad/20260824/4556c3d747aa4a3b98b8ed36b85c7545/c.html",
+          "date": "2026-08-24",
+          "keyword": "综合时政"
+        },
+        {
           "id": "5d7af3161dcc57",
           "source": "新华社",
           "title": "美国内华达州里诺市4万多居民因野火紧急撤离",
@@ -85724,32 +85860,32 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 10.1,
+          "duration": 10.7,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260824.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 21,
-          "duration": 1.2
+          "duration": 2.4
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 6,
-          "duration": 2.6
+          "count": 18,
+          "duration": 2.5
         },
         {
           "source": "半月谈",
           "status": "ok",
-          "count": 0,
-          "duration": 21.3
+          "count": 5,
+          "duration": 25.1
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.1
+          "duration": 6.4
         },
         {
           "source": "光明日报",
@@ -85761,28 +85897,29 @@
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.6
+          "duration": 12.2
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.6
+          "duration": 2.8
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 7.7
+          "duration": 8.3
         },
         {
           "source": "广东发布",
-          "status": "ok",
+          "status": "error",
           "count": 0,
-          "duration": 54.7
+          "duration": 17.9,
+          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-24T07:25:32+08:00"
+  "generatedAt": "2026-08-24T08:55:03+08:00"
 }
