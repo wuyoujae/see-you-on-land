@@ -87276,7 +87276,7 @@
       "keywords": [
         {
           "name": "习近平",
-          "count": 11
+          "count": 12
         },
         {
           "name": "教育",
@@ -87373,6 +87373,14 @@
           "keyword": "习近平"
         },
         {
+          "id": "af86413ff0c7d3",
+          "source": "学习强国",
+          "title": "深入学习贯彻习近平党建思想 持之以恒推进全面从严治党",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=819413228163427165&item_id=819413228163427165",
+          "date": "2026-08-25",
+          "keyword": "习近平"
+        },
+        {
           "id": "43eeb4e0a14f22",
           "source": "广东发布",
           "title": "习近平作出重要指示强调 巩固拓展树立和践行正确政绩观学习教育成果 努力创造经得起实践人民历史检验的实绩",
@@ -87461,10 +87469,10 @@
           "keyword": "经济"
         },
         {
-          "id": "c640f006675ec0",
-          "source": "新华社",
-          "title": "评论丨钟才文：推动高质量发展行稳致远",
-          "url": "https://www.news.cn/fortune/20260825/e85b55bf018b4721abe04e3ed016def5/c.html",
+          "id": "b48c248a3eaeb2",
+          "source": "学习强国",
+          "title": "推动高质量发展行稳致远",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=17293461827939972429&item_id=17293461827939972429",
           "date": "2026-08-25",
           "keyword": "高质量发展"
         },
@@ -87917,6 +87925,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "8b73d4b6daf26a",
+          "source": "学习强国",
+          "title": "“换位思考”的三重境界",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=5722733044384346460&item_id=5722733044384346460",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "034156f7d4f657",
           "source": "学习强国",
           "title": "上半年国内手机出货量超98%支持北斗定位",
@@ -87973,6 +87989,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "1858de184a71e9",
+          "source": "学习强国",
+          "title": "努力创造经得起实践人民历史检验的实绩",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=15504454744792996138&item_id=15504454744792996138",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "c5295c3fa32a45",
           "source": "学习强国",
           "title": "国家税务总局：16条举措落地便利办税缴费",
@@ -87981,10 +88005,26 @@
           "keyword": "综合时政"
         },
         {
+          "id": "a57ae6fc89e6fd",
+          "source": "学习强国",
+          "title": "学习快评|树立和践行正确政绩观必须久久为功",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=16459933557587119417&item_id=16459933557587119417",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "5f1abeba4779a8",
           "source": "学习强国",
           "title": "平陆运河首次客船航线测试完成",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=9053948338701002233&item_id=9053948338701002233",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d6badb88f8c8d2",
+          "source": "学习强国",
+          "title": "把党的领导落实到各领域各方面各环节",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=12279347453764073991&item_id=12279347453764073991",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88013,6 +88053,22 @@
           "keyword": "综合时政"
         },
         {
+          "id": "17587472c06632",
+          "source": "学习强国",
+          "title": "让好茶走出“深闺”",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2147048814888503230&item_id=2147048814888503230",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3c18939730ad31",
+          "source": "学习强国",
+          "title": "防灾减灾救灾要坚持立足于防",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=15981271827511502587&item_id=15981271827511502587",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "5174f789bec80e",
           "source": "新华社",
           "title": "24年、2.1万场、2000万人次 云南这台歌舞演出何以长盛",
@@ -88037,6 +88093,22 @@
           "keyword": "综合时政"
         },
         {
+          "id": "bc9496b8abb848",
+          "source": "新华社",
+          "title": "一所大学与未来之城的双向奔赴",
+          "url": "https://education.news.cn/20260825/9414c7ba30374bb4b1468059bbc81645/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "993b6063f36dc6",
+          "source": "新华社",
+          "title": "一箭7星 长征六号丙遥一运载火箭发射成功",
+          "url": "https://www.news.cn/tech/20260825/c7d4fa943e1e49ed8bb621c6b998739f/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "6b3a8ab4e988b4",
           "source": "新华社",
           "title": "上下纵横，澳门前行 岑浩辉解读澳门“三五”规划",
@@ -88049,6 +88121,14 @@
           "source": "新华社",
           "title": "世界最大直径水下盾构隧道建成通车",
           "url": "https://www.news.cn/local/20260825/3581d4362d9f42f4a7f4789ebbc77757/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4f33f30ed56cd9",
+          "source": "新华社",
+          "title": "中国驻泰使馆：遭绑架中国公民已得到妥善安置",
+          "url": "https://www.news.cn/world/20260825/96be590f64554b29a5de5b6077143a92/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88093,14 +88173,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "e91745565ea93f",
-          "source": "新华社",
-          "title": "你有一份机器“打工人”图鉴，请查收",
-          "url": "http://www.news.cn/tech/20260825/2923d2da5dd9485f93de8d978a574992/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
           "id": "dd194e3562f90f",
           "source": "新华社",
           "title": "促进投资回稳成重点 多地开列下半年任务清单",
@@ -88125,6 +88197,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "7699d0f1e4ffb1",
+          "source": "新华社",
+          "title": "公益慢火车助力采山客林海“淘金”",
+          "url": "https://www.news.cn/photo/20260825/940c26b3a9554a7e946379a9875e9457/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "c8a657dc873b3a",
           "source": "新华社",
           "title": "内塔尼亚胡声称伊朗曾企图暗杀其子",
@@ -88135,7 +88215,7 @@
         {
           "id": "e3c9f01b63f596",
           "source": "新华社",
-          "title": "农业法修订草案二审稿提请审议 增加了哪些规定？",
+          "title": "农业法修订草案、",
           "url": "https://www.news.cn/legal/20260825/42c0528b7cf44dc281e33f311224319f/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
@@ -88247,16 +88327,16 @@
         {
           "id": "f522dd75c0189c",
           "source": "新华社",
-          "title": "律师法修改拟明确鼓励支持律师依法提供法律援助",
+          "title": "律师法修正草案二审",
           "url": "https://www.news.cn/legal/20260825/e5fcc25527aa41869f04853d8d2eeede/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
         {
-          "id": "6159cf7f3fad4a",
+          "id": "95bb31633fbeff",
           "source": "新华社",
-          "title": "抗癌爱心厨房里的“人世间”",
-          "url": "https://www.news.cn/local/20260825/3dedbedd31634a5395b2ba7c5824467e/c.html",
+          "title": "日本市民团体举办“日军毒气展”",
+          "url": "https://www.news.cn/world/20260825/d94968e9ed85403e942d148b6f535196/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88285,14 +88365,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "2059f591689c30",
-          "source": "新华社",
-          "title": "松州古城夜色美",
-          "url": "https://www.news.cn/photo/20260825/f5fac7497d7b4fcf8b1a3f8eb1c1dd82/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
           "id": "a8298c686ce2be",
           "source": "新华社",
           "title": "法国或从今秋开学起实施高中手机禁令",
@@ -88305,14 +88377,6 @@
           "source": "新华社",
           "title": "泰国罗勇府发生枪击案致2死2伤",
           "url": "https://www.news.cn/20260825/e766fee202534a5780ca499874bd6aff/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "2d969815665f20",
-          "source": "新华社",
-          "title": "海地首都附近遭帮派袭击致40余人死亡",
-          "url": "https://www.news.cn/world/20260825/66d87c399b5f40ca87859bc65919743d/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88337,14 +88401,6 @@
           "source": "新华社",
           "title": "特朗普说美对加汽车和钢铁进口关税将提高至50%",
           "url": "https://www.news.cn/world/20260825/332435f235e74f21872ca8add982d385/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "67f3a499e406ae",
-          "source": "新华社",
-          "title": "神舟二十三号乘组在轨将满三个月",
-          "url": "http://www.news.cn/tech/20260825/db2b5facd0484c8a81b633c30f84d290/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88405,6 +88461,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "886710ca3507a1",
+          "source": "新华社",
+          "title": "走进《欢迎来龙餐馆》背后的“电影工厂”",
+          "url": "https://www.news.cn/local/20260825/a778ac113f814d979312f406eda60ad0/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "be3068b37e2d1e",
           "source": "新华社",
           "title": "走进红军长征纪念碑碑园感受长征精神",
@@ -88421,10 +88485,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "15769929401375",
+          "id": "dba0ce16924ba2",
           "source": "新华社",
-          "title": "野火与干旱致欧洲一战二战未爆弹药频现",
-          "url": "https://www.news.cn/world/20260825/f1a38468eeed4314ae3fee293ea30dbd/c.html",
+          "title": "链接芯片与场景——AI智能基座加速端侧应用落地",
+          "url": "https://www.news.cn/tech/20260825/402ae2d97b83468186deae5e00afe4d2/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "783425a08376c7",
+          "source": "新华社",
+          "title": "镜观中国丨思想之光领航 实干书写答卷",
+          "url": "https://www.news.cn/politics/20260825/c30b357dbc45447a9f51f5964e23825d/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88437,14 +88509,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "25865784aec510",
-          "source": "新华社",
-          "title": "零碳工厂建设迎来路线图",
-          "url": "http://www.news.cn/tech/20260825/65268ad1935b40698840b6fbaa6faf53/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
           "id": "e6db1399b0ca4c",
           "source": "新华社",
           "title": "霍尔木兹海峡通行商船数量降至3个多月以来新低",
@@ -88453,18 +88517,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "0cd324b4b0147b",
+          "id": "aadfe5312581a3",
           "source": "新华社",
-          "title": "驻日美军恶行连发：袭警、酒驾、走私毒品",
-          "url": "https://www.news.cn/20260825/e16aa170f7ee4e20b74af937eecc7252/c.html",
+          "title": "韩正会见印度国家安全顾问、中印边界问题印方特别代表多瓦尔",
+          "url": "https://www.news.cn/world/20260825/f4909e6d3425490ca207fff15da42f01/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
         {
-          "id": "659a6813b4eff0",
+          "id": "0cd324b4b0147b",
           "source": "新华社",
-          "title": "鸟瞰死海天坑奇观",
-          "url": "https://www.news.cn/photo/20260825/693a5874e805429c81d46f5940975a42/c.html",
+          "title": "驻日美军恶行连发：袭警、酒驾、走私毒品",
+          "url": "https://www.news.cn/20260825/e16aa170f7ee4e20b74af937eecc7252/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88546,66 +88610,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 4.8,
+          "duration": 7.1,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260825.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.8
+          "duration": 2.1
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.3
+          "duration": 2.7
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 15,
-          "duration": 22.1
+          "duration": 36.2
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 13,
-          "duration": 8.3
+          "duration": 7.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 20,
-          "duration": 1.3
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.5
+          "duration": 13.2
         },
         {
           "source": "学习强国",
           "status": "ok",
-          "count": 17,
-          "duration": 2.6
+          "count": 25,
+          "duration": 2.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 8.4
+          "duration": 11.2
         },
         {
           "source": "广东发布",
-          "status": "stale",
+          "status": "ok",
           "count": 2,
-          "duration": 17.9,
-          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+          "duration": 62.0
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-25T11:43:31+08:00"
+  "generatedAt": "2026-08-25T12:34:36+08:00"
 }
