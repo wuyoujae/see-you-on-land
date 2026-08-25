@@ -87276,7 +87276,7 @@
       "keywords": [
         {
           "name": "习近平",
-          "count": 13
+          "count": 12
         },
         {
           "name": "经济",
@@ -87299,11 +87299,11 @@
           "count": 3
         },
         {
-          "name": "习近平党建思想",
+          "name": "人工智能",
           "count": 2
         },
         {
-          "name": "人工智能",
+          "name": "暴雨",
           "count": 2
         }
       ],
@@ -87393,14 +87393,6 @@
           "source": "广东发布",
           "title": "习近平同约旦国王阿卜杜拉二世会谈",
           "url": "https://www.gd.gov.cn/gdywdt/xwdt/content/post_4946358.html",
-          "date": "2026-08-25",
-          "keyword": "习近平"
-        },
-        {
-          "id": "750f1011ef4765",
-          "source": "新华社",
-          "title": "全国性行业类媒体负责人学习宣传贯彻习近平党建思想专题培训班在京举办",
-          "url": "https://www.news.cn/politics/20260825/f6d98a1aa2cf4f9893ddc19f95bb8463/c.html",
           "date": "2026-08-25",
           "keyword": "习近平"
         },
@@ -87651,6 +87643,22 @@
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=16728872108607589432&item_id=16728872108607589432",
           "date": "2026-08-25",
           "keyword": "人工智能"
+        },
+        {
+          "id": "9c019d0527ba1e",
+          "source": "学习强国",
+          "title": "水利部会商部署西北华北地区暴雨洪水防御工作",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=12567161007179062887&item_id=12567161007179062887",
+          "date": "2026-08-25",
+          "keyword": "暴雨"
+        },
+        {
+          "id": "c2acfd128e4ce0",
+          "source": "新华社",
+          "title": "警惕强降水风险：同是大暴雨 南北各不同",
+          "url": "https://www.news.cn/politics/20260825/fac8fe18147546e08bc660c78a5c2b23/c.html",
+          "date": "2026-08-25",
+          "keyword": "暴雨"
         },
         {
           "id": "dd36e1cd4756cd",
@@ -88365,14 +88373,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "9c019d0527ba1e",
-          "source": "学习强国",
-          "title": "水利部会商部署西北华北地区暴雨洪水防御工作",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=12567161007179062887&item_id=12567161007179062887",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
           "id": "225a42dd2c9519",
           "source": "学习强国",
           "title": "王沪宁出席全国政协十四届常委会第十八次会议开幕会",
@@ -88445,10 +88445,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "59d36a70513e56",
+          "id": "8ba471a52c5f68",
           "source": "学习强国",
-          "title": "零碳工厂建设迎来路线图",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=3328181754135677651&item_id=3328181754135677651",
+          "title": "陈文清会见越南最高人民法院院长阮文广",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=6045617540202313795&item_id=6045617540202313795",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88473,6 +88473,14 @@
           "source": "广东发布",
           "title": "听声逐梦 绿茵争锋 省残运会盲人足球比赛在茂名信宜打响",
           "url": "https://www.gd.gov.cn/gdywdt/dsdt/content/post_4946484.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dd5c8fa6c8ae14",
+          "source": "广东发布",
+          "title": "孟凡利出席广东—新加坡合作理事会第十六次会议",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4946831.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88541,6 +88549,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "d162ea85ce7f06",
+          "source": "新华社",
+          "title": "一名在韩失踪中国公民被确认遇害 嫌疑人已被捕",
+          "url": "https://www.news.cn/20260825/8319d770814f4e1898ba0ba4a8daaa67/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "85f24b4dd2d066",
           "source": "新华社",
           "title": "万里边疆行丨界江深处的守望",
@@ -88549,10 +88565,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "e2a8e6eb3ab00a",
+          "id": "56614451f78536",
           "source": "新华社",
           "title": "东北地区里程最长跨海大桥建设取得关键进展",
-          "url": "https://www.news.cn/20260825/9937d0a60d8b4de79670a78ab741dcce/c.html",
+          "url": "https://www.news.cn/local/20260825/7118faf12a954c478eeaa93a5a87247d/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88561,6 +88577,14 @@
           "source": "新华社",
           "title": "中共中央办公厅 国务院办公厅印发《党政领导干部生态环境损害责任追究办法》",
           "url": "https://www.news.cn/politics/20260825/ba4c0c8ea94b48d9b698b130176d7387/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0cdf8a0ddcea07",
+          "source": "新华社",
+          "title": "中印边界问题特别代表在北京举行会晤",
+          "url": "https://www.news.cn/politics/leaders/20260825/f5acf82e716740a292d0e47352b7809b/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88581,18 +88605,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "c55268b44cf821",
+          "id": "43594f75fe1eda",
           "source": "新华社",
-          "title": "亚美尼亚前总统科恰良涉嫌滥用职权被捕",
-          "url": "https://www.news.cn/20260825/a3bbdd21d7524093a2c33c225dcb73b0/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "3e7375e226b437",
-          "source": "新华社",
-          "title": "人民子弟兵全力投入广西崇左防汛救灾",
-          "url": "https://www.news.cn/20260825/61b90ba13a514ac3935d0331d243940e/c.html",
+          "title": "人类基因组计划公布25周年 专家共话新发展",
+          "url": "https://www.news.cn/20260825/16cdbac5053443568c60b628f366760d/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88621,10 +88637,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "acd3095bb37e81",
+          "id": "0e559962d4d073",
           "source": "新华社",
-          "title": "俄太平洋舰队在日本海等水域进行反潜演习",
-          "url": "https://www.news.cn/20260825/1c4dc2fd4af94018a122f6f4440cf84d/c.html",
+          "title": "以文兴业 看文化产品和服务提质“成绩单”",
+          "url": "https://www.news.cn/fortune/20260825/5030c26fa1db4be4893a9398dee45837/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b58f28ee8ec745",
+          "source": "新华社",
+          "title": "俄方：在乌克兰部署北约军队不可接受",
+          "url": "https://www.news.cn/20260825/69445cf871354e0cb9684c2d2218654a/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88633,6 +88657,14 @@
           "source": "新华社",
           "title": "俄远东天然气化工项目火灾致1人死亡",
           "url": "https://www.news.cn/20260825/ea13187902a94aba99d615fcc154d233/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "750f1011ef4765",
+          "source": "新华社",
+          "title": "全国性行业类媒体负责人专题培训班在京举办",
+          "url": "https://www.news.cn/politics/20260825/f6d98a1aa2cf4f9893ddc19f95bb8463/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88661,17 +88693,9 @@
           "keyword": "综合时政"
         },
         {
-          "id": "21b21a040cb0a0",
-          "source": "新华社",
-          "title": "内蒙古：绷紧防汛安全弦 全力应对强降雨",
-          "url": "https://www.news.cn/20260825/00fea6d877184748add2f5550f7a3124/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
           "id": "7eb7478966ce7a",
           "source": "新华社",
-          "title": "刘国中出席第十一届亚太经合组织粮食安全部长级会议开幕式并致辞",
+          "title": "刘国中出席APEC粮食安全部长级会议开幕式并致辞",
           "url": "https://www.news.cn/politics/leaders/20260825/5da3988240f14651a324337364fba2db/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
@@ -88681,6 +88705,14 @@
           "source": "新华社",
           "title": "十四届全国人大常委会第二十四次会议举行 赵乐际主持",
           "url": "https://www.news.cn/politics/leaders/20260825/739790acace1494b80a9e35c3592cf74/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "63898d92456cf4",
+          "source": "新华社",
+          "title": "卢特尼克“搅黄”美加贸易谈判？",
+          "url": "https://www.news.cn/20260825/629ca50ddce647eeba1af9094e0a9ea9/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88733,18 +88765,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "fff30c26e4a82d",
-          "source": "新华社",
-          "title": "我国交通强国指数稳步增长位列世界第五",
-          "url": "https://www.news.cn/politics/20260825/636a2634e6574fbebb880c6bc99852a8/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
           "id": "13d50734ea72fa",
           "source": "新华社",
           "title": "我国最大直径水下盾构隧道建成通车",
           "url": "https://www.news.cn/photo/20260825/48caad9dcb80461aadacb2e505197e71/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "44e82024d6dd18",
+          "source": "新华社",
+          "title": "投洽会亮点前瞻",
+          "url": "https://www.news.cn/fortune/20260825/248f52ff70404d6984f258d9b6f99e3a/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88773,14 +88805,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "d1408c02baa794",
-          "source": "新华社",
-          "title": "新华鲜报丨8.2万家助餐点 守护长者幸福“食”光",
-          "url": "https://www.news.cn/20260825/6a4ffd1647af4671a88ca9d465ab1187/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
           "id": "c4cbc1e138ed2e",
           "source": "新华社",
           "title": "新视记丨共赴万顷青绿之约",
@@ -88805,18 +88829,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "2d942fc531ca71",
+          "id": "a783f2784ed0a6",
           "source": "新华社",
-          "title": "深刻理解天下为公、天下大同的社会理想",
-          "url": "https://www.news.cn/politics/leaders/20260825/71ae943fe9c84f4cb399d61d0275afb1/c.html",
+          "title": "消息人士：伊朗希望通过巴基斯坦向美方转达谈判条件",
+          "url": "https://www.news.cn/20260825/2ad91f76e066464eb4424d9f212ef5de/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
         {
-          "id": "ab8809df5367d9",
+          "id": "2d942fc531ca71",
           "source": "新华社",
-          "title": "特朗普称考虑将安大略湖更名为“美国湖”",
-          "url": "https://www.news.cn/20260825/db1ef4d0c92a4b22b5bea17bd87db4a6/c.html",
+          "title": "深刻理解天下为公、天下大同的社会理想",
+          "url": "https://www.news.cn/politics/leaders/20260825/71ae943fe9c84f4cb399d61d0275afb1/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88829,26 +88853,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "3021ae61600048",
-          "source": "新华社",
-          "title": "第33届中国电视金鹰奖提名名单公布",
-          "url": "https://www.news.cn/politics/20260825/ecfec156e8eb41e78763c977163d3698/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
           "id": "2bb9793585e64e",
           "source": "新华社",
           "title": "第三届中美1.5轨对话举行",
           "url": "https://www.news.cn/politics/20260825/0733301b8529468face04e3de25f0b04/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "44e82024d6dd18",
-          "source": "新华社",
-          "title": "第二十六届投洽会亮点前瞻",
-          "url": "https://www.news.cn/fortune/20260825/248f52ff70404d6984f258d9b6f99e3a/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88861,14 +88869,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "997d5ddaaab198",
-          "source": "新华社",
-          "title": "美国西部7州争水 内华达州状告联邦政府",
-          "url": "https://www.news.cn/20260825/202ebf5506804196a118424ba4d2bae3/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
           "id": "ab8e189ffa222e",
           "source": "新华社",
           "title": "美对伊朗武装力量高级官员发布悬赏",
@@ -88877,10 +88877,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "c2acfd128e4ce0",
+          "id": "6b631779fbc928",
           "source": "新华社",
-          "title": "警惕强降水风险：同是大暴雨 南北各不同",
-          "url": "https://www.news.cn/politics/20260825/fac8fe18147546e08bc660c78a5c2b23/c.html",
+          "title": "联合国官员点赞殷玉珍与“赛考斯”跨国治沙故事",
+          "url": "https://www.news.cn/20260825/0da872da25a146cea384da1b0bd0ed0b/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "19e94662a1a24e",
+          "source": "新华社",
+          "title": "英法加码对乌军援 难解今冬燃眉之急",
+          "url": "https://www.news.cn/20260825/676de1ef66ad4abb811554e2e9958bb2/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -89154,64 +89162,64 @@
           "source": "新闻联播",
           "status": "ok",
           "count": 16,
-          "duration": 0.2
+          "duration": 0.6
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.9
+          "duration": 5.5
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.2
+          "duration": 7.4
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 18,
-          "duration": 29.0
+          "duration": 17.1
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 16,
-          "duration": 10.9
+          "duration": 6.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 20,
-          "duration": 1.5
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.4
+          "duration": 14.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 2.8
+          "duration": 3.6
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 9.1
+          "duration": 10.3
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 11,
-          "duration": 57.0
+          "count": 12,
+          "duration": 68.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-25T21:45:14+08:00"
+  "generatedAt": "2026-08-25T22:40:00+08:00"
 }
