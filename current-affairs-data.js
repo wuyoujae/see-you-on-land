@@ -87559,7 +87559,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "98429fc3a057b3",
           "source": "新华社",
-          "title": "北京发布暴雨黄色预警 全市启动防汛三级应急响应",
+          "title": "北京暴雨黄色预警",
           "url": "https://www.news.cn/local/20260825/aec61885eea14fc7b7c189f69915207d/c.html",
           "date": "2026-08-25",
           "keyword": "暴雨"
@@ -88093,14 +88093,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "bc9496b8abb848",
-          "source": "新华社",
-          "title": "一所大学与未来之城的双向奔赴",
-          "url": "https://education.news.cn/20260825/9414c7ba30374bb4b1468059bbc81645/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
           "id": "993b6063f36dc6",
           "source": "新华社",
           "title": "一箭7星 长征六号丙遥一运载火箭发射成功",
@@ -88125,6 +88117,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "c07c5202add683",
+          "source": "新华社",
+          "title": "两部门对浙江启动应急响应",
+          "url": "https://www.news.cn/local/20260825/a9fdec074fe740c3b42f43542c017cb1/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "4f33f30ed56cd9",
           "source": "新华社",
           "title": "中国驻泰使馆：遭绑架中国公民已得到妥善安置",
@@ -88133,18 +88133,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "b733ea16fed7e8",
+          "id": "e6d4e00d637a27",
           "source": "新华社",
           "title": "中方呼吁国际社会全力以赴推动苏丹停火止战",
-          "url": "https://www.news.cn/world/20260825/2e10a7ff8e1740958be6dd43a6b13a1e/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "eaa28597eca8d2",
-          "source": "新华社",
-          "title": "乌媒说英首相已批准与乌克兰分享导弹技术",
-          "url": "https://www.news.cn/20260825/b2b425519201459ebd90932f18934fb6/c.html",
+          "url": "https://www.news.cn/20260825/b89eb06857004c1894fcd25487c628ae/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88181,26 +88173,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "9257f10796ad85",
-          "source": "新华社",
-          "title": "俄罗斯姑娘维多利亚的美丽“转身”",
-          "url": "https://www.news.cn/world/20260825/d8de77ef2f684187b9a42f7398fcc23a/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
           "id": "9ab6a77a8de649",
           "source": "新华社",
           "title": "健康我来说丨不玩手机也近视？警惕暑期“隐形杀手”",
           "url": "https://www.news.cn/politics/20260825/260ab7ad3d23482bb2538a6c1627e6b4/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "7699d0f1e4ffb1",
-          "source": "新华社",
-          "title": "公益慢火车助力采山客林海“淘金”",
-          "url": "https://www.news.cn/photo/20260825/940c26b3a9554a7e946379a9875e9457/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88293,6 +88269,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "f8b1835c868c6a",
+          "source": "新华社",
+          "title": "大量沙丁鱼死亡致南非下调核电站发电量",
+          "url": "https://www.news.cn/world/20260825/baea845e24b14eb69eaca3275b6b5ca9/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "ec8ca664aff59a",
           "source": "新华社",
           "title": "央行调控更精准灵活 货币政策价格型工具持续丰富",
@@ -88301,10 +88285,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "dc451eb44bcc87",
+          "source": "新华社",
+          "title": "对京津冀蒙青启动防汛应急响应",
+          "url": "https://www.news.cn/local/20260825/472d85c0cc144c97a11c406d3007ff2a/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d6f800ea6d9203",
           "source": "新华社",
           "title": "山东省人大监察和司法委员会原副主任委员苏立科被开除党籍",
           "url": "https://www.news.cn/20260825/3d222b5395fe43faa0128d12422ea077/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "65865a7094abb0",
+          "source": "新华社",
+          "title": "巴基斯坦与伊朗商讨重新开放霍尔木兹海峡",
+          "url": "https://www.news.cn/world/20260825/00038fa3e0f343739ee4bd4b21950df7/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88329,6 +88329,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "律师法修正草案二审",
           "url": "https://www.news.cn/legal/20260825/e5fcc25527aa41869f04853d8d2eeede/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2903fa79803b6e",
+          "source": "新华社",
+          "title": "成都出台房地产市场十条新政 公积金贷款贴息20%",
+          "url": "https://www.news.cn/fortune/20260825/e24e5cc2c816472fb9e111b176d485c8/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88453,10 +88461,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "fce12dc12c65ee",
+          "id": "fcbb90124eb08f",
           "source": "新华社",
-          "title": "美财长说将维持国债再融资计划不变",
-          "url": "https://www.news.cn/world/20260825/32ca52499e7248c68841d8568586b38e/c.html",
+          "title": "联合国防治荒漠化大会上的“中国风”",
+          "url": "https://www.news.cn/world/20260825/31ac6587645d46b5b649fda3b839b02e/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88505,14 +88513,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "阿曼附近海域一油轮遭袭失去动力",
           "url": "https://www.news.cn/20260825/d1cb2de813b244b4bdafea3fc436022e/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "e6db1399b0ca4c",
-          "source": "新华社",
-          "title": "霍尔木兹海峡通行商船数量降至3个多月以来新低",
-          "url": "https://www.news.cn/world/20260825/f0efce092a204803b3f4d5df8b2a2588/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88610,65 +88610,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 7.1,
+          "duration": 13.7,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260825.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 2.1
+          "duration": 2.6
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.7
+          "duration": 2.0
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 15,
-          "duration": 36.2
+          "duration": 31.7
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 13,
-          "duration": 7.0
+          "duration": 6.3
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 20,
-          "duration": 1.8
+          "duration": 1.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.2
+          "duration": 14.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 25,
-          "duration": 2.5
+          "duration": 3.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 11.2
+          "duration": 8.7
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 62.0
+          "duration": 66.2
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-25T12:34:36+08:00"
+  "generatedAt": "2026-08-25T13:27:43+08:00"
 };
