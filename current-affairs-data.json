@@ -87276,19 +87276,19 @@
       "keywords": [
         {
           "name": "习近平",
-          "count": 4
+          "count": 8
         },
         {
           "name": "教育",
+          "count": 5
+        },
+        {
+          "name": "高质量发展",
           "count": 3
         },
         {
           "name": "经济",
           "count": 3
-        },
-        {
-          "name": "高质量发展",
-          "count": 2
         }
       ],
       "articles": [
@@ -87325,6 +87325,38 @@
           "keyword": "习近平"
         },
         {
+          "id": "817317987d6db3",
+          "source": "半月谈",
+          "title": "习近平作出重要指示强调<br>巩固拓展树立和践行正确政绩观学习教育成果 努力创造经得起实践人民历史检验的实绩",
+          "url": "http://www.banyuetan.org/dyp/detail/20260825/1000200033135231787618193840389168_1.html",
+          "date": "2026-08-25",
+          "keyword": "习近平"
+        },
+        {
+          "id": "b2231f521779a7",
+          "source": "半月谈",
+          "title": "习近平同约旦国王阿卜杜拉二世会谈",
+          "url": "http://www.banyuetan.org/yw/detail/20260825/1000200033137441787618791001390293_1.html",
+          "date": "2026-08-25",
+          "keyword": "习近平"
+        },
+        {
+          "id": "6865283a972a45",
+          "source": "半月谈",
+          "title": "习近平致电祝贺阿拉姆吉尔就任孟加拉国总统",
+          "url": "http://www.banyuetan.org/yw/detail/20260825/1000200033137441787618902970342723_1.html",
+          "date": "2026-08-25",
+          "keyword": "习近平"
+        },
+        {
+          "id": "811bd692779fe4",
+          "source": "求是",
+          "title": "习近平总书记引领全党深入开展树立和践行正确政绩观学习教育",
+          "url": "https://www.qstheory.cn/20260825/463821742fae450b8c04a55c35fc0d9a/c.html",
+          "date": "2026-08-25",
+          "keyword": "习近平"
+        },
+        {
           "id": "c25e4d41673e7a",
           "source": "人民日报",
           "title": "不断巩固拓展学习教育成果（今日谈）",
@@ -87341,14 +87373,6 @@
           "keyword": "教育"
         },
         {
-          "id": "a8ce5234b3fd47",
-          "source": "光明日报",
-          "title": "【光明时评】从养老到享老：重塑银发经济的价值坐标",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23267.html",
-          "date": "2026-08-25",
-          "keyword": "经济"
-        },
-        {
           "id": "60210f68eae1fb",
           "source": "光明日报",
           "title": "巩固拓展树立和践行正确政绩观学习教育成果 努力创造经得起实践人民历史检验的实绩",
@@ -87357,10 +87381,18 @@
           "keyword": "教育"
         },
         {
-          "id": "8e9f0c60c2a396",
-          "source": "新华社",
-          "title": "美国财长公布多项针对伊朗的经济制裁措施",
-          "url": "https://www.news.cn/20260825/5d1fda7886e044d7bb5185e539af0e1c/c.html",
+          "id": "42b1aa0b47392b",
+          "source": "人民日报",
+          "title": "推动高质量发展行稳致远",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177036.html",
+          "date": "2026-08-25",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "a8ce5234b3fd47",
+          "source": "光明日报",
+          "title": "【光明时评】从养老到享老：重塑银发经济的价值坐标",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202608/25/content_23267.html",
           "date": "2026-08-25",
           "keyword": "经济"
         },
@@ -87373,18 +87405,26 @@
           "keyword": "经济"
         },
         {
-          "id": "42b1aa0b47392b",
-          "source": "人民日报",
-          "title": "推动高质量发展行稳致远",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177036.html",
+          "id": "c640f006675ec0",
+          "source": "新华社",
+          "title": "评论丨钟才文：推动高质量发展行稳致远",
+          "url": "https://www.news.cn/fortune/20260825/e85b55bf018b4721abe04e3ed016def5/c.html",
           "date": "2026-08-25",
           "keyword": "高质量发展"
         },
         {
-          "id": "c640f006675ec0",
-          "source": "新华社",
+          "id": "9e628b019fc9a9",
+          "source": "求是",
+          "title": "平台经济发展既要有效率更要有温度",
+          "url": "https://www.qstheory.cn/20260825/2ed0d169ae39446fad09cffd0421ce35/c.html",
+          "date": "2026-08-25",
+          "keyword": "经济"
+        },
+        {
+          "id": "9d82edc0862a59",
+          "source": "求是",
           "title": "钟才文：推动高质量发展行稳致远",
-          "url": "https://www.news.cn/fortune/20260825/e85b55bf018b4721abe04e3ed016def5/c.html",
+          "url": "https://www.qstheory.cn/20260825/386ef0e271544f5a8e827a5f7a65dbeb/c.html",
           "date": "2026-08-25",
           "keyword": "高质量发展"
         },
@@ -87685,10 +87725,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "eaa28597eca8d2",
+          "id": "364db4539df2de",
+          "source": "半月谈",
+          "title": "李强会见约旦国王阿卜杜拉二世",
+          "url": "http://www.banyuetan.org/yw/detail/20260825/1000200033137441787619031007391831_1.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d18fb360e2bb0b",
+          "source": "新华社",
+          "title": "“救援航母”挺进广西宁明灾区",
+          "url": "https://www.news.cn/photo/20260825/a93dcb71ff7941f58a29c3069c79da90/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "15e7dc2a26ed3e",
           "source": "新华社",
           "title": "乌媒说英首相已批准与乌克兰分享导弹技术",
-          "url": "https://www.news.cn/20260825/b2b425519201459ebd90932f18934fb6/c.html",
+          "url": "https://www.news.cn/world/20260825/d0c80f34467c4c5785ec094e402e55b8/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -87701,6 +87757,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "4912706014a066",
+          "source": "新华社",
+          "title": "伊朗总统：美国恃强凌弱无助于解决问题",
+          "url": "https://www.news.cn/world/20260825/e703e0de5e4547c9966e289bc7ea7587/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "39db2cff0942f6",
           "source": "新华社",
           "title": "伊朗最高领袖顾问：伊朗的回应将比以往更加坚决",
@@ -87709,42 +87773,82 @@
           "keyword": "综合时政"
         },
         {
-          "id": "f700f07eb36801",
-          "source": "新华社",
-          "title": "伊朗称其贸易伙伴“不会认真对待”美方制裁言论",
-          "url": "https://www.news.cn/20260825/adb742e3ccee4c8d88a22fcda8005ea1/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "c8a657dc873b3a",
+          "id": "19d9e789444f05",
           "source": "新华社",
           "title": "内塔尼亚胡声称伊朗曾企图暗杀其子",
-          "url": "https://www.news.cn/20260825/d018b07129df4927a7f9d2dfa8dafc8f/c.html",
+          "url": "https://www.news.cn/world/20260825/91affb0238ba46b0b4da7bcc3dc3ccca/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
         {
           "id": "3a2b0216729e72",
           "source": "新华社",
-          "title": "加拿大 强硬回应美国关税升级威胁 政界人士密集表态",
+          "title": "加拿大 强硬回应美关税升级威胁 政界人士密集表态",
           "url": "https://www.news.cn/world/20260825/221f7df999e946649aa6e56d52d355f0/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
         {
-          "id": "69c560d5add2a5",
+          "id": "810262eb4f4a77",
           "source": "新华社",
-          "title": "奥地利两架小型飞机相撞致两人死亡",
-          "url": "https://www.news.cn/20260825/0fee064c9c624cf9bba20e09cf6ebe6e/c.html",
+          "title": "古特雷斯敦促各方就关键物资海运机制与联合国合作",
+          "url": "https://www.news.cn/20260825/11a1428a787b4e2993bc5bb506abe155/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
         {
-          "id": "3d4259198c55fc",
+          "id": "09b834b1a5510d",
+          "source": "新华社",
+          "title": "应对伊朗威胁？希腊调整防空系统部署",
+          "url": "https://www.news.cn/20260825/5931d32d7f144876a3f54d0d13f52593/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6159cf7f3fad4a",
+          "source": "新华社",
+          "title": "新视记丨函博Vlog：抗癌爱心厨房里的“人世间”",
+          "url": "https://www.news.cn/local/20260825/3dedbedd31634a5395b2ba7c5824467e/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "95bb31633fbeff",
           "source": "新华社",
           "title": "日本市民团体举办“日军毒气展” 揭露军国主义暴行",
-          "url": "https://www.news.cn/20260825/3891cd6200784c1b9b16be5ab32aaa6f/c.html",
+          "url": "https://www.news.cn/world/20260825/d94968e9ed85403e942d148b6f535196/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "088bb30782d2e7",
+          "source": "新华社",
+          "title": "普京会见印度外长苏杰生 俄印领导人期待会晤",
+          "url": "https://www.news.cn/20260825/0dbdc325356c4edab0d68f68c81099c8/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6d30803a991584",
+          "source": "新华社",
+          "title": "法国总统马克龙会见沙特王储穆罕默德",
+          "url": "https://www.news.cn/photo/20260825/9935b6c3459b4a819bc42187a34ea4e2/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a8298c686ce2be",
+          "source": "新华社",
+          "title": "法国或从今秋开学起实施高中手机禁令",
+          "url": "https://www.news.cn/20260825/5ae9871a6d8f43abbf7a3b003e0daaa7/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fb9f1718bb502b",
+          "source": "新华社",
+          "title": "海地首都附近遭帮派袭击致40余人死亡",
+          "url": "https://www.news.cn/20260825/c3a688991e754e0198246c0d2ba12213/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -87773,26 +87877,50 @@
           "keyword": "综合时政"
         },
         {
-          "id": "3436af6b004959",
+          "id": "ed198a161bbb7b",
           "source": "新华社",
           "title": "美国宣布正式撤销叙利亚“支恐国家”认定",
-          "url": "https://www.news.cn/20260825/aa4264105a1f4303b487a640e7483d65/c.html",
+          "url": "https://www.news.cn/world/20260825/a2961ea523db4344baa30bc6e99cc608/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
         {
-          "id": "cfa9fb578000b6",
+          "id": "a78bff8480b685",
           "source": "新华社",
-          "title": "美国财长：任何为伊朗洗钱的实体将被移出美元体系",
-          "url": "https://www.news.cn/20260825/ea2ffcf7c0b5462e8ee4cfc29edb5d84/c.html",
+          "title": "美媒：美政府计划吊销20万外国人商务和旅游签证",
+          "url": "https://www.news.cn/world/20260825/b483c7af0b434b6fb5fd3407479a932c/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
         {
-          "id": "1799df4918017f",
+          "id": "86789db84ce12e",
           "source": "新华社",
-          "title": "美国财长：特朗普正就停止与伊朗往来致电多方领导人",
-          "url": "https://www.news.cn/20260825/a7d3eee23f8a4c3f868bd477b967a563/c.html",
+          "title": "袭警 酒驾 走私毒品 驻日美军恶行连发",
+          "url": "https://www.news.cn/world/20260825/5950eef0ffcf4b6ba8400df6e610cf11/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c3d0634710355e",
+          "source": "新华社",
+          "title": "野火与干旱致欧洲一战二战未爆弹药频现",
+          "url": "https://www.news.cn/20260825/ed596cfc12a44da5b8e55472d13fbccc/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0cd324b4b0147b",
+          "source": "新华社",
+          "title": "驻日美军恶行连发：袭警、酒驾、走私毒品",
+          "url": "https://www.news.cn/20260825/e16aa170f7ee4e20b74af937eecc7252/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2247d2c28049bc",
+          "source": "求是",
+          "title": "以树立和践行正确政绩观新成效开创中国式现代化新局面",
+          "url": "https://www.qstheory.cn/20260825/d72077815de543af8e0bf40ed51a8647/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         }
@@ -87802,65 +87930,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 13.0,
+          "duration": 10.9,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260825.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.6
+          "duration": 1.9
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 17,
-          "duration": 4.9
+          "count": 25,
+          "duration": 2.8
         },
         {
           "source": "半月谈",
           "status": "ok",
-          "count": 0,
-          "duration": 18.8
+          "count": 4,
+          "duration": 17.2
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 6.6
+          "count": 4,
+          "duration": 6.4
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 20,
-          "duration": 2.0
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.0
+          "duration": 12.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.4
+          "duration": 2.6
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 10.2
+          "duration": 8.1
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 56.0
+          "duration": 54.8
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-25T07:26:25+08:00"
+  "generatedAt": "2026-08-25T08:55:30+08:00"
 }
