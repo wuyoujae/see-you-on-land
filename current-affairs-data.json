@@ -89633,7 +89633,7 @@
         {
           "id": "0ce7e0da820c20",
           "source": "光明日报",
-          "title": "重庆酉阳:避暑游富了农家",
+          "title": "重庆酉阳：避暑游富了农家",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/26/content_23358.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
@@ -89695,10 +89695,26 @@
           "keyword": "综合时政"
         },
         {
+          "id": "da03dad7b29eda",
+          "source": "新华社",
+          "title": "对中东地缘冲突担忧缓解 国际油价显著下跌",
+          "url": "https://www.news.cn/world/20260826/8d3855943a8b4bf0b871f89a943c5d58/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
           "id": "ac07c6183f99f1",
           "source": "新华社",
           "title": "德国调查人员发现莱比锡机场事件第三架涉事无人机",
           "url": "https://www.news.cn/20260826/abff405ba2ae431f92583fcf312cac41/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eb0abb00835348",
+          "source": "新华社",
+          "title": "美媒：鲁比奥称美国暂不会对伊朗发动新打击",
+          "url": "https://www.news.cn/world/20260826/7bf03d63426c4866a8705b2457893514/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         }
@@ -89708,65 +89724,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 6.9,
+          "duration": 7.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260826.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 28,
-          "duration": 1.7
+          "duration": 1.6
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 8,
-          "duration": 2.2
+          "count": 10,
+          "duration": 6.1
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 14.9
+          "duration": 11.0
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.4
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 1.3
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.4
+          "duration": 12.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.0
+          "duration": 2.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 7.5
+          "duration": 9.1
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 54.0
+          "duration": 45.2
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-26T06:34:24+08:00"
+  "generatedAt": "2026-08-26T07:28:35+08:00"
 }
