@@ -87280,7 +87280,7 @@
         },
         {
           "name": "经济",
-          "count": 11
+          "count": 10
         },
         {
           "name": "机器人",
@@ -87349,10 +87349,10 @@
           "keyword": "习近平"
         },
         {
-          "id": "820a9969d00c39",
+          "id": "b2231f521779a7",
           "source": "半月谈",
           "title": "习近平同约旦国王阿卜杜拉二世会谈",
-          "url": "http://www.banyuetan.org/jrt/detail/20260825/1000200033134991787621906736395115_1.html",
+          "url": "http://www.banyuetan.org/yw/detail/20260825/1000200033137441787618791001390293_1.html",
           "date": "2026-08-25",
           "keyword": "习近平"
         },
@@ -87449,14 +87449,6 @@
           "source": "新华社",
           "title": "从计划执行报告看下半年经济工作重点",
           "url": "https://www.news.cn/politics/20260825/b2b6034456a247b29e3829fe588d4760/c.html",
-          "date": "2026-08-25",
-          "keyword": "经济"
-        },
-        {
-          "id": "aedb6e9f9fbfaf",
-          "source": "新华社",
-          "title": "经合组织：七国集团二季度经济增速放缓至0.3%",
-          "url": "https://www.news.cn/20260825/a1c2772a9556400c9cf59111270d6b3c/c.html",
           "date": "2026-08-25",
           "keyword": "经济"
         },
@@ -88645,18 +88637,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "b58f28ee8ec745",
+          "id": "4bcc5f372243e4",
           "source": "新华社",
-          "title": "俄方：在乌克兰部署北约军队不可接受",
-          "url": "https://www.news.cn/20260825/69445cf871354e0cb9684c2d2218654a/c.html",
+          "title": "俄媒称扎波罗热核电站工作人员因乌无人机袭击受伤",
+          "url": "https://www.news.cn/20260825/b76af33bfc204897abef8bfb4a94844c/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
         {
-          "id": "81f0498485b805",
+          "id": "b58f28ee8ec745",
           "source": "新华社",
-          "title": "俄远东天然气化工项目火灾致1人死亡",
-          "url": "https://www.news.cn/20260825/ea13187902a94aba99d615fcc154d233/c.html",
+          "title": "俄方：在乌克兰部署北约军队不可接受",
+          "url": "https://www.news.cn/20260825/69445cf871354e0cb9684c2d2218654a/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88685,18 +88677,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "08c33a47179fbd",
-          "source": "新华社",
-          "title": "内蒙古兴和县一车辆落水 已致4死1失联",
-          "url": "https://www.news.cn/20260825/193533480d5c4382bc58b12689b6650d/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
           "id": "7eb7478966ce7a",
           "source": "新华社",
           "title": "刘国中出席APEC粮食安全部长级会议开幕式并致辞",
           "url": "https://www.news.cn/politics/leaders/20260825/5da3988240f14651a324337364fba2db/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6504741d2d3d1d",
+          "source": "新华社",
+          "title": "加拿大宣布对美国实施报复性关税",
+          "url": "https://www.news.cn/20260825/0f88bfaa45bc4620b2100abcc8fac912/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88797,6 +88789,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "0a944dc547907b",
+          "source": "新华社",
+          "title": "新华社评论员：树立和践行正确政绩观是一项长期任务",
+          "url": "https://www.news.cn/politics/20260825/505fa7534c374b60b6439db4a66c3976/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a0c47de0a32d17",
           "source": "新华社",
           "title": "新华访谈丨四个台风陆续来了，对我国有何影响？",
@@ -88821,14 +88821,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "8d89609bdfd620",
-          "source": "新华社",
-          "title": "民调：伊朗战事拖累特朗普支持率创新低",
-          "url": "https://www.news.cn/world/20260825/c0e6829731104c68b5fac2c946a2fadc/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
           "id": "a783f2784ed0a6",
           "source": "新华社",
           "title": "消息人士：伊朗希望通过巴基斯坦向美方转达谈判条件",
@@ -88841,6 +88833,14 @@
           "source": "新华社",
           "title": "深刻理解天下为公、天下大同的社会理想",
           "url": "https://www.news.cn/politics/leaders/20260825/71ae943fe9c84f4cb399d61d0275afb1/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8b7442fb93a0bd",
+          "source": "新华社",
+          "title": "特朗普：对伊朗在霍尔木兹海峡布雷“零容忍”",
+          "url": "https://www.news.cn/world/20260825/f6cdc8c623a5409c85dfb424899e3743/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88865,14 +88865,6 @@
           "source": "新华社",
           "title": "第二届GIS全球创新峰会在香港开幕",
           "url": "https://www.news.cn/20260825/d180c21ea12742fcb1b6e45d8cd99d87/c.html",
-          "date": "2026-08-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "ab8e189ffa222e",
-          "source": "新华社",
-          "title": "美对伊朗武装力量高级官员发布悬赏",
-          "url": "https://www.news.cn/world/20260825/f2c69a5bd2ee43d28b73543e0ca5ca82/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -88913,6 +88905,14 @@
           "source": "新华社",
           "title": "这场运动会，也是一堂“随堂考”",
           "url": "https://www.news.cn/20260825/88551c00459e4ef49bdf016a76871002/c.html",
+          "date": "2026-08-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1854afee6e5e62",
+          "source": "新华社",
+          "title": "这颗刻着中学生名字的科普卫星，升空了",
+          "url": "https://www.news.cn/tech/20260825/0f3886788c8e42d4ba164c10d719f32b/c.html",
           "date": "2026-08-25",
           "keyword": "综合时政"
         },
@@ -89162,64 +89162,64 @@
           "source": "新闻联播",
           "status": "ok",
           "count": 16,
-          "duration": 0.6
+          "duration": 0.4
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 5.5
+          "duration": 2.2
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 7.4
+          "duration": 3.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 18,
-          "duration": 17.1
+          "duration": 21.6
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 16,
-          "duration": 6.0
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 20,
-          "duration": 2.0
+          "duration": 5.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.4
+          "duration": 12.8
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 3.6
+          "duration": 2.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 3,
-          "duration": 10.3
+          "duration": 8.5
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 12,
-          "duration": 68.4
+          "duration": 100.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-25T22:40:00+08:00"
+  "generatedAt": "2026-08-25T23:38:50+08:00"
 }
