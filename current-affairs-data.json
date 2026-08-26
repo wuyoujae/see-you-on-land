@@ -89234,18 +89234,18 @@
         },
         {
           "name": "经济",
-          "count": 8
+          "count": 7
         },
         {
           "name": "教育",
           "count": 4
         },
         {
-          "name": "消费",
-          "count": 4
+          "name": "高质量发展",
+          "count": 3
         },
         {
-          "name": "高质量发展",
+          "name": "消费",
           "count": 3
         },
         {
@@ -89387,14 +89387,6 @@
           "keyword": "十五五"
         },
         {
-          "id": "b742c758cc1e4c",
-          "source": "学习强国",
-          "title": "以政策发力提效推动经济持续向新向优向好",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=16106030018107448746&item_id=16106030018107448746",
-          "date": "2026-08-26",
-          "keyword": "经济"
-        },
-        {
           "id": "8df835fc81ccb3",
           "source": "学习强国",
           "title": "努力实现“十五五”良好开局——从计划执行报告看下半年经济工作重点",
@@ -89409,6 +89401,30 @@
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=3994712084550193250&item_id=3994712084550193250",
           "date": "2026-08-26",
           "keyword": "十五五"
+        },
+        {
+          "id": "6d6a56757544ea",
+          "source": "新闻联播",
+          "title": "【“十五五”开好局起好步】融合升级 新型工业化提速",
+          "url": "https://tv.cctv.com/2026/08/26/VIDEq95IRTceC92CX2lpY6mg260826.shtml",
+          "date": "2026-08-26",
+          "keyword": "十五五"
+        },
+        {
+          "id": "dcf10efc184068",
+          "source": "求是",
+          "title": "努力实现“十五五”良好开局",
+          "url": "https://www.qstheory.cn/20260826/e98ca15dbd234e9b8db342f9a3fc4624/c.html",
+          "date": "2026-08-26",
+          "keyword": "十五五"
+        },
+        {
+          "id": "b742c758cc1e4c",
+          "source": "学习强国",
+          "title": "以政策发力提效推动经济持续向新向优向好",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=16106030018107448746&item_id=16106030018107448746",
+          "date": "2026-08-26",
+          "keyword": "经济"
         },
         {
           "id": "b0c996a765ae41",
@@ -89435,44 +89451,12 @@
           "keyword": "经济"
         },
         {
-          "id": "5177f380e0701b",
-          "source": "新华社",
-          "title": "伊朗总统：美国新一轮对伊经济制裁将一无所获",
-          "url": "https://www.news.cn/20260826/1ca0552283e24c44a1020ed10ae367e2/c.html",
-          "date": "2026-08-26",
-          "keyword": "经济"
-        },
-        {
-          "id": "6d6a56757544ea",
-          "source": "新闻联播",
-          "title": "【“十五五”开好局起好步】融合升级 新型工业化提速",
-          "url": "https://tv.cctv.com/2026/08/26/VIDEq95IRTceC92CX2lpY6mg260826.shtml",
-          "date": "2026-08-26",
-          "keyword": "十五五"
-        },
-        {
-          "id": "dcf10efc184068",
-          "source": "求是",
-          "title": "努力实现“十五五”良好开局",
-          "url": "https://www.qstheory.cn/20260826/e98ca15dbd234e9b8db342f9a3fc4624/c.html",
-          "date": "2026-08-26",
-          "keyword": "十五五"
-        },
-        {
           "id": "e8f4262c6375f9",
           "source": "人民日报",
           "title": "久久为功，不断巩固拓展学习教育成果",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/26/content_30177110.html",
           "date": "2026-08-26",
           "keyword": "教育"
-        },
-        {
-          "id": "24c4f5fca413ce",
-          "source": "学习强国",
-          "title": "勿使“空枪跳表”侵蚀消费信任",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=13298164374627919878&item_id=13298164374627919878",
-          "date": "2026-08-26",
-          "keyword": "消费"
         },
         {
           "id": "d5070ef7cc337c",
@@ -89489,22 +89473,6 @@
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=5815983070057715583&item_id=5815983070057715583",
           "date": "2026-08-26",
           "keyword": "教育"
-        },
-        {
-          "id": "cab4e2db306479",
-          "source": "学习强国",
-          "title": "金观平：系统布局扩内需促消费",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=4044327124259594535&item_id=4044327124259594535",
-          "date": "2026-08-26",
-          "keyword": "消费"
-        },
-        {
-          "id": "66d4ff3e92961d",
-          "source": "新华社",
-          "title": "活力中国调研行丨山东乐陵：“影视+文旅”激活县域消费新活力",
-          "url": "https://www.news.cn/photo/20260826/be54aa7b9a294e9aa6b631ff7f34319c/c.html",
-          "date": "2026-08-26",
-          "keyword": "消费"
         },
         {
           "id": "ccdf4bc1f41df0",
@@ -89529,6 +89497,22 @@
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=42217246314545691&item_id=42217246314545691",
           "date": "2026-08-26",
           "keyword": "高质量发展"
+        },
+        {
+          "id": "cab4e2db306479",
+          "source": "学习强国",
+          "title": "金观平：系统布局扩内需促消费",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=4044327124259594535&item_id=4044327124259594535",
+          "date": "2026-08-26",
+          "keyword": "消费"
+        },
+        {
+          "id": "66d4ff3e92961d",
+          "source": "新华社",
+          "title": "活力中国调研行丨山东乐陵：“影视+文旅”激活县域消费新活力",
+          "url": "https://www.news.cn/photo/20260826/be54aa7b9a294e9aa6b631ff7f34319c/c.html",
+          "date": "2026-08-26",
+          "keyword": "消费"
         },
         {
           "id": "31b25515de325b",
@@ -89557,7 +89541,7 @@
         {
           "id": "b97493e7066d9f",
           "source": "新华社",
-          "title": "多方开展抢险救援救助工作",
+          "title": "多方开展抢险救援",
           "url": "https://www.news.cn/20260826/ae1b8e34e4c94c2cbe342f62367644ee/c.html",
           "date": "2026-08-26",
           "keyword": "抢险救援"
@@ -90331,6 +90315,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "aa19dfe990fbee",
+          "source": "学习强国",
+          "title": "李强在黑龙江、吉林调研",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=5557678598981363172&item_id=5557678598981363172",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
           "id": "52816e057ffe1d",
           "source": "学习强国",
           "title": "树立和践行正确政绩观是一项长期任务",
@@ -90531,26 +90523,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "8374020cd8e09a",
-          "source": "新华社",
-          "title": "2026年全国科普月促进国际科普合作",
-          "url": "https://www.news.cn/20260826/cba0b533b3ff4ea7b3d30d23be326a9e/c.html",
-          "date": "2026-08-26",
-          "keyword": "综合时政"
-        },
-        {
           "id": "49b14309c0954a",
           "source": "新华社",
           "title": "“冰丝带”里的“速度与激情”",
           "url": "https://www.news.cn/tech/20260826/2c6f8d1762aa405ebb20048cd0a23912/c.html",
-          "date": "2026-08-26",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "329b25c30917d0",
-          "source": "新华社",
-          "title": "“吃冰”热度持续攀升 一杯冰为何卖得比水还贵？",
-          "url": "https://www.news.cn/fortune/20260826/258edc05b68147af83d82c4e366a0403/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
@@ -90579,6 +90555,22 @@
           "keyword": "综合时政"
         },
         {
+          "id": "71fb1172a6c42e",
+          "source": "新华社",
+          "title": "“首单首飞”落地 琴澳一体化建设重大项目迈出坚实步伐",
+          "url": "https://www.news.cn/20260826/198baa88447c4aa087a9a78c2e849e8d/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "441e6c07d1a3de",
+          "source": "新华社",
+          "title": "“首单首飞”落地 琴澳一体化建设项目迈出坚实步伐",
+          "url": "https://www.news.cn/gangao/20260826/58bb2601eed34a9188d7b9755d7f2ac6/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
           "id": "bf3b0400e718b8",
           "source": "新华社",
           "title": "丁薛祥在安徽合肥出席财政科学管理试点座谈会",
@@ -90587,26 +90579,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "f7173003c1c41d",
+          "id": "bb6deea542dc49",
           "source": "新华社",
-          "title": "万水千山只等闲之强渡乌江——长征中的军事地理解读之三",
-          "url": "https://www.news.cn/politics/20260826/b1a1cc6b00b745a1b528bdb4b08d7873/c.html",
-          "date": "2026-08-26",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "ed0ecb5fcb925d",
-          "source": "新华社",
-          "title": "两部门拨付1.2亿元救灾资金",
-          "url": "https://www.news.cn/politics/20260826/f5f09be9afda4ec8b1a1580c0c82ccc7/c.html",
-          "date": "2026-08-26",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "99eebe31d53f45",
-          "source": "新华社",
-          "title": "两部门规范医疗机构特医食品使用",
-          "url": "https://www.news.cn/politics/20260826/4100685580784b79bec3efd753012039/c.html",
+          "title": "中国制造业这样争“先”",
+          "url": "https://www.news.cn/politics/20260826/89e923e129a440da8c52b943fd80604a/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
@@ -90619,10 +90595,34 @@
           "keyword": "综合时政"
         },
         {
-          "id": "6e36b9fc53b53d",
+          "id": "329f7fe4bda36b",
           "source": "新华社",
-          "title": "人民子弟兵投入西藏日喀则市吉隆县泥石流灾害救援",
-          "url": "https://www.news.cn/20260826/ec4bd41303264c8c8b161794954da215/c.html",
+          "title": "中国气象局启动二级重大气象灾害应急响应",
+          "url": "https://www.news.cn/politics/20260826/48f8732610ee4b909a666e83475faac7/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d58e0d1b85fd1f",
+          "source": "新华社",
+          "title": "中央农办等部署持续推动农村高额彩礼整治提质增效",
+          "url": "https://www.news.cn/politics/20260826/b8a29e5e714048d38dfae9c7e096f0e0/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9084e0b406fe7a",
+          "source": "新华社",
+          "title": "亚美尼亚前总统萨尔基相被禁止出境",
+          "url": "https://www.news.cn/20260826/f908f154d08f48f0bc6f15e92c150563/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7b66dad332e802",
+          "source": "新华社",
+          "title": "人工智能如何打开发展新空间",
+          "url": "https://www.news.cn/20260826/5b2dcccd8db9406ab9f766cd24fe9744/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
@@ -90643,6 +90643,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "e2e812c1511e2f",
+          "source": "新华社",
+          "title": "从预算执行报告看更加积极的财政政策精准发力",
+          "url": "https://www.news.cn/politics/20260826/f9bd8e27c5ac40299f236c570a98abcb/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
           "id": "c9571a141526f1",
           "source": "新华社",
           "title": "伊朗称与阿曼就霍尔木兹海峡收益分配达成协议",
@@ -90659,10 +90667,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "d1026bf887c801",
+          "id": "f890ac932e6ea7",
           "source": "新华社",
-          "title": "内塔尼亚胡宣称美伊“不可能”达成外交协议",
-          "url": "https://www.news.cn/20260826/16ca6e255d6f4afdae2bd7e59df61d32/c.html",
+          "title": "内蒙古满洲里：百年口岸通关忙",
+          "url": "https://www.news.cn/photo/20260826/a48922a112f9479e8cb11526bb545ad8/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
@@ -90707,18 +90715,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "88d16755c8ccf2",
+          "id": "3b1bdfa26cd8d3",
           "source": "新华社",
-          "title": "安徽合肥：具身智能开启商业服务场景",
-          "url": "https://www.news.cn/photo/20260826/859ee99a81d0413f8486416ffb60d82c/c.html",
+          "title": "基础电信企业着力保障西藏吉隆泥石流灾害通信生命线",
+          "url": "https://www.news.cn/20260826/9620ef597a0e4ce296b419505ae3c1c3/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
         {
-          "id": "112584daab6175",
+          "id": "88d16755c8ccf2",
           "source": "新华社",
-          "title": "尼泊尔旅游机构说山洪致384名游客失联",
-          "url": "https://www.news.cn/20260826/a119bfc9756344a7a71ce8abf8a1327d/c.html",
+          "title": "安徽合肥：具身智能开启商业服务场景",
+          "url": "https://www.news.cn/photo/20260826/859ee99a81d0413f8486416ffb60d82c/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
@@ -90739,18 +90747,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "644cdb5db7a9be",
+          "id": "6d146bc7662534",
           "source": "新华社",
-          "title": "应急管理部针对西藏启动国家地质灾害二级应急响应",
-          "url": "https://www.news.cn/20260826/eeaa652e09b049babe4a6ac1e1264a18/c.html",
+          "title": "希腊将从意大利采购两艘护卫舰",
+          "url": "https://www.news.cn/20260826/c9af4dd4cd5c47429a3759fe64022b03/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
         {
-          "id": "7b66dad332e802",
+          "id": "ace0b289e50af1",
           "source": "新华社",
-          "title": "强基础、拓应用，人工智能如何打开发展新空间",
-          "url": "https://www.news.cn/20260826/5b2dcccd8db9406ab9f766cd24fe9744/c.html",
+          "title": "广西宁明：抗洪进入第五天 水位回落 失联乡镇重新取得联系",
+          "url": "https://www.news.cn/20260826/a4a24776aa024ce4a66b94d902cdd12a/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "644cdb5db7a9be",
+          "source": "新华社",
+          "title": "应急管理部针对西藏启动国家地质灾害二级应急响应",
+          "url": "https://www.news.cn/20260826/eeaa652e09b049babe4a6ac1e1264a18/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
@@ -90803,14 +90819,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "b9041bcb6bb026",
-          "source": "新华社",
-          "title": "普京与叙利亚过渡政府总统沙拉通电话",
-          "url": "https://www.news.cn/20260826/1e49313876dd4165bd8bf76e0164e638/c.html",
-          "date": "2026-08-26",
-          "keyword": "综合时政"
-        },
-        {
           "id": "023ebcdc52f848",
           "source": "新华社",
           "title": "李家超：将于9月16日公布香港首份五年规划并发表2026年施政报告",
@@ -90823,6 +90831,22 @@
           "source": "新华社",
           "title": "李强在黑龙江、吉林调研",
           "url": "https://www.news.cn/politics/leaders/20260826/955417cccc3948bab9bf6c9fe6b4416a/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "67b5c456cc9f69",
+          "source": "新华社",
+          "title": "树立和践行正确政绩观丨贵阳：为民生服务插上“数字翅膀”",
+          "url": "https://www.news.cn/photo/20260826/fc8ce458ef1449cdae12da23fc16fca4/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ab2fd1a7b0963c",
+          "source": "新华社",
+          "title": "水利部部署西藏吉隆泥石流灾害应急处置工作",
+          "url": "https://www.news.cn/20260826/51d6258a330c4f4ea7bd22c62b833a39/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
@@ -90875,14 +90899,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "28bbdb7b452188",
-          "source": "新华社",
-          "title": "琼粤沿海台风登陆地区见闻",
-          "url": "https://www.news.cn/20260826/7308297df8964dcc8f708e0c9246b1bc/c.html",
-          "date": "2026-08-26",
-          "keyword": "综合时政"
-        },
-        {
           "id": "6238ddfd109aac",
           "source": "新华社",
           "title": "甘浙特高压长江大跨越输电塔封顶",
@@ -90891,34 +90907,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "894a7444f7c82a",
+          "id": "e120e3d98ccba6",
           "source": "新华社",
-          "title": "甘肃局地再迎暴雨 与前期降水落区叠加",
-          "url": "https://www.news.cn/20260826/76b9484e488a48138e2408ef7e712280/c.html",
-          "date": "2026-08-26",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "6ff69b9392c570",
-          "source": "新华社",
-          "title": "美丽中国丨早秋美景入画来",
-          "url": "https://www.news.cn/politics/20260826/15c54b8810da4136b83dd9ac273329dc/c.html",
-          "date": "2026-08-26",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "e75de322ab7d88",
-          "source": "新华社",
-          "title": "美国驻中东多国外交人员将陆续返岗",
-          "url": "https://www.news.cn/world/20260826/153be4d29ac44eb8b30ae9cccdf4dc5d/c.html",
-          "date": "2026-08-26",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "910d9efb0ccbfe",
-          "source": "新华社",
-          "title": "自然资源部对西藏启动地质灾害防御Ⅱ级响应",
-          "url": "https://www.news.cn/20260826/4ab581fd9e494cd9b341eeb64426ea77/c.html",
+          "title": "西藏启动自然灾害一级救助应急响应",
+          "url": "https://www.news.cn/20260826/be0019ac91144658b93ca1db33452669/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
@@ -90927,6 +90919,14 @@
           "source": "新华社",
           "title": "西藏多方力量赶赴吉隆口岸救援",
           "url": "https://www.news.cn/20260826/9b9c3faea12240b288dca79dcacf09c8/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "291b52558840e3",
+          "source": "新华社",
+          "title": "西藏财政金融及时助力自然灾害救灾资金拨付使用",
+          "url": "https://www.news.cn/20260826/08164d4860314d2b88efd2617f3608c9/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
@@ -90947,10 +90947,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "6fefd9bd5c3c2e",
+          "id": "d8c662de968680",
           "source": "新华社",
-          "title": "首批电力应急抢险力量已抵达西藏吉隆口岸",
-          "url": "https://www.news.cn/20260826/908c979870114cfc9b1b03739e698a46/c.html",
+          "title": "韩国国产自杀式无人机海上试飞失败",
+          "url": "https://www.news.cn/20260826/f5f71743a58642118352adec2d3a375a/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
@@ -91184,64 +91184,64 @@
           "source": "新闻联播",
           "status": "ok",
           "count": 18,
-          "duration": 0.3
+          "duration": 1.0
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 28,
-          "duration": 3.7
+          "duration": 3.5
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.3
+          "duration": 2.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 18,
-          "duration": 22.9
+          "duration": 18.6
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 17,
-          "duration": 6.6
+          "duration": 6.4
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 2.0
+          "duration": 1.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.0
+          "duration": 12.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 60,
-          "duration": 2.9
+          "duration": 2.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 7,
-          "duration": 11.2
+          "duration": 10.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 9,
-          "duration": 67.4
+          "duration": 49.2
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-26T21:51:00+08:00"
+  "generatedAt": "2026-08-26T22:39:08+08:00"
 }
