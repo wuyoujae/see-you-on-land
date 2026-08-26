@@ -89222,10 +89222,10 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-08-26",
-      "keyword": "十五五",
+      "keyword": "人工智能",
       "keywords": [
         {
-          "name": "十五五",
+          "name": "人工智能",
           "count": 3
         },
         {
@@ -89237,11 +89237,11 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 3
         },
         {
-          "name": "人工智能",
+          "name": "国家安全",
           "count": 2
         },
         {
-          "name": "国家安全",
+          "name": "十五五",
           "count": 2
         }
       ],
@@ -89260,7 +89260,7 @@ window.CURRENT_AFFAIRS_DATA = {
           "title": "努力实现“十五五”良好开局——从计划执行报告看下半年经济工作重点",
           "url": "http://www.banyuetan.org/yw/detail/20260826/1000200033137441787706297572407476_1.html",
           "date": "2026-08-26",
-          "keyword": "十五五"
+          "keyword": "经济"
         },
         {
           "id": "e256210364f7a9",
@@ -89271,12 +89271,12 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
-          "id": "20b4ca5b00cfaa",
+          "id": "e2b3292cd734e2",
           "source": "新华社",
-          "title": "“十五五”我国将促进6G产业成熟和生态构建",
-          "url": "https://www.news.cn/politics/20260826/141c8046b13741f886d2e306c8b126f5/c.html",
+          "title": "IMF总裁：人工智能未来影响仍是“重大未知数”",
+          "url": "https://www.news.cn/world/20260826/7b91b138ac5c4174b0390ddf1b3f6e17/c.html",
           "date": "2026-08-26",
-          "keyword": "十五五"
+          "keyword": "人工智能"
         },
         {
           "id": "9a42c2a32400d6",
@@ -89287,6 +89287,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
+          "id": "c24096c3e028db",
+          "source": "新华社",
+          "title": "我国已成功研制近200项人工智能关键标准",
+          "url": "https://www.news.cn/politics/20260826/11d728254adc42aa92d4232068dd5935/c.html",
+          "date": "2026-08-26",
+          "keyword": "人工智能"
+        },
+        {
           "id": "177b9eb8ea0180",
           "source": "新华社",
           "title": "李坤说教育丨低龄孩子写作启蒙，家长该怎么做？",
@@ -89295,20 +89303,20 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "教育"
         },
         {
+          "id": "00ce4855f14cc9",
+          "source": "求是",
+          "title": "中国引领人工智能全球治理的三重路径",
+          "url": "https://www.qstheory.cn/20260826/f8e14838e2b342e19426b40b5b40f84d/c.html",
+          "date": "2026-08-26",
+          "keyword": "人工智能"
+        },
+        {
           "id": "ccdf4bc1f41df0",
           "source": "求是",
           "title": "久久为功，不断巩固拓展学习教育成果",
           "url": "https://www.qstheory.cn/20260826/09f49d8cddc444c89b02bebff563b271/c.html",
           "date": "2026-08-26",
           "keyword": "教育"
-        },
-        {
-          "id": "dcf10efc184068",
-          "source": "求是",
-          "title": "努力实现“十五五”良好开局",
-          "url": "https://www.qstheory.cn/20260826/e98ca15dbd234e9b8db342f9a3fc4624/c.html",
-          "date": "2026-08-26",
-          "keyword": "十五五"
         },
         {
           "id": "ccf6938ce69ed2",
@@ -89327,20 +89335,12 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "国家安全"
         },
         {
-          "id": "c24096c3e028db",
-          "source": "新华社",
-          "title": "我国已成功研制近200项人工智能关键标准",
-          "url": "https://www.news.cn/politics/20260826/11d728254adc42aa92d4232068dd5935/c.html",
-          "date": "2026-08-26",
-          "keyword": "人工智能"
-        },
-        {
-          "id": "00ce4855f14cc9",
+          "id": "dcf10efc184068",
           "source": "求是",
-          "title": "中国引领人工智能全球治理的三重路径",
-          "url": "https://www.qstheory.cn/20260826/f8e14838e2b342e19426b40b5b40f84d/c.html",
+          "title": "努力实现“十五五”良好开局",
+          "url": "https://www.qstheory.cn/20260826/e98ca15dbd234e9b8db342f9a3fc4624/c.html",
           "date": "2026-08-26",
-          "keyword": "人工智能"
+          "keyword": "十五五"
         },
         {
           "id": "05df27bdff2c86",
@@ -89983,14 +89983,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "1681d3c57a23f3",
-          "source": "新华社",
-          "title": "16条举措落地让办税缴费更便利",
-          "url": "https://www.news.cn/government/20260826/12c010fde6854423a050cc76fb16319b/c.html",
-          "date": "2026-08-26",
-          "keyword": "综合时政"
-        },
-        {
           "id": "5a1716e50bd039",
           "source": "新华社",
           "title": "1至7月我国全行业对外直接投资同比增长2.8%",
@@ -90019,14 +90011,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "“沙德尔”向浙闽沿海靠近",
           "url": "https://www.news.cn/politics/20260826/7a63bde6cec44699bf6707fa9f4bfd69/c.html",
-          "date": "2026-08-26",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "f59082c0d81404",
-          "source": "新华社",
-          "title": "【文明中国·看江苏】“花”开宜兴",
-          "url": "https://www.news.cn/government/20260826/d3fcfc66bd5d4849bcc581e78d4acc47/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
@@ -90087,26 +90071,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "b220d01eb32f9a",
-          "source": "新华社",
-          "title": "京疆联合创排歌舞剧《幸福的金火车》展现文化润疆丰硕成果",
-          "url": "https://www.news.cn/culture/20260826/c786e53c76734cfdac2696fbce020fd5/c.html?page=1",
-          "date": "2026-08-26",
-          "keyword": "综合时政"
-        },
-        {
           "id": "9fd4e51129df2e",
           "source": "新华社",
           "title": "人民币市场汇价（8月26日）",
           "url": "https://www.news.cn/20260826/e5b381b744a64ea4b70f08dc9e0fb56e/c.html",
-          "date": "2026-08-26",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "14df91e289b789",
-          "source": "新华社",
-          "title": "以文兴业 看文化产品和服务提质“成绩单”",
-          "url": "https://www.news.cn/culture/20260826/6f8df92acf0340438073efaf5b53b4fc/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
@@ -90175,6 +90143,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "1631ab97ac9a34",
+          "source": "新华社",
+          "title": "南非总统：外部势力或参与煽动该国反移民暴力",
+          "url": "https://www.news.cn/world/20260826/8114415bb2654e698feaddd91e530590/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
           "id": "f7804cde2360fb",
           "source": "新华社",
           "title": "叙武装组织“叙利亚民主力量”宣布解散",
@@ -90187,6 +90163,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "台风“紫檀”二次登陆",
           "url": "https://www.news.cn/local/20260826/8199da4cb75c46ef87e4d10e43d71512/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a9e1d36887ae43",
+          "source": "新华社",
+          "title": "台风“紫檀”在广东吴川沿海再次登陆",
+          "url": "https://www.news.cn/politics/20260826/5b8d7cf5a66c4e2abafa70fa8f3293ab/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
@@ -90239,6 +90223,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "feb4640cfb0ad1",
+          "source": "新华社",
+          "title": "国家医保局：长期护理保险支付管理将统一规范",
+          "url": "https://www.news.cn/20260826/c10dc262d900477faa8d69d3510e65c9/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
           "id": "af69bca4f8bbb3",
           "source": "新华社",
           "title": "国家数据局：规范开展公共数据授权运营",
@@ -90271,18 +90263,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "dd697030d760f4",
-          "source": "新华社",
-          "title": "定制AI婚纱照 新人有了新选择",
-          "url": "https://www.news.cn/fashion/20260826/8ede8aebff414f109fb029a60a8f7c1b/c.html",
-          "date": "2026-08-26",
-          "keyword": "综合时政"
-        },
-        {
           "id": "da11ea942db3de",
           "source": "新华社",
           "title": "山东港口青岛港前7个月货物吞吐量超4.4亿吨",
           "url": "https://www.news.cn/photo/20260826/8023192d101f4987898cab9d8631e1ac/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d2a61588e4713c",
+          "source": "新华社",
+          "title": "工信部将组织实施传统产业焕新行动",
+          "url": "https://www.news.cn/politics/20260826/04940c5545c94906a8bb98b40dccacc4/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "915db4d9851687",
+          "source": "新华社",
+          "title": "巴基斯坦首都一医院火灾致14名婴儿死亡",
+          "url": "https://www.news.cn/world/20260826/98e91d9ef11447c2b25581067215db81/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "58b227f161903f",
+          "source": "新华社",
+          "title": "张靖皋长江大桥南航道桥南锚碇主体工程完工",
+          "url": "https://www.news.cn/politics/20260826/3c65eb0aae544ba9b45e40068ff1e23c/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
@@ -90355,14 +90363,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "秀我中国丨专访《欢迎来龙餐馆》“老扎”扮演者",
           "url": "https://www.news.cn/politics/20260826/56e6df9d50c34695aec6b19e5daa0317/c.html",
-          "date": "2026-08-26",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "e5a7d35b83cc19",
-          "source": "新华社",
-          "title": "第五批公共数据“跑起来”示范场景公布",
-          "url": "https://www.news.cn/tech/20260826/fd8fe2cac6014ff897d60b0a3a940deb/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
@@ -90524,65 +90524,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 13.1,
+          "duration": 8.0,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260826.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 28,
-          "duration": 1.9
+          "duration": 2.9
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.3
+          "duration": 3.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 17,
-          "duration": 15.9
+          "duration": 13.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 14,
-          "duration": 7.5
+          "duration": 6.4
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 23,
-          "duration": 1.6
+          "duration": 2.3
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.2
+          "duration": 14.0
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 17,
-          "duration": 3.2
+          "duration": 3.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 11.1
+          "duration": 7.7
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 54.5
+          "duration": 60.8
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-26T11:49:58+08:00"
+  "generatedAt": "2026-08-26T12:34:58+08:00"
 };
