@@ -89227,9 +89227,21 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "name": "国家安全",
           "count": 2
+        },
+        {
+          "name": "教育",
+          "count": 2
         }
       ],
       "articles": [
+        {
+          "id": "e8f4262c6375f9",
+          "source": "人民日报",
+          "title": "久久为功，不断巩固拓展学习教育成果",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/26/content_30177110.html",
+          "date": "2026-08-26",
+          "keyword": "教育"
+        },
         {
           "id": "ccf6938ce69ed2",
           "source": "人民日报",
@@ -89245,6 +89257,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://epaper.gmw.cn/gmrb/html/content/202608/26/content_23362.html",
           "date": "2026-08-26",
           "keyword": "国家安全"
+        },
+        {
+          "id": "ccdf4bc1f41df0",
+          "source": "求是",
+          "title": "久久为功，不断巩固拓展学习教育成果",
+          "url": "https://www.qstheory.cn/20260826/09f49d8cddc444c89b02bebff563b271/c.html",
+          "date": "2026-08-26",
+          "keyword": "教育"
         },
         {
           "id": "05df27bdff2c86",
@@ -89363,14 +89383,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "中印边界问题特别代表在北京举行会晤",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202608/26/content_30177066.html",
-          "date": "2026-08-26",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "e8f4262c6375f9",
-          "source": "人民日报",
-          "title": "久久为功，不断巩固拓展学习教育成果",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202608/26/content_30177110.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
@@ -89639,18 +89651,58 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "6bceb03d2f8181",
+          "id": "038cb584f9ffc7",
           "source": "新华社",
           "title": "“叙利亚民主力量”宣布解散",
-          "url": "https://www.news.cn/20260826/d44e385fcb8e4837bbceff6d3a51df3d/c.html",
+          "url": "https://www.news.cn/world/20260826/f31d276c80a1410d86cd1e70a172c63a/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
         {
-          "id": "d024077be79de7",
+          "id": "34223bb96c47ac",
+          "source": "新华社",
+          "title": "“沙德尔”向浙闽沿海靠近",
+          "url": "https://www.news.cn/politics/20260826/7a63bde6cec44699bf6707fa9f4bfd69/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "39562cd05a6986",
+          "source": "新华社",
+          "title": "中印边界问题特别代表在北京举行会晤",
+          "url": "https://www.news.cn/world/20260826/8f72eccdca4642539950b9367f01b160/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bd52e35db87d34",
+          "source": "新华社",
+          "title": "中国商业航天企业首次面向东南亚完成卫星研制、 发射 及在轨交付",
+          "url": "https://www.news.cn/tech/20260826/c07b064dca064ab0ad9ea298c163851d/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "922cff05393056",
           "source": "新华社",
           "title": "中方呼吁推动停火止战以保障粮食生产安全",
-          "url": "https://www.news.cn/20260826/eaa406889d894fd2a7e7504db8338868/c.html",
+          "url": "https://www.news.cn/world/20260826/b08cede6769443afb119843afc33db62/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "51085a226a1529",
+          "source": "新华社",
+          "title": "乌兹别克斯坦地方官员：中国技术助力产业转型升级",
+          "url": "https://www.news.cn/silkroad/20260826/dd555e120b6a432ebe85750ff71a282e/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ae9c641d728bdc",
+          "source": "新华社",
+          "title": "人民币国际使用推介会助推中毛金融互联互通",
+          "url": "https://www.news.cn/silkroad/20260826/f1f915bad01c4d569c34b05c01193b81/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
@@ -89663,41 +89715,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "1486ad12f7b48b",
+          "source": "新华社",
+          "title": "伊朗称海峡临时航线谅解达成",
+          "url": "https://www.news.cn/20260826/49972890bbb9414ea1ec465487979e4c/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ccb921d76c1de8",
+          "source": "新华社",
+          "title": "休达危机持续 西班牙推进移民和庇护制度改革",
+          "url": "https://www.news.cn/world/20260826/23013756480346f786deb1203530310a/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1c9bc67fc96fd1",
           "source": "新华社",
-          "title": "加拿大宣布对美加征等额反制关税 涉700多种商品",
+          "title": "加拿大对美实施报复性关税",
           "url": "https://www.news.cn/world/20260826/357ea28f3d7a4f4389e1587c90b01200/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
         {
-          "id": "67535ac885a24a",
+          "id": "1631ab97ac9a34",
+          "source": "新华社",
+          "title": "南非总统：外部势力或参与煽动该国反移民暴力",
+          "url": "https://www.news.cn/world/20260826/8114415bb2654e698feaddd91e530590/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f7804cde2360fb",
           "source": "新华社",
           "title": "叙武装组织“叙利亚民主力量”宣布解散",
-          "url": "https://www.news.cn/world/20260826/ae04cacc7a534b87af24987cff43bf33/c.html",
+          "url": "https://www.news.cn/20260826/17bd46d11c5c4713883909bccca7dddd/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9a42c2a32400d6",
+          "source": "新华社",
+          "title": "古巴谴责美国延长对古实施经济封锁",
+          "url": "https://www.news.cn/20260826/25850d00b6af4cc49648bf641d05efb6/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
         {
           "id": "82167c32fb4781",
           "source": "新华社",
-          "title": "台风“紫檀”在广东湛江徐闻二次登陆",
+          "title": "台风“紫檀”二次登陆",
           "url": "https://www.news.cn/local/20260826/8199da4cb75c46ef87e4d10e43d71512/c.html",
-          "date": "2026-08-26",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "2551f5f6a162b6",
-          "source": "新华社",
-          "title": "对中东地缘冲突担忧缓解 国际油价25日显著下跌",
-          "url": "https://www.news.cn/20260826/abd19f86ea4c423db1f50eab3818e790/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         },
         {
           "id": "da03dad7b29eda",
           "source": "新华社",
-          "title": "对中东地缘冲突担忧缓解 国际油价显著下跌",
+          "title": "国际油价显著下跌",
           "url": "https://www.news.cn/world/20260826/8d3855943a8b4bf0b871f89a943c5d58/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
@@ -89711,10 +89787,82 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "ffa3fa6ebd1528",
+          "source": "新华社",
+          "title": "柬埔寨湄公河流域遭遇洪灾",
+          "url": "https://www.news.cn/photo/20260826/21f613389d50453cb50a1ab83dd31273/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0f566b1d222a69",
+          "source": "新华社",
+          "title": "秀我中国丨专访《欢迎来龙餐馆》“老扎”扮演者",
+          "url": "https://www.news.cn/politics/20260826/56e6df9d50c34695aec6b19e5daa0317/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "810ee87c52a13f",
+          "source": "新华社",
+          "title": "美媒：特朗普已将美沙核协议提交国会审议",
+          "url": "https://www.news.cn/world/20260826/b98bdfc5a31f48688a0e9e9ce6ba978b/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
           "id": "eb0abb00835348",
           "source": "新华社",
           "title": "美媒：鲁比奥称美国暂不会对伊朗发动新打击",
           "url": "https://www.news.cn/world/20260826/7bf03d63426c4866a8705b2457893514/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a8af1974295d9b",
+          "source": "新华社",
+          "title": "这些地方有大到暴雨",
+          "url": "https://www.news.cn/politics/20260826/e92bd2e01d914bd79aadf52c0ae762d0/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2b67f673fd5b1f",
+          "source": "新华社",
+          "title": "道路交通安全法首次系统性“大修”",
+          "url": "https://www.news.cn/legal/20260826/8e8f4c9ef7c34f0fa6731ae5ee9be926/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "00ce4855f14cc9",
+          "source": "求是",
+          "title": "中国引领人工智能全球治理的三重路径",
+          "url": "https://www.qstheory.cn/20260826/f8e14838e2b342e19426b40b5b40f84d/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c0982de0f10aa5",
+          "source": "求是",
+          "title": "创造经得起实践、人民、历史检验的实绩",
+          "url": "https://www.qstheory.cn/20260826/590b76bddfbd41f49ec046571c4ab622/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b12d09fa32a56c",
+          "source": "求是",
+          "title": "始终以正确政绩观担当作为、履职尽责",
+          "url": "https://www.qstheory.cn/20260826/9fa395d3bc3d402a8d414aaa19a0f401/c.html",
+          "date": "2026-08-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "86d9f2d47049a0",
+          "source": "求是",
+          "title": "树立和践行正确政绩观是一项长期任务",
+          "url": "https://www.qstheory.cn/20260826/d6f170695943414fbadd5f3e390b20ff/c.html",
           "date": "2026-08-26",
           "keyword": "综合时政"
         }
@@ -89724,7 +89872,7 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 7.4,
+          "duration": 10.6,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260826.shtml"
         },
         {
@@ -89736,19 +89884,19 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "source": "新华社",
           "status": "ok",
-          "count": 10,
-          "duration": 6.1
+          "count": 23,
+          "duration": 2.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 11.0
+          "duration": 20.9
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
+          "count": 5,
           "duration": 6.2
         },
         {
@@ -89761,28 +89909,28 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.3
+          "duration": 12.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.1
+          "duration": 2.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.1
+          "duration": 8.1
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 45.2
+          "duration": 61.9
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-26T07:28:35+08:00"
+  "generatedAt": "2026-08-26T08:56:22+08:00"
 };
