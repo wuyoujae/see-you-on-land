@@ -92536,7 +92536,124 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 62.3
         }
       ]
+    },
+    {
+      "date": "2026-08-28",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 5
+        }
+      ],
+      "articles": [
+        {
+          "id": "401062b8ea744d",
+          "source": "新华社",
+          "title": "《新时代治国理政纪实》第一卷入藏英国大英图书馆",
+          "url": "https://www.news.cn/world/20260828/9a9c16eabf9b4d129ea3d46f0cf51f0b/c.html",
+          "date": "2026-08-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4adbdbd731d9dd",
+          "source": "新华社",
+          "title": "尼泊尔山洪已致359人死亡、910人失联",
+          "url": "https://www.news.cn/20260828/827ea1f8076545debf317452969689b6/c.html",
+          "date": "2026-08-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8be027e64484d2",
+          "source": "新华社",
+          "title": "特朗普签署行政令将安大略湖更名为“美国湖”",
+          "url": "https://www.news.cn/20260828/ccb6ee8c060c4c95aedbd940b88326d7/c.html",
+          "date": "2026-08-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "24d511c5d59b27",
+          "source": "新华社",
+          "title": "美海军官员称“罗斯福”号航母将被派往中东",
+          "url": "https://www.news.cn/20260828/83e1052f0f514a03bfad964fda56e540/c.html",
+          "date": "2026-08-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "53a3981e609b1c",
+          "source": "新华社",
+          "title": "韩国法院正式批准羁押杀害中国女留学生的嫌疑人",
+          "url": "https://www.news.cn/20260828/b033a86d443844caa52ada482cd7a4ea/c.html",
+          "date": "2026-08-28",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 7.3,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260828.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.5,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202608/28/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 5,
+          "duration": 2.3
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 7.0
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.1
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.9,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202608/28/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 11.1
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.2
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 7.1
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 40.4
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-08-27T14:39:24+08:00"
+  "generatedAt": "2026-08-28T02:05:00+08:00"
 };
