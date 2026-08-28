@@ -94127,7 +94127,188 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 59.4
         }
       ]
+    },
+    {
+      "date": "2026-08-29",
+      "keyword": "抢险救援",
+      "keywords": [
+        {
+          "name": "抢险救援",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "f86ed4188f30df",
+          "source": "新华社",
+          "title": "水利部持续部署吉隆县泥石流灾害抢险救援工作",
+          "url": "https://www.news.cn/20260829/f60b6d6e7eeb4ccab2ef92c2c1472cfc/c.html",
+          "date": "2026-08-29",
+          "keyword": "抢险救援"
+        },
+        {
+          "id": "a373cef1424c02",
+          "source": "新华社",
+          "title": "部队坚决贯彻习主席重要指示开展吉隆泥石流抢险救援",
+          "url": "https://www.news.cn/politics/leaders/20260829/f1bcce292fdd42b1837baeb58ab5af23/c.html",
+          "date": "2026-08-29",
+          "keyword": "抢险救援"
+        },
+        {
+          "id": "dd9a08b70fd81d",
+          "source": "新华社",
+          "title": "为开创中吉关系高质量发展新局面指引方向",
+          "url": "https://www.news.cn/politics/leaders/20260829/13bf69d0208c4c08a762069d309377f7/c.html",
+          "date": "2026-08-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "10d4ac293017d1",
+          "source": "新华社",
+          "title": "习近平主席在署名文章中这样阐述发展中吉关系",
+          "url": "https://www.news.cn/politics/leaders/20260829/eb4da0dc9c3f4fae84f0ca9d08db41dc/c.html",
+          "date": "2026-08-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "84400188e4a673",
+          "source": "新华社",
+          "title": "台风“沙德尔”登陆浙江一线见闻",
+          "url": "https://www.news.cn/20260829/6d932aeb0c6d4f10a513245d75f12028/c.html",
+          "date": "2026-08-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0102b317eeec83",
+          "source": "新华社",
+          "title": "瑞金直达延安高铁开始售票",
+          "url": "https://www.news.cn/20260829/2c981f321036400fa1ddc782cf97bd32/c.html",
+          "date": "2026-08-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fd0d8894618ec4",
+          "source": "新华社",
+          "title": "目击西藏吉隆口岸上游堰塞湖",
+          "url": "https://www.news.cn/20260829/c3f1f09245504ea3b13f6689f6228859/c.html",
+          "date": "2026-08-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b0074234dfda28",
+          "source": "新华社",
+          "title": "秘鲁首都等地实施60天紧急状态以打击有组织犯罪",
+          "url": "https://www.news.cn/20260829/923b9a48a18c449b9ff1d760dbb8b8d9/c.html",
+          "date": "2026-08-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "958032e069a614",
+          "source": "新华社",
+          "title": "维也纳一博物馆发生抢劫盗窃 名贵钻石项链被盗",
+          "url": "https://www.news.cn/20260829/9e894aec6e4943ecac0fde4bb5931997/c.html",
+          "date": "2026-08-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7fe2b5df649ab9",
+          "source": "新华社",
+          "title": "西藏吉隆泥石流已致7人遇难 554人失联",
+          "url": "https://www.news.cn/politics/20260829/e20310f9f89744da82a6c343cf81834b/c.html",
+          "date": "2026-08-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3fbeab45a9ffd1",
+          "source": "新华社",
+          "title": "西藏吉隆泥石流灾害已致7人遇难 554人失联",
+          "url": "https://www.news.cn/20260829/cd18b5b519b442bda2c43f3cde1ce5ae/c.html",
+          "date": "2026-08-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fc970c02466dd8",
+          "source": "新华社",
+          "title": "防灾减灾救灾，总书记强调坚持极限思维、底线思维",
+          "url": "https://www.news.cn/politics/xxjxs/20260829/ef5e603386a94a95b8ef0e1df80e4f5e/c.html",
+          "date": "2026-08-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5555d2ac89baa3",
+          "source": "新华社",
+          "title": "阿根廷外长暗示该国或将退出南共市",
+          "url": "https://www.news.cn/20260829/903ff20bda174707a95751705ec40397/c.html",
+          "date": "2026-08-29",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 7.9,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260829.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.7,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202608/29/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 13,
+          "duration": 2.2
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.9
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.4
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.1,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202608/29/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 14.2
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.4
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 7.7
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 59.7
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-08-28T16:29:12+08:00"
+  "generatedAt": "2026-08-29T04:39:00+08:00"
 };
