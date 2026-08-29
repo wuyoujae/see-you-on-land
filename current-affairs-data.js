@@ -94147,6 +94147,10 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "name": "乡村振兴",
           "count": 2
+        },
+        {
+          "name": "消费",
+          "count": 2
         }
       ],
       "articles": [
@@ -94255,10 +94259,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "抢险救援"
         },
         {
-          "id": "10d4ac293017d1",
+          "id": "dd9a08b70fd81d",
           "source": "新华社",
-          "title": "习近平主席在署名文章中这样阐述发展中吉关系",
-          "url": "https://www.news.cn/politics/leaders/20260829/eb4da0dc9c3f4fae84f0ca9d08db41dc/c.html",
+          "title": "习近平主席署名文章为开创中吉关系高质量发展新局面指引方向",
+          "url": "https://www.news.cn/politics/leaders/20260829/13bf69d0208c4c08a762069d309377f7/c.html",
           "date": "2026-08-29",
           "keyword": "习近平"
         },
@@ -94303,14 +94307,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "高质量发展"
         },
         {
-          "id": "dd9a08b70fd81d",
-          "source": "新华社",
-          "title": "为开创中吉关系高质量发展新局面指引方向",
-          "url": "https://www.news.cn/politics/leaders/20260829/13bf69d0208c4c08a762069d309377f7/c.html",
-          "date": "2026-08-29",
-          "keyword": "高质量发展"
-        },
-        {
           "id": "c7777210215fc8",
           "source": "光明日报",
           "title": "湖南农业大学：立足区域发展需求 科教赋能乡村振兴",
@@ -94319,12 +94315,28 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "乡村振兴"
         },
         {
+          "id": "d602748725d9aa",
+          "source": "广东发布",
+          "title": "2026广东金秋文旅消费季9月11日开幕 将发放3000万元文旅消费补贴",
+          "url": "https://www.gd.gov.cn/gdywdt/bmdt/content/post_4948486.html",
+          "date": "2026-08-29",
+          "keyword": "消费"
+        },
+        {
           "id": "52bd73765560d6",
           "source": "新华社",
           "title": "四川小金：特色农业助推乡村振兴",
           "url": "https://www.news.cn/photo/20260829/d965903629874ad6a1e2393cd904f75a/c.html",
           "date": "2026-08-29",
           "keyword": "乡村振兴"
+        },
+        {
+          "id": "13dc1e308153fa",
+          "source": "新华社",
+          "title": "美8月消费者信心指数下滑",
+          "url": "https://www.news.cn/world/20260829/3e80c627249744998d881126b6ef0378/c.html",
+          "date": "2026-08-29",
+          "keyword": "消费"
         },
         {
           "id": "5e242c495f9c38",
@@ -94631,14 +94643,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d602748725d9aa",
-          "source": "广东发布",
-          "title": "2026广东金秋文旅消费季9月11日开幕 将发放3000万元文旅消费补贴",
-          "url": "https://www.gd.gov.cn/gdywdt/bmdt/content/post_4948486.html",
-          "date": "2026-08-29",
-          "keyword": "综合时政"
-        },
-        {
           "id": "ddd83a1b87251d",
           "source": "新华社",
           "title": "14000吨级环轨式起重机在徐州下线",
@@ -94683,6 +94687,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "“沙德尔”登陆浙江一线见闻",
           "url": "https://www.news.cn/politics/20260829/7892d0afa75c4d54962d69780855dbd2/c.html",
+          "date": "2026-08-29",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0ebec9fd27a50f",
+          "source": "新华社",
+          "title": "中国援卢旺达马萨卡医院改扩建项目移交仪式举行",
+          "url": "https://www.news.cn/20260829/4e719ef2f78543bb884424760129fb08/c.html",
           "date": "2026-08-29",
           "keyword": "综合时政"
         },
@@ -94831,6 +94843,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "3799de4b0f68fc",
+          "source": "新华社",
+          "title": "沃什鹰派讲话 金价大跌",
+          "url": "https://www.news.cn/world/20260829/9010a17130764c7c914abf2870aa62b6/c.html",
+          "date": "2026-08-29",
+          "keyword": "综合时政"
+        },
+        {
           "id": "4aa619cf8045b6",
           "source": "新华社",
           "title": "泽连斯基设定每天1000架无人机打击俄罗斯的目标",
@@ -94847,10 +94867,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "0102b317eeec83",
+          "id": "81478af834bb69",
           "source": "新华社",
-          "title": "瑞金直达延安高铁开始售票",
-          "url": "https://www.news.cn/20260829/2c981f321036400fa1ddc782cf97bd32/c.html",
+          "title": "特稿丨为构建中吉命运共同体注入新动力",
+          "url": "https://www.news.cn/20260829/a87390700e8c41be9b6c4361ae4ed954/c.html",
           "date": "2026-08-29",
           "keyword": "综合时政"
         },
@@ -94935,6 +94955,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "2c9c1ac7c743eb",
+          "source": "新华社",
+          "title": "镜观·回响丨元首引领 中埃合作结硕果",
+          "url": "https://www.news.cn/politics/leaders/20260829/8209e13182134f29a0595893399beaca/c.html",
+          "date": "2026-08-29",
+          "keyword": "综合时政"
+        },
+        {
           "id": "fc970c02466dd8",
           "source": "新华社",
           "title": "防灾减灾救灾，总书记强调坚持极限思维、底线思维",
@@ -94972,26 +95000,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 12.0,
+          "duration": 11.9,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260829.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 30,
-          "duration": 2.3
+          "duration": 1.8
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 45,
-          "duration": 3.1
+          "count": 48,
+          "duration": 3.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 11.6
+          "duration": 21.7
         },
         {
           "source": "求是",
@@ -95003,34 +95031,35 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "光明日报",
           "status": "ok",
           "count": 24,
-          "duration": 2.6
+          "duration": 2.2
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.6
+          "duration": 12.7
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.4
+          "duration": 4.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 8.6
+          "duration": 9.5
         },
         {
           "source": "广东发布",
-          "status": "ok",
+          "status": "stale",
           "count": 1,
-          "duration": 60.5
+          "duration": 18.2,
+          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-29T11:36:13+08:00"
+  "generatedAt": "2026-08-29T13:09:05+08:00"
 };
