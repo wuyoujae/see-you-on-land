@@ -95276,14 +95276,26 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "抢险救援",
-          "count": 3
+          "count": 4
         },
         {
           "name": "经济",
-          "count": 3
+          "count": 4
+        },
+        {
+          "name": "高质量发展",
+          "count": 2
         }
       ],
       "articles": [
+        {
+          "id": "d763ae8259b32c",
+          "source": "中国政府网",
+          "title": "集结力量 全力以赴 扎实做好西藏吉隆泥石流灾害抢险救援各项工作",
+          "url": "https://www.gov.cn/lianbo/202608/content_7079551.htm",
+          "date": "2026-08-30",
+          "keyword": "抢险救援"
+        },
         {
           "id": "d54644486ab071",
           "source": "人民日报",
@@ -95329,6 +95341,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "中国推动算电协同促进数字经济高质量发展",
           "url": "https://www.news.cn/20260830/507aefdae6764f5289a9ddd5f445d967/c.html",
+          "date": "2026-08-30",
+          "keyword": "经济"
+        },
+        {
+          "id": "0b0e64771ce64f",
+          "source": "求是",
+          "title": "中国推动算电协同促进数字经济高质量发展",
+          "url": "https://www.qstheory.cn/20260830/01b0c82c520848a9a020f3af4249484f/c.html",
           "date": "2026-08-30",
           "keyword": "经济"
         },
@@ -95653,6 +95673,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "ee7e7b63d35f98",
+          "source": "广东发布",
+          "title": "粤超八强诞生 首回合比赛将于9月5日打响",
+          "url": "https://www.gd.gov.cn/gdywdt/bmdt/content/post_4948515.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f3d4d8d445c8db",
+          "source": "新华社",
+          "title": "2141人投入救援",
+          "url": "https://www.news.cn/local/20260830/e4475d7aa9c44438ac3bc66788a78066/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
           "id": "252038b9142ade",
           "source": "新华社",
           "title": "一颗高粱饴糖果的“守”与“变”",
@@ -95669,10 +95705,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "75f45b93a2d554",
+          "id": "dfcd58048eb038",
           "source": "新华社",
           "title": "云南发现蝙蝠新记录物种“彼氏伏翼”",
-          "url": "https://www.news.cn/local/20260830/d8b0c9b7d7d64d7f84e96fa75f9b93e4/c.html",
+          "url": "https://www.news.cn/20260830/34e3be75c3964dadae80cf85535bdd5c/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4e641c1a69e0db",
+          "source": "新华社",
+          "title": "以总理谴责约旦河西岸犹太人定居者“暴力犯罪”",
+          "url": "https://www.news.cn/20260830/f94a8edb995045348e66016616423cfe/c.html",
           "date": "2026-08-30",
           "keyword": "综合时政"
         },
@@ -95685,18 +95729,146 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "92fcd238c7360d",
+          "id": "ae3a412cc66da8",
           "source": "新华社",
-          "title": "全力打通“最后一公里”",
-          "url": "https://www.news.cn/politics/20260830/67b9055a5efb4904a41788e00bcc322d/c.html",
+          "title": "伊称未经协调任何船只无法通过霍尔木兹海峡",
+          "url": "https://www.news.cn/world/20260830/72a6bad158a94be2b3669ff120dfb2a8/c.html",
           "date": "2026-08-30",
           "keyword": "综合时政"
         },
         {
-          "id": "b0ba533a0cc251",
+          "id": "a3092f09f11a14",
           "source": "新华社",
-          "title": "挺进，72小时生死救援",
-          "url": "https://www.news.cn/politics/20260830/a9188603f8314235b039cca772a1ccaa/c.html",
+          "title": "吉隆救灾一线公路防护工事加紧施工",
+          "url": "https://www.news.cn/photo/20260830/ef1e766b86934f54a219ff8abad9657e/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6ac2d9058300a8",
+          "source": "新华社",
+          "title": "吉隆泥石流已致16人遇难546人失联",
+          "url": "https://www.news.cn/politics/20260830/240c5417e97049ebb532643b6838347b/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "571d3cbd536b28",
+          "source": "新华社",
+          "title": "国内失联人员家属服务热线",
+          "url": "https://www.news.cn/20260830/c5b93c75c07b41a7a73bab9d51a41473/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f07ce150f8b3ff",
+          "source": "新华社",
+          "title": "国家医保局：158个基层病种“同病同付”",
+          "url": "https://www.news.cn/politics/20260830/2914dda5f4f141e6b4e036a70cfc53e6/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2885b7c6f019da",
+          "source": "新华社",
+          "title": "多国海外传播官探访“中国咖啡之都”云南普洱",
+          "url": "https://www.news.cn/20260830/f8ec12fad3804b82aab0a4994d618a7d/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "603826dc79c582",
+          "source": "新华社",
+          "title": "常冰玉登顶斯诺克武汉公开赛",
+          "url": "https://www.news.cn/20260830/3839968817be4c71817a2567eb71588a/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2282a834e456b0",
+          "source": "新华社",
+          "title": "微纪录片丨丝路新声",
+          "url": "https://www.news.cn/20260830/44c9f9b536c54c37ba4669f7462f5a50/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "17d691c3ea4cc3",
+          "source": "新华社",
+          "title": "德甲综合：多特蒙德迎“开门红” 埃弗斯堡首秀告捷",
+          "url": "https://www.news.cn/20260830/52a2ad3fdd3241eb91e0f6198368cf30/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8731242ffb3211",
+          "source": "新华社",
+          "title": "我国将在32个城市部署第二批数据标注先行先试工作",
+          "url": "https://www.news.cn/20260830/642ef01dd4a440d38f8c913105c80043/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8af2a9451429a3",
+          "source": "新华社",
+          "title": "武契奇出席中塞合作人形机器人工厂量产仪式",
+          "url": "https://www.news.cn/20260830/23915f2957054f4bab8a6f2e8b67ae6e/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f193fa18a2018c",
+          "source": "新华社",
+          "title": "灾害原因查明",
+          "url": "https://www.news.cn/20260830/539df138212e412bbe42428b26e3196e/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3ec65bdae9d95a",
+          "source": "新华社",
+          "title": "网络文学加速出海 向世界展现精彩中国",
+          "url": "https://www.news.cn/20260830/eb91ee0f5a0447499e8a0f208d3b1e59/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "26d7103fc34561",
+          "source": "新华社",
+          "title": "美国南卡罗来纳州发生枪击事件 警员一死一伤",
+          "url": "https://www.news.cn/20260830/c4d5e280501a43839903e082fbeb9f5d/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e05d8eee67589b",
+          "source": "新华社",
+          "title": "老外来沪先去南外滩 他们为啥爱来这里做衣服？",
+          "url": "https://www.news.cn/20260830/ef22da6cb1994fa58cfe90624f39ccb1/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4aa74b19267c37",
+          "source": "新华社",
+          "title": "英超综合：利物浦战平森林 纽卡斯尔击败热刺",
+          "url": "https://www.news.cn/20260830/6a396749eef140b8afcfd221eefd8be7/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "60d05cfca4f10a",
+          "source": "新华社",
+          "title": "西藏吉隆国门核心区上方堰塞体情况稳定",
+          "url": "https://www.news.cn/20260830/bf898e10af2844099a14fa8addd859b0/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "58c7134b1240e6",
+          "source": "新华社",
+          "title": "西藏吉隆泥石流灾害排查出261名失联外籍人员",
+          "url": "https://www.news.cn/20260830/beb5bead02a54deba21a6b2d175eaee5/c.html",
           "date": "2026-08-30",
           "keyword": "综合时政"
         },
@@ -95705,6 +95877,78 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "辛贝特：曾紧急将内塔尼亚胡长子“从美国救回”",
           "url": "https://www.news.cn/20260830/71a26e9d926141d2b5aa5203277e8a80/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6c4b78a198f516",
+          "source": "新华社",
+          "title": "金正恩表彰为强化国防力量作出突出贡献的人员",
+          "url": "https://www.news.cn/world/20260830/d1ffeeccf2b2438f8dbe894c76bf14a5/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "62e576cff948f8",
+          "source": "求是",
+          "title": "158个基层病种“同病同付”",
+          "url": "https://www.qstheory.cn/20260830/d1762c3262c44236aecc8afb2eda1658/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d703d175ba7def",
+          "source": "求是",
+          "title": "2026年服贸会来了，这些“首秀”值得关注",
+          "url": "https://www.qstheory.cn/20260830/839ae9a8dbb645b58bf9132ade7261d3/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "916a2ab0fb2617",
+          "source": "求是",
+          "title": "中国道交法迎“大修” “暴走团”“开门杀”治理受关注",
+          "url": "https://www.qstheory.cn/20260830/ada7b9e69d01469587bfa1a0887624ef/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e754d2079a401f",
+          "source": "求是",
+          "title": "务农重本 农业法完成修订",
+          "url": "https://www.qstheory.cn/20260830/6e81b7a1f5e14bf9be3d3453232d604b/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a9e14102e36dd4",
+          "source": "求是",
+          "title": "应急管理部紧急调派隧道专家赴尼泊尔实施国际救援行动",
+          "url": "https://www.qstheory.cn/20260830/b4e18843c87e414385699962f38bdd64/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4f09f146825919",
+          "source": "求是",
+          "title": "我国首次实现地月双向高速激光通信",
+          "url": "https://www.qstheory.cn/20260830/9510324d52bf42c58bcb1cfa36017441/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "549262c1637397",
+          "source": "求是",
+          "title": "澜湄六国代表齐聚青海共促人文经贸合作",
+          "url": "https://www.qstheory.cn/20260830/9d69aa959743472da925d90c96ec661b/c.html",
+          "date": "2026-08-30",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bb3ec3a07f32de",
+          "source": "求是",
+          "title": "高标准农田建好更要管好用好",
+          "url": "https://www.qstheory.cn/20260830/6ac57cc206f7458781886dd59f51e293/c.html",
           "date": "2026-08-30",
           "keyword": "综合时政"
         }
@@ -95720,58 +95964,58 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "status": "ok",
           "count": 23,
-          "duration": 1.6
+          "duration": 1.4
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 8,
-          "duration": 2.0
+          "count": 27,
+          "duration": 2.8
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 14.9
+          "duration": 13.2
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 5.7
+          "count": 9,
+          "duration": 6.7
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 0.8
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.2
+          "duration": 13.0
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.8
+          "duration": 2.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 0,
-          "duration": 7.8
+          "count": 1,
+          "duration": 8.4
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 0,
-          "duration": 61.0
+          "count": 1,
+          "duration": 42.6
         }
       ]
     }
   ],
-  "generatedAt": "2026-08-30T07:58:59+08:00"
+  "generatedAt": "2026-08-30T10:59:24+08:00"
 };
