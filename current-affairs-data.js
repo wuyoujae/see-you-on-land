@@ -96547,7 +96547,124 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 63.3
         }
       ]
+    },
+    {
+      "date": "2026-08-31",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 5
+        }
+      ],
+      "articles": [
+        {
+          "id": "5712df76adc297",
+          "source": "新华社",
+          "title": "利比亚对立派系就总统和议会选举框架达成共识",
+          "url": "https://www.news.cn/world/20260831/64c4808b4b3f4d84a62a3426cb517f07/c.html",
+          "date": "2026-08-31",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2f05ba28f65def",
+          "source": "新华社",
+          "title": "应时代之变 行天下大道",
+          "url": "https://www.news.cn/politics/leaders/20260831/d121c75b25fd40efb3852fe14f6a2c57/c.html",
+          "date": "2026-08-31",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f909f7277252a6",
+          "source": "新华社",
+          "title": "总理：本届政府任期内不再推进入盟谈判",
+          "url": "https://www.news.cn/world/20260831/36c1faa4560d45fb87a7c7ebccdd104c/c.html",
+          "date": "2026-08-31",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "436dbb78b0acb2",
+          "source": "新华社",
+          "title": "特写：“您是我们的家人”",
+          "url": "https://www.news.cn/politics/leaders/20260831/a8f31117cc8741b9a446748ce04b1f3e/c.html",
+          "date": "2026-08-31",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4f043e86eb43c9",
+          "source": "新华社",
+          "title": "署名文章深深打动吉民众",
+          "url": "https://www.news.cn/politics/leaders/20260831/db947a1ae73e4fab8b2dcf50af02a0fa/c.html",
+          "date": "2026-08-31",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 11.4,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260831.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.1,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202608/31/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 5,
+          "duration": 3.3
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 29.2
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.9
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.7,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202608/31/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.8
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.9
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 7.9
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 54.2
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-08-30T22:20:36+08:00"
+  "generatedAt": "2026-08-31T02:25:35+08:00"
 };
