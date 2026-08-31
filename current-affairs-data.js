@@ -98330,7 +98330,124 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 60.2
         }
       ]
+    },
+    {
+      "date": "2026-09-01",
+      "keyword": "高质量发展",
+      "keywords": [
+        {
+          "name": "高质量发展",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "d831d27fb30b28",
+          "source": "中国政府网",
+          "title": "关于高质量发展新时代全面战略伙伴关系的联合宣言",
+          "url": "https://www.gov.cn/yaowen/liebiao/202609/content_7079759.htm",
+          "date": "2026-09-01",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "e7468b29494984",
+          "source": "新华社",
+          "title": "中吉关于高质量发展新时代全面战略伙伴关系的联合宣言",
+          "url": "https://www.news.cn/world/20260901/9740c41a58be41f4ae46d7d53a02b5d3/c.html",
+          "date": "2026-09-01",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "5842b16a487e34",
+          "source": "中国政府网",
+          "title": "中华人民共和国和吉尔吉斯共和国永久睦邻友好合作条约",
+          "url": "https://www.gov.cn/yaowen/liebiao/202609/content_7079758.htm",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a305f428ce603b",
+          "source": "中国政府网",
+          "title": "解读：国务院常务会议部署城市地下管网建设工作",
+          "url": "https://www.gov.cn/zhengce/202609/content_7079760.htm",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "642dc96b2bc4af",
+          "source": "新华社",
+          "title": "第一观察·瞬间｜永久的友好近邻 真诚的合作伙伴",
+          "url": "https://www.news.cn/politics/leaders/20260901/3f29eed846184f2488b6a8dc26e92d37/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 6.4,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260901.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.5,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/01/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 2,
+          "duration": 1.9
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 15.3
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.6
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.7,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/01/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.0
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 1.9
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 3,
+          "duration": 32.7
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 66.8
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-08-31T17:13:26+08:00"
+  "generatedAt": "2026-09-01T01:25:16+08:00"
 };
