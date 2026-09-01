@@ -98333,19 +98333,143 @@
     },
     {
       "date": "2026-09-01",
-      "keyword": "高质量发展",
+      "keyword": "习近平",
       "keywords": [
         {
+          "name": "习近平",
+          "count": 12
+        },
+        {
           "name": "高质量发展",
+          "count": 4
+        },
+        {
+          "name": "经济",
+          "count": 3
+        },
+        {
+          "name": "消费",
           "count": 2
         }
       ],
       "articles": [
         {
+          "id": "556b382b3c0816",
+          "source": "中国政府网",
+          "title": "习近平在埃及媒体发表署名文章",
+          "url": "https://www.gov.cn/yaowen/liebiao/202609/content_7079769.htm",
+          "date": "2026-09-01",
+          "keyword": "习近平"
+        },
+        {
+          "id": "c517bedbc2244a",
+          "source": "人民日报",
+          "title": "习近平会见乌兹别克斯坦总统米尔济约耶夫",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178367.html",
+          "date": "2026-09-01",
+          "keyword": "习近平"
+        },
+        {
+          "id": "48e13976a62ac2",
+          "source": "人民日报",
+          "title": "习近平会见俄罗斯总统普京",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178366.html",
+          "date": "2026-09-01",
+          "keyword": "习近平"
+        },
+        {
+          "id": "a54d1ce02f090f",
+          "source": "人民日报",
+          "title": "习近平会见蒙古国总统呼日勒苏赫",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178368.html",
+          "date": "2026-09-01",
+          "keyword": "习近平"
+        },
+        {
+          "id": "7478955d7e6061",
+          "source": "人民日报",
+          "title": "习近平同吉尔吉斯斯坦总统扎帕罗夫会谈",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178364.html",
+          "date": "2026-09-01",
+          "keyword": "习近平"
+        },
+        {
+          "id": "ae5786df6bc514",
+          "source": "人民日报",
+          "title": "学好用好《习近平党建文选》 把学习成效转化为管党治党、兴党强党的生动实践",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178383.html",
+          "date": "2026-09-01",
+          "keyword": "习近平"
+        },
+        {
+          "id": "b61fec62406377",
+          "source": "光明日报",
+          "title": "习近平会见乌兹别克斯坦总统米尔济约耶夫",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/01/content_23778.html",
+          "date": "2026-09-01",
+          "keyword": "习近平"
+        },
+        {
+          "id": "f8b24eaff73a42",
+          "source": "光明日报",
+          "title": "习近平会见俄罗斯总统普京",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/01/content_23777.html",
+          "date": "2026-09-01",
+          "keyword": "习近平"
+        },
+        {
+          "id": "dfb4a383ae2189",
+          "source": "光明日报",
+          "title": "习近平会见蒙古国总统呼日勒苏赫",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/01/content_23779.html",
+          "date": "2026-09-01",
+          "keyword": "习近平"
+        },
+        {
+          "id": "f2492d2486a8d1",
+          "source": "光明日报",
+          "title": "习近平同吉尔吉斯斯坦总统扎帕罗夫会谈",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/01/content_23775.html",
+          "date": "2026-09-01",
+          "keyword": "习近平"
+        },
+        {
+          "id": "644db7a8c0b769",
+          "source": "光明日报",
+          "title": "学好用好《习近平党建文选》 把学习成效转化为管党治党、兴党强党的生动实践",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/01/content_23798.html",
+          "date": "2026-09-01",
+          "keyword": "习近平"
+        },
+        {
+          "id": "2bce776d263692",
+          "source": "新华社",
+          "title": "习近平在埃及媒体发表署名文章",
+          "url": "https://www.news.cn/politics/leaders/20260901/0e18c0bbdb354b47bc53a6b132538940/c.html",
+          "date": "2026-09-01",
+          "keyword": "习近平"
+        },
+        {
           "id": "d831d27fb30b28",
           "source": "中国政府网",
-          "title": "关于高质量发展新时代全面战略伙伴关系的联合宣言",
+          "title": "中华人民共和国和吉尔吉斯共和国关于高质量发展新时代全面战略伙伴关系的联合宣言",
           "url": "https://www.gov.cn/yaowen/liebiao/202609/content_7079759.htm",
+          "date": "2026-09-01",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "02675c33c6a35b",
+          "source": "人民日报",
+          "title": "中华人民共和国和吉尔吉斯共和国关于高质量发展新时代全面战略伙伴关系的联合宣言",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178370.html",
+          "date": "2026-09-01",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "f9ec1161ba9ad3",
+          "source": "光明日报",
+          "title": "中华人民共和国和吉尔吉斯共和国关于高质量发展新时代全面战略伙伴关系的联合宣言",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/01/content_23788.html",
           "date": "2026-09-01",
           "keyword": "高质量发展"
         },
@@ -98358,9 +98482,41 @@
           "keyword": "高质量发展"
         },
         {
+          "id": "5b63e081861b9f",
+          "source": "人民日报",
+          "title": "丁薛祥将赴俄罗斯出席第十一届东方经济论坛并举行中俄投资合作委员会第十三次会议、能源合作委员会第二十三次会议和第八届中俄能源商务论坛",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178382.html",
+          "date": "2026-09-01",
+          "keyword": "经济"
+        },
+        {
+          "id": "ccb26e243533a4",
+          "source": "光明日报",
+          "title": "丁薛祥将赴俄罗斯出席第十一届东方经济论坛并举行中俄投资合作委员会第十三次会议、能源合作委员会第二十三次会议和第八届中俄能源商务论坛",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/01/content_23797.html",
+          "date": "2026-09-01",
+          "keyword": "经济"
+        },
+        {
+          "id": "2b4aba832906ee",
+          "source": "新华社",
+          "title": "中国冰杯消费持续升温 产业链升级驱动“冰经济”",
+          "url": "https://www.news.cn/fortune/20260901/729b1d52166c4294a14259b222b718ea/c.html",
+          "date": "2026-09-01",
+          "keyword": "经济"
+        },
+        {
+          "id": "f914b1296ea73f",
+          "source": "中国政府网",
+          "title": "今年以来消费品以旧换新带动销售额超1.54万亿元",
+          "url": "https://www.gov.cn/yaowen/liebiao/202609/content_7079762.htm",
+          "date": "2026-09-01",
+          "keyword": "消费"
+        },
+        {
           "id": "5842b16a487e34",
           "source": "中国政府网",
-          "title": "中华人民共和国和吉尔吉斯共和国永久睦邻友好合作条约",
+          "title": "永久睦邻友好合作条约",
           "url": "https://www.gov.cn/yaowen/liebiao/202609/content_7079758.htm",
           "date": "2026-09-01",
           "keyword": "综合时政"
@@ -98374,10 +98530,458 @@
           "keyword": "综合时政"
         },
         {
+          "id": "f004cd41629941",
+          "source": "人民日报",
+          "title": "2026上合组织国家人文交流活动在比什凯克举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178386.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "37b6498400866d",
+          "source": "人民日报",
+          "title": "2026年《开学第一课》聚焦“我们的长征路”主题",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178392.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7ff39c90cfe0df",
+          "source": "人民日报",
+          "title": "“我们一直在，再难也不放弃”（在现场·特别报道）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178388.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f370ad711f50ef",
+          "source": "人民日报",
+          "title": "《中国数字乡村发展报告（2019—2025年）》发布",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178394.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "95e3e6e26f1681",
+          "source": "人民日报",
+          "title": "中华人民共和国和吉尔吉斯共和国永久睦邻友好合作条约",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178371.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "272cc35f1aa8f7",
+          "source": "人民日报",
+          "title": "刘海星会见奥地利国民议会议长罗森克兰茨",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178385.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b1c4c17e601a5c",
+          "source": "人民日报",
+          "title": "向险而行，搜寻脚步不停",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178390.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cf1ea259e63efe",
+          "source": "人民日报",
+          "title": "坚持落实管党治党政治责任",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178369.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f393e330b4cf9f",
+          "source": "人民日报",
+          "title": "张庆伟会见密克罗尼西亚联邦国会议长摩西斯",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178384.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c131f0434c6621",
+          "source": "人民日报",
+          "title": "彭丽媛同吉尔吉斯斯坦总统扎帕罗夫夫人扎帕罗娃参观吉尔吉斯共和国国家历史博物馆",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178372.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "12e3b962261f74",
+          "source": "人民日报",
+          "title": "携手共创埃中两国人民及全人类更加繁荣未来",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178379.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e257ebc3f74eb3",
+          "source": "人民日报",
+          "title": "救援力量持续推进损毁道路抢通作业",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178393.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "10ba338930620d",
+          "source": "人民日报",
+          "title": "李强主持召开国务院常务会议",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178378.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bbfa0fdb33d400",
+          "source": "人民日报",
+          "title": "没有路，就踏出一条路",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178391.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6f2112bab8be19",
+          "source": "人民日报",
+          "title": "王沪宁会见奥地利国民议会议长罗森克兰茨",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178381.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c01a8d1a0708f6",
+          "source": "人民日报",
+          "title": "赵乐际同奥地利国民议会议长罗森克兰茨会谈",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178380.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e8361c3db71872",
+          "source": "人民日报",
+          "title": "风雨同舟七十载，踔厉奋发新征程",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/01/content_30178365.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2637bf303d522c",
+          "source": "光明日报",
+          "title": "2026上合组织国家人文交流活动在比什凯克举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/01/content_23799.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ab637225eb49d0",
+          "source": "光明日报",
+          "title": "“这一刻，有我”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/01/content_23805.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b8347806292f66",
+          "source": "光明日报",
+          "title": "中华人民共和国和吉尔吉斯共和国永久睦邻友好合作条约",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/01/content_23789.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5353cd3c5066bc",
+          "source": "光明日报",
+          "title": "中央精神文明建设办公室发布2026年第二批“中国好人榜”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/01/content_23804.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "63e4d26570c517",
+          "source": "光明日报",
+          "title": "坚持落实管党治党政治责任",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/01/content_23787.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2a2fb0d28f55ca",
+          "source": "光明日报",
+          "title": "彭丽媛同吉尔吉斯斯坦总统扎帕罗夫夫人扎帕罗娃参观吉尔吉斯共和国国家历史博物馆",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/01/content_23790.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d69d815efbdfd5",
+          "source": "光明日报",
+          "title": "李强主持召开国务院常务会议",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/01/content_23794.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a90191a54f8f7f",
+          "source": "光明日报",
+          "title": "王沪宁会见奥地利国民议会议长罗森克兰茨",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/01/content_23796.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "62504255edae51",
+          "source": "光明日报",
+          "title": "词元奔涌数智兴",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/01/content_23803.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3f755153bd6d0b",
+          "source": "光明日报",
+          "title": "赵乐际同奥地利国民议会议长罗森克兰茨会谈",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/01/content_23795.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7043f0aa746e0c",
+          "source": "光明日报",
+          "title": "风雨同舟七十载，踔厉奋发新征程",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/01/content_23776.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "72a9e572e5ca08",
+          "source": "新华社",
+          "title": "90多元烧烤打包近20元 外卖打包费咋成“糊涂账”？",
+          "url": "https://www.news.cn/fortune/20260901/8bcf0a90383a447fb0c26cef663fea0a/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "026432a32a9c6c",
+          "source": "新华社",
+          "title": "“中国天眼”十年凝视，“宇宙快信”升阶解码",
+          "url": "https://www.news.cn/20260901/681b841550b04f9da1b65cd619d0cce7/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a62f824ef57edf",
+          "source": "新华社",
+          "title": "“我与中国的故事”短视频大赛在白俄罗斯启动",
+          "url": "https://www.news.cn/20260901/6ac577e64cc04b0eabbd69bb01f6872f/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a2bc684799e757",
+          "source": "新华社",
+          "title": "一女子在纽约时报广场持刀刺伤两人",
+          "url": "https://www.news.cn/20260901/ae7f20cbf05448a489f6fafee66c348f/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eabc9ee9fa266a",
+          "source": "新华社",
+          "title": "东南欧国家代表开启中国之行",
+          "url": "https://www.news.cn/world/20260901/6311f6cac1024c14b8aee002673070a0/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "95e3d4168593a9",
+          "source": "新华社",
+          "title": "中国之城丨凤城：辽东丘陵上的峭拔之城",
+          "url": "https://www.news.cn/20260901/a68b1abc0b5f4e19b8a0165a4ca590d8/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3a70eeccdaff3a",
+          "source": "新华社",
+          "title": "中国年产服装超700亿件，占全球半数以上",
+          "url": "https://www.news.cn/20260901/c879731672434bd79b9d61544da144cd/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "602d45658e8958",
+          "source": "新华社",
+          "title": "中央气象台发布台风蓝色预警",
+          "url": "https://www.news.cn/local/20260901/2abe87d5411e47968e14963cfc71ec55/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7694d192c5eea1",
+          "source": "新华社",
+          "title": "从“垃圾山”到“能源站” 中国技术助力吉尔吉斯斯坦“变废为宝”",
+          "url": "https://www.news.cn/silkroad/20260901/d3c6286ca3164cf3bdfdb1db3976ee15/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bc9475b273ac93",
+          "source": "新华社",
+          "title": "以军称打死哈马斯一名后勤指挥官",
+          "url": "https://www.news.cn/20260901/d11bbbe181de45368a1d58ce18950e9a/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cd7914a8211e83",
+          "source": "新华社",
+          "title": "关注文博，读懂四大信号",
+          "url": "https://www.news.cn/20260901/41b00eb593b54a4aa89e310c2a279e4e/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1c7ba930ec32a5",
+          "source": "新华社",
+          "title": "国际油价明显走高",
+          "url": "https://www.news.cn/fortune/20260901/d7891a3e3d9c497d94fea26a402db8ec/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "73ea5e935348df",
+          "source": "新华社",
+          "title": "婺源篁岭又“晒秋”：玉米南瓜拼出仙鹤",
+          "url": "https://www.news.cn/local/20260901/8644e56f31c14d39a979a2ca73a19858/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fcf9e560f2406d",
+          "source": "新华社",
+          "title": "布伦特油价站上每桶90美元",
+          "url": "https://www.news.cn/world/20260901/75e0ded5258a41bcad3082e3028ba679/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cf0ab813e88153",
+          "source": "新华社",
+          "title": "快速增长意味啥？国家统计局解读知识产权产品投资",
+          "url": "https://www.news.cn/fortune/20260901/8f7534af09444862b73e1a47b7ad35c7/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6e39bf79f4f58b",
+          "source": "新华社",
+          "title": "扫黑除恶，不留死角",
+          "url": "https://www.news.cn/legal/20260901/7a4c1f06bca34661b8aaa7dadc049a4c/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c54b4de91f055b",
+          "source": "新华社",
+          "title": "投资将超5万亿元，新型电网新在哪？",
+          "url": "https://www.news.cn/fortune/20260901/5ed28a6c7c354d87bbe94d6fb8e97dd1/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "14cc79a5f45507",
+          "source": "新华社",
+          "title": "救援背后的“生命线”",
+          "url": "https://www.news.cn/local/20260901/032cd2bf55b8461b86e924f985149037/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dd504a63d4ae54",
+          "source": "新华社",
+          "title": "极端天气致以色列多地供水受影响",
+          "url": "https://www.news.cn/20260901/ce65e399b95f4e668f2aa7d7400f37ff/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6d78f42b19fcc2",
+          "source": "新华社",
+          "title": "特写：校门口的击掌",
+          "url": "https://www.news.cn/20260901/112a7fdb474848d98cde0193535c2ef8/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7e3e9974a434d8",
+          "source": "新华社",
+          "title": "瞰中国丨内蒙古：云海逐晨光",
+          "url": "https://www.news.cn/20260901/55ac3b2f35964be0bf8c2e94fc58131f/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ae7f58a3a1c431",
+          "source": "新华社",
+          "title": "第21届布莱德战略论坛聚焦欧盟改革",
+          "url": "https://www.news.cn/20260901/1726379538d143dfa8e728a2f255d53f/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
           "id": "642dc96b2bc4af",
           "source": "新华社",
-          "title": "第一观察·瞬间｜永久的友好近邻 真诚的合作伙伴",
+          "title": "第一观察·瞬间丨永久的友好近邻 真诚的合作伙伴",
           "url": "https://www.news.cn/politics/leaders/20260901/3f29eed846184f2488b6a8dc26e92d37/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0ecd26c8a56057",
+          "source": "新华社",
+          "title": "美国最高法院允许白宫宴会厅改造项目继续推进",
+          "url": "https://www.news.cn/20260901/2004bea18d5146e08ba3190b0fdc9d10/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4aef565eb21350",
+          "source": "新华社",
+          "title": "美大峡谷国家公园山洪已致两人死亡 超14人失联",
+          "url": "https://www.news.cn/20260901/a642e989024047c0a99a8390c6ee21af/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "742a45b4e620d3",
+          "source": "新华社",
+          "title": "美媒：美国陆军部长向特朗普递交辞呈",
+          "url": "https://www.news.cn/world/20260901/7a7048f4f59340edb17e57ecee31d45d/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "11dc20b5a12779",
+          "source": "新华社",
+          "title": "职业教育专业“上新”，课堂能否接得住？",
+          "url": "https://www.news.cn/20260901/ba305e211df1463d86247c7ee2228d91/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "83f243a164e09a",
+          "source": "新华社",
+          "title": "胆囊健康日丨胆囊里的“小石头”，别拖成大麻烦",
+          "url": "https://www.news.cn/fortune/20260901/84003160ba2d4e2bb216f50df130bd7f/c.html",
+          "date": "2026-09-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4b191eeb68e563",
+          "source": "新华社",
+          "title": "这个暑期哪个瞬间让你最难忘？",
+          "url": "https://www.news.cn/politics/20260901/c1068c2882d8468ea61bccf2a48f0b7f/c.html",
           "date": "2026-09-01",
           "keyword": "综合时政"
         }
@@ -98387,67 +98991,66 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 6.4,
+          "duration": 7.3,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260901.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.5,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/01/node_01.html"
+          "status": "ok",
+          "count": 24,
+          "duration": 1.2
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 2,
-          "duration": 1.9
+          "count": 32,
+          "duration": 2.4
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 15.3
+          "duration": 12.8
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 5.6
+          "duration": 6.0
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 4.7,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/01/node_01.html"
+          "status": "ok",
+          "count": 18,
+          "duration": 1.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.0
+          "duration": 12.2
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 1.9
+          "duration": 2.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 3,
-          "duration": 32.7
+          "count": 5,
+          "duration": 8.2
         },
         {
           "source": "广东发布",
-          "status": "ok",
+          "status": "error",
           "count": 0,
-          "duration": 66.8
+          "duration": 19.2,
+          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
         }
       ]
     }
   ],
-  "generatedAt": "2026-09-01T01:25:16+08:00"
+  "generatedAt": "2026-09-01T09:05:43+08:00"
 }
