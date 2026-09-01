@@ -100384,7 +100384,165 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 68.8
         }
       ]
+    },
+    {
+      "date": "2026-09-02",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 4
+        }
+      ],
+      "articles": [
+        {
+          "id": "8ddf8ba0c7a2b3",
+          "source": "中国政府网",
+          "title": "习近平抵达开罗对埃及进行国事访问",
+          "url": "https://www.gov.cn/yaowen/liebiao/202609/content_7079944.htm",
+          "date": "2026-09-02",
+          "keyword": "习近平"
+        },
+        {
+          "id": "108e9942df0384",
+          "source": "新华社",
+          "title": "习近平主席为推进世界多极化、完善全球治理提供思想引领",
+          "url": "https://www.news.cn/politics/leaders/20260902/5c00db7356b54489928fe2cace619f9b/c.html",
+          "date": "2026-09-02",
+          "keyword": "习近平"
+        },
+        {
+          "id": "381a80c968b35b",
+          "source": "新华社",
+          "title": "习近平抵达埃及开罗国际机场发表书面讲话",
+          "url": "https://www.news.cn/politics/leaders/20260902/faa132d61d974498bc0e66014239f0bb/c.html",
+          "date": "2026-09-02",
+          "keyword": "习近平"
+        },
+        {
+          "id": "8ccbad4cba1515",
+          "source": "新华社",
+          "title": "习近平抵达开罗对埃及进行国事访问",
+          "url": "https://www.news.cn/politics/leaders/20260902/0e7dbd427dbd484e911173f44dc616aa/c.html",
+          "date": "2026-09-02",
+          "keyword": "习近平"
+        },
+        {
+          "id": "e6e6a5dc3e8513",
+          "source": "新华社",
+          "title": "为中埃友好合作注入信心和力量",
+          "url": "https://www.news.cn/politics/leaders/20260902/910eb926b49b450f8378f92595723a59/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a8f57c87c36e4b",
+          "source": "新华社",
+          "title": "埃及总统夫妇赴机场热情迎接",
+          "url": "https://www.news.cn/politics/leaders/20260902/c4507171878946e8a627d6c2911cf221/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3bae58296a9f73",
+          "source": "新华社",
+          "title": "微视频｜深化全面战略伙伴关系 推进中埃命运共同体建设",
+          "url": "https://www.news.cn/politics/leaders/20260902/e022944562fe4240a25a0f3d96033c55/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f0cf276cea9874",
+          "source": "新华社",
+          "title": "新华社评论员：勇担历史责任 共谱上合新篇",
+          "url": "https://www.news.cn/politics/leaders/20260902/a60f8da9967048289d7b0346bf73fcb2/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a35f57ed1a0aad",
+          "source": "新华社",
+          "title": "比什凯克再聚首，共赴上合新征程",
+          "url": "https://www.news.cn/politics/leaders/20260902/36622722ddb742c7aab11a1ce8155388/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ff43d4732e5bbb",
+          "source": "新华社",
+          "title": "美军称对伊朗目标发动新一轮打击",
+          "url": "https://www.news.cn/world/20260902/0cde670263334af78368daf8464c1ccc/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 8.4,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260902.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.1,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/02/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 9,
+          "duration": 2.8
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 34.9
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.3
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.7,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/02/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.5
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.3
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 1,
+          "duration": 8.5
+        },
+        {
+          "source": "广东发布",
+          "status": "error",
+          "count": 0,
+          "duration": 18.0,
+          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-01T22:28:44+08:00"
+  "generatedAt": "2026-09-02T02:08:49+08:00"
 };
