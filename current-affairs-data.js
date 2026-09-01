@@ -100391,15 +100391,91 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "习近平",
+          "count": 14
+        },
+        {
+          "name": "高质量发展",
           "count": 4
         }
       ],
       "articles": [
         {
-          "id": "8ddf8ba0c7a2b3",
+          "id": "cc53c747be234f",
+          "source": "中国政府网",
+          "title": "习近平抵达埃及开罗国际机场发表书面讲话",
+          "url": "https://www.gov.cn/yaowen/liebiao/202609/content_7079948.htm",
+          "date": "2026-09-02",
+          "keyword": "习近平"
+        },
+        {
+          "id": "95e0c65927443f",
           "source": "中国政府网",
           "title": "习近平抵达开罗对埃及进行国事访问",
-          "url": "https://www.gov.cn/yaowen/liebiao/202609/content_7079944.htm",
+          "url": "https://www.gov.cn/home/toutu/202609/content_7079956.htm",
+          "date": "2026-09-02",
+          "keyword": "习近平"
+        },
+        {
+          "id": "87ebc0b788eb84",
+          "source": "人民日报",
+          "title": "习近平出席“上海合作组织+”会议并发表重要讲话",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/02/content_30178568.html",
+          "date": "2026-09-02",
+          "keyword": "习近平"
+        },
+        {
+          "id": "cd8cfa10f82bb3",
+          "source": "人民日报",
+          "title": "习近平出席上海合作组织成员国元首理事会第二十六次会议并发表重要讲话",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/02/content_30178567.html",
+          "date": "2026-09-02",
+          "keyword": "习近平"
+        },
+        {
+          "id": "942e2d21b87dbe",
+          "source": "人民日报",
+          "title": "习近平圆满结束出席2026年上海合作组织峰会和对吉尔吉斯斯坦的国事访问",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/02/content_30178570.html",
+          "date": "2026-09-02",
+          "keyword": "习近平"
+        },
+        {
+          "id": "da6629f09b2635",
+          "source": "人民日报",
+          "title": "习近平抵达开罗对埃及进行国事访问",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/02/content_30178569.html",
+          "date": "2026-09-02",
+          "keyword": "习近平"
+        },
+        {
+          "id": "96e3b0543661a2",
+          "source": "光明日报",
+          "title": "习近平出席“上海合作组织+”会议并发表重要讲话",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/02/content_23826.html",
+          "date": "2026-09-02",
+          "keyword": "习近平"
+        },
+        {
+          "id": "269abe659fff35",
+          "source": "光明日报",
+          "title": "习近平出席上海合作组织成员国元首理事会第二十六次会议并发表重要讲话",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/02/content_23825.html",
+          "date": "2026-09-02",
+          "keyword": "习近平"
+        },
+        {
+          "id": "f9d69bbc9362ca",
+          "source": "光明日报",
+          "title": "习近平圆满结束出席2026年上海合作组织峰会和对吉尔吉斯斯坦的国事访问",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/02/content_23828.html",
+          "date": "2026-09-02",
+          "keyword": "习近平"
+        },
+        {
+          "id": "789462635cb4a2",
+          "source": "光明日报",
+          "title": "习近平抵达开罗对埃及进行国事访问",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/02/content_23827.html",
           "date": "2026-09-02",
           "keyword": "习近平"
         },
@@ -100408,6 +100484,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "习近平主席为推进世界多极化、完善全球治理提供思想引领",
           "url": "https://www.news.cn/politics/leaders/20260902/5c00db7356b54489928fe2cace619f9b/c.html",
+          "date": "2026-09-02",
+          "keyword": "习近平"
+        },
+        {
+          "id": "c734d856b3567d",
+          "source": "新华社",
+          "title": "习近平主席的比什凯克时间",
+          "url": "https://www.news.cn/politics/leaders/20260902/950c926836bf47b6b4d3085083a3d215/c.html",
           "date": "2026-09-02",
           "keyword": "习近平"
         },
@@ -100428,10 +100512,274 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
+          "id": "869c01330365d0",
+          "source": "人民日报",
+          "title": "为推动上海合作组织实现更高质量发展汇聚合力",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/02/content_30178573.html",
+          "date": "2026-09-02",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "2de8e091ed121e",
+          "source": "人民日报",
+          "title": "推动上海合作组织实现更高质量发展",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/02/content_30178571.html",
+          "date": "2026-09-02",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "b72463f08a5f8c",
+          "source": "光明日报",
+          "title": "推动上海合作组织实现更高质量发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/02/content_23836.html",
+          "date": "2026-09-02",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "9eea21cd2fe5d7",
+          "source": "新华社",
+          "title": "为上合组织实现更高质量发展擘画蓝图",
+          "url": "https://www.news.cn/politics/leaders/20260902/ac7c384d65eb462caccb451d56cf5b93/c.html",
+          "date": "2026-09-02",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "fddcf551f28f0c",
+          "source": "人民日报",
+          "title": "上海合作组织二十五周年比什凯克宣言",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/02/content_30178577.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1d509407b534d1",
+          "source": "人民日报",
+          "title": "上海合作组织成员国元首理事会关于加强对受紧急情况影响的国家援助响应能力的声明",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/02/content_30178581.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7115502e782d49",
+          "source": "人民日报",
+          "title": "上海合作组织成员国元首理事会关于加强核安全与核安保多边伙伴关系的宣言",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/02/content_30178580.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ea428e624b136a",
+          "source": "人民日报",
+          "title": "为深化中埃全面战略伙伴关系擘画新蓝图",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/02/content_30178574.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3d99e41754b948",
+          "source": "人民日报",
+          "title": "何维前往挪威驻华使馆吊唁哈拉尔五世逝世",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/02/content_30178587.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "610fd5ee3dc5f5",
+          "source": "人民日报",
+          "title": "共同倡导平等有序的世界多极化 实现更加公正合理的全球治理",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/02/content_30178572.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9bc86d20e97ddf",
+          "source": "人民日报",
+          "title": "彭丽媛出席上海合作组织峰会配偶集体活动",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/02/content_30178578.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1a90b9d9b4ba4e",
+          "source": "人民日报",
+          "title": "推动上海合作组织发展的中国行动成果清单",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/02/content_30178579.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f09ed5d32bbdcb",
+          "source": "人民日报",
+          "title": "李强会见美中贸易全国委员会董事会代表团",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/02/content_30178582.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1ccb8b8e72b96c",
+          "source": "人民日报",
+          "title": "柬埔寨国王西哈莫尼和太后莫尼列来华",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/02/content_30178588.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6840608fa87c47",
+          "source": "人民日报",
+          "title": "第十三届中华慈善奖表彰大会在京召开",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/02/content_30178584.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "091a8be04e3112",
+          "source": "光明日报",
+          "title": "上海合作组织二十五周年比什凯克宣言",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/02/content_23820.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "26cb32b77b2e01",
+          "source": "光明日报",
+          "title": "上海合作组织成员国元首理事会关于加强对受紧急情况影响的国家援助响应能力的声明",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/02/content_23824.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "039d0ec2a2c2d2",
+          "source": "光明日报",
+          "title": "上海合作组织成员国元首理事会关于加强核安全与核安保多边伙伴关系的宣言",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/02/content_23823.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3ec5bfb657d83c",
+          "source": "光明日报",
+          "title": "为中埃关系深入发展擘画新蓝图",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/02/content_23839.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "42a2222ac826a8",
+          "source": "光明日报",
+          "title": "为开创中埃两国关系更加美好的未来增添新动力",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/02/content_23838.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "363a28037822bd",
+          "source": "光明日报",
+          "title": "共同倡导平等有序的世界多极化 实现更加公正合理的全球治理",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/02/content_23837.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "514b088d30ab3c",
+          "source": "光明日报",
+          "title": "彭丽媛出席上海合作组织峰会配偶集体活动",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/02/content_23821.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dabcc47de15829",
+          "source": "光明日报",
+          "title": "推动上海合作组织发展的中国行动成果清单",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/02/content_23822.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e567fc285532cd",
+          "source": "光明日报",
+          "title": "李强会见美中贸易全国委员会董事会代表团",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/02/content_23819.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fac3635559131d",
+          "source": "新华社",
+          "title": "中方敦促早日实现乌克兰危机的政治解决",
+          "url": "https://www.news.cn/world/20260902/1c895d4234a64feb8cd7b42438559ae0/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
           "id": "e6e6a5dc3e8513",
           "source": "新华社",
           "title": "为中埃友好合作注入信心和力量",
           "url": "https://www.news.cn/politics/leaders/20260902/910eb926b49b450f8378f92595723a59/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "70eac3ae3e999a",
+          "source": "新华社",
+          "title": "伊朗南部一婚礼现场遭袭已致4死50伤",
+          "url": "https://www.news.cn/20260902/2a5d6d98679f445f9c589b68ae251b4e/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b4e6ec92da2cfc",
+          "source": "新华社",
+          "title": "伊朗回应美军袭击 称击落一架MQ-9无人机",
+          "url": "https://www.news.cn/20260902/a4ae99d366064aaaaab92355b0db6ec0/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0e581900da7c29",
+          "source": "新华社",
+          "title": "俄军称在黑海击中两艘乌军货船",
+          "url": "https://www.news.cn/20260902/22dcd53147b64663b33ecf52475a9bc8/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "849865cab4bfe7",
+          "source": "新华社",
+          "title": "俄外交部：将作出回应",
+          "url": "https://www.news.cn/world/20260902/1ddb39910dc94f9ba3dacc0e87fa6e81/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "88099109091e9b",
+          "source": "新华社",
+          "title": "内塔尼亚胡：以方抓获哈马斯内部安全机构负责人",
+          "url": "https://www.news.cn/20260902/90b22467ad984b1fb5b6a8091221c525/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8e820c4da5a48f",
+          "source": "新华社",
+          "title": "古巴迎来开学季",
+          "url": "https://www.news.cn/photo/20260902/d17d5310aa27472fb56a9e7d4d83feed/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cebd7e065d6ba4",
+          "source": "新华社",
+          "title": "吉隆泥石流灾害救灾捐赠渠道开通",
+          "url": "https://www.news.cn/20260902/3b76226122134af9b29dd7dacca9d5c5/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fc2e71963ae3f6",
+          "source": "新华社",
+          "title": "国际油价显著上涨",
+          "url": "https://www.news.cn/fortune/20260902/c1f13b9b19bf4b7eb5fceea38af744b9/c.html",
           "date": "2026-09-02",
           "keyword": "综合时政"
         },
@@ -100444,10 +100792,58 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "3bae58296a9f73",
+          "id": "47d978599dc307",
           "source": "新华社",
-          "title": "微视频｜深化全面战略伙伴关系 推进中埃命运共同体建设",
-          "url": "https://www.news.cn/politics/leaders/20260902/e022944562fe4240a25a0f3d96033c55/c.html",
+          "title": "委内瑞拉首都附近国际机场恢复商业客运航班",
+          "url": "https://www.news.cn/20260902/bdf97bddd0cb4b5c9d52d2da321b4d5e/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e861f60f68abb3",
+          "source": "新华社",
+          "title": "德国东部一变电站发现多个爆炸装置",
+          "url": "https://www.news.cn/20260902/96a761649cf249f7a3c7a95974b84a4f/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bfa45a69484c26",
+          "source": "新华社",
+          "title": "德国关闭俄驻波恩总领馆",
+          "url": "https://www.news.cn/world/20260902/37334333fb5746509ec08a700468f0e6/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3802d08d6d382c",
+          "source": "新华社",
+          "title": "德国指认俄涉莱比锡机场袭击 关闭俄驻波恩总领馆",
+          "url": "https://www.news.cn/20260902/dec248de9fe04483a5d0c05980998f34/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6a693e287693fb",
+          "source": "新华社",
+          "title": "扎哈罗娃：在日部署“堤丰”导弹系统“不可接受”",
+          "url": "https://www.news.cn/20260902/a040f9de867e45a6855a6d03877fa46f/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cb8c2cfd554ce1",
+          "source": "新华社",
+          "title": "抢修进行时！通往吉隆口岸救援通道即将抢通",
+          "url": "https://www.news.cn/20260902/97fa97b5c08d4b8f8bf3557ac6c780c5/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2bb22141ec913f",
+          "source": "新华社",
+          "title": "捐赠渠道开通",
+          "url": "https://www.news.cn/local/20260902/21903f0ef5d74269adc79e2a4e9df54d/c.html",
           "date": "2026-09-02",
           "keyword": "综合时政"
         },
@@ -100460,10 +100856,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "15ca2e9f7396d7",
+          "source": "新华社",
+          "title": "无视俄方警告 英首相称将继续力挺乌克兰",
+          "url": "https://www.news.cn/20260902/c561d8088a79464b9bc2a8bd5433f73a/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a35f57ed1a0aad",
           "source": "新华社",
           "title": "比什凯克再聚首，共赴上合新征程",
           "url": "https://www.news.cn/politics/leaders/20260902/36622722ddb742c7aab11a1ce8155388/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3bae58296a9f73",
+          "source": "新华社",
+          "title": "深化全面战略伙伴关系 推进中埃命运共同体建设",
+          "url": "https://www.news.cn/politics/leaders/20260902/e022944562fe4240a25a0f3d96033c55/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4c0d0cd3f195c7",
+          "source": "新华社",
+          "title": "特朗普威胁伊朗若报复将遭受“更猛烈”打击",
+          "url": "https://www.news.cn/world/20260902/4e4c37b9b7b049aeb3dca856f3ea30a7/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cee1f0e9cc1451",
+          "source": "新华社",
+          "title": "第83届威尼斯电影节即将开幕",
+          "url": "https://www.news.cn/photo/20260902/01a4dace7994451aa3ff30ea1743f138/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ddf1385f5e958c",
+          "source": "新华社",
+          "title": "约旦称数小时内拦截10枚伊朗导弹",
+          "url": "https://www.news.cn/20260902/f52e8f827cbc4746954176ee1c6d9570/c.html",
           "date": "2026-09-02",
           "keyword": "综合时政"
         },
@@ -100474,6 +100910,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/world/20260902/0cde670263334af78368daf8464c1ccc/c.html",
           "date": "2026-09-02",
           "keyword": "综合时政"
+        },
+        {
+          "id": "ae3d5aaad5b40a",
+          "source": "新华社",
+          "title": "阿根廷外长：将以更具体的外交行动维护马岛主权",
+          "url": "https://www.news.cn/20260902/b424283f96a2441eb2c12e4c0be5e4f3/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "547e2562b1a6a0",
+          "source": "新华社",
+          "title": "阿联酋迪拜举办2026中东能源展",
+          "url": "https://www.news.cn/photo/20260902/a1c749106deb4d7c8cbfe9cda30576d8/c.html",
+          "date": "2026-09-02",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -100481,68 +100933,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.4,
+          "duration": 12.9,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260902.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.1,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/02/node_01.html"
+          "status": "ok",
+          "count": 17,
+          "duration": 2.1
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 9,
-          "duration": 2.8
+          "count": 33,
+          "duration": 2.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 34.9
+          "duration": 17.5
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.3
+          "duration": 6.0
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 4.7,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/02/node_01.html"
+          "status": "ok",
+          "count": 14,
+          "duration": 4.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.5
+          "duration": 13.9
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.3
+          "duration": 3.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 1,
-          "duration": 8.5
+          "count": 2,
+          "duration": 9.9
         },
         {
           "source": "广东发布",
-          "status": "error",
+          "status": "ok",
           "count": 0,
-          "duration": 18.0,
-          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+          "duration": 56.9
         }
       ]
     }
   ],
-  "generatedAt": "2026-09-02T02:08:49+08:00"
+  "generatedAt": "2026-09-02T07:54:21+08:00"
 };
