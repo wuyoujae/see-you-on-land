@@ -102158,7 +102158,100 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 77.7
         }
       ]
+    },
+    {
+      "date": "2026-09-03",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "64875bb532a6b1",
+          "source": "新华社",
+          "title": "时光见证中埃情谊历久弥新",
+          "url": "https://www.news.cn/politics/leaders/20260903/7b88e35feac34e97b4dfe1be5e4d5d3a/c.html",
+          "date": "2026-09-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f8348c9680002d",
+          "source": "新华社",
+          "title": "记者手记：人心相依 守望相助",
+          "url": "https://www.news.cn/20260903/2302169a9559494cb50ddf4ec3f326ba/c.html",
+          "date": "2026-09-03",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 51.5,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260903.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.1,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/03/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 2,
+          "duration": 13.6
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.8
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.2
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.2,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/03/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.7
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.8
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.5
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 58.2
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-02T20:28:44+08:00"
+  "generatedAt": "2026-09-03T01:02:07+08:00"
 };
