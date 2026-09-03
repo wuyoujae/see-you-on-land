@@ -104244,7 +104244,109 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 47.3
         }
       ]
+    },
+    {
+      "date": "2026-09-04",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 3
+        }
+      ],
+      "articles": [
+        {
+          "id": "6278d45b9c0818",
+          "source": "学习强国",
+          "title": "正确清理鼻腔，不再鼻塞张口！",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=11552561696704860230&item_id=11552561696704860230",
+          "date": "2026-09-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f16e0c3152797c",
+          "source": "新华社",
+          "title": "两大文明跨越时空的双向奔赴",
+          "url": "https://www.news.cn/politics/leaders/20260904/b387c33da8434d1c900cf2dd48af34e5/c.html",
+          "date": "2026-09-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1461c3cc48b527",
+          "source": "新华社",
+          "title": "视频画报｜风雨同舟启新程——习近平主席的开罗时间",
+          "url": "https://www.news.cn/politics/leaders/20260904/4ebd6198b957483984f7b6c5fcb08a0a/c.html",
+          "date": "2026-09-04",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 11.7,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260904.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.1,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/04/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 2,
+          "duration": 2.6
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 11.5
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.5
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.0,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/04/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.6
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 1,
+          "duration": 2.4
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.1
+        },
+        {
+          "source": "广东发布",
+          "status": "error",
+          "count": 0,
+          "duration": 102.2,
+          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NameResolut"
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-03T20:29:28+08:00"
+  "generatedAt": "2026-09-04T00:55:11+08:00"
 };
