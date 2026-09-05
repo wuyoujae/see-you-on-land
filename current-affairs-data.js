@@ -106289,7 +106289,7 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "习近平",
-          "count": 13
+          "count": 14
         },
         {
           "name": "消费",
@@ -106378,6 +106378,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "科学的未来在青年——习近平总书记关心青年创新创造的故事",
           "url": "https://www.news.cn/politics/xxjxs/20260905/3f5a8eb884ce433c96349b24f62efd41/c.html",
+          "date": "2026-09-05",
+          "keyword": "习近平"
+        },
+        {
+          "id": "adc015629413b2",
+          "source": "新闻联播",
+          "title": "深耕少儿文化沃土 培养德智体美劳全面发展的社会主义建设者和接班人——习近平总书记致信祝贺中央广播电视总台《小喇叭》节目开播70周年引发热烈反响",
+          "url": "https://tv.cctv.com/2026/09/05/VIDEz4BWtdvMKROkGGu8w18h260905.shtml",
           "date": "2026-09-05",
           "keyword": "习近平"
         },
@@ -106990,26 +106998,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "6cbbce7e39297a",
+          "source": "新华社",
+          "title": "“张雪机车”德比斯法国站首回合获得第三名",
+          "url": "https://www.news.cn/sports/20260905/0c921218a56a498f875a9488dc338a56/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
           "id": "7eccd60a13d591",
           "source": "新华社",
           "title": "丁薛祥会见俄罗斯总统普京并与俄方共同主持中俄 双边 机制性会议",
           "url": "https://www.news.cn/politics/leaders/20260905/5105afb18de840cb9e987df94f11f199/c.html",
-          "date": "2026-09-05",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "b0172ec942746d",
-          "source": "新华社",
-          "title": "万亩稻田拓展农文旅融合新空间",
-          "url": "https://www.news.cn/local/20260905/e252ab4596394fc0a8ff0cb623b2c9ce/c.html",
-          "date": "2026-09-05",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "aaf806066432a3",
-          "source": "新华社",
-          "title": "两部门对福建提升国家自然灾害救助应急响应至三级",
-          "url": "https://www.news.cn/local/20260905/8ead807287554837a988f21c56b7844d/c.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
@@ -107024,24 +107024,8 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "b915087a9d0d0f",
           "source": "新华社",
-          "title": "中国 使馆：一名中国公民从尼泊尔受灾水电站获救",
+          "title": "中国使馆：一名中国公民从尼泊尔受灾水电站获救",
           "url": "https://www.news.cn/world/20260905/e9b90a16d7374e35813e2f23de14d582/c.html",
-          "date": "2026-09-05",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "a28372fe9a14ca",
-          "source": "新华社",
-          "title": "中国宋庆龄基金会“未来讲堂”引领学生探秘AI世界",
-          "url": "https://www.news.cn/local/20260905/733a1602b1584288bac4d1df8da82d51/c.html",
-          "date": "2026-09-05",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "327eac175116df",
-          "source": "新华社",
-          "title": "中国工程院院士管华诗逝世 享年87岁",
-          "url": "https://www.news.cn/politics/20260905/a136f8bbdd0b4a12846125a2bb872632/c.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
@@ -107054,18 +107038,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "69b7acb911d5b1",
-          "source": "新华社",
-          "title": "中国气象局：以场景化数智化推动气象服务扩能提质",
-          "url": "https://www.news.cn/politics/20260905/5847f8979eb94f2f80987f62df8b8135/c.html",
-          "date": "2026-09-05",
-          "keyword": "综合时政"
-        },
-        {
           "id": "db679b2f70988a",
           "source": "新华社",
           "title": "中国电影《给阿嬷的情书》登陆北美院线",
           "url": "https://www.news.cn/20260905/b6e0c96b7fb64836be434868b0c02f4e/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b953f060d0bfba",
+          "source": "新华社",
+          "title": "中宣部召开党报党刊理论版改进文风经验交流会",
+          "url": "https://www.news.cn/politics/20260905/63243b68b57545cb8199880d3cc70e91/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aaa46a019f2e25",
+          "source": "新华社",
+          "title": "中广核山东招远核电项目2号机组主体工程开工",
+          "url": "https://www.news.cn/fortune/20260905/6b480f95f1924ed68b6f9d6ece9f1852/c.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
@@ -107082,6 +107074,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "丹麦拟明年开始向欧盟以外国家遣返非法移民",
           "url": "https://www.news.cn/20260905/b706715157854cf183d172443721c0ee/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fd53ffb17db46c",
+          "source": "新华社",
+          "title": "仁心济世 薪火相传——送别中医药学家王永炎",
+          "url": "https://www.news.cn/20260905/05543b03d754462aa28acb6acf4116a3/c.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
@@ -107126,18 +107126,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "b38e9a2e9a886c",
+          "id": "e4b59a180ed7cd",
           "source": "新华社",
-          "title": "吉隆口岸遭泥石流冲击当日 民警冒险抵近航拍现场画面",
-          "url": "https://www.news.cn/20260905/6a3f56d150ee4f5b98724d024f7cc28b/c.html",
+          "title": "十年磨一剑：探访太原能源低碳发展论坛“黑科技”",
+          "url": "https://www.news.cn/tech/20260905/5597fb3cf2cf47489a06dba86b0bd485/c.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
         {
-          "id": "324a4adf0a4ac6",
+          "id": "ac0de93e3d9251",
           "source": "新华社",
-          "title": "吉隆泥石流灾害核心区，五星红旗迎风飘扬",
-          "url": "https://www.news.cn/politics/20260905/9d52f5ba814f4ace9c396a69efab7893/c.html",
+          "title": "吉隆口岸核心区域上方的堰塞湖险情基本解除",
+          "url": "https://www.news.cn/photo/20260905/32c77725689c4811a82e5aa43857716d/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5ed4c40f89f3f9",
+          "source": "新华社",
+          "title": "向核心区挺进",
+          "url": "https://www.news.cn/20260905/8c7eed02ff714a30b554057e004c40d3/c.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
@@ -107150,14 +107158,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "7ef24a99fa23dc",
-          "source": "新华社",
-          "title": "国家发改委安排2000万元支持江西灾后应急恢复",
-          "url": "https://www.news.cn/local/20260905/a2bf4a11cc54496e9aa14d8e63c9acc3/c.html",
-          "date": "2026-09-05",
-          "keyword": "综合时政"
-        },
-        {
           "id": "fe9d9225d0cdd4",
           "source": "新华社",
           "title": "国开行簿记发行50亿元绿色金融债券",
@@ -107166,18 +107166,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "866b2bc2f09bbf",
+          "id": "84c77442313128",
           "source": "新华社",
-          "title": "尼泊尔泥石流已致1344人死亡 4898人失联",
-          "url": "https://www.news.cn/world/20260905/6666638e203241b5aa0c613b6577f639/c.html",
+          "title": "多路记者奔赴江西遂川泥石流现场",
+          "url": "https://www.news.cn/20260905/ee9ee8b699b14533bcc03d501ed51efc/c.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
         {
-          "id": "2432001987e557",
+          "id": "6526c87afee59b",
           "source": "新华社",
-          "title": "当育种遇上AI：种业有了“显微镜”和“智慧脑”",
-          "url": "https://www.news.cn/20260905/35cefcc3aaac401b9efa808259197ba2/c.html",
+          "title": "强降雨灾害已造成湖南桂东2人死亡",
+          "url": "https://www.news.cn/local/20260905/1f059e820ac4462d90441847ddbe300f/c.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
@@ -107198,10 +107198,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "2d337f4b7b16aa",
+          "id": "5abaf36ccd6888",
           "source": "新华社",
-          "title": "我在现场丨刚准备飞无人机，就听到山体滑坡的巨响",
-          "url": "https://www.news.cn/local/20260905/51dd149bfc1e473f8e8408f7410b92dd/c.html",
+          "title": "我在现场丨河谷深处，是无言的坚守与担当",
+          "url": "https://www.news.cn/20260905/f0e55f9061dc4ca59b72e235eb5a419a/c.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
@@ -107218,14 +107218,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "新华国际传播指数平台发布《讲好亚太故事 贡献 中国 方案》报告",
           "url": "https://www.news.cn/world/20260905/3a74ced2fd864e1a82fb5a774448c595/c.html",
-          "date": "2026-09-05",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "ade149b9eaf732",
-          "source": "新华社",
-          "title": "曾经“最袖珍”“最寒酸”的动物园， 现在 怎么样了？",
-          "url": "https://www.news.cn/local/20260905/3d864df9e59b4579abb466eb86bbd824/c.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
@@ -107318,6 +107310,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "d20b7d948fd4d9",
+          "source": "新华社",
+          "title": "美“唱反调”",
+          "url": "https://www.news.cn/world/20260905/89ddaf02ed9a47ebac12c24813159d78/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d5f64e7e6e8b35",
           "source": "新华社",
           "title": "美加贸易争端致加拿大就业人数下滑",
@@ -107342,18 +107342,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "a47154584900bd",
+          "id": "c72b12c21d9417",
           "source": "新华社",
-          "title": "莫把疲惫归为“秋乏” 医生支招为身体“充电”",
-          "url": "https://www.news.cn/20260905/49da0450b59e47848d76baa02bdb9532/c.html",
+          "title": "联大敦促使用更准确方式绘制地图",
+          "url": "https://www.news.cn/world/20260905/36f0ea09acd740b2945a2a4fc74d2775/c.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
         {
-          "id": "f35066d35c0e00",
+          "id": "6ff67a4ed71131",
           "source": "新华社",
-          "title": "西藏吉隆泥石流灾害慈善捐赠已超过6.6亿元",
-          "url": "https://www.news.cn/local/20260905/2fef4d5e3afc443db44b4c0f221d5b0c/c.html",
+          "title": "莆田：竞渡龙舟化身“生命之舟” 安全转移100余人",
+          "url": "https://www.news.cn/20260905/ca84152acae541a1921ca4ef80cf224f/c.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
@@ -107366,10 +107366,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "be125d85d45a9b",
+          "id": "1486ea9a85ad8e",
           "source": "新华社",
-          "title": "让盲人“看见”世界 助残助老产品亮相福祉博览会",
-          "url": "https://www.news.cn/fortune/20260905/6f84e0f46fc748c9bf4bb796882d0bf1/c.html",
+          "title": "追光丨在大海道戈壁 赴一场摩托荒野之约",
+          "url": "https://www.news.cn/20260905/d2d17dd9d2ec426891b37a07cba3c6d9/c.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
@@ -107378,6 +107378,110 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "镜观中国·新华社国内新闻照片一周精选",
           "url": "https://www.news.cn/photo/20260905/5a43d6d37c254b18a1459310b3061372/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2da5c42c5dd473",
+          "source": "新华社",
+          "title": "风云气象卫星驰援尼泊尔 助力跨境灾害监测",
+          "url": "https://www.news.cn/world/20260905/ce75bf6510d84304b59cf408c52e6fe0/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0665c39ab5874f",
+          "source": "新闻联播",
+          "title": "《新闻联播》 20260905 19:00",
+          "url": "https://tv.cctv.com/2026/09/05/VIDE8RyRC5RpWPHrhcCjDFqG260905.shtml",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8409801ad823f3",
+          "source": "新闻联播",
+          "title": "【新思想引领新征程】兜住万家事 筑牢平安网 书写新时代基层治理的民生答卷",
+          "url": "https://tv.cctv.com/2026/09/05/VIDEsDbiDZF98dX1D53QuBjH260905.shtml",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "17b880a1cf60c1",
+          "source": "新闻联播",
+          "title": "丁薛祥会见俄罗斯总统并与俄方共同主持中俄双边机制性会议",
+          "url": "https://tv.cctv.com/2026/09/05/VIDELI1aC0snGA9F1Nn9HyCo260905.shtml",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e5af54da022481",
+          "source": "新闻联播",
+          "title": "上半年我国支持城市更新减税降费及退税4870亿元",
+          "url": "https://tv.cctv.com/2026/09/05/VIDEcpOC7Odbv5OFndcVtDPa260905.shtml",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "90da8306baa75d",
+          "source": "新闻联播",
+          "title": "丰收时节 特色农产品助力农民增收",
+          "url": "https://tv.cctv.com/2026/09/05/VIDEgMgKbAaixbykhc5YGUxu260905.shtml",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "61861737cfb023",
+          "source": "新闻联播",
+          "title": "也门政府军与胡塞武装冲突加剧",
+          "url": "https://tv.cctv.com/2026/09/05/VIDEHiIXF80sgPHKtaKl3yiP260905.shtml",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c3b0fa12f83177",
+          "source": "新闻联播",
+          "title": "亚太媒体高端论坛在深圳举办",
+          "url": "https://tv.cctv.com/2026/09/05/VIDE4szeaUrDfkiW7Dg0gDOC260905.shtml",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "34735aca20a642",
+          "source": "新闻联播",
+          "title": "俄称一周控制15个居民点 乌称国家安全局总部遭袭",
+          "url": "https://tv.cctv.com/2026/09/05/VIDEth1FpSs43VTdRikpiUyH260905.shtml",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a1b73ee8aaab27",
+          "source": "新闻联播",
+          "title": "前7个月我国服务贸易保持较快增长",
+          "url": "https://tv.cctv.com/2026/09/05/VIDE0Dsjk6tx3erdlwnkizwc260905.shtml",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0e3a2b73520299",
+          "source": "新闻联播",
+          "title": "国内联播快讯",
+          "url": "https://tv.cctv.com/2026/09/05/VIDEOivZr9Co7J0hHNHKZb66260905.shtml",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3fc1ad0a1d72c0",
+          "source": "新闻联播",
+          "title": "国际联播快讯",
+          "url": "https://tv.cctv.com/2026/09/05/VIDEGly9v0glXY7DM6Ypd1zm260905.shtml",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "770e57d87c6e2c",
+          "source": "新闻联播",
+          "title": "西藏吉隆县泥石流灾害抢险救援工作持续推进",
+          "url": "https://tv.cctv.com/2026/09/05/VIDE2pfy5ZGIdJmfLVOsAEiD260905.shtml",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
@@ -107441,67 +107545,66 @@ window.CURRENT_AFFAIRS_DATA = {
       "sourceStatus": [
         {
           "source": "新闻联播",
-          "status": "error",
-          "count": 0,
-          "duration": 15.2,
-          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260905.shtml"
+          "status": "ok",
+          "count": 13,
+          "duration": 0.2
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 29,
-          "duration": 6.9
+          "duration": 2.5
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 2.2
+          "duration": 2.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 17.8
+          "duration": 21.8
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 15,
-          "duration": 6.0
+          "duration": 6.3
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 1.9
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.5
+          "duration": 12.0
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 2,
-          "duration": 2.9
+          "duration": 2.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 9.0
+          "duration": 10.1
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 5,
-          "duration": 76.0
+          "duration": 64.8
         }
       ]
     }
   ],
-  "generatedAt": "2026-09-05T19:34:15+08:00"
+  "generatedAt": "2026-09-05T22:24:21+08:00"
 };
