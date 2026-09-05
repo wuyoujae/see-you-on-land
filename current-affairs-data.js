@@ -106289,18 +106289,30 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "习近平",
-          "count": 5
+          "count": 12
         },
         {
           "name": "经济",
-          "count": 3
+          "count": 4
         },
         {
           "name": "消费",
+          "count": 3
+        },
+        {
+          "name": "全面从严治党",
           "count": 2
         }
       ],
       "articles": [
+        {
+          "id": "7e99992b4facec",
+          "source": "中国政府网",
+          "title": "习近平主席出席2026年上海合作组织峰会并对吉尔吉斯斯坦、埃及进行国事访问纪实",
+          "url": "https://www.gov.cn/yaowen/liebiao/202609/content_7080223.htm",
+          "date": "2026-09-05",
+          "keyword": "习近平"
+        },
         {
           "id": "05ec3b223a8fc4",
           "source": "光明日报",
@@ -106314,6 +106326,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "光明日报",
           "title": "深入学习贯彻习近平党建思想 抓深抓实全面从严治党和反腐败工作",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202609/05/content_24036.html",
+          "date": "2026-09-05",
+          "keyword": "习近平"
+        },
+        {
+          "id": "193a08e7cd4eab",
+          "source": "广东发布",
+          "title": "习近平致信祝贺中央广播电视总台《小喇叭》节目开播70周年",
+          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4951653.html",
           "date": "2026-09-05",
           "keyword": "习近平"
         },
@@ -106336,8 +106356,48 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "d778ad7c824a2f",
           "source": "新华社",
-          "title": "学习进行时丨科学的未来在青年——习近平总书记 关心青年创新创造的故事",
+          "title": "科学的未来在青年—— 习近平 总书记关心青年创新创造的故事",
           "url": "https://www.news.cn/politics/xxjxs/20260905/3f5a8eb884ce433c96349b24f62efd41/c.html",
+          "date": "2026-09-05",
+          "keyword": "习近平"
+        },
+        {
+          "id": "3ba69e6dadb539",
+          "source": "求是",
+          "title": "习近平主席中亚、中东之旅难忘瞬间",
+          "url": "https://www.qstheory.cn/20260905/933f2d0ffc294b0582c74c28f56497db/c.html",
+          "date": "2026-09-05",
+          "keyword": "习近平"
+        },
+        {
+          "id": "a3108d2b5264e2",
+          "source": "求是",
+          "title": "习近平主席出席2026年上海合作组织峰会并对吉尔吉斯斯坦、埃及进行国事访问纪实",
+          "url": "https://www.qstheory.cn/20260905/152c4cee910b40bf976ff242fba70b6a/c.html",
+          "date": "2026-09-05",
+          "keyword": "习近平"
+        },
+        {
+          "id": "42bf7a8052ac67",
+          "source": "求是",
+          "title": "习近平主席的“比什凯克时间”：主动引领历史航向的大国担当",
+          "url": "https://www.qstheory.cn/20260905/61c7bdc3d81846f0a5c5cd4ca467fe07/c.html",
+          "date": "2026-09-05",
+          "keyword": "习近平"
+        },
+        {
+          "id": "124e7a7bfddc93",
+          "source": "求是",
+          "title": "习近平主席的开罗时间：风雨同舟启新程",
+          "url": "https://www.qstheory.cn/20260905/a9fee7e371224732af11f7c43b6971e0/c.html",
+          "date": "2026-09-05",
+          "keyword": "习近平"
+        },
+        {
+          "id": "98315b7a15e56f",
+          "source": "求是",
+          "title": "习近平总书记关心青年创新创造的故事",
+          "url": "https://www.qstheory.cn/20260905/c17771150e4c4410b2537357bb97e41a/c.html",
           "date": "2026-09-05",
           "keyword": "习近平"
         },
@@ -106366,6 +106426,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "经济"
         },
         {
+          "id": "2c3a3dd48d61e2",
+          "source": "新华社",
+          "title": "重视AI赋能，一道讲好亚太经济合作故事",
+          "url": "https://www.news.cn/world/20260905/d975332ce80347dd8acfb2f0425a48a9/c.html",
+          "date": "2026-09-05",
+          "keyword": "经济"
+        },
+        {
           "id": "666f0065dabd09",
           "source": "人民日报",
           "title": "前7月境外人员在华消费同比增长27.8%",
@@ -106380,6 +106448,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://epaper.gmw.cn/gmrb/html/content/202609/05/content_24050.html",
           "date": "2026-09-05",
           "keyword": "消费"
+        },
+        {
+          "id": "5736720ab45080",
+          "source": "新华社",
+          "title": "暑期入境消费为啥火？",
+          "url": "https://www.news.cn/fortune/20260905/090de1d2825e444484f05e23128d6116/c.html",
+          "date": "2026-09-05",
+          "keyword": "消费"
+        },
+        {
+          "id": "b7c633842a94b0",
+          "source": "求是",
+          "title": "全面从严治党的“牛鼻子”是什么、如何牵",
+          "url": "https://www.qstheory.cn/20260905/c6cf83130c4d467c894e7eee002f5d7e/c.html",
+          "date": "2026-09-05",
+          "keyword": "全面从严治党"
         },
         {
           "id": "7909fb9a302af0",
@@ -106782,26 +106866,170 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "cc183d8be08366",
-          "source": "新华社",
-          "title": "以色列空袭黎巴嫩南部造成至少5人死亡",
-          "url": "https://www.news.cn/world/20260905/0dccdf474d8642d49e7882e7c9de6bf1/c.html",
+          "id": "24742bf370fbba",
+          "source": "广东发布",
+          "title": "三条路线、跨越六城 亚太媒体记者在广东见证中国式现代化万千气象",
+          "url": "https://www.gd.gov.cn/gdywdt/dsdt/content/post_4951654.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
         {
-          "id": "a411a7f0429019",
-          "source": "新华社",
-          "title": "国航北京至萨格勒布航线首航成功",
-          "url": "https://www.news.cn/20260905/e4b64ddaf7754727baad95b588400fac/c.html",
+          "id": "5b651a5fa786c1",
+          "source": "广东发布",
+          "title": "第32次APEC中小企业部长会议在穗举行 各方开展多层次多形式交流",
+          "url": "https://www.gd.gov.cn/gdywdt/dsdt/content/post_4951655.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
         {
           "id": "6eee5cf8a66668",
           "source": "新华社",
-          "title": "德比斯首夺杆位 “张雪机车”包揽法国站排位赛前两名",
+          "title": "2026世界超级摩托车锦标赛： “张雪机车”包揽法国站排位赛前两名",
           "url": "https://www.news.cn/sports/20260905/762ed00528224cc7823a2a75709b324e/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "05f4b1273c323e",
+          "source": "新华社",
+          "title": "“党性教育是共产党人修身养性的必修课”",
+          "url": "https://www.news.cn/politics/leaders/20260905/a3549c30072c44c391fdd88167f6d108/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a32cd07a7a2801",
+          "source": "新华社",
+          "title": "“老外”带走哪些中国“新特产”",
+          "url": "https://www.news.cn/politics/20260905/1de3482b8dd348639227117e1eca1413/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0f1767ec384a2f",
+          "source": "新华社",
+          "title": "中东欧四国呼吁欧盟统一行动应对严重旱情",
+          "url": "https://www.news.cn/world/20260905/4cc60515dec04382ae2d29f402416dca/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "312a610fb2d2ba",
+          "source": "新华社",
+          "title": "中国建筑集团有限公司党组成员、副总经理陈勇被查",
+          "url": "https://www.news.cn/legal/20260905/1f9c2120f09546efa14c41471be8a158/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0da5458339c058",
+          "source": "新华社",
+          "title": "中国羽毛球大师赛：国羽锁定女双决赛席位",
+          "url": "https://www.news.cn/sports/20260905/cdee14f400b94265aa937cdaae645a75/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "492f3fd02d6ec4",
+          "source": "新华社",
+          "title": "亚太多国媒体走进珠海 沉浸式感受大湾区蓬勃活力",
+          "url": "https://www.news.cn/20260905/9036dda3143046d5b76f65c46f484063/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "10d37bc9ac4997",
+          "source": "新华社",
+          "title": "亚太媒体高端论坛外方嘉宾在广州感受开放创新合作魅力",
+          "url": "https://www.news.cn/20260905/4432cef9978d4d21a9fe1036d8e08e97/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "31e9b06d60b171",
+          "source": "新华社",
+          "title": "从跟跑到领跑，厦门的创新气质是如何炼成的？",
+          "url": "https://www.news.cn/fortune/20260905/2c668f7236594bf29b0bb3a9b858c283/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c170e4fee2c218",
+          "source": "新华社",
+          "title": "以色列空袭黎巴嫩南部造成至少5人死亡",
+          "url": "https://www.news.cn/20260905/600bf7e5f0b140d19934bd146959946a/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b7d55e8b6b5faf",
+          "source": "新华社",
+          "title": "写在亚太媒体高端论坛开幕之际",
+          "url": "https://www.news.cn/world/20260905/c9cd8c860c0d437ebad32caf84f56594/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3ddf80f5cf8527",
+          "source": "新华社",
+          "title": "冰崩为何能“变成”泥石流",
+          "url": "https://www.news.cn/politics/20260905/23512503fa59455586ed9d48f2cccddb/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4d7f9c47b21848",
+          "source": "新华社",
+          "title": "加拿大海盆北部高纬冰区发现极鳕幼鱼",
+          "url": "https://www.news.cn/tech/20260905/1ab2ddc9cd044ffa8b66d922006d989b/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "820bd92a189c75",
+          "source": "新华社",
+          "title": "华南江南降雨减弱 北方雨水发展增多",
+          "url": "https://www.news.cn/politics/20260905/70ad119826ae4145a0ad81a3d30958a3/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "57ec4abca1dc2c",
+          "source": "新华社",
+          "title": "唠“科”话丨网红碳板跑鞋，为啥不能日常穿？",
+          "url": "https://www.news.cn/politics/20260905/03c8d1122cc64580931efbb1e73e254f/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9d2d929c70119e",
+          "source": "新华社",
+          "title": "埃及女孩在白银：黄土凝瓷韵 剪纸寄温情",
+          "url": "https://www.news.cn/world/20260905/7e0e18739a1c4613aff086d0d2fcc7eb/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "edb7927b946f35",
+          "source": "新华社",
+          "title": "威特科夫和库什纳将访俄乌",
+          "url": "https://www.news.cn/world/20260905/60d3c371cc7544d8b19dc4faf1a41aed/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fb442fb927465f",
+          "source": "新华社",
+          "title": "德比斯首夺杆位 “张雪机车”包揽法国站排位赛前两名",
+          "url": "https://www.news.cn/20260905/6d167a48ff0043ffb5148d4354362a63/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c52604cf16b955",
+          "source": "新华社",
+          "title": "我国将实施教师发展国家行动 对师德失范“零容忍”",
+          "url": "https://www.news.cn/politics/20260905/cab0cc2660d74f44819e854f49bfeb9e/c.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
@@ -106814,18 +107042,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "13ac8b8ce8aef6",
+          "id": "4b8985856834c2",
           "source": "新华社",
-          "title": "泥痕为证——镜头记录吉隆泥石流灾害救援瞬间",
-          "url": "https://www.news.cn/local/20260905/603b333ac13346eda5f66bc55c0624f9/c.html",
+          "title": "新华网评·蒸蒸日上的中国丨青春华章因创新更“燃”",
+          "url": "https://www.news.cn/comments/20260905/be70b66f01cf4074bd97cba7a9ed7747/c.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
         {
-          "id": "44181123b2055f",
+          "id": "c185147f7e2996",
+          "source": "新华社",
+          "title": "民政部：西藏吉隆泥石流灾害慈善捐赠已超6.6亿元",
+          "url": "https://www.news.cn/20260905/05237ffceaf7412185bcd290877f7b2b/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5e39743b12f44d",
+          "source": "新华社",
+          "title": "湖北燕矶长江大桥顺利通过荷载试验",
+          "url": "https://www.news.cn/20260905/8463fed6f6194b1da646b2759d5aba07/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "36352564e46e5a",
           "source": "新华社",
           "title": "特朗普称“可能很快”打击伊朗镐山",
-          "url": "https://www.news.cn/20260905/066910e08b0348bcb612c51e04e2063a/c.html",
+          "url": "https://www.news.cn/world/20260905/38f32b72e5f64233a244e2e0ee3db259/c.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
@@ -106838,10 +107082,66 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "3a523d8ca45ebc",
+          "id": "24fb03a753755a",
+          "source": "新华社",
+          "title": "玻利维亚一军营爆炸致至少2人死亡",
+          "url": "https://www.news.cn/20260905/cc2845ac2ee44e37932c82dabb02999c/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "042a01b23498b6",
+          "source": "新华社",
+          "title": "生育险、长护险、医保报销将有这些变化",
+          "url": "https://www.news.cn/politics/20260905/14ebb1843fc14bacb22992ab099556fe/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ba58054ee5829a",
+          "source": "新华社",
+          "title": "美国务院批准对沙特和阿曼军售",
+          "url": "https://www.news.cn/world/20260905/f20ec4f86ee14d5ea073f2509df72562/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8d8b49ae72ef69",
           "source": "新华社",
           "title": "美国柴油零售价格创新高",
-          "url": "https://www.news.cn/20260905/c505b9f121184bfc9c195a7a186eacb4/c.html",
+          "url": "https://www.news.cn/20260905/43838e026af445f99e22cc0f8a0ffb0d/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bf6368d8e9662c",
+          "source": "新华社",
+          "title": "苏丹南科尔多凡州两地遭袭致26人死亡",
+          "url": "https://www.news.cn/20260905/f3248ffb439a44c4b105cd136d254f69/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f35066d35c0e00",
+          "source": "新华社",
+          "title": "西藏吉隆泥石流灾害慈善捐赠已超过6.6亿元",
+          "url": "https://www.news.cn/local/20260905/2fef4d5e3afc443db44b4c0f221d5b0c/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8f269db063eb79",
+          "source": "新华社",
+          "title": "让“美丽产业”成为“幸福产业”",
+          "url": "https://www.news.cn/politics/leaders/20260905/39a8860ca9464f71ae18481449d3c481/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4f8125fa897b63",
+          "source": "新华社",
+          "title": "闹市玉米地为何成“网红”",
+          "url": "https://www.news.cn/fortune/20260905/a4c8ab2040b7414e8bb00e8533fd0355/c.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
         },
@@ -106852,6 +107152,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/20260905/6b100569969047d2b4bd18d22605682a/c.html",
           "date": "2026-09-05",
           "keyword": "综合时政"
+        },
+        {
+          "id": "0a1b5b25856666",
+          "source": "新华社",
+          "title": "零勇志4秒69问鼎“一带一路”国际攀岩挑战赛",
+          "url": "https://www.news.cn/20260905/a7521c22d1e74481ac27ebb8742a1457/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "75a7c20ee42b4a",
+          "source": "新华社",
+          "title": "零勇志问鼎“一带一路”国际攀岩挑战赛",
+          "url": "https://www.news.cn/sports/20260905/e00db8b0e2ad4278a15916b6a6b77d62/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4891d955509968",
+          "source": "求是",
+          "title": "推动上合组织合作取得更多务实成果",
+          "url": "https://www.qstheory.cn/20260905/1f02e671da854df6a34fb0deecb0cf54/c.html",
+          "date": "2026-09-05",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -106859,65 +107183,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.5,
+          "duration": 12.1,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260905.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 29,
-          "duration": 2.9
+          "duration": 2.3
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 13,
-          "duration": 2.4
+          "count": 42,
+          "duration": 2.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 14.8
+          "duration": 11.6
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 6.1
+          "count": 7,
+          "duration": 6.3
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 1.8
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 11.8
+          "duration": 12.7
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.8
+          "duration": 2.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 0,
-          "duration": 10.0
+          "count": 1,
+          "duration": 9.8
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 0,
-          "duration": 44.8
+          "count": 3,
+          "duration": 71.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-09-05T07:50:19+08:00"
+  "generatedAt": "2026-09-05T10:27:15+08:00"
 };
