@@ -107604,7 +107604,108 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 64.8
         }
       ]
+    },
+    {
+      "date": "2026-09-06",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 3
+        }
+      ],
+      "articles": [
+        {
+          "id": "5e85761766822e",
+          "source": "半月谈",
+          "title": "让沂蒙精神在新时代绽放新光彩 ——兰陵县推动红色基因融入日常、转化为实干担当",
+          "url": "http://www.banyuetan.org/dfgc/detail/20260906/1000200033136151788624717759547160_1.html",
+          "date": "2026-09-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "35486697a5c7a4",
+          "source": "新华社",
+          "title": "《新大众文艺的繁荣发展与世界影响》即将发布",
+          "url": "https://www.news.cn/sikepro/20260906/57b26b70ae1649ff9e28a9a586cd82ba/c.html",
+          "date": "2026-09-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "11e3b41a6e2efd",
+          "source": "新华社",
+          "title": "国际社会高度评价习近平主席出席2026年上海合作组织峰会",
+          "url": "https://www.news.cn/politics/leaders/20260906/1cde01995558423b866ee99ab23c743e/c.html",
+          "date": "2026-09-06",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 8.3,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260906.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.4,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/06/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 2,
+          "duration": 3.2
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 1,
+          "duration": 14.8
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.4
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.2,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/06/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.6
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.2
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.7
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 27.6
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-05T22:24:21+08:00"
+  "generatedAt": "2026-09-06T01:06:39+08:00"
 };
