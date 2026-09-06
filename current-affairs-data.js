@@ -108838,7 +108838,100 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 79.3
         }
       ]
+    },
+    {
+      "date": "2026-09-07",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "539f584fb2daac",
+          "source": "新华社",
+          "title": "129个国家和地区客商投洽会上寻商机",
+          "url": "https://www.news.cn/fortune/20260907/57ab6d5cd2b7418bb51bc922f55b4172/c.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3359f06cb269c3",
+          "source": "新华社",
+          "title": "乌克兰结束与美特使第一阶段会谈 美方称会谈令人鼓舞",
+          "url": "https://www.news.cn/20260907/46ea3ead9e7c466f9ddeed3743a2f608/c.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 8.3,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260907.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.9,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/07/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 2,
+          "duration": 2.7
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 18.4
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.3
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.5,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/07/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.7
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.8
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.2
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 61.1
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-06T22:46:49+08:00"
+  "generatedAt": "2026-09-07T01:31:17+08:00"
 };
