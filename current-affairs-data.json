@@ -108841,19 +108841,419 @@
     },
     {
       "date": "2026-09-07",
-      "keyword": "今日时政",
+      "keyword": "高质量发展",
       "keywords": [
         {
-          "name": "今日时政",
+          "name": "高质量发展",
+          "count": 2
+        },
+        {
+          "name": "基层治理",
+          "count": 2
+        },
+        {
+          "name": "教育",
           "count": 2
         }
       ],
       "articles": [
         {
+          "id": "f3d07f697e65af",
+          "source": "人民日报",
+          "title": "2026年“全民国防教育月”活动启动",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179391.html",
+          "date": "2026-09-07",
+          "keyword": "教育"
+        },
+        {
+          "id": "5e8c519f5bc178",
+          "source": "人民日报",
+          "title": "快递小哥成为北京基层治理重要力量",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179382.html",
+          "date": "2026-09-07",
+          "keyword": "基层治理"
+        },
+        {
+          "id": "bbb59b75b0742b",
+          "source": "光明日报",
+          "title": "2026年“全民国防教育月”活动启动",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/07/content_24159.html",
+          "date": "2026-09-07",
+          "keyword": "教育"
+        },
+        {
+          "id": "1fd053ffeb7d96",
+          "source": "光明日报",
+          "title": "共绘上海合作组织更高质量发展新图景",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/07/content_24193.html",
+          "date": "2026-09-07",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "17d9099aea08fb",
+          "source": "光明日报",
+          "title": "河北石家庄：做强主导产业 赋能高质量发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/07/content_24166.html",
+          "date": "2026-09-07",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "4083a7179a7265",
+          "source": "光明日报",
+          "title": "福建厦门思明：打造“指尖”上的基层治理平台",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/07/content_24168.html",
+          "date": "2026-09-07",
+          "keyword": "基层治理"
+        },
+        {
+          "id": "c53e3b4e71db80",
+          "source": "人民日报",
+          "title": "2026年中国农民丰收节金秋消费季全面启动",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179410.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "55de233d378a01",
+          "source": "人民日报",
+          "title": "5年再增约10亿“风光”意味着什么（解码“十五五”专项规划）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179387.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8664f03e2f2d42",
+          "source": "人民日报",
+          "title": "8月物流业景气指数为50.9%",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179385.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a99ba7783e3317",
+          "source": "人民日报",
+          "title": "“中国始终是我们的重要伙伴”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179399.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f856dba1ed439c",
+          "source": "人民日报",
+          "title": "“发展中国家团结协作的典范”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179400.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3664f0b0d65c7e",
+          "source": "人民日报",
+          "title": "“在这里我们很安心”（在现场·特别报道）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179407.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "181df735f6eed7",
+          "source": "人民日报",
+          "title": "“推动未来产业同新兴产业、传统产业相得益彰”（总书记的人民情怀）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179380.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d5e4670bd0c059",
+          "source": "人民日报",
+          "title": "中国首个飞机医院吉尔吉斯斯坦公益行启程",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179403.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "51ffb1e00c66e5",
+          "source": "人民日报",
+          "title": "中国驻泰国使馆欢送即将赴北京学习的泰国政府官员",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179402.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ec64db8334ab96",
+          "source": "人民日报",
+          "title": "为破解中东安全困局提供可行路径（和音）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179396.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9877c48edbbd1f",
+          "source": "人民日报",
+          "title": "二〇二六“把青春华章写在祖国大地上”大思政课网络主题宣传和互动引导活动在中国科学技术大学举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179409.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0f44d2c6f013a5",
+          "source": "人民日报",
+          "title": "全国卫星导航定位基准站扩至7569座",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179392.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b07e23a5f16577",
+          "source": "人民日报",
+          "title": "共同书写亚太媒体合作新篇章（APEC中国年：开放 创新 合作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179395.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5a8aef7cded936",
+          "source": "人民日报",
+          "title": "十二秒传高清月照，如何做到（身边的创新）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179389.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bee2757da4d95b",
+          "source": "人民日报",
+          "title": "卡塔尔首相兼外交大臣穆罕默德将访华",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179401.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aebec07a08e375",
+          "source": "人民日报",
+          "title": "吉隆县泥石流灾害应急救援指挥部举行中外媒体见面会",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179404.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a49552df77c5c4",
+          "source": "人民日报",
+          "title": "山区就医更加省力省心（老区新事）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179383.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7de79ab5652e21",
+          "source": "人民日报",
+          "title": "开展人工智能中小企业创业支持计划",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179394.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "569b2c659ed8d7",
+          "source": "人民日报",
+          "title": "携手应对气候灾害 共同守护人类家园（国际论坛）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179397.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f0166660d7e688",
+          "source": "人民日报",
+          "title": "新挑战也是新起点（亲历者说）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179388.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f376d7d2f79d31",
+          "source": "人民日报",
+          "title": "王小洪分别会见老挝和乌兹别克斯坦客人",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179398.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3cda1a064f3318",
+          "source": "人民日报",
+          "title": "纠治妨碍企业公平准入和自主经营卡点堵点",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179390.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0a7af7c6070358",
+          "source": "人民日报",
+          "title": "这条路上，有我们的信念（记者手记）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179408.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "86bf7c01468cc7",
+          "source": "人民日报",
+          "title": "长征出发地到落脚点实现高铁直达",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179384.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8b25fc1fd90474",
+          "source": "人民日报",
+          "title": "风雨过后，希望在升腾（在现场·特别报道）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179405.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2168144508a6a6",
+          "source": "人民日报",
+          "title": "高质量教材体系映照育人初心",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/07/content_30179381.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f78772d8fd78dc",
+          "source": "光明日报",
+          "title": "2025年以来检察环节挽回医保基金损失近三亿元",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/07/content_24165.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "41ebe364282e6c",
+          "source": "光明日报",
+          "title": "【光明时评】“一餐饭”彰显养老服务“绣花功”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/07/content_24189.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bb7e1f114d540f",
+          "source": "光明日报",
+          "title": "【光明时评】讲好生态文明的“中国故事”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/07/content_24188.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cd68ca3888205d",
+          "source": "光明日报",
+          "title": "【光明论坛】伟大长征精神启迪年轻一代重担当",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/07/content_24185.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "13944cbbb10862",
+          "source": "光明日报",
+          "title": "【光明论坛】投洽盛会擘画互利共赢新图景",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/07/content_24186.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "53c57590c0a684",
+          "source": "光明日报",
+          "title": "【抵近观察①】走进霍尔果斯",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/07/content_24192.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "315b74780f9fbe",
+          "source": "光明日报",
+          "title": "【文化评析】这个夏天，国产动画电影成绩亮眼",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/07/content_24187.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b53c51a3bba105",
+          "source": "光明日报",
+          "title": "【晒晒咱的镇馆之宝65】青瓷褐彩云纹熏炉：越窑青瓷的典范之作",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/07/content_24196.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f275b17964598d",
+          "source": "光明日报",
+          "title": "【民生总关情】家家有了晾晒场",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/07/content_24195.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f5c68b910982dd",
+          "source": "光明日报",
+          "title": "唐守正院士逝世",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/07/content_24170.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a3fcd7f1f58c1a",
+          "source": "光明日报",
+          "title": "时代·人民·文明",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/07/content_24194.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "08003fea129fa2",
+          "source": "光明日报",
+          "title": "湖南：向“新”而行 烟火气里长出硬实力",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/07/content_24164.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "43dae554fbe18a",
+          "source": "光明日报",
+          "title": "让长征精神照亮青春与未来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/07/content_24160.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3dd4098fd2798c",
+          "source": "光明日报",
+          "title": "重庆忠县：一键报险 即时响应",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/07/content_24162.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "564c8a542d4b83",
+          "source": "光明日报",
+          "title": "陈一坚院士逝世",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/07/content_24171.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
           "id": "539f584fb2daac",
           "source": "新华社",
           "title": "129个国家和地区客商投洽会上寻商机",
           "url": "https://www.news.cn/fortune/20260907/57ab6d5cd2b7418bb51bc922f55b4172/c.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2147b45421a41a",
+          "source": "新华社",
+          "title": "“姜健”号驱逐舰正式入列朝鲜海军",
+          "url": "https://www.news.cn/world/20260907/51845ae5956d4d3f9c5c91086839c181/c.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f1b95f4a20f805",
+          "source": "新华社",
+          "title": "一架亚马逊货机在迈阿密降落时发生事故 至少5人亡",
+          "url": "https://www.news.cn/world/20260907/f5ed8c1789764f508d70f8f0c68d9a1f/c.html",
           "date": "2026-09-07",
           "keyword": "综合时政"
         },
@@ -108864,6 +109264,46 @@
           "url": "https://www.news.cn/20260907/46ea3ead9e7c466f9ddeed3743a2f608/c.html",
           "date": "2026-09-07",
           "keyword": "综合时政"
+        },
+        {
+          "id": "41050d4896df90",
+          "source": "新华社",
+          "title": "亚太媒体高端论坛嘉宾深度对谈侧记",
+          "url": "https://www.news.cn/world/20260907/b24a2aa55d344f7aaef998502497d13b/c.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4b557a0ded26bc",
+          "source": "新华社",
+          "title": "伊朗称将在霍尔木兹海峡之外设立禁区",
+          "url": "https://www.news.cn/world/20260907/4b92793ff0344b52a0a6bc1f9f3daee4/c.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a380776af9db3c",
+          "source": "新华社",
+          "title": "出口民调：极右翼德国选择党赢得东部萨安州选举",
+          "url": "https://www.news.cn/world/20260907/01f22c1c10d9480d9b2e6425381070ef/c.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cd699fa5379899",
+          "source": "新华社",
+          "title": "泽连斯基称与美特使等会晤“非常具有实质性”",
+          "url": "https://www.news.cn/world/20260907/7047a825cd114bf6b04437887868d853/c.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "63478e723c8d08",
+          "source": "新华社",
+          "title": "添衣迎秋 北方地区降雨降温",
+          "url": "https://www.news.cn/politics/20260907/a2ff33105415495a8ed75beec54032fb/c.html",
+          "date": "2026-09-07",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -108871,67 +109311,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.3,
+          "duration": 8.5,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260907.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 4.9,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/07/node_01.html"
+          "status": "ok",
+          "count": 28,
+          "duration": 2.1
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 2,
-          "duration": 2.7
+          "count": 9,
+          "duration": 1.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 18.4
+          "duration": 12.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.3
+          "duration": 5.9
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 4.5,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/07/node_01.html"
+          "status": "ok",
+          "count": 19,
+          "duration": 1.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.7
+          "duration": 13.8
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.8
+          "duration": 3.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.2
+          "duration": 9.6
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 61.1
+          "duration": 53.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-09-07T01:31:17+08:00"
+  "generatedAt": "2026-09-07T07:38:10+08:00"
 }
