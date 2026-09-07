@@ -110804,7 +110804,108 @@
           "duration": 68.5
         }
       ]
+    },
+    {
+      "date": "2026-09-08",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 3
+        }
+      ],
+      "articles": [
+        {
+          "id": "72c5bcdf437533",
+          "source": "新华社",
+          "title": "U20女足世界杯首轮中国队迎大胜 黄嘉欣上演“帽子戏法”",
+          "url": "https://www.news.cn/20260908/56ec41d4ae734284888f2b850cc0764d/c.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fd8cb49c2a7d26",
+          "source": "新华社",
+          "title": "第二届习近平文化思想国际学术研讨会观察",
+          "url": "https://www.news.cn/politics/leaders/20260908/e6457df67db04125bde6d288ff29927d/c.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "965a2ad2a6e73a",
+          "source": "新华社",
+          "title": "郑钦文战胜斯维亚特克 晋级美网八强",
+          "url": "https://www.news.cn/20260908/2153a9a771484e7bb5a749501e738a91/c.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 6.8,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260908.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.2,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/08/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 3,
+          "duration": 2.3
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 17.5
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.7
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.0,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/08/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.9
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.5
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.3
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 45.9
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-07T21:53:54+08:00"
+  "generatedAt": "2026-09-08T02:35:23+08:00"
 }
