@@ -110807,14 +110807,466 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-09-08",
-      "keyword": "今日时政",
+      "keyword": "习近平",
       "keywords": [
         {
-          "name": "今日时政",
+          "name": "习近平",
           "count": 3
+        },
+        {
+          "name": "人工智能",
+          "count": 2
         }
       ],
       "articles": [
+        {
+          "id": "6cab7f237999fd",
+          "source": "人民日报",
+          "title": "《习近平生态文明思想概论》出版发行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179724.html",
+          "date": "2026-09-08",
+          "keyword": "习近平"
+        },
+        {
+          "id": "7c9fe896ada8ea",
+          "source": "光明日报",
+          "title": "《习近平生态文明思想概论》出版发行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24393.html",
+          "date": "2026-09-08",
+          "keyword": "习近平"
+        },
+        {
+          "id": "fd8cb49c2a7d26",
+          "source": "新华社",
+          "title": "第二届习近平文化思想国际学术研讨会观察",
+          "url": "https://www.news.cn/politics/leaders/20260908/e6457df67db04125bde6d288ff29927d/c.html",
+          "date": "2026-09-08",
+          "keyword": "习近平"
+        },
+        {
+          "id": "2f72522fd69930",
+          "source": "光明日报",
+          "title": "呈现人工智能亮色 淬炼数字贸易成色",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24388.html",
+          "date": "2026-09-08",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "34003d345469a7",
+          "source": "新华社",
+          "title": "匈牙利：布达佩斯人工智能峰会举行",
+          "url": "https://www.news.cn/photo/20260908/7118d7bbb623461ea7a14adc2f35f3fb/c.html",
+          "date": "2026-09-08",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "b41b98042c74f5",
+          "source": "人民日报",
+          "title": "“在救援一线守护大家的健康”（在现场·特别报道）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179753.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2775e5ed6903eb",
+          "source": "人民日报",
+          "title": "“我们更加珍惜未来的生活”（在现场·特别报道）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179750.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6968e17d5187c7",
+          "source": "人民日报",
+          "title": "“把路拓宽一寸，平安就多一分”（在现场·特别报道）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179752.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4929d4de18b581",
+          "source": "人民日报",
+          "title": "“深海一号”科考船起航",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179730.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "650b1bd253fee5",
+          "source": "人民日报",
+          "title": "《版权工作“十五五”规划》印发",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179736.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4a90290424262a",
+          "source": "人民日报",
+          "title": "中国—中亚公安内务部长会晤机制非正式会晤举行 王小洪主持并作主旨讲话",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179743.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6ca0a7d10dba8b",
+          "source": "人民日报",
+          "title": "中央宣传部、国家发展改革委联合发布“诚信之星”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179749.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4a86768ca22d51",
+          "source": "人民日报",
+          "title": "中老“和平列车—2026”联合演习在万象开幕",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179748.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "16456b303c1504",
+          "source": "人民日报",
+          "title": "为促进高速公路高质量发展提供法治保障",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179734.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a3632874767ddf",
+          "source": "人民日报",
+          "title": "为变乱交织的世界提供中国方案、中国智慧（外媒看中国）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179739.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e3cc4ea9074d3f",
+          "source": "人民日报",
+          "title": "五年聚力实干 提振全球发展（大使随笔）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179741.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eab9502665f3bc",
+          "source": "人民日报",
+          "title": "从一件民生“小事”感悟久久为功",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179725.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "91574397cfd958",
+          "source": "人民日报",
+          "title": "以书为媒，拉紧人文交流纽带",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179740.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "859dbfe279d3fd",
+          "source": "人民日报",
+          "title": "全国智算总规模达245万PFLOPS",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179738.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f2779880367628",
+          "source": "人民日报",
+          "title": "千年文脉何以新",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179728.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cb3e66108f3057",
+          "source": "人民日报",
+          "title": "去年可数字化交付的服务进出口总额达4323.1亿美元（权威发布）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179754.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ee234cb6e67ef5",
+          "source": "人民日报",
+          "title": "发展传统技艺 激发消费潜力（权威发布）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179732.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d71a31aa4d1a99",
+          "source": "人民日报",
+          "title": "外交部介绍禁止化学武器组织代表团访华情况",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179747.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "012063c3149847",
+          "source": "人民日报",
+          "title": "安哥拉国民议会议长将访华",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179746.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5f815f46a09011",
+          "source": "人民日报",
+          "title": "就公路法修正草案征求意见稿向社会公开征求意见",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179733.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b178d64c344568",
+          "source": "人民日报",
+          "title": "张庆伟会见加拿大议会加中议会协会代表团",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179744.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f10fc6640e57a6",
+          "source": "人民日报",
+          "title": "心里边，全是敬畏（在现场·特别报道）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179751.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ad59997df4be67",
+          "source": "人民日报",
+          "title": "我国外汇储备规模为34383亿美元",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179737.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5fc2888b87917b",
+          "source": "人民日报",
+          "title": "李强会见卡塔尔首相兼外交大臣穆罕默德",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179726.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "057561a38b571b",
+          "source": "人民日报",
+          "title": "王毅同墨西哥外长贝拉斯科会谈",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179742.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "98999be2fdbab1",
+          "source": "人民日报",
+          "title": "维也纳“全球治理之友小组”重申支持全球治理倡议",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179745.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "96839f47648854",
+          "source": "人民日报",
+          "title": "财政部、应急管理部紧急拨付2.4亿元中央自然灾害救灾资金",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179755.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1dab262a73b24e",
+          "source": "人民日报",
+          "title": "通道优势赋能产业发展（深入实施自由贸易试验区提升战略）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179729.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fe565e0e0ce63d",
+          "source": "人民日报",
+          "title": "韩正分别会见保加利亚副总理普列夫、柬埔寨副首相孙占托、塞尔维亚副总理梅萨罗维奇",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/08/content_30179727.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8940b7194a144a",
+          "source": "光明日报",
+          "title": "【光明时评】“AI+”治理应兼顾技术效率与公共价值",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24412.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9fd0ddd45347c7",
+          "source": "光明日报",
+          "title": "【光明时评】中国经济“含新量”何以持续攀升",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24411.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3cbf2453ade650",
+          "source": "光明日报",
+          "title": "【光明论坛】赓续伟大长征精神 涵养新时代正确政绩观",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24410.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "af899b71bf79d4",
+          "source": "光明日报",
+          "title": "【大美中国】秋日田园",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24396.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0b07c24a4fca13",
+          "source": "光明日报",
+          "title": "【我在现场】“喜事服务包”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24398.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "00fb98b702158e",
+          "source": "光明日报",
+          "title": "【文化评析】“送学游”蕴藏文旅发展新流量",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24413.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "02377296a20913",
+          "source": "光明日报",
+          "title": "【文化评析】与古为新，是非遗走红的密码",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24414.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4d4e0fef7b3709",
+          "source": "光明日报",
+          "title": "【民生总关情】路口有了遮阳伞",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24397.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6b0ab014604fce",
+          "source": "光明日报",
+          "title": "【烟火人间】山上有雪，草原有绿",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24399.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ca8bec9c865f52",
+          "source": "光明日报",
+          "title": "中央宣传部、国家发展改革委联合发布“诚信之星”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24384.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0fd09f38e450cb",
+          "source": "光明日报",
+          "title": "交通运输部就公路法修正草案征求意见稿向社会公开征求意见",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24382.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d4b7659016c5d6",
+          "source": "光明日报",
+          "title": "交通运输部相关司局负责人就公路法修正草案征求意见稿答记者问",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24383.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c6e1972afe4024",
+          "source": "光明日报",
+          "title": "党建引领写忠诚 实干担当亮万家",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24390.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9dffbb9a1ca3be",
+          "source": "光明日报",
+          "title": "历史经典产业迎来焕新升级关键期",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24387.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "674758fbfa78fe",
+          "source": "光明日报",
+          "title": "平陆运河将于9月16日通航",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24381.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "556dea520979ef",
+          "source": "光明日报",
+          "title": "广东广州：推动“幼有所育”落到日常",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24386.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "67df42252b3963",
+          "source": "光明日报",
+          "title": "打造培根铸魂、启智增慧的精品教材",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24395.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d139ba08c936c1",
+          "source": "光明日报",
+          "title": "携手同心 不断推进中埃命运共同体建设",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24394.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e047b0aa688302",
+          "source": "光明日报",
+          "title": "李强会见卡塔尔首相兼外交大臣穆罕默德",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24379.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "df3fcd59155565",
+          "source": "光明日报",
+          "title": "王永炎院士逝世",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24389.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "12250acc5105c3",
+          "source": "光明日报",
+          "title": "韩正分别会见保加利亚副总理普列夫、柬埔寨副首相孙占托、塞尔维亚副总理梅萨罗维奇",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/08/content_24380.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0f15ad96bccef6",
+          "source": "新华社",
+          "title": "U20女足世界杯首轮中国队迎大胜",
+          "url": "https://www.news.cn/sports/20260908/c9bb7feffa444ca7b51eb649a3c7e3e3/c.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
         {
           "id": "72c5bcdf437533",
           "source": "新华社",
@@ -110824,10 +111276,42 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "fd8cb49c2a7d26",
+          "id": "ac14b9788a08a9",
           "source": "新华社",
-          "title": "第二届习近平文化思想国际学术研讨会观察",
-          "url": "https://www.news.cn/politics/leaders/20260908/e6457df67db04125bde6d288ff29927d/c.html",
+          "title": "也门胡塞武装称向沙特军用卡车发动弹道导弹袭击",
+          "url": "https://www.news.cn/20260908/670d88852e904775a798194e8a72cbb0/c.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "913e40b217382b",
+          "source": "新华社",
+          "title": "女篮世界杯小组赛：中国队战胜意大利队",
+          "url": "https://www.news.cn/20260908/22fb283fcf094c7198afa005b96fab9b/c.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3a464d762ada13",
+          "source": "新华社",
+          "title": "欧盟宣布将投资2亿欧元与格陵兰岛加强合作",
+          "url": "https://www.news.cn/20260908/978661e8470647e1ae85372914f5a748/c.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bd850558276015",
+          "source": "新华社",
+          "title": "特朗普威胁在美禁售加拿大庞巴迪产品",
+          "url": "https://www.news.cn/20260908/03d03a37c6784d8e81eedd32962ce307/c.html",
+          "date": "2026-09-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5ab774a3671521",
+          "source": "新华社",
+          "title": "菲前众议长因涉嫌防洪项目腐败被执行逮捕令",
+          "url": "https://www.news.cn/20260908/0e74dccda19c48b49e99ed44ccedf1eb/c.html",
           "date": "2026-09-08",
           "keyword": "综合时政"
         },
@@ -110845,40 +111329,38 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 6.8,
+          "duration": 6.9,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260908.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.2,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/08/node_01.html"
+          "status": "ok",
+          "count": 30,
+          "duration": 1.5
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 3,
-          "duration": 2.3
+          "count": 10,
+          "duration": 2.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 17.5
+          "duration": 20.7
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 5.7
+          "duration": 6.1
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.0,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/08/node_01.html"
+          "status": "ok",
+          "count": 23,
+          "duration": 1.8
         },
         {
           "source": "南方周末",
@@ -110890,22 +111372,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.5
+          "duration": 3.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.3
+          "duration": 9.6
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 45.9
+          "duration": 80.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-09-08T02:35:23+08:00"
+  "generatedAt": "2026-09-08T08:05:49+08:00"
 };
