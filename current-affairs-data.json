@@ -112802,7 +112802,109 @@
           "duration": 71.7
         }
       ]
+    },
+    {
+      "date": "2026-09-09",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 3
+        }
+      ],
+      "articles": [
+        {
+          "id": "eb83125001a08f",
+          "source": "新华社",
+          "title": "12国拟限制与约旦河西岸以色列定居点商品贸易",
+          "url": "https://www.news.cn/20260909/845139c5fc944018bd3af4b7597e7021/c.html",
+          "date": "2026-09-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "569bc49035b8d0",
+          "source": "新华社",
+          "title": "伊朗称在霍尔木兹海峡捕获美无人潜航器",
+          "url": "https://www.news.cn/world/20260909/44768fb07e8f4368a69b3e663c4a8810/c.html",
+          "date": "2026-09-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f3f2d2cea2346c",
+          "source": "新华社",
+          "title": "第五次中国－太平洋岛国执法能力与警务合作部级对话举行",
+          "url": "https://www.news.cn/politics/leaders/20260909/7994f178808942d6b7b4ea0347772009/c.html",
+          "date": "2026-09-09",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 4.7,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260909.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.2,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/09/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 3,
+          "duration": 2.0
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.1
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.4
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.3,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/09/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.1
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.0
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.0
+        },
+        {
+          "source": "广东发布",
+          "status": "error",
+          "count": 0,
+          "duration": 17.7,
+          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-08T20:31:51+08:00"
+  "generatedAt": "2026-09-09T01:01:31+08:00"
 }
