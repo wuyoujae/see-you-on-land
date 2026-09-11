@@ -372,6 +372,41 @@
 
 .solver-composer textarea::placeholder { color: #909796; }
 
+.solver-question-type {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e4e8e7;
+}
+.solver-question-type label {
+  flex: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #58615e;
+}
+.solver-question-type select {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  min-height: 44px;
+  padding: 8px;
+  border: 1px solid #dce2df;
+  border-radius: 4px;
+  background: #fff;
+  color: #202622;
+  font: inherit;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.solver-question-type select:focus-visible {
+  outline: 2px solid #b92323;
+  outline-offset: 2px;
+}
+.solver-question-type select:disabled { opacity: .6; }
+
 .solver-image-preview {
   display: flex;
   gap: 9px;
