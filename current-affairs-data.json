@@ -118948,7 +118948,108 @@
           "duration": 64.9
         }
       ]
+    },
+    {
+      "date": "2026-09-12",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 3
+        }
+      ],
+      "articles": [
+        {
+          "id": "caff343882bb59",
+          "source": "新华社",
+          "title": "从第二十六届投洽会看双向投资新机遇",
+          "url": "https://www.news.cn/fortune/20260912/312400e2e204457e81ac131e48bea4b5/c.html",
+          "date": "2026-09-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1e7eaa779e8c13",
+          "source": "新华社",
+          "title": "斯诺克英格兰公开赛：丁俊晖晋级四强",
+          "url": "https://www.news.cn/sports/20260912/f96efd290c6841bcaf42e3e7efb64eec/c.html",
+          "date": "2026-09-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2b948a83090194",
+          "source": "新华社",
+          "title": "缅甸曼德勒国际机场重新开放",
+          "url": "https://www.news.cn/20260912/8a9241c4b3434293b86e5d250d835c7e/c.html",
+          "date": "2026-09-12",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 9.8,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260912.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.7,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/12/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 3,
+          "duration": 1.9
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 16.5
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.1
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.6,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/12/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.8
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.5
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.5
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 56.8
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-11T20:31:14+08:00"
+  "generatedAt": "2026-09-12T00:55:02+08:00"
 }
