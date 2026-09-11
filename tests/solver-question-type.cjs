@@ -42,6 +42,8 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
     await page.click('#solver-send');
     await page.waitForFunction(() => !document.querySelector('#solver-question-type').disabled && document.querySelector('#solver-messages').textContent.includes('答案：B'));
     assert.equal(requests.length, 1);
+    for (const section of ['正确答案与题型', '简洁解题思路', '逐空分析', '额外补充知识']) assert.ok(requests[0].instructions.includes(section));
+    assert.ok(requests[0].instructions.includes('所有选项在该空对应的词语'));
     for (const method of ['成语的拆分', '因果关系', '比喻/形象化表达', '语义对应', '褒贬色彩要一致', '用词一致']) assert.ok(requests[0].instructions.includes(method));
     assert.ok(requests[0].input.some(message => Array.isArray(message.content) && message.content.some(part => part.type === 'input_image')));
     await page.reload();
