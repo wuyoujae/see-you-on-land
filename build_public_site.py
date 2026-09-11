@@ -20,6 +20,7 @@ def main():
         "/clock.js": ("text/javascript; charset=utf-8", ROOT / "clock.js"),
         "/search.css": ("text/css; charset=utf-8", ROOT / "search.css"),
         "/search.js": ("text/javascript; charset=utf-8", ROOT / "search.js"),
+        "/solver-prompts.js": ("text/javascript; charset=utf-8", ROOT / "solver-prompts.js"),
         "/wrong-questions.css": ("text/css; charset=utf-8", ROOT / "wrong-questions.css"),
         "/wrong-questions.js": ("text/javascript; charset=utf-8", ROOT / "wrong-questions.js"),
         "/wrong-question-taxonomy.json": ("application/json; charset=utf-8", ROOT / "wrong-question-taxonomy.json"),

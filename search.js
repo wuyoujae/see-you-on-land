@@ -4,6 +4,8 @@
   const SETTINGS_KEY = "summer-politics-responses-settings-v2";
   const LEGACY_SETTINGS_KEY = "summer-politics-openrouter-settings-v1";
   const ACTIVE_SESSION_KEY = "summer-politics-ai-active-session-v1";
+  const QUESTION_TYPE_KEY = "summer-politics-ai-question-type-v1";
+  const QUESTION_TYPES = window.solverQuestionTypes || [{ id: "general", label: "通用解题", prompt: "" }];
   const DB_NAME = "summer-politics-ai-sessions";
   const DB_VERSION = 1;
   const SESSION_STORE = "sessions";
@@ -28,6 +30,7 @@
     messages: document.getElementById("solver-messages"),
     composer: document.getElementById("solver-composer"),
     prompt: document.getElementById("solver-prompt"),
+    questionType: document.getElementById("solver-question-type"),
     preview: document.getElementById("solver-image-preview"),
     cameraButton: document.getElementById("solver-camera"),
     uploadButton: document.getElementById("solver-upload"),
@@ -281,6 +284,7 @@
       id: String(message?.id || `${message?.role || "message"}-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`),
       role: message?.role === "assistant" ? "assistant" : "user",
       text: typeof message?.text === "string" ? message.text : "",
+      questionType: QUESTION_TYPES.some(type => type.id === message?.questionType) ? message.questionType : "general",
       images: Array.isArray(message?.images) ? message.images : [],
       reasoning: typeof message?.reasoning === "string" ? message.reasoning : "",
       reasoningDetails: Array.isArray(message?.reasoningDetails) ? message.reasoningDetails.map(detail => {
@@ -1159,6 +1163,7 @@
     dom.cameraButton.disabled = value;
     dom.uploadButton.disabled = value;
     dom.prompt.disabled = value;
+    dom.questionType.disabled = value;
     dom.sendButton.classList.toggle("stop", value);
     dom.sendButton.title = value ? "停止生成" : "发送";
     dom.sendButton.setAttribute("aria-label", value ? "停止生成" : "发送问题");
@@ -1194,6 +1199,7 @@
       return;
     }
     const text = dom.prompt.value.trim();
+    const questionType = QUESTION_TYPES.find(type => type.id === dom.questionType.value) || QUESTION_TYPES[0];
     if (!text && !attachments.length) return;
     const session = activeSession();
     if (!session) return;
@@ -1203,6 +1209,7 @@
       id: `user-${Date.now()}`,
       role: "user",
       text,
+      questionType: questionType.id,
       images: attachments.map(image => ({ ...image })),
       reasoning: "",
       reasoningDetails: [],
@@ -1248,7 +1255,7 @@
     try {
       const response = await createResponseRequest({
         model: settings.model,
-        instructions: SYSTEM_PROMPT,
+        instructions: [SYSTEM_PROMPT, questionType.prompt].filter(Boolean).join("\n\n"),
         input: responsesInput(history),
         reasoning: { summary: "auto" },
         truncation: "auto",
@@ -1548,6 +1555,18 @@
     if (session) scheduleSessionSave(session, true);
   });
 
+  QUESTION_TYPES.forEach(type => dom.questionType.add(new Option(type.label, type.id)));
+  try {
+    const saved = localStorage.getItem(QUESTION_TYPE_KEY);
+    if (QUESTION_TYPES.some(type => type.id === saved)) dom.questionType.value = saved;
+  } catch { /* Selection remains usable when browser storage is unavailable. */ }
+  dom.questionType.addEventListener("change", () => {
+    try {
+      localStorage.setItem(QUESTION_TYPE_KEY, dom.questionType.value);
+    } catch {
+      setStatus("题型已切换，但浏览器未能保存偏好。", true);
+    }
+  });
   renderConfigurationState();
   dom.view.dataset.markdownReady = window.marked?.parse && window.DOMPurify?.sanitize ? "true" : "fallback";
   renderAttachments();
