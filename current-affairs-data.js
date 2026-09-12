@@ -120306,7 +120306,100 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 88.5
         }
       ]
+    },
+    {
+      "date": "2026-09-13",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "19226f4d352a33",
+          "source": "新华社",
+          "title": "“十五五”开局之年5G工厂发展观察",
+          "url": "https://www.news.cn/fortune/20260913/00e6bfe94f014907be8ba769524fc674/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "16b13f6c803f31",
+          "source": "新华社",
+          "title": "国际社会对中国明年接任金砖主席国满怀期待",
+          "url": "https://www.news.cn/politics/leaders/20260913/8c5842590d104256a13b2c62069be5ad/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 8.2,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260913.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.8,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/13/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 2,
+          "duration": 1.9
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 14.4
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.1
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.6,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/13/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.8
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 3.0
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.0
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 52.0
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-12T22:49:55+08:00"
+  "generatedAt": "2026-09-13T01:41:03+08:00"
 };
