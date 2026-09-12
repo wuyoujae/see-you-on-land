@@ -120309,19 +120309,387 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-09-13",
-      "keyword": "今日时政",
+      "keyword": "习近平",
       "keywords": [
         {
-          "name": "今日时政",
-          "count": 2
+          "name": "习近平",
+          "count": 9
         }
       ],
       "articles": [
+        {
+          "id": "3c5d8cc9f787dc",
+          "source": "人民日报",
+          "title": "习近平会见印度总理莫迪",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180704.html",
+          "date": "2026-09-13",
+          "keyword": "习近平"
+        },
+        {
+          "id": "582e9752a4710a",
+          "source": "人民日报",
+          "title": "习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180703.html",
+          "date": "2026-09-13",
+          "keyword": "习近平"
+        },
+        {
+          "id": "bce1e7efbaaecd",
+          "source": "人民日报",
+          "title": "习近平抵达新德里",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180705.html",
+          "date": "2026-09-13",
+          "keyword": "习近平"
+        },
+        {
+          "id": "8561d1e56bc820",
+          "source": "光明日报",
+          "title": "习近平会见印度总理莫迪",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/13/content_24940.html",
+          "date": "2026-09-13",
+          "keyword": "习近平"
+        },
+        {
+          "id": "a2d97ef6ef8da6",
+          "source": "光明日报",
+          "title": "习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/13/content_24939.html",
+          "date": "2026-09-13",
+          "keyword": "习近平"
+        },
+        {
+          "id": "6fdb86adcc1769",
+          "source": "光明日报",
+          "title": "习近平抵达新德里",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/13/content_24941.html",
+          "date": "2026-09-13",
+          "keyword": "习近平"
+        },
+        {
+          "id": "48646400b3d999",
+          "source": "新华社",
+          "title": "习近平 主席重要讲话为推动金砖合作行稳致远凝聚力量",
+          "url": "https://www.news.cn/politics/leaders/20260913/501ffab5667842efbdff0f2a6cfc549c/c.html",
+          "date": "2026-09-13",
+          "keyword": "习近平"
+        },
+        {
+          "id": "3f62c52a6ce8e0",
+          "source": "新华社",
+          "title": "习近平主席强调金砖国家要勇做时代先锋",
+          "url": "https://www.news.cn/politics/leaders/20260913/909a27658ac2447e9a6c7efe647491c9/c.html",
+          "date": "2026-09-13",
+          "keyword": "习近平"
+        },
+        {
+          "id": "8115d1102c28bf",
+          "source": "新华社",
+          "title": "第一观察 | 习近平主席倡导金砖国家共担时代责任",
+          "url": "https://www.news.cn/politics/leaders/20260913/a7e3d4281eed41b9b616092d22b8d078/c.html",
+          "date": "2026-09-13",
+          "keyword": "习近平"
+        },
+        {
+          "id": "887aa952c76ed6",
+          "source": "人民日报",
+          "title": "“新质生产力：中国实践与世界意义”国际研讨会举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180716.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "28e464ad8d98b2",
+          "source": "人民日报",
+          "title": "“红通人员”曾能贵被引渡回国",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180725.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9f3abd5ce17195",
+          "source": "人民日报",
+          "title": "“金砖国家在维护多边主义方面发挥着重要作用”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180713.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7a3d3a455a3965",
+          "source": "人民日报",
+          "title": "一汪古井鉴初心（赓续长征精神 奋进复兴征程·记者再走长征路）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180719.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "19d57429f043dc",
+          "source": "人民日报",
+          "title": "中国代表团参加粮农组织渔业委员会第三十七届会议",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180717.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ba493306156d35",
+          "source": "人民日报",
+          "title": "中国对尼泊尔第五批紧急援助物资运抵加德满都",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180718.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e66d8167575aa9",
+          "source": "人民日报",
+          "title": "共担时代责任 勇做先锋力量",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180706.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "319e81bf1df594",
+          "source": "人民日报",
+          "title": "勇做时代先锋 展现金砖担当（寰宇平）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180712.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "acd76ce63ee6be",
+          "source": "人民日报",
+          "title": "团结推动公共安全治理 为动荡世界注入稳定力量",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180715.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ae1cda395625a8",
+          "source": "人民日报",
+          "title": "山绿了，日子越过越美（身边的净土保卫战）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180720.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ade8c73d57766a",
+          "source": "人民日报",
+          "title": "开启金砖合作第三个“金色十年”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180711.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2b9fdef76f38fb",
+          "source": "人民日报",
+          "title": "把论文写在大地上",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180722.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "728a3642ffe52b",
+          "source": "人民日报",
+          "title": "文商旅体展深度融合（探馆服贸会）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180710.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "29e3829393cfdd",
+          "source": "人民日报",
+          "title": "李鸿忠赴俄罗斯出席第七届中俄中小企业实业论坛并访问伊尔库茨克州",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180714.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "916352f123c3de",
+          "source": "人民日报",
+          "title": "生态修复，打开绿色发展新路（记者手记）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180721.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "811825500befbd",
+          "source": "人民日报",
+          "title": "荒凉沙漠里，苗木长势旺（党旗在基层一线高高飘扬·科研攻关）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180723.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bbca9ae47e7994",
+          "source": "人民日报",
+          "title": "金砖国家领导人第十八次会晤新德里宣言（摘要）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/13/content_30180707.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9ea7c4f06837c7",
+          "source": "光明日报",
+          "title": "“你守护山河，我们守护你”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/13/content_24928.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3c5b41cd3ceaed",
+          "source": "光明日报",
+          "title": "“全国科普月”欢乐科学周在甘肃启幕",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/13/content_24931.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8b6355fa5d1d52",
+          "source": "光明日报",
+          "title": "共担时代责任 勇做先锋力量",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/13/content_24933.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "58b542c5564bff",
+          "source": "光明日报",
+          "title": "守护雨林 共享未来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/13/content_24926.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "74fee5de141389",
+          "source": "光明日报",
+          "title": "差异性驱动跨学科图学教学 培养新时代复合型工科人才",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/13/content_24925.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6c96339a4c99ec",
+          "source": "光明日报",
+          "title": "把“大道理”讲到青年学子心坎里",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/13/content_24922.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "336476f836a078",
+          "source": "光明日报",
+          "title": "携手开启金砖合作新的“金色十年”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/13/content_24935.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3588899741c4fe",
+          "source": "光明日报",
+          "title": "最高法发布2026年人民法院反垄断典型案例",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/13/content_24930.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8ed37983b3a126",
+          "source": "光明日报",
+          "title": "深刻汲取事故教训 筑牢安全生产防线",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/13/content_24927.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "83547279f5f3eb",
+          "source": "光明日报",
+          "title": "第9届沈阳赛艇公开赛举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/13/content_24924.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bcb8a322878f32",
+          "source": "光明日报",
+          "title": "第二届全国青少年智能无人系统应用大赛总决赛举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/13/content_24923.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "876c7615e81f40",
+          "source": "光明日报",
+          "title": "金砖国家领导人第十八次会晤新德里宣言（摘要）",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/13/content_24934.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "792ac50196a804",
+          "source": "光明日报",
+          "title": "黑白琴键里的艺术人生",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/13/content_24921.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "645989d466ddae",
+          "source": "学习强国",
+          "title": "金砖国家领导人第十八次会晤新德里宣言",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2142145990163780223&item_id=2142145990163780223",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
         {
           "id": "19226f4d352a33",
           "source": "新华社",
           "title": "“十五五”开局之年5G工厂发展观察",
           "url": "https://www.news.cn/fortune/20260913/00e6bfe94f014907be8ba769524fc674/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "532ccbbd43f0f6",
+          "source": "新华社",
+          "title": "中国VR短片《鸽环》获威尼斯电影节沉浸单元大奖",
+          "url": "https://www.news.cn/20260913/927dd4cf928f4c43ad7430669be43a8d/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fc55c870cb22a6",
+          "source": "新华社",
+          "title": "也门胡塞武装称沙特在过去两天发动129次空袭",
+          "url": "https://www.news.cn/20260913/546a1da645594ad7a3ae0ec8b1f1a6e7/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "abb0a7c5b2e0e0",
+          "source": "新华社",
+          "title": "亚运会丨男篮：中国队提前晋级 伊朗险胜中国台北",
+          "url": "https://www.news.cn/sports/20260913/74ab722b4d4f4e7bb911611a4dbbfaae/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "926c72c5e73741",
+          "source": "新华社",
+          "title": "从服贸会看服务设计如何赋能中国制造",
+          "url": "https://www.news.cn/world/20260913/72288201d8ea45dca739daa125c6a1c6/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5db3ed5b60d8f8",
+          "source": "新华社",
+          "title": "伊朗和阿曼将通报霍尔木兹海峡通航磋商结果",
+          "url": "https://www.news.cn/world/20260913/4699ed2d245f4a5984a9fc4afedc25e8/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8bffe3b553fe28",
+          "source": "新华社",
+          "title": "千里沃野夺秋收",
+          "url": "https://www.news.cn/politics/20260913/80e8c71a06de4106b171780a242440be/c.html",
           "date": "2026-09-13",
           "keyword": "综合时政"
         },
@@ -120332,6 +120700,38 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/politics/leaders/20260913/8c5842590d104256a13b2c62069be5ad/c.html",
           "date": "2026-09-13",
           "keyword": "综合时政"
+        },
+        {
+          "id": "6ddd8d427f509a",
+          "source": "新华社",
+          "title": "新华社评论员：勇做时代先锋 共创光明前景",
+          "url": "https://www.news.cn/politics/leaders/20260913/5a8a91675fda4f00b1286c204d4a0a8b/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e9571398ab68d5",
+          "source": "新华社",
+          "title": "法国检方：暂无证据证明火车脱轨事件是恐袭",
+          "url": "https://www.news.cn/world/20260913/29933f2207684c2ea87c25d9ed4be97b/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a2a6eda4b4cc90",
+          "source": "新华社",
+          "title": "第83届威尼斯电影节闭幕 中国VR片获沉浸单元大奖",
+          "url": "https://www.news.cn/world/20260913/bdab1127abea4908bb265000099835e1/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "998bfb990b3a54",
+          "source": "新华社",
+          "title": "金砖国家领导人第十八次会晤新德里宣言（摘要）",
+          "url": "https://www.news.cn/world/20260913/90532f95215444e29769adba68ee0ffe/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -120339,67 +120739,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.2,
+          "duration": 9.2,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260913.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.8,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/13/node_01.html"
+          "status": "ok",
+          "count": 20,
+          "duration": 1.7
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 2,
-          "duration": 1.9
+          "count": 15,
+          "duration": 1.7
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 14.4
+          "duration": 16.0
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.1
+          "duration": 6.2
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 4.6,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/13/node_01.html"
+          "status": "ok",
+          "count": 16,
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.8
+          "duration": 14.3
         },
         {
           "source": "学习强国",
           "status": "ok",
-          "count": 0,
-          "duration": 3.0
+          "count": 1,
+          "duration": 3.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.0
+          "duration": 10.6
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 52.0
+          "duration": 68.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-09-13T01:41:03+08:00"
+  "generatedAt": "2026-09-13T07:53:20+08:00"
 };
