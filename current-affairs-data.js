@@ -121432,7 +121432,132 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 44.7
         }
       ]
+    },
+    {
+      "date": "2026-09-14",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 3
+        }
+      ],
+      "articles": [
+        {
+          "id": "c0fe1b97582882",
+          "source": "新华社",
+          "title": "习近平主席倡导推进\"大金砖合作\"广受赞誉",
+          "url": "https://www.news.cn/politics/leaders/20260914/8c1f810bbfd44e3abc6ffa34e5089d75/c.html",
+          "date": "2026-09-14",
+          "keyword": "习近平"
+        },
+        {
+          "id": "fa3d518b0bd732",
+          "source": "新华社",
+          "title": "习近平主席指引\"大金砖\"筑牢务实合作根基",
+          "url": "https://www.news.cn/politics/leaders/20260914/6c51ab8c6ae441bbb844e06b23a43135/c.html",
+          "date": "2026-09-14",
+          "keyword": "习近平"
+        },
+        {
+          "id": "de8122946e42fb",
+          "source": "新华社",
+          "title": "视频画报｜习近平主席引领“大金砖合作”开启新篇章",
+          "url": "https://www.news.cn/politics/leaders/20260914/e64aa4355654450ca13f08bd20d3ad8a/c.html",
+          "date": "2026-09-14",
+          "keyword": "习近平"
+        },
+        {
+          "id": "485eafd2dc7109",
+          "source": "新华社",
+          "title": "也门政府军称胡塞武装攻势致双方伤亡数千人",
+          "url": "https://www.news.cn/world/20260914/3f00f70821ee4a8e9c27118fc0741ce3/c.html",
+          "date": "2026-09-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4bb13728eddf9c",
+          "source": "新华社",
+          "title": "共同书写全球南方团结自强新篇章",
+          "url": "https://www.news.cn/politics/leaders/20260914/9f6abfe1e0774cec9fb5cb04cefa8937/c.html",
+          "date": "2026-09-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9f3f8f119ca102",
+          "source": "新华社",
+          "title": "时代大潮里的笃行与担当",
+          "url": "https://www.news.cn/politics/leaders/20260914/ca81888b0b5b4f4999fe79a7ad656299/c.html",
+          "date": "2026-09-14",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 9.9,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260914.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.4,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/14/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 6,
+          "duration": 2.8
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.3
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.3
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.9,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/14/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.3
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.1
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.5
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 46.3
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-13T21:03:39+08:00"
+  "generatedAt": "2026-09-14T01:14:30+08:00"
 };
