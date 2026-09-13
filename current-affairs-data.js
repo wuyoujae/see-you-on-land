@@ -120313,7 +120313,7 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "习近平",
-          "count": 9
+          "count": 12
         }
       ],
       "articles": [
@@ -120366,10 +120366,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
-          "id": "48646400b3d999",
+          "id": "668585f8c23813",
+          "source": "广东发布",
+          "title": "习近平会见印度总理莫迪",
+          "url": "https://www.gd.gov.cn/gdywdt/xwdt/content/post_4954946.html",
+          "date": "2026-09-13",
+          "keyword": "习近平"
+        },
+        {
+          "id": "fcb0acf3c4cbac",
+          "source": "广东发布",
+          "title": "习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话",
+          "url": "https://www.gd.gov.cn/gdywdt/xwdt/content/post_4954944.html",
+          "date": "2026-09-13",
+          "keyword": "习近平"
+        },
+        {
+          "id": "5325e0fc12287d",
+          "source": "广东发布",
+          "title": "习近平抵达新德里出席金砖国家领导人第十八次会晤",
+          "url": "https://www.gd.gov.cn/gdywdt/xwdt/content/post_4954948.html",
+          "date": "2026-09-13",
+          "keyword": "习近平"
+        },
+        {
+          "id": "8115d1102c28bf",
           "source": "新华社",
-          "title": "习近平 主席重要讲话为推动金砖合作行稳致远凝聚力量",
-          "url": "https://www.news.cn/politics/leaders/20260913/501ffab5667842efbdff0f2a6cfc549c/c.html",
+          "title": "习近平主席倡导金砖国家共担时代责任",
+          "url": "https://www.news.cn/politics/leaders/20260913/a7e3d4281eed41b9b616092d22b8d078/c.html",
           "date": "2026-09-13",
           "keyword": "习近平"
         },
@@ -120382,10 +120406,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
-          "id": "8115d1102c28bf",
+          "id": "48646400b3d999",
           "source": "新华社",
-          "title": "第一观察 | 习近平主席倡导金砖国家共担时代责任",
-          "url": "https://www.news.cn/politics/leaders/20260913/a7e3d4281eed41b9b616092d22b8d078/c.html",
+          "title": "习近平主席重要讲话为推动金砖合作行稳致远凝聚力量",
+          "url": "https://www.news.cn/politics/leaders/20260913/501ffab5667842efbdff0f2a6cfc549c/c.html",
           "date": "2026-09-13",
           "keyword": "习近平"
         },
@@ -120638,6 +120662,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "921b668943f8c6",
+          "source": "新华社",
+          "title": "“京跃”“京燕”——北京2027年田径 世锦赛 会徽吉祥物的东方表达",
+          "url": "https://www.news.cn/sports/20260913/995af8b29a964336b9ee94a5935c439b/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
           "id": "19226f4d352a33",
           "source": "新华社",
           "title": "“十五五”开局之年5G工厂发展观察",
@@ -120646,34 +120678,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "532ccbbd43f0f6",
+          "id": "ce690a0c06d6ab",
           "source": "新华社",
           "title": "中国VR短片《鸽环》获威尼斯电影节沉浸单元大奖",
-          "url": "https://www.news.cn/20260913/927dd4cf928f4c43ad7430669be43a8d/c.html",
+          "url": "https://www.news.cn/world/20260913/3cd7ad1cbd604068b1067757efa6673d/c.html",
           "date": "2026-09-13",
           "keyword": "综合时政"
         },
         {
-          "id": "fc55c870cb22a6",
+          "id": "b2bde89d8cdb6a",
+          "source": "新华社",
+          "title": "中国智能技术助力全球南方矿业发展",
+          "url": "https://www.news.cn/fortune/20260913/d0b8f4d3d3ce494ab758ffb267950424/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b4d8e2dcad89bb",
+          "source": "新华社",
+          "title": "九旬“飞人”吕明璞：年龄不是运动的枷锁",
+          "url": "https://www.news.cn/sports/20260913/7e302244f7764a57846d699ed8e731bf/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dec3541b634905",
           "source": "新华社",
           "title": "也门胡塞武装称沙特在过去两天发动129次空袭",
-          "url": "https://www.news.cn/20260913/546a1da645594ad7a3ae0ec8b1f1a6e7/c.html",
+          "url": "https://www.news.cn/world/20260913/f2830bb13b8b471cb9e0e5a9c64f2001/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0767fbcb6f125b",
+          "source": "新华社",
+          "title": "云南丽江入境游持续升温",
+          "url": "https://www.news.cn/local/20260913/3373d1e5e83e453b8c9fcd00656084d2/c.html",
           "date": "2026-09-13",
           "keyword": "综合时政"
         },
         {
           "id": "abb0a7c5b2e0e0",
           "source": "新华社",
-          "title": "亚运会丨男篮：中国队提前晋级 伊朗险胜中国台北",
+          "title": "亚运会丨男篮：46分大胜巴林，中国队提前晋级",
           "url": "https://www.news.cn/sports/20260913/74ab722b4d4f4e7bb911611a4dbbfaae/c.html",
-          "date": "2026-09-13",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "926c72c5e73741",
-          "source": "新华社",
-          "title": "从服贸会看服务设计如何赋能中国制造",
-          "url": "https://www.news.cn/world/20260913/72288201d8ea45dca739daa125c6a1c6/c.html",
           "date": "2026-09-13",
           "keyword": "综合时政"
         },
@@ -120694,6 +120742,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "2ebcc4beb943e7",
+          "source": "新华社",
+          "title": "华南多地风雨持续局地有大暴雨 北方昼夜温差较大",
+          "url": "https://www.news.cn/politics/20260913/73ae94763f424e85b73d7580ddb10909/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
           "id": "16b13f6c803f31",
           "source": "新华社",
           "title": "国际社会对中国明年接任金砖主席国满怀期待",
@@ -120702,10 +120758,66 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "a86164c4b26b92",
+          "source": "新华社",
+          "title": "图片故事丨一座深山教学点 两代接续守梦人",
+          "url": "https://www.news.cn/photo/20260913/9a9d654637ff4868a4d600f5ed804c7b/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "40012279153ebb",
+          "source": "新华社",
+          "title": "感受AI应用新变化",
+          "url": "https://www.news.cn/world/20260913/cc084ffcc28645aba78fa205a3373425/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "49dec15694b53c",
+          "source": "新华社",
+          "title": "攀岩世界杯贵阳站：中国队夺混合速度接力赛银牌",
+          "url": "https://www.news.cn/20260913/bb178df1b0e646c19a75929806163e23/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
           "id": "6ddd8d427f509a",
           "source": "新华社",
           "title": "新华社评论员：勇做时代先锋 共创光明前景",
           "url": "https://www.news.cn/politics/leaders/20260913/5a8a91675fda4f00b1286c204d4a0a8b/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "998bfb990b3a54",
+          "source": "新华社",
+          "title": "新德里宣言（摘要）",
+          "url": "https://www.news.cn/world/20260913/90532f95215444e29769adba68ee0ffe/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "926c72c5e73741",
+          "source": "新华社",
+          "title": "服务设计赋能中国制造",
+          "url": "https://www.news.cn/world/20260913/72288201d8ea45dca739daa125c6a1c6/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "84c60a26c142fc",
+          "source": "新华社",
+          "title": "权威数读·观中国丨本周，这些数据值得关注",
+          "url": "https://www.news.cn/fortune/20260913/5ef71c2e30804d88b4740bd88d1c8e45/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e543c1e6029969",
+          "source": "新华社",
+          "title": "沙特称也门胡塞武装袭击造成2人受伤",
+          "url": "https://www.news.cn/20260913/9942526a8d054e989fa496989cf3df91/c.html",
           "date": "2026-09-13",
           "keyword": "综合时政"
         },
@@ -120726,10 +120838,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "998bfb990b3a54",
+          "id": "b41ae1bdd449ff",
           "source": "新华社",
-          "title": "金砖国家领导人第十八次会晤新德里宣言（摘要）",
-          "url": "https://www.news.cn/world/20260913/90532f95215444e29769adba68ee0ffe/c.html",
+          "title": "第二届全国青少年智能无人系统应用大赛总决赛举行",
+          "url": "https://www.news.cn/tech/20260913/90132afc3ea948a1b3d9b89db6b7bc17/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "383f4b17b31837",
+          "source": "新华社",
+          "title": "袁隆平超级杂交水稻蒙自示范基地开镰",
+          "url": "https://www.news.cn/politics/20260913/d94dca4a1b274a4ab471c7dfa1792986/c.html",
+          "date": "2026-09-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c941884372057a",
+          "source": "求是",
+          "title": "如何夯实国内大循环的产业根基？",
+          "url": "https://www.qstheory.cn/20260913/4a326071e8e24cf8a00dcf87693849c0/c.html",
           "date": "2026-09-13",
           "keyword": "综合时政"
         }
@@ -120739,65 +120867,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 9.2,
+          "duration": 6.9,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260913.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 20,
-          "duration": 1.7
+          "duration": 2.5
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 15,
-          "duration": 1.7
+          "count": 27,
+          "duration": 2.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 16.0
+          "duration": 18.5
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 6.2
+          "count": 1,
+          "duration": 5.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 16,
-          "duration": 2.0
+          "duration": 1.4
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.3
+          "duration": 14.6
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 1,
-          "duration": 3.1
+          "duration": 3.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 10.6
+          "duration": 11.5
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 0,
-          "duration": 68.5
+          "count": 3,
+          "duration": 64.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-09-13T07:53:20+08:00"
+  "generatedAt": "2026-09-13T10:35:57+08:00"
 };
