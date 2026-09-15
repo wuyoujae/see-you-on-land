@@ -125472,7 +125472,163 @@
           "duration": 71.7
         }
       ]
+    },
+    {
+      "date": "2026-09-16",
+      "keyword": "金砖国家",
+      "keywords": [
+        {
+          "name": "金砖国家",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "7b670857cc9bbd",
+          "source": "光明日报",
+          "title": "推动金砖国家合作增效 赋能全球南方共同发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/16/content_25212.html",
+          "date": "2026-09-16",
+          "keyword": "金砖国家"
+        },
+        {
+          "id": "7bbca552042426",
+          "source": "新华社",
+          "title": "中国携手金砖国家共绘发展繁荣新画卷",
+          "url": "https://www.news.cn/politics/leaders/20260916/ccdd05c01a30494ea5bef4b70ce94216/c.html",
+          "date": "2026-09-16",
+          "keyword": "金砖国家"
+        },
+        {
+          "id": "a25333fc694029",
+          "source": "光明日报",
+          "title": "“扎实推进先进制造业高质量发展”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/16/content_25214.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b1c8fdcf402260",
+          "source": "光明日报",
+          "title": "【大美中国】水稻迎丰收",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/16/content_25215.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "75dca5b2a61633",
+          "source": "光明日报",
+          "title": "【民生总关情】孩子们有了“绿色通道”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/16/content_25213.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ec742b36f8f96d",
+          "source": "光明日报",
+          "title": "在加强基础研究座谈会上的讲话",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/16/content_25211.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "19a103bd927509",
+          "source": "光明日报",
+          "title": "坚守为民初心矢志担当奉献 做党和人民的忠诚卫士",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/16/content_25210.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5b61700780c334",
+          "source": "光明日报",
+          "title": "成渝中线高铁全线无砟轨道完工",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/16/content_25225.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2c9cefb04f0f30",
+          "source": "光明日报",
+          "title": "筑牢智能时代的网络安全防线",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/16/content_25224.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f0b369f506e318",
+          "source": "光明日报",
+          "title": "韩正出席第十三届北京香山论坛欢迎晚宴并致辞",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/16/content_25223.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 9.2,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260916.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.0,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/16/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 1,
+          "duration": 2.1
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.3
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.4
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 9,
+          "duration": 0.6
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 11.7
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.5
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 7.8
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 51.7
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-15T22:06:45+08:00"
+  "generatedAt": "2026-09-16T02:42:46+08:00"
 }
