@@ -81,6 +81,7 @@
 .solver-settings-dot.configured { display: none; }
 
 .solver-workspace {
+  overflow-anchor: none;
   flex: 1 1 auto;
   min-height: 0;
   display: flex;
