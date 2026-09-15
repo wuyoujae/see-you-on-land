@@ -33,6 +33,45 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
     await page.goto(url);
     await page.click('[data-tab="search"]');
     await page.evaluate(() => { window.wrongQuestionBook = null; });
+    const photo = await page.evaluate(() => {
+      const canvas = document.createElement('canvas');
+      canvas.width = 800; canvas.height = 600;
+      const context = canvas.getContext('2d');
+      context.fillStyle = '#fff'; context.fillRect(0, 0, 800, 600);
+      context.fillStyle = '#123456'; context.fillRect(100, 100, 200, 150);
+      return canvas.toDataURL('image/png').split(',')[1];
+    });
+    const photoFile = { name: 'camera.png', mimeType: 'image/png', buffer: Buffer.from(photo, 'base64') };
+    await page.locator('#solver-camera-input').setInputFiles(photoFile);
+    await page.waitForFunction(() => document.querySelector('.solver-crop-dialog [data-action="confirm"]')?.disabled === false);
+    assert.equal(await page.locator('#solver-send').isDisabled(), true);
+    await page.locator('.solver-crop-dialog [data-action="cancel"]').click();
+    await page.waitForFunction(() => !document.querySelector('.solver-crop-dialog'));
+    assert.equal(await page.locator('[data-crop-image]').count(), 0);
+    await page.locator('#solver-camera-input').setInputFiles(photoFile);
+    await page.waitForFunction(() => document.querySelector('.solver-crop-dialog [data-action="confirm"]')?.disabled === false);
+    await page.evaluate(() => document.querySelector('.solver-crop-stage img').cropper.setData({ x: 100, y: 100, width: 200, height: 150 }));
+    await page.locator('.solver-crop-dialog [data-action="confirm"]').click();
+    await page.waitForFunction(() => document.querySelector('#solver-image-preview img')?.naturalWidth === 200);
+    assert.equal(await page.locator('#solver-image-preview img').evaluate(img => img.naturalHeight), 150);
+    const croppedUrl = await page.locator('#solver-image-preview img').getAttribute('src');
+    await page.locator('[data-crop-image]').click();
+    await page.waitForFunction(() => document.querySelector('.solver-crop-dialog [data-action="confirm"]')?.disabled === false);
+    for (const width of [320, 768]) {
+      await page.setViewportSize({ width, height: 700 });
+      const bounds = await page.locator('.solver-crop-dialog').boundingBox();
+      assert.ok(bounds.x >= 0 && bounds.x + bounds.width <= width && bounds.height <= 700);
+      if (process.env.SCREENSHOT_DIR) await page.screenshot({ path: path.join(process.env.SCREENSHOT_DIR, `crop-${width}.png`) });
+    }
+    await page.keyboard.press('Escape');
+    assert.equal(await page.locator('#solver-image-preview img').getAttribute('src'), croppedUrl);
+    await page.locator('[data-remove-image]').click();
+    await page.locator('#solver-camera-input').setInputFiles(photoFile);
+    await page.waitForFunction(() => document.querySelector('.solver-crop-dialog [data-action="confirm"]')?.disabled === false);
+    await page.locator('.solver-crop-dialog [data-action="original"]').click();
+    await page.waitForFunction(() => document.querySelector('#solver-image-preview img')?.naturalWidth === 800);
+    await page.locator('[data-remove-image]').click();
+    assert.equal(requests.length, 0);
     const select = page.locator('#solver-question-type');
     assert.equal(await select.locator('option').count(), 2);
     await select.selectOption('verbal-logical-fill');
@@ -75,7 +114,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
       if (process.env.SCREENSHOT_DIR) await page.screenshot({ path: path.join(process.env.SCREENSHOT_DIR, `solver-type-${width}.png`) });
     }
     assert.deepEqual(errors, []);
-    console.log('PASS: type-specific instructions, image input, SSE, history, persistence and 320/390/768px layouts');
+    console.log('PASS: camera crop, cancel, original, recrop, responsive dialog, type-specific instructions, image input, SSE, history and persistence');
   } finally {
     await browser?.close();
     await new Promise(resolve => server.close(resolve));
