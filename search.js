@@ -60,6 +60,7 @@
 
   let settings = loadSettings();
   let attachments = [];
+  let processingImages = false;
   let sessions = [];
   let activeSessionId = "";
   let conversation = [];
@@ -597,7 +598,8 @@
     }
   }
 
-  async function addFiles(fileList) {
+  async function addFiles(fileList, cropAfterCapture = false) {
+    if (processingImages || sending) return;
     const files = Array.from(fileList || []);
     if (!files.length) return;
     const available = Math.max(0, MAX_IMAGES - attachments.length);
@@ -606,9 +608,13 @@
       return;
     }
     setStatus("正在处理图片…");
+    processingImages = true;
+    setSending(sending);
     try {
       for (const file of files.slice(0, available)) {
-        const dataUrl = await prepareImage(file);
+        let dataUrl = await prepareImage(file);
+        if (cropAfterCapture) dataUrl = await window.cropSolverImage(dataUrl);
+        if (!dataUrl) continue;
         attachments.push({
           id: `image-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
           name: file.name || "题目图片",
@@ -619,6 +625,10 @@
       setStatus(files.length > available ? `已添加 ${available} 张，单次最多 ${MAX_IMAGES} 张。` : "");
     } catch (error) {
       setStatus(error.message || "图片处理失败。", true);
+    } finally {
+      processingImages = false;
+      renderAttachments();
+      setSending(sending);
     }
   }
 
@@ -637,7 +647,14 @@
       remove.title = "移除图片";
       remove.setAttribute("aria-label", `移除${image.name}`);
       remove.innerHTML = '<i data-lucide="x" aria-hidden="true"></i>';
-      item.append(preview, remove);
+      const crop = document.createElement("button");
+      crop.type = "button";
+      crop.className = "solver-preview-crop";
+      crop.dataset.cropImage = image.id;
+      crop.title = "裁剪图片";
+      crop.setAttribute("aria-label", `裁剪${image.name}`);
+      crop.innerHTML = '<i data-lucide="crop" aria-hidden="true"></i>';
+      item.append(preview, remove, crop);
       dom.preview.appendChild(item);
     });
     dom.preview.hidden = attachments.length === 0;
@@ -1160,8 +1177,8 @@
 
   function setSending(value) {
     sending = value;
-    dom.cameraButton.disabled = value;
-    dom.uploadButton.disabled = value;
+    dom.cameraButton.disabled = value || processingImages;
+    dom.uploadButton.disabled = value || processingImages;
     dom.prompt.disabled = value;
     dom.questionType.disabled = value;
     dom.sendButton.classList.toggle("stop", value);
@@ -1173,7 +1190,7 @@
   }
 
   function updateSendButton() {
-    dom.sendButton.disabled = !sessionsReady || (!sending && !dom.prompt.value.trim() && attachments.length === 0);
+    dom.sendButton.disabled = processingImages || !sessionsReady || (!sending && !dom.prompt.value.trim() && attachments.length === 0);
   }
 
   function startReasoningClock(message) {
@@ -1192,6 +1209,7 @@
   }
 
   async function sendQuestion() {
+    if (processingImages) return;
     if (!sessionsReady) return;
     if (!settings.apiKey || !settings.baseUrl || !settings.model) {
       setStatus("请先配置 API Key、Base URL 和模型。", true);
@@ -1333,14 +1351,32 @@
   dom.cameraButton.addEventListener("click", () => dom.cameraInput.click());
   dom.uploadButton.addEventListener("click", () => dom.uploadInput.click());
   dom.cameraInput.addEventListener("change", async () => {
-    await addFiles(dom.cameraInput.files);
+    await addFiles(dom.cameraInput.files, true);
     dom.cameraInput.value = "";
   });
   dom.uploadInput.addEventListener("change", async () => {
     await addFiles(dom.uploadInput.files);
     dom.uploadInput.value = "";
   });
-  dom.preview.addEventListener("click", event => {
+  dom.preview.addEventListener("click", async event => {
+    if (processingImages || sending) return;
+    const cropButton = event.target.closest("button[data-crop-image]");
+    if (cropButton) {
+      const image = attachments.find(item => item.id === cropButton.dataset.cropImage);
+      if (!image) return;
+      processingImages = true;
+      setSending(sending);
+      try {
+        const result = await window.cropSolverImage(image.dataUrl);
+        if (result) image.dataUrl = result;
+      } catch { setStatus("无法打开裁剪，请重试。", true); }
+      finally {
+        processingImages = false;
+        renderAttachments();
+        setSending(sending);
+      }
+      return;
+    }
     const button = event.target.closest("button[data-remove-image]");
     if (!button) return;
     attachments = attachments.filter(image => image.id !== button.dataset.removeImage);
