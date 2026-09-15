@@ -943,20 +943,22 @@
     return article;
   }
 
-  function renderConversation() {
+  function renderConversation(scroll = true) {
+    const scrollTop = dom.workspace.scrollTop;
     const hasMessages = conversation.length > 0;
     dom.welcome.hidden = hasMessages;
     dom.messages.hidden = !hasMessages;
     dom.messages.innerHTML = "";
     conversation.forEach(message => dom.messages.appendChild(createMessageElement(message)));
     refreshIcons(dom.messages);
-    scrollToLatest(false);
+    if (scroll) scrollToLatest(false);
+    else dom.workspace.scrollTop = scrollTop;
   }
 
   function updateAssistantMessage(message) {
     const article = dom.messages.querySelector(`[data-message-id="${message.id}"]`);
     if (!article) {
-      renderConversation();
+      renderConversation(false);
       return;
     }
     const reasoning = article.querySelector(".solver-reasoning");
@@ -970,13 +972,12 @@
     if (message.text) renderMarkdown(copy, message.text);
     else copy.textContent = "正在分析题目…";
     copy.classList.toggle("solver-stream-cursor", message.status === "streaming");
-    scrollToLatest(true);
   }
 
   function rerenderAssistantMessage(message, smooth = false) {
     const article = Array.from(dom.messages.querySelectorAll("[data-message-id]")).find(item => item.dataset.messageId === message.id);
     if (!article) {
-      renderConversation();
+      renderConversation(false);
       return;
     }
     article.replaceWith(createMessageElement(message));
@@ -1000,7 +1001,7 @@
     assistantMessage.wrongQuestionStatus = "analyzing";
     assistantMessage.wrongQuestionError = "";
     scheduleSessionSave(session);
-    if (activeSessionId === session.id) rerenderAssistantMessage(assistantMessage, true);
+    if (activeSessionId === session.id) rerenderAssistantMessage(assistantMessage);
     try {
       await window.wrongQuestionBook.ready;
       const analysis = await window.wrongQuestionBook.analyzeQuestion({
@@ -1026,7 +1027,7 @@
       if (wrongAnalysisControllers.get(assistantMessage.id) === controller) {
         wrongAnalysisControllers.delete(assistantMessage.id);
         scheduleSessionSave(session, true);
-        if (activeSessionId === session.id) rerenderAssistantMessage(assistantMessage, true);
+        if (activeSessionId === session.id) rerenderAssistantMessage(assistantMessage);
       }
     }
   }
@@ -1322,7 +1323,7 @@
       scheduleSessionSave(session, true);
       if (activeSessionId === session.id) {
         conversation = sessionMessages;
-        renderConversation();
+        renderConversation(false);
         renderSessionList();
       }
       if (shouldAnalyzeWrongQuestion) {

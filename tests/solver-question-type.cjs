@@ -113,6 +113,39 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
       assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
       if (process.env.SCREENSHOT_DIR) await page.screenshot({ path: path.join(process.env.SCREENSHOT_DIR, `solver-type-${width}.png`) });
     }
+    await page.evaluate(() => {
+      const originalFetch = window.fetch;
+      window.fetch = (url, options) => {
+        if (String(url).includes('solver-test.invalid/v1/responses')) {
+          return Promise.resolve(new Response(new ReadableStream({
+            start(controller) { window.testStream = controller; }
+          }), { headers: { 'Content-Type': 'text/event-stream' } }));
+        }
+        return originalFetch(url, options);
+      };
+    });
+    await page.fill('#solver-prompt', '测试流式阅读位置');
+    await page.click('#solver-send');
+    await page.waitForFunction(() => Boolean(window.testStream));
+    // Let the intentional send-time scroll finish before testing streamed updates.
+    await page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))));
+    const emit = (type, delta) => page.evaluate(({ type, delta }) => {
+      window.testStream.enqueue(new TextEncoder().encode(`data: ${JSON.stringify({ type, delta })}\n\n`));
+    }, { type, delta });
+    await emit('response.output_text.delta', '正文段落。\n\n'.repeat(150));
+    await page.waitForFunction(() => document.querySelector('#solver-messages').textContent.includes('正文段落'));
+    await page.evaluate(() => { document.querySelector('#solver-workspace').scrollTop = 100; });
+    const position = await page.locator('#solver-workspace').evaluate(el => el.scrollTop);
+    await emit('response.reasoning_summary_text.delta', '思考摘要。\n\n'.repeat(30));
+    await emit('response.output_text.delta', '更多正文。\n\n'.repeat(50));
+    await page.waitForFunction(() => document.querySelector('#solver-messages').textContent.includes('更多正文'));
+    assert.equal(await page.locator('#solver-workspace').evaluate(el => el.scrollTop), position);
+    await page.evaluate(() => {
+      window.testStream.enqueue(new TextEncoder().encode('data: {"type":"response.completed","response":{"status":"completed"}}\n\n'));
+      window.testStream.close();
+    });
+    await page.waitForFunction(() => !document.querySelector('#solver-question-type').disabled);
+    assert.equal(await page.locator('#solver-workspace').evaluate(el => el.scrollTop), position);
     assert.deepEqual(errors, []);
     console.log('PASS: camera crop, cancel, original, recrop, responsive dialog, type-specific instructions, image input, SSE, history and persistence');
   } finally {
