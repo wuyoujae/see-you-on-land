@@ -125475,22 +125475,114 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-09-16",
-      "keyword": "习近平",
+      "keyword": "经济",
       "keywords": [
         {
-          "name": "习近平",
-          "count": 7
+          "name": "经济",
+          "count": 10
         },
         {
-          "name": "经济",
-          "count": 6
+          "name": "习近平",
+          "count": 9
         },
         {
           "name": "高质量发展",
-          "count": 4
+          "count": 5
+        },
+        {
+          "name": "就业",
+          "count": 3
+        },
+        {
+          "name": "教育",
+          "count": 3
+        },
+        {
+          "name": "人工智能",
+          "count": 2
         }
       ],
       "articles": [
+        {
+          "id": "74d2d783b4f817",
+          "source": "人民日报",
+          "title": "八月份经济总体平稳向新向优（权威发布）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/16/content_30181324.html",
+          "date": "2026-09-16",
+          "keyword": "经济"
+        },
+        {
+          "id": "254d6cc2cbf5d3",
+          "source": "人民日报",
+          "title": "张庆伟出席2026上合组织数字经济论坛开幕式",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/16/content_30181272.html",
+          "date": "2026-09-16",
+          "keyword": "经济"
+        },
+        {
+          "id": "93e111b21c21e0",
+          "source": "光明日报",
+          "title": "【光明论坛】经济社会文化权利：从理念走向实践的中国样本",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/16/content_25205.html",
+          "date": "2026-09-16",
+          "keyword": "经济"
+        },
+        {
+          "id": "2c2ec5c951c3f1",
+          "source": "光明日报",
+          "title": "八月份国民经济运行延续动能向新、结构向优",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/16/content_25197.html",
+          "date": "2026-09-16",
+          "keyword": "经济"
+        },
+        {
+          "id": "aed818184bbd88",
+          "source": "学习强国",
+          "title": "经济社会文化权利：从理念走向实践的中国样本",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=4602774585053530290&item_id=4602774585053530290",
+          "date": "2026-09-16",
+          "keyword": "经济"
+        },
+        {
+          "id": "6ee15db057b99d",
+          "source": "新华社",
+          "title": "“三稳两快”勾勒8月国民经济运行情况",
+          "url": "https://www.news.cn/fortune/20260916/c1c031dfddbb4005b867a04ce6468080/c.html",
+          "date": "2026-09-16",
+          "keyword": "经济"
+        },
+        {
+          "id": "a624e699a14121",
+          "source": "新华社",
+          "title": "“中国经济圆桌会”聚焦加强新就业群体服务管理",
+          "url": "https://www.news.cn/fortune/20260916/7c8203f812124084865c2b279bfc7e1d/c.html",
+          "date": "2026-09-16",
+          "keyword": "经济"
+        },
+        {
+          "id": "22046c46a1cb61",
+          "source": "新华社",
+          "title": "山东省政协经济委员会原委员展宝卫严重违纪违法被开除党籍",
+          "url": "https://www.news.cn/20260916/f432975138b7426dab26d9a2d433e9dd/c.html",
+          "date": "2026-09-16",
+          "keyword": "经济"
+        },
+        {
+          "id": "b0d791ad0da12b",
+          "source": "新华社",
+          "title": "美国会报告：伊朗战事烧钱、耗弹、伤经济",
+          "url": "https://www.news.cn/world/20260916/4cd75ae492d64aa2bdae6a48c9e7a166/c.html",
+          "date": "2026-09-16",
+          "keyword": "经济"
+        },
+        {
+          "id": "f6e113f8a80df0",
+          "source": "求是",
+          "title": "经济社会文化权利：从理念走向实践的中国样本",
+          "url": "https://www.qstheory.cn/20260916/04c064c2627f43d0b7bc5e3e25c12ed8/c.html",
+          "date": "2026-09-16",
+          "keyword": "经济"
+        },
         {
           "id": "93297c4054a32c",
           "source": "中国政府网",
@@ -125512,6 +125604,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "半月谈",
           "title": "习近平致信祝贺吉林大学建校80周年",
           "url": "http://www.banyuetan.org/dyp/detail/20260916/1000200033135231789522757092601057_1.html",
+          "date": "2026-09-16",
+          "keyword": "习近平"
+        },
+        {
+          "id": "570e213c3afe49",
+          "source": "学习强国",
+          "title": "自觉用习近平党建思想谋划和推进党的建设",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=3747569027447469590&item_id=3747569027447469590",
           "date": "2026-09-16",
           "keyword": "习近平"
         },
@@ -125548,52 +125648,12 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
-          "id": "74d2d783b4f817",
-          "source": "人民日报",
-          "title": "八月份经济总体平稳向新向优（权威发布）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/16/content_30181324.html",
-          "date": "2026-09-16",
-          "keyword": "经济"
-        },
-        {
-          "id": "254d6cc2cbf5d3",
-          "source": "人民日报",
-          "title": "张庆伟出席2026上合组织数字经济论坛开幕式",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/16/content_30181272.html",
-          "date": "2026-09-16",
-          "keyword": "经济"
-        },
-        {
-          "id": "93e111b21c21e0",
-          "source": "光明日报",
-          "title": "【光明论坛】经济社会文化权利：从理念走向实践的中国样本",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/16/content_25205.html",
-          "date": "2026-09-16",
-          "keyword": "经济"
-        },
-        {
-          "id": "2c2ec5c951c3f1",
-          "source": "光明日报",
-          "title": "八月份国民经济运行延续动能向新、结构向优",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/16/content_25197.html",
-          "date": "2026-09-16",
-          "keyword": "经济"
-        },
-        {
-          "id": "ce24a6dd139c5d",
-          "source": "新华社",
-          "title": "上合组织数字经济论坛释放持续深化合作积极信号",
-          "url": "https://www.news.cn/local/20260916/bea2dab40495464ab1472e0762fddbde/c.html",
-          "date": "2026-09-16",
-          "keyword": "经济"
-        },
-        {
-          "id": "f6e113f8a80df0",
+          "id": "2361ecdc412097",
           "source": "求是",
-          "title": "经济社会文化权利：从理念走向实践的中国样本",
-          "url": "https://www.qstheory.cn/20260916/04c064c2627f43d0b7bc5e3e25c12ed8/c.html",
+          "title": "习近平致吉林大学建校80周年的贺信",
+          "url": "https://www.qstheory.cn/20260916/8f02fc66e3104ba98c9cf4b9266f99c6/c.html",
           "date": "2026-09-16",
-          "keyword": "经济"
+          "keyword": "习近平"
         },
         {
           "id": "55242253093a1c",
@@ -125620,12 +125680,68 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "高质量发展"
         },
         {
+          "id": "5c8f08492668ca",
+          "source": "学习强国",
+          "title": "以正确政绩观推动高质量发展行稳致远",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=13984629245527658455&item_id=13984629245527658455",
+          "date": "2026-09-16",
+          "keyword": "高质量发展"
+        },
+        {
           "id": "11462d02630b25",
           "source": "求是",
           "title": "以正确政绩观推动高质量发展行稳致远",
           "url": "https://www.qstheory.cn/20260916/2cb4fb8d6ef14fda8caadd086187157b/c.html",
           "date": "2026-09-16",
           "keyword": "高质量发展"
+        },
+        {
+          "id": "beeb497c4f49f1",
+          "source": "光明日报",
+          "title": "深耕延安红色资源 赋能师范生教育家精神培育",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/16/content_25209.html",
+          "date": "2026-09-16",
+          "keyword": "教育"
+        },
+        {
+          "id": "4c3b3643999aee",
+          "source": "学习强国",
+          "title": "教育部提醒新生入学季防诈骗",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=16377646194087897421&item_id=16377646194087897421",
+          "date": "2026-09-16",
+          "keyword": "教育"
+        },
+        {
+          "id": "9a0332b53295ea",
+          "source": "新华社",
+          "title": "圆桌会丨从五方面发力维护新就业群体合法权益",
+          "url": "https://www.news.cn/fortune/20260916/ed9bcda5608142579387322eb9e01e05/c.html",
+          "date": "2026-09-16",
+          "keyword": "就业"
+        },
+        {
+          "id": "b9cd991dbf9811",
+          "source": "新华社",
+          "title": "贵州省人大教育科学文化卫生委员会原副主任委员孔德明被开除党籍",
+          "url": "https://www.news.cn/20260916/f4cfbf8f28004ddf8659f93f75bf8f0b/c.html",
+          "date": "2026-09-16",
+          "keyword": "教育"
+        },
+        {
+          "id": "6bbfd2b88973bc",
+          "source": "光明日报",
+          "title": "【光明时评】人工智能时代更应绷紧网络安全之弦",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/16/content_25208.html",
+          "date": "2026-09-16",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "7eca9f090c3e67",
+          "source": "求是",
+          "title": "外交部：人工智能发展和治理需要践行真正的多边主义",
+          "url": "https://www.qstheory.cn/20260916/d7912d1b70c64e75b16e98e614765df9/c.html",
+          "date": "2026-09-16",
+          "keyword": "人工智能"
         },
         {
           "id": "d2982871ab3e70",
@@ -125852,14 +125968,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "6bbfd2b88973bc",
-          "source": "光明日报",
-          "title": "【光明时评】人工智能时代更应绷紧网络安全之弦",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/16/content_25208.html",
-          "date": "2026-09-16",
-          "keyword": "综合时政"
-        },
-        {
           "id": "47847e7a034e5b",
           "source": "光明日报",
           "title": "【光明时评】完善激励机制 大力培养科普人才",
@@ -125956,14 +126064,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "beeb497c4f49f1",
-          "source": "光明日报",
-          "title": "深耕延安红色资源 赋能师范生教育家精神培育",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/16/content_25209.html",
-          "date": "2026-09-16",
-          "keyword": "综合时政"
-        },
-        {
           "id": "2c9cefb04f0f30",
           "source": "光明日报",
           "title": "筑牢智能时代的网络安全防线",
@@ -125984,6 +126084,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "光明日报",
           "title": "韩正出席第十三届北京香山论坛欢迎晚宴并致辞",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202609/16/content_25223.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9e4261b77aa8c7",
+          "source": "半月谈",
+          "title": "2026国际汽联生态拉力杯（中国站）池州段完赛",
+          "url": "http://www.banyuetan.org/dfgc/detail/20260916/1000200033136151789543806567609741_1.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
@@ -126012,10 +126120,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "45367d93565961",
+          "source": "半月谈",
+          "title": "在时间的尽头追逃",
+          "url": "http://www.banyuetan.org/jrt/detail/20260916/1000200033134991789543631209665693_1.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "0b3119bfb0d414",
           "source": "半月谈",
           "title": "市场消息刺激纽约油价上涨超4%",
           "url": "http://www.banyuetan.org/yw/detail/20260916/1000200033137441789521843350591813_1.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dae427e034684d",
+          "source": "半月谈",
+          "title": "干部体验送外卖，这样的“体验式调研”可以多一些！",
+          "url": "http://www.banyuetan.org/pl/detail/20260916/1000200033136001789527212188664163_1.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
@@ -126068,10 +126192,202 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "6988458c473d22",
+          "id": "68449378991e81",
           "source": "学习强国",
-          "title": "尿毒症的透析治疗怎么做？",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=231570840984250104&item_id=231570840984250104",
+          "title": "5岁幼童在超市用餐区玩耍受伤，责任如何划分？",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=8055672885139836156&item_id=8055672885139836156",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "005db9eb3b8c54",
+          "source": "学习强国",
+          "title": "“执行党的决定”就是党员义务",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=10191058779894969808&item_id=10191058779894969808",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5cbb409b208a31",
+          "source": "学习强国",
+          "title": "“漳州110”：服务群众 护民安宁",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2107508578833885752&item_id=2107508578833885752",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d5026d3a4d64ce",
+          "source": "学习强国",
+          "title": "《关于加强托育综合服务中心有关工作的通知》解读",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=15186092267963838213&item_id=15186092267963838213",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0867a1faf81da3",
+          "source": "学习强国",
+          "title": "上海职工医保个人账户历年结余资金可支付非免疫规划疫苗费用",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=1245060669901939561&item_id=1245060669901939561",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bcbcc22d84b3f3",
+          "source": "学习强国",
+          "title": "价格预立项制度试行 创新医疗技术落地提速",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=4583072630826249530&item_id=4583072630826249530",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f47bbb52812563",
+          "source": "学习强国",
+          "title": "健全上下贯通、执行有力的组织体系",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=12035587595264297207&item_id=12035587595264297207",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c4f025a9465507",
+          "source": "学习强国",
+          "title": "健康警钟，别只敲向“吃播圈”",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=17236462437476845209&item_id=17236462437476845209",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0c360e48eb74a1",
+          "source": "学习强国",
+          "title": "刷视频买车“四驱”到手变“两驱” 法官：二手车经营者不得以虚假宣传误导消费者",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2639740365507172991&item_id=2639740365507172991",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "adcf2f0fc1d649",
+          "source": "学习强国",
+          "title": "吉林省舒兰市：凝聚协同共治力量 构建基层善治新格局",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=3398457687369881220&item_id=3398457687369881220",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d3dfa746067430",
+          "source": "学习强国",
+          "title": "国家网信办发布近期网络安全等领域执法典型案例",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=508963772557877845&item_id=508963772557877845",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cadb8bc503ad84",
+          "source": "学习强国",
+          "title": "国际舆论积极评价中方在新德里会晤期间提出的重要倡议和主张——“为金砖合作行稳致远指明了方向”",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=3890408112419429206&item_id=3890408112419429206",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "19356338155e43",
+          "source": "学习强国",
+          "title": "天凉血压易“失控” 这些身体信号需警惕",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2745459232968384146&item_id=2745459232968384146",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "da8571cdccaf75",
+          "source": "学习强国",
+          "title": "打击电信网络诈骗 筑牢反诈法治防线",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=5842796875794404832&item_id=5842796875794404832",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f092c3ec524549",
+          "source": "学习强国",
+          "title": "打通市场监管法治化的“最后一公里”",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=18183402061546073662&item_id=18183402061546073662",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fa15cdd58b4ece",
+          "source": "学习强国",
+          "title": "普法微视频：拨开交通事故背后的“迷雾”",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=1989733976159359325&item_id=1989733976159359325",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2adbcbcec9f74b",
+          "source": "学习强国",
+          "title": "民警冉曦：破解数字迷局的经侦先锋",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=684083586795570920&item_id=684083586795570920",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c6949a6b307f7c",
+          "source": "学习强国",
+          "title": "清淡饮食还发胖？这些“隐形刺客”藏不住了",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=4362122382648041324&item_id=4362122382648041324",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b4ba3b253c6d4b",
+          "source": "学习强国",
+          "title": "用心用情为群众排忧解难 兢兢业业守护万家灯火",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=14264504961942587574&item_id=14264504961942587574",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7c6153102ad4fc",
+          "source": "学习强国",
+          "title": "立足优势着力破解供强需弱矛盾",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=3816445051767788482&item_id=3816445051767788482",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "708675fe21523a",
+          "source": "学习强国",
+          "title": "筑牢合作根基 共创美好未来——中国携手金砖国家共绘发展繁荣新画卷",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=17343262600966801292&item_id=17343262600966801292",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bf33d9037f76ff",
+          "source": "学习强国",
+          "title": "聚餐饮酒突发损害？同饮人员负有安全注意义务！",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=1430614079313330095&item_id=1430614079313330095",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5e6b81d6457762",
+          "source": "学习强国",
+          "title": "舆是乎|对流量要有敬畏之心",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=388381350600044793&item_id=388381350600044793",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ed2fa07d249ac1",
+          "source": "学习强国",
+          "title": "道路通行没有强弱特权 守法才是安全底线",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=16241805756968660237&item_id=16241805756968660237",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bb23db1866c96f",
+          "source": "学习强国",
+          "title": "钟声：技术问题政治化，美国霸权老套路",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=11657146274956613358&item_id=11657146274956613358",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
@@ -126100,26 +126416,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "748c6b52d182b7",
+          "id": "297b3de02fef3d",
           "source": "新华社",
-          "title": "8月份我国工业机器人产量同比增长34.6%",
-          "url": "http://www.news.cn/tech/20260916/5089ad7fb9ff4596ae5fee00539eee71/c.html",
+          "title": "2026年下半年新兵起运工作全面启动",
+          "url": "https://www.news.cn/politics/20260916/210ac76503d740c894b3eb0e2d4245ea/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "a1ad002208a8e3",
+          "id": "011af97d579302",
           "source": "新华社",
-          "title": "AI锻造新优势 新一代智能终端迎发展红利",
-          "url": "https://www.news.cn/fortune/20260916/68e7bed2d06d46fbb6f0f59925f65bfe/c.html",
+          "title": "2027年《故宫日历》推出四个版本",
+          "url": "https://www.news.cn/20260916/f98c5a222e7e44608504e66b14317ec5/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "b92e302488757d",
+          "id": "e4adf07ea6bc23",
           "source": "新华社",
-          "title": "“组团式援边”解人才之“渴”",
-          "url": "https://www.news.cn/politics/20260916/81bec77424574120836b9f82570c0c91/c.html",
+          "title": "“大金砖合作”为推动全球南方团结自强凝聚力量",
+          "url": "https://www.news.cn/world/20260916/3e309ed6aadf4ecab00d1a7b846e21bc/c.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b099f847aa0885",
+          "source": "新华社",
+          "title": "“天下人”回响铜鼓岭",
+          "url": "https://www.news.cn/local/20260916/4db033c471b047b19f4fdf593145b813/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
@@ -126132,74 +126456,74 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "90ffc4a097a2eb",
+          "id": "936d1b4011d625",
           "source": "新华社",
-          "title": "专访丨东博会为跨国企业提供实地验证与深度链接的广阔机遇——访马来西亚中华总商会总会长吴逸平",
-          "url": "https://www.news.cn/20260916/6a6dd58f118349018f749cbcd5b4b5ac/c.html",
+          "title": "一骑红尘外：荔枝晚熟秋正忙",
+          "url": "https://www.news.cn/politics/20260916/3c7d9e53109a4f71811bd1ee5977661c/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "2316afdc6776ec",
+          "id": "25406769337e32",
           "source": "新华社",
-          "title": "两岸观众关注谍战剧《交锋》 国台办回应",
-          "url": "https://www.news.cn/tw/20260916/6a5ec2a938a44895ac5cf8d4bce6971d/c.html",
+          "title": "中国农业银行资产负债管理部原总经理王青山被开除党籍",
+          "url": "https://www.news.cn/20260916/3045e51ab67f46918f9277941f9b802c/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "e9305094471b8b",
+          "id": "846975fa7a29ed",
           "source": "新华社",
-          "title": "中东冲突显著升级 市场消息刺激纽约油价上涨超4%",
-          "url": "https://www.news.cn/world/20260916/48d3bf52797d4d8bb1cffb85dbc21b06/c.html",
+          "title": "中方敦促菲律宾以实际行动恪守一个中国原则",
+          "url": "https://www.news.cn/world/20260916/09e8ab98117c40fc867d0c9283a54478/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "5627471c315066",
+          "id": "bca7b7729e927f",
           "source": "新华社",
-          "title": "中国呼吁推动小堆创新 加强全球核能合作",
-          "url": "https://www.news.cn/world/20260916/9d09d8d141114cc6afc036720930e908/c.html",
+          "title": "也门胡塞武装称击落一架沙特F-15战机",
+          "url": "https://www.news.cn/20260916/4d678b618b504579857f5fc9021bb13d/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "7bbca552042426",
+          "id": "f5e06a14c8f16d",
           "source": "新华社",
-          "title": "中国携手金砖国家共绘发展繁荣新画卷",
-          "url": "https://www.news.cn/politics/leaders/20260916/ccdd05c01a30494ea5bef4b70ce94216/c.html",
-          "date": "2026-09-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "53cdbdfd4242a8",
-          "source": "新华社",
-          "title": "中国海军“吉祥方舟”号医院船抵达毛里塔尼亚",
-          "url": "https://www.news.cn/20260916/a0eadcf0797147858e491565bb717620/c.html",
-          "date": "2026-09-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "502498b2d969f7",
-          "source": "新华社",
-          "title": "中外学子 以诗会友",
-          "url": "https://www.news.cn/photo/20260916/be0dccbad2af4b8a964d49bc871734b1/c.html",
+          "title": "也门胡塞武装称击落沙特F-15战机",
+          "url": "https://www.news.cn/20260916/a9c41539e4134ba9909d168f66fd07a9/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
           "id": "1b758195c971c3",
           "source": "新华社",
-          "title": "亚运会丨邮轮？集装箱？探访争议住宿",
+          "title": "亚运丨邮轮？集装箱？探访争议住宿",
           "url": "https://www.news.cn/sports/20260916/9201b37f95244c319488457e34b89035/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "14be516e6e3450",
+          "id": "3e3bbf2b85a29f",
           "source": "新华社",
-          "title": "人民币市场汇价（9月16日）",
-          "url": "https://www.news.cn/20260916/9520f92722f848dcbcdd540e9135470d/c.html",
+          "title": "亚运会丨中国体育代表团团部和部分参赛队伍抵达名古屋",
+          "url": "https://www.news.cn/photo/20260916/18ed0cf7cab947a8a3baabbe5ffc24f4/c.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "79670630d7a4cd",
+          "source": "新华社",
+          "title": "亚运会中国体育代表团抵达名古屋",
+          "url": "https://www.news.cn/20260916/47d0658477494f8cb384980cf1406584/c.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4e906a0601da98",
+          "source": "新华社",
+          "title": "亚运会主媒体中心开启24小时全面运行",
+          "url": "https://www.news.cn/20260916/046952d11fcc41c7832aa13120214eec/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
@@ -126212,34 +126536,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "43122085b8a2a4",
+          "id": "1cf51aa7c2f75c",
           "source": "新华社",
-          "title": "伊朗格什姆岛传出爆炸声",
-          "url": "https://www.news.cn/world/20260916/6fa5f55cbd9147f9a2378f49ba2ff8a4/c.html",
+          "title": "伊朗革命卫队击落一架美军MQ-9无人机",
+          "url": "https://www.news.cn/20260916/d2f57a4900094448bea11ba28a7b1450/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "bcfd27d1d68210",
+          "id": "439e7ac9d40e19",
           "source": "新华社",
-          "title": "刚果（金）埃博拉疫情传播态势出现分化",
-          "url": "https://www.news.cn/20260916/4960da307f604d5a919a6d965927651e/c.html",
+          "title": "公众如何购票",
+          "url": "https://www.news.cn/world/20260916/12d5ed9c962a4fc3ace622b241057fd1/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "7ce49226bd89c5",
+          "id": "734ebbf6c1f875",
           "source": "新华社",
-          "title": "华西地区降雨连连 重庆湖北等地需防范暴雨",
-          "url": "https://www.news.cn/politics/20260916/859fa4f464ca44378a8518e48d31491d/c.html",
+          "title": "创造了哪些“最”？",
+          "url": "https://www.news.cn/local/20260916/d10353456337431f82e51d38804b6ee2/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "a25bcab095a680",
+          "id": "c8c32f68c59ccb",
           "source": "新华社",
-          "title": "台湾学生把“桃园三结义”当桃园市结盟 国台办回应",
-          "url": "https://www.news.cn/20260916/b8ef39ba31ba4a948df9b26d77d01f97/c.html",
+          "title": "刻在时间里的痛 九一八事变亲历者口述",
+          "url": "https://www.news.cn/politics/20260916/8c3e77b7b4564ee1b2766ce4bf4b17b8/c.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6795acdf38021d",
+          "source": "新华社",
+          "title": "北京中关村：到2030年基本建成世界领先科技园区",
+          "url": "https://www.news.cn/20260916/dc966ff9fdf54d3680e8013dc38ec1c0/c.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d0889e2a9de66a",
+          "source": "新华社",
+          "title": "台海谍战剧获两岸观众肯定 国台办：维护国家安全人人有责",
+          "url": "https://www.news.cn/tw/20260916/5e042511c33443b0b1ede94b59ca00b1/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
@@ -126252,90 +126592,66 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "54d8012d639588",
+          "id": "054459bc9e3a9a",
           "source": "新华社",
           "title": "国台办：平陆运河为台资企业开拓东盟市场创造新机遇",
-          "url": "https://www.news.cn/20260916/e9bc3d03bc014186ba8a4d960b050582/c.html",
+          "url": "https://www.news.cn/20260916/c7869aa63e3344c2bbdf02b4d70fc17c/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "d6f33561b33136",
+          "id": "db44cde55916af",
           "source": "新华社",
-          "title": "国家网信办发布近期网络安全等领域执法典型案例",
-          "url": "https://www.news.cn/government/20260916/31ff7ed8b4b34b7d93d087d127a99063/c.html",
+          "title": "外交部：保护主义影响各国企业赴欧投资信心",
+          "url": "https://www.news.cn/20260916/33ff01261cfa4c7087d586e5dd1f3ee6/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "20409cc0236e65",
+          "id": "17988e3aa7133c",
           "source": "新华社",
-          "title": "图说百科丨枕头怎么躺更科学？枕头选择三步法",
-          "url": "https://www.news.cn/politics/20260916/28a1d9aff762407bb6d0dc4e97ebdb86/c.html",
+          "title": "寻访襄阳：千年文脉里的“侠义”底色",
+          "url": "https://www.news.cn/local/20260916/07820e2e023446849d6fd147ccc83bca/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "f8ae0a2cf2cfac",
+          "id": "fe7ca655714464",
           "source": "新华社",
-          "title": "在荷兰的中国园林“谊园”",
-          "url": "https://www.news.cn/world/20260916/c8c7ea9486d2428e8e7a81245084d9de/c.html",
+          "title": "平台企业要平衡效率、公平和骑手发言权三者关系",
+          "url": "https://www.news.cn/fortune/20260916/da37685ca07e43f29ff6fe8da690cb80/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "7ab2fec147e003",
-          "source": "新华社",
-          "title": "天津拟增加公积金提取情形",
-          "url": "https://www.news.cn/government/20260916/198ef48b06f54a25bb1bc39a8af433d9/c.html",
-          "date": "2026-09-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "c96aa318bbcb07",
-          "source": "新华社",
-          "title": "尹锡悦涉嫌作伪证案二审被判无罪",
-          "url": "https://www.news.cn/world/20260916/395c9288c9f44d8596b3bc655e35e8a8/c.html",
-          "date": "2026-09-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "423d6bfd898b2a",
+          "id": "04608c096bc0ec",
           "source": "新华社",
           "title": "平陆运河建成通航",
-          "url": "https://www.news.cn/politics/20260916/5234f5b980d545ff8d475273b99e6c67/c.html",
+          "url": "https://www.news.cn/photo/20260916/9ca1d9fa666b4bc499e95210ada9e993/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "413c2ebeb613f7",
+          "id": "82b21ff6aecdea",
           "source": "新华社",
-          "title": "我国火箭单次海上发射载荷重量创新高",
-          "url": "https://www.news.cn/tech/20260916/90da18e8fd334ac799d8e615cd31291c/c.html",
+          "title": "建好四个维度的“双向奔赴”机制",
+          "url": "https://www.news.cn/fortune/20260916/0005b47014e84f93bc86c535a0ab98b5/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "ec2ab4f8ad7ef4",
+          "id": "147ab52d203d0b",
           "source": "新华社",
-          "title": "我国牵头制定固态电池首个国际标准",
-          "url": "http://www.news.cn/tech/20260916/558c18b023c5408a8fbe69aefb5de7e4/c.html",
+          "title": "新华视点丨薪传千年非遗 焕新北疆文旅",
+          "url": "https://www.news.cn/20260916/88a4f1b0954a40bfaf7ce19f3b0bfcb9/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "e4b30a42c513ac",
+          "id": "9fb4289961f941",
           "source": "新华社",
-          "title": "数据也可申请全国通用“身份证”了",
-          "url": "http://www.news.cn/tech/20260916/144a7f0c0c1844798447f5ac5a1b1b49/c.html",
-          "date": "2026-09-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "5d0edb6b9b018e",
-          "source": "新华社",
-          "title": "新一代通信网，带来哪些新体验？",
-          "url": "https://www.news.cn/tech/20260916/42de483f3b8c4b8486c8971a6221486c/c.html",
+          "title": "新华访谈丨谷大伟：为碳纤维打磨“微米\"精度的人",
+          "url": "https://www.news.cn/talking/20260916/7e5828853824448ca0600d92372a27d1/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
@@ -126348,162 +126664,98 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d3b0b96d12a864",
+          "id": "77c731251d87e9",
           "source": "新华社",
-          "title": "新华鲜报丨平陆运河建成通航 西南从“内陆”变“沿海”",
-          "url": "https://www.news.cn/20260916/829dcbe5ec144ba2a265d40dca9eecff/c.html",
+          "title": "旅游展区看点",
+          "url": "https://www.news.cn/world/20260916/2d1720556b0d4eca997bea827813167a/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "06f61b91dda15f",
+          "id": "345f16bde40fea",
           "source": "新华社",
-          "title": "日本自民党作出高层人事调整 多数人留任",
-          "url": "https://www.news.cn/world/20260916/71caf7e85d2c45428b9457d1c9b43cee/c.html",
+          "title": "最高法发布4起人民法院网络法治典型案例",
+          "url": "https://www.news.cn/legal/20260916/fcb6472ea6f54a7d857bad4009fd86e7/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "c2b269bfd0edd7",
+          "id": "8af31c257d0898",
           "source": "新华社",
-          "title": "民调：德国选择党势头最强 联盟党支持率创新低",
-          "url": "https://www.news.cn/20260916/ea5716aebf914d74921aa94c8edee1d4/c.html",
+          "title": "温度丨开学典礼发言里，读懂这位全网牵挂的少年",
+          "url": "https://www.news.cn/local/20260916/1e2c3f48950047ec9679b16426ef4d4b/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "ab2a503719514f",
+          "id": "873ab3c2725764",
           "source": "新华社",
-          "title": "江西婺源：晒出秋日好风景",
-          "url": "https://www.news.cn/photo/20260916/1e41445f7dfe48d8ab6ec4508771e4d6/c.html",
+          "title": "福州长乐国际机场T2航站楼投运",
+          "url": "https://www.news.cn/20260916/037450e2229845fa9aaddb57ce53246f/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "d783cfb72ac165",
-          "source": "新华社",
-          "title": "沙特主导联军称摧毁一架飞往麦加的胡塞武装无人机",
-          "url": "https://www.news.cn/20260916/932ea5adc93640f6837cb8bdb112fed0/c.html",
-          "date": "2026-09-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "82732d19039db9",
-          "source": "新华社",
-          "title": "活力中国调研行丨走进铜绿山国家考古遗址公园",
-          "url": "https://www.news.cn/ci/20260916/5123a8015c9f4c7baacee6ea0ecb889b/c.html",
-          "date": "2026-09-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "32603fab0088cc",
-          "source": "新华社",
-          "title": "湖北省襄阳市人大常委会原副主任肖勇被“双开”",
-          "url": "https://www.news.cn/legal/20260916/8ae5798963b3470290ccca5b88e94a48/c.html",
-          "date": "2026-09-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "41eb84cdd55160",
-          "source": "新华社",
-          "title": "激励广大 公安 干警奋发有为再立新功",
-          "url": "https://www.news.cn/politics/leaders/20260916/cbc12364ac354487baad7d22430943f5/c.html",
-          "date": "2026-09-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "a1e721fb2d959b",
-          "source": "新华社",
-          "title": "看展｜在漆与云之间，遇见汉代人的宇宙",
-          "url": "https://www.news.cn/ci/20260916/f9ff177cc2d4489c9f3f0129cda66c90/c.html",
-          "date": "2026-09-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "cb5994cc0a93c9",
-          "source": "新华社",
-          "title": "秋日里的黑羊山 景美如画",
-          "url": "https://www.news.cn/photo/20260916/f54ba5930e8b4c2a9f8a9d65fd714d20/c.html",
-          "date": "2026-09-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "c9af6b277d5f8f",
-          "source": "新华社",
-          "title": "科普时间丨初秋户外“第一防”，你做对了吗",
-          "url": "https://www.news.cn/politics/20260916/4b8ac0eb21be49fcb41b3fcf813c1b04/c.html",
-          "date": "2026-09-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "9b30f49ee4b559",
+          "id": "81e347f60f71ac",
           "source": "新华社",
           "title": "空客在华第二条总装线顺利交付首架飞机",
-          "url": "https://www.news.cn/fortune/20260916/2fe0522e35f143679aee02da3083b03a/c.html",
+          "url": "https://www.news.cn/20260916/1b3418c246504bcf81a6ec7cc05667a3/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "d1af84b395651b",
+          "id": "557019fdec229f",
           "source": "新华社",
-          "title": "第三届中拉人权圆桌会在秘鲁利马举办",
-          "url": "https://www.news.cn/20260916/006f3f615d9249268c493bbc896fc871/c.html",
+          "title": "第二届中国—乌兹别克斯坦中医药文化周在塔什干启动",
+          "url": "https://www.news.cn/20260916/c622f01d9b37482ba683a0611675e6d3/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "28993b06c917bd",
+          "id": "f6a6e257515456",
           "source": "新华社",
-          "title": "第三届新时代考古学与博物馆学融合发展学术研讨会在京举行",
-          "url": "https://www.news.cn/culture/20260916/0e71e1f4edc04e4e85281aa9f4ac0868/c.html",
+          "title": "第十三届北京香山论坛开幕",
+          "url": "https://www.news.cn/politics/20260916/a0b387dc224e4883b44c76b857a9d672/c.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "62df5e09961909",
+          "source": "新华社",
+          "title": "第十二届中国杂技金菊奖全国杂技比赛在河南濮阳举行",
+          "url": "https://www.news.cn/photo/20260916/f5817a0a9b4b4544bfc94fe2bd7a9d8e/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
           "id": "814691bdee9c93",
           "source": "新华社",
-          "title": "策源 聚链 筑网——合肥高新区“皖”胜未来的三重密码",
+          "title": "策源、聚链、筑网 合肥高新区“皖”胜未来的三重密码",
           "url": "https://www.news.cn/fortune/20260916/9f36ab086590493388e0595c21befa43/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "06bfa6f326e66d",
+          "id": "46616e2dd9bd95",
           "source": "新华社",
-          "title": "粤港澳大湾区变速抽水蓄能工程全面蓄水",
-          "url": "https://www.news.cn/gangao/20260916/63c769fdfe95445e882bbecb342c6a48/c.html",
+          "title": "美媒：美召八国军方高官密会",
+          "url": "https://www.news.cn/world/20260916/c625a152b01e4bc0b038c2a4893e01aa/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "683f4b36b28182",
+          "id": "86a2af436b176e",
           "source": "新华社",
-          "title": "美国以涉嫌对白人“种族歧视”为由限制南非官员签证",
-          "url": "https://www.news.cn/20260916/b8db4a2b75c14b4ca5445504c3690031/c.html",
+          "title": "自然资源部组织开展我国黄岩岛海域多学科综合地质调查",
+          "url": "https://www.news.cn/politics/20260916/903147db2ac74569a468830d0fcd4d61/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "eed6de4c6a2ba5",
+          "id": "c3823db2acb16d",
           "source": "新华社",
-          "title": "美媒：美对伊战争耗资超420亿美元",
-          "url": "https://www.news.cn/world/20260916/3fb300d8c71c49a4875c012ca5a11e0a/c.html",
-          "date": "2026-09-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "e201955a847d82",
-          "source": "新华社",
-          "title": "联合国报告：大规模战争在全球风险排名中迅速攀升",
-          "url": "https://www.news.cn/world/20260916/fa6bfee2a7cb47e2b833ee5a3594b1eb/c.html",
-          "date": "2026-09-16",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "37ec9fefc0455f",
-          "source": "新华社",
-          "title": "胡塞武装说有关用无人机袭击麦加的指控是“谎言”",
-          "url": "https://www.news.cn/20260916/d7f94dc94d6d452682c11e019bff87df/c.html",
+          "title": "英调查：约五分之一英国成年人使用AI获取新闻",
+          "url": "https://www.news.cn/20260916/abbfbdbdc94a40b5b9908e4d50da97e8/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
@@ -126516,10 +126768,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "5926b495cb7c9e",
+          "id": "53a91e41dd86b0",
           "source": "新华社",
-          "title": "这本新书，探寻中国电影现代化路径",
-          "url": "https://www.news.cn/ci/20260916/4234720cd24742048f22be90dec1f87f/c.html",
+          "title": "解锁“全景图”",
+          "url": "https://www.news.cn/politics/20260916/71d632ea2c5146929380aba296ba1282/c.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2e3b6b48af93d1",
+          "source": "新华社",
+          "title": "贵州省交通运输厅原党委书记、厅长张胤被“双开”",
+          "url": "https://www.news.cn/20260916/ccfddb381c2040608c3eac013d0bb7e7/c.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "18649858ea864b",
+          "source": "新华社",
+          "title": "进入像素赛场",
+          "url": "https://www.news.cn/sports/20260916/7cf48959d6b24e5b9f70c0411d6a59a1/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
@@ -126532,26 +126800,58 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "4e7f296dd8ea38",
+          "id": "cbcfdc5dbed289",
           "source": "新华社",
-          "title": "阿根廷外长：强烈抵制英国政府发布马岛商业活动指南",
-          "url": "https://www.news.cn/20260916/116d421849ee4c468b62a3977ed0e335/c.html",
+          "title": "韩国法院宣判民间无人机“侵入朝鲜”案",
+          "url": "https://www.news.cn/20260916/1e447fa7085b4827a24604cb6fb3f2c4/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "d4a38f68c1ad8b",
+          "id": "eb3c6feecba2af",
           "source": "新华社",
           "title": "首批国家基本医保医疗服务项目目录制定方案发布",
-          "url": "https://www.news.cn/20260916/fcd8c4b2248044c883a407bfab245b63/c.html",
+          "url": "https://www.news.cn/politics/20260916/e0955995950d4d8a967fcb652ccbd5b1/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
         {
-          "id": "4c02abe4204a90",
+          "id": "62c21a0e15a6ad",
           "source": "新华社",
-          "title": "黑龙江垦区玉米开镰收获",
-          "url": "https://www.news.cn/photo/20260916/74c1b93cef464f15997ee83255272fb8/c.html",
+          "title": "香港特区行政长官李家超发表2026年施政报告",
+          "url": "https://www.news.cn/20260916/0f907c5386a1446cbb5be1609a18a619/c.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7c19f6964fcfb7",
+          "source": "新华社",
+          "title": "香港特区首个五年规划正式公布",
+          "url": "https://www.news.cn/gangao/20260916/d3bdd725e8c04c2f8bc6fac1eb207de4/c.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "184e176b51c6fe",
+          "source": "求是",
+          "title": "“AI+北斗”融合拓展北斗应用新空间",
+          "url": "https://www.qstheory.cn/20260916/a12571ffffad43b88432aeb962913de2/c.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9d7652598f9f5e",
+          "source": "求是",
+          "title": "“嫦娥六号”月背月壤样品落户维也纳联合国总部",
+          "url": "https://www.qstheory.cn/20260916/093ae91362d64a1b9c2afb800d28bea8/c.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2d1fc393e69e88",
+          "source": "求是",
+          "title": "博鳌亚洲论坛2027年年会拟于明年3月24日至27日举行",
+          "url": "https://www.qstheory.cn/20260916/0753de6e60414882a31449fc021e9354/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         },
@@ -126564,10 +126864,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "ac002d38dc589e",
+          "source": "求是",
+          "title": "完善激励机制 大力培养科普人才",
+          "url": "https://www.qstheory.cn/20260916/1dd02cfe070343d493679fe9eb469a4b/c.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fe3788336ee9fd",
+          "source": "求是",
+          "title": "平陆运河为中国内陆开放注入新动能",
+          "url": "https://www.qstheory.cn/20260916/075ed6099a45410a804287524254587e/c.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "335ff6ac092673",
+          "source": "求是",
+          "title": "我国火箭单次海上发射载荷重量创新高",
+          "url": "https://www.qstheory.cn/20260916/886623e7ad0247a0abdb73c71def809f/c.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
           "id": "2ff28cf5dd1d4b",
           "source": "求是",
           "title": "用心用情服务群众 兢兢业业守护安宁",
           "url": "https://www.qstheory.cn/20260916/50b1c50b80454626a10ca7bd9ba96fc3/c.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1dee693dbcb1f7",
+          "source": "求是",
+          "title": "第20届亚运会中国体育代表团看点",
+          "url": "https://www.qstheory.cn/20260916/e283c7d5c22c4ce8b10f7af0e777daea/c.html",
+          "date": "2026-09-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "81c6ec76b86001",
+          "source": "求是",
+          "title": "黑土地上怎样长出农业新质生产力？",
+          "url": "https://www.qstheory.cn/20260916/7f5e4add563349558f3a24f68cd527f4/c.html",
           "date": "2026-09-16",
           "keyword": "综合时政"
         }
@@ -126577,65 +126917,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 4.5,
+          "duration": 6.9,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260916.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 30,
-          "duration": 1.9
+          "duration": 1.8
         },
         {
           "source": "新华社",
           "status": "ok",
           "count": 60,
-          "duration": 3.2
+          "duration": 2.7
         },
         {
           "source": "半月谈",
           "status": "ok",
-          "count": 12,
-          "duration": 10.2
+          "count": 15,
+          "duration": 17.9
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 5,
-          "duration": 6.2
+          "count": 15,
+          "duration": 6.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.7
+          "duration": 5.4
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.1
+          "duration": 12.9
         },
         {
           "source": "学习强国",
           "status": "ok",
-          "count": 1,
-          "duration": 2.4
+          "count": 29,
+          "duration": 3.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 8.9
+          "duration": 9.9
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 4,
-          "duration": 53.4
+          "duration": 63.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-09-16T10:49:44+08:00"
+  "generatedAt": "2026-09-16T16:12:43+08:00"
 };
