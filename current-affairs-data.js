@@ -127518,7 +127518,108 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 75.3
         }
       ]
+    },
+    {
+      "date": "2026-09-17",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 3
+        }
+      ],
+      "articles": [
+        {
+          "id": "973ce25a746f79",
+          "source": "新华社",
+          "title": "向长春师范大学捐赠谢罪碑",
+          "url": "https://www.news.cn/world/20260917/f43776fa404a43139832a001c7a350f7/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b31587bda84d0e",
+          "source": "新华社",
+          "title": "正道昭昭行万里——感悟大国外交的宏阔时空经纬",
+          "url": "https://www.news.cn/politics/leaders/20260917/22349b039f054ca6be3d83ef8b85d3ef/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2c7a500144f62c",
+          "source": "新华社",
+          "title": "激励广大青年学生和教育工作者矢志拼搏奋斗",
+          "url": "https://www.news.cn/politics/leaders/20260917/249c7a2f437e4fb5a90a2b278c0529ea/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 9.9,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260917.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.0,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/17/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 3,
+          "duration": 2.2
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 18.5
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.2
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.8,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/17/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.0
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.4
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 7.7
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 48.1
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-16T21:59:57+08:00"
+  "generatedAt": "2026-09-17T02:03:06+08:00"
 };
