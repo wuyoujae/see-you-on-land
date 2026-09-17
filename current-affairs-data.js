@@ -127521,19 +127521,555 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-09-17",
-      "keyword": "今日时政",
+      "keyword": "教育",
       "keywords": [
         {
-          "name": "今日时政",
+          "name": "教育",
           "count": 3
+        },
+        {
+          "name": "高质量发展",
+          "count": 2
+        },
+        {
+          "name": "人工智能",
+          "count": 2
+        },
+        {
+          "name": "习近平",
+          "count": 2
+        },
+        {
+          "name": "十五五",
+          "count": 2
         }
       ],
       "articles": [
         {
-          "id": "973ce25a746f79",
+          "id": "e711ebf0fbf909",
+          "source": "人民日报",
+          "title": "树立和践行正确政绩观学习教育中央指导组暨中央层面工作专班总结会议召开",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181517.html",
+          "date": "2026-09-17",
+          "keyword": "教育"
+        },
+        {
+          "id": "63cccc23cf0fd0",
+          "source": "光明日报",
+          "title": "树立和践行正确政绩观学习教育中央指导组暨中央层面工作专班总结会议召开",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/17/content_25349.html",
+          "date": "2026-09-17",
+          "keyword": "教育"
+        },
+        {
+          "id": "2c7a500144f62c",
           "source": "新华社",
-          "title": "向长春师范大学捐赠谢罪碑",
-          "url": "https://www.news.cn/world/20260917/f43776fa404a43139832a001c7a350f7/c.html",
+          "title": "激励广大青年学生和教育工作者矢志拼搏奋斗",
+          "url": "https://www.news.cn/politics/leaders/20260917/249c7a2f437e4fb5a90a2b278c0529ea/c.html",
+          "date": "2026-09-17",
+          "keyword": "教育"
+        },
+        {
+          "id": "4a786ec3dcf716",
+          "source": "人民日报",
+          "title": "《电子信息制造业发展“十五五”规划》发布",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181521.html",
+          "date": "2026-09-17",
+          "keyword": "十五五"
+        },
+        {
+          "id": "9c7bac0faf4ea5",
+          "source": "人民日报",
+          "title": "习近平致信祝贺吉林大学建校80周年",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181507.html",
+          "date": "2026-09-17",
+          "keyword": "习近平"
+        },
+        {
+          "id": "eff52cf66f8195",
+          "source": "人民日报",
+          "title": "沈阳着力为群众打造高品质生活空间（“十五五”开好局起好步）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181513.html",
+          "date": "2026-09-17",
+          "keyword": "十五五"
+        },
+        {
+          "id": "f7044c43c40335",
+          "source": "光明日报",
+          "title": "【光明时评】用司法为人工智能系牢“安全带”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/17/content_25367.html",
+          "date": "2026-09-17",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "c0f95f7636c9d7",
+          "source": "光明日报",
+          "title": "习近平致信祝贺吉林大学建校80周年",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/17/content_25372.html",
+          "date": "2026-09-17",
+          "keyword": "习近平"
+        },
+        {
+          "id": "42589caf9eb9de",
+          "source": "光明日报",
+          "title": "以“美术+思政”推进思政课教学高质量发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/17/content_25354.html",
+          "date": "2026-09-17",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "a29ab985f76bd9",
+          "source": "光明日报",
+          "title": "以高水平法治服务保障经济社会高质量发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/17/content_25352.html",
+          "date": "2026-09-17",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "f6d900de7fb5a4",
+          "source": "新华社",
+          "title": "联合国秘书长呼吁全球合作为人工智能设立护栏",
+          "url": "https://www.news.cn/20260917/aeb52ffa6a124e0897f6a2cd04b7efcf/c.html",
+          "date": "2026-09-17",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "579b42bbaa7877",
+          "source": "人民日报",
+          "title": "вАЬзЃЧиі¶вАЭзЪДжЩЇжЕІпЉИдЇЇж∞СиЃЇеЭЫпЉЙ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181538.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9a1867d6f70bb5",
+          "source": "人民日报",
+          "title": "дЄАзЙИиі£зЉЦпЉЪжЭ® жЧ≠ ж†ЊењГжА° еЉ†еЃЗжЭ∞ дЇМзЙИиі£зЉЦпЉЪжЮЧ зР≥ еЉ†еЃЙеЃЗ йЩИ йЬЗ дЄЙзЙИиі£зЉЦпЉЪеРі еИЪ еІЬ ж≥Ґ и∞Ґдљ≥еЃБ еЫЫзЙИиі£зЉЦпЉЪиҐБжМѓеЦЬ йЯ©жШ•зСґ еЉ†йЫ™е¶Н",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181543.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "00dd4cb8675c40",
+          "source": "人民日报",
+          "title": "дЇЇеЈ•жЩЇиГљз≠ЙжЛЫиБШдЄУеЬЇжПРдЊЫ17.8дЄЗдЇЇжђ°жЛЫиБШйЬАж±В",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181542.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "62f1d340cb035e",
+          "source": "人民日报",
+          "title": "еЫЊзЙЗжК•йБУ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181540.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "57ad1a53afc4d9",
+          "source": "人民日报",
+          "title": "жЬЙеКЫжЬЙеЇПеНПи∞ГжО®ињЫеЕ®йЭҐдЊЭж≥Хж≤їеЫљдїїеК°иРљеЃЮпЉИжЭГе®БеПСеЄГ¬ЈеЉАе±АиµЈж≠•вАЬеНБдЇФдЇФвАЭпЉЙ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181537.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c895cc057329a5",
+          "source": "人民日报",
+          "title": "зЇҐеЖЫи°ЧдЄКиІ¶жСЄвАЬжЦ∞жЧґе∞ЪвАЭпЉИиµУзї≠йХњеЊБз≤Њз•Ю е•ЛињЫе§НеЕіеЊБз®Л¬ЈиЃ∞иАЕеЖНиµ∞йХњеЊБиЈѓпЉЙ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181539.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ada29598ca6d6e",
+          "source": "人民日报",
+          "title": "й¶ЦдЄ™дЇФеєіиІДеИТеЕђеЄГ й¶ЩжЄѓзФ±ж≤їеПКеЕіињИеЗЇжЦ∞ж≠•дЉР",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181541.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8992279d47d3cb",
+          "source": "人民日报",
+          "title": "“嫦娥六号”月背月壤样品落户维也纳联合国总部",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181534.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1c9459a0b07dd3",
+          "source": "人民日报",
+          "title": "“机遇中国·创享未来”中国文化推介系列活动举办",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181535.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4dfa23e7bd30d9",
+          "source": "人民日报",
+          "title": "“让创意落地，我会一直探索下去”（产业里的年轻人）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181518.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "473a1df651458f",
+          "source": "人民日报",
+          "title": "丁薛祥出席平陆运河通航仪式",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181509.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "541821e749166a",
+          "source": "人民日报",
+          "title": "丁薛祥将出席第23届中国—东盟博览会暨中国—东盟商务与投资峰会开幕式",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181515.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8b1730fb167071",
+          "source": "人民日报",
+          "title": "从“词元贷”上新，看金融服务创新（子夜走笔）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181519.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "753e6f79758830",
+          "source": "人民日报",
+          "title": "以文明互鉴筑牢金砖合作民意基础（国际论坛）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181526.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "15bbeed209e558",
+          "source": "人民日报",
+          "title": "做党和人民的忠诚卫士",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181508.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "86467b12891e71",
+          "source": "人民日报",
+          "title": "凝聚各方合作共识 促进地区共同安全",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181524.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "48136a8c06dd9f",
+          "source": "人民日报",
+          "title": "启航，向海，奔向未来（在现场）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181516.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bc7b7c8712201a",
+          "source": "人民日报",
+          "title": "夏粮收购接近尾声",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181512.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3a1ec32987e060",
+          "source": "人民日报",
+          "title": "张升民会见越南副总理兼国防部长",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181529.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a5eb07f0c2c556",
+          "source": "人民日报",
+          "title": "我国去年培育高素质农民61.36万人",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181522.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "28115aabcb48af",
+          "source": "人民日报",
+          "title": "数字化动车运用所启用",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181520.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f9f9a038e8bc3c",
+          "source": "人民日报",
+          "title": "武维华会见埃及祖国保护者党代表团",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181530.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8e4631f9f1faae",
+          "source": "人民日报",
+          "title": "澳大利亚联邦众议长将访华",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181536.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c156b2978cf21b",
+          "source": "人民日报",
+          "title": "王东峰分别会见埃及、印尼、摩洛哥和国际组织客人",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181531.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e5c0b0e50dc262",
+          "source": "人民日报",
+          "title": "王毅会见巴西总统首席特别顾问阿莫林",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181528.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3083dd858b781f",
+          "source": "人民日报",
+          "title": "王毅同伊朗外长阿拉格齐会谈",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181527.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "02bd3c4e11b51d",
+          "source": "人民日报",
+          "title": "空客天津第二条A320总装线交付首架飞机",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181523.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "00f601337486f7",
+          "source": "人民日报",
+          "title": "第十三届北京香山论坛开幕",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181532.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2814b2193d0425",
+          "source": "人民日报",
+          "title": "聆听红色故事 感悟初心使命",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181525.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "601b9158627c17",
+          "source": "人民日报",
+          "title": "董军同出席北京香山论坛客人举行会谈",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181533.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "27b218ae83fca0",
+          "source": "人民日报",
+          "title": "金沙滩结出文化果",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/17/content_30181511.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f2ab759b2a5108",
+          "source": "光明日报",
+          "title": "【光明时评】赓续城市文脉，赋能城市发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/17/content_25368.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e8a7b05a5f322d",
+          "source": "光明日报",
+          "title": "【光明论坛】从长征传单中读懂中国共产党优秀特质",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/17/content_25365.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "39ce435be29d81",
+          "source": "光明日报",
+          "title": "【在这片辽阔的土地上105】跨越百年的梦想，实现了！",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/17/content_25376.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "336f824f0f1022",
+          "source": "光明日报",
+          "title": "【文化评析】让阅读文化走出书房融入公共生活",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/17/content_25369.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9fc8db0ed591c0",
+          "source": "光明日报",
+          "title": "【新闻随笔】“每天一节体育课”如何上好",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/17/content_25366.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2ed62eb03336f0",
+          "source": "光明日报",
+          "title": "丁薛祥出席平陆运河通航仪式",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/17/content_25345.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e8709a1302ab6f",
+          "source": "光明日报",
+          "title": "丁薛祥将出席第23届中国—东盟博览会暨中国—东盟商务与投资峰会开幕式",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/17/content_25346.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "24132593257b10",
+          "source": "光明日报",
+          "title": "世界大河歌会再度唱响",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/17/content_25353.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "63376d514d562d",
+          "source": "光明日报",
+          "title": "时代大潮里的笃行与担当",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/17/content_25374.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a515eeb218734e",
+          "source": "光明日报",
+          "title": "渔民喜迎开渔",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/17/content_25348.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3b61adff8456a5",
+          "source": "光明日报",
+          "title": "烽火留痕映山野 红韵焕彩启新程",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/17/content_25350.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6f179ff02baaa0",
+          "source": "光明日报",
+          "title": "用心用情服务群众 兢兢业业守护安宁",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/17/content_25373.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "16f76a900f65c7",
+          "source": "光明日报",
+          "title": "第十三届北京香山论坛开幕",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/17/content_25347.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eaa4d655f81f1a",
+          "source": "光明日报",
+          "title": "筑牢合作根基 共创美好未来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/17/content_25375.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1dca8a5eac51a2",
+          "source": "新华社",
+          "title": "2026海峡两岸（昆山）中秋灯会亮灯",
+          "url": "https://www.news.cn/20260917/5fb781c966324f7294eaa6d49261bd8e/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7cade558f1c9c7",
+          "source": "新华社",
+          "title": "中方呼吁也门各方立即停火止战早日重返外交谈判",
+          "url": "https://www.news.cn/world/20260917/3b86affe79de46558303a65e50654180/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e5d1958f306684",
+          "source": "新华社",
+          "title": "以色列与摩洛哥同意升级外交关系并互派大使",
+          "url": "https://www.news.cn/world/20260917/1ee24bd1a313498498815161197fb7f2/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aff6882df7d1c5",
+          "source": "新华社",
+          "title": "侵华日军遗属捐赠谢罪碑",
+          "url": "https://www.news.cn/politics/20260917/f3c4843d22944ea6a7921138a26b1be5/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cba1810f5923c2",
+          "source": "新华社",
+          "title": "冯德莱恩“盟情咨文”聚焦竞争力与能源安全",
+          "url": "https://www.news.cn/world/20260917/f71cf120f1e94eadab4519cd6f3115b3/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d198578ceb0b9f",
+          "source": "新华社",
+          "title": "刚果（金）东南部交通事故致至少33人死亡",
+          "url": "https://www.news.cn/20260917/4983a35ac59c4585b8198f599bc03e12/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "25c89e642a7815",
+          "source": "新华社",
+          "title": "古巴开始流通面额1万和2万比索纸币",
+          "url": "https://www.news.cn/world/20260917/57672ade10dc4205813cf0a622364b43/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b28eba91855637",
+          "source": "新华社",
+          "title": "呼吁铭记历史 反省侵略战争责任",
+          "url": "https://www.news.cn/politics/20260917/59429419478a4ac1b14208cddb346058/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f56b257c31d628",
+          "source": "新华社",
+          "title": "哥伦比亚总统确认失联飞机上5人全部遇难",
+          "url": "https://www.news.cn/20260917/649b267b07e244c5b324ccce70fe22fd/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3245120f20b8d4",
+          "source": "新华社",
+          "title": "土耳其称伊朗支持土方解散库尔德工人党",
+          "url": "https://www.news.cn/20260917/b94316035eef408eaeb609bf0a69d3f5/c.html",
           "date": "2026-09-17",
           "keyword": "综合时政"
         },
@@ -127546,10 +128082,82 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "2c7a500144f62c",
+          "id": "a28fc36c7f0d65",
           "source": "新华社",
-          "title": "激励广大青年学生和教育工作者矢志拼搏奋斗",
-          "url": "https://www.news.cn/politics/leaders/20260917/249c7a2f437e4fb5a90a2b278c0529ea/c.html",
+          "title": "特朗普称利率应在1%或更低",
+          "url": "https://www.news.cn/world/20260917/f407d443b125403d960d123ddce18822/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9cd11bb2311f4e",
+          "source": "新华社",
+          "title": "特朗普签署备忘录将加产品排除出美政府采购计划",
+          "url": "https://www.news.cn/world/20260917/969dd445c7a24ee9a859f386b368d90b/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9613a6a3ff668f",
+          "source": "新华社",
+          "title": "瑞士一架轻型飞机坠毁致三人死亡",
+          "url": "https://www.news.cn/20260917/4edf0e4aa98544b69efbe4b1400d0aeb/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "acbfaa6ac869bb",
+          "source": "新华社",
+          "title": "美军高官称需为在月球周边空间作战做准备",
+          "url": "https://www.news.cn/world/20260917/061ebc4ff4a04822b1b7b55998a4dab7/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "70aaf54f80f664",
+          "source": "新华社",
+          "title": "美媒：美外交官在阿曼同胡塞武装讨论红海局势",
+          "url": "https://www.news.cn/20260917/443e1d210cf749d0acee0089d1ce9dd4/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a2cc4c1b44e801",
+          "source": "新华社",
+          "title": "美联储三年多来首次加息",
+          "url": "https://www.news.cn/world/20260917/e2956a6428764ce5826a2cb6256f112f/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f3b576010fd312",
+          "source": "新华社",
+          "title": "美联储三年多首次加息",
+          "url": "https://www.news.cn/fortune/20260917/c6d771bba3134eea842d400459558d85/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4ad9d793d102b0",
+          "source": "新华社",
+          "title": "联合国秘书长敦促中东和乌克兰紧张局势降级",
+          "url": "https://www.news.cn/20260917/4a331ad89af5458e9d3d514f02317cd6/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2488085c003663",
+          "source": "新华社",
+          "title": "记者手记：正道昭昭行万里——感悟大国外交的宏阔时空经纬",
+          "url": "https://www.news.cn/world/20260917/bfe1acf9f64c4189b7d4a45704a29e62/c.html",
+          "date": "2026-09-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "57dc34c4101f1b",
+          "source": "新华社",
+          "title": "阿根廷外长：阿中关系正处于非常好的时期",
+          "url": "https://www.news.cn/20260917/56b2b6f0fd9647c7b5be8141adaa54ea/c.html",
           "date": "2026-09-17",
           "keyword": "综合时政"
         }
@@ -127559,27 +128167,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 9.9,
+          "duration": 4.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260917.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.0,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/17/node_01.html"
+          "status": "ok",
+          "count": 35,
+          "duration": 1.6
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 3,
-          "duration": 2.2
+          "count": 23,
+          "duration": 2.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 18.5
+          "duration": 11.8
         },
         {
           "source": "求是",
@@ -127589,37 +128196,36 @@ window.CURRENT_AFFAIRS_DATA = {
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 4.8,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/17/node_01.html"
+          "status": "ok",
+          "count": 19,
+          "duration": 1.3
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.0
+          "duration": 12.2
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.4
+          "duration": 2.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 7.7
+          "duration": 9.7
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 48.1
+          "duration": 49.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-09-17T02:03:06+08:00"
+  "generatedAt": "2026-09-17T08:13:44+08:00"
 };
