@@ -129460,7 +129460,283 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 53.1
         }
       ]
+    },
+    {
+      "date": "2026-09-18",
+      "keyword": "高质量发展",
+      "keywords": [
+        {
+          "name": "高质量发展",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "4ce2b4e6bfef47",
+          "source": "光明日报",
+          "title": "【光明时评】落实落细《行动计划》 推动特殊教育高质量发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25399.html",
+          "date": "2026-09-18",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "e6932ca419814a",
+          "source": "新华社",
+          "title": "习近平总书记指引民族团结进步事业高质量发展",
+          "url": "https://www.news.cn/politics/leaders/20260918/9b11136a53384216a7ade7d049746d0a/c.html",
+          "date": "2026-09-18",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "4617e1bc1e077f",
+          "source": "光明日报",
+          "title": "2026年“铸牢共同体 中华一家亲”主题宣传活动启动",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25381.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fd6f54d70aabaf",
+          "source": "光明日报",
+          "title": "【光明时评】持续守正创新 讲好“开学第一课”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25402.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3b052a068d88ab",
+          "source": "光明日报",
+          "title": "【光明论坛】以开放创新拓展服务贸易新空间",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25400.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4eef8227a657af",
+          "source": "光明日报",
+          "title": "【光明论坛】压实任期生态文明建设责任制",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25398.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f6866cdaaf28e2",
+          "source": "光明日报",
+          "title": "【大美中国】生态秀美",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25394.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a97091b915fda6",
+          "source": "光明日报",
+          "title": "【我是这样做学问的】保持热忱执着 探究古代法律",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25395.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ac9571921e0b36",
+          "source": "光明日报",
+          "title": "【新闻随笔】发挥小球在全民健身中的大作用",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25401.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0323653d419898",
+          "source": "光明日报",
+          "title": "丁薛祥出席第23届中国－东盟博览会开幕式并会见与会外国政要",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25386.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9b5d5d511f5180",
+          "source": "光明日报",
+          "title": "为加快构建现代化产业体系铸牢骨干",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25392.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9277e80acdc3c1",
+          "source": "光明日报",
+          "title": "以高品质视听供给服务人民美好生活",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25380.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fbab28db4a364e",
+          "source": "光明日报",
+          "title": "国办印发《关于进一步加强烟花爆竹全链条安全监管的意见》",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25388.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fcfbd8cc3f8e43",
+          "source": "光明日报",
+          "title": "在第23届中国－东盟博览会暨中国－东盟商务与投资峰会开幕式上的致辞",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25387.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d629a49e45e12f",
+          "source": "光明日报",
+          "title": "持续做大做强先进制造业 为推进中国式现代化提供有力支撑",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25391.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ba9105cb338c34",
+          "source": "光明日报",
+          "title": "携手新征程 同心向复兴",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25383.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "01efc1c64b102d",
+          "source": "光明日报",
+          "title": "服务国家战略 造就栋梁之材",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25393.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4da36d8dbe446d",
+          "source": "光明日报",
+          "title": "游客寻茶香 古寨续新篇",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25390.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "efa4ac18cfabaf",
+          "source": "光明日报",
+          "title": "红土地，“智”启新程",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25389.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "10cfe35db9bf30",
+          "source": "光明日报",
+          "title": "肩负使命，扎根乡村振兴一线",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25382.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4441021c320a13",
+          "source": "光明日报",
+          "title": "芙蓉湖畔景如画",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25384.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1a8c387462cd40",
+          "source": "光明日报",
+          "title": "赓续联大心理学文脉 书写边疆心育新篇",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25385.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "91eaaeaf00df59",
+          "source": "新华社",
+          "title": "微视频｜铭记历史 吾辈自强",
+          "url": "https://www.news.cn/politics/20260918/9047635acc014b14b2e48797a2ab5156/c.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8187bf70b4160e",
+          "source": "新华社",
+          "title": "持续做大做强先进制造业",
+          "url": "https://www.news.cn/video/20260918/b179fafd576d494db14987d68d14d022/c.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "51d4dd60fa6e02",
+          "source": "新华社",
+          "title": "汇聚建设制造强国磅礴力量",
+          "url": "https://www.news.cn/politics/leaders/20260918/ff643c6864d746b990771a5eb391ed1b/c.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 11.8,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260918.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.0,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/18/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 4,
+          "duration": 2.4
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 15.8
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.1
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 21,
+          "duration": 1.6
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.9
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.6
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.5
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 46.0
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-17T22:03:18+08:00"
+  "generatedAt": "2026-09-18T02:47:24+08:00"
 };
