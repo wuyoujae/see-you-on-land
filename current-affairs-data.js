@@ -129467,10 +129467,34 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "高质量发展",
+          "count": 3
+        },
+        {
+          "name": "中国式现代化",
+          "count": 2
+        },
+        {
+          "name": "乡村振兴",
+          "count": 2
+        },
+        {
+          "name": "共同体",
+          "count": 2
+        },
+        {
+          "name": "十五五",
           "count": 2
         }
       ],
       "articles": [
+        {
+          "id": "5ed95645f4c395",
+          "source": "人民日报",
+          "title": "加快推动广电视听高质量发展（权威发布·开局起步“十五五”）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181810.html",
+          "date": "2026-09-18",
+          "keyword": "高质量发展"
+        },
         {
           "id": "4ce2b4e6bfef47",
           "source": "光明日报",
@@ -129488,10 +129512,250 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "高质量发展"
         },
         {
+          "id": "f659cb44d08d89",
+          "source": "人民日报",
+          "title": "二〇二六年“铸牢共同体 中华一家亲”主题宣传活动启动",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181813.html",
+          "date": "2026-09-18",
+          "keyword": "共同体"
+        },
+        {
+          "id": "d17baa8a1a119b",
+          "source": "人民日报",
+          "title": "持续做大做强先进制造业 为推进中国式现代化提供有力支撑",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181784.html",
+          "date": "2026-09-18",
+          "keyword": "中国式现代化"
+        },
+        {
           "id": "4617e1bc1e077f",
           "source": "光明日报",
           "title": "2026年“铸牢共同体 中华一家亲”主题宣传活动启动",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25381.html",
+          "date": "2026-09-18",
+          "keyword": "共同体"
+        },
+        {
+          "id": "d629a49e45e12f",
+          "source": "光明日报",
+          "title": "持续做大做强先进制造业 为推进中国式现代化提供有力支撑",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25391.html",
+          "date": "2026-09-18",
+          "keyword": "中国式现代化"
+        },
+        {
+          "id": "10cfe35db9bf30",
+          "source": "光明日报",
+          "title": "肩负使命，扎根乡村振兴一线",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25382.html",
+          "date": "2026-09-18",
+          "keyword": "乡村振兴"
+        },
+        {
+          "id": "85585318e4902f",
+          "source": "新华社",
+          "title": "中国“十五五”规划，为世界提供新机遇",
+          "url": "https://www.news.cn/politics/20260918/2b2a84165bb64f6bb76c012c0cf8c871/c.html",
+          "date": "2026-09-18",
+          "keyword": "十五五"
+        },
+        {
+          "id": "4634463d157f7d",
+          "source": "新华社",
+          "title": "肩负使命，他们讲述在乡村振兴一线的实干故事",
+          "url": "https://www.news.cn/20260918/718d0aa378e5454aa7d31d7bdd7e583f/c.html",
+          "date": "2026-09-18",
+          "keyword": "乡村振兴"
+        },
+        {
+          "id": "37f2d2b25b76d3",
+          "source": "人民日报",
+          "title": "丁薛祥出席第23届中国—东盟博览会开幕式并会见与会外国政要",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181787.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8ed78095f9ac4f",
+          "source": "人民日报",
+          "title": "两部门明确重要工业品低价无序竞争成本核算有关事项",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181806.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "88ddcc1f8c9b25",
+          "source": "人民日报",
+          "title": "中国和平统一促进会召开十届四次常务理事会会议",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181802.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "99740b67e4eb06",
+          "source": "人民日报",
+          "title": "中方在世贸组织公共论坛举办专题研讨会",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181798.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6cd351fe942657",
+          "source": "人民日报",
+          "title": "价格预立项，加速创新医疗技术落地（政策解读）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181805.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fd3ada3cf13512",
+          "source": "人民日报",
+          "title": "做乡亲们信任的“自家人”（权威发布）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181804.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "80c715cf408826",
+          "source": "人民日报",
+          "title": "凝聚起中华民族伟大复兴的磅礴力量",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181790.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "26f10ac6b42d6a",
+          "source": "人民日报",
+          "title": "博鳌亚洲论坛亚太区域合作圆桌会在海口举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181797.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "be3610ede89508",
+          "source": "人民日报",
+          "title": "国务院办公厅印发《关于进一步加强烟花爆竹全链条安全监管的意见》",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181803.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f09788a113a092",
+          "source": "人民日报",
+          "title": "在第23届中国—东盟博览会暨中国—东盟商务与投资峰会开幕式上的致辞",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181791.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "98620e67444511",
+          "source": "人民日报",
+          "title": "坚定不移建设制造强国",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181785.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "123c6a5a1ef910",
+          "source": "人民日报",
+          "title": "平陆运河开辟中国东盟合作新通道",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181792.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d1f1b225ab4d10",
+          "source": "人民日报",
+          "title": "张升民会见印度尼西亚国防部长",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181795.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b3cc3f86502fe8",
+          "source": "人民日报",
+          "title": "枝叶总关情 初心暖山乡（赓续长征精神 奋进复兴征程）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181789.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "888ef2c854738c",
+          "source": "人民日报",
+          "title": "每一笔，都写着香港的未来",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181811.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "786ae058c70b4b",
+          "source": "人民日报",
+          "title": "王毅会见印度尼西亚国家经济委员会主席卢胡特",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181794.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0ab39ed2daaa61",
+          "source": "人民日报",
+          "title": "王毅同美国国务卿鲁比奥通电话",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181793.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "755a1e1206cf98",
+          "source": "人民日报",
+          "title": "病根不除，日本没有未来（钟声）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181799.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d90567a55cb9bd",
+          "source": "人民日报",
+          "title": "第四届中非和平安全论坛举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181800.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "338163a470631d",
+          "source": "人民日报",
+          "title": "聚焦国家战略需求 努力培养更多高素质人才",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181786.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c953da54aab1f6",
+          "source": "人民日报",
+          "title": "董军同出席北京香山论坛客人举行会谈",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181801.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "97b5a34ee0b7aa",
+          "source": "人民日报",
+          "title": "蓝图绘就 再启新程",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181812.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1ea814417ce40a",
+          "source": "人民日报",
+          "title": "让中国制造的根扎得更深（今日谈）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181788.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9487bc7e312cf8",
+          "source": "人民日报",
+          "title": "谌贻琴会见越南妇联主席黎氏水",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/18/content_30181796.html",
           "date": "2026-09-18",
           "keyword": "综合时政"
         },
@@ -129584,14 +129848,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d629a49e45e12f",
-          "source": "光明日报",
-          "title": "持续做大做强先进制造业 为推进中国式现代化提供有力支撑",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25391.html",
-          "date": "2026-09-18",
-          "keyword": "综合时政"
-        },
-        {
           "id": "ba9105cb338c34",
           "source": "光明日报",
           "title": "携手新征程 同心向复兴",
@@ -129624,14 +129880,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "10cfe35db9bf30",
-          "source": "光明日报",
-          "title": "肩负使命，扎根乡村振兴一线",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/18/content_25382.html",
-          "date": "2026-09-18",
-          "keyword": "综合时政"
-        },
-        {
           "id": "4441021c320a13",
           "source": "光明日报",
           "title": "芙蓉湖畔景如画",
@@ -129648,18 +129896,82 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "a5a2a8d6348211",
+          "source": "新华社",
+          "title": "“领头羊”无悬念，“含金量”见真章",
+          "url": "https://www.news.cn/sports/20260918/702e1b889d324139b95cbfc6d7a5f71a/c.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fa3cd40bdcec8e",
+          "source": "新华社",
+          "title": "一张领尸证背后的血泪与信仰",
+          "url": "https://www.news.cn/local/20260918/10682ae38ae348b2ac3fec822f3237bd/c.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1da0fd1d20f0a1",
+          "source": "新华社",
+          "title": "中方反对在安理会强推恢复对伊朗制裁",
+          "url": "https://www.news.cn/world/20260918/64761bde3ac34100a2c667518fbddf97/c.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ae314779157547",
+          "source": "新华社",
+          "title": "中方在世贸组织公共论坛举办服务贸易监管实践研讨会",
+          "url": "https://www.news.cn/20260918/b70e4723b27847c7a99ac3572fc8224c/c.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e8e6597f9a4170",
+          "source": "新华社",
+          "title": "勿忘九一八！",
+          "url": "https://www.news.cn/politics/20260918/b8feefb4f2f04ebea3d8ed8177ff5320/c.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a77f949b84057d",
+          "source": "新华社",
+          "title": "喀麦隆极北大区发生袭击致13人死亡",
+          "url": "https://www.news.cn/20260918/2aa36c7db3e9407688a4fcc97ae09656/c.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "75a60e590e9800",
+          "source": "新华社",
+          "title": "尼日利亚翁多州疑似甲醇中毒事件死亡人数升至48人",
+          "url": "https://www.news.cn/20260918/9aa80ffeee01459b880a3dc151fe7ae8/c.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "65d7963b70ed25",
+          "source": "新华社",
+          "title": "布隆迪外长：中国发展道路启迪全球南方国家",
+          "url": "https://www.news.cn/20260918/32e8faa25fda403cb60448e91c8faf45/c.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "91eaaeaf00df59",
           "source": "新华社",
-          "title": "微视频｜铭记历史 吾辈自强",
+          "title": "微视频丨铭记历史 吾辈自强",
           "url": "https://www.news.cn/politics/20260918/9047635acc014b14b2e48797a2ab5156/c.html",
           "date": "2026-09-18",
           "keyword": "综合时政"
         },
         {
-          "id": "8187bf70b4160e",
+          "id": "8d0224ab927ed4",
           "source": "新华社",
-          "title": "持续做大做强先进制造业",
-          "url": "https://www.news.cn/video/20260918/b179fafd576d494db14987d68d14d022/c.html",
+          "title": "横琴粤澳深度合作区挂牌五周年发展观察",
+          "url": "https://www.news.cn/gangao/20260918/27c3647464604dfc82d09b2e6ff921af/c.html",
           "date": "2026-09-18",
           "keyword": "综合时政"
         },
@@ -129670,6 +129982,70 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/politics/leaders/20260918/ff643c6864d746b990771a5eb391ed1b/c.html",
           "date": "2026-09-18",
           "keyword": "综合时政"
+        },
+        {
+          "id": "6a62469ef16d35",
+          "source": "新华社",
+          "title": "第48届世界技能大赛志愿者宣誓上岗",
+          "url": "https://www.news.cn/20260918/501c69e2e6ee48e3890eaec225b1fe53/c.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cd43dcb2c99919",
+          "source": "新华社",
+          "title": "第九届俄罗斯国家杜马选举开始投票",
+          "url": "https://www.news.cn/20260918/97665dc53c5e42978c7258d14ca4dfed/c.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "99113c51148c96",
+          "source": "新华社",
+          "title": "罗马尼亚总统今年第三次委任总理",
+          "url": "https://www.news.cn/20260918/5e1db2ae7a6d4919a48352635e3274ff/c.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6f0d57813e1a1e",
+          "source": "新华社",
+          "title": "美国返还中方两批64件文物艺术品和古生物化石",
+          "url": "https://www.news.cn/world/20260918/169464240e364cd6b2c44730b82e9f12/c.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fae3b2e0bb6fc6",
+          "source": "新华社",
+          "title": "美媒：伊朗领导人将出席在纽约举行的联合国大会",
+          "url": "https://www.news.cn/20260918/d8a39b8ece3c406f92e7633d0b15e492/c.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3ee3eb767e4e5d",
+          "source": "新华社",
+          "title": "联大决定巴勒斯坦总统阿巴斯可通过预制录像方式参会",
+          "url": "https://www.news.cn/20260918/a303684df6b949deb6c40597ea183aed/c.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8b5374b5089d73",
+          "source": "新华社",
+          "title": "莫桑比克政府军与卢旺达部队击毙两名极端组织成员",
+          "url": "https://www.news.cn/20260918/ba28c6d1c42143b8acfcd9df8aeb508a/c.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "53132834a2cae3",
+          "source": "新华社",
+          "title": "记者手记：他们让商业航天更好造福于民",
+          "url": "https://www.news.cn/tech/20260918/f7cc558bf2a042fbb24925eaec803994/c.html",
+          "date": "2026-09-18",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -129677,27 +130053,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 11.8,
+          "duration": 11.9,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260918.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.0,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/18/node_01.html"
+          "status": "ok",
+          "count": 27,
+          "duration": 3.0
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 4,
-          "duration": 2.4
+          "count": 22,
+          "duration": 2.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 15.8
+          "duration": 15.1
         },
         {
           "source": "求是",
@@ -129709,34 +130084,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "光明日报",
           "status": "ok",
           "count": 21,
-          "duration": 1.6
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.9
+          "duration": 13.6
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.6
+          "duration": 3.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.5
+          "duration": 9.8
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 46.0
+          "duration": 67.6
         }
       ]
     }
   ],
-  "generatedAt": "2026-09-18T02:47:24+08:00"
+  "generatedAt": "2026-09-18T08:01:42+08:00"
 };
