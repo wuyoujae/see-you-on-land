@@ -131351,6 +131351,10 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "name": "十五五",
           "count": 2
+        },
+        {
+          "name": "教育",
+          "count": 2
         }
       ],
       "articles": [
@@ -131369,6 +131373,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://paper.people.com.cn/rmrb/pc/content/202609/19/content_30181975.html",
           "date": "2026-09-19",
           "keyword": "十五五"
+        },
+        {
+          "id": "4409ab2494d0a6",
+          "source": "光明日报",
+          "title": "“微阵地”里的党员教育“大文章”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/19/content_25469.html",
+          "date": "2026-09-19",
+          "keyword": "教育"
+        },
+        {
+          "id": "f049b9d0740ee0",
+          "source": "新华社",
+          "title": "全民国防教育日丨北京部分区域试鸣防空警报 这些知识点请收好",
+          "url": "https://www.news.cn/politics/20260919/f5ba5b7271df4089b53aa680b91acfcf/c.html",
+          "date": "2026-09-19",
+          "keyword": "教育"
+        },
+        {
+          "id": "a816b1a019c964",
+          "source": "中国政府网",
+          "title": "商务部新闻发言人就中美经贸磋商有关问题答记者问",
+          "url": "https://www.gov.cn/yaowen/liebiao/202609/content_7081527.htm",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
         },
         {
           "id": "5f75ed0de08b3a",
@@ -131527,14 +131555,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "赵乐际、王沪宁分别会见埃及参议长法里德",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202609/19/content_30181974.html",
-          "date": "2026-09-19",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "4409ab2494d0a6",
-          "source": "光明日报",
-          "title": "“微阵地”里的党员教育“大文章”",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/19/content_25469.html",
           "date": "2026-09-19",
           "keyword": "综合时政"
         },
@@ -131723,6 +131743,38 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "7a1a84df6266bf",
+          "source": "广东发布",
+          "title": "李强主持召开国务院常务会议 听取老龄工作情况汇报等",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4957686.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6b617087dd09ef",
+          "source": "新华社",
+          "title": "“清朗·优化营商网络环境 整治恶意炒作涉企信息”专项行动公开曝光第二批典型案例",
+          "url": "https://www.news.cn/legal/20260919/54a81745665b46a3bd253b61f1e94d53/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "25a00d50dceae7",
+          "source": "新华社",
+          "title": "一粒肥料如何在高产田里再挖增产潜力",
+          "url": "https://www.news.cn/politics/20260919/7725eec5286f42369ea981aabcae2688/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b0c1527604f920",
+          "source": "新华社",
+          "title": "中东战地手记丨约旦河西岸的“风雨”上学路",
+          "url": "https://www.news.cn/world/20260919/2638ce456e0d4f22b13f23d60af16a68/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "95eb7d596e648e",
           "source": "新华社",
           "title": "中国冰淇淋产业融入全球“甜蜜”市场",
@@ -131739,10 +131791,42 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "3710a795e057af",
+          "source": "新华社",
+          "title": "中方强调联合国维和行动要服务政治进程",
+          "url": "https://www.news.cn/world/20260919/6b21a7ad2a72403492f64df22c0ba5da/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6bac70f015b2e0",
+          "source": "新华社",
+          "title": "今年前8个月全国铁路发送旅客33.2亿人次",
+          "url": "https://www.news.cn/politics/20260919/2b46080a1e0448e8b332ac169112a5fc/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "e1320df1f4315a",
           "source": "新华社",
           "title": "今晚开幕，一起为中国健儿加油",
           "url": "https://www.news.cn/sports/20260919/f5da98913d064e92b1f22b76c5188e7d/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eae8086b55c400",
+          "source": "新华社",
+          "title": "刘浩任宿迁市委书记",
+          "url": "https://www.news.cn/politics/20260919/5c7a565bf2164176acce96ffd0a02223/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "980147c6a2ba79",
+          "source": "新华社",
+          "title": "制造上“新”丨火箭“问”天",
+          "url": "https://www.news.cn/tech/20260919/5042def91ded4979b256558e681abc45/c.html",
           "date": "2026-09-19",
           "keyword": "综合时政"
         },
@@ -131755,6 +131839,46 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "a17a1117f34369",
+          "source": "新华社",
+          "title": "商务部新闻发言人就中美经贸磋商有关问题答记者问",
+          "url": "https://www.news.cn/world/20260919/d038fc1cc85c4f89a63e2ebc8dae34fb/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "615f04ac9cb138",
+          "source": "新华社",
+          "title": "四川至湖北一带大到暴雨 西北东北迎明显降温",
+          "url": "https://www.news.cn/politics/20260919/6bab267e780748f9a1295d10fd7bcf7d/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2ad81833bf0ecb",
+          "source": "新华社",
+          "title": "土耳其批准与巴西国防工业合作协议",
+          "url": "https://www.news.cn/world/20260919/ce37d5f33fbe4fdba99fa1b1667ee44c/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2ac576713a995d",
+          "source": "新华社",
+          "title": "奔“县”游丨寻梦运河之心，夜游宋风雅韵之城",
+          "url": "https://www.news.cn/local/20260919/8a8de007624246fbae49ecf5c743de79/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "39c89f8954dc19",
+          "source": "新华社",
+          "title": "安庆有“戏”",
+          "url": "https://www.news.cn/local/20260919/a5f2be83929046d8bec8eef16db9f0b1/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a2bb9260fba852",
           "source": "新华社",
           "title": "安理会举行联合国秘书长遴选第三轮意向性投票",
@@ -131763,10 +131887,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "43342cf71037bf",
+          "id": "0c35da07a8bb36",
+          "source": "新华社",
+          "title": "山水相连话合作——在东博会感受中国－东盟经贸互动澎湃暖流",
+          "url": "https://www.news.cn/world/20260919/a643ff4e8ac9466795582bed0f816fcd/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b65b4fbd54c9e5",
           "source": "新华社",
           "title": "普京：“三位一体”核力量仍是俄罗斯国家主权的保障",
-          "url": "https://www.news.cn/20260919/05d1e144096040aba2396ebb74cebdc3/c.html",
+          "url": "https://www.news.cn/world/20260919/53ea850d5d26444381e15da62782cc3f/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "38893bed35328d",
+          "source": "新华社",
+          "title": "沙特首都利雅得传出爆炸声",
+          "url": "https://www.news.cn/world/20260919/d03a7d27fc3b4a259b3356183a3a1619/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9cc08c8aec7976",
+          "source": "新华社",
+          "title": "活力中国调研行丨点草成金：中国企业家用禾本植物塑造低碳未来",
+          "url": "https://www.news.cn/fortune/20260919/12bbd8e4fa2547e39cc142981e28d50f/c.html",
           "date": "2026-09-19",
           "keyword": "综合时政"
         },
@@ -131787,10 +131935,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "2806758726d723",
+          "source": "新华社",
+          "title": "瞬间中国丨陕西发现秦王级别墓葬 墓主或为华阳太后",
+          "url": "https://www.news.cn/video/20260919/4679198bf7174186bd49199d2c4b20f5/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d513b9574976ed",
+          "source": "新华社",
+          "title": "美国有线电视新闻网等3家媒体被禁止进入白宫",
+          "url": "https://www.news.cn/world/20260919/57ef60f02db04946ac8a6c3f0ff62575/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "85db3ba36ee1f0",
+          "source": "新华社",
+          "title": "英国和爱尔兰重申维护《贝尔法斯特协议》",
+          "url": "https://www.news.cn/20260919/ccf12b4d3fcb41a28718e6796cec4c5f/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "739455fb8feea8",
+          "source": "新华社",
+          "title": "金正恩视察国防工业部门工作",
+          "url": "https://www.news.cn/world/20260919/f5fec622c2be4c8db7034508e7a80fdc/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "28173c75f4e9ea",
           "source": "新华社",
           "title": "长征文物照见胜利之源",
           "url": "https://www.news.cn/politics/20260919/f4e36a6d419f42109ad88f130cb3d01a/c.html",
+          "date": "2026-09-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a8b8ae058c4534",
+          "source": "求是",
+          "title": "企业做基础研究怎么看，这4个误区要破除",
+          "url": "https://www.qstheory.cn/20260919/bb98ccc8ca234ddbb1f885a908fd6fcb/c.html",
           "date": "2026-09-19",
           "keyword": "综合时政"
         }
@@ -131800,65 +131988,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 12.1,
+          "duration": 6.9,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260919.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.8
+          "duration": 2.0
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 9,
-          "duration": 2.8
+          "count": 29,
+          "duration": 2.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 19.7
+          "duration": 13.7
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 5.9
+          "count": 1,
+          "duration": 12.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 24,
-          "duration": 1.9
+          "duration": 1.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 15.2
+          "duration": 14.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.2
+          "duration": 3.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 0,
-          "duration": 9.2
+          "count": 1,
+          "duration": 9.0
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 0,
-          "duration": 79.8
+          "count": 1,
+          "duration": 57.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-09-19T08:00:53+08:00"
+  "generatedAt": "2026-09-19T10:39:42+08:00"
 };
