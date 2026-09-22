@@ -138519,7 +138519,124 @@
           "duration": 85.2
         }
       ]
+    },
+    {
+      "date": "2026-09-23",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 5
+        }
+      ],
+      "articles": [
+        {
+          "id": "b67b6cb2893e29",
+          "source": "新华社",
+          "title": "以升旗之礼凝聚港澳青少年爱国之志",
+          "url": "https://www.news.cn/politics/20260923/1330b24180e746f0bb00ac681d921182/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cb617c6c0f4300",
+          "source": "新华社",
+          "title": "彰显韧性活力",
+          "url": "https://www.news.cn/fortune/20260923/ab9ae2962c3b411d921d34b6f0ed6937/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d2f082713a8893",
+          "source": "新华社",
+          "title": "总书记的节日祝贺和诚挚问候凝聚“三农”发展合力",
+          "url": "https://www.news.cn/politics/leaders/20260923/4e68d8befd9742648b4a3a9d586505cf/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "72946dd2fba385",
+          "source": "新华社",
+          "title": "新华解码｜“十五五”，轻纺产业如何增质效、惠民生",
+          "url": "https://www.news.cn/politics/20260923/d9faf0653e1240d19c0ed6a3d93b3343/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "47e4cb02d8b24f",
+          "source": "新华社",
+          "title": "第48届世界技能大赛在上海隆重开幕 李强出席并宣布开幕",
+          "url": "https://www.news.cn/politics/leaders/20260923/6a9c815972d44c0d94f3ea7af406dbda/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 7.2,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260923.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.4,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/23/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 5,
+          "duration": 2.5
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 14.0
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.3
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.5,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/23/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 14.0
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 3.4
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.0
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 59.6
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-22T21:51:44+08:00"
+  "generatedAt": "2026-09-23T01:56:18+08:00"
 }
