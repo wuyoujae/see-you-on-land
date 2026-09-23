@@ -140709,7 +140709,124 @@
           "duration": 94.2
         }
       ]
+    },
+    {
+      "date": "2026-09-24",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 5
+        }
+      ],
+      "articles": [
+        {
+          "id": "6a631b90215cf6",
+          "source": "新华社",
+          "title": "五位能源领域代表讲述奋斗故事",
+          "url": "https://www.news.cn/politics/20260924/907e0261470645abb0d179f4c3663e6b/c.html",
+          "date": "2026-09-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6d36c44a71e8b9",
+          "source": "新华社",
+          "title": "伊朗总统联大演讲誓言“永不屈膝投降”",
+          "url": "https://www.news.cn/20260924/99ab1d09a87541bd9a97b3f13f5b137a/c.html",
+          "date": "2026-09-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f918f113a9bd17",
+          "source": "新华社",
+          "title": "俄外长：俄支持古巴关于全面解除封锁的诉求",
+          "url": "https://www.news.cn/20260924/291143e75831492391f51da32def571a/c.html",
+          "date": "2026-09-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f42f81cd4f5803",
+          "source": "新华社",
+          "title": "俄外长：俄美应尽快“修复双边关系”",
+          "url": "https://www.news.cn/world/20260924/5c4e975ae7fe48b7ae5532405c10db9f/c.html",
+          "date": "2026-09-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7f2fae6505bc9b",
+          "source": "新华社",
+          "title": "米莱：将以“和平、务实和有效的方式”捍卫马岛主权",
+          "url": "https://www.news.cn/20260924/236d8e9fcce544e0a08d4c4aa901ca16/c.html",
+          "date": "2026-09-24",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 4.8,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260924.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.4,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/24/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 5,
+          "duration": 3.4
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.0
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.1
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.1,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/24/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 11.7
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.5
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 7.8
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 50.0
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-23T22:03:01+08:00"
+  "generatedAt": "2026-09-24T02:49:45+08:00"
 }
