@@ -138522,19 +138522,595 @@
     },
     {
       "date": "2026-09-23",
-      "keyword": "今日时政",
+      "keyword": "习近平",
       "keywords": [
         {
-          "name": "今日时政",
-          "count": 5
+          "name": "习近平",
+          "count": 6
+        },
+        {
+          "name": "十五五",
+          "count": 3
+        },
+        {
+          "name": "中美关系",
+          "count": 2
         }
       ],
       "articles": [
+        {
+          "id": "b700392afeffc6",
+          "source": "人民日报",
+          "title": "习近平向全国广大农民和工作在“三农”战线上的同志们致以节日祝贺和诚挚问候",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182606.html",
+          "date": "2026-09-23",
+          "keyword": "习近平"
+        },
+        {
+          "id": "717e138755231f",
+          "source": "人民日报",
+          "title": "习近平向第48届世界技能大赛致贺信",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182607.html",
+          "date": "2026-09-23",
+          "keyword": "习近平"
+        },
+        {
+          "id": "99c8678e50f196",
+          "source": "人民日报",
+          "title": "深入学习贯彻习近平总书记重要回信精神 坚决扛牢守百姓幸福护家国平安重任",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182639.html",
+          "date": "2026-09-23",
+          "keyword": "习近平"
+        },
+        {
+          "id": "b894d44afc99dc",
+          "source": "光明日报",
+          "title": "习近平向全国广大农民和工作在“三农”战线上的同志们致以节日祝贺和诚挚问候",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25787.html",
+          "date": "2026-09-23",
+          "keyword": "习近平"
+        },
+        {
+          "id": "93cbb819e6f9c0",
+          "source": "光明日报",
+          "title": "习近平向第48届世界技能大赛致贺信",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25788.html",
+          "date": "2026-09-23",
+          "keyword": "习近平"
+        },
+        {
+          "id": "f426666b697775",
+          "source": "新华社",
+          "title": "习近平主席引领推进中美人民友好事业的故事",
+          "url": "https://www.news.cn/politics/leaders/20260923/74fc6cf80fa3492995553549e2802f10/c.html",
+          "date": "2026-09-23",
+          "keyword": "习近平"
+        },
+        {
+          "id": "0be0ccc41c81e3",
+          "source": "人民日报",
+          "title": "配置好使用好新增建设用地等资源（权威发布·开局起步“十五五”）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182629.html",
+          "date": "2026-09-23",
+          "keyword": "十五五"
+        },
+        {
+          "id": "ad02e5ff9f1367",
+          "source": "光明日报",
+          "title": "《轻工纺织产业发展“十五五”规划》发布",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25824.html",
+          "date": "2026-09-23",
+          "keyword": "十五五"
+        },
+        {
+          "id": "72946dd2fba385",
+          "source": "新华社",
+          "title": "新华解码丨“十五五”，轻纺产业如何增质效、惠民生",
+          "url": "https://www.news.cn/politics/20260923/d9faf0653e1240d19c0ed6a3d93b3343/c.html",
+          "date": "2026-09-23",
+          "keyword": "十五五"
+        },
+        {
+          "id": "3ead865628674b",
+          "source": "光明日报",
+          "title": "推动中美关系迈向更美好未来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25789.html",
+          "date": "2026-09-23",
+          "keyword": "中美关系"
+        },
+        {
+          "id": "bf298a98b47e3a",
+          "source": "光明日报",
+          "title": "推动中美关系这艘巨轮沿着正确航道平稳前行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25790.html",
+          "date": "2026-09-23",
+          "keyword": "中美关系"
+        },
+        {
+          "id": "52d6f07bf4609c",
+          "source": "中国政府网",
+          "title": "第48届世界技能大赛在上海隆重开幕 李强出席并宣布开幕 | 李强会见世界技能组织主席乌汉和首席执行官霍伊",
+          "url": "https://www.gov.cn/yaowen/liebiao/202609/content_7081833.htm",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c39d0ee1f105c4",
+          "source": "人民日报",
+          "title": "2026北京文化论坛开幕",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182636.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "adde187a9ce6a8",
+          "source": "人民日报",
+          "title": "8月全国查处违反中央八项规定精神问题29171起",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182628.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a6c2b0f1507e41",
+          "source": "人民日报",
+          "title": "“为美中关系发展积蓄更深厚的青春力量”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182617.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7d229a36adff98",
+          "source": "人民日报",
+          "title": "“伟大的远征——纪念中国工农红军长征胜利90周年主题展览”开幕式在京举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182610.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cbbc8f347be0a7",
+          "source": "人民日报",
+          "title": "“真正的朋友，彼此挂念、互相铭记”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182608.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "31b8ada4298a23",
+          "source": "人民日报",
+          "title": "“铁路运费票”物流金融产品上线",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182633.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f12457761d8164",
+          "source": "人民日报",
+          "title": "丁薛祥会见哈萨克斯坦第一副总理纳利巴耶夫",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182611.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1d78f7107aeba6",
+          "source": "人民日报",
+          "title": "中国法治国际论坛（2026）在深圳开幕",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182638.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "348bea5fdc147f",
+          "source": "人民日报",
+          "title": "全国人大常委会副委员长丁仲礼率团访问韩国并出席中韩议会交流机制会议",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182621.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "03b9c183d965aa",
+          "source": "人民日报",
+          "title": "加快培育壮大新兴产业和未来产业 持续做大做强先进制造业",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182609.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9cbc9b8008c71c",
+          "source": "人民日报",
+          "title": "和美乡村 生机勃勃",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182613.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0b7e29c8a3cc08",
+          "source": "人民日报",
+          "title": "将大地厚赠化为农民美好生活（今日谈）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182614.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dfff162076fb1f",
+          "source": "人民日报",
+          "title": "我国创新药今年对外授权突破1200亿美元",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182631.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e668bce7756dd1",
+          "source": "人民日报",
+          "title": "我国将推动北斗产业规模5年内超万亿元",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182630.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9c9418fb859afe",
+          "source": "人民日报",
+          "title": "推动中美建设性战略稳定关系落地落实（大使随笔）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182619.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8f8599b49f2a1c",
+          "source": "人民日报",
+          "title": "推进建设性战略稳定关系 共促世界和平稳定与繁荣",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182616.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ac50dc377a41dc",
+          "source": "人民日报",
+          "title": "李强会见世界技能组织主席乌汉和首席执行官霍伊",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182626.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f2a914da0b8602",
+          "source": "人民日报",
+          "title": "深化食品安全全链条监管 以严管严治提升监管质效",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182637.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "186f0975782f40",
+          "source": "人民日报",
+          "title": "相向而行，走好大国正确相处之道（钟声）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182618.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a6203c909b7864",
+          "source": "人民日报",
+          "title": "第48届世界技能大赛在上海隆重开幕",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182625.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "873d47e4d7be06",
+          "source": "人民日报",
+          "title": "红色记忆 永不褪色（赓续长征精神 奋进复兴征程·记者再走长征路）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182640.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8813e8b42569f6",
+          "source": "人民日报",
+          "title": "西藏等3省区党委主要负责同志职务调整",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182642.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f7b82f6f60bab3",
+          "source": "人民日报",
+          "title": "调查显示57%美国民众支持对华友好合作",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182624.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3a22b55a665147",
+          "source": "人民日报",
+          "title": "雪克来提·扎克尔出席全球可持续交通高峰论坛（2026）开幕式、跨里海国际运输走廊高级别会议",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182622.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6878aa49d80297",
+          "source": "人民日报",
+          "title": "韩正会见柬埔寨国王西哈莫尼和太后莫尼列",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182612.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4dc588bc0ece9c",
+          "source": "人民日报",
+          "title": "韩正将出席第81届联合国大会一般性辩论",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182627.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8f28199c6c1958",
+          "source": "人民日报",
+          "title": "马来西亚总理安瓦尔等外国领导人将出席第48届世界技能大赛和第五届全球数字贸易博览会",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/23/content_30182623.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8fc9b9e7b743ec",
+          "source": "光明日报",
+          "title": "2026北京文化论坛开幕",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25822.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d0ce270610bd89",
+          "source": "光明日报",
+          "title": "8月全国查处违反中央八项规定精神问题29171起",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25827.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c7089d4cff2d92",
+          "source": "光明日报",
+          "title": "“伟大的远征——纪念中国工农红军长征胜利90周年主题展览”开幕式在京举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25803.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2b53e77d753952",
+          "source": "光明日报",
+          "title": "“核心价值观百场讲坛”第173场将走进四川雅安",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25828.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c04911049faaa6",
+          "source": "光明日报",
+          "title": "【光明时评】以科普之光点亮创新未来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25818.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2de4fa26468eb8",
+          "source": "光明日报",
+          "title": "【光明论坛】藏粮于地、藏粮于技 扎实推进乡村全面振兴",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25817.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "35e1e12e50b6c1",
+          "source": "光明日报",
+          "title": "【我在现场】图片报道",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25796.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "320fdd5a36dde4",
+          "source": "光明日报",
+          "title": "【我在现场】好苗原是水中培",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25795.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bb107f15d8c0b1",
+          "source": "光明日报",
+          "title": "【我在现场】打破节奏鱼生“金”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25794.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9253bead3378a8",
+          "source": "光明日报",
+          "title": "【我在现场】竹叶也能卖好价",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25793.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "17acd720c23ef8",
+          "source": "光明日报",
+          "title": "【我在现场】销路再也不愁了",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25792.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9557fec33a13e0",
+          "source": "光明日报",
+          "title": "【文化评析】让微短剧从“流量红利”走向“创作红利”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25819.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a67a1a3d5192b8",
+          "source": "光明日报",
+          "title": "丁薛祥会见哈萨克斯坦第一副总理纳利巴耶夫",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25804.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8a87edf3d810ca",
+          "source": "光明日报",
+          "title": "前8个月长三角区域进出口同比增长18.8%",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25826.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0f5445828d2c42",
+          "source": "光明日报",
+          "title": "加快培育壮大新兴产业和未来产业 持续做大做强先进制造业",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25800.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a1d114e639cab4",
+          "source": "光明日报",
+          "title": "守护盐湖资源运输通道",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25825.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "142a086eb29074",
+          "source": "光明日报",
+          "title": "李强会见世界技能组织主席乌汉和首席执行官霍伊",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25802.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "403e9a6776747a",
+          "source": "光明日报",
+          "title": "浙江财经大学高等研究院、人工智能研究院面向海内外诚聘院长",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25820.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "031cdf910fecc6",
+          "source": "光明日报",
+          "title": "激活组织育人新动能 构建医护暖育共同体",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25821.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d4015a313746e1",
+          "source": "光明日报",
+          "title": "第48届世界技能大赛在上海隆重开幕",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25801.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "00f1219d900124",
+          "source": "光明日报",
+          "title": "答好保障粮食安全这个“永恒课题”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25791.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e204af0be5777f",
+          "source": "光明日报",
+          "title": "聚焦“四个着力”，保护利用好自然资源",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25823.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c26bc1d9775b0f",
+          "source": "光明日报",
+          "title": "西藏等3省区党委主要负责同志职务调整",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25807.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "99931915b1fe5f",
+          "source": "光明日报",
+          "title": "赓续长征精神 锻造能源报国时代新人",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25829.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8bae5e00d7d686",
+          "source": "光明日报",
+          "title": "韩正会见柬埔寨国王西哈莫尼和太后莫尼列",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25805.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7812ac88e574f5",
+          "source": "光明日报",
+          "title": "韩正将出席第81届联合国大会一般性辩论",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/23/content_25806.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a0e644160c4fe4",
+          "source": "学习强国",
+          "title": "李强出席第48届世界技能大赛",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=15806417778226424787&item_id=15806417778226424787",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "97e740b20158f7",
+          "source": "新华社",
+          "title": "中方表示对乌克兰危机中平民伤亡频发深感痛心",
+          "url": "https://www.news.cn/20260923/721250857e514ba9970810427981cec4/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2e65127c1cc056",
+          "source": "新华社",
+          "title": "也门政府军称打死打伤数十名胡塞武装人员",
+          "url": "https://www.news.cn/20260923/bcfe3af2b5c949e789a269c8fd1732bd/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "015a49f9c82464",
+          "source": "新华社",
+          "title": "亚运会丨从亚锦赛到亚运会，中国女排成功“纠错”",
+          "url": "https://www.news.cn/20260923/77b3ecc6f4df40868a0407d804f96b5f/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5db9194f0a6ea2",
+          "source": "新华社",
+          "title": "今日看点：男足冲八强席位 体操女团争14连冠",
+          "url": "https://www.news.cn/20260923/c81927cd50484854ac78d0c333de4496/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
         {
           "id": "b67b6cb2893e29",
           "source": "新华社",
           "title": "以升旗之礼凝聚港澳青少年爱国之志",
           "url": "https://www.news.cn/politics/20260923/1330b24180e746f0bb00ac681d921182/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e945efd6c3fd09",
+          "source": "新华社",
+          "title": "友谊港迎来“吉祥”——“吉祥方舟”号毛里塔尼亚诊疗记",
+          "url": "https://www.news.cn/silkroad/20260923/7629fbc95ae64c9a801c52c1daa7776c/c.html",
           "date": "2026-09-23",
           "keyword": "综合时政"
         },
@@ -138555,10 +139131,34 @@
           "keyword": "综合时政"
         },
         {
-          "id": "72946dd2fba385",
+          "id": "204f33d91b3218",
           "source": "新华社",
-          "title": "新华解码｜“十五五”，轻纺产业如何增质效、惠民生",
-          "url": "https://www.news.cn/politics/20260923/d9faf0653e1240d19c0ed6a3d93b3343/c.html",
+          "title": "文脉落京华 全国文化中心建设年度大事揭晓",
+          "url": "https://www.news.cn/politics/20260923/86773969d683451e95fa998f4a2db6ae/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "03588aa30a038b",
+          "source": "新华社",
+          "title": "欧盟延长涉乌克兰危机制裁措施至2029年",
+          "url": "https://www.news.cn/20260923/3aea980ed2e248689c1817616996bfed/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ba6aeb63bd19bf",
+          "source": "新华社",
+          "title": "特朗普证实美伊官员在纽约会谈3小时",
+          "url": "https://www.news.cn/20260923/490404b19af64dccbcd066b2f9003a68/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1f1b0a80be5e18",
+          "source": "新华社",
+          "title": "特朗普：中期选举后美伊或达成协议",
+          "url": "https://www.news.cn/20260923/88b23df71e154d70bf4e186b22aa117a/c.html",
           "date": "2026-09-23",
           "keyword": "综合时政"
         },
@@ -138569,6 +139169,62 @@
           "url": "https://www.news.cn/politics/leaders/20260923/6a9c815972d44c0d94f3ea7af406dbda/c.html",
           "date": "2026-09-23",
           "keyword": "综合时政"
+        },
+        {
+          "id": "ef241cefabc7f2",
+          "source": "新华社",
+          "title": "第81届联大主席：联合国须深化改革以重新赢得信任",
+          "url": "https://www.news.cn/20260923/8c8cf14a24ee4878998ef305a1ed5c56/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "77745de13a7e09",
+          "source": "新华社",
+          "title": "第三个比赛日中国代表团共收获9金3银3铜",
+          "url": "https://www.news.cn/20260923/c7ff6a28fba44de9a32fc63f07a7a472/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d76db567a08cc0",
+          "source": "新华社",
+          "title": "纽约股市三大股指22日涨跌不一",
+          "url": "https://www.news.cn/20260923/e97db0d5484a40c88651fe89d1a58487/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3b4b8d99d649cc",
+          "source": "新华社",
+          "title": "美国、丹麦和格陵兰签协议扩大美军存在引担忧",
+          "url": "https://www.news.cn/20260923/faefcdb74c4248a8a975221f60af13ac/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "acc9e137d9d01f",
+          "source": "新华社",
+          "title": "英国警方逮捕两名涉嫌策划恐袭的男子",
+          "url": "https://www.news.cn/20260923/b3069632ca4849e6a84cc3f8d425f313/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "641d266a911981",
+          "source": "新华社",
+          "title": "近镜头 | 走出一条新时代大国正确相处之道",
+          "url": "https://www.news.cn/politics/leaders/20260923/1fe699a24ba84e819958dbb16812f358/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9651614219578c",
+          "source": "新华社",
+          "title": "阿根廷抗议英方支持在马岛争议区域延长油气开采许可",
+          "url": "https://www.news.cn/20260923/9a332911fb5543c0b4d4015016b8039a/c.html",
+          "date": "2026-09-23",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -138576,67 +139232,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 7.2,
+          "duration": 7.0,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260923.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.4,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/23/node_01.html"
+          "status": "ok",
+          "count": 31,
+          "duration": 2.3
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 5,
+          "count": 22,
           "duration": 2.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 14.0
+          "duration": 17.5
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.3
+          "duration": 6.1
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.5,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/23/node_01.html"
+          "status": "ok",
+          "count": 31,
+          "duration": 1.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.0
+          "duration": 14.4
         },
         {
           "source": "学习强国",
           "status": "ok",
-          "count": 0,
-          "duration": 3.4
+          "count": 1,
+          "duration": 3.0
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 0,
-          "duration": 9.0
+          "count": 1,
+          "duration": 8.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 59.6
+          "duration": 84.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-09-23T01:56:18+08:00"
+  "generatedAt": "2026-09-23T08:10:16+08:00"
 }
