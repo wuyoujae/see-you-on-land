@@ -142875,7 +142875,156 @@
           "duration": 76.9
         }
       ]
+    },
+    {
+      "date": "2026-09-25",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 6
+        }
+      ],
+      "articles": [
+        {
+          "id": "9b221d3da066d7",
+          "source": "中国政府网",
+          "title": "习近平同美国总统特朗普小范围交流",
+          "url": "https://www.gov.cn/yaowen/liebiao/202609/content_7082026.htm",
+          "date": "2026-09-25",
+          "keyword": "习近平"
+        },
+        {
+          "id": "433ff7df7e142b",
+          "source": "新华社",
+          "title": "习近平谈中东局势",
+          "url": "https://www.news.cn/politics/leaders/20260925/993ffcfd92f64118adadc1d6b91def8a/c.html",
+          "date": "2026-09-25",
+          "keyword": "习近平"
+        },
+        {
+          "id": "be9e2258499920",
+          "source": "新华社",
+          "title": "习近平：不以善小而不为，不以恶小而为之",
+          "url": "https://www.news.cn/politics/leaders/20260925/1d884a8fd15e4a8989c40cfb69e6dcbe/c.html",
+          "date": "2026-09-25",
+          "keyword": "习近平"
+        },
+        {
+          "id": "e12e49dd04a456",
+          "source": "新华社",
+          "title": "习近平：把中美建设性战略稳定关系从愿景转化为行动",
+          "url": "https://www.news.cn/politics/leaders/20260925/bf7b36930eda408c95b435ab9a51d226/c.html",
+          "date": "2026-09-25",
+          "keyword": "习近平"
+        },
+        {
+          "id": "efebeae53e3414",
+          "source": "新华社",
+          "title": "习近平：美方应慎重处理台湾问题",
+          "url": "https://www.news.cn/politics/leaders/20260925/2475502850e34eebb0b5d53b73a65db8/c.html",
+          "date": "2026-09-25",
+          "keyword": "习近平"
+        },
+        {
+          "id": "1bc5c69a81f14e",
+          "source": "新华社",
+          "title": "新华图讯丨习近平同美国总统特朗普小范围交流",
+          "url": "https://www.news.cn/politics/leaders/20260925/962ea652e356460090e826916bebaf73/c.html",
+          "date": "2026-09-25",
+          "keyword": "习近平"
+        },
+        {
+          "id": "b1363f58db14ac",
+          "source": "新华社",
+          "title": "也门胡塞武装称大规模袭击沙特军事目标",
+          "url": "https://www.news.cn/world/20260925/dd919c062bbd4c1b9da653e06cfbf021/c.html",
+          "date": "2026-09-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5654a1bf492f7a",
+          "source": "新华社",
+          "title": "人生没有小角色——追忆游本昌",
+          "url": "https://www.news.cn/politics/20260925/26283e62eed84722a8c7316b6eeeef7b/c.html",
+          "date": "2026-09-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "352294321b7210",
+          "source": "新华社",
+          "title": "阿联酋暂停所有伊朗航空公司往返阿航班",
+          "url": "https://www.news.cn/world/20260925/25b47bc48d26418c8f8f77390fcb7a4b/c.html",
+          "date": "2026-09-25",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 7.4,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260925.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.4,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/25/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 8,
+          "duration": 2.3
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.0
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.2
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.2,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/25/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 11.8
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 1.9
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 1,
+          "duration": 8.3
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 51.5
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-24T21:59:23+08:00"
+  "generatedAt": "2026-09-25T02:15:06+08:00"
 }
