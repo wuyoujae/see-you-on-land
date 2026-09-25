@@ -144189,7 +144189,180 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 51.0
         }
       ]
+    },
+    {
+      "date": "2026-09-26",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 8
+        }
+      ],
+      "articles": [
+        {
+          "id": "c7657e49bd3fd9",
+          "source": "中国政府网",
+          "title": "习近平和彭丽媛同美国总统特朗普夫妇共同参观美国国家档案馆",
+          "url": "https://www.gov.cn/yaowen/liebiao/202609/content_7082121.htm",
+          "date": "2026-09-26",
+          "keyword": "习近平"
+        },
+        {
+          "id": "ad91084bcb9d7f",
+          "source": "中国政府网",
+          "title": "习近平和彭丽媛同美国总统特朗普夫妇茶叙",
+          "url": "https://www.gov.cn/home/toutu/202609/content_7082125.htm",
+          "date": "2026-09-26",
+          "keyword": "习近平"
+        },
+        {
+          "id": "5a164c897c723b",
+          "source": "中国政府网",
+          "title": "习近平圆满结束对美国的国事访问",
+          "url": "https://www.gov.cn/yaowen/liebiao/202609/content_7082119.htm",
+          "date": "2026-09-26",
+          "keyword": "习近平"
+        },
+        {
+          "id": "1b478371a38562",
+          "source": "新华社",
+          "title": "习近平和彭丽媛同美国总统特朗普夫妇共同参观美国国家档案馆",
+          "url": "https://www.news.cn/politics/leaders/20260926/c6fe6c2e081f4239bc02105e191c7ff3/c.html",
+          "date": "2026-09-26",
+          "keyword": "习近平"
+        },
+        {
+          "id": "ec1439c5acff33",
+          "source": "新华社",
+          "title": "习近平和彭丽媛同美国总统特朗普夫妇茶叙",
+          "url": "https://www.news.cn/politics/leaders/20260926/ad9273a6cd2446b3b94f584fb1a15cc7/c.html",
+          "date": "2026-09-26",
+          "keyword": "习近平"
+        },
+        {
+          "id": "a9bd0914e37b30",
+          "source": "新华社",
+          "title": "习近平圆满结束对美国的国事访问",
+          "url": "https://www.news.cn/politics/leaders/20260926/d46b5583fed24347bb465184678cdc1d/c.html",
+          "date": "2026-09-26",
+          "keyword": "习近平"
+        },
+        {
+          "id": "81dab9b4f1e128",
+          "source": "新华社",
+          "title": "心相近｜习近平主席讲述的中美人民友好故事",
+          "url": "https://www.news.cn/politics/leaders/20260926/aae870111b8f4b13940de97ddb1f1cbc/c.html",
+          "date": "2026-09-26",
+          "keyword": "习近平"
+        },
+        {
+          "id": "bb1ea7437a441a",
+          "source": "求是",
+          "title": "习近平和彭丽媛同美国总统特朗普夫妇共同参观美国国家档案馆",
+          "url": "https://www.qstheory.cn/20260926/907e1a5ed9f14253bce079376afbbdc5/c.html",
+          "date": "2026-09-26",
+          "keyword": "习近平"
+        },
+        {
+          "id": "67672112927cbb",
+          "source": "中国政府网",
+          "title": "中美同意共同构建“基于尊重、公平、对等的建设性战略稳定关系”",
+          "url": "https://www.gov.cn/yaowen/liebiao/202609/content_7082124.htm",
+          "date": "2026-09-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b7c87f84bef8b1",
+          "source": "新华社",
+          "title": "中国海军“吉祥方舟”号医院船抵达塞内加尔",
+          "url": "https://www.news.cn/world/20260926/bf54e2427e874e56a60a417d4c7076e8/c.html",
+          "date": "2026-09-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "22f0817fdcfa09",
+          "source": "新华社",
+          "title": "陈妤颉加冕“女飞人” 游泳队“打包”30金",
+          "url": "https://www.news.cn/sports/20260926/1716c17bb005400b929f15c769f57dea/c.html",
+          "date": "2026-09-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8773a0f251070a",
+          "source": "新华社",
+          "title": "韩正分别会见塞浦路斯总统、",
+          "url": "https://www.news.cn/world/20260926/b7d879e91f64449c9d99697dc3059cd5/c.html",
+          "date": "2026-09-26",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 7.2,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260926.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.6,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/26/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 7,
+          "duration": 2.7
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 7.1
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 1,
+          "duration": 5.9
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.3,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/26/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.3
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.5
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 4,
+          "duration": 8.7
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 52.0
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-25T22:23:15+08:00"
+  "generatedAt": "2026-09-26T03:07:57+08:00"
 };
