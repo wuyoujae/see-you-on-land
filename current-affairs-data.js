@@ -145559,7 +145559,92 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 80.3
         }
       ]
+    },
+    {
+      "date": "2026-09-27",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 1
+        }
+      ],
+      "articles": [
+        {
+          "id": "46436237f4227f",
+          "source": "新华社",
+          "title": "福建罗源发生一起滑坡泥石流险情 造成3人失联",
+          "url": "https://www.news.cn/20260927/b28797a7e1fa4320ab331838e4aa737b/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 7.5,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260927.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 6.2,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/27/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 1,
+          "duration": 2.2
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 16.9
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.7
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.9,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/27/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.5
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.4
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 10.7
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 51.6
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-26T21:35:55+08:00"
+  "generatedAt": "2026-09-27T01:37:27+08:00"
 };
