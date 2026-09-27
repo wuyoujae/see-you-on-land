@@ -145566,7 +145566,7 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "习近平",
-          "count": 9
+          "count": 8
         },
         {
           "name": "中美关系",
@@ -145574,6 +145574,14 @@ window.CURRENT_AFFAIRS_DATA = {
         },
         {
           "name": "人工智能",
+          "count": 2
+        },
+        {
+          "name": "科技",
+          "count": 2
+        },
+        {
+          "name": "经济",
           "count": 2
         }
       ],
@@ -145635,17 +145643,9 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
-          "id": "5e1f54e9345f46",
-          "source": "新华社",
-          "title": "习近平主席访美难忘瞬间意义深远",
-          "url": "https://www.news.cn/world/20260927/9f0b8eae40724266b8b28d874a1af674/c.html",
-          "date": "2026-09-27",
-          "keyword": "习近平"
-        },
-        {
           "id": "c7e5f2af291b0e",
           "source": "新华社",
-          "title": "第一观察·瞬间｜习近平主席访美难忘瞬间意义深远",
+          "title": "习近平主席访美难忘瞬间意义深远",
           "url": "https://www.news.cn/politics/leaders/20260927/0bdc8e1bb4614dcba20f743243602497/c.html",
           "date": "2026-09-27",
           "keyword": "习近平"
@@ -145681,6 +145681,38 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://paper.people.com.cn/rmrb/pc/content/202609/27/content_30183291.html",
           "date": "2026-09-27",
           "keyword": "人工智能"
+        },
+        {
+          "id": "82e53f9669894b",
+          "source": "人民日报",
+          "title": "智能经济何以塑造中国发展新优势",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/27/content_30183294.html",
+          "date": "2026-09-27",
+          "keyword": "经济"
+        },
+        {
+          "id": "7016d1580ce07e",
+          "source": "光明日报",
+          "title": "在北京，邂逅艺术与科技的共生之美",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/27/content_26024.html",
+          "date": "2026-09-27",
+          "keyword": "科技"
+        },
+        {
+          "id": "d794fd5d095bac",
+          "source": "新华社",
+          "title": "服贸会丨AI遇见岐黄 中医药高等教育拥抱科技创新",
+          "url": "https://www.news.cn/20260927/d4576829a5b04456befdb77152cbdcb3/c.html",
+          "date": "2026-09-27",
+          "keyword": "科技"
+        },
+        {
+          "id": "8686f809573aa2",
+          "source": "新华社",
+          "title": "雄安日记丨逛新城，感受总部经济新活力",
+          "url": "https://www.news.cn/20260927/65728880da7d45a3ae1b8fa0ddab750f/c.html",
+          "date": "2026-09-27",
+          "keyword": "经济"
         },
         {
           "id": "b2613ec06bb45b",
@@ -145791,14 +145823,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "搭建更加坚固的美中友谊之桥（国际论坛）",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202609/27/content_30183287.html",
-          "date": "2026-09-27",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "82e53f9669894b",
-          "source": "人民日报",
-          "title": "智能经济何以塑造中国发展新优势",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202609/27/content_30183294.html",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
@@ -145915,14 +145939,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "7016d1580ce07e",
-          "source": "光明日报",
-          "title": "在北京，邂逅艺术与科技的共生之美",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202609/27/content_26024.html",
-          "date": "2026-09-27",
-          "keyword": "综合时政"
-        },
-        {
           "id": "37f6a53f5a0706",
           "source": "光明日报",
           "title": "在青海海东，触摸千年前的文明脉动",
@@ -145971,10 +145987,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "55a44a8f79863c",
+          "id": "a9ca00b03da2c9",
           "source": "半月谈",
-          "title": "瑞金一展览入选纪念长征胜利90周年主题陈列展览推介名单",
-          "url": "http://www.banyuetan.org/dfgc/detail/20260927/1000200033136151790474391535792481_1.html",
+          "title": "活态传承助力普洱茶非遗走向世界",
+          "url": "http://www.banyuetan.org/dfgc/detail/20260927/1000200033136151790484804691793039_1.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8dab0d0b72f7e9",
+          "source": "学习强国",
+          "title": "韩正出席第81届联合国大会一般性辩论并发表讲话",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=11294990711817886435&item_id=11294990711817886435",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
@@ -145987,26 +146011,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "87c56e1b9c7ba1",
+          "id": "9a3a339d0e8d9e",
           "source": "新华社",
-          "title": "“中华民族一家亲”图片展在莫斯科举行",
-          "url": "https://www.news.cn/world/20260927/7bf540d04a0047f48a37cfeaae3c6627/c.html",
+          "title": "89年前《红军二万五千里西引记》“炸响”上海滩",
+          "url": "https://www.news.cn/local/20260927/27c0ae11bea340b0818547a0bc2d1af7/c.html",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
         {
-          "id": "e5788fbbdad78e",
+          "id": "886d29b1a652bc",
           "source": "新华社",
-          "title": "“现代化的不同路径：中国的经验”宣介会在秘鲁利马举办",
-          "url": "https://www.news.cn/world/20260927/80284cee27054342b2e863db218a0bb5/c.html",
+          "title": "“她力量”掀起技能赛场青春风暴",
+          "url": "https://www.news.cn/world/20260927/f1c455c2a74e465098f0eb62d23f873c/c.html",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
         {
-          "id": "353631ac8bb7b1",
+          "id": "127b5126b4f213",
           "source": "新华社",
-          "title": "“铁建大桥桩1”号打桩船赴巴西参与跨海大桥建设",
-          "url": "https://www.news.cn/politics/20260927/c1260afd3b2e4281b74382f23db30d13/c.html",
+          "title": "“草地第一村”：用好日子告慰红军先辈",
+          "url": "https://www.news.cn/local/20260927/af888569ea524cdebf66a23f020e9913/c.html",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
@@ -146019,18 +146043,114 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "aed63b15b7fe73",
+          "source": "新华社",
+          "title": "三部门部署派出暗访组推动做好假期安全防范工作",
+          "url": "https://www.news.cn/politics/20260927/cd85b3aa9f054e44b7e397f4966a04c5/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3d087e87332d0c",
+          "source": "新华社",
+          "title": "世界技能大赛上的“筋骨皮”",
+          "url": "https://www.news.cn/photo/20260927/c91a586399424835a6e4d36db8cfbeaa/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7f1601fe031a13",
+          "source": "新华社",
+          "title": "世界旅游日丨数字赋能文旅，智游大美中国",
+          "url": "https://www.news.cn/politics/20260927/e3b8bd9c69c34fa3b7ff390241a4998d/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8205b3c456f418",
+          "source": "新华社",
+          "title": "中国海警位黄岩岛附近海域组织维权执法管控演练",
+          "url": "https://www.news.cn/politics/20260927/e57af3cce14e4fe1b4b4b9e9b1b24e6e/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "18fc57cabd32d5",
+          "source": "新华社",
+          "title": "中秋档电影市场走热 文化消费活力持续释放",
+          "url": "https://www.news.cn/fortune/20260927/fe22dd8ca7494979a22ece11191e6781/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6e2e5b0235005e",
+          "source": "新华社",
+          "title": "为中美探索大国相处之道提供明确战略指引",
+          "url": "https://www.news.cn/world/20260927/a3bf0465349c44cbbc347ecf17a9d534/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4d586079afd19d",
+          "source": "新华社",
+          "title": "云南龙陵：万亩梯田咖意浓",
+          "url": "https://www.news.cn/20260927/219df560433d4dc3bbb3c00c5c3fd30e/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "843b2105d7b961",
+          "source": "新华社",
+          "title": "亚投行行长邹加怡：为全球发展注入更多确定性",
+          "url": "https://www.news.cn/world/20260927/be2f95fc3c6b430691d709be2f8d7af0/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "22a149b34143d5",
+          "source": "新华社",
+          "title": "亚运会丨陈艺文、陈佳获得女子双人3米跳板冠军",
+          "url": "https://www.news.cn/sports/20260927/6aa7dc5e1f874201bc60041c5a47ee49/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
           "id": "febd670d384752",
           "source": "新华社",
-          "title": "今日看点：女子标枪巅峰对决 国乒双线全力冲冠",
+          "title": "今日看点:女子标枪巅峰对决 国乒双线冲冠",
           "url": "https://www.news.cn/sports/20260927/738e23640eff4fd98ea56b0c015d78d4/c.html",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
         {
-          "id": "53f3e19806b505",
+          "id": "4d9a738b5fe523",
+          "source": "新华社",
+          "title": "他们守着的不仅是一座古桥 更是一份跨越时空的长征精神",
+          "url": "https://www.news.cn/local/20260927/7d30ccfa109244e498387a8b7c6fb05d/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8ed0c3286de797",
+          "source": "新华社",
+          "title": "以军称打击黎巴嫩南部多地真主党目标",
+          "url": "https://www.news.cn/world/20260927/4dd428c9361748b49fbce0d05a7d47bb/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5be9354ef872d6",
           "source": "新华社",
           "title": "伊朗外长：等待调解方转达重开海峡计划美方最终意见",
-          "url": "https://www.news.cn/world/20260927/2c26a7c0711147c0bcb034c3c39a81c9/c.html",
+          "url": "https://www.news.cn/20260927/9e98764ee7cc441daa126c39c7ff1c20/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "57f3a8d4f031d4",
+          "source": "新华社",
+          "title": "俄国防部称打击乌克兰海军基地",
+          "url": "https://www.news.cn/world/20260927/776c2473034e499a9b3f4f9083ff39b0/c.html",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
@@ -146043,18 +146163,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "e065feaa16234d",
+          "id": "2b5bd5b7c5d112",
           "source": "新华社",
-          "title": "俄德外长在俄乌冲突后首次会面",
-          "url": "https://www.news.cn/world/20260927/af254acb25a842bc86755ed299aecbbd/c.html",
+          "title": "俄德外长乌克兰危机后首次会面 会见简短气氛紧张",
+          "url": "https://www.news.cn/20260927/43220ea19b544ebb9d7a77ee3b45c541/c.html",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
         {
-          "id": "34293318ec73ca",
+          "id": "2ccc9c76fcfeb0",
+          "source": "新华社",
+          "title": "具有里程碑意义的历史性访问",
+          "url": "https://www.news.cn/politics/leaders/20260927/4ea6e466c124409291e3655f8d5c728b/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "432d530f4a4869",
+          "source": "新华社",
+          "title": "内蒙古：赴一场秋日的旷野之约",
+          "url": "https://www.news.cn/local/20260927/e22055e48b6c4688b45056c52951acd1/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4a227b5bc5b132",
           "source": "新华社",
           "title": "利比亚主要输油管道恢复输送原油",
-          "url": "https://www.news.cn/world/20260927/aa4f1adfa9954b8eaee6b8d3acd4f2ef/c.html",
+          "url": "https://www.news.cn/20260927/ef3c554401d4418dbafd9f5b80f3940c/c.html",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
@@ -146063,6 +146199,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "加拿大一架直升机坠毁致4人死亡",
           "url": "https://www.news.cn/20260927/d3782e83ea8547e7974cc52ffbd79ee5/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d38f0248b321c7",
+          "source": "新华社",
+          "title": "半程综述:中国军团一枝独秀 年轻小将崭露头角",
+          "url": "https://www.news.cn/sports/20260927/d6122a8a747a4782ae0494bb2ec09632/c.html",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
@@ -146083,26 +146227,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "0763a0d68c7aef",
+          "id": "fb43dec2ab02e2",
           "source": "新华社",
-          "title": "南部战区位黄岩岛周边海空域组织海空联合演训",
-          "url": "https://www.news.cn/politics/20260927/5de128b5e39c4d7ca0e615c238b9efac/c.html",
+          "title": "南非一酒吧发生枪击事件致17人死亡",
+          "url": "https://www.news.cn/20260927/6df99f03449c4486aa1dac1a08aa5e56/c.html",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
         {
-          "id": "a81f1596e0982a",
+          "id": "04b6cd521a64c2",
+          "source": "新华社",
+          "title": "印度北方邦暴雨已致56人死亡",
+          "url": "https://www.news.cn/20260927/57a9990bb9054da89c9c2fc9f550177d/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "732777fcaf6365",
+          "source": "新华社",
+          "title": "国庆花坛里，折叠着“中国的时间”",
+          "url": "https://www.news.cn/politics/20260927/9876b46bb0844f00b855cf952bb000bc/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "765e8d1ed01d20",
+          "source": "新华社",
+          "title": "国际观察丨把握AI机遇 共促全球数字贸易普惠发展",
+          "url": "https://www.news.cn/20260927/b6635eed227743888c30f90d550e4b0b/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2c8ceaa3fb5205",
+          "source": "新华社",
+          "title": "图片故事丨千年梯田 生生不息",
+          "url": "https://www.news.cn/photo/20260927/5b5943d7850143829c9306fe177a2431/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "619ea3f6df7e9e",
           "source": "新华社",
           "title": "大熊猫“平平”“福双”启程前往美国亚特兰大动物园",
-          "url": "https://www.news.cn/photo/20260927/4c4d256a8bbf467a8262bbd8c757f6ea/c.html",
-          "date": "2026-09-27",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "5c6a3824b42495",
-          "source": "新华社",
-          "title": "大熊猫“平平”“福双”启程赴美",
-          "url": "https://www.news.cn/world/20260927/53aaa9e48e5148aca6c411626165516f/c.html",
+          "url": "https://www.news.cn/20260927/f50f4cec9a1e46a2a1c66cec81857456/c.html",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
@@ -146115,10 +146283,58 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "bc9afee08b02f8",
+          "id": "13d5f8c7880a52",
           "source": "新华社",
-          "title": "宁都“无盐汤”：藏在汤里的红色记忆",
-          "url": "https://www.news.cn/politics/20260927/a90ab61c91e34e0b8e7fadb4e4cb72f1/c.html",
+          "title": "孙思蓓夺自由式小轮车公园赛亚运历史首金",
+          "url": "https://www.news.cn/sports/20260927/bdbb19bf895749be9d623d0f6606f9f9/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ca47cf1e0268b2",
+          "source": "新华社",
+          "title": "寻迹中国｜塔吉克斯坦留学生在南京邂逅浪漫中秋",
+          "url": "http://www.js.xinhuanet.com/20260927/13bc59a5f7ad4a6ca40ff379e251d2e2/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fce2c5bf13da3c",
+          "source": "新华社",
+          "title": "小长假里看中国丨“奔县”去 文旅焕新彩",
+          "url": "https://www.news.cn/local/20260927/89037d57ad734b5893c0dfc320a81b43/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "95c1f023c6a59c",
+          "source": "新华社",
+          "title": "尼泊尔发生雪崩致多人失联",
+          "url": "https://www.news.cn/20260927/2a03805a5ef643da99440f4a9f976c6d/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e96d4843277928",
+          "source": "新华社",
+          "title": "尽享假期好时光",
+          "url": "https://www.news.cn/photo/20260927/22fbc974d42c4c84b08691410655456d/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "26610647bcf35b",
+          "source": "新华社",
+          "title": "山东：“聚”起好风景 假期客满村",
+          "url": "https://www.news.cn/20260927/8c70d114ab6a40d6b095c5aaa98c6dc1/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cd443591ec9d92",
+          "source": "新华社",
+          "title": "我们的长征丨赤诚·守望",
+          "url": "https://www.news.cn/politics/20260927/8cb9afb695014c6296a92c697598da6e/c.html",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
@@ -146131,26 +146347,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "3d5d051be5e9bb",
+          "id": "39c5f0f4008f6f",
           "source": "新华社",
-          "title": "揭秘敦煌｜敦煌壁画里的中秋仪式感",
-          "url": "https://www.news.cn/politics/20260927/ae6124858bd44eeeb800d0a7458ac66d/c.html",
+          "title": "星空相册｜十五的月亮十七圆",
+          "url": "https://www.news.cn/photo/20260927/6ba0a8d3a5a1421e824ef71b46a40b5f/c.html",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
         {
-          "id": "ebbc67537976be",
+          "id": "28d22c0fb6ff32",
           "source": "新华社",
-          "title": "权威数读丨观中国",
-          "url": "https://www.news.cn/politics/20260927/27ba186b0bab4a7d8310f1898de10198/c.html",
+          "title": "月上傣楼 清辉照边城",
+          "url": "https://www.news.cn/politics/20260927/920e2d7a17c94ce28cfcace29b75b214/c.html",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
         {
-          "id": "35833e641642bf",
+          "id": "0fa9582dff6445",
           "source": "新华社",
-          "title": "沙特称霍尔木兹海峡须恢复至“战前状态”",
-          "url": "https://www.news.cn/world/20260927/5dff1c3eedb94e9f8af6ebceb9946beb/c.html",
+          "title": "杨昊/练俊杰获男子双人10米台金牌",
+          "url": "https://www.news.cn/sports/20260927/342478e856784de3b5230d88d0412beb/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b241edf17816d9",
+          "source": "新华社",
+          "title": "江苏南通：扫码用电护航秋粮稳产丰收",
+          "url": "https://www.news.cn/20260927/1b5aa238d4f8404d94fc497461c78af9/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7b551d62aa5e7f",
+          "source": "新华社",
+          "title": "灯火映古镇 中秋夜味浓",
+          "url": "https://www.news.cn/photo/20260927/dda32f94f45b4441bcb911eb2f98be4b/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "efafc6d4ef84dc",
+          "source": "新华社",
+          "title": "热爱丨方正华：以街舞为桥 让世界看见多样中国",
+          "url": "https://www.news.cn/world/20260927/199838be83fa4b5f90d7e09f9d075269/c.html",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
@@ -146171,6 +146411,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "dbc01b2a5c59df",
+          "source": "新华社",
+          "title": "第一观察丨感悟中美人民友好深沉持久的力量",
+          "url": "https://www.news.cn/politics/leaders/20260927/c4004e87549b4162ae35c5e8d80c2c7b/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
           "id": "82015805735cfa",
           "source": "新华社",
           "title": "繁花献祖国 共祝山河锦绣",
@@ -146187,6 +146435,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "13320588dce6f6",
+          "source": "新华社",
+          "title": "美国东北部遭风暴袭击 至少1人丧生",
+          "url": "https://www.news.cn/20260927/50e00c98fe8743699b88f5d0900529d9/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
           "id": "66c83322f633db",
           "source": "新华社",
           "title": "美国各界高度评价",
@@ -146195,34 +146451,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "f3af98c4876589",
+          "id": "3e2d602fae32e8",
           "source": "新华社",
-          "title": "赛程过半，金牌过百",
-          "url": "https://www.news.cn/sports/20260927/a81e6c424acc4daea8f2dba792b3f562/c.html",
+          "title": "美拟大幅放松新车油耗标准 电动化转型恐放缓",
+          "url": "https://www.news.cn/20260927/b5721aebc29441bf910fb939eee58dad/c.html",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
         {
-          "id": "08295baa1533b7",
+          "id": "76cef9d80a9f20",
           "source": "新华社",
-          "title": "通讯丨“土耳其人没有面包就不算吃饱”",
-          "url": "https://www.news.cn/world/20260927/b65a2a25eaf947e7a8095e302cd10ea9/c.html",
-          "date": "2026-09-27",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "774a1b4acd5c99",
-          "source": "新华社",
-          "title": "陈艺文/陈佳获女子双人3米板金牌",
-          "url": "https://www.news.cn/sports/20260927/87c3903e47cc4b6cb47b8991b9c8b567/c.html",
-          "date": "2026-09-27",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "6160cba67ddeba",
-          "source": "新华社",
-          "title": "香港海面上的桨手人生",
-          "url": "https://www.news.cn/gangao/20260927/b4549e738ee64e8c81071566fbd0bf4c/c.html",
+          "title": "韩正出席第81届联合国大会一般性辩论并发表讲话",
+          "url": "https://www.news.cn/world/20260927/f79b9d9731ac4c1a88683c39e17efd20/c.html",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
@@ -146231,6 +146471,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "求是",
           "title": "中国人民解放军南部战区位黄岩岛周边海空域组织海空联合演训",
           "url": "https://www.qstheory.cn/20260927/98205e8c73534795b03d5a0a928d0aa2/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ee8cdebbf40048",
+          "source": "求是",
+          "title": "中国金融结构变迁，金融业高质量发展的必然要求",
+          "url": "https://www.qstheory.cn/20260927/a92389c08d144feeaae08b29e4dca3f8/c.html",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
@@ -146259,6 +146507,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "3efb5c32609113",
+          "source": "求是",
+          "title": "加快完善民营企业参与重大项目建设长效机制",
+          "url": "https://www.qstheory.cn/20260927/8fd3373823e04699b66e72c65b939feb/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
           "id": "3fbbbd12e49989",
           "source": "求是",
           "title": "大熊猫“平平”“福双”已启程赴美",
@@ -146267,10 +146523,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "3191f1d2eaf975",
+          "source": "求是",
+          "title": "如何加强和改进人民政协界别工作",
+          "url": "https://www.qstheory.cn/20260927/135c3be44dff4e25ae7cf8a2ae947273/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
           "id": "ac247a5b79ddf5",
           "source": "求是",
           "title": "持续擦亮“平安”的国家名片",
           "url": "https://www.qstheory.cn/20260927/c0f21b26373e4f6ebbca61e7b3539fb6/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cde74a7f3b5128",
+          "source": "求是",
+          "title": "新型能源体系建设“路”在何方",
+          "url": "https://www.qstheory.cn/20260927/b117bd4b25174537857eda8fb3dbae13/c.html",
+          "date": "2026-09-27",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9f6c100cfe50ac",
+          "source": "求是",
+          "title": "深刻把握中华文明突出的创新性①",
+          "url": "https://www.qstheory.cn/20260927/8e3857f0e3f942f7a21f37e0df6ca74d/c.html",
           "date": "2026-09-27",
           "keyword": "综合时政"
         },
@@ -146288,65 +146568,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 10.3,
+          "duration": 4.5,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260927.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 22,
-          "duration": 2.1
+          "duration": 2.0
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 32,
-          "duration": 3.1
+          "count": 60,
+          "duration": 2.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 1,
-          "duration": 20.5
+          "duration": 12.4
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 8,
-          "duration": 5.7
+          "count": 13,
+          "duration": 5.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 22,
-          "duration": 1.6
+          "duration": 1.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.2
+          "duration": 12.6
         },
         {
           "source": "学习强国",
           "status": "ok",
-          "count": 0,
-          "duration": 2.7
+          "count": 1,
+          "duration": 2.8
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 8.6
+          "duration": 9.4
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 2,
-          "duration": 87.3
+          "duration": 56.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-09-27T11:04:30+08:00"
+  "generatedAt": "2026-09-27T17:44:25+08:00"
 };
