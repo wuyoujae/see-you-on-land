@@ -150379,7 +150379,112 @@
           "duration": 86.8
         }
       ]
+    },
+    {
+      "date": "2026-09-30",
+      "keyword": "部招聘记者",
+      "keywords": [
+        {
+          "name": "部招聘记者",
+          "count": 2
+        },
+        {
+          "name": "南方周末",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "01fbed922148d4",
+          "source": "南方周末",
+          "title": "南方周末文化副刊部招聘记者",
+          "url": "https://www.infzm.com/contents/329964?source=133",
+          "date": "2026-09-30",
+          "keyword": "部招聘记者"
+        },
+        {
+          "id": "60814fed4995e5",
+          "source": "南方周末",
+          "title": "南方周末经济新闻部招聘记者",
+          "url": "https://www.infzm.com/contents/328757?source=133",
+          "date": "2026-09-30",
+          "keyword": "部招聘记者"
+        },
+        {
+          "id": "7163f4bacaee67",
+          "source": "新华社",
+          "title": "公安部公布8起新型涉黑恶犯罪典型案例",
+          "url": "https://www.news.cn/legal/20260930/207b9c1da7674e6fa5822d157ffbda56/c.html",
+          "date": "2026-09-30",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 4.5,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20260930.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.5,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202609/30/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 1,
+          "duration": 2.4
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 18.1
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.8
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.8,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202609/30/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 2,
+          "duration": 15.1
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.7
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 10.2
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 46.7
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-29T18:20:44+08:00"
+  "generatedAt": "2026-09-30T00:47:30+08:00"
 }
