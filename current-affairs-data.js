@@ -154363,7 +154363,100 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 69.4
         }
       ]
+    },
+    {
+      "date": "2026-10-03",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "728d71524173fa",
+          "source": "新华社",
+          "title": "以总理称迪拜航空驾驶舱冲突袭击者受极端思想影响",
+          "url": "https://www.news.cn/world/20261003/56a63ef2b65143db93302e95f1f531da/c.html",
+          "date": "2026-10-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "17f6aeef8acef9",
+          "source": "新华社",
+          "title": "美驻巴西使领馆及澳驻巴西使馆因“安全问题”关闭",
+          "url": "https://www.news.cn/world/20261003/61ad836945554765a351be1e1cf28c15/c.html",
+          "date": "2026-10-03",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 12.0,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261003.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.5,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/03/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 2,
+          "duration": 5.7
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 30.7
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.0
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.1,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/03/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 16.5
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.8
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 10.0
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 55.5
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-10-02T18:15:57+08:00"
+  "generatedAt": "2026-10-03T00:32:12+08:00"
 };
