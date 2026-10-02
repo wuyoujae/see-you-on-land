@@ -153820,6 +153820,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "eaa191721872ac",
+          "source": "新华社",
+          "title": "IMF发言人：美伊战事对脆弱国家经济影响令人担忧",
+          "url": "https://www.news.cn/world/20261002/aa38853ed3974d01b8c4c33e861c2336/c.html",
+          "date": "2026-10-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "194f86f9fde583",
+          "source": "新华社",
+          "title": "中国代表：反对将人权政治化、工具化、武器化",
+          "url": "https://www.news.cn/world/20261002/4ddc099f6aad4a91adccdaaa66d8f4b5/c.html",
+          "date": "2026-10-02",
+          "keyword": "综合时政"
+        },
+        {
           "id": "40cfd316381612",
           "source": "新华社",
           "title": "中国驻日使馆：村田晃大侵闯使馆案不容任何抵赖",
@@ -153856,14 +153872,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "今日看点：女曲冲击奥运 网球“金花”德比",
           "url": "https://www.news.cn/sports/20261002/0ecc6a49dcbe429bb237934afc9fc805/c.html",
-          "date": "2026-10-02",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "7d81e05d46e229",
-          "source": "新华社",
-          "title": "从9月四场展会看“中国机遇2.0”",
-          "url": "https://www.news.cn/politics/20261002/db3c55edd3f94a6cab0655cdec4db845/c.html",
           "date": "2026-10-02",
           "keyword": "综合时政"
         },
@@ -153916,10 +153924,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "ce37d99e868f99",
+          "source": "新华社",
+          "title": "国宝画重点丨上召窑秦陵：探寻咸阳原上的战国秦文明",
+          "url": "https://www.news.cn/politics/20261002/cb6fb49b09fd4ae8a25422e04c9f968c/c.html",
+          "date": "2026-10-02",
+          "keyword": "综合时政"
+        },
+        {
           "id": "c76a1e02491102",
           "source": "新华社",
           "title": "国庆日，亚运健儿以金牌和拼搏献礼",
           "url": "https://www.news.cn/sports/20261002/6ba145110e934ea69413040d98f96a32/c.html",
+          "date": "2026-10-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9758e1c4999eb6",
+          "source": "新华社",
+          "title": "埃及和埃塞俄比亚互相驱逐外交人员",
+          "url": "https://www.news.cn/world/20261002/8c104a990a8f4ac8b20518ecb7b0e5ec/c.html",
+          "date": "2026-10-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9f85bd748c756a",
+          "source": "新华社",
+          "title": "埃塞关闭驻厄特大使馆 驱逐10名厄特外交官",
+          "url": "https://www.news.cn/world/20261002/8cf0a3b6c7ed4e5ab37c67bc3d7f1583/c.html",
+          "date": "2026-10-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "167af5fd622e31",
+          "source": "新华社",
+          "title": "大咖说丨陈芋汐：纵身十米台",
+          "url": "https://www.news.cn/sports/20261002/c0e3d501157d4e9ba21f1bfacdd7c4f5/c.html",
+          "date": "2026-10-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "25834eda576d76",
+          "source": "新华社",
+          "title": "工业和信息化部将加大工业遗产资源保护利用力度",
+          "url": "https://www.news.cn/politics/20261002/8ba9d67b3de940ea84eb831988e36777/c.html",
           "date": "2026-10-02",
           "keyword": "综合时政"
         },
@@ -153936,6 +153984,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "巴西联邦最高法院附近疑似受到炸弹威胁",
           "url": "https://www.news.cn/20261002/38a5447e4e1f4721b8b9f784ea936ef5/c.html",
+          "date": "2026-10-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4b320b116eb503",
+          "source": "新华社",
+          "title": "巴西调查美国涉嫌利用拨款干涉巴选举和司法机构运作",
+          "url": "https://www.news.cn/world/20261002/049a50ab7bc24c0b8c0a5dffb08f8b6d/c.html",
           "date": "2026-10-02",
           "keyword": "综合时政"
         },
@@ -153980,6 +154036,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "6c9a33ed4360d4",
+          "source": "新华社",
+          "title": "方志敏烈士遗骸鉴定书首次亮相军博",
+          "url": "https://www.news.cn/politics/20261002/5c7a9481fb324cb098109e7f27b7d388/c.html",
+          "date": "2026-10-02",
+          "keyword": "综合时政"
+        },
+        {
           "id": "832645837fd89f",
           "source": "新华社",
           "title": "普京：宣称让俄遭遇“战略失败”将提高冲突升级风险",
@@ -154012,6 +154076,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "46179d711066d6",
+          "source": "新华社",
+          "title": "美国被曝向中东派遣第三艘航母 增派近万名士兵",
+          "url": "https://www.news.cn/world/20261002/4844d7f66ea94c44ae4faeac2c49694b/c.html",
+          "date": "2026-10-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "99827b4e32832e",
+          "source": "新华社",
+          "title": "老牛湾：黄河雕刻的峡谷奇观",
+          "url": "https://www.news.cn/politics/20261002/ccd2c461c57545738a62000eb9bbc21d/c.html",
+          "date": "2026-10-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bcdf1a928f89cb",
+          "source": "新华社",
+          "title": "贵州“大地指纹”音乐会举行国庆专场演出",
+          "url": "https://www.news.cn/photo/20261002/6069c539361e4051bc7605c29158be1f/c.html",
+          "date": "2026-10-02",
+          "keyword": "综合时政"
+        },
+        {
           "id": "91d59f32a4e3d4",
           "source": "新华社",
           "title": "迪拜航空驾驶舱冲突事件受伤机长和副驾返回阿联酋",
@@ -154028,10 +154116,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "1a9104623cd22d",
+          "id": "a5a60c3ab2cfd2",
           "source": "新华社",
-          "title": "龙与熊“相遇” 马德里中西融合式牌坊揭幕",
-          "url": "https://www.news.cn/world/20261002/7aae2e4ef6b54e60889b53ff58ec18b7/c.html",
+          "title": "马德里中西融合式牌坊揭幕",
+          "url": "https://www.news.cn/photo/20261002/b7e6ef3217484f55981caadd9744ecbc/c.html",
           "date": "2026-10-02",
           "keyword": "综合时政"
         }
@@ -154041,38 +154129,38 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 12.5,
+          "duration": 4.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261002.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 16,
-          "duration": 1.9
+          "duration": 1.8
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 29,
-          "duration": 3.8
+          "count": 40,
+          "duration": 4.0
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 12.4
+          "duration": 22.7
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 5.5
+          "duration": 5.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 1.9
+          "duration": 2.4
         },
         {
           "source": "南方周末",
@@ -154084,22 +154172,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.1
+          "duration": 3.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 7.6
+          "duration": 8.7
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 61.6
+          "duration": 87.2
         }
       ]
     }
   ],
-  "generatedAt": "2026-10-02T09:25:49+08:00"
+  "generatedAt": "2026-10-02T11:35:07+08:00"
 };
