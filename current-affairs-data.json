@@ -155472,80 +155472,619 @@
     },
     {
       "date": "2026-10-04",
-      "keyword": "今日时政",
+      "keyword": "欢度国庆",
       "keywords": [
         {
-          "name": "今日时政",
-          "count": 0
+          "name": "欢度国庆",
+          "count": 5
+        },
+        {
+          "name": "祝福祖国",
+          "count": 5
+        },
+        {
+          "name": "亚运会",
+          "count": 3
+        },
+        {
+          "name": "亚运会境外参",
+          "count": 2
+        },
+        {
+          "name": "会境外参赛最",
+          "count": 2
+        },
+        {
+          "name": "创亚运会境外",
+          "count": 2
+        },
+        {
+          "name": "利雅得石油设",
+          "count": 2
+        },
+        {
+          "name": "参赛最好成绩",
+          "count": 2
         }
       ],
-      "articles": [],
+      "articles": [
+        {
+          "id": "b54940a3a1d263",
+          "source": "光明日报",
+          "title": "【欢度国庆 祝福祖国】传统手艺，变身新晋网红",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26605.html",
+          "date": "2026-10-04",
+          "keyword": "欢度国庆"
+        },
+        {
+          "id": "2c54e2727e246a",
+          "source": "光明日报",
+          "title": "【欢度国庆 祝福祖国】文体大餐，滋养学生身心",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26603.html",
+          "date": "2026-10-04",
+          "keyword": "欢度国庆"
+        },
+        {
+          "id": "37c9f2ffb24e80",
+          "source": "光明日报",
+          "title": "【欢度国庆 祝福祖国】文旅消费热",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26604.html",
+          "date": "2026-10-04",
+          "keyword": "欢度国庆"
+        },
+        {
+          "id": "ab700ea6927ca2",
+          "source": "光明日报",
+          "title": "【欢度国庆 祝福祖国】景迈古寨，同品悠悠茶香",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26607.html",
+          "date": "2026-10-04",
+          "keyword": "欢度国庆"
+        },
+        {
+          "id": "c3cb6baa270dae",
+          "source": "光明日报",
+          "title": "【欢度国庆 祝福祖国】百年老街，体验红舞快闪",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26606.html",
+          "date": "2026-10-04",
+          "keyword": "欢度国庆"
+        },
+        {
+          "id": "b22a77b355b643",
+          "source": "人民日报",
+          "title": "中国代表团创亚运会境外参赛最好成绩",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184205.html",
+          "date": "2026-10-04",
+          "keyword": "亚运会"
+        },
+        {
+          "id": "ad2e6b73445f35",
+          "source": "光明日报",
+          "title": "中国队创亚运会境外参赛最好成绩",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26620.html",
+          "date": "2026-10-04",
+          "keyword": "亚运会"
+        },
+        {
+          "id": "da14f7daa6a47c",
+          "source": "新华社",
+          "title": "第20届亚运会10月4日金牌赛程",
+          "url": "https://www.news.cn/20261004/f04e81db9b744ab88c549ea3d33ebbc3/c.html",
+          "date": "2026-10-04",
+          "keyword": "亚运会"
+        },
+        {
+          "id": "7b55ad590431ed",
+          "source": "新华社",
+          "title": "也门胡塞武装称袭击沙特首都利雅得石油设施",
+          "url": "https://www.news.cn/20261004/d76258c067124316a5bb5f3059cc8bfb/c.html",
+          "date": "2026-10-04",
+          "keyword": "利雅得石油设"
+        },
+        {
+          "id": "407bc489453148",
+          "source": "新华社",
+          "title": "胡塞武装称袭击利雅得石油设施",
+          "url": "https://www.news.cn/world/20261004/c5664d395ba8458f8f062c33f9a451f4/c.html",
+          "date": "2026-10-04",
+          "keyword": "利雅得石油设"
+        },
+        {
+          "id": "e771a843dc3c74",
+          "source": "人民日报",
+          "title": "“五十六个民族就是相亲相爱的一家人”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184195.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f404e731da1fea",
+          "source": "人民日报",
+          "title": "“完善全球治理和推动多极化的重要力量”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184209.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c962c64f72ed0c",
+          "source": "人民日报",
+          "title": "“文化交流能够拉近两国人民距离”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184212.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c3a3852ed2e4a9",
+          "source": "人民日报",
+          "title": "上海入境游，热度“节节高”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184203.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d38cc82099e37c",
+          "source": "人民日报",
+          "title": "为变乱交织的世界注入更多确定性和正能量",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184196.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "20c86aa01d01f0",
+          "source": "人民日报",
+          "title": "元首外交引领中美关系稳步前行（国际论坛）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184208.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a7cdcc657904d2",
+          "source": "人民日报",
+          "title": "加快建设强大国内市场",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184201.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "75f1b89b608684",
+          "source": "人民日报",
+          "title": "外媒热议平陆运河全线通航（外媒看中国）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184210.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c328ac4fc82310",
+          "source": "人民日报",
+          "title": "多国政要祝贺新中国成立77周年 希望继续深化对华关系",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184207.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "88e5f8e2cac2bd",
+          "source": "人民日报",
+          "title": "多彩图景映照发展气象",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184218.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ca58d2c70d6892",
+          "source": "人民日报",
+          "title": "家国同庆 文明同行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184199.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "40489599bfc5ad",
+          "source": "人民日报",
+          "title": "旅游不仅有经济属性，更有文化属性",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184204.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6bf5fa917ad694",
+          "source": "人民日报",
+          "title": "活力中国 和美假期（新时代画卷）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184217.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "93cf50a1f2e3d4",
+          "source": "人民日报",
+          "title": "行走阅山河 文旅启新韵",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184198.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a5c75404c58264",
+          "source": "人民日报",
+          "title": "读懂总书记的丰收祝愿（一见）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184200.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "210e65edd43bd7",
+          "source": "人民日报",
+          "title": "赓续红色血脉 厚植爱国情怀",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184197.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b17faedcf3dbc4",
+          "source": "人民日报",
+          "title": "金银滩上的新故事（赓续长征精神 奋进复兴征程·记者再走长征路）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184202.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "01de67bf7a303a",
+          "source": "光明日报",
+          "title": "1.25亿年前哺乳动物就会游泳",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26623.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "153c607b415c88",
+          "source": "光明日报",
+          "title": "“全民追更”，追的是好故事",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26615.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b05b360ebc6b95",
+          "source": "光明日报",
+          "title": "【光明时评】让这道“风景”永恒",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26611.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "23c9ee6734529f",
+          "source": "光明日报",
+          "title": "【我这样过节日】“铁杆庄稼”又丰收了",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26610.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b477e0b4e3cc61",
+          "source": "光明日报",
+          "title": "【欢腾的节日】边城，这融融的夜啊……",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26609.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "05478ecbf0c393",
+          "source": "光明日报",
+          "title": "一枚来之不易的奖牌",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26621.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9648cdf3465f6f",
+          "source": "光明日报",
+          "title": "中国对非零关税举措助肯尼亚茶业发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26629.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b0dce20d9aa1ba",
+          "source": "光明日报",
+          "title": "包容友爱 共同奋进",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26622.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8972c6f4249e6f",
+          "source": "光明日报",
+          "title": "厄尔尼诺“放大”非洲气候风险",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26630.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "456f73a489ec0b",
+          "source": "光明日报",
+          "title": "学习国庆招待会重要讲话 读懂开局之年的奋进中国",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26608.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ff04c994940b2a",
+          "source": "光明日报",
+          "title": "家国同庆 文明同行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26612.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4f79d34345ba8e",
+          "source": "光明日报",
+          "title": "山水禀赋引游客",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26619.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bca0dcc575230f",
+          "source": "光明日报",
+          "title": "我国首个深水油田二次开发项目累产原油突破200万吨",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26613.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "594d1362f58982",
+          "source": "光明日报",
+          "title": "新作与经典共同扮靓国庆舞台",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26626.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d4a356ed958aa7",
+          "source": "光明日报",
+          "title": "牙齿“换代”里的演化密码",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26624.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d650c131936ab9",
+          "source": "光明日报",
+          "title": "瑞士为何拒绝“更严格的中立”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26627.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a8c68a3517ad54",
+          "source": "光明日报",
+          "title": "用高水平服务保障高质量发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26625.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c4883331c137cb",
+          "source": "光明日报",
+          "title": "红韵赋能兴老区",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26617.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6fc51ea019366e",
+          "source": "光明日报",
+          "title": "老年人购买“敬”字车次火车票可享“折上折”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26614.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1d31811317cb0a",
+          "source": "光明日报",
+          "title": "联农带农增底气",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26618.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3e8776d093601c",
+          "source": "光明日报",
+          "title": "英国试探“重返欧盟”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26628.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "658a3437d476ce",
+          "source": "光明日报",
+          "title": "赏花观景度假期",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/04/content_26616.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "df7b1b8b7fa7e3",
+          "source": "新华社",
+          "title": "4日金牌赛程",
+          "url": "https://www.news.cn/sports/20261004/167882a1f2954a4995871419c5fa4db0/c.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "925f263a712689",
+          "source": "新华社",
+          "title": "一小型飞机从百慕大飞往波士顿途中失联",
+          "url": "https://www.news.cn/20261004/a0c849ab439846a99307817c1a53f453/c.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a70110c861ddb1",
+          "source": "新华社",
+          "title": "中国海军“吉祥方舟”号医院船抵达几内亚",
+          "url": "https://www.news.cn/20261004/d097c9e2d7e64575a9c0fd608690f8d9/c.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d6f451a288c1fe",
+          "source": "新华社",
+          "title": "中网综合：郑钦文收“退赛礼” 孙心然惊喜晋级",
+          "url": "https://www.xinhuanet.com/sports/20261004/44b86e19143e47868c0119881eb9233d/c.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "238347d7387372",
+          "source": "新华社",
+          "title": "伊媒：伊朗革命卫队近日对7艘“违规”油轮采取行动",
+          "url": "https://www.news.cn/20261004/2cca79b121074351af5bd6d5cd3c90d4/c.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "54307669e930e9",
+          "source": "新华社",
+          "title": "俄莫斯科州化工厂火灾致5人死亡",
+          "url": "https://www.news.cn/20261004/1ddf1ed74f4544f4b27063907aae25ad/c.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "88a0b0a00c0ff1",
+          "source": "新华社",
+          "title": "卢拉竞选团队请求选举法院调查美使领馆暂停服务一事",
+          "url": "https://www.news.cn/20261004/7cc34930dae248d5be40fbd81724f92a/c.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "609d219234d70f",
+          "source": "新华社",
+          "title": "印度就印巴边界事件召见巴基斯坦临时代办",
+          "url": "https://www.news.cn/20261004/831dfbb4617d47dc9dedc17873b01390/c.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "33095fcf6228e2",
+          "source": "新华社",
+          "title": "古村晒秋：从“一季晒”到“四季游”",
+          "url": "https://www.news.cn/20261004/065475b0600b45a7809e10c92044a39f/c.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1c59b4b79eb1a4",
+          "source": "新华社",
+          "title": "我国首部自主研发12000米钻机再次完钻超深井",
+          "url": "https://www.news.cn/20261004/4c2be75de6454799b6053ddc27389b65/c.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1020cbb778c116",
+          "source": "新华社",
+          "title": "毕焜担任中国代表团旗手",
+          "url": "https://www.news.cn/20261004/cdab67ab34164a88a344a424e22bfc61/c.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a06b5048a39106",
+          "source": "新华社",
+          "title": "沙特主导联军回应",
+          "url": "https://www.news.cn/20261004/42c19c89210e466899062588acbb12e9/c.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "700de2a2a3ac8b",
+          "source": "新华社",
+          "title": "男足隔28年摘铜",
+          "url": "https://www.news.cn/sports/20261004/a606a10a41184651a3f4d0662d6092c7/c.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c2d482f20ff081",
+          "source": "新华社",
+          "title": "金正恩观摩中程战略导弹发射训练",
+          "url": "https://www.news.cn/20261004/26e256900bb94537a58d0277de148b6f/c.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a9750d5137d8f0",
+          "source": "新华社",
+          "title": "闭幕式今晚举行",
+          "url": "https://www.news.cn/20261004/12e2c7132c414db6933f15d84232f126/c.html",
+          "date": "2026-10-04",
+          "keyword": "综合时政"
+        }
+      ],
       "sourceStatus": [
         {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 7.3,
+          "duration": 10.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261004.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 4.9,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/04/node_01.html"
+          "status": "ok",
+          "count": 18,
+          "duration": 1.7
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 0,
-          "duration": 1.8
+          "count": 18,
+          "duration": 3.0
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 14.3
+          "duration": 11.1
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.0
+          "duration": 6.4
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.5,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/04/node_01.html"
+          "status": "ok",
+          "count": 28,
+          "duration": 2.1
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.3
+          "duration": 12.7
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 7.1
+          "duration": 2.8
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.2
+          "duration": 9.4
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 53.4
+          "duration": 82.8
         }
       ]
     }
   ],
-  "generatedAt": "2026-10-04T02:32:44+08:00"
+  "generatedAt": "2026-10-04T08:27:04+08:00"
 }
