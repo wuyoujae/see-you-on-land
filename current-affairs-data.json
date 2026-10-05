@@ -156626,7 +156626,7 @@
       "keywords": [
         {
           "name": "消费",
-          "count": 3
+          "count": 5
         }
       ],
       "articles": [
@@ -156647,10 +156647,26 @@
           "keyword": "消费"
         },
         {
-          "id": "47b06bdfbe243e",
+          "id": "ee00ef43822eb2",
           "source": "新华社",
-          "title": "沧州：夜游火 商圈旺 国庆消费多点开花",
-          "url": "https://www.news.cn/fortune/20261005/1f388c00478f4c3f9fa8807e470e48ff/c.html",
+          "title": "国庆假期消费市场观察：出行热 体验丰 门市旺",
+          "url": "https://www.news.cn/fortune/20261005/4e37812f8fd74f40b2aa226a34141aa8/c.html",
+          "date": "2026-10-05",
+          "keyword": "消费"
+        },
+        {
+          "id": "5b8982435799c6",
+          "source": "新华社",
+          "title": "国庆档票房破8亿 “电影+”新活力激发消费新增量",
+          "url": "https://www.news.cn/fortune/20261005/0697dd5a2a6e4b24916c73e60b550c29/c.html",
+          "date": "2026-10-05",
+          "keyword": "消费"
+        },
+        {
+          "id": "1a578e40c77b54",
+          "source": "新华社",
+          "title": "奔县游丨山水聚潮：赛事激活文旅消费新引擎",
+          "url": "https://www.news.cn/politics/20261005/63f5f3d186a94568b259eac39aefedea/c.html",
           "date": "2026-10-05",
           "keyword": "消费"
         },
@@ -156975,66 +156991,162 @@
           "keyword": "综合时政"
         },
         {
-          "id": "f3dfbaee48b72b",
+          "id": "566af62b950eb8",
           "source": "新华社",
-          "title": "“八分饱”对新能源车有影响吗？",
-          "url": "https://www.news.cn/fortune/20261005/efb13e4c28054c57a52290a92613b3c0/c.html",
+          "title": "10月4日全社会跨区域人员流动量同比增长1.3%",
+          "url": "https://www.news.cn/politics/20261005/c41261e5aa834b0cac3dc7103346df61/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
         {
-          "id": "b2f46cf970f739",
+          "id": "9ff23af39fbc63",
           "source": "新华社",
-          "title": "“共鸣未来——ShanghaiEye之夜”中美人文交流活动在华盛顿举行",
-          "url": "https://www.news.cn/world/20261005/60f48e28def047ba802e3b37921a3574/c.html",
+          "title": "“佤邦联合军”副总司令昆明落网 抓捕画面公开",
+          "url": "https://www.news.cn/20261005/aae18bfcd2b34efe9fec738b16c1a57a/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
         {
-          "id": "aa52d5e5f279ee",
+          "id": "d56381a74c4ec1",
           "source": "新华社",
-          "title": "三集纪录片《缅北电诈覆灭纪实》今晚开播",
-          "url": "https://www.news.cn/legal/20261005/932ef95a8c3d44dda159b602d4887e85/c.html",
+          "title": "一粒青稞，两代征途",
+          "url": "https://www.news.cn/politics/20261005/c09a42d462e44f379000e288958e933f/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
         {
-          "id": "ecf10501c71e9b",
+          "id": "d3b7f9c833b3ff",
           "source": "新华社",
-          "title": "中网：焦科维奇晋级男单四强 萨巴伦卡爆冷出局",
-          "url": "https://www.news.cn/sports/20261005/7ea285efa6154ac0b04dfee585d623ac/c.html",
+          "title": "七部门部署“十五五”时期加强新型电池产品创新",
+          "url": "https://www.news.cn/politics/20261005/2420f1dff3cd4af4aaf2cc640359b57a/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
         {
-          "id": "d806f34d0b4cd5",
+          "id": "a0509c9fdf1152",
           "source": "新华社",
-          "title": "以媒：迪拜航空副驾驶称原计划撞向以机场航站楼",
-          "url": "https://www.news.cn/world/20261005/9ea6c39bd8304063b80c08b86dd48532/c.html",
+          "title": "三名科学家获2026年诺贝尔生理学或医学奖",
+          "url": "https://www.news.cn/world/20261005/2d73ab20abf0427f9c90ec07a890b7d8/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
         {
-          "id": "e5acd1773d6742",
+          "id": "98cf57477a726e",
+          "source": "新华社",
+          "title": "三峡水运新通道电力迁改一线见闻",
+          "url": "https://www.news.cn/fortune/20261005/58d1c31fb7124b169cd224069ab50670/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1bd2cd369e5abb",
+          "source": "新华社",
+          "title": "世界教师日：走进非洲的孔子学院",
+          "url": "https://www.news.cn/photo/20261005/b74bcb7ab0f14ce6828b8740faadba76/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0736926677dd7d",
+          "source": "新华社",
+          "title": "中国空间站动态丨“太空出差”四月有余",
+          "url": "https://www.news.cn/politics/20261005/8ac09e067a5443e0aeaa5f46a1ba83df/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e3093b3a652e8b",
+          "source": "新华社",
+          "title": "为人民群众幸福生活拼搏奉献服务",
+          "url": "https://www.news.cn/politics/leaders/20261005/ae00a0eb68dc447dad1cbe87c241e82a/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7639e0e96745c5",
+          "source": "新华社",
+          "title": "也门政府军对胡塞武装发动反攻",
+          "url": "https://www.news.cn/world/20261005/a2899bbf9e4945d2a6fa69ab9465b94a/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7d9a5fae0fbc2b",
+          "source": "新华社",
+          "title": "以总理下令对入境外国航班进行安全审查",
+          "url": "https://www.news.cn/world/20261005/ac16985d2ffa4022b73658e9b79612c3/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "033e8ed0faba13",
+          "source": "新华社",
+          "title": "以色列限制27国国籍机组人员执飞赴以航班",
+          "url": "https://www.news.cn/20261005/dd417eea0c544323ad4881901722d26b/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "57900c47df72f8",
+          "source": "新华社",
+          "title": "伊朗石油部长因个人原因辞职",
+          "url": "https://www.news.cn/20261005/bee564f69aba407bb538f0b4d77a0fc3/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4eefc9ca2c9585",
+          "source": "新华社",
+          "title": "假日里，那些不曾停歇的身影",
+          "url": "https://www.news.cn/politics/20261005/17d268bbe8e74fdb95ead1e21efd50e6/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "161b8855473a19",
+          "source": "新华社",
+          "title": "假期过半，在照片中看见活力中国",
+          "url": "https://www.news.cn/politics/20261005/136599e7a3ed4223b856c35be98463ca/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dcf132aaf50a72",
+          "source": "新华社",
+          "title": "克普勒：9月末中东原油出口量超过伊朗战事前水平",
+          "url": "https://www.news.cn/world/20261005/09a401e5e9f347409551aaca473eaed7/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "25a6351d391f01",
+          "source": "新华社",
+          "title": "分站赛四连冠 王梓赛夺蹦床世界杯年度总冠军",
+          "url": "https://www.news.cn/sports/20261005/39a15308376a45888d25f5d1b93f96cd/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d6a7c8cf9e36f3",
+          "source": "新华社",
+          "title": "十月沃野·大地华章丨数字田畴里的兴农“策”",
+          "url": "https://www.news.cn/local/20261005/5ceb4ce1bbde4009bf67d772028839a3/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "742e701f05ad04",
           "source": "新华社",
           "title": "南方大部降雨停歇 华南等地气温将创下半年来新低",
-          "url": "https://www.news.cn/politics/20261005/aa148cbf66c1403c91ca17d18378d518/c.html",
+          "url": "https://www.news.cn/20261005/0ace256d911d416c93e113c6abd43f74/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
         {
-          "id": "cb3508ebb4271e",
+          "id": "836701a928fd16",
           "source": "新华社",
-          "title": "南方电网投入5万余人 保障国庆电力供应",
-          "url": "https://www.news.cn/local/20261005/8292db6463034efca2f91157939718be/c.html",
-          "date": "2026-10-05",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "c61a0a25b0bc48",
-          "source": "新华社",
-          "title": "吴宜泽问鼎深圳公开赛 中国球员包揽斯诺克世界前2",
-          "url": "https://www.news.cn/sports/20261005/226a41f8b501412a99c3c194915327f1/c.html",
+          "title": "南部战区就菲飞机非法侵入我黄岩岛领空发表谈话",
+          "url": "https://www.news.cn/20261005/c884d8ce7a5640539c9e69c8c60d82f2/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
@@ -157047,26 +157159,34 @@
           "keyword": "综合时政"
         },
         {
-          "id": "6fc1402c4062f9",
+          "id": "ba59333cd79373",
           "source": "新华社",
-          "title": "国庆出游 警惕“机票退改”“低价订房”骗局",
-          "url": "https://www.news.cn/legal/20261005/7614df86bb784239b70975e7af8c21b1/c.html",
+          "title": "国庆假日，守护平安的那一抹“警察蓝”",
+          "url": "https://www.news.cn/politics/20261005/3c902213d57a49ec80077974d64da5aa/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
         {
-          "id": "a606106a26ec1f",
+          "id": "bb1c33537af67a",
           "source": "新华社",
-          "title": "多地推进景区结婚登记 在风景里说“我愿意”",
-          "url": "https://www.news.cn/local/20261005/e8a6fada9a8d428baa8bdeb037f6bd30/c.html",
+          "title": "国庆假期建设者坚守掠影：实干显担当",
+          "url": "https://www.news.cn/politics/20261005/4f5165cad25b4be4a34566efcaed1b8a/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
         {
-          "id": "6bcaa1b21e71b3",
+          "id": "fd966ed546cf2f",
           "source": "新华社",
-          "title": "奔“县”游丨踏访“最美”乡村，体悟乡土美学",
-          "url": "https://www.news.cn/local/20261005/fde41afa279643f9a6044653ef292082/c.html",
+          "title": "婴幼儿因食用银鳕鱼引起血汞异常？专家提示",
+          "url": "https://www.news.cn/politics/20261005/2c571b1155884933a18650af30d2396b/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "63c181483e31eb",
+          "source": "新华社",
+          "title": "学习手记丨在旅游中感悟中华文化、增强文化自信",
+          "url": "https://www.news.cn/politics/leaders/20261005/79171171eb06473ba2eeea2f4780ba79/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
@@ -157079,10 +157199,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "99980080e638b3",
+          "id": "18d24ca47cc355",
           "source": "新华社",
-          "title": "巴西总统选举举行首轮投票",
-          "url": "https://www.news.cn/world/20261005/1186598586a14710b5c681e95e82d76c/c.html",
+          "title": "对标奥运，看亚运大捷成色几何",
+          "url": "https://www.news.cn/sports/20261005/8be512f82e8447d886e52d255e45473d/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
@@ -157095,10 +157215,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "32b8fd96980b87",
+          "id": "563f95011fb412",
           "source": "新华社",
-          "title": "德国承诺向乌克兰再提供10亿欧元军援",
-          "url": "https://www.news.cn/20261005/63728d1a390f457d8fdd29ef87999341/c.html",
+          "title": "巴西总统选举选情为何胶着？二轮角逐争夺点在哪",
+          "url": "https://www.news.cn/world/20261005/a98177d3932d4c6bbd420a921ffe529e/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "00ddade2b47465",
+          "source": "新华社",
+          "title": "快闪视频丨贺中国国庆，全球多地装点中国红",
+          "url": "https://www.news.cn/20261005/8e38b7af8b014ef7a5c6231acb95d200/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
@@ -157135,6 +157263,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "8cb538c5e87c19",
+          "source": "新华社",
+          "title": "新中国第一架喷气式歼击机 在沈阳起飞",
+          "url": "https://www.news.cn/politics/20261005/8d5beecfd9a24d97a31e10bbaccba607/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a23c890cdd6339",
           "source": "新华社",
           "title": "星空相册丨黑龙江多地观测到极光",
@@ -157143,42 +157279,58 @@
           "keyword": "综合时政"
         },
         {
-          "id": "9145b2ccf22804",
+          "id": "9b955215d911f5",
           "source": "新华社",
-          "title": "权威医者说丨胸闷憋气紧急处置方法",
-          "url": "https://www.news.cn/local/20261005/5c95453f2f5f47bf9986bd7d2d6fc771/c.html",
+          "title": "有趣有味有文化：药膳飘香激活假期文旅新体验",
+          "url": "https://www.news.cn/politics/20261005/b18bc11f226c46778b8e2c27309ec09d/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
         {
-          "id": "6a8891582d9bda",
+          "id": "b446b8a87a5e40",
           "source": "新华社",
-          "title": "村里来了个大学教授",
-          "url": "https://www.news.cn/local/20261005/e6670a88648c4180859f6db40c9de232/c.html",
+          "title": "欧洲“向右转”背后的治理之困",
+          "url": "https://www.news.cn/20261005/268a5aaea52a48f6aeb0e053b808dcf4/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
         {
-          "id": "17cde7cb7c153a",
+          "id": "6325433d8ead22",
           "source": "新华社",
-          "title": "波黑大选初步结果公布",
-          "url": "https://www.news.cn/20261005/bf42bb407c754415942c41bca1f691c0/c.html",
+          "title": "泰国洪灾死亡人数升至31人 曼谷积水有所缓解",
+          "url": "https://www.news.cn/world/20261005/6355cd23e5bb4c58a876957dcb81979b/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
         {
-          "id": "f026361bd9cbe5",
+          "id": "bceb6b25740cfe",
           "source": "新华社",
-          "title": "特朗普宣布组建“超级智能工作组”",
-          "url": "https://www.news.cn/world/20261005/043f715d7dc84183beb3331371299170/c.html",
+          "title": "澳大利亚调查迪拜航空副驾驶与澳关联",
+          "url": "https://www.news.cn/20261005/84d13f4ef3da4da88b75e769b14fd7f6/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
         {
-          "id": "e8851033fe7cea",
+          "id": "3672c849ff07a6",
           "source": "新华社",
-          "title": "生活观察丨掌握“三层穿衣法”，远离进藏失温",
-          "url": "https://www.news.cn/local/20261005/765ba0b95ec64dd2a087d7756415d5f0/c.html",
+          "title": "研究：使用化学改性砂可截留废水中近100%微塑料",
+          "url": "https://www.news.cn/20261005/b1f40ce83afa42ec8102bd263212a960/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b1fedc8725bfe7",
+          "source": "新华社",
+          "title": "称控制曼德海峡",
+          "url": "https://www.news.cn/world/20261005/f3f673dab1cd4f88b7fd651fbb7a99c5/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2c4a31f4c07e2f",
+          "source": "新华社",
+          "title": "突破15万人次 横琴口岸单日客流创新高",
+          "url": "https://www.news.cn/gangao/20261005/d947770e11b64ceebde7ed88e0aed768/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
@@ -157191,42 +157343,50 @@
           "keyword": "综合时政"
         },
         {
-          "id": "a0b2ca446811c7",
+          "id": "629cbb8a359eca",
           "source": "新华社",
-          "title": "美国佐治亚州一街区派对突发枪击 致2死35伤",
-          "url": "https://www.news.cn/world/20261005/e931e668b7a1496f82da89068b4b46ba/c.html",
+          "title": "罗阳：矢志报国航空梦",
+          "url": "https://www.news.cn/tech/20261005/7897d65debf34e2aa1f7d0e824015be7/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
         {
-          "id": "9d2e95896057d2",
+          "id": "bd303f7f323a00",
           "source": "新华社",
-          "title": "美媒：美军已将所有B-1轰炸机撤出英国空军基地",
-          "url": "https://www.news.cn/world/20261005/7888427bf9d3460a9e695801e48fc675/c.html",
+          "title": "美“艾森豪威尔”号航母将返美接受事故调查",
+          "url": "https://www.news.cn/20261005/d177b6d092124f7f968eb7a8dd83b151/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
         {
-          "id": "fee5a4e568f304",
+          "id": "50981c1f063526",
           "source": "新华社",
-          "title": "美海岸警卫队继续搜寻失事飞机机上人员",
-          "url": "https://www.news.cn/20261005/5f6fb012fc9e4ce9be03507020bdb042/c.html",
+          "title": "美军在加勒比海打击“贩毒船”致4死",
+          "url": "https://www.news.cn/20261005/7c140e6c8cd748ddada6ab19a3fd8be3/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
         {
-          "id": "c0f33643e4cf5b",
+          "id": "8e476a42b88a10",
           "source": "新华社",
-          "title": "胡塞武装称沙特24小时内发动百次空袭和导弹袭击",
-          "url": "https://www.news.cn/world/20261005/7b3929199d134c479315177770665210/c.html",
+          "title": "美海岸警卫队暂停搜寻失事飞机机上人员",
+          "url": "https://www.news.cn/20261005/06794681ddf34931bec76c690a929c11/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
         {
-          "id": "c9e731e3b25d3b",
+          "id": "b59b7e3b204bf0",
           "source": "新华社",
-          "title": "角逐者发表讲话",
-          "url": "https://www.news.cn/world/20261005/43af0746fe614a44b2df0ee7bc36134a/c.html",
+          "title": "老挝进行高层领导调整",
+          "url": "https://www.news.cn/20261005/93313c0bc25f4866a20fa12f7d949918/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ce9a7a91bd311e",
+          "source": "新华社",
+          "title": "西班牙首相宣布提前举行议会选举",
+          "url": "https://www.news.cn/world/20261005/ee1bd46022d3471c9ecce146a0e3857a/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
@@ -157239,18 +157399,50 @@
           "keyword": "综合时政"
         },
         {
-          "id": "52ceab5b858abb",
+          "id": "bc686bcaeec5a5",
           "source": "新华社",
-          "title": "记者手记丨在中亚国家感受“中文热”",
-          "url": "https://www.news.cn/silkroad/20261005/26e5ee1f7c7644cf8ea90c716f6c7fae/c.html",
+          "title": "贵州桐梓“村晚”唱响乡村文化新声",
+          "url": "https://www.news.cn/politics/20261005/bca6fc8c467141a7b146fe438d0de18e/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
         {
-          "id": "d8be7d7e066d36",
+          "id": "79cae79ee7fffd",
           "source": "新华社",
-          "title": "走近大国重器 感受硬核实力",
-          "url": "https://www.news.cn/politics/20261005/43f7705a1d384fc89662a113f44e2b07/c.html",
+          "title": "跟着课本走长征丨大渡河畔，回望红色冲锋",
+          "url": "https://www.news.cn/local/20261005/f1ea9cfb20484584bf48a10056916604/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b633db20e016b9",
+          "source": "新华社",
+          "title": "迪拜航空副驾驶空中行凶案仍疑点重重",
+          "url": "https://www.news.cn/world/20261005/3a63207dcff346bba5e6fe3e679d413d/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "52e14e34bf1015",
+          "source": "新华社",
+          "title": "追光丨难忘！第20届亚运会那些超燃瞬间",
+          "url": "https://www.news.cn/20261005/42089a7720a54a51848320c9a28d77fa/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2e86c0ccc0c43e",
+          "source": "新华社",
+          "title": "郑钦文晋级中网女单16强",
+          "url": "https://www.news.cn/sports/20261005/4e138b6cb700499a957bd7a7a682aeb2/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "078aad4d54ad02",
+          "source": "新华社",
+          "title": "限制27国国籍机组人员执飞赴以航班",
+          "url": "https://www.news.cn/world/20261005/62d785f6a4374c24a8eb0a54213c728d/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
@@ -157324,65 +157516,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 11.2,
+          "duration": 13.2,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261005.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 16,
-          "duration": 1.7
+          "duration": 1.4
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 36,
-          "duration": 2.5
+          "count": 60,
+          "duration": 3.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 17.7
+          "duration": 17.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 8,
-          "duration": 5.9
+          "duration": 7.1
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 25,
-          "duration": 1.5
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.5
+          "duration": 12.9
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.7
+          "duration": 2.9
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.3
+          "duration": 8.4
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 64.3
+          "duration": 65.2
         }
       ]
     }
   ],
-  "generatedAt": "2026-10-05T11:31:06+08:00"
+  "generatedAt": "2026-10-05T19:06:38+08:00"
 }
