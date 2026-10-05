@@ -156626,7 +156626,7 @@
       "keywords": [
         {
           "name": "消费",
-          "count": 2
+          "count": 3
         }
       ],
       "articles": [
@@ -156643,6 +156643,14 @@
           "source": "光明日报",
           "title": "具身智能入驻商圈 人机互动焕新消费",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202610/05/content_26638.html",
+          "date": "2026-10-05",
+          "keyword": "消费"
+        },
+        {
+          "id": "47b06bdfbe243e",
+          "source": "新华社",
+          "title": "沧州：夜游火 商圈旺 国庆消费多点开花",
+          "url": "https://www.news.cn/fortune/20261005/1f388c00478f4c3f9fa8807e470e48ff/c.html",
           "date": "2026-10-05",
           "keyword": "消费"
         },
@@ -156959,10 +156967,34 @@
           "keyword": "综合时政"
         },
         {
+          "id": "545aa8241020dc",
+          "source": "广东发布",
+          "title": "国庆假期第四天 近三百九十万人次打卡广东4A级及以上景区 文博热度攀升 民俗好戏连台",
+          "url": "https://www.gd.gov.cn/gdywdt/bmdt/content/post_4963060.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f3dfbaee48b72b",
+          "source": "新华社",
+          "title": "“八分饱”对新能源车有影响吗？",
+          "url": "https://www.news.cn/fortune/20261005/efb13e4c28054c57a52290a92613b3c0/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
           "id": "b2f46cf970f739",
           "source": "新华社",
           "title": "“共鸣未来——ShanghaiEye之夜”中美人文交流活动在华盛顿举行",
           "url": "https://www.news.cn/world/20261005/60f48e28def047ba802e3b37921a3574/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aa52d5e5f279ee",
+          "source": "新华社",
+          "title": "三集纪录片《缅北电诈覆灭纪实》今晚开播",
+          "url": "https://www.news.cn/legal/20261005/932ef95a8c3d44dda159b602d4887e85/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
@@ -156983,10 +157015,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "ece6881d6c1805",
+          "id": "e5acd1773d6742",
           "source": "新华社",
-          "title": "以媒：迪拜航空副驾驶称原计划驾机撞向以机场航站楼",
-          "url": "https://www.news.cn/20261005/0433bed6ac9a43abb7ff4f2ff1b74788/c.html",
+          "title": "南方大部降雨停歇 华南等地气温将创下半年来新低",
+          "url": "https://www.news.cn/politics/20261005/aa148cbf66c1403c91ca17d18378d518/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cb3508ebb4271e",
+          "source": "新华社",
+          "title": "南方电网投入5万余人 保障国庆电力供应",
+          "url": "https://www.news.cn/local/20261005/8292db6463034efca2f91157939718be/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
@@ -156999,10 +157039,42 @@
           "keyword": "综合时政"
         },
         {
+          "id": "47be7d37d68fe6",
+          "source": "新华社",
+          "title": "国产AG600飞机完成大兴安岭林区驻防",
+          "url": "https://www.news.cn/20261005/6d61f121f8df422686be45112cc51dbf/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6fc1402c4062f9",
+          "source": "新华社",
+          "title": "国庆出游 警惕“机票退改”“低价订房”骗局",
+          "url": "https://www.news.cn/legal/20261005/7614df86bb784239b70975e7af8c21b1/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a606106a26ec1f",
+          "source": "新华社",
+          "title": "多地推进景区结婚登记 在风景里说“我愿意”",
+          "url": "https://www.news.cn/local/20261005/e8a6fada9a8d428baa8bdeb037f6bd30/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
           "id": "6bcaa1b21e71b3",
           "source": "新华社",
           "title": "奔“县”游丨踏访“最美”乡村，体悟乡土美学",
           "url": "https://www.news.cn/local/20261005/fde41afa279643f9a6044653ef292082/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6c6a4e553d161f",
+          "source": "新华社",
+          "title": "学习新语·家国同心丨让民族团结进步之花越开越 绚烂",
+          "url": "https://www.news.cn/politics/leaders/20261005/71000950de604bbf951b4f671cec39d1/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
@@ -157015,10 +157087,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "d3e651c5167ea4",
+          "id": "773c5ada9435f8",
           "source": "新华社",
-          "title": "巴西总统选举首轮投票无人胜出 将进行第二轮角逐",
-          "url": "https://www.news.cn/world/20261005/251bc3dbe2b04162b29842b97654b320/c.html",
+          "title": "巴西总统选举将进行第二轮角逐",
+          "url": "https://www.news.cn/20261005/4afef60a506d417394d0486a6e10ea52/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
@@ -157027,6 +157099,54 @@
           "source": "新华社",
           "title": "德国承诺向乌克兰再提供10亿欧元军援",
           "url": "https://www.news.cn/20261005/63728d1a390f457d8fdd29ef87999341/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1408ce2b9dad58",
+          "source": "新华社",
+          "title": "我国推进7项天然气国际标准成功立项",
+          "url": "https://www.news.cn/politics/20261005/7da08a8fbc844970a87ce3e8a13aeb14/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a4543c21a4fa11",
+          "source": "新华社",
+          "title": "截至8月底各地办理婚姻登记“全国通办”92万余对",
+          "url": "https://www.news.cn/politics/20261005/5251644089e544bc8d514884d5433ada/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "42613f86a5a303",
+          "source": "新华社",
+          "title": "截至二季度末资产管理产品总规模突破88万亿元",
+          "url": "https://www.news.cn/20261005/6cb99f31f88446b08d7dd9a02b707635/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "873eb8935efb9e",
+          "source": "新华社",
+          "title": "斯洛伐克研究人员用藻类研发出可生物降解塑料",
+          "url": "https://www.news.cn/20261005/747200d8d7ae4f938daf6d9ddc895564/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a23c890cdd6339",
+          "source": "新华社",
+          "title": "星空相册丨黑龙江多地观测到极光",
+          "url": "https://www.news.cn/photo/20261005/022d32e34cf54d04b381c42379d4319c/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9145b2ccf22804",
+          "source": "新华社",
+          "title": "权威医者说丨胸闷憋气紧急处置方法",
+          "url": "https://www.news.cn/local/20261005/5c95453f2f5f47bf9986bd7d2d6fc771/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
@@ -157047,10 +157167,34 @@
           "keyword": "综合时政"
         },
         {
-          "id": "69fa4611562d66",
+          "id": "f026361bd9cbe5",
           "source": "新华社",
           "title": "特朗普宣布组建“超级智能工作组”",
-          "url": "https://www.news.cn/20261005/6d849a385a7f4a818c6caf3a8bb2303c/c.html",
+          "url": "https://www.news.cn/world/20261005/043f715d7dc84183beb3331371299170/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e8851033fe7cea",
+          "source": "新华社",
+          "title": "生活观察丨掌握“三层穿衣法”，远离进藏失温",
+          "url": "https://www.news.cn/local/20261005/765ba0b95ec64dd2a087d7756415d5f0/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "423676a863b5da",
+          "source": "新华社",
+          "title": "经济热点问答丨全球柴油价格缘何持续上涨",
+          "url": "https://www.news.cn/world/20261005/122243285d624a2a9290a31d529d13e3/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a0b2ca446811c7",
+          "source": "新华社",
+          "title": "美国佐治亚州一街区派对突发枪击 致2死35伤",
+          "url": "https://www.news.cn/world/20261005/e931e668b7a1496f82da89068b4b46ba/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
         },
@@ -157079,6 +157223,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "c9e731e3b25d3b",
+          "source": "新华社",
+          "title": "角逐者发表讲话",
+          "url": "https://www.news.cn/world/20261005/43af0746fe614a44b2df0ee7bc36134a/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a202dd828fcdb1",
           "source": "新华社",
           "title": "解码流动中国的活力与韧性——2026年国庆假期半程观察",
@@ -157093,6 +157245,78 @@
           "url": "https://www.news.cn/silkroad/20261005/26e5ee1f7c7644cf8ea90c716f6c7fae/c.html",
           "date": "2026-10-05",
           "keyword": "综合时政"
+        },
+        {
+          "id": "d8be7d7e066d36",
+          "source": "新华社",
+          "title": "走近大国重器 感受硬核实力",
+          "url": "https://www.news.cn/politics/20261005/43f7705a1d384fc89662a113f44e2b07/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "657b7cb6b56653",
+          "source": "求是",
+          "title": "2025年全国政府采购规模超3.32万亿元",
+          "url": "https://www.qstheory.cn/20261005/c0c34d9878e845618683f187edea0d7a/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c43a85969ddf02",
+          "source": "求是",
+          "title": "“国庆时刻”，感悟新时代治国理政之道",
+          "url": "https://www.qstheory.cn/20261005/99e0d7fd9aa74db286e3685c8fb5e7e2/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4147f2d7cdd918",
+          "source": "求是",
+          "title": "做堂堂正正、光荣自豪的中国人",
+          "url": "https://www.qstheory.cn/20261005/4e01b3a020774d49bd3f413f7e5bacd0/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e86f23940905fc",
+          "source": "求是",
+          "title": "司法部：2025年共调解各类案件1653.7万件",
+          "url": "https://www.qstheory.cn/20261005/61533bdb1adb41b2b364c542951b7e04/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bbc5a813a0b3dc",
+          "source": "求是",
+          "title": "商务部回应G20贸易部长会议：坚持原则 促谈促合",
+          "url": "https://www.qstheory.cn/20261005/01879ab985d542c683b11e96a0925846/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4348db240d79ac",
+          "source": "求是",
+          "title": "求是网评论员：中国式现代化，何以民生为大",
+          "url": "https://www.qstheory.cn/20261005/5c73cd3e1b114891979470b9181723f2/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c9333cdc5f8b1b",
+          "source": "求是",
+          "title": "第20届亚洲运动会在日本名古屋闭幕",
+          "url": "https://www.qstheory.cn/20261005/6a037253f7014561969b034234e2fd09/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "911302f3a7eb94",
+          "source": "求是",
+          "title": "统筹推进深层次改革和高水平开放",
+          "url": "https://www.qstheory.cn/20261005/d7a6c6db2c14467dad35121a88b5b90a/c.html",
+          "date": "2026-10-05",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -157100,65 +157324,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 6.4,
+          "duration": 11.2,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261005.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 16,
-          "duration": 1.4
+          "duration": 1.7
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 17,
-          "duration": 2.1
+          "count": 36,
+          "duration": 2.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 9.8
+          "duration": 17.7
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 5.7
+          "count": 8,
+          "duration": 5.9
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 25,
-          "duration": 1.1
+          "duration": 1.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.3
+          "duration": 14.5
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.0
+          "duration": 3.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 6.8
+          "duration": 8.3
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 0,
-          "duration": 53.2
+          "count": 1,
+          "duration": 64.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-10-05T08:36:29+08:00"
+  "generatedAt": "2026-10-05T11:31:06+08:00"
 }
