@@ -157574,7 +157574,168 @@
           "duration": 65.2
         }
       ]
+    },
+    {
+      "date": "2026-10-06",
+      "keyword": "上贸易行动办",
+      "keywords": [
+        {
+          "name": "上贸易行动办",
+          "count": 2
+        },
+        {
+          "name": "国海上贸易行",
+          "count": 2
+        },
+        {
+          "name": "尔木兹海峡遭",
+          "count": 2
+        },
+        {
+          "name": "易行动办公室",
+          "count": 2
+        },
+        {
+          "name": "木兹海峡遭袭",
+          "count": 2
+        },
+        {
+          "name": "海上贸易行动",
+          "count": 2
+        },
+        {
+          "name": "船在霍尔木兹",
+          "count": 2
+        },
+        {
+          "name": "艘船在霍尔木",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "a5b08c50cbe9aa",
+          "source": "新华社",
+          "title": "英国海上贸易行动办公室:3艘船在霍尔木兹海峡遭袭",
+          "url": "https://www.news.cn/world/20261006/d626abba36e248e4bbf0387682ff62f4/c.html",
+          "date": "2026-10-06",
+          "keyword": "上贸易行动办"
+        },
+        {
+          "id": "12430e412dcafd",
+          "source": "新华社",
+          "title": "英国海上贸易行动办公室：3艘船在霍尔木兹海峡遭袭",
+          "url": "https://www.news.cn/20261006/6f7fba1eea8f4b268b1e3d2475a2ce04/c.html",
+          "date": "2026-10-06",
+          "keyword": "上贸易行动办"
+        },
+        {
+          "id": "fcab5c824f4abc",
+          "source": "学习强国",
+          "title": "足弓是人体天然“减震器”",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=17054939024868872253&item_id=17054939024868872253",
+          "date": "2026-10-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8c80b61f592614",
+          "source": "新华社",
+          "title": "也门政府军称收复红海港口城市穆哈",
+          "url": "https://www.news.cn/world/20261006/688c287d4e164f3f9397c5b37bb96234/c.html",
+          "date": "2026-10-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "776e612363f10a",
+          "source": "新华社",
+          "title": "俄外交部：将对日本新的反俄措施采取对等反制",
+          "url": "https://www.news.cn/20261006/b633832dcfef42f19e678d13171acbf4/c.html",
+          "date": "2026-10-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6fa15c35c4d3a7",
+          "source": "新华社",
+          "title": "尼日利亚总统：军用飞机坠毁事故致32人遇难",
+          "url": "https://www.news.cn/20261006/91acf13800ff4841ae0c2ad130c9d2de/c.html",
+          "date": "2026-10-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "73bd12470019a6",
+          "source": "新华社",
+          "title": "法国“戴高乐”号航母检修期间起火",
+          "url": "https://www.news.cn/20261006/b56cf7ba4e2047cd8375bff0c41d1cc2/c.html",
+          "date": "2026-10-06",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 6.6,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261006.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.5,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/06/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 6,
+          "duration": 2.4
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 7.5
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.0
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.2,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/06/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.0
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 1,
+          "duration": 2.8
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.5
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 44.9
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-10-05T19:06:38+08:00"
+  "generatedAt": "2026-10-06T04:11:57+08:00"
 }
