@@ -158581,7 +158581,100 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 66.4
         }
       ]
+    },
+    {
+      "date": "2026-10-07",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "df3f54286977f9",
+          "source": "新华社",
+          "title": "因士兵涉嫌抢劫杀人 驻冲绳美军实施外出限制",
+          "url": "https://www.news.cn/20261007/ff1d67b2851e47b5a86e9f12a4cfe9b0/c.html",
+          "date": "2026-10-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a3f36b732548ee",
+          "source": "新华社",
+          "title": "推进碳市场建设助力绿色低碳转型观察",
+          "url": "https://www.news.cn/politics/20261007/dbbf19394d8a4807819e6f87a611252d/c.html",
+          "date": "2026-10-07",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 10.5,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261007.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.1,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/07/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 2,
+          "duration": 3.7
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 15.7
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.5
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.3,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/07/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 15.2
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.7
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.0
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 43.9
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-10-06T19:41:55+08:00"
+  "generatedAt": "2026-10-07T01:48:17+08:00"
 };
