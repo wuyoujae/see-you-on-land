@@ -161107,7 +161107,172 @@
           "duration": 65.3
         }
       ]
+    },
+    {
+      "date": "2026-10-09",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 11
+        }
+      ],
+      "articles": [
+        {
+          "id": "b0b85bc7e532d2",
+          "source": "学习强国",
+          "title": "大腿根部疼要排查股骨头坏死",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=16342302132406158992&item_id=16342302132406158992",
+          "date": "2026-10-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fbac2aad2a55da",
+          "source": "学习强国",
+          "title": "孩子爱喝奶茶会伤肾吗？",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=6935555445680157990&item_id=6935555445680157990",
+          "date": "2026-10-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bb7d3afef0ad73",
+          "source": "新华社",
+          "title": "“林肯”号航母返回圣迭戈母港",
+          "url": "https://www.news.cn/20261009/81dfe12dc25f404ab81cf6b531add0f9/c.html",
+          "date": "2026-10-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "61e9f4f32b8cca",
+          "source": "新华社",
+          "title": "中国的“十一”，世界的“黄金周”",
+          "url": "https://www.news.cn/world/20261009/9c113aa98c994ef3bc82f37b7da5d47e/c.html",
+          "date": "2026-10-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "82d6a7923d8bdd",
+          "source": "新华社",
+          "title": "伊朗外长 说仍在通过调解方与美方进行间接谈判",
+          "url": "https://www.news.cn/world/20261009/3480aad757dd4fb6bdd8695481a06e11/c.html",
+          "date": "2026-10-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "186eca2aa0fa8f",
+          "source": "新华社",
+          "title": "国际刑事法院认定杜特尔特“适合接受审判”",
+          "url": "https://www.news.cn/20261009/e094b4545d524a049441402dea092753/c.html",
+          "date": "2026-10-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b5cd864159f08e",
+          "source": "新华社",
+          "title": "特朗普称不会在美中期选举前攻击伊朗",
+          "url": "https://www.news.cn/world/20261009/a9330199d342430d9870a6c84e359f0d/c.html",
+          "date": "2026-10-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5e39de19cb1fd2",
+          "source": "新华社",
+          "title": "美“龙”飞船载4名宇航员返回地球",
+          "url": "https://www.news.cn/20261009/5b2f271c88ff4e45bf0f645868b04d7d/c.html",
+          "date": "2026-10-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "96e01abd3d2fa6",
+          "source": "新华社",
+          "title": "美检方对马杜罗夫妇提出新指控",
+          "url": "https://www.news.cn/20261009/a07848fadfb64a71863b1cdb6e3a28ae/c.html",
+          "date": "2026-10-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c95a67b1167e92",
+          "source": "新华社",
+          "title": "贸易优势不靠汇率贬值，中国亮明政策立场",
+          "url": "https://www.news.cn/world/20261009/e3753a861164464ca2209f776555b3d6/c.html",
+          "date": "2026-10-09",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9fd4c6960fe43c",
+          "source": "新华社",
+          "title": "长春大冬会火种在意大利都灵成功采集",
+          "url": "https://www.news.cn/20261009/52477954bcad4923af6007cec059317c/c.html",
+          "date": "2026-10-09",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 7.0,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261009.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.4,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/09/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 9,
+          "duration": 2.2
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 15.0
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.1
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.6,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/09/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.0
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 2,
+          "duration": 2.8
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.2
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 51.1
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-10-08T19:11:26+08:00"
+  "generatedAt": "2026-10-09T02:20:32+08:00"
 }
