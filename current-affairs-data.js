@@ -162910,7 +162910,108 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 56.7
         }
       ]
+    },
+    {
+      "date": "2026-10-10",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 3
+        }
+      ],
+      "articles": [
+        {
+          "id": "0004bddba31340",
+          "source": "新华社",
+          "title": "俄否认传染病研究所出现新病例 已解除防疫措施",
+          "url": "https://www.news.cn/20261010/4a120f8608a74f52b9969d341f38545f/c.html",
+          "date": "2026-10-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8001e627720b1b",
+          "source": "新华社",
+          "title": "塞舌尔首批享受零关税政策野生干海参启运输华",
+          "url": "https://www.news.cn/20261010/96618ebc49d14ce1a8fe5c4c7e7cf3aa/c.html",
+          "date": "2026-10-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8f4524f09c9e66",
+          "source": "新华社",
+          "title": "彭丽媛向2026年联合国教科文组织女童和妇女教育奖颁奖仪式发表视频致辞",
+          "url": "https://www.news.cn/world/20261010/e5130b6cc1c242a48213dd310ebd3cc0/c.html",
+          "date": "2026-10-10",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 14.9,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261010.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.4,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/10/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 3,
+          "duration": 3.1
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.7
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.1
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.4,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/10/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.1
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.8
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 7.8
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 49.3
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-10-09T19:38:44+08:00"
+  "generatedAt": "2026-10-10T01:54:14+08:00"
 };
