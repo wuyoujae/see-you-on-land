@@ -79,7 +79,7 @@
       const value = JSON.parse(saved || localStorage.getItem(LEGACY_SETTINGS_KEY));
       const migrated = !saved && Boolean(value);
       return {
-        apiKey: typeof value?.apiKey === "string" ? value.apiKey.trim() : "",
+        apiKey: typeof value?.apiKey === "string" ? decodeStoredApiKey(value.apiKey) : "",
         baseUrl: normalizeBaseUrl(value?.baseUrl || (migrated ? LEGACY_BASE_URL : DEFAULT_BASE_URL)) || DEFAULT_BASE_URL,
         model: typeof value?.model === "string" && value.model.trim() ? value.model.trim() : DEFAULT_MODEL
       };
@@ -89,7 +89,25 @@
   }
 
   function saveSettings() {
-    localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
+    localStorage.setItem(SETTINGS_KEY, JSON.stringify({ ...settings, apiKey: encodeStoredApiKey(settings.apiKey) }));
+  }
+
+  function encodeStoredApiKey(value) {
+    if (typeof value !== "string" || !value) return "";
+    try {
+      return btoa(encodeURIComponent(value));
+    } catch {
+      return "";
+    }
+  }
+
+  function decodeStoredApiKey(value) {
+    if (typeof value !== "string" || !value) return "";
+    try {
+      return decodeURIComponent(atob(value)).trim();
+    } catch {
+      return value.trim();
+    }
   }
 
   function normalizeModel(value) {
