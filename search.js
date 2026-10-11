@@ -1384,6 +1384,22 @@
     renderAttachments();
   });
 
+  dom.prompt.addEventListener("paste", event => {
+    const clipboard = event.clipboardData;
+    if (!clipboard) return;
+    let images = Array.from(clipboard.items || [])
+      .filter(item => item.kind === "file" && item.type.startsWith("image/"))
+      .map(item => item.getAsFile()).filter(Boolean);
+    if (!images.length) images = Array.from(clipboard.files || []).filter(file => file.type.startsWith("image/"));
+    if (!images.length) return;
+    // Keep native text insertion when the clipboard contains both text and images.
+    if (!clipboard.getData("text/plain")) event.preventDefault();
+    if (processingImages || sending) {
+      setStatus("请等待当前处理完成后再粘贴图片。", true);
+      return;
+    }
+    void addFiles(images);
+  });
   dom.prompt.addEventListener("input", resizePrompt);
   dom.prompt.addEventListener("keydown", event => {
     if (event.key === "Enter" && !event.shiftKey && !event.isComposing) {
