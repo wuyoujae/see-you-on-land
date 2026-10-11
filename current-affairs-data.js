@@ -165884,7 +165884,92 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 77.4
         }
       ]
+    },
+    {
+      "date": "2026-10-12",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 1
+        }
+      ],
+      "articles": [
+        {
+          "id": "2c8b3349ce179a",
+          "source": "新华社",
+          "title": "特朗普称俄乌“能源停火” 泽连斯基说“这是个新闻”",
+          "url": "https://www.news.cn/world/20261012/b436a228f74f4887b16ad40d749053e7/c.html",
+          "date": "2026-10-12",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 17.7,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261012.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.8,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/12/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 1,
+          "duration": 2.0
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.4
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.8
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.3,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/12/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.7
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 1.9
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 10.9
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 38.5
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-10-11T18:31:31+08:00"
+  "generatedAt": "2026-10-12T00:32:48+08:00"
 };
