@@ -167730,7 +167730,299 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 53.7
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "de88f6c66513ab",
+          "source": "光明日报",
+          "title": "习近平同巴布亚新几内亚总督达达埃就中巴新建交50周年互致贺电",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27201.html",
+          "date": "2026-10-13",
+          "keyword": "习近平"
+        },
+        {
+          "id": "742e67f1c57bcd",
+          "source": "光明日报",
+          "title": "习近平致电祝贺马迪塞就任爱沙尼亚总统",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27200.html",
+          "date": "2026-10-13",
+          "keyword": "习近平"
+        },
+        {
+          "id": "9ec03aa47a58c2",
+          "source": "光明日报",
+          "title": "2026北京接诉即办改革论坛开幕",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27189.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "15e3996bd98706",
+          "source": "光明日报",
+          "title": "【光明时评】推动形成文化遗产大保护格局",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27211.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5147bb2d7c206c",
+          "source": "光明日报",
+          "title": "【光明时评】文明实践阵地，让群众“用得上用得好离不开”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27212.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "11d7c67e3e7edf",
+          "source": "光明日报",
+          "title": "【光明论坛】以生产性保护赋能历史经典产业",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27209.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7c79f7fd3309c5",
+          "source": "光明日报",
+          "title": "【光明论坛】坚定信心，走好中国式现代化道路",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27208.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "409704ad7f660e",
+          "source": "光明日报",
+          "title": "【光明论坛】着力培养造就更多技能人才",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27210.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5afb12109a9e64",
+          "source": "光明日报",
+          "title": "【大美中国】枫叶染秋",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27203.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c28642defd7ed3",
+          "source": "光明日报",
+          "title": "【抵近观察⑤】今日校园，建功西部渐成风尚",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27199.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "30859470c372ae",
+          "source": "光明日报",
+          "title": "【改进文风大家谈】副刊，需处理好“郑重与轻松”的关系",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27205.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "18145835fe6751",
+          "source": "光明日报",
+          "title": "【民生总关情】“银行”开到了草原深处",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27204.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e6f6e75da617dc",
+          "source": "光明日报",
+          "title": "中央政法委有关负责同志解读《关于依法从严查处危害食品安全违法犯罪的意见》",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27187.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "12767d7764c43a",
+          "source": "光明日报",
+          "title": "乌江上游景美如画",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27198.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "43627497e2249b",
+          "source": "光明日报",
+          "title": "大道致远，笃行不怠",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27202.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2fad910c628054",
+          "source": "光明日报",
+          "title": "李强会见越南国会主席陈青敏",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27192.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6306a831449ae2",
+          "source": "光明日报",
+          "title": "李强同新西兰总理拉克森通电话",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27193.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "802c864cf8d0d3",
+          "source": "光明日报",
+          "title": "李强将出席第140届广交会开幕式及相关活动",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27194.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d27bf60f4d0494",
+          "source": "光明日报",
+          "title": "王沪宁出席中国侨联成立70周年纪念大会",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27196.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e3d77d33d40a7c",
+          "source": "光明日报",
+          "title": "第三轮第七批中央生态环保督察启动",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27188.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d42b745d72b511",
+          "source": "光明日报",
+          "title": "第十届中国国际全印展在沪开幕",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27197.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "910da0a9fa4f9c",
+          "source": "光明日报",
+          "title": "聚能市域产教联合体 谱写兴产育才新篇章",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27191.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "954d7238ac02a2",
+          "source": "光明日报",
+          "title": "赵乐际同越南国会主席陈青敏会谈并共同主持中越立法机构联合委员会第二次会议",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27195.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "84f32f9e44bdca",
+          "source": "光明日报",
+          "title": "黑龙江：科技守护“黑土粮仓”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/13/content_27186.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b1ccdfb314a9d2",
+          "source": "新华社",
+          "title": "AI微视频｜你我的长征",
+          "url": "https://www.news.cn/politics/20261013/7f330846d1ff4ce1bbaf8cc052d2b9ef/c.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "53fcbb53a684dc",
+          "source": "新华社",
+          "title": "俄副总理：俄美能源部门和企业间正就柴油供应谈判",
+          "url": "https://www.news.cn/world/20261013/f9ff264042d34e7e8431ed9ae10b9d2d/c.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8ab5149de7b68a",
+          "source": "新华社",
+          "title": "无视伊朗抗议 英国再次指认伊涉费尔福德基地事件",
+          "url": "https://www.news.cn/world/20261013/2f3b68ce58ad425fbefebc67d9359f4d/c.html",
+          "date": "2026-10-13",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 13.1,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261013.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.9,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/13/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 3,
+          "duration": 2.9
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 19.2
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.7
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 24,
+          "duration": 2.3
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.9
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.3
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.2
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 49.0
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-10-12T19:34:57+08:00"
+  "generatedAt": "2026-10-13T04:47:38+08:00"
 };
