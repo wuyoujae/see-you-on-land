@@ -169720,7 +169720,243 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 63.0
         }
       ]
+    },
+    {
+      "date": "2026-10-14",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 3
+        }
+      ],
+      "articles": [
+        {
+          "id": "e1486456fd42d4",
+          "source": "光明日报",
+          "title": "习近平会见多哥部长会议主席福雷",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/14/content_27284.html",
+          "date": "2026-10-14",
+          "keyword": "习近平"
+        },
+        {
+          "id": "4564b452d60c83",
+          "source": "光明日报",
+          "title": "习近平同博茨瓦纳总统博科会谈",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/14/content_27283.html",
+          "date": "2026-10-14",
+          "keyword": "习近平"
+        },
+        {
+          "id": "a6983043d3ffc4",
+          "source": "新华社",
+          "title": "第一观察 | 习近平总书记为健康中国建设取得决定性进展指明方向",
+          "url": "https://www.news.cn/politics/leaders/20261014/dd8d22f4ca3946e1bfbbd2813b75c396/c.html",
+          "date": "2026-10-14",
+          "keyword": "习近平"
+        },
+        {
+          "id": "7a7b8c93e1b543",
+          "source": "光明日报",
+          "title": "【光明时评】数据产权：规范登记，方能顺畅流转",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/14/content_27272.html",
+          "date": "2026-10-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fc69db09588054",
+          "source": "光明日报",
+          "title": "【光明时评】激活乡村特色产业的富民潜力",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/14/content_27271.html",
+          "date": "2026-10-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1e307c756ef0d3",
+          "source": "光明日报",
+          "title": "【光明论坛】传承长征精神，凝聚复兴伟力",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/14/content_27269.html",
+          "date": "2026-10-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "69079e7ad40008",
+          "source": "光明日报",
+          "title": "【文化评析】喜看“红色游”热度不断攀升",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/14/content_27270.html",
+          "date": "2026-10-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c05dc54b4e4655",
+          "source": "光明日报",
+          "title": "【新闻随笔】以赛促教，让工匠精神走出赛场",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/14/content_27273.html",
+          "date": "2026-10-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5cf4ade32b2667",
+          "source": "光明日报",
+          "title": "丁薛祥会见清华大学经济管理学院顾问委员会委员代表",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/14/content_27254.html",
+          "date": "2026-10-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cf5aac5c2b9592",
+          "source": "光明日报",
+          "title": "坚定不移走中国特色卫生与健康发展道路",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/14/content_27285.html",
+          "date": "2026-10-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2ad1aed9b399f3",
+          "source": "光明日报",
+          "title": "坚定不移走中国特色卫生与健康发展道路 确保“十五五”时期健康中国建设取得决定性进展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/14/content_27282.html",
+          "date": "2026-10-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "665891c88db314",
+          "source": "光明日报",
+          "title": "它们的名字叫“长征”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/14/content_27256.html",
+          "date": "2026-10-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8a20c8405012b9",
+          "source": "光明日报",
+          "title": "打造“通·融”育人品牌 激活思政协同内生动力",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/14/content_27262.html",
+          "date": "2026-10-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "82a8dcdd8bb216",
+          "source": "光明日报",
+          "title": "新一轮国家手语和盲文规范化行动计划实施",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/14/content_27261.html",
+          "date": "2026-10-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4c0689dfbff94e",
+          "source": "光明日报",
+          "title": "登高揽胜正当时",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/14/content_27257.html",
+          "date": "2026-10-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4385d1621755e0",
+          "source": "光明日报",
+          "title": "知冷暖 惠民生",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/14/content_27258.html",
+          "date": "2026-10-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5a9f8c0c734526",
+          "source": "光明日报",
+          "title": "赵乐际分别会见博茨瓦纳总统博科、多哥部长会议主席福雷",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/14/content_27253.html",
+          "date": "2026-10-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "00010c194d45d5",
+          "source": "光明日报",
+          "title": "长征路上的承诺，重如泰山",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/14/content_27255.html",
+          "date": "2026-10-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a0f5f321bc4c74",
+          "source": "光明日报",
+          "title": "高举队旗跟党走 少年接力新长征",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/14/content_27259.html",
+          "date": "2026-10-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d2d669336c97c9",
+          "source": "新华社",
+          "title": "新华社评论员：确保健康中国建设取得决定性进展",
+          "url": "https://www.news.cn/politics/20261014/1bba5be89d204f889c4493202df69926/c.html",
+          "date": "2026-10-14",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 24.3,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261014.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.3,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/14/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 2,
+          "duration": 2.4
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 17.0
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.7
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 18,
+          "duration": 0.8
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 15.6
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 3.5
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.5
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 45.7
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-10-13T20:28:24+08:00"
+  "generatedAt": "2026-10-14T03:46:06+08:00"
 };
