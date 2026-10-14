@@ -171638,7 +171638,267 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 86.6
         }
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 3
+        }
+      ],
+      "articles": [
+        {
+          "id": "b855487fc5710d",
+          "source": "光明日报",
+          "title": "习近平向第140届中国进出口商品交易会致贺信",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27340.html",
+          "date": "2026-10-15",
+          "keyword": "习近平"
+        },
+        {
+          "id": "484fc46630c42f",
+          "source": "光明日报",
+          "title": "习近平总书记为健康中国建设取得决定性进展指明方向",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27342.html",
+          "date": "2026-10-15",
+          "keyword": "习近平"
+        },
+        {
+          "id": "2bb43e618d2326",
+          "source": "新华社",
+          "title": "第一观察 | 习近平主席向广交会致贺信传递高水平开放强音",
+          "url": "https://www.news.cn/politics/leaders/20261015/448e504317804054912fda391541b114/c.html",
+          "date": "2026-10-15",
+          "keyword": "习近平"
+        },
+        {
+          "id": "1068749cd8e667",
+          "source": "光明日报",
+          "title": "【光明时评】以优质医疗服务托起民生幸福感",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27327.html",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e20abd638a1d24",
+          "source": "光明日报",
+          "title": "【光明时评】副刊，绝非报纸版面的“补白”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27345.html",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "679cafeb68fe0d",
+          "source": "光明日报",
+          "title": "【光明时评】提升体育课的“含金量”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27328.html",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "899d6917c7956d",
+          "source": "光明日报",
+          "title": "【光明论坛】将假日旅游流量转化为经济发展增量",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27326.html",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e8273e7f2b798f",
+          "source": "光明日报",
+          "title": "【光明论坛】推动全球人工智能治理制度构建",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27325.html",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6193abc090abf4",
+          "source": "光明日报",
+          "title": "【大美中国】秋景如画",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27344.html",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bb053873f0977b",
+          "source": "光明日报",
+          "title": "【改进文风大家谈】养浩然正气，著高妙之文",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27346.html",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8733b84af05290",
+          "source": "光明日报",
+          "title": "【文化评析】非遗在中外青年的交流互鉴中焕发新生",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27329.html",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "475973866a6f6d",
+          "source": "光明日报",
+          "title": "在第140届中国进出口商品交易会开幕式上的主旨演讲",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27357.html",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d9e2c38c4a0334",
+          "source": "光明日报",
+          "title": "多措并举 推进大中小学思政课一体化建设",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27354.html",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b12b8a6bd9691e",
+          "source": "光明日报",
+          "title": "建成均衡普惠、优质高效的健康中国",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27341.html",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e7e789d1230adb",
+          "source": "光明日报",
+          "title": "我国外贸增势强劲量质齐升",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27349.html",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "62df60982cd73a",
+          "source": "光明日报",
+          "title": "李强出席“广交世界70年”座谈会",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27356.html",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5bf96edfca0d6e",
+          "source": "光明日报",
+          "title": "李强出席第140届中国进出口商品交易会开幕式并发表主旨演讲",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27355.html",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7550f1e3dbad89",
+          "source": "光明日报",
+          "title": "江苏常州：道德讲堂树新风",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27353.html",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f0e159259de60f",
+          "source": "光明日报",
+          "title": "电视纪录片《伟大远征》即将播出",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27350.html",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "317a508ddd6351",
+          "source": "光明日报",
+          "title": "赵乐际集体会见出席2026年国际议员友好交流论坛的各国代表",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27358.html",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "08864c084214ce",
+          "source": "光明日报",
+          "title": "迈向均衡普惠、优质高效的健康中国",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27343.html",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0c1452dfde8aac",
+          "source": "光明日报",
+          "title": "青春逐冰雪 奋进向未来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/15/content_27352.html",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2464caad4dfb56",
+          "source": "南方周末",
+          "title": "“做自己”，只是现代社会精心布置的KPI吗？ 从“极限体验”的越界到“自我关怀”的节制，从社会批判到个人修身、自我管理——思想史学者詹姆斯·米勒认为，这不是福柯的思想断裂或政治退却，而是福柯试图建构一套“自我关怀”的伦理学。 “这套伦理不依附于传统道德，而是主动选择自己与欲望之间的关系，制定一套属于自己的行为准则。同时，这套伦理不再纵容流血、牺牲和‘迷幻式狂喜’——福柯后来意识到，这类迷狂状态，无论对右翼还是左翼政治运动，都蕴藏着巨大的危险。” 南方人物周刊 14小时前 5评论",
+          "url": "https://www.infzm.com/contents/342472?source=133&source_1=998",
+          "date": "2026-10-15",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 15.8,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261015.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.8,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/15/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 1,
+          "duration": 2.7
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.8
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.6
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 21,
+          "duration": 0.9
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 1,
+          "duration": 13.5
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.9
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.9
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 89.3
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-10-14T22:51:41+08:00"
+  "generatedAt": "2026-10-15T03:11:42+08:00"
 };
