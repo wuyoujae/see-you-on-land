@@ -173636,7 +173636,108 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 59.0
         }
       ]
+    },
+    {
+      "date": "2026-10-16",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 3
+        }
+      ],
+      "articles": [
+        {
+          "id": "f834cb9799db18",
+          "source": "新华社",
+          "title": "伊朗海军：一艘油轮在霍尔木兹海峡东部海域起火",
+          "url": "https://www.news.cn/world/20261016/a19f55d76f9b49448ce89036f10ce16f/c.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f840a0196e3cc5",
+          "source": "新华社",
+          "title": "殷玉珍等3位中国女性入选粮农组织“百位巾帼英雄”",
+          "url": "https://www.news.cn/world/20261016/29c0a7148abf464fb387869ed67b4f38/c.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "db1fe65589190b",
+          "source": "新华社",
+          "title": "特朗普称不会直播对胡德堡枪击案凶手的枪决",
+          "url": "https://www.news.cn/world/20261016/769d3cdd7db54ae38b7dd98599035cf5/c.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 15.4,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261016.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.8,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/16/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 3,
+          "duration": 3.3
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 20.3
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.2
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.1,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/16/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 11.7
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.5
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.0
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 54.1
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-10-15T21:01:50+08:00"
+  "generatedAt": "2026-10-16T01:45:55+08:00"
 };
