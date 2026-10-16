@@ -173639,19 +173639,471 @@
     },
     {
       "date": "2026-10-16",
-      "keyword": "今日时政",
+      "keyword": "全面从严治党",
       "keywords": [
         {
-          "name": "今日时政",
-          "count": 3
+          "name": "全面从严治党",
+          "count": 2
+        },
+        {
+          "name": "教育",
+          "count": 2
         }
       ],
       "articles": [
         {
-          "id": "f834cb9799db18",
+          "id": "bb037273ac0c9f",
+          "source": "人民日报",
+          "title": "以更高标准、更实举措推进全面从严治党",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185944.html",
+          "date": "2026-10-16",
+          "keyword": "全面从严治党"
+        },
+        {
+          "id": "48dd87d49e2b5e",
+          "source": "光明日报",
+          "title": "【光明论坛】增强职业教育适应性",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27462.html",
+          "date": "2026-10-16",
+          "keyword": "教育"
+        },
+        {
+          "id": "e5eb7e4a01e5d8",
+          "source": "光明日报",
+          "title": "以更高标准、更实举措推进全面从严治党",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27469.html",
+          "date": "2026-10-16",
+          "keyword": "全面从严治党"
+        },
+        {
+          "id": "fb928a98902db6",
+          "source": "光明日报",
+          "title": "绘就师者精神图谱 服务教育强省建设",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27447.html",
+          "date": "2026-10-16",
+          "keyword": "教育"
+        },
+        {
+          "id": "0ab9b99b5be8bc",
+          "source": "人民日报",
+          "title": "一百零八里路上的《清平乐·六盘山》（文物里的长征故事）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185969.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5c2046ded1ea6f",
+          "source": "人民日报",
+          "title": "不断提高人民健康水平",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185950.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "51e6b63f0c9082",
+          "source": "人民日报",
+          "title": "中华人民共和国政府和多哥共和国政府关于构建新时代中多命运共同体的联合声明",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185959.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d5af617f9aa6cd",
+          "source": "人民日报",
+          "title": "中老铁路国际旅客列车运送出入境人员首破100万人次",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185967.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "44d29bc7146ed9",
+          "source": "人民日报",
+          "title": "为世界带来繁荣新机遇（编辑手记）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185956.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e5da1e837a08b9",
+          "source": "人民日报",
+          "title": "亚信第七次峰会宣言（摘要）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185964.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8ba68755c415f9",
+          "source": "人民日报",
+          "title": "何立峰会见美国桥水投资公司创始人达利欧",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185963.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e875261d3a3ddb",
+          "source": "人民日报",
+          "title": "刘海星会见土耳其正义与发展党高级干部考察团",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185966.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d100c0337cb874",
+          "source": "人民日报",
+          "title": "创新伙伴，合作研发机器人（探馆广交会）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185952.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7f11eeeae3a861",
+          "source": "人民日报",
+          "title": "千年学府育英才 经世致用谱新篇",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185968.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3f47e432f1a5ff",
+          "source": "人民日报",
+          "title": "图片报道（探馆广交会）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185954.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f2634663234b32",
+          "source": "人民日报",
+          "title": "始终把老百姓安危冷暖放在心上",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185949.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c3385329c5a3ed",
+          "source": "人民日报",
+          "title": "我国再添4处世界灌溉工程遗产",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185972.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6fa61b0c9be3ec",
+          "source": "人民日报",
+          "title": "扩大高水平对外开放 建设开放型世界经济",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185946.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8c77080d112866",
+          "source": "人民日报",
+          "title": "搭条产线，一起算算共赢账（探馆广交会）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185951.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e88824f7ce041f",
+          "source": "人民日报",
+          "title": "李强会见博茨瓦纳总统博科",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185960.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "49dfe88e7e5b27",
+          "source": "人民日报",
+          "title": "李强同多哥部长会议主席福雷会谈",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185947.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ccd6b3b9a99815",
+          "source": "人民日报",
+          "title": "李强在中朝新鸭绿江大桥开通仪式上发表视频致辞",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185958.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "717bf32859f631",
+          "source": "人民日报",
+          "title": "李强将访问乌兹别克斯坦、塔吉克斯坦并出席上海合作组织成员国政府首脑（总理）理事会第二十五次会议、赴俄罗斯举行中俄总理第三十一次定期会晤",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185961.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bf5c3999695a32",
+          "source": "人民日报",
+          "title": "王毅出席亚洲相互协作与信任措施会议第七次峰会",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185962.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "07ca3280464474",
+          "source": "人民日报",
+          "title": "确保健康中国建设取得决定性进展",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185945.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "96c0a9df629333",
+          "source": "人民日报",
+          "title": "第140届广交会开展",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185955.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "499453178026d3",
+          "source": "人民日报",
+          "title": "链接全球，广交会上见“网友”（探馆广交会）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185953.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "50f88f722b66c8",
+          "source": "人民日报",
+          "title": "铿锵步履传承红色精神（专家点评）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185970.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f4e55badd4b9f5",
+          "source": "人民日报",
+          "title": "高质量筹办好长春大冬会 高水平运营好足球青训中心",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/16/content_30185965.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8ce7fdeb609600",
+          "source": "光明日报",
+          "title": "【光明时评】破立并举 做强新型电池产业",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27465.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "32d2750b0f1603",
+          "source": "光明日报",
+          "title": "【光明时评】让医疗康复护理服务沉下去、暖起来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27464.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5ecf13edd5babd",
+          "source": "光明日报",
+          "title": "【光明论坛】推动科技创新和产业创新深度融合",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27461.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9e0a85ac1f18e3",
+          "source": "光明日报",
+          "title": "【大美中国】金色画卷",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27473.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "85a1462c7e0fd6",
+          "source": "光明日报",
+          "title": "【新闻随笔】整治体育“饭圈化”，该动真格了",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27463.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "38183b3965a17b",
+          "source": "光明日报",
+          "title": "中央依法治国办启动领导干部依法办事情况法治督察",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27446.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "df2b7e71905a74",
+          "source": "光明日报",
+          "title": "为世界发展繁荣持续注入新动力",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27472.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d79819dc946b1c",
+          "source": "光明日报",
+          "title": "友谊的纽带 贸易的桥梁",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27440.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "621819da563dc4",
+          "source": "光明日报",
+          "title": "四川阿坝：雪山草地铸丰碑 长征路上谱新篇",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27452.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "07c1256c742a81",
+          "source": "光明日报",
+          "title": "始终把老百姓安危冷暖放在心上",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27474.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9121dba4740ee3",
+          "source": "光明日报",
+          "title": "推动卫生与健康事业高质量发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27471.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e3479686f2a44f",
+          "source": "光明日报",
+          "title": "李强会见博茨瓦纳总统博科",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27451.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "47c66e8a0d2385",
+          "source": "光明日报",
+          "title": "李强同多哥部长会议主席福雷会谈",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27448.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cb09a4da699841",
+          "source": "光明日报",
+          "title": "李强在中朝新鸭绿江大桥开通仪式上发表视频致辞",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27449.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9b7278ecd454a1",
+          "source": "光明日报",
+          "title": "李强将访问乌兹别克斯坦、塔吉克斯坦并出席上海合作组织成员国政府首脑（总理）理事会第二十五次会议、赴俄罗斯举行中俄总理第三十一次定期会晤",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27450.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f3cca9faa9ec10",
+          "source": "光明日报",
+          "title": "极端天气面前，他们抢出主动权",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27443.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a46ec077b17d09",
+          "source": "光明日报",
+          "title": "确保健康中国建设取得决定性进展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27470.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "87f5fca5573b14",
+          "source": "光明日报",
+          "title": "第140届广交会第一期开展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27441.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7265a0ef06fb2d",
+          "source": "光明日报",
+          "title": "第三轮第七批中央生态环保督察全部实现督察进驻",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27444.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "939e7e967c80fc",
+          "source": "光明日报",
+          "title": "长征题材影视作品陆续展播",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/16/content_27442.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b580c2c2c76e04",
+          "source": "新华社",
+          "title": "中方呼吁尽快平息中东紧张局势",
+          "url": "https://www.news.cn/world/20261016/108fe570832f4815908d86e38be46e1c/c.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "518ca33f7258d2",
+          "source": "新华社",
+          "title": "乌克兰军队“星链”服务已恢复",
+          "url": "https://www.news.cn/20261016/881e05d5d6a8459b98e0e526fda952e0/c.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e976a85b876401",
+          "source": "新华社",
+          "title": "乌拉圭中国和平统一促进会成立",
+          "url": "https://www.news.cn/20261016/83ff7760ec3c47c8b51ba98600ffc1ad/c.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2e09417a1b3856",
+          "source": "新华社",
+          "title": "伊拉克议会通过3名副总理及11名部长的任命",
+          "url": "https://www.news.cn/20261016/c0340767d69441aa966ff8506217763f/c.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "66f928958212a0",
           "source": "新华社",
           "title": "伊朗海军：一艘油轮在霍尔木兹海峡东部海域起火",
-          "url": "https://www.news.cn/world/20261016/a19f55d76f9b49448ce89036f10ce16f/c.html",
+          "url": "https://www.news.cn/20261016/0440b3d2e3d34aa38f3179654046bbe2/c.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5b3d6d343152d9",
+          "source": "新华社",
+          "title": "俄罗斯对莫斯科州疑似猴痘疫情展开流行病学调查",
+          "url": "https://www.news.cn/20261016/275010de26b84054a7d9cde03339376f/c.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b156d7e44f2d96",
+          "source": "新华社",
+          "title": "加拿大西部多车连环相撞致3死19伤",
+          "url": "https://www.news.cn/20261016/34fba0f06e5349cea1703a3e41f17d3d/c.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c8f39049fa5338",
+          "source": "新华社",
+          "title": "日本有识之士警示：谨防日本重回“战前状态”",
+          "url": "https://www.news.cn/20261016/885fe1979f804b3da7284b1f405aec1c/c.html",
           "date": "2026-10-16",
           "keyword": "综合时政"
         },
@@ -173664,10 +174116,50 @@
           "keyword": "综合时政"
         },
         {
-          "id": "db1fe65589190b",
+          "id": "876c71efe5065e",
           "source": "新华社",
-          "title": "特朗普称不会直播对胡德堡枪击案凶手的枪决",
-          "url": "https://www.news.cn/world/20261016/769d3cdd7db54ae38b7dd98599035cf5/c.html",
+          "title": "沙特称胡塞武装袭击利雅得机场共致17死333伤",
+          "url": "https://www.news.cn/world/20261016/95f355405b234504b2ef5b4ff9d1e58f/c.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "02153028e69ed9",
+          "source": "新华社",
+          "title": "纽约股市三大股指15日上涨",
+          "url": "https://www.news.cn/20261016/903495751c9348c8902ed8aa4528f99b/c.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "30e0d1e022787c",
+          "source": "新华社",
+          "title": "美俄勒冈州一小学发生枪击事件 5人死亡",
+          "url": "https://www.news.cn/20261016/81b26726f7f34cccaebfcda574c33580/c.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0142ff5fe92e19",
+          "source": "新华社",
+          "title": "美货运“龙”飞船与国际空间站对接",
+          "url": "https://www.news.cn/20261016/4d447da1693247edada4294035f22faf/c.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fe961610545848",
+          "source": "新华社",
+          "title": "英法海底隧道法国入口处客车与列车相撞致19人伤",
+          "url": "https://www.news.cn/20261016/8ae097af44774c7a9aa313e41f213a71/c.html",
+          "date": "2026-10-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3abbdbe95484f5",
+          "source": "新华社",
+          "title": "默茨反对将欧盟冻结的俄资产移交美方控制",
+          "url": "https://www.news.cn/20261016/cc08ef9c45254e66b3538f470fb9bb84/c.html",
           "date": "2026-10-16",
           "keyword": "综合时政"
         }
@@ -173677,67 +174169,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 15.4,
+          "duration": 8.8,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261016.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.8,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/16/node_01.html"
+          "status": "ok",
+          "count": 26,
+          "duration": 1.8
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 3,
-          "duration": 3.3
+          "count": 15,
+          "duration": 2.8
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 20.3
+          "duration": 13.9
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.2
+          "duration": 7.5
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.1,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/16/node_01.html"
+          "status": "ok",
+          "count": 23,
+          "duration": 1.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 11.7
+          "duration": 24.1
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.5
+          "duration": 3.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.0
+          "duration": 10.4
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 54.1
+          "duration": 63.8
         }
       ]
     }
   ],
-  "generatedAt": "2026-10-16T01:45:55+08:00"
+  "generatedAt": "2026-10-16T08:10:48+08:00"
 }
