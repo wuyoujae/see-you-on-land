@@ -175686,7 +175686,140 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 55.9
         }
       ]
+    },
+    {
+      "date": "2026-10-17",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 7
+        }
+      ],
+      "articles": [
+        {
+          "id": "960c2b881fb143",
+          "source": "新华社",
+          "title": "中国科学院空天信息创新研究院获粮农组织成就奖",
+          "url": "https://www.news.cn/world/20261017/7b99b45344f244f3b3c2dead792f0059/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8a9245faf4cfe7",
+          "source": "新华社",
+          "title": "多地发布细则 商品住房销售制度改革落地实施",
+          "url": "https://www.news.cn/fortune/20261017/55566ced708a4b8f9c38e3cd3d496e91/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "24469b6a3609a6",
+          "source": "新华社",
+          "title": "沙退湖清 好日子跟着好生态一起来了",
+          "url": "https://www.news.cn/politics/leaders/20261017/2c5c39bb4fb94a428746d852c2d09dcd/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3d4fcd8fd79100",
+          "source": "新华社",
+          "title": "泽连斯基要求欧盟追加700亿欧元援助",
+          "url": "https://www.news.cn/world/20261017/43878d0b0bc04626af448c7e197f7329/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "83b46adddbce5b",
+          "source": "新华社",
+          "title": "王毅同克罗地亚外长拉德曼会谈",
+          "url": "https://www.news.cn/politics/leaders/20261017/f48420d28c99498694c7ca51574bf174/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4f4ea7d50b3138",
+          "source": "新华社",
+          "title": "让绿色算力成为新动能",
+          "url": "https://www.news.cn/politics/leaders/20261017/57fea4a0afc046eaae09098bc025b0a8/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f9fb48c158d549",
+          "source": "新华社",
+          "title": "近镜头｜总书记心系万里绿色长城",
+          "url": "https://www.news.cn/politics/leaders/20261017/49d690c2f3c34adebae4e6c30e018bed/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 4.6,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261017.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.3,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/17/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 7,
+          "duration": 2.2
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 14.4
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.2
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 6.7,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/17/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.4
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.6
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.6
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 38.0
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-10-16T20:57:57+08:00"
+  "generatedAt": "2026-10-17T01:12:51+08:00"
 };
