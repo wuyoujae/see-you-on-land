@@ -176904,7 +176904,144 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 67.2
         }
       ]
+    },
+    {
+      "date": "2026-10-18",
+      "keyword": "乌兹别克斯坦",
+      "keywords": [
+        {
+          "name": "乌兹别克斯坦",
+          "count": 3
+        },
+        {
+          "name": "兹别克斯坦总",
+          "count": 3
+        },
+        {
+          "name": "会见乌兹别克",
+          "count": 2
+        },
+        {
+          "name": "克斯坦总统米",
+          "count": 2
+        },
+        {
+          "name": "别克斯坦总统",
+          "count": 2
+        },
+        {
+          "name": "坦总统米尔济",
+          "count": 2
+        },
+        {
+          "name": "强会见乌兹别",
+          "count": 2
+        },
+        {
+          "name": "总理阿里波夫",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "194e1f6acb4b6b",
+          "source": "中国政府网",
+          "title": "李强会见乌兹别克斯坦总统米尔济约耶夫",
+          "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7083561.htm",
+          "date": "2026-10-18",
+          "keyword": "乌兹别克斯坦"
+        },
+        {
+          "id": "1569bf23b65deb",
+          "source": "中国政府网",
+          "title": "李强同乌兹别克斯坦总理阿里波夫会谈",
+          "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7083558.htm",
+          "date": "2026-10-18",
+          "keyword": "乌兹别克斯坦"
+        },
+        {
+          "id": "acc86cd16551c5",
+          "source": "新华社",
+          "title": "李强会见乌兹别克斯坦总统米尔济约耶夫",
+          "url": "https://www.news.cn/politics/leaders/20261018/8f4b6ccea4e74ead972963a0fc0899bb/c.html",
+          "date": "2026-10-18",
+          "keyword": "乌兹别克斯坦"
+        },
+        {
+          "id": "572e326b556a8f",
+          "source": "新华社",
+          "title": "同乌总理阿里波夫会谈",
+          "url": "https://www.news.cn/politics/leaders/20261018/672b44f1a33f47c3a34381c81464ec44/c.html",
+          "date": "2026-10-18",
+          "keyword": "总理阿里波夫"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 19.9,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261018.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.4,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/18/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 2,
+          "duration": 3.0
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 26.4
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.6
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.8,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/18/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 14.9
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 3.1
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 2,
+          "duration": 7.9
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 64.3
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-10-17T22:49:29+08:00"
+  "generatedAt": "2026-10-18T01:45:51+08:00"
 };
