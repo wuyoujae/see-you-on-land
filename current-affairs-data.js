@@ -175693,18 +175693,30 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "习近平",
-          "count": 3
+          "count": 4
+        },
+        {
+          "name": "教育",
+          "count": 4
         },
         {
           "name": "高质量发展",
           "count": 2
         },
         {
-          "name": "教育",
+          "name": "科技",
           "count": 2
         }
       ],
       "articles": [
+        {
+          "id": "00a0e6862e8e13",
+          "source": "人民日报",
+          "title": "丁薛祥出席2026年世界职业技术教育发展大会开幕式并会见与会外国政要",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/17/content_30186190.html",
+          "date": "2026-10-17",
+          "keyword": "教育"
+        },
         {
           "id": "1d56da53e19be3",
           "source": "人民日报",
@@ -175712,6 +175724,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://paper.people.com.cn/rmrb/pc/content/202610/17/content_30186188.html",
           "date": "2026-10-17",
           "keyword": "习近平"
+        },
+        {
+          "id": "3aa86deb1aff9c",
+          "source": "光明日报",
+          "title": "丁薛祥出席2026年世界职业技术教育发展大会开幕式并会见与会外国政要",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/17/content_27523.html",
+          "date": "2026-10-17",
+          "keyword": "教育"
         },
         {
           "id": "56e04dda174a7f",
@@ -175730,12 +175750,36 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
-          "id": "00a0e6862e8e13",
-          "source": "人民日报",
-          "title": "丁薛祥出席2026年世界职业技术教育发展大会开幕式并会见与会外国政要",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/17/content_30186190.html",
+          "id": "0ff96f431235b8",
+          "source": "广东发布",
+          "title": "习近平在内蒙古乌兰察布考察",
+          "url": "https://www.gd.gov.cn/gdywdt/xwdt/content/post_4967674.html",
+          "date": "2026-10-17",
+          "keyword": "习近平"
+        },
+        {
+          "id": "2c911a72784e75",
+          "source": "新华社",
+          "title": "《世界职业技术教育标准框架》(《北京协议》)发布",
+          "url": "https://education.news.cn/20261017/dfb1dc1247e94090b3e9b1e465e1afff/c.html",
           "date": "2026-10-17",
           "keyword": "教育"
+        },
+        {
+          "id": "fb4747d9256d09",
+          "source": "新华社",
+          "title": "我国技能人才新增劳动力平均受教育年限超14年",
+          "url": "https://education.news.cn/20261017/5358d05e92c144d584747d2352ff870c/c.html",
+          "date": "2026-10-17",
+          "keyword": "教育"
+        },
+        {
+          "id": "f803fe209f6937",
+          "source": "人民日报",
+          "title": "科技进乡间 农业焕新机（赓续长征精神 奋进复兴征程·记者再走长征路）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/17/content_30186209.html",
+          "date": "2026-10-17",
+          "keyword": "科技"
         },
         {
           "id": "4ec29607d17f05",
@@ -175746,20 +175790,20 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "高质量发展"
         },
         {
-          "id": "3aa86deb1aff9c",
-          "source": "光明日报",
-          "title": "丁薛祥出席2026年世界职业技术教育发展大会开幕式并会见与会外国政要",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/17/content_27523.html",
-          "date": "2026-10-17",
-          "keyword": "教育"
-        },
-        {
           "id": "f6e2b3615d55ff",
           "source": "光明日报",
           "title": "统筹高质量发展和高水平保护 坚定不移走生态优先绿色发展之路",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202610/17/content_27514.html",
           "date": "2026-10-17",
           "keyword": "高质量发展"
+        },
+        {
+          "id": "f0c4497132200c",
+          "source": "新华社",
+          "title": "美大型科技股遭遇一年多来最大单周跌幅",
+          "url": "https://www.news.cn/world/20261017/b49ebe2e151e4f45a2a139901399c5d3/c.html",
+          "date": "2026-10-17",
+          "keyword": "科技"
         },
         {
           "id": "4a4390a90972ba",
@@ -175938,14 +175982,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "f803fe209f6937",
-          "source": "人民日报",
-          "title": "科技进乡间 农业焕新机（赓续长征精神 奋进复兴征程·记者再走长征路）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/17/content_30186209.html",
-          "date": "2026-10-17",
-          "keyword": "综合时政"
-        },
-        {
           "id": "c60f93997c993f",
           "source": "人民日报",
           "title": "第九届进博会首发首展首秀品数量创新高（权威发布）",
@@ -176090,6 +176126,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "f2d758a780277a",
+          "source": "广东发布",
+          "title": "李强主持召开国务院常务会议 听取“人工智能+”行动进展情况汇报等",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4967675.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
           "id": "960c2b881fb143",
           "source": "新华社",
           "title": "中国科学院空天信息创新研究院获粮农组织成就奖",
@@ -176098,18 +176142,66 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "2b7df9e2ac1496",
+          "id": "ea3b09a8be9052",
           "source": "新华社",
-          "title": "也门胡塞武装再次导弹袭击亚丁 包括民用机场",
-          "url": "https://www.news.cn/20261017/de917f726c2b45fcb558e215a81e4be9/c.html",
+          "title": "中国裁军大使：核武器用不得 核战争打不得",
+          "url": "https://www.news.cn/world/20261017/024d73cb8ea94f899acfef3077376c07/c.html",
           "date": "2026-10-17",
           "keyword": "综合时政"
         },
         {
-          "id": "faa93a6e1dc8f2",
+          "id": "65a60881fe1e66",
           "source": "新华社",
-          "title": "国际油价16日显著上涨",
-          "url": "https://www.news.cn/20261017/14df4e18675947ccbc4e97d0668bf353/c.html",
+          "title": "中方强调坚持非洲主导推动政治解决苏丹冲突",
+          "url": "https://www.news.cn/20261017/f4b824b8458f4066a733c751284ddcac/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "16964d951de5e2",
+          "source": "新华社",
+          "title": "中美青春之约再启新程",
+          "url": "https://www.news.cn/politics/20261017/0be73f39223749848f0b86f1f7d6b64a/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3d4fcd8fd79100",
+          "source": "新华社",
+          "title": "乌总统要求欧盟追加 700亿 欧元援助",
+          "url": "https://www.news.cn/world/20261017/43878d0b0bc04626af448c7e197f7329/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "db24d09353adab",
+          "source": "新华社",
+          "title": "也门胡塞武装再次导弹袭击亚丁 包括民用机场",
+          "url": "https://www.news.cn/world/20261017/c656ca110f024791846b37e316ba9dbf/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "20f73fd2bbb30a",
+          "source": "新华社",
+          "title": "亚信第七次峰会在巴库举行",
+          "url": "https://www.news.cn/world/20261017/2043adbf1a3447af9b4d39b416d4655b/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f9588fadf583ab",
+          "source": "新华社",
+          "title": "亚残运会多项比赛打响 中国盲人足球队迎“开门红”",
+          "url": "https://www.news.cn/sports/20261017/df67b402082840a18c8df6a69a6f44b1/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1adada2190ecad",
+          "source": "新华社",
+          "title": "国安机关发布案例提醒：开放地图不能“随手一标”",
+          "url": "https://www.news.cn/legal/20261017/d4f5baa8b54a45b580b401f3f21a7956/c.html",
           "date": "2026-10-17",
           "keyword": "综合时政"
         },
@@ -176130,10 +176222,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "cbc0d94ab27d85",
+          "id": "24469b6a3609a6",
+          "source": "新华社",
+          "title": "好日子跟着好生态一起来了",
+          "url": "https://www.news.cn/politics/leaders/20261017/2c5c39bb4fb94a428746d852c2d09dcd/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6760aab82f8b10",
           "source": "新华社",
           "title": "安理会举行联合国秘书长遴选第六轮意向性投票",
-          "url": "https://www.news.cn/20261017/a4f21438b8ea406fbb76ef7b2ff1f13a/c.html",
+          "url": "https://www.news.cn/world/20261017/a707eea78a074dfb9999b83a296256f7/c.html",
           "date": "2026-10-17",
           "keyword": "综合时政"
         },
@@ -176154,42 +176254,58 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "bd2629d0f83c9c",
+          "id": "6bbf76e83cda98",
           "source": "新华社",
-          "title": "普京：继续打击乌军工企业",
-          "url": "https://www.news.cn/20261017/555eda95f0fa4ee08a50b6dc8eecf6e7/c.html",
+          "title": "普京说继续打击乌军工企业",
+          "url": "https://www.news.cn/world/20261017/f2dc4b8ad3ef4047998e15f8f70b6c61/c.html",
           "date": "2026-10-17",
           "keyword": "综合时政"
         },
         {
-          "id": "daf299d4454902",
+          "id": "466d5dd8a7b8e3",
           "source": "新华社",
           "title": "朝鲜试射新型鱼雷武器系统",
-          "url": "https://www.news.cn/20261017/8e759b3b19334d19b264cb7133d08e06/c.html",
+          "url": "https://www.news.cn/world/20261017/f3e12f5def4f4d11bba9853062b606c7/c.html",
           "date": "2026-10-17",
           "keyword": "综合时政"
         },
         {
-          "id": "24469b6a3609a6",
+          "id": "a39a3bd60cd24e",
           "source": "新华社",
-          "title": "沙退湖清 好日子跟着好生态一起来了",
-          "url": "https://www.news.cn/politics/leaders/20261017/2c5c39bb4fb94a428746d852c2d09dcd/c.html",
-          "date": "2026-10-17",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "2f5bbfbf3e11bf",
-          "source": "新华社",
-          "title": "泽连斯基要求欧盟追加700亿欧元援助",
-          "url": "https://www.news.cn/20261017/75a6204997354141afdd61eeb670cd0b/c.html",
+          "title": "沙特主导联军称拦截3枚导弹和4架无人机",
+          "url": "https://www.news.cn/20261017/472f8a0fb0ba4546b9e5c4fedd49a7b3/c.html",
           "date": "2026-10-17",
           "keyword": "综合时政"
         },
         {
           "id": "83b46adddbce5b",
           "source": "新华社",
-          "title": "王毅同克罗地亚外长拉德曼会谈",
+          "title": "王毅同克罗地亚外长会谈",
           "url": "https://www.news.cn/politics/leaders/20261017/f48420d28c99498694c7ca51574bf174/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "253d2ddbe93de4",
+          "source": "新华社",
+          "title": "皇岗口岸重建设计背后的故事",
+          "url": "https://www.news.cn/gangao/20261017/152b16f1717f465c8ba34a50e5447787/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6621662d67961b",
+          "source": "新华社",
+          "title": "看“敬”字火车票优惠",
+          "url": "https://www.news.cn/politics/20261017/65559e1c31964ac8bef14e24b7cf5708/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f7433e5dbda776",
+          "source": "新华社",
+          "title": "瞭望·治国理政纪事丨探索资源型地区转型发展新路径",
+          "url": "https://www.news.cn/politics/leaders/20261017/b1a2ea8d85ca43e39ae6fae7cbae10a6/c.html",
           "date": "2026-10-17",
           "keyword": "综合时政"
         },
@@ -176198,6 +176314,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "美媒：扎卡里亚不再担任白宫新闻秘书",
           "url": "https://www.news.cn/20261017/c35e7e0747fd40399802b33776db3b13/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7659068eb80bc9",
+          "source": "新华社",
+          "title": "联合国粮农组织举行“世界粮食日”庆典活动",
+          "url": "https://www.news.cn/world/20261017/c995b254ac554225bca81d880050f25d/c.html",
           "date": "2026-10-17",
           "keyword": "综合时政"
         },
@@ -176218,6 +176342,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "8fd97c9100842b",
+          "source": "新华社",
+          "title": "记者手记丨土耳其的“传家宝种子”",
+          "url": "https://www.news.cn/world/20261017/c2b1704823344439b48aea8225e2a6ea/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
           "id": "3ea45ddf6ad028",
           "source": "新华社",
           "title": "赞比亚霍乱疫情致25人死亡 官方紧急启动疫苗接种",
@@ -176228,8 +176360,16 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "f9fb48c158d549",
           "source": "新华社",
-          "title": "近镜头｜总书记心系万里绿色长城",
+          "title": "近镜头丨总书记心系万里绿色长城",
           "url": "https://www.news.cn/politics/leaders/20261017/49d690c2f3c34adebae4e6c30e018bed/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "31853046574c59",
+          "source": "新华社",
+          "title": "这场论坛释放了哪些信号?",
+          "url": "https://www.news.cn/fortune/20261017/12145c5be86b4f9fb4ed2c1e5118be2a/c.html",
           "date": "2026-10-17",
           "keyword": "综合时政"
         },
@@ -176248,6 +176388,78 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/20261017/137ec2ff3d1b4d448b76afa008a64436/c.html",
           "date": "2026-10-17",
           "keyword": "综合时政"
+        },
+        {
+          "id": "2b030410b9ebb0",
+          "source": "新华社",
+          "title": "黄梅戏剧目《女驸马》亮相维也纳“中国戏演出季”",
+          "url": "https://www.news.cn/20261017/5b7077c7fee6430cbde38c77e7d4ebd4/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8663c15a5868f8",
+          "source": "新华社",
+          "title": "默茨：欧盟应保持财政克制 反对大幅扩增预算规模",
+          "url": "https://www.news.cn/20261017/197879dc19354567aef0095c33ee11be/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bd078b1bcf9ab5",
+          "source": "求是",
+          "title": "2026全球治理论坛（雄安）将于10月23日至25日举行",
+          "url": "https://www.qstheory.cn/20261017/035bd96620d24b23bc57a4e9e3801d1e/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1f670710ce0e30",
+          "source": "求是",
+          "title": "三部门发文首次明确普惠养老收费政策",
+          "url": "https://www.qstheory.cn/20261017/a586f6bdcd434e8b9d7290d4f3633b8e/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ab4ed84c8d64ee",
+          "source": "求是",
+          "title": "两部门就修订中国禁止出口限制出口技术目录公开征求意见",
+          "url": "https://www.qstheory.cn/20261017/4d31b8f26b034436aaeb34ad6541a67a/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a16935c3a854d7",
+          "source": "求是",
+          "title": "四部门组织重点车企座谈 部署加强汽车产品创新设计和研发测试验证管理",
+          "url": "https://www.qstheory.cn/20261017/68a52f3b2b1b4fd2a04f90253da734a6/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "63f90e1ca5ab38",
+          "source": "求是",
+          "title": "我国首个百万吨级低浓度CCUS全链条示范工程开工",
+          "url": "https://www.qstheory.cn/20261017/e380a6315cbb432183a8c6f993339ca9/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d31df2baa5ab53",
+          "source": "求是",
+          "title": "第九届进博会首发首展首秀品数量创新高",
+          "url": "https://www.qstheory.cn/20261017/12ca9763cc3443b6a729283ee21ac703/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "27603fd77c184c",
+          "source": "求是",
+          "title": "第十七届中国食品安全论坛在北京举办",
+          "url": "https://www.qstheory.cn/20261017/21b6bf2ddac142ac8f69d228795fa18b/c.html",
+          "date": "2026-10-17",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -176255,65 +176467,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 6.7,
+          "duration": 12.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261017.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 28,
-          "duration": 2.8
+          "duration": 1.8
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 20,
-          "duration": 2.9
+          "count": 37,
+          "duration": 2.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 10.7
+          "duration": 15.2
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 6.1
+          "count": 7,
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 19,
-          "duration": 0.9
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.9
+          "duration": 15.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 1,
-          "duration": 2.6
+          "duration": 3.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 10.2
+          "duration": 8.1
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 0,
-          "duration": 77.9
+          "count": 2,
+          "duration": 74.0
         }
       ]
     }
   ],
-  "generatedAt": "2026-10-17T08:14:17+08:00"
+  "generatedAt": "2026-10-17T10:33:18+08:00"
 };
