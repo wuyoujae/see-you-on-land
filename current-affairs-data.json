@@ -178198,7 +178198,100 @@
           "duration": 62.0
         }
       ]
+    },
+    {
+      "date": "2026-10-19",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "12758bee542719",
+          "source": "新华社",
+          "title": "王毅同黑山副总理兼外长伊布拉希莫维奇会谈",
+          "url": "https://www.news.cn/politics/leaders/20261019/0a82b4ff5cd542aeb284809a12293f01/c.html",
+          "date": "2026-10-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "45707f88895b8e",
+          "source": "新华社",
+          "title": "钟华论：在新的长征路上继续奋勇前进",
+          "url": "https://www.news.cn/politics/leaders/20261019/30f0312fe68e4fdd9626171cf6595ea7/c.html",
+          "date": "2026-10-19",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 6.5,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261019.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.9,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/19/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 2,
+          "duration": 2.2
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 41.6
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.8
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.8,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/19/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.5
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 3.6
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.0
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 68.1
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-10-18T20:23:48+08:00"
+  "generatedAt": "2026-10-19T00:23:04+08:00"
 }
