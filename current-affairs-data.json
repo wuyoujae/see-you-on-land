@@ -176907,10 +176907,22 @@
     },
     {
       "date": "2026-10-18",
-      "keyword": "中国式现代化",
+      "keyword": "习近平",
       "keywords": [
         {
+          "name": "习近平",
+          "count": 4
+        },
+        {
           "name": "中国式现代化",
+          "count": 3
+        },
+        {
+          "name": "共同体",
+          "count": 3
+        },
+        {
+          "name": "十五五",
           "count": 3
         },
         {
@@ -176918,38 +176930,58 @@
           "count": 2
         },
         {
-          "name": "共同体",
+          "name": "教育",
           "count": 2
         },
         {
-          "name": "教育",
+          "name": "科技",
+          "count": 2
+        },
+        {
+          "name": "经济",
           "count": 2
         }
       ],
       "articles": [
         {
-          "id": "ff22fa3d40c7fe",
-          "source": "人民日报",
-          "title": "为建设教育强国、推进中国式现代化作出新贡献",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/18/content_30186275.html",
+          "id": "71057dcdbeb33a",
+          "source": "中国政府网",
+          "title": "从亚太伙伴关系到亚太共同体——习近平主席引领推动亚太合作迈上新台阶",
+          "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7083570.htm",
           "date": "2026-10-18",
-          "keyword": "中国式现代化"
+          "keyword": "习近平"
         },
         {
-          "id": "c04b92bb4f32cc",
-          "source": "人民日报",
-          "title": "坚持为推进中国式现代化凝心聚力 扎实做好新时代党的民族宗教工作",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/18/content_30186273.html",
+          "id": "1e6de5ba138a4a",
+          "source": "广东发布",
+          "title": "“有高远目标，更有耐心有定力”——习近平总书记在内蒙古乌兰察布考察纪实",
+          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4967706.html",
           "date": "2026-10-18",
-          "keyword": "中国式现代化"
+          "keyword": "习近平"
         },
         {
-          "id": "6fc448c9cac6e1",
-          "source": "光明日报",
-          "title": "坚持为推进中国式现代化凝心聚力 扎实做好新时代党的民族宗教工作",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/18/content_27564.html",
+          "id": "aed365214aa556",
+          "source": "求是",
+          "title": "习近平主席引领推动亚太合作迈上新台阶",
+          "url": "https://www.qstheory.cn/20261018/1df37f0470c44202afe9d0ca0cdae9a6/c.html",
           "date": "2026-10-18",
-          "keyword": "中国式现代化"
+          "keyword": "习近平"
+        },
+        {
+          "id": "e16ed300e4421a",
+          "source": "求是",
+          "title": "习近平总书记在内蒙古乌兰察布考察纪实",
+          "url": "https://www.qstheory.cn/20261018/9254f1a6ca9b4dc899078fb5246f366f/c.html",
+          "date": "2026-10-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "b42fd84dcdfad5",
+          "source": "中国政府网",
+          "title": "总书记指引“十五五”帮扶工作迈向常态化新阶段",
+          "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7083563.htm",
+          "date": "2026-10-18",
+          "keyword": "十五五"
         },
         {
           "id": "d836741ce108af",
@@ -176960,12 +176992,52 @@
           "keyword": "共同体"
         },
         {
+          "id": "ff22fa3d40c7fe",
+          "source": "人民日报",
+          "title": "为建设教育强国、推进中国式现代化作出新贡献",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/18/content_30186275.html",
+          "date": "2026-10-18",
+          "keyword": "中国式现代化"
+        },
+        {
           "id": "0f51004b3a2894",
           "source": "人民日报",
           "title": "从亚太伙伴关系到亚太共同体",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202610/18/content_30186270.html",
           "date": "2026-10-18",
           "keyword": "共同体"
+        },
+        {
+          "id": "c04b92bb4f32cc",
+          "source": "人民日报",
+          "title": "坚持为推进中国式现代化凝心聚力 扎实做好新时代党的民族宗教工作",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/18/content_30186273.html",
+          "date": "2026-10-18",
+          "keyword": "中国式现代化"
+        },
+        {
+          "id": "c8f9ba95d436dc",
+          "source": "人民日报",
+          "title": "老年学堂把精彩带到家门口（奋进“十五五” 一线见闻）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/18/content_30186292.html",
+          "date": "2026-10-18",
+          "keyword": "十五五"
+        },
+        {
+          "id": "6fc448c9cac6e1",
+          "source": "光明日报",
+          "title": "坚持为推进中国式现代化凝心聚力 扎实做好新时代党的民族宗教工作",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/18/content_27564.html",
+          "date": "2026-10-18",
+          "keyword": "中国式现代化"
+        },
+        {
+          "id": "83e4541d001be9",
+          "source": "求是",
+          "title": "总书记指引“十五五”帮扶工作迈向常态化新阶段",
+          "url": "https://www.qstheory.cn/20261018/ce62331e085f4772916fb7cfc20e79b5/c.html",
+          "date": "2026-10-18",
+          "keyword": "十五五"
         },
         {
           "id": "2ff6b69e68fd86",
@@ -176984,12 +177056,44 @@
           "keyword": "教育"
         },
         {
+          "id": "4de25ccab9cc89",
+          "source": "光明日报",
+          "title": "前三季度我对APEC其他经济体进出口增长23.9%",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/18/content_27571.html",
+          "date": "2026-10-18",
+          "keyword": "经济"
+        },
+        {
           "id": "e4c69e970b3af9",
           "source": "光明日报",
           "title": "厚植绿色根基，因地制宜推动高质量发展",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202610/18/content_27567.html",
           "date": "2026-10-18",
           "keyword": "高质量发展"
+        },
+        {
+          "id": "afdc1bddfd7b34",
+          "source": "广东发布",
+          "title": "广东扎实推进APEC盛会筹备 深化与亚太经济体经贸人文合作 迎接深圳之约 共促亚太繁荣",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4967707.html",
+          "date": "2026-10-18",
+          "keyword": "经济"
+        },
+        {
+          "id": "8840c0f69ce47c",
+          "source": "新华社",
+          "title": "天津这场“头脑风暴”让科技金融双向赋能",
+          "url": "https://www.news.cn/fortune/20261018/d985427c72f543108dc7ff27538b15a7/c.html",
+          "date": "2026-10-18",
+          "keyword": "科技"
+        },
+        {
+          "id": "dbc61d588e4cf7",
+          "source": "新华社",
+          "title": "让养老科技先过“模拟考”北京打造为老实验室",
+          "url": "https://www.news.cn/local/20261018/89aa4bfbb1b145ff8d52a83e7a15ab05/c.html",
+          "date": "2026-10-18",
+          "keyword": "科技"
         },
         {
           "id": "194e1f6acb4b6b",
@@ -177120,14 +177224,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "c8f9ba95d436dc",
-          "source": "人民日报",
-          "title": "老年学堂把精彩带到家门口（奋进“十五五” 一线见闻）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/18/content_30186292.html",
-          "date": "2026-10-18",
-          "keyword": "综合时政"
-        },
-        {
           "id": "6d8fd76a11c229",
           "source": "人民日报",
           "title": "运河里的中国智慧",
@@ -177196,14 +177292,6 @@
           "source": "光明日报",
           "title": "出版行业探索建立专业人工智能大模型",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202610/18/content_27587.html",
-          "date": "2026-10-18",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "4de25ccab9cc89",
-          "source": "光明日报",
-          "title": "前三季度我对APEC其他经济体进出口增长23.9%",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/18/content_27571.html",
           "date": "2026-10-18",
           "keyword": "综合时政"
         },
@@ -177336,10 +177424,50 @@
           "keyword": "综合时政"
         },
         {
+          "id": "54c9082709b322",
+          "source": "广东发布",
+          "title": "以城市之暖迎万商 以场景之新留客心 广州以全链条城市服务护航第140届广交会",
+          "url": "https://www.gd.gov.cn/gdywdt/dsdt/content/post_4967709.html",
+          "date": "2026-10-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "64c7fb160ffbce",
+          "source": "广东发布",
+          "title": "在深圳 期待与世界相逢",
+          "url": "https://www.gd.gov.cn/gdywdt/dsdt/content/post_4967710.html",
+          "date": "2026-10-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c18ab4fed4690e",
+          "source": "新华社",
+          "title": "2026北京马拉松暨全国马拉松锦标赛在京举行",
+          "url": "https://www.news.cn/photo/20261018/7aa1467dbc104d758b95f339059a0ccb/c.html",
+          "date": "2026-10-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "b7c1b921665bd5",
           "source": "新华社",
           "title": "2026年“一带一路”记者组织论坛在江苏南京举行",
           "url": "https://www.news.cn/politics/20261018/70f30e2cb66a44bd952008b8a18995a2/c.html",
+          "date": "2026-10-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2c99d986641355",
+          "source": "新华社",
+          "title": "一定要让老人们有个幸福的 晚年",
+          "url": "https://www.news.cn/politics/leaders/20261018/fbe3981123a24a8db235b8c8e91d1a26/c.html",
+          "date": "2026-10-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "802273c3bb0ed7",
+          "source": "新华社",
+          "title": "九九重阳 把爱“置顶”",
+          "url": "https://app.xinhuanet.com/news/article.html?articleId=20261018cb1c3c8d6a2148fd99c2089c99d1c0f2",
           "date": "2026-10-18",
           "keyword": "综合时政"
         },
@@ -177352,10 +177480,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "85ba1cdfd304a6",
+          "id": "477a7d5d34ec15",
           "source": "新华社",
           "title": "也门胡塞武装：沙特空袭塔伊兹省造成至少9人死亡",
-          "url": "https://www.news.cn/20261018/a1f539fd313044e581cbd4eda2892740/c.html",
+          "url": "https://www.news.cn/world/20261018/839acda6a0524b2580e000b85385b0dc/c.html",
+          "date": "2026-10-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3aa897d3e94bbd",
+          "source": "新华社",
+          "title": "云南多个公路口岸实施中外边民快捷通关试点",
+          "url": "https://www.news.cn/20261018/f218ac30dba7430b86ce24beb5daf1fe/c.html",
+          "date": "2026-10-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "786602e76459df",
+          "source": "新华社",
+          "title": "伊朗海军称“违规”穿越海峡而受损的油轮增多",
+          "url": "https://www.news.cn/20261018/5c96007f760647b699bbd50a3bd73054/c.html",
           "date": "2026-10-18",
           "keyword": "综合时政"
         },
@@ -177368,6 +177512,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "4a6117ac578e3e",
+          "source": "新华社",
+          "title": "十年授人以渔，鲁班工坊助各国青年“有技可依”",
+          "url": "https://www.news.cn/politics/20261018/b847187c71284becb2e70c806de47151/c.html",
+          "date": "2026-10-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "55fe6eedc56f33",
           "source": "新华社",
           "title": "印度东部踩踏事故致17死25伤",
@@ -177376,10 +177528,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "572e326b556a8f",
+          "id": "d8eb9cb90d8924",
           "source": "新华社",
-          "title": "同乌总理阿里波夫会谈",
-          "url": "https://www.news.cn/politics/leaders/20261018/672b44f1a33f47c3a34381c81464ec44/c.html",
+          "title": "国羽提前锁定丹麦羽毛球公开赛混双冠军",
+          "url": "https://www.news.cn/20261018/5f012471c3d34381b0f0f5d355a0ed30/c.html",
+          "date": "2026-10-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1e5c93e9e3b59c",
+          "source": "新华社",
+          "title": "天府书展里，看见阅读的万千模样",
+          "url": "https://www.news.cn/politics/20261018/d8996af4dc2149518752ce54c5119f6e/c.html",
+          "date": "2026-10-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4372e90c73c1f3",
+          "source": "新华社",
+          "title": "委内瑞拉同法国联合行动查获近3吨毒品",
+          "url": "https://www.news.cn/20261018/b0dc763f68fa42d8b2295c96fb694541/c.html",
           "date": "2026-10-18",
           "keyword": "综合时政"
         },
@@ -177396,6 +177564,22 @@
           "source": "新华社",
           "title": "弹药堆爆炸致伊拉克民兵武装5人受伤",
           "url": "https://www.news.cn/20261018/5e0570d3caca4369b3e6d26ebe0db35e/c.html",
+          "date": "2026-10-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "24d8d3c77288d1",
+          "source": "新华社",
+          "title": "新华社权威快报丨第四届“良渚论坛”开幕",
+          "url": "https://www.news.cn/20261018/71722ab53db34a65831cffbf559cc599/c.html",
+          "date": "2026-10-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3350d360ce631e",
+          "source": "新华社",
+          "title": "本周，这些数据值得关注",
+          "url": "https://www.news.cn/politics/20261018/234408739d1e40bd9c8eff112f55acbe/c.html",
           "date": "2026-10-18",
           "keyword": "综合时政"
         },
@@ -177448,6 +177632,30 @@
           "keyword": "综合时政"
         },
         {
+          "id": "184016e9c38f52",
+          "source": "新华社",
+          "title": "法国多地发生大规模抗议 数百人被捕",
+          "url": "https://www.news.cn/20261018/a7d14aa5f7b04e4896b2f25f66eab8e1/c.html",
+          "date": "2026-10-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e117174d59d072",
+          "source": "新华社",
+          "title": "活得正潮，这届老年人如何开启人生的下半场",
+          "url": "https://www.news.cn/20261018/95bcb9d4a1df4e9eb989b3f5475dcb39/c.html",
+          "date": "2026-10-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4e22967e16a856",
+          "source": "新华社",
+          "title": "爱，藏在哪些小事里",
+          "url": "https://www.news.cn/20261018/335cae81fbb641889bc91f8fb98a481e/c.html",
+          "date": "2026-10-18",
+          "keyword": "综合时政"
+        },
+        {
           "id": "f3d798f91d5709",
           "source": "新华社",
           "title": "纽约曼哈顿地铁站发生枪击事件致一人死亡",
@@ -177480,10 +177688,34 @@
           "keyword": "综合时政"
         },
         {
-          "id": "dbc61d588e4cf7",
+          "id": "b4dc4ef7abf702",
           "source": "新华社",
-          "title": "让养老科技先过“模拟考”北京打造为老实验室",
-          "url": "https://www.news.cn/local/20261018/89aa4bfbb1b145ff8d52a83e7a15ab05/c.html",
+          "title": "萌虎驾到 探访黑龙江海林“东北虎幼儿园”",
+          "url": "https://www.news.cn/local/20261018/58ccdee721d946e295b263f10192dbbb/c.html",
+          "date": "2026-10-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "664848287aea41",
+          "source": "新华社",
+          "title": "行走中国丨在“非遗大集”感受古老技艺的青春脉动",
+          "url": "https://www.news.cn/local/20261018/e43b2f87dac44432a9636cc2c96b4d87/c.html",
+          "date": "2026-10-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d558ce6ac61ed1",
+          "source": "新华社",
+          "title": "诗意中国丨墙头累累柿子黄 人家秋获争登场",
+          "url": "https://www.news.cn/photo/20261018/db71759cc6e64f4cba5f5126a94da6dc/c.html",
+          "date": "2026-10-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f48b30051d6e1c",
+          "source": "求是",
+          "title": "减贫之路，众行方能致远",
+          "url": "https://www.qstheory.cn/20261018/86fe5d1354634a8d8426e855b50459ba/c.html",
           "date": "2026-10-18",
           "keyword": "综合时政"
         }
@@ -177493,44 +177725,44 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 13.6,
+          "duration": 11.2,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261018.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 21,
-          "duration": 1.4
+          "duration": 3.0
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 19,
-          "duration": 3.0
+          "count": 36,
+          "duration": 2.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 14.9
+          "duration": 15.4
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 5.8
+          "count": 4,
+          "duration": 5.6
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 1.8
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.9
+          "duration": 15.1
         },
         {
           "source": "学习强国",
@@ -177541,17 +177773,17 @@
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 2,
-          "duration": 9.4
+          "count": 4,
+          "duration": 8.6
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 0,
-          "duration": 71.2
+          "count": 4,
+          "duration": 74.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-10-18T07:53:18+08:00"
+  "generatedAt": "2026-10-18T10:34:11+08:00"
 }
