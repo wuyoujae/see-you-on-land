@@ -181703,7 +181703,124 @@
           "duration": 57.2
         }
       ]
+    },
+    {
+      "date": "2026-10-21",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 5
+        }
+      ],
+      "articles": [
+        {
+          "id": "682448f12e930c",
+          "source": "中国政府网",
+          "title": "李强赴圣彼得堡举行中俄总理第三十一次定期会晤",
+          "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7083863.htm",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "be9ba3957692b9",
+          "source": "新华社",
+          "title": "内蒙古巴音淖尔：一湖秋镜映草原",
+          "url": "https://www.news.cn/local/20261021/e5f2bc44f4be4a8292d6884c18b470c9/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4a3788040aee7e",
+          "source": "新华社",
+          "title": "内蒙古：赴一场大青沟的秋日之约",
+          "url": "https://www.news.cn/local/20261021/9da1fc73feac418dac61128750138378/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d359d587be0d0c",
+          "source": "新华社",
+          "title": "新疆：江布拉克秋雪绘就天山水墨画卷",
+          "url": "https://www.news.cn/local/20261021/74baa8278712485a82477cacf7016ac3/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f836df89cf513d",
+          "source": "新华社",
+          "title": "日执政联盟拟就年底修订“安保三文件”举行磋商",
+          "url": "https://www.news.cn/20261021/f4ac099f0b0a479dbd44febbe98025a4/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 7.2,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261021.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.8,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/21/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 4,
+          "duration": 2.7
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 15.7
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.7
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.7,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/21/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 15.4
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 3.0
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 1,
+          "duration": 8.2
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 46.9
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-10-20T22:03:02+08:00"
+  "generatedAt": "2026-10-21T02:56:07+08:00"
 }
