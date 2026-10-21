@@ -183597,7 +183597,156 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 75.0
         }
       ]
+    },
+    {
+      "date": "2026-10-22",
+      "keyword": "会见吉布提外",
+      "keywords": [
+        {
+          "name": "会见吉布提外",
+          "count": 2
+        },
+        {
+          "name": "吉布提外长奥",
+          "count": 2
+        },
+        {
+          "name": "布提外长奥马",
+          "count": 2
+        },
+        {
+          "name": "提外长奥马尔",
+          "count": 2
+        },
+        {
+          "name": "毅会见吉布提",
+          "count": 2
+        },
+        {
+          "name": "王毅会见吉布",
+          "count": 2
+        },
+        {
+          "name": "见吉布提外长",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "18f6b187099faa",
+          "source": "学习强国",
+          "title": "王毅会见吉布提外长奥马尔",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=4816179830741356032&item_id=4816179830741356032",
+          "date": "2026-10-22",
+          "keyword": "会见吉布提外"
+        },
+        {
+          "id": "9ef3552ed954fd",
+          "source": "新华社",
+          "title": "王毅会见吉布提外长奥马尔",
+          "url": "https://www.news.cn/politics/leaders/20261022/c6c6266538404210a77c4e7c26d8da30/c.html",
+          "date": "2026-10-22",
+          "keyword": "会见吉布提外"
+        },
+        {
+          "id": "eeccd14e55a58a",
+          "source": "新华社",
+          "title": "俄欲11月重启俄美乌三方会谈",
+          "url": "https://www.news.cn/world/20261022/f1f1da2134da4bc4afc891ea9bd31209/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5952203d5d541c",
+          "source": "新华社",
+          "title": "台湾气象部门发布台风“蔷琵”海上警报",
+          "url": "https://www.news.cn/20261022/691cb31e341c489ba1d06416478e8c09/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d46af8f97b5359",
+          "source": "新华社",
+          "title": "法国总统：坚决杜绝骚乱重演",
+          "url": "https://www.news.cn/world/20261022/27761fd55707468399a576a4837436b2/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "048e0564098a17",
+          "source": "新华社",
+          "title": "联合新闻公报",
+          "url": "https://www.news.cn/world/20261022/da079bda63cf47c3b2122e7fa6712dcc/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 10.8,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261022.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.4,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/22/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 5,
+          "duration": 4.2
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 16.4
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.3
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.3,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/22/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 16.9
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 1,
+          "duration": 3.1
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.0
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 45.2
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-10-21T22:19:01+08:00"
+  "generatedAt": "2026-10-22T03:08:04+08:00"
 };
