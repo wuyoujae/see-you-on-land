@@ -181706,14 +181706,78 @@
     },
     {
       "date": "2026-10-21",
-      "keyword": "今日时政",
+      "keyword": "经济",
       "keywords": [
         {
-          "name": "今日时政",
+          "name": "经济",
           "count": 5
+        },
+        {
+          "name": "中国经济",
+          "count": 3
+        },
+        {
+          "name": "十五五",
+          "count": 2
         }
       ],
       "articles": [
+        {
+          "id": "c6b4af095e09dd",
+          "source": "人民日报",
+          "title": "不断提升工业经济运行质效（权威发布）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186864.html",
+          "date": "2026-10-21",
+          "keyword": "经济"
+        },
+        {
+          "id": "5ec56acf022117",
+          "source": "人民日报",
+          "title": "深刻认识中国经济运行的三个突出特点",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186860.html",
+          "date": "2026-10-21",
+          "keyword": "经济"
+        },
+        {
+          "id": "904948e0dc5636",
+          "source": "光明日报",
+          "title": "【光明时评】“向新向优”彰显中国经济韧性与活力",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27898.html",
+          "date": "2026-10-21",
+          "keyword": "经济"
+        },
+        {
+          "id": "9fac286862183b",
+          "source": "光明日报",
+          "title": "【光明时评】引导首发经济从打卡走向日常消费",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27899.html",
+          "date": "2026-10-21",
+          "keyword": "经济"
+        },
+        {
+          "id": "8b48c462fc8da3",
+          "source": "新华社",
+          "title": "深刻认识中国经济运行的三个突出特点",
+          "url": "https://www.news.cn/fortune/20261021/55cc0d7060144063a1f17e44310a0a15/c.html",
+          "date": "2026-10-21",
+          "keyword": "经济"
+        },
+        {
+          "id": "cf73fc85744e53",
+          "source": "人民日报",
+          "title": "加强文化遗产保护，推动文化遗产事业高质量发展（权威发布·开局起步“十五五”）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186863.html",
+          "date": "2026-10-21",
+          "keyword": "十五五"
+        },
+        {
+          "id": "9698877f5b46c5",
+          "source": "光明日报",
+          "title": "《历史文化名城（镇、村）与历史建筑保护传承“十五五”规划》发布",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27880.html",
+          "date": "2026-10-21",
+          "keyword": "十五五"
+        },
         {
           "id": "682448f12e930c",
           "source": "中国政府网",
@@ -181723,10 +181787,322 @@
           "keyword": "综合时政"
         },
         {
-          "id": "be9ba3957692b9",
+          "id": "8f9bcc389868eb",
+          "source": "人民日报",
+          "title": "丁薛祥在河北雄安新区出席国家数据集团有限公司成立大会并调研",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186859.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4e3cff635d2183",
+          "source": "人民日报",
+          "title": "上海合作组织成员国政府首脑（总理）理事会第二十五次会议联合公报",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186871.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ed3be137ea1e51",
+          "source": "人民日报",
+          "title": "中方呼吁加大力度落实生物多样性保护政策",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186876.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f526e18883ce62",
+          "source": "人民日报",
+          "title": "何立峰会见金融监管总局国际咨询委员会委员时指出 中国将继续扩大金融高水平开放 加快建设金融强国",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186873.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "26c7256b3d2bb4",
+          "source": "人民日报",
+          "title": "凝聚共识 同心奋进（今日谈）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186861.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f461dbcd5ac32b",
+          "source": "人民日报",
+          "title": "刘海星分别会见意大利、阿联酋客人",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186875.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "360e3724c19267",
+          "source": "人民日报",
+          "title": "在上海合作组织成员国政府首脑（总理）理事会第二十五次会议上的讲话",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186868.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "57477d0c6baf5d",
+          "source": "人民日报",
+          "title": "在新的长征路上继续奋勇前进",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186857.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ca62b6c64a823c",
+          "source": "人民日报",
+          "title": "持续加强政治培训广泛凝聚政治共识 更好服务党和国家工作大局",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186855.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "70a738844f6889",
+          "source": "人民日报",
+          "title": "李强出席上海合作组织成员国政府首脑（总理）理事会第二十五次会议",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186858.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3f2013c23a0083",
+          "source": "人民日报",
+          "title": "李强赴圣彼得堡举行中俄总理第三十一次定期会晤",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186867.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eaa9a479b1c7cd",
+          "source": "人民日报",
+          "title": "王毅谈欧亚之行的四点感受",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186872.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "12803978b41ad7",
+          "source": "人民日报",
+          "title": "老区通高铁 振兴谱新篇（赓续长征精神 奋进复兴征程）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186856.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a81318926faff4",
+          "source": "人民日报",
+          "title": "蔡达峰出席拉美地区议员研讨班开班式",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186874.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3a0bf35e130398",
+          "source": "人民日报",
+          "title": "薪火相传，走好新的长征路",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186877.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "68a820215471a2",
+          "source": "人民日报",
+          "title": "长征具有跨越时代与国界的启示意义（国际论坛）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186870.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2d8481a3f69f3b",
+          "source": "光明日报",
+          "title": "“幸福的地方”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27874.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2c8b83a09d6385",
+          "source": "光明日报",
+          "title": "【光明论坛】推动科技成果转化 高校须挺膺担当",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27897.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b0b93cbc611e87",
+          "source": "光明日报",
+          "title": "【大美中国】金秋景如画",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27887.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4d9eba144db1c0",
+          "source": "光明日报",
+          "title": "【改进文风大家谈】副刊编辑要做“好裁缝”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27886.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "726d5ce46f0c6e",
+          "source": "光明日报",
+          "title": "【文化评析】伟大长征精神跨越时空走进青年心中",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27900.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0978fe1db54c8a",
+          "source": "光明日报",
+          "title": "【新闻随笔】盘活银幕资产，拓宽城市文化空间",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27901.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4b72a3c4f88292",
+          "source": "光明日报",
+          "title": "【烟火人间】登泰山",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27888.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c194ec7d3ed0a8",
+          "source": "光明日报",
+          "title": "丁薛祥在河北雄安新区出席国家数据集团有限公司成立大会并调研",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27878.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "122d181a7f3e76",
+          "source": "光明日报",
+          "title": "前三季度京津冀地区进出口值4万亿元",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27881.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b0917200f2d65c",
+          "source": "光明日报",
+          "title": "在上海合作组织成员国政府首脑（总理）理事会第二十五次会议上的讲话",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27877.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7345e00d7c949f",
+          "source": "光明日报",
+          "title": "宁夏固原：长征播下的“种子”已长成参天大树",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27879.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e1a58ecf0f777c",
+          "source": "光明日报",
+          "title": "小小足球，串联千里援青情",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27873.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0c8d888e8a65a6",
+          "source": "光明日报",
+          "title": "持续加强政治培训广泛凝聚政治共识 更好服务党和国家工作大局",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27883.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "afde2d68a1222b",
+          "source": "光明日报",
+          "title": "李强出席上海合作组织成员国政府首脑（总理）理事会第二十五次会议",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27875.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5b53bcb901a469",
+          "source": "光明日报",
+          "title": "李强赴圣彼得堡举行中俄总理第三十一次定期会晤",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27876.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "483240a7d0009c",
+          "source": "光明日报",
+          "title": "渝万高铁进入联调联试阶段",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27882.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "692949f4b199de",
+          "source": "光明日报",
+          "title": "长征，永远在路上",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27885.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0a3cb460d95a88",
+          "source": "光明日报",
+          "title": "顶压前行 稳中有进",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/21/content_27872.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d8e8858554bc96",
           "source": "新华社",
-          "title": "内蒙古巴音淖尔：一湖秋镜映草原",
-          "url": "https://www.news.cn/local/20261021/e5f2bc44f4be4a8292d6884c18b470c9/c.html",
+          "title": "《勇敢女孩合唱团》展现大山深处的童声",
+          "url": "https://www.news.cn/20261021/7db16a36adbb4305a25a595caf91f800/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5a5de54a26698d",
+          "source": "新华社",
+          "title": "上海国际航空枢纽建设迈向“两地三场”格局",
+          "url": "https://www.news.cn/20261021/e9e798a751164932bea9148265d46df5/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5f66cab66e1d6e",
+          "source": "新华社",
+          "title": "乌克兰问题会谈在挪威举行 美特使将赴俄见普京",
+          "url": "https://www.news.cn/world/20261021/24789e82f3754b9d82683234c482d728/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "465f3569a7bc8a",
+          "source": "新华社",
+          "title": "也门胡塞武装称沙特24小时内发动93次袭击",
+          "url": "https://www.news.cn/world/20261021/408d24735ba24a60b767ac5b6bd24466/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c7353833f8ab06",
+          "source": "新华社",
+          "title": "伊拉克：杜尔·库里加尔祖遗址",
+          "url": "https://www.news.cn/photo/20261021/9917cdc263c4460c8c12c9765f4113af/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e6137a99c2a4b4",
+          "source": "新华社",
+          "title": "伊朗总统会见巴陆军参谋长 强调美必须解除制裁",
+          "url": "https://www.news.cn/world/20261021/3d72bb68c92d4ad3bb402e84497e562d/c.html",
           "date": "2026-10-21",
           "keyword": "综合时政"
         },
@@ -181735,6 +182111,62 @@
           "source": "新华社",
           "title": "内蒙古：赴一场大青沟的秋日之约",
           "url": "https://www.news.cn/local/20261021/9da1fc73feac418dac61128750138378/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a36d9f732bad9a",
+          "source": "新华社",
+          "title": "利比亚国民代表大会废除与土耳其“断绝政治关系决议”",
+          "url": "https://www.news.cn/20261021/4d6ac243ecad4485b39f36d19727b6aa/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "57789551649a0c",
+          "source": "新华社",
+          "title": "印尼一客轮起火 船上460人全部撤离",
+          "url": "https://www.news.cn/20261021/3a219980b00144c99834974b97161dc2/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2b2de5c103127a",
+          "source": "新华社",
+          "title": "多部门发风险提示：求职者，警惕“央国企内推”骗局",
+          "url": "https://www.news.cn/20261021/92cc3d95006e4c4a83f11d874757a359/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "44bf80eb615586",
+          "source": "新华社",
+          "title": "大件旧物回收现状调查：东西还能用，为什么没人要",
+          "url": "https://www.news.cn/20261021/1af726fbe592495f833c115644bc9f76/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "07ccea909c65a3",
+          "source": "新华社",
+          "title": "威胁在竞选集会上刺杀特朗普 美国堪萨斯男子遭逮捕",
+          "url": "https://www.news.cn/20261021/c0f7fd351ee64e26ab5fcb790fff4ed3/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "be9ba3957692b9",
+          "source": "新华社",
+          "title": "巴音淖尔：一湖秋镜映草原",
+          "url": "https://www.news.cn/local/20261021/e5f2bc44f4be4a8292d6884c18b470c9/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0d620ca8bb96a2",
+          "source": "新华社",
+          "title": "手搓“微缩博物馆” 解锁文创新体验",
+          "url": "https://www.news.cn/20261021/3c77f9dc9ddc401fad74c3892edfc72b/c.html",
           "date": "2026-10-21",
           "keyword": "综合时政"
         },
@@ -181753,6 +182185,54 @@
           "url": "https://www.news.cn/20261021/f4ac099f0b0a479dbd44febbe98025a4/c.html",
           "date": "2026-10-21",
           "keyword": "综合时政"
+        },
+        {
+          "id": "7c5ae494541bb6",
+          "source": "新华社",
+          "title": "李强赴圣彼得堡举行中俄总理第三十一次定期会晤",
+          "url": "https://www.news.cn/politics/leaders/20261021/2c3b7c090ca34444bb223b9e61659b23/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d4872954ccf3ea",
+          "source": "新华社",
+          "title": "汽车创新迎硬约束 竞争逻辑将重塑",
+          "url": "https://www.news.cn/20261021/9b42148c7d3041dbb853e393a9dc54ac/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "342201cc25d88e",
+          "source": "新华社",
+          "title": "沙特主导联军称摧毁胡塞武装一处导弹发射平台",
+          "url": "https://www.news.cn/20261021/69f47df5550642f5aedf4cfe54f7e06e/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bb7ebb82e6fec8",
+          "source": "新华社",
+          "title": "泽连斯基称与美特使讨论美俄乌领导人会晤可能性",
+          "url": "https://www.news.cn/20261021/44d1c685045f4793aa3e8c8973b03c06/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ff60fa30750930",
+          "source": "新华社",
+          "title": "第八届“巴黎协定之友”高级别对话聚焦多边气候治理",
+          "url": "https://www.news.cn/20261021/f5513ee2c2714903a48b478013202c8c/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d88048498b9184",
+          "source": "新华社",
+          "title": "英国广播公司宣布将关闭旗下两个电视频道",
+          "url": "https://www.news.cn/20261021/7e1ebcd7aba34422ac176e2eddab20fe/c.html",
+          "date": "2026-10-21",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -181760,21 +182240,20 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 7.2,
+          "duration": 18.9,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261021.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.8,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/21/node_01.html"
+          "status": "ok",
+          "count": 19,
+          "duration": 1.4
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 4,
-          "duration": 2.7
+          "count": 23,
+          "duration": 2.4
         },
         {
           "source": "半月谈",
@@ -181786,41 +182265,40 @@
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 5.7
+          "duration": 5.8
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 4.7,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/21/node_01.html"
+          "status": "ok",
+          "count": 21,
+          "duration": 1.4
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 15.4
+          "duration": 14.9
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.0
+          "duration": 3.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 8.2
+          "duration": 8.1
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 46.9
+          "duration": 66.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-10-21T02:56:07+08:00"
+  "generatedAt": "2026-10-21T08:27:57+08:00"
 }
