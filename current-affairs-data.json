@@ -183604,11 +183604,19 @@
       "keywords": [
         {
           "name": "科技",
-          "count": 4
+          "count": 6
         },
         {
           "name": "科技创新",
-          "count": 3
+          "count": 5
+        },
+        {
+          "name": "习近平",
+          "count": 4
+        },
+        {
+          "name": "十五五",
+          "count": 4
         }
       ],
       "articles": [
@@ -183637,12 +183645,100 @@
           "keyword": "科技"
         },
         {
+          "id": "2acead66745359",
+          "source": "半月谈",
+          "title": "一图速览关于推动科技创新和产业创新深度融合的意见",
+          "url": "http://www.banyuetan.org/yw/detail/20261022/1000200033137441792629950541155388_1.html",
+          "date": "2026-10-22",
+          "keyword": "科技"
+        },
+        {
+          "id": "3131f05ed2c510",
+          "source": "半月谈",
+          "title": "推动科技创新和产业创新深度融合，未来这样干",
+          "url": "http://www.banyuetan.org/yw/detail/20261022/1000200033137441792630068820156175_1.html",
+          "date": "2026-10-22",
+          "keyword": "科技"
+        },
+        {
           "id": "c96c9f4221dcc5",
           "source": "新华社",
           "title": "新能源、新智造：“十大科技前瞻”聚焦未来",
           "url": "https://www.news.cn/tech/20261022/170d9db3096b4ab5836f871aa918f665/c.html",
           "date": "2026-10-22",
           "keyword": "科技"
+        },
+        {
+          "id": "32ea2e2fdb232f",
+          "source": "人民日报",
+          "title": "推进应急管理体系和能力现代化建设（权威发布·开局起步“十五五”）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187109.html",
+          "date": "2026-10-22",
+          "keyword": "十五五"
+        },
+        {
+          "id": "6c407fc4309202",
+          "source": "半月谈",
+          "title": "上下贯通 从一份“施工图”到多个“任务单”——“十五五”专项规划观察之一",
+          "url": "http://www.banyuetan.org/yw/detail/20261022/1000200033137441792630234136157610_1.html",
+          "date": "2026-10-22",
+          "keyword": "十五五"
+        },
+        {
+          "id": "a940f5e5bd7b27",
+          "source": "半月谈",
+          "title": "把问题隐患化解在成灾之前——多部门详解“十五五”现代化应急体系建设",
+          "url": "http://www.banyuetan.org/yw/detail/20261022/1000200033137441792630495527146494_1.html",
+          "date": "2026-10-22",
+          "keyword": "十五五"
+        },
+        {
+          "id": "e2e89a2a667f3d",
+          "source": "半月谈",
+          "title": "纪念中国工农红军长征胜利90周年大会在京隆重举行 习近平出席大会并发表重要讲话",
+          "url": "http://www.banyuetan.org/dyp/detail/20261022/1000200033135231792635873390157210_1.html",
+          "date": "2026-10-22",
+          "keyword": "习近平"
+        },
+        {
+          "id": "89d7fd978de492",
+          "source": "新华社",
+          "title": "产业基础能力提升“十五五”规划发布",
+          "url": "https://www.news.cn/politics/20261022/c634d299fe604941bb02f4cb00572b3e/c.html",
+          "date": "2026-10-22",
+          "keyword": "十五五"
+        },
+        {
+          "id": "e1b50f7d661272",
+          "source": "新华社",
+          "title": "纪念中国工农红军长征胜利90周年大会在京隆重举行 习近平出席大会并发表重要讲话",
+          "url": "https://www.news.cn/politics/leaders/20261022/a9f8b4627b3940ad9b93c130a8a732ed/c.html",
+          "date": "2026-10-22",
+          "keyword": "习近平"
+        },
+        {
+          "id": "8f06ba6fcd3086",
+          "source": "求是",
+          "title": "把习近平党建思想贯彻到党的建设全过程各方面",
+          "url": "https://www.qstheory.cn/20261022/85aaa4e7dcd44ffdb1eb66e3a7604d10/c.html",
+          "date": "2026-10-22",
+          "keyword": "习近平"
+        },
+        {
+          "id": "48797356812097",
+          "source": "求是",
+          "title": "纪念中国工农红军长征胜利90周年大会在京隆重举行 习近平出席大会并发表重要讲话",
+          "url": "https://www.qstheory.cn/20261022/b4277a513dff49c8a351d4c07d57d59d/c.html",
+          "date": "2026-10-22",
+          "keyword": "习近平"
+        },
+        {
+          "id": "2d0c2fdac07113",
+          "source": "中国政府网",
+          "title": "李强结束出访回到北京",
+          "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7083971.htm",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
         },
         {
           "id": "b8ba392bcc8b0d",
@@ -183753,14 +183849,6 @@
           "source": "人民日报",
           "title": "张庆伟出席2026中国国际友好城市大会开幕式",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187104.html",
-          "date": "2026-10-22",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "32ea2e2fdb232f",
-          "source": "人民日报",
-          "title": "推进应急管理体系和能力现代化建设（权威发布·开局起步“十五五”）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187109.html",
           "date": "2026-10-22",
           "keyword": "综合时政"
         },
@@ -183957,10 +184045,154 @@
           "keyword": "综合时政"
         },
         {
+          "id": "b7967eea0b0301",
+          "source": "半月谈",
+          "title": "2026年前三季度医保统筹基金支出超1.7万亿元",
+          "url": "http://www.banyuetan.org/yw/detail/20261022/1000200033137441792630567214147272_1.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6490fbd42a5112",
+          "source": "半月谈",
+          "title": "“美国AI都在搞科研，中国AI只会喂爽剧”？别让片面比较带偏AI讨论",
+          "url": "http://www.banyuetan.org/pl/detail/20261022/1000200033136001792635631042156921_1.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "51a17c19a4eb27",
+          "source": "半月谈",
+          "title": "俄方说准备11月中旬重启俄美乌三方会谈",
+          "url": "http://www.banyuetan.org/yw/detail/20261022/1000200033137441792631016830152182_1.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "60a8c8ba10b9eb",
+          "source": "半月谈",
+          "title": "哈尔滨市公安局阿城分局多措并举护航秋收安全",
+          "url": "http://www.banyuetan.org/dfgc/detail/20261022/1000200033136151792632575357154520_1.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f08c8098f37981",
+          "source": "半月谈",
+          "title": "我国中东部迎升温过程 东南沿海降雨将增多增强",
+          "url": "http://www.banyuetan.org/yw/detail/20261022/1000200033137441792630770049149111_1.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "811b626e22433c",
+          "source": "半月谈",
+          "title": "接住诚意，相信相随不相疑",
+          "url": "http://www.banyuetan.org/jrt/detail/20261022/1000200033134991792636562015159170_1.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8870c807aa9b62",
+          "source": "半月谈",
+          "title": "新华社文化随笔：热气腾腾的中国故事最动人",
+          "url": "http://www.banyuetan.org/yw/detail/20261022/1000200033137441792630634677148206_1.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5238becce7bd2b",
+          "source": "半月谈",
+          "title": "新华社记者在美国找到一批红军长征时的珍贵照片",
+          "url": "http://www.banyuetan.org/dyp/detail/20261022/1000200033135231792632583943155391_1.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3e0c5472890d31",
+          "source": "半月谈",
+          "title": "日本新任农相上任一周即陷丑闻 高市选人标准受质疑",
+          "url": "http://www.banyuetan.org/yw/detail/20261022/1000200033137441792630855127150959_1.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "41ca4d83fb0f92",
+          "source": "半月谈",
+          "title": "李强会见俄罗斯总统普京",
+          "url": "http://www.banyuetan.org/yw/detail/20261022/1000200033137441792629686043154912_1.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "69edfa6bf81c9c",
+          "source": "半月谈",
+          "title": "泽连斯基说同意“冻结现状”开启和谈",
+          "url": "http://www.banyuetan.org/yw/detail/20261022/1000200033137441792631057448153212_1.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a17b77cf469574",
+          "source": "半月谈",
+          "title": "走一路红一线，住一站红一片",
+          "url": "http://www.banyuetan.org/jrt/detail/20261022/1000200033134991792632757269158355_1.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "18f6b187099faa",
           "source": "学习强国",
           "title": "王毅会见吉布提外长奥马尔",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=4816179830741356032&item_id=4816179830741356032",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "911462cf6b0fc8",
+          "source": "新华社",
+          "title": "20年后，中国体操女团拼回这一冠",
+          "url": "https://www.news.cn/sports/20261022/e4107399e719440b8ec548cc07890a13/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "60d926c9f695c6",
+          "source": "新华社",
+          "title": "“蔷琵”逼近 浙江调整防台风应急响应为Ⅳ级",
+          "url": "https://www.news.cn/local/20261022/2a90382ff1e94ef4a2e8dc381cfab0a4/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "646699a9cb0337",
+          "source": "新华社",
+          "title": "【文明中国·看河南】我的行走日记（之三）",
+          "url": "https://www.news.cn/government/20261022/8601861962b04999adb577b44684d8a0/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "396634913c36b8",
+          "source": "新华社",
+          "title": "上海大歌剧院：为世界打开演艺“中国扇”",
+          "url": "https://www.news.cn/culture/20261022/09be3343f7a741d0873d8fa7ac0c03af/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6ba7d195c6fb45",
+          "source": "新华社",
+          "title": "两部门派工作组赴浙江",
+          "url": "https://www.news.cn/politics/20261022/000a9ae39fb746c78a5e8813c5b8f3cc/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a7735f683767c9",
+          "source": "新华社",
+          "title": "中国人民银行发行中国工农红军长征胜利90周年金银纪念币",
+          "url": "https://www.news.cn/photo/20261022/12f48ca654e74933ac428925dbcb321b/c.html",
           "date": "2026-10-22",
           "keyword": "综合时政"
         },
@@ -183981,10 +184213,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "3c5c316ae97314",
+          "id": "0b1438da6eb2f2",
           "source": "新华社",
-          "title": "亚残运会丨名古屋飘扬“中国红” 田径场一掷定乾坤",
-          "url": "https://www.news.cn/sports/20261022/a00414b4be484c88badc7661c3c26608/c.html",
+          "title": "乒乓球亚锦赛：国乒男团、女团晋级四强",
+          "url": "https://www.news.cn/sports/20261022/38b75ad19a3148798de00125ac77a915/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "870eb71e29a3ea",
+          "source": "新华社",
+          "title": "亚残运会百米赛道，他带着热爱打破纪录",
+          "url": "https://www.news.cn/sports/20261022/23816776b5fd4c16bb79337f601d1fc6/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b98fbd4f279b84",
+          "source": "新华社",
+          "title": "今天，再唱《七律·长征》",
+          "url": "https://www.news.cn/politics/20261022/e83179a4966544b2a6594915883050f6/c.html",
           "date": "2026-10-22",
           "keyword": "综合时政"
         },
@@ -184005,6 +184253,22 @@
           "keyword": "综合时政"
         },
         {
+          "id": "d474808aaa7ac6",
+          "source": "新华社",
+          "title": "伊朗南部传出数次爆炸声",
+          "url": "https://www.news.cn/world/20261022/f23ec1ab02fc4ddba787823d62de0521/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8315ef0a093dc9",
+          "source": "新华社",
+          "title": "会功夫的机器人来了 续航8小时",
+          "url": "http://www.news.cn/tech/20261022/a266b51256bf4143b186bb8bfedfaded/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "eeccd14e55a58a",
           "source": "新华社",
           "title": "俄欲重启俄美乌会谈",
@@ -184013,10 +184277,34 @@
           "keyword": "综合时政"
         },
         {
+          "id": "e707db39b19b38",
+          "source": "新华社",
+          "title": "全世界的水都会重逢——来自“良渚论坛”的文明对话",
+          "url": "https://www.news.cn/politics/20261022/bfc09bdc65f942afa897f01c1f9d93e6/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d3e55114d93406",
+          "source": "新华社",
+          "title": "再夺世锦赛金牌",
+          "url": "https://www.news.cn/sports/20261022/0a40171a5b4c4f83954d135df376df13/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "c3092e22d70d96",
           "source": "新华社",
           "title": "凝聚亚太合作新共识",
           "url": "https://www.news.cn/gangao/20261022/c7c981ebdb5b42dba180d4a898fd146a/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "572dd4f10d7b40",
+          "source": "新华社",
+          "title": "前8月全国皮革服装出口额同比增长37.9%",
+          "url": "https://www.news.cn/fashion/20261022/a9b5045622de46afafbc3167cf380087/c.html",
           "date": "2026-10-22",
           "keyword": "综合时政"
         },
@@ -184037,10 +184325,90 @@
           "keyword": "综合时政"
         },
         {
+          "id": "28be20699a6e11",
+          "source": "新华社",
+          "title": "古巴外长谴责美施压多国干预联大终止对古封锁表决",
+          "url": "https://www.news.cn/world/20261022/d1791974baa8490faa543c9e73fa02ab/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "5952203d5d541c",
           "source": "新华社",
           "title": "台湾气象部门发布台风“蔷琵”海上警报",
           "url": "https://www.news.cn/20261022/691cb31e341c489ba1d06416478e8c09/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dedc3b2e232e45",
+          "source": "新华社",
+          "title": "声波里的人民军工丨一声巨响，一曲东方红",
+          "url": "https://www.news.cn/politics/20261022/1ced677debf744adaad39f60d761b5a4/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fa48bb133db052",
+          "source": "新华社",
+          "title": "央行启动连续隔夜逆回购 首日操作量800亿元",
+          "url": "https://www.news.cn/20261022/20de198888e64643b06ccbea33a72daf/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3dc2df042d5f3f",
+          "source": "新华社",
+          "title": "实地探访 什么叫标志性重大应用场景",
+          "url": "http://www.news.cn/tech/20261022/c96bd3f46ed94b119c427a3983f5d7e4/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b612d640594830",
+          "source": "新华社",
+          "title": "寻迹中国丨俄罗斯友人探访广交会 感受中国智造实力",
+          "url": "http://gd.news.cn/20261022/7c3dc7e7fe714e2db8f4b4d0165cb2a1/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b8ea198d5a3281",
+          "source": "新华社",
+          "title": "巨头围剿 美妆“平替”迎来合规大考",
+          "url": "https://www.news.cn/fashion/20261022/4127019d50534e928a9739411ad45457/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8dd0330b2af965",
+          "source": "新华社",
+          "title": "我国将建设一批专精特新赋能中心",
+          "url": "http://www.news.cn/tech/20261022/b1d2359e135a4223ae4397cb226796c0/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "46fabb8145095e",
+          "source": "新华社",
+          "title": "文旅融合为传统村寨添活力",
+          "url": "https://www.news.cn/culture/20261022/555944217f5c4cf98352d998dbd3fe77/c.html?page=1",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "93655c806242d7",
+          "source": "新华社",
+          "title": "明边界定方向 公募投研迎来“基准锚定”大考",
+          "url": "https://www.news.cn/20261022/8487521b7f6d4d26a587f764997ad361/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c0ecd96fdc678b",
+          "source": "新华社",
+          "title": "最高检：侵犯著作权犯罪更趋产业化链条化跨境化",
+          "url": "https://www.news.cn/legal/20261022/d0c0fac5d1c24da59b0208d2ec50cb78/c.html",
           "date": "2026-10-22",
           "keyword": "综合时政"
         },
@@ -184069,10 +184437,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "d46af8f97b5359",
+          "id": "5af8ffafa68a59",
+          "source": "新华社",
+          "title": "沪浙闽启动防汛防台风四级响应",
+          "url": "https://www.news.cn/politics/20261022/7bb42599f2bd422290139fca3870f416/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0d761b711e4fae",
           "source": "新华社",
           "title": "法国总统：坚决杜绝骚乱重演",
-          "url": "https://www.news.cn/world/20261022/27761fd55707468399a576a4837436b2/c.html",
+          "url": "https://www.news.cn/20261022/89f8e7d1aab74e99814463a1e3a0a1b4/c.html",
           "date": "2026-10-22",
           "keyword": "综合时政"
         },
@@ -184081,6 +184457,22 @@
           "source": "新华社",
           "title": "王毅会见吉布提外长奥马尔",
           "url": "https://www.news.cn/politics/leaders/20261022/c6c6266538404210a77c4e7c26d8da30/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d4b73ffbdf925d",
+          "source": "新华社",
+          "title": "端牢能源饭碗的“胜利担当”",
+          "url": "https://www.news.cn/fortune/20261022/76fcbaf7f3a34fe99c5b1e682a732a4c/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "055b412f07c8d2",
+          "source": "新华社",
+          "title": "美丽中国丨鸡峰山秋色渐浓",
+          "url": "https://www.news.cn/photo/20261022/d01af8d6b8b3403992f080e1f03fbf0a/c.html",
           "date": "2026-10-22",
           "keyword": "综合时政"
         },
@@ -184117,10 +184509,50 @@
           "keyword": "综合时政"
         },
         {
-          "id": "d3e55114d93406",
+          "id": "0a85da6b83cac5",
           "source": "新华社",
-          "title": "这一冠等了20年 中国女团再夺体操世锦赛金牌",
-          "url": "https://www.news.cn/sports/20261022/0a40171a5b4c4f83954d135df376df13/c.html",
+          "title": "远古发现丨神秘古人类丹尼索瓦人有了“形态标识”",
+          "url": "https://www.news.cn/politics/20261022/e70ab53c25a24acc95849b214d3ceed5/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7da528ea8dc4e2",
+          "source": "新华社",
+          "title": "阿联酋外交官努赛贝参选下一任联合国秘书长",
+          "url": "https://www.news.cn/world/20261022/863e214e669f4eb982ff20b41f03ea23/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8e304bc65f34d8",
+          "source": "求是",
+          "title": "为巩固和发展爱国统一战线作出新的更大贡献",
+          "url": "https://www.qstheory.cn/20261022/9928e92a6f6e4ae399f53161068ae0da/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4892d00a651a32",
+          "source": "求是",
+          "title": "走好今天的长征路",
+          "url": "https://www.qstheory.cn/20261022/f61bfa28aa4e464e8b7ea08c7c7f795a/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "008f0ab12fcaf0",
+          "source": "求是",
+          "title": "长征有继 斯路常新——写在中国工农红军长征胜利90周年之际",
+          "url": "https://www.qstheory.cn/20261022/278268c009aa438ba60f9048e96ede2d/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0d4ca84de38ae4",
+          "source": "求是",
+          "title": "齐心协力走好新的长征路——纪念中国工农红军长征胜利九十周年",
+          "url": "https://www.qstheory.cn/20261022/3377281b3ac0417b889b82e6c1d6d460/c.html",
           "date": "2026-10-22",
           "keyword": "综合时政"
         }
@@ -184130,44 +184562,44 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 17.5,
+          "duration": 13.3,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261022.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 23,
-          "duration": 1.8
+          "duration": 2.5
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 21,
-          "duration": 1.9
+          "count": 50,
+          "duration": 2.0
         },
         {
           "source": "半月谈",
           "status": "ok",
-          "count": 0,
-          "duration": 17.0
+          "count": 17,
+          "duration": 15.0
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 6.1
+          "count": 6,
+          "duration": 5.9
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 19,
-          "duration": 2.1
+          "duration": 1.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 12.9
+          "duration": 15.1
         },
         {
           "source": "学习强国",
@@ -184178,17 +184610,17 @@
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 0,
-          "duration": 8.9
+          "count": 1,
+          "duration": 7.8
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 58.7
+          "duration": 88.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-10-22T08:31:07+08:00"
+  "generatedAt": "2026-10-22T10:52:25+08:00"
 }
