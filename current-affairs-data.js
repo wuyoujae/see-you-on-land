@@ -183600,59 +183600,439 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-10-22",
-      "keyword": "会见吉布提外",
+      "keyword": "科技",
       "keywords": [
         {
-          "name": "会见吉布提外",
-          "count": 2
+          "name": "科技",
+          "count": 4
         },
         {
-          "name": "吉布提外长奥",
-          "count": 2
-        },
-        {
-          "name": "布提外长奥马",
-          "count": 2
-        },
-        {
-          "name": "提外长奥马尔",
-          "count": 2
-        },
-        {
-          "name": "毅会见吉布提",
-          "count": 2
-        },
-        {
-          "name": "王毅会见吉布",
-          "count": 2
-        },
-        {
-          "name": "见吉布提外长",
-          "count": 2
+          "name": "科技创新",
+          "count": 3
         }
       ],
       "articles": [
+        {
+          "id": "05eb98bd43a1ab",
+          "source": "人民日报",
+          "title": "中共中央办公厅国务院办公厅关于推动科技创新和产业创新深度融合的意见",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187113.html",
+          "date": "2026-10-22",
+          "keyword": "科技"
+        },
+        {
+          "id": "d0055f98979e39",
+          "source": "光明日报",
+          "title": "中共中央办公厅国务院办公厅关于推动科技创新和产业创新深度融合的意见",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/22/content_28063.html",
+          "date": "2026-10-22",
+          "keyword": "科技"
+        },
+        {
+          "id": "d3afbebc8d4759",
+          "source": "光明日报",
+          "title": "科技部有关负责人就《关于推动科技创新和产业创新深度融合的意见》答记者问",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/22/content_28037.html",
+          "date": "2026-10-22",
+          "keyword": "科技"
+        },
+        {
+          "id": "c96c9f4221dcc5",
+          "source": "新华社",
+          "title": "新能源、新智造：“十大科技前瞻”聚焦未来",
+          "url": "https://www.news.cn/tech/20261022/170d9db3096b4ab5836f871aa918f665/c.html",
+          "date": "2026-10-22",
+          "keyword": "科技"
+        },
+        {
+          "id": "b8ba392bcc8b0d",
+          "source": "人民日报",
+          "title": "дЄБиЦЫз••дЉЪиІБ2026еєіеЫљйЩЕзІСе≠¶зРЖдЇЛдЉЪдЄ≠жЬЯдЉЪеСШе§ІдЉЪжЪ®еМЧдЇђзІСе≠¶еѓєиѓЭйГ®еИЖе§ЦеЃЊ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187094.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e2ee248184e1b1",
+          "source": "人民日报",
+          "title": "дЄ≠еЕ±дЄ≠е§ЃеКЮеЕђеОЕеЫљеК°йЩҐеКЮеЕђеОЕеЕ≥дЇОжО®еК®зІСжКАеИЫжЦ∞еТМдЇІдЄЪеИЫжЦ∞жЈ±еЇ¶иЮНеРИзЪДжДПиІБ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187091.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8322cc18f6a143",
+          "source": "人民日报",
+          "title": "еЬ®жЦ∞йХњеЊБиЈѓдЄКйШФж≠•еЙНи°М",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187095.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dafd5f65cde470",
+          "source": "人民日报",
+          "title": "жЭОеЉЇдЉЪиІБдњДзљЧжЦѓжАїзїЯжЩЃдЇђ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187093.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a244b24a2667ba",
+          "source": "人民日报",
+          "title": "йљРењГеНПеКЫиµ∞е•љжЦ∞зЪДйХњеЊБиЈѓпЉИз§ЊиЃЇпЉЙ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187092.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1bc86dee6f39c5",
+          "source": "人民日报",
+          "title": "中俄总理第三十一次定期会晤联合公报",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187100.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c14a9ebbf11b6c",
+          "source": "人民日报",
+          "title": "中华人民共和国和吉布提共和国外交部长关于维护非洲之角和平稳定及红海和亚丁湾航道安全的联合新闻公报",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187106.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8024ba5ec1c899",
+          "source": "人民日报",
+          "title": "中国人民银行将发行中国工农红军长征胜利90周年金银纪念币",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187112.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1b7018711fa71e",
+          "source": "人民日报",
+          "title": "为巩固和发展爱国统一战线作出新的更大贡献",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187096.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "54eb4523fd2b09",
+          "source": "人民日报",
+          "title": "产业兴旺日子好（赓续长征精神 奋进复兴征程·记者再走长征路）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187107.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c25043f491e5ef",
+          "source": "人民日报",
+          "title": "刘海星会见卢旺达爱国阵线代表团",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187105.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "565836345e8630",
+          "source": "人民日报",
+          "title": "在新长征路上阔步前行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187097.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b88ea42ecad483",
+          "source": "人民日报",
+          "title": "应对气候变化 中国持续行动（权威发布）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187110.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1be758d6625adb",
+          "source": "人民日报",
+          "title": "张庆伟出席2026中国国际友好城市大会开幕式",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187104.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "32ea2e2fdb232f",
+          "source": "人民日报",
+          "title": "推进应急管理体系和能力现代化建设（权威发布·开局起步“十五五”）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187109.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4107bec9e997c1",
+          "source": "人民日报",
+          "title": "新兴领域良性循环加快形成",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187098.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dbb34f44aeefd2",
+          "source": "人民日报",
+          "title": "李强同俄罗斯总理米舒斯京共同主持中俄总理第三十一次定期会晤",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187099.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dfa79db4c1c772",
+          "source": "人民日报",
+          "title": "王毅会见吉布提外长奥马尔",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187102.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "199a5ae336f669",
+          "source": "人民日报",
+          "title": "王毅将出席2026全球治理论坛（雄安）开幕式",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187103.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d05d10c703dda7",
+          "source": "人民日报",
+          "title": "红色课堂薪火传（赓续长征精神 奋进复兴征程·记者再走长征路）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187108.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3a690aa03cdc98",
+          "source": "人民日报",
+          "title": "纪念中国工农红军长征胜利90周年电视文艺晚会《长征颂歌》即将播出",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187111.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2951a955a10b66",
+          "source": "人民日报",
+          "title": "齐心协力走好新的长征路（社论）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187101.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1df2c1d8af1319",
+          "source": "光明日报",
+          "title": "丁薛祥会见2026年国际科学理事会中期会员大会暨北京科学对话部分外宾",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/22/content_28034.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8bbf2c4523be6a",
+          "source": "光明日报",
+          "title": "中国人民银行将发行中国工农红军长征胜利90周年金银纪念币",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/22/content_28036.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "76ff52901b7421",
+          "source": "光明日报",
+          "title": "加强国家应急管理体系和能力现代化建设",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/22/content_28050.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5f719d8ee2f8b0",
+          "source": "光明日报",
+          "title": "在新长征路上阔步前行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/22/content_28067.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b17dde2c0c642e",
+          "source": "光明日报",
+          "title": "坚持正确政治方向 夯实共同思想根基",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/22/content_28064.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3b04eb726e577e",
+          "source": "光明日报",
+          "title": "坚持绿色低碳发展 积极有力应对气候变化",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/22/content_28049.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "56aa9bffad1b0d",
+          "source": "光明日报",
+          "title": "我国首部河湖复苏行业标准发布",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/22/content_28039.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "40567bf87796be",
+          "source": "光明日报",
+          "title": "李强会见俄罗斯总统普京",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/22/content_28032.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "20ddeacc2f0819",
+          "source": "光明日报",
+          "title": "李强同俄罗斯总理米舒斯京共同主持中俄总理第三十一次定期会晤",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/22/content_28033.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f4047e5996326d",
+          "source": "光明日报",
+          "title": "第二届全国民政行业职业技能大赛决赛开幕",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/22/content_28052.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b9ee4ce35cd801",
+          "source": "光明日报",
+          "title": "纪念中国工农红军长征胜利90周年电视文艺晚会《长征颂歌》即将播出",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/22/content_28035.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a5e6cf008b92f7",
+          "source": "光明日报",
+          "title": "躬耕法治一线 守护万家安宁",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/22/content_28051.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "81eb60ed9dea48",
+          "source": "光明日报",
+          "title": "邱中建院士逝世",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/22/content_28054.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5ca0b078476421",
+          "source": "光明日报",
+          "title": "重庆黄桷沱长江大桥主桥合龙",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/22/content_28053.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "325fccfba9cab1",
+          "source": "光明日报",
+          "title": "陕西吴起：长征落脚点上的“绿色长征”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/22/content_28038.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "88008a336b8472",
+          "source": "光明日报",
+          "title": "鲜学福院士逝世",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/22/content_28055.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5e3c73474f3424",
+          "source": "光明日报",
+          "title": "齐心协力走好新的长征路",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/22/content_28065.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
         {
           "id": "18f6b187099faa",
           "source": "学习强国",
           "title": "王毅会见吉布提外长奥马尔",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=4816179830741356032&item_id=4816179830741356032",
           "date": "2026-10-22",
-          "keyword": "会见吉布提外"
+          "keyword": "综合时政"
         },
         {
-          "id": "9ef3552ed954fd",
+          "id": "19e55863c4180e",
           "source": "新华社",
-          "title": "王毅会见吉布提外长奥马尔",
-          "url": "https://www.news.cn/politics/leaders/20261022/c6c6266538404210a77c4e7c26d8da30/c.html",
+          "title": "中国裁军大使呼吁防止外空军备竞赛和武器化",
+          "url": "https://www.news.cn/world/20261022/27334213ab73494fb13f6b6b3a7a2ba7/c.html",
           "date": "2026-10-22",
-          "keyword": "会见吉布提外"
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8fba5ce345b3a7",
+          "source": "新华社",
+          "title": "乌首都基辅遭弹道导弹袭击 多次传出强烈爆炸声",
+          "url": "https://www.news.cn/20261022/88212dd583244f78bedd4eeb300cafd9/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3c5c316ae97314",
+          "source": "新华社",
+          "title": "亚残运会丨名古屋飘扬“中国红” 田径场一掷定乾坤",
+          "url": "https://www.news.cn/sports/20261022/a00414b4be484c88badc7661c3c26608/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5c7f2fdc6a55cc",
+          "source": "新华社",
+          "title": "以媒：数十架以军战机飞近伊朗边境 模拟对伊打击",
+          "url": "https://www.news.cn/world/20261022/309095206a5243bc921481da1fdeea55/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "14475eda1a32cb",
+          "source": "新华社",
+          "title": "伊媒：伊朗南部锡里克县传出数次爆炸声",
+          "url": "https://www.news.cn/20261022/566dd7bfc5ae45b3bb156bd396760678/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
         },
         {
           "id": "eeccd14e55a58a",
           "source": "新华社",
-          "title": "俄欲11月重启俄美乌三方会谈",
+          "title": "俄欲重启俄美乌会谈",
           "url": "https://www.news.cn/world/20261022/f1f1da2134da4bc4afc891ea9bd31209/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c3092e22d70d96",
+          "source": "新华社",
+          "title": "凝聚亚太合作新共识",
+          "url": "https://www.news.cn/gangao/20261022/c7c981ebdb5b42dba180d4a898fd146a/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1e407bd47cf81a",
+          "source": "新华社",
+          "title": "加拿大宣布战略产业援助计划应对美国关税冲击",
+          "url": "https://www.news.cn/20261022/c49b1e077f1144f09c7a9be609e82a6d/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6a54e41eb998d3",
+          "source": "新华社",
+          "title": "卡塔尔等四国签署国防合作谅解备忘录",
+          "url": "https://www.news.cn/20261022/a9f061ba2b2046e18cd3732abc50b8d9/c.html",
           "date": "2026-10-22",
           "keyword": "综合时政"
         },
@@ -183665,10 +184045,66 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "7e73d66e38caa0",
+          "source": "新华社",
+          "title": "李羽洁：从亚残运会“旗手”到冠军",
+          "url": "https://www.news.cn/sports/20261022/973a387cf6744194865261ceec37a918/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d011ae8ec924be",
+          "source": "新华社",
+          "title": "沙特东部油田遭无人机袭击 拦截碎片坠落致2死2伤",
+          "url": "https://www.news.cn/20261022/e7d190ff053c4518bd0399babcd479e8/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b153004a3ee86a",
+          "source": "新华社",
+          "title": "沙特达曼国际机场遭袭致一死8伤",
+          "url": "https://www.news.cn/20261022/38ea90a4ebd64c3ab5f199242d5bd049/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d46af8f97b5359",
           "source": "新华社",
           "title": "法国总统：坚决杜绝骚乱重演",
           "url": "https://www.news.cn/world/20261022/27761fd55707468399a576a4837436b2/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9ef3552ed954fd",
+          "source": "新华社",
+          "title": "王毅会见吉布提外长奥马尔",
+          "url": "https://www.news.cn/politics/leaders/20261022/c6c6266538404210a77c4e7c26d8da30/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bf30357e509dbc",
+          "source": "新华社",
+          "title": "美国 制裁与伊朗大宗商品运输相关的个人与实体",
+          "url": "https://www.news.cn/world/20261022/46c5e5162e154e4e987e800eb4c77b73/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d1a21d48b1b415",
+          "source": "新华社",
+          "title": "美国下令驻沙特“非紧急”政府雇员及家属撤离",
+          "url": "https://www.news.cn/20261022/683613cd0512440696ba157ef206ba0e/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "48d7dae9d5f27f",
+          "source": "新华社",
+          "title": "美国驻沙特使团：针对沙特的敌对行动或迅速升级",
+          "url": "https://www.news.cn/20261022/6eeb6e7d04ca4ad28e25d490dcbdf0f5/c.html",
           "date": "2026-10-22",
           "keyword": "综合时政"
         },
@@ -183679,6 +184115,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/world/20261022/da079bda63cf47c3b2122e7fa6712dcc/c.html",
           "date": "2026-10-22",
           "keyword": "综合时政"
+        },
+        {
+          "id": "d3e55114d93406",
+          "source": "新华社",
+          "title": "这一冠等了20年 中国女团再夺体操世锦赛金牌",
+          "url": "https://www.news.cn/sports/20261022/0a40171a5b4c4f83954d135df376df13/c.html",
+          "date": "2026-10-22",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -183686,67 +184130,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 10.8,
+          "duration": 17.5,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261022.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.4,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/22/node_01.html"
+          "status": "ok",
+          "count": 23,
+          "duration": 1.8
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 5,
-          "duration": 4.2
+          "count": 21,
+          "duration": 1.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 16.4
+          "duration": 17.0
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 5.3
+          "duration": 6.1
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.3,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/22/node_01.html"
+          "status": "ok",
+          "count": 19,
+          "duration": 2.1
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 16.9
+          "duration": 12.9
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 1,
-          "duration": 3.1
+          "duration": 2.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.0
+          "duration": 8.9
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 45.2
+          "duration": 58.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-10-22T03:08:04+08:00"
+  "generatedAt": "2026-10-22T08:31:07+08:00"
 };
