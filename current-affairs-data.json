@@ -185546,25 +185546,121 @@
     },
     {
       "date": "2026-10-23",
-      "keyword": "十五五",
+      "keyword": "习近平",
       "keywords": [
         {
-          "name": "十五五",
-          "count": 3
+          "name": "习近平",
+          "count": 9
         },
         {
           "name": "高质量发展",
+          "count": 5
+        },
+        {
+          "name": "十五五",
+          "count": 5
+        },
+        {
+          "name": "经济",
+          "count": 3
+        },
+        {
+          "name": "习近平党建思想",
+          "count": 2
+        },
+        {
+          "name": "粤港澳大湾区",
+          "count": 2
+        },
+        {
+          "name": "经济发展",
+          "count": 2
+        },
+        {
+          "name": "教育",
           "count": 2
         }
       ],
       "articles": [
+        {
+          "id": "39baf8b38c46da",
+          "source": "中国政府网",
+          "title": "习近平对西藏那曲市巴青县7.0级地震作出重要指示",
+          "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7084071.htm",
+          "date": "2026-10-23",
+          "keyword": "习近平"
+        },
+        {
+          "id": "de09537e25dc84",
+          "source": "半月谈",
+          "title": "习近平对西藏那曲市巴青县7.0级地震作出重要指示",
+          "url": "http://www.banyuetan.org/yw/detail/20261023/1000200033137441792718602141173493_1.html",
+          "date": "2026-10-23",
+          "keyword": "习近平"
+        },
+        {
+          "id": "f6018acffad0d6",
+          "source": "学习强国",
+          "title": "习近平对西藏那曲市巴青县7.0级地震作出重要指示",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=11754284418798334119&item_id=11754284418798334119",
+          "date": "2026-10-23",
+          "keyword": "习近平"
+        },
+        {
+          "id": "406a6dc89e2cdb",
+          "source": "学习强国",
+          "title": "学习领悟《习近平党建文选》㊱：加强纪律教育 养成纪律自觉",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=7931031398391181916&item_id=7931031398391181916",
+          "date": "2026-10-23",
+          "keyword": "习近平"
+        },
+        {
+          "id": "298e6e8e3e9dbf",
+          "source": "广东发布",
+          "title": "习近平对西藏那曲市巴青县7.0级地震作出重要指示",
+          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4969821.html",
+          "date": "2026-10-23",
+          "keyword": "习近平"
+        },
+        {
+          "id": "9b1d680d9acf71",
+          "source": "新华社",
+          "title": "习近平对西藏那曲市巴青县7.0级地震作出重要指示",
+          "url": "https://www.news.cn/politics/leaders/20261023/c3ceb86e65d94375b24d64eeef281e45/c.html",
+          "date": "2026-10-23",
+          "keyword": "习近平"
+        },
+        {
+          "id": "dce6287a6ece1c",
+          "source": "求是",
+          "title": "习近平对西藏那曲市巴青县7.0级地震作出重要指示",
+          "url": "https://www.qstheory.cn/20261023/f25e534b13404af7963424ebc9db7089/c.html",
+          "date": "2026-10-23",
+          "keyword": "习近平"
+        },
+        {
+          "id": "33161171e977a9",
+          "source": "求是",
+          "title": "以习近平党建思想引领中共党史党建学自主知识体系构建",
+          "url": "https://www.qstheory.cn/20261023/50515a085b124985aa8497d0ec52ffea/c.html",
+          "date": "2026-10-23",
+          "keyword": "习近平"
+        },
+        {
+          "id": "4176bd0188669c",
+          "source": "求是",
+          "title": "深刻把握习近平党建思想“十四个坚持”的科学体系与内在逻辑",
+          "url": "https://www.qstheory.cn/20261023/0309ede7bd6b49ffa490478f86267a77/c.html",
+          "date": "2026-10-23",
+          "keyword": "习近平"
+        },
         {
           "id": "0edec2c048e745",
           "source": "人民日报",
           "title": "全力推动商务高质量发展不断取得新成效（权威发布·开局起步“十五五”）",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187343.html",
           "date": "2026-10-23",
-          "keyword": "十五五"
+          "keyword": "高质量发展"
         },
         {
           "id": "4be82773056a5d",
@@ -185575,12 +185671,92 @@
           "keyword": "十五五"
         },
         {
+          "id": "cfb54c61dcbe1a",
+          "source": "半月谈",
+          "title": "培育消费新动能 拓展开放新空间——国新办发布会聚焦“十五五”商务高质量发展",
+          "url": "http://www.banyuetan.org/yw/detail/20261023/1000200033137441792717171263171351_1.html",
+          "date": "2026-10-23",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "495f1a2850ecb0",
+          "source": "半月谈",
+          "title": "聚力奋发 推动高质量发展行稳致远——“十五五”专项规划观察之二",
+          "url": "http://www.banyuetan.org/yw/detail/20261023/1000200033137441792717015872170445_1.html",
+          "date": "2026-10-23",
+          "keyword": "高质量发展"
+        },
+        {
           "id": "c82d12e0666acf",
           "source": "新华社",
           "title": "“十五五”专项规划观察之二：聚力奋发 推动高质量发展行稳致远",
           "url": "https://www.news.cn/politics/20261023/20e214b2bed846c2b3cfc76c749172a6/c.html",
           "date": "2026-10-23",
-          "keyword": "十五五"
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "a1b4a5711e9b74",
+          "source": "求是",
+          "title": "聚力奋发 推动高质量发展行稳致远",
+          "url": "https://www.qstheory.cn/20261023/2e5f703adc614131890888551c26ba1c/c.html",
+          "date": "2026-10-23",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "b06aaf7ad80eea",
+          "source": "人民日报",
+          "title": "“中国经济发展韧性和活力持续彰显，为世界带来更多机遇”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187335.html",
+          "date": "2026-10-23",
+          "keyword": "经济"
+        },
+        {
+          "id": "331b775b2d1453",
+          "source": "新华社",
+          "title": "四川经济发展观察：顶住压力 升级动力 激发活力",
+          "url": "https://www.news.cn/fortune/20261023/ba91a1d09ccd47a3bb9ae618e5ddaf68/c.html",
+          "date": "2026-10-23",
+          "keyword": "经济"
+        },
+        {
+          "id": "71a126b8dcbe80",
+          "source": "新华社",
+          "title": "适配 精准 共生 金融业不断提升服务实体经济质效",
+          "url": "https://www.news.cn/20261023/8873d3213ec3491b89f6af900c350477/c.html",
+          "date": "2026-10-23",
+          "keyword": "经济"
+        },
+        {
+          "id": "eb63fcabddfb0c",
+          "source": "人民日报",
+          "title": "梁振英出席第四届粤港澳大湾区发展工商大会开幕式并致辞",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187348.html",
+          "date": "2026-10-23",
+          "keyword": "粤港澳大湾区"
+        },
+        {
+          "id": "e50ce1c8569296",
+          "source": "广东发布",
+          "title": "融通湾区 链动世界——第四届粤港澳大湾区发展工商大会综述",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4969767.html",
+          "date": "2026-10-23",
+          "keyword": "粤港澳大湾区"
+        },
+        {
+          "id": "8e6660b82d3eae",
+          "source": "新华社",
+          "title": "广东省教育厅原副厅长魏中林被开除党籍",
+          "url": "https://www.news.cn/legal/20261023/a778329352ed4d7088d095041fba92b1/c.html",
+          "date": "2026-10-23",
+          "keyword": "教育"
+        },
+        {
+          "id": "38d06d8ee5283f",
+          "source": "中国政府网",
+          "title": "国务院抗震救灾指挥部办公室等将国家地震灾害应急响应提升至三级",
+          "url": "https://www.gov.cn/lianbo/202610/content_7084076.htm",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
         },
         {
           "id": "21ad4d3e988c0e",
@@ -185611,14 +185787,6 @@
           "source": "人民日报",
           "title": "иµµдєРйЩЕдЄїжМБеПђеЉАеНБеЫЫе±КеЕ®еЫљдЇЇе§ІеЄЄеІФдЉЪзђђдЄГеНБеЫЫжђ°еІФеСШйХњдЉЪиЃЃ",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187331.html",
-          "date": "2026-10-23",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "b06aaf7ad80eea",
-          "source": "人民日报",
-          "title": "“中国经济发展韧性和活力持续彰显，为世界带来更多机遇”",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187335.html",
           "date": "2026-10-23",
           "keyword": "综合时政"
         },
@@ -185707,14 +185875,6 @@
           "source": "人民日报",
           "title": "弘扬伟大长征精神 奋力创造新的辉煌",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187333.html",
-          "date": "2026-10-23",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "eb63fcabddfb0c",
-          "source": "人民日报",
-          "title": "梁振英出席第四届粤港澳大湾区发展工商大会开幕式并致辞",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187348.html",
           "date": "2026-10-23",
           "keyword": "综合时政"
         },
@@ -185911,18 +186071,258 @@
           "keyword": "综合时政"
         },
         {
-          "id": "c417e8e1c0080d",
-          "source": "新华社",
-          "title": "中方：安理会改革要改变发达国家代表性过剩的局面",
-          "url": "https://www.news.cn/world/20261023/2214de6f2e14439c88c4fed731d6a033/c.html",
+          "id": "0954a67073e76f",
+          "source": "半月谈",
+          "title": "“想一想红军长征两万五”，是中国人永远的动力之源",
+          "url": "http://www.banyuetan.org/pl/detail/20261023/1000200033136001792722500363172904_1.html",
           "date": "2026-10-23",
           "keyword": "综合时政"
         },
         {
-          "id": "fa1ba48ef81d91",
+          "id": "8b9a790b06f59d",
+          "source": "半月谈",
+          "title": "《对外投资管理办法》发布 自12月1日起施行",
+          "url": "http://www.banyuetan.org/yw/detail/20261023/1000200033137441792717289426172489_1.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "30c6342069451f",
+          "source": "半月谈",
+          "title": "台风“蔷琵”逼近 多部门部署防范",
+          "url": "http://www.banyuetan.org/yw/detail/20261023/1000200033137441792718220829170073_1.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "802e6da785b111",
+          "source": "半月谈",
+          "title": "在制度上更好保障对外投资发展和安全——国家发展改革委有关负责人就《对外投资管理办法》答记者问",
+          "url": "http://www.banyuetan.org/yw/detail/20261023/1000200033137441792717664460166801_1.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5831735ef25452",
+          "source": "半月谈",
+          "title": "天堑架双桥——贵州长征故地展现时代新貌",
+          "url": "http://www.banyuetan.org/yw/detail/20261023/1000200033137441792716869906169162_1.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c03a4ad9e11050",
+          "source": "半月谈",
+          "title": "把街边打造成“城市栖息地”",
+          "url": "http://www.banyuetan.org/jczl/detail/20261023/1000200033136021792723524510173600_1.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "95942deac3dbe8",
+          "source": "半月谈",
+          "title": "数字人民币“基座”全面升级将带来哪些改变",
+          "url": "http://www.banyuetan.org/yw/detail/20261023/1000200033137441792717948420168140_1.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "814b52f757181e",
+          "source": "半月谈",
+          "title": "新华时评丨警惕日本正滑入“新的战前状态”",
+          "url": "http://www.banyuetan.org/yw/detail/20261023/1000200033137441792718478132171806_1.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1faf923f60f056",
+          "source": "半月谈",
+          "title": "算力成底座、AI进实验室——从第23届中国计算机大会看人工智能发展新动向",
+          "url": "http://www.banyuetan.org/yw/detail/20261023/1000200033137441792717845211167036_1.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "631d85217b5b91",
+          "source": "半月谈",
+          "title": "西藏那曲市巴青县地震已致16人遇难、54人受伤",
+          "url": "http://www.banyuetan.org/yw/detail/20261023/1000200033137441792718039143169069_1.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0be03e859d495b",
+          "source": "学习强国",
+          "title": "从万里远征走向伟大复兴",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=9105322885516742079&item_id=9105322885516742079",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "baf5e1e73467b0",
+          "source": "学习强国",
+          "title": "在新的长征路上奋力创造新的辉煌",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=4770997801786920666&item_id=4770997801786920666",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ae10cc03fd93a4",
+          "source": "学习强国",
+          "title": "坚守联合国理想，携手开创人类共同美好未来",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2006709278454593331&item_id=2006709278454593331",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "30b11d8a664f38",
+          "source": "学习强国",
+          "title": "央视快评：在新的长征路上奋力创造新的辉煌",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=11771668503852167152&item_id=11771668503852167152",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "07755bccb08e27",
+          "source": "学习强国",
+          "title": "学习快评：感悟伟大长征精神的力量",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=8468255914043182870&item_id=8468255914043182870",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "81cf476d5e3d52",
+          "source": "学习强国",
+          "title": "新华时评：警惕日本正滑入“新的战前状态”",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=14429283743224526713&item_id=14429283743224526713",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "50950d32da384d",
+          "source": "学习强国",
+          "title": "赓续长征薪火 勇毅再启新程",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=12877239749945470978&item_id=12877239749945470978",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "911970a6070fe3",
+          "source": "学习强国",
+          "title": "重温历史是为了汲取奋进的智慧和力量",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=13217905393863074789&item_id=13217905393863074789",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8183542936eaf1",
+          "source": "广东发布",
+          "title": "\"一带一路\"与广东",
+          "url": "https://www.gd.gov.cn/gdywdt/ydylygd/index.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "37b4b6df6fd778",
+          "source": "广东发布",
+          "title": "优质岗位超1500个！“百万英才汇南粤”2026年制造业秋季专题招聘活动10月23日举办",
+          "url": "https://www.gd.gov.cn/gdywdt/bmdt/content/post_4969346.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "165128f6ce4f2d",
+          "source": "广东发布",
+          "title": "广交会第二期线下展今开启 聚焦“品质家居” 约1.1万家企业参加出口展",
+          "url": "https://www.gd.gov.cn/gdywdt/ydylygd/content/post_4969751.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5e16ba234d4c70",
           "source": "新华社",
-          "title": "乒乓球亚锦赛：国乒男团实现四连冠 女团屈居亚军",
-          "url": "https://www.news.cn/sports/20261023/3ded6822f44742e4946ab778e6e0f3fc/c.html",
+          "title": "152项典型案例展现安全应急装备最新演进成果",
+          "url": "http://www.news.cn/tech/20261023/adf81dd786e54bcdb609eb495a901980/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aff44a30197caf",
+          "source": "新华社",
+          "title": "2025年中国创新指数比上年增长6.4%",
+          "url": "https://www.news.cn/fortune/20261023/8eef05765b254a33b0ac77db80f1dde6/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "55f4f42822e6a9",
+          "source": "新华社",
+          "title": "“未来之城”风采初显——河北雄安新区高质量建设发展一线观察",
+          "url": "https://www.news.cn/politics/20261023/ae2245bc74cb4a10a9133a71bd74cd17/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bb0d50b818a4c4",
+          "source": "新华社",
+          "title": "《中国工农红军长征胜利90周年》纪念邮票、邮品发行",
+          "url": "https://www.news.cn/culture/20261023/b01ef619a1bd4c88b495e41e64bba899/c.html?page=1",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c063e0d83d401e",
+          "source": "新华社",
+          "title": "一粒粮的成本重塑记——中原粮仓农业生产降本增效一线观察",
+          "url": "http://www.ha.xinhuanet.com/20261023/5faa0984ac374c4a9bcc0aafb7a5e3f2/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "65630d2f45e6c1",
+          "source": "新华社",
+          "title": "东南沿海将迎强降雨",
+          "url": "https://www.news.cn/politics/20261023/84afac65814c48c5b31f795d5670e3ce/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e9c17526be0677",
+          "source": "新华社",
+          "title": "中国故事丨美国老人柏大卫的中国乡愁",
+          "url": "https://www.news.cn/politics/20261023/2b1ae6e8c4444eed8292a711f5165ed6/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6460356b4a9641",
+          "source": "新华社",
+          "title": "中国海军第48批护航编队完成任务返回青岛",
+          "url": "https://www.news.cn/20261023/994099657cde418bae74bd8e8571e103/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "58ae6dcae15788",
+          "source": "新华社",
+          "title": "中国足协：女足主帅米利西奇离任",
+          "url": "https://www.news.cn/sports/20261023/310b4cf0c63c47b48f7a8c6f731643e7/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "563c557a3d0253",
+          "source": "新华社",
+          "title": "中小银行债券投资“攻守换防” 久期策略回归审慎",
+          "url": "https://www.news.cn/20261023/2167872b2a954e2496d383c58cb484f0/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c417e8e1c0080d",
+          "source": "新华社",
+          "title": "中方：安理会改革要改变发达国家代表性过剩的局面",
+          "url": "https://www.news.cn/world/20261023/2214de6f2e14439c88c4fed731d6a033/c.html",
           "date": "2026-10-23",
           "keyword": "综合时政"
         },
@@ -185935,10 +186335,66 @@
           "keyword": "综合时政"
         },
         {
+          "id": "b7ac4229a05a77",
+          "source": "新华社",
+          "title": "你们好，我是雪豹",
+          "url": "https://www.news.cn/20261023/b867485ecba44e069fc0123688aed333/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "678f7d3bf5b111",
+          "source": "新华社",
+          "title": "再访罗开富：“半条被子”之外",
+          "url": "https://www.news.cn/politics/20261023/3c6c2a9afaae476ca27bacdc48a1242f/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2c0ef7e0979845",
+          "source": "新华社",
+          "title": "刷屏的特斯拉“飞行汽车”为何让世界目瞪口呆",
+          "url": "http://www.news.cn/tech/20261023/b0474ba0bacc440b86b2ad8db1563a8b/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "07b8b305920ba7",
+          "source": "新华社",
+          "title": "北京多个老旧小区靠什么“逆龄生长”",
+          "url": "https://www.news.cn/government/20261023/755758a4d625481d8eebf8dbef1ef38d/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "3ad8e625772ac7",
           "source": "新华社",
           "title": "卢浮宫等场馆24日临时闭馆",
           "url": "https://www.news.cn/world/20261023/608d0553f29c48779d911416f548f17d/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "815c80a7c292a4",
+          "source": "新华社",
+          "title": "受地震影响的青藏铁路格拉段恢复列车运行",
+          "url": "https://www.news.cn/20261023/f1b4172459724f2ba1ad03acd5506161/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "12df8502da1ecb",
+          "source": "新华社",
+          "title": "哈达铺，长征路上温暖的烟火",
+          "url": "https://www.news.cn/politics/20261023/51f0a20c2be742aaaa5f4f583c33b147/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4280fc840670f0",
+          "source": "新华社",
+          "title": "国家地震灾害应急响应升至三级",
+          "url": "https://www.news.cn/politics/20261023/68af256675004e06991e7de3e0cf1c25/c.html",
           "date": "2026-10-23",
           "keyword": "综合时政"
         },
@@ -185959,10 +186415,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "368a5a662a011b",
+          "id": "f796630d215b4a",
           "source": "新华社",
-          "title": "多方力量奔赴灾区",
-          "url": "https://www.news.cn/politics/20261023/6e2a342673114e3c975ad62a02972027/c.html",
+          "title": "完善人民陪审制 最高法例举牟某虐待案、火锅 小便案",
+          "url": "https://www.news.cn/legal/20261023/87323a9b323e419398728bd928b5b7d5/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "661bc887f9c702",
+          "source": "新华社",
+          "title": "工信部工业软件标准化技术委员会成立",
+          "url": "http://www.news.cn/tech/20261023/5b8898cc4b1a48b7aad86606c1100846/c.html",
           "date": "2026-10-23",
           "keyword": "综合时政"
         },
@@ -185983,6 +186447,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "168c0b61c52e87",
+          "source": "新华社",
+          "title": "提升产业基础能力 八部门划定七大重点",
+          "url": "https://www.news.cn/fortune/20261023/b4defb1b72e747b696a412b5c8e3f2f6/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "93470d962bebf9",
           "source": "新华社",
           "title": "救灾物资已陆续运抵西藏巴青县地震灾区",
@@ -185991,10 +186463,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "1a6406b18c6163",
+          "id": "2e1f0f2096949c",
           "source": "新华社",
-          "title": "救灾物资陆续运抵",
-          "url": "https://www.news.cn/politics/20261023/6c57a78d3ef246c998b98a88e9896712/c.html",
+          "title": "文旅新空间丨遗址添“新景”",
+          "url": "https://www.news.cn/fortune/20261023/1787f88889074bacb67c95451892aa93/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a90ecfadca23b0",
+          "source": "新华社",
+          "title": "日本核心CPI连续61个月上涨",
+          "url": "https://www.news.cn/20261023/63ee1de7513546a7ab85cca70dc52052/c.html",
           "date": "2026-10-23",
           "keyword": "综合时政"
         },
@@ -186003,6 +186483,86 @@
           "source": "新华社",
           "title": "普京：重启俄美乌三方会谈不是仅为短暂停火",
           "url": "https://www.news.cn/world/20261023/b19bb4675c3e474ab0c647d43784195f/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "738310cb89b56a",
+          "source": "新华社",
+          "title": "最高检：充分发挥行政生效裁判监督效能",
+          "url": "https://www.news.cn/legal/20261023/69210ce33954422db69d6c3f003386fb/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5e0b1fb90dc8e2",
+          "source": "新华社",
+          "title": "江西鹰潭：林间咖啡香",
+          "url": "http://jx.news.cn/20261023/80b5e08c8eac402593f869b944a7febc/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dd115de2ecf99a",
+          "source": "新华社",
+          "title": "沙特主导联军称拦截也门胡塞武装导弹、无人机",
+          "url": "https://www.news.cn/world/20261023/c85e660c908c400f93b5ef477d14bb60/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "793e2e28bf4476",
+          "source": "新华社",
+          "title": "河南开封：一城菊韵 满城芳华",
+          "url": "http://ha.news.cn/20261023/49d798f9e12f4ecfb28f6996b01adf99/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bd660baa84a8e1",
+          "source": "新华社",
+          "title": "浙江防台风应急响应升至Ⅲ级",
+          "url": "https://www.news.cn/politics/20261023/7fff1b7b7e9349adbf2a9d7db4756125/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bed76e88d88238",
+          "source": "新华社",
+          "title": "牦牛、青稞与镰刀——风雪长征的民族团结印记",
+          "url": "https://www.news.cn/politics/20261023/dbaac6327beb40a490eb4d209b960ecc/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "03782cfbc70d9d",
+          "source": "新华社",
+          "title": "瞄准五大重点，老旧街区厂区这么改",
+          "url": "https://www.news.cn/politics/20261023/d57fb4238bc74071a1b4f1ff64fbaca2/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "51a07d4232c557",
+          "source": "新华社",
+          "title": "秘鲁政府将追加开支应对厄尔尼诺等挑战",
+          "url": "https://www.news.cn/world/20261023/99629be2d3ce4b49890af059923a5aea/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4d4ead15f9bb78",
+          "source": "新华社",
+          "title": "第19届长江韬奋奖评选结果公示",
+          "url": "https://www.news.cn/politics/20261023/e85794df7cd74fd5a98b23d641548d82/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c057ff7fd368d0",
+          "source": "新华社",
+          "title": "第36届中国新闻奖",
+          "url": "https://www.news.cn/politics/20261023/e0c2548ad1c74fefb99cf64c22c769ff/c.html",
           "date": "2026-10-23",
           "keyword": "综合时政"
         },
@@ -186039,14 +186599,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "15834375974a7b",
-          "source": "新华社",
-          "title": "薪火相传 中国轮椅女篮达成亚残运会四连冠",
-          "url": "https://www.news.cn/sports/20261023/408feff015824ff3bb95b42c33ce2c1f/c.html",
-          "date": "2026-10-23",
-          "keyword": "综合时政"
-        },
-        {
           "id": "9094c3fad7b612",
           "source": "新华社",
           "title": "西藏启动自治区地震灾害二级应急响应",
@@ -186055,10 +186607,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "a94c7de34d48ac",
+          "id": "e086303c9be086",
           "source": "新华社",
-          "title": "西藏那曲市巴青县7.0级地震已致16人遇难",
-          "url": "https://www.news.cn/politics/20261023/1504202b7b854ca581a7d3c85c2d9251/c.html",
+          "title": "西藏巴青县地震已致16人遇难54人受伤",
+          "url": "https://www.news.cn/politics/20261023/93a1331e7ecc4cbbb05fc38e62571053/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b78a35646737ac",
+          "source": "新华社",
+          "title": "西藏巴青地震：多方力量保障救援",
+          "url": "https://www.news.cn/politics/20261023/d78aeea43acb4c31a3f7f621a3898c65/c.html",
           "date": "2026-10-23",
           "keyword": "综合时政"
         },
@@ -186087,10 +186647,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "74a41df611edb9",
+          "id": "7b5be7269773aa",
           "source": "新华社",
-          "title": "西部战区部队连夜驰援",
-          "url": "https://www.news.cn/politics/20261023/ef281337315145e6b55aff6f8aa961cb/c.html",
+          "title": "记者手记丨在马斯喀特，他们从中国电影里看见什么",
+          "url": "https://www.news.cn/world/20261023/26630ba79c414ea98d64b55ec882ca6b/c.html",
           "date": "2026-10-23",
           "keyword": "综合时政"
         },
@@ -186103,18 +186663,90 @@
           "keyword": "综合时政"
         },
         {
-          "id": "d62824dbb52f86",
-          "source": "新华社",
-          "title": "金融街论坛非洲分会场聚焦“一带一路”投融资合作",
-          "url": "https://www.news.cn/silkroad/20261023/e5d52f2699c84d3980ab7846acd1d060/c.html",
-          "date": "2026-10-23",
-          "keyword": "综合时政"
-        },
-        {
           "id": "e1daedc2b49fe8",
           "source": "新华社",
           "title": "韩国就韩朝非军事区地雷爆炸事件致函联合国安理会",
           "url": "https://www.news.cn/world/20261023/7becbf4b9f01435784035e5f236378fe/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "deeae4b718a718",
+          "source": "新华社",
+          "title": "首批救灾物资运抵灾区",
+          "url": "https://www.news.cn/politics/20261023/b7c84a3ae9d14fbeb9b4090616728c6e/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d141f2b4cc06fd",
+          "source": "求是",
+          "title": "“十四五”时期我国吸收外商直接投资超7500亿美元",
+          "url": "https://www.qstheory.cn/20261023/bc345ce3b3ec4a5a9909c53eea1c62bd/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e7e6291d602de8",
+          "source": "求是",
+          "title": "《对外投资管理办法》发布 自12月1日起施行",
+          "url": "https://www.qstheory.cn/20261023/72ebc5613b79412a93d5c415e60388a7/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7f870ade60ab5f",
+          "source": "求是",
+          "title": "培育消费新动能 拓展开放新空间",
+          "url": "https://www.qstheory.cn/20261023/2431fa84dbac4cb1a8c6eb0fe001aa3a/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "23c7fc0c742466",
+          "source": "求是",
+          "title": "外媒：美国或于明年开始扩建格陵兰岛军事设施",
+          "url": "https://www.qstheory.cn/20261023/c7865269ea364a2e882fe7a82149da5f/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c47e874de5b6f1",
+          "source": "求是",
+          "title": "总书记重要讲话激励全党全军全国各族人民勇毅前行",
+          "url": "https://www.qstheory.cn/20261023/b8331563078546db8d1a63e7feaddbcd/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3742303d91c4f0",
+          "source": "求是",
+          "title": "数字人民币“基座”全面升级将带来哪些改变",
+          "url": "https://www.qstheory.cn/20261023/0489dda61c9f41ebae96c4911c283b14/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b07ad39d97324b",
+          "source": "求是",
+          "title": "普京：重启俄美乌三方会谈不是仅为短暂停火",
+          "url": "https://www.qstheory.cn/20261023/a38c8518c10f49b395fd3be33f6a9ad7/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cb83dcd64121b3",
+          "source": "求是",
+          "title": "法国总统马克龙称未来数日将禁止非法抗议活动",
+          "url": "https://www.qstheory.cn/20261023/d9537b2925394f2bac92f7f2ee1b650d/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7c0e0742367837",
+          "source": "求是",
+          "title": "算力成底座、AI进实验室",
+          "url": "https://www.qstheory.cn/20261023/fac2905e140f456484bbb94a03398429/c.html",
           "date": "2026-10-23",
           "keyword": "综合时政"
         }
@@ -186124,65 +186756,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 4.5,
+          "duration": 10.2,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261023.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 24,
-          "duration": 1.9
+          "duration": 3.4
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 27,
-          "duration": 3.0
+          "count": 60,
+          "duration": 2.8
         },
         {
           "source": "半月谈",
           "status": "ok",
-          "count": 0,
-          "duration": 19.3
+          "count": 13,
+          "duration": 16.1
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 6.2
+          "count": 13,
+          "duration": 5.5
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 19,
-          "duration": 1.5
+          "duration": 2.2
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 18.4
+          "duration": 18.8
         },
         {
           "source": "学习强国",
           "status": "ok",
-          "count": 0,
-          "duration": 2.1
+          "count": 10,
+          "duration": 2.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 0,
-          "duration": 9.5
+          "count": 2,
+          "duration": 11.3
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 0,
-          "duration": 57.5
+          "count": 5,
+          "duration": 76.9
         }
       ]
     }
   ],
-  "generatedAt": "2026-10-23T08:29:19+08:00"
+  "generatedAt": "2026-10-23T10:55:51+08:00"
 }
