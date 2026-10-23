@@ -185546,89 +185546,33 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-10-23",
-      "keyword": "西藏那曲",
+      "keyword": "十五五",
       "keywords": [
         {
-          "name": "西藏那曲",
-          "count": 4
+          "name": "十五五",
+          "count": 3
         },
         {
-          "name": "已有人员遇难",
-          "count": 2
-        },
-        {
-          "name": "藏那曲市巴青",
-          "count": 2
-        },
-        {
-          "name": "西藏那曲市巴",
-          "count": 2
-        },
-        {
-          "name": "那曲市巴青县",
-          "count": 2
-        },
-        {
-          "name": "级应急响应",
+          "name": "高质量发展",
           "count": 2
         }
       ],
       "articles": [
         {
-          "id": "94680380acae84",
-          "source": "新华社",
-          "title": "国道317线西藏那曲部分路段实施全封闭交通管制",
-          "url": "https://www.news.cn/20261023/517802684df3442681cfaf5607344f34/c.html",
+          "id": "0edec2c048e745",
+          "source": "人民日报",
+          "title": "全力推动商务高质量发展不断取得新成效（权威发布·开局起步“十五五”）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187343.html",
           "date": "2026-10-23",
-          "keyword": "西藏那曲"
+          "keyword": "十五五"
         },
         {
-          "id": "8b83f0d7666b1d",
-          "source": "新华社",
-          "title": "西藏那曲市巴青县发生7.0级地震",
-          "url": "https://www.news.cn/politics/20261023/69ada425164b493e84d3ecd36f363692/c.html",
+          "id": "4be82773056a5d",
+          "source": "光明日报",
+          "title": "《产业基础能力提升“十五五”规划》发布",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/23/content_28115.html",
           "date": "2026-10-23",
-          "keyword": "西藏那曲"
-        },
-        {
-          "id": "80c9c5ff857d99",
-          "source": "新华社",
-          "title": "西藏那曲市巴青县地震已有人员遇难",
-          "url": "https://www.news.cn/20261023/ede07511f41a4ac1a42cafc4441b9630/c.html",
-          "date": "2026-10-23",
-          "keyword": "西藏那曲"
-        },
-        {
-          "id": "286dc75cc803e3",
-          "source": "新华社",
-          "title": "途经西藏那曲列车已紧急扣停进行全面巡检",
-          "url": "https://www.news.cn/20261023/a20f7e63dfe248508cb637194148aab8/c.html",
-          "date": "2026-10-23",
-          "keyword": "西藏那曲"
-        },
-        {
-          "id": "0fdcd7bcb57a7b",
-          "source": "新华社",
-          "title": "已有人员遇难",
-          "url": "https://www.news.cn/politics/20261023/696d55393c2f4bb693e9a5640109b65f/c.html",
-          "date": "2026-10-23",
-          "keyword": "已有人员遇难"
-        },
-        {
-          "id": "5dd53bb4cd2c1f",
-          "source": "新华社",
-          "title": "应急管理部 启动国家自然灾害救助四级应急响应",
-          "url": "https://www.news.cn/politics/20261023/fbba81de975c4cfaa5670ab0a2d01df0/c.html",
-          "date": "2026-10-23",
-          "keyword": "级应急响应"
-        },
-        {
-          "id": "9094c3fad7b612",
-          "source": "新华社",
-          "title": "西藏启动自治区地震灾害二级应急响应",
-          "url": "https://www.news.cn/20261023/6225cf13052b4c96bf3df9a6fc58153f/c.html",
-          "date": "2026-10-23",
-          "keyword": "级应急响应"
+          "keyword": "十五五"
         },
         {
           "id": "c82d12e0666acf",
@@ -185636,13 +185580,397 @@ window.CURRENT_AFFAIRS_DATA = {
           "title": "“十五五”专项规划观察之二：聚力奋发 推动高质量发展行稳致远",
           "url": "https://www.news.cn/politics/20261023/20e214b2bed846c2b3cfc76c749172a6/c.html",
           "date": "2026-10-23",
+          "keyword": "十五五"
+        },
+        {
+          "id": "21ad4d3e988c0e",
+          "source": "人民日报",
+          "title": "еЬ®жЦ∞зЪДйХњеЊБиЈѓдЄКе•ЛеКЫеИЫйА†жЦ∞зЪДиЊЙзЕМ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187329.html",
+          "date": "2026-10-23",
           "keyword": "综合时政"
         },
         {
-          "id": "c21caa5d299091",
+          "id": "63e6c16862387f",
+          "source": "人民日报",
+          "title": "жЭОеЉЇзїУжЭЯеЗЇиЃњеЫЮеИ∞еМЧдЇђ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187330.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a39f6d31bc0705",
+          "source": "人民日报",
+          "title": "зЇ™ењµдЄ≠еЫљеЈ•еЖЬзЇҐеЖЫйХњеЊБиГЬеИ©90еС®еєіе§ІдЉЪеЬ®дЇђйЪЖйЗНдЄЊи°М",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187328.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9a1dd9fa588376",
+          "source": "人民日报",
+          "title": "иµµдєРйЩЕдЄїжМБеПђеЉАеНБеЫЫе±КеЕ®еЫљдЇЇе§ІеЄЄеІФдЉЪзђђдЄГеНБеЫЫжђ°еІФеСШйХњдЉЪиЃЃ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187331.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b06aaf7ad80eea",
+          "source": "人民日报",
+          "title": "“中国经济发展韧性和活力持续彰显，为世界带来更多机遇”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187335.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "11985d52615cf0",
+          "source": "人民日报",
+          "title": "“党的创新理论大家读”丛书（第一辑）出版发行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187347.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "76e6fa3223e0d0",
+          "source": "人民日报",
+          "title": "“长征的历史从未远去，长征精神就在我们身边”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187337.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b26731e68f56be",
+          "source": "人民日报",
+          "title": "《中国工农红军长征胜利90周年》纪念邮票发行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187349.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6f30d17bb0ac5e",
+          "source": "人民日报",
+          "title": "一个渡口的文旅启示（专家点评）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187346.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f3deb9e4d74b6e",
+          "source": "人民日报",
+          "title": "出版界推出一批纪念中国工农红军长征胜利九十周年优秀主题图书",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187342.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6d4562b4e27460",
+          "source": "人民日报",
+          "title": "在于都东门渡口，感受浓浓军民情（文物里的长征故事）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187345.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "317b8f7faee6a0",
+          "source": "人民日报",
+          "title": "在新的长征路上奋力创造新的辉煌",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187334.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9bdba1af15ac94",
+          "source": "人民日报",
+          "title": "在纪念中国工农红军长征胜利90周年大会上的讲话",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187332.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2896616550baa1",
+          "source": "人民日报",
+          "title": "坚守联合国理想，携手开创人类共同美好未来（寰宇平）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187336.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c2a00b6659a02a",
+          "source": "人民日报",
+          "title": "增进相互理解 凝聚广泛共识",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187339.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0ad2b01af2e927",
+          "source": "人民日报",
+          "title": "弘扬伟大长征精神 奋力创造新的辉煌",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187333.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eb63fcabddfb0c",
+          "source": "人民日报",
+          "title": "梁振英出席第四届粤港澳大湾区发展工商大会开幕式并致辞",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187348.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6bdb89ae75e1ef",
+          "source": "人民日报",
+          "title": "王东峰出席“东方奖学金”高级访问学者“进政协”活动",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187351.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cc2fe625c66847",
+          "source": "人民日报",
+          "title": "王毅同刚果（布）外长邦达会谈",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187338.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "81e583086155f6",
+          "source": "人民日报",
+          "title": "生路与出路（人民论坛）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187344.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4ed447adcc49e7",
+          "source": "人民日报",
+          "title": "纪录电影《象行记》全国首映礼在京举办",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187341.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1422212206830f",
+          "source": "人民日报",
+          "title": "赵乐际主持召开十四届全国人大常委会第七十四次委员长会议",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187350.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "81a5241805fefe",
+          "source": "人民日报",
+          "title": "陈文清会见俄罗斯联邦最高法院院长克拉斯诺夫",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187340.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9213d04e93e686",
+          "source": "光明日报",
+          "title": "“党的创新理论大家读”丛书（第一辑）出版发行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/23/content_28122.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8168513774280f",
+          "source": "光明日报",
+          "title": "中国记协新闻道德委员会召开2025年度媒体社会责任报告评议会",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/23/content_28116.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cf8ae8d2149c8d",
+          "source": "光明日报",
+          "title": "中国邮政发行《中国工农红军长征胜利90周年》纪念邮票",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/23/content_28124.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e851ce5f06303b",
+          "source": "光明日报",
+          "title": "做强国内大循环 畅通国内国际双循环",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/23/content_28112.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b1e0e17b21fd8f",
+          "source": "光明日报",
+          "title": "出版界推出一批纪念中国工农红军长征胜利90周年优秀主题图书",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/23/content_28120.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "888120a8078b66",
+          "source": "光明日报",
+          "title": "到2030年建设国家级零碳工厂和零碳算力设施500个左右",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/23/content_28123.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bad3d41883c7f7",
+          "source": "光明日报",
+          "title": "在新的长征路上奋力创造新的辉煌",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/23/content_28105.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3fbf59b26f3fe6",
+          "source": "光明日报",
+          "title": "在纪念中国工农红军长征胜利90周年大会上的讲话",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/23/content_28100.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "21e5ed22dc3663",
+          "source": "光明日报",
+          "title": "在雪域高原筑起水文防线",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/23/content_28113.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4ab8153f0034e1",
+          "source": "光明日报",
+          "title": "山东青岛：一顿热饭背后的养老服务",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/23/content_28118.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fe3fa36e669180",
+          "source": "光明日报",
+          "title": "弘扬伟大长征精神 奋力创造新的辉煌",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/23/content_28106.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eb953ee8051a34",
+          "source": "光明日报",
+          "title": "李强结束出访回到北京",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/23/content_28119.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "273bc3d6480cf2",
+          "source": "光明日报",
+          "title": "毛乌素沙地边的小村庄实现“牧粮双丰”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/23/content_28127.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2ccc7fccf4d68e",
+          "source": "光明日报",
+          "title": "河南信阳：“红军树”下好日子",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/23/content_28126.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d7b8a2491e7fa1",
+          "source": "光明日报",
+          "title": "纪念中国工农红军长征胜利90周年大会在京隆重举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/23/content_28104.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "35063e6d0576d6",
+          "source": "光明日报",
+          "title": "走好我们这一代人的长征路",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/23/content_28101.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "996069904bda13",
+          "source": "光明日报",
+          "title": "赵乐际主持召开十四届全国人大常委会第七十四次委员长会议",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/23/content_28121.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cb6ca72eabdefe",
+          "source": "光明日报",
+          "title": "长江上游水库群完成年度蓄水任务",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/23/content_28128.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c417e8e1c0080d",
           "source": "新华社",
-          "title": "国乒卫冕乒乓球亚锦赛男团冠军",
-          "url": "https://www.news.cn/sports/20261023/b5f8d1916e14474a84367f097138fbb4/c.html",
+          "title": "中方：安理会改革要改变发达国家代表性过剩的局面",
+          "url": "https://www.news.cn/world/20261023/2214de6f2e14439c88c4fed731d6a033/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fa1ba48ef81d91",
+          "source": "新华社",
+          "title": "乒乓球亚锦赛：国乒男团实现四连冠 女团屈居亚军",
+          "url": "https://www.news.cn/sports/20261023/3ded6822f44742e4946ab778e6e0f3fc/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d854b56c3581c1",
+          "source": "新华社",
+          "title": "体操世锦赛：杨皓楠摘得男子全能银牌",
+          "url": "https://www.news.cn/sports/20261023/04f04fd1678d4ebfbf5db111044e46c2/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3ad8e625772ac7",
+          "source": "新华社",
+          "title": "卢浮宫等场馆24日临时闭馆",
+          "url": "https://www.news.cn/world/20261023/608d0553f29c48779d911416f548f17d/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8c82db13dd56e0",
+          "source": "新华社",
+          "title": "国道317线西藏那曲落石路段已清理畅通",
+          "url": "https://www.news.cn/20261023/1a8646441abf446c8bbb3ad8e13d7b57/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "94680380acae84",
+          "source": "新华社",
+          "title": "国道317线西藏那曲部分路段实施全封闭交通管制",
+          "url": "https://www.news.cn/20261023/517802684df3442681cfaf5607344f34/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "368a5a662a011b",
+          "source": "新华社",
+          "title": "多方力量奔赴灾区",
+          "url": "https://www.news.cn/politics/20261023/6e2a342673114e3c975ad62a02972027/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "256d2eea87be9f",
+          "source": "新华社",
+          "title": "应急管理部启动国家自然灾害救助四级应急响应",
+          "url": "https://www.news.cn/20261023/a5bf0e432c4a43308c121a64667539e8/c.html",
           "date": "2026-10-23",
           "keyword": "综合时政"
         },
@@ -185655,10 +185983,50 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "93470d962bebf9",
+          "source": "新华社",
+          "title": "救灾物资已陆续运抵西藏巴青县地震灾区",
+          "url": "https://www.news.cn/20261023/4077cf99ebff4480a289fbef5e7be4a0/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1a6406b18c6163",
+          "source": "新华社",
+          "title": "救灾物资陆续运抵",
+          "url": "https://www.news.cn/politics/20261023/6c57a78d3ef246c998b98a88e9896712/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0e9dc9a1fd800f",
+          "source": "新华社",
+          "title": "普京：重启俄美乌三方会谈不是仅为短暂停火",
+          "url": "https://www.news.cn/world/20261023/b19bb4675c3e474ab0c647d43784195f/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "02ae8d35ca7c7f",
+          "source": "新华社",
+          "title": "纪念中国工农红军长征胜利90周年优秀主题图书推出",
+          "url": "https://education.news.cn/20261023/0e4485b4c6bc48b6b7e642df335fbf23/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
           "id": "678e5d08db0e0f",
           "source": "新华社",
           "title": "纪念中国工农红军长征胜利90周年大会侧记",
           "url": "https://www.news.cn/politics/leaders/20261023/20759749cd4c4ad9887fb335fb02c869/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d0447e8dfeb4fe",
+          "source": "新华社",
+          "title": "美媒：特朗普要求马斯克解除对乌克兰“星链”限制",
+          "url": "https://www.news.cn/20261023/a42fdded8c6246eda4ed91c75c0125e8/c.html",
           "date": "2026-10-23",
           "keyword": "综合时政"
         },
@@ -185669,6 +186037,86 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/20261023/9cab7cc6472649c1b7a5ac6146ea64ad/c.html",
           "date": "2026-10-23",
           "keyword": "综合时政"
+        },
+        {
+          "id": "15834375974a7b",
+          "source": "新华社",
+          "title": "薪火相传 中国轮椅女篮达成亚残运会四连冠",
+          "url": "https://www.news.cn/sports/20261023/408feff015824ff3bb95b42c33ce2c1f/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9094c3fad7b612",
+          "source": "新华社",
+          "title": "西藏启动自治区地震灾害二级应急响应",
+          "url": "https://www.news.cn/20261023/6225cf13052b4c96bf3df9a6fc58153f/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a94c7de34d48ac",
+          "source": "新华社",
+          "title": "西藏那曲市巴青县7.0级地震已致16人遇难",
+          "url": "https://www.news.cn/politics/20261023/1504202b7b854ca581a7d3c85c2d9251/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "80c9c5ff857d99",
+          "source": "新华社",
+          "title": "西藏那曲市巴青县地震已有人员遇难",
+          "url": "https://www.news.cn/20261023/ede07511f41a4ac1a42cafc4441b9630/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fed1ea3ef6ad0e",
+          "source": "新华社",
+          "title": "西藏那曲市巴青县地震已造成16人遇难",
+          "url": "https://www.news.cn/20261023/c61bb6628dd744328b5e539fd30c98e3/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3e66aeb15e2df5",
+          "source": "新华社",
+          "title": "西藏那曲市巴青县震源周边未来3天易出现短时阵雪",
+          "url": "https://www.news.cn/20261023/d5b67d0f247b4dfba638638b04ee0fe2/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "74a41df611edb9",
+          "source": "新华社",
+          "title": "西部战区部队连夜驰援",
+          "url": "https://www.news.cn/politics/20261023/ef281337315145e6b55aff6f8aa961cb/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "286dc75cc803e3",
+          "source": "新华社",
+          "title": "途经西藏那曲列车已紧急扣停进行全面巡检",
+          "url": "https://www.news.cn/20261023/a20f7e63dfe248508cb637194148aab8/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d62824dbb52f86",
+          "source": "新华社",
+          "title": "金融街论坛非洲分会场聚焦“一带一路”投融资合作",
+          "url": "https://www.news.cn/silkroad/20261023/e5d52f2699c84d3980ab7846acd1d060/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e1daedc2b49fe8",
+          "source": "新华社",
+          "title": "韩国就韩朝非军事区地雷爆炸事件致函联合国安理会",
+          "url": "https://www.news.cn/world/20261023/7becbf4b9f01435784035e5f236378fe/c.html",
+          "date": "2026-10-23",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -185676,67 +186124,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 7.3,
+          "duration": 4.5,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261023.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.7,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/23/node_01.html"
+          "status": "ok",
+          "count": 24,
+          "duration": 1.9
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 12,
-          "duration": 2.9
+          "count": 27,
+          "duration": 3.0
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 7.7
+          "duration": 19.3
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.0
+          "duration": 6.2
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 4.7,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/23/node_01.html"
+          "status": "ok",
+          "count": 19,
+          "duration": 1.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.7
+          "duration": 18.4
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.2
+          "duration": 2.1
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.2
+          "duration": 9.5
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 65.2
+          "duration": 57.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-10-23T03:04:16+08:00"
+  "generatedAt": "2026-10-23T08:29:19+08:00"
 };
