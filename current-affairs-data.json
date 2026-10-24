@@ -187568,80 +187568,739 @@
     },
     {
       "date": "2026-10-24",
-      "keyword": "今日时政",
+      "keyword": "人工智能",
       "keywords": [
         {
-          "name": "今日时政",
-          "count": 0
+          "name": "人工智能",
+          "count": 2
+        },
+        {
+          "name": "就业",
+          "count": 2
         }
       ],
-      "articles": [],
+      "articles": [
+        {
+          "id": "70fe3829e4d4d9",
+          "source": "人民日报",
+          "title": "适应人工智能技术发展助力构建就业友好型发展方式",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187433.html",
+          "date": "2026-10-24",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "4b0c2d87e86006",
+          "source": "光明日报",
+          "title": "国办印发《关于适应人工智能技术发展助力构建就业友好型发展方式的意见》",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28211.html",
+          "date": "2026-10-24",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "4b3392ae0f0ad5",
+          "source": "人民日报",
+          "title": "2026中国国际友好城市大会在西安举办",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187448.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "101e70b2116a93",
+          "source": "人民日报",
+          "title": "д»ҺжЎҘжёЎд№ӢеҸҳзңӢи·Ёи¶Ҡж—¶з©әзҡ„зІҫзҘһеҠӣйҮҸ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187449.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0bf64e70aa9918",
+          "source": "人民日报",
+          "title": "дёҖзүҲиҙЈзј–пјҡжқЁ ж—ӯ еј её…зҘҜ еј е®Үжқ° дәҢзүҲиҙЈзј–пјҡжһ— зҗі зҘҒеҳүж¶Ұ еј е®үе®Ү дёүзүҲиҙЈзј–пјҡеҗҙ еҲҡ е‘Ё иј– и°ўдҪіе®Ғ еӣӣзүҲиҙЈзј–пјҡиўҒжҢҜе–ң йҹ©жҳҘз‘¶ еҲҳйқҷж–Ү",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187456.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6ac8447ab59a38",
+          "source": "人民日报",
+          "title": "дёӯеӨ®з»„з»ҮйғЁд»Һд»ЈдёӯеӨ®з®ЎзҗҶе…ҡиҙ№дёӯеҲ’жӢЁ2500дёҮе…ғз”ЁдәҺж”ҜжҢҒиҘҝи—ҸжҠ—йңҮж•‘зҒҫе·ҘдҪң",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187450.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "30e7e4255ee64c",
+          "source": "人民日报",
+          "title": "дёӯе…ұдёӯеӨ®ж”ҝжІ»еұҖеҸ¬ејҖдјҡи®®",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187424.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9dc790479ef6e0",
+          "source": "人民日报",
+          "title": "д№ иҝ‘е№іеҗ‘2026е…ЁзҗғжІ»зҗҶи®әеқӣпјҲйӣ„е®үпјүиҮҙдҝЎ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187426.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5335e4a5d55842",
+          "source": "人民日报",
+          "title": "е°Ҫеҝ«жҠҠжқҝжҲҝжҗӯе»әиө·жқҘпјҲеңЁзҺ°еңәпјү",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187454.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0246e7a361d7a0",
+          "source": "人民日报",
+          "title": "еҚҒдёҮзҒ«жҖҘдёӯж„ҹеҸ—з”ҹе‘ҪйҮҚйҮҸпјҲи®°иҖ…жүӢи®°пјү",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187455.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3fd365be68e453",
+          "source": "人民日报",
+          "title": "еӣҫзүҮжҠҘйҒ“",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187452.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "25e3459e9780a7",
+          "source": "人民日报",
+          "title": "е…ЁеҠӣејҖеұ•дәәе‘ҳжҗңж•‘ еҰҘе–„е®үзҪ®еҸ—зҒҫзҫӨдј— еҲҮе®һдҝқйҡңдәәж°‘зҫӨдј—з”ҹе‘Ҫиҙўдә§е®үе…Ё",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187425.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0accd2d6ca347f",
+          "source": "人民日报",
+          "title": "е…ҡе’Ңдәәж°‘еҶӣйҳҹй“ҝй”өеүҚиҝӣзҡ„еҲ¶иғңд№ӢйҒ“",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187427.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "94edeea55662ba",
+          "source": "人民日报",
+          "title": "жқҺејәдё»жҢҒеҸ¬ејҖеӣҪеҠЎйҷўеёёеҠЎдјҡи®®",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187428.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "144fec002866c8",
+          "source": "人民日报",
+          "title": "жҠҠжё©жҡ–йҖҒеҲ°еёҗзҜ·йҮҢпјҲеңЁзҺ°еңәпјү",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187453.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f23b5d5df20b94",
+          "source": "人民日报",
+          "title": "жңҖеӨ§йҷҗеәҰеҮҸе°‘дәәе‘ҳдјӨдәЎ жҠ“зҙ§и°ғжӢЁжҠўйҷ©ж•‘жҸҙзү©иө„",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187451.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a819ec53289776",
+          "source": "人民日报",
+          "title": "жҳҹеӨңй©°жҸҙ е®ҲжҠӨз”ҹе‘ҪпјҲд»Ҡж—Ҙи°Ҳпјү",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187431.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "018d7d6b0bac68",
+          "source": "人民日报",
+          "title": "з§ӢзІ®ж”¶иҙӯ жңүеәҸејҖеұ•",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187430.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2e5977ebc90e89",
+          "source": "人民日报",
+          "title": "йӣ„е®үж–°еҢәдёҖдҪ“жҠ“еҘҪй«ҳиҙЁйҮҸе»әи®ҫе’Ңй«ҳж•ҲиғҪжІ»зҗҶ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187429.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "16ddd28f239664",
+          "source": "人民日报",
+          "title": "“为改革完善全球治理凝聚共识、贡献智慧”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187444.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2eabe27cefb247",
+          "source": "人民日报",
+          "title": "“每一代人都要走好自己的长征路”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187441.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a5ca6116adb891",
+          "source": "人民日报",
+          "title": "“长征精神具有跨越时空的重要价值”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187439.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d3cf69e065df15",
+          "source": "人民日报",
+          "title": "前三季度财政运行总体平稳",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187435.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e0fc3583f5bd13",
+          "source": "人民日报",
+          "title": "医保钱包2.0版怎么用（信息服务台）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187434.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ed82c4d49b0d97",
+          "source": "人民日报",
+          "title": "同心协力，奔赴充满光荣和梦想的远征",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187432.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "05e46b1853ff4d",
+          "source": "人民日报",
+          "title": "周祖翼当选中共河南省委书记",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187438.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e9eef968f640dd",
+          "source": "人民日报",
+          "title": "德国总统施泰因迈尔将访华",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187446.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ea77f5bca53070",
+          "source": "人民日报",
+          "title": "李乐成当选中共安徽省委书记",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187437.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bf2a26ae619afd",
+          "source": "人民日报",
+          "title": "王毅会见来华出席2026全球治理论坛（雄安）的客人",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187443.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "512ff2e8c5b654",
+          "source": "人民日报",
+          "title": "王毅出席2026全球治理论坛（雄安）开幕式",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187442.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b4425c0d197f56",
+          "source": "人民日报",
+          "title": "第140届广交会第二期开幕",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187436.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5f2f17c43b0255",
+          "source": "人民日报",
+          "title": "第八届“巴黎协定之友”高级别对话聚焦多边气候治理",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187447.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a21bb9605405c0",
+          "source": "人民日报",
+          "title": "走好新的长征路，为人类进步事业作出更大贡献（和音）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187440.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5cfe012fcc5b23",
+          "source": "人民日报",
+          "title": "雪克来提·扎克尔出席哈萨克斯坦驻华使馆共和国日招待会",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/24/content_30187445.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "787f803ceb55ac",
+          "source": "光明日报",
+          "title": "“新海鲸1”轮正式交付",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28202.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5db6d66b897bc1",
+          "source": "光明日报",
+          "title": "“长征的历史从未远去，长征的路在不断延伸”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28201.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e1332390561c93",
+          "source": "光明日报",
+          "title": "《国家信息化“十五五”规划》印发",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28178.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "921638a0d0c167",
+          "source": "光明日报",
+          "title": "专家解析西藏巴青7.0级地震成因",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28189.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f57afd4f43ad57",
+          "source": "光明日报",
+          "title": "世界最轻介观显微镜仅重1克",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28175.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "573267677e2651",
+          "source": "光明日报",
+          "title": "中共中央政治局召开会议",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28196.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aa67f337314819",
+          "source": "光明日报",
+          "title": "中国长城博物馆焕新迎开馆",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28179.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "59f6e46e5f88ee",
+          "source": "光明日报",
+          "title": "中央组织部从代中央管理党费中划拨2500万元用于支持西藏抗震救灾工作",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28183.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "21d5d1ffe1f667",
+          "source": "光明日报",
+          "title": "习近平向2026全球治理论坛（雄安）致信",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28198.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c728727a8ceaa9",
+          "source": "光明日报",
+          "title": "党和人民军队铿锵前进的制胜之道",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28199.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "92f911e4afc2ae",
+          "source": "光明日报",
+          "title": "全力开展人员搜救 妥善安置受灾群众 切实保障人民群众生命财产安全",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28197.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "81a9a2648df2dd",
+          "source": "光明日报",
+          "title": "前三季度全国累计完工改造城镇老旧小区1.6万个",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28192.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b2357c953bc1dc",
+          "source": "光明日报",
+          "title": "前三季度消费对经济增长贡献率为46.7%",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28193.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ba50fa30da2581",
+          "source": "光明日报",
+          "title": "前三季度财政收入平稳增长",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28191.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "55e48c7d8afbbc",
+          "source": "光明日报",
+          "title": "同心协力，奔赴充满光荣和梦想的远征",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28200.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b08c61f8d544b5",
+          "source": "光明日报",
+          "title": "周祖翼当选中共河南省委书记",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28214.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "caeb6c72d2723b",
+          "source": "光明日报",
+          "title": "国务院抗震救灾指挥部办公室、应急管理部：国家地震灾害应急响应提升至三级",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28184.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7f297536f29bc5",
+          "source": "光明日报",
+          "title": "国家大剧院新版歌剧《长征》首演",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28176.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "47107a6a364970",
+          "source": "光明日报",
+          "title": "国家防减救灾委、应急管理部：增加调拨5000件中央救灾物资",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28186.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "044b784ec4c1e1",
+          "source": "光明日报",
+          "title": "循声奔跑，逐梦绿茵",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28177.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0f84233a11afd7",
+          "source": "光明日报",
+          "title": "我国创新发展水平稳步提高",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28190.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9701580797ca68",
+          "source": "光明日报",
+          "title": "我国雪豹种群数量实现恢复性增长",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28180.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1454ee4f9d539e",
+          "source": "光明日报",
+          "title": "李乐成当选中共安徽省委书记",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28213.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "baef0a13b0c17e",
+          "source": "光明日报",
+          "title": "李强主持召开国务院常务会议",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28210.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a391f4becb4010",
+          "source": "光明日报",
+          "title": "水利部：启动水利抗震救灾调度指挥机制",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28187.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8def4d8da0c62e",
+          "source": "光明日报",
+          "title": "西藏巴青：抗震救灾各项工作有序进行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28188.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ad14817fbd97d5",
+          "source": "光明日报",
+          "title": "财政部、应急管理部：紧急拨付5000万元中央自然灾害救灾资金支持西藏抗震救灾",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28185.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "41a6aaa30ce3c9",
+          "source": "光明日报",
+          "title": "陕西平利：产业“开花” 文明“结果”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/24/content_28212.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6c865482d2f2aa",
+          "source": "新华社",
+          "title": "2026年赫尔辛基书展在芬兰举行",
+          "url": "https://www.news.cn/photo/20261024/87f453ccce7340d1b5840f8d90ecf909/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b5d07a3b3604ad",
+          "source": "新华社",
+          "title": "一油轮在霍尔木兹海峡附近遇袭 船舶单周通航量下降",
+          "url": "https://www.news.cn/20261024/b609c7ad74594e00aa9b0fb20afdd5ab/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "19e3f4d5b6553e",
+          "source": "新华社",
+          "title": "中国轮椅网球队创亚残运会最佳战绩",
+          "url": "https://www.news.cn/20261024/40430af7d1f54a81afea945a3f063762/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dbbfb652949b4e",
+          "source": "新华社",
+          "title": "中方强调捍卫《联合国宪章》的重要性",
+          "url": "https://www.news.cn/20261024/a313c7e3c29a49ff89c5554584d9705e/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "85a80ffa405cac",
+          "source": "新华社",
+          "title": "中方：国际原子能机构应停止审议伊核问题",
+          "url": "https://www.news.cn/world/20261024/118a2ddda59442f19a6103623cacc2ab/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "40e76107d4f174",
+          "source": "新华社",
+          "title": "以色列总理有关应对国际制裁言论引发国内担忧",
+          "url": "https://www.news.cn/20261024/084fa2ca25ee4aca95f99bca15d056be/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f1c52a7c5e13c4",
+          "source": "新华社",
+          "title": "伊朗称两艘油轮在海峡以南“未经授权”航线触雷起火",
+          "url": "https://www.news.cn/world/20261024/fc7e78f79495452eabcc866495d25674/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d2262da2d3bd55",
+          "source": "新华社",
+          "title": "古巴外长驳斥特朗普“顺道解决古巴”言论",
+          "url": "https://www.news.cn/20261024/51bd7158b0404743b1c64caa9de29f63/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2af88c7ef25896",
+          "source": "新华社",
+          "title": "国际油价23日显著上涨",
+          "url": "https://www.news.cn/20261024/c1b7b515bf1c43799dc8ea9141d5a770/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "23777136240bc8",
+          "source": "新华社",
+          "title": "墨西哥：采收万寿菊 迎接亡灵节",
+          "url": "https://www.news.cn/photo/20261024/4cc30712869f4fa8bdafa9d6e2a688e3/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fafe7153e660b7",
+          "source": "新华社",
+          "title": "成功卫冕 中国盲人足球队成就亚残运会“三冠王”",
+          "url": "https://www.news.cn/sports/20261024/530155ef0bef41ce9e7b99fd42f8347e/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fb27ca3a7f0730",
+          "source": "新华社",
+          "title": "我国成功发射遥感五十三号07-09星、遥感五十六号19-21星",
+          "url": "https://www.news.cn/tech/20261024/00abd365db3249b8a50ead4f1264fe8f/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c8a5b7a9b33359",
+          "source": "新华社",
+          "title": "救援工作扫描",
+          "url": "https://www.news.cn/politics/20261024/0f44786a4df24f778b99a23b55dfa147/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4020bbaec1c958",
+          "source": "新华社",
+          "title": "泽连斯基称安全保障是乌方谈判“核心要素”",
+          "url": "https://www.news.cn/20261024/65893d10a2d2492f8ee7d6aab60456f4/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "33d8437d196a51",
+          "source": "新华社",
+          "title": "泽连斯基称期待乌美俄三方会谈尽快举行",
+          "url": "https://www.news.cn/world/20261024/adcd3b8d0d6448f3b368ed242fa5b1f4/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3fb0df71e4976c",
+          "source": "新华社",
+          "title": "特朗普：或与马斯克沟通乌克兰使用“星链”受限问题",
+          "url": "https://www.news.cn/20261024/c1d483e101ea422dae8a88fa7e8708ce/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c4cf1162f28f32",
+          "source": "新华社",
+          "title": "约旦内政大臣：教堂枪击事件为“恐怖袭击”",
+          "url": "https://www.news.cn/20261024/e5634bff96994731a78f6e06eeeb117e/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "10a2ab59f5f6a7",
+          "source": "新华社",
+          "title": "纽约股市三大股指23日下跌",
+          "url": "https://www.news.cn/20261024/c00ae037780c49c5abc84e2fee48c669/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1b78dae248f87d",
+          "source": "新华社",
+          "title": "美元指数23日上涨",
+          "url": "https://www.news.cn/20261024/6fbd8bf76c894d209e8622f5f89a559f/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "99e307b45bb8fb",
+          "source": "新华社",
+          "title": "美国调整对加拿大商品加征关税适用范围",
+          "url": "https://www.news.cn/world/20261024/df8148ce75724400aa0c63c0a7ab2ed9/c.html",
+          "date": "2026-10-24",
+          "keyword": "综合时政"
+        }
+      ],
       "sourceStatus": [
         {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 14.2,
+          "duration": 7.2,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261024.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.5,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/24/node_01.html"
+          "status": "ok",
+          "count": 33,
+          "duration": 3.2
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 0,
-          "duration": 2.1
+          "count": 20,
+          "duration": 1.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 23.5
+          "duration": 11.7
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 5.6
+          "duration": 6.0
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 4.6,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/24/node_01.html"
+          "status": "ok",
+          "count": 29,
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.7
+          "duration": 14.3
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 3.0
+          "duration": 2.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.9
+          "duration": 8.5
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 57.1
+          "duration": 42.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-10-24T02:16:43+08:00"
+  "generatedAt": "2026-10-24T08:23:48+08:00"
 }
