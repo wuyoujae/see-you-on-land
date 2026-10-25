@@ -188930,19 +188930,547 @@
     },
     {
       "date": "2026-10-25",
-      "keyword": "今日时政",
+      "keyword": "高质量发展",
       "keywords": [
         {
-          "name": "今日时政",
-          "count": 1
+          "name": "高质量发展",
+          "count": 3
+        },
+        {
+          "name": "习近平",
+          "count": 3
+        },
+        {
+          "name": "习近平党建思想",
+          "count": 2
+        },
+        {
+          "name": "十五五",
+          "count": 2
+        },
+        {
+          "name": "朝鲜",
+          "count": 2
         }
       ],
       "articles": [
         {
+          "id": "539a96ec1a1d3f",
+          "source": "人民日报",
+          "title": "深入学习贯彻习近平党建思想 以更高标准更实举措推动新征程巡视工作高质量发展",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187497.html",
+          "date": "2026-10-25",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "6ef6106d89515d",
+          "source": "光明日报",
+          "title": "深入学习贯彻习近平党建思想 以更高标准更实举措推动新征程巡视工作高质量发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28220.html",
+          "date": "2026-10-25",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "5e90e6be9baf58",
+          "source": "新华社",
+          "title": "“十五五”专项规划观察之三：锚定强国建设目标 铺就高质量发展路径",
+          "url": "https://www.news.cn/politics/20261025/848be33c4fa24d2cbe7efbe1e6b36ca3/c.html",
+          "date": "2026-10-25",
+          "keyword": "高质量发展"
+        },
+        {
           "id": "4f9e22866bf055",
           "source": "新华社",
-          "title": "习近平总书记在纪念中国工农红军长征胜利90周年大会上的重要讲话引领全军阔步强国强军新征程",
+          "title": "习近平总书记重要讲话引领全军阔步强国强军新征程",
           "url": "https://www.news.cn/politics/leaders/20261025/f52f5121a3284d18906ced1b3baf6677/c.html",
+          "date": "2026-10-25",
+          "keyword": "习近平"
+        },
+        {
+          "id": "ee172c83ce2051",
+          "source": "人民日报",
+          "title": "《国家信息化“十五五”规划》印发",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187517.html",
+          "date": "2026-10-25",
+          "keyword": "十五五"
+        },
+        {
+          "id": "3f0a30a8063ddc",
+          "source": "人民日报",
+          "title": "王沪宁陪同朝鲜最高领导人金正恩访问丹东",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187496.html",
+          "date": "2026-10-25",
+          "keyword": "朝鲜"
+        },
+        {
+          "id": "237fbf35aee32d",
+          "source": "光明日报",
+          "title": "王沪宁陪同朝鲜最高领导人金正恩访问丹东",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28219.html",
+          "date": "2026-10-25",
+          "keyword": "朝鲜"
+        },
+        {
+          "id": "7b15be0a1a01cd",
+          "source": "人民日报",
+          "title": "“一国两制”学术研讨会在深圳召开",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187518.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f343c0ed808b8d",
+          "source": "人民日报",
+          "title": "《红军长征档案史料选编》出版发行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187509.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "44fa2dffc164be",
+          "source": "人民日报",
+          "title": "中国体育代表团位居金牌榜和奖牌榜首位",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187511.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fb2e19d1ef738a",
+          "source": "人民日报",
+          "title": "二十届中央第八轮巡视对象公布",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187508.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d5095c388c5753",
+          "source": "人民日报",
+          "title": "以信心汇聚力量 以合作破解难题",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187503.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "32e22f1bb202dc",
+          "source": "人民日报",
+          "title": "伤员得到救治 电力全面恢复",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187512.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3cfb6d461d2eae",
+          "source": "人民日报",
+          "title": "加快把人民军队建成世界一流军队",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187500.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c894ca5c608148",
+          "source": "人民日报",
+          "title": "唐登杰当选中共山西省委书记",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187520.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2b579c69fc164d",
+          "source": "人民日报",
+          "title": "坚定做改革完善全球治理的行动派（和音）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187504.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "97cf02afe78120",
+          "source": "人民日报",
+          "title": "安置点里的医疗守护（在现场）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187515.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b844a1b3a2cc1c",
+          "source": "人民日报",
+          "title": "弘扬伟大长征精神、走好新的长征路",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187495.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e87b9a2176f094",
+          "source": "人民日报",
+          "title": "有序推进深化扫黑除恶专项斗争走深走实 用实实在在的成效回应人民群众期待",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187507.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1b3f53f5fdc127",
+          "source": "人民日报",
+          "title": "民生小事里的工作温度（记者手记）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187516.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7882693140fff0",
+          "source": "人民日报",
+          "title": "永葆赶考清醒 赢得历史主动",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187494.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e2fd536998139b",
+          "source": "人民日报",
+          "title": "渝昆高铁全线铺轨完成",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187498.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "57d0f4492fdc97",
+          "source": "人民日报",
+          "title": "湖南、云南省委主要负责同志职务调整",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187519.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aa5efaa07dcd66",
+          "source": "人民日报",
+          "title": "纪念中国工农红军长征胜利90周年主题音像出版物公开发行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187510.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "91a2932cb17590",
+          "source": "人民日报",
+          "title": "维护联合国 激活联合国 壮大联合国（大使随笔）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187505.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "58b543bf01f6e7",
+          "source": "人民日报",
+          "title": "读懂“丰碑”，青少年的生动一课",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187499.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b422231dcd0435",
+          "source": "人民日报",
+          "title": "陈小江当选新疆维吾尔自治区党委书记",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187521.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f8c14be24036e5",
+          "source": "人民日报",
+          "title": "震中一夜（在现场）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187514.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "29121ab5919c1f",
+          "source": "光明日报",
+          "title": "2026粤港澳大湾区具身智能机器人大赛举办",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28245.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6f6710f13bf161",
+          "source": "光明日报",
+          "title": "“曼舞申城”舞动市民风采与城市活力",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28243.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1d1f1b477571d0",
+          "source": "光明日报",
+          "title": "“核心价值观百场讲坛”第174场将走进陕西吴起",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28225.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9f2e9cf6796a6e",
+          "source": "光明日报",
+          "title": "《红军长征档案史料选编》出版发行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28221.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "07729b4767517e",
+          "source": "光明日报",
+          "title": "为拼搏喝彩，携荣光归来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28241.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "baeeddadf395cc",
+          "source": "光明日报",
+          "title": "二十届中央第八轮巡视对象公布",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28222.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "49856ffa796bdf",
+          "source": "光明日报",
+          "title": "云南省委主要负责同志职务调整",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28229.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8dbffd860c7b64",
+          "source": "光明日报",
+          "title": "全球深海领域发展步入关键转折阶段",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28244.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2bfad244522f15",
+          "source": "光明日报",
+          "title": "共答时代之问 共创美好未来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28236.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cb3004a464f065",
+          "source": "光明日报",
+          "title": "关山万里雄古今",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28240.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2ab2703d424ca2",
+          "source": "光明日报",
+          "title": "加快把人民军队建成世界一流军队",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28235.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "003474981ece9f",
+          "source": "光明日报",
+          "title": "唐登杰当选中共山西省委书记",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28227.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "172bcda5f89aff",
+          "source": "光明日报",
+          "title": "天津大学语言批评研究院成立",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28247.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d8e1fb9eca8d0e",
+          "source": "光明日报",
+          "title": "安身 安业 安心",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28224.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a6183c84c9fcbf",
+          "source": "光明日报",
+          "title": "弘扬伟大长征精神、走好新的长征路",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28234.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d418cca2fbd51c",
+          "source": "光明日报",
+          "title": "永葆赶考清醒 赢得历史主动",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28233.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "af488ac054ec87",
+          "source": "光明日报",
+          "title": "渝昆高铁全线铺轨完成",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28226.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b72acf33ecb15f",
+          "source": "光明日报",
+          "title": "湖南省委主要负责同志职务调整",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28228.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dd0a1931dd9aae",
+          "source": "光明日报",
+          "title": "科学实施救援 尽最大努力减少人员伤亡",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28237.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "692df328c637b3",
+          "source": "光明日报",
+          "title": "第十五届西北联大与中国高等教育发展论坛举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28246.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5d35a3435b17ff",
+          "source": "光明日报",
+          "title": "纪念中国工农红军长征胜利90周年主题音像出版物公开发行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28242.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "42488284bc51eb",
+          "source": "光明日报",
+          "title": "西渝高铁城口任河特大桥顺利合龙",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28238.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "807282b8dcff17",
+          "source": "学习强国",
+          "title": "“核心价值观百场讲坛”第174场将走进陕西吴起",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=13691490595471942973&item_id=13691490595471942973",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6ee44e9be2b197",
+          "source": "新华社",
+          "title": "也门胡塞武装称对沙特机场和石油设施等目标发动袭击",
+          "url": "https://www.news.cn/20261025/040684aa58004674a7b6ce57b0ab3d8a/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0fe41653733e39",
+          "source": "新华社",
+          "title": "也门胡塞武装：7袭沙特境内目标 回应沙特空袭",
+          "url": "https://www.news.cn/world/20261025/fcea2296d8734e9baf9b51dbb33ebda2/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ba5fb0e67138f9",
+          "source": "新华社",
+          "title": "伊拉克民兵武装：美军机一个月内171次侵犯伊领空",
+          "url": "https://www.news.cn/20261025/7a579502a33541a69676a983d6f3097f/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8591cfc82ced0e",
+          "source": "新华社",
+          "title": "俄乌将为奥列什基人道主义行动同步停火",
+          "url": "https://www.news.cn/20261025/99999ec125e84a259bada81c46fcba2c/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f1958399fa4075",
+          "source": "新华社",
+          "title": "俄官员： “尚难判断”局部停火是否影响乌问题谈判",
+          "url": "https://www.news.cn/world/20261025/a4f7d093e99846849e8c826550fe571f/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7a5ede2a97f39b",
+          "source": "新华社",
+          "title": "俄官员：“尚难判断”局部停火是否影响乌克兰问题谈判",
+          "url": "https://www.news.cn/20261025/411a4ecf9f0342f8ace1a5f1888d882b/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0bf73bdf8e755b",
+          "source": "新华社",
+          "title": "墨西哥城鲜花迎接亡灵节",
+          "url": "https://www.news.cn/photo/20261025/5844a2063179447694142188b4723730/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9add1348ca4fb7",
+          "source": "新华社",
+          "title": "小屏之内大有可观 从推优作品看微短剧精品化提速",
+          "url": "https://www.news.cn/politics/20261025/d7ce34d4e40b41458548b4dfa609bb6e/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c59d17c9f0ac35",
+          "source": "新华社",
+          "title": "新华社评论员",
+          "url": "https://www.news.cn/politics/leaders/20261025/60873501ebec461dba787a953b9bb428/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "acde1635427e59",
+          "source": "新华社",
+          "title": "法国数十万人参与新一轮示威游行 约千人被捕",
+          "url": "https://www.news.cn/20261025/a7379eadc571448da3f67de4934473e3/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b7df917663aba6",
+          "source": "新华社",
+          "title": "法国示威活动致多地文化场所临时关闭",
+          "url": "https://www.news.cn/20261025/6f4c397ed984480cb122e6a194d5eeb9/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "db49bf41a81d40",
+          "source": "新华社",
+          "title": "泽连斯基：不会为结束冲突放弃更多领土",
+          "url": "https://www.news.cn/20261025/c79aa607aeb94f98af0ed368215599e7/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d6ba96380f30a2",
+          "source": "新华社",
+          "title": "美国务院更新中东多国旅行警告 称胡塞和伊朗袭击威胁增加",
+          "url": "https://www.news.cn/20261025/7695b937b836474a805fb0cbf4111a8a/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fd9e7281cf1374",
+          "source": "新华社",
+          "title": "马里军方在梅纳卡市附近发现54具遗体",
+          "url": "https://www.news.cn/20261025/fb770e8487a642b79651c6edbeadafa8/c.html",
           "date": "2026-10-25",
           "keyword": "综合时政"
         }
@@ -188952,67 +189480,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 16.8,
+          "duration": 10.1,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261025.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.4,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/25/node_01.html"
+          "status": "ok",
+          "count": 24,
+          "duration": 2.5
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 1,
-          "duration": 2.8
+          "count": 16,
+          "duration": 7.1
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 16.6
+          "duration": 21.0
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 5.5
+          "duration": 6.0
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.0,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/25/node_01.html"
+          "status": "ok",
+          "count": 24,
+          "duration": 1.9
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.6
+          "duration": 14.3
         },
         {
           "source": "学习强国",
           "status": "ok",
-          "count": 0,
-          "duration": 3.0
+          "count": 1,
+          "duration": 3.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.0
+          "duration": 8.7
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 66.7
+          "duration": 58.0
         }
       ]
     }
   ],
-  "generatedAt": "2026-10-25T00:28:32+08:00"
+  "generatedAt": "2026-10-25T08:07:18+08:00"
 }
