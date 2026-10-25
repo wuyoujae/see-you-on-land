@@ -188930,14 +188930,14 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-10-25",
-      "keyword": "高质量发展",
+      "keyword": "习近平",
       "keywords": [
         {
-          "name": "高质量发展",
-          "count": 3
+          "name": "习近平",
+          "count": 4
         },
         {
-          "name": "习近平",
+          "name": "高质量发展",
           "count": 3
         },
         {
@@ -188960,7 +188960,7 @@ window.CURRENT_AFFAIRS_DATA = {
           "title": "深入学习贯彻习近平党建思想 以更高标准更实举措推动新征程巡视工作高质量发展",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202610/25/content_30187497.html",
           "date": "2026-10-25",
-          "keyword": "高质量发展"
+          "keyword": "习近平"
         },
         {
           "id": "6ef6106d89515d",
@@ -188968,23 +188968,31 @@ window.CURRENT_AFFAIRS_DATA = {
           "title": "深入学习贯彻习近平党建思想 以更高标准更实举措推动新征程巡视工作高质量发展",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202610/25/content_28220.html",
           "date": "2026-10-25",
-          "keyword": "高质量发展"
+          "keyword": "习近平"
+        },
+        {
+          "id": "293777c05ff7e6",
+          "source": "广东发布",
+          "title": "以习近平同志为核心的党中央引领新时代全面从严治党纪实",
+          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4970450.html",
+          "date": "2026-10-25",
+          "keyword": "习近平"
+        },
+        {
+          "id": "2e0e6e4daa25de",
+          "source": "求是",
+          "title": "习近平主席向2026全球治理论坛（雄安）致信凝聚各方信心和力量",
+          "url": "https://www.qstheory.cn/20261025/abae535d6e46488599cf58cab71b3db3/c.html",
+          "date": "2026-10-25",
+          "keyword": "习近平"
         },
         {
           "id": "5e90e6be9baf58",
           "source": "新华社",
-          "title": "“十五五”专项规划观察之三：锚定强国建设目标 铺就高质量发展路径",
+          "title": "“十五五”专项规划观察③：锚定强国建设目标 铺就高质量发展路径",
           "url": "https://www.news.cn/politics/20261025/848be33c4fa24d2cbe7efbe1e6b36ca3/c.html",
           "date": "2026-10-25",
           "keyword": "高质量发展"
-        },
-        {
-          "id": "4f9e22866bf055",
-          "source": "新华社",
-          "title": "习近平总书记重要讲话引领全军阔步强国强军新征程",
-          "url": "https://www.news.cn/politics/leaders/20261025/f52f5121a3284d18906ced1b3baf6677/c.html",
-          "date": "2026-10-25",
-          "keyword": "习近平"
         },
         {
           "id": "ee172c83ce2051",
@@ -189355,6 +189363,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "af14aa3a6a46a4",
+          "source": "半月谈",
+          "title": "举起手机改变家乡",
+          "url": "http://www.banyuetan.org/byt/fanxianggushi/index.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "807282b8dcff17",
           "source": "学习强国",
           "title": "“核心价值观百场讲坛”第174场将走进陕西吴起",
@@ -189363,58 +189379,74 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "6ee44e9be2b197",
+          "id": "91b6dc836283c3",
           "source": "新华社",
-          "title": "也门胡塞武装称对沙特机场和石油设施等目标发动袭击",
-          "url": "https://www.news.cn/20261025/040684aa58004674a7b6ce57b0ab3d8a/c.html",
+          "title": "2026“跨国企业天津行”丨多家德企何以重仓中国",
+          "url": "https://www.news.cn/world/20261025/2240c833fe26400c8822f9d3bd41edf4/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "63ddd9f6ffb20c",
+          "source": "新华社",
+          "title": "76年了，鸭绿江上的桥会一直记得",
+          "url": "https://www.news.cn/politics/20261025/bc9c6775361945d1a3d4093b23246b46/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fab580baf8bbd0",
+          "source": "新华社",
+          "title": "“中国在全球传统医药事业中发挥重要作用”——专访世界卫生组织西太平洋区域主任蒲慕康",
+          "url": "https://www.news.cn/20261025/67bdad866627417fb260053fc3148f87/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "777d2a09a02135",
+          "source": "新华社",
+          "title": "乒乓球亚锦赛国乒多线挺进四强",
+          "url": "https://www.news.cn/20261025/3f4d8128e11f439bba052b69b01f7873/c.html",
           "date": "2026-10-25",
           "keyword": "综合时政"
         },
         {
           "id": "0fe41653733e39",
           "source": "新华社",
-          "title": "也门胡塞武装：7袭沙特境内目标 回应沙特空袭",
+          "title": "也门胡塞武装：七袭沙特境内目标 回应沙特空袭",
           "url": "https://www.news.cn/world/20261025/fcea2296d8734e9baf9b51dbb33ebda2/c.html",
           "date": "2026-10-25",
           "keyword": "综合时政"
         },
         {
-          "id": "ba5fb0e67138f9",
+          "id": "2c658512253cf9",
           "source": "新华社",
           "title": "伊拉克民兵武装：美军机一个月内171次侵犯伊领空",
-          "url": "https://www.news.cn/20261025/7a579502a33541a69676a983d6f3097f/c.html",
+          "url": "https://www.news.cn/world/20261025/962d31010e574da8ac59ba55c6f819aa/c.html",
           "date": "2026-10-25",
           "keyword": "综合时政"
         },
         {
-          "id": "8591cfc82ced0e",
+          "id": "4d5e77fc5440e3",
           "source": "新华社",
           "title": "俄乌将为奥列什基人道主义行动同步停火",
-          "url": "https://www.news.cn/20261025/99999ec125e84a259bada81c46fcba2c/c.html",
+          "url": "https://www.news.cn/world/20261025/696adb5f6c4d46869109019686463a56/c.html",
           "date": "2026-10-25",
           "keyword": "综合时政"
         },
         {
           "id": "f1958399fa4075",
           "source": "新华社",
-          "title": "俄官员： “尚难判断”局部停火是否影响乌问题谈判",
+          "title": "俄官员：“尚难判断”局部停火是否影响乌克兰问题谈判",
           "url": "https://www.news.cn/world/20261025/a4f7d093e99846849e8c826550fe571f/c.html",
           "date": "2026-10-25",
           "keyword": "综合时政"
         },
         {
-          "id": "7a5ede2a97f39b",
+          "id": "4f9e22866bf055",
           "source": "新华社",
-          "title": "俄官员：“尚难判断”局部停火是否影响乌克兰问题谈判",
-          "url": "https://www.news.cn/20261025/411a4ecf9f0342f8ace1a5f1888d882b/c.html",
-          "date": "2026-10-25",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "0bf73bdf8e755b",
-          "source": "新华社",
-          "title": "墨西哥城鲜花迎接亡灵节",
-          "url": "https://www.news.cn/photo/20261025/5844a2063179447694142188b4723730/c.html",
+          "title": "加快把人民军队建成世界一流军队",
+          "url": "https://www.news.cn/politics/leaders/20261025/f52f5121a3284d18906ced1b3baf6677/c.html",
           "date": "2026-10-25",
           "keyword": "综合时政"
         },
@@ -189429,24 +189461,48 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "c59d17c9f0ac35",
           "source": "新华社",
-          "title": "新华社评论员",
+          "title": "新华社评论员：坚守党的理想信念宗旨 创造新的历史伟业",
           "url": "https://www.news.cn/politics/leaders/20261025/60873501ebec461dba787a953b9bb428/c.html",
           "date": "2026-10-25",
           "keyword": "综合时政"
         },
         {
-          "id": "acde1635427e59",
+          "id": "93bec0e23bb0a3",
           "source": "新华社",
-          "title": "法国数十万人参与新一轮示威游行 约千人被捕",
-          "url": "https://www.news.cn/20261025/a7379eadc571448da3f67de4934473e3/c.html",
+          "title": "日本小笠原群岛附近海域发生7.0级地震",
+          "url": "https://www.news.cn/world/20261025/5132654ce2a040639147a7dc301eea6d/c.html",
           "date": "2026-10-25",
           "keyword": "综合时政"
         },
         {
-          "id": "b7df917663aba6",
+          "id": "9811fc14ba7963",
           "source": "新华社",
-          "title": "法国示威活动致多地文化场所临时关闭",
-          "url": "https://www.news.cn/20261025/6f4c397ed984480cb122e6a194d5eeb9/c.html",
+          "title": "时隔五年兰星宇再夺体操世锦赛吊环冠军",
+          "url": "https://www.news.cn/sports/20261025/5f25a804f18e48b7b21a75a40035ae16/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c37f6573ca0af8",
+          "source": "新华社",
+          "title": "权威数读丨本周，这些数据值得关注",
+          "url": "https://www.news.cn/politics/20261025/fccddd212f9b449c82c98c9c9acc9a10/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "368e170924df87",
+          "source": "新华社",
+          "title": "江苏泗洪：农田托管 省心增收",
+          "url": "https://www.news.cn/local/20261025/0818ce2ed7c14cbabb8842faa5476db6/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "72a4b6a0c01f4b",
+          "source": "新华社",
+          "title": "法国数十万人参与新一轮示威游行 约千人被捕",
+          "url": "https://www.news.cn/world/20261025/6c999093851d4242a53dcfc53656f062/c.html",
           "date": "2026-10-25",
           "keyword": "综合时政"
         },
@@ -189459,10 +189515,82 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "e33841f7e630ca",
+          "source": "新华社",
+          "title": "海外“银发族”来华，爱上中国的烟火日常",
+          "url": "https://www.news.cn/world/20261025/d858db8d16724264b98b53636ba7ea9b/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "027b7f54bfdee5",
+          "source": "新华社",
+          "title": "烟霾遮蔽 吉隆坡双子塔在哪里",
+          "url": "https://www.news.cn/world/20261025/2a5b7ec442dc44cc8a08adf22b0c1c78/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "968475867d701d",
+          "source": "新华社",
+          "title": "百年研途再出发 中外专家在京共话阿尔茨海默病新进展",
+          "url": "https://www.news.cn/20261025/e3faef7eb30c49a395e5e99be98f2fe7/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2034c1dfd567c8",
+          "source": "新华社",
+          "title": "短池全锦赛：老将徐嘉余连破亚洲、世界纪录",
+          "url": "https://www.news.cn/sports/20261025/dc09588aade94043884f2f43dde3527d/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3761876a7be8d8",
+          "source": "新华社",
+          "title": "祖国必须统一，也必然统一",
+          "url": "https://www.news.cn/politics/leaders/20261025/ba6df2441de34889b246e54580907b02/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "af7259059e03db",
+          "source": "新华社",
+          "title": "美国佛罗里达州一大学发生枪击事件 多人受伤",
+          "url": "https://www.news.cn/world/20261025/bd22e68d9d0341a5b300718300f8f805/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d6ba96380f30a2",
           "source": "新华社",
           "title": "美国务院更新中东多国旅行警告 称胡塞和伊朗袭击威胁增加",
           "url": "https://www.news.cn/20261025/7695b937b836474a805fb0cbf4111a8a/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dac0f0d1796b2f",
+          "source": "新华社",
+          "title": "记者手记｜跨越岁月的“嘉庚精神”",
+          "url": "https://www.news.cn/world/20261025/2fc95e509b1249b093c72329b2760227/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c8cdf866d38648",
+          "source": "新华社",
+          "title": "靳伟任湖南省委副书记",
+          "url": "https://www.news.cn/politics/20261025/74550d74a26549a48924ad4ac4a495c4/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e97cead7aabb11",
+          "source": "新华社",
+          "title": "香港故事丨树仁大学逾半世纪的初心与薪火",
+          "url": "https://www.news.cn/gangao/20261025/ad6f9862221542059f99c69b8add9e2b/c.html",
           "date": "2026-10-25",
           "keyword": "综合时政"
         },
@@ -189473,6 +189601,46 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/20261025/fb770e8487a642b79651c6edbeadafa8/c.html",
           "date": "2026-10-25",
           "keyword": "综合时政"
+        },
+        {
+          "id": "39d81003b403c9",
+          "source": "求是",
+          "title": "二十届中央第八轮巡视对象公布",
+          "url": "https://www.qstheory.cn/20261025/394df846a7754563ae21fb3ced517c87/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d0b0dc861cb4a0",
+          "source": "求是",
+          "title": "伤员得到救治 电力全面恢复",
+          "url": "https://www.qstheory.cn/20261025/81c9107ac89445359658a2dfb9b92939/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d71aeefd21ca7c",
+          "source": "求是",
+          "title": "商务部回应美发布新版对外投资限制拟议规则",
+          "url": "https://www.qstheory.cn/20261025/17326ce7c76447feb781400eae175ac1/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "064a892a336879",
+          "source": "求是",
+          "title": "弘扬伟大长征精神、走好新的长征路",
+          "url": "https://www.qstheory.cn/20261025/9cc2322717f44f45bffd4fd0c9dd1af3/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cf417d7c00b018",
+          "source": "求是",
+          "title": "日本拟就修订“安保三文件”采取差异化宣传引担忧",
+          "url": "https://www.qstheory.cn/20261025/fd926426d3dd4f528fbe83e92150aebf/c.html",
+          "date": "2026-10-25",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -189480,65 +189648,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 10.1,
+          "duration": 19.7,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261025.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 24,
-          "duration": 2.5
+          "duration": 2.2
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 16,
-          "duration": 7.1
+          "count": 29,
+          "duration": 1.8
         },
         {
           "source": "半月谈",
           "status": "ok",
-          "count": 0,
-          "duration": 21.0
+          "count": 1,
+          "duration": 15.9
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 6.0
+          "count": 6,
+          "duration": 5.8
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 24,
-          "duration": 1.9
+          "duration": 2.0
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.3
+          "duration": 14.2
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 1,
-          "duration": 3.3
+          "duration": 2.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.7
+          "duration": 8.1
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 0,
-          "duration": 58.0
+          "count": 1,
+          "duration": 56.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-10-25T08:07:18+08:00"
+  "generatedAt": "2026-10-25T10:44:34+08:00"
 };
