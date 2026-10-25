@@ -190101,7 +190101,116 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 77.5
         }
       ]
+    },
+    {
+      "date": "2026-10-26",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 4
+        }
+      ],
+      "articles": [
+        {
+          "id": "1be6c7138cc39b",
+          "source": "新华社",
+          "title": "两岸同胞纪念台湾光复81周年：铭记光复历史 共盼统一梦圆",
+          "url": "https://www.news.cn/tw/20261026/8317acbc1b5d4fe986dd48757d128b15/c.html",
+          "date": "2026-10-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bf990bebef2602",
+          "source": "新华社",
+          "title": "欧洲多国爆发大规模抗议活动 千余人被捕",
+          "url": "https://www.news.cn/world/20261026/3c91395ab35644318a28e8f50bc12a90/c.html",
+          "date": "2026-10-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f453487c53d8ff",
+          "source": "新华社",
+          "title": "现场直击｜巴西选民在期待和担忧中迎来大选决胜轮",
+          "url": "https://www.news.cn/world/20261026/266ba02f4c6e430d9a1a1aeddf1b4e1d/c.html",
+          "date": "2026-10-26",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d5952f5250bcc6",
+          "source": "新华社",
+          "title": "蒙古国考虑就草原火灾向涉事日企索赔",
+          "url": "https://www.news.cn/world/20261026/7533b43c83bb467e91a3de80465f0dd7/c.html",
+          "date": "2026-10-26",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 26.4,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261026.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 6.2,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202610/26/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 4,
+          "duration": 2.5
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 21.2
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.8
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.5,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202610/26/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.5
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.2
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.4
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 36.3
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-10-25T21:08:21+08:00"
+  "generatedAt": "2026-10-26T01:25:09+08:00"
 };
