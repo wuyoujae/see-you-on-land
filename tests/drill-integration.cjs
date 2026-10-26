@@ -401,3 +401,58 @@ test("focused formula/table scrollers keep arrow keys while ordinary question fo
   await h.settle(); await until(() => h.backend.length === 1);
   assert.equal(prevented, true); assert.equal(h.root.querySelector("#drill-explanation").hidden, false);
 });
+
+test("skipping clears an unsent draft, advances without grading or AI, and leaves it available on return", async t => {
+  const session = Core.setDraft(baseSession(), QUESTION_IDS[0], "A", 9000000000000);
+  const h = harness(t, {session}); await h.settle();
+  assert.equal(h.root.querySelector('[data-drill-action="skip"]').hidden, false);
+  assert.match(h.root.innerHTML, /study-submit-actions/);
+  await h.answer("A"); h.flush();
+  assert.equal(Core.statistics(h.progress().sessions["session-test"]).done, 1);
+  await h.action("skip"); h.flush();
+  assert.equal(h.location.hash, routeFor(1));
+  const saved = h.progress().sessions["session-test"];
+  assert.equal(saved.drafts[QUESTION_IDS[0]].value, "");
+  assert.ok(saved.drafts[QUESTION_IDS[0]].updatedAt > session.drafts[QUESTION_IDS[0]].updatedAt, "a restored future timestamp cannot resurrect the skipped draft during merge");
+  assert.deepEqual(saved.answers, {});
+  assert.equal(Core.statistics(saved).done, 0);
+  assert.equal(Core.statistics(saved).submitted, 0);
+  assert.equal(h.explainCalls.length, 0); assert.equal(h.backend.length, 0);
+  assert.doesNotMatch(h.text(), /SOURCE_Q1|超级思维解析/);
+  await h.action("previous");
+  assert.equal(h.location.hash, routeFor());
+  assert.doesNotMatch(h.root.querySelector("#drill-question").innerHTML, /checked|has-feedback/);
+  const restored = harness(t, {session: h.progress().sessions["session-test"]}); await restored.settle();
+  assert.equal(restored.root.querySelector('[data-drill-action="skip"]').hidden, false);
+  assert.doesNotMatch(restored.root.querySelector("#drill-question").innerHTML, /checked|has-feedback/);
+  assert.equal(restored.root.querySelector("#drill-explanation").hidden, true);
+});
+
+test("skipping the final question ends the round without completing it and unfinished resumes the skipped question", async t => {
+  let session = Core.submit(baseSession(), questions[0], "B", () => "correct", 110);
+  session = Core.submit(session, questions[1], ["A", "C"], () => "correct", 120);
+  const h = harness(t, {session, hash: routeFor(2)}); await h.settle();
+  await h.answer("42"); await h.action("skip"); h.flush();
+  assert.match(h.text(), /这一轮练习结束|继续未答题目/);
+  assert.doesNotMatch(h.text(), /这一轮，完成了！/);
+  const stats = Core.statistics(h.progress().sessions["session-test"]);
+  assert.equal(stats.complete, false); assert.equal(stats.submitted, 2); assert.equal(stats.done, 2);
+  assert.equal(h.explainCalls.length, 0); assert.equal(h.backend.length, 0);
+  await h.action("unfinished");
+  assert.equal(h.location.hash, routeFor(2));
+  assert.equal(h.root.querySelector("#drill-explanation").hidden, true);
+  assert.doesNotMatch(h.root.querySelector("#drill-question").innerHTML, /value="42"/);
+});
+
+test("submission hides skip and a stale skip click cannot change a submitted answer or navigate away", async t => {
+  const h = harness(t, {immediateAI: true}); await h.settle(); await h.answer("B"); await h.action("next");
+  await until(() => h.cache.values.size === 1);
+  assert.equal(h.root.querySelector('[data-drill-action="skip"]').hidden, true);
+  h.flush(); const before = h.progress().sessions["session-test"].answers[QUESTION_IDS[0]];
+  await h.action("skip"); h.flush();
+  assert.equal(h.location.hash, routeFor());
+  assert.deepEqual(h.progress().sessions["session-test"].answers[QUESTION_IDS[0]], before);
+  assert.equal(h.explainCalls.length, 1);
+  await h.action("next"); assert.equal(h.root.querySelector('[data-drill-action="skip"]').hidden, false);
+  await h.action("previous"); assert.equal(h.root.querySelector('[data-drill-action="skip"]').hidden, true);
+});

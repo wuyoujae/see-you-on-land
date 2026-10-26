@@ -50,6 +50,13 @@
 .learn-context span { color:var(--muted); font-size:.75rem; }
 .learn-context strong { font-weight:600; font-size:.85rem; }
 .learn-navigation { display:grid; grid-template-columns:8rem minmax(0,1fr) 10rem; gap:1.5rem; align-items:center; }
+.learn-navigation:has(.study-submit-actions),.drill-session .learn-navigation:has(.study-submit-actions) { grid-template-columns:8rem minmax(0,1fr) auto; }
+.study-submit-actions { display:flex; align-items:center; justify-content:flex-end; gap:.65rem; min-width:0; }
+.study-submit-actions>.learn-next { min-width:9rem; }
+.study-skip { white-space:nowrap; }
+.study-skip[hidden] { display:none!important; }
+.study-skip:hover { color:#486f2f; background:#edf5e6; }
+.study-skip>span { display:inline; }
 .learn-button { display:inline-flex; justify-content:center; align-items:center; gap:.55rem; min-height:3rem; padding:.65rem 1rem; border:2px solid #dce5d3; border-bottom-width:5px; border-radius:.9rem; font:inherit; font-size:.85rem; font-weight:700; cursor:pointer; transition:transform .15s,background .15s; text-decoration:none; }
 .learn-button svg { width:1.1rem; height:1.1rem; }
 .learn-button:active:not(:disabled),.learn-resume:active { transform:translateY(3px); border-bottom-width:2px; margin-bottom:3px; }
@@ -148,7 +155,13 @@
   .learn-context span { font-size:.65rem; }
   .learn-context strong { font-size:.75rem; }
   .learn-navigation { grid-template-columns:2.8rem minmax(0,1fr) auto; gap:.8rem; }
+  .learn-navigation:has(.study-submit-actions),.drill-session .learn-navigation:has(.study-submit-actions) { grid-template-columns:2.8rem minmax(0,1fr) auto; }
+  .learn-navigation:has(.study-skip:not([hidden])),.drill-session .learn-navigation:has(.study-skip:not([hidden])) { grid-template-columns:2.8rem minmax(0,1fr); gap:.65rem .8rem; }
+  .learn-navigation:has(.study-skip:not([hidden]))>.study-submit-actions { grid-column:1/-1; justify-self:end; }
+  .study-submit-actions>.learn-next { min-width:7.7rem; }
+  .study-skip { min-width:7rem; }
   .learn-back>span { display:none; }
+  .study-skip>span { display:inline; }
   .learn-button { min-height:2.7rem; font-size:.75rem; padding:.5rem .65rem; border-radius:.7rem; }
   .learn-progress-button>span:first-child>span { font-size:.6rem; }
   .learn-progress-button strong { font-size:.9rem; }

@@ -7,7 +7,7 @@
   const icon = name => `<i data-lucide="${name}" aria-hidden="true"></i>`;
   let saved = readSaved(), manifest, manifestPromise, current = null, mounted = null;
   let sequence = 0, pendingHash = "", pendingPromise, routeHandling = false, saveTimer, direction = "next", notice = "";
-  const groupCache = new Map();
+  const groupCache = new Map(), loadedLessonCards = new Map();
   function readSaved() { try { return Core.mergeProgress({}, JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}")); } catch { return Core.mergeProgress({}, {}); } }
   function flush() {
     clearTimeout(saveTimer);
@@ -45,7 +45,10 @@
       const lesson = await response.json();
       if (lesson.id !== meta.id || lesson.groupId !== group.id || !Array.isArray(lesson.cards)) throw new Error("知识点内容不正确");
       return lesson;
-    })).then(lessons => ({ lessons, cards: Core.flattenLessons(lessons) })).catch(error => { groupCache.delete(group.id); throw error; }));
+    })).then(lessons => {
+      lessons.forEach(lesson => loadedLessonCards.set(lesson.id, lesson.cards));
+      return { lessons, cards: Core.flattenLessons(lessons) };
+    }).catch(error => { groupCache.delete(group.id); throw error; }));
     return groupCache.get(group.id);
   }
   function routeTo(hash, replace = false) {
@@ -64,7 +67,8 @@
   function cleanup() { mounted?.destroy(); mounted = null; root.querySelector(".learn-jump-dialog")?.close(); }
   function lessonStats(meta, rec) {
     const ids = meta.cardIds || [];
-    const done = ids.filter(id => rec.completed[id]).length;
+    const cards = loadedLessonCards.get(meta.id);
+    const done = cards ? Core.progress(cards, rec).completed : ids.filter(id => rec.completed[id]).length;
     return { done, total: meta.cardCount, complete: ids.length > 0 && done === ids.length };
   }
   function groupStats(group) {
@@ -138,7 +142,7 @@
     const nextText = card.type === "question" && !attempt ? "提交答案" : position === navigation.length - 1 ? "完成学习" : "下一页";
     const solution = attempt ? `<section class="study-explanation-pane" tabindex="0" aria-label="解析"><h2 class="study-pane-title">解析</h2>${explanationBanner(card, rec)}${explanations.length ? explanations.map(part => `<section class="learn-explanation-part" data-learn-explanation-id="${esc(part.id)}" aria-label="${esc(part.title || "解析")}">${window.RichContent.render(part.blocks || [])}</section>`).join("") : '<p>本题暂未提供解析。</p>'}</section>` : "";
     const body = card.type === "question" ? `<div class="study-question-layout${attempt ? " is-submitted" : ""}"><section class="study-question-pane" tabindex="0" aria-label="题目"><div id="learn-question-host"></div></section>${solution}</div>` : window.RichContent.render(card.blocks || []);
-    root.innerHTML = `<div class="learn-session-shell"><header class="learn-session-header"><div class="learn-context"><button class="learn-exit" data-learn-action="exit" aria-label="返回课程目录">${icon("x")}</button><div><span>${esc(subject.title)}</span><strong>${esc(group.title)}</strong></div></div><nav class="learn-navigation" aria-label="课程翻页"><button class="learn-back learn-button" data-learn-action="previous" aria-label="上一页" ${position <= 0 ? "disabled" : ""}>${icon("arrow-left")}<span>上一页</span></button><button class="learn-progress-button" data-learn-action="jump" aria-label="打开课程目录，快速跳转"><span><strong>${position + 1} <small>/ ${navigation.length}</small></strong><span>课程目录 ${icon("chevron-down")}</span></span><span class="learn-progress-track" role="progressbar" aria-label="学习进度" aria-valuemin="0" aria-valuemax="${stats.total}" aria-valuenow="${stats.completed}"><span style="width:${stats.percentage}%"></span></span></button><button class="learn-next learn-button" data-learn-action="next"><span>${nextText}</span>${icon("arrow-right")}</button></nav></header>
+    root.innerHTML = `<div class="learn-session-shell"><header class="learn-session-header"><div class="learn-context"><button class="learn-exit" data-learn-action="exit" aria-label="返回课程目录">${icon("x")}</button><div><span>${esc(subject.title)}</span><strong>${esc(group.title)}</strong></div></div><nav class="learn-navigation" aria-label="课程翻页"><button class="learn-back learn-button" data-learn-action="previous" aria-label="上一页" ${position <= 0 ? "disabled" : ""}>${icon("arrow-left")}<span>上一页</span></button><button class="learn-progress-button" data-learn-action="jump" aria-label="打开课程目录，快速跳转"><span><strong>${position + 1} <small>/ ${navigation.length}</small></strong><span>课程目录 ${icon("chevron-down")}</span></span><span class="learn-progress-track" role="progressbar" aria-label="学习进度" aria-valuemin="0" aria-valuemax="${stats.total}" aria-valuenow="${stats.completed}"><span style="width:${stats.percentage}%"></span></span></button><div class="study-submit-actions">${card.type === "question" && !attempt ? '<button class="learn-button learn-back study-skip" data-learn-action="skip" aria-label="跳过本题">跳过本题</button>' : ""}<button class="learn-next learn-button" data-learn-action="next"><span>${nextText}</span>${icon("arrow-right")}</button></div></nav></header>
       <div class="learn-stage"><article class="learn-card ${inPlace ? "" : `learn-flip-${direction}`} ${card.role === "intro" ? "learn-intro-card" : ""}" aria-labelledby="learn-card-title"><div class="learn-card-meta"><span>${label}</span><span>${esc(card.lessonTitle)}${source ? ` · <span class="learn-source" title="${esc(source.title)}">${esc(source.label)}</span>` : ""}${originals ? ` · ${originals}` : ""}</span></div><h1 id="learn-card-title" tabindex="-1">${esc(card.title || card.lessonTitle)}</h1><div class="learn-card-body">${body}</div></article></div><p class="learn-notice" role="status" hidden></p><dialog class="learn-jump-dialog" aria-labelledby="learn-jump-title"><header><div><small>${esc(group.title)}</small><h2 id="learn-jump-title">课程目录</h2></div><button class="learn-exit" data-learn-action="close-jump" aria-label="关闭课程目录">${icon("x")}</button></header><div class="learn-jump-list">${current.lessons.map(lesson => `<section><h3>${esc(lesson.title)}</h3>${navigation.filter(item => item.lessonId === lesson.id).map(item => `<button data-learn-jump="${item.index}" ${item.index === index ? 'aria-current="step"' : ""}><span>${rec.completed[item.id] ? icon("check") : navigation.indexOf(item) + 1}</span><span>${esc(item.title || lesson.title)}</span>${item.index === index ? '<small>当前</small>' : ""}</button>`).join("")}</section>`).join("")}</div></dialog></div>`;
     if (card.type === "question") {
       const answer = attempt ? attempt.answer : rec.drafts[card.question.id]?.value;
@@ -196,6 +200,19 @@
     if (target < 0) return;
     if (target >= navigation.length) { flush(); renderComplete(); return; }
     await routeTo(cardHash(current.subject, current.group, navigation[target]));
+  }
+  async function skipQuestion() {
+    if (!current || !root.classList.contains("learning-session") || current.finished) return;
+    const card = current.cards[current.index], rec = record();
+    if (card.type !== "question" || Core.submittedAnswer(card, rec)) return;
+    // Keep a newer empty draft so merging saved/backup progress cannot restore
+    // the abandoned selection. Skipping never creates an answer or completion.
+    const now = Math.max(Date.now(), (rec.drafts[card.question.id]?.updatedAt || 0) + 1);
+    putRecord({ ...rec, updatedAt: now, drafts: { ...rec.drafts, [card.question.id]: { value: "", updatedAt: now } } });
+    direction = "next";
+    const navigation = Core.navigationCards(current.cards), position = navigation.findIndex(item => item.id === card.id);
+    if (position + 1 >= navigation.length) { flush(); renderComplete(); return; }
+    await routeTo(cardHash(current.subject, current.group, navigation[position + 1]));
   }
   function renderComplete() {
     cleanup(); current.finished = true;
@@ -261,6 +278,7 @@
     }
     if (action === "previous") move(-1);
     if (action === "next") move(1);
+    if (action === "skip") skipQuestion();
     if (action === "exit") routeTo(current ? `#/learn/${current.subject.id}/${current.group.id}` : "#/learn");
     if (action === "retry") { manifestPromise = null; pendingPromise = null; resolveRoute(); }
     if (action === "jump") root.querySelector(".learn-jump-dialog")?.showModal();

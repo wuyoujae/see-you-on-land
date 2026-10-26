@@ -275,6 +275,62 @@ test("Next submits in place, locks the submitted answer, and skips the former an
   assert.equal(Object.keys(h.course().groups["group-one"].completed).length, 4);
 });
 
+test("Skip advances past the hidden explanation without submitting, completing, or retaining a selection", async () => {
+  const h = harness({hash: questionHash}); await h.settle();
+  assert.match(h.text(), /study-submit-actions[^]*data-learn-action="skip"[^]*data-learn-action="next"/);
+  assert.match(h.text(), /aria-label="跳过本题"/);
+  await h.answer("B"); h.window.LearningApp.flush();
+  await h.action("skip");
+  assert.equal(h.location.hash, nextLessonHash);
+  assert.doesNotMatch(h.text(), /PRIVATE_SOLUTION/);
+  h.window.LearningApp.flush();
+  const rec = h.course().groups["group-one"];
+  assert.deepEqual(rec.answers, {}); assert.deepEqual(rec.completed, {});
+  assert.equal(rec.drafts["q-one"].value, "");
+  await h.action("previous");
+  assert.equal(h.location.hash, questionHash);
+  assert.doesNotMatch(h.text(), /checked|PRIVATE_SOLUTION/);
+  await h.action("next");
+  assert.equal(h.root.querySelector(".learn-notice").textContent, "请先选择或填写答案，再提交。");
+  const refreshed = harness({hash: questionHash, storage: {[COURSE_KEY]: h.localStorage.getItem(COURSE_KEY)}});
+  await refreshed.settle();
+  assert.doesNotMatch(refreshed.text(), /checked|PRIVATE_SOLUTION/);
+  assert.match(refreshed.text(), /data-learn-action="skip"/);
+});
+
+test("the final question can be skipped and remains available through Continue unfinished", async () => {
+  const lesson = clone(fixtureLessons[0]), resources = resourcesForLesson(lesson);
+  resources["data/courses/manifest.json"].subjects[0].groups[0].lessons.length = 1;
+  const stored = {version: 1, updatedAt: 200, groups: {"group-one": {
+    ...Core.createRecord(), updatedAt: 200, completed: {"knowledge-one": 100, "question-one": 100, "explanation-one": 100},
+    drafts: {"q-one": {value: "B", updatedAt: 9000}}
+  }}};
+  const h = harness({hash: questionHash, resources, storage: {[COURSE_KEY]: JSON.stringify(stored)}});
+  await h.settle(); await h.action("skip");
+  assert.match(h.text(), /这一轮学习结束/); assert.doesNotMatch(h.text(), /这一关，学会了|PRIVATE_SOLUTION/);
+  assert.match(h.text(), /继续未学内容/);
+  await h.action("unfinished");
+  assert.equal(h.location.hash, questionHash);
+  assert.doesNotMatch(h.text(), /checked|PRIVATE_SOLUTION/);
+  await h.action("exit");
+  assert.match(h.text(), /0 \/ 1 知识点/);
+  assert.doesNotMatch(h.text(), /learn-lesson is-complete/);
+  h.window.LearningApp.flush();
+  assert.deepEqual(h.course().groups["group-one"].answers, {});
+  assert.equal(h.course().groups["group-one"].drafts["q-one"].value, "");
+});
+
+test("submitted learning questions hide Skip and ignore a stale skip action", async () => {
+  const h = harness({hash: questionHash}); await h.settle();
+  await h.answer("A"); await h.action("next"); h.window.LearningApp.flush();
+  const before = h.localStorage.getItem(COURSE_KEY);
+  assert.doesNotMatch(h.text(), /data-learn-action="skip"/);
+  await h.action("skip"); h.window.LearningApp.flush();
+  assert.equal(h.location.hash, questionHash);
+  assert.match(h.text(), /PRIVATE_SOLUTION/);
+  assert.equal(h.localStorage.getItem(COURSE_KEY), before);
+});
+
 test("all original analysis parts display together after one submit and never reveal the next question's analysis", async () => {
   const lesson = clone(fixtureLessons[0]);
   lesson.cards.push({id: "explanation-one-more", type: "text", role: "explanation", questionId: "q-one", title: "补充方法",
