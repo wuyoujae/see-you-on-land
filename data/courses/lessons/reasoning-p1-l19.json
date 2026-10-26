@@ -1,0 +1,47 @@
+{
+  "id": "reasoning-p1-l19",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-strengthen",
+  "title": "一般支持的三种问法",
+  "source": {
+    "startSeconds": 3518,
+    "endSeconds": 3600,
+    "timeLabel": "00:58:38—01:00:00",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p1-l19-knowledge-258bf19-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "一般支持的三种问法",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "前面在学怎么质疑，接下来换成支持。先把问题到底要我们干什么分清楚。"
+        },
+        {
+          "type": "paragraph",
+          "text": "常规支持：问“哪项最能支持上述观点”，就是找能让结论更站得住的理由。"
+        },
+        {
+          "type": "paragraph",
+          "text": "前提假设：问“要使上述结论成立，需要补充哪个前提”“基于什么假设”，就是找它从论据走到结论必须依赖的条件。"
+        },
+        {
+          "type": "paragraph",
+          "text": "解释说明：问“哪项最能解释上述现象”，就是把现象之间为什么会出现这种关系说清楚。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们继续用案发现场来理解：现场有死者，有人判断凶手是我们。要支持这个判断，可以补现场有我们的毛发、脚印，或者我们和死者关系不好、当天发生过激烈冲突等证据。这些是在给“为什么怀疑我们”补理由。"
+        },
+        {
+          "type": "paragraph",
+          "text": "后面还要继续看：到底是补新的证据，还是补论据和结论之间的关系，还是排掉一个别的可能性。题目问法先看准，再决定从哪里支持。"
+        }
+      ]
+    }
+  ]
+}

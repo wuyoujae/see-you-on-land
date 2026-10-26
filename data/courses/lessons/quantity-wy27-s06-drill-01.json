@@ -1,0 +1,413 @@
+{
+  "id": "quantity-wy27-s06-drill-01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s06",
+  "title": "实战精刷 · 1—4题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      68,
+      69
+    ],
+    "printedPages": [
+      62,
+      63
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s06-t03-drill-01-question",
+      "type": "question",
+      "title": "实战精刷 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s06-t03-drill-01",
+        "type": "single",
+        "stem": "（23北京）从A地到B地是下坡路，一辆车从A地开往B地需要三小时，从B地开往A地需要四小时。已知这辆车下坡速度比上坡速度快15千米／小时，则A、B两地之间的距离是多少千米？",
+        "options": [
+          {
+            "value": "A",
+            "label": "120"
+          },
+          {
+            "value": "B",
+            "label": "180"
+          },
+          {
+            "value": "C",
+            "label": "240"
+          },
+          {
+            "value": "D",
+            "label": "300"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          68
+        ],
+        "printedPages": [
+          62
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-01-p068.webp",
+            "alt": "行程问题（一） · 实战精刷1 · 讲义第62页",
+            "pdfPage": 68
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t03-drill-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把路程设为S千米，下坡速度S/3，上坡S/4。速度相差15，所以S/3－S/4＝15。"
+        },
+        {
+          "type": "paragraph",
+          "text": "左边为S/12，得到S＝180千米，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "同路程给工时和速度差，直接用路程除各自时间列方程。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          68
+        ],
+        "printedPages": [
+          62
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-01-p068.webp",
+            "alt": "行程问题（一） · 实战精刷1 · 讲义第62页",
+            "pdfPage": 68
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-02-question",
+      "type": "question",
+      "title": "实战精刷 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s06-t03-drill-02",
+        "type": "single",
+        "stem": "（24国考）甲和乙两辆车同时从A地出发匀速开往B地，甲车出发时的速度比乙车快20%，但乙车行驶2小时后速度加快30千米／小时继续匀速行驶，又用了3小时与甲车同时抵达。问A、B两地相距多少千米？",
+        "options": [
+          {
+            "value": "A",
+            "label": "540"
+          },
+          {
+            "value": "B",
+            "label": "510"
+          },
+          {
+            "value": "C",
+            "label": "600"
+          },
+          {
+            "value": "D",
+            "label": "570"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          68
+        ],
+        "printedPages": [
+          62
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-02-p068.webp",
+            "alt": "行程问题（一） · 实战精刷2 · 讲义第62页",
+            "pdfPage": 68
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t03-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设乙原速v，甲为1.2v。两车都用了5小时，甲路程6v；乙分两段，路程2v＋3(v＋30)＝5v＋90。"
+        },
+        {
+          "type": "paragraph",
+          "text": "同起点同终点，总路程相等，得到6v＝5v＋90，所以v＝90。距离为6×90＝540千米，选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "提速行程按阶段累加路程，用相同总路程联立。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          68
+        ],
+        "printedPages": [
+          62
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-02-p068.webp",
+            "alt": "行程问题（一） · 实战精刷2 · 讲义第62页",
+            "pdfPage": 68
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-03-question",
+      "type": "question",
+      "title": "实战精刷 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s06-t03-drill-03",
+        "type": "single",
+        "stem": "（21浙江）AB两地间有县道连接，BC两地间有高速公路连接，AB路程是BC的3/4。郭某从A匀速开到B，再以县道2倍的速度开到C，共用2小时30分。返程高速速度不变，县道速度比去程降低1/3，问返程用时？",
+        "options": [
+          {
+            "value": "A",
+            "label": "2小时45分"
+          },
+          {
+            "value": "B",
+            "label": "2小时50分"
+          },
+          {
+            "value": "C",
+            "label": "3小时10分"
+          },
+          {
+            "value": "D",
+            "label": "3小时15分"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          68
+        ],
+        "printedPages": [
+          62
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-03-p068.webp",
+            "alt": "行程问题（一） · 实战精刷3 · 讲义第62页",
+            "pdfPage": 68
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t03-drill-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把AB、BC路程设为3份、4份，去程速度分别为v、2v。用时3/v＋4/(2v)＝5/v，对应2.5小时，所以去程县道用1.5小时、高速用1小时。"
+        },
+        {
+          "type": "paragraph",
+          "text": "返程高速不变，仍1小时；县道速度降低1/3，变为原来的2/3，时间变为原来的3/2，即1.5×3/2＝2.25小时。"
+        },
+        {
+          "type": "paragraph",
+          "text": "返程总用时3.25小时，也就是3小时15分，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "同路程降速后，时间按速度的倒数倍变化。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          68
+        ],
+        "printedPages": [
+          62
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-03-p068.webp",
+            "alt": "行程问题（一） · 实战精刷3 · 讲义第62页",
+            "pdfPage": 68
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-04-question",
+      "type": "question",
+      "title": "实战精刷 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s06-t03-drill-04",
+        "type": "single",
+        "stem": "（24浙江）甲、乙两人以相同速度一起骑车从A地前往B地。同行1小时后，两人休息20分钟，然后甲继续原速出发，此时乙发现有重要物品未带，原速返回A地去取，到达A地后立即开车前往B地。最终乙比甲提前12分钟到达B地。已知开车速度是骑行速度的5倍，那么甲全程用了多少分钟？",
+        "options": [
+          {
+            "value": "A",
+            "label": "165"
+          },
+          {
+            "value": "B",
+            "label": "175"
+          },
+          {
+            "value": "C",
+            "label": "185"
+          },
+          {
+            "value": "D",
+            "label": "195"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          69
+        ],
+        "printedPages": [
+          63
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-04-p069.webp",
+            "alt": "行程问题（一） · 实战精刷4 · 讲义第63页",
+            "pdfPage": 69
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t03-drill-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把骑车速度设为每分钟1份，路程设L份。甲骑完全程要L分钟，加上共同休息20分钟，总用L＋20分钟。"
+        },
+        {
+          "type": "paragraph",
+          "text": "乙先骑60分钟，再休息20分钟，原速返回A再用60分钟，最后开车速度5份/分钟，需L/5分钟，共140＋L/5分钟。"
+        },
+        {
+          "type": "paragraph",
+          "text": "乙早12分钟到，L＋20－(140＋L/5)＝12，得L＝165。因此甲全程165＋20＝185分钟，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "把共同休息、返程取物、换交通工具分别列在时间线上。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          69
+        ],
+        "printedPages": [
+          63
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-04-p069.webp",
+            "alt": "行程问题（一） · 实战精刷4 · 讲义第63页",
+            "pdfPage": 69
+          }
+        ]
+      }
+    }
+  ]
+}

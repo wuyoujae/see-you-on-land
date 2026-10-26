@@ -1,0 +1,4 @@
+# Optional offline import dependencies; the browser needs no Python or server.
+PyMuPDF>=1.24,<2
+Pillow>=10,<13
+rapidocr-onnxruntime>=1.3.24,<2

@@ -1,0 +1,413 @@
+{
+  "id": "quantity-wy27-s07-drill-02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s07",
+  "title": "实战精刷 · 5—8题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      78,
+      79
+    ],
+    "printedPages": [
+      72,
+      73
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s07-t03-drill-05-question",
+      "type": "question",
+      "title": "实战精刷 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s07-t03-drill-05",
+        "type": "single",
+        "stem": "（20国考）一条圆形跑道长500米，甲、乙两人从不同起点同时出发，均沿顺时针方向匀速跑步。已知甲跑了600米后第一次追上乙，此后甲加速20%继续前进，又跑了1200米后第二次追上乙。问甲出发后多少米第一次到达乙的出发点？",
+        "options": [
+          {
+            "value": "A",
+            "label": "100"
+          },
+          {
+            "value": "B",
+            "label": "120"
+          },
+          {
+            "value": "C",
+            "label": "150"
+          },
+          {
+            "value": "D",
+            "label": "180"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          78
+        ],
+        "printedPages": [
+          72
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-05-p078.webp",
+            "alt": "行程问题（二） · 实战精刷5 · 讲义第72页",
+            "pdfPage": 78
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t03-drill-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t03-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设甲原速度v、乙速度u。甲加速后的1200米用时1200/(1.2v)＝1000/v，期间相对乙多走一圈500米。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以(1.2v－u)×1000/v＝500，解得u＝0.7v。第一次追上前甲跑600米，此时相对乙多跑600×(1－0.7)＝180米。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这180米就是两起点顺时针方向的间距，因此甲第一次到乙起点走180米，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先用加速后的整圈追及求速度比，再还原原速阶段的初始间距。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          78
+        ],
+        "printedPages": [
+          72
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-05-p078.webp",
+            "alt": "行程问题（二） · 实战精刷5 · 讲义第72页",
+            "pdfPage": 78
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t03-drill-06-question",
+      "type": "question",
+      "title": "实战精刷 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s07-t03-drill-06",
+        "type": "single",
+        "stem": "（25联考）甲乙两辆车相距200米，同向同时沿直线出发，乙保持5米/秒的速度匀速前行，甲从速度为零起步做匀加速运动追赶乙，10秒后恰好追上乙，则甲在追上乙时的速度为：",
+        "options": [
+          {
+            "value": "A",
+            "label": "10米/秒"
+          },
+          {
+            "value": "B",
+            "label": "30米/秒"
+          },
+          {
+            "value": "C",
+            "label": "50米/秒"
+          },
+          {
+            "value": "D",
+            "label": "70米/秒"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          78
+        ],
+        "printedPages": [
+          72
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-06-p078.webp",
+            "alt": "行程问题（二） · 实战精刷6 · 讲义第72页",
+            "pdfPage": 78
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t03-drill-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t03-drill-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看10秒内乙跑50米，甲原先还落后200米，所以甲追上时共跑250米，平均速度25米/秒。"
+        },
+        {
+          "type": "paragraph",
+          "text": "甲从静止匀加速，平均速度是末速度的一半，所以末速度50米/秒，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "追赶先算快车实际走过的距离，再用匀加速首尾平均速度。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          78
+        ],
+        "printedPages": [
+          72
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-06-p078.webp",
+            "alt": "行程问题（二） · 实战精刷6 · 讲义第72页",
+            "pdfPage": 78
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t03-drill-07-question",
+      "type": "question",
+      "title": "实战精刷 · 第7题",
+      "question": {
+        "id": "quantity-wy27-s07-t03-drill-07",
+        "type": "single",
+        "stem": "（25选调）一辆汽车从A地开往B地，匀速行驶60%的路程后开始匀加速，又用了1小时到达B地，且到达时的速度最快，是出发时的2倍。问全程用了多长时间?",
+        "options": [
+          {
+            "value": "A",
+            "label": "3小时"
+          },
+          {
+            "value": "B",
+            "label": "3小时15分钟"
+          },
+          {
+            "value": "C",
+            "label": "3小时25分钟"
+          },
+          {
+            "value": "D",
+            "label": "3小时30分钟"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          79
+        ],
+        "printedPages": [
+          73
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-07-p079.webp",
+            "alt": "行程问题（二） · 实战精刷7 · 讲义第73页",
+            "pdfPage": 79
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t03-drill-07-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t03-drill-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设出发速度v，后40%路程匀加速到2v，平均速度1.5v，用1小时，因此全程S满足0.4S＝1.5v。"
+        },
+        {
+          "type": "paragraph",
+          "text": "前60%路程为0.6S＝2.25v，按v匀速需要2.25小时，再加后面1小时，总3.25小时，即3小时15分，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "匀加速段先用首尾平均速度定距离，再按路程比例回推匀速段。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          79
+        ],
+        "printedPages": [
+          73
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-07-p079.webp",
+            "alt": "行程问题（二） · 实战精刷7 · 讲义第73页",
+            "pdfPage": 79
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t03-drill-08-question",
+      "type": "question",
+      "title": "实战精刷 · 第8题",
+      "question": {
+        "id": "quantity-wy27-s07-t03-drill-08",
+        "type": "single",
+        "stem": "（23国考）甲和乙两人8：00同时从A地出发前往B地，其中乙全程匀速，甲出发时的速度是乙的一半，但全程均匀加速。已知10：00甲追上乙，11：00甲到达B地。问乙什么时间到达B地？",
+        "options": [
+          {
+            "value": "A",
+            "label": "12:15"
+          },
+          {
+            "value": "B",
+            "label": "12:00"
+          },
+          {
+            "value": "C",
+            "label": "11: 45"
+          },
+          {
+            "value": "D",
+            "label": "11: 30"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          79
+        ],
+        "printedPages": [
+          73
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-08-p079.webp",
+            "alt": "行程问题（二） · 实战精刷8 · 讲义第73页",
+            "pdfPage": 79
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t03-drill-08-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t03-drill-08",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设乙速度v，甲初速v/2。2小时后追上，甲这段平均速度就是v；由于匀加速，其2小时后的速度为1.5v，速度每小时增加0.5v。"
+        },
+        {
+          "type": "paragraph",
+          "text": "到11点已走3小时，甲末速度2v，全程平均速度(v/2＋2v)/2＝1.25v，路程为3.75v。"
+        },
+        {
+          "type": "paragraph",
+          "text": "乙走同样路程需要3.75小时，8点出发到11点45分，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "追上时同路程同用时，先由平均速度反推加速度，再算后续全程距离。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          79
+        ],
+        "printedPages": [
+          73
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-08-p079.webp",
+            "alt": "行程问题（二） · 实战精刷8 · 讲义第73页",
+            "pdfPage": 79
+          }
+        ]
+      }
+    }
+  ]
+}

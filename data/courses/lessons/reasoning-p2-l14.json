@@ -1,0 +1,55 @@
+{
+  "id": "reasoning-p2-l14",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-propositions",
+  "title": "“所有、个例、有些”的推出关系",
+  "source": {
+    "startSeconds": 6230,
+    "endSeconds": 6295,
+    "timeLabel": "01:43:50—01:44:55",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p2-l14-knowledge-499a1cd-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "“所有、个例、有些”的推出关系",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们可以记成一条从强到弱的链：所有→个例→有些；所有也能直接推出有些。"
+        },
+        {
+          "type": "paragraph",
+          "text": "比如题目讨论的这批城市里包括北京："
+        },
+        {
+          "type": "paragraph",
+          "text": "（1）所有这些城市都下雪→北京下雪。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（2）北京下雪→有些城市下雪。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（3）所有这些城市都下雪→有些城市下雪。"
+        },
+        {
+          "type": "paragraph",
+          "text": "反过来就不行了。“有些城市下雪”，怎么就能锁定北京下雪？可能下雪的是别的城市。“北京下雪”，怎么就能说明所有城市都下雪？当然也不行。"
+        },
+        {
+          "type": "paragraph",
+          "text": "肯定句可以这样推，否定句在同一个范围内也一样：“所有这些城市都没下雪”→“北京没下雪”→“有些城市没下雪”。注意，北京得属于题目谈论的那批城市；从所有推出有些时，也默认这批对象确实存在。"
+        },
+        {
+          "type": "paragraph",
+          "text": "还有，不要看见“有些”就脑补“有些不”。“有些城市下雪”只保证至少一个下了，不保证另外还有没下的。"
+        }
+      ]
+    }
+  ]
+}

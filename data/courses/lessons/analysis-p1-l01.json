@@ -1,0 +1,35 @@
+{
+  "id": "analysis-p1-l01",
+  "subjectId": "analysis",
+  "groupId": "analysis-abrx",
+  "title": "复盘不是把公式再背一遍，要想到它会怎么考",
+  "source": {
+    "startSeconds": 0,
+    "endSeconds": 25,
+    "timeLabel": "00:00—00:00:25",
+    "videoId": "7668729047387524358",
+    "videoTitle": "资料分析完整复盘"
+  },
+  "cards": [
+    {
+      "id": "analysis-p1-l01-knowledge-b1cf5c0-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "复盘不是把公式再背一遍，要想到它会怎么考",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们复盘资料分析，不能只是把公式看一遍，觉得“这个我们背过了”，然后就结束。"
+        },
+        {
+          "type": "paragraph",
+          "text": "看到一个公式，我们要接着想：它在题目里会长什么样？题目会给我们哪几个数，让我们求哪个数？能不能自己编一个简单例子，把它算一遍？"
+        },
+        {
+          "type": "paragraph",
+          "text": "这样我们在考场上看到题干，才能马上反应过来，它考的是哪种关系，而不是看到一堆增长率就随便套一个公式。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,868 @@
+{
+  "id": "quantity-wy27-s14-t02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s14",
+  "title": "勾股、特殊角、方位与反射",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      146,
+      147,
+      148
+    ],
+    "printedPages": [
+      140,
+      141,
+      142
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s14-t02-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "勾股、特殊角、方位与反射",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先找直角，再区分斜边与两条直角边。常见3：4：5、5：12：13、7：24：25可以加快判断，但必须对应正确边。30°所对的直角边是斜边的一半，45°直角三角形两直角边相等。"
+        },
+        {
+          "type": "formula",
+          "latex": "a^2+b^2=c^2;\\quad 30^\\circ\\!:\\!60^\\circ\\!:\\!90^\\circ\\text{的对边比}=1:\\sqrt3:2"
+        },
+        {
+          "type": "paragraph",
+          "text": "方位角先画正北正东参照，转弯90°形成垂直方向，仰角以眼睛的水平线为准。东北射线可以设为y=x；两点经直线的最短折线可把一端对称后拉直，但要检查交点落在允许的线段或射线上。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          146,
+          147,
+          148
+        ],
+        "printedPages": [
+          140,
+          141,
+          142
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t02-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s14-t02-mother-01",
+        "type": "single",
+        "stem": "（26联考）一个长方形出口，高为2米，宽为1米。若想将圆形零件从此出口运出，圆形零件的厚度可以忽略不计，问该出口可以通过的圆形零件的最大直径在以下哪个范围内？",
+        "options": [
+          {
+            "value": "A",
+            "label": "0~2米之间"
+          },
+          {
+            "value": "B",
+            "label": "2~4米之间"
+          },
+          {
+            "value": "C",
+            "label": "4~6米之间"
+          },
+          {
+            "value": "D",
+            "label": "6~8米之间"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          147
+        ],
+        "printedPages": [
+          141
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-mother-01-p147.webp",
+            "alt": "几何问题（一） · 母题精讲1 · 讲义第141页",
+            "pdfPage": 147
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t02-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s14-t02-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们抓住圆片厚度忽略不计，可以侧着斜放通过出口。能利用的最长直线是长方形对角线，而不只是门高或门宽。"
+        },
+        {
+          "type": "paragraph",
+          "text": "出口对角线长√（2²+1²）=√5，约2.24米，落在2—4米之间。"
+        },
+        {
+          "type": "formula",
+          "latex": "d_{\\max}=\\sqrt{2^2+1^2}=\\sqrt5\\approx2.24\\text{米}"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以我们选B。这里使用理想薄圆片模型，若零件有厚度，就不能直接沿用这条结论。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          147
+        ],
+        "printedPages": [
+          141
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-mother-01-p147.webp",
+            "alt": "几何问题（一） · 母题精讲1 · 讲义第141页",
+            "pdfPage": 147
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t02-mother-01-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s14-t02-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "薄圆片通过矩形口，先考虑立起后利用开口对角线。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          147
+        ],
+        "printedPages": [
+          141
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-mother-01-p147.webp",
+            "alt": "几何问题（一） · 母题精讲1 · 讲义第141页",
+            "pdfPage": 147
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t02-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s14-t02-mother-02",
+        "type": "single",
+        "stem": "（26浙江）小张从营地出发，骑车向东偏南方向行进60千米后，左转90°继续行进45千米到达营地正东方向的位置。问他保持当前方向再行进35千米，与营地之间的直线距离为多少千米？",
+        "options": [
+          {
+            "value": "A",
+            "label": "80"
+          },
+          {
+            "value": "B",
+            "label": "90"
+          },
+          {
+            "value": "C",
+            "label": "100"
+          },
+          {
+            "value": "D",
+            "label": "120"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          147
+        ],
+        "printedPages": [
+          141
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-mother-02-p147.webp",
+            "alt": "几何问题（一） · 母题精讲2 · 讲义第141页",
+            "pdfPage": 147
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t02-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s14-t02-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看转弯关系：第一段60千米与转弯后的方向垂直。45千米后又沿同一方向走35千米，第二条直角边累计80千米。"
+        },
+        {
+          "type": "paragraph",
+          "text": "营地到最终位置的直线距离，是两条直角边60、80构成的斜边，等于100千米。"
+        },
+        {
+          "type": "formula",
+          "latex": "d=\\sqrt{60^2+(45+35)^2}=100\\text{千米}"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以我们选C。不用先求“东偏南”具体偏了多少度；给出的正东位置是辅助关系，直角转弯已经足够。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          147
+        ],
+        "printedPages": [
+          141
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-mother-02-p147.webp",
+            "alt": "几何问题（一） · 母题精讲2 · 讲义第141页",
+            "pdfPage": 147
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t02-mother-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s14-t02-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "同一方向的路程先合并，与垂直方向组成直角三角形。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          147
+        ],
+        "printedPages": [
+          141
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-mother-02-p147.webp",
+            "alt": "几何问题（一） · 母题精讲2 · 讲义第141页",
+            "pdfPage": 147
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t02-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s14-t02-mother-03",
+        "type": "single",
+        "stem": "（26联考）某风力发电机的三片风叶之间两两所成的角度为120°，当其中一片风叶OB与塔杆叠合时，一位身高1.8米的技术人员站在另一片风叶OA端头的正下方，测得塔杆顶部仰角为60°（如左下图所示）；若该技术人员站在离塔杆60米处，则测得塔杆顶部仰角为45°（如右下图所示）。那么风叶转动时叶片顶端最高离地面：",
+        "options": [
+          {
+            "value": "A",
+            "label": "81.8米"
+          },
+          {
+            "value": "B",
+            "label": "89.8米"
+          },
+          {
+            "value": "C",
+            "label": "95.8米"
+          },
+          {
+            "value": "D",
+            "label": "101.8米"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（26联考）某风力发电机的三片风叶之间两两所成的角度为120°，当其中一片风叶OB与塔杆叠合时，一位身高1.8米的技术人员站在另一片风叶OA端头的正下方，测得塔杆顶部仰角为60°（如左下图所示）；若该技术人员站在离塔杆60米处，则测得塔杆顶部仰角为45°（如右下图所示）。那么风叶转动时叶片顶端最高离地面："
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-mother-03-figure-01.webp",
+            "alt": "几何问题（一）原题示意图，讲义第141页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          147
+        ],
+        "printedPages": [
+          141
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-mother-03-p147.webp",
+            "alt": "几何问题（一） · 母题精讲3 · 讲义第141页",
+            "pdfPage": 147
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t02-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s14-t02-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先用右图求塔顶高度。技术人员在60米外测得仰角45°，眼睛到塔顶的竖直距离是60米，加身高1.8米，塔顶O高61.8米。"
+        },
+        {
+          "type": "paragraph",
+          "text": "左图中眼睛到O的竖直距离仍是60米，仰角60°，水平距离为60/√3=20√3米。叶片OA与向下塔杆OB夹角120°，所以OA与水平方向夹角30°，其水平投影等于叶长的√3/2。"
+        },
+        {
+          "type": "formula",
+          "latex": "H=60+1.8=61.8,\\quad L=\\frac{20\\sqrt3}{\\sqrt3/2}=40,\\quad H+L=101.8"
+        },
+        {
+          "type": "paragraph",
+          "text": "由此叶长40米。叶片转到正上方时最高点为61.8+40=101.8米，我们选D。身高只在还原离地高度时补一次。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          147
+        ],
+        "printedPages": [
+          141
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-mother-03-p147.webp",
+            "alt": "几何问题（一） · 母题精讲3 · 讲义第141页",
+            "pdfPage": 147
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t02-mother-03-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s14-t02-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "仰角先统一眼睛水平线，再用叶片方向的投影还原长度。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          147
+        ],
+        "printedPages": [
+          141
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-mother-03-p147.webp",
+            "alt": "几何问题（一） · 母题精讲3 · 讲义第141页",
+            "pdfPage": 147
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t02-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s14-t02-practice-01",
+        "type": "single",
+        "stem": "（25国考）甲船在A港正东n海里，乙船在A港正南√3n海里，两船相距120海里，同时出发向A港匀速行驶。已知乙船的速度是甲船的2√3倍，比甲船早3小时到A港。问甲船的速度是多少海里/小时？",
+        "options": [
+          {
+            "value": "A",
+            "label": "10"
+          },
+          {
+            "value": "B",
+            "label": "15"
+          },
+          {
+            "value": "C",
+            "label": "103"
+          },
+          {
+            "value": "D",
+            "label": "153"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          148
+        ],
+        "printedPages": [
+          142
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-practice-01-p148.webp",
+            "alt": "几何问题（一） · 思维精练1 · 讲义第142页",
+            "pdfPage": 148
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t02-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s14-t02-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把港口与两船的位置连起来：两条直角边为n和√3n，斜边为120，因此2n=120，甲离港60海里，乙离港60√3海里。"
+        },
+        {
+          "type": "paragraph",
+          "text": "设甲速度v，乙速度2√3v，两船到港时间分别60/v与30/v。乙早3小时，时间差30/v=3。"
+        },
+        {
+          "type": "formula",
+          "latex": "n^2+(\\sqrt3n)^2=120^2,\\quad \\frac{60}{v}-\\frac{60\\sqrt3}{2\\sqrt3v}=3\\Rightarrow v=10"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以v=10海里/小时，我们选A。原页C、D文字分别为103、153，保留原选项，不自行补写未印出的根号。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          148
+        ],
+        "printedPages": [
+          142
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-practice-01-p148.webp",
+            "alt": "几何问题（一） · 思维精练1 · 讲义第142页",
+            "pdfPage": 148
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t02-practice-01-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s14-t02-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "方位形成直角时先求路程，再把速度关系代入时间差。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          148
+        ],
+        "printedPages": [
+          142
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-practice-01-p148.webp",
+            "alt": "几何问题（一） · 思维精练1 · 讲义第142页",
+            "pdfPage": 148
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t02-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s14-t02-practice-02",
+        "type": "single",
+        "stem": "（26联考）某小区内有一块直角扇形的草坪如下图所示，两条互相垂直的小路AC与BC分别长4米和3米。物业公司准备在四边形OACB围成的区域种植丁香花。如果小路面积忽略不计，则丁香花种植面积为多少平方米?",
+        "options": [
+          {
+            "value": "A",
+            "label": "11"
+          },
+          {
+            "value": "B",
+            "label": "12"
+          },
+          {
+            "value": "C",
+            "label": "13"
+          },
+          {
+            "value": "D",
+            "label": "14"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（26联考）某小区内有一块直角扇形的草坪如下图所示，两条互相垂直的小路AC与BC分别长4米和3米。物业公司准备在四边形OACB围成的区域种植丁香花。如果小路面积忽略不计，则丁香花种植面积为多少平方米?"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-practice-02-figure-01.webp",
+            "alt": "几何问题（一）原题示意图，讲义第142页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          148
+        ],
+        "printedPages": [
+          142
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-practice-02-p148.webp",
+            "alt": "几何问题（一） · 思维精练2 · 讲义第142页",
+            "pdfPage": 148
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t02-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s14-t02-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先读清图：O是扇形圆心，A、C在圆弧上，B在竖直半径内部，所以OA=OC，而不是把OB也当半径。AC=4、BC=3且互相垂直，△ABC面积为6。"
+        },
+        {
+          "type": "paragraph",
+          "text": "为便于计算，我们以C为（0，0），A为（4，0）、B为（0，3）。OA=OC说明O在AC的中垂线上，设O为（2，t）；∠AOB=90°给出t²−3t−4=0。对应图中的位置取t=4，从而OA=2√5、OB=√5。"
+        },
+        {
+          "type": "formula",
+          "latex": "S_{OACB}=\\frac12(2\\sqrt5)(\\sqrt5)+\\frac12\\times4\\times3=11"
+        },
+        {
+          "type": "paragraph",
+          "text": "△OAB面积为5，四边形OACB由△OAB与△ABC拼成，总面积5+6=11平方米，我们选A。坐标只是换个方向描述原图，没有额外添加长度。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          148
+        ],
+        "printedPages": [
+          142
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-practice-02-p148.webp",
+            "alt": "几何问题（一） · 思维精练2 · 讲义第142页",
+            "pdfPage": 148
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t02-practice-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s14-t02-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先分清圆弧上的点与半径内部的点，必要时用坐标消除复杂角度。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          148
+        ],
+        "printedPages": [
+          142
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-practice-02-p148.webp",
+            "alt": "几何问题（一） · 思维精练2 · 讲义第142页",
+            "pdfPage": 148
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t02-practice-03-question",
+      "type": "question",
+      "title": "思维精练 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s14-t02-practice-03",
+        "type": "single",
+        "stem": "（26联考）一条输电线沿着A地的东北方向布设，B地、C地均在A地正东方向，距离A地分别为4公里、6公里，D地在C地正北方向2公里处。现从输电线的某处P点分别搭建两条电缆至B、D两地，则这两条电缆长度之和最小为多少公里？",
+        "options": [
+          {
+            "value": "A",
+            "label": "4√2"
+          },
+          {
+            "value": "B",
+            "label": "4√3"
+          },
+          {
+            "value": "C",
+            "label": "3√6"
+          },
+          {
+            "value": "D",
+            "label": "2√10"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          148
+        ],
+        "printedPages": [
+          142
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-practice-03-p148.webp",
+            "alt": "几何问题（一） · 思维精练3 · 讲义第142页",
+            "pdfPage": 148
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t02-practice-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s14-t02-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们以A为原点，正东为x轴、正北为y轴。输电线是y=x的东北射线，B为（4，0），D为（6，2）。"
+        },
+        {
+          "type": "paragraph",
+          "text": "把B关于y=x对称到B′（0，4）。P在线上时PB=PB′，因此PB+PD最小就是直线B′D的长度。B′D与y=x相交于（3，3），确实在东北射线上。"
+        },
+        {
+          "type": "formula",
+          "latex": "PB+PD\\ge B\\!\\prime D=\\sqrt{(6-0)^2+(2-4)^2}=2\\sqrt{10}"
+        },
+        {
+          "type": "paragraph",
+          "text": "最短距离√（6²+2²）=2√10公里，我们选D。最后检查交点落在允许的射线内，反射法才真正可取到。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          148
+        ],
+        "printedPages": [
+          142
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-practice-03-p148.webp",
+            "alt": "几何问题（一） · 思维精练3 · 讲义第142页",
+            "pdfPage": 148
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t02-practice-03-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s14-t02-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "同侧两点经一条直线的最短折线可用轴对称拉直，并核对交点范围。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          148
+        ],
+        "printedPages": [
+          142
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t02-practice-03-p148.webp",
+            "alt": "几何问题（一） · 思维精练3 · 讲义第142页",
+            "pdfPage": 148
+          }
+        ]
+      }
+    }
+  ]
+}

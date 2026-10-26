@@ -1,0 +1,129 @@
+{
+  "id": "analysis-p1-l09",
+  "subjectId": "analysis",
+  "groupId": "analysis-share",
+  "title": "两期比重差：先有去年部分，再乘增速差",
+  "source": {
+    "startSeconds": 1386,
+    "endSeconds": 1598,
+    "timeLabel": "00:23:06—00:26:38",
+    "videoId": "7668729047387524358",
+    "videoTitle": "资料分析完整复盘"
+  },
+  "cards": [
+    {
+      "id": "analysis-p1-l09-knowledge-b687740-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "两期比重差：先有去年部分，再乘增速差 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "定性只能告诉我们升还是降；题目如果问提高、下降了多少个百分点，就要定量。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们优先用这个写法：基期部分量，除以现期整体量，再乘部分与整体的增长率之差。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这里我们用 P 表示部分量，T 表示整体量，下标 0 是基期，下标 1 是现期。"
+        },
+        {
+          "type": "formula",
+          "latex": "两期比重差 \\Delta s = \\frac{P_0}{T_1}(r_p-r_t)"
+        },
+        {
+          "type": "paragraph",
+          "text": "常见的另一种写法是下面这个，两个式子是一回事，只是把“还原基期部分量”这一步放在哪的问题。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\Delta s = \\frac{P_1}{T_1}\\times\\frac{r_p-r_t}{1+r_p}"
+        },
+        {
+          "type": "paragraph",
+          "text": "教学例题15：今年部分量是 350，增长 15%；整体量是 800，增长 10%，求两期比重差。"
+        }
+      ]
+    },
+    {
+      "id": "analysis-p1-l09-knowledge-b687740-02",
+      "type": "text",
+      "role": "knowledge",
+      "title": "两期比重差：先有去年部分，再乘增速差 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先按这个顺序，求去年的部分量。350 除以 1.15，用假设分配的第一步，先估到 305 左右。"
+        },
+        {
+          "type": "formula",
+          "latex": "基期部分量 = \\frac{350}{1+15\\%}\\approx305"
+        },
+        {
+          "type": "formula",
+          "latex": "两期比重差 \\approx\\frac{305}{800}\\times(15\\%-10\\%)"
+        },
+        {
+          "type": "paragraph",
+          "text": "305/800 大约当作 300/800，也就是 3/8，约 37.5%；再乘 5%，约是 1.9 个百分点，不到 2 个百分点。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看部分增速大，所以是“上升”，然后看计算，大约上升不到 2 个百分点。如果选项不接近，已经够选了，不用把每一步都算得特别细。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们还可以往前推进一步：如果选项距离非常大，连 350 还原成 305 这一步，都可以先粗估，用今年的部分代替去年的部分看量级。"
+        },
+        {
+          "type": "formula",
+          "latex": "粗估比重差 = \\frac{350}{800}\\times5\\%\\approx2.19\\%"
+        },
+        {
+          "type": "paragraph",
+          "text": "这里的 2.19%作为比重的差，表达为约 2.19 个百分点。它和前面不到 2 个百分点存在误差，所以只适合选项足够分散时判断量级，选项接近就不能这么省。"
+        }
+      ]
+    },
+    {
+      "id": "analysis-p1-l09-knowledge-b687740-03",
+      "type": "text",
+      "role": "knowledge",
+      "title": "两期比重差：先有去年部分，再乘增速差 · 3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "（1）先用符号排除：升还是降"
+        },
+        {
+          "type": "paragraph",
+          "text": "比如部分增长 15%，整体增长 10%，比重上升；如果换成部分增长 10%、整体增长 15%，就是比重下降。上升、下降方向错的选项先排掉。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（2）再用范围排除：比重差的绝对值，通常小于增速差的绝对值"
+        },
+        {
+          "type": "paragraph",
+          "text": "在这种整体正增长、部分确实包含在整体中的题里，基期部分量除以现期整体量小于 1，所以乘上增速差后，差值的绝对值会缩小。"
+        },
+        {
+          "type": "paragraph",
+          "text": "前面的两个增长率相差 5 个百分点，那么比重上升幅度小于 5 个百分点；反过来部分 10%、整体 15%，则下降幅度小于 5 个百分点。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这样先排上升项，再排下降超过 5 个百分点的项，能锁定就结束，锁定不了再代公式。这条范围判断要看乘在前面的量比是否小于 1，别把本例条件丢掉，机械推广到所有大幅下降情形。"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/courses/analysis-share-difference-board.jpg",
+          "alt": "两期比重趋势与差值公式原板书",
+          "caption": "两期比重差原板书，点击放大。"
+        }
+      ]
+    }
+  ]
+}

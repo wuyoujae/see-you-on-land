@@ -1,0 +1,638 @@
+{
+  "id": "quantity-wy27-s06-t01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s06",
+  "title": "普通行程",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      63,
+      64,
+      65
+    ],
+    "printedPages": [
+      57,
+      58,
+      59
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s06-t01-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "普通行程",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先认路程、速度、时间，再判断题目中哪一个量相同。同路程时速度与时间成反比；同时间时路程与速度成正比，不能脱离前提直接套比例。"
+        },
+        {
+          "type": "formula",
+          "latex": "s=vt,\\qquad \\bar v=\\frac{\\text{总路程}}{\\text{总时间}}"
+        },
+        {
+          "type": "paragraph",
+          "text": "往返路程相同、速度不同时，平均速度要用总路程除总时间，不能直接把两个速度平均。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\bar v=\\frac{2v_1v_2}{v_1+v_2}\\quad(\\text{两段路程相等})"
+        },
+        {
+          "type": "paragraph",
+          "text": "往返经过中间点，两次连续到达之间往往是一段路的两倍；先画出这段时间实际走的路线，再除2。分钟与小时、米与千米先统一，出发时间和已经行驶的时间分别算。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          63
+        ],
+        "printedPages": [
+          57
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t01-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s06-t01-mother-01",
+        "type": "single",
+        "stem": "（26北京）一辆车从甲地出发在甲、乙两地之间不间断匀速往返，前3次到达两地之间的丙地时间分别为8：00、8：40和9：50。则这辆车是几点出发的？",
+        "options": [
+          {
+            "value": "A",
+            "label": "7:25"
+          },
+          {
+            "value": "B",
+            "label": "7:30"
+          },
+          {
+            "value": "C",
+            "label": "7: 35"
+          },
+          {
+            "value": "D",
+            "label": "7:40"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          64
+        ],
+        "printedPages": [
+          58
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t01-mother-01-p064.webp",
+            "alt": "行程问题（一） · 母题精讲1 · 讲义第58页",
+            "pdfPage": 64
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t01-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t01-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先画经过顺序：甲→丙→乙→丙→甲→丙。8点到8点40走的是丙到乙再回丙，共40分钟，所以丙到乙单程20分钟。"
+        },
+        {
+          "type": "paragraph",
+          "text": "8点40到9点50走的是丙到甲再回丙，共70分钟，所以甲到丙单程35分钟。第一次8点到丙，出发时间就是7点25分，选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "连续经过中间点的间隔要先还原为哪一侧的往返。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          64
+        ],
+        "printedPages": [
+          58
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t01-mother-01-p064.webp",
+            "alt": "行程问题（一） · 母题精讲1 · 讲义第58页",
+            "pdfPage": 64
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t01-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s06-t01-mother-02",
+        "type": "single",
+        "stem": "（26国考）小王从甲地匀速前往乙地，到达后立刻匀速返回。已知他去程的用时比返程多3小时，去程的速度是返程的40%，且往返的平均速度为40千米／小时，问甲、乙两地相距多少千米？",
+        "options": [
+          {
+            "value": "A",
+            "label": "70"
+          },
+          {
+            "value": "B",
+            "label": "140"
+          },
+          {
+            "value": "C",
+            "label": "210"
+          },
+          {
+            "value": "D",
+            "label": "280"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          64
+        ],
+        "printedPages": [
+          58
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t01-mother-02-p064.webp",
+            "alt": "行程问题（一） · 母题精讲2 · 讲义第58页",
+            "pdfPage": 64
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t01-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t01-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们看去返同路程，去速是返速的40%，所以去程时间是返程的2.5倍。设返程t小时，则2.5t－t＝3，得返程2小时、去程5小时。"
+        },
+        {
+          "type": "paragraph",
+          "text": "全程共7小时，平均速度40千米/小时，总路程280千米，单程140千米，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "等路程用时间反比，再由往返总时间和平均速度求单程。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          64
+        ],
+        "printedPages": [
+          58
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t01-mother-02-p064.webp",
+            "alt": "行程问题（一） · 母题精讲2 · 讲义第58页",
+            "pdfPage": 64
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t01-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s06-t01-mother-03",
+        "type": "single",
+        "stem": "（23广东）某地举办了“铁人三项”体育活动，先进行蛙跳，后游泳，最后竞走到达终点。一位选手在上午7点出发，9点到达了终点，全程未休息，其蛙跳、游泳和竞走的速度分别为每小时2千米、3千米和6千米。如果蛙跳和竞走的路程相同，则所有项目的总路程是？",
+        "options": [
+          {
+            "value": "A",
+            "label": "无法计算"
+          },
+          {
+            "value": "B",
+            "label": "6千米"
+          },
+          {
+            "value": "C",
+            "label": "8千米"
+          },
+          {
+            "value": "D",
+            "label": "12千米"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          64
+        ],
+        "printedPages": [
+          58
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t01-mother-03-p064.webp",
+            "alt": "行程问题（一） · 母题精讲3 · 讲义第58页",
+            "pdfPage": 64
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t01-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t01-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设蛙跳和竞走的路程各x千米，游泳y千米。蛙跳加竞走用时x/2＋x/6＝2x/3小时，游泳y/3小时。"
+        },
+        {
+          "type": "paragraph",
+          "text": "总用时2小时，所以(2x＋y)/3＝2，得到2x＋y＝6。这个式子左边恰好就是总路程，所以选B，6千米。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "不必求出每一段，只要把目标总路程组合出来。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          64
+        ],
+        "printedPages": [
+          58
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t01-mother-03-p064.webp",
+            "alt": "行程问题（一） · 母题精讲3 · 讲义第58页",
+            "pdfPage": 64
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t01-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s06-t01-practice-01",
+        "type": "single",
+        "stem": "（26国考）甲、乙两地的中点为丙。张从甲出发在甲、乙之间往返匀速慢跑，同时王从乙出发在乙、丙之间往返匀速慢跑。出发后王第5次到达乙地时，张正好第4次到达乙地。问张的速度是王的多少倍？",
+        "options": [
+          {
+            "value": "A",
+            "label": "5/7"
+          },
+          {
+            "value": "B",
+            "label": "7/5"
+          },
+          {
+            "value": "C",
+            "label": "7/10"
+          },
+          {
+            "value": "D",
+            "label": "10/7"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          65
+        ],
+        "printedPages": [
+          59
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t01-practice-01-p065.webp",
+            "alt": "行程问题（一） · 思维精练1 · 讲义第59页",
+            "pdfPage": 65
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t01-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t01-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把甲乙全程设为L。张从甲到乙第1、2、3、4次，累计路程分别L、3L、5L、7L，所以此时走了7L。"
+        },
+        {
+          "type": "paragraph",
+          "text": "王在乙和中点丙之间往返，每次回乙走L，第5次回乙累计5L。两人用时相同，速度比就是路程比7∶5，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "多次到端点先列实际累计路程；出发时已经站在端点不算一次到达。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          65
+        ],
+        "printedPages": [
+          59
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t01-practice-01-p065.webp",
+            "alt": "行程问题（一） · 思维精练1 · 讲义第59页",
+            "pdfPage": 65
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t01-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s06-t01-practice-02",
+        "type": "single",
+        "stem": "（26浙江）甲、乙两人在同一户外徒步路线上开展训练，他们早上8点同时出发，匀速前进。甲每小时比乙多走1千米，11点甲开始休息1小时，乙继续前进，并在12点赶上甲。问此时乙走了多少千米?",
+        "options": [
+          {
+            "value": "A",
+            "label": "9"
+          },
+          {
+            "value": "B",
+            "label": "12"
+          },
+          {
+            "value": "C",
+            "label": "15"
+          },
+          {
+            "value": "D",
+            "label": "18"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          65
+        ],
+        "printedPages": [
+          59
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t01-practice-02-p065.webp",
+            "alt": "行程问题（一） · 思维精练2 · 讲义第59页",
+            "pdfPage": 65
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t01-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t01-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设乙每小时v千米，甲每小时v＋1千米。到12点，甲只走了3小时，乙走了4小时，两人所在位置一样。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以3(v＋1)＝4v，得乙速度3千米/小时，走了4×3＝12千米，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "休息者只计运动时间，赶上时用同位置列路程相等。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          65
+        ],
+        "printedPages": [
+          59
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t01-practice-02-p065.webp",
+            "alt": "行程问题（一） · 思维精练2 · 讲义第59页",
+            "pdfPage": 65
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t01-practice-03-question",
+      "type": "question",
+      "title": "思维精练 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s06-t01-practice-03",
+        "type": "single",
+        "stem": "（26山东事考）某快递员从A地沿小路前往15千米外的C处送快件，平均速度为18千米／时，出发10分钟后，快递公司发现快件有问题需追回，派汽车沿大道追赶，已知大道的路程是小路的2倍，若汽车恰好在C处追上快递员，问汽车平均速度为多少千米/时？",
+        "options": [
+          {
+            "value": "A",
+            "label": "52"
+          },
+          {
+            "value": "B",
+            "label": "42"
+          },
+          {
+            "value": "C",
+            "label": "45"
+          },
+          {
+            "value": "D",
+            "label": "55"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          65
+        ],
+        "printedPages": [
+          59
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t01-practice-03-p065.webp",
+            "alt": "行程问题（一） · 思维精练3 · 讲义第59页",
+            "pdfPage": 65
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t01-practice-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t01-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先算快递员总共走多久：15÷18＝5/6小时，即50分钟。汽车晚10分钟出发，到C时只开了40分钟。"
+        },
+        {
+          "type": "paragraph",
+          "text": "汽车走大道，距离是15×2＝30千米，速度＝30÷(40/60)＝45千米/小时，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "不同路线不能直接用两车速度差，应分别用各自路程和实际行驶时间。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          65
+        ],
+        "printedPages": [
+          59
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t01-practice-03-p065.webp",
+            "alt": "行程问题（一） · 思维精练3 · 讲义第59页",
+            "pdfPage": 65
+          }
+        ]
+      }
+    }
+  ]
+}

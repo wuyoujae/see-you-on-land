@@ -1,0 +1,409 @@
+{
+  "id": "quantity-wy27-s09-drill-02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s09",
+  "title": "实战精刷 · 5—8题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      96,
+      97
+    ],
+    "printedPages": [
+      90,
+      91
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s09-t03-drill-05-question",
+      "type": "question",
+      "title": "实战精刷 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s09-t03-drill-05",
+        "type": "single",
+        "stem": "（25全国事考）某社区共有550人参加了3项不同的惠民服务活动，3项活动中仅参加其中任意2项的人数均为100人；仅参加1项的人数恰好为等差数列，其中最小值为70人，公差与3项均参加的人数相同。问3项均参加的有多少人？",
+        "options": [
+          {
+            "value": "A",
+            "label": "10"
+          },
+          {
+            "value": "B",
+            "label": "20"
+          },
+          {
+            "value": "C",
+            "label": "30"
+          },
+          {
+            "value": "D",
+            "label": "40"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          96
+        ],
+        "printedPages": [
+          90
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-05-p096.webp",
+            "alt": "容斥问题 · 实战精刷5 · 讲义第90页",
+            "pdfPage": 96
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t03-drill-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t03-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设三项均参加的人数为d。只参加1项的三组人数依次为70、70＋d、70＋2d；只参加任意两项的三个区域均为100人，一共300人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这些区域互不重叠且覆盖全部550人，所以70＋(70＋d)＋(70＋2d)＋300＋d＝550，即510＋4d＝550，d＝10人。我们选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "题干给的是各个互斥区域时，直接按区域相加，比套含交集的公式更清楚。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          96
+        ],
+        "printedPages": [
+          90
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-05-p096.webp",
+            "alt": "容斥问题 · 实战精刷5 · 讲义第90页",
+            "pdfPage": 96
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t03-drill-06-question",
+      "type": "question",
+      "title": "实战精刷 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s09-t03-drill-06",
+        "type": "single",
+        "stem": "（21深圳）某翻译团队中，每名译员都擅长英语、日语、俄语中的至少一门语言。经统计，擅长英语的有17人，擅长日语的有21人，擅长俄语的有23人；擅长英语和日语的有7人，擅长英语和俄语的有6人，擅长日语和俄语的有6人；擅长三门语言的仅占总人数的十五分之一，则仅擅长英语的译员有（）人。",
+        "options": [
+          {
+            "value": "A",
+            "label": "4"
+          },
+          {
+            "value": "B",
+            "label": "5"
+          },
+          {
+            "value": "C",
+            "label": "6"
+          },
+          {
+            "value": "D",
+            "label": "7"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          96
+        ],
+        "printedPages": [
+          90
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-06-p096.webp",
+            "alt": "容斥问题 · 实战精刷6 · 讲义第90页",
+            "pdfPage": 96
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t03-drill-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t03-drill-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设三门都会的有t人。所有人至少会一门，三集合容斥得团队总人数N＝17＋21＋23−7−6−6＋t＝42＋t。又有t＝N÷15，所以15t＝42＋t，t＝3。"
+        },
+        {
+          "type": "paragraph",
+          "text": "仅擅长英语的有17−7−6＋3＝7人。前面减去英语与日语交集、英语与俄语交集时，三门都会的人被减了两次，需要补回一次。因此我们选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "单集合独有区域＝本集合−两个两两交集＋三者交集。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          96
+        ],
+        "printedPages": [
+          90
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-06-p096.webp",
+            "alt": "容斥问题 · 实战精刷6 · 讲义第90页",
+            "pdfPage": 96
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t03-drill-07-question",
+      "type": "question",
+      "title": "实战精刷 · 第7题",
+      "question": {
+        "id": "quantity-wy27-s09-t03-drill-07",
+        "type": "single",
+        "stem": "（25全国事考）某公司统计员工对绘图、编程、剪辑这3种技能的掌握情况。掌握编程技能的有60人，3种技能中只有1种未掌握的有23人，3种技能都掌握的有3人，仅编程1种技能未掌握的有7人。问仅掌握编程一种技能的有多少人？",
+        "options": [
+          {
+            "value": "A",
+            "label": "41"
+          },
+          {
+            "value": "B",
+            "label": "44"
+          },
+          {
+            "value": "C",
+            "label": "47"
+          },
+          {
+            "value": "D",
+            "label": "50"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          97
+        ],
+        "printedPages": [
+          91
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-07-p097.webp",
+            "alt": "容斥问题 · 实战精刷7 · 讲义第91页",
+            "pdfPage": 97
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t03-drill-07-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t03-drill-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先翻译“只有1种未掌握”：就是恰好掌握2种，总共23人。其中“仅编程未掌握”的7人掌握的是绘图和剪辑，完全不在编程集合里。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以恰好掌握2种且会编程的有23−7＝16人。会编程的60人还包括三种都会的3人，因此仅会编程的有60−16−3＝41人，我们选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先把“只缺一种”翻译成“恰好会两种”，再确定它与目标集合的关系。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          97
+        ],
+        "printedPages": [
+          91
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-07-p097.webp",
+            "alt": "容斥问题 · 实战精刷7 · 讲义第91页",
+            "pdfPage": 97
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t03-drill-08-question",
+      "type": "question",
+      "title": "实战精刷 · 第8题",
+      "question": {
+        "id": "quantity-wy27-s09-t03-drill-08",
+        "type": "single",
+        "stem": "（23深圳）小明对甲、乙、丙三种手机软件的安装情况进行街头调查。随机选取的一批调查对象中，手机安装了甲、乙、丙三种软件的人数分别是40，36，35，只安装了其中一种软件的人数分别占其中的25%、25%、20%，同时安装了甲、乙两种软件而未安装丙软件的有4人，同时安装了甲、丙两种软件而未安装乙软件的人数比同时安装乙、丙两种软件而未安装甲软件的人数多3人，有（）人同时安装了甲、乙、丙三种软件。",
+        "options": [
+          {
+            "value": "A",
+            "label": "15"
+          },
+          {
+            "value": "B",
+            "label": "21"
+          },
+          {
+            "value": "C",
+            "label": "27"
+          },
+          {
+            "value": "D",
+            "label": "33"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          97
+        ],
+        "printedPages": [
+          91
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-08-p097.webp",
+            "alt": "容斥问题 · 实战精刷8 · 讲义第91页",
+            "pdfPage": 97
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t03-drill-08-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t03-drill-08",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先算三个独有区域：只甲40×25%＝10人，只乙36×25%＝9人，只丙35×20%＝7人。设只甲丙有x人，只乙丙有y人，三种都有t人；只甲乙已知4人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "由乙集合有9＋4＋y＋t＝36，所以y＋t＝23；由甲集合有10＋4＋x＋t＝40，所以x＋t＝26；由丙集合有7＋x＋y＋t＝35，所以x＋y＋t＝28。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第三式减第一式得x＝5，代第二式得t＝21；同时y＝2，确实满足x比y多3人。我们选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先从百分数求独有区域，再对各集合列“独有＋月牙＋中心”的分块方程。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          97
+        ],
+        "printedPages": [
+          91
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-08-p097.webp",
+            "alt": "容斥问题 · 实战精刷8 · 讲义第91页",
+            "pdfPage": 97
+          }
+        ]
+      }
+    }
+  ]
+}

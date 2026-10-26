@@ -1,0 +1,26 @@
+{
+  "verifiedAt": "2026-10-24",
+  "exams": [
+    {
+      "id": "national",
+      "name": "2027 国考",
+      "date": "2026-11-29",
+      "dateLabel": "2026.11.29 公共科目笔试",
+      "status": "official",
+      "statusLabel": "已公布",
+      "sourceUrl": "https://shanghai.chinatax.gov.cn/xxgk/rsxx/202610/t481763.html",
+      "sourceTitle": "中央机关及其直属机构2027年度考试录用公务员公告"
+    },
+    {
+      "id": "provincial",
+      "name": "2027 广东省考",
+      "date": "2026-12-06",
+      "dateLabel": "预计 2026.12.06 笔试",
+      "status": "estimated",
+      "statusLabel": "预估 · 待公告",
+      "sourceUrl": "https://ggfw.hrss.gd.gov.cn/gwyks/anouns.do",
+      "sourceTitle": "广东省公务员考试录用管理系统",
+      "note": "沿用应用原有备考目标日期，尚未核实为官方考试日期。"
+    }
+  ]
+}

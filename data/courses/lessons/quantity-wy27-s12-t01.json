@@ -1,0 +1,1945 @@
+{
+  "id": "quantity-wy27-s12-t01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s12",
+  "title": "古典概率与计数口径",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
+    ],
+    "printedPages": [
+      116,
+      117,
+      118,
+      119,
+      120,
+      121
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s12-t01-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "古典概率与计数口径",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先分清概率在比什么：分母是所有等可能的基本结果，分子是其中符合题意的结果。只有结果有限、并且这些基本结果等可能，才直接用“符合数÷总数”。点数和、分组人数结构不一定等可能，不能直接当作基本结果。"
+        },
+        {
+          "type": "formula",
+          "latex": "P(A)=\\frac{\\text{事件A的等可能基本结果数}}{\\text{全部等可能基本结果数}}"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们再看有没有顺序。选谁通常用组合，选谁并排到哪个位置用排列；分子与分母必须统一。相同名额给不同单位可以用隔板，要求所有组非空可以用容斥。"
+        },
+        {
+          "type": "paragraph",
+          "text": "相邻先捆绑，不相邻先插空；“至少一个”优先看“一个也没有”的反面。题目已经限定每组非空、夫妻先选座等条件时，我们必须在满足这些条件的样本空间内算概率。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          122,
+          123
+        ],
+        "printedPages": [
+          116,
+          117
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-knowledge-02-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "定位法与相对位置",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们遇到同排、同组、相邻这些相对位置时，可以先固定任意一个人的位置，再看另一个人能落在哪些位置。固定谁都给出同一概率时，不需要再枚举第一个人的位置。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac{\\text{固定一人后满足条件的剩余位置数}}{\\text{剩余总位置数}}"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们要同时减少总位置和有利位置；圆桌通常左右都算相邻。各排大小不同时，不能随便固定某一排代表全部情况，要分类或用组合总数加权。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          122,
+          123
+        ],
+        "printedPages": [
+          116,
+          117
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s12-t01-mother-01",
+        "type": "single",
+        "stem": "（23联考）抛掷两颗质地均匀的骰子，记录向上的面出现的数字，那么这两个数字之和等于8的概率是？",
+        "options": [
+          {
+            "value": "A",
+            "label": "5/36"
+          },
+          {
+            "value": "B",
+            "label": "1/6"
+          },
+          {
+            "value": "C",
+            "label": "1/12"
+          },
+          {
+            "value": "D",
+            "label": "5/24"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          123
+        ],
+        "printedPages": [
+          117
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-01-p123.webp",
+            "alt": "概率问题（一） · 母题精讲1 · 讲义第117页",
+            "pdfPage": 123
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t01-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看等可能的结果是什么。两颗骰子各有6种点数，按第一颗、第二颗区分，一共有36种等可能结果，不能把不同的点数和当成等可能。"
+        },
+        {
+          "type": "paragraph",
+          "text": "和为8的有（2，6）、（3，5）、（4，4）、（5，3）、（6，2），刚好5种。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac{5}{6\\times6}=\\frac5{36}"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以概率为5/36，我们选A。这里（2，6）和（6，2）是两种结果，不能漏掉。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          123
+        ],
+        "printedPages": [
+          117
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-01-p123.webp",
+            "alt": "概率问题（一） · 母题精讲1 · 讲义第117页",
+            "pdfPage": 123
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-01-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t01-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "概率分母数等可能的基本结果，分子再数符合条件的结果。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          123
+        ],
+        "printedPages": [
+          117
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-01-p123.webp",
+            "alt": "概率问题（一） · 母题精讲1 · 讲义第117页",
+            "pdfPage": 123
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s12-t01-mother-02",
+        "type": "single",
+        "stem": "（26国考）某单位从所有职工中随机选3人参加某个会议，张立和李磊2人中只有1人被选中的概率是2人均被选中概率的30倍。问该单位有职工多少人？",
+        "options": [
+          {
+            "value": "A",
+            "label": "15"
+          },
+          {
+            "value": "B",
+            "label": "17"
+          },
+          {
+            "value": "C",
+            "label": "29"
+          },
+          {
+            "value": "D",
+            "label": "33"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          123
+        ],
+        "printedPages": [
+          117
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-02-p123.webp",
+            "alt": "概率问题（一） · 母题精讲2 · 讲义第117页",
+            "pdfPage": 123
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t01-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设单位有n人。两种概率的总方案数相同，比较概率30倍，直接比较符合条件的选人方案就行。"
+        },
+        {
+          "type": "paragraph",
+          "text": "只有1人被选中：先从张、李中选1人，有2种；其余2人从另外n−2人中选。两人都被选中：只需再从另外n−2人中选1人。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{2\\binom{n-2}{2}}{\\binom{n-2}{1}}=n-3=30"
+        },
+        {
+          "type": "paragraph",
+          "text": "两个方案数相除得到n−3，因此n−3=30，n=33。我们选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          123
+        ],
+        "printedPages": [
+          117
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-02-p123.webp",
+            "alt": "概率问题（一） · 母题精讲2 · 讲义第117页",
+            "pdfPage": 123
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t01-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "同一样本空间中的概率比，可以直接转成有利方案数之比。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          123
+        ],
+        "printedPages": [
+          117
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-02-p123.webp",
+            "alt": "概率问题（一） · 母题精讲2 · 讲义第117页",
+            "pdfPage": 123
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s12-t01-mother-03",
+        "type": "single",
+        "stem": "（26山东）某市行政审批局，为落实政务服务改革，计划开设四个“一窗通办”的窗口，需要六名工作人员轮班值守，每人每日仅值班一个窗口，首日随机抽调四名工作人员值班，小张和小李同时被抽到的概率是多少？",
+        "options": [
+          {
+            "value": "A",
+            "label": "0.8"
+          },
+          {
+            "value": "B",
+            "label": "0.6"
+          },
+          {
+            "value": "C",
+            "label": "0.4"
+          },
+          {
+            "value": "D",
+            "label": "0.2"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          124
+        ],
+        "printedPages": [
+          118
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-03-p124.webp",
+            "alt": "概率问题（一） · 母题精讲3 · 讲义第118页",
+            "pdfPage": 124
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t01-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们只看谁被抽到，不需要再排列窗口。6人中抽4人，总方案有15种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "小张、小李必须在，所以先把他们固定，剩下2人从另外4人中选，有6种。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac{\\binom42}{\\binom64}=\\frac6{15}=0.4"
+        },
+        {
+          "type": "paragraph",
+          "text": "概率是6/15=0.4，我们选C。把窗口排列再算进去也可以，但分子分母都会多同一个4!，没有必要。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          124
+        ],
+        "printedPages": [
+          118
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-03-p124.webp",
+            "alt": "概率问题（一） · 母题精讲3 · 讲义第118页",
+            "pdfPage": 124
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-03-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t01-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "只问入选，不问岗位，优先使用组合数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          124
+        ],
+        "printedPages": [
+          118
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-03-p124.webp",
+            "alt": "概率问题（一） · 母题精讲3 · 讲义第118页",
+            "pdfPage": 124
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-04-question",
+      "type": "question",
+      "title": "母题精讲 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s12-t01-mother-04",
+        "type": "single",
+        "stem": "（25国考）小王计划在7天假期自学甲、乙两门在线课程，每门课程需要连学2整天。如在所有可能的安排中随机选择1种，不用学习的3天均不相邻的概率为：",
+        "options": [
+          {
+            "value": "A",
+            "label": "1/7"
+          },
+          {
+            "value": "B",
+            "label": "1/8"
+          },
+          {
+            "value": "C",
+            "label": "1/9"
+          },
+          {
+            "value": "D",
+            "label": "1/10"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          124
+        ],
+        "printedPages": [
+          118
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-04-p124.webp",
+            "alt": "概率问题（一） · 母题精讲4 · 讲义第118页",
+            "pdfPage": 124
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t01-mother-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把连续学习甲的2天捆成一块，乙的2天也捆成一块，再加3个相同的休息日，一共是5个单位。所有安排有5!/3!=20种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "休息日都不相邻，就只能把3个休息日分别放进两块课程的前、中、后三个空隙，排成“休—课程—休—课程—休”。两门课程可以互换，只有2种。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac{2!}{5!/3!}=\\frac1{10}"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以概率是2/20=1/10，我们选D。这里3个休息日相同，不要重复排列。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          124
+        ],
+        "printedPages": [
+          118
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-04-p124.webp",
+            "alt": "概率问题（一） · 母题精讲4 · 讲义第118页",
+            "pdfPage": 124
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-04-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t01-mother-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "连续任务先捆绑，不相邻的空闲日再插空。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          124
+        ],
+        "printedPages": [
+          118
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-04-p124.webp",
+            "alt": "概率问题（一） · 母题精讲4 · 讲义第118页",
+            "pdfPage": 124
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-05-question",
+      "type": "question",
+      "title": "母题精讲 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s12-t01-mother-05",
+        "type": "single",
+        "stem": "（23国考）单位将10个培训名额分配给4个分公司，要求在每个分公司至少分配1个名额的所有分配方案中，随机选择1个方案实施，问4个分公司中有3个分配名额数量相同的概率为多少？",
+        "options": [
+          {
+            "value": "A",
+            "label": "3/50"
+          },
+          {
+            "value": "B",
+            "label": "1/10"
+          },
+          {
+            "value": "C",
+            "label": "3/25"
+          },
+          {
+            "value": "D",
+            "label": "1/7"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          124
+        ],
+        "printedPages": [
+          118
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-05-p124.webp",
+            "alt": "概率问题（一） · 母题精讲5 · 讲义第118页",
+            "pdfPage": 124
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t01-mother-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看分配对象：名额相同，4个分公司不同，并且每家至少1个。用隔板法，总方案为从9个空隙中选3个，得到84种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "设相同的三家公司各得x个，另一家得10−3x个。x只能取1、2、3，对应（1，1，1，7）、（2，2，2，4）、（3，3，3，1）。每类都有4种公司安排，共12种。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac{3\\times4}{\\binom93}=\\frac1{7}"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以概率为12/84=1/7，我们选D。4家全相同不可能，因为10不能被4整除。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          124
+        ],
+        "printedPages": [
+          118
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-05-p124.webp",
+            "alt": "概率问题（一） · 母题精讲5 · 讲义第118页",
+            "pdfPage": 124
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-05-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t01-mother-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "相同元素分给不同对象，先确认是否至少一个，再用隔板与分类计数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          124
+        ],
+        "printedPages": [
+          118
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-05-p124.webp",
+            "alt": "概率问题（一） · 母题精讲5 · 讲义第118页",
+            "pdfPage": 124
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-06-question",
+      "type": "question",
+      "title": "母题精讲 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s12-t01-mother-06",
+        "type": "single",
+        "stem": "（22联考）某调研小组共有5人，需分配到3个不同的厂区进行调研工作，那么每个厂区至少分到一人的概率为：",
+        "options": [
+          {
+            "value": "A",
+            "label": "40/81"
+          },
+          {
+            "value": "B",
+            "label": "20/27"
+          },
+          {
+            "value": "C",
+            "label": "70/81"
+          },
+          {
+            "value": "D",
+            "label": "50/81"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          125
+        ],
+        "printedPages": [
+          119
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-06-p125.webp",
+            "alt": "概率问题（一） · 母题精讲6 · 讲义第119页",
+            "pdfPage": 125
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t01-mother-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们按每个人等可能选择3个厂区来数，总方案是3的5次方，即243种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "每个厂区至少1人，反过来先扣“有厂区没人”。指定一个空厂区，其他人只有2种去处，合计3×2⁵；但所有人都在同一厂区的3种情况被多扣了一次，要加回来。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac{3^5-3\\times2^5+3}{3^5}=\\frac{50}{81}"
+        },
+        {
+          "type": "paragraph",
+          "text": "有利方案为243−96+3=150，概率150/243=50/81，我们选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          125
+        ],
+        "printedPages": [
+          119
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-06-p125.webp",
+            "alt": "概率问题（一） · 母题精讲6 · 讲义第119页",
+            "pdfPage": 125
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-06-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t01-mother-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "不同人员各自选组，总样本是组数的人员数次方；每组非空可用容斥反算。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          125
+        ],
+        "printedPages": [
+          119
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-06-p125.webp",
+            "alt": "概率问题（一） · 母题精讲6 · 讲义第119页",
+            "pdfPage": 125
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-07-question",
+      "type": "question",
+      "title": "母题精讲 · 第7题",
+      "question": {
+        "id": "quantity-wy27-s12-t01-mother-07",
+        "type": "single",
+        "stem": "（18国考）某单位的会议室有5排共40个座位，每排座位数相同。小张、小李随机入座，则他们坐在同一排的概率：",
+        "options": [
+          {
+            "value": "A",
+            "label": "不高于15%"
+          },
+          {
+            "value": "B",
+            "label": "高于15%但低于20%"
+          },
+          {
+            "value": "C",
+            "label": "正好为20%"
+          },
+          {
+            "value": "D",
+            "label": "高于20%"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          125
+        ],
+        "printedPages": [
+          119
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-07-p125.webp",
+            "alt": "概率问题（一） · 母题精讲7 · 讲义第119页",
+            "pdfPage": 125
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-07-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t01-mother-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先固定小张的位置。他坐在哪一排不影响结论。每排40÷5=8个座位，同排还剩7个。"
+        },
+        {
+          "type": "paragraph",
+          "text": "小李可以选择的总座位只剩39个，所以概率是7/39，约17.95%。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac{8-1}{40-1}=\\frac7{39}\\approx17.95\\%"
+        },
+        {
+          "type": "paragraph",
+          "text": "结果高于15%但低于20%，我们选B。不能直接用1/5，因为小张已经占掉了所在排的一个座位。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          125
+        ],
+        "printedPages": [
+          119
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-07-p125.webp",
+            "alt": "概率问题（一） · 母题精讲7 · 讲义第119页",
+            "pdfPage": 125
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-mother-07-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t01-mother-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "相对位置用定位法；固定一人后，分子分母都扣掉已占位置。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          125
+        ],
+        "printedPages": [
+          119
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-mother-07-p125.webp",
+            "alt": "概率问题（一） · 母题精讲7 · 讲义第119页",
+            "pdfPage": 125
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s12-t01-practice-01",
+        "type": "single",
+        "stem": "（26浙江事考）在牌面数字为5—9的5张扑克牌中随机抽出三张，这三张牌上数字的平均数也在这三张牌中的概率为多少？",
+        "options": [
+          {
+            "value": "A",
+            "label": "0.2"
+          },
+          {
+            "value": "B",
+            "label": "0.3"
+          },
+          {
+            "value": "C",
+            "label": "0.4"
+          },
+          {
+            "value": "D",
+            "label": "0.5"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          125
+        ],
+        "printedPages": [
+          119
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-01-p125.webp",
+            "alt": "概率问题（一） · 思维精练1 · 讲义第119页",
+            "pdfPage": 125
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t01-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把抽出的三个数从小到大写成a、b、c。平均数如果也在这三个数中，只能等于中间的b，因此a+c=2b，也就是三张牌成等差数列。"
+        },
+        {
+          "type": "paragraph",
+          "text": "可以枚举出（5，6，7）、（6，7，8）、（7，8，9）、（5，7，9），共4种；总抽法为5选3，共10种。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac4{\\binom53}=0.4"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以概率4/10=0.4，我们选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          125
+        ],
+        "printedPages": [
+          119
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-01-p125.webp",
+            "alt": "概率问题（一） · 思维精练1 · 讲义第119页",
+            "pdfPage": 125
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-01-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t01-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "三数均值在三个不同数中，等价于三数构成等差数列。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          125
+        ],
+        "printedPages": [
+          119
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-01-p125.webp",
+            "alt": "概率问题（一） · 思维精练1 · 讲义第119页",
+            "pdfPage": 125
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s12-t01-practice-02",
+        "type": "single",
+        "stem": "（26联考）某企业每周从下属8个门店中随机选择6个进行巡查。问下周巡查的门店正好有5个与本周相同的概率为：",
+        "options": [
+          {
+            "value": "A",
+            "label": "1/4"
+          },
+          {
+            "value": "B",
+            "label": "2/5"
+          },
+          {
+            "value": "C",
+            "label": "3/7"
+          },
+          {
+            "value": "D",
+            "label": "3/8"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          126
+        ],
+        "printedPages": [
+          120
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-02-p126.webp",
+            "alt": "概率问题（一） · 思维精练2 · 讲义第120页",
+            "pdfPage": 126
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t01-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把本周的6个门店看成一类，另外没查的2个看成另一类。下周正好重复5个，就是从前一类选5个，再从后一类选1个。"
+        },
+        {
+          "type": "paragraph",
+          "text": "有利方案6×2=12种，总方案8选6=28种。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac{\\binom65\\binom21}{\\binom86}=\\frac37"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以概率为12/28=3/7，我们选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          126
+        ],
+        "printedPages": [
+          120
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-02-p126.webp",
+            "alt": "概率问题（一） · 思维精练2 · 讲义第120页",
+            "pdfPage": 126
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t01-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "“和上次恰好重复k个”按旧集合与集合外分开选。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          126
+        ],
+        "printedPages": [
+          120
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-02-p126.webp",
+            "alt": "概率问题（一） · 思维精练2 · 讲义第120页",
+            "pdfPage": 126
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-03-question",
+      "type": "question",
+      "title": "思维精练 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s12-t01-practice-03",
+        "type": "single",
+        "stem": "（26四川）某小剧场有4排座位，第一排有6个座位，往后每排比前一排多2个。张某和郭某随机选择小剧场的2个座位就坐，问他们坐在同一排的概率在以下哪个范围内？",
+        "options": [
+          {
+            "value": "A",
+            "label": "低于0.15"
+          },
+          {
+            "value": "B",
+            "label": "在0.15—0.2之间"
+          },
+          {
+            "value": "C",
+            "label": "在0.2—0.25之间"
+          },
+          {
+            "value": "D",
+            "label": "高于0.25"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          126
+        ],
+        "printedPages": [
+          120
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-03-p126.webp",
+            "alt": "概率问题（一） · 思维精练3 · 讲义第120页",
+            "pdfPage": 126
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t01-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先列每排座位数：6、8、10、12，共36个。各排座位数不同，不能固定一排就当作所有情况。"
+        },
+        {
+          "type": "paragraph",
+          "text": "同排的选座方案分别是6选2、8选2、10选2、12选2，加起来15+28+45+66=154种；总方案36选2=630种。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac{\\binom62+\\binom82+\\binom{10}2+\\binom{12}2}{\\binom{36}2}=\\frac{11}{45}"
+        },
+        {
+          "type": "paragraph",
+          "text": "概率154/630=11/45，约0.244，落在0.2—0.25之间，我们选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          126
+        ],
+        "printedPages": [
+          120
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-03-p126.webp",
+            "alt": "概率问题（一） · 思维精练3 · 讲义第120页",
+            "pdfPage": 126
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-03-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t01-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "不同排大小不等时，逐排计有利组合，再统一除总组合。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          126
+        ],
+        "printedPages": [
+          120
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-03-p126.webp",
+            "alt": "概率问题（一） · 思维精练3 · 讲义第120页",
+            "pdfPage": 126
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-04-question",
+      "type": "question",
+      "title": "思维精练 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s12-t01-practice-04",
+        "type": "single",
+        "stem": "（26联考）一架飞机有如下图所示的8个公务舱座位，本次航程共售出5张公务舱机票（包括一对夫妻）。如每名公务舱旅客都随机选座，且夫妻选择坐在相邻的2个座位上（夫妻先选座且隔过道不算相邻），则只有1人坐在第2排的概率为：",
+        "options": [
+          {
+            "value": "A",
+            "label": "1/10"
+          },
+          {
+            "value": "B",
+            "label": "1/20"
+          },
+          {
+            "value": "C",
+            "label": "1/30"
+          },
+          {
+            "value": "D",
+            "label": "1/40"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（26联考）一架飞机有如下图所示的8个公务舱座位，本次航程共售出5张公务舱机票（包括一对夫妻）。如每名公务舱旅客都随机选座，且夫妻选择坐在相邻的2个座位上（夫妻先选座且隔过道不算相邻），则只有1人坐在第2排的概率为："
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-04-figure-01.webp",
+            "alt": "概率问题（一）原题示意图，讲义第120页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          126
+        ],
+        "printedPages": [
+          120
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-04-p126.webp",
+            "alt": "概率问题（一） · 思维精练4 · 讲义第120页",
+            "pdfPage": 126
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t01-practice-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先读图：两排，每排左右各一对相邻座位，共4对。若夫妻坐第2排，第2排已经有2人，就不满足题意，所以夫妻必须先坐第1排，概率是1/2。"
+        },
+        {
+          "type": "paragraph",
+          "text": "剩余6个座位中，第1排剩2个，第2排有4个。其他3人要恰好1人坐第2排，也就是占满第1排的2个空位，再从第2排4个位置里选1个。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac12\\times\\frac{\\binom41\\binom22}{\\binom63}=\\frac1{10}"
+        },
+        {
+          "type": "paragraph",
+          "text": "条件概率为4/20=1/5，再乘夫妻坐第1排的1/2，得到1/10，我们选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          126
+        ],
+        "printedPages": [
+          120
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-04-p126.webp",
+            "alt": "概率问题（一） · 思维精练4 · 讲义第120页",
+            "pdfPage": 126
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-04-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t01-practice-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先执行的限制步骤先分类，再在剩余位置计算条件概率。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          126
+        ],
+        "printedPages": [
+          120
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-04-p126.webp",
+            "alt": "概率问题（一） · 思维精练4 · 讲义第120页",
+            "pdfPage": 126
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-05-question",
+      "type": "question",
+      "title": "思维精练 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s12-t01-practice-05",
+        "type": "single",
+        "stem": "（26浙江）小张计划在假期剩余的13天完成A、B、C三本书的阅读。已知阅读A书需要连续2天，阅读B书需要连续3天，阅读C书需要连续4天。问在所有可能的阅读方案中随机选择一种，没有阅读的4天都不相连的概率是多少？",
+        "options": [
+          {
+            "value": "A",
+            "label": "1/10"
+          },
+          {
+            "value": "B",
+            "label": "1/15"
+          },
+          {
+            "value": "C",
+            "label": "1/20"
+          },
+          {
+            "value": "D",
+            "label": "1/35"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          127
+        ],
+        "printedPages": [
+          121
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-05-p127.webp",
+            "alt": "概率问题（一） · 思维精练5 · 讲义第121页",
+            "pdfPage": 127
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t01-practice-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把三本书各自连续的阅读时间捆成A、B、C三个块，再加4个相同的休息日，缩成7个单位。总安排为7!/4!=210种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "4个休息日都不相连，只能一一占据三个阅读块的前、后和中间4个空隙。三个阅读块有3!=6种顺序。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac{3!}{7!/4!}=\\frac1{35}"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以概率6/210=1/35，我们选D。阅读块原来长短不同，不影响捆绑后的安排计数。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          127
+        ],
+        "printedPages": [
+          121
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-05-p127.webp",
+            "alt": "概率问题（一） · 思维精练5 · 讲义第121页",
+            "pdfPage": 127
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-05-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t01-practice-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "块的长度可以不同；连续约束先捆绑，空闲不相邻再插空。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          127
+        ],
+        "printedPages": [
+          121
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-05-p127.webp",
+            "alt": "概率问题（一） · 思维精练5 · 讲义第121页",
+            "pdfPage": 127
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-06-question",
+      "type": "question",
+      "title": "思维精练 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s12-t01-practice-06",
+        "type": "single",
+        "stem": "（26山东事考）某景点有三种不同的纪念明信片，分别以天、地、人为主题，每位前来参观的游客随机等概率得其中一种。现有团队5人来参观，问集齐三个主题的概率约是多少？",
+        "options": [
+          {
+            "value": "A",
+            "label": "56%"
+          },
+          {
+            "value": "B",
+            "label": "59%"
+          },
+          {
+            "value": "C",
+            "label": "62%"
+          },
+          {
+            "value": "D",
+            "label": "64%"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          127
+        ],
+        "printedPages": [
+          121
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-06-p127.webp",
+            "alt": "概率问题（一） · 思维精练6 · 讲义第121页",
+            "pdfPage": 127
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t01-practice-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把5位游客分别得到的主题记下来，总结果数为3⁵=243。要集齐三个主题，就是三类都至少出现一次。"
+        },
+        {
+          "type": "paragraph",
+          "text": "扣掉至少缺一种的情况，用容斥得到243−3×32+3=150。加3是补回只出现一种主题时的重复扣除。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac{3^5-\\binom31 2^5+\\binom32}{3^5}=\\frac{50}{81}\\approx61.73\\%"
+        },
+        {
+          "type": "paragraph",
+          "text": "概率150/243约61.73%，最接近62%，我们选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          127
+        ],
+        "printedPages": [
+          121
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-06-p127.webp",
+            "alt": "概率问题（一） · 思维精练6 · 讲义第121页",
+            "pdfPage": 127
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-06-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t01-practice-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "集齐所有类型，通常转成每类至少出现一次，再用容斥。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          127
+        ],
+        "printedPages": [
+          121
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-06-p127.webp",
+            "alt": "概率问题（一） · 思维精练6 · 讲义第121页",
+            "pdfPage": 127
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-07-question",
+      "type": "question",
+      "title": "思维精练 · 第7题",
+      "question": {
+        "id": "quantity-wy27-s12-t01-practice-07",
+        "type": "single",
+        "stem": "（26北京）将张、王等12人分成若干小组。分成4个3人小组时，张和王在一组的概率比分成3个4人小组时：",
+        "options": [
+          {
+            "value": "A",
+            "label": "少1/11"
+          },
+          {
+            "value": "B",
+            "label": "少1/12"
+          },
+          {
+            "value": "C",
+            "label": "多1/11"
+          },
+          {
+            "value": "D",
+            "label": "多1/12"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          127
+        ],
+        "printedPages": [
+          121
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-07-p127.webp",
+            "alt": "概率问题（一） · 思维精练7 · 讲义第121页",
+            "pdfPage": 127
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-07-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t01-practice-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先固定张所在的小组。若每组3人，剩下11人中只有2个位置能与张同组，王同组的概率是2/11。"
+        },
+        {
+          "type": "paragraph",
+          "text": "若每组4人，则有3个同组位置，王同组的概率为3/11。前一种比后一种少1/11。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac2{11}-\\frac3{11}=-\\frac1{11}"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以我们选A。组数不必单独代入；核心是固定张后，他身边还留几个同组名额。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          127
+        ],
+        "printedPages": [
+          121
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-07-p127.webp",
+            "alt": "概率问题（一） · 思维精练7 · 讲义第121页",
+            "pdfPage": 127
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t01-practice-07-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t01-practice-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "随机等人数分组，两人同组概率等于（每组人数−1）÷（总人数−1）。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          127
+        ],
+        "printedPages": [
+          121
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t01-practice-07-p127.webp",
+            "alt": "概率问题（一） · 思维精练7 · 讲义第121页",
+            "pdfPage": 127
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "reasoning-p4-l04",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-truth",
+  "title": "矛盾法：先把一真一假的那对找出来",
+  "source": {
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p4-l04-knowledge-a82a990-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "矛盾法：先把一真一假的那对找出来",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "真假话题第一步还是找矛盾。真正的矛盾，必须不能同真，也不能同假，也就是不管实际情况是什么，这两句话永远一真一假。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这几个常见关系要认准："
+        },
+        {
+          "type": "paragraph",
+          "text": "①A和非A；A且B和“非A或非B”；A或B和“非A且非B”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "②所有都是和有些不是；有些是和所有都不是；必然和可能不；可能和必然不。"
+        },
+        {
+          "type": "paragraph",
+          "text": "③A→B和“A且非B”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "特别容易错的是“所有人都来了”和“小王没来”。这两个听起来冲突，但不是一对矛盾。因为假如小王来了，小张没来，那“所有人都来了”是假的，“小王没来”也是假的。能够同假，就不是我们要找的这对矛盾。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以不要只看两句话像不像在对着干，要看能不能严格地保证一真一假。"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-q043-question",
+      "type": "question",
+      "title": "矛盾法：先把一真一假的那对找出来",
+      "question": {
+        "id": "reasoning-q043",
+        "type": "single",
+        "stem": "甲、乙、丙、丁四个人被分配参与四种工作，每个人工作各不相同且至多使用一个工具。甲说：所有的工作中都要用到老虎钳；乙说：本人的工作要用螺丝刀；丙说：我的工作不要用扳手；丁说：有的工作中没有用到老虎钳。\n如果其中只有一句话为真，那么以下哪项为真：",
+        "options": [
+          {
+            "value": "A",
+            "label": "丙的工作中要用扳手"
+          },
+          {
+            "value": "B",
+            "label": "有的工作中要用螺丝刀"
+          },
+          {
+            "value": "C",
+            "label": "乙的工作中要用螺丝刀"
+          },
+          {
+            "value": "D",
+            "label": "所有的工作中都要用老虎钳"
+          }
+        ],
+        "answer": "A"
+      },
+      "source": {
+        "videoId": "7686460560006794547",
+        "videoTitle": "判断推理完整复盘",
+        "startSeconds": 9210,
+        "timeLabel": "2:33:30"
+      }
+    },
+    {
+      "id": "reasoning-q043-explanation-2a89cbd-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先看甲和丁。甲说所有都用老虎钳，丁说有的不用老虎钳，这不就是“所有是”和“有些不是”吗？所以他俩一定一真一假。"
+        },
+        {
+          "type": "paragraph",
+          "text": "题目说一共只有一句真话，那么唯一一句真话已经在甲和丁里面了，乙、丙就都得是假话。先别纠结甲和丁到底谁真，直接从另外两个人入手就行。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看乙。乙说自己用螺丝刀，这是假的，那乙就不用螺丝刀，C排除。再看丙，丙说自己不用扳手，这也是假的，那他实际就要用扳手。所以A直接出来，选A。"
+        },
+        {
+          "type": "paragraph",
+          "text": "补着看B，说有的工作用螺丝刀，其他人到底用不用，题目没有保证，不能确定。"
+        },
+        {
+          "type": "paragraph",
+          "text": "D就是甲那句话。既然丙用扳手，而且一个人至多用一个工具，那丙就不用老虎钳，所以“所有人都用老虎钳”也不成立。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这类题最关键的就是，找到矛盾以后，先从剩下的人切入，而不是上来就死磕这对矛盾谁真谁假。"
+        }
+      ],
+      "questionId": "reasoning-q043"
+    }
+  ]
+}

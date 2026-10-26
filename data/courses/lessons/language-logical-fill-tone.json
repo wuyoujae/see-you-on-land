@@ -1,0 +1,103 @@
+{
+  "id": "language-logical-fill-tone",
+  "subjectId": "language",
+  "groupId": "language-logical-fill",
+  "title": "感情色彩和搭配一起看 不能只凭自己的喜恶",
+  "source": {
+    "startSeconds": 9143,
+    "endSeconds": 9306,
+    "timeLabel": "02:32:23—02:35:06",
+    "videoId": "7677994152398834998",
+    "videoTitle": "言语理解完整复盘"
+  },
+  "cards": [
+    {
+      "id": "language-logical-fill-tone-intro",
+      "type": "text",
+      "role": "intro",
+      "title": "题型五：感情色彩与搭配",
+      "blocks": []
+    },
+    {
+      "id": "language-logical-fill-tone-method-f50395a-01",
+      "type": "text",
+      "role": "method",
+      "title": "我们的解题思路",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们看词的褒贬，要回到文段的表达方式和作者态度，而不是自己讨厌什么，就认定原文一定在贬什么。一个空的色彩提供方向之后，还要把剩下的词代回，检查动作和搭配。"
+        }
+      ]
+    },
+    {
+      "id": "language-q053-question",
+      "type": "question",
+      "title": "雌蚊怎样寻找宿主",
+      "question": {
+        "id": "language-q053",
+        "type": "single",
+        "stem": "没有什么比人类的汗臭味更能让雌蚊________。随着一股气流把二氧化碳送到蚊子口器上方的感觉器官，它可以从 30 多米开外就开始________。雌蚊的感官受到________，使它朝着人类飞去。它循着宿主的体温落在某处皮肤上，先用腿部感觉，然后再用口针刺破宿主皮肤，________富含铁元素的鲜血。\n依次填入画横线部分最恰当的一项是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "趋之若鹜　追逐　诱惑　吸吮"
+          },
+          {
+            "value": "B",
+            "label": "蜂拥而至　追击　引诱　吸入"
+          },
+          {
+            "value": "C",
+            "label": "纷至沓来　追随　利诱　汲取"
+          },
+          {
+            "value": "D",
+            "label": "接踵而来　追赶　蛊惑　吸取"
+          }
+        ],
+        "answer": "A"
+      },
+      "source": {
+        "startSeconds": 9143,
+        "endSeconds": 9306,
+        "timeLabel": "02:32:23—02:35:06",
+        "videoId": "7677994152398834998",
+        "videoTitle": "言语理解完整复盘"
+      }
+    },
+    {
+      "id": "language-q053-explanation-acc8339-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先注意“趋之若鹜”有贬义，用在这里，是把雌蚊被汗味吸引的状态写得像争着追逐某种东西。B、C、D 开头几项更偏向成群、接连来到，A 对被气味强烈吸引的拟人化表达更有针对性，先保留。"
+        },
+        {
+          "type": "paragraph",
+          "text": "但不能到这里就停。原文同时在说明雌蚊的感官和动作，我们还要看后面的词能不能接住这个过程。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第二空，追逐和追赶都能先保留比较。“追击”带着追赶并攻击等意味，放在循气味定位的过程里不如“追逐”自然；“追随”更偏跟随，也不够贴切。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第三空，汗味对雌蚊形成吸引，用“诱惑”顺；“利诱”强调用利益作诱饵，不是这里单纯的感官吸引；“蛊惑”偏迷惑、煽动，不适合这种气味刺激。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第四空，“用口针刺破皮肤，吸吮鲜血”，动作搭配很明确。我们再把 A 整组读回去，追逐、诱惑、吸吮，前后过程都顺。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以选 A。我们把色彩作为一个线索，同时用对象、动作和搭配核验，不把这道题记成“看见蚊子就必须选贬义词”。"
+        }
+      ],
+      "questionId": "language-q053"
+    }
+  ]
+}

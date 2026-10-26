@@ -1,0 +1,494 @@
+{
+  "id": "quantity-wy27-s06-t02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s06",
+  "title": "直线相遇和追及",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      66,
+      67
+    ],
+    "printedPages": [
+      60,
+      61
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s06-t02-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "直线相遇和追及",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先画出每个人的起点、方向和时间线。迎面靠近用速度和，后方追赶前方用速度差；转向、休息、加速后要重画当前的位置关系。"
+        },
+        {
+          "type": "formula",
+          "latex": "t_{\\text{相遇}}=\\frac{\\text{初始间距}}{v_1+v_2},\\qquad t_{\\text{追及}}=\\frac{\\text{领先路程}}{v_{\\text{快}}-v_{\\text{慢}}}"
+        },
+        {
+          "type": "paragraph",
+          "text": "同时出发只保证最初同时间，迟出发、休息或折返以后，实际运动时长要分段。问什么时候第一次追上、第二次相遇，要区分同向追及和迎面相遇，不能把它们一起计数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          66
+        ],
+        "printedPages": [
+          60
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t02-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s06-t02-mother-01",
+        "type": "single",
+        "stem": "（25广东）父子两人在百米赛道上匀速跑步，两人从赛道起点同时出发，父亲跑到终点时，儿子距离终点还有40米，若父亲立即折返跑向赛道起点，则两人相遇时，儿子距离终点还有（）米。",
+        "options": [
+          {
+            "value": "A",
+            "label": "35"
+          },
+          {
+            "value": "B",
+            "label": "30"
+          },
+          {
+            "value": "C",
+            "label": "25"
+          },
+          {
+            "value": "D",
+            "label": "15"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          66
+        ],
+        "printedPages": [
+          60
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t02-mother-01-p066.webp",
+            "alt": "行程问题（一） · 母题精讲1 · 讲义第60页",
+            "pdfPage": 66
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t02-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t02-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先从父亲到终点的时刻看速度比：同一时间父亲跑100米，儿子跑60米，所以速度比5∶3。父亲折返时，两人相距40米。"
+        },
+        {
+          "type": "paragraph",
+          "text": "接下来相向而行，儿子分到40×3/(5＋3)＝15米，跑到75米处，离终点还有25米，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先用同时间路程求速度比，再按速度比分掉相向靠近的间距。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          66
+        ],
+        "printedPages": [
+          60
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t02-mother-01-p066.webp",
+            "alt": "行程问题（一） · 母题精讲1 · 讲义第60页",
+            "pdfPage": 66
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t02-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s06-t02-mother-02",
+        "type": "single",
+        "stem": "（26联考）甲乙同向而行，甲的速度是乙的速度的2倍，同向行走了一段时间后，乙将速度提高到原来的4倍，用时10秒追上甲，问乙提速前用时多少秒？",
+        "options": [
+          {
+            "value": "A",
+            "label": "5"
+          },
+          {
+            "value": "B",
+            "label": "10"
+          },
+          {
+            "value": "C",
+            "label": "15"
+          },
+          {
+            "value": "D",
+            "label": "20"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D",
+        "grading": "unverified",
+        "sourceIssue": "印刷第60–61页/PDF第66–67页原题未给甲乙初始间距，也未说明同起点同时出发；20秒只在初始间距为0时成立，四个选项不能由现有题面唯一确定。"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          66,
+          67
+        ],
+        "printedPages": [
+          60,
+          61
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t02-mother-02-p066.webp",
+            "alt": "行程问题（一） · 母题精讲2 · 讲义第60页",
+            "pdfPage": 66
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t02-mother-02-p067.webp",
+            "alt": "行程问题（一） · 母题精讲2 · 讲义第61页",
+            "pdfPage": 67
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t02-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t02-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D（本题条件待核，不计分）"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看追赶时真正知道的量。把乙原速度设为v，甲就是2v；乙提速到4v后，比甲快2v，10秒追回的距离是20v。这只确定了提速时的间距。"
+        },
+        {
+          "type": "paragraph",
+          "text": "若两人最初同起点同时出发，前段t秒产生的间距为(2v-v)t=vt，于是vt=20v，得到20秒，对应来源参考D。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\text{若初始甲领先}d:\\quad d+vt=20v\\quad\\Longrightarrow\\quad t=20-\\frac d v"
+        },
+        {
+          "type": "paragraph",
+          "text": "但原题没有给初始间距。比如取乙原速1米/秒、甲2米/秒，最初甲领先15米，先走5秒后间距20米；乙提到4米/秒，仍恰好再用10秒追上，此时A也满足。若最初同点，则D满足。因此不能唯一判分，本题保留来源D作条件性参考，不计正确率，不能把未给的同起点条件当成已知。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          66,
+          67
+        ],
+        "printedPages": [
+          60,
+          61
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t02-mother-02-p066.webp",
+            "alt": "行程问题（一） · 母题精讲2 · 讲义第60页",
+            "pdfPage": 66
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t02-mother-02-p067.webp",
+            "alt": "行程问题（一） · 母题精讲2 · 讲义第61页",
+            "pdfPage": 67
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t02-mother-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s06-t02-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们用速度差求前段时间前，必须知道初始间距；提速后的追赶时间不能自行补出同起点条件。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          66,
+          67
+        ],
+        "printedPages": [
+          60,
+          61
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t02-mother-02-p066.webp",
+            "alt": "行程问题（一） · 母题精讲2 · 讲义第60页",
+            "pdfPage": 66
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t02-mother-02-p067.webp",
+            "alt": "行程问题（一） · 母题精讲2 · 讲义第61页",
+            "pdfPage": 67
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t02-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s06-t02-practice-01",
+        "type": "single",
+        "stem": "（26联考）甲乙相距100米，相向而行，在甲乙相遇后，乙调转方向和甲同向而行，乙的速度变为原来的2倍，甲保持速度不变，当乙回到起点时，乙的总路程为80米，问此时甲的总路程为多少米？",
+        "options": [
+          {
+            "value": "A",
+            "label": "60"
+          },
+          {
+            "value": "B",
+            "label": "70"
+          },
+          {
+            "value": "C",
+            "label": "80"
+          },
+          {
+            "value": "D",
+            "label": "90"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          67
+        ],
+        "printedPages": [
+          61
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t02-practice-01-p067.webp",
+            "alt": "行程问题（一） · 思维精练1 · 讲义第61页",
+            "pdfPage": 67
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t02-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t02-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看乙的总路程80米，乙到相遇点再返回原起点，前后各40米。两人初始相距100米，所以甲到相遇时走60米，速度比甲∶乙＝3∶2。"
+        },
+        {
+          "type": "paragraph",
+          "text": "乙返回时速度翻倍，同样40米只用前段一半时间；甲也就多走前段60米的一半，即30米。甲总共60＋30＝90米，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "同一个人折返路程相同，可先用提速倍数确定后段时间。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          67
+        ],
+        "printedPages": [
+          61
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t02-practice-01-p067.webp",
+            "alt": "行程问题（一） · 思维精练1 · 讲义第61页",
+            "pdfPage": 67
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t02-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s06-t02-practice-02",
+        "type": "single",
+        "stem": "（26天津事考）甲从A地出发去找乙，走了80千米后到达B地，此时，乙已于半小时前离开B地去了C地，甲已离开A地2小时，于是，甲以原来速度的2倍去C地，又经过了2小时后，甲乙两人同时到达C地，则乙的速度是多少千米/小时？",
+        "options": [
+          {
+            "value": "A",
+            "label": "80"
+          },
+          {
+            "value": "B",
+            "label": "64"
+          },
+          {
+            "value": "C",
+            "label": "60"
+          },
+          {
+            "value": "D",
+            "label": "48"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          67
+        ],
+        "printedPages": [
+          61
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t02-practice-02-p067.webp",
+            "alt": "行程问题（一） · 思维精练2 · 讲义第61页",
+            "pdfPage": 67
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t02-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t02-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先算甲原速：80÷2＝40千米/小时，提速后为80千米/小时，2小时走到C，所以BC＝160千米。"
+        },
+        {
+          "type": "paragraph",
+          "text": "乙比甲早半小时离开B，到C共走2.5小时，因此乙速度＝160÷2.5＝64千米/小时，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "共同终点只说明终点时刻相同，迟早出发的时间差需要加回。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          67
+        ],
+        "printedPages": [
+          61
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t02-practice-02-p067.webp",
+            "alt": "行程问题（一） · 思维精练2 · 讲义第61页",
+            "pdfPage": 67
+          }
+        ]
+      }
+    }
+  ]
+}

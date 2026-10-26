@@ -1,0 +1,434 @@
+{
+  "id": "quantity-wy27-s02-drill-01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s02",
+  "title": "实战精刷 · 1—4题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      25,
+      26
+    ],
+    "printedPages": [
+      19,
+      20
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s02-t03-drill-01-question",
+      "type": "question",
+      "title": "实战精刷 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s02-t03-drill-01",
+        "type": "single",
+        "stem": "（26福建事考）浓度分别是15%、20%、25%的氢氧化钠溶液，按8：5：2的质量比进行混合，那么混合后溶液的浓度是（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "18%"
+          },
+          {
+            "value": "B",
+            "label": "18.5%"
+          },
+          {
+            "value": "C",
+            "label": "19%"
+          },
+          {
+            "value": "D",
+            "label": "19.5%"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          25
+        ],
+        "printedPages": [
+          19
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-01-p025.webp",
+            "alt": "和差倍比问题（二） · 实战精刷1 · 讲义第19页",
+            "pdfPage": 25
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s02-t03-drill-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设三种溶液质量为8、5、2份，直接做加权平均。"
+        },
+        {
+          "type": "formula",
+          "latex": "c=\\frac{8\\times15\\%+5\\times20\\%+2\\times25\\%}{8+5+2}=18\\%"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以选A。15%、20%、25%的算术平均20%不对，因为低浓度那组最多，整体应低于20%。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "三组混合用分子相加除以分母相加，不必强行套两组十字。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          25
+        ],
+        "printedPages": [
+          19
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-01-p025.webp",
+            "alt": "和差倍比问题（二） · 实战精刷1 · 讲义第19页",
+            "pdfPage": 25
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-02-question",
+      "type": "question",
+      "title": "实战精刷 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s02-t03-drill-02",
+        "type": "single",
+        "stem": "（26山东事考）某开发区计划新建5个观光点，现需要在点之间铺设环岛步道。已知5个观光点之间的步道长度按比例依次为1：2：2：3：4，现计划在每段步道的中点设置一个补给站，问各个补给站之间的步道长度比例为多少？",
+        "options": [
+          {
+            "value": "A",
+            "label": "3:4:5:7:5"
+          },
+          {
+            "value": "B",
+            "label": "1:2:2:3:4"
+          },
+          {
+            "value": "C",
+            "label": "3:4:4:6:5"
+          },
+          {
+            "value": "D",
+            "label": "1:2:2:7:5"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          25
+        ],
+        "printedPages": [
+          19
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-02-p025.webp",
+            "alt": "和差倍比问题（二） · 实战精刷2 · 讲义第19页",
+            "pdfPage": 25
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s02-t03-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把环岛五段长度设为1、2、2、3、4。两个相邻中点之间，沿步道走过的是前后两段各一半，所以依次为(1+2)/2、(2+2)/2、(2+3)/2、(3+4)/2、(4+1)/2。"
+        },
+        {
+          "type": "formula",
+          "latex": "3:4:5:7:5"
+        },
+        {
+          "type": "paragraph",
+          "text": "公共的二分之一可以约去，所以选A。最后一段要把末段4与首段1相接，不能漏掉环形首尾关系。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "环形中点分段取相邻两段之和，再统一约去二分之一。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          25
+        ],
+        "printedPages": [
+          19
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-02-p025.webp",
+            "alt": "和差倍比问题（二） · 实战精刷2 · 讲义第19页",
+            "pdfPage": 25
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-03-question",
+      "type": "question",
+      "title": "实战精刷 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s02-t03-drill-03",
+        "type": "single",
+        "stem": "（26上海）甲、乙两个果园计划将所产苹果全部销售到阳光超市，以占据该超市的苹果市场份额的3/5。实际销售中，甲果园售出了其苹果产量的1/4，乙果园售出了其苹果产量的1/3，甲、乙两个果园售出的苹果仅占超市苹果全部份额的1/6，则甲果园苹果产量与乙果园苹果产量之比为（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "1:2"
+          },
+          {
+            "value": "B",
+            "label": "2:3"
+          },
+          {
+            "value": "C",
+            "label": "2 :1"
+          },
+          {
+            "value": "D",
+            "label": "3 :2"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          25
+        ],
+        "printedPages": [
+          19
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-03-p025.webp",
+            "alt": "和差倍比问题（二） · 实战精刷3 · 讲义第19页",
+            "pdfPage": 25
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s02-t03-drill-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先统一“占超市市场”的参照量。把整个超市市场设为90份，则两果园计划总产量为90×3/5=54份，实际合计售出90×1/6=15份。设甲产量x，乙就为54-x。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{x}{4}+\\frac{54-x}{3}=15\\quad\\Longrightarrow\\quad3x+4(54-x)=180\\quad\\Longrightarrow\\quad x=36"
+        },
+        {
+          "type": "paragraph",
+          "text": "乙为18，甲∶乙=36∶18=2∶1，选C。核验甲卖9、乙卖6，合计15份。不能把1/6误当作两果园产量中的六分之一。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "多重占比先统一参照整体，才能正确建立加权关系。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          25
+        ],
+        "printedPages": [
+          19
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-03-p025.webp",
+            "alt": "和差倍比问题（二） · 实战精刷3 · 讲义第19页",
+            "pdfPage": 25
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-04-question",
+      "type": "question",
+      "title": "实战精刷 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s02-t03-drill-04",
+        "type": "single",
+        "stem": "（22联考）某商场为庆祝开业三周年，制作了一个长方形大蛋糕，并切成四块，如图所示。假设这个蛋糕可供350人享用，左下角那块蛋糕平均可供50人享用，右上角那块蛋糕平均可供70人享受，则中间最大块蛋糕平均可供多少人享用？",
+        "options": [
+          {
+            "value": "A",
+            "label": "150"
+          },
+          {
+            "value": "B",
+            "label": "155"
+          },
+          {
+            "value": "C",
+            "label": "175"
+          },
+          {
+            "value": "D",
+            "label": "180"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（22联考）某商场为庆祝开业三周年，制作了一个长方形大蛋糕，并切成四块，如图所示。假设这个蛋糕可供350人享用，左下角那块蛋糕平均可供50人享用，右上角那块蛋糕平均可供70人享受，则中间最大块蛋糕平均可供多少人享用？"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-04-figure-01.webp",
+            "alt": "和差倍比问题（二）原题示意图，讲义第20页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ],
+        "reviewNote": "需保留题干后的矩形切成四块的示意图；左下、右上角小三角形与中间三角形的位置是解题必要条件。"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          26
+        ],
+        "printedPages": [
+          20
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-04-p026.webp",
+            "alt": "和差倍比问题（二） · 实战精刷4 · 讲义第20页",
+            "pdfPage": 26
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s02-t03-drill-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把蛋糕面积按可供人数计算，总面积看成350份。左下三角形与整个矩形同高，所以它的底边占矩形底边2×50/350=2/7；右上三角形与矩形同底宽，所以它在右边截出的上段高度占全高2×70/350=2/5。右下角那块三角形的底占5/7，高占3/5。"
+        },
+        {
+          "type": "formula",
+          "latex": "右下角面积=350\\times\\frac12\\times\\frac57\\times\\frac35=75"
+        },
+        {
+          "type": "paragraph",
+          "text": "中间三角形为350-50-70-75=155份，可供155人，选B。图中只标切割位置，没有要求按图形目测长度，我们用的是同高、同宽的面积比例。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "矩形四块切割题先用已知角三角形反推边长比例，再求另一角并整体作差。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          26
+        ],
+        "printedPages": [
+          20
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-04-p026.webp",
+            "alt": "和差倍比问题（二） · 实战精刷4 · 讲义第20页",
+            "pdfPage": 26
+          }
+        ]
+      }
+    }
+  ]
+}

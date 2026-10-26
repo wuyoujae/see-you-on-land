@@ -1,0 +1,545 @@
+{
+  "id": "quantity-wy27-s13-drill-02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s13",
+  "title": "实战精刷 · 5—8题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      140,
+      141
+    ],
+    "printedPages": [
+      134,
+      135
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s13-t03-drill-05-question",
+      "type": "question",
+      "title": "实战精刷 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s13-t03-drill-05",
+        "type": "single",
+        "stem": "（26全国事考）48人参加生产技能比赛，被随机平均分成16组进行初赛，每组第1名进入复赛；复赛选手又被随机平均分成4组，每组第1名进入决赛。已知张、刘在初赛组中排名1、2、3位的概率均为1/3，如果进入复赛，在组中排名1、2、3、4位的概率均为1/4，问张和刘均进入决赛的概率在以下哪个范围内？",
+        "options": [
+          {
+            "value": "A",
+            "label": "不到1/250"
+          },
+          {
+            "value": "B",
+            "label": "1/250-1/200之间"
+          },
+          {
+            "value": "C",
+            "label": "1/200-1/150之间"
+          },
+          {
+            "value": "D",
+            "label": "超过1/150"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          140
+        ],
+        "printedPages": [
+          134
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-05-p140.webp",
+            "alt": "概率问题（二） · 实战精刷5 · 讲义第134页",
+            "pdfPage": 140
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s13-t03-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看两人能否同时晋级：初赛如果同组，只有1个第一名，两人不可能一起过。因此先固定张的位置，刘不能落入同组的另外2个位置，初赛不同组概率46/47。"
+        },
+        {
+          "type": "paragraph",
+          "text": "不同组后，两人分别拿初赛第一的概率乘积为1/9。进入16人复赛，再固定张，刘在其余15个位置中有12个不与张同组，概率12/15；之后两人各拿组内第一，乘1/16。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac{46}{47}\\times\\frac13\\times\\frac13\\times\\frac{12}{15}\\times\\frac14\\times\\frac14=\\frac{23}{4230}\\approx0.00544"
+        },
+        {
+          "type": "paragraph",
+          "text": "乘积为23/4230，约0.00544，位于1/200=0.005与1/150约0.00667之间，我们选C。这里沿用不同组比赛独立的通常竞赛模型，不能漏掉两轮避免同组的条件。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          140
+        ],
+        "printedPages": [
+          134
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-05-p140.webp",
+            "alt": "概率问题（二） · 实战精刷5 · 讲义第134页",
+            "pdfPage": 140
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-05-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s13-t03-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "多人同时晋级，先排除彼此竞争同一晋级名额的同组情况。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          140
+        ],
+        "printedPages": [
+          134
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-05-p140.webp",
+            "alt": "概率问题（二） · 实战精刷5 · 讲义第134页",
+            "pdfPage": 140
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-06-question",
+      "type": "question",
+      "title": "实战精刷 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s13-t03-drill-06",
+        "type": "single",
+        "stem": "（20联考）植树节期间，某单位购进一批树苗，在林场工人的指导下组织员工植树造林。假设植树的成活率为80%，那么，该单位职工小张种植3棵树苗，至少成活2棵的概率是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "27/125"
+          },
+          {
+            "value": "B",
+            "label": "48/125"
+          },
+          {
+            "value": "C",
+            "label": "64/125"
+          },
+          {
+            "value": "D",
+            "label": "112/125"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          140
+        ],
+        "printedPages": [
+          134
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-06-p140.webp",
+            "alt": "概率问题（二） · 实战精刷6 · 讲义第134页",
+            "pdfPage": 140
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s13-t03-drill-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把每棵树按相同成活率且相互独立的重复试验处理。至少成活2棵，包括恰好2棵和3棵全活。"
+        },
+        {
+          "type": "paragraph",
+          "text": "恰好2棵的概率3×0.8²×0.2=0.384，全活0.8³=0.512，合计0.896=112/125。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\binom32(0.8)^2(0.2)+(0.8)^3=\\frac{112}{125}"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以我们选D。只算恰好2棵会误选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          140
+        ],
+        "printedPages": [
+          134
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-06-p140.webp",
+            "alt": "概率问题（二） · 实战精刷6 · 讲义第134页",
+            "pdfPage": 140
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-06-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s13-t03-drill-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "至少两次成功包含全成功，不把“至少”误读成“恰好”。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          140
+        ],
+        "printedPages": [
+          134
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-06-p140.webp",
+            "alt": "概率问题（二） · 实战精刷6 · 讲义第134页",
+            "pdfPage": 140
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-07-question",
+      "type": "question",
+      "title": "实战精刷 · 第7题",
+      "question": {
+        "id": "quantity-wy27-s13-t03-drill-07",
+        "type": "single",
+        "stem": "（26江苏事考）某矿井设有三套独立的通风系统，每套系统在瓦斯浓度超标时自动启动强排风的概率均为0.9，至少两套通风系统同时启动强排风，才能将瓦斯浓度迅速降至安全范围。若该矿井出现瓦斯浓度超标，则其瓦斯浓度能迅速降至安全范围的概率为（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "0.81"
+          },
+          {
+            "value": "B",
+            "label": "0.891"
+          },
+          {
+            "value": "C",
+            "label": "0.972"
+          },
+          {
+            "value": "D",
+            "label": "0.99"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          141
+        ],
+        "printedPages": [
+          135
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-07-p141.webp",
+            "alt": "概率问题（二） · 实战精刷7 · 讲义第135页",
+            "pdfPage": 141
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-07-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s13-t03-drill-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们直接把“迅速安全”翻译成至少两套启动。三套独立，启动率都为0.9。"
+        },
+        {
+          "type": "paragraph",
+          "text": "恰好两套启动的概率为3×0.9²×0.1=0.243，三套全启动为0.9³=0.729。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\binom32(0.9)^2(0.1)+(0.9)^3=0.972"
+        },
+        {
+          "type": "paragraph",
+          "text": "合计0.972，我们选C。只算指定的两套启动得到0.81，没有覆盖所有组合，也没有处理第三套。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          141
+        ],
+        "printedPages": [
+          135
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-07-p141.webp",
+            "alt": "概率问题（二） · 实战精刷7 · 讲义第135页",
+            "pdfPage": 141
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-07-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s13-t03-drill-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "系统达到阈值需按成功套数分类，组合数不能省。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          141
+        ],
+        "printedPages": [
+          135
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-07-p141.webp",
+            "alt": "概率问题（二） · 实战精刷7 · 讲义第135页",
+            "pdfPage": 141
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-08-question",
+      "type": "question",
+      "title": "实战精刷 · 第8题",
+      "question": {
+        "id": "quantity-wy27-s13-t03-drill-08",
+        "type": "single",
+        "stem": "（25联考）小王、小李参加某项知识竞赛答题，小王每题答对的概率相等，且均为小李的1.5倍。已知小王连续答对2题的概率比小李高0.2，问小王前2题全对且小李前2题全错的概率在以下哪个范围内？",
+        "options": [
+          {
+            "value": "A",
+            "label": "不到0.05"
+          },
+          {
+            "value": "B",
+            "label": "0.05~0.08"
+          },
+          {
+            "value": "C",
+            "label": "0.08~0.11"
+          },
+          {
+            "value": "D",
+            "label": "0.11以上"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          141
+        ],
+        "printedPages": [
+          135
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-08-p141.webp",
+            "alt": "概率问题（二） · 实战精刷8 · 讲义第135页",
+            "pdfPage": 141
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-08-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s13-t03-drill-08",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设小李每题答对概率为p，则小王是1.5p。按各次答题独立的重复试验模型，连续答对2题的概率差为（1.5p）²−p²=0.2。"
+        },
+        {
+          "type": "paragraph",
+          "text": "解得p=0.4，小王为0.6。小王前2题全对概率0.36，小李前2题全错概率也为0.6²=0.36。"
+        },
+        {
+          "type": "formula",
+          "latex": "(1.5p)^2-p^2=0.2\\Rightarrow p=0.4,\\quad P=(0.6)^2(1-0.4)^2=0.1296"
+        },
+        {
+          "type": "paragraph",
+          "text": "两件事同时发生，概率0.36²=0.1296，超过0.11，我们选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          141
+        ],
+        "printedPages": [
+          135
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-08-p141.webp",
+            "alt": "概率问题（二） · 实战精刷8 · 讲义第135页",
+            "pdfPage": 141
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-08-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s13-t03-drill-08",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "连续成功先平方，概率的差不能直接当单次成功率的差。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          141
+        ],
+        "printedPages": [
+          135
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-08-p141.webp",
+            "alt": "概率问题（二） · 实战精刷8 · 讲义第135页",
+            "pdfPage": 141
+          }
+        ]
+      }
+    }
+  ]
+}

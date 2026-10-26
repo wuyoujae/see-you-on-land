@@ -1,0 +1,40 @@
+{
+  "id": "analysis-p1-l02",
+  "subjectId": "analysis",
+  "groupId": "analysis-abrx",
+  "title": "ABRX：先把题目问的那个量认出来",
+  "source": {
+    "startSeconds": 25,
+    "timeLabel": "00:00:25",
+    "videoId": "7668729047387524358",
+    "videoTitle": "资料分析完整复盘"
+  },
+  "cards": [
+    {
+      "id": "analysis-p1-l02-knowledge-756ddf8-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "ABRX：先把题目问的那个量认出来",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们用四个字母，把四类基本问题分开：A 是基期量，B 是现期量，R 是增长率，X 是增长量。"
+        },
+        {
+          "type": "paragraph",
+          "text": "基期，就是拿来作比较的那个时期；现期，就是相对于它的现在这个时期。增长量说的是多了多少个单位，增长率说的是相对于原来增长了多大比例。"
+        },
+        {
+          "type": "paragraph",
+          "text": "后面的题，先看它问的是 A、B、R 还是 X，再找对应的关系。"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/courses/analysis-abrx-board.jpg",
+          "alt": "ABRX基期与现期公式原板书，含间隔基期和等增量后推",
+          "caption": "ABRX原板书，点击放大。"
+        }
+      ]
+    }
+  ]
+}

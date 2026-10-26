@@ -1,0 +1,484 @@
+{
+  "id": "quantity-wy27-s07-t02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s07",
+  "title": "匀变速运动",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      75,
+      76
+    ],
+    "printedPages": [
+      69,
+      70
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s07-t02-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "匀变速运动",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先看题目是不是“均匀加速”或“均匀减速”。只有同一段匀变速运动，平均速度才能用初速度和末速度的平均。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\bar v=\\frac{v_{\\text{初}}+v_{\\text{末}}}{2},\\qquad s=\\frac{v_{\\text{初}}+v_{\\text{末}}}{2}t"
+        },
+        {
+          "type": "paragraph",
+          "text": "从静止加速到v，这一段平均速度v/2；从v减速到静止也一样。但把匀速、加速、减速三段放在一起，仍须用全程总路程除总时间，不能直接平均几段速度。"
+        },
+        {
+          "type": "paragraph",
+          "text": "前半路程、前半时间是两回事。遇到多段运动，我们按题目给的是距离比例还是时间比例分别列式；停车休息的终点速度是0，休息时间也不算运动时间。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          75
+        ],
+        "printedPages": [
+          69
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t02-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s07-t02-mother-01",
+        "type": "single",
+        "stem": "（23国考）一辆汽车从甲地开往乙地，先以40千米／小时的速度匀速行驶一半的路程；然后均匀加速，行驶完剩下路程的一半时，速度达到80千米／小时；此后均匀减速，到达乙地时的速度正好降为0。问其全程的平均速度在以下哪个范围内？",
+        "options": [
+          {
+            "value": "A",
+            "label": "不到44千米／小时"
+          },
+          {
+            "value": "B",
+            "label": "在44~45千米/小时之间"
+          },
+          {
+            "value": "C",
+            "label": "在45~46千米/小时之间"
+          },
+          {
+            "value": "D",
+            "label": "超过46千米/小时"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          75
+        ],
+        "printedPages": [
+          69
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t02-mother-01-p075.webp",
+            "alt": "行程问题（二） · 母题精讲1 · 讲义第69页",
+            "pdfPage": 75
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t02-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t02-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把全程设为S。前半程匀速40，用时S/80；接下来1/4路程从40匀加速到80，平均速度60，用时S/240；最后1/4从80匀减速到0，平均速度40，用时S/160。"
+        },
+        {
+          "type": "paragraph",
+          "text": "总时间＝11S/480，所以全程平均速度＝S÷(11S/480)＝480/11≈43.64千米/小时，选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先在各段匀变速内求平均速度，全程再用总路程除总时间。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          75
+        ],
+        "printedPages": [
+          69
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t02-mother-01-p075.webp",
+            "alt": "行程问题（二） · 母题精讲1 · 讲义第69页",
+            "pdfPage": 75
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t02-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s07-t02-mother-02",
+        "type": "single",
+        "stem": "（25联考）一人从A到B，AB间距离为720米，已知前面120米是匀加速，中间保持最大速度不变，最后面120米是匀减速，到终点时速度恰好为0，共用时4分钟，问最大速度为（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "2米/秒"
+          },
+          {
+            "value": "B",
+            "label": "4米/秒"
+          },
+          {
+            "value": "C",
+            "label": "6米/秒"
+          },
+          {
+            "value": "D",
+            "label": "8米/秒"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B",
+        "reviewNote": "原题未明示初速度；解析由初速度非负及加速条件得到最高速范围，再结合四选项唯一确定4米/秒，并反推出初速度为0，未预先补静止条件。"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          76
+        ],
+        "printedPages": [
+          70
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t02-mother-02-p076.webp",
+            "alt": "行程问题（二） · 母题精讲2 · 讲义第70页",
+            "pdfPage": 76
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t02-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t02-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先不补“从静止出发”。设最高速度为v米/秒、初速度为u米/秒，匀加速意味着0≤u<v。中间匀速480米需480/v秒，最后120米从v匀减速到0，需240/v秒。前120米从u加速到v，需240/(u+v)秒。"
+        },
+        {
+          "type": "formula",
+          "latex": "240=\\frac{240}{u+v}+\\frac{720}{v},\\qquad0\\le u<v"
+        },
+        {
+          "type": "paragraph",
+          "text": "由u≥0，前段时间不超过240/v，故总时间不超过960/v，得到v≤4；由u<v，前段时间大于120/v，故总时间大于840/v，得到v>3.5。"
+        },
+        {
+          "type": "formula",
+          "latex": "3.5<v\\le4"
+        },
+        {
+          "type": "paragraph",
+          "text": "四个选项中只有4米/秒符合，所以选B。再代入v=4，总时间式给出240/(u+4)=60，反推u=0。因此静止起步是这一候选下的结论，不是我们先增加的条件。核验加速60秒、匀速120秒、减速60秒，正好720米、4分钟。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          76
+        ],
+        "printedPages": [
+          70
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t02-mother-02-p076.webp",
+            "alt": "行程问题（二） · 母题精讲2 · 讲义第70页",
+            "pdfPage": 76
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t02-mother-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s07-t02-mother-02",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "静止起步、停下的两端加减速，平均速度均为最高速度的一半。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          76
+        ],
+        "printedPages": [
+          70
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t02-mother-02-p076.webp",
+            "alt": "行程问题（二） · 母题精讲2 · 讲义第70页",
+            "pdfPage": 76
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t02-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s07-t02-practice-01",
+        "type": "single",
+        "stem": "（26浙江事考）小王开车从甲地前往距离100千米的乙地。从静止状态匀加速行驶40分钟后，匀减速行驶20分钟到达服务区。休息一段时间后，又行驶40千米到达乙地，那么他从甲地到服务区的过程中最快速度为多少千米/小时？",
+        "options": [
+          {
+            "value": "A",
+            "label": "80"
+          },
+          {
+            "value": "B",
+            "label": "90"
+          },
+          {
+            "value": "C",
+            "label": "100"
+          },
+          {
+            "value": "D",
+            "label": "120"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          76
+        ],
+        "printedPages": [
+          70
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t02-practice-01-p076.webp",
+            "alt": "行程问题（二） · 思维精练1 · 讲义第70页",
+            "pdfPage": 76
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t02-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t02-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先算到服务区的距离：100－40＝60千米。车从静止加速后减速到服务区停车，合计运动40＋20＝60分钟，即1小时。"
+        },
+        {
+          "type": "paragraph",
+          "text": "设最高速度v，两段各自平均速度都为v/2，所以总路程＝(v/2)×1＝60，得到v＝120千米/小时，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "只要两端均静止、两段分别匀变速，时间长短不同也能按v/2求总路程。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          76
+        ],
+        "printedPages": [
+          70
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t02-practice-01-p076.webp",
+            "alt": "行程问题（二） · 思维精练1 · 讲义第70页",
+            "pdfPage": 76
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t02-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s07-t02-practice-02",
+        "type": "single",
+        "stem": "（26天津）小赵开车从A地前往B地，前25%的路程匀速行驶用了1小时10分，此后均匀加速并用50分钟到达A、B两地中点。后半段均匀减速，又用了1小时40分到达B地。问到达B地的速度是从A地出发时的多少倍？",
+        "options": [
+          {
+            "value": "A",
+            "label": "不到1.25倍"
+          },
+          {
+            "value": "B",
+            "label": "1.25~1.35倍之间"
+          },
+          {
+            "value": "C",
+            "label": "1.35~1.45倍之间"
+          },
+          {
+            "value": "D",
+            "label": "超过1.45倍"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          76
+        ],
+        "printedPages": [
+          70
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t02-practice-02-p076.webp",
+            "alt": "行程问题（二） · 思维精练2 · 讲义第70页",
+            "pdfPage": 76
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t02-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t02-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把出发速度设为v，以分钟为时间单位。第一段25%路程为70v；第二段同样25%，用50分钟，所以平均速度为1.4v。"
+        },
+        {
+          "type": "paragraph",
+          "text": "匀加速平均速度等于首尾平均，峰值速度u满足(v＋u)/2＝1.4v，得u＝1.8v。"
+        },
+        {
+          "type": "paragraph",
+          "text": "后半程距离140v，用100分钟，平均速度还是1.4v。于是(1.8v＋末速)/2＝1.4v，得到末速＝v，是出发时1倍，选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "相等路程用各自时间求平均速度，再逐段由首尾平均还原端点速度。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          76
+        ],
+        "printedPages": [
+          70
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t02-practice-02-p076.webp",
+            "alt": "行程问题（二） · 思维精练2 · 讲义第70页",
+            "pdfPage": 76
+          }
+        ]
+      }
+    }
+  ]
+}

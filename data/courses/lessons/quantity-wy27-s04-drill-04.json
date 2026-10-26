@@ -1,0 +1,219 @@
+{
+  "id": "quantity-wy27-s04-drill-04",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s04",
+  "title": "实战精刷 · 13—14题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      52
+    ],
+    "printedPages": [
+      46
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s04-t03-drill-13-question",
+      "type": "question",
+      "title": "实战精刷 · 第13题",
+      "question": {
+        "id": "quantity-wy27-s04-t03-drill-13",
+        "type": "single",
+        "stem": "（26天津事考）已知A、B、C三个库房放有打印机，B库房与C库房内共32台，A库房与C库房的打印机总数是B库房与C库房打印机总数的1.5倍，且A库房的打印机数比C库房的打印机数多6台，现在要将其分配给公司各部门，要求分配给每个部门的数量互不相同，则最多可有几个部门分得打印机？",
+        "options": [
+          {
+            "value": "A",
+            "label": "8"
+          },
+          {
+            "value": "B",
+            "label": "9"
+          },
+          {
+            "value": "C",
+            "label": "10"
+          },
+          {
+            "value": "D",
+            "label": "11"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          52
+        ],
+        "printedPages": [
+          46
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-13-p052.webp",
+            "alt": "等差数列与和定最值 · 实战精刷13 · 讲义第46页",
+            "pdfPage": 52
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-13-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t03-drill-13",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先求总台数。B＋C＝32，A＋C＝1.5×32＝48，A－C＝6，所以A＝27，C＝21，B＝11，总共59台。"
+        },
+        {
+          "type": "paragraph",
+          "text": "10个部门各分不同正整数台，最少1＋…＋10＝55台；11个至少66台，超过59。"
+        },
+        {
+          "type": "paragraph",
+          "text": "给10个部门分1到9台以及14台，合计59且互不相同，所以最多10个，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先算实际总量，再用不同正整数的最低总需求判断最大组数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          52
+        ],
+        "printedPages": [
+          46
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-13-p052.webp",
+            "alt": "等差数列与和定最值 · 实战精刷13 · 讲义第46页",
+            "pdfPage": 52
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-14-question",
+      "type": "question",
+      "title": "实战精刷 · 第14题",
+      "question": {
+        "id": "quantity-wy27-s04-t03-drill-14",
+        "type": "single",
+        "stem": "（25浙江）某地从A、B、C三所高校分别招聘了50名应届毕业生，并将他们分配到15个基层单位。已知每个基层单位最少分配3人，且任意2个基层单位分配到的人数都不相同。问A校毕业生最少被分配到多少个基层单位中？",
+        "options": [
+          {
+            "value": "A",
+            "label": "3"
+          },
+          {
+            "value": "B",
+            "label": "4"
+          },
+          {
+            "value": "C",
+            "label": "5"
+          },
+          {
+            "value": "D",
+            "label": "6"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          52
+        ],
+        "printedPages": [
+          46
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-14-p052.webp",
+            "alt": "等差数列与和定最值 · 实战精刷14 · 讲义第46页",
+            "pdfPage": 52
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-14-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t03-drill-14",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看15个单位的总人数150人。每个最少3人，且人数都不同，最小分配就是3、4、…、17，总和正好150，因此各单位总人数只能是这组数。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A校50人要尽量集中，先装人数最多的单位。最大的3个单位共17＋16＋15＝48人，还不够50，所以至少要进4个单位。"
+        },
+        {
+          "type": "paragraph",
+          "text": "把A校17、16、15、2人分别放进17、16、15、14人这4个单位，正好50；其余100个位置可分给B、C两校各50人。因此4个能达到，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "总量恰好等于最小构造时，各组大小被完全锁定；想少占组，就优先装最大组。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          52
+        ],
+        "printedPages": [
+          46
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-14-p052.webp",
+            "alt": "等差数列与和定最值 · 实战精刷14 · 讲义第46页",
+            "pdfPage": 52
+          }
+        ]
+      }
+    }
+  ]
+}

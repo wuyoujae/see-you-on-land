@@ -1,0 +1,954 @@
+{
+  "id": "quantity-wy27-s15-t01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s15",
+  "title": "同底、同高与面积比",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      153,
+      154,
+      155
+    ],
+    "printedPages": [
+      147,
+      148,
+      149
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s15-t01-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "同底、同高与面积比",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们把三角形面积公式拆开看：底相同，面积比等于高之比；高相同，面积比等于底之比。顶点在与底平行的一条直线上，就意味着到这个底的高相同，可以等面积替换。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{S_1}{S_2}=\\frac{b_1h_1}{b_2h_2};\\quad h_1=h_2\\Rightarrow\\frac{S_1}{S_2}=\\frac{b_1}{b_2}"
+        },
+        {
+          "type": "paragraph",
+          "text": "四边形的两条对角线交于O，四个小三角形可以沿共同底线比较高，推出两对顶面积的乘积相等。标准十字分割的四矩形也有同样的乘积关系；这两个结论适用的图形条件不同，不能推广到任意四块区域。"
+        },
+        {
+          "type": "formula",
+          "latex": "S_{AOB}S_{COD}=S_{AOD}S_{BOC}"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们看到中点、延长几倍或平行底边时，先把这些条件转成底或高的比例，再算面积；“延长k倍”是额外加k份，整段通常变成k+1份。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          153,
+          154,
+          155
+        ],
+        "printedPages": [
+          147,
+          148,
+          149
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t01-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s15-t01-mother-01",
+        "type": "single",
+        "stem": "（26山东）某公园计划建设一个梯形ABCD，来用于展示花卉，AD//BC，对角线AC和BD相交于中间观景台点O，已知AD边长4米，BC边长8米，△AOD的面积是5平方米，求问梯形ABCD的面积是多少？",
+        "options": [
+          {
+            "value": "A",
+            "label": "55"
+          },
+          {
+            "value": "B",
+            "label": "65"
+          },
+          {
+            "value": "C",
+            "label": "45"
+          },
+          {
+            "value": "D",
+            "label": "75"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          153
+        ],
+        "printedPages": [
+          147
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-mother-01-p153.webp",
+            "alt": "几何问题（二） · 母题精讲1 · 讲义第147页",
+            "pdfPage": 153
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t01-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t01-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看平行边AD：BC=4：8=1：2。对角线相交形成的△AOD与△COB相似，线性比1：2，所以O到两条底边的高也为1：2。"
+        },
+        {
+          "type": "paragraph",
+          "text": "△AOD面积5、底AD=4，得到O到AD的高为2.5米，O到BC的高就是5米，整个梯形高7.5米。"
+        },
+        {
+          "type": "formula",
+          "latex": "h_1=\\frac{2\\times5}{4}=2.5,\\quad h=3h_1=7.5,\\quad S=\\frac{4+8}{2}\\times7.5=45"
+        },
+        {
+          "type": "paragraph",
+          "text": "梯形面积（4+8）×7.5÷2=45平方米，我们选C。底边翻倍，高也翻倍时，对应小三角形面积不是只翻倍。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          153
+        ],
+        "printedPages": [
+          147
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-mother-01-p153.webp",
+            "alt": "几何问题（二） · 母题精讲1 · 讲义第147页",
+            "pdfPage": 153
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t01-mother-01-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t01-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "梯形对角线交点两侧相似，高之比等于平行底边之比。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          153
+        ],
+        "printedPages": [
+          147
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-mother-01-p153.webp",
+            "alt": "几何问题（二） · 母题精讲1 · 讲义第147页",
+            "pdfPage": 153
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t01-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s15-t01-mother-02",
+        "type": "single",
+        "stem": "（25国考）某厂区如图所示，其中ABCD为矩形，ABEF为直角梯形，AB与DE相交于G点，其中阴影区域ADGF为涉密区域。已知AD、AF、AB长度分别为240米、150米、100米，问涉密区域的面积为多少万平方米？",
+        "options": [
+          {
+            "value": "A",
+            "label": "1.2"
+          },
+          {
+            "value": "B",
+            "label": "1.3"
+          },
+          {
+            "value": "C",
+            "label": "1.4"
+          },
+          {
+            "value": "D",
+            "label": "1.5"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（25国考）某厂区如图所示，其中ABCD为矩形，ABEF为直角梯形，AB与DE相交于G点，其中阴影区域ADGF为涉密区域。已知AD、AF、AB长度分别为240米、150米、100米，问涉密区域的面积为多少万平方米？"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-mother-02-figure-01.webp",
+            "alt": "几何问题（二）原题示意图，讲义第148页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          153,
+          154
+        ],
+        "printedPages": [
+          147,
+          148
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-mother-02-p153.webp",
+            "alt": "几何问题（二） · 母题精讲2 · 讲义第147页",
+            "pdfPage": 153
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-mother-02-p154.webp",
+            "alt": "几何问题（二） · 母题精讲2 · 讲义第148页",
+            "pdfPage": 154
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t01-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t01-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先找可以等面积替换的部分。AF不是高，直接拿150米乘长度会出错。图中EF与AB平行，△FAG与△EAG共用底AG，F、E到AB的距离相同，所以两块面积相等。"
+        },
+        {
+          "type": "paragraph",
+          "text": "因此阴影ADGF的面积，等于△ADG加△EAG，也就是整个△ADE的面积。AD=240米，对应高是AB=100米。"
+        },
+        {
+          "type": "formula",
+          "latex": "S_{ADGF}=S_{ADG}+S_{EAG}=S_{ADE}=\\frac12\\times240\\times100=12000"
+        },
+        {
+          "type": "paragraph",
+          "text": "面积240×100÷2=12000平方米，即1.2万平方米，我们选A。AF=150米在这条面积替换路线里不需要用。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          153,
+          154
+        ],
+        "printedPages": [
+          147,
+          148
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-mother-02-p153.webp",
+            "alt": "几何问题（二） · 母题精讲2 · 讲义第147页",
+            "pdfPage": 153
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-mother-02-p154.webp",
+            "alt": "几何问题（二） · 母题精讲2 · 讲义第148页",
+            "pdfPage": 154
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t01-mother-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t01-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "共底且顶点落在一条与底平行的直线上，三角形可等面积替换。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          153,
+          154
+        ],
+        "printedPages": [
+          147,
+          148
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-mother-02-p153.webp",
+            "alt": "几何问题（二） · 母题精讲2 · 讲义第147页",
+            "pdfPage": 153
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-mother-02-p154.webp",
+            "alt": "几何问题（二） · 母题精讲2 · 讲义第148页",
+            "pdfPage": 154
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t01-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s15-t01-mother-03",
+        "type": "single",
+        "stem": "（26联考）某林场计划扩大荒原造林面积。下图中△ABC区域的荒原造林工作已由两人花费一天的时间完成。若将△ABC的AB边延长一倍到点D，BC边延长两倍到点E，CA边延长三倍到点F。假设每人的工作效率一致，则至少需要增加几人才能在接下来的5天内完成△DEF剩余区域的荒原造林工作？",
+        "options": [
+          {
+            "value": "A",
+            "label": "3"
+          },
+          {
+            "value": "B",
+            "label": "5"
+          },
+          {
+            "value": "C",
+            "label": "6"
+          },
+          {
+            "value": "D",
+            "label": "12"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（26联考）某林场计划扩大荒原造林面积。下图中△ABC区域的荒原造林工作已由两人花费一天的时间完成。若将△ABC的AB边延长一倍到点D，BC边延长两倍到点E，CA边延长三倍到点F。假设每人的工作效率一致，则至少需要增加几人才能在接下来的5天内完成△DEF剩余区域的荒原造林工作？"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-mother-03-figure-01.webp",
+            "alt": "几何问题（二）原题示意图，讲义第148页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          154
+        ],
+        "printedPages": [
+          148
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-mother-03-p154.webp",
+            "alt": "几何问题（二） · 母题精讲3 · 讲义第148页",
+            "pdfPage": 154
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t01-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t01-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把原△ABC面积记为1份。按延长关系，BD=AB、CE=2BC、AF=3CA，因此BE=3BC、CF=4CA、AD=2AB。"
+        },
+        {
+          "type": "paragraph",
+          "text": "利用同高面积比，外侧三个三角形DBE、ECF、FAD的面积依次为3份、8份、6份，连同原来的1份，△DEF共18份。已经种好的1份不再做，剩17份。"
+        },
+        {
+          "type": "formula",
+          "latex": "S_{DEF}:S_{ABC}=1+1\\times3+2\\times4+3\\times2=18,\\quad \\left\\lceil\\frac{17\\times2}{5}\\right\\rceil-2=5"
+        },
+        {
+          "type": "paragraph",
+          "text": "原来2人1天完成1份，剩下需要34个人工日，5天内做完至少要7人；已有2人，所以至少增加5人，我们选B。人数必须向上取整。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          154
+        ],
+        "printedPages": [
+          148
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-mother-03-p154.webp",
+            "alt": "几何问题（二） · 母题精讲3 · 讲义第148页",
+            "pdfPage": 154
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t01-mother-03-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t01-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "延长边先还原整段倍数，再把面积份数转成人工日，最后人数向上取整。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          154
+        ],
+        "printedPages": [
+          148
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-mother-03-p154.webp",
+            "alt": "几何问题（二） · 母题精讲3 · 讲义第148页",
+            "pdfPage": 154
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t01-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s15-t01-practice-01",
+        "type": "single",
+        "stem": "（26广东）某块不规则的四边形菜地被沿着对角线分为四个区域，分别种上青菜、毛豆、番茄和茄子。已知青菜的种植面积比毛豆多40%，番茄的种植面积比茄子多40平方米，比青菜少了140平方米。则毛豆的种植面积比茄子多了（）平方米。",
+        "options": [
+          {
+            "value": "A",
+            "label": "60"
+          },
+          {
+            "value": "B",
+            "label": "70"
+          },
+          {
+            "value": "C",
+            "label": "90"
+          },
+          {
+            "value": "D",
+            "label": "100"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（26广东）某块不规则的四边形菜地被沿着对角线分为四个区域，分别种上青菜、毛豆、番茄和茄子。已知青菜的种植面积比毛豆多40%，番茄的种植面积比茄子多40平方米，比青菜少了140平方米。则毛豆的种植面积比茄子多了（）平方米。"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-practice-01-figure-01.webp",
+            "alt": "几何问题（二）原题示意图，讲义第148页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          154
+        ],
+        "printedPages": [
+          148
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-practice-01-p154.webp",
+            "alt": "几何问题（二） · 思维精练1 · 讲义第148页",
+            "pdfPage": 154
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t01-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t01-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们按图记青菜、毛豆、番茄、茄子的面积为Q、M、T、E。两条对角线把四边形分成四块，对顶三角形面积乘积相等，所以QE=MT。"
+        },
+        {
+          "type": "paragraph",
+          "text": "条件给Q=1.4M、T=E+40。代入乘积关系，1.4E=E+40，得到E=100、T=140。又T比Q少140，故Q=280、M=200。"
+        },
+        {
+          "type": "formula",
+          "latex": "QE=MT,\\quad1.4E=E+40\\Rightarrow E=100,\\quad M-E=100"
+        },
+        {
+          "type": "paragraph",
+          "text": "毛豆比茄子多200−100=100平方米，我们选D。这里用的是对角线交点形成的面积关系，不要求四边形是矩形。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          154
+        ],
+        "printedPages": [
+          148
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-practice-01-p154.webp",
+            "alt": "几何问题（二） · 思维精练1 · 讲义第148页",
+            "pdfPage": 154
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t01-practice-01-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t01-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "四边形两对角线分成的四个三角形，对顶面积乘积相等。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          154
+        ],
+        "printedPages": [
+          148
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-practice-01-p154.webp",
+            "alt": "几何问题（二） · 思维精练1 · 讲义第148页",
+            "pdfPage": 154
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t01-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s15-t01-practice-02",
+        "type": "single",
+        "stem": "（25四川）一块正方形花圃如下图所示。现将其划分为4个矩形，分别种植A、B、C、D四种作物。已知B、C的种植面积比为14：9，B、C的种植面积之和比A的种植面积大2/21，则D的种植面积是A的：",
+        "options": [
+          {
+            "value": "A",
+            "label": "1/3"
+          },
+          {
+            "value": "B",
+            "label": "2/5"
+          },
+          {
+            "value": "C",
+            "label": "2/7"
+          },
+          {
+            "value": "D",
+            "label": "3/11"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（25四川）一块正方形花圃如下图所示。现将其划分为4个矩形，分别种植A、B、C、D四种作物。已知B、C的种植面积比为14：9，B、C的种植面积之和比A的种植面积大2/21，则D的种植面积是A的："
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-practice-02-figure-01.webp",
+            "alt": "几何问题（二）原题示意图，讲义第149页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          154,
+          155
+        ],
+        "printedPages": [
+          148,
+          149
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-practice-02-p154.webp",
+            "alt": "几何问题（二） · 思维精练2 · 讲义第148页",
+            "pdfPage": 154
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-practice-02-p155.webp",
+            "alt": "几何问题（二） · 思维精练2 · 讲义第149页",
+            "pdfPage": 155
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t01-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t01-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把B、C面积设为14份、9份，它们和为23份，比A大2/21，说明23份是A的23/21，因此A=21份。"
+        },
+        {
+          "type": "paragraph",
+          "text": "按图中标准十字矩形分割，对角矩形面积乘积相等：A×D=B×C，所以D=14×9÷21=6份。"
+        },
+        {
+          "type": "formula",
+          "latex": "A=\\frac{14+9}{1+2/21}=21,\\quad D=\\frac{14\\times9}{21}=6,\\quad\\frac DA=\\frac27"
+        },
+        {
+          "type": "paragraph",
+          "text": "所求D：A=6：21=2：7，我们选C。大2/21是以A为基数，不能把A写成23减2份。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          154,
+          155
+        ],
+        "printedPages": [
+          148,
+          149
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-practice-02-p154.webp",
+            "alt": "几何问题（二） · 思维精练2 · 讲义第148页",
+            "pdfPage": 154
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-practice-02-p155.webp",
+            "alt": "几何问题（二） · 思维精练2 · 讲义第149页",
+            "pdfPage": 155
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t01-practice-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t01-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "标准四矩形分割用对角面积积相等，百分比或分数增减先看基数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          154,
+          155
+        ],
+        "printedPages": [
+          148,
+          149
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-practice-02-p154.webp",
+            "alt": "几何问题（二） · 思维精练2 · 讲义第148页",
+            "pdfPage": 154
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-practice-02-p155.webp",
+            "alt": "几何问题（二） · 思维精练2 · 讲义第149页",
+            "pdfPage": 155
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t01-practice-03-question",
+      "type": "question",
+      "title": "思维精练 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s15-t01-practice-03",
+        "type": "single",
+        "stem": "（26江苏）如图所示，在梯形ABCD中，AB//CD，点E在边BC上，CE=2BE，AE与BD相交于点F。已知△ADF与△BEF的面积分别为28和4，则△DFC的面积为：",
+        "options": [
+          {
+            "value": "A",
+            "label": "40"
+          },
+          {
+            "value": "B",
+            "label": "42"
+          },
+          {
+            "value": "C",
+            "label": "50"
+          },
+          {
+            "value": "D",
+            "label": "56"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（26江苏）如图所示，在梯形ABCD中，AB//CD，点E在边BC上，CE=2BE，AE与BD相交于点F。已知△ADF与△BEF的面积分别为28和4，则△DFC的面积为："
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-practice-03-figure-01.webp",
+            "alt": "几何问题（二）原题示意图，讲义第149页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          155
+        ],
+        "printedPages": [
+          149
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-practice-03-p155.webp",
+            "alt": "几何问题（二） · 思维精练3 · 讲义第149页",
+            "pdfPage": 155
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t01-practice-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t01-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设△ABF面积为x。△ABE面积x+4；因为CE=2BE，△AEC与△ABE共用到BC的高，面积就是2（x+4），所以△ABC面积3（x+4）。"
+        },
+        {
+          "type": "paragraph",
+          "text": "AB与CD平行，△ABC与△ABD同底等高，面积相同。△ABD面积x+28，因此3（x+4）=x+28，解得x=8。"
+        },
+        {
+          "type": "formula",
+          "latex": "3(x+4)=x+28\\Rightarrow x=8,\\quad S_{DFC}=S_{BCF}\\frac{FD}{FB}=12\\times\\frac{28}{8}=42"
+        },
+        {
+          "type": "paragraph",
+          "text": "△BCF=4+8=12，沿BD共高可知FD：FB=28：8=7：2，因此△DFC面积12×7/2=42，我们选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          155
+        ],
+        "printedPages": [
+          149
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-practice-03-p155.webp",
+            "alt": "几何问题（二） · 思维精练3 · 讲义第149页",
+            "pdfPage": 155
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t01-practice-03-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t01-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先利用平行底边构造同底等高，再沿共线底边传递面积比。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          155
+        ],
+        "printedPages": [
+          149
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t01-practice-03-p155.webp",
+            "alt": "几何问题（二） · 思维精练3 · 讲义第149页",
+            "pdfPage": 155
+          }
+        ]
+      }
+    }
+  ]
+}

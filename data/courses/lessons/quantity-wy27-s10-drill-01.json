@@ -1,0 +1,421 @@
+{
+  "id": "quantity-wy27-s10-drill-01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s10",
+  "title": "实战精刷 · 1—4题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      107,
+      108
+    ],
+    "printedPages": [
+      101,
+      102
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s10-t03-drill-01-question",
+      "type": "question",
+      "title": "实战精刷 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s10-t03-drill-01",
+        "type": "single",
+        "stem": "（25国考）将甲、乙两种设备各5件全部分配给A、B、C三个车间，要求每个车间分配两种设备至少各1件，A车间分配的设备总数比其他任一车间都多，B车间分配的甲设备多于乙设备，问有多少种不同的分配方式？",
+        "options": [
+          {
+            "value": "A",
+            "label": "3"
+          },
+          {
+            "value": "B",
+            "label": "6"
+          },
+          {
+            "value": "C",
+            "label": "12"
+          },
+          {
+            "value": "D",
+            "label": "24"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          107
+        ],
+        "printedPages": [
+          101
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-01-p107.webp",
+            "alt": "排列组合问题（一） · 实战精刷1 · 讲义第101页",
+            "pdfPage": 107
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t03-drill-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们按同类设备相同，只看各车间甲、乙分别拿多少。每车间至少2件，总数10件，且A严格最多。B要求甲多于乙，所以B至少3件。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A、B、C总件数只能是(5,3,2)或(4,3,3)：若A＝6，则B、C只能各2件，不满足B甲多于乙；若A≤3，则总数不够10。B共3件又甲多于乙，只能是甲2、乙1。"
+        },
+        {
+          "type": "paragraph",
+          "text": "总件数(5,3,2)时，C为甲1乙1，A只能甲2乙3，1种。总件数(4,3,3)时，C可为甲1乙2或甲2乙1，对应A为甲2乙2或甲1乙3，2种。合计3种，我们选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "有限分配先用总数和严格大小锁定数量结构，再分配每类数量。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          107
+        ],
+        "printedPages": [
+          101
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-01-p107.webp",
+            "alt": "排列组合问题（一） · 实战精刷1 · 讲义第101页",
+            "pdfPage": 107
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-02-question",
+      "type": "question",
+      "title": "实战精刷 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s10-t03-drill-02",
+        "type": "single",
+        "stem": "（26北京）右图为某个岛屿4块不同地区的地图，现用红、黄、蓝三种颜色为这4块地区上色，要求每块地区用一种颜色，相邻的地区用不同的颜色，有多少种不同的上色方法？",
+        "options": [
+          {
+            "value": "A",
+            "label": "3"
+          },
+          {
+            "value": "B",
+            "label": "6"
+          },
+          {
+            "value": "C",
+            "label": "12"
+          },
+          {
+            "value": "D",
+            "label": "24"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（26北京）右图为某个岛屿4块不同地区的地图，现用红、黄、蓝三种颜色为这4块地区上色，要求每块地区用一种颜色，相邻的地区用不同的颜色，有多少种不同的上色方法？"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-02-figure-01.webp",
+            "alt": "排列组合问题（一）原题示意图，讲义第101页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          107
+        ],
+        "printedPages": [
+          101
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-02-p107.webp",
+            "alt": "排列组合问题（一） · 实战精刷2 · 讲义第101页",
+            "pdfPage": 107
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t03-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先按原图读相邻关系：1、2、3两两相邻，必须使用三种不同颜色。先给1着色有3种，给2有2种，给3只剩1种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "地区4与2、3相邻，因此只能使用与1相同的那一种颜色，不再增加选择。总数3×2×1×1＝6种，我们选B。这里相邻按共享边界判断，必须保留原地图，不能只凭地区编号猜关系。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "地图着色先识别彼此相邻的核心区域，再按已着色邻居逐块限制。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          107
+        ],
+        "printedPages": [
+          101
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-02-p107.webp",
+            "alt": "排列组合问题（一） · 实战精刷2 · 讲义第101页",
+            "pdfPage": 107
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-03-question",
+      "type": "question",
+      "title": "实战精刷 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s10-t03-drill-03",
+        "type": "single",
+        "stem": "（26江苏事考）2025年江苏省城市足球联赛常规赛，共有13支球队参加。比赛规则为：每两支球队之间只比赛一场，胜一场得3分、平一场得1分、负一场得0分。常规赛结束后，统计显示平局的场次共有18场，则所有球队的总积分为（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "192分"
+          },
+          {
+            "value": "B",
+            "label": "198分"
+          },
+          {
+            "value": "C",
+            "label": "208分"
+          },
+          {
+            "value": "D",
+            "label": "216分"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          107
+        ],
+        "printedPages": [
+          101
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-03-p107.webp",
+            "alt": "排列组合问题（一） · 实战精刷3 · 讲义第101页",
+            "pdfPage": 107
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t03-drill-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先数比赛场次。13支球队每两队只赛一场，队伍配对没有顺序，所以有C₁₃²＝78场。每场分出胜负时两队合计3分，平局时两队各1分、合计2分。"
+        },
+        {
+          "type": "paragraph",
+          "text": "若全部分胜负，总分为78×3＝234分；18场平局各比这个基准少1分，所以实际总分234−18＝216分，我们选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "单循环场次用无序配对；积分按每场贡献算，比逐队累加更简单。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          107
+        ],
+        "printedPages": [
+          101
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-03-p107.webp",
+            "alt": "排列组合问题（一） · 实战精刷3 · 讲义第101页",
+            "pdfPage": 107
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-04-question",
+      "type": "question",
+      "title": "实战精刷 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s10-t03-drill-04",
+        "type": "single",
+        "stem": "（21国考）某商场开展“助农销售”活动，凡购买某种农产品满300元者可获得一个礼盒，其中装有6种干货中的随机3种各1小袋，以及1袋小米或红豆。问：内容不完全相同的礼盒共有多少种可能？",
+        "options": [
+          {
+            "value": "A",
+            "label": "50"
+          },
+          {
+            "value": "B",
+            "label": "45"
+          },
+          {
+            "value": "C",
+            "label": "40"
+          },
+          {
+            "value": "D",
+            "label": "30"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          108
+        ],
+        "printedPages": [
+          102
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-04-p108.webp",
+            "alt": "排列组合问题（一） · 实战精刷4 · 讲义第102页",
+            "pdfPage": 108
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t03-drill-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先从6种干货中选3种，同一个礼盒不区分摆放顺序，有C₆³＝20种。再选择配1袋小米还是1袋红豆，有2种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两个步骤都要完成，总数20×2＝40种，我们选C。每种干货只有1小袋，没有重复选择，也不需要把3种干货排列。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "内容组合只看选了哪些品种，各个独立内容步骤相乘。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          108
+        ],
+        "printedPages": [
+          102
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-04-p108.webp",
+            "alt": "排列组合问题（一） · 实战精刷4 · 讲义第102页",
+            "pdfPage": 108
+          }
+        ]
+      }
+    }
+  ]
+}

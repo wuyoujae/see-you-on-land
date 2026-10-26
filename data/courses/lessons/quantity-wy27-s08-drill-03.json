@@ -1,0 +1,215 @@
+{
+  "id": "quantity-wy27-s08-drill-03",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s08",
+  "title": "实战精刷 · 9—10题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      88
+    ],
+    "printedPages": [
+      82
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s08-t02-drill-09-question",
+      "type": "question",
+      "title": "实战精刷 · 第9题",
+      "question": {
+        "id": "quantity-wy27-s08-t02-drill-09",
+        "type": "single",
+        "stem": "（23联考）某商品的利润率是20%。如果进货价降低20%，售价保持不变，此时利润率是多少？",
+        "options": [
+          {
+            "value": "A",
+            "label": "40%"
+          },
+          {
+            "value": "B",
+            "label": "30%"
+          },
+          {
+            "value": "C",
+            "label": "60%"
+          },
+          {
+            "value": "D",
+            "label": "50%"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          88
+        ],
+        "printedPages": [
+          82
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-09-p088.webp",
+            "alt": "利润问题 · 实战精刷9 · 讲义第82页",
+            "pdfPage": 88
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t02-drill-09-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t02-drill-09",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把原进价设100元，利润率20%，售价120元。进价降低20%后变80元，售价仍120，利润为40元。"
+        },
+        {
+          "type": "paragraph",
+          "text": "新利润率＝40/80＝50%，选D。分母也变了，不能把原利润率与降价幅度直接相加。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "利润率永远按当前成本作分母，成本变动后要重新计算。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          88
+        ],
+        "printedPages": [
+          82
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-09-p088.webp",
+            "alt": "利润问题 · 实战精刷9 · 讲义第82页",
+            "pdfPage": 88
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t02-drill-10-question",
+      "type": "question",
+      "title": "实战精刷 · 第10题",
+      "question": {
+        "id": "quantity-wy27-s08-t02-drill-10",
+        "type": "single",
+        "stem": "（21江苏）超市销售某种水果，第一天按原价售出总量的60%，第二天原价打八折售出剩下的一半，第三天按成本价全部售出。若销售全部该水果的利润率为34%，则该水果按原价销售的利润率为：",
+        "options": [
+          {
+            "value": "A",
+            "label": "68%"
+          },
+          {
+            "value": "B",
+            "label": "51%"
+          },
+          {
+            "value": "C",
+            "label": "50%"
+          },
+          {
+            "value": "D",
+            "label": "36%"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          88
+        ],
+        "printedPages": [
+          82
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-10-p088.webp",
+            "alt": "利润问题 · 实战精刷10 · 讲义第82页",
+            "pdfPage": 88
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t02-drill-10-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t02-drill-10",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把总量设为1，单位成本C、原价P。三天分别卖出60%、20%、20%，对应收入0.6P、0.2×0.8P、0.2C，总收入0.76P＋0.2C。"
+        },
+        {
+          "type": "paragraph",
+          "text": "总利润率34%，所以总收入应为1.34C，得到0.76P＋0.2C＝1.34C，即P＝1.5C。"
+        },
+        {
+          "type": "paragraph",
+          "text": "原价销售利润率＝(P－C)/C＝50%，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "剩余的一半要换算成总量的比例，成本价售出部分收入仍需计入。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          88
+        ],
+        "printedPages": [
+          82
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-10-p088.webp",
+            "alt": "利润问题 · 实战精刷10 · 讲义第82页",
+            "pdfPage": 88
+          }
+        ]
+      }
+    }
+  ]
+}

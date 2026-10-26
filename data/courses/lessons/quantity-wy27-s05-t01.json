@@ -1,0 +1,1163 @@
+{
+  "id": "quantity-wy27-s05-t01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s05",
+  "title": "工程问题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      53,
+      54,
+      55,
+      56,
+      57
+    ],
+    "printedPages": [
+      47,
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s05-t01-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "工程问题",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先认三个量：工作量、效率、时间。效率是每单位时间做多少，不是完成全部工作的天数。几个人在同一段时间合作，才把效率相加。"
+        },
+        {
+          "type": "formula",
+          "latex": "W=e\\times t,\\qquad W=(e_1+e_2)t"
+        },
+        {
+          "type": "paragraph",
+          "text": "已知各自完工时间，通常把总工作量设成这些时间的最小公倍数；已知效率比，就把各效率设成对应的份数。这只是换一个便于计算的单位，不能随意给本来已固定的总量另赋数。"
+        },
+        {
+          "type": "paragraph",
+          "text": "有增员、降效、轮流施工时，我们按时间线分段，每段分别算“效率×时间”。先做几天、还要几天、总共几天是三个不同问法，最后要看清有没有加回前一段。"
+        },
+        {
+          "type": "paragraph",
+          "text": "轮流工作先算完整周期能做多少，余量再按实际顺序逐天核验；不能把还没轮到的人的效率算进去。全体恰好5人且个人效率固定时，最慢的两人可用“全体效率－最快三人效率”找补集；多个工程必须统一工作量单位后再相加。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          53
+        ],
+        "printedPages": [
+          47
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s05-t01-mother-01",
+        "type": "single",
+        "stem": "（26联考）某工厂预计28天交付一批订单，全自动生产线生产19天后发生故障，效率降为原来的5/7。公司加开临时生产线，其效率为全自动生产线正常效率的1/7。最终交付时间比预计时间怎样？",
+        "options": [
+          {
+            "value": "A",
+            "label": "快1.5天"
+          },
+          {
+            "value": "B",
+            "label": "慢1.5天"
+          },
+          {
+            "value": "C",
+            "label": "快2.5天"
+          },
+          {
+            "value": "D",
+            "label": "慢2.5天"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          54
+        ],
+        "printedPages": [
+          48
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-mother-01-p054.webp",
+            "alt": "工程问题 · 母题精讲1 · 讲义第48页",
+            "pdfPage": 54
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t01-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把原来的正常效率设为7份/天，原订单总量就是28×7＝196份。前19天做了133份，还剩63份。"
+        },
+        {
+          "type": "paragraph",
+          "text": "故障后的自动线效率为5份/天，临时线为1份/天，合起来6份/天。剩余任务要63÷6＝10.5天，共19＋10.5＝29.5天。"
+        },
+        {
+          "type": "paragraph",
+          "text": "比原定28天慢1.5天，选B。注意临时线的1/7也是对正常效率而言。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "分段工程先扣已做工作量，再用变化后的合效率算剩余时间。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          54
+        ],
+        "printedPages": [
+          48
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-mother-01-p054.webp",
+            "alt": "工程问题 · 母题精讲1 · 讲义第48页",
+            "pdfPage": 54
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s05-t01-mother-02",
+        "type": "single",
+        "stem": "（26联考）某AI训练任务需完成X亿次浮点运算。若使用云服务器单独计算，A型需12小时，B型需15小时。实际先由A型工作3小时后，加入B型共同工作。但因任务负载变化，共同工作时效率均下降20%。问完成全部任务需多少小时？",
+        "options": [
+          {
+            "value": "A",
+            "label": "6.25"
+          },
+          {
+            "value": "B",
+            "label": "7.5"
+          },
+          {
+            "value": "C",
+            "label": "9.25"
+          },
+          {
+            "value": "D",
+            "label": "10.5"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          54
+        ],
+        "printedPages": [
+          48
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-mother-02-p054.webp",
+            "alt": "工程问题 · 母题精讲2 · 讲义第48页",
+            "pdfPage": 54
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t01-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把总运算量设为60份，A每小时5份、B每小时4份。A先做3小时完成15份，还剩45份。"
+        },
+        {
+          "type": "paragraph",
+          "text": "合作时两台都降效20%，合效率＝(5＋4)×80%＝7.2份/小时。合作需要45÷7.2＝6.25小时。"
+        },
+        {
+          "type": "paragraph",
+          "text": "问题问全部任务用时，要加上前面3小时，共9.25小时，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "合作阶段时间不是总时间，降效要作用于对应阶段的每台设备。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          54
+        ],
+        "printedPages": [
+          48
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-mother-02-p054.webp",
+            "alt": "工程问题 · 母题精讲2 · 讲义第48页",
+            "pdfPage": 54
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s05-t01-mother-03",
+        "type": "single",
+        "stem": "（26江苏）某团队共有5名成员，他们共同完成一项工作需要4天时间。从该团队选3人完成此项工作，最快的组合需要5天时间，最慢的组合需要10天时间。若从该团队选2人完成此项工作，则最慢的组合需要的时间是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "12天"
+          },
+          {
+            "value": "B",
+            "label": "15天"
+          },
+          {
+            "value": "C",
+            "label": "18天"
+          },
+          {
+            "value": "D",
+            "label": "20天"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          54
+        ],
+        "printedPages": [
+          48
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-mother-03-p054.webp",
+            "alt": "工程问题 · 母题精讲3 · 讲义第48页",
+            "pdfPage": 54
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t01-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把总工作量设为20份。5人合效率为20÷4＝5份/天，最快3人合效率为20÷5＝4份/天。"
+        },
+        {
+          "type": "paragraph",
+          "text": "最慢2人就是最快3人之外的另外2人，所以他们的合效率＝5－4＝1份/天。做完20份要20天，选D。"
+        },
+        {
+          "type": "paragraph",
+          "text": "最慢3人的10天不是这一步所需条件，不能把不同组合的时间直接相减。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "最快三人与最慢两人互为全体补集，应相减效率而非相减时间。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          54
+        ],
+        "printedPages": [
+          48
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-mother-03-p054.webp",
+            "alt": "工程问题 · 母题精讲3 · 讲义第48页",
+            "pdfPage": 54
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-mother-04-question",
+      "type": "question",
+      "title": "母题精讲 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s05-t01-mother-04",
+        "type": "single",
+        "stem": "（26联考）一项工程，先由甲、乙两个工程队共同工作3天再由甲队单独工作5天，此时完成了工程的一半，且甲队的工作量与乙队的工作量恰好相同。问甲队单独完成此工程需要多少天？",
+        "options": [
+          {
+            "value": "A",
+            "label": "10"
+          },
+          {
+            "value": "B",
+            "label": "24"
+          },
+          {
+            "value": "C",
+            "label": "32"
+          },
+          {
+            "value": "D",
+            "label": "40"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          55
+        ],
+        "printedPages": [
+          49
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-mother-04-p055.webp",
+            "alt": "工程问题 · 母题精讲4 · 讲义第49页",
+            "pdfPage": 55
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-mother-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t01-mother-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先统计实际工作天数：甲共做3＋5＝8天，乙做3天。两人完成的量一样，总共又只完成全部工程的一半，所以甲做了全工程的1/4。"
+        },
+        {
+          "type": "paragraph",
+          "text": "甲8天完成1/4，单独完成全部就要8×4＝32天，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先按实际参与时长认量；“两队工作量相同”比较的是效率乘时间。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          55
+        ],
+        "printedPages": [
+          49
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-mother-04-p055.webp",
+            "alt": "工程问题 · 母题精讲4 · 讲义第49页",
+            "pdfPage": 55
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-mother-05-question",
+      "type": "question",
+      "title": "母题精讲 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s05-t01-mother-05",
+        "type": "single",
+        "stem": "（26国考）甲和乙两个工厂共同生产5天，能生产w件产品。甲的效率是乙的m倍，如果甲效率提升50%，乙效率提升为原来的n倍，则3天就能生产w件产品。问m和n的关系为：",
+        "options": [
+          {
+            "value": "A",
+            "label": "m=3n-5"
+          },
+          {
+            "value": "B",
+            "label": "m=6n-10"
+          },
+          {
+            "value": "C",
+            "label": "m=5-3n"
+          },
+          {
+            "value": "D",
+            "label": "m=10-6n"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          55
+        ],
+        "printedPages": [
+          49
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-mother-05-p055.webp",
+            "alt": "工程问题 · 母题精讲5 · 讲义第49页",
+            "pdfPage": 55
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-mother-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t01-mother-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把乙原效率设为1，那么甲原效率是m。原先5天的工作量为5(m＋1)。"
+        },
+        {
+          "type": "paragraph",
+          "text": "提效后甲为1.5m，乙为n，同样工作量3天完成，所以5(m＋1)＝3(1.5m＋n)。"
+        },
+        {
+          "type": "paragraph",
+          "text": "整理5m＋5＝4.5m＋3n，得到m＝6n－10，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "“提升50%”是乘1.5，“提升为n倍”是乘n，别把两种表述混用。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          55
+        ],
+        "printedPages": [
+          49
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-mother-05-p055.webp",
+            "alt": "工程问题 · 母题精讲5 · 讲义第49页",
+            "pdfPage": 55
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s05-t01-practice-01",
+        "type": "single",
+        "stem": "（26山东事考）甲，乙两队分别负责两条农村通路改造提升工程，第一条道路长240米，由甲队单独施工可比乙队少用2天完成；第二条道路长360米。若两条道路两工程队同时开工同时完工，问甲队每天的施工量是多少米？",
+        "options": [
+          {
+            "value": "A",
+            "label": "30"
+          },
+          {
+            "value": "B",
+            "label": "40"
+          },
+          {
+            "value": "C",
+            "label": "50"
+          },
+          {
+            "value": "D",
+            "label": "60"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D",
+        "reviewNote": "原题未明确“分别负责”中工程队与两条路的对应，按甲较快并同时完工确定甲负责360米、乙负责240米。"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          55
+        ],
+        "printedPages": [
+          49
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-practice-01-p055.webp",
+            "alt": "工程问题 · 思维精练1 · 讲义第49页",
+            "pdfPage": 55
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t01-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看“甲单独修240米比乙少2天”，说明甲的效率更高。两队同时开工又同时完工，因此较快的甲应负责360米，乙负责240米，效率比为3∶2。"
+        },
+        {
+          "type": "paragraph",
+          "text": "设甲、乙每天分别施工3x、2x米。同修240米，乙比甲多用2天，所以240/(2x)－240/(3x)＝2，解得x＝20。甲每天施工3×20＝60米，选D。"
+        },
+        {
+          "type": "paragraph",
+          "text": "按这个对应检查：两条道路都需6天；若同修240米，甲4天、乙6天，确实相差2天。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先核对工程队与道路的对应关系；时间条件决定较快的甲应负责较长道路。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          55
+        ],
+        "printedPages": [
+          49
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-practice-01-p055.webp",
+            "alt": "工程问题 · 思维精练1 · 讲义第49页",
+            "pdfPage": 55
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s05-t01-practice-02",
+        "type": "single",
+        "stem": "（26浙江）甲、乙、丙三个车间同时分别加工120个零件。2小时后，甲车间还剩48个未加工，乙车间还剩12个未加工，丙车间已加工完20分钟。现有270个零件的新任务需要分配给三个车间，要求加工同时开始同时结束，那么丙车间比甲车间多分配多少个零件？",
+        "options": [
+          {
+            "value": "A",
+            "label": "30"
+          },
+          {
+            "value": "B",
+            "label": "60"
+          },
+          {
+            "value": "C",
+            "label": "90"
+          },
+          {
+            "value": "D",
+            "label": "120"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          56
+        ],
+        "printedPages": [
+          50
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-practice-02-p056.webp",
+            "alt": "工程问题 · 思维精练2 · 讲义第50页",
+            "pdfPage": 56
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t01-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们分别求效率：甲2小时加工120－48＝72个，每小时36个；乙每小时(120－12)÷2＝54个。丙提前20分钟完成，实际用了1小时40分钟，即5/3小时，每小时72个。"
+        },
+        {
+          "type": "paragraph",
+          "text": "同时开始、同时结束，分配任务应按效率比36∶54∶72＝2∶3∶4。270个对应9份，每份30个。"
+        },
+        {
+          "type": "paragraph",
+          "text": "丙比甲多(4－2)×30＝60个，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "相同工作时间，任务量之比等于效率之比；提前完成要从总观察时长中扣除。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          56
+        ],
+        "printedPages": [
+          50
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-practice-02-p056.webp",
+            "alt": "工程问题 · 思维精练2 · 讲义第50页",
+            "pdfPage": 56
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-practice-03-question",
+      "type": "question",
+      "title": "思维精练 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s05-t01-practice-03",
+        "type": "single",
+        "stem": "（26浙江事考）有一块草坪需要修剪。甲单独修剪，需15天完成；乙单独修剪，需30天完成；丙单独修剪，需12天完成。如果三人每人一天轮流修剪，最快多少天能完成？",
+        "options": [
+          {
+            "value": "A",
+            "label": "15"
+          },
+          {
+            "value": "B",
+            "label": "16"
+          },
+          {
+            "value": "C",
+            "label": "17"
+          },
+          {
+            "value": "D",
+            "label": "18"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          56
+        ],
+        "printedPages": [
+          50
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-practice-03-p056.webp",
+            "alt": "工程问题 · 思维精练3 · 讲义第50页",
+            "pdfPage": 56
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-practice-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t01-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把草坪总量设为60份，甲每天4份、乙2份、丙5份，每3天一个周期共11份。"
+        },
+        {
+          "type": "paragraph",
+          "text": "5个完整周期15天修55份，还剩5份。为了最快完成，把效率最高的丙排在每周期第一天，那么第16天刚好修完剩余5份。"
+        },
+        {
+          "type": "paragraph",
+          "text": "15天还没完成，16天可以达到，所以选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "轮流工作先算周期与余量，最后不足一周期时让高效率者先做并核验顺序。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          56
+        ],
+        "printedPages": [
+          50
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-practice-03-p056.webp",
+            "alt": "工程问题 · 思维精练3 · 讲义第50页",
+            "pdfPage": 56
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-practice-04-question",
+      "type": "question",
+      "title": "思维精练 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s05-t01-practice-04",
+        "type": "single",
+        "stem": "（26天津事考）现有一施工项目，如果由甲队先单独施工5天，再由乙队单独施工，共需要13天；如果由乙队先单独施工9天，再由甲、乙两队合作施工，共需要12天。如果该施工项目由甲、乙两队合作完成，则共需要多少天才能完成该项目？",
+        "options": [
+          {
+            "value": "A",
+            "label": "4"
+          },
+          {
+            "value": "B",
+            "label": "6"
+          },
+          {
+            "value": "C",
+            "label": "8"
+          },
+          {
+            "value": "D",
+            "label": "10"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          56
+        ],
+        "printedPages": [
+          50
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-practice-04-p056.webp",
+            "alt": "工程问题 · 思维精练4 · 讲义第50页",
+            "pdfPage": 56
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-practice-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t01-practice-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把甲、乙效率分别设a、b。第一种安排甲5天、乙8天，总量5a＋8b；第二种乙先9天再合作3天，总量3a＋12b。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两式相等得到2a＝4b，也就是甲效率为乙的2倍。设乙1、甲2，总量为5×2＋8＝18份。"
+        },
+        {
+          "type": "paragraph",
+          "text": "合作效率3份/天，需要18÷3＝6天，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先把总时间拆成各队真正工作的天数，再用相同总工程量联立。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          56
+        ],
+        "printedPages": [
+          50
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-practice-04-p056.webp",
+            "alt": "工程问题 · 思维精练4 · 讲义第50页",
+            "pdfPage": 56
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-practice-05-question",
+      "type": "question",
+      "title": "思维精练 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s05-t01-practice-05",
+        "type": "single",
+        "stem": "（26联考）某科技企业用a台智能机器人组装产品，原定20天完成。工作5天后，企业又增加了效率翻倍的b台新型机器人，最终提前4天完成。则a：b的范围是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "不足3"
+          },
+          {
+            "value": "B",
+            "label": "3~5"
+          },
+          {
+            "value": "C",
+            "label": "5~7"
+          },
+          {
+            "value": "D",
+            "label": "超过7"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          57
+        ],
+        "printedPages": [
+          51
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-practice-05-p057.webp",
+            "alt": "工程问题 · 思维精练5 · 讲义第51页",
+            "pdfPage": 57
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-practice-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t01-practice-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把每台旧机器人每天的效率设为1，则任务量为20a。先做5天完成5a，还剩15a。"
+        },
+        {
+          "type": "paragraph",
+          "text": "最终提前4天，实际共16天；加设备后还做了11天，合效率为a＋2b，所以11(a＋2b)＝15a。"
+        },
+        {
+          "type": "paragraph",
+          "text": "整理22b＝4a，a/b＝5.5，在5—7之间，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "提前天数先换实际总时间，新设备加入后再单独统计剩余工期。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          57
+        ],
+        "printedPages": [
+          51
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-practice-05-p057.webp",
+            "alt": "工程问题 · 思维精练5 · 讲义第51页",
+            "pdfPage": 57
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-practice-06-question",
+      "type": "question",
+      "title": "思维精练 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s05-t01-practice-06",
+        "type": "single",
+        "stem": "（26浙江事考）甲、乙工厂接到同样数量的零件生产任务。同时开始生产p 天后，甲生产的零件数量是乙的一半。此后甲提高生产效率，又过t天后两个工厂剩余任务量相同，且按照当前效率，甲、乙分别还需要t和2t天完成任务。问p 和t的关系为（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "p=2t"
+          },
+          {
+            "value": "B",
+            "label": "t=2p"
+          },
+          {
+            "value": "C",
+            "label": "p=3t"
+          },
+          {
+            "value": "D",
+            "label": "t=3p"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          57
+        ],
+        "printedPages": [
+          51
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-practice-06-p057.webp",
+            "alt": "工程问题 · 思维精练6 · 讲义第51页",
+            "pdfPage": 57
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t01-practice-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t01-practice-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把乙的效率设为1，则甲原效率为1/2。前p天，乙比甲多完成p/2份。"
+        },
+        {
+          "type": "paragraph",
+          "text": "再过t天，两厂剩余量相同。此时同一剩余量，甲需要t天、乙需要2t天，说明甲新效率为乙的2倍，也就是2。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这t天甲每天比乙多1份，正好追平之前p/2份的差，所以t＝p/2，即p＝2t，选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先用相同剩余量反推新效率比，再用追平的工作量差连接前后时间。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          57
+        ],
+        "printedPages": [
+          51
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t01-practice-06-p057.webp",
+            "alt": "工程问题 · 思维精练6 · 讲义第51页",
+            "pdfPage": 57
+          }
+        ]
+      }
+    }
+  ]
+}

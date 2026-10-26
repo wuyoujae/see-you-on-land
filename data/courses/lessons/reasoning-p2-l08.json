@@ -1,0 +1,117 @@
+{
+  "id": "reasoning-p2-l08",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-assumption",
+  "title": "必要条件：没有它，结论就走不下去",
+  "source": {
+    "startSeconds": 4977,
+    "endSeconds": 5095,
+    "timeLabel": "01:22:57—01:24:55",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p2-l08-knowledge-32eee00-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "必要条件：没有它，结论就走不下去",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们判断必要条件，不要只问“有它好不好”，要问“如果没有它，作者还能这样推出结论吗”。如果去掉它，整个推理就撑不住，那才是没它不行。"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-q026-question",
+      "type": "question",
+      "title": "必要条件：没有它，结论就走不下去",
+      "question": {
+        "id": "reasoning-q026",
+        "type": "single",
+        "stem": "研究者模拟火星条件种植齿肋赤藓，发现它在零下196度的速冻、细胞98%脱水之后还能存活。另外，它可作为建构生态系统的基石，开启初生演替，制造氧气，改变火星的生态环境，让其更宜居。因此，研究者认为齿肋赤藓是一种很有前途的外星环境先锋植物候选者，可以为在火星建立可持续的人类栖息地奠定基础。\n上述论证的成立须补充以下哪项作为前提：",
+        "options": [
+          {
+            "value": "A",
+            "label": "其他生物能在齿肋赤藓改造的火星环境下生存"
+          },
+          {
+            "value": "B",
+            "label": "目前人类仍然无法在地球上完全模拟火星环境"
+          },
+          {
+            "value": "C",
+            "label": "齿肋赤藓为超级抗逆植物创制和仿生新材料研发提供新思路"
+          },
+          {
+            "value": "D",
+            "label": "齿肋赤藓是目前为止发现的最适合在火星上生存的地球生物"
+          }
+        ],
+        "answer": "A"
+      },
+      "source": {
+        "startSeconds": 4977,
+        "endSeconds": 5095,
+        "timeLabel": "01:22:57—01:24:55",
+        "videoId": "7686460560006794547",
+        "videoTitle": "判断推理完整复盘"
+      }
+    },
+    {
+      "id": "reasoning-q026-explanation-68da94e-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先看结论，他要的不是“这个植物自己活得很好”，而是“这个植物可以为人类的可持续栖息地打基础”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "那中间是不是至少得满足一个条件：它改造以后的环境，得能让其他生物继续活下去呀。要不然只有它自己活着，怎么支撑后续生态系统和人类栖息地？"
+        },
+        {
+          "type": "paragraph",
+          "text": "A，其他生物能在改造后的环境里生存，这就是作者要借它建立后续生态系统的一个必要环节，保留。"
+        },
+        {
+          "type": "paragraph",
+          "text": "B，能不能完全模拟火星环境，说的是实验模拟的限制，没有补出建立栖息地需要的基础条件，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "C，仿生材料研发有新思路，说的是另一种应用价值，跟人类栖息地不是一个结论，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "D，“最适合”特别容易把人带走。但我们想一下，题干只说它“很有前途”，什么时候说它必须是第一名了？就算另一个植物比它更适合，它排第二、第三，只要仍然能发挥作用，也可以是有前途的候选者。所以“最适合”不是必须条件，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "而且就算它自己最能活，也不代表它改造后的环境能支持其他生物。这又是“自己生存”和“支撑生态系统”两个层次，不能混。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以这道题选A。"
+        }
+      ],
+      "questionId": "reasoning-q026"
+    },
+    {
+      "id": "reasoning-q026-explanation-68da94e-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "这类题就用一句话检查：把这个条件拿走，题干的结论还能不能靠现有论据成立？像D这样的“最好、唯一、最适合”，还要留心是不是比结论要求的强得太多了。"
+        }
+      ],
+      "questionId": "reasoning-q026"
+    }
+  ]
+}

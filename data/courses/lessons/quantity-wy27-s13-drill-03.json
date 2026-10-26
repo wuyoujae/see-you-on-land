@@ -1,0 +1,150 @@
+{
+  "id": "quantity-wy27-s13-drill-03",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s13",
+  "title": "实战精刷 · 第9题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      141
+    ],
+    "printedPages": [
+      135
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s13-t03-drill-09-question",
+      "type": "question",
+      "title": "实战精刷 · 第9题",
+      "question": {
+        "id": "quantity-wy27-s13-t03-drill-09",
+        "type": "single",
+        "stem": "（26河南事考）某投篮活动规则如下：每人均有3次投小球和1次投大球的机会，投小球或投大球进框均可得分，已知小王单次投进小球和大球的概率分别为1/3和1/4。若每次投球结果互不影响，则小王在该活动中得分的概率是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "7/9"
+          },
+          {
+            "value": "B",
+            "label": "5/9"
+          },
+          {
+            "value": "C",
+            "label": "1/3"
+          },
+          {
+            "value": "D",
+            "label": "2/9"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          141
+        ],
+        "printedPages": [
+          135
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-09-p141.webp",
+            "alt": "概率问题（二） · 实战精刷9 · 讲义第135页",
+            "pdfPage": 141
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-09-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s13-t03-drill-09",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们只要有任意一次进框就能得分，直接算4次全没进的反面。小球未进概率2/3，大球未进概率3/4。"
+        },
+        {
+          "type": "paragraph",
+          "text": "3次小球与1次大球都未进的概率为（2/3）³×3/4=2/9，所以至少得分的概率7/9。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=1-\\left(\\frac23\\right)^3\\frac34=\\frac79"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们选A。两种球的成功率不同，不能把4次都用同一个p。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          141
+        ],
+        "printedPages": [
+          135
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-09-p141.webp",
+            "alt": "概率问题（二） · 实战精刷9 · 讲义第135页",
+            "pdfPage": 141
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-09-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s13-t03-drill-09",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "不同类型独立尝试至少成功一次，仍可乘各自失败率后取反。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          141
+        ],
+        "printedPages": [
+          135
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-09-p141.webp",
+            "alt": "概率问题（二） · 实战精刷9 · 讲义第135页",
+            "pdfPage": 141
+          }
+        ]
+      }
+    }
+  ]
+}

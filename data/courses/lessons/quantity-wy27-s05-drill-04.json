@@ -1,0 +1,215 @@
+{
+  "id": "quantity-wy27-s05-drill-04",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s05",
+  "title": "实战精刷 · 13—14题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      62
+    ],
+    "printedPages": [
+      56
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s05-t02-drill-13-question",
+      "type": "question",
+      "title": "实战精刷 · 第13题",
+      "question": {
+        "id": "quantity-wy27-s05-t02-drill-13",
+        "type": "single",
+        "stem": "（24全国事考）甲，乙施工队共同修一条全长20千米的路。合作施工25天后乙队被调走，剩下部分甲队又用了25天正好完成。已知乙队的效率是甲队的2倍，问甲、乙两队合作每天可以修多少米路？",
+        "options": [
+          {
+            "value": "A",
+            "label": "400"
+          },
+          {
+            "value": "B",
+            "label": "600"
+          },
+          {
+            "value": "C",
+            "label": "800"
+          },
+          {
+            "value": "D",
+            "label": "1200"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          62
+        ],
+        "printedPages": [
+          56
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-13-p062.webp",
+            "alt": "工程问题 · 实战精刷13 · 讲义第56页",
+            "pdfPage": 62
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-13-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t02-drill-13",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设甲每天修x米，乙就是2x米。合作25天做75x米，甲又单独25天做25x米，总量100x＝20000米。"
+        },
+        {
+          "type": "paragraph",
+          "text": "得到甲每天200米，乙每天400米，合作每天600米，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "公里先统一成米，再把各阶段工作量相加。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          62
+        ],
+        "printedPages": [
+          56
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-13-p062.webp",
+            "alt": "工程问题 · 实战精刷13 · 讲义第56页",
+            "pdfPage": 62
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-14-question",
+      "type": "question",
+      "title": "实战精刷 · 第14题",
+      "question": {
+        "id": "quantity-wy27-s05-t02-drill-14",
+        "type": "single",
+        "stem": "（25浙江）一项任务，甲、乙分别单独完成的天数之和是合作完成天数的4.5倍。任务开始后，甲、乙先合作12天，乙再单独工作12天，恰好完成。已知甲的效率比乙高，那么甲单独完成这项任务需要多少天?",
+        "options": [
+          {
+            "value": "A",
+            "label": "24"
+          },
+          {
+            "value": "B",
+            "label": "30"
+          },
+          {
+            "value": "C",
+            "label": "48"
+          },
+          {
+            "value": "D",
+            "label": "60"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          62
+        ],
+        "printedPages": [
+          56
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-14-p062.webp",
+            "alt": "工程问题 · 实战精刷14 · 讲义第56页",
+            "pdfPage": 62
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-14-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t02-drill-14",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设甲效率是乙的r倍，r＞1。设乙效率1、甲r，同一总量为W，则单独工时之和W/r＋W，合作工时W/(r＋1)。"
+        },
+        {
+          "type": "paragraph",
+          "text": "按题意(W/r＋W)＝4.5W/(r＋1)，约去W整理为2r²－5r＋2＝0，得到r＝2或1/2；甲较快，所以r＝2。"
+        },
+        {
+          "type": "paragraph",
+          "text": "甲2、乙1，先合作12天再乙单独12天，任务量＝3×12＋1×12＝48份。甲单独需48÷2＝24天，选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "单独工时和与合作工时的比先化为效率比，再用实际施工安排求总量。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          62
+        ],
+        "printedPages": [
+          56
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-14-p062.webp",
+            "alt": "工程问题 · 实战精刷14 · 讲义第56页",
+            "pdfPage": 62
+          }
+        ]
+      }
+    }
+  ]
+}

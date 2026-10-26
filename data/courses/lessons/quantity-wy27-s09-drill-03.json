@@ -1,0 +1,221 @@
+{
+  "id": "quantity-wy27-s09-drill-03",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s09",
+  "title": "实战精刷 · 9—10题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      97,
+      98
+    ],
+    "printedPages": [
+      91,
+      92
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s09-t03-drill-09-question",
+      "type": "question",
+      "title": "实战精刷 · 第9题",
+      "question": {
+        "id": "quantity-wy27-s09-t03-drill-09",
+        "type": "single",
+        "stem": "（24国考）某高校外国语学院中，会俄语的学生都会英语，其中一半还会法语；会英语的学生中有一半会法语；这三种语言都会的学生有50人，只会其中两种语言的有100人，只会其中一种语言的有150人。问会法语的学生有多少人？",
+        "options": [
+          {
+            "value": "A",
+            "label": "50"
+          },
+          {
+            "value": "B",
+            "label": "100"
+          },
+          {
+            "value": "C",
+            "label": "150"
+          },
+          {
+            "value": "D",
+            "label": "200"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          97
+        ],
+        "printedPages": [
+          91
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-09-p097.webp",
+            "alt": "容斥问题 · 实战精刷9 · 讲义第91页",
+            "pdfPage": 97
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t03-drill-09-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t03-drill-09",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看包含关系：会俄语的一定会英语，所以不存在只俄语，也不存在“俄语＋法语但不会英语”。三种都会50人，又占会俄语者的一半，所以会俄语100人，其中只俄语和英语的有50人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "只会两种总共100人，扣掉刚才这50人，只会英语和法语的有50人。于是会英语且会法语的有50＋50＝100人，恰好占会英语者的一半，所以会英语200人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "只会英语有200−50−50−50＝50人。只会一种总共150人，扣掉只英语50人，其余只法语100人。因此会法语的总人数是只法语100＋只英法50＋三种都会50＝200人，我们选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "出现“都会某种”时先画包含关系，消掉不可能区域再算。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          97
+        ],
+        "printedPages": [
+          91
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-09-p097.webp",
+            "alt": "容斥问题 · 实战精刷9 · 讲义第91页",
+            "pdfPage": 97
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t03-drill-10-question",
+      "type": "question",
+      "title": "实战精刷 · 第10题",
+      "question": {
+        "id": "quantity-wy27-s09-t03-drill-10",
+        "type": "single",
+        "stem": "（26联考）某学龄前儿童艺术培训学校现有儿童100人，共有舞蹈、美术、声乐、书法4个兴趣班，参加人数比为4：3：2：1，只参加2个培训班的人数是40人，只参加3个培训班的人数和参加全部培训班的人数一样多。参加声乐培训班的人数比参加舞蹈培训班的人数少40人，问只参加一个培训班的有多少人？",
+        "options": [
+          {
+            "value": "A",
+            "label": "36"
+          },
+          {
+            "value": "B",
+            "label": "40"
+          },
+          {
+            "value": "C",
+            "label": "52"
+          },
+          {
+            "value": "D",
+            "label": "60"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          98
+        ],
+        "printedPages": [
+          92
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-10-p098.webp",
+            "alt": "容斥问题 · 实战精刷10 · 讲义第92页",
+            "pdfPage": 98
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t03-drill-10-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t03-drill-10",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先用舞蹈与声乐的比例差定份数：4份比2份多40人，所以1份＝20人，四个班总报名人次为(4＋3＋2＋1)×20＝200。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设只参加3个班、参加全部4个班的人数都为x，只参加1个班的人数为y。按儿童人数有y＋40＋x＋x＝100；按报名人次有y＋2×40＋3x＋4x＝200。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第二式减第一式得40＋5x＝100，x＝12，再得y＝100−40−24＝36人。所以我们选A。这里200是报名人次，100才是不同儿童人数，不能混成同一个量。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "多集合不必硬画四圆：分别按“人”和“报名人次”计数，利用每类人的重数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          98
+        ],
+        "printedPages": [
+          92
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-10-p098.webp",
+            "alt": "容斥问题 · 实战精刷10 · 讲义第92页",
+            "pdfPage": 98
+          }
+        ]
+      }
+    }
+  ]
+}

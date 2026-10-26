@@ -1,0 +1,175 @@
+{
+  "id": "analysis-p2-l13",
+  "subjectId": "analysis",
+  "groupId": "analysis-annual",
+  "title": "格尺法：先背几个锚点，再在小区间里定位",
+  "source": {
+    "startSeconds": 4298,
+    "endSeconds": 4460,
+    "timeLabel": "01:11:38—01:14:20",
+    "videoId": "7668729047387524358",
+    "videoTitle": "资料分析完整复盘"
+  },
+  "cards": [
+    {
+      "id": "analysis-p2-l13-method-anchors",
+      "type": "text",
+      "role": "method",
+      "title": "我们先记住这些锚点",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "现在选项贴得近，不像刚才10%、20%、30%、40%隔那么开。如果每一个选项都完整算四次方，就比较麻烦。格尺法先准备几个容易记的锚点："
+        },
+        {
+          "type": "table",
+          "headers": [
+            "年均增长率",
+            "四年后的倍数，约值"
+          ],
+          "rows": [
+            [
+              "5%",
+              "1.05⁴≈1.22"
+            ],
+            [
+              "10%",
+              "1.10⁴≈1.46"
+            ],
+            [
+              "15%",
+              "1.15⁴≈1.75"
+            ],
+            [
+              "20%",
+              "1.20⁴≈2.07"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analysis-q004-question",
+      "type": "question",
+      "title": "年均增长率的格尺定位",
+      "question": {
+        "id": "analysis-q004",
+        "type": "single",
+        "stem": "我们接着看：2019年南瓜产量130吨，2023年196吨，求2019—2023年的年均增长率。",
+        "options": [
+          {
+            "value": "A",
+            "label": "10.9%"
+          },
+          {
+            "value": "B",
+            "label": "10.4%"
+          },
+          {
+            "value": "C",
+            "label": "9.9%"
+          },
+          {
+            "value": "D",
+            "label": "8.9%"
+          }
+        ],
+        "answer": "A",
+        "stemBlocks": [
+          {
+            "type": "table",
+            "headers": [
+              "年均增长率",
+              "四年后的倍数，约值"
+            ],
+            "rows": [
+              [
+                "5%",
+                "1.05⁴≈1.22"
+              ],
+              [
+                "10%",
+                "1.10⁴≈1.46"
+              ],
+              [
+                "15%",
+                "1.15⁴≈1.75"
+              ],
+              [
+                "20%",
+                "1.20⁴≈2.07"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "我们接着看：2019年南瓜产量130吨，2023年196吨，求2019—2023年的年均增长率。"
+          }
+        ]
+      },
+      "source": {
+        "startSeconds": 4298,
+        "endSeconds": 4460,
+        "timeLabel": "01:11:38—01:14:20",
+        "videoId": "7668729047387524358",
+        "videoTitle": "资料分析完整复盘"
+      }
+    },
+    {
+      "id": "analysis-q004-explanation-2f1a567-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "还是先套公式。年份差4，末基比196/130。我们把196拆成130＋65＋1，前两部分就是130的1.5倍，还多1，所以这个比值是1.5多一点。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{196}{130}\\approx1.5077=(1+r)^4"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们现在算出的是1.5077，夹在1.46和1.75之间，所以年均增长率应该在10%和15%之间。C的9.9%、D的8.9%先排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "接着我们画一条线段，左边10%对应1.46，右边15%对应1.75，中间分5格，每格就是增长率1个百分点。"
+        },
+        {
+          "type": "paragraph",
+          "text": "倍数这一边每格多多少？(1.75−1.46)/5≈0.06。所以沿着格子走，10%对应1.46，11%大约对应1.52，12%大约对应1.58，后面以此类推。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们要的1.5077，已经很接近11%那一格，而不是只走了0.4格的位置。所以10.9%比10.4%合适，B排除，选A。"
+        }
+      ],
+      "questionId": "analysis-q004"
+    },
+    {
+      "id": "analysis-q004-explanation-2f1a567-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们把这些锚点和格子间距记熟以后，就可以直接反应出来，不需要每次都从头乘。这里是在局部区间作近似定位，并不是四次方本来就是一条直线。复算这道题，r约10.81%，确实更接近A的10.9%。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这就是格尺法的顺序：先算末基比→用已知倍数确定大区间→排掉区间外选项→在小区间分格，看目标更贴近哪一档。"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/courses/analysis-annual-grid-board.jpg",
+          "alt": "年均增长率格尺法原板书，含10%与15%锚点及分格定位",
+          "caption": "格尺法原板书，点击放大。"
+        }
+      ],
+      "questionId": "analysis-q004"
+    }
+  ]
+}

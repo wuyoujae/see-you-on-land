@@ -1,0 +1,95 @@
+{
+  "id": "reasoning-p1-l02",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-causal",
+  "title": "归因论证：这个结果，真的是这个原因造成的吗",
+  "source": {
+    "startSeconds": 27,
+    "endSeconds": 183,
+    "timeLabel": "00:00:27—00:03:03",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p1-l02-knowledge-8003af9-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "归因论证：这个结果，真的是这个原因造成的吗 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "归因论证就是：我们看到了一个结果，然后我们说，这个结果是某个原因造成的。"
+        },
+        {
+          "type": "paragraph",
+          "text": "比如，我们暑假回来，发现朋友变胖了。他说：“我就是因为熬夜，所以变胖了。”"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先写清楚：熬夜 → 变胖。"
+        },
+        {
+          "type": "paragraph",
+          "text": "那我们要削弱他，可以从三个方向想。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（1）另有他因"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们可以反问朋友：“你哪是因为熬夜呀，你在家吃得那么多，吃完又一直躺着，动都不动，你不胖谁胖？”"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们找出了另外一个原因：吃得多、动得少 → 变胖。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这个就是另有他因。它不一定直接证明熬夜没有作用，而是告诉我们：变胖还有别的解释，不能看见变胖，就把原因全算到熬夜头上。别的原因越能解释这次变化，对原来归因的影响就越大。"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-p1-l02-knowledge-8003af9-02",
+      "type": "text",
+      "role": "knowledge",
+      "title": "归因论证：这个结果，真的是这个原因造成的吗 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "（2）因果倒置"
+        },
+        {
+          "type": "paragraph",
+          "text": "原来说的是：熬夜 → 变胖。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们反过来解释：会不会是先变胖，再因为身体状态的变化出现睡眠问题？也就是：变胖 → 熬夜。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这个就是把原因和结果倒过来了。注意，这里只是拿这个例子理解逻辑，具体的健康因果不能靠这个例子直接下结论。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（3）否定此因"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们直接说：“你现在这个变胖，就不是熬夜造成的。”"
+        },
+        {
+          "type": "paragraph",
+          "text": "它的重点是把“熬夜造成变胖”这条关系否定掉。我们不一定非要找出真正原因，先说明原来这个原因解释不了结果，也能削弱。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以碰到“因为 A，所以 B”，我们脑子里先过一遍：会不会是别的原因造成 B？会不会其实是 B 造成 A？A 到底能不能造成 B？这就是后面找答案的方向。"
+        }
+      ]
+    }
+  ]
+}

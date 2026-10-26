@@ -1,0 +1,421 @@
+{
+  "id": "quantity-wy27-s03-drill-02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s03",
+  "title": "实战精刷 · 5—8题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      37,
+      38
+    ],
+    "printedPages": [
+      31,
+      32
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s03-t03-drill-05-question",
+      "type": "question",
+      "title": "实战精刷 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s03-t03-drill-05",
+        "type": "single",
+        "stem": "（21国考）商业街物业管理处采购了一批消毒液发放给街内的复工商户，如果每个商户分6瓶，最后剩余12瓶。如果多采购30%，则在给每个商户分8瓶后还能剩余10瓶。如果多采购80%，复工商户数量增加10家，且每个商户分到的数量相同，问每个商户最多可以分多少瓶？",
+        "options": [
+          {
+            "value": "A",
+            "label": "8"
+          },
+          {
+            "value": "B",
+            "label": "9"
+          },
+          {
+            "value": "C",
+            "label": "10"
+          },
+          {
+            "value": "D",
+            "label": "12"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          37
+        ],
+        "printedPages": [
+          31
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-05-p037.webp",
+            "alt": "和差倍比问题（三） · 实战精刷5 · 讲义第31页",
+            "pdfPage": 37
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t03-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设原商户n家、消毒液G瓶。原方案G=6n+12；多采购30%后1.3G=8n+10。"
+        },
+        {
+          "type": "formula",
+          "latex": "1.3(6n+12)=8n+10\\Rightarrow n=28,\\quad G=180"
+        },
+        {
+          "type": "paragraph",
+          "text": "多采购80%后共有324瓶，商户增加到38家。每家最多分⌊324/38⌋=8瓶，剩20瓶；若每家9瓶需342瓶，超过总量。所以选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先由两个旧方案确定实际总量，新方案再按人数作整数向下取整。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          37
+        ],
+        "printedPages": [
+          31
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-05-p037.webp",
+            "alt": "和差倍比问题（三） · 实战精刷5 · 讲义第31页",
+            "pdfPage": 37
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-06-question",
+      "type": "question",
+      "title": "实战精刷 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s03-t03-drill-06",
+        "type": "single",
+        "stem": "（26四川）一批志愿者向灾区背运一批物资。如果每人背20千克，则余下100千克物资；如果每人多背4千克，则还能比原计划多背运5%的物资。问如在原计划基础上增加400千克物资且每人背25千克，至少还需要增加多少名志愿者？",
+        "options": [
+          {
+            "value": "A",
+            "label": "9"
+          },
+          {
+            "value": "B",
+            "label": "11"
+          },
+          {
+            "value": "C",
+            "label": "13"
+          },
+          {
+            "value": "D",
+            "label": "15"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          37
+        ],
+        "printedPages": [
+          31
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-06-p037.webp",
+            "alt": "和差倍比问题（三） · 实战精刷6 · 讲义第31页",
+            "pdfPage": 37
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t03-drill-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设原志愿者n人、原物资W千克。每人20千克还剩100，W=20n+100；每人24千克则能运原物资的105%。"
+        },
+        {
+          "type": "formula",
+          "latex": "24n=1.05(20n+100)\\Rightarrow n=35,\\quad W=800"
+        },
+        {
+          "type": "paragraph",
+          "text": "新增400千克后要运1200千克，每人25千克，至少1200/25=48人，因此还需增加48-35=13人，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "多运百分比的基准是原物资总量，先求原方案再比较新旧人数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          37
+        ],
+        "printedPages": [
+          31
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-06-p037.webp",
+            "alt": "和差倍比问题（三） · 实战精刷6 · 讲义第31页",
+            "pdfPage": 37
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-07-question",
+      "type": "question",
+      "title": "实战精刷 · 第7题",
+      "question": {
+        "id": "quantity-wy27-s03-t03-drill-07",
+        "type": "single",
+        "stem": "（25天津）某旅行团有游客15人，租用6辆车外出旅行，每辆车乘坐游客最多4人。已知每辆车至少乘坐1名游客，问乘坐2名游客的车辆至多有几辆？",
+        "options": [
+          {
+            "value": "A",
+            "label": "1"
+          },
+          {
+            "value": "B",
+            "label": "2"
+          },
+          {
+            "value": "C",
+            "label": "3"
+          },
+          {
+            "value": "D",
+            "label": "4"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          38
+        ],
+        "printedPages": [
+          32
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-07-p038.webp",
+            "alt": "和差倍比问题（三） · 实战精刷7 · 讲义第32页",
+            "pdfPage": 38
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-07-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t03-drill-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设有k辆车坐2人，则这些车载2k人，其余6-k辆最多各坐4人。要载完15人，必须2k+4(6-k)≥15。"
+        },
+        {
+          "type": "formula",
+          "latex": "24-2k\\ge15\\Rightarrow k\\le4"
+        },
+        {
+          "type": "paragraph",
+          "text": "取4辆各2人，剩下2辆分别坐3人、4人，正好15人，且每辆1至4人，能够达到，所以最多4辆，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "最大化某类车辆时，用其余车辆的容量上限作约束，并检查实际分配。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          38
+        ],
+        "printedPages": [
+          32
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-07-p038.webp",
+            "alt": "和差倍比问题（三） · 实战精刷7 · 讲义第32页",
+            "pdfPage": 38
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-08-question",
+      "type": "question",
+      "title": "实战精刷 · 第8题",
+      "question": {
+        "id": "quantity-wy27-s03-t03-drill-08",
+        "type": "single",
+        "stem": "（26天津）小陈连续6天看一本书，每天看整数页，且每天看的页数都比上一天多。已知前3天看的页数正好是连续的自然数，第6天看的页数等于第4、5天之和，第5天的页数等于第1、2、3天之和。若6天一共看了100页，则第4天看了多少页？",
+        "options": [
+          {
+            "value": "A",
+            "label": "14"
+          },
+          {
+            "value": "B",
+            "label": "15"
+          },
+          {
+            "value": "C",
+            "label": "16"
+          },
+          {
+            "value": "D",
+            "label": "17"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          38
+        ],
+        "printedPages": [
+          32
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-08-p038.webp",
+            "alt": "和差倍比问题（三） · 实战精刷8 · 讲义第32页",
+            "pdfPage": 38
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-08-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t03-drill-08",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设前3天为a、a+1、a+2页，第4天b页。第5天为3a+3，第6天为b+3a+3，总数100页。"
+        },
+        {
+          "type": "formula",
+          "latex": "9a+2b+9=100\\Rightarrow b=\\frac{91-9a}{2}"
+        },
+        {
+          "type": "paragraph",
+          "text": "严格递增还要求a+2<b<3a+3。代入得85/15<a<87/11，所以a只能6或7；又91-9a必须为偶数，a只能奇数，故a=7、b=14。核验7、8、9、14、24、38，总和100且严格递增，选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "连续整数与严格递增能补足方程之外的范围、奇偶条件。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          38
+        ],
+        "printedPages": [
+          32
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-08-p038.webp",
+            "alt": "和差倍比问题（三） · 实战精刷8 · 讲义第32页",
+            "pdfPage": 38
+          }
+        ]
+      }
+    }
+  ]
+}

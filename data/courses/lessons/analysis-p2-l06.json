@@ -1,0 +1,39 @@
+{
+  "id": "analysis-p2-l06",
+  "subjectId": "analysis",
+  "groupId": "analysis-average",
+  "title": "平均数的基础：先把分母找对",
+  "source": {
+    "startSeconds": 3435,
+    "endSeconds": 3485,
+    "timeLabel": "00:57:15—00:58:05",
+    "videoId": "7668729047387524358",
+    "videoTitle": "资料分析完整复盘"
+  },
+  "cards": [
+    {
+      "id": "analysis-p2-l06-knowledge-5d87c7d-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "平均数的基础：先把分母找对",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "平均数最基本的就是总量除以份数。我们先写成A＝B/C。接着注意，遇到分数再除以分数，外面两项相乘，除以里面两项相乘。"
+        },
+        {
+          "type": "formula",
+          "latex": "平均数=\\frac{总量}{份数}"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{A/B}{C/D}=\\frac{AD}{BC}"
+        },
+        {
+          "type": "paragraph",
+          "text": "如果总找错分母，就记“均前每后作分母”。像“人均”，均前面的人作分母；“每人”，每后面的人作分母。不要被题干一堆总量绕进去，先想清楚到底是平均到谁身上。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "language-p1-l04",
+  "subjectId": "language",
+  "groupId": "language-argumentative",
+  "title": "前对策结构：先把观点亮出来，后面都是在解释它",
+  "source": {
+    "startSeconds": 475,
+    "endSeconds": 576,
+    "timeLabel": "00:07:55—00:09:36",
+    "videoId": "7677994152398834998",
+    "videoTitle": "言语理解完整复盘"
+  },
+  "cards": [
+    {
+      "id": "language-p1-l04-knowledge-e0482d7-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "前对策结构：先把观点亮出来，后面都是在解释它",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "前对策和后对策顺序反过来：先告诉我们怎么办、先提出一个观点，再解释、论证为什么这样做。结尾可以再回扣，也可以不重复。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们的重点还是那个统领全文的观点，不能因为后面某个细节说得多，就把论证细节当成中心。"
+        }
+      ]
+    },
+    {
+      "id": "language-q003-question",
+      "type": "question",
+      "title": "现代都市如何规避高温",
+      "question": {
+        "id": "language-q003",
+        "type": "single",
+        "stem": "中国气候类型多样，拥有丰富的高温生存经验。现代都市应从中国传统的建筑设计与生活方式中学习如何规避高温，如街道设计尽可能保留“骑楼街”这类遮风避雨建筑元素；对于高温高湿地区来说，遮阴、通风比单纯的环境绿化更重要。此外，通过洒水给街道降温应考虑空气热容量的影响，一般不宜在白天进行。\n上述文段的主旨是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "高温地区适宜采用遮阴、通风的建筑"
+          },
+          {
+            "value": "B",
+            "label": "规避高温是城市规划主要考虑的方面"
+          },
+          {
+            "value": "C",
+            "label": "现代都市应向传统借鉴高温适应经验"
+          },
+          {
+            "value": "D",
+            "label": "应对高温应综合考虑气候和生活方式"
+          }
+        ],
+        "answer": "C"
+      },
+      "source": {
+        "startSeconds": 500,
+        "endSeconds": 576,
+        "timeLabel": "00:08:20—00:09:36",
+        "videoId": "7677994152398834998",
+        "videoTitle": "言语理解完整复盘",
+        "examLabel": "【视频 00:08:20—00:09:36；2025 年广东省考】"
+      }
+    },
+    {
+      "id": "language-q003-explanation-4c4c3cd-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先找“应”字后面的做法：“现代都市应从中国传统的建筑设计与生活方式中学习如何规避高温”。这句已经把主体、办法、目的说清楚了。"
+        },
+        {
+          "type": "paragraph",
+          "text": "后面的骑楼、遮阴通风、洒水时间，都是在举例说明能借鉴什么经验。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A，遮阴通风确实出现了，但只是其中一个具体例子，而且没有体现“向传统借鉴”这个核心关系，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "B，说规避高温是城市规划主要考虑的方面，原文没有比较城市规划各方面谁最主要，也没接住向传统学习，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "C，现代都市向传统借鉴高温适应经验，就是前面对策句的同义替换，保留。"
+        },
+        {
+          "type": "paragraph",
+          "text": "D，气候、生活方式看着都在原文出现过，但它改成了综合考虑这些因素，把论证材料重新拼了一个意思，没有 C 直接对应主观点，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以这道题选 C。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们要分清：论点在提出什么，论证在拿什么证明它。不是把原文几个词都放进选项，就自动成了主旨。"
+        }
+      ],
+      "questionId": "language-q003"
+    }
+  ]
+}

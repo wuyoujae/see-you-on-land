@@ -1,0 +1,422 @@
+{
+  "id": "quantity-wy27-s04-drill-03",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s04",
+  "title": "实战精刷 · 9—12题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      50,
+      51
+    ],
+    "printedPages": [
+      44,
+      45
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s04-t03-drill-09-question",
+      "type": "question",
+      "title": "实战精刷 · 第9题",
+      "question": {
+        "id": "quantity-wy27-s04-t03-drill-09",
+        "type": "single",
+        "stem": "（25江苏）用若干玫瑰花制作玫瑰花束，若每束8枝余3枝，9枝余5枝，如果将这些玫瑰花全部用完，制成数量各不相同的3束玫瑰花，那么数量最多的那一束至少有玫瑰花（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "18枝"
+          },
+          {
+            "value": "B",
+            "label": "20枝"
+          },
+          {
+            "value": "C",
+            "label": "21枝"
+          },
+          {
+            "value": "D",
+            "label": "23枝"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          50
+        ],
+        "printedPages": [
+          44
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-09-p050.webp",
+            "alt": "等差数列与和定最值 · 实战精刷9 · 讲义第44页",
+            "pdfPage": 50
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-09-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t03-drill-09",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先求玫瑰花总数N：N除以8余3，除以9余5。依次看3、11、19、27、35、43、51、59，最小同时满足的是59，以后每次加72。"
+        },
+        {
+          "type": "paragraph",
+          "text": "要让最多一束尽量少，先用最小总数59。设最多m枝，另外两束因为数量各不相同，最多m－1、m－2枝，所以59≤3m－3，得到m≥21。"
+        },
+        {
+          "type": "paragraph",
+          "text": "18、20、21三束正好59枝，最大21能达到，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先用余数条件找最小可行总量，再用不同整数构造最多一束的下界。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          50
+        ],
+        "printedPages": [
+          44
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-09-p050.webp",
+            "alt": "等差数列与和定最值 · 实战精刷9 · 讲义第44页",
+            "pdfPage": 50
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-10-question",
+      "type": "question",
+      "title": "实战精刷 · 第10题",
+      "question": {
+        "id": "quantity-wy27-s04-t03-drill-10",
+        "type": "single",
+        "stem": "（23浙江事考）商场某销售人员每月销售电视的台数都不相同，2022年下半年他共销售电视150台，已知2022年他的销售量逐月递增，12月的销售量是7月的2倍，那么他8月的销售量最少可能是多少台？",
+        "options": [
+          {
+            "value": "A",
+            "label": "16"
+          },
+          {
+            "value": "B",
+            "label": "17"
+          },
+          {
+            "value": "C",
+            "label": "18"
+          },
+          {
+            "value": "D",
+            "label": "19"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          51
+        ],
+        "printedPages": [
+          45
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-10-p051.webp",
+            "alt": "等差数列与和定最值 · 实战精刷10 · 讲义第45页",
+            "pdfPage": 51
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-10-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t03-drill-10",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设7月x台、8月y台，则12月为2x台。为了让8月尽可能少，把9、10、11月尽量放大为2x－3、2x－2、2x－1。"
+        },
+        {
+          "type": "paragraph",
+          "text": "下半年总量最多x＋y＋(2x－3)＋(2x－2)＋(2x－1)＋2x＝9x＋y－6。又因为7月比8月少，x≤y－1，于是150≤10y－15，得y≥17。"
+        },
+        {
+          "type": "paragraph",
+          "text": "16、17、27、28、30、32这组月销量严格递增，总和150，12月恰为7月两倍。因此8月至少17台，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "求某月最小量，先把其他月份推到允许的最大，再给出可行数列。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          51
+        ],
+        "printedPages": [
+          45
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-10-p051.webp",
+            "alt": "等差数列与和定最值 · 实战精刷10 · 讲义第45页",
+            "pdfPage": 51
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-11-question",
+      "type": "question",
+      "title": "实战精刷 · 第11题",
+      "question": {
+        "id": "quantity-wy27-s04-t03-drill-11",
+        "type": "single",
+        "stem": "（25江苏）某场国际跳水比赛设有7名裁判，分别给运动员每一跳打分，所打分数均为0.5的整数倍，且最低为0分，最高为10分。运动员每一跳得分的具体计算规则为：去掉两个最高分和两个最低分，剩下的3个分数之和乘以难度系数即为这一跳的得分。若某运动员第一跳的难度系数为3.0，得分为66分，则7名裁判给这名运动员第一跳打分的平均数最多为（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "7.5分"
+          },
+          {
+            "value": "B",
+            "label": "7.8分"
+          },
+          {
+            "value": "C",
+            "label": "8.0分"
+          },
+          {
+            "value": "D",
+            "label": "8.2分"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          51
+        ],
+        "printedPages": [
+          45
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-11-p051.webp",
+            "alt": "等差数列与和定最值 · 实战精刷11 · 讲义第45页",
+            "pdfPage": 51
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-11-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t03-drill-11",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先算保留下来的三项之和：66÷3＝22分。把七个分数从低到高排列，保留第3、4、5个，第3个最多是22÷3；又因为分数为0.5的整数倍，所以第3个最多7分。"
+        },
+        {
+          "type": "paragraph",
+          "text": "前两个最低分都不能超过第3个，合计最多14分；最后两个最高分各最多10分，合计最多20分。因此7人总分最多14＋22＋20＝56，平均最多8分。"
+        },
+        {
+          "type": "paragraph",
+          "text": "7、7、7、7、8、10、10确实满足规则，保留三项和22，所以选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先还原保留分数之和，再利用顺序、步长与满分限制给被去掉的分数取上界。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          51
+        ],
+        "printedPages": [
+          45
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-11-p051.webp",
+            "alt": "等差数列与和定最值 · 实战精刷11 · 讲义第45页",
+            "pdfPage": 51
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-12-question",
+      "type": "question",
+      "title": "实战精刷 · 第12题",
+      "question": {
+        "id": "quantity-wy27-s04-t03-drill-12",
+        "type": "single",
+        "stem": "（26浙江）某旅行团有10位游客，平均年龄为35岁，且年龄各不相同。已知他们当中最大者比最小者大25岁，那么年龄最小的3人年龄之和最大可能为多少岁？",
+        "options": [
+          {
+            "value": "A",
+            "label": "87"
+          },
+          {
+            "value": "B",
+            "label": "88"
+          },
+          {
+            "value": "C",
+            "label": "89"
+          },
+          {
+            "value": "D",
+            "label": "90"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C",
+        "reviewNote": "89岁的最值依赖整数周岁条件，才能由年龄各不相同推出相邻至少差1岁。讲义未单独写出“年龄取整数”，解析已明示采用这一常规口径；不适用于任意连续年龄。"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          51
+        ],
+        "printedPages": [
+          45
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-12-p051.webp",
+            "alt": "等差数列与和定最值 · 实战精刷12 · 讲义第45页",
+            "pdfPage": 51
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-12-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t03-drill-12",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们按年龄题通常采用的整数周岁模型，把年龄从小到大记为a、b、c，前三人之和记T，最大者就是a＋25。其余第4—9人至少分别是c＋1至c＋6。"
+        },
+        {
+          "type": "paragraph",
+          "text": "如果T≥90，互不相同的整数年龄使c≥31；同时b≤c－1，所以a＝T－b－c≥T－2c＋1。全团总年龄至少T＋6c＋21＋a＋25≥2T＋4c＋47≥351，超过10×35＝350。因此T最多89。"
+        },
+        {
+          "type": "paragraph",
+          "text": "28、30、31、32、33、34、35、36、38、53这10个年龄总和350，最大最小差25，最小三人和89，可以达到，所以选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "最大最小有差值时把最大者也表示出来；用整数顺序给目标和建立上界，再构造达到它的分布。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          51
+        ],
+        "printedPages": [
+          45
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-12-p051.webp",
+            "alt": "等差数列与和定最值 · 实战精刷12 · 讲义第45页",
+            "pdfPage": 51
+          }
+        ]
+      }
+    }
+  ]
+}

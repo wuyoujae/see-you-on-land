@@ -1,0 +1,517 @@
+{
+  "id": "quantity-wy27-s12-drill-03",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s12",
+  "title": "实战精刷 · 9—12题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      131,
+      132
+    ],
+    "printedPages": [
+      125,
+      126
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s12-t02-drill-09-question",
+      "type": "question",
+      "title": "实战精刷 · 第9题",
+      "question": {
+        "id": "quantity-wy27-s12-t02-drill-09",
+        "type": "single",
+        "stem": "（21江苏）某次圆桌会议共设8个座位，有4个部门参加，每个部门2人，排座位时，要求同一部门的两人相邻，若小李和小王代表不同部门参加会议，则他们座位相邻的概率是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "1/48"
+          },
+          {
+            "value": "B",
+            "label": "1/24"
+          },
+          {
+            "value": "C",
+            "label": "1/12"
+          },
+          {
+            "value": "D",
+            "label": "1/12"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D",
+        "grading": "unverified",
+        "sourceIssue": "原页C、D均为1/12，严格计算为1/6，四个选项均不符；书后参考答案为D。",
+        "reviewNote": "已核PDF131原图，选项C和D确实同印1/12；独立圆排列计数得到1/6。"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          131
+        ],
+        "printedPages": [
+          125
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-09-p131.webp",
+            "alt": "概率问题（一） · 实战精刷9 · 讲义第125页",
+            "pdfPage": 131
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-09-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t02-drill-09",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D（本题条件待核，不计分）"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把每个部门的两个人捆成一块，一共4个部门块围成圆桌。固定小李所在部门，另一个指定部门在其左右相邻位置的概率是2/3。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两个部门块相邻之后，要让小李、小王正好处在两个块相接的边界，两个部门内部各只有一种朝向符合条件，概率为1/2×1/2=1/4。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac23\\times\\frac12\\times\\frac12=\\frac16"
+        },
+        {
+          "type": "paragraph",
+          "text": "因此严格结果为1/6。但当前原页C、D均印为1/12，四个选项没有1/6；书后参考标D，也不能据此把1/12说成正确。本题保留来源答案D供核对，条件与选项待核，不计分。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          131
+        ],
+        "printedPages": [
+          125
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-09-p131.webp",
+            "alt": "概率问题（一） · 实战精刷9 · 讲义第125页",
+            "pdfPage": 131
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-09-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t02-drill-09",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "捆绑块相邻还不等于指定个人相邻，必须继续核对块内朝向。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          131
+        ],
+        "printedPages": [
+          125
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-09-p131.webp",
+            "alt": "概率问题（一） · 实战精刷9 · 讲义第125页",
+            "pdfPage": 131
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-10-question",
+      "type": "question",
+      "title": "实战精刷 · 第10题",
+      "question": {
+        "id": "quantity-wy27-s12-t02-drill-10",
+        "type": "single",
+        "stem": "（19联考）某学校举行迎新篝火晚会，100名新生随机围坐在篝火四周。其中，小张与小李是同桌，他俩坐在一起的概率为：",
+        "options": [
+          {
+            "value": "A",
+            "label": "2/97"
+          },
+          {
+            "value": "B",
+            "label": "2/98"
+          },
+          {
+            "value": "C",
+            "label": "2/99"
+          },
+          {
+            "value": "D",
+            "label": "2/100"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          131
+        ],
+        "printedPages": [
+          125
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-10-p131.webp",
+            "alt": "概率问题（一） · 实战精刷10 · 讲义第125页",
+            "pdfPage": 131
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-10-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t02-drill-10",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先固定小张的位置。圆圈上他左右各有1个相邻位置，一共2个。"
+        },
+        {
+          "type": "paragraph",
+          "text": "小李在剩余99个位置中等可能选座，有利位置就是这2个，所以概率为2/99，我们选C。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac2{100-1}=\\frac2{99}"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "圆桌两人相邻可直接定位，左右两个位置都算相邻。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          131
+        ],
+        "printedPages": [
+          125
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-10-p131.webp",
+            "alt": "概率问题（一） · 实战精刷10 · 讲义第125页",
+            "pdfPage": 131
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-11-question",
+      "type": "question",
+      "title": "实战精刷 · 第11题",
+      "question": {
+        "id": "quantity-wy27-s12-t02-drill-11",
+        "type": "single",
+        "stem": "（25浙江）某班级只有两个宿舍的男生，每宿舍4人。每周从这8人中随机抽取一人担任周管理员，同一人不连续两周担任管理员。问开学前三周的管理员都来自同一宿舍的概率在以下哪个范围？",
+        "options": [
+          {
+            "value": "A",
+            "label": "0%—10%"
+          },
+          {
+            "value": "B",
+            "label": "10%—20%"
+          },
+          {
+            "value": "C",
+            "label": "20%—30%"
+          },
+          {
+            "value": "D",
+            "label": "30%—40%"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          132
+        ],
+        "printedPages": [
+          126
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-11-p132.webp",
+            "alt": "概率问题（一） · 实战精刷11 · 讲义第126页",
+            "pdfPage": 132
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-11-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t02-drill-11",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先固定第一周管理员来自哪个宿舍，两边对称，不用再乘1/2。第二周不能选上周那个人，剩7人中同宿舍有3人，概率3/7。"
+        },
+        {
+          "type": "paragraph",
+          "text": "在前两周同宿舍的条件下，第三周仍只排除第二周管理员，同宿舍还可选3人，所以又乘3/7。第一周的人第三周可以再当，题目只禁止连续两周。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac37\\times\\frac37=\\frac9{49}\\approx18.37\\%"
+        },
+        {
+          "type": "paragraph",
+          "text": "概率9/49约18.37%，在10%—20%之间，我们选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          132
+        ],
+        "printedPages": [
+          126
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-11-p132.webp",
+            "alt": "概率问题（一） · 实战精刷11 · 讲义第126页",
+            "pdfPage": 132
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-11-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t02-drill-11",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "只禁止相邻两期重复，不等于全程不能重复，逐步更新可选人数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          132
+        ],
+        "printedPages": [
+          126
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-11-p132.webp",
+            "alt": "概率问题（一） · 实战精刷11 · 讲义第126页",
+            "pdfPage": 132
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-12-question",
+      "type": "question",
+      "title": "实战精刷 · 第12题",
+      "question": {
+        "id": "quantity-wy27-s12-t02-drill-12",
+        "type": "single",
+        "stem": "（26联考）体操世锦赛男团预赛一共有单杠、双杠、自由体操、鞍马、吊环、跳马六个项目，每个国家的比赛项目顺序由抽签决定。那么某个国家第一个比赛项目不是单杠，且自由体操不在双杠之后的概率是多少？",
+        "options": [
+          {
+            "value": "A",
+            "label": "5/12"
+          },
+          {
+            "value": "B",
+            "label": "1/2"
+          },
+          {
+            "value": "C",
+            "label": "7/12"
+          },
+          {
+            "value": "D",
+            "label": "7/12"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          132
+        ],
+        "printedPages": [
+          126
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-12-p132.webp",
+            "alt": "概率问题（一） · 实战精刷12 · 讲义第126页",
+            "pdfPage": 132
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-12-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t02-drill-12",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看自由体操与双杠的相对先后，两者对称，自由体操排在双杠前的概率为1/2。"
+        },
+        {
+          "type": "paragraph",
+          "text": "再扣掉“单杠排第一，同时自由体操在双杠前”的情况：单杠第一的概率1/6，剩下两个项目的先后仍各占1/2，所以扣1/12。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac12-\\frac16\\times\\frac12=\\frac5{12}"
+        },
+        {
+          "type": "paragraph",
+          "text": "所求为1/2−1/12=5/12，我们选A。“不在双杠之后”表示排在双杠前，题面没有“紧接着”的限制。原页C、D重复印为7/12，不影响本题A的唯一性。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          132
+        ],
+        "printedPages": [
+          126
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-12-p132.webp",
+            "alt": "概率问题（一） · 实战精刷12 · 讲义第126页",
+            "pdfPage": 132
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-12-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t02-drill-12",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先利用相对次序对称性，再扣除额外禁止的位置。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          132
+        ],
+        "printedPages": [
+          126
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-12-p132.webp",
+            "alt": "概率问题（一） · 实战精刷12 · 讲义第126页",
+            "pdfPage": 132
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+:root {
+  --page-motion-duration: 260ms;
+  --page-motion-offset: .45rem;
+  --page-motion-ease: cubic-bezier(.2, .7, .2, 1);
+}
+
+.page-transition-surface { will-change: opacity, transform; }
+.page-transition-fallback {
+  animation: page-surface-enter var(--page-motion-duration) var(--page-motion-ease) both;
+}
+
+/* The page transition replaces the old card flip so both never play together. */
+.page-motion-ready .learn-flip-next,
+.page-motion-ready .learn-flip-previous,
+.page-motion-ready .clock-mode-card { animation: none; }
+.page-motion-ready .clock-mode-card.page-transition-fallback {
+  animation: page-surface-enter var(--page-motion-duration) var(--page-motion-ease) both;
+}
+
+@keyframes page-surface-enter {
+  from { opacity: .15; transform: var(--page-motion-from, translateY(var(--page-motion-offset))); }
+  to { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --page-motion-duration: 0ms; --page-motion-offset: 0rem; }
+  .page-transition-surface { will-change: auto; }
+  .page-transition-fallback { animation: none; }
+}

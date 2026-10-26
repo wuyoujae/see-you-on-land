@@ -1,0 +1,119 @@
+{
+  "id": "reasoning-p2-l19",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-propositions",
+  "title": "假言命题：充分、必要、充要，箭头到底往哪边",
+  "source": {
+    "startSeconds": 6755,
+    "endSeconds": 6995,
+    "timeLabel": "01:52:35—01:56:35",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p2-l19-knowledge-18dbf69-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "假言命题：充分、必要、充要，箭头到底往哪边 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先别被名字吓到，我们就是要判断：知道哪一个，就能确定哪一个。箭头A→B读作“如果A，那么B”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（1）充分条件：有A就足够推出B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "比如“如果上岸，就去旅游”，上岸是去旅游的充分条件，写成“上岸→旅游”。注意这是题目给的约定，不是靠生活常识判断所有上岸的人都旅游。"
+        },
+        {
+          "type": "paragraph",
+          "text": "常见表达："
+        },
+        {
+          "type": "paragraph",
+          "text": "如果A，那么B：A→B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "只要A，就B：A→B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "若A，则B：A→B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "凡是A，都是B：A→B。"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-p2-l19-knowledge-18dbf69-02",
+      "type": "text",
+      "role": "knowledge",
+      "title": "假言命题：充分、必要、充要，箭头到底往哪边 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "所有A，都是B：A→B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这种结构可以记“前推后”。例如“所有A都是B”就是只要属于A，就属于B，不能反过来说所有B也都是A。"
+        },
+        {
+          "type": "paragraph",
+          "text": "还有一个特殊说法：“除非A，否则B”，翻译成“非A→B”。因为它说的就是如果A没有出现，那B就会出现。先把“除非”这一半否定掉，再往后推，不要直接写成A→B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（2）必要条件：没A就不可能有B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "比如“只有努力，才能上岸”。它强调的是努力必不可少，不是在保证努力了就一定上岸。所以应当写“上岸→努力”。上岸了，才能肯定他符合题干要求的努力条件。"
+        },
+        {
+          "type": "paragraph",
+          "text": "“只有A，才B”＝B→A。"
+        },
+        {
+          "type": "paragraph",
+          "text": "“A是B的必要条件”＝B→A。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这一种常见的词序是后推前。更稳的理解是：谁是必要条件，谁放在箭头后面。"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-p2-l19-knowledge-18dbf69-03",
+      "type": "text",
+      "role": "knowledge",
+      "title": "假言命题：充分、必要、充要，箭头到底往哪边 · 3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "比如题干把“努力”说成上岸的基础、前提，或者说对上岸必不可少、不可或缺、是关键，我们在这里把这些表达理解为努力是必要条件，于是还是“上岸→努力”。看清谁缺了不行，不要背成凡是看到“基础”就机械地把整句话倒过来。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（3）充要条件：两边互相能推。"
+        },
+        {
+          "type": "paragraph",
+          "text": "“A当且仅当B”，就是A→B，同时B→A。A既是B的充分条件，又是B的必要条件，可以写成A↔B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把它理解成两个方向的条件合在一起，别只写一个方向。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "id": "quantity-wy27-s11-drill-03",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s11",
+  "title": "实战精刷 · 9—12题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      119,
+      120
+    ],
+    "printedPages": [
+      113,
+      114
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s11-t02-drill-09-question",
+      "type": "question",
+      "title": "实战精刷 · 第9题",
+      "question": {
+        "id": "quantity-wy27-s11-t02-drill-09",
+        "type": "single",
+        "stem": "（24国考）某单位组织干部职工分5批进行业务培训，培训地点有甲、乙、丙三个地方，每个地方至少安排一批。受接待能力影响，第一、二批不去甲地，问有多少种安排方式？",
+        "options": [
+          {
+            "value": "A",
+            "label": "52"
+          },
+          {
+            "value": "B",
+            "label": "62"
+          },
+          {
+            "value": "C",
+            "label": "72"
+          },
+          {
+            "value": "D",
+            "label": "82"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          119
+        ],
+        "printedPages": [
+          113
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-09-p119.webp",
+            "alt": "排列组合问题（二） · 实战精刷9 · 讲义第113页",
+            "pdfPage": 119
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-09-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t02-drill-09",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们按前两批去同一地还是不同地分类。它们不能去甲，只能去乙、丙。"
+        },
+        {
+          "type": "paragraph",
+          "text": "前两批不同地，有乙丙、丙乙两种；乙丙已覆盖，后三批只需至少一次去甲，有3³−2³＝19种，本类38种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "前两批同地，有乙乙、丙丙两种。后三批必须包含甲和另一个尚未去过的地方。以乙乙为例，后三批的总安排3³，扣没有甲的2³，再扣没有丙的2³，两者同时没有即全去乙的1种要补回，所以有27−8−8＋1＝12种，本类24种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "合计38＋24＝62种，我们选B。五批是不同批次，交换地点安排会产生新方案。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          119
+        ],
+        "printedPages": [
+          113
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-09-p119.webp",
+            "alt": "排列组合问题（二） · 实战精刷9 · 讲义第113页",
+            "pdfPage": 119
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-09-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s11-t02-drill-09",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先按前面已覆盖了哪些类别分类，再对后续步骤补齐缺失类别。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          119
+        ],
+        "printedPages": [
+          113
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-09-p119.webp",
+            "alt": "排列组合问题（二） · 实战精刷9 · 讲义第113页",
+            "pdfPage": 119
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-10-question",
+      "type": "question",
+      "title": "实战精刷 · 第10题",
+      "question": {
+        "id": "quantity-wy27-s11-t02-drill-10",
+        "type": "single",
+        "stem": "（24联考）中国空间站主体由天和核心舱、问天实验舱、梦天实验舱构成。某次实验需要5名宇航员同时在三个舱中开展，每个人只能去一个舱，每个舱至少安排1名宇航员，其中甲宇航员只能去问天实验舱和梦天实验舱中的一个，则不同的安排方法有多少种？",
+        "options": [
+          {
+            "value": "A",
+            "label": "72"
+          },
+          {
+            "value": "B",
+            "label": "88"
+          },
+          {
+            "value": "C",
+            "label": "100"
+          },
+          {
+            "value": "D",
+            "label": "144"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          120
+        ],
+        "printedPages": [
+          114
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-10-p120.webp",
+            "alt": "排列组合问题（二） · 实战精刷10 · 讲义第114页",
+            "pdfPage": 120
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-10-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t02-drill-10",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先固定甲宇航员去问天舱。其余4名各有3个舱可选，共3⁴＝81种；要保证天和、梦天也各有人，扣掉没人去天和的2⁴种，再扣掉没人去梦天的2⁴种，同时两舱都空即4人全去问天的1种要补回。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以甲固定去问天时有81−16−16＋1＝50种。甲去梦天完全对称，也有50种。两类互斥，总共100种，我们选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "受限人员先固定，再用容斥保证其余对象非空。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          120
+        ],
+        "printedPages": [
+          114
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-10-p120.webp",
+            "alt": "排列组合问题（二） · 实战精刷10 · 讲义第114页",
+            "pdfPage": 120
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-11-question",
+      "type": "question",
+      "title": "实战精刷 · 第11题",
+      "question": {
+        "id": "quantity-wy27-s11-t02-drill-11",
+        "type": "single",
+        "stem": "（25联考）某地军工驿站就业直通车送6名工人到A、B、C三个开发区务工，实现从“家门”直达“厂门”就业。若A开发区至少需要2名工人，B、C开发区至少各安排1名工人，每名工人只能去其中的一个开发区，则共有多少种不同的安排方法？",
+        "options": [
+          {
+            "value": "A",
+            "label": "180"
+          },
+          {
+            "value": "B",
+            "label": "320"
+          },
+          {
+            "value": "C",
+            "label": "345"
+          },
+          {
+            "value": "D",
+            "label": "360"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          120
+        ],
+        "printedPages": [
+          114
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-11-p120.webp",
+            "alt": "排列组合问题（二） · 实战精刷11 · 讲义第114页",
+            "pdfPage": 120
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-11-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t02-drill-11",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们按A开发区接收人数分类。B、C至少各1人，所以A可接收2、3、4人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A接收2人：从6人中选2人有C₆²＝15种，剩4人去B、C且都非空，有2⁴−2＝14种，共210种。A接收3人：C₆³×(2³−2)＝20×6＝120种。A接收4人：C₆⁴×(2²−2)＝15×2＝30种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "合计210＋120＋30＝360种，我们选D。每名工人不同，所以这里数的是具体人选和去向，不能只隔板分人数。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "某一组有特殊下限时，按该组人数分类，再把其余人员分到剩下非空组。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          120
+        ],
+        "printedPages": [
+          114
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-11-p120.webp",
+            "alt": "排列组合问题（二） · 实战精刷11 · 讲义第114页",
+            "pdfPage": 120
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-12-question",
+      "type": "question",
+      "title": "实战精刷 · 第12题",
+      "question": {
+        "id": "quantity-wy27-s11-t02-drill-12",
+        "type": "single",
+        "stem": "（22全国事考）为了加强某社区消防安全意识，某消防支队对该社区的4栋居民楼开展消防安全检查，该支队6名消防员负责此次安全检查，规定任一栋居民楼保证至少一名消防员前往，若同时开始检查，问共有多少种检查方式？",
+        "options": [
+          {
+            "value": "A",
+            "label": "1560"
+          },
+          {
+            "value": "B",
+            "label": "3240"
+          },
+          {
+            "value": "C",
+            "label": "6300"
+          },
+          {
+            "value": "D",
+            "label": "7200"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          120
+        ],
+        "printedPages": [
+          114
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-12-p120.webp",
+            "alt": "排列组合问题（二） · 实战精刷12 · 讲义第114页",
+            "pdfPage": 120
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-12-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t02-drill-12",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先定各楼的人数结构。6名不同消防员分4栋不同楼且每楼至少1人，只可能是3、1、1、1或2、2、1、1。"
+        },
+        {
+          "type": "paragraph",
+          "text": "3、1、1、1：选择哪栋楼安排3人有4种，再选3名消防员C₆³＝20种，余下3人对应另外3栋楼有3!＝6种，共480种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "2、2、1、1：选择两栋安排2人的楼有C₄²＝6种，按这两栋楼各自的标签依次选人，有C₆²×C₄²种，剩下2人分到两个单人楼有2!种，共6×15×6×2＝1080种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "总数480＋1080＝1560种，我们选A。两栋双人楼在选出后按固定楼号顺序配人，因此不再乘或除2!，不会把同一方案算两次。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          120
+        ],
+        "printedPages": [
+          114
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-12-p120.webp",
+            "alt": "排列组合问题（二） · 实战精刷12 · 讲义第114页",
+            "pdfPage": 120
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-12-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s11-t02-drill-12",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "人数结构分类后按接收对象标签依次选人，去重必须对应真实的无标签交换。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          120
+        ],
+        "printedPages": [
+          114
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-12-p120.webp",
+            "alt": "排列组合问题（二） · 实战精刷12 · 讲义第114页",
+            "pdfPage": 120
+          }
+        ]
+      }
+    }
+  ]
+}

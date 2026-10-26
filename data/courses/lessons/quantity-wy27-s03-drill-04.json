@@ -1,0 +1,119 @@
+{
+  "id": "quantity-wy27-s03-drill-04",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s03",
+  "title": "实战精刷 · 第13题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      40
+    ],
+    "printedPages": [
+      34
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s03-t03-drill-13-question",
+      "type": "question",
+      "title": "实战精刷 · 第13题",
+      "question": {
+        "id": "quantity-wy27-s03-t03-drill-13",
+        "type": "single",
+        "stem": "（26浙江事考）某单位从甲、乙、丙、丁、戊5个部门抽调100多人开展社区志愿服务。甲部门抽调人数是乙部门的3倍、丙部门的2倍，丙丁部门抽调人数之和是戊部门的1.5倍，戊部门抽调人数比丁部门多10人。所有被抽调人员恰好平均分为9个小组，那么每个小组能分到多少人?",
+        "options": [
+          {
+            "value": "A",
+            "label": "14"
+          },
+          {
+            "value": "B",
+            "label": "15"
+          },
+          {
+            "value": "C",
+            "label": "20"
+          },
+          {
+            "value": "D",
+            "label": "21"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          40
+        ],
+        "printedPages": [
+          34
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-13-p040.webp",
+            "alt": "和差倍比问题（三） · 实战精刷13 · 讲义第34页",
+            "pdfPage": 40
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-13-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t03-drill-13",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设甲a人，则乙a/3、丙a/2。设丁d人，戊d+10人；丙丁合计是戊的1.5倍，所以a/2+d=1.5(d+10)，得到d=a-30、戊a-20。甲、乙、丙都为整数，a是6的倍数，设a=6k。"
+        },
+        {
+          "type": "formula",
+          "latex": "N=a+\\frac a3+\\frac a2+(a-30)+(a-20)=23k-50"
+        },
+        {
+          "type": "paragraph",
+          "text": "总人数在101至199之间，所以k只能7、8、9、10，对应111、134、157、180。又总人数能被9整除，只能180，每组20人，选C。核验五部门60、20、30、30、40人，所有比例与差量均满足。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "多个部门先统一到一个公共量，再用整数、总数范围及平均分组条件筛选。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          40
+        ],
+        "printedPages": [
+          34
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-13-p040.webp",
+            "alt": "和差倍比问题（三） · 实战精刷13 · 讲义第34页",
+            "pdfPage": 40
+          }
+        ]
+      }
+    }
+  ]
+}

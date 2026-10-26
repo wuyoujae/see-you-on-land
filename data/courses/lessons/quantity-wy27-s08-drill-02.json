@@ -1,0 +1,431 @@
+{
+  "id": "quantity-wy27-s08-drill-02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s08",
+  "title": "实战精刷 · 5—8题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      87,
+      88
+    ],
+    "printedPages": [
+      81,
+      82
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s08-t02-drill-05-question",
+      "type": "question",
+      "title": "实战精刷 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s08-t02-drill-05",
+        "type": "single",
+        "stem": "（26国考）某企业2023年开始拓展海外业务，当年海外业务亏损m元，但2024年海外业务实现利润2m元。在国内市场每年利润保持不变的前提下，2024年总利润是2023年的1.2倍。问该企业每年国内市场利润为多少元？",
+        "options": [
+          {
+            "value": "A",
+            "label": "13m"
+          },
+          {
+            "value": "B",
+            "label": "14m"
+          },
+          {
+            "value": "C",
+            "label": "15m"
+          },
+          {
+            "value": "D",
+            "label": "16m"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          87
+        ],
+        "printedPages": [
+          81
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-05-p087.webp",
+            "alt": "利润问题 · 实战精刷5 · 讲义第81页",
+            "pdfPage": 87
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t02-drill-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t02-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设每年国内利润P。2023海外亏m，总利润P－m；2024海外赚2m，总利润P＋2m。"
+        },
+        {
+          "type": "paragraph",
+          "text": "P＋2m＝1.2(P－m)，整理0.2P＝3.2m，所以P＝16m，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "亏损带负号，增长倍数比较的是两年总利润。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          87
+        ],
+        "printedPages": [
+          81
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-05-p087.webp",
+            "alt": "利润问题 · 实战精刷5 · 讲义第81页",
+            "pdfPage": 87
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t02-drill-06-question",
+      "type": "question",
+      "title": "实战精刷 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s08-t02-drill-06",
+        "type": "single",
+        "stem": "（23国考）商店销售某种商品，打八折销售时卖2件的利润与按定价销售时卖1件的利润相同，相当于降价120元／件销售时卖3件的利润。问该商品的定价为多少元/件？",
+        "options": [
+          {
+            "value": "A",
+            "label": "360"
+          },
+          {
+            "value": "B",
+            "label": "450"
+          },
+          {
+            "value": "C",
+            "label": "540"
+          },
+          {
+            "value": "D",
+            "label": "720"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          87
+        ],
+        "printedPages": [
+          81
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-06-p087.webp",
+            "alt": "利润问题 · 实战精刷6 · 讲义第81页",
+            "pdfPage": 87
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t02-drill-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t02-drill-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设定价P、成本C。八折卖2件与原价卖1件利润相同，2(0.8P－C)＝P－C，得C＝0.6P。"
+        },
+        {
+          "type": "paragraph",
+          "text": "原价1件利润0.4P；降120元卖3件的利润3(P－120－0.6P)也等于0.4P。"
+        },
+        {
+          "type": "paragraph",
+          "text": "整理1.2P－360＝0.4P，得到P＝450元，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "多个利润相等条件逐次利用，先求成本占定价的比例再解实际价格。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          87
+        ],
+        "printedPages": [
+          81
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-06-p087.webp",
+            "alt": "利润问题 · 实战精刷6 · 讲义第81页",
+            "pdfPage": 87
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t02-drill-07-question",
+      "type": "question",
+      "title": "实战精刷 · 第7题",
+      "question": {
+        "id": "quantity-wy27-s08-t02-drill-07",
+        "type": "single",
+        "stem": "（25国考）某种商品在定价基础上打八折销售，打折之前每天卖40件，开始打折第一天起，每天都比前一天多卖10件。打折销售15天的利润总额与打折之前销售20天的利润总额相同，问这种商品的成本是定价的：",
+        "options": [
+          {
+            "value": "A",
+            "label": "60%"
+          },
+          {
+            "value": "B",
+            "label": "64%"
+          },
+          {
+            "value": "C",
+            "label": "70%"
+          },
+          {
+            "value": "D",
+            "label": "75%"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          87,
+          88
+        ],
+        "printedPages": [
+          81,
+          82
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-07-p087.webp",
+            "alt": "利润问题 · 实战精刷7 · 讲义第81页",
+            "pdfPage": 87
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-07-p088.webp",
+            "alt": "利润问题 · 实战精刷7 · 讲义第82页",
+            "pdfPage": 88
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t02-drill-07-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t02-drill-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先算打折后的总销量。第一天就比原来的40件多10件，是50件；第15天190件，15天合计(50＋190)×15÷2＝1800件。原先20天卖800件。"
+        },
+        {
+          "type": "paragraph",
+          "text": "设定价P、成本C，总利润相等：1800(0.8P－C)＝800(P－C)。"
+        },
+        {
+          "type": "paragraph",
+          "text": "整理640P＝1000C，得到C/P＝64%，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "打折首日的销量已经增长一次，等差求和的首项要从50开始。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          87,
+          88
+        ],
+        "printedPages": [
+          81,
+          82
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-07-p087.webp",
+            "alt": "利润问题 · 实战精刷7 · 讲义第81页",
+            "pdfPage": 87
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-07-p088.webp",
+            "alt": "利润问题 · 实战精刷7 · 讲义第82页",
+            "pdfPage": 88
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t02-drill-08-question",
+      "type": "question",
+      "title": "实战精刷 · 第8题",
+      "question": {
+        "id": "quantity-wy27-s08-t02-drill-08",
+        "type": "single",
+        "stem": "（26河南事考）一种商品第1天按定价销售，利润为n元／件。往后每天都降价0.1n元／件销售，第14天正好卖完。已知每天均卖出m件，14天总销售额正好相当于定价打七五折卖完所有商品。则这种商品成本为（）元／件。",
+        "options": [
+          {
+            "value": "A",
+            "label": "1.2n"
+          },
+          {
+            "value": "B",
+            "label": "1.5n"
+          },
+          {
+            "value": "C",
+            "label": "1.6n"
+          },
+          {
+            "value": "D",
+            "label": "1.8n"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          88
+        ],
+        "printedPages": [
+          82
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-08-p088.webp",
+            "alt": "利润问题 · 实战精刷8 · 讲义第82页",
+            "pdfPage": 88
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t02-drill-08-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t02-drill-08",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设定价P。第1天售价P，此后每天降0.1n，第14天售价P－1.3n。每天销量相同，全部商品的平均售价就是这14个等差售价的平均：P－0.65n。"
+        },
+        {
+          "type": "paragraph",
+          "text": "平均售价相当于定价七五折，所以P－0.65n＝0.75P，得到P＝2.6n。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第1天利润是n，成本＝P－n＝1.6n，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "每天销量相同才可直接平均每天售价，14天对应13次降价。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          88
+        ],
+        "printedPages": [
+          82
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-08-p088.webp",
+            "alt": "利润问题 · 实战精刷8 · 讲义第82页",
+            "pdfPage": 88
+          }
+        ]
+      }
+    }
+  ]
+}

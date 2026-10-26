@@ -1,0 +1,421 @@
+{
+  "id": "quantity-wy27-s01-drill-03",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s01",
+  "title": "实战精刷 · 9—12题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      16,
+      17
+    ],
+    "printedPages": [
+      10,
+      11
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s01-t03-drill-09-question",
+      "type": "question",
+      "title": "实战精刷 · 第9题",
+      "question": {
+        "id": "quantity-wy27-s01-t03-drill-09",
+        "type": "single",
+        "stem": "（26江苏）某单位组织全体员工参加＂为爱行走＂徒步活动，需安排3名员工负责后勤保障。若安排3名男员工，则参与徒步的男女员工人数之比是3：5;若安排3名女员工，则参与徒步的男女员工人数之比是3：4。若安排2名男员工和1名女员工，则参与徒步的男女员工人数之比是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "2:3"
+          },
+          {
+            "value": "B",
+            "label": "8:11"
+          },
+          {
+            "value": "C",
+            "label": "11:17"
+          },
+          {
+            "value": "D",
+            "label": "13:20"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          16
+        ],
+        "printedPages": [
+          10
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-09-p016.webp",
+            "alt": "和差倍比问题（一） · 实战精刷9 · 讲义第10页",
+            "pdfPage": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-09-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t03-drill-09",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设原来男M人、女F人。安排后勤的3人不再参加徒步，因此两种方案分别是(M-3)∶F=3∶5，M∶(F-3)=3∶4。"
+        },
+        {
+          "type": "formula",
+          "latex": "5(M-3)=3F,\\qquad4M=3(F-3)"
+        },
+        {
+          "type": "paragraph",
+          "text": "两式相减可得M=24，代回F=35。安排2男1女后，徒步人数为22男、34女，22∶34=11∶17，所以选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "后勤不参与活动，必须先从对应性别人数里扣除再写比例。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          16
+        ],
+        "printedPages": [
+          10
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-09-p016.webp",
+            "alt": "和差倍比问题（一） · 实战精刷9 · 讲义第10页",
+            "pdfPage": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-10-question",
+      "type": "question",
+      "title": "实战精刷 · 第10题",
+      "question": {
+        "id": "quantity-wy27-s01-t03-drill-10",
+        "type": "single",
+        "stem": "（21联考）受疫情影响，某省派出包括传染科医生、重症科医生和护士在内的三批医疗队进行援助,三批医疗队的人员组成比例分别为4：2：4,5：2：3，4：3：3。其中第二批医生比护士多40人；传染科的医生人数逐批增加，为等差数列；三批总共有护士113人。则三批医疗队总共多少人?",
+        "options": [
+          {
+            "value": "A",
+            "label": "339"
+          },
+          {
+            "value": "B",
+            "label": "350"
+          },
+          {
+            "value": "C",
+            "label": "360"
+          },
+          {
+            "value": "D",
+            "label": "390"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          17
+        ],
+        "printedPages": [
+          11
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-10-p017.webp",
+            "alt": "和差倍比问题（一） · 实战精刷10 · 讲义第11页",
+            "pdfPage": 17
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-10-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t03-drill-10",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先按三批给出的比例设人数为(4a,2a,4a)、(5b,2b,3b)、(4c,3c,3c)。第二批医生包括传染科和重症科，因此(5b+2b)-3b=40，得b=10。传染科人数成等差数列，所以4a+4c=2×50，得到a+c=25。"
+        },
+        {
+          "type": "formula",
+          "latex": "4a+30+3c=113\\quad\\Longrightarrow\\quad a=8,\\ c=17"
+        },
+        {
+          "type": "paragraph",
+          "text": "总人数为10(a+b+c)=10×35=350，选B。核验传染科为32、50、68，逐批增加18；护士32+30+51=113。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "多组比例各设自己的份数单位，再用跨组总量和等差关系联系它们。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          17
+        ],
+        "printedPages": [
+          11
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-10-p017.webp",
+            "alt": "和差倍比问题（一） · 实战精刷10 · 讲义第11页",
+            "pdfPage": 17
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-11-question",
+      "type": "question",
+      "title": "实战精刷 · 第11题",
+      "question": {
+        "id": "quantity-wy27-s01-t03-drill-11",
+        "type": "single",
+        "stem": "（20联考）同事甲、乙两人共携带120千克行李乘坐飞机，根据规定，甲单独托运需支付超重费用200元，乙单独托运需支付超重费用100元，若全部行李由一人负责托运，则需支付超重费用450元。问：每位乘客免费托运的行李最多为多少千克？",
+        "options": [
+          {
+            "value": "A",
+            "label": "20"
+          },
+          {
+            "value": "B",
+            "label": "25"
+          },
+          {
+            "value": "C",
+            "label": "30"
+          },
+          {
+            "value": "D",
+            "label": "35"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          17
+        ],
+        "printedPages": [
+          11
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-11-p017.webp",
+            "alt": "和差倍比问题（一） · 实战精刷11 · 讲义第11页",
+            "pdfPage": 17
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-11-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t03-drill-11",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看合并托运多花的钱：450-(200+100)=150元。合并后少享受一份免费额度，所以这150元对应一人的免费重量。若收费单价为p元/千克，免费额度为L千克，就有pL=150。"
+        },
+        {
+          "type": "formula",
+          "latex": "p(120-L)=450,\\quad120p-150=450\\quad\\Longrightarrow\\quad p=5,\\ L=30"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以每人免费30千克，选C。核验甲带70千克、乙带50千克，各超40、20千克，收费200、100元；合并超90千克收费450元。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "两人都超重时，合并托运新增费用恰好是一份免费额度的费用。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          17
+        ],
+        "printedPages": [
+          11
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-11-p017.webp",
+            "alt": "和差倍比问题（一） · 实战精刷11 · 讲义第11页",
+            "pdfPage": 17
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-12-question",
+      "type": "question",
+      "title": "实战精刷 · 第12题",
+      "question": {
+        "id": "quantity-wy27-s01-t03-drill-12",
+        "type": "single",
+        "stem": "（24联考）某客轮对乘客携带行李的超重部分按每公斤收取固定费用。甲乙两位乘客共携带70公斤行李乘坐该客轮，乘客甲的行李超重部分需要交费10元，乘客乙的行李超重部分需要交费2元。如果这两位乘客的行李全部由其中1位乘客携带，则超重部分需要交费20元。问乘坐该客轮每位乘客可以免费携带行李（）公斤。",
+        "options": [
+          {
+            "value": "A",
+            "label": "25"
+          },
+          {
+            "value": "B",
+            "label": "20"
+          },
+          {
+            "value": "C",
+            "label": "15"
+          },
+          {
+            "value": "D",
+            "label": "10"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          17
+        ],
+        "printedPages": [
+          11
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-12-p017.webp",
+            "alt": "和差倍比问题（一） · 实战精刷12 · 讲义第11页",
+            "pdfPage": 17
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-12-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t03-drill-12",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看合并后收费增加了20-(10+2)=8元，这就是少用一份免费额度的费用。设免费L公斤、每公斤收费p元，则pL=8。"
+        },
+        {
+          "type": "formula",
+          "latex": "p(70-L)=20\\quad\\Longrightarrow\\quad70p=28,\\ p=0.4,\\ L=20"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以选B。核验甲45公斤、乙25公斤，超重25、5公斤分别交10、2元；合并70公斤超重50公斤，交20元。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先用合并与分开的费用差消去未知免费额度，再求单价。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          17
+        ],
+        "printedPages": [
+          11
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-12-p017.webp",
+            "alt": "和差倍比问题（一） · 实战精刷12 · 讲义第11页",
+            "pdfPage": 17
+          }
+        ]
+      }
+    }
+  ]
+}

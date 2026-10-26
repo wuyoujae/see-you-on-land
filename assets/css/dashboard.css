@@ -1,0 +1,219 @@
+/* Forest green study workspace. Component geometry is in rem throughout. */
+#view-dashboard > .page-header {
+  position: relative;
+  padding-bottom: var(--space-5);
+}
+
+.exam-countdowns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3);
+  padding: 0 var(--space-5) var(--space-5);
+}
+
+.exam-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  min-height: 12.25rem;
+  padding: var(--space-4);
+  border: var(--border-width) solid var(--accent-card-line);
+  border-radius: var(--radius-lg);
+  background: var(--accent-card);
+  color: var(--accent-card-ink);
+}
+
+.exam-card-national {
+  color: var(--on-accent);
+  border-color: var(--accent-strong);
+  background: var(--accent-strong);
+}
+
+.exam-card-heading {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  font-size: var(--text-body);
+  line-height: 1.4;
+  font-weight: var(--weight-medium);
+}
+
+.exam-card-heading .lucide {
+  flex: 0 0 auto;
+  width: 1.125rem;
+  height: 1.125rem;
+  stroke-width: 1.75;
+}
+
+.exam-countdown-value {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  column-gap: var(--space-2);
+  row-gap: var(--space-1);
+  margin-top: var(--space-4);
+  margin-bottom: var(--space-3);
+}
+
+.exam-countdown-value strong {
+  font-size: 3.75rem;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  font-weight: var(--weight-medium);
+  font-variant-numeric: tabular-nums;
+}
+
+.exam-countdown-value strong.is-pending {
+  font-size: var(--text-2xl);
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.exam-countdown-value > span {
+  color: var(--muted-strong);
+  font-size: var(--text-sm);
+}
+
+.exam-card-national .exam-countdown-value > span {
+  color: var(--accent-on-strong);
+}
+
+.exam-date {
+  margin-top: auto;
+  font-size: var(--text-body);
+  line-height: 1.5;
+  font-variant-numeric: tabular-nums;
+}
+
+.exam-status {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-2);
+  margin-top: var(--space-2);
+  color: var(--muted-strong);
+  font-size: var(--text-xs);
+  line-height: 1.55;
+}
+
+.exam-card-national .exam-status { color: var(--accent-on-strong); }
+.exam-status a { color: inherit; text-decoration: underline; text-underline-offset: 0.1875rem; }
+.exam-status a:hover { text-decoration-thickness: 0.125rem; }
+
+/* Retain the existing progress IDs in a quieter, space-efficient summary. */
+#view-dashboard .learning-progress-summary {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: var(--space-8);
+  row-gap: var(--space-3);
+  margin-inline: var(--space-5);
+  padding: var(--space-4) 0 var(--space-5);
+  border-top: var(--border-width) solid var(--line);
+  border-bottom: var(--border-width) solid var(--line);
+  background: transparent;
+}
+
+.learning-progress-summary .progress-summary { align-items: center; }
+.learning-progress-summary .progress-number { color: var(--accent-strong); font-size: var(--text-3xl); }
+.learning-progress-summary .progress-number span { font-size: var(--text-sm); }
+.learning-progress-summary .progress-copy { font-size: var(--text-caption); }
+.learning-progress-summary .progress-track { height: 0.375rem; margin-top: 0; border-radius: var(--radius-pill); }
+
+.learning-progress-summary .stat-line {
+  gap: 0;
+  margin-top: 0;
+  border: 0;
+  background: transparent;
+}
+
+.learning-progress-summary .stat-cell {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: var(--space-2);
+  padding: 0;
+  background: transparent;
+}
+
+.learning-progress-summary .stat-cell + .stat-cell { border-left: var(--border-width) solid var(--line); }
+.learning-progress-summary .stat-cell strong { font-size: var(--text-base); }
+.learning-progress-summary .stat-cell span { margin: 0; font-size: var(--text-caption); }
+
+#view-dashboard .dashboard-tools { border-bottom: 0; }
+#view-dashboard .dashboard-tool { padding-block: var(--space-5); }
+#view-dashboard .dashboard-tool + .dashboard-tool { border-color: var(--line); }
+
+.backup-button:not(.secondary) {
+  border-color: var(--accent);
+  background: var(--accent);
+  box-shadow: var(--shadow-button);
+  color: var(--on-accent);
+}
+
+.backup-button { transition: background var(--duration-fast) ease, transform var(--duration-fast) ease; }
+.backup-button:not(.secondary):hover { background: var(--accent-hover); }
+.backup-button:not(.secondary):active { transform: translateY(0.125rem); box-shadow: none; }
+.backup-button.secondary:hover { background: var(--surface); }
+
+/* The primary accent carries through the existing app without changing its shell. */
+.app-navigation .tab-item.active { color: var(--accent-strong); }
+.app-navigation .tab-item.active .tab-icon { color: var(--accent); }
+.sidebar-brand > .lucide { color: var(--accent); }
+.segmented button.active { color: var(--accent-strong); }
+.search-field:focus-within { border-color: var(--accent-line); background: var(--bg); }
+.todo-title:hover, .resource-title:hover, .news-article-title:hover { color: var(--accent); }
+.group-mark { border-radius: var(--radius-xs); }
+
+.save-record-button,
+.solver-save-button,
+.solver-send-button:not(.stop) {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+@media (min-width: 37.5rem) {
+  .exam-countdowns { gap: var(--space-4); padding-inline: var(--space-7); }
+  .exam-card { min-height: 13.5rem; padding: var(--space-5); }
+  #view-dashboard .learning-progress-summary { margin-inline: var(--space-7); }
+}
+
+@media (min-width: 48rem) {
+  .exam-countdowns { gap: var(--space-5); padding-inline: var(--page-gutter); padding-bottom: var(--space-6); }
+  .exam-card { min-height: 14.5rem; padding: var(--space-6); }
+  .exam-card-heading { font-size: var(--text-md); }
+  .exam-countdown-value { margin-block: var(--space-5); }
+  .exam-countdown-value strong { font-size: 4.75rem; }
+  .exam-countdown-value strong.is-pending { font-size: var(--text-3xl); }
+  .exam-date { font-size: var(--text-base); }
+  .exam-status { font-size: var(--text-caption); }
+
+  #view-dashboard .learning-progress-summary {
+    grid-template-columns: minmax(0, 1fr) minmax(12rem, 0.8fr);
+    margin-inline: var(--page-gutter);
+    padding-block: var(--space-4);
+  }
+
+  .learning-progress-summary .progress-summary { grid-column: 1; grid-row: 1; }
+  .learning-progress-summary .progress-track { grid-column: 1; grid-row: 2; }
+  .learning-progress-summary .stat-line { grid-column: 2; grid-row: 1 / 3; align-content: center; }
+  .learning-progress-summary .stat-cell { flex-direction: column; align-items: center; gap: var(--space-1); }
+  .learning-progress-summary .stat-cell strong { font-size: var(--text-xl); }
+  .app-navigation .tab-item.active { background: var(--accent-soft); }
+  .app-navigation .tab-item.active:hover { background: var(--accent-soft); }
+}
+
+@media (max-width: 23.4375rem) {
+  .exam-countdowns { gap: var(--space-2-5); }
+  .exam-card { padding: var(--space-3); min-height: 11.75rem; }
+  .exam-card-heading { gap: var(--space-1-5); font-size: var(--text-sm); }
+  .exam-card-heading .lucide { width: 1rem; height: 1rem; }
+  .exam-date { font-size: var(--text-sm); }
+  .exam-status { font-size: var(--text-xs); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .backup-button { transition: none; }
+}

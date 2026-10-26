@@ -1,0 +1,929 @@
+{
+  "id": "quantity-wy27-s15-t02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s15",
+  "title": "相似图形与线、面、体比例",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      156,
+      157,
+      158
+    ],
+    "printedPages": [
+      150,
+      151,
+      152
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s15-t02-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "相似图形与线、面、体比例",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先确认对应角相等、对应边成比例，再使用相似关系。相似比k是长度比，周长随k变化，面积随k²变化，体积随k³变化；只知道一个高度比而没有相似，不能直接立方。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{L_1}{L_2}=k,\\quad\\frac{S_1}{S_2}=k^2,\\quad\\frac{V_1}{V_2}=k^3"
+        },
+        {
+          "type": "paragraph",
+          "text": "视线问题先统一眼高或镜头高度，再建立对应水平距离与竖直高度之比。圆锥水位先看尖端朝上还是朝下：倒锥中的水常是相似小锥，正立圆锥下部的水则要用整个大锥减上方空锥。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们处理圆台时可补成大圆锥再减小圆锥；匀速注水的时间比等于体积比。扇形面积除了半径平方，还要考虑扫过的圆心角，不能只看针长。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          156,
+          157,
+          158
+        ],
+        "printedPages": [
+          150,
+          151,
+          152
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t02-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s15-t02-mother-01",
+        "type": "single",
+        "stem": "（26国考）一块梯形场地如下图所示，已知OA=0.6OD，现在需要将这块场地扩展为一块长方形场地，问扩展后场地面积至少增加：",
+        "options": [
+          {
+            "value": "A",
+            "label": "20%"
+          },
+          {
+            "value": "B",
+            "label": "25%"
+          },
+          {
+            "value": "C",
+            "label": "40%"
+          },
+          {
+            "value": "D",
+            "label": "50%"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（26国考）一块梯形场地如下图所示，已知OA=0.6OD，现在需要将这块场地扩展为一块长方形场地，问扩展后场地面积至少增加："
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-mother-01-figure-01.webp",
+            "alt": "几何问题（二）原题示意图，讲义第150页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          156
+        ],
+        "printedPages": [
+          150
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-mother-01-p156.webp",
+            "alt": "几何问题（二） · 母题精讲1 · 讲义第150页",
+            "pdfPage": 156
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t02-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t02-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先利用对角线交点形成的相似三角形：AB与CD平行，所以AB：CD=OA：OD=0.6。设长底CD为1份，短底AB就是0.6份。"
+        },
+        {
+          "type": "paragraph",
+          "text": "按图扩成以长底为宽、与梯形同高的外接长方形，长方形面积为h，原梯形面积（1+0.6）h÷2=0.8h。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{\\Delta S}{S_{\\text{梯}}}=\\frac{1-(1+0.6)/2}{(1+0.6)/2}=25\\%"
+        },
+        {
+          "type": "paragraph",
+          "text": "增加比例为（h−0.8h）÷0.8h=25%，我们选B。问增加百分之几，分母必须是原梯形。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          156
+        ],
+        "printedPages": [
+          150
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-mother-01-p156.webp",
+            "alt": "几何问题（二） · 母题精讲1 · 讲义第150页",
+            "pdfPage": 156
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t02-mother-01-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t02-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "相似先还原平行底边比，面积增幅要除以原面积。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          156
+        ],
+        "printedPages": [
+          150
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-mother-01-p156.webp",
+            "alt": "几何问题（二） · 母题精讲1 · 讲义第150页",
+            "pdfPage": 156
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t02-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s15-t02-mother-02",
+        "type": "single",
+        "stem": "（26浙江事考）如图所示，某地有A、B两栋建筑，A高41米，B高161米，两栋建筑的直线距离为255米。摄影爱好者小张站在两栋建筑底部连线的延长线上，想拍一张两栋建筑高度重合的照片。如果他把照相机的视角的高度定为1米，那么他应当站在距离A多少米的地方？",
+        "options": [
+          {
+            "value": "A",
+            "label": "75"
+          },
+          {
+            "value": "B",
+            "label": "80"
+          },
+          {
+            "value": "C",
+            "label": "85"
+          },
+          {
+            "value": "D",
+            "label": "90"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（26浙江事考）如图所示，某地有A、B两栋建筑，A高41米，B高161米，两栋建筑的直线距离为255米。摄影爱好者小张站在两栋建筑底部连线的延长线上，想拍一张两栋建筑高度重合的照片。如果他把照相机的视角的高度定为1米，那么他应当站在距离A多少米的地方？"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-mother-02-figure-01.webp",
+            "alt": "几何问题（二）原题示意图，讲义第151页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          157
+        ],
+        "printedPages": [
+          151
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-mother-02-p157.webp",
+            "alt": "几何问题（二） · 母题精讲2 · 讲义第151页",
+            "pdfPage": 157
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t02-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t02-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先扣除相机高度1米，两栋建筑相对于镜头的高度分别40米、160米。拍成顶部重合，视线形成两组相似三角形。"
+        },
+        {
+          "type": "paragraph",
+          "text": "设镜头到近处A楼距离x，则到B楼是x+255，比例x：（x+255）=40：160=1：4。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{x}{x+255}=\\frac{41-1}{161-1}=\\frac14\\Rightarrow x=85"
+        },
+        {
+          "type": "paragraph",
+          "text": "4x=x+255，解得x=85米，我们选C。不能直接拿41与161相比，那是相对地面的高度。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          157
+        ],
+        "printedPages": [
+          151
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-mother-02-p157.webp",
+            "alt": "几何问题（二） · 母题精讲2 · 讲义第151页",
+            "pdfPage": 157
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t02-mother-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t02-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "视线相似的竖直高度统一减去镜头或眼睛高度。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          157
+        ],
+        "printedPages": [
+          151
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-mother-02-p157.webp",
+            "alt": "几何问题（二） · 母题精讲2 · 讲义第151页",
+            "pdfPage": 157
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t02-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s15-t02-mother-03",
+        "type": "single",
+        "stem": "（26联考）实验室有一个圆锥形容器和一个圆柱形容器，高均为10厘米，底面半径均为2厘米。圆锥形容器内水的高度正好是圆锥高度的一半。若将圆锥形容器中的水倒入空的圆柱形容器后，水面的高度在以下哪个范围内？",
+        "options": [
+          {
+            "value": "A",
+            "label": "0—1厘米之间"
+          },
+          {
+            "value": "B",
+            "label": "1—2厘米之间"
+          },
+          {
+            "value": "C",
+            "label": "2—3厘米之间"
+          },
+          {
+            "value": "D",
+            "label": "3—4厘米之间"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（26联考）实验室有一个圆锥形容器和一个圆柱形容器，高均为10厘米，底面半径均为2厘米。圆锥形容器内水的高度正好是圆锥高度的一半。若将圆锥形容器中的水倒入空的圆柱形容器后，水面的高度在以下哪个范围内？"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-mother-03-figure-01.webp",
+            "alt": "几何问题（二）原题示意图，讲义第151页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          157
+        ],
+        "printedPages": [
+          151
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-mother-03-p157.webp",
+            "alt": "几何问题（二） · 母题精讲3 · 讲义第151页",
+            "pdfPage": 157
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t02-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t02-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看原图，圆锥是尖顶朝上，水在下半部，不是倒置圆锥里的小圆锥水体。水面以上的空心小圆锥高为原来一半，与整锥相似，体积占1/8，所以水占整锥7/8。"
+        },
+        {
+          "type": "paragraph",
+          "text": "整锥与同底同高圆柱的体积比1：3。因此这部分水倒入圆柱后的高度，是10×（1/3）×（7/8）=35/12厘米。"
+        },
+        {
+          "type": "formula",
+          "latex": "h_{\\text{圆柱水}}=10\\times\\frac13\\left[1-\\left(\\frac12\\right)^3\\right]=\\frac{35}{12}\\text{厘米}"
+        },
+        {
+          "type": "paragraph",
+          "text": "约2.92厘米，在2—3厘米之间，我们选C。若误用1/8，就是把圆锥方向看反了。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          157
+        ],
+        "printedPages": [
+          151
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-mother-03-p157.webp",
+            "alt": "几何问题（二） · 母题精讲3 · 讲义第151页",
+            "pdfPage": 157
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t02-mother-03-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t02-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "圆锥水位先读尖端朝向，空锥和水锥的体积份额可能互补。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          157
+        ],
+        "printedPages": [
+          151
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-mother-03-p157.webp",
+            "alt": "几何问题（二） · 母题精讲3 · 讲义第151页",
+            "pdfPage": 157
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t02-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s15-t02-practice-01",
+        "type": "single",
+        "stem": "（26北京）小刘的手表分针长度是时针的2倍，分针每小时扫过的面积为20n，他今天长跑期间，时针扫过的面积为n。则他的跑步时长在以下哪个范围内？",
+        "options": [
+          {
+            "value": "A",
+            "label": "不到2小时"
+          },
+          {
+            "value": "B",
+            "label": "2小时—2小时30分之间"
+          },
+          {
+            "value": "C",
+            "label": "2小时30分—3小时之间"
+          },
+          {
+            "value": "D",
+            "label": "超过3小时"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          157,
+          158
+        ],
+        "printedPages": [
+          151,
+          152
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-practice-01-p157.webp",
+            "alt": "几何问题（二） · 思维精练1 · 讲义第151页",
+            "pdfPage": 157
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-practice-01-p158.webp",
+            "alt": "几何问题（二） · 思维精练1 · 讲义第152页",
+            "pdfPage": 158
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t02-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t02-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先由分针每小时扫满一圈得到分针整圆面积20n。分针长度是时针2倍，所以时针整圆面积是20n÷4=5n。"
+        },
+        {
+          "type": "paragraph",
+          "text": "时针12小时才扫一圈，每小时扫5n/12。跑步期间扫了n，时间为n÷（5n/12）=12/5小时。"
+        },
+        {
+          "type": "formula",
+          "latex": "t=\\frac{n}{(20n/2^2)/12}=\\frac{12}{5}\\text{小时}=2\\text{小时}24\\text{分}"
+        },
+        {
+          "type": "paragraph",
+          "text": "也就是2小时24分钟，在2小时—2小时30分之间，我们选B。面积跟针长的平方成正比，不是直接除2。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          157,
+          158
+        ],
+        "printedPages": [
+          151,
+          152
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-practice-01-p157.webp",
+            "alt": "几何问题（二） · 思维精练1 · 讲义第151页",
+            "pdfPage": 157
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-practice-01-p158.webp",
+            "alt": "几何问题（二） · 思维精练1 · 讲义第152页",
+            "pdfPage": 158
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t02-practice-01-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t02-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "转针扇形面积同时取决于半径平方与转过的角度。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          157,
+          158
+        ],
+        "printedPages": [
+          151,
+          152
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-practice-01-p157.webp",
+            "alt": "几何问题（二） · 思维精练1 · 讲义第151页",
+            "pdfPage": 157
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-practice-01-p158.webp",
+            "alt": "几何问题（二） · 思维精练1 · 讲义第152页",
+            "pdfPage": 158
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t02-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s15-t02-practice-02",
+        "type": "single",
+        "stem": "（26四川）在下图直角梯形ABCE的花圃中，AD⊥CE，阴影部分（面积为300平方米）种植郁金香，梯形内其他部分种植水仙花。已知AB为30米，BC为50米。问水仙花的种植面积为多少平方米？",
+        "options": [
+          {
+            "value": "A",
+            "label": "1700"
+          },
+          {
+            "value": "B",
+            "label": "2000"
+          },
+          {
+            "value": "C",
+            "label": "2300"
+          },
+          {
+            "value": "D",
+            "label": "2500"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（26四川）在下图直角梯形ABCE的花圃中，AD⊥CE，阴影部分（面积为300平方米）种植郁金香，梯形内其他部分种植水仙花。已知AB为30米，BC为50米。问水仙花的种植面积为多少平方米？"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-practice-02-figure-01.webp",
+            "alt": "几何问题（二）原题示意图，讲义第152页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          158
+        ],
+        "printedPages": [
+          152
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-practice-02-p158.webp",
+            "alt": "几何问题（二） · 思维精练2 · 讲义第152页",
+            "pdfPage": 158
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t02-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t02-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看矩形ABCD：AB=30、AD=BC=50。△ABE以AB为底、到E的高为50，面积750。它被AF分成△ABF与阴影△AEF，后者300，所以△ABF面积450。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两小三角形共用底AF，B、E到竖直AF的距离分别是AB=30与ED，所以450：300=30：ED，得到ED=20。整个梯形面积=矩形1500+左侧三角形500=2000。"
+        },
+        {
+          "type": "formula",
+          "latex": "ED=30\\times\\frac{300}{450}=20,\\quad S_{\\text{水仙}}=30\\times50+\\frac12\\times20\\times50-300=1700"
+        },
+        {
+          "type": "paragraph",
+          "text": "水仙花占去掉阴影后的部分，面积2000−300=1700平方米，我们选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          158
+        ],
+        "printedPages": [
+          152
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-practice-02-p158.webp",
+            "alt": "几何问题（二） · 思维精练2 · 讲义第152页",
+            "pdfPage": 158
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t02-practice-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t02-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "共同底边的两个三角形可用面积比求各自到该底边的距离。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          158
+        ],
+        "printedPages": [
+          152
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-practice-02-p158.webp",
+            "alt": "几何问题（二） · 思维精练2 · 讲义第152页",
+            "pdfPage": 158
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t02-practice-03-question",
+      "type": "question",
+      "title": "思维精练 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s15-t02-practice-03",
+        "type": "single",
+        "stem": "（26联考）某容器下部分是一个圆柱，上部分是一个圆台，圆台底面刚好与圆柱重合。已知圆台上面半径的2倍等于圆台底面半径，圆台的高和圆柱相等。现匀速向容器内注水，3秒装满了圆柱部分的一半，那么还需要多长时间才能装满整个容器（容器壁厚忽略不计）？",
+        "options": [
+          {
+            "value": "A",
+            "label": "6秒"
+          },
+          {
+            "value": "B",
+            "label": "6.5秒"
+          },
+          {
+            "value": "C",
+            "label": "7秒"
+          },
+          {
+            "value": "D",
+            "label": "7.5秒"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（26联考）某容器下部分是一个圆柱，上部分是一个圆台，圆台底面刚好与圆柱重合。已知圆台上面半径的2倍等于圆台底面半径，圆台的高和圆柱相等。现匀速向容器内注水，3秒装满了圆柱部分的一半，那么还需要多长时间才能装满整个容器（容器壁厚忽略不计）？"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-practice-03-figure-01.webp",
+            "alt": "几何问题（二）原题示意图，讲义第152页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          158
+        ],
+        "printedPages": [
+          152
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-practice-03-p158.webp",
+            "alt": "几何问题（二） · 思维精练3 · 讲义第152页",
+            "pdfPage": 158
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t02-practice-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t02-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设圆柱半径R、高h，其体积为V。3秒注入半个V，注满一个V需要6秒。圆台上下半径为R和R/2，高仍为h。"
+        },
+        {
+          "type": "paragraph",
+          "text": "补上顶端小圆锥后，完整大圆锥高2h，小圆锥高h，线性比1：2，体积比1：8。圆台体积为大锥的7/8，也就是（7/8）×（1/3）πR²×2h=7V/12。"
+        },
+        {
+          "type": "formula",
+          "latex": "V_{\\text{圆台}}=\\frac7{12}V,\\quad t_{\\text{剩}}=6\\left(\\frac12+\\frac7{12}\\right)=6.5\\text{秒}"
+        },
+        {
+          "type": "paragraph",
+          "text": "已经注入V/2，剩余V/2+7V/12=13V/12，对应6×13/12=6.5秒，我们选B。题目问“还需要”，要扣掉已用的3秒。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          158
+        ],
+        "printedPages": [
+          152
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-practice-03-p158.webp",
+            "alt": "几何问题（二） · 思维精练3 · 讲义第152页",
+            "pdfPage": 158
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t02-practice-03-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t02-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "圆台可补成相似圆锥做体积差；匀速注水按体积比换时间。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          158
+        ],
+        "printedPages": [
+          152
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t02-practice-03-p158.webp",
+            "alt": "几何问题（二） · 思维精练3 · 讲义第152页",
+            "pdfPage": 158
+          }
+        ]
+      }
+    }
+  ]
+}

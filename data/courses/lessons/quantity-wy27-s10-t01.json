@@ -1,0 +1,920 @@
+{
+  "id": "quantity-wy27-s10-t01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s10",
+  "title": "分类分步与排列组合",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      99,
+      100,
+      101,
+      102
+    ],
+    "printedPages": [
+      93,
+      94,
+      95,
+      96
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s10-t01-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "分类分步与排列组合",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先判断这件事是“选一种做法就能完成”，还是“几个步骤全部做完才完成”。互斥的不同做法分类相加；连续的步骤分步相乘。分类要不重不漏，分步时后一步有多少种选法，要按前一步已发生的结果计算。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们再看位置或角色有没有区别。同样两个人互换后，结果变了，比如正班长和副班长，就有顺序，用排列；互换后仍是同一组优秀党员，就没有顺序，用组合。"
+        },
+        {
+          "type": "formula",
+          "latex": "A_n^m=\\frac{n!}{(n-m)!},\\qquad C_n^m=\\frac{n!}{m!(n-m)!},\\qquad A_n^m=C_n^m\\,m!"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们用讲义的四个小例子检查有序与无序。6名候选人选正、副班长，先选正班长6种，再选副班长5种，一共6×5＝30种。10名运动员安排4个接力棒次，棒次不同，所以是10×9×8×7＝5040种。6名党员选2名奖励，只看选中谁，不分角色，所以C₆²＝15种。5种不同蔬菜种子选3种，同样不分顺序，C₅³＝10种。只选1个元素时，排列数和组合数都等于n。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          99,
+          100
+        ],
+        "printedPages": [
+          93,
+          94
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t01-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s10-t01-mother-01",
+        "type": "single",
+        "stem": "（19联考）小王在商店消费了90元，口袋里只有1张50元、4张20元、8张10元的钞票，他共有几种付款方式，可以使店家不用找零钱？",
+        "options": [
+          {
+            "value": "A",
+            "label": "5"
+          },
+          {
+            "value": "B",
+            "label": "6"
+          },
+          {
+            "value": "C",
+            "label": "7"
+          },
+          {
+            "value": "D",
+            "label": "8"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          100
+        ],
+        "printedPages": [
+          94
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-mother-01-p100.webp",
+            "alt": "排列组合问题（一） · 母题精讲1 · 讲义第94页",
+            "pdfPage": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t01-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t01-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们按是否使用50元钞票分类，同面额的钞票只区分张数，不区分具体哪一张。设20元、10元分别用b张、c张。"
+        },
+        {
+          "type": "paragraph",
+          "text": "不用50元时，有20b＋10c＝90，即2b＋c＝9。受b≤4、c≤8限制，(b,c)只有(1,7)、(2,5)、(3,3)、(4,1)，共4种。使用50元时，剩40元，2b＋c＝4，只有(0,4)、(1,2)、(2,0)，共3种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两类互斥，相加得到4＋3＝7种，我们选C。把9张10元也算进去会违反只有8张10元的限制。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "付款方式按面额张数枚举，先分类，再检查每种面额的库存上限。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          100
+        ],
+        "printedPages": [
+          94
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-mother-01-p100.webp",
+            "alt": "排列组合问题（一） · 母题精讲1 · 讲义第94页",
+            "pdfPage": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t01-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s10-t01-mother-02",
+        "type": "single",
+        "stem": "（25国考）某竞赛由5道次序固定的判断题组成，参赛者起始为0分，每答对1题加1分，每答错1题扣1分。小王作答了所有试题，答完每道题时当前的得分都不低于1分。问他的答题情况有多少种不同的可能？",
+        "options": [
+          {
+            "value": "A",
+            "label": "7"
+          },
+          {
+            "value": "B",
+            "label": "6"
+          },
+          {
+            "value": "C",
+            "label": "4"
+          },
+          {
+            "value": "D",
+            "label": "3"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          100
+        ],
+        "printedPages": [
+          94
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-mother-02-p100.webp",
+            "alt": "排列组合问题（一） · 母题精讲2 · 讲义第94页",
+            "pdfPage": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t01-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t01-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看每一步都至少1分。第一题必须答对，得1分；第二题如果答错就回到0分，所以也必须答对，得2分。"
+        },
+        {
+          "type": "paragraph",
+          "text": "后三题各有对、错两种，共2³＝8种。唯一会在过程中低于1分的情况，是第三题和第四题连续答错，把2分扣到0分；第五题无论对错，这两条路径都已不合法。因此合格的有8−2＝6种，我们选B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们也可以列出后三题的6种合法结果：对对对、对对错、对错对、对错错、错对对、错对错。仅看最终总分会漏掉中途不合格的情况。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "过程分数限制必须逐步检查，先锁定被迫选择，再扣掉触碰下限的路径。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          100
+        ],
+        "printedPages": [
+          94
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-mother-02-p100.webp",
+            "alt": "排列组合问题（一） · 母题精讲2 · 讲义第94页",
+            "pdfPage": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t01-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s10-t01-mother-03",
+        "type": "single",
+        "stem": "（25四川）从5名男性和4名女性志愿者队伍中抽调6名志愿者去田径比赛、篮球比赛和跳水比赛做服务引导工作。田径比赛要求2名男性志愿者，篮球比赛要求男、女志愿者各1名，跳水比赛要求2名女性志愿者。问有多少种不同的抽调方式？",
+        "options": [
+          {
+            "value": "A",
+            "label": "300"
+          },
+          {
+            "value": "B",
+            "label": "320"
+          },
+          {
+            "value": "C",
+            "label": "360"
+          },
+          {
+            "value": "D",
+            "label": "400"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          100,
+          101
+        ],
+        "printedPages": [
+          94,
+          95
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-mother-03-p100.webp",
+            "alt": "排列组合问题（一） · 母题精讲3 · 讲义第94页",
+            "pdfPage": 100
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-mother-03-p101.webp",
+            "alt": "排列组合问题（一） · 母题精讲3 · 讲义第95页",
+            "pdfPage": 101
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t01-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t01-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们按比赛项目分步选人。同一项目内只要求选哪些志愿者，没有再分岗位，所以用组合。田径从5名男性中选2名，有C₅²＝10种；篮球男性从余下3名中选1名，有3种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "篮球女性从4名中选1名，有4种；跳水女性从余下3名中选2名，有C₃²＝3种。四步都要完成，相乘得10×3×4×3＝360种，我们选C。"
+        },
+        {
+          "type": "paragraph",
+          "text": "同一人不能被重复抽到两个项目，所以后一步要从剩余人中选；同一项目内部也不能额外乘2!。"
+        },
+        {
+          "type": "formula",
+          "latex": "C_5^2\\,C_3^1\\,C_4^1\\,C_3^2=360"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          100,
+          101
+        ],
+        "printedPages": [
+          94,
+          95
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-mother-03-p100.webp",
+            "alt": "排列组合问题（一） · 母题精讲3 · 讲义第94页",
+            "pdfPage": 100
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-mother-03-p101.webp",
+            "alt": "排列组合问题（一） · 母题精讲3 · 讲义第95页",
+            "pdfPage": 101
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t01-mother-03-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s10-t01-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "不同任务分步相乘，同一任务内部无岗位顺序用组合。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          100,
+          101
+        ],
+        "printedPages": [
+          94,
+          95
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-mother-03-p100.webp",
+            "alt": "排列组合问题（一） · 母题精讲3 · 讲义第94页",
+            "pdfPage": 100
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-mother-03-p101.webp",
+            "alt": "排列组合问题（一） · 母题精讲3 · 讲义第95页",
+            "pdfPage": 101
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t01-mother-04-question",
+      "type": "question",
+      "title": "母题精讲 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s10-t01-mother-04",
+        "type": "single",
+        "stem": "（25山东）某单位举办田径比赛，100米决赛将按半决赛成绩安排道次：前四名运动员，抽签排在3、4、5、6道；第五、第六名运动员，抽签排在7、8道；后两名运动员，抽签排在1、2道。问共有多少种安排方式?",
+        "options": [
+          {
+            "value": "A",
+            "label": "48"
+          },
+          {
+            "value": "B",
+            "label": "72"
+          },
+          {
+            "value": "C",
+            "label": "96"
+          },
+          {
+            "value": "D",
+            "label": "120"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          101
+        ],
+        "printedPages": [
+          95
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-mother-04-p101.webp",
+            "alt": "排列组合问题（一） · 母题精讲4 · 讲义第95页",
+            "pdfPage": 101
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t01-mother-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t01-mother-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把三个成绩组分别安排。前四名在3、4、5、6道内全排列，有4!＝24种；第五、第六名安排7、8道有2!＝2种；后两名安排1、2道也有2种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "三组安排相互独立，总数24×2×2＝96种，我们选C。赛道有区别，同一组内交换运动员会改变结果，所以是排列。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "已固定分组和位置范围时，各组内部全排列后相乘。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          101
+        ],
+        "printedPages": [
+          95
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-mother-04-p101.webp",
+            "alt": "排列组合问题（一） · 母题精讲4 · 讲义第95页",
+            "pdfPage": 101
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t01-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s10-t01-practice-01",
+        "type": "single",
+        "stem": "（26福建事考）三边长均为整数且周长为18的三角形有（ ）个。",
+        "options": [
+          {
+            "value": "A",
+            "label": "6"
+          },
+          {
+            "value": "B",
+            "label": "7"
+          },
+          {
+            "value": "C",
+            "label": "8"
+          },
+          {
+            "value": "D",
+            "label": "9"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          101
+        ],
+        "printedPages": [
+          95
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-practice-01-p101.webp",
+            "alt": "排列组合问题（一） · 思维精练1 · 讲义第95页",
+            "pdfPage": 101
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t01-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t01-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把三边记为a≤b≤c，这样同一个三角形不会因交换边长被重复算。周长18给出a＋b＋c＝18，三角形不等式a＋b＞c说明c＜9，同时最大边至少6，所以c只可能是6、7、8。"
+        },
+        {
+          "type": "paragraph",
+          "text": "c＝6时只有(6,6,6)；c＝7时有(4,7,7)、(5,6,7)；c＝8时有(2,8,8)、(3,7,8)、(4,6,8)、(5,5,8)。共1＋2＋4＝7个，我们选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "无序整数边长先排序，再按最大边分类，避免把同一个三角形重复排列。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          101
+        ],
+        "printedPages": [
+          95
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-practice-01-p101.webp",
+            "alt": "排列组合问题（一） · 思维精练1 · 讲义第95页",
+            "pdfPage": 101
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t01-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s10-t01-practice-02",
+        "type": "single",
+        "stem": "（26联考）已知甲地与乙地之间有5条路线直接连接，乙地与丙地之间有3条路线直接连接，甲地与丙地之间有2条路线直接连接。某人需要从甲地经过乙地，到达丙地后，再返回甲地，若要求往返路线没有任何重复，问共有多少种不同的路线选择？",
+        "options": [
+          {
+            "value": "A",
+            "label": "150"
+          },
+          {
+            "value": "B",
+            "label": "120"
+          },
+          {
+            "value": "C",
+            "label": "60"
+          },
+          {
+            "value": "D",
+            "label": "30"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          101,
+          102
+        ],
+        "printedPages": [
+          95,
+          96
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-practice-02-p101.webp",
+            "alt": "排列组合问题（一） · 思维精练2 · 讲义第95页",
+            "pdfPage": 101
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-practice-02-p102.webp",
+            "alt": "排列组合问题（一） · 思维精练2 · 讲义第96页",
+            "pdfPage": 102
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t01-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t01-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先安排去程：甲到乙5种，乙到丙3种，合起来5×3＝15种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "返回甲有两类。直接从丙到甲，有2种；经过乙返回，丙到乙不能走去程那条，还剩2种，乙到甲也不能重复去程那条，还剩4种，共2×4＝8种。返程合计2＋8＝10种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "去程和返程分步相乘，15×10＝150种，我们选A。返程是否经过乙是分类，经过乙后的两段是分步。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "路线题先按走法分类，同一走法内各路段相乘，并逐段扣已用路线。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          101,
+          102
+        ],
+        "printedPages": [
+          95,
+          96
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-practice-02-p101.webp",
+            "alt": "排列组合问题（一） · 思维精练2 · 讲义第95页",
+            "pdfPage": 101
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-practice-02-p102.webp",
+            "alt": "排列组合问题（一） · 思维精练2 · 讲义第96页",
+            "pdfPage": 102
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t01-practice-03-question",
+      "type": "question",
+      "title": "思维精练 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s10-t01-practice-03",
+        "type": "single",
+        "stem": "（25联考）某风景区内有5个收费景点，门票分别为10元、10元、20元、20元、20元。老李花了40元购买门票，依次游览了不同景点。那么可能的游览方式有多少种？",
+        "options": [
+          {
+            "value": "A",
+            "label": "6"
+          },
+          {
+            "value": "B",
+            "label": "18"
+          },
+          {
+            "value": "C",
+            "label": "24"
+          },
+          {
+            "value": "D",
+            "label": "60"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          102
+        ],
+        "printedPages": [
+          96
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-practice-03-p102.webp",
+            "alt": "排列组合问题（一） · 思维精练3 · 讲义第96页",
+            "pdfPage": 102
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t01-practice-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t01-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先按购买的票价组合分类。花40元只可能是“两张20元”，或者“两张10元加一张20元”。虽然票价相同，景点本身不同，而且题目说依次游览，所以选完还要排列。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两张20元：从3个20元景点选2个再排顺序，有C₃²×2!＝6种。两张10元加一张20元：两个10元景点都选，20元景点3选1，三个景点排序，共3×3!＝18种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两类相加6＋18＝24种，我们选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先按费用枚举可选集合，再根据“依次”乘访问顺序。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          102
+        ],
+        "printedPages": [
+          96
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-practice-03-p102.webp",
+            "alt": "排列组合问题（一） · 思维精练3 · 讲义第96页",
+            "pdfPage": 102
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t01-practice-04-question",
+      "type": "question",
+      "title": "思维精练 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s10-t01-practice-04",
+        "type": "single",
+        "stem": "（25选调）甲和乙两个单位分别有职工20名和14名，且甲单位男性占比正好比乙单位男性占比高5个百分点（乙单位男性职工数不为零）。现要从甲、乙单位选出3名男性参加某个会议，每个单位至少选1人，问有多少种不同的选择方式?",
+        "options": [
+          {
+            "value": "A",
+            "label": "586"
+          },
+          {
+            "value": "B",
+            "label": "616"
+          },
+          {
+            "value": "C",
+            "label": "770"
+          },
+          {
+            "value": "D",
+            "label": "840"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          102
+        ],
+        "printedPages": [
+          96
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-practice-04-p102.webp",
+            "alt": "排列组合问题（一） · 思维精练4 · 讲义第96页",
+            "pdfPage": 102
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t01-practice-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t01-practice-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先求两个单位的男性人数。设甲有x名、乙有y名男性，则x/20−y/14＝5%，整理为7x−10y＝7。由模7关系可知y是7的倍数；乙男性不为0且不超过14，所以y＝7或14。"
+        },
+        {
+          "type": "paragraph",
+          "text": "y＝7时x＝11；y＝14时x＝21，超过甲总人数20而排除。因此甲11名男性、乙7名男性。"
+        },
+        {
+          "type": "paragraph",
+          "text": "3人中每单位至少1人，分成甲2乙1与甲1乙2两类，合计C₁₁²×7＋11×C₇²＝55×7＋11×21＝616种。会议成员没有不同职位，不能再乘3!，我们选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先用人数整数性解比例差，再按每组至少一人的结构分类组合。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          102
+        ],
+        "printedPages": [
+          96
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t01-practice-04-p102.webp",
+            "alt": "排列组合问题（一） · 思维精练4 · 讲义第96页",
+            "pdfPage": 102
+          }
+        ]
+      }
+    }
+  ]
+}

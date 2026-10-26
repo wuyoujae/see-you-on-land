@@ -1,0 +1,67 @@
+{
+  "id": "analysis-p2-l07",
+  "subjectId": "analysis",
+  "groupId": "analysis-average",
+  "title": "基期平均数：现期平均数，乘增长率反过来",
+  "source": {
+    "startSeconds": 3485,
+    "endSeconds": 3588,
+    "timeLabel": "00:58:05—00:59:48",
+    "videoId": "7668729047387524358",
+    "videoTitle": "资料分析完整复盘"
+  },
+  "cards": [
+    {
+      "id": "analysis-p2-l07-knowledge-c8b4a1b-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "基期平均数：现期平均数，乘增长率反过来 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "这和前面学的基期比值是同一个结构。平均数本来就是一个分数，分子分母各有自己的增长率。想算去年的平均数，就把分子、分母都还原到去年，再相除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "设分子现期为A、增长率为a，分母现期为B、增长率为b。"
+        },
+        {
+          "type": "formula",
+          "latex": "基期平均数=\\frac{A/(1+a)}{B/(1+b)}=\\frac{A}{B}\\times\\frac{1+b}{1+a}"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们用一句话来记：“先算现期平均数，再乘1加增长率反过来”。分母的增长率跑上面，分子的增长率跑下面。"
+        },
+        {
+          "type": "paragraph",
+          "text": "例子：今年南瓜产量100亿吨，同比增长10%；瓜农1000人，同比增长5%。问去年人均南瓜产量多少？"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先判题型：“去年”是基期，“人均”是平均数，合起来就是基期平均数。不是求产量的基期，也不是只求人口的基期。"
+        },
+        {
+          "type": "paragraph",
+          "text": "先算今年的100/1000，再乘(1＋5%)/(1＋10%)："
+        },
+        {
+          "type": "formula",
+          "latex": "去年人均产量=\\frac{100}{1000}\\times\\frac{1+5\\%}{1+10\\%}\\approx0.09545\\text{亿吨/人}"
+        }
+      ]
+    },
+    {
+      "id": "analysis-p2-l07-knowledge-c8b4a1b-02",
+      "type": "text",
+      "role": "knowledge",
+      "title": "基期平均数：现期平均数，乘增长率反过来 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "这里的单位沿用这个例子的“亿吨/人”。这组数字是为练公式随手举的，最后别因为看见增长率就把答案写成百分比。"
+        }
+      ]
+    }
+  ]
+}

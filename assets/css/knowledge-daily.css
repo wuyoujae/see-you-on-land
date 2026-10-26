@@ -1,0 +1,17 @@
+.daily-knowledge-heading { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); }
+.daily-knowledge-heading h2 { font-size: var(--text-sm); font-weight: var(--weight-medium); color: var(--muted-strong); }
+.daily-knowledge-heading > span { color: var(--accent); font-size: var(--text-xs); }
+.daily-knowledge-statement { margin-top: var(--space-4); font-size: var(--text-lg); line-height: 1.9; color: var(--ink); overflow-wrap: anywhere; white-space: pre-line; }
+.daily-knowledge-source { margin-top: var(--space-3); color: var(--muted); font-size: var(--text-caption); }
+.daily-knowledge-source summary { display: inline-flex; align-items: center; gap: var(--space-1); cursor: pointer; list-style: none; }
+.daily-knowledge-source summary::-webkit-details-marker { display: none; }
+.daily-knowledge-source summary::after { content: "+"; font-size: var(--text-base); line-height: 1; transition: transform var(--duration-fast) var(--ease-standard); }
+.daily-knowledge-source[open] summary::after { transform: rotate(45deg); }
+.daily-knowledge-source p { padding-top: var(--space-2); line-height: 1.6; }
+.daily-knowledge-source a { display: inline-block; margin-top: var(--space-2); color: var(--accent); text-underline-offset: .2rem; }
+.daily-knowledge-notice { margin-top: var(--space-3); color: var(--amber); font-size: var(--text-caption); line-height: 1.6; }
+.daily-knowledge-retry { margin-top: var(--space-3); padding: var(--space-2) var(--space-4); border: var(--border-width) solid var(--accent-line); border-radius: var(--radius-control); color: var(--accent); background: var(--accent-soft); cursor: pointer; }
+.daily-knowledge [hidden] { display: none; }
+.daily-knowledge-statement.is-ready { animation: knowledge-appear var(--duration-normal) var(--ease-standard) both; }
+@keyframes knowledge-appear { from { opacity: 0; transform: translateY(.3rem); } to { opacity: 1; transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) { .daily-knowledge-statement.is-ready { animation: none; } }

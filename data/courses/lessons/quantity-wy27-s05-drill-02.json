@@ -1,0 +1,431 @@
+{
+  "id": "quantity-wy27-s05-drill-02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s05",
+  "title": "实战精刷 · 5—8题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      59,
+      60
+    ],
+    "printedPages": [
+      53,
+      54
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s05-t02-drill-05-question",
+      "type": "question",
+      "title": "实战精刷 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s05-t02-drill-05",
+        "type": "single",
+        "stem": "（21广东）为支持“一带一路”建设，某公司派出甲、乙两队工程人员出国参与一个高铁建设项目。如果由甲队单独施工，200天可完成该项目；如果由乙队单独施工，则需要300天。甲、乙两队共同施工60天后，甲队被临时调离，由乙队单独完成剩余任务，则完成该项目共需（）天。",
+        "options": [
+          {
+            "value": "A",
+            "label": "120"
+          },
+          {
+            "value": "B",
+            "label": "150"
+          },
+          {
+            "value": "C",
+            "label": "180"
+          },
+          {
+            "value": "D",
+            "label": "210"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          59
+        ],
+        "printedPages": [
+          53
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-05-p059.webp",
+            "alt": "工程问题 · 实战精刷5 · 讲义第53页",
+            "pdfPage": 59
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t02-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设总工程量600份，甲每天3份、乙每天2份。共同施工60天完成(3＋2)×60＝300份，剩300份。"
+        },
+        {
+          "type": "paragraph",
+          "text": "剩余由乙单独做，需要300÷2＝150天。总工期为前60＋后150＝210天，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "分段工程先算剩余量，总工期记得加回最初合作时间。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          59
+        ],
+        "printedPages": [
+          53
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-05-p059.webp",
+            "alt": "工程问题 · 实战精刷5 · 讲义第53页",
+            "pdfPage": 59
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-06-question",
+      "type": "question",
+      "title": "实战精刷 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s05-t02-drill-06",
+        "type": "single",
+        "stem": "（24联考）有一批零件，如果甲车间单独完成需要50个小时，乙车间单独完成需要30个小时。在甲车间单独完成若干小时后，由于承担其他紧急任务，剩余的任务由乙车间继续完成，这样一共用42个小时。问乙车间完成的零件量占这批零件量的：",
+        "options": [
+          {
+            "value": "A",
+            "label": "3/4"
+          },
+          {
+            "value": "B",
+            "label": "3/5"
+          },
+          {
+            "value": "C",
+            "label": "2/5"
+          },
+          {
+            "value": "D",
+            "label": "1/3"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          59,
+          60
+        ],
+        "printedPages": [
+          53,
+          54
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-06-p059.webp",
+            "alt": "工程问题 · 实战精刷6 · 讲义第53页",
+            "pdfPage": 59
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-06-p060.webp",
+            "alt": "工程问题 · 实战精刷6 · 讲义第54页",
+            "pdfPage": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t02-drill-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设总量150份，甲每小时3份、乙每小时5份。如果42小时全由甲完成，只能做126份，比实际任务少24份。"
+        },
+        {
+          "type": "paragraph",
+          "text": "每换成乙工作1小时，比甲多做2份，因此乙工作24÷2＝12小时，完成12×5＝60份。"
+        },
+        {
+          "type": "paragraph",
+          "text": "乙完成的比例＝60/150＝2/5，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "总时间固定可用假设全由慢者做，再用效率差求快者实际工作时间。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          59,
+          60
+        ],
+        "printedPages": [
+          53,
+          54
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-06-p059.webp",
+            "alt": "工程问题 · 实战精刷6 · 讲义第53页",
+            "pdfPage": 59
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-06-p060.webp",
+            "alt": "工程问题 · 实战精刷6 · 讲义第54页",
+            "pdfPage": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-07-question",
+      "type": "question",
+      "title": "实战精刷 · 第7题",
+      "question": {
+        "id": "quantity-wy27-s05-t02-drill-07",
+        "type": "single",
+        "stem": "（22联考）甲、乙、丙三个工程队接到A、B两个工程的施工任务。如仅甲、乙两队合作，则A工程需要30天，B工程需要20天；如甲单独施工B工程，30天可以完工；乙和丙合作施工A工程，24天可以完工。问：三个队合作施工两个工程，多少天可以完工？（不足1天按1天算）",
+        "options": [
+          {
+            "value": "A",
+            "label": "24"
+          },
+          {
+            "value": "B",
+            "label": "25"
+          },
+          {
+            "value": "C",
+            "label": "26"
+          },
+          {
+            "value": "D",
+            "label": "27"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          60
+        ],
+        "printedPages": [
+          54
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-07-p060.webp",
+            "alt": "工程问题 · 实战精刷7 · 讲义第54页",
+            "pdfPage": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-07-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t02-drill-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把甲乙合作效率设为6份/天，则A工程180份、B工程120份。甲单独做B要30天，所以甲效率4，乙效率2。"
+        },
+        {
+          "type": "paragraph",
+          "text": "乙丙合作做A需24天，合效率180÷24＝7.5，所以丙效率5.5。三队合效率4＋2＋5.5＝11.5份/天。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两个工程共300份，需要300÷11.5＝600/23≈26.09天。不足1天按1天算，需27天，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "多个工程先换成同一工作量单位，再按题目要求向上取整。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          60
+        ],
+        "printedPages": [
+          54
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-07-p060.webp",
+            "alt": "工程问题 · 实战精刷7 · 讲义第54页",
+            "pdfPage": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-08-question",
+      "type": "question",
+      "title": "实战精刷 · 第8题",
+      "question": {
+        "id": "quantity-wy27-s05-t02-drill-08",
+        "type": "single",
+        "stem": "（23联考）轨道交通公司定期进行轨道检修工作，甲、乙两个工程队合作进行需4小时完成，甲队单独完成比乙队单独完成快15小时，则甲队单独完成需要的时间是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "5小时"
+          },
+          {
+            "value": "B",
+            "label": "6小时"
+          },
+          {
+            "value": "C",
+            "label": "7小时"
+          },
+          {
+            "value": "D",
+            "label": "8小时"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          60
+        ],
+        "printedPages": [
+          54
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-08-p060.webp",
+            "alt": "工程问题 · 实战精刷8 · 讲义第54页",
+            "pdfPage": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-08-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t02-drill-08",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设甲单独需t小时，则乙需t＋15小时。总量设为1，合作4小时完成，所以1/t＋1/(t＋15)＝1/4。"
+        },
+        {
+          "type": "paragraph",
+          "text": "整理得t²＋7t－60＝0，即(t－5)(t＋12)＝0。工时必须为正，所以t＝5。"
+        },
+        {
+          "type": "paragraph",
+          "text": "甲5小时、乙20小时的效率和为1/4，符合题意，选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "已知单独时间差时用倒数表示效率，不把工时直接相加。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          60
+        ],
+        "printedPages": [
+          54
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-08-p060.webp",
+            "alt": "工程问题 · 实战精刷8 · 讲义第54页",
+            "pdfPage": 60
+          }
+        ]
+      }
+    }
+  ]
+}

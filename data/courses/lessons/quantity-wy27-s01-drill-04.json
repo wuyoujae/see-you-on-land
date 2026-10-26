@@ -1,0 +1,119 @@
+{
+  "id": "quantity-wy27-s01-drill-04",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s01",
+  "title": "实战精刷 · 第13题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      18
+    ],
+    "printedPages": [
+      12
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s01-t03-drill-13-question",
+      "type": "question",
+      "title": "实战精刷 · 第13题",
+      "question": {
+        "id": "quantity-wy27-s01-t03-drill-13",
+        "type": "single",
+        "stem": "（26浙江）乒乓球馆有14张球桌正在进行趣味比赛，其中双打总人数是单打的1.5倍。已知参与单打的男生人数13人，参与双打的男生人数15人，那么参与单打的女生人数比参与双打的女生人数：",
+        "options": [
+          {
+            "value": "A",
+            "label": "少4人"
+          },
+          {
+            "value": "B",
+            "label": "多4人"
+          },
+          {
+            "value": "C",
+            "label": "少6人"
+          },
+          {
+            "value": "D",
+            "label": "多6人"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          18
+        ],
+        "printedPages": [
+          12
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-13-p018.webp",
+            "alt": "和差倍比问题（一） · 实战精刷13 · 讲义第12页",
+            "pdfPage": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-13-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t03-drill-13",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把球桌类型和人数区分开。设双打x桌、单打y桌，则x+y=14。双打一桌4人，单打一桌2人；双打人数为单打的1.5倍，所以4x=1.5×2y，即x∶y=3∶4。"
+        },
+        {
+          "type": "formula",
+          "latex": "x=6,\\ y=8,\\quad单打女生=16-13=3,\\quad双打女生=24-15=9"
+        },
+        {
+          "type": "paragraph",
+          "text": "单打女生比双打女生少6人，选C。14桌对应40人，不是14人。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先把每类的“个数”换成实际人数，再用比例计算。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          18
+        ],
+        "printedPages": [
+          12
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-13-p018.webp",
+            "alt": "和差倍比问题（一） · 实战精刷13 · 讲义第12页",
+            "pdfPage": 18
+          }
+        ]
+      }
+    }
+  ]
+}

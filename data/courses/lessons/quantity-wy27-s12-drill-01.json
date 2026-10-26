@@ -1,0 +1,535 @@
+{
+  "id": "quantity-wy27-s12-drill-01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s12",
+  "title": "实战精刷 · 1—4题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      128,
+      129
+    ],
+    "printedPages": [
+      122,
+      123
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s12-t02-drill-01-question",
+      "type": "question",
+      "title": "实战精刷 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s12-t02-drill-01",
+        "type": "single",
+        "stem": "（26福建事考）书柜中有5本书，编号分别为1到5。现随机不放回逐本取出，则恰好按照编号从小到大顺序取出的概率是（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "1/120"
+          },
+          {
+            "value": "B",
+            "label": "1/60"
+          },
+          {
+            "value": "C",
+            "label": "1/30"
+          },
+          {
+            "value": "D",
+            "label": "1/5"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          128
+        ],
+        "printedPages": [
+          122
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-01-p128.webp",
+            "alt": "概率问题（一） · 实战精刷1 · 讲义第122页",
+            "pdfPage": 128
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t02-drill-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看取书顺序。5本不同的书有5!=120种等可能排列，符合题意的只有1、2、3、4、5这一种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "因此概率为1/120，我们选A。也可以按每一步取到指定书的概率相乘：1/5×1/4×1/3×1/2×1。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac1{5!}=\\frac1{120}"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "完全指定的随机排列只有一种，概率是排列总数的倒数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          128
+        ],
+        "printedPages": [
+          122
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-01-p128.webp",
+            "alt": "概率问题（一） · 实战精刷1 · 讲义第122页",
+            "pdfPage": 128
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-02-question",
+      "type": "question",
+      "title": "实战精刷 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s12-t02-drill-02",
+        "type": "single",
+        "stem": "（25四川）教师从某班级学号为01—07的7名学生中随机抽出3名做值日，则这3名学生学号恰好为三个相邻自然数的概率为：",
+        "options": [
+          {
+            "value": "A",
+            "label": "1/7"
+          },
+          {
+            "value": "B",
+            "label": "1/6"
+          },
+          {
+            "value": "C",
+            "label": "1/5"
+          },
+          {
+            "value": "D",
+            "label": "1/4"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          128
+        ],
+        "printedPages": [
+          122
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-02-p128.webp",
+            "alt": "概率问题（一） · 实战精刷2 · 讲义第122页",
+            "pdfPage": 128
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t02-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把连续的三人按最小学号枚举：01—03、02—04、03—05、04—06、05—07，一共5组。"
+        },
+        {
+          "type": "paragraph",
+          "text": "7人中选3人总共有35种组合，不计抽出的先后顺序。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac5{\\binom73}=\\frac17"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以概率5/35=1/7，我们选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          128
+        ],
+        "printedPages": [
+          122
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-02-p128.webp",
+            "alt": "概率问题（一） · 实战精刷2 · 讲义第122页",
+            "pdfPage": 128
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t02-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "连续若干个编号可先枚举起点，分母仍按不计顺序的组合数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          128
+        ],
+        "printedPages": [
+          122
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-02-p128.webp",
+            "alt": "概率问题（一） · 实战精刷2 · 讲义第122页",
+            "pdfPage": 128
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-03-question",
+      "type": "question",
+      "title": "实战精刷 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s12-t02-drill-03",
+        "type": "single",
+        "stem": "（26河南事考）某单位共有23名职工，从所有职工中随机选出4人参加会议，正好选出3名女性职工和正好选出2名女性职工的概率相同。问正好选出1名女性职工的概率在以下哪个范围内？",
+        "options": [
+          {
+            "value": "A",
+            "label": "不到0.1"
+          },
+          {
+            "value": "B",
+            "label": "超过0.5"
+          },
+          {
+            "value": "C",
+            "label": "0.3—0.5之间"
+          },
+          {
+            "value": "D",
+            "label": "0.1—0.3之间"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          128,
+          129
+        ],
+        "printedPages": [
+          122,
+          123
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-03-p128.webp",
+            "alt": "概率问题（一） · 实战精刷3 · 讲义第122页",
+            "pdfPage": 128
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-03-p129.webp",
+            "alt": "概率问题（一） · 实战精刷3 · 讲义第123页",
+            "pdfPage": 129
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t02-drill-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设女性w人、男性m人，w+m=23。两种概率分母相同，有利组合数相等：3女1男与2女2男的组合数相等。"
+        },
+        {
+          "type": "paragraph",
+          "text": "约分得到2(w−2)=3(m−1)。联立总人数23，解得女性14人、男性9人。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\binom w3\\binom m1=\\binom w2\\binom m2,\\quad P=\\frac{\\binom{14}1\\binom93}{\\binom{23}4}\\approx0.133"
+        },
+        {
+          "type": "paragraph",
+          "text": "恰好1女就是从14人中选1人、9人中选3人，概率1176/8855约0.133，落在0.1—0.3之间，我们选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          128,
+          129
+        ],
+        "printedPages": [
+          122,
+          123
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-03-p128.webp",
+            "alt": "概率问题（一） · 实战精刷3 · 讲义第122页",
+            "pdfPage": 128
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-03-p129.webp",
+            "alt": "概率问题（一） · 实战精刷3 · 讲义第123页",
+            "pdfPage": 129
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-03-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t02-drill-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "概率相等先消去公共总样本数，用组合关系反求人数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          128,
+          129
+        ],
+        "printedPages": [
+          122,
+          123
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-03-p128.webp",
+            "alt": "概率问题（一） · 实战精刷3 · 讲义第122页",
+            "pdfPage": 128
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-03-p129.webp",
+            "alt": "概率问题（一） · 实战精刷3 · 讲义第123页",
+            "pdfPage": 129
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-04-question",
+      "type": "question",
+      "title": "实战精刷 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s12-t02-drill-04",
+        "type": "single",
+        "stem": "（25联考）某公司甲部门男性员工比女性多2人，乙部门女性员工比男性多3人。已知甲、乙两部门女性员工共6人，问从甲、乙两部门中随机选出4人，恰好选到2名男员工和2名女员工的概率是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "4/11"
+          },
+          {
+            "value": "B",
+            "label": "5/11"
+          },
+          {
+            "value": "C",
+            "label": "2/33"
+          },
+          {
+            "value": "D",
+            "label": "5/66"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          129
+        ],
+        "printedPages": [
+          123
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-04-p129.webp",
+            "alt": "概率问题（一） · 实战精刷4 · 讲义第123页",
+            "pdfPage": 129
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t02-drill-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先合并两个部门。甲男性=甲女性+2，乙男性=乙女性−3，所以男性总数=女性总数−1=5人，女性6人，共11人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "恰好2男2女，有利组合为5选2乘6选2，总组合为11选4。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac{\\binom52\\binom62}{\\binom{11}4}=\\frac5{11}"
+        },
+        {
+          "type": "paragraph",
+          "text": "概率150/330=5/11，我们选B。题目没要求两个部门各选几人，不用额外按部门分类。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          129
+        ],
+        "printedPages": [
+          123
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-04-p129.webp",
+            "alt": "概率问题（一） · 实战精刷4 · 讲义第123页",
+            "pdfPage": 129
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-04-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t02-drill-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先合并性别总量；没有部门限制时不要多分情况。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          129
+        ],
+        "printedPages": [
+          123
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-04-p129.webp",
+            "alt": "概率问题（一） · 实战精刷4 · 讲义第123页",
+            "pdfPage": 129
+          }
+        ]
+      }
+    }
+  ]
+}

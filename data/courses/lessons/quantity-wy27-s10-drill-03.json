@@ -1,0 +1,433 @@
+{
+  "id": "quantity-wy27-s10-drill-03",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s10",
+  "title": "实战精刷 · 9—12题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      109,
+      110
+    ],
+    "printedPages": [
+      103,
+      104
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s10-t03-drill-09-question",
+      "type": "question",
+      "title": "实战精刷 · 第9题",
+      "question": {
+        "id": "quantity-wy27-s10-t03-drill-09",
+        "type": "single",
+        "stem": "（26浙江事考）编号为1、2、3、4、5、6的6个货物箱如图叠放。现逐一搬走货物箱，搬运时只能搬上面没有货物箱压着的货物箱。问将6个货物箱全部搬走，有多少种不同的搬运顺序？",
+        "options": [
+          {
+            "value": "A",
+            "label": "16"
+          },
+          {
+            "value": "B",
+            "label": "24"
+          },
+          {
+            "value": "C",
+            "label": "32"
+          },
+          {
+            "value": "D",
+            "label": "48"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（26浙江事考）编号为1、2、3、4、5、6的6个货物箱如图叠放。现逐一搬走货物箱，搬运时只能搬上面没有货物箱压着的货物箱。问将6个货物箱全部搬走，有多少种不同的搬运顺序？"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-09-figure-01.webp",
+            "alt": "排列组合问题（一）原题示意图，讲义第103页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          109
+        ],
+        "printedPages": [
+          103
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-09-p109.webp",
+            "alt": "排列组合问题（一） · 实战精刷9 · 讲义第103页",
+            "pdfPage": 109
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-09-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t03-drill-09",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看图中遮压关系：1在2、3上面；2压着4、5；3压着5、6。因此第一步只能搬1，第二步可搬2或3，两类对称。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先算第二步搬2。第三步可搬3或4：若搬3，剩下4、5、6都没有遮压，任意排列3!＝6种；若搬4，下一步只能搬3，最后5、6互换有2种。本类共6＋2＝8种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第二步搬3同样8种，所以总共16种，我们选A。箱5必须等2和3都搬完才能搬，不能提前算作自由选择。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先后约束问题按当前能执行的动作分支，分支内继续检查前置条件。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          109
+        ],
+        "printedPages": [
+          103
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-09-p109.webp",
+            "alt": "排列组合问题（一） · 实战精刷9 · 讲义第103页",
+            "pdfPage": 109
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-10-question",
+      "type": "question",
+      "title": "实战精刷 · 第10题",
+      "question": {
+        "id": "quantity-wy27-s10-t03-drill-10",
+        "type": "single",
+        "stem": "（26江苏）某智能工厂新开3条生产线，安排5名员工管理，要求每名员工至少管理一条生产线，每条生产线都恰有2名员工管理。若这5名员工中有2名员工能管理2条生产线，其余3名员工都只能管理一条生产线，则不同的安排方式共有：",
+        "options": [
+          {
+            "value": "A",
+            "label": "72种"
+          },
+          {
+            "value": "B",
+            "label": "108种"
+          },
+          {
+            "value": "C",
+            "label": "144种"
+          },
+          {
+            "value": "D",
+            "label": "180种"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          109
+        ],
+        "printedPages": [
+          103
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-10-p109.webp",
+            "alt": "排列组合问题（一） · 实战精刷10 · 讲义第103页",
+            "pdfPage": 109
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-10-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t03-drill-10",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先数管理名额：3条线每条2人，一共有6个人次。5名员工每人至少管理1条，因此恰好1人管理2条，其余4人各1条。能兼管的人有2名，所以先选兼管者2种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这名兼管者从3条生产线中选2条，有C₃²＝3种。此时另一条未被兼管的线还缺2人，两条被兼管的线各缺1人。余下4人中选2人去前一条线，有C₄²＝6种，再把剩下2人分到两个不同的单人空位，有2!＝2种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "总数2×3×6×2＝72种，我们选A。每条线内两名员工没有上下级之分，所以不能把同一条线的两人再排列。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先用“总人次−总人数”判断兼任人数，再按各对象剩余容量分配。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          109
+        ],
+        "printedPages": [
+          103
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-10-p109.webp",
+            "alt": "排列组合问题（一） · 实战精刷10 · 讲义第103页",
+            "pdfPage": 109
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-11-question",
+      "type": "question",
+      "title": "实战精刷 · 第11题",
+      "question": {
+        "id": "quantity-wy27-s10-t03-drill-11",
+        "type": "single",
+        "stem": "（23四川事考）要将不同的五种商品A、B、C、D、E在货柜上排成一排，其中A、B必须排在一起，C、D不能排在一起。则有（）种不同的排列方式。",
+        "options": [
+          {
+            "value": "A",
+            "label": "12"
+          },
+          {
+            "value": "B",
+            "label": "20"
+          },
+          {
+            "value": "C",
+            "label": "24"
+          },
+          {
+            "value": "D",
+            "label": "48"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          109
+        ],
+        "printedPages": [
+          103
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-11-p109.webp",
+            "alt": "排列组合问题（一） · 实战精刷11 · 讲义第103页",
+            "pdfPage": 109
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-11-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t03-drill-11",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先只考虑A、B相邻。把AB捆成一块，与C、D、E共4个元素，全排列4!种，AB内部2种，合计48种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "其中不合格的是C、D也相邻。再把CD捆成一块，外部AB块、CD块、E共3个元素，有3!种，两个块内部各2种，共3!×2×2＝24种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "合法48−24＝24种，我们选C。第二步扣的是在AB已经相邻的基础上CD也相邻的情形。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "一个相邻、一个不相邻，可先捆绑必需相邻者，再减去另一组也相邻的情况。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          109
+        ],
+        "printedPages": [
+          103
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-11-p109.webp",
+            "alt": "排列组合问题（一） · 实战精刷11 · 讲义第103页",
+            "pdfPage": 109
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-12-question",
+      "type": "question",
+      "title": "实战精刷 · 第12题",
+      "question": {
+        "id": "quantity-wy27-s10-t03-drill-12",
+        "type": "single",
+        "stem": "（26联考）小明假期计划每周学习滑雪的天数不少于2天，学习乒乓球1天，周六、周日休息，且不能连续两天学习同一项运动，每天至多学习一项。问其每周的学习计划有多少种不同安排？",
+        "options": [
+          {
+            "value": "A",
+            "label": "10"
+          },
+          {
+            "value": "B",
+            "label": "14"
+          },
+          {
+            "value": "C",
+            "label": "20"
+          },
+          {
+            "value": "D",
+            "label": "26"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          110
+        ],
+        "printedPages": [
+          104
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-12-p110.webp",
+            "alt": "排列组合问题（一） · 实战精刷12 · 讲义第104页",
+            "pdfPage": 110
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-12-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t03-drill-12",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们只安排周一至周五。滑雪不能相邻，最多安排3天，所以分成滑雪2天和滑雪3天。乒乓球只有1天，不会与自身形成连续两天。"
+        },
+        {
+          "type": "paragraph",
+          "text": "滑雪2天时，5天中选两个不相邻位置，有C₄²＝6种；乒乓球可以放在另外3天中的任意一天，得18种。滑雪3天时只能放周一、周三、周五，乒乓球放周二或周四，得2种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "合计18＋2＝20种，我们选C。其余工作日允许休息，“每天至多一项”并不要求每天都学。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先列活动次数，再选不相邻日期；“至多一项”允许空白日。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          110
+        ],
+        "printedPages": [
+          104
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-12-p110.webp",
+            "alt": "排列组合问题（一） · 实战精刷12 · 讲义第104页",
+            "pdfPage": 110
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,582 @@
+{
+  "id": "quantity-wy27-s13-t02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s13",
+  "title": "多次独立重复试验",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      136,
+      137,
+      138
+    ],
+    "printedPages": [
+      130,
+      131,
+      132
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s13-t02-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "多次独立重复试验",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们套重复试验公式前先核对四点：试验条件相同、各次相互独立、每次只看成功或失败、成功率p固定。n次中恰好k次成功，要先选哪k次成功，再乘成功与失败的概率。"
+        },
+        {
+          "type": "formula",
+          "latex": "P(X=k)=\\binom nk p^k(1-p)^{n-k}"
+        },
+        {
+          "type": "paragraph",
+          "text": "“至少k次”要把k到n次相加，“连续n次全成功”只有一条全成功路径，直接pⁿ。不同试验成功率不同，或者发球方改变导致成功率变化时，不套同一个p的二项分布。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          136,
+          137,
+          138
+        ],
+        "printedPages": [
+          130,
+          131,
+          132
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t02-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s13-t02-mother-01",
+        "type": "single",
+        "stem": "（25山东）山东某图书馆开展古籍数字化转化实验，每册转化成功率为90%。假设每册古籍数字化转化成功与否互不影响，现选择4册古籍进行数字化转化，问至少有3册转化成功的概率是多少？",
+        "options": [
+          {
+            "value": "A",
+            "label": "65.97%"
+          },
+          {
+            "value": "B",
+            "label": "70.74%"
+          },
+          {
+            "value": "C",
+            "label": "94.77%"
+          },
+          {
+            "value": "D",
+            "label": "99.63%"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          137
+        ],
+        "printedPages": [
+          131
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t02-mother-01-p137.webp",
+            "alt": "概率问题（二） · 母题精讲1 · 讲义第131页",
+            "pdfPage": 137
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t02-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s13-t02-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先确认每册成功率都是0.9，且相互独立，符合重复试验。至少3册成功包括恰好3册和4册全成功。"
+        },
+        {
+          "type": "paragraph",
+          "text": "恰好3册时，选哪1册失败有4种，概率4×0.9³×0.1=0.2916；全成功概率0.9⁴=0.6561。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\binom43(0.9)^3(0.1)+(0.9)^4=0.9477"
+        },
+        {
+          "type": "paragraph",
+          "text": "合计0.9477，即94.77%，我们选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          137
+        ],
+        "printedPages": [
+          131
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t02-mother-01-p137.webp",
+            "alt": "概率问题（二） · 母题精讲1 · 讲义第131页",
+            "pdfPage": 137
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t02-mother-01-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s13-t02-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "至少k次成功要把k到n次的概率都算上。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          137
+        ],
+        "printedPages": [
+          131
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t02-mother-01-p137.webp",
+            "alt": "概率问题（二） · 母题精讲1 · 讲义第131页",
+            "pdfPage": 137
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t02-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s13-t02-mother-02",
+        "type": "single",
+        "stem": "（25联考）某种农作物一年一熟，每次种植均有0.2的概率歉收，有0.3的概率丰产。问该农作物连续3年丰产的概率是连续3年歉收概率的多少倍？",
+        "options": [
+          {
+            "value": "A",
+            "label": "2.5以下"
+          },
+          {
+            "value": "B",
+            "label": "2.5~3之间"
+          },
+          {
+            "value": "C",
+            "label": "3~4.5之间"
+          },
+          {
+            "value": "D",
+            "label": "4.5以上"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          137
+        ],
+        "printedPages": [
+          131
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t02-mother-02-p137.webp",
+            "alt": "概率问题（二） · 母题精讲2 · 讲义第131页",
+            "pdfPage": 137
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t02-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s13-t02-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们按各年种植结果相互独立、概率不变的模型，连续3年丰产概率为0.3³，连续3年歉收概率为0.2³。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两者相除，就是单年概率比的3次方：（3/2）³=27/8=3.375。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{(0.3)^3}{(0.2)^3}=\\left(\\frac32\\right)^3=3.375"
+        },
+        {
+          "type": "paragraph",
+          "text": "3.375位于3—4.5之间，我们选C。“连续3年”已经固定每一年都发生，不需要再乘组合数。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          137
+        ],
+        "printedPages": [
+          131
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t02-mother-02-p137.webp",
+            "alt": "概率问题（二） · 母题精讲2 · 讲义第131页",
+            "pdfPage": 137
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t02-mother-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s13-t02-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "全部成功这一条路径的概率直接乘幂，不额外乘选择次数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          137
+        ],
+        "printedPages": [
+          131
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t02-mother-02-p137.webp",
+            "alt": "概率问题（二） · 母题精讲2 · 讲义第131页",
+            "pdfPage": 137
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t02-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s13-t02-practice-01",
+        "type": "single",
+        "stem": "（25联考）甲进球概率0.6，乙进球概率0.5，两个人各投两球，甲比乙多进一球的概率是（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "0.3"
+          },
+          {
+            "value": "B",
+            "label": "0.4"
+          },
+          {
+            "value": "C",
+            "label": "0.5"
+          },
+          {
+            "value": "D",
+            "label": "0.6"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          137
+        ],
+        "printedPages": [
+          131
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t02-practice-01-p137.webp",
+            "alt": "概率问题（二） · 思维精练1 · 讲义第131页",
+            "pdfPage": 137
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t02-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s13-t02-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把“甲比乙多进一球”分清楚：只有甲进1球乙进0球，或者甲进2球乙进1球两类。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第一类概率为（2×0.6×0.4）×0.5²=0.12；第二类为0.6²×（2×0.5×0.5）=0.18。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\binom21(0.6)(0.4)(0.5)^2+(0.6)^2\\binom21(0.5)(0.5)=0.3"
+        },
+        {
+          "type": "paragraph",
+          "text": "两类互斥，加起来0.3，我们选A。甲进1球时有两种命中顺序，不能漏掉组合系数。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          137
+        ],
+        "printedPages": [
+          131
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t02-practice-01-p137.webp",
+            "alt": "概率问题（二） · 思维精练1 · 讲义第131页",
+            "pdfPage": 137
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t02-practice-01-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s13-t02-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "比较两个成功次数，先列出所有满足差值的次数对。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          137
+        ],
+        "printedPages": [
+          131
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t02-practice-01-p137.webp",
+            "alt": "概率问题（二） · 思维精练1 · 讲义第131页",
+            "pdfPage": 137
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t02-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s13-t02-practice-02",
+        "type": "single",
+        "stem": "（26全国事考）甲和乙进行7局4胜制的乒乓球比赛，前5局比赛中甲胜了3局，乙胜了2局。已知甲每局获胜的概率均为0.6，问甲最终胜出的概率是乙的多少倍？",
+        "options": [
+          {
+            "value": "A",
+            "label": "不到4倍"
+          },
+          {
+            "value": "B",
+            "label": "6倍以上"
+          },
+          {
+            "value": "C",
+            "label": "5-6倍之间"
+          },
+          {
+            "value": "D",
+            "label": "4-5倍之间"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          138
+        ],
+        "printedPages": [
+          132
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t02-practice-02-p138.webp",
+            "alt": "概率问题（二） · 思维精练2 · 讲义第132页",
+            "pdfPage": 138
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t02-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s13-t02-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们从当前比分3：2开始看，前5局的历史已经发生，不需要再乘前5局概率。甲再赢1局就结束；乙要连续赢剩下两局才能反超。"
+        },
+        {
+          "type": "paragraph",
+          "text": "乙最终胜出的概率是0.4²=0.16，因此甲胜出概率是0.84，两者比值0.84÷0.16=5.25。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{P(\\text{甲胜})}{P(\\text{乙胜})}=\\frac{1-0.4^2}{0.4^2}=5.25"
+        },
+        {
+          "type": "paragraph",
+          "text": "5.25在5—6倍之间，我们选C。可以把没实际进行的第7局看作预先抽好结果，反面事件仍然是乙连胜两局。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          138
+        ],
+        "printedPages": [
+          132
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t02-practice-02-p138.webp",
+            "alt": "概率问题（二） · 思维精练2 · 讲义第132页",
+            "pdfPage": 138
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t02-practice-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s13-t02-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "已知比分后只算未来；一方只差1胜时，往往用对手连胜的反面更简洁。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          138
+        ],
+        "printedPages": [
+          132
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t02-practice-02-p138.webp",
+            "alt": "概率问题（二） · 思维精练2 · 讲义第132页",
+            "pdfPage": 138
+          }
+        ]
+      }
+    }
+  ]
+}

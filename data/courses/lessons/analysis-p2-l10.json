@@ -1,0 +1,87 @@
+{
+  "id": "analysis-p2-l10",
+  "subjectId": "analysis",
+  "groupId": "analysis-average",
+  "title": "是多少倍，和多多少倍，差一个1",
+  "source": {
+    "startSeconds": 3895,
+    "endSeconds": 4060,
+    "timeLabel": "01:04:55—01:07:40",
+    "videoId": "7668729047387524358",
+    "videoTitle": "资料分析完整复盘"
+  },
+  "cards": [
+    {
+      "id": "analysis-p2-l10-knowledge-4b1a96e-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "是多少倍，和多多少倍，差一个1 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "倍数类的公式不难，最容易踩坑的是最后问法。我们算出“A是B的3倍”，不等于“A比B多3倍”。A本身就包含一份B，多出来的只有2份B，所以“A比B多2倍”。"
+        },
+        {
+          "type": "formula",
+          "latex": "是几倍=\\frac{A}{B}"
+        },
+        {
+          "type": "formula",
+          "latex": "多几倍=\\frac{A-B}{B}=\\frac{A}{B}-1"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们一定要把最后的“是”还是“多”看清楚，再看要不要减1。"
+        },
+        {
+          "type": "paragraph",
+          "text": "还有增长率和倍数的转换。如果增长了20%，那现期就是基期的1.2倍，不是0.2倍。"
+        },
+        {
+          "type": "formula",
+          "latex": "现期是基期的倍数=1+r"
+        },
+        {
+          "type": "formula",
+          "latex": "增长率=倍数-1"
+        },
+        {
+          "type": "paragraph",
+          "text": "间隔倍数也是一样。比如今年比前年多20%，那今年就是前年的1.2倍。前面如果算的是比值增长率，想换成比值的倍数，也是增长率加1。这里比较的是哪两个时期、哪两个比值，要前后一致。"
+        }
+      ]
+    },
+    {
+      "id": "analysis-p2-l10-knowledge-4b1a96e-02",
+      "type": "text",
+      "role": "knowledge",
+      "title": "是多少倍，和多多少倍，差一个1 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "反过来，我们用另一个例子来看今年南瓜产量300，去年100。现期是基期的3倍，增长率就等于3−1＝2，也就是200%，不是2%。这和前面“现期/基期−1”的增长率公式是一个道理。"
+        },
+        {
+          "type": "paragraph",
+          "text": "再看翻番。翻1番，是乘2；翻2番，是乘4；翻3番，是乘8。"
+        },
+        {
+          "type": "formula",
+          "latex": "翻n番后的量=原量\\times2^n"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们拿5来看：5翻一番变10，再翻一番变20，再翻一番变40。所以5翻三番，就是5×2³＝40。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这里每一番都是在上一轮的基础上再翻一倍，不能把“翻三番”算成“原量乘3”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "年均增长：先数清增长了几次，再谈怎么算"
+        }
+      ]
+    }
+  ]
+}

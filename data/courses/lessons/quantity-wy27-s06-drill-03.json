@@ -1,0 +1,466 @@
+{
+  "id": "quantity-wy27-s06-drill-03",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s06",
+  "title": "实战精刷 · 9—12题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      70,
+      71
+    ],
+    "printedPages": [
+      64,
+      65
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s06-t03-drill-09-question",
+      "type": "question",
+      "title": "实战精刷 · 第9题",
+      "question": {
+        "id": "quantity-wy27-s06-t03-drill-09",
+        "type": "single",
+        "stem": "（23浙江）A、B两地直线距离为320千米，甲车从A地、乙车从B地同时出发相向而行。已知甲车的速度是乙车的3倍，乙车与甲车相遇后，立即右转弯90度并保持原速度继续行驶。那么甲车到达B地时，其与乙车之间的距离：",
+        "options": [
+          {
+            "value": "A",
+            "label": "小于80千米"
+          },
+          {
+            "value": "B",
+            "label": "80~90千米"
+          },
+          {
+            "value": "C",
+            "label": "90~100千米"
+          },
+          {
+            "value": "D",
+            "label": "大于100千米"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          70
+        ],
+        "printedPages": [
+          64
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-09-p070.webp",
+            "alt": "行程问题（一） · 实战精刷9 · 讲义第64页",
+            "pdfPage": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-09-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t03-drill-09",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先用速度比3∶1分320千米：相遇时甲走240，乙走80，甲还剩80千米到B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "从相遇到甲到B，甲走80时乙走80/3千米，而且乙已转90度，所以此时两车距离是直角三角形斜边。"
+        },
+        {
+          "type": "formula",
+          "latex": "d=\\sqrt{80^2+(80/3)^2}=\\frac{80\\sqrt{10}}3\\approx84.3\\text{千米}"
+        },
+        {
+          "type": "paragraph",
+          "text": "落在80—90千米，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          70
+        ],
+        "printedPages": [
+          64
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-09-p070.webp",
+            "alt": "行程问题（一） · 实战精刷9 · 讲义第64页",
+            "pdfPage": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-09-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s06-t03-drill-09",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "转90度后用直角三角形求直线距离，不能把两段路简单相加。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          70
+        ],
+        "printedPages": [
+          64
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-09-p070.webp",
+            "alt": "行程问题（一） · 实战精刷9 · 讲义第64页",
+            "pdfPage": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-10-question",
+      "type": "question",
+      "title": "实战精刷 · 第10题",
+      "question": {
+        "id": "quantity-wy27-s06-t03-drill-10",
+        "type": "single",
+        "stem": "（24联考）AB两地相距100米，甲、乙两人分别从AB两地同时出发，匀速相向而行，相遇时，甲原路返回A地，乙继续向A前行，当甲、乙均到A地结束。已知乙的用时是甲的三倍，那么甲的速度是乙的：",
+        "options": [
+          {
+            "value": "A",
+            "label": "2倍"
+          },
+          {
+            "value": "B",
+            "label": "3倍"
+          },
+          {
+            "value": "C",
+            "label": "4倍"
+          },
+          {
+            "value": "D",
+            "label": "5倍"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          70,
+          71
+        ],
+        "printedPages": [
+          64,
+          65
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-10-p070.webp",
+            "alt": "行程问题（一） · 实战精刷10 · 讲义第64页",
+            "pdfPage": 70
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-10-p071.webp",
+            "alt": "行程问题（一） · 实战精刷10 · 讲义第65页",
+            "pdfPage": 71
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-10-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t03-drill-10",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把从出发到相遇的时间设为t。甲相遇后沿原路回A，去回同路程同速度，总时间2t；乙总时间是甲3倍，所以为6t。"
+        },
+        {
+          "type": "paragraph",
+          "text": "乙一直从B走到A，100米就是6t内走完。相遇前t时间乙走了100/6米，甲走其余500/6米。"
+        },
+        {
+          "type": "paragraph",
+          "text": "相遇前时间相同，速度比等于路程比，甲是乙5倍，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先用折返把总工时和相遇工时联系起来，再比较相遇前的路程。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          70,
+          71
+        ],
+        "printedPages": [
+          64,
+          65
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-10-p070.webp",
+            "alt": "行程问题（一） · 实战精刷10 · 讲义第64页",
+            "pdfPage": 70
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-10-p071.webp",
+            "alt": "行程问题（一） · 实战精刷10 · 讲义第65页",
+            "pdfPage": 71
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-11-question",
+      "type": "question",
+      "title": "实战精刷 · 第11题",
+      "question": {
+        "id": "quantity-wy27-s06-t03-drill-11",
+        "type": "single",
+        "stem": "（24联考）c地为a、b两地直线道路上的一点，甲、乙两人9：00分别自a、b两地同时出发匀速相向而行，甲的速度是乙的1.5倍。甲9：40到达c地休息10分钟后继续向b地前进；乙全程不休息，在10：40到达c地。问甲、乙相遇的时间为：",
+        "options": [
+          {
+            "value": "A",
+            "label": "10: 00"
+          },
+          {
+            "value": "B",
+            "label": "10:10"
+          },
+          {
+            "value": "C",
+            "label": "10:20"
+          },
+          {
+            "value": "D",
+            "label": "10:30"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          71
+        ],
+        "printedPages": [
+          65
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-11-p071.webp",
+            "alt": "行程问题（一） · 实战精刷11 · 讲义第65页",
+            "pdfPage": 71
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-11-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t03-drill-11",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设乙速度为1份/分钟、甲1.5份/分钟。甲40分钟到c，所以ac＝60份；乙100分钟到c，所以bc＝100份，两地间距160份。"
+        },
+        {
+          "type": "paragraph",
+          "text": "9点50分甲休息结束，已走60份，乙走50份，还相距160－60－50＝50份。之后相向合速度2.5份/分钟，需要20分钟。"
+        },
+        {
+          "type": "paragraph",
+          "text": "因此10点10分相遇，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "有休息先统一到休息结束的同一时刻，再计算剩余间距。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          71
+        ],
+        "printedPages": [
+          65
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-11-p071.webp",
+            "alt": "行程问题（一） · 实战精刷11 · 讲义第65页",
+            "pdfPage": 71
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-12-question",
+      "type": "question",
+      "title": "实战精刷 · 第12题",
+      "question": {
+        "id": "quantity-wy27-s06-t03-drill-12",
+        "type": "single",
+        "stem": "（26江苏）甲，乙两车分别从M、N两地同时出发，甲开往N地，乙开往M地，到达目的地后均立即沿原路返回。甲从M地到N地时，前1/4路程的平均速度为60km/h，后3/4路程的平均速度为90km/h；从N地返回M地时，以75km/h的速度匀速行驶。乙全程匀速行驶，速度为80km/h，若甲从出发到第二次与乙相遇，行驶的总路程比乙少10km，则M、N两地的距离是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "290km"
+          },
+          {
+            "value": "B",
+            "label": "300km"
+          },
+          {
+            "value": "C",
+            "label": "310km"
+          },
+          {
+            "value": "D",
+            "label": "320km"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          71
+        ],
+        "printedPages": [
+          65
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-12-p071.webp",
+            "alt": "行程问题（一） · 实战精刷12 · 讲义第65页",
+            "pdfPage": 71
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-12-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t03-drill-12",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设MN距离S千米。甲去程总用时为(S/4)/60＋(3S/4)/90＝S/80，与乙单程时间S/80一样，所以两车同时到达对方起点并折返。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第二次相遇发生在这次返程，相向合速度75＋80＝155。设返程到第二次相遇用t小时，则S＝155t。"
+        },
+        {
+          "type": "paragraph",
+          "text": "出发到各自折返点，两车都走S，路程差只来自返程。乙比甲多(80－75)t＝10，得到t＝2，因此S＝310千米，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "分段速度先求单程总时间；相同的去程路程可在最终路程差中抵消。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          71
+        ],
+        "printedPages": [
+          65
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-12-p071.webp",
+            "alt": "行程问题（一） · 实战精刷12 · 讲义第65页",
+            "pdfPage": 71
+          }
+        ]
+      }
+    }
+  ]
+}

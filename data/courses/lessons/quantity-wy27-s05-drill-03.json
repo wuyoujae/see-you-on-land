@@ -1,0 +1,443 @@
+{
+  "id": "quantity-wy27-s05-drill-03",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s05",
+  "title": "实战精刷 · 9—12题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      60,
+      61,
+      62
+    ],
+    "printedPages": [
+      54,
+      55,
+      56
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s05-t02-drill-09-question",
+      "type": "question",
+      "title": "实战精刷 · 第9题",
+      "question": {
+        "id": "quantity-wy27-s05-t02-drill-09",
+        "type": "single",
+        "stem": "（25联考）某单位接到一项任务，探访所在辖区的商户了解相关信息。原计划由5人10天完成探访200家商户工作任务，工作5天后，由于工作调整，需要增加探访辖区的300家商户。假定所有人工作效率相同，若仍要求在原计划时间之内完成，则需要增加的人数为：",
+        "options": [
+          {
+            "value": "A",
+            "label": "10人"
+          },
+          {
+            "value": "B",
+            "label": "15人"
+          },
+          {
+            "value": "C",
+            "label": "20人"
+          },
+          {
+            "value": "D",
+            "label": "25人"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          60,
+          61
+        ],
+        "printedPages": [
+          54,
+          55
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-09-p060.webp",
+            "alt": "工程问题 · 实战精刷9 · 讲义第54页",
+            "pdfPage": 60
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-09-p061.webp",
+            "alt": "工程问题 · 实战精刷9 · 讲义第55页",
+            "pdfPage": 61
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-09-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t02-drill-09",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先求每人每天效率：200÷5÷10＝4家。前5天已探访100家，原任务还剩100家，再新增300家，总剩余400家。"
+        },
+        {
+          "type": "paragraph",
+          "text": "剩余时间5天，需要400÷5÷4＝20人。原来已有5人，因此要增加15人，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "新增任务先加到尚未完成的部分，求到的是总人数时还要减原有人数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          60,
+          61
+        ],
+        "printedPages": [
+          54,
+          55
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-09-p060.webp",
+            "alt": "工程问题 · 实战精刷9 · 讲义第54页",
+            "pdfPage": 60
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-09-p061.webp",
+            "alt": "工程问题 · 实战精刷9 · 讲义第55页",
+            "pdfPage": 61
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-10-question",
+      "type": "question",
+      "title": "实战精刷 · 第10题",
+      "question": {
+        "id": "quantity-wy27-s05-t02-drill-10",
+        "type": "single",
+        "stem": "（25四川）甲、乙两条生产线生产同一种产品，且甲的效率是乙的1.5倍，现接到A、B两个订单。已知甲完成A订单和乙完成B订单均需要8小时，问甲完成B订单的用时比乙完成A订单的用时少多长时间？",
+        "options": [
+          {
+            "value": "A",
+            "label": "6小时"
+          },
+          {
+            "value": "B",
+            "label": "6小时40分"
+          },
+          {
+            "value": "C",
+            "label": "7小时20分"
+          },
+          {
+            "value": "D",
+            "label": "8小时"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          61
+        ],
+        "printedPages": [
+          55
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-10-p061.webp",
+            "alt": "工程问题 · 实战精刷10 · 讲义第55页",
+            "pdfPage": 61
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-10-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t02-drill-10",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把甲、乙效率设为3、2。甲8小时完成A，所以A量24；乙8小时完成B，所以B量16。"
+        },
+        {
+          "type": "paragraph",
+          "text": "甲完成B用16/3小时，乙完成A用24/2＝12小时。两者相差12－16/3＝20/3小时，也就是6小时40分钟，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "效率比先赋值，订单量分别由各自已知工时确定，再交叉计算。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          61
+        ],
+        "printedPages": [
+          55
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-10-p061.webp",
+            "alt": "工程问题 · 实战精刷10 · 讲义第55页",
+            "pdfPage": 61
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-11-question",
+      "type": "question",
+      "title": "实战精刷 · 第11题",
+      "question": {
+        "id": "quantity-wy27-s05-t02-drill-11",
+        "type": "single",
+        "stem": "（25山东）某小区要安装若干电动车公共充电桩。由张师傅先施工5天，李师傅再施工9天就能全部完工。如果张师傅先施工7天，李师傅再施工6天，也能全部完工。现由张师傅和李师傅一起施工3天后，张师傅有新任务离开，剩余工作由李师傅单独完成。问李师傅还需几天能完工？",
+        "options": [
+          {
+            "value": "A",
+            "label": "10"
+          },
+          {
+            "value": "B",
+            "label": "8"
+          },
+          {
+            "value": "C",
+            "label": "7"
+          },
+          {
+            "value": "D",
+            "label": "9"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          61
+        ],
+        "printedPages": [
+          55
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-11-p061.webp",
+            "alt": "工程问题 · 实战精刷11 · 讲义第55页",
+            "pdfPage": 61
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-11-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t02-drill-11",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们比较两种刚好完工的安排：5张＋9李＝7张＋6李，所以2天张的工作量等于3天李，效率比张∶李＝3∶2。"
+        },
+        {
+          "type": "paragraph",
+          "text": "总量设为5×3＋9×2＝33份。先合作3天完成(3＋2)×3＝15份，还剩18份。"
+        },
+        {
+          "type": "paragraph",
+          "text": "李每天2份，剩余需18÷2＝9天，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "同工程两种组合相减可得效率比，再回到总量分段计算。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          61
+        ],
+        "printedPages": [
+          55
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-11-p061.webp",
+            "alt": "工程问题 · 实战精刷11 · 讲义第55页",
+            "pdfPage": 61
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-12-question",
+      "type": "question",
+      "title": "实战精刷 · 第12题",
+      "question": {
+        "id": "quantity-wy27-s05-t02-drill-12",
+        "type": "single",
+        "stem": "（25江苏）某农场使用M、N两架无人机喷洒农药，先由M无人机工作2小时，再由N无人机工作5小时，可喷洒完整片农田；两架无人机同时工作1小时后，有三分之二的农田尚未喷洒。如果仅由M无人机喷洒农药，那么喷洒完整片农田需要（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "3.5小时"
+          },
+          {
+            "value": "B",
+            "label": "4.5小时"
+          },
+          {
+            "value": "C",
+            "label": "5小时"
+          },
+          {
+            "value": "D",
+            "label": "5.5小时"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          61,
+          62
+        ],
+        "printedPages": [
+          55,
+          56
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-12-p061.webp",
+            "alt": "工程问题 · 实战精刷12 · 讲义第55页",
+            "pdfPage": 61
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-12-p062.webp",
+            "alt": "工程问题 · 实战精刷12 · 讲义第56页",
+            "pdfPage": 62
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-12-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t02-drill-12",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把整片农田设为1。合作1小时完成1/3，所以M＋N的每小时效率为1/3；另一条件为2M＋5N＝1。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两倍合作效率式为2M＋2N＝2/3，相减得3N＝1/3，所以N＝1/9，M＝1/3－1/9＝2/9。"
+        },
+        {
+          "type": "paragraph",
+          "text": "M单独完工需1÷(2/9)＝4.5小时，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "相同工程的组合关系用效率方程，相减时先对齐一方的工作时长。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          61,
+          62
+        ],
+        "printedPages": [
+          55,
+          56
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-12-p061.webp",
+            "alt": "工程问题 · 实战精刷12 · 讲义第55页",
+            "pdfPage": 61
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-12-p062.webp",
+            "alt": "工程问题 · 实战精刷12 · 讲义第56页",
+            "pdfPage": 62
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,749 @@
+{
+  "id": "quantity-wy27-s10-t02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s10",
+  "title": "常用方法",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      103,
+      104,
+      105,
+      106
+    ],
+    "printedPages": [
+      97,
+      98,
+      99,
+      100
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s10-t02-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "常用方法",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们要求几个元素相邻时，把它们捆成一个整体，先排大整体，再排内部顺序。要求不相邻时，先把其他元素排好，再把受限元素插进不同的空；两端也算空。要求“至少”“至多”“不能”时，我们比较一下正面分类和反面计算，反面简单就用总数减反面。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们看甲、乙、丙、丁、戊5人排成一排。乙、丙必须相邻，把乙丙捆成一组，与另外3人组成4个元素，外部4!种，内部2!种，共4!×2!＝48种。丁、戊不相邻，先排另3人有3!种，4个空中有序放丁、戊有A₄²种，共3!×A₄²＝72种；也可以用5!−4!×2!＝72验证。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们从4名男生、5名女生中选4人，要求至少1名女生。反面只有“全是男生”这一种选法，因此C₉⁴−C₄⁴＝126−1＝125种。这里选的是4人小组，没有岗位顺序，不能再乘4!。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          103
+        ],
+        "printedPages": [
+          97
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t02-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s10-t02-mother-01",
+        "type": "single",
+        "stem": "（24联考）某公司开展迎新春三分球投篮比赛。3个部门分别派出2、4、4个选手共计10人参加。规则要求同一个部门的选手顺序相连、全部投完再安排另一个部门的人员，则这10人不同的投篮顺序种数的范围是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "小于1000"
+          },
+          {
+            "value": "B",
+            "label": "1000~5000"
+          },
+          {
+            "value": "C",
+            "label": "5001~10000"
+          },
+          {
+            "value": "D",
+            "label": "10000以上"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          104
+        ],
+        "printedPages": [
+          98
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t02-mother-01-p104.webp",
+            "alt": "排列组合问题（一） · 母题精讲1 · 讲义第98页",
+            "pdfPage": 104
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t02-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t02-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把每个部门捆成一整块，三个部门块的先后顺序有3!种。同一个部门内部，2名选手有2!种顺序，两个4人部门各有4!种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以一共有3!×2!×4!×4!＝6×2×24×24＝6912种，落在5001～10000之间，我们选C。外部部门顺序和内部选手顺序都不能漏。"
+        },
+        {
+          "type": "formula",
+          "latex": "3!\\times2!\\times4!\\times4!=6912"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "整组连续出现就捆绑：外部块排列乘每块内部排列。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          104
+        ],
+        "printedPages": [
+          98
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t02-mother-01-p104.webp",
+            "alt": "排列组合问题（一） · 母题精讲1 · 讲义第98页",
+            "pdfPage": 104
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t02-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s10-t02-mother-02",
+        "type": "single",
+        "stem": "（26天津事考）把12个同等规格的红色警示标牌和6个同等规格的黄色警示标牌竖立在景区道路两侧，每边竖立9个标牌，要求每边的黄色警示标牌数量相等且不相邻，且景区道路的起点和终点处两侧竖立的必须是红色警示标牌。问有多少种不同的竖立方法？",
+        "options": [
+          {
+            "value": "A",
+            "label": "10"
+          },
+          {
+            "value": "B",
+            "label": "72"
+          },
+          {
+            "value": "C",
+            "label": "100"
+          },
+          {
+            "value": "D",
+            "label": "250"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          104
+        ],
+        "printedPages": [
+          98
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t02-mother-02-p104.webp",
+            "alt": "排列组合问题（一） · 母题精讲2 · 讲义第98页",
+            "pdfPage": 104
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t02-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t02-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看每侧的数量：6块黄牌平均分两侧，每侧3黄；每侧共9块，所以每侧6红。起点和终点必须红，黄牌不能放两端，只能插在6块红牌之间的5个内部空。"
+        },
+        {
+          "type": "paragraph",
+          "text": "每个空至多放1块黄牌，选3个空有C₅³＝10种。道路两侧可以分别安排，相乘得10×10＝100种，我们选C。同色同规格标牌不可再作内部排列。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "不相邻用插空，端点被限制时只数允许的内部空；相同元素不乘排列。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          104
+        ],
+        "printedPages": [
+          98
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t02-mother-02-p104.webp",
+            "alt": "排列组合问题（一） · 母题精讲2 · 讲义第98页",
+            "pdfPage": 104
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t02-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s10-t02-mother-03",
+        "type": "single",
+        "stem": "（26联考）城区某中学安排2位数学老师、4位英语老师到A、B两所乡村中学任教，要求两所乡村中学各安排3位老师，其中A中学至少需要安排1位数学老师。那么有多少种不同的安排方式？",
+        "options": [
+          {
+            "value": "A",
+            "label": "9"
+          },
+          {
+            "value": "B",
+            "label": "12"
+          },
+          {
+            "value": "C",
+            "label": "16"
+          },
+          {
+            "value": "D",
+            "label": "20"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          104
+        ],
+        "printedPages": [
+          98
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t02-mother-03-p104.webp",
+            "alt": "排列组合问题（一） · 母题精讲3 · 讲义第98页",
+            "pdfPage": 104
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t02-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t02-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们只需要选出去哪所A中学的3人，剩余3人自然去B。总选法C₆³＝20种；不合格的反面是A一个数学老师也没有，即3人都从4名英语老师中选，有C₄³＝4种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "因此20−4＝16种，我们选C。也可正面核验：A有1名数学老师时C₂¹×C₄²＝12种，A有2名数学老师时C₂²×C₄¹＝4种，共16种。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "只决定一组就能确定另一组时只选一次；至少一名可用总数减全无。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          104
+        ],
+        "printedPages": [
+          98
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t02-mother-03-p104.webp",
+            "alt": "排列组合问题（一） · 母题精讲3 · 讲义第98页",
+            "pdfPage": 104
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t02-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s10-t02-practice-01",
+        "type": "single",
+        "stem": "（25江苏）一场演出的节目有舞蹈《水韵江苏》、歌曲《让世界充满爱》和《绣红旗》、小品《幸福一家人》、魔术《奇幻之旅》、杂技《力量》。若要求两首歌曲分别作为开头曲和结尾曲，舞蹈与杂技相邻演出，小品和魔术不能相邻演出，则节目演出的排列顺序有（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "8种"
+          },
+          {
+            "value": "B",
+            "label": "12种"
+          },
+          {
+            "value": "C",
+            "label": "18种"
+          },
+          {
+            "value": "D",
+            "label": "24种"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          105
+        ],
+        "printedPages": [
+          99
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t02-practice-01-p105.webp",
+            "alt": "排列组合问题（一） · 思维精练1 · 讲义第99页",
+            "pdfPage": 105
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t02-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t02-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先安排两首不同歌曲放首尾，有2!＝2种。中间4个节目里，把舞蹈和杂技捆成一个整体，另两个元素是小品、魔术。"
+        },
+        {
+          "type": "paragraph",
+          "text": "要使小品和魔术不相邻，三个大元素只能排成“小品—整体—魔术”或“魔术—整体—小品”，共2种。舞蹈和杂技在整体内部还有2!种顺序。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以总数2×2×2＝8种，我们选A。这里小品和魔术若直接当成任意的两个大元素排列，就会把它们相邻的情况也算进来。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "首尾固定类别先安排，再把相邻元素捆绑，用剩余结构检查不相邻。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          105
+        ],
+        "printedPages": [
+          99
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t02-practice-01-p105.webp",
+            "alt": "排列组合问题（一） · 思维精练1 · 讲义第99页",
+            "pdfPage": 105
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t02-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s10-t02-practice-02",
+        "type": "single",
+        "stem": "（26广东）某街道计划在本周的周一至周日中选取3天开展社区活动。如果要求每次活动之间至少间隔1天，则可行的活动时间安排有（）种。",
+        "options": [
+          {
+            "value": "A",
+            "label": "3"
+          },
+          {
+            "value": "B",
+            "label": "5"
+          },
+          {
+            "value": "C",
+            "label": "10"
+          },
+          {
+            "value": "D",
+            "label": "15"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          105
+        ],
+        "printedPages": [
+          99
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t02-practice-02-p105.webp",
+            "alt": "排列组合问题（一） · 思维精练2 · 讲义第99页",
+            "pdfPage": 105
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t02-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t02-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把活动日从小到大记为d₁＜d₂＜d₃，间隔至少一天意味着d₂−d₁≥2、d₃−d₂≥2。把第二天减1、第三天减2，得到1≤d₁＜d₂−1＜d₃−2≤5。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以原问题一一对应于从1～5中选3个不同数字，有C₅³＝10种，我们选C。选出的日期本来就按时间先后排列，不需要再乘3!。"
+        },
+        {
+          "type": "formula",
+          "latex": "C_{7-3+1}^{3}=C_5^3=10"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "从n个连续位置选m个不相邻位置，可用间隔平移转成C(n−m＋1,m)。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          105
+        ],
+        "printedPages": [
+          99
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t02-practice-02-p105.webp",
+            "alt": "排列组合问题（一） · 思维精练2 · 讲义第99页",
+            "pdfPage": 105
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t02-practice-03-question",
+      "type": "question",
+      "title": "思维精练 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s10-t02-practice-03",
+        "type": "single",
+        "stem": "（26联考）有一种停车入位益智游戏，有4排模拟停车位，每排5个。现有6台相同玩具车需要停进车位，若要求每一排至少停进1台且同一排两车不相邻。问有多少种停车方案？",
+        "options": [
+          {
+            "value": "A",
+            "label": "1440"
+          },
+          {
+            "value": "B",
+            "label": "1850"
+          },
+          {
+            "value": "C",
+            "label": "5400"
+          },
+          {
+            "value": "D",
+            "label": "5900"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          105
+        ],
+        "printedPages": [
+          99
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t02-practice-03-p105.webp",
+            "alt": "排列组合问题（一） · 思维精练3 · 讲义第99页",
+            "pdfPage": 105
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t02-practice-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t02-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先按每排停几辆分类。5个车位不相邻，1辆有5种；2辆有C₄²＝6种；3辆只有1、3、5号位这一种。6辆分4排且每排至少1辆，人数结构只有3、1、1、1和2、2、1、1。"
+        },
+        {
+          "type": "paragraph",
+          "text": "3、1、1、1：选择哪排放3辆有4种，余下三排各5种，共4×1×5³＝500种。2、2、1、1：选择哪两排放2辆有C₄²＝6种，两辆排各6种，一辆排各5种，共6×6²×5²＝5400种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "总计500＋5400＝5900种，我们选D。玩具车完全相同，只数车位集合，不再排列6辆车。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先定各排数量结构，再乘各排合法占位数；相同车辆不额外排列。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          105
+        ],
+        "printedPages": [
+          99
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t02-practice-03-p105.webp",
+            "alt": "排列组合问题（一） · 思维精练3 · 讲义第99页",
+            "pdfPage": 105
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t02-practice-04-question",
+      "type": "question",
+      "title": "思维精练 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s10-t02-practice-04",
+        "type": "single",
+        "stem": "（26联考）某数字展馆沿入口两侧各设有3个展位。现需安排数字产品展位和人工智能展位各3个，且数字产品展位不能都安排在同一侧，那么共有多少种安排方式？",
+        "options": [
+          {
+            "value": "A",
+            "label": "244"
+          },
+          {
+            "value": "B",
+            "label": "648"
+          },
+          {
+            "value": "C",
+            "label": "684"
+          },
+          {
+            "value": "D",
+            "label": "720"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B",
+        "reviewNote": "题干未另写“同类展位彼此不同”；选项及来源答案采用六个具体展位可区分口径得648。仅按两类不可区分口径则18不在选项，解析已明确所用口径。"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          106
+        ],
+        "printedPages": [
+          100
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t02-practice-04-p106.webp",
+            "alt": "排列组合问题（一） · 思维精练4 · 讲义第100页",
+            "pdfPage": 106
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t02-practice-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t02-practice-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们按六个展位作为六个不同的安排对象来计数。无约束时六个位置全排列，有6!＝720种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "不合格情况是3个数字产品展位全在同一侧：先选在哪侧2种，再排这侧3个数字展位3!种，另一侧3个人工智能展位3!种，共2×3!×3!＝72种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以合法安排720−72＝648种，我们选B。如果只区分展位类别而不区分每个具体展位，则只剩C₆³−2＝18种；本题选项和参考答案采用的是六个具体展位可区分的口径。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "反算“不能都在一侧”更直接，但必须先确认具体对象是否可区分。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          106
+        ],
+        "printedPages": [
+          100
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t02-practice-04-p106.webp",
+            "alt": "排列组合问题（一） · 思维精练4 · 讲义第100页",
+            "pdfPage": 106
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "id": "quantity-wy27-s13-drill-01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s13",
+  "title": "实战精刷 · 1—4题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      139,
+      140
+    ],
+    "printedPages": [
+      133,
+      134
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s13-t03-drill-01-question",
+      "type": "question",
+      "title": "实战精刷 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s13-t03-drill-01",
+        "type": "single",
+        "stem": "（25联考）三名射击运动员甲、乙、丙依次独立射击，一轮三枪，每人一枪，直至目标被射中，比赛结束。已知甲、乙、丙射中目标的概率分别为0.3、0.5、0.8,则在一轮内，乙结束比赛概率是丙结束比赛概率的：",
+        "options": [
+          {
+            "value": "A",
+            "label": "1倍"
+          },
+          {
+            "value": "B",
+            "label": "1.25倍"
+          },
+          {
+            "value": "C",
+            "label": "1.5倍"
+          },
+          {
+            "value": "D",
+            "label": "2倍"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          139
+        ],
+        "printedPages": [
+          133
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-01-p139.webp",
+            "alt": "概率问题（二） · 实战精刷1 · 讲义第133页",
+            "pdfPage": 139
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s13-t03-drill-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看乙能出手的前提：甲必须没中。乙结束比赛概率为0.7×0.5=0.35。"
+        },
+        {
+          "type": "paragraph",
+          "text": "丙结束比赛还要求乙也没中，概率0.7×0.5×0.8=0.28。两者相除为1.25。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{P(\\text{乙结束})}{P(\\text{丙结束})}=\\frac{0.7\\times0.5}{0.7\\times0.5\\times0.8}=1.25"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以我们选B。不能直接拿乙和丙的单枪命中率0.5、0.8相比，前面人的失手决定了能否轮到他们。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          139
+        ],
+        "printedPages": [
+          133
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-01-p139.webp",
+            "alt": "概率问题（二） · 实战精刷1 · 讲义第133页",
+            "pdfPage": 139
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-01-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s13-t03-drill-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "轮流直到命中就停止，要给后出手者乘上此前全失败的概率。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          139
+        ],
+        "printedPages": [
+          133
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-01-p139.webp",
+            "alt": "概率问题（二） · 实战精刷1 · 讲义第133页",
+            "pdfPage": 139
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-02-question",
+      "type": "question",
+      "title": "实战精刷 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s13-t03-drill-02",
+        "type": "single",
+        "stem": "（23联考）某学习平台收到的征文，将通过两轮评审决定能否采用。先由两位编辑进行初审，若两位编辑评审都通过，则予以采用；若两位编辑都未予通过，则不予采用；若仅有一位编辑初审通过，则再由主编进行复审，若复审通过，则予以采用，否则不予采用。设稿件能通过各初审编辑评审的概率均为0.4，复审的稿件能通过的概率为0.2，各编辑独立评审，则每篇征文被采用的概率为：",
+        "options": [
+          {
+            "value": "A",
+            "label": "0.32"
+          },
+          {
+            "value": "B",
+            "label": "0.256"
+          },
+          {
+            "value": "C",
+            "label": "0.24"
+          },
+          {
+            "value": "D",
+            "label": "0.208"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          139
+        ],
+        "printedPages": [
+          133
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-02-p139.webp",
+            "alt": "概率问题（二） · 实战精刷2 · 讲义第133页",
+            "pdfPage": 139
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s13-t03-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们按采用的路径分类：两位初审都通过，或者恰好一位初审通过且主编复审通过。两位都不通过的稿件不再复审。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第一条路径概率0.4²=0.16；第二条有两种初审身份，概率2×0.4×0.6×0.2=0.096。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=(0.4)^2+2(0.4)(0.6)(0.2)=0.256"
+        },
+        {
+          "type": "paragraph",
+          "text": "合计0.256，我们选B。复审不是所有稿件都经历，不能把0.2统一乘在初审结果后。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          139
+        ],
+        "printedPages": [
+          133
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-02-p139.webp",
+            "alt": "概率问题（二） · 实战精刷2 · 讲义第133页",
+            "pdfPage": 139
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s13-t03-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按流程画互斥路径，路径内相乘、不同成功路径相加。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          139
+        ],
+        "printedPages": [
+          133
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-02-p139.webp",
+            "alt": "概率问题（二） · 实战精刷2 · 讲义第133页",
+            "pdfPage": 139
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-03-question",
+      "type": "question",
+      "title": "实战精刷 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s13-t03-drill-03",
+        "type": "single",
+        "stem": "（25天津）某超市规定，消费达标可参加抽奖，分一等奖200元、二等奖100元和未中奖三种情形。已知小王消费共抽奖3次，若每次抽中一等奖和二等奖的概率分别为10%和20%，问小王共中奖恰好300元的概率在以下哪个范围内？",
+        "options": [
+          {
+            "value": "A",
+            "label": "5% 以下"
+          },
+          {
+            "value": "B",
+            "label": "5%~8%之间"
+          },
+          {
+            "value": "C",
+            "label": "8%~11%之间"
+          },
+          {
+            "value": "D",
+            "label": "11%以上"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          139
+        ],
+        "printedPages": [
+          133
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-03-p139.webp",
+            "alt": "概率问题（二） · 实战精刷3 · 讲义第133页",
+            "pdfPage": 139
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s13-t03-drill-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先列奖金总和恰好300元的组合。只有200+100+0，或者100+100+100，没有其他可能。未中奖的概率为0.7。"
+        },
+        {
+          "type": "paragraph",
+          "text": "200、100、0各一次，有3!=6种顺序，概率6×0.1×0.2×0.7=0.084；三次都是100元的概率0.2³=0.008。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=3!(0.1)(0.2)(0.7)+(0.2)^3=0.092"
+        },
+        {
+          "type": "paragraph",
+          "text": "相加0.092，即9.2%，在8%—11%之间，我们选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          139
+        ],
+        "printedPages": [
+          133
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-03-p139.webp",
+            "alt": "概率问题（二） · 实战精刷3 · 讲义第133页",
+            "pdfPage": 139
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-03-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s13-t03-drill-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "总金额条件先化成奖项次数组合，再补不同出现顺序。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          139
+        ],
+        "printedPages": [
+          133
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-03-p139.webp",
+            "alt": "概率问题（二） · 实战精刷3 · 讲义第133页",
+            "pdfPage": 139
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-04-question",
+      "type": "question",
+      "title": "实战精刷 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s13-t03-drill-04",
+        "type": "single",
+        "stem": "（25联考）21分制的羽毛球比赛，每赢一球得1分，下一球由上一球得分方发球，20：20平局以后，先多得2分的一方获胜，若甲发球时甲得分的概率为0.6、乙发球时乙得分的概率为0.7，各球的结果相互独立，乙将比分追成20：20平后，甲最终以23：21的比分获胜的概率在以下哪个范围？",
+        "options": [
+          {
+            "value": "A",
+            "label": "0.05—0.1"
+          },
+          {
+            "value": "B",
+            "label": "0.1—0.15"
+          },
+          {
+            "value": "C",
+            "label": "0.15—0.2"
+          },
+          {
+            "value": "D",
+            "label": "0.2—0.25"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          140
+        ],
+        "printedPages": [
+          134
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-04-p140.webp",
+            "alt": "概率问题（二） · 实战精刷4 · 讲义第134页",
+            "pdfPage": 140
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s13-t03-drill-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们从20：20开始看，刚才是乙得分，所以接下来乙发球。要甲以23：21获胜，后面4球中甲赢3球、乙赢1球，但前两球不能都让甲赢，否则22：20比赛已经结束。"
+        },
+        {
+          "type": "paragraph",
+          "text": "合法顺序只有“甲乙甲甲”和“乙甲甲甲”。前者概率0.3×0.4×0.3×0.6=0.0216；后者0.7×0.3×0.6×0.6=0.0756。每一球都按上一球得分者更新发球方。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=(0.3)(0.4)(0.3)(0.6)+(0.7)(0.3)(0.6)(0.6)=0.0972"
+        },
+        {
+          "type": "paragraph",
+          "text": "相加0.0972，在0.05—0.1之间，我们选A。不能用固定命中率直接套四次二项分布，因为发球方会改变得分概率。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          140
+        ],
+        "printedPages": [
+          134
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-04-p140.webp",
+            "alt": "概率问题（二） · 实战精刷4 · 讲义第134页",
+            "pdfPage": 140
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t03-drill-04-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s13-t03-drill-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "有提前结束与状态转移时，先枚举合法路径，再逐步更新条件概率。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          140
+        ],
+        "printedPages": [
+          134
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t03-drill-04-p140.webp",
+            "alt": "概率问题（二） · 实战精刷4 · 讲义第134页",
+            "pdfPage": 140
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "id": "quantity-wy27-s10-drill-02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s10",
+  "title": "实战精刷 · 5—8题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      108,
+      109
+    ],
+    "printedPages": [
+      102,
+      103
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s10-t03-drill-05-question",
+      "type": "question",
+      "title": "实战精刷 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s10-t03-drill-05",
+        "type": "single",
+        "stem": "（23联考）某教育平台的网络课程由阅读资料、观看视频、论坛交流、练习作业和问卷考试五部分学习内容组成。学员需先后完成这五部分学习内容，其中论坛交流与练习作业均不能在最先和最后完成，则学员安排学习的顺序共有：",
+        "options": [
+          {
+            "value": "A",
+            "label": "120种"
+          },
+          {
+            "value": "B",
+            "label": "72种"
+          },
+          {
+            "value": "C",
+            "label": "36种"
+          },
+          {
+            "value": "D",
+            "label": "24种"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          108
+        ],
+        "printedPages": [
+          102
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-05-p108.webp",
+            "alt": "排列组合问题（一） · 实战精刷5 · 讲义第102页",
+            "pdfPage": 108
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t03-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先安排受限制的论坛交流、练习作业，它们只能在第2、3、4三个位置中占两个不同位置，且两项内容不同，有A₃²＝6种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "余下阅读资料、观看视频、问卷考试放到剩余三个位置，有3!＝6种。因此一共有6×6＝36种，我们选C。题目没有给这三项之间固定的先后关系。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "受限元素优先占合法位置，再排列其余元素。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          108
+        ],
+        "printedPages": [
+          102
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-05-p108.webp",
+            "alt": "排列组合问题（一） · 实战精刷5 · 讲义第102页",
+            "pdfPage": 108
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-06-question",
+      "type": "question",
+      "title": "实战精刷 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s10-t03-drill-06",
+        "type": "single",
+        "stem": "（23联考）冬奥会短道速滑比赛，有3个国家4名运动员参加比赛，其中2名中国运动员，已知中国运动员始终处于领滑位置，则运动员的排序共有：",
+        "options": [
+          {
+            "value": "A",
+            "label": "12种"
+          },
+          {
+            "value": "B",
+            "label": "16种"
+          },
+          {
+            "value": "C",
+            "label": "18种"
+          },
+          {
+            "value": "D",
+            "label": "20种"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          108
+        ],
+        "printedPages": [
+          102
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-06-p108.webp",
+            "alt": "排列组合问题（一） · 实战精刷6 · 讲义第102页",
+            "pdfPage": 108
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t03-drill-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把“领滑位置”理解为队列第1位，第1位必须是中国运动员。两名中国运动员任选1名领滑，有2种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "其余3名不同运动员在余下3个位置任意排列，有3!＝6种，所以总数2×6＝12种，我们选A。题目只要求领滑者来自中国，没有要求两名中国运动员包揽前两名。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先准确翻译位置要求；“第一名来自某组”只固定首位类别。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          108
+        ],
+        "printedPages": [
+          102
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-06-p108.webp",
+            "alt": "排列组合问题（一） · 实战精刷6 · 讲义第102页",
+            "pdfPage": 108
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-07-question",
+      "type": "question",
+      "title": "实战精刷 · 第7题",
+      "question": {
+        "id": "quantity-wy27-s10-t03-drill-07",
+        "type": "single",
+        "stem": "（26河南事考）学校冬季运动会上，进入长跑决赛的7名选手全部来自于A、B两个班，其中A班5名同学、B班2名同学。已知最后获得金、银、铜牌的3名选手中有A班2名同学。那么获奖者的结果有（ ）种可能性。",
+        "options": [
+          {
+            "value": "A",
+            "label": "140"
+          },
+          {
+            "value": "B",
+            "label": "120"
+          },
+          {
+            "value": "C",
+            "label": "100"
+          },
+          {
+            "value": "D",
+            "label": "60"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          108
+        ],
+        "printedPages": [
+          102
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-07-p108.webp",
+            "alt": "排列组合问题（一） · 实战精刷7 · 讲义第102页",
+            "pdfPage": 108
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-07-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t03-drill-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先选获奖成员：A班5人中选2人，有C₅²＝10种；B班2人中选1人，有2种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "再把选中的3人分配金、银、铜三种不同奖牌，有3!＝6种。所以总数10×2×6＝120种，我们选B。只选人不排奖牌会漏掉同一批人不同的获奖名次。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "有不同名次的获奖结果，要在选成员后再排奖项。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          108
+        ],
+        "printedPages": [
+          102
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-07-p108.webp",
+            "alt": "排列组合问题（一） · 实战精刷7 · 讲义第102页",
+            "pdfPage": 108
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-08-question",
+      "type": "question",
+      "title": "实战精刷 · 第8题",
+      "question": {
+        "id": "quantity-wy27-s10-t03-drill-08",
+        "type": "single",
+        "stem": "（26广东事考）某单位工会组织春节茶话会，需要从6名男职工和4名女职工中选出5人担任主持人。如果选出的5人中至少有3名女职工，则有（)种不同的主持人组合。",
+        "options": [
+          {
+            "value": "A",
+            "label": "60"
+          },
+          {
+            "value": "B",
+            "label": "66"
+          },
+          {
+            "value": "C",
+            "label": "120"
+          },
+          {
+            "value": "D",
+            "label": "132"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          109
+        ],
+        "printedPages": [
+          103
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-08-p109.webp",
+            "alt": "排列组合问题（一） · 实战精刷8 · 讲义第103页",
+            "pdfPage": 109
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-08-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t03-drill-08",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们按女生人数分类，至少3名女生，只可能是3女2男或4女1男。"
+        },
+        {
+          "type": "paragraph",
+          "text": "3女2男有C₄³×C₆²＝4×15＝60种；4女1男有C₄⁴×C₆¹＝1×6＝6种。合计66种，我们选B。题目问主持人组合，没有划分不同主持岗位，不再乘5!。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "至少人数条件按可行人数分类，组内用组合，互斥各类再相加。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          109
+        ],
+        "printedPages": [
+          103
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-08-p109.webp",
+            "alt": "排列组合问题（一） · 实战精刷8 · 讲义第103页",
+            "pdfPage": 109
+          }
+        ]
+      }
+    }
+  ]
+}

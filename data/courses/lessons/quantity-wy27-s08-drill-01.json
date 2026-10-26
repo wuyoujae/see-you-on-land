@@ -1,0 +1,418 @@
+{
+  "id": "quantity-wy27-s08-drill-01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s08",
+  "title": "实战精刷 · 1—4题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      86,
+      87
+    ],
+    "printedPages": [
+      80,
+      81
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s08-t02-drill-01-question",
+      "type": "question",
+      "title": "实战精刷 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s08-t02-drill-01",
+        "type": "single",
+        "stem": "（25天津）某种商品今年1月的定价为1000元／吨，2月起由于每月原材料上涨导致每月成本增加20元／吨，3月、6月、9月、12月每月初定价在上月基础上向上调50元／吨。则本年度利润最高的月份和最低的月份分别是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "3月、10月"
+          },
+          {
+            "value": "B",
+            "label": "3月、11月"
+          },
+          {
+            "value": "C",
+            "label": "4月、10月"
+          },
+          {
+            "value": "D",
+            "label": "4月、11月"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B",
+        "reviewNote": "原题只给每吨价格与成本，解析按单位利润比较月份，无法比较未给销量的月总利润。"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          86
+        ],
+        "printedPages": [
+          80
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-01-p086.webp",
+            "alt": "利润问题 · 实战精刷1 · 讲义第80页",
+            "pdfPage": 86
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t02-drill-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t02-drill-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们只比较每吨利润与1月的差，不必知道初始成本。每过1个月成本多20元，遇3、6、9、12月售价再累计多50元。"
+        },
+        {
+          "type": "paragraph",
+          "text": "1—12月相对利润依次为0、－20、10、－10、－30、0、－20、－40、－10、－30、－50、－20元。"
+        },
+        {
+          "type": "paragraph",
+          "text": "最高3月，最低11月，选B。这里比较的是题目给定价格成本决定的每吨利润；各月总销量未给，不能另比较月总利润。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "按月记录售价与成本的增量；缺销量时只能比较单位利润。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          86
+        ],
+        "printedPages": [
+          80
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-01-p086.webp",
+            "alt": "利润问题 · 实战精刷1 · 讲义第80页",
+            "pdfPage": 86
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t02-drill-02-question",
+      "type": "question",
+      "title": "实战精刷 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s08-t02-drill-02",
+        "type": "single",
+        "stem": "（22国考）某地引进新的杂交水稻品种，今年每亩稻谷产量比上年增加了20%，且由于口感改善，每斤稻谷的售价从1.5元提升到1.65元。以此计算，今年每亩稻谷的销售收入比上年高660元。问今年的稻谷亩产是多少斤？",
+        "options": [
+          {
+            "value": "A",
+            "label": "1375"
+          },
+          {
+            "value": "B",
+            "label": "1650"
+          },
+          {
+            "value": "C",
+            "label": "1980"
+          },
+          {
+            "value": "D",
+            "label": "2200"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          86
+        ],
+        "printedPages": [
+          80
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-02-p086.webp",
+            "alt": "利润问题 · 实战精刷2 · 讲义第80页",
+            "pdfPage": 86
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t02-drill-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t02-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设去年亩产x斤，今年1.2x斤。去年收入1.5x元，今年收入1.65×1.2x＝1.98x元。"
+        },
+        {
+          "type": "paragraph",
+          "text": "每亩收入多0.48x＝660，得到去年亩产1375斤。题目问今年，所以1.2×1375＝1650斤，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "涨价和增产共同影响收入，求出的基期产量还要换成题目所问的现期。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          86
+        ],
+        "printedPages": [
+          80
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-02-p086.webp",
+            "alt": "利润问题 · 实战精刷2 · 讲义第80页",
+            "pdfPage": 86
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t02-drill-03-question",
+      "type": "question",
+      "title": "实战精刷 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s08-t02-drill-03",
+        "type": "single",
+        "stem": "（23国考）已知A、B两种设备定价相同，C设备单价为8000元／台。现A、B两种设备分别打六折、七折促销，购买1台B设备的费用比购买A、C设备各1台的总费用高2万元。问促销期间1000万元预算最多可以购买多少台A设备？",
+        "options": [
+          {
+            "value": "A",
+            "label": "35"
+          },
+          {
+            "value": "B",
+            "label": "51"
+          },
+          {
+            "value": "C",
+            "label": "59"
+          },
+          {
+            "value": "D",
+            "label": "77"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          86
+        ],
+        "printedPages": [
+          80
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-03-p086.webp",
+            "alt": "利润问题 · 实战精刷3 · 讲义第80页",
+            "pdfPage": 86
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t02-drill-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t02-drill-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设A、B原定价P元。促销B售价0.7P，A售价0.6P；B比A加C共贵20000元，所以0.7P－0.6P－8000＝20000。"
+        },
+        {
+          "type": "paragraph",
+          "text": "得到P＝280000元，A促销价168000元。1000万元预算可买10000000÷168000≈59.52台。"
+        },
+        {
+          "type": "paragraph",
+          "text": "设备只能整台买，最多59台，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "价格差先统一元，采购数量最后向下取整并核验预算。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          86
+        ],
+        "printedPages": [
+          80
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-03-p086.webp",
+            "alt": "利润问题 · 实战精刷3 · 讲义第80页",
+            "pdfPage": 86
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t02-drill-04-question",
+      "type": "question",
+      "title": "实战精刷 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s08-t02-drill-04",
+        "type": "single",
+        "stem": "（26浙江）某快餐店1份盒饭售价40元，1杯奶茶售价10元。如果2份盒饭和1杯奶茶配套出售，打九折，可获利20元；如果4份盒饭和3杯奶茶配套出售，打八折，可获利24元。那么按原价出售，1份盒饭比1杯奶茶多获利多少元？",
+        "options": [
+          {
+            "value": "A",
+            "label": "7"
+          },
+          {
+            "value": "B",
+            "label": "7.5"
+          },
+          {
+            "value": "C",
+            "label": "8"
+          },
+          {
+            "value": "D",
+            "label": "8.5"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          87
+        ],
+        "printedPages": [
+          81
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-04-p087.webp",
+            "alt": "利润问题 · 实战精刷4 · 讲义第81页",
+            "pdfPage": 87
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t02-drill-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t02-drill-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设盒饭成本x元、奶茶成本y元。第一种套餐售价(2×40＋10)×0.9＝81元，利润20，所以2x＋y＝61。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第二种售价(4×40＋3×10)×0.8＝152元，利润24，所以4x＋3y＝128。减去第一式2倍，得到y＝6，再得x＝27.5。"
+        },
+        {
+          "type": "paragraph",
+          "text": "原价每份盒饭利润12.5元，奶茶利润4元，相差8.5元，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "套餐题先从收入减利润还原总成本，再联立单件成本。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          87
+        ],
+        "printedPages": [
+          81
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t02-drill-04-p087.webp",
+            "alt": "利润问题 · 实战精刷4 · 讲义第81页",
+            "pdfPage": 87
+          }
+        ]
+      }
+    }
+  ]
+}

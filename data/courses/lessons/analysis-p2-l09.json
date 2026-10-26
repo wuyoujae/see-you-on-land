@@ -1,0 +1,161 @@
+{
+  "id": "analysis-p2-l09",
+  "subjectId": "analysis",
+  "groupId": "analysis-average",
+  "title": "平均数差值：分子用基期，分母用现期，再乘两边增速差",
+  "source": {
+    "startSeconds": 3648,
+    "endSeconds": 3895,
+    "timeLabel": "01:00:48—01:04:55",
+    "videoId": "7668729047387524358",
+    "videoTitle": "资料分析完整复盘"
+  },
+  "cards": [
+    {
+      "id": "analysis-p2-l09-knowledge-34b3576-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "平均数差值：分子用基期，分母用现期，再乘两边增速差 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "这种题问“今年平均比去年多多少、少多少”，要的是两个平均数的差，既不是增长率，也不是百分点。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们继续用南瓜例子：今年产量100亿吨、增长10%，人数1000人、增长5%，问今年人均产量比去年人均产量多多少。"
+        },
+        {
+          "type": "paragraph",
+          "text": "正常算就是今年100/1000，去年分别还原产量、人数后再相除，最后做差。步骤很多。我们就沿用前面比重差的结构，把它合成一个式子。"
+        },
+        {
+          "type": "formula",
+          "latex": "平均数差=\\frac{A}{B}\\times\\frac{a-b}{1+a}"
+        },
+        {
+          "type": "formula",
+          "latex": "平均数差=\\frac{分子基期量}{分母现期量}\\times(分子增长率-分母增长率)"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们看，最容易错的是分母：这一步用的是分母的现期量，不要也把它还原成基期。"
+        },
+        {
+          "type": "paragraph",
+          "text": "套南瓜例子，产量基期约100/1.1≈91亿吨，人数仍用今年1000人，再乘10%−5%："
+        },
+        {
+          "type": "formula",
+          "latex": "人均产量差=\\frac{100/(1+10\\%)}{1000}\\times(10\\%-5\\%)\\approx0.004545\\text{亿吨/人}"
+        }
+      ]
+    },
+    {
+      "id": "analysis-p2-l09-knowledge-34b3576-02",
+      "type": "text",
+      "role": "knowledge",
+      "title": "平均数差值：分子用基期，分母用现期，再乘两边增速差 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "这次是增加，所以答案为正。我们口算时可以先把量级放在一边，纸上出现了类似“0.9×5%”的写法；完整计算要把100、1000的量级还原。最终是平均产量的差，有产量/人的单位，不能记成“增加45%”。"
+        }
+      ]
+    },
+    {
+      "id": "analysis-q002-question",
+      "type": "question",
+      "title": "电影平均票价。",
+      "question": {
+        "id": "analysis-q002",
+        "type": "single",
+        "stem": "电影票房80.16亿元，同比增长18.5%；观影人次1.63亿，同比增长26.4%。问平均票价比去年怎么样？",
+        "options": [
+          {
+            "value": "A",
+            "label": "降3元"
+          },
+          {
+            "value": "B",
+            "label": "降1元"
+          },
+          {
+            "value": "C",
+            "label": "升3元"
+          },
+          {
+            "value": "D",
+            "label": "升1元"
+          }
+        ],
+        "answer": "A"
+      },
+      "source": {
+        "startSeconds": 3648,
+        "endSeconds": 3895,
+        "timeLabel": "01:00:48—01:04:55",
+        "videoId": "7668729047387524358",
+        "videoTitle": "资料分析完整复盘"
+      }
+    },
+    {
+      "id": "analysis-q002-explanation-cd2f24c-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们按这个顺序来。第一步不急着算多少，先看四个选项有升有降，那就先判趋势。"
+        },
+        {
+          "type": "paragraph",
+          "text": "平均票价是什么？票房收入除以观影人次，也就是钱除以人次。钱是分子，增长18.5%；人次是分母，增长26.4%。分子长得没有分母快，所以平均票价下降。C、D先排除，只剩降3元、降1元。"
+        },
+        {
+          "type": "paragraph",
+          "text": "接下来才算少多少。按刚才的式子，先求票房的基期，再除以今年的人次，乘两个增长率的差。"
+        },
+        {
+          "type": "formula",
+          "latex": "票价差=\\frac{80.16/(1+18.5\\%)}{1.63}\\times(18.5\\%-26.4\\%)"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看清“选项差距非常大”。3元和1元虽然只差2元，但一个是另一个的3倍，根本没必要把每一步算得很精细。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把票房数据统一放大后，用约700去估基期。还原单位理解，就是把去年的票房估成约70亿元；增速差7.9个百分点，直接按8个百分点算。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们顺着这个估算：70/1.63，大约四十几元，再乘8%，就是3元多，不会是1元左右。"
+        },
+        {
+          "type": "formula",
+          "latex": "票价下降量\\approx\\frac{70}{1.63}\\times8\\%\\approx3.4\\text{元}"
+        }
+      ],
+      "questionId": "analysis-q002"
+    },
+    {
+      "id": "analysis-q002-explanation-cd2f24c-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "因此A保留，B排除，选A，下降约3元。用未截位的数据核算，差约−3.28元，和选项方向、量级都一致。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这道题的方法就是“先趋势，后差值；先看选项，再决定保留几位”。但我们要注意，平均数差虽然和比重差公式结构一样，也不能直接照搬比重差的秒杀技巧。平均票价是元、人均产量是产量/人，它们都有自己的单位，不能拿增长率差直接当平均数差。"
+        }
+      ],
+      "questionId": "analysis-q002"
+    }
+  ]
+}

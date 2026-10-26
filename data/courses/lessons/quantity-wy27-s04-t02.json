@@ -1,0 +1,458 @@
+{
+  "id": "quantity-wy27-s04-t02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s04",
+  "title": "和定最值",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      45,
+      46,
+      47
+    ],
+    "printedPages": [
+      39,
+      40,
+      41
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s04-t02-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "和定最值",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "和已经固定，求某个数尽量大或尽量小，我们先把其他数往能允许的边界推。要求互不相同且为整数，就按相邻差1构造，不能把大家全设成同一个数。"
+        },
+        {
+          "type": "paragraph",
+          "text": "求最小值的最小：把其余数尽可能放大，看看总和够不够；求最大值的最小：让各个数尽量靠近。题里还有倍数、上限、最小间距时，边界也要同时满足。"
+        },
+        {
+          "type": "formula",
+          "latex": "1+2+\\cdots+n=\\frac{n(n+1)}2"
+        },
+        {
+          "type": "paragraph",
+          "text": "求最多分成几组，每组至少1且数量不同，先用1、2、3……计算最低需求；每组至少3，则从3开始。算出理论界限后，还要给出一组确实满足全部条件的分配，证明这个界限能达到。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          45
+        ],
+        "printedPages": [
+          39
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t02-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s04-t02-mother-01",
+        "type": "single",
+        "stem": "（23联考）某小区物业准备了230盒口罩免费派发给10栋楼，要求任意两栋楼派发的口罩数量都不相同，但最多相差不超过1倍。假设口罩不拆盒发放，那么派发口罩数量最少的那栋楼最少可派发口罩：",
+        "options": [
+          {
+            "value": "A",
+            "label": "18盒"
+          },
+          {
+            "value": "B",
+            "label": "15盒"
+          },
+          {
+            "value": "C",
+            "label": "14盒"
+          },
+          {
+            "value": "D",
+            "label": "12盒"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          46
+        ],
+        "printedPages": [
+          40
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t02-mother-01-p046.webp",
+            "alt": "等差数列与和定最值 · 母题精讲1 · 讲义第40页",
+            "pdfPage": 46
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t02-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t02-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设最少的一栋分m盒。任意两栋最多相差1倍，说明最多那栋不超过2m盒；又要求数量各不相同，其余9栋最多分别为2m、2m－1，直到2m－8。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这样最多能发m＋18m－36＝19m－36盒，要容纳230盒，就要19m－36≥230，得到m≥14。"
+        },
+        {
+          "type": "paragraph",
+          "text": "取14、20、21、22、23、24、25、26、27、28盒，总和正好230，最大28刚好是最小14的2倍。14确实能达到，所以选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先让其他数取最大得到下界，再构造一组达到下界的整数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          46
+        ],
+        "printedPages": [
+          40
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t02-mother-01-p046.webp",
+            "alt": "等差数列与和定最值 · 母题精讲1 · 讲义第40页",
+            "pdfPage": 46
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t02-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s04-t02-mother-02",
+        "type": "single",
+        "stem": "（24联考）部队射击比赛中，5名参赛的战士共击中88次目标。已知任意2人击中的目标数量均互不相同，问射击成绩排前两名的战士至少击中了多少次目标？",
+        "options": [
+          {
+            "value": "A",
+            "label": "37"
+          },
+          {
+            "value": "B",
+            "label": "39"
+          },
+          {
+            "value": "C",
+            "label": "58"
+          },
+          {
+            "value": "D",
+            "label": "82"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          46
+        ],
+        "printedPages": [
+          40
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t02-mother-02-p046.webp",
+            "alt": "等差数列与和定最值 · 母题精讲2 · 讲义第40页",
+            "pdfPage": 46
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t02-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t02-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把前两名的总次数设为S，第二名设为d，第一名至少d＋1，因此如果S≤38，就一定有d≤18。"
+        },
+        {
+          "type": "paragraph",
+          "text": "其余三人最多分别为d－1、d－2、d－3，总次数最多S＋3d－6≤38＋54－6＝86，达不到88。所以前两名至少共39次。"
+        },
+        {
+          "type": "paragraph",
+          "text": "14、17、18、19、20这组次数总和88，前两名19＋20＝39，能达到，所以选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "求前几名总和的最小值，要把其余名次尽量抬高，并用可行分配验证。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          46
+        ],
+        "printedPages": [
+          40
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t02-mother-02-p046.webp",
+            "alt": "等差数列与和定最值 · 母题精讲2 · 讲义第40页",
+            "pdfPage": 46
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t02-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s04-t02-mother-03",
+        "type": "single",
+        "stem": "（22上海）某单位进行了一次绩效考评打分，满分为100分。有5位员工的平均分为90分，而且他们的分数各不相同，其中分数最低的员工得分为77分，那么排第二名的员工至少得（）分。（员工分数取整数）",
+        "options": [
+          {
+            "value": "A",
+            "label": "90"
+          },
+          {
+            "value": "B",
+            "label": "92"
+          },
+          {
+            "value": "C",
+            "label": "94"
+          },
+          {
+            "value": "D",
+            "label": "96"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          46
+        ],
+        "printedPages": [
+          40
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t02-mother-03-p046.webp",
+            "alt": "等差数列与和定最值 · 母题精讲3 · 讲义第40页",
+            "pdfPage": 46
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t02-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t02-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把平均分换成总分：5×90＝450分。最低77分已固定，设第二名为x，第一名最多100，其余两人最多x－1、x－2。"
+        },
+        {
+          "type": "paragraph",
+          "text": "总分最多100＋x＋(x－1)＋(x－2)＋77＝3x＋174。要达到450，必须x≥92。"
+        },
+        {
+          "type": "paragraph",
+          "text": "100、92、91、90、77正好总分450，分数互不相同，所以第二名最少92分，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "有满分上限时先用满分，不同整数名次再依次减1。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          46
+        ],
+        "printedPages": [
+          40
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t02-mother-03-p046.webp",
+            "alt": "等差数列与和定最值 · 母题精讲3 · 讲义第40页",
+            "pdfPage": 46
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t02-mother-04-question",
+      "type": "question",
+      "title": "母题精讲 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s04-t02-mother-04",
+        "type": "single",
+        "stem": "（22联考）某单位A、B、C三个库房各存放若干台电脑，已知A库房比B库房多4台，B库房比C库房多2台，C库房和A库房共22台。如要将所有电脑发放给单位的不同部门，要求每个部门获得的电脑数量均不相同，问：最多可以发放给几个部门？",
+        "options": [
+          {
+            "value": "A",
+            "label": "7"
+          },
+          {
+            "value": "B",
+            "label": "8"
+          },
+          {
+            "value": "C",
+            "label": "9"
+          },
+          {
+            "value": "D",
+            "label": "10"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          47
+        ],
+        "printedPages": [
+          41
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t02-mother-04-p047.webp",
+            "alt": "等差数列与和定最值 · 母题精讲4 · 讲义第41页",
+            "pdfPage": 47
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t02-mother-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t02-mother-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先求总共有多少电脑。设C为x台，那么B＝x＋2，A＝x＋6；C＋A＝22，所以2x＋6＝22，C＝8，B＝10，A＝14，共32台。"
+        },
+        {
+          "type": "paragraph",
+          "text": "每个部门至少分1台且数量不同，7个部门最少需要1＋…＋7＝28台，8个部门最少需要36台，已经超过32。"
+        },
+        {
+          "type": "paragraph",
+          "text": "7个部门分1、2、3、4、5、6、11台，正好32且互不相同，所以最多7个，选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "最多组数先算不同正整数的最小总需求，再把剩余量加给最大组。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          47
+        ],
+        "printedPages": [
+          41
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t02-mother-04-p047.webp",
+            "alt": "等差数列与和定最值 · 母题精讲4 · 讲义第41页",
+            "pdfPage": 47
+          }
+        ]
+      }
+    }
+  ]
+}

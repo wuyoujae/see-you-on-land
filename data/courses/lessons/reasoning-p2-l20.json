@@ -1,0 +1,202 @@
+{
+  "id": "reasoning-p2-l20",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-propositions",
+  "title": "假言命题的矛盾：条件满足了，结果偏偏没发生",
+  "source": {
+    "startSeconds": 6995,
+    "endSeconds": 7055,
+    "timeLabel": "01:56:35—01:57:35",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p2-l20-knowledge-d069e8c-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "假言命题的矛盾：条件满足了，结果偏偏没发生",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "“如果天气好，就出去玩”。要推翻这句话，最直接的情况是什么？天气好，但是没出去玩。这才是它承诺了却没做到。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以："
+        },
+        {
+          "type": "paragraph",
+          "text": "否定“A→B”＝“A且非B”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "否定“B→A”＝“B且非A”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "记的是“前面真，后面假”。不是把箭头方向换一下，也不是两边一起加个非。前面的条件没有发生，并不能据此说原来的承诺被违反了。"
+        },
+        {
+          "type": "paragraph",
+          "text": "比如“若小陈获奖，则小刘也获奖”为假，就必须是小陈获奖、小刘没获奖。这个规则，下一道题马上要用。"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-q033-question",
+      "type": "question",
+      "title": "假言命题的矛盾：条件满足了，结果偏偏没发生",
+      "question": {
+        "id": "reasoning-q033",
+        "type": "single",
+        "stem": "小陈、小李、小刘3人从学校脱颖而出，到市里参加竞赛。5人预测：\n①小陈、小李都获奖；\n②小陈、小李至多有1人获奖；\n③小陈获奖，小李未获奖；\n④小陈未获奖，小李获奖；\n⑤若小陈获奖，则小刘也获奖。\n结果发现，只有1人预测正确。\n由此可以推出：",
+        "options": [
+          {
+            "value": "A",
+            "label": "小陈、小李都未获奖"
+          },
+          {
+            "value": "B",
+            "label": "小陈、小刘都获奖"
+          },
+          {
+            "value": "C",
+            "label": "小李、小刘都未获奖"
+          },
+          {
+            "value": "D",
+            "label": "小陈、小李都获奖"
+          }
+        ],
+        "answer": "D"
+      },
+      "source": {
+        "startSeconds": 6995,
+        "endSeconds": 7055,
+        "timeLabel": "01:56:35—01:57:35",
+        "videoId": "7686460560006794547",
+        "videoTitle": "判断推理完整复盘"
+      }
+    },
+    {
+      "id": "reasoning-q033-explanation-2d69a16-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们还是先看问法：“只有1人预测正确”，就是五句话只有一真。第一步不是瞎猜谁获奖，先翻译、找矛盾。"
+        },
+        {
+          "type": "paragraph",
+          "text": "用“陈、李、刘”代表各自获奖，翻译成："
+        },
+        {
+          "type": "paragraph",
+          "text": "①陈且李。"
+        },
+        {
+          "type": "paragraph",
+          "text": "②非陈或非李。注意“至多一个”就是至少有一个没获奖，不是“恰好一个”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "③陈且非李。"
+        },
+        {
+          "type": "paragraph",
+          "text": "④非陈且李。"
+        },
+        {
+          "type": "paragraph",
+          "text": "⑤陈→刘。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们看①和②：“陈且李”的否定，不正是“非陈或非李”嘛！所以①②必定一真一假。"
+        }
+      ],
+      "questionId": "reasoning-q033"
+    },
+    {
+      "id": "reasoning-q033-explanation-2d69a16-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "总共只有一句真话，①②已经占掉一句，那③④⑤一定全是假话。接下来就把这些假话翻成真实信息。"
+        },
+        {
+          "type": "paragraph",
+          "text": "③“陈且非李”为假→非陈或李。"
+        },
+        {
+          "type": "paragraph",
+          "text": "④“非陈且李”为假→陈或非李。"
+        },
+        {
+          "type": "paragraph",
+          "text": "⑤“陈→刘”为假→陈且非刘。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这里哪一句信息最确定？⑤！它直接告诉我们：小陈获奖，小刘没获奖。"
+        },
+        {
+          "type": "paragraph",
+          "text": "拿这两个信息先看选项："
+        },
+        {
+          "type": "paragraph",
+          "text": "A，小陈、小李都未获奖。但小陈已经确定获奖了，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "B，小陈、小刘都获奖。但小刘已经确定没获奖了，排除。"
+        }
+      ],
+      "questionId": "reasoning-q033"
+    },
+    {
+      "id": "reasoning-q033-explanation-2d69a16-03",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "C，小李、小刘都未获奖。小刘这一半对，但小李还得继续判断，先保留。"
+        },
+        {
+          "type": "paragraph",
+          "text": "D，小陈、小李都获奖。小陈这一半对，小李也还得判断，先保留。"
+        },
+        {
+          "type": "paragraph",
+          "text": "现在C和D就差“小李到底获没获奖”。我们把刚推出的“小陈获奖”，代回③的真实情况“非陈或李”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "原来这一项是“非陈”，现在我们知道“陈”，不就是把“非陈”否定掉了嘛！这时就能否一推一，推出“李”。所以小李也获奖。"
+        },
+        {
+          "type": "paragraph",
+          "text": "因此小陈、小李获奖，小刘没获奖，这道题选D。"
+        },
+        {
+          "type": "paragraph",
+          "text": "那为什么不能把“陈”代回④的真实情况“陈或非李”，直接推“小李没获奖”呢？因为那里我们肯定的就是原来的“陈”，这叫肯定其中一项，不能判断另一项。我们会的是“否一推一”，不是“肯一推一”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这道题要连着用三步：先找矛盾对，锁定其他句是假；再把假话取否定，拿到确定信息；最后把确定信息代回“或”命题，用否一推一。每一步都要看自己到底在否定哪一项，不能只看两句话里都出现了“小陈”就乱推。"
+        }
+      ],
+      "questionId": "reasoning-q033"
+    }
+  ]
+}

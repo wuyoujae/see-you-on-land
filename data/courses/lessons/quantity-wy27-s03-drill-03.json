@@ -1,0 +1,456 @@
+{
+  "id": "quantity-wy27-s03-drill-03",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s03",
+  "title": "实战精刷 · 9—12题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      38,
+      39
+    ],
+    "printedPages": [
+      32,
+      33
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s03-t03-drill-09-question",
+      "type": "question",
+      "title": "实战精刷 · 第9题",
+      "question": {
+        "id": "quantity-wy27-s03-t03-drill-09",
+        "type": "single",
+        "stem": "（23湖北事考）顾客安女士在水果店里购买了1箱苹果、3盒草莓和5盒蓝莓，共花费260元。顾客何先生在同一水果店以同样的单价购买了1箱苹果、4盒草莓和7盒蓝莓，共花费320元。那么购买1箱苹果、1盒草莓和1盒蓝莓需花费（）元。",
+        "options": [
+          {
+            "value": "A",
+            "label": "140"
+          },
+          {
+            "value": "B",
+            "label": "150"
+          },
+          {
+            "value": "C",
+            "label": "160"
+          },
+          {
+            "value": "D",
+            "label": "170"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          38
+        ],
+        "printedPages": [
+          32
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-09-p038.webp",
+            "alt": "和差倍比问题（三） · 实战精刷9 · 讲义第32页",
+            "pdfPage": 38
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-09-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t03-drill-09",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设苹果、草莓、蓝莓单价为a、b、c。两次购买分别给出a+3b+5c=260、a+4b+7c=320。目标不是求出各单价，而是求a+b+c。"
+        },
+        {
+          "type": "formula",
+          "latex": "a+b+c=3(a+3b+5c)-2(a+4b+7c)"
+        },
+        {
+          "type": "paragraph",
+          "text": "因此费用3×260-2×320=140元，选A。展开系数分别为1、1、1，所求组合完全吻合。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "所求整体能由已知组合相减得到时，不必求每个单价。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          38
+        ],
+        "printedPages": [
+          32
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-09-p038.webp",
+            "alt": "和差倍比问题（三） · 实战精刷9 · 讲义第32页",
+            "pdfPage": 38
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-10-question",
+      "type": "question",
+      "title": "实战精刷 · 第10题",
+      "question": {
+        "id": "quantity-wy27-s03-t03-drill-10",
+        "type": "single",
+        "stem": "（26江苏）某超市销售大，中，小三种型号的燕尾夹，小王分别购买了2只，5只，8只共花费22元；小李分别购买了3只，7只，11只，共花费31.5元。若在该超市购买上述三种型号的燕尾夹各1只，则共花费的金额是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "6.5元"
+          },
+          {
+            "value": "B",
+            "label": "7元"
+          },
+          {
+            "value": "C",
+            "label": "7.5元"
+          },
+          {
+            "value": "D",
+            "label": "8元"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          39
+        ],
+        "printedPages": [
+          33
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-10-p039.webp",
+            "alt": "和差倍比问题（三） · 实战精刷10 · 讲义第33页",
+            "pdfPage": 39
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-10-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t03-drill-10",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设大、中、小三种单价为a、b、c。两条已知为2a+5b+8c=22、3a+7b+11c=31.5。目标a+b+c可用第二式3倍减第一式4倍。"
+        },
+        {
+          "type": "formula",
+          "latex": "a+b+c=3(3a+7b+11c)-4(2a+5b+8c)=94.5-88=6.5"
+        },
+        {
+          "type": "paragraph",
+          "text": "因此选A。对应系数9-8、21-20、33-32都等于1，这是整体消元成立的依据。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "用系数逐项核验等量式组合，避免只凭金额巧合凑答案。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          39
+        ],
+        "printedPages": [
+          33
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-10-p039.webp",
+            "alt": "和差倍比问题（三） · 实战精刷10 · 讲义第33页",
+            "pdfPage": 39
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-11-question",
+      "type": "question",
+      "title": "实战精刷 · 第11题",
+      "question": {
+        "id": "quantity-wy27-s03-t03-drill-11",
+        "type": "single",
+        "stem": "（21联考）幼儿园需采购春联、窗花、小狗玩偶三种新年用品，已知大班采购春联7幅，窗花12对、小狗玩偶5个，共花费200元，中班采购春联9幅、窗花19对、小狗玩偶5个，共花费224元。问小班采购春联10幅，窗花10对，小狗玩偶10个需花费多少元？",
+        "options": [
+          {
+            "value": "A",
+            "label": "170"
+          },
+          {
+            "value": "B",
+            "label": "176"
+          },
+          {
+            "value": "C",
+            "label": "340"
+          },
+          {
+            "value": "D",
+            "label": "352"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          39
+        ],
+        "printedPages": [
+          33
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-11-p039.webp",
+            "alt": "和差倍比问题（三） · 实战精刷11 · 讲义第33页",
+            "pdfPage": 39
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-11-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t03-drill-11",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设春联、窗花、小狗玩偶单价为a、b、c。已知7a+12b+5c=200，9a+19b+5c=224。目标是10a+10b+10c。"
+        },
+        {
+          "type": "formula",
+          "latex": "10a+10b+10c=4(7a+12b+5c)-2(9a+19b+5c)"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以费用4×200-2×224=800-448=352元，选D。展开检查28-18=10、48-38=10、20-10=10，三种数量全部对应。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "整体消元中的倍数要同时匹配全部商品数量。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          39
+        ],
+        "printedPages": [
+          33
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-11-p039.webp",
+            "alt": "和差倍比问题（三） · 实战精刷11 · 讲义第33页",
+            "pdfPage": 39
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-12-question",
+      "type": "question",
+      "title": "实战精刷 · 第12题",
+      "question": {
+        "id": "quantity-wy27-s03-t03-drill-12",
+        "type": "single",
+        "stem": "（25联考）某单位优化办事流程，每个窗口总服务时间不变，但个人服务和企业服务的单次用时分别下降了50%和20%。原来每个窗口每天可以服务80名个人和30家企业，现在每个窗口可以服务54名个人和42家企业。问现在每次企业服务的用时是个人服务的多少倍（服务衔接时间忽略不计）？",
+        "options": [
+          {
+            "value": "A",
+            "label": "不到11倍"
+          },
+          {
+            "value": "B",
+            "label": "11~13倍之间"
+          },
+          {
+            "value": "C",
+            "label": "13~15倍之间"
+          },
+          {
+            "value": "D",
+            "label": "超过15倍"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          39
+        ],
+        "printedPages": [
+          33
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-12-p039.webp",
+            "alt": "和差倍比问题（三） · 实战精刷12 · 讲义第33页",
+            "pdfPage": 39
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-12-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t03-drill-12",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设原来个人业务每次用时x，企业业务每次用时y。总工作时间不变，原时间80x+30y，新时间54×0.5x+42×0.8y，二者相等。"
+        },
+        {
+          "type": "formula",
+          "latex": "80x+30y=27x+33.6y\\Rightarrow53x=3.6y"
+        },
+        {
+          "type": "paragraph",
+          "text": "注意问的是“现在”的用时比，不是原来的y/x。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{0.8y}{0.5x}=1.6\\times\\frac{53}{3.6}=\\frac{212}{9}\\approx23.56"
+        },
+        {
+          "type": "paragraph",
+          "text": "超过15倍，所以选D。下降50%后剩50%，下降20%后剩80%，不能直接用下降幅度相除。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          39
+        ],
+        "printedPages": [
+          33
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-12-p039.webp",
+            "alt": "和差倍比问题（三） · 实战精刷12 · 讲义第33页",
+            "pdfPage": 39
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-12-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s03-t03-drill-12",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "服务总时间相等先列旧新工作量关系，最后将比值转换到题目问的时点。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          39
+        ],
+        "printedPages": [
+          33
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-12-p039.webp",
+            "alt": "和差倍比问题（三） · 实战精刷12 · 讲义第33页",
+            "pdfPage": 39
+          }
+        ]
+      }
+    }
+  ]
+}

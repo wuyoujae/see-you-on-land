@@ -1,0 +1,35 @@
+{
+  "id": "reasoning-p1-l01",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-causal",
+  "title": "先弄明白：我们到底在支持什么、反驳什么",
+  "source": {
+    "startSeconds": 0,
+    "endSeconds": 183,
+    "timeLabel": "00:00—00:03:03",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p1-l01-knowledge-c26ed1c-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "先弄明白：我们到底在支持什么、反驳什么",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "加强和削弱，说白了就是：别人给了我们一个观点，加强就是给这个观点补理由，削弱就是有理由地去怼他。"
+        },
+        {
+          "type": "paragraph",
+          "text": "但是我们不能一上来就怼。先找准他到底说了什么，尤其是“因此”“所以”“认为”后面的结论。结论找错了，后面分析得再起劲也没有用。"
+        },
+        {
+          "type": "paragraph",
+          "text": "做题的时候，我们可以先把题干压缩成一句最简单的话，再带着这句话去看选项。不要读完题目，就把四个选项挨个翻来覆去地想。我们先想清楚它哪里可能有问题，大概会出现一个什么样的答案，再去找，思路会清楚很多。"
+        }
+      ]
+    }
+  ]
+}

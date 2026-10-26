@@ -1,0 +1,662 @@
+{
+  "id": "quantity-wy27-s01-t02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s01",
+  "title": "比例份数思维",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      11,
+      12,
+      13
+    ],
+    "printedPages": [
+      5,
+      6,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s01-t02-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "比例份数思维",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们把A∶B=3∶7看成A有3份、B有7份，先算份数之间的关系，再用已知的实际量确定一份是多少。比如A比B少12个，差4份就是12，一份3个，A与B一共30个。若A∶B=3∶7、B∶C=2∶3，先把公共的B统一成14份，得到6∶14∶21；A为12个，一份2个，C就是42个。"
+        },
+        {
+          "type": "formula",
+          "latex": "A:B=3:7,\\quad B-A=12\\Rightarrow A+B=\\frac{12}{7-3}(3+7)=30"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们还要认出乘积关系M=A×B。A不变时，M与B成正比；M不变时，A与B成反比。例如工作量、总耗电量、路程固定时，效率与时间、设备数与运行时间、速度与用时就可以用反比。"
+        },
+        {
+          "type": "formula",
+          "latex": "M=AB;\\quad A\\text{固定时}\\ \\frac{M_1}{M_2}=\\frac{B_1}{B_2};\\quad M\\text{固定时}\\ \\frac{A_1}{A_2}=\\frac{B_2}{B_1}"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们可以先试整数倍关系能否直接筛选；筛不出时再做份数计算。连续量照样可以用比例计算，只是没有整数前提时不能强行要求某量是整数倍。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          11
+        ],
+        "printedPages": [
+          5
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t02-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s01-t02-mother-01",
+        "type": "single",
+        "stem": "（26广东）未来五年，某市计划新增风电装机容量占新能源总装机容量的40%，光伏装机容量占新能源总装机容量的35%，其余为生物质能，已知光伏装机容量比生物质能多120兆瓦，则未来五年，该市新能源总装机容量为（）兆瓦。",
+        "options": [
+          {
+            "value": "A",
+            "label": "600"
+          },
+          {
+            "value": "B",
+            "label": "800"
+          },
+          {
+            "value": "C",
+            "label": "1000"
+          },
+          {
+            "value": "D",
+            "label": "1200"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          12
+        ],
+        "printedPages": [
+          6
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t02-mother-01-p012.webp",
+            "alt": "和差倍比问题（一） · 母题精讲1 · 讲义第6页",
+            "pdfPage": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t02-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t02-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先找120兆瓦对应的比例差。生物质能占1-40%-35%=25%，光伏比它多35%-25%=10%，这10%才对应120兆瓦。"
+        },
+        {
+          "type": "formula",
+          "latex": "总装机容量=\\frac{120}{35\\%-25\\%}=1200\\text{兆瓦}"
+        },
+        {
+          "type": "paragraph",
+          "text": "核验：风电480、光伏420、生物质能300，光伏确实多120，所以选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "部分的实际差量，要对应部分占比之差。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          12
+        ],
+        "printedPages": [
+          6
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t02-mother-01-p012.webp",
+            "alt": "和差倍比问题（一） · 母题精讲1 · 讲义第6页",
+            "pdfPage": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t02-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s01-t02-mother-02",
+        "type": "single",
+        "stem": "（24联考）运动会招募志愿者，第一次招募了不到100人，其中男女比例为11：7；补招若干女性志愿者后，男女比例变为4：3。问最多可能补招了多少名女性志愿者？",
+        "options": [
+          {
+            "value": "A",
+            "label": "3"
+          },
+          {
+            "value": "B",
+            "label": "5"
+          },
+          {
+            "value": "C",
+            "label": "6"
+          },
+          {
+            "value": "D",
+            "label": "10"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          12
+        ],
+        "printedPages": [
+          6
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t02-mother-02-p012.webp",
+            "alt": "和差倍比问题（一） · 母题精讲2 · 讲义第6页",
+            "pdfPage": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t02-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t02-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先抓不变的男性人数。第一次男11k、女7k，总数18k<100，故k只能取1到5的整数。补招女性后男∶女=4∶3，男性11k必须能按4份整分，所以k是4的倍数，只能取4。"
+        },
+        {
+          "type": "formula",
+          "latex": "男性=44,\\quad原女性=28,\\quad新女性=44\\times\\frac34=33"
+        },
+        {
+          "type": "paragraph",
+          "text": "补招33-28=5名，选B。不能只把k取5再算出6.25名，因为人数不能是小数。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "一方不变的比例变化，要兼顾两套比例的人数整数条件。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          12
+        ],
+        "printedPages": [
+          6
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t02-mother-02-p012.webp",
+            "alt": "和差倍比问题（一） · 母题精讲2 · 讲义第6页",
+            "pdfPage": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t02-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s01-t02-mother-03",
+        "type": "single",
+        "stem": "（26广东）某蓄电池可以同时供20台设备运行5天，在供20台设备运行12小时后，又新增了5台设备。如果所有设备每天的耗电量相等，则该蓄电池还可以供这些设备运行（）天。",
+        "options": [
+          {
+            "value": "A",
+            "label": "3.5"
+          },
+          {
+            "value": "B",
+            "label": "3.6"
+          },
+          {
+            "value": "C",
+            "label": "3.8"
+          },
+          {
+            "value": "D",
+            "label": "4.0"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          12
+        ],
+        "printedPages": [
+          6
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t02-mother-03-p012.webp",
+            "alt": "和差倍比问题（一） · 母题精讲3 · 讲义第6页",
+            "pdfPage": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t02-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t02-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把电量换成“台·天”，避免不知道每台设备具体耗电多少。总电量相当于20×5=100台·天；12小时是0.5天，先用掉20×0.5=10台·天。"
+        },
+        {
+          "type": "formula",
+          "latex": "剩余运行天数=\\frac{100-10}{20+5}=3.6"
+        },
+        {
+          "type": "paragraph",
+          "text": "剩余90台·天分给25台设备，每台都能再运行3.6天，所以选B。题目问“还可以”，不把已经运行的0.5天加回来。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "总量不变的耗用问题，用单位耗量的倍数作统一单位。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          12
+        ],
+        "printedPages": [
+          6
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t02-mother-03-p012.webp",
+            "alt": "和差倍比问题（一） · 母题精讲3 · 讲义第6页",
+            "pdfPage": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t02-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s01-t02-practice-01",
+        "type": "single",
+        "stem": "（26山东）一共120人参加掷飞盘和跳绳比赛，跳绳和掷飞盘都参加的人是只掷飞盘的1/3，是只跳绳的1/4，若跳绳可以单人或两人跳，两人可以共用一根跳绳，问需要至少准备多少根跳绳？",
+        "options": [
+          {
+            "value": "A",
+            "label": "35"
+          },
+          {
+            "value": "B",
+            "label": "36"
+          },
+          {
+            "value": "C",
+            "label": "37"
+          },
+          {
+            "value": "D",
+            "label": "38"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          13
+        ],
+        "printedPages": [
+          7
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t02-practice-01-p013.webp",
+            "alt": "和差倍比问题（一） · 思维精练1 · 讲义第7页",
+            "pdfPage": 13
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t02-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t02-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设两项都参加的为1份，则只掷飞盘3份、只跳绳4份。全部120人就是8份，每份15人。跳绳的人包括只跳绳和两项都参加，共5份，也就是75人。"
+        },
+        {
+          "type": "formula",
+          "latex": "最少跳绳根数=\\left\\lceil\\frac{75}{2}\\right\\rceil=38"
+        },
+        {
+          "type": "paragraph",
+          "text": "37根最多供74人使用，不够；38根可以安排37组双人和1名单人，能够达到，所以选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "有交叉的比例先拆成互斥部分，最少工具数还要向上取整并验证可实现。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          13
+        ],
+        "printedPages": [
+          7
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t02-practice-01-p013.webp",
+            "alt": "和差倍比问题（一） · 思维精练1 · 讲义第7页",
+            "pdfPage": 13
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t02-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s01-t02-practice-02",
+        "type": "single",
+        "stem": "（25联考）三个部门人数比为5：3：3，最少调动12个人可以使各部门人数相同，问三个部门总人数在哪个范围内？",
+        "options": [
+          {
+            "value": "A",
+            "label": "80~90"
+          },
+          {
+            "value": "B",
+            "label": "90~100"
+          },
+          {
+            "value": "C",
+            "label": "60~80"
+          },
+          {
+            "value": "D",
+            "label": "100以上"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          13
+        ],
+        "printedPages": [
+          7
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t02-practice-02-p013.webp",
+            "alt": "和差倍比问题（一） · 思维精练2 · 讲义第7页",
+            "pdfPage": 13
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t02-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t02-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把三个部门看成5k、3k、3k。总数11k，平均后每个部门11k/3。只有第一个部门超过平均数，最少调动人数就是它需要调出的那部分。"
+        },
+        {
+          "type": "formula",
+          "latex": "5k-\\frac{11k}{3}=12\\quad\\Longrightarrow\\quad k=9"
+        },
+        {
+          "type": "paragraph",
+          "text": "三个部门原有45、27、27人，各调6人到后两个部门就成为33、33、33，恰好调12人。总数99，落在90至100之间，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "调人最少时，只搬走超过平均数的部分，不把调出和调入重复计算。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          13
+        ],
+        "printedPages": [
+          7
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t02-practice-02-p013.webp",
+            "alt": "和差倍比问题（一） · 思维精练2 · 讲义第7页",
+            "pdfPage": 13
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t02-practice-03-question",
+      "type": "question",
+      "title": "思维精练 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s01-t02-practice-03",
+        "type": "single",
+        "stem": "（26联考）某新能源汽车充电站有快充桩和慢充桩，数量比为3：1，快充桩每车充电不超过30分钟，慢充桩每车充电不超过120分钟。若某日共服务车辆312辆，且每个充电桩均满负荷运行，则该充电站的充电桩个数最多有多少个?",
+        "options": [
+          {
+            "value": "A",
+            "label": "8"
+          },
+          {
+            "value": "B",
+            "label": "16"
+          },
+          {
+            "value": "C",
+            "label": "20"
+          },
+          {
+            "value": "D",
+            "label": "24"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          13
+        ],
+        "printedPages": [
+          7
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t02-practice-03-p013.webp",
+            "alt": "和差倍比问题（一） · 思维精练3 · 讲义第7页",
+            "pdfPage": 13
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t02-practice-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t02-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先注意“一日满负荷”和“不超过”。快充每车最多半小时，全天至少服务48辆；慢充每车最多2小时，全天至少服务12辆。快慢桩按3∶1，每4个桩一天至少服务3×48+12=156辆。"
+        },
+        {
+          "type": "formula",
+          "latex": "桩数=4k,\\quad156k\\le312\\quad\\Longrightarrow\\quad k\\le2"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以最多8个桩。取6快2慢，且每车分别刚好用30分钟、120分钟，全天服务312辆，确实能达到，选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "时间上限会变成满负荷服务量下限，求设备最多要先看不等号方向。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          13
+        ],
+        "printedPages": [
+          7
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t02-practice-03-p013.webp",
+            "alt": "和差倍比问题（一） · 思维精练3 · 讲义第7页",
+            "pdfPage": 13
+          }
+        ]
+      }
+    }
+  ]
+}

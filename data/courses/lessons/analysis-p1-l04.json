@@ -1,0 +1,155 @@
+{
+  "id": "analysis-p1-l04",
+  "subjectId": "analysis",
+  "groupId": "analysis-abrx",
+  "title": "B 类：求后期，先分清是“每年多一样多”，还是“每年增长一样快”",
+  "source": {
+    "startSeconds": 163,
+    "endSeconds": 432,
+    "timeLabel": "00:02:43—00:07:12",
+    "videoId": "7668729047387524358",
+    "videoTitle": "资料分析完整复盘"
+  },
+  "cards": [
+    {
+      "id": "analysis-p1-l04-knowledge-6998d45-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "B 类：求后期，先分清是“每年多一样多”，还是“每年增长一样快” · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "（1）每年增长量相同"
+        },
+        {
+          "type": "formula",
+          "latex": "n 年后的量 B = 初始量 A + nX"
+        },
+        {
+          "type": "paragraph",
+          "text": "教学例题2：现在的产量是 1000，每年增加 100，问多少年后产量能够超过 2000？"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看，每年增加的是固定的 100，是增长量相同，所以按年数直接往上加。"
+        },
+        {
+          "type": "formula",
+          "latex": "1000+100n>2000"
+        },
+        {
+          "type": "formula",
+          "latex": "n>10"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以要 11 年。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们要注意这个坑：“超过”不是“达到”。10 年后刚好是 2000，还没有超过，必须再往后一年。遇到“至少达到”“首次超过”，把题目的边界字眼看准。"
+        }
+      ]
+    },
+    {
+      "id": "analysis-p1-l04-knowledge-6998d45-02",
+      "type": "text",
+      "role": "knowledge",
+      "title": "B 类：求后期，先分清是“每年多一样多”，还是“每年增长一样快” · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "（2）每年增长率相同"
+        },
+        {
+          "type": "paragraph",
+          "text": "增长率固定，就不是每年都加同一个数了。因为第二年的增长，是在第一年已经增长后的量上继续算。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们沿用间隔增长率，一段一段往后接。"
+        },
+        {
+          "type": "paragraph",
+          "text": "教学例题3：2019 年的量是 100，以后每年增长 10%，求 2021 年、2022 年、2023 年的量。"
+        },
+        {
+          "type": "paragraph",
+          "text": "先求 2021 年，隔了两年，每年的增长率都是 10%。"
+        },
+        {
+          "type": "formula",
+          "latex": "两年间隔增长率 = 10\\%+10\\%+10\\%\\times10\\%=21\\%"
+        },
+        {
+          "type": "formula",
+          "latex": "2021 年的量 = 100\\times(1+21\\%)=121"
+        }
+      ]
+    },
+    {
+      "id": "analysis-p1-l04-knowledge-6998d45-03",
+      "type": "text",
+      "role": "knowledge",
+      "title": "B 类：求后期，先分清是“每年多一样多”，还是“每年增长一样快” · 3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "再求 2022 年，就把刚才两年的 21%，和下一年的 10%再接起来。"
+        },
+        {
+          "type": "formula",
+          "latex": "三年间隔增长率 = 21\\%+10\\%+21\\%\\times10\\%=33.1\\%"
+        },
+        {
+          "type": "formula",
+          "latex": "2022 年的量 = 100\\times(1+33.1\\%)=133.1"
+        },
+        {
+          "type": "paragraph",
+          "text": "再求 2023 年，我们把四年分成两个两年。前两年的增长率是 21%，后两年的增长率也是 21%，再把这两段接起来。"
+        },
+        {
+          "type": "formula",
+          "latex": "四年间隔增长率 = 21\\%+21\\%+21\\%\\times21\\%=46.41\\%"
+        },
+        {
+          "type": "formula",
+          "latex": "2023 年的量 = 100\\times(1+46.41\\%)=146.41"
+        },
+        {
+          "type": "paragraph",
+          "text": "粗略口算时，我们可以先看成“46%多、146 多”，再把同一路线的乘积补全，方便核对。它的本质一直没变：每一段的增长，都要接在上一段已经增长后的量上。"
+        }
+      ]
+    },
+    {
+      "id": "analysis-p1-l04-knowledge-6998d45-04",
+      "type": "text",
+      "role": "knowledge",
+      "title": "B 类：求后期，先分清是“每年多一样多”，还是“每年增长一样快” · 4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "（3）名义现期量与实际现期量"
+        },
+        {
+          "type": "paragraph",
+          "text": "题目有时给名义现期量、名义增长率，又给实际增长率，让我们求实际现期量。我们的路线还是两步：先用名义数据还原基期，再从同一个基期按实际增长率推到现期。"
+        },
+        {
+          "type": "formula",
+          "latex": "基期量 = \\frac{名义现期量}{1+名义增长率}"
+        },
+        {
+          "type": "formula",
+          "latex": "实际现期量 = \\frac{名义现期量}{1+名义增长率}\\times(1+实际增长率)"
+        },
+        {
+          "type": "paragraph",
+          "text": "这里要建立在题目这两套增长率对应同一基期口径的条件下。别直接拿名义现期量去乘实际增长率，它中间还要先退回基期。"
+        }
+      ]
+    }
+  ]
+}

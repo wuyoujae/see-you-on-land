@@ -1,0 +1,86 @@
+{
+  "id": "reasoning-p4-l06",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-truth",
+  "title": "代入法：一个人说好几句，直接按选项验真假",
+  "source": {
+    "startSeconds": 9465,
+    "timeLabel": "2:37:45",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p4-l06-knowledge-543e9c6-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "代入法：一个人说好几句，直接按选项验真假",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "有些题信息特别多，每个人说了两三句，又要求有人全对、有人全错、有人只对一半。这时候直接把选项代进去，看每个人到底对了几句，往往比自己凭空猜更清楚。"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-q045-question",
+      "type": "question",
+      "title": "代入法：一个人说好几句，直接按选项验真假",
+      "question": {
+        "id": "reasoning-q045",
+        "type": "single",
+        "stem": "甲、乙、丙三人对一块花田里种植的花朵品种做了两次猜测：\n甲：①“它是月季”；②“它不是玫瑰”。\n乙：①“它不是月季”；②“它是玫瑰”。\n丙：①“它不是月季”；②“它不是牡丹”。\n工作人员听到后表示：“你们三人中，只有一个人两次都猜对了，一个人猜对了一次，还有一个人完全猜错了。”\n如果工作人员的说法是对的，则该花田里种植的是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "玫瑰"
+          },
+          {
+            "value": "B",
+            "label": "月季"
+          },
+          {
+            "value": "C",
+            "label": "牡丹"
+          },
+          {
+            "value": "D",
+            "label": "玫瑰、月季和牡丹之外的花种"
+          }
+        ],
+        "answer": "B"
+      },
+      "source": {
+        "startSeconds": 9465,
+        "timeLabel": "2:37:45",
+        "videoId": "7686460560006794547",
+        "videoTitle": "判断推理完整复盘"
+      }
+    },
+    {
+      "id": "reasoning-q045-explanation-3fa6c8b-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先代A，假如是玫瑰。甲说月季错，说不是玫瑰也错，甲全错；乙说不是月季对，说玫瑰也对，乙全对；丙说不是月季对，说不是牡丹也对，丙也全对。两个人全对，不符合，排除A。"
+        },
+        {
+          "type": "paragraph",
+          "text": "再代B，假如是月季。甲说月季对，说不是玫瑰也对，甲全对；乙说不是月季错，说玫瑰也错，乙全错；丙说不是月季错，说不是牡丹对，丙只对一句。刚好一人全对，一人全错，一人只对一次，所以选B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "C，如果是牡丹，甲、乙、丙分别都是只对一句，没有全对和全错，不符合。D，如果是其他花，甲只对第二句，乙只对第一句，丙两句都对，没有全错，也不符合。"
+        },
+        {
+          "type": "paragraph",
+          "text": "考场上验证到B完全符合，就可以走了。笔记把C、D也补出来，是为了看清楚这种题到底在检验什么。"
+        }
+      ],
+      "questionId": "reasoning-q045"
+    }
+  ]
+}

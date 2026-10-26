@@ -1,0 +1,558 @@
+{
+  "id": "quantity-wy27-s03-t01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s03",
+  "title": "普通方程",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      29,
+      30,
+      31
+    ],
+    "printedPages": [
+      23,
+      24,
+      25
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s03-t01-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "普通方程",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们找等量关系，先盯题目中的“相当于、是、等于、比……多或少”。总量=平均数×份数、路程=速度×时间、工作量=效率×时间，这些基本式也能把文字条件写成等式。每个等号两边必须表示同一个量，单位也要一致。"
+        },
+        {
+          "type": "paragraph",
+          "text": "同一批东西按两种方案分配时，我们先比较“每份差”和“总需求差”。例如每处6份还剩r，每处8份却缺s，增加的2份乘处数就等于r+s。"
+        },
+        {
+          "type": "formula",
+          "latex": "处数=\\frac{剩余+缺口}{每处增加量}"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设未知数时尽量让系数为整数。A是B的5倍，可设B=x、A=5x；A∶B=7∶4，设7x、4x；A是B的80%，设4x、5x；A比B多25%，设5x、4x；A比B少40%，设3x、5x。份数本身不一定是整数，只有相关量及最简比例提供整数约束时才能进一步限制x。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          29
+        ],
+        "printedPages": [
+          23
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t01-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s03-t01-mother-01",
+        "type": "single",
+        "stem": "（26国考）某园区种植甲、乙、丙三种花卉共10公顷，甲的种植面积是乙的2倍，丙的种植面积比乙少2公顷。问丙的种植面积为多少公顷？",
+        "options": [
+          {
+            "value": "A",
+            "label": "1"
+          },
+          {
+            "value": "B",
+            "label": "2"
+          },
+          {
+            "value": "C",
+            "label": "3"
+          },
+          {
+            "value": "D",
+            "label": "4"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          30
+        ],
+        "printedPages": [
+          24
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t01-mother-01-p030.webp",
+            "alt": "和差倍比问题（三） · 母题精讲1 · 讲义第24页",
+            "pdfPage": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t01-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t01-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设乙的种植面积为x公顷，甲就是2x，丙就是x-2。三种面积合起来10公顷。"
+        },
+        {
+          "type": "formula",
+          "latex": "2x+x+(x-2)=10\\quad\\Longrightarrow\\quad x=3"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以丙为3-2=1公顷，选A。核验甲6、乙3、丙1，总数10，丙确实比乙少2。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "几种量围绕同一个量给出倍数和差值时，设这个公共量最方便。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          30
+        ],
+        "printedPages": [
+          24
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t01-mother-01-p030.webp",
+            "alt": "和差倍比问题（三） · 母题精讲1 · 讲义第24页",
+            "pdfPage": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t01-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s03-t01-mother-02",
+        "type": "single",
+        "stem": "（26北京）运输公司派出一批货车运输一批货物，每车每次运5吨正好3次运完，如果增加6辆车，每车每次多运1吨，正好2次运完。则原来有多少辆车？",
+        "options": [
+          {
+            "value": "A",
+            "label": "54"
+          },
+          {
+            "value": "B",
+            "label": "36"
+          },
+          {
+            "value": "C",
+            "label": "24"
+          },
+          {
+            "value": "D",
+            "label": "18"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          30
+        ],
+        "printedPages": [
+          24
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t01-mother-02-p030.webp",
+            "alt": "和差倍比问题（三） · 母题精讲2 · 讲义第24页",
+            "pdfPage": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t01-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t01-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先抓两种方案运的是同一批货。设原来n辆车，第一种方案总运输量为n×5×3；第二种车数n+6，每车每次6吨，运2次。"
+        },
+        {
+          "type": "formula",
+          "latex": "15n=12(n+6)\\quad\\Longrightarrow\\quad n=24"
+        },
+        {
+          "type": "paragraph",
+          "text": "核验第一种24×5×3=360吨，第二种30×6×2=360吨，正好相等，所以选C。新增6辆不能写成只派6辆。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "同一总工作量的不同方案，分别写“数量×单次效率×次数”后令其相等。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          30
+        ],
+        "printedPages": [
+          24
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t01-mother-02-p030.webp",
+            "alt": "和差倍比问题（三） · 母题精讲2 · 讲义第24页",
+            "pdfPage": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t01-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s03-t01-mother-03",
+        "type": "single",
+        "stem": "（25广东事考）某地教育部门计划向当地各小学发放学习材料，如果每所小学分配6套材料，则剩余70套材料，如果每所小学分配8套材料，则缺40套材料，则当地共有（）所小学需要发放材料。",
+        "options": [
+          {
+            "value": "A",
+            "label": "40"
+          },
+          {
+            "value": "B",
+            "label": "55"
+          },
+          {
+            "value": "C",
+            "label": "70"
+          },
+          {
+            "value": "D",
+            "label": "85"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          30
+        ],
+        "printedPages": [
+          24
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t01-mother-03-p030.webp",
+            "alt": "和差倍比问题（三） · 母题精讲3 · 讲义第24页",
+            "pdfPage": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t01-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t01-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先比较两种分配方案。每所从6套增加到8套，多分2套；原来剩70套，后来还缺40套，相当于总需求多了70+40=110套。"
+        },
+        {
+          "type": "formula",
+          "latex": "学校数=\\frac{70+40}{8-6}=55"
+        },
+        {
+          "type": "paragraph",
+          "text": "核验材料总数为6×55+70=400套，若每所8套需要440套，确实差40套，所以选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "一剩一缺的分配题，总差是剩余加缺口，再除以每份差。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          30
+        ],
+        "printedPages": [
+          24
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t01-mother-03-p030.webp",
+            "alt": "和差倍比问题（三） · 母题精讲3 · 讲义第24页",
+            "pdfPage": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t01-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s03-t01-practice-01",
+        "type": "single",
+        "stem": "（26天津）甲、乙、丙、丁4个车间工人人数比为5：4：3：2。现乙调1人去甲，丙调3人去丁，此时甲工人数是丙的2倍。问此时乙至少再调多少人去其他车间，其工人数才能少于其余任何一个车间？",
+        "options": [
+          {
+            "value": "A",
+            "label": "5"
+          },
+          {
+            "value": "B",
+            "label": "6"
+          },
+          {
+            "value": "C",
+            "label": "7"
+          },
+          {
+            "value": "D",
+            "label": "8"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          31
+        ],
+        "printedPages": [
+          25
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t01-practice-01-p031.webp",
+            "alt": "和差倍比问题（三） · 思维精练1 · 讲义第25页",
+            "pdfPage": 31
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t01-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t01-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把原四车间设为5k、4k、3k、2k。第一次调整后为5k+1、4k-1、3k-3、2k+3，且甲是丙的2倍。"
+        },
+        {
+          "type": "formula",
+          "latex": "5k+1=2(3k-3)\\Rightarrow k=7"
+        },
+        {
+          "type": "paragraph",
+          "text": "此时甲36、乙27、丙18、丁17。若乙再调6人，乙剩21人；要让丙、丁都严格多于21，至少分别补4、5人，共需9人，6人不够。调7人时乙剩20人，给丙3人、丁4人，就成为36、20、21、21，满足要求。因此最少7人，选C。更少调人只会让乙更大、能分出去的人更少，同样不可能。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "求调动最少，既要给出达标方案，也要排除更少人数可行的可能。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          31
+        ],
+        "printedPages": [
+          25
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t01-practice-01-p031.webp",
+            "alt": "和差倍比问题（三） · 思维精练1 · 讲义第25页",
+            "pdfPage": 31
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t01-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s03-t01-practice-02",
+        "type": "single",
+        "stem": "（26联考）某公司共有甲、乙、丙三类工作人员，人数比例2：1：3，现发放新年礼品，若每人发10个，总礼品剩余100个；若每人发20个，会缺少80个。现按照甲、乙、丙三类工作人员每人1：2：2的数量比例发放，问礼品最少剩余多少个？",
+        "options": [
+          {
+            "value": "A",
+            "label": "5"
+          },
+          {
+            "value": "B",
+            "label": "8"
+          },
+          {
+            "value": "C",
+            "label": "10"
+          },
+          {
+            "value": "D",
+            "label": "14"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          31
+        ],
+        "printedPages": [
+          25
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t01-practice-02-p031.webp",
+            "alt": "和差倍比问题（三） · 思维精练2 · 讲义第25页",
+            "pdfPage": 31
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t01-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t01-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先用两种发法求出人数和礼品总数。设人数N、礼品G，则G=10N+100=20N-80，得到N=18、G=280。人员比例2∶1∶3，所以甲6人、乙3人、丙9人。每人礼品比例1∶2∶2，可设分别发k、2k、2k个，k为整数。"
+        },
+        {
+          "type": "formula",
+          "latex": "使用礼品=6k+3\\times2k+9\\times2k=30k\\le280"
+        },
+        {
+          "type": "paragraph",
+          "text": "k最大9，此时用270个，剩10个，选C。不能取k=280/30，因为每人不能领到小数个礼品。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先求实际人数，再按每人的发放比例求一个完整分配单位。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          31
+        ],
+        "printedPages": [
+          25
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t01-practice-02-p031.webp",
+            "alt": "和差倍比问题（三） · 思维精练2 · 讲义第25页",
+            "pdfPage": 31
+          }
+        ]
+      }
+    }
+  ]
+}

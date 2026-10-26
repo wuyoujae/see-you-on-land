@@ -1,0 +1,447 @@
+{
+  "id": "quantity-wy27-s11-drill-01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s11",
+  "title": "实战精刷 · 1—4题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      117,
+      118
+    ],
+    "printedPages": [
+      111,
+      112
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s11-t02-drill-01-question",
+      "type": "question",
+      "title": "实战精刷 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s11-t02-drill-01",
+        "type": "single",
+        "stem": "（25联考）甲、乙、丙三个科室分别有3名、5名和2名党员。现有4个去党校学习的名额，要求至少分配给2个科室。问有多少种不同的名额分配方式？",
+        "options": [
+          {
+            "value": "A",
+            "label": "9"
+          },
+          {
+            "value": "B",
+            "label": "10"
+          },
+          {
+            "value": "C",
+            "label": "11"
+          },
+          {
+            "value": "D",
+            "label": "12"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          117
+        ],
+        "printedPages": [
+          111
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-01-p117.webp",
+            "alt": "排列组合问题（二） · 实战精刷1 · 讲义第111页",
+            "pdfPage": 117
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t02-drill-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们只数名额给各科室多少，不选具体党员；但甲最多3个、乙最多5个、丙最多2个，库存上限不能忽略。设丙分到z个，z＝0、1、2分类。"
+        },
+        {
+          "type": "paragraph",
+          "text": "丙0个时，甲乙合计4且都要有，甲可取1、2、3，共3种。丙1个时，甲乙合计3，甲可取0、1、2、3，共4种，至少还有另一个科室拿名额。丙2个时，甲乙合计2，甲可取0、1、2，共3种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "总共3＋4＋3＝10种，我们选B。“全给乙4个”不满足至少两个科室，已在丙0个的分类中排除。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "相同名额分配要同时检查接收人数上限和至少覆盖几个对象。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          117
+        ],
+        "printedPages": [
+          111
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-01-p117.webp",
+            "alt": "排列组合问题（二） · 实战精刷1 · 讲义第111页",
+            "pdfPage": 117
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-02-question",
+      "type": "question",
+      "title": "实战精刷 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s11-t02-drill-02",
+        "type": "single",
+        "stem": "（26天津）将20台相同的笔记本电脑分配给甲、乙、丙3个办公室，要求甲分配的数量在3台到7台之间，且不能是分配数量最少的办公室之一。问有多少种不同的分配方式？",
+        "options": [
+          {
+            "value": "A",
+            "label": "30"
+          },
+          {
+            "value": "B",
+            "label": "32"
+          },
+          {
+            "value": "C",
+            "label": "36"
+          },
+          {
+            "value": "D",
+            "label": "40"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D",
+        "grading": "unverified",
+        "sourceIssue": "原题未明确每个办公室至少1台。按乙丙至少1台得40，按允许0台得50且不在选项；因此保留来源D但不自动判分。",
+        "reviewNote": "来源答案D=40，按乙丙各至少1台得出；原题未另列此下限。允许0台时得50且无对应选项，正文已明确正数口径。"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          117
+        ],
+        "printedPages": [
+          111
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-02-p117.webp",
+            "alt": "排列组合问题（二） · 实战精刷2 · 讲义第111页",
+            "pdfPage": 117
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t02-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D（本题条件待核，不计分）"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们按三个办公室都实际分到电脑、乙丙各至少1台的口径计算。设甲拿a台，3≤a≤7。甲不能是最少之一，说明乙或丙必须有一个严格少于a。"
+        },
+        {
+          "type": "paragraph",
+          "text": "乙若少于甲，可取1～a−1台，每种乙数量都唯一确定丙数量20−a−乙，有a−1种。丙少于甲同样有a−1种。两种情况不会重合：若乙丙都少于甲，总数至多a＋(a−1)＋(a−1)≤19，不可能达到20。"
+        },
+        {
+          "type": "paragraph",
+          "text": "因此每个a对应2(a−1)种，总数2×(2＋3＋4＋5＋6)＝40种，我们按这一口径选D。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们保留题面边界：原文没有另写“每办公室至少1台”。若允许乙或丙分0台，则每个a应算2a种，总数50，不在选项。因此40依赖三个办公室均有实际分配的口径，不能把这个条件说成原文明示。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          117
+        ],
+        "printedPages": [
+          111
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-02-p117.webp",
+            "alt": "排列组合问题（二） · 实战精刷2 · 讲义第111页",
+            "pdfPage": 117
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s11-t02-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先明确是否允许0，再把“不是最少”转成至少一处严格更少，并检验两类会不会重叠。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          117
+        ],
+        "printedPages": [
+          111
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-02-p117.webp",
+            "alt": "排列组合问题（二） · 实战精刷2 · 讲义第111页",
+            "pdfPage": 117
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-03-question",
+      "type": "question",
+      "title": "实战精刷 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s11-t02-drill-03",
+        "type": "single",
+        "stem": "（26全国事考）甲高校2名教授，乙高校4名教授分成2个3人组，分别对A，B两篇学术论文进行评审。如要求每个组的3人不能来自同一所高校，则有多少种不同的分组方式？",
+        "options": [
+          {
+            "value": "A",
+            "label": "8"
+          },
+          {
+            "value": "B",
+            "label": "12"
+          },
+          {
+            "value": "C",
+            "label": "16"
+          },
+          {
+            "value": "D",
+            "label": "24"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          117
+        ],
+        "printedPages": [
+          111
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-03-p117.webp",
+            "alt": "排列组合问题（二） · 实战精刷3 · 讲义第111页",
+            "pdfPage": 117
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t02-drill-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看两组各3人且不能全来自同一高校。甲校只有2位教授，为避免某组全是乙校，两个组必须各有1位甲校教授、2位乙校教授。"
+        },
+        {
+          "type": "paragraph",
+          "text": "评审A论文的组，从甲校2人选1人、乙校4人选2人，有2×C₄²＝12种；其余3人自动评审B论文。因此我们选B。A、B两篇论文不同，组有标签，不能再除以2。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "少量一类成员配合每组混合要求，常能先锁定每组的类别人数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          117
+        ],
+        "printedPages": [
+          111
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-03-p117.webp",
+            "alt": "排列组合问题（二） · 实战精刷3 · 讲义第111页",
+            "pdfPage": 117
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-04-question",
+      "type": "question",
+      "title": "实战精刷 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s11-t02-drill-04",
+        "type": "single",
+        "stem": "（22江苏）某单位拟开展3场文化交流活动，安排给3个部门进行策划。若每个部门最多承担2场活动的策划，每场活动只安排给1个部门，则不同的安排方法共有：",
+        "options": [
+          {
+            "value": "A",
+            "label": "16种"
+          },
+          {
+            "value": "B",
+            "label": "24种"
+          },
+          {
+            "value": "C",
+            "label": "32种"
+          },
+          {
+            "value": "D",
+            "label": "48种"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          118
+        ],
+        "printedPages": [
+          112
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-04-p118.webp",
+            "alt": "排列组合问题（二） · 实战精刷4 · 讲义第112页",
+            "pdfPage": 118
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t02-drill-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先不加限制，3场不同活动分别选一个部门，每场3种去向，共3³＝27种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "每部门最多2场，唯一不合格的情况是3场全由同一个部门承担，共3种。总数27−3＝24种，我们选B。题目没有要求每个部门必须接到活动，因此2、1、0也是合法结构。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "上限只有“不能全给一个对象”时，总分配减全部集中最简单。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          118
+        ],
+        "printedPages": [
+          112
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-04-p118.webp",
+            "alt": "排列组合问题（二） · 实战精刷4 · 讲义第112页",
+            "pdfPage": 118
+          }
+        ]
+      }
+    }
+  ]
+}

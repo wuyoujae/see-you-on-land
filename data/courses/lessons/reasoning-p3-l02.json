@@ -1,0 +1,158 @@
+{
+  "id": "reasoning-p3-l02",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-conditional",
+  "title": "前假后真 判断整个条件命题的真假",
+  "source": {
+    "startSeconds": 7373,
+    "endSeconds": 7654,
+    "timeLabel": "02:02:53—02:07:34",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p3-l02-knowledge-f2c31fc-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "前假后真 判断整个条件命题的真假",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "刚才是在已知 A → B 为真的情况下往下推。现在换一个问题：我们知道 A、B 的真假，能不能反过来判断“A → B”这整句话是真是假？"
+        },
+        {
+          "type": "paragraph",
+          "text": "还是看“开车 → 有驾照”。我们把四种情况都列出来。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A 真、B 真：开车了，也有驾照，符合规则，整句话为真。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A 真、B 假：开车了，却没驾照，刚好违反规则，整句话为假。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A 假、B 真：没开车，有驾照，没有违反规则，整句话为真。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A 假、B 假：没开车，也没驾照，还是没有违反规则，整句话为真。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们会发现，它只有一种假法：前面成立，后面不成立，也就是 A 且非 B。只要前件为假，或者后件为真，这个条件命题就是真的。我们把这个记成“前假后真”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以注意区分：A → B 为真，不等于 A 和 B 都为真。要让整个箭头命题为假，才必须是 A 真、B 假。这一点和前面的“条件命题的矛盾是 A 且非 B”其实是同一件事。"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-q034-question",
+      "type": "question",
+      "title": "甲乙录取",
+      "question": {
+        "id": "reasoning-q034",
+        "type": "single",
+        "stem": "某单位事业编制招聘录用名单已经公布，已知：\n（1）只要甲被录取，乙就不被录取；\n（2）只要乙不被录取，甲就被录取；\n（3）甲被录取。\n已知这三个判断只有一个真，两个假。由此推出：",
+        "options": [
+          {
+            "value": "A",
+            "label": "甲乙都被录取"
+          },
+          {
+            "value": "B",
+            "label": "甲乙都未被录取"
+          },
+          {
+            "value": "C",
+            "label": "甲被录取，乙未被录取"
+          },
+          {
+            "value": "D",
+            "label": "甲未被录取，乙被录取"
+          }
+        ],
+        "answer": "B"
+      },
+      "source": {
+        "startSeconds": 7493,
+        "endSeconds": 7654,
+        "timeLabel": "02:04:53—02:07:34",
+        "videoId": "7686460560006794547",
+        "videoTitle": "判断推理完整复盘",
+        "examLabel": "【视频 02:04:53—02:07:34；2018 年天津东丽事业单位】"
+      }
+    },
+    {
+      "id": "reasoning-q034-explanation-4c7f628-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先翻译，甲、乙分别表示这个人被录取。"
+        },
+        {
+          "type": "paragraph",
+          "text": "①甲 → 非乙；②非乙 → 甲；③甲。"
+        },
+        {
+          "type": "paragraph",
+          "text": "看到“一真两假”，第一反应先找矛盾。但这三句之间没有现成的一对矛盾，那就不能硬找了。我们可以从最简单的③入手，先假设它是真的。"
+        },
+        {
+          "type": "paragraph",
+          "text": "如果③真，甲就被录取了。再看②，它的后件恰好也是“甲被录取”。后件真，整个条件命题就真，那②也真了呀！这样至少有两句真，和“只有一个真”对不上。所以③不能真，只能假，我们就得到非甲。"
+        },
+        {
+          "type": "paragraph",
+          "text": "有了非甲，再回头看①。①的前件是甲，现在前件为假，所以①为真。①已经占掉了唯一的真话，那么②就只能是假话。"
+        },
+        {
+          "type": "paragraph",
+          "text": "②是“非乙 → 甲”。让这个条件命题为假，就必须前件真、后件假，也就是非乙且非甲。所以甲乙都没有被录取，选 B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A，两个人都录取，和我们推出的非甲、非乙相反，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "B，甲乙都未录取，刚好对应，可以。"
+        }
+      ],
+      "questionId": "reasoning-q034"
+    },
+    {
+      "id": "reasoning-q034-explanation-4c7f628-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "C，虽然乙没录取对了，但甲录取不对，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "D，甲没录取对了，但乙录取不对，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "最后我们代回去验一下：甲乙都没录取时，①前件假，所以真；②前件真、后件假，所以假；③假。正好一真两假，答案 B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这种题的思路就是：先找矛盾；找不到，就假设一个最简单的判断，用“前假后真”检验真假数量。假设撞上题目条件了，就把这个假设否掉，拿新信息继续推。"
+        }
+      ],
+      "questionId": "reasoning-q034"
+    }
+  ]
+}

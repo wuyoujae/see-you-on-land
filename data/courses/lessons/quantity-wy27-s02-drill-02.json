@@ -1,0 +1,435 @@
+{
+  "id": "quantity-wy27-s02-drill-02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s02",
+  "title": "实战精刷 · 5—8题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      26,
+      27
+    ],
+    "printedPages": [
+      20,
+      21
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s02-t03-drill-05-question",
+      "type": "question",
+      "title": "实战精刷 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s02-t03-drill-05",
+        "type": "single",
+        "stem": "（24联考）某旅游公司定制了甲、乙两种纪念品，第一次共定制50个。试销后根据反馈，第二次定制两种纪念品共70个，其中乙纪念品的个数是第一次的1/4。已知甲纪念品单价为15元，第一次定制共花费1150元，那么第二次定制共花费多少元？",
+        "options": [
+          {
+            "value": "A",
+            "label": "1150"
+          },
+          {
+            "value": "B",
+            "label": "1725"
+          },
+          {
+            "value": "C",
+            "label": "2300"
+          },
+          {
+            "value": "D",
+            "label": "2875"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          26
+        ],
+        "printedPages": [
+          20
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-05-p026.webp",
+            "alt": "和差倍比问题（二） · 实战精刷5 · 讲义第20页",
+            "pdfPage": 26
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s02-t03-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把每件甲的15元作为共同基准。第一次50件即使全按甲价，也要750元；实际1150元，多出的400元就是乙相对甲的额外单价乘以乙件数。第二次乙件数变成原来的1/4，额外费用也只剩100元。"
+        },
+        {
+          "type": "formula",
+          "latex": "第二次总费用=70\\times15+\\frac{1150-50\\times15}{4}=1050+100=1150"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以选A。这个关系不需要分别求出乙的单价和件数，已知乘积就够了。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "以一种商品单价作共同基准，多出的差价随另一种商品数量同比变化。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          26
+        ],
+        "printedPages": [
+          20
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-05-p026.webp",
+            "alt": "和差倍比问题（二） · 实战精刷5 · 讲义第20页",
+            "pdfPage": 26
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-06-question",
+      "type": "question",
+      "title": "实战精刷 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s02-t03-drill-06",
+        "type": "single",
+        "stem": "（19广东）某单位男、女干部人数相等，男干部中60%有基层工作经历，女干部中50%有基层工作经历，则在该单位全体干部中，有基层工作经历的占：",
+        "options": [
+          {
+            "value": "A",
+            "label": "55%"
+          },
+          {
+            "value": "B",
+            "label": "60%"
+          },
+          {
+            "value": "C",
+            "label": "65%"
+          },
+          {
+            "value": "D",
+            "label": "70%"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          26
+        ],
+        "printedPages": [
+          20
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-06-p026.webp",
+            "alt": "和差倍比问题（二） · 实战精刷6 · 讲义第20页",
+            "pdfPage": 26
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s02-t03-drill-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看男女人数相等，两个比例的权重相同。这时才可以直接取平均。"
+        },
+        {
+          "type": "formula",
+          "latex": "有基层经历占比=\\frac{60\\%+50\\%}{2}=55\\%"
+        },
+        {
+          "type": "paragraph",
+          "text": "例如各设100人，有经历的60+50=110人，占200人的55%，所以选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "两组分母量相等时，混合比值才等于两个比值的算术平均。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          26
+        ],
+        "printedPages": [
+          20
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-06-p026.webp",
+            "alt": "和差倍比问题（二） · 实战精刷6 · 讲义第20页",
+            "pdfPage": 26
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-07-question",
+      "type": "question",
+      "title": "实战精刷 · 第7题",
+      "question": {
+        "id": "quantity-wy27-s02-t03-drill-07",
+        "type": "single",
+        "stem": "（26全国事考）现有浓度为10%和40%的同种消毒液各1瓶。问如何混合这两瓶消毒液，才能得到500毫升浓度为22%的该种消毒液？",
+        "options": [
+          {
+            "value": "A",
+            "label": "200毫升浓度为10%的消毒液与300毫升浓度为40%的消毒液"
+          },
+          {
+            "value": "B",
+            "label": "250毫升浓度为10%的消毒液与250毫升浓度为40%的消毒液"
+          },
+          {
+            "value": "C",
+            "label": "300毫升浓度为10%的消毒液与200毫升浓度为40%的消毒液"
+          },
+          {
+            "value": "D",
+            "label": "350毫升浓度为10%的消毒液与150毫升浓度为40%的消毒液"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          26,
+          27
+        ],
+        "printedPages": [
+          20,
+          21
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-07-p026.webp",
+            "alt": "和差倍比问题（二） · 实战精刷7 · 讲义第20页",
+            "pdfPage": 26
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-07-p027.webp",
+            "alt": "和差倍比问题（二） · 实战精刷7 · 讲义第21页",
+            "pdfPage": 27
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-07-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s02-t03-drill-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先用22%与两边浓度做差。低浓度10%的用量与高浓度40%的用量之比为(40-22)∶(22-10)=3∶2。总共500毫升，所以低浓度300毫升、高浓度200毫升。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{300\\times10\\%+200\\times40\\%}{500}=22\\%"
+        },
+        {
+          "type": "paragraph",
+          "text": "对应C。A颠倒了两种用量，B得到25%，D得到19%，都不符。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "十字相减后注意左右对应，低浓度对应“高浓度减整体”。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          26,
+          27
+        ],
+        "printedPages": [
+          20,
+          21
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-07-p026.webp",
+            "alt": "和差倍比问题（二） · 实战精刷7 · 讲义第20页",
+            "pdfPage": 26
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-07-p027.webp",
+            "alt": "和差倍比问题（二） · 实战精刷7 · 讲义第21页",
+            "pdfPage": 27
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-08-question",
+      "type": "question",
+      "title": "实战精刷 · 第8题",
+      "question": {
+        "id": "quantity-wy27-s02-t03-drill-08",
+        "type": "single",
+        "stem": "（26河南事考）某园艺师将浓度为40%的营养液与浓度为15%的营养液混合，配制成若干浓度为25%的营养液用于浇灌花卉。已知配制过程中，浓度为40%的营养液比浓度为15%的营养液少使用了600毫升，则浓度为25%的营养液共配制了（）毫升。",
+        "options": [
+          {
+            "value": "A",
+            "label": "2400"
+          },
+          {
+            "value": "B",
+            "label": "3000"
+          },
+          {
+            "value": "C",
+            "label": "3600"
+          },
+          {
+            "value": "D",
+            "label": "4200"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          27
+        ],
+        "printedPages": [
+          21
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-08-p027.webp",
+            "alt": "和差倍比问题（二） · 实战精刷8 · 讲义第21页",
+            "pdfPage": 27
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-08-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s02-t03-drill-08",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先求40%与15%两种营养液的用量比：(25-15)∶(40-25)=2∶3。高浓度比低浓度少600毫升，差1份就是600毫升，合计5份。"
+        },
+        {
+          "type": "formula",
+          "latex": "总量=600\\times(2+3)=3000\\text{毫升}"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以选B。核验高浓度1200、低浓度1800，溶质量480+270=750，占3000的25%。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "已知两种混合原料差量时，用差份确定一份，再求和份。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          27
+        ],
+        "printedPages": [
+          21
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-08-p027.webp",
+            "alt": "和差倍比问题（二） · 实战精刷8 · 讲义第21页",
+            "pdfPage": 27
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,557 @@
+{
+  "id": "quantity-wy27-s14-drill-02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s14",
+  "title": "实战精刷 · 5—8题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      150,
+      151
+    ],
+    "printedPages": [
+      144,
+      145
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s14-t03-drill-05-question",
+      "type": "question",
+      "title": "实战精刷 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s14-t03-drill-05",
+        "type": "single",
+        "stem": "（26国考）甲和乙两个长方体零件的体积比为3：2，且甲和乙均有2个面为边长n厘米的正方形。将甲和乙粘接为一个长方体之后，表面积比原来2个零件的表面积之和减少了20%。问乙最短棱的长度是最长棱的：",
+        "options": [
+          {
+            "value": "A",
+            "label": "2/3"
+          },
+          {
+            "value": "B",
+            "label": "3/4"
+          },
+          {
+            "value": "C",
+            "label": "3/5"
+          },
+          {
+            "value": "D",
+            "label": "4/5"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          150
+        ],
+        "printedPages": [
+          144
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-05-p150.webp",
+            "alt": "几何问题（一） · 实战精刷5 · 讲义第144页",
+            "pdfPage": 150
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s14-t03-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把两个边长n的正方形面粘起来，消失的是2n²的表面积。它占原总表面积的20%，所以两个零件原表面积合计10n²。"
+        },
+        {
+          "type": "paragraph",
+          "text": "甲、乙的正方形截面相同，体积比3：2就是长度比3：2。设长度分别3x、2x，原总表面积为4n²+4n（3x+2x）=10n²，得到x=0.3n。"
+        },
+        {
+          "type": "formula",
+          "latex": "4n^2+20nx=\\frac{2n^2}{20\\%}=10n^2\\Rightarrow\\frac{2x}{n}=\\frac35"
+        },
+        {
+          "type": "paragraph",
+          "text": "乙三条棱为n、n、0.6n，所以最短与最长之比为3/5，我们选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          150
+        ],
+        "printedPages": [
+          144
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-05-p150.webp",
+            "alt": "几何问题（一） · 实战精刷5 · 讲义第144页",
+            "pdfPage": 150
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-05-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s14-t03-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "粘接表面积减少两个接触面；同截面体积比等于长度比。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          150
+        ],
+        "printedPages": [
+          144
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-05-p150.webp",
+            "alt": "几何问题（一） · 实战精刷5 · 讲义第144页",
+            "pdfPage": 150
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-06-question",
+      "type": "question",
+      "title": "实战精刷 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s14-t03-drill-06",
+        "type": "single",
+        "stem": "（26广东事考）一艘货轮在大海上行驶，到达A点时测得灯塔C位于南偏东30°方向，往南继续直线行驶8km到B点，此时测得灯塔C位于南偏东60°方向，那么B点时货轮与灯塔C的距离为（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "8km"
+          },
+          {
+            "value": "B",
+            "label": "16km"
+          },
+          {
+            "value": "C",
+            "label": "4√3km"
+          },
+          {
+            "value": "D",
+            "label": "8√3km"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          150
+        ],
+        "printedPages": [
+          144
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-06-p150.webp",
+            "alt": "几何问题（一） · 实战精刷6 · 讲义第144页",
+            "pdfPage": 150
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s14-t03-drill-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先画方位：A到B正南8千米，AC是南偏东30°，BC是南偏东60°。在△ABC中，A角30°；B角要用BA向北的方向与BC夹角，因此为120°。"
+        },
+        {
+          "type": "paragraph",
+          "text": "剩下C角也为30°，A角与C角相等，对边BC与AB就相等，BC=8千米。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\angle A=30^\\circ,\\quad\\angle B=120^\\circ,\\quad\\angle C=30^\\circ\\Rightarrow BC=AB=8"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以我们选A。不能把B处的60°直接当作三角形内角。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          150
+        ],
+        "printedPages": [
+          144
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-06-p150.webp",
+            "alt": "几何问题（一） · 实战精刷6 · 讲义第144页",
+            "pdfPage": 150
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-06-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s14-t03-drill-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "方位角转内角时，先核对作为参照的射线是向北还是向南。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          150
+        ],
+        "printedPages": [
+          144
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-06-p150.webp",
+            "alt": "几何问题（一） · 实战精刷6 · 讲义第144页",
+            "pdfPage": 150
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-07-question",
+      "type": "question",
+      "title": "实战精刷 · 第7题",
+      "question": {
+        "id": "quantity-wy27-s14-t03-drill-07",
+        "type": "single",
+        "stem": "（24山东）某巡逻艇在海域A点发现正南方30千米处的B点有一艘可疑船只正匀速向正西方行驶，巡逻艇以比该可疑船只快1/3的速度沿某一方向直线追击，两船恰好在C点相遇。问B、C两点之间的距离约为多少千米？",
+        "options": [
+          {
+            "value": "A",
+            "label": "26"
+          },
+          {
+            "value": "B",
+            "label": "28"
+          },
+          {
+            "value": "C",
+            "label": "30"
+          },
+          {
+            "value": "D",
+            "label": "34"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          151
+        ],
+        "printedPages": [
+          145
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-07-p151.webp",
+            "alt": "几何问题（一） · 实战精刷7 · 讲义第145页",
+            "pdfPage": 151
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-07-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s14-t03-drill-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把速度关系转成同一时间的路程关系。巡逻艇比可疑船快1/3，所以两船速度比4：3，追击到相遇时AC：BC也为4：3。"
+        },
+        {
+          "type": "paragraph",
+          "text": "AB为正南方向30千米，BC向正西，构成直角。设BC=3x、AC=4x，则（4x）²−（3x）²=30²，解得BC=90/√7。"
+        },
+        {
+          "type": "formula",
+          "latex": "BC=\\frac{90}{\\sqrt7}\\approx34.0\\text{千米}"
+        },
+        {
+          "type": "paragraph",
+          "text": "约34.0千米，我们选D。“快1/3”是原速的4/3，不是3倍。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          151
+        ],
+        "printedPages": [
+          145
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-07-p151.webp",
+            "alt": "几何问题（一） · 实战精刷7 · 讲义第145页",
+            "pdfPage": 151
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-07-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s14-t03-drill-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "同时间先把速度比换成路程比，再结合勾股定理。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          151
+        ],
+        "printedPages": [
+          145
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-07-p151.webp",
+            "alt": "几何问题（一） · 实战精刷7 · 讲义第145页",
+            "pdfPage": 151
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-08-question",
+      "type": "question",
+      "title": "实战精刷 · 第8题",
+      "question": {
+        "id": "quantity-wy27-s14-t03-drill-08",
+        "type": "single",
+        "stem": "（23江苏）如图所示，纸片ABC的形状为直角三角形，AB=10厘米,BC=8厘米。若将纸片沿AD折叠，直角边AC恰好与斜边AB重叠，则△ABD的面积为（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "15平方厘米"
+          },
+          {
+            "value": "B",
+            "label": "16平方厘米"
+          },
+          {
+            "value": "C",
+            "label": "18平方厘米"
+          },
+          {
+            "value": "D",
+            "label": "21平方厘米"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（23江苏）如图所示，纸片ABC的形状为直角三角形，AB=10厘米,BC=8厘米。若将纸片沿AD折叠，直角边AC恰好与斜边AB重叠，则△ABD的面积为（）。"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-08-figure-01.webp",
+            "alt": "几何问题（一）原题示意图，讲义第145页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          151
+        ],
+        "printedPages": [
+          145
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-08-p151.webp",
+            "alt": "几何问题（一） · 实战精刷8 · 讲义第145页",
+            "pdfPage": 151
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-08-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s14-t03-drill-08",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先用勾股定理：AC=√（10²−8²）=6。沿AD折叠使AC与AB重合，说明AD平分∠CAB。"
+        },
+        {
+          "type": "paragraph",
+          "text": "由角平分线定理，BD：DC=AB：AC=10：6=5：3；BC共8厘米，因此BD=5厘米。△ABD以BD为底，到BC的高仍是AC=6。"
+        },
+        {
+          "type": "formula",
+          "latex": "AC=6,\\quad\\frac{BD}{DC}=\\frac{AB}{AC}=\\frac53,\\quad S_{ABD}=\\frac12\\times5\\times6=15"
+        },
+        {
+          "type": "paragraph",
+          "text": "面积为5×6÷2=15平方厘米，我们选A。折叠并不是把底边BC平分。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          151
+        ],
+        "printedPages": [
+          145
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-08-p151.webp",
+            "alt": "几何问题（一） · 实战精刷8 · 讲义第145页",
+            "pdfPage": 151
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-08-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s14-t03-drill-08",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "折叠使两边重合对应角平分线，可用角平分线定理分底边。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          151
+        ],
+        "printedPages": [
+          145
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-08-p151.webp",
+            "alt": "几何问题（一） · 实战精刷8 · 讲义第145页",
+            "pdfPage": 151
+          }
+        ]
+      }
+    }
+  ]
+}

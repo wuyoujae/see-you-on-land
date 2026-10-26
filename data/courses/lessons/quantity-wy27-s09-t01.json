@@ -1,0 +1,556 @@
+{
+  "id": "quantity-wy27-s09-t01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s09",
+  "title": "两者容斥",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      89,
+      90,
+      91
+    ],
+    "printedPages": [
+      83,
+      84,
+      85
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s09-t01-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "两者容斥",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先把总人数分成四块：只属于A、只属于B、两者都属于、两者都不属于。A人数加B人数时，中间那块算了两遍，所以我们减掉一次交集；如果题目求总人数，还要把两者都不属于的人补回来。"
+        },
+        {
+          "type": "formula",
+          "latex": "N=|A|+|B|-|A\\cap B|+|\\overline A\\cap\\overline B|"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们画文氏图时先填中间交集，再用各集合总数减交集，得到两边只属于一种的人数，最后填圈外。只属于A是A减交集；至少属于一种是总数减两者都不属于；只属于一种是A加B减两倍交集。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\text{恰好一种}=|A|+|B|-2|A\\cap B|"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          89
+        ],
+        "printedPages": [
+          83
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t01-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s09-t01-mother-01",
+        "type": "single",
+        "stem": "（26上海）某科研院所50%的研究人员精通人工智能，70%的研究人员能用英语演讲，10%的研究人员既不精通人工智能也不能用英语演讲。现从精通人工智能的研究人员中随机选择1人，其能用英语演讲的概率为（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "0.2"
+          },
+          {
+            "value": "B",
+            "label": "0.4"
+          },
+          {
+            "value": "C",
+            "label": "0.6"
+          },
+          {
+            "value": "D",
+            "label": "0.8"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          89,
+          90
+        ],
+        "printedPages": [
+          83,
+          84
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t01-mother-01-p089.webp",
+            "alt": "容斥问题 · 母题精讲1 · 讲义第83页",
+            "pdfPage": 89
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t01-mother-01-p090.webp",
+            "alt": "容斥问题 · 母题精讲1 · 讲义第84页",
+            "pdfPage": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t01-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t01-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把研究人员总数看成100份。精通人工智能50份，会英语70份，两种都不会10份，所以至少会一种的是90份。两种都会的人占50＋70−90＝30份。"
+        },
+        {
+          "type": "paragraph",
+          "text": "题目是从精通人工智能的人中选人，分母应当是50份，而不是总人数100份。所求概率为30÷50＝0.6，所以我们选C。"
+        },
+        {
+          "type": "formula",
+          "latex": "P(\\text{英语}\\mid\\text{人工智能})=\\frac{50\\%+70\\%-(1-10\\%)}{50\\%}=0.6"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "条件概率先锁定抽取范围，再用“符合条件的交集÷这个范围”。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          89,
+          90
+        ],
+        "printedPages": [
+          83,
+          84
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t01-mother-01-p089.webp",
+            "alt": "容斥问题 · 母题精讲1 · 讲义第83页",
+            "pdfPage": 89
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t01-mother-01-p090.webp",
+            "alt": "容斥问题 · 母题精讲1 · 讲义第84页",
+            "pdfPage": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t01-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s09-t01-mother-02",
+        "type": "single",
+        "stem": "（26北京）某茶馆喝茶的客人中有50%还点了饼。所有客人中有60%的人喝茶、有40%的人点饼。则点饼的人中，喝茶的人占：",
+        "options": [
+          {
+            "value": "A",
+            "label": "75%"
+          },
+          {
+            "value": "B",
+            "label": "33%"
+          },
+          {
+            "value": "C",
+            "label": "96%"
+          },
+          {
+            "value": "D",
+            "label": "20%"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          90
+        ],
+        "printedPages": [
+          84
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t01-mother-02-p090.webp",
+            "alt": "容斥问题 · 母题精讲2 · 讲义第84页",
+            "pdfPage": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t01-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t01-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看“喝茶的人中有50%点饼”，它的分母是喝茶的人。喝茶者占全部客人的60%，所以同时喝茶和点饼的人占全部客人的60%×50%＝30%。"
+        },
+        {
+          "type": "paragraph",
+          "text": "现在题目换成“点饼的人中”，分母改为占全部客人40%的点饼者，因此30%÷40%＝75%，我们选A。33%、96%、20%都不是这个条件范围下的占比。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "同一个交集不变，条件占比互换时需要换分母。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          90
+        ],
+        "printedPages": [
+          84
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t01-mother-02-p090.webp",
+            "alt": "容斥问题 · 母题精讲2 · 讲义第84页",
+            "pdfPage": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t01-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s09-t01-mother-03",
+        "type": "single",
+        "stem": "（24江苏）某基层工会共有180名会员，举行甲、乙两项工会活动，60%的会员参加甲活动，50%的会员参加乙活动，若只参加甲活动的会员有80人，则只参加乙活动的会员有：",
+        "options": [
+          {
+            "value": "A",
+            "label": "10人"
+          },
+          {
+            "value": "B",
+            "label": "28人"
+          },
+          {
+            "value": "C",
+            "label": "62人"
+          },
+          {
+            "value": "D",
+            "label": "72人"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          90
+        ],
+        "printedPages": [
+          84
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t01-mother-03-p090.webp",
+            "alt": "容斥问题 · 母题精讲3 · 讲义第84页",
+            "pdfPage": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t01-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t01-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先算参加甲活动的总人数180×60%＝108人。甲活动中只参加甲的有80人，因此两项都参加的有108−80＝28人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "参加乙活动的总人数为180×50%＝90人，减去也参加甲的28人，只有乙的就是90−28＝62人。所以我们选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "“只甲”已知时，用甲总数减只甲先找到交集，再从乙总数中减掉交集。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          90
+        ],
+        "printedPages": [
+          84
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t01-mother-03-p090.webp",
+            "alt": "容斥问题 · 母题精讲3 · 讲义第84页",
+            "pdfPage": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t01-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s09-t01-practice-01",
+        "type": "single",
+        "stem": "（25国考）某研发小组员工中，60%的人参与了A项目，45%的人参与了B项目，两个项目都参与的人比两个项目都不参与的多2人。问该研发小组有多少人？",
+        "options": [
+          {
+            "value": "A",
+            "label": "100"
+          },
+          {
+            "value": "B",
+            "label": "50"
+          },
+          {
+            "value": "C",
+            "label": "40"
+          },
+          {
+            "value": "D",
+            "label": "20"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          90
+        ],
+        "printedPages": [
+          84
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t01-practice-01-p090.webp",
+            "alt": "容斥问题 · 思维精练1 · 讲义第84页",
+            "pdfPage": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t01-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t01-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设总人数为N，两项都参与的有x人，两项都不参与的有y人。两者容斥给出N＝0.60N＋0.45N−x＋y，即x−y＝0.05N。"
+        },
+        {
+          "type": "paragraph",
+          "text": "题目恰好告诉我们x−y＝2，所以0.05N＝2，N＝40。代回60%和45%，分别是24人和18人，均为整数，因此我们选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "两集合人数之和比总人数多多少，交集就比圈外多多少。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          90
+        ],
+        "printedPages": [
+          84
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t01-practice-01-p090.webp",
+            "alt": "容斥问题 · 思维精练1 · 讲义第84页",
+            "pdfPage": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t01-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s09-t01-practice-02",
+        "type": "single",
+        "stem": "（25广东事考）某部门组织全体员工参与甲乙两项考核，其中有9人未通过甲考核，有12人通过了乙考核。如果只通过了其中一项考核的员工有10人，通过了两项考核的员工有5人，则该部门员工总人数为（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "17"
+          },
+          {
+            "value": "B",
+            "label": "20"
+          },
+          {
+            "value": "C",
+            "label": "23"
+          },
+          {
+            "value": "D",
+            "label": "26"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          91
+        ],
+        "printedPages": [
+          85
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t01-practice-02-p091.webp",
+            "alt": "容斥问题 · 思维精练2 · 讲义第85页",
+            "pdfPage": 91
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t01-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t01-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先填交集：两项都通过5人。通过乙的12人中，只有乙的有12−5＝7人。只通过一项总共10人，所以只有甲的有10−7＝3人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "没通过甲的9人包括“只有乙7人”和“两项都没过”，因此两项都没过2人。总人数为5＋7＋3＋2＝17人，所以我们选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "“没通过甲”包含只乙和都没过，不能直接当成两项都没过。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          91
+        ],
+        "printedPages": [
+          85
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t01-practice-02-p091.webp",
+            "alt": "容斥问题 · 思维精练2 · 讲义第85页",
+            "pdfPage": 91
+          }
+        ]
+      }
+    }
+  ]
+}

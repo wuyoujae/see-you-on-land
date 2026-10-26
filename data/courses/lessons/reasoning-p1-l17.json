@@ -1,0 +1,146 @@
+{
+  "id": "reasoning-p1-l17",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-weaken",
+  "title": "严谨逻辑关系的质疑：找到“前面成立，后面却没成立”的反例",
+  "source": {
+    "startSeconds": 3153,
+    "endSeconds": 3334,
+    "timeLabel": "00:52:33—00:55:34",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p1-l17-knowledge-e827dab-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "严谨逻辑关系的质疑：找到“前面成立，后面却没成立”的反例",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "前面说过，有些归因题里，一个零散个例不一定能推翻一种概率趋势。但是如果题干说得很绝对，形式就是“只要 A，就 B”，那情况就不一样了。"
+        },
+        {
+          "type": "paragraph",
+          "text": "它承诺的是：A 一旦成立，B 就要成立。所以我们只要找到一个“A 成立，但 B 没成立”，就能反驳这个绝对关系。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们写成：A → B；质疑就是 A 且非 B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这里一定先看清楚箭头方向。"
+        },
+        {
+          "type": "paragraph",
+          "text": "“如果努力学习，就能考上”：努力 → 考上。反例就是努力了，但没考上。"
+        },
+        {
+          "type": "paragraph",
+          "text": "“只要努力学习，就能考上”：还是努力 → 考上。反例同样是努力了，但没考上。"
+        },
+        {
+          "type": "paragraph",
+          "text": "“只有努力学习，才能考上”：这个要反过来，是考上 → 努力。反例就变成考上了，但没努力。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以别看见“努力”“考上”就凭感觉写。只有、只要差一个字，推出去的方向可能就变了。"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-q017-question",
+      "type": "question",
+      "title": "高分进好学校，就一定是好教育吗",
+      "question": {
+        "id": "reasoning-q017",
+        "type": "single",
+        "stem": "最近热播的电视剧涉及教育资源争夺战，不仅把观众的心弦绷紧到了低龄教育阶段，而且暴露了一个更为深层次的问题，即究竟什么才是好的教育。一些剧中人认为，只要孩子能够考到高分进入好的学校，就是最好的教育。\n以下哪项如果为真，最能质疑上述观点：",
+        "options": [
+          {
+            "value": "A",
+            "label": "应试教育是教育资源长期相对匮乏、社会选拔标准相对单一的后遗症"
+          },
+          {
+            "value": "B",
+            "label": "仅仅以分数作为单一评判标准，早已不能满足市场对各种人才的需要"
+          },
+          {
+            "value": "C",
+            "label": "近年来，相关部门开展了校外培训机构专项治理，已取得阶段性成效"
+          },
+          {
+            "value": "D",
+            "label": "个别孩子以很高的分数考入国内著名高校，最终却走上了犯罪的道路"
+          }
+        ],
+        "answer": "D"
+      },
+      "source": {
+        "startSeconds": 3231,
+        "endSeconds": 3334,
+        "timeLabel": "00:53:51",
+        "videoId": "7686460560006794547",
+        "videoTitle": "判断推理完整复盘",
+        "examLabel": "【视频 00:53:51 起；2022 年四川省考】"
+      }
+    },
+    {
+      "id": "reasoning-q017-explanation-2eba116-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先抓逻辑词：“只要……就……”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "它说：高分进好学校 → 最好的教育。"
+        },
+        {
+          "type": "paragraph",
+          "text": "那我们的反例就该是：高分进好学校了，但不能说得到了好的教育。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A，解释应试教育怎么形成，没给出我们要的反例，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "B，单一分数标准满足不了市场人才需要，看上去也在反对只看分数。但和 D 相比，它没有直接给出一个“高分进好学校，却没有获得良好教育结果”的具体情况。"
+        },
+        {
+          "type": "paragraph",
+          "text": "C，校外培训治理取得成效，和这个推出关系没有直接联系，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "D，高分进了名校，前面的 A 成立；最后却犯罪，说明至少不能据此认定教育就是最好的，后面的 B 没有保证。这个正是 A 且非 B，保留。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以这道题选 D。"
+        }
+      ],
+      "questionId": "reasoning-q017"
+    },
+    {
+      "id": "reasoning-q017-explanation-2eba116-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "注意 D 虽然说“个别”，这里仍然能用。因为原观点不是“高分的人大多数教育不错”，而是“只要高分进好学校，就是最好的教育”。对这种普遍、绝对的保证，一个真实反例就够打破它。不要把前面“个例力度有限”的提醒，背成“看见个别就排除”。"
+        }
+      ],
+      "questionId": "reasoning-q017"
+    }
+  ]
+}

@@ -1,0 +1,580 @@
+{
+  "id": "quantity-wy27-s15-drill-02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s15",
+  "title": "实战精刷 · 5—8题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      160,
+      161,
+      162
+    ],
+    "printedPages": [
+      154,
+      155,
+      156
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s15-t03-drill-05-question",
+      "type": "question",
+      "title": "实战精刷 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s15-t03-drill-05",
+        "type": "single",
+        "stem": "（26福建事考）若一个正方体的棱长增加原来的40%，则其表面积比原正方体的表面积增加（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "40%"
+          },
+          {
+            "value": "B",
+            "label": "96%"
+          },
+          {
+            "value": "C",
+            "label": "160%"
+          },
+          {
+            "value": "D",
+            "label": "196%"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          160
+        ],
+        "printedPages": [
+          154
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-05-p160.webp",
+            "alt": "几何问题（二） · 实战精刷5 · 讲义第154页",
+            "pdfPage": 160
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t03-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把新棱长看作原来的1.4倍。两个正方体相似，表面积比等于棱长比的平方，即1.4²=1.96。"
+        },
+        {
+          "type": "paragraph",
+          "text": "1.96表示新表面积是原来的196%，题目问增加了多少，还要减去原来的100%，得到96%。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{\\Delta S}{S}=1.4^2-1=0.96=96\\%"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以我们选B。D把“变为196%”误当成“增加196%”。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          160
+        ],
+        "printedPages": [
+          154
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-05-p160.webp",
+            "alt": "几何问题（二） · 实战精刷5 · 讲义第154页",
+            "pdfPage": 160
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-05-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t03-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "长度增幅先转成倍数再平方，最后减1才是面积增幅。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          160
+        ],
+        "printedPages": [
+          154
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-05-p160.webp",
+            "alt": "几何问题（二） · 实战精刷5 · 讲义第154页",
+            "pdfPage": 160
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-06-question",
+      "type": "question",
+      "title": "实战精刷 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s15-t03-drill-06",
+        "type": "single",
+        "stem": "（25联考）一个空的倒置的圆锥形容器，倒入1瓶固定容量的水后，水的高度恰好为容器高度的一半。若要使容器盛满水，则需要再倒入水的瓶数为：",
+        "options": [
+          {
+            "value": "A",
+            "label": "5瓶"
+          },
+          {
+            "value": "B",
+            "label": "7瓶"
+          },
+          {
+            "value": "C",
+            "label": "8瓶"
+          },
+          {
+            "value": "D",
+            "label": "10瓶"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          161
+        ],
+        "printedPages": [
+          155
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-06-p161.webp",
+            "alt": "几何问题（二） · 实战精刷6 · 讲义第155页",
+            "pdfPage": 161
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t03-drill-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看“倒置”：圆锥尖端向下，半高的水体本身是一个与整锥相似的小圆锥。高度比1：2，体积比1：8。"
+        },
+        {
+          "type": "paragraph",
+          "text": "1瓶水只占总容积的1/8，装满总共要8瓶；题目问再倒入几瓶，所以8−1=7瓶。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{V_{\\text{水}}}{V_{\\text{总}}}=\\left(\\frac12\\right)^3=\\frac18,\\quad8-1=7"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们选B。水高一半不表示体积一半，也不要把总瓶数8误当成还需要的瓶数。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          161
+        ],
+        "printedPages": [
+          155
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-06-p161.webp",
+            "alt": "几何问题（二） · 实战精刷6 · 讲义第155页",
+            "pdfPage": 161
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-06-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t03-drill-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "倒锥水体线性比例要立方，问“再”时扣除已经注入的量。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          161
+        ],
+        "printedPages": [
+          155
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-06-p161.webp",
+            "alt": "几何问题（二） · 实战精刷6 · 讲义第155页",
+            "pdfPage": 161
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-07-question",
+      "type": "question",
+      "title": "实战精刷 · 第7题",
+      "question": {
+        "id": "quantity-wy27-s15-t03-drill-07",
+        "type": "single",
+        "stem": "（25国考）一个容器的下部分为高12厘米的倒立圆锥体，上部分为圆柱体，且圆锥和圆柱的底面半径相等。现匀速向容器中注入水，1分钟后液面高6厘米，又过30分钟后注满。问整个容器的高度为多少厘米？",
+        "options": [
+          {
+            "value": "A",
+            "label": "22"
+          },
+          {
+            "value": "B",
+            "label": "22.5"
+          },
+          {
+            "value": "C",
+            "label": "23"
+          },
+          {
+            "value": "D",
+            "label": "23.5"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          161
+        ],
+        "printedPages": [
+          155
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-07-p161.webp",
+            "alt": "几何问题（二） · 实战精刷7 · 讲义第155页",
+            "pdfPage": 161
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-07-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t03-drill-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看底部倒锥。1分钟水高6厘米，正好是倒锥高度12的一半，水量占整锥1/8，因此注满倒锥需8分钟。"
+        },
+        {
+          "type": "paragraph",
+          "text": "整个容器从开始到注满共1+30=31分钟，圆柱部分用了23分钟。设底面积S，整锥体积4S，8分钟注满，流量S/2每分钟；圆柱23分钟的水量为11.5S，所以圆柱高11.5厘米。"
+        },
+        {
+          "type": "formula",
+          "latex": "V_{\\text{锥}}=\\frac13S\\times12=4S,\\quad q=\\frac{4S}{8}=\\frac S2,\\quad H=12+\\frac{23q}{S}=23.5"
+        },
+        {
+          "type": "paragraph",
+          "text": "总高12+11.5=23.5厘米，我们选D。第二句“又过30分钟”应接在最初1分钟后，不能把总时间当成30分钟。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          161
+        ],
+        "printedPages": [
+          155
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-07-p161.webp",
+            "alt": "几何问题（二） · 实战精刷7 · 讲义第155页",
+            "pdfPage": 161
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-07-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t03-drill-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先由相似求注满倒锥的时间，再把剩余时间换成圆柱高度。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          161
+        ],
+        "printedPages": [
+          155
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-07-p161.webp",
+            "alt": "几何问题（二） · 实战精刷7 · 讲义第155页",
+            "pdfPage": 161
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-08-question",
+      "type": "question",
+      "title": "实战精刷 · 第8题",
+      "question": {
+        "id": "quantity-wy27-s15-t03-drill-08",
+        "type": "single",
+        "stem": "（25江苏）借景是古典园林建筑常用的构景手段之一，已知某景区中轴线（在同一水平面）上有两座相距200米的建筑物，其中一座建筑物为平顶，高度为23.7米；另一座建筑物为顶尖，高度为133.7米，其中顶尖的部分高度为22米。若身高为1.7米的小王从中轴线上某处看向平顶建筑物时，发现恰好能够看到尖顶建筑物的整个尖顶部分（如图所示）。则小王所站位置和平顶建筑物的直线距离为（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "30米"
+          },
+          {
+            "value": "B",
+            "label": "40米"
+          },
+          {
+            "value": "C",
+            "label": "50米"
+          },
+          {
+            "value": "D",
+            "label": "60米"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（25江苏）借景是古典园林建筑常用的构景手段之一，已知某景区中轴线（在同一水平面）上有两座相距200米的建筑物，其中一座建筑物为平顶，高度为23.7米；另一座建筑物为顶尖，高度为133.7米，其中顶尖的部分高度为22米。若身高为1.7米的小王从中轴线上某处看向平顶建筑物时，发现恰好能够看到尖顶建筑物的整个尖顶部分（如图所示）。则小王所站位置和平顶建筑物的直线距离为（）。"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-08-figure-01.webp",
+            "alt": "几何问题（二）原题示意图，讲义第155页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          161,
+          162
+        ],
+        "printedPages": [
+          155,
+          156
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-08-p161.webp",
+            "alt": "几何问题（二） · 实战精刷8 · 讲义第155页",
+            "pdfPage": 161
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-08-p162.webp",
+            "alt": "几何问题（二） · 实战精刷8 · 讲义第156页",
+            "pdfPage": 162
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-08-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t03-drill-08",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先确定视线擦过的是什么位置：“恰好看到整个尖顶”意味着平顶屋面遮挡到尖顶的底部，而不是只看到最高尖端。尖顶底高133.7−22=111.7米。"
+        },
+        {
+          "type": "paragraph",
+          "text": "统一减去眼高1.7米，近处平顶相对眼睛高22米，远处尖顶底部高110米。设小王到平顶的距离x，则x：（x+200）=22：110=1：5。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{x}{x+200}=\\frac{23.7-1.7}{(133.7-22)-1.7}=\\frac15\\Rightarrow x=50"
+        },
+        {
+          "type": "paragraph",
+          "text": "解得x=50米，我们选C。若直接拿133.7米作远处高度，就是把“整个尖顶可见”的边界看错了。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          161,
+          162
+        ],
+        "printedPages": [
+          155,
+          156
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-08-p161.webp",
+            "alt": "几何问题（二） · 实战精刷8 · 讲义第155页",
+            "pdfPage": 161
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-08-p162.webp",
+            "alt": "几何问题（二） · 实战精刷8 · 讲义第156页",
+            "pdfPage": 162
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-08-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t03-drill-08",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "遮挡边界先找“恰好看见”的目标端点，再统一扣眼高。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          161,
+          162
+        ],
+        "printedPages": [
+          155,
+          156
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-08-p161.webp",
+            "alt": "几何问题（二） · 实战精刷8 · 讲义第155页",
+            "pdfPage": 161
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-08-p162.webp",
+            "alt": "几何问题（二） · 实战精刷8 · 讲义第156页",
+            "pdfPage": 162
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "id": "quantity-wy27-s09-t02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s09",
+  "title": "三者容斥",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      92,
+      93,
+      94
+    ],
+    "printedPages": [
+      86,
+      87,
+      88
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s09-t02-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "三者容斥",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们面对三种技能、三种选择时，先分清题目说的是“两种都符合”，还是“只符合两种”。两两交集包含三者都符合的人，恰好两种则不包含中间那块，两个口径不能混。"
+        },
+        {
+          "type": "formula",
+          "latex": "N=|A|+|B|+|C|-|A\\cap B|-|A\\cap C|-|B\\cap C|+|A\\cap B\\cap C|+n_0"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把恰好属于一种、两种、三种的人数分别记为n₁、n₂、n₃，把三种都不属于的人数记为n₀。三集合人数之和把这三类人分别数了1次、2次、3次，所以也可以直接按重数列式。"
+        },
+        {
+          "type": "formula",
+          "latex": "|A|+|B|+|C|=n_1+2n_2+3n_3"
+        },
+        {
+          "type": "formula",
+          "latex": "N=|A|+|B|+|C|-n_2-2n_3+n_0"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们从最中间的三者交集往外填：先算三者都有，再算各个“只属于两种”的月牙区域，最后算只属于一种和圈外。若把两两交集相加，中间的n₃被算3次，所以两两交集之和等于n₂＋3n₃，至少属于两种则是n₂＋n₃。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          92
+        ],
+        "printedPages": [
+          86
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t02-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s09-t02-mother-01",
+        "type": "single",
+        "stem": "（20联考）某单位共有240名员工，其中订阅A期刊的有125人，订阅B期刊的有126人，订阅C期刊的有135人，订阅A、B期刊的有57人，订阅A、C期刊的有73人，订阅3种期刊的有31人，此外，还有17人没有订阅这三种期刊中的任何一种。问：订阅B、C期刊的有多少人？",
+        "options": [
+          {
+            "value": "A",
+            "label": "57"
+          },
+          {
+            "value": "B",
+            "label": "64"
+          },
+          {
+            "value": "C",
+            "label": "69"
+          },
+          {
+            "value": "D",
+            "label": "78"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          93
+        ],
+        "printedPages": [
+          87
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t02-mother-01-p093.webp",
+            "alt": "容斥问题 · 母题精讲1 · 讲义第87页",
+            "pdfPage": 93
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t02-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t02-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看订阅B、C期刊的人数，这是两两交集，包含订阅三种的31人。设这个交集为x，直接列三者容斥：240＝125＋126＋135−57−73−x＋31＋17。"
+        },
+        {
+          "type": "paragraph",
+          "text": "整理得到240＝304−x，所以x＝64人。我们选B。这里不能把31人从x中另外减掉，题目并没有要求“只订阅B、C”。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "题目说“两种都订阅”时，一般包含三种都订阅的人，口径要与容斥公式一致。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          93
+        ],
+        "printedPages": [
+          87
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t02-mother-01-p093.webp",
+            "alt": "容斥问题 · 母题精讲1 · 讲义第87页",
+            "pdfPage": 93
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t02-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s09-t02-mother-02",
+        "type": "single",
+        "stem": "（26四川）某中学调查学生对篮球、足球、乒乓球三项运动的参与情况。随机抽取了150名学生，其中有86人喜欢打篮球，53人喜欢踢足球，76人喜欢打乒乓球；25人三项运动都喜欢，20人三项运动都不喜欢。问这150名学生中，仅喜欢其中两项运动的有多少人？",
+        "options": [
+          {
+            "value": "A",
+            "label": "60"
+          },
+          {
+            "value": "B",
+            "label": "55"
+          },
+          {
+            "value": "C",
+            "label": "40"
+          },
+          {
+            "value": "D",
+            "label": "35"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          93
+        ],
+        "printedPages": [
+          87
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t02-mother-02-p093.webp",
+            "alt": "容斥问题 · 母题精讲2 · 讲义第87页",
+            "pdfPage": 93
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t02-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t02-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设仅喜欢两项的人有x人。喜欢三项的各项人数相加为86＋53＋76＝215；至少喜欢一项的有150−20＝130人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "215比130多算了85次。仅喜欢两项的每人多算1次，三项都喜欢的25人每人多算2次，所以x＋2×25＝85，x＝35人。我们选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "三项人数之和减去至少一项的人数，等于“恰好两项＋两倍三项”。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          93
+        ],
+        "printedPages": [
+          87
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t02-mother-02-p093.webp",
+            "alt": "容斥问题 · 母题精讲2 · 讲义第87页",
+            "pdfPage": 93
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t02-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s09-t02-mother-03",
+        "type": "single",
+        "stem": "（26江苏）今年J省龙狮大赛吸引了20支代表队同场竞技，大赛设有舞龙，舞狮和彩带龙共3个比赛项目。已知参加舞龙的有10支代表队，参加舞狮的有12支代表队，参加彩带龙的有14支代表队，3个项目都参加的有2支代表队，则这20支代表队中，至少参加2个比赛项目的代表队共有：",
+        "options": [
+          {
+            "value": "A",
+            "label": "12支"
+          },
+          {
+            "value": "B",
+            "label": "14支"
+          },
+          {
+            "value": "C",
+            "label": "15支"
+          },
+          {
+            "value": "D",
+            "label": "16支"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          93
+        ],
+        "printedPages": [
+          87
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t02-mother-03-p093.webp",
+            "alt": "容斥问题 · 母题精讲3 · 讲义第87页",
+            "pdfPage": 93
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t02-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t02-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把20支参赛队都视为至少参加一个项目。三个项目总队次为10＋12＋14＝36，比实际队伍数多36−20＝16次。"
+        },
+        {
+          "type": "paragraph",
+          "text": "三项都参加的2支队各被重复算2次，共多算4次，所以恰好参加两项的有16−4＝12支。题目问至少参加两项，还要加上三项都参加的2支，得到14支，我们选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "恰好两项求出后，问“至少两项”还要补回三项都有。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          93
+        ],
+        "printedPages": [
+          87
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t02-mother-03-p093.webp",
+            "alt": "容斥问题 · 母题精讲3 · 讲义第87页",
+            "pdfPage": 93
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t02-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s09-t02-practice-01",
+        "type": "single",
+        "stem": "（25江苏）某单位组织45名员工参观第十五届中国国际航空航天博览会。其中，21人参观了新一代隐身战斗机歼-35A，22人参观了嫦娥六号取回的月背月壤样品，19人参观了大型无人机战舰“虎鲸”。所有员工中，这三种展览都未参观的有5人，至少参观两种的有12人，则这三种展览都参观的有（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "7人"
+          },
+          {
+            "value": "B",
+            "label": "8人"
+          },
+          {
+            "value": "C",
+            "label": "9人"
+          },
+          {
+            "value": "D",
+            "label": "10人"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          94
+        ],
+        "printedPages": [
+          88
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t02-practice-01-p094.webp",
+            "alt": "容斥问题 · 思维精练1 · 讲义第88页",
+            "pdfPage": 94
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t02-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t02-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先扣掉三种都未参观的5人，实际至少参观一项的是45−5＝40人。三项参观人数之和为21＋22＋19＝62，比40多22次。"
+        },
+        {
+          "type": "paragraph",
+          "text": "设三种都参观的有x人。至少参观两种的12人里，恰好两种有12−x人，所以重复次数是(12−x)＋2x＝12＋x。令12＋x＝22，得x＝10人，我们选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "已知“至少两项”时，把恰好两项换成“至少两项减三项”，常能一元求交集。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          94
+        ],
+        "printedPages": [
+          88
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t02-practice-01-p094.webp",
+            "alt": "容斥问题 · 思维精练1 · 讲义第88页",
+            "pdfPage": 94
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t02-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s09-t02-practice-02",
+        "type": "single",
+        "stem": "（25国考）某单位65名职工中，拥有甲、乙、丙三项认证中至少一项的职工正好占80%，没有甲认证的职工与有乙认证的职工人数一样多，仅有丙认证的职工有3人，三项认证都有的职工有6人，问有多少人仅拥有甲、乙两项认证?",
+        "options": [
+          {
+            "value": "A",
+            "label": "10"
+          },
+          {
+            "value": "B",
+            "label": "13"
+          },
+          {
+            "value": "C",
+            "label": "16"
+          },
+          {
+            "value": "D",
+            "label": "19"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          94
+        ],
+        "printedPages": [
+          88
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t02-practice-02-p094.webp",
+            "alt": "容斥问题 · 思维精练2 · 讲义第88页",
+            "pdfPage": 94
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t02-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t02-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把三集合缩成甲、乙两个集合。至少一项认证的有65×80%＝52人，去掉仅有丙认证的3人，拥有甲或乙认证的有49人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "没有甲认证的人数与有乙认证的人数相等，因此甲人数＋乙人数＝65。甲乙交集＝65−49＝16人。这16人中有6人还拥有丙认证，所以仅拥有甲、乙的有16−6＝10人，我们选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "只涉及某两项的目标，可以先把第三项的独有区域剥离，转成两集合。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          94
+        ],
+        "printedPages": [
+          88
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t02-practice-02-p094.webp",
+            "alt": "容斥问题 · 思维精练2 · 讲义第88页",
+            "pdfPage": 94
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "analysis-p2-l12",
+  "subjectId": "analysis",
+  "groupId": "analysis-annual",
+  "title": "年均增长率：先看末基比和增长期数",
+  "source": {
+    "startSeconds": 4200,
+    "endSeconds": 4298,
+    "timeLabel": "01:10:00—01:11:38",
+    "videoId": "7668729047387524358",
+    "videoTitle": "资料分析完整复盘"
+  },
+  "cards": [
+    {
+      "id": "analysis-p2-l12-knowledge-4a9dcc3-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "年均增长率：先看末基比和增长期数",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "年均增长量是把增加的量平均分，年均增长率则是假设每个增长期都按同一个比例增长，最后恰好到达末期。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{末期量}{基期量}=(1+r)^n"
+        },
+        {
+          "type": "paragraph",
+          "text": "n是增长期数。题目要求r，不一定非要在草稿上开根号，结合选项去代，通常更方便。"
+        }
+      ]
+    },
+    {
+      "id": "analysis-q003-question",
+      "type": "question",
+      "title": "年均增长率：先看末基比和增长期数 · 原题",
+      "question": {
+        "id": "analysis-q003",
+        "type": "single",
+        "stem": "2019年产量205，2021年产量358，求2019年至2021年的年均增长率，选最接近的一项。",
+        "options": [
+          {
+            "value": "A",
+            "label": "10%"
+          },
+          {
+            "value": "B",
+            "label": "20%"
+          },
+          {
+            "value": "C",
+            "label": "30%"
+          },
+          {
+            "value": "D",
+            "label": "40%"
+          }
+        ],
+        "answer": "C"
+      },
+      "source": {
+        "startSeconds": 4200,
+        "endSeconds": 4298,
+        "timeLabel": "01:10:00—01:11:38",
+        "videoId": "7668729047387524358",
+        "videoTitle": "资料分析完整复盘"
+      }
+    },
+    {
+      "id": "analysis-q003-explanation-45ca38a-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先数年份，2021−2019＝2，这道例题按两个增长期算。末期除以基期，358/205大约1.75，所以现在要找的是谁的(1＋r)²接近1.75。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看20%。(1＋20%)²＝1.2²＝1.44，太小。"
+        },
+        {
+          "type": "paragraph",
+          "text": "再看30%。1.3²＝1.69，很接近。"
+        },
+        {
+          "type": "paragraph",
+          "text": "再看40%。1.4²＝1.96，又大得比较明显。A的10%只有1.1²＝1.21，更小，也排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以四个选项里30%最近，选C。精算年均增长率约32.15%，这里选的是最接近项，并不是358/205恰好等于1.3²。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这道题的方法就是先估末基比，再把选项加1、平方去试。我们还要注意，两年、三年直接平方或立方比较方便，年数多、选项又接近时，就换后面这个格尺法。"
+        }
+      ],
+      "questionId": "analysis-q003"
+    }
+  ]
+}

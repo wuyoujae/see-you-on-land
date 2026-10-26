@@ -1,0 +1,413 @@
+{
+  "id": "quantity-wy27-s06-drill-02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s06",
+  "title": "实战精刷 · 5—8题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      69,
+      70
+    ],
+    "printedPages": [
+      63,
+      64
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s06-t03-drill-05-question",
+      "type": "question",
+      "title": "实战精刷 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s06-t03-drill-05",
+        "type": "single",
+        "stem": "（25国考）张某8：00开车从A地出发，在A、B两地之间往返行驶。8：30第一次到达A、B之间的C点时加速30%继续行驶，并于9：00第二次到达C点。问AC距离是BC距离的多少倍？",
+        "options": [
+          {
+            "value": "A",
+            "label": "10/13"
+          },
+          {
+            "value": "B",
+            "label": "13/10"
+          },
+          {
+            "value": "C",
+            "label": "20/13"
+          },
+          {
+            "value": "D",
+            "label": "13/5"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          69
+        ],
+        "printedPages": [
+          63
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-05-p069.webp",
+            "alt": "行程问题（一） · 实战精刷5 · 讲义第63页",
+            "pdfPage": 69
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t03-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设原速v。8点到8点半走AC＝0.5v；之后速度为1.3v，半小时内从C到B再回C，走2BC＝0.5×1.3v。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以BC＝0.325v，AC/BC＝0.5/0.325＝20/13，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "中间点两次到达之间是某一侧的往返，别把它当成一个单程。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          69
+        ],
+        "printedPages": [
+          63
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-05-p069.webp",
+            "alt": "行程问题（一） · 实战精刷5 · 讲义第63页",
+            "pdfPage": 69
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-06-question",
+      "type": "question",
+      "title": "实战精刷 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s06-t03-drill-06",
+        "type": "single",
+        "stem": "（25四川）甲、乙两地相距150千米。小张、小李分别于8：00和9：00开车从甲地匀速前往乙地。小张开了135千米被小李追上，且于10：30到达乙地。问小李的速度为多少千米/小时？",
+        "options": [
+          {
+            "value": "A",
+            "label": "75"
+          },
+          {
+            "value": "B",
+            "label": "90"
+          },
+          {
+            "value": "C",
+            "label": "108"
+          },
+          {
+            "value": "D",
+            "label": "120"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          69
+        ],
+        "printedPages": [
+          63
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-06-p069.webp",
+            "alt": "行程问题（一） · 实战精刷6 · 讲义第63页",
+            "pdfPage": 69
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t03-drill-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先求小张速度：150千米用了2.5小时，速度60千米/小时。小张走135千米时用了2.25小时，也就是10点15分。"
+        },
+        {
+          "type": "paragraph",
+          "text": "小李9点出发，到追上只走1.25小时，速度＝135÷1.25＝108千米/小时，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先由完整行程确定前车速度，再定位追上时刻和后车实际行驶时长。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          69
+        ],
+        "printedPages": [
+          63
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-06-p069.webp",
+            "alt": "行程问题（一） · 实战精刷6 · 讲义第63页",
+            "pdfPage": 69
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-07-question",
+      "type": "question",
+      "title": "实战精刷 · 第7题",
+      "question": {
+        "id": "quantity-wy27-s06-t03-drill-07",
+        "type": "single",
+        "stem": "（22全国事考）某特警部队训练警犬时发现“可疑人员”张某以6m/s的速度由A处跑向人质C，与此同时警犬以8m/s从B跑向人质C，C也同时以4m/s跑向B，A、C、B在一条直线上，为确保警犬不晚于张某与人质相遇。问：B、C的距离最多是A、C距离的多少倍？",
+        "options": [
+          {
+            "value": "A",
+            "label": "2"
+          },
+          {
+            "value": "B",
+            "label": "4"
+          },
+          {
+            "value": "C",
+            "label": "6"
+          },
+          {
+            "value": "D",
+            "label": "8"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          70
+        ],
+        "printedPages": [
+          64
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-07-p070.webp",
+            "alt": "行程问题（一） · 实战精刷7 · 讲义第64页",
+            "pdfPage": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-07-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t03-drill-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们按A—C—B的位置关系看：张某从后面追向C，C也向B跑，靠近速度为6－4＝2米/秒，追到时间AC/2。"
+        },
+        {
+          "type": "paragraph",
+          "text": "警犬从B迎向C，相向靠近速度8＋4＝12米/秒，碰到C的时间BC/12。要求警犬不晚，就要BC/12≤AC/2。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以BC/AC≤6，边界等号能达到，最多6倍，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "同一目标也要看相对方向：一边是追及速度差，一边是相遇速度和。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          70
+        ],
+        "printedPages": [
+          64
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-07-p070.webp",
+            "alt": "行程问题（一） · 实战精刷7 · 讲义第64页",
+            "pdfPage": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-08-question",
+      "type": "question",
+      "title": "实战精刷 · 第8题",
+      "question": {
+        "id": "quantity-wy27-s06-t03-drill-08",
+        "type": "single",
+        "stem": "（26广东）甲、乙两人在小区内晨跑，速度分别是140米／分钟和100米/分钟。他们同时从小区跑道的起点向终点匀速跑步，各自不停地在起点和终点往返。如果该跑道的长度为200米，则当甲第二次追上乙时，距离起点（）米。",
+        "options": [
+          {
+            "value": "A",
+            "label": "0"
+          },
+          {
+            "value": "B",
+            "label": "50"
+          },
+          {
+            "value": "C",
+            "label": "100"
+          },
+          {
+            "value": "D",
+            "label": "200"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          70
+        ],
+        "printedPages": [
+          64
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-08-p070.webp",
+            "alt": "行程问题（一） · 实战精刷8 · 讲义第64页",
+            "pdfPage": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s06-t03-drill-08-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s06-t03-drill-08",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先区分“追上”和迎面相遇。两人同起点在200米线段来回跑，同向追上时，展开后的累计路程差是一个往返400米的整数倍。"
+        },
+        {
+          "type": "paragraph",
+          "text": "速度差为40米/分钟，第k次同向追上对应40t＝400k，所以第一次10分钟，第二次20分钟。"
+        },
+        {
+          "type": "paragraph",
+          "text": "20分钟乙跑2000米，是5个完整往返，正好在起点，距离0米，选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "往返跑的同向追及以2倍单程为周期，迎面碰到不计作追上。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          70
+        ],
+        "printedPages": [
+          64
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s06-t03-drill-08-p070.webp",
+            "alt": "行程问题（一） · 实战精刷8 · 讲义第64页",
+            "pdfPage": 70
+          }
+        ]
+      }
+    }
+  ]
+}

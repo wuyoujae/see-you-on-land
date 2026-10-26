@@ -1,0 +1,421 @@
+{
+  "id": "quantity-wy27-s01-drill-01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s01",
+  "title": "实战精刷 · 1—4题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      14,
+      15
+    ],
+    "printedPages": [
+      8,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s01-t03-drill-01-question",
+      "type": "question",
+      "title": "实战精刷 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s01-t03-drill-01",
+        "type": "single",
+        "stem": "（26联考）某公司人数是5的倍数，且超过千人。若按照每组4人分组，最后少3人；若按照每组3人分组，最后少2人；若按照每组2人分组，最后少1人。这个公司至少有多少人？",
+        "options": [
+          {
+            "value": "A",
+            "label": "1015"
+          },
+          {
+            "value": "B",
+            "label": "1025"
+          },
+          {
+            "value": "C",
+            "label": "1035"
+          },
+          {
+            "value": "D",
+            "label": "1045"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          14
+        ],
+        "printedPages": [
+          8
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-01-p014.webp",
+            "alt": "和差倍比问题（一） · 实战精刷1 · 讲义第8页",
+            "pdfPage": 14
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t03-drill-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把“最后少几人”写清。4人分组少3人、3人分组少2人、2人分组少1人，都说明总数除以相应人数余1。于是总数减1是12的倍数，同时总数又是5的倍数。"
+        },
+        {
+          "type": "formula",
+          "latex": "N\\equiv1\\pmod{12},\\quad N\\equiv0\\pmod5\\quad\\Longrightarrow\\quad N=60k+25"
+        },
+        {
+          "type": "paragraph",
+          "text": "1000以下最近的同类数是985，下一个就是1045，因此超过千人的最小值为1045，选D。核验1045+3、1045+2、1045+1分别能被4、3、2整除。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "余数与缺数相加等于除数；多个条件可合并成周期筛选。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          14
+        ],
+        "printedPages": [
+          8
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-01-p014.webp",
+            "alt": "和差倍比问题（一） · 实战精刷1 · 讲义第8页",
+            "pdfPage": 14
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-02-question",
+      "type": "question",
+      "title": "实战精刷 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s01-t03-drill-02",
+        "type": "single",
+        "stem": "（25广东事考）某单位采购了大、中、小3种不同尺寸的文件袋，大号文件袋和中号文件袋共145个，小号文件袋的数量比大号文件袋多26%，且比中号文件袋的数量多，则大号文件袋的数量比中号文件袋多（）个。",
+        "options": [
+          {
+            "value": "A",
+            "label": "45"
+          },
+          {
+            "value": "B",
+            "label": "55"
+          },
+          {
+            "value": "C",
+            "label": "65"
+          },
+          {
+            "value": "D",
+            "label": "75"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          14
+        ],
+        "printedPages": [
+          8
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-02-p014.webp",
+            "alt": "和差倍比问题（一） · 实战精刷2 · 讲义第8页",
+            "pdfPage": 14
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t03-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看小号比大号多26%，所以小号∶大号=63∶50。袋数是整数，大号是50的倍数，又小于145，只可能是50或100。若大号50，则中号95、小号63，小号并不比中号多，排除。若大号100，则中号45、小号126，全部满足。"
+        },
+        {
+          "type": "formula",
+          "latex": "大号-中号=100-45=55"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以选B。这道题“比中号多”只是大小条件，没有漏写具体比例。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "整除列出有限候选，再用没有定量数字的大小条件排除。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          14
+        ],
+        "printedPages": [
+          8
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-02-p014.webp",
+            "alt": "和差倍比问题（一） · 实战精刷2 · 讲义第8页",
+            "pdfPage": 14
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-03-question",
+      "type": "question",
+      "title": "实战精刷 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s01-t03-drill-03",
+        "type": "single",
+        "stem": "（26国考）甲、乙和丙3个单位共有100多名职工，其中甲单位的职工人数占总数的24%，乙单位的职工比丙单位多50%。问丙单位的职工比甲单位多多少人？",
+        "options": [
+          {
+            "value": "A",
+            "label": "4"
+          },
+          {
+            "value": "B",
+            "label": "8"
+          },
+          {
+            "value": "C",
+            "label": "12"
+          },
+          {
+            "value": "D",
+            "label": "16"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          14
+        ],
+        "printedPages": [
+          8
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-03-p014.webp",
+            "alt": "和差倍比问题（一） · 实战精刷3 · 讲义第8页",
+            "pdfPage": 14
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t03-drill-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把三单位人数统一成比例。甲占6/25，剩下乙丙占19/25；乙比丙多50%，即乙∶丙=3∶2。为让份数都是整数，把总量看成125份，得到甲∶乙∶丙=30∶57∶38。"
+        },
+        {
+          "type": "formula",
+          "latex": "N=125k,\\qquad100<N<200\\quad\\Longrightarrow\\quad k=1"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以丙38人、甲30人，相差8人，选B。这里比例已经最简，整数人数保证总数是125的整数倍。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "部分占整体的比例与部分之间的比例结合时，先统一总份数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          14
+        ],
+        "printedPages": [
+          8
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-03-p014.webp",
+            "alt": "和差倍比问题（一） · 实战精刷3 · 讲义第8页",
+            "pdfPage": 14
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-04-question",
+      "type": "question",
+      "title": "实战精刷 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s01-t03-drill-04",
+        "type": "single",
+        "stem": "（26天津）有甲、乙两个仓库均存放一些新款车和旧款车，两个仓库汽车总数之比为7：4。甲仓库的新款车占30%，乙仓库新款车占90%。若两个仓库汽车总数有300多辆，问甲仓库的旧款车比乙仓库多多少辆？",
+        "options": [
+          {
+            "value": "A",
+            "label": "120"
+          },
+          {
+            "value": "B",
+            "label": "124"
+          },
+          {
+            "value": "C",
+            "label": "130"
+          },
+          {
+            "value": "D",
+            "label": "135"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          15
+        ],
+        "printedPages": [
+          9
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-04-p015.webp",
+            "alt": "和差倍比问题（一） · 实战精刷4 · 讲义第9页",
+            "pdfPage": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t03-drill-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设甲、乙仓库总数分别7k、4k。甲新车2.1k辆、乙新车3.6k辆都必须为整数，所以k是10的倍数。总数11k是300多辆，只能取k=30。"
+        },
+        {
+          "type": "formula",
+          "latex": "甲旧车=7\\times30\\times70\\%=147,\\quad乙旧车=4\\times30\\times10\\%=12"
+        },
+        {
+          "type": "paragraph",
+          "text": "相差147-12=135辆，所以选D。别把“新款占比”直接拿来回答旧车差量。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "连比中的份数也受各部分整数条件约束，先把最小整数单位放大。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          15
+        ],
+        "printedPages": [
+          9
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-04-p015.webp",
+            "alt": "和差倍比问题（一） · 实战精刷4 · 讲义第9页",
+            "pdfPage": 15
+          }
+        ]
+      }
+    }
+  ]
+}

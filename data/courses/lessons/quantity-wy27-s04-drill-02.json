@@ -1,0 +1,423 @@
+{
+  "id": "quantity-wy27-s04-drill-02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s04",
+  "title": "实战精刷 · 5—8题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      49,
+      50
+    ],
+    "printedPages": [
+      43,
+      44
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s04-t03-drill-05-question",
+      "type": "question",
+      "title": "实战精刷 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s04-t03-drill-05",
+        "type": "single",
+        "stem": "（26天津事考）某月饼工厂共两条生产线，分别生产五仁月饼和蛋黄月饼。去年1月份开始投入生产，每月五仁月饼的产量都比上月多200块，蛋黄月饼的产量都比上月多100块。已知去年上半年五仁月饼总产量比蛋黄月饼总产量的2倍还少600块，8月一整月蛋黄月饼的产量为1000块，则去年五仁月饼的总产量为（)块。",
+        "options": [
+          {
+            "value": "A",
+            "label": "10200"
+          },
+          {
+            "value": "B",
+            "label": "11700"
+          },
+          {
+            "value": "C",
+            "label": "1650"
+          },
+          {
+            "value": "D",
+            "label": "19200"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          49
+        ],
+        "printedPages": [
+          43
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-05-p049.webp",
+            "alt": "等差数列与和定最值 · 实战精刷5 · 讲义第43页",
+            "pdfPage": 49
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t03-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先从蛋黄月饼入手：8月1000块，比1月多7×100＝700块，所以1月300块，上半年共6×300＋15×100＝3300块。"
+        },
+        {
+          "type": "paragraph",
+          "text": "五仁上半年是2×3300－600＝6000块。五仁每月多200块，设1月x块，则6x＋15×200＝6000，解得x＝500。"
+        },
+        {
+          "type": "paragraph",
+          "text": "五仁全年共12×500＋66×200＝19200块，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先由某个月倒推首项，再把两个数列的总量关系接起来。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          49
+        ],
+        "printedPages": [
+          43
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-05-p049.webp",
+            "alt": "等差数列与和定最值 · 实战精刷5 · 讲义第43页",
+            "pdfPage": 49
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-06-question",
+      "type": "question",
+      "title": "实战精刷 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s04-t03-drill-06",
+        "type": "single",
+        "stem": "（26山东事考）甲、乙、丙三家公司2025年的研发投入金额呈等差数列，其中乙公司的研发投入为800万元。已知三家公司的研发总投入与其总利润的比值为4：5，且甲公司的利润比丙公司少280万元，乙公司的利润是甲的1.2倍。问丙利润多少万元？",
+        "options": [
+          {
+            "value": "A",
+            "label": "1050"
+          },
+          {
+            "value": "B",
+            "label": "1200"
+          },
+          {
+            "value": "C",
+            "label": "1100"
+          },
+          {
+            "value": "D",
+            "label": "1130"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          49
+        ],
+        "printedPages": [
+          43
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-06-p049.webp",
+            "alt": "等差数列与和定最值 · 实战精刷6 · 讲义第43页",
+            "pdfPage": 49
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t03-drill-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先分清研发投入和利润。三家研发投入成等差数列，乙是中间项800万元，所以研发投入总额＝3×800＝2400万元。"
+        },
+        {
+          "type": "paragraph",
+          "text": "投入∶利润＝4∶5，总利润＝2400×5÷4＝3000万元。设甲利润x，则乙1.2x、丙x＋280。"
+        },
+        {
+          "type": "paragraph",
+          "text": "x＋1.2x＋x＋280＝3000，解得x＝850，丙为1130万元，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "等差数列只约束题目指定的量；总投入与总利润再用比例转换。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          49
+        ],
+        "printedPages": [
+          43
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-06-p049.webp",
+            "alt": "等差数列与和定最值 · 实战精刷6 · 讲义第43页",
+            "pdfPage": 49
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-07-question",
+      "type": "question",
+      "title": "实战精刷 · 第7题",
+      "question": {
+        "id": "quantity-wy27-s04-t03-drill-07",
+        "type": "single",
+        "stem": "（25天津）某连锁餐厅甲、乙、丙三个店面2024年销售额总计为1000万元，利润总计为120万元。其中，甲店面的销售额是利润的10倍，是丙店面销售额的2/3，乙店面的利润比甲店面多10万元且比丙店面少10万元。问乙店面的销售额是利润的多少倍？",
+        "options": [
+          {
+            "value": "A",
+            "label": "6"
+          },
+          {
+            "value": "B",
+            "label": "6.25"
+          },
+          {
+            "value": "C",
+            "label": "7"
+          },
+          {
+            "value": "D",
+            "label": "7.2"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          50
+        ],
+        "printedPages": [
+          44
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-07-p050.webp",
+            "alt": "等差数列与和定最值 · 实战精刷7 · 讲义第44页",
+            "pdfPage": 50
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-07-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t03-drill-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看利润：乙比甲多10万元，比丙少10万元，利润是等差数列，所以乙＝120÷3＝40万元，甲30、丙50。"
+        },
+        {
+          "type": "paragraph",
+          "text": "甲销售额是利润的10倍，为300万元；甲是丙销售额的2/3，所以丙销售额450万元。乙销售额＝1000－300－450＝250万元。"
+        },
+        {
+          "type": "paragraph",
+          "text": "乙销售额÷乙利润＝250÷40＝6.25，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "把利润与销售额分两层计算，不能把销售额的比例套到利润上。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          50
+        ],
+        "printedPages": [
+          44
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-07-p050.webp",
+            "alt": "等差数列与和定最值 · 实战精刷7 · 讲义第44页",
+            "pdfPage": 50
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-08-question",
+      "type": "question",
+      "title": "实战精刷 · 第8题",
+      "question": {
+        "id": "quantity-wy27-s04-t03-drill-08",
+        "type": "single",
+        "stem": "（23浙江事考）总公司选派110多名员工到5家分公司进行基层锻炼，各分公司人数均不同。第二多的分公司比第四多的多10人，人数最多的分公司占总人数的【原讲义此处缺少比例】，但未超过最少人数的3倍。问人数最少的分公司至多可能有多少人？",
+        "options": [
+          {
+            "value": "A",
+            "label": "13"
+          },
+          {
+            "value": "B",
+            "label": "14"
+          },
+          {
+            "value": "C",
+            "label": "15"
+          },
+          {
+            "value": "D",
+            "label": "16"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D",
+        "grading": "unverified",
+        "sourceIssue": "印刷第44页/PDF第50页原题缺少最大人数占总人数的比例，剩余条件不能支持来源答案。"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          50
+        ],
+        "printedPages": [
+          44
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-08-p050.webp",
+            "alt": "等差数列与和定最值 · 实战精刷8 · 讲义第44页",
+            "pdfPage": 50
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-08-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t03-drill-08",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D（本题条件待核，不计分）"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先核对原题。讲义写到“最多的分公司占总选派人数的”后面直接接“但未超过最少人数的3倍”，中间的比例没有印出来。这个条件缺失，不能按照完整最值题直接判分。"
+        },
+        {
+          "type": "paragraph",
+          "text": "仅用现有条件，18、19、20、29、30这组人数总共116人，第二多29比第四多19多10，最多30也不超过最少18的3倍。它已经使最少人数达到18，大于给出的全部选项。"
+        },
+        {
+          "type": "paragraph",
+          "text": "书后参考为D（16人），但缺少的比例无法从现存题面恢复。因此本题保留原题和来源参考，不计正确率；不能反过来根据D补出一个题目没给的比例。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先检查条件是否完整，来源参考不能替代缺失的题干条件。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          50
+        ],
+        "printedPages": [
+          44
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-08-p050.webp",
+            "alt": "等差数列与和定最值 · 实战精刷8 · 讲义第44页",
+            "pdfPage": 50
+          }
+        ]
+      }
+    }
+  ]
+}

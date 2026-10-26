@@ -1,0 +1,435 @@
+{
+  "id": "quantity-wy27-s02-drill-03",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s02",
+  "title": "实战精刷 · 9—12题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      27,
+      28
+    ],
+    "printedPages": [
+      21,
+      22
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s02-t03-drill-09-question",
+      "type": "question",
+      "title": "实战精刷 · 第9题",
+      "question": {
+        "id": "quantity-wy27-s02-t03-drill-09",
+        "type": "single",
+        "stem": "（24联考）高校管理学院某期培训班有不到100名学员参加，期中、期末两次考试平均分分别为68分和75分。期中考试不及格学员平均分为53分，及格学员平均分为74分；期末考试不及格学员平均分为47分，及格学员平均分为83分。问这期培训班有多少名学员参加？",
+        "options": [
+          {
+            "value": "A",
+            "label": "42"
+          },
+          {
+            "value": "B",
+            "label": "54"
+          },
+          {
+            "value": "C",
+            "label": "63"
+          },
+          {
+            "value": "D",
+            "label": "77"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          27
+        ],
+        "printedPages": [
+          21
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-09-p027.webp",
+            "alt": "和差倍比问题（二） · 实战精刷9 · 讲义第21页",
+            "pdfPage": 27
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-09-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s02-t03-drill-09",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先分别求两次考试及格、不及格人数比。期中及格平均74、不及格53，总平均68，所以及格∶不及格=(68-53)∶(74-68)=5∶2，总人数是7的倍数。期末及格83、不及格47，总平均75，所以及格∶不及格=(75-47)∶(83-75)=7∶2，总人数又是9的倍数。"
+        },
+        {
+          "type": "formula",
+          "latex": "N\\text{是}\\operatorname{lcm}(7,9)=63\\text{的倍数},\\quad N<100\\Rightarrow N=63"
+        },
+        {
+          "type": "paragraph",
+          "text": "因此选C。核验期中45人及格、18人不及格；期末49人及格、14人不及格，两次平均分都满足。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "同一总人数遇到两组平均数混合，可用两次十字交叉得到总数整除条件。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          27
+        ],
+        "printedPages": [
+          21
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-09-p027.webp",
+            "alt": "和差倍比问题（二） · 实战精刷9 · 讲义第21页",
+            "pdfPage": 27
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-10-question",
+      "type": "question",
+      "title": "实战精刷 · 第10题",
+      "question": {
+        "id": "quantity-wy27-s02-t03-drill-10",
+        "type": "single",
+        "stem": "（25山东）某商店在母亲节前夕花费288元购进了120支康乃馨。初期按获得50%的期望利润定价出售，当售出75%之后，剩余的康乃馨按定价打折促销。已知最终获得的总利润是初期期望获得总利润的85%，问康乃馨促销时打了几折？",
+        "options": [
+          {
+            "value": "A",
+            "label": "7"
+          },
+          {
+            "value": "B",
+            "label": "7.5"
+          },
+          {
+            "value": "C",
+            "label": "8"
+          },
+          {
+            "value": "D",
+            "label": "8.5"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          27,
+          28
+        ],
+        "printedPages": [
+          21,
+          22
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-10-p027.webp",
+            "alt": "和差倍比问题（二） · 实战精刷10 · 讲义第21页",
+            "pdfPage": 27
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-10-p028.webp",
+            "alt": "和差倍比问题（二） · 实战精刷10 · 讲义第22页",
+            "pdfPage": 28
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-10-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s02-t03-drill-10",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把利润和销售额分开。成本288元，期望利润为288×50%=144元，期望总销售额432元。先按原价卖掉75%，已收入324元；实际总利润是144×85%=122.4元，所以实际总销售额410.4元。"
+        },
+        {
+          "type": "formula",
+          "latex": "剩余收入=410.4-324=86.4,\\quad原价剩余金额=432\\times25\\%=108"
+        },
+        {
+          "type": "paragraph",
+          "text": "折扣为86.4/108=0.8，也就是八折，选C。别把“实际利润是期望利润85%”误读为剩余商品打八五折。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先将利润率转为总销售额，再扣除已售部分反求剩余折扣。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          27,
+          28
+        ],
+        "printedPages": [
+          21,
+          22
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-10-p027.webp",
+            "alt": "和差倍比问题（二） · 实战精刷10 · 讲义第21页",
+            "pdfPage": 27
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-10-p028.webp",
+            "alt": "和差倍比问题（二） · 实战精刷10 · 讲义第22页",
+            "pdfPage": 28
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-11-question",
+      "type": "question",
+      "title": "实战精刷 · 第11题",
+      "question": {
+        "id": "quantity-wy27-s02-t03-drill-11",
+        "type": "single",
+        "stem": "（26江苏）某玩具工厂共有30台机器，其中S型20台，T型10台，同种型号的机器工作效率相同。这30台机器工作1小时共生产玩具240个。改进工艺后，S、T型机器的生产效率分别提升20%和25%，这30台机器工作1小时比改进工艺前多生产玩具50个。改进工艺后，S型机器的生产效率是T型的：",
+        "options": [
+          {
+            "value": "A",
+            "label": "1.5倍"
+          },
+          {
+            "value": "B",
+            "label": "2.4倍"
+          },
+          {
+            "value": "C",
+            "label": "2.5倍"
+          },
+          {
+            "value": "D",
+            "label": "3倍"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          28
+        ],
+        "printedPages": [
+          22
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-11-p028.webp",
+            "alt": "和差倍比问题（二） · 实战精刷11 · 讲义第22页",
+            "pdfPage": 28
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-11-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s02-t03-drill-11",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设原来每台S机器每小时生产x个，每台T机器生产y个。总产量与新增产量给出两条等式，注意台数分别是20和10。"
+        },
+        {
+          "type": "formula",
+          "latex": "20x+10y=240,\\qquad20x\\times20\\%+10y\\times25\\%=50"
+        },
+        {
+          "type": "paragraph",
+          "text": "第一式化为2x+y=24，第二式为4x+2.5y=50。第一式乘2后作差得0.5y=2，故y=4、x=10。改进后每台S为12、每台T为5，12/5=2.4倍，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "总产量先带上机器台数，求单台效率比时再还原到每台。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          28
+        ],
+        "printedPages": [
+          22
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-11-p028.webp",
+            "alt": "和差倍比问题（二） · 实战精刷11 · 讲义第22页",
+            "pdfPage": 28
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-12-question",
+      "type": "question",
+      "title": "实战精刷 · 第12题",
+      "question": {
+        "id": "quantity-wy27-s02-t03-drill-12",
+        "type": "single",
+        "stem": "（26天津）甲和乙两种酒精溶液的浓度分别为m%和n%，3千克甲溶液、2千克乙溶液混合后得到的溶液浓度为1.2m%，9千克甲溶液和1千克水混合后得到的溶液浓度为（n-24）%。问3千克甲溶液、4千克乙溶液和1千克水混合后得到的溶液浓度为多少？",
+        "options": [
+          {
+            "value": "A",
+            "label": "40%"
+          },
+          {
+            "value": "B",
+            "label": "45%"
+          },
+          {
+            "value": "C",
+            "label": "50%"
+          },
+          {
+            "value": "D",
+            "label": "55%"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          28
+        ],
+        "printedPages": [
+          22
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-12-p028.webp",
+            "alt": "和差倍比问题（二） · 实战精刷12 · 讲义第22页",
+            "pdfPage": 28
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t03-drill-12-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s02-t03-drill-12",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先根据第一次混合写浓度守恒，百分号可以两边共同约掉：(3m+2n)/5=1.2m，所以n=1.5m。第二次加的是水，水不增加酒精：9m/10=n-24。"
+        },
+        {
+          "type": "formula",
+          "latex": "0.9m=1.5m-24\\Rightarrow m=40,\\quad n=60"
+        },
+        {
+          "type": "paragraph",
+          "text": "最后混合总量8千克，纯酒精量为3×40%+4×60%=3.6千克。3.6/8=45%，选B。1千克水仍应计入分母。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "多次浓度条件先消元求原浓度，最终混合时纯溶质相加、全部溶液作分母。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          28
+        ],
+        "printedPages": [
+          22
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t03-drill-12-p028.webp",
+            "alt": "和差倍比问题（二） · 实战精刷12 · 讲义第22页",
+            "pdfPage": 28
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "analysis-p1-l12",
+  "subjectId": "analysis",
+  "groupId": "analysis-mixture",
+  "title": "再看一步：总体靠近量大的那一边",
+  "source": {
+    "startSeconds": 1860,
+    "endSeconds": 1990,
+    "timeLabel": "00:31:00—00:33:10",
+    "videoId": "7668729047387524358",
+    "videoTitle": "资料分析完整复盘"
+  },
+  "cards": [
+    {
+      "id": "analysis-p1-l12-knowledge-235d027-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "再看一步：总体靠近量大的那一边 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "只知道总体居中，有时候还剩两三个选项。那我们就继续看：两个部分谁的权重大？整体就更靠近谁。"
+        },
+        {
+          "type": "paragraph",
+          "text": "对于增长率混合，精确的权重是两个部分的基期量。我们后面先用现期量近似判断，遇到增速很大、担心误差时，再回到基期量计算。"
+        },
+        {
+          "type": "paragraph",
+          "text": "教学例题18：南瓜产量 2000 吨，同比增长 5.7%；花生产量 4000 吨，同比增长 2.5%。两者总产量的同比增长率落在哪个范围？"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看总体在中间，所以总增速在 2.5%和 5.7%之间。"
+        },
+        {
+          "type": "paragraph",
+          "text": "再看谁的量大：花生有 4000 吨，南瓜 2000 吨，花生明显更大；它增长率还更低，基期量也更大，所以总体会靠近花生的 2.5%这一边。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两个增速的中点先算出来。"
+        },
+        {
+          "type": "formula",
+          "latex": "增速中点 = \\frac{2.5\\%+5.7\\%}{2}=4.1\\%"
+        },
+        {
+          "type": "paragraph",
+          "text": "既然靠近 2.5%，就说明总体在中点左边：大于 2.5%，小于 4.1%。"
+        }
+      ]
+    },
+    {
+      "id": "analysis-p1-l12-knowledge-235d027-02",
+      "type": "text",
+      "role": "knowledge",
+      "title": "再看一步：总体靠近量大的那一边 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "如果只有一个选项满足这个范围，就结束；如果还剩两个、三个，才进行下一步定量。我们接着用一道国考题，把这个过程完整走一遍。"
+        }
+      ]
+    }
+  ]
+}

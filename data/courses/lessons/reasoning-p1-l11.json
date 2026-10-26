@@ -1,0 +1,43 @@
+{
+  "id": "reasoning-p1-l11",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-weaken",
+  "title": "一般质疑：先看他拿什么依据，推出了什么结论",
+  "source": {
+    "startSeconds": 2201,
+    "endSeconds": 2332,
+    "timeLabel": "00:36:41—00:38:52",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p1-l11-knowledge-568bef7-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "一般质疑：先看他拿什么依据，推出了什么结论",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "归因题主要是在争：这个结果，是不是这个原因造成的。"
+        },
+        {
+          "type": "paragraph",
+          "text": "一般质疑的题目，可能拿一个数据、一个现象、一部分人的认识作依据，再推出结论。那我们就要把“依据”和“结论”分开。"
+        },
+        {
+          "type": "paragraph",
+          "text": "比如现场有我们的脚印、头发，于是有人判断我们就是凶手。"
+        },
+        {
+          "type": "paragraph",
+          "text": "“脚印、头发”是论据，“我们是凶手”是结论。我们只喊一句“不是我们”，当然不如拿出理由：脚印是不是认错了？这些痕迹是不是别人留下、转移过来的？或者，我们只是之前来过这里，痕迹并不能证明作案？"
+        },
+        {
+          "type": "paragraph",
+          "text": "这样就能看清楚，我们到底在质疑依据本身，还是质疑它和结论之间的关系。"
+        }
+      ]
+    }
+  ]
+}

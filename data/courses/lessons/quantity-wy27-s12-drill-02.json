@@ -1,0 +1,568 @@
+{
+  "id": "quantity-wy27-s12-drill-02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s12",
+  "title": "实战精刷 · 5—8题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      129,
+      130,
+      131
+    ],
+    "printedPages": [
+      123,
+      124,
+      125
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s12-t02-drill-05-question",
+      "type": "question",
+      "title": "实战精刷 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s12-t02-drill-05",
+        "type": "single",
+        "stem": "（24江苏）小张所在单位共有4个科室，现以科室为单位组织文艺演出，每个科室出2个节目。演出结束后，因8个节目都非常精彩，决定从中随机选3个节目参加上级组织的汇演。则小张所在科室出的节目至少有一个被选送参加汇演的概率是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "3/14"
+          },
+          {
+            "value": "B",
+            "label": "17/21"
+          },
+          {
+            "value": "C",
+            "label": "13/21"
+          },
+          {
+            "value": "D",
+            "label": "9/14"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          129
+        ],
+        "printedPages": [
+          123
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-05-p129.webp",
+            "alt": "概率问题（一） · 实战精刷5 · 讲义第123页",
+            "pdfPage": 129
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t02-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们看到“至少一个”，先算反面更省事。反面是小张科室的2个节目都没入选，3个节目全部从另外6个中选。"
+        },
+        {
+          "type": "paragraph",
+          "text": "总方案8选3=56，反面6选3=20，所以所求概率1−20/56=9/14。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=1-\\frac{\\binom63}{\\binom83}=\\frac9{14}"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们选D。直接算恰好1个或恰好2个也可以，但需要分两类。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          129
+        ],
+        "printedPages": [
+          123
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-05-p129.webp",
+            "alt": "概率问题（一） · 实战精刷5 · 讲义第123页",
+            "pdfPage": 129
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-05-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t02-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "“至少一个”优先检查看“一个都没有”的反面是否更简单。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          129
+        ],
+        "printedPages": [
+          123
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-05-p129.webp",
+            "alt": "概率问题（一） · 实战精刷5 · 讲义第123页",
+            "pdfPage": 129
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-06-question",
+      "type": "question",
+      "title": "实战精刷 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s12-t02-drill-06",
+        "type": "single",
+        "stem": "（25联考）棒球队招募两个位置的队员，分别为击球手和投球手，共有10人报名，其中5人只报名击球手，3人只报名投手，另外两人既报名击球手又报名投手。若球队在报名人员中随机抽取2人，则此2人报名相同位置的概率为（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "1/3"
+          },
+          {
+            "value": "B",
+            "label": "1/2"
+          },
+          {
+            "value": "C",
+            "label": "2/3"
+          },
+          {
+            "value": "D",
+            "label": "3/4"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          130
+        ],
+        "printedPages": [
+          124
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-06-p130.webp",
+            "alt": "概率问题（一） · 实战精刷6 · 讲义第124页",
+            "pdfPage": 130
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t02-drill-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把“报名相同位置”理解为两人至少有一个共同报名的位置。都报击球手的有7人，都报投手的有5人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两人都报击球手有21种，都报投手有10种；那2名双报人员同时被选的1种情况被计算了两次，扣掉1。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac{\\binom72+\\binom52-\\binom22}{\\binom{10}2}=\\frac23"
+        },
+        {
+          "type": "paragraph",
+          "text": "有利方案30种，总方案10选2=45，概率2/3，我们选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          130
+        ],
+        "printedPages": [
+          124
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-06-p130.webp",
+            "alt": "概率问题（一） · 实战精刷6 · 讲义第124页",
+            "pdfPage": 130
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-06-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t02-drill-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "两类身份有重叠时，用容斥避免双重计数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          130
+        ],
+        "printedPages": [
+          124
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-06-p130.webp",
+            "alt": "概率问题（一） · 实战精刷6 · 讲义第124页",
+            "pdfPage": 130
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-07-question",
+      "type": "question",
+      "title": "实战精刷 · 第7题",
+      "question": {
+        "id": "quantity-wy27-s12-t02-drill-07",
+        "type": "single",
+        "stem": "（22联考）为了加强环境治理和生态修复，某市派出4位专家（甲、乙、丙、丁）前往某山区3个勘探点进行环境检测，要求每个勘探点至少安排一名专家。那么甲、乙两名专家去了不同勘探点的概率是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "3/4"
+          },
+          {
+            "value": "B",
+            "label": "1/6"
+          },
+          {
+            "value": "C",
+            "label": "5/6"
+          },
+          {
+            "value": "D",
+            "label": "1/4"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          130
+        ],
+        "printedPages": [
+          124
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-07-p130.webp",
+            "alt": "概率问题（一） · 实战精刷7 · 讲义第124页",
+            "pdfPage": 130
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-07-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t02-drill-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先用已经给定的限制确定人数结构：4人去3个点且每点非空，只能是2、1、1。"
+        },
+        {
+          "type": "paragraph",
+          "text": "哪两个人组成唯一的2人组共有4选2=6种，每一种再分配到具体勘探点的方式相同。甲、乙同组只占其中1种，同点概率1/6。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=1-\\frac1{\\binom42}=\\frac56"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以甲、乙不同点的概率为5/6，我们选C。不能用未经“每点非空”限制的全部3⁴方案当分母。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          130
+        ],
+        "printedPages": [
+          124
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-07-p130.webp",
+            "alt": "概率问题（一） · 实战精刷7 · 讲义第124页",
+            "pdfPage": 130
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-07-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t02-drill-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "题面已给分配限制时，概率的样本空间要先满足该限制。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          130
+        ],
+        "printedPages": [
+          124
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-07-p130.webp",
+            "alt": "概率问题（一） · 实战精刷7 · 讲义第124页",
+            "pdfPage": 130
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-08-question",
+      "type": "question",
+      "title": "实战精刷 · 第8题",
+      "question": {
+        "id": "quantity-wy27-s12-t02-drill-08",
+        "type": "single",
+        "stem": "（21江苏）某市举办足球邀请赛，共有9个球队报名参加，其中包含上届比赛的前3名球队。现将这9个球队通过抽签的方式平均分成3组进行单循环比赛，则上届比赛的前3名球队被分在同一组的概率是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "1/21"
+          },
+          {
+            "value": "B",
+            "label": "1/28"
+          },
+          {
+            "value": "C",
+            "label": "1/63"
+          },
+          {
+            "value": "D",
+            "label": "1/84"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          130,
+          131
+        ],
+        "printedPages": [
+          124,
+          125
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-08-p130.webp",
+            "alt": "概率问题（一） · 实战精刷8 · 讲义第124页",
+            "pdfPage": 130
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-08-p131.webp",
+            "alt": "概率问题（一） · 实战精刷8 · 讲义第125页",
+            "pdfPage": 131
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-08-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s12-t02-drill-08",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先固定前3名中的一支球队所在的组。剩下8个位置里，同组只剩2个。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第二支强队同组的概率2/8；这时剩7个位置，同组还剩1个，第三支再同组的概率1/7。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac28\\times\\frac17=\\frac1{28}"
+        },
+        {
+          "type": "paragraph",
+          "text": "两步相乘为1/28，我们选B。也可把另外两支强队的占位看成从8个位置中选2个，符合条件的只有同组那一对。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          130,
+          131
+        ],
+        "printedPages": [
+          124,
+          125
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-08-p130.webp",
+            "alt": "概率问题（一） · 实战精刷8 · 讲义第124页",
+            "pdfPage": 130
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-08-p131.webp",
+            "alt": "概率问题（一） · 实战精刷8 · 讲义第125页",
+            "pdfPage": 131
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s12-t02-drill-08-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s12-t02-drill-08",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "多名指定对象同组，固定第一名，再逐步减少总位置与有利位置。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          130,
+          131
+        ],
+        "printedPages": [
+          124,
+          125
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-08-p130.webp",
+            "alt": "概率问题（一） · 实战精刷8 · 讲义第124页",
+            "pdfPage": 130
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s12-t02-drill-08-p131.webp",
+            "alt": "概率问题（一） · 实战精刷8 · 讲义第125页",
+            "pdfPage": 131
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "reasoning-p2-l18",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-propositions",
+  "title": "“要么A，要么B”：恰好有一个",
+  "source": {
+    "startSeconds": 6692,
+    "endSeconds": 6745,
+    "timeLabel": "01:51:32—01:52:25",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p2-l18-knowledge-f3cffa2-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "“要么A，要么B”：恰好有一个",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "刚才普通“或”是至少有一个，可以两个都有。现在的“要么A，要么B”“不是A就是B”，在这里的形式逻辑语境中，是两边恰好一个成立：不能都没有，也不能都有。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以这种关系有两套规则："
+        },
+        {
+          "type": "paragraph",
+          "text": "（1）否一推一：非A→B，非B→A。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（2）肯一否一：A→非B，B→非A。"
+        },
+        {
+          "type": "paragraph",
+          "text": "比如只能在A和B里选一个，已经选A，那就不能再选B；没选A，那就只能选B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们就把“普通或：至少一个”和“要么……要么……：恰好一个”分清楚。前者不能肯一否一，后者可以。日常语言可能说得随意，做题时要结合题目是否明确限定只能选一个。"
+        },
+        {
+          "type": "paragraph",
+          "text": "它的矛盾就是“两者都有，或者两者都没有”。如果原话是“今天要么学判断，要么学资料”，那两科全学了不满足恰好一科，两科全没学也不满足。"
+        },
+        {
+          "type": "paragraph",
+          "text": "否定“要么A要么B”＝“（A且B）或（非A且非B）”。这是一整句否定，由两个可能情况组成，不是说“两者都有”和“两者都没有”各自都与原句构成一对矛盾。"
+        }
+      ]
+    }
+  ]
+}

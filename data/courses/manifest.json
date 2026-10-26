@@ -1,0 +1,4316 @@
+{
+  "version": 1,
+  "subjects": [
+    {
+      "id": "language",
+      "title": "言语理解",
+      "groups": [
+        {
+          "id": "language-main-idea-basics",
+          "title": "中心理解基础",
+          "lessons": [
+            {
+              "id": "language-p1-l01",
+              "title": "中心理解先分类：我们到底在找观点，还是在概括介绍",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "language-p1-l01-knowledge-b5d38e5-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/language-p1-l01.json"
+            },
+            {
+              "id": "language-p1-l02",
+              "title": "说理类的本质：原文让我们做什么，我们就选对应的做法",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p1-l02-knowledge-20d057c-01",
+                "language-p1-l02-knowledge-20d057c-02",
+                "language-q001-question",
+                "language-q001-explanation-c5fc82a-01"
+              ],
+              "questionIds": [
+                "language-q001"
+              ],
+              "path": "data/courses/lessons/language-p1-l02.json"
+            }
+          ]
+        },
+        {
+          "id": "language-argumentative",
+          "title": "说理类中心理解",
+          "lessons": [
+            {
+              "id": "language-p1-l03",
+              "title": "后对策结构：前面说了很多，最后那句“因此我们需要”才是落点",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p1-l03-knowledge-6ed8c75-01",
+                "language-q002-question",
+                "language-q002-explanation-5f6bc9d-01"
+              ],
+              "questionIds": [
+                "language-q002"
+              ],
+              "path": "data/courses/lessons/language-p1-l03.json"
+            },
+            {
+              "id": "language-p1-l04",
+              "title": "前对策结构：先把观点亮出来，后面都是在解释它",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p1-l04-knowledge-e0482d7-01",
+                "language-q003-question",
+                "language-q003-explanation-4c4c3cd-01"
+              ],
+              "questionIds": [
+                "language-q003"
+              ],
+              "path": "data/courses/lessons/language-p1-l04.json"
+            },
+            {
+              "id": "language-p1-l05",
+              "title": "总分结构：总观点和分论证，不能抢错位置",
+              "cardCount": 7,
+              "questionCount": 3,
+              "cardIds": [
+                "language-p1-l05-knowledge-e99ab05-01",
+                "language-q004-question",
+                "language-q004-explanation-47a29ab-01",
+                "language-q005-question",
+                "language-q005-explanation-b14a747-01",
+                "language-q006-question",
+                "language-q006-explanation-6e1a28b-01"
+              ],
+              "questionIds": [
+                "language-q004",
+                "language-q005",
+                "language-q006"
+              ],
+              "path": "data/courses/lessons/language-p1-l05.json"
+            },
+            {
+              "id": "language-p1-l06",
+              "title": "罗列多个问题、多个对策：选项一定要能管住这几件事",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p1-l06-knowledge-005228c-01",
+                "language-q007-question",
+                "language-q007-explanation-f65906f-01",
+                "language-q007-explanation-f65906f-02"
+              ],
+              "questionIds": [
+                "language-q007"
+              ],
+              "path": "data/courses/lessons/language-p1-l06.json"
+            },
+            {
+              "id": "language-p1-l07",
+              "title": "对策不只有“应该”：五类表达都要能认出来",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "language-p1-l07-knowledge-cb3bcd2-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/language-p1-l07.json"
+            },
+            {
+              "id": "language-p1-l08",
+              "title": "正确选项不一定长得最完整：我们比的是谁更贴近原文",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "language-p1-l08-knowledge-8971dc2-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/language-p1-l08.json"
+            }
+          ]
+        },
+        {
+          "id": "language-expository",
+          "title": "科普介绍类中心理解",
+          "lessons": [
+            {
+              "id": "language-p1-l09",
+              "title": "科普介绍类：客观概括，我们不替原文加观点",
+              "cardCount": 7,
+              "questionCount": 2,
+              "cardIds": [
+                "language-p1-l09-knowledge-9544963-01",
+                "language-q008-question",
+                "language-q008-explanation-75cd543-01",
+                "language-q008-explanation-75cd543-02",
+                "language-q009-question",
+                "language-q009-explanation-6577d9b-01",
+                "language-q009-explanation-6577d9b-02"
+              ],
+              "questionIds": [
+                "language-q008",
+                "language-q009"
+              ],
+              "path": "data/courses/lessons/language-p1-l09.json"
+            },
+            {
+              "id": "language-p1-l10",
+              "title": "科普总分：总句已经给出分类，后面按分类展开",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p1-l10-knowledge-86e638b-01",
+                "language-q010-question",
+                "language-q010-explanation-31cc871-01"
+              ],
+              "questionIds": [
+                "language-q010"
+              ],
+              "path": "data/courses/lessons/language-p1-l10.json"
+            },
+            {
+              "id": "language-p1-l11",
+              "title": "并列和大并列：分开的几块，概括时一块也别丢",
+              "cardCount": 6,
+              "questionCount": 2,
+              "cardIds": [
+                "language-p1-l11-knowledge-0e18c85-01",
+                "language-q011-question",
+                "language-q011-explanation-e025062-01",
+                "language-q012-question",
+                "language-q012-explanation-3a65ed5-01",
+                "language-q012-explanation-3a65ed5-02"
+              ],
+              "questionIds": [
+                "language-q011",
+                "language-q012"
+              ],
+              "path": "data/courses/lessons/language-p1-l11.json"
+            },
+            {
+              "id": "language-p1-l12",
+              "title": "从集合引出个体：后面一直讲的那个人，不能随手当例子删掉",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p1-l12-knowledge-b734eb6-01",
+                "language-q013-question",
+                "language-q013-explanation-8f108b1-01"
+              ],
+              "questionIds": [
+                "language-q013"
+              ],
+              "path": "data/courses/lessons/language-p1-l12.json"
+            },
+            {
+              "id": "language-p1-l13",
+              "title": "转折式并列：有“但”，也不等于前半篇都能删",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p1-l13-knowledge-d8d20a4-01",
+                "language-q014-question",
+                "language-q014-explanation-95395fd-01"
+              ],
+              "questionIds": [
+                "language-q014"
+              ],
+              "path": "data/courses/lessons/language-p1-l13.json"
+            },
+            {
+              "id": "language-p1-l14",
+              "title": "背景加正文：有些前半段是铺垫，不写进答案也不叫片面",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p1-l14-knowledge-813231b-01",
+                "language-q015-question",
+                "language-q015-explanation-ef1be9e-01"
+              ],
+              "questionIds": [
+                "language-q015"
+              ],
+              "path": "data/courses/lessons/language-p1-l14.json"
+            },
+            {
+              "id": "language-p1-l15",
+              "title": "设问加回答：先看文章问什么，再看后面在回答什么",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p1-l15-knowledge-8d7a8fd-01",
+                "language-q016-question",
+                "language-q016-explanation-10e7c78-01"
+              ],
+              "questionIds": [
+                "language-q016"
+              ],
+              "path": "data/courses/lessons/language-p1-l15.json"
+            },
+            {
+              "id": "language-p1-l16",
+              "title": "从选项反推全文：历程、过程、路径，都是在问“怎么走过来”",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p1-l16-knowledge-072d228-01",
+                "language-q017-question",
+                "language-q017-explanation-3a6e1dc-01"
+              ],
+              "questionIds": [
+                "language-q017"
+              ],
+              "path": "data/courses/lessons/language-p1-l16.json"
+            },
+            {
+              "id": "language-p1-l17",
+              "title": "原因类选项：看原文能不能回答“为什么”",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p1-l17-knowledge-8bd7473-01",
+                "language-q018-question",
+                "language-q018-explanation-8c7a28a-01"
+              ],
+              "questionIds": [
+                "language-q018"
+              ],
+              "path": "data/courses/lessons/language-p1-l17.json"
+            },
+            {
+              "id": "language-p1-l18",
+              "title": "区别、比较、联系：先找地位相当的两个对象",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p1-l18-knowledge-7f53abc-01",
+                "language-q019-question",
+                "language-q019-explanation-ce4ea76-01"
+              ],
+              "questionIds": [
+                "language-q019"
+              ],
+              "path": "data/courses/lessons/language-p1-l18.json"
+            },
+            {
+              "id": "language-p1-l19",
+              "title": "具体类选项：它不只说“有关系”，还要能概括怎么影响",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p1-l19-knowledge-bd5da8b-01",
+                "language-q020-question",
+                "language-q020-explanation-8452064-01",
+                "language-q020-explanation-8452064-02"
+              ],
+              "questionIds": [
+                "language-q020"
+              ],
+              "path": "data/courses/lessons/language-p1-l19.json"
+            }
+          ]
+        },
+        {
+          "id": "language-news",
+          "title": "新闻类中心理解",
+          "lessons": [
+            {
+              "id": "language-p1-l20",
+              "title": "新闻类抓“新”：背景再专业，也要找到这次的新发现",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p1-l20-knowledge-cafa019-01",
+                "language-q021-question",
+                "language-q021-explanation-80340b2-01"
+              ],
+              "questionIds": [
+                "language-q021"
+              ],
+              "path": "data/courses/lessons/language-p1-l20.json"
+            },
+            {
+              "id": "language-p1-l21",
+              "title": "新发现加分析：后面讲用途，也别把新发现丢掉",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p1-l21-knowledge-c32760f-01",
+                "language-q022-question",
+                "language-q022-explanation-edd0521-01"
+              ],
+              "questionIds": [
+                "language-q022"
+              ],
+              "path": "data/courses/lessons/language-p1-l21.json"
+            },
+            {
+              "id": "language-p2-l01",
+              "title": "过去加现在：抓住前后发生的变化",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p2-l01-knowledge-395a30d-01",
+                "language-q023-question",
+                "language-q023-explanation-e1337ed-01",
+                "language-q023-explanation-e1337ed-02"
+              ],
+              "questionIds": [
+                "language-q023"
+              ],
+              "path": "data/courses/lessons/language-p2-l01.json"
+            }
+          ]
+        },
+        {
+          "id": "language-title",
+          "title": "标题选择",
+          "lessons": [
+            {
+              "id": "language-p2-l02",
+              "title": "说理类标题：有对策，围绕对策；还要具体、有提醒作用",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p2-l02-knowledge-145f59b-01",
+                "language-q024-question",
+                "language-q024-explanation-e87c912-01",
+                "language-q024-explanation-e87c912-02"
+              ],
+              "questionIds": [
+                "language-q024"
+              ],
+              "path": "data/courses/lessons/language-p2-l02.json"
+            },
+            {
+              "id": "language-p2-l03",
+              "title": "科普类标题：先求全面，再看哪个能把几层做法串起来",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p2-l03-knowledge-f881903-01",
+                "language-q025-question",
+                "language-q025-explanation-31d502f-01",
+                "language-q025-explanation-31d502f-02"
+              ],
+              "questionIds": [
+                "language-q025"
+              ],
+              "path": "data/courses/lessons/language-p2-l03.json"
+            },
+            {
+              "id": "language-p2-l04",
+              "title": "新闻类标题：突出新的具体举措，别只剩泛泛的好处",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p2-l04-knowledge-a750f0b-01",
+                "language-q026-question",
+                "language-q026-explanation-51f133b-01",
+                "language-q026-explanation-51f133b-02"
+              ],
+              "questionIds": [
+                "language-q026"
+              ],
+              "path": "data/courses/lessons/language-p2-l04.json"
+            }
+          ]
+        },
+        {
+          "id": "language-next-paragraph",
+          "title": "下文推断",
+          "lessons": [
+            {
+              "id": "language-p2-l05",
+              "title": "尾句有新话题：先围绕新话题，不要突然另起炉灶",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p2-l05-knowledge-2dd65f3-01",
+                "language-q027-question",
+                "language-q027-explanation-fde9e7f-01",
+                "language-q027-explanation-fde9e7f-02"
+              ],
+              "questionIds": [
+                "language-q027"
+              ],
+              "path": "data/courses/lessons/language-p2-l05.json"
+            },
+            {
+              "id": "language-p2-l06",
+              "title": "提出问题之后：分清还缺分析，还是已经该接解决办法",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p2-l06-knowledge-1e80c35-01",
+                "language-q028-question",
+                "language-q028-explanation-79aeadc-01"
+              ],
+              "questionIds": [
+                "language-q028"
+              ],
+              "path": "data/courses/lessons/language-p2-l06.json"
+            },
+            {
+              "id": "language-p2-l07",
+              "title": "宏观原因或对策之后：把它具体展开",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p2-l07-knowledge-07be994-01",
+                "language-q029-question",
+                "language-q029-explanation-2240239-01"
+              ],
+              "questionIds": [
+                "language-q029"
+              ],
+              "path": "data/courses/lessons/language-p2-l07.json"
+            },
+            {
+              "id": "language-p2-l08",
+              "title": "过去的做法效果不好：留意新的方式会带来什么变化",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p2-l08-knowledge-d56a033-01",
+                "language-q030-question",
+                "language-q030-explanation-271caaa-01",
+                "language-q030-explanation-271caaa-02"
+              ],
+              "questionIds": [
+                "language-q030"
+              ],
+              "path": "data/courses/lessons/language-p2-l08.json"
+            },
+            {
+              "id": "language-p2-l09",
+              "title": "总句有两部分，只展开了第一部分：接着补第二部分",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p2-l09-knowledge-a2cd1d5-01",
+                "language-q031-question",
+                "language-q031-explanation-d9f0e98-01"
+              ],
+              "questionIds": [
+                "language-q031"
+              ],
+              "path": "data/courses/lessons/language-p2-l09.json"
+            },
+            {
+              "id": "language-p2-l10",
+              "title": "带保留的肯定：留意后面会不会转向问题",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p2-l10-knowledge-7b546ea-01",
+                "language-q032-question",
+                "language-q032-explanation-f96df48-01"
+              ],
+              "questionIds": [
+                "language-q032"
+              ],
+              "path": "data/courses/lessons/language-p2-l10.json"
+            },
+            {
+              "id": "language-p2-l11",
+              "title": "按列举的顺序依次展开：引言说了几层，正文从第一层开始",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p2-l11-knowledge-b1270b9-01",
+                "language-q033-question",
+                "language-q033-explanation-28a350a-01"
+              ],
+              "questionIds": [
+                "language-q033"
+              ],
+              "path": "data/courses/lessons/language-p2-l11.json"
+            },
+            {
+              "id": "language-p2-l12",
+              "title": "问“最不可能”：先找话题错位，别把略提当成详讲完了",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p2-l12-knowledge-6b0f065-01",
+                "language-q034-question",
+                "language-q034-explanation-76fde22-01",
+                "language-q034-explanation-76fde22-02"
+              ],
+              "questionIds": [
+                "language-q034"
+              ],
+              "path": "data/courses/lessons/language-p2-l12.json"
+            }
+          ]
+        },
+        {
+          "id": "language-sentence-fill",
+          "title": "语句填入",
+          "lessons": [
+            {
+              "id": "language-p2-l13",
+              "title": "说理类填句：给了问题和分析，就找对应的解决条件",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p2-l13-knowledge-9e180dd-01",
+                "language-q035-question",
+                "language-q035-explanation-f2486a1-01",
+                "language-q035-explanation-f2486a1-02"
+              ],
+              "questionIds": [
+                "language-q035"
+              ],
+              "path": "data/courses/lessons/language-p2-l13.json"
+            },
+            {
+              "id": "language-p2-l14",
+              "title": "给了分析和对策，开头就要把讨论的问题立起来",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-q036-question",
+                "language-q036-explanation-11a53f8-01",
+                "language-q036-explanation-11a53f8-02"
+              ],
+              "questionIds": [
+                "language-q036"
+              ],
+              "path": "data/courses/lessons/language-p2-l14.json"
+            },
+            {
+              "id": "language-p3-l01",
+              "title": "语句填入 结构套不顺 就回到句子具体在说什么",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p3-l01-knowledge-998aa11-01",
+                "language-q037-question",
+                "language-q037-explanation-5a1f407-01"
+              ],
+              "questionIds": [
+                "language-q037"
+              ],
+              "path": "data/courses/lessons/language-p3-l01.json"
+            },
+            {
+              "id": "language-p3-l02",
+              "title": "非对策类填句 首尾看总括 中间看承接",
+              "cardCount": 7,
+              "questionCount": 3,
+              "cardIds": [
+                "language-p3-l02-knowledge-425d78c-01",
+                "language-q038-question",
+                "language-q038-explanation-e1495e2-01",
+                "language-q039-question",
+                "language-q039-explanation-57ea7b2-01",
+                "language-q040-question",
+                "language-q040-explanation-a0fde1a-01"
+              ],
+              "questionIds": [
+                "language-q038",
+                "language-q039",
+                "language-q040"
+              ],
+              "path": "data/courses/lessons/language-p3-l02.json"
+            }
+          ]
+        },
+        {
+          "id": "language-sentence-order",
+          "title": "语句排序",
+          "lessons": [
+            {
+              "id": "language-p3-l03",
+              "title": "语句排序 先看行文结构 再找句子之间的联系",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p3-l03-knowledge-3bd5302-01",
+                "language-q041-question",
+                "language-q041-explanation-a0fbd33-01"
+              ],
+              "questionIds": [
+                "language-q041"
+              ],
+              "path": "data/courses/lessons/language-p3-l03.json"
+            },
+            {
+              "id": "language-p3-l04",
+              "title": "科普排序用定序 时间线可以先排掉一大半",
+              "cardCount": 2,
+              "questionCount": 1,
+              "cardIds": [
+                "language-q042-question",
+                "language-q042-explanation-2650444-01"
+              ],
+              "questionIds": [
+                "language-q042"
+              ],
+              "path": "data/courses/lessons/language-p3-l04.json"
+            },
+            {
+              "id": "language-p3-l05",
+              "title": "专业词看不懂 先用组合和指代锁关系",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-q043-question",
+                "language-q043-explanation-45d3fe6-01",
+                "language-q043-explanation-45d3fe6-02"
+              ],
+              "questionIds": [
+                "language-q043"
+              ],
+              "path": "data/courses/lessons/language-p3-l05.json"
+            },
+            {
+              "id": "language-p3-l06",
+              "title": "分堆 先看哪几句在讲同一个话题",
+              "cardCount": 2,
+              "questionCount": 1,
+              "cardIds": [
+                "language-q044-question",
+                "language-q044-explanation-fd75ac6-01"
+              ],
+              "questionIds": [
+                "language-q044"
+              ],
+              "path": "data/courses/lessons/language-p3-l06.json"
+            },
+            {
+              "id": "language-p3-l07",
+              "title": "新闻排序 背景先铺好 再接新发现和意义",
+              "cardCount": 2,
+              "questionCount": 1,
+              "cardIds": [
+                "language-q045-question",
+                "language-q045-explanation-6ff84f1-01"
+              ],
+              "questionIds": [
+                "language-q045"
+              ],
+              "path": "data/courses/lessons/language-p3-l07.json"
+            },
+            {
+              "id": "language-p3-l08",
+              "title": "首句下定义 两个定义并存时 先大后小",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "language-p3-l08-knowledge-8bc3111-01",
+                "language-q046-question",
+                "language-q046-explanation-2ad0ed7-01"
+              ],
+              "questionIds": [
+                "language-q046"
+              ],
+              "path": "data/courses/lessons/language-p3-l08.json"
+            }
+          ]
+        },
+        {
+          "id": "language-detail",
+          "title": "细节判断",
+          "lessons": [
+            {
+              "id": "language-p3-l09",
+              "title": "细节判断 先看问相符还是不符 再逐项回原文定位",
+              "cardCount": 5,
+              "questionCount": 2,
+              "cardIds": [
+                "language-p3-l09-knowledge-d5d45b6-01",
+                "language-q047-question",
+                "language-q047-explanation-4afe519-01",
+                "language-q048-question",
+                "language-q048-explanation-41f84b8-01"
+              ],
+              "questionIds": [
+                "language-q047",
+                "language-q048"
+              ],
+              "path": "data/courses/lessons/language-p3-l09.json"
+            }
+          ]
+        },
+        {
+          "id": "language-logical-fill",
+          "title": "逻辑填空",
+          "lessons": [
+            {
+              "id": "language-logical-fill-basics",
+              "title": "做题的本质 一边找文段对应 一边看词语本身",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "language-logical-fill-basics-knowledge-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/language-logical-fill-basics.json"
+            },
+            {
+              "id": "language-logical-fill-idiom-parts",
+              "title": "成语拆分 把词里的语义分别对应到文段",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "language-logical-fill-idiom-parts-intro",
+                "language-logical-fill-idiom-parts-method-dbd887a-01",
+                "language-q049-question",
+                "language-q049-explanation-6956cfe-01"
+              ],
+              "questionIds": [
+                "language-q049"
+              ],
+              "path": "data/courses/lessons/language-logical-fill-idiom-parts.json"
+            },
+            {
+              "id": "language-logical-fill-causal",
+              "title": "因果关系 空在原因处 就从结果往回推",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "language-logical-fill-causal-intro",
+                "language-logical-fill-causal-method-5411cd7-01",
+                "language-q050-question",
+                "language-q050-explanation-cdcaf0b-01"
+              ],
+              "questionIds": [
+                "language-q050"
+              ],
+              "path": "data/courses/lessons/language-logical-fill-causal.json"
+            },
+            {
+              "id": "language-logical-fill-figurative",
+              "title": "比喻和形象化表达 找同一组画面里的词",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "language-logical-fill-figurative-intro",
+                "language-logical-fill-figurative-method-29592d8-01",
+                "language-q051-question",
+                "language-q051-explanation-598c2c4-01"
+              ],
+              "questionIds": [
+                "language-q051"
+              ],
+              "path": "data/courses/lessons/language-logical-fill-figurative.json"
+            },
+            {
+              "id": "language-logical-fill-semantic",
+              "title": "语义对应 先判断前后是在同向展开 还是在对比",
+              "cardCount": 5,
+              "questionCount": 1,
+              "cardIds": [
+                "language-logical-fill-semantic-intro",
+                "language-logical-fill-semantic-method-a201785-01",
+                "language-q052-question",
+                "language-q052-explanation-9d20478-01",
+                "language-q052-explanation-9d20478-02"
+              ],
+              "questionIds": [
+                "language-q052"
+              ],
+              "path": "data/courses/lessons/language-logical-fill-semantic.json"
+            },
+            {
+              "id": "language-logical-fill-tone",
+              "title": "感情色彩和搭配一起看 不能只凭自己的喜恶",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "language-logical-fill-tone-intro",
+                "language-logical-fill-tone-method-f50395a-01",
+                "language-q053-question",
+                "language-q053-explanation-acc8339-01"
+              ],
+              "questionIds": [
+                "language-q053"
+              ],
+              "path": "data/courses/lessons/language-logical-fill-tone.json"
+            },
+            {
+              "id": "language-logical-fill-consistency",
+              "title": "用词一致 先抓全文主线 还要把否定词一起读",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "language-logical-fill-consistency-intro",
+                "language-logical-fill-consistency-method-e330787-01",
+                "language-q054-question",
+                "language-q054-explanation-c9c956f-01"
+              ],
+              "questionIds": [
+                "language-q054"
+              ],
+              "path": "data/courses/lessons/language-logical-fill-consistency.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reasoning",
+      "title": "判断推理",
+      "groups": [
+        {
+          "id": "reasoning-causal",
+          "title": "归因论证",
+          "lessons": [
+            {
+              "id": "reasoning-p1-l01",
+              "title": "先弄明白：我们到底在支持什么、反驳什么",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "reasoning-p1-l01-knowledge-c26ed1c-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/reasoning-p1-l01.json"
+            },
+            {
+              "id": "reasoning-p1-l02",
+              "title": "归因论证：这个结果，真的是这个原因造成的吗",
+              "cardCount": 2,
+              "questionCount": 0,
+              "cardIds": [
+                "reasoning-p1-l02-knowledge-8003af9-01",
+                "reasoning-p1-l02-knowledge-8003af9-02"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/reasoning-p1-l02.json"
+            },
+            {
+              "id": "reasoning-p1-l03",
+              "title": "对比实验归因：两组不一样，就一定是这个因素造成的吗",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p1-l03-knowledge-daf9ea8-01",
+                "reasoning-q001-question",
+                "reasoning-q001-explanation-1968652-01",
+                "reasoning-q001-explanation-1968652-02"
+              ],
+              "questionIds": [
+                "reasoning-q001"
+              ],
+              "path": "data/courses/lessons/reasoning-p1-l03.json"
+            },
+            {
+              "id": "reasoning-p1-l04",
+              "title": "时间对比归因：前后发生了变化，是不是只变了这一个因素",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p1-l04-knowledge-b3c0925-01",
+                "reasoning-q002-question",
+                "reasoning-q002-explanation-aa2f521-01",
+                "reasoning-q002-explanation-aa2f521-02"
+              ],
+              "questionIds": [
+                "reasoning-q002"
+              ],
+              "path": "data/courses/lessons/reasoning-p1-l04.json"
+            },
+            {
+              "id": "reasoning-p1-l05",
+              "title": "一般归因：给一个现象找原因，也可以从另外的解释入手",
+              "cardCount": 11,
+              "questionCount": 4,
+              "cardIds": [
+                "reasoning-p1-l05-knowledge-d1e08eb-01",
+                "reasoning-q003-question",
+                "reasoning-q003-explanation-f312242-01",
+                "reasoning-q003-explanation-f312242-02",
+                "reasoning-q004-question",
+                "reasoning-q004-explanation-d3e9a37-01",
+                "reasoning-q005-question",
+                "reasoning-q005-explanation-0fe2ff4-01",
+                "reasoning-q006-question",
+                "reasoning-q006-explanation-615e411-01",
+                "reasoning-q006-explanation-615e411-02"
+              ],
+              "questionIds": [
+                "reasoning-q003",
+                "reasoning-q004",
+                "reasoning-q005",
+                "reasoning-q006"
+              ],
+              "path": "data/courses/lessons/reasoning-p1-l05.json"
+            },
+            {
+              "id": "reasoning-p1-l06",
+              "title": "归因题的加强：排除他因，让原来的解释更站得住",
+              "cardCount": 5,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p1-l06-knowledge-15ee1a4-01",
+                "reasoning-p1-l06-knowledge-15ee1a4-02",
+                "reasoning-q007-question",
+                "reasoning-q007-explanation-0edeaf4-01",
+                "reasoning-q007-explanation-0edeaf4-02"
+              ],
+              "questionIds": [
+                "reasoning-q007"
+              ],
+              "path": "data/courses/lessons/reasoning-p1-l06.json"
+            },
+            {
+              "id": "reasoning-p1-l07",
+              "title": "解释说明支持：把“为什么会这样”讲清楚",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p1-l07-knowledge-d9e92b5-01",
+                "reasoning-q008-question",
+                "reasoning-q008-explanation-f8e5d35-01"
+              ],
+              "questionIds": [
+                "reasoning-q008"
+              ],
+              "path": "data/courses/lessons/reasoning-p1-l07.json"
+            },
+            {
+              "id": "reasoning-p1-l08",
+              "title": "补全对比实验：三圈质疑、四圈支持",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p1-l08-knowledge-08443fa-01",
+                "reasoning-p1-l08-knowledge-08443fa-02",
+                "reasoning-q009-question",
+                "reasoning-q009-explanation-2ad8ed7-01"
+              ],
+              "questionIds": [
+                "reasoning-q009"
+              ],
+              "path": "data/courses/lessons/reasoning-p1-l08.json"
+            },
+            {
+              "id": "reasoning-p1-l09",
+              "title": "直接原因和根本原因：把两个观点接成一条因果链",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p1-l09-knowledge-fd4f5ff-01",
+                "reasoning-q010-question",
+                "reasoning-q010-explanation-eb3ecf2-01",
+                "reasoning-q010-explanation-eb3ecf2-02"
+              ],
+              "questionIds": [
+                "reasoning-q010"
+              ],
+              "path": "data/courses/lessons/reasoning-p1-l09.json"
+            },
+            {
+              "id": "reasoning-p1-l10",
+              "title": "伪他因：别只说“这个病还有别的原因”",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p1-l10-knowledge-0ba0f69-01",
+                "reasoning-q011-question",
+                "reasoning-q011-explanation-c29d997-01"
+              ],
+              "questionIds": [
+                "reasoning-q011"
+              ],
+              "path": "data/courses/lessons/reasoning-p1-l10.json"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-weaken",
+          "title": "一般质疑",
+          "lessons": [
+            {
+              "id": "reasoning-p1-l11",
+              "title": "一般质疑：先看他拿什么依据，推出了什么结论",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "reasoning-p1-l11-knowledge-568bef7-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/reasoning-p1-l11.json"
+            },
+            {
+              "id": "reasoning-p1-l12",
+              "title": "质疑错误论据：我们拿来证明的材料，本身就不可靠",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p1-l12-knowledge-cd436ab-01",
+                "reasoning-q012-question",
+                "reasoning-q012-explanation-117bf77-01",
+                "reasoning-q012-explanation-117bf77-02"
+              ],
+              "questionIds": [
+                "reasoning-q012"
+              ],
+              "path": "data/courses/lessons/reasoning-p1-l12.json"
+            },
+            {
+              "id": "reasoning-p1-l13",
+              "title": "论据没错，也可能考虑片面：这个结论，不能只看这一项",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p1-l13-knowledge-53228b2-01",
+                "reasoning-q013-question",
+                "reasoning-q013-explanation-8e6481e-01",
+                "reasoning-q013-explanation-8e6481e-02"
+              ],
+              "questionIds": [
+                "reasoning-q013"
+              ],
+              "path": "data/courses/lessons/reasoning-p1-l13.json"
+            },
+            {
+              "id": "reasoning-p1-l14",
+              "title": "以偏概全：我们问的这批人，能代表所有人吗",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p1-l14-knowledge-284a3f5-01",
+                "reasoning-q014-question",
+                "reasoning-q014-explanation-308395b-01"
+              ],
+              "questionIds": [
+                "reasoning-q014"
+              ],
+              "path": "data/courses/lessons/reasoning-p1-l14.json"
+            },
+            {
+              "id": "reasoning-p1-l15",
+              "title": "存在断点：论据是真的，也不等于推得出这个结论",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p1-l15-knowledge-da79be2-01",
+                "reasoning-q015-question",
+                "reasoning-q015-explanation-2ca16ab-01"
+              ],
+              "questionIds": [
+                "reasoning-q015"
+              ],
+              "path": "data/courses/lessons/reasoning-p1-l15.json"
+            },
+            {
+              "id": "reasoning-p1-l16",
+              "title": "质疑结论：注意结论突然多出来的新对象、新条件",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p1-l16-knowledge-a2bbb16-01",
+                "reasoning-q016-question",
+                "reasoning-q016-explanation-d8aab20-01",
+                "reasoning-q016-explanation-d8aab20-02"
+              ],
+              "questionIds": [
+                "reasoning-q016"
+              ],
+              "path": "data/courses/lessons/reasoning-p1-l16.json"
+            },
+            {
+              "id": "reasoning-p1-l17",
+              "title": "严谨逻辑关系的质疑：找到“前面成立，后面却没成立”的反例",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p1-l17-knowledge-e827dab-01",
+                "reasoning-q017-question",
+                "reasoning-q017-explanation-2eba116-01",
+                "reasoning-q017-explanation-2eba116-02"
+              ],
+              "questionIds": [
+                "reasoning-q017"
+              ],
+              "path": "data/courses/lessons/reasoning-p1-l17.json"
+            },
+            {
+              "id": "reasoning-p1-l18",
+              "title": "比例错误：别只看分子，先找分母到底是谁",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p1-l18-knowledge-75b74fe-01",
+                "reasoning-q018-question",
+                "reasoning-q018-explanation-9cbe5d3-01",
+                "reasoning-q018-explanation-9cbe5d3-02"
+              ],
+              "questionIds": [
+                "reasoning-q018"
+              ],
+              "path": "data/courses/lessons/reasoning-p1-l18.json"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-strengthen",
+          "title": "一般支持",
+          "lessons": [
+            {
+              "id": "reasoning-p1-l19",
+              "title": "一般支持的三种问法",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "reasoning-p1-l19-knowledge-258bf19-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/reasoning-p1-l19.json"
+            },
+            {
+              "id": "reasoning-p2-l01",
+              "title": "解释说明：把“为什么”讲清楚",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p2-l01-knowledge-06edd84-01",
+                "reasoning-q019-question",
+                "reasoning-q019-explanation-d63a44d-01"
+              ],
+              "questionIds": [
+                "reasoning-q019"
+              ],
+              "path": "data/courses/lessons/reasoning-p2-l01.json"
+            },
+            {
+              "id": "reasoning-p2-l02",
+              "title": "断点搭桥：把论据和结论中间断开的地方接起来",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p2-l02-knowledge-5a7f279-01",
+                "reasoning-q020-question",
+                "reasoning-q020-explanation-28574f5-01"
+              ],
+              "questionIds": [
+                "reasoning-q020"
+              ],
+              "path": "data/courses/lessons/reasoning-p2-l02.json"
+            },
+            {
+              "id": "reasoning-p2-l03",
+              "title": "增加正向论据：再给作者加一个证据",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p2-l03-knowledge-a0621d7-01",
+                "reasoning-q021-question",
+                "reasoning-q021-explanation-68ddb10-01"
+              ],
+              "questionIds": [
+                "reasoning-q021"
+              ],
+              "path": "data/courses/lessons/reasoning-p2-l03.json"
+            },
+            {
+              "id": "reasoning-p2-l04",
+              "title": "补充可行条件：想这么做，至少得有这么做的可能",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p2-l04-knowledge-9a5fa9d-01",
+                "reasoning-q022-question",
+                "reasoning-q022-explanation-f40f59e-01",
+                "reasoning-q022-explanation-f40f59e-02"
+              ],
+              "questionIds": [
+                "reasoning-q022"
+              ],
+              "path": "data/courses/lessons/reasoning-p2-l04.json"
+            },
+            {
+              "id": "reasoning-p2-l05",
+              "title": "举例支持：例子有没有正好说明作者要说的事",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p2-l05-knowledge-4b7c9a1-01",
+                "reasoning-q023-question",
+                "reasoning-q023-explanation-4f9f3fc-01"
+              ],
+              "questionIds": [
+                "reasoning-q023"
+              ],
+              "path": "data/courses/lessons/reasoning-p2-l05.json"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-assumption",
+          "title": "前提假设",
+          "lessons": [
+            {
+              "id": "reasoning-p2-l06",
+              "title": "断点搭桥：论据是A，结论突然变成B",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p2-l06-knowledge-2d19dbc-01",
+                "reasoning-q024-question",
+                "reasoning-q024-explanation-2536818-01"
+              ],
+              "questionIds": [
+                "reasoning-q024"
+              ],
+              "path": "data/courses/lessons/reasoning-p2-l06.json"
+            },
+            {
+              "id": "reasoning-p2-l07",
+              "title": "补充漏洞：表面连得上，但还藏着另一种可能",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p2-l07-knowledge-10e8afc-01",
+                "reasoning-q025-question",
+                "reasoning-q025-explanation-3c76137-01",
+                "reasoning-q025-explanation-3c76137-02"
+              ],
+              "questionIds": [
+                "reasoning-q025"
+              ],
+              "path": "data/courses/lessons/reasoning-p2-l07.json"
+            },
+            {
+              "id": "reasoning-p2-l08",
+              "title": "必要条件：没有它，结论就走不下去",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p2-l08-knowledge-32eee00-01",
+                "reasoning-q026-question",
+                "reasoning-q026-explanation-68da94e-01",
+                "reasoning-q026-explanation-68da94e-02"
+              ],
+              "questionIds": [
+                "reasoning-q026"
+              ],
+              "path": "data/courses/lessons/reasoning-p2-l08.json"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-explain",
+          "title": "解释说明",
+          "lessons": [
+            {
+              "id": "reasoning-p2-l09",
+              "title": "解释说明题：两件事看起来矛盾，为什么还能同时发生",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p2-l09-knowledge-eaab2d7-01",
+                "reasoning-q027-question",
+                "reasoning-q027-explanation-59eab9d-01",
+                "reasoning-q027-explanation-59eab9d-02"
+              ],
+              "questionIds": [
+                "reasoning-q027"
+              ],
+              "path": "data/courses/lessons/reasoning-p2-l09.json"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-special-strengthen",
+          "title": "变化与比较支持",
+          "lessons": [
+            {
+              "id": "reasoning-p2-l10",
+              "title": "变化类：用变化去支持变化",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p2-l10-knowledge-71366ba-01",
+                "reasoning-q028-question",
+                "reasoning-q028-explanation-c308520-01"
+              ],
+              "questionIds": [
+                "reasoning-q028"
+              ],
+              "path": "data/courses/lessons/reasoning-p2-l10.json"
+            },
+            {
+              "id": "reasoning-p2-l11",
+              "title": "比较类：不能只讲一边，要把两边的差别补出来",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p2-l11-knowledge-2227284-01",
+                "reasoning-q029-question",
+                "reasoning-q029-explanation-19197d7-01"
+              ],
+              "questionIds": [
+                "reasoning-q029"
+              ],
+              "path": "data/courses/lessons/reasoning-p2-l11.json"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-propositions",
+          "title": "命题与形式逻辑基础",
+          "lessons": [
+            {
+              "id": "reasoning-p2-l12",
+              "title": "“所有”和“有些”的矛盾关系",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p2-l12-knowledge-055e5c8-01",
+                "reasoning-q030-question",
+                "reasoning-q030-explanation-6837a41-01",
+                "reasoning-q030-explanation-6837a41-02"
+              ],
+              "questionIds": [
+                "reasoning-q030"
+              ],
+              "path": "data/courses/lessons/reasoning-p2-l12.json"
+            },
+            {
+              "id": "reasoning-p2-l13",
+              "title": "反对关系：别把“反着说”都当成矛盾",
+              "cardCount": 5,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p2-l13-knowledge-0e67905-01",
+                "reasoning-p2-l13-knowledge-0e67905-02",
+                "reasoning-q031-question",
+                "reasoning-q031-explanation-bd73a6b-01",
+                "reasoning-q031-explanation-bd73a6b-02"
+              ],
+              "questionIds": [
+                "reasoning-q031"
+              ],
+              "path": "data/courses/lessons/reasoning-p2-l13.json"
+            },
+            {
+              "id": "reasoning-p2-l14",
+              "title": "“所有、个例、有些”的推出关系",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "reasoning-p2-l14-knowledge-499a1cd-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/reasoning-p2-l14.json"
+            },
+            {
+              "id": "reasoning-p2-l15",
+              "title": "“可能”和“必然”的矛盾关系",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "reasoning-p2-l15-knowledge-34c4d3a-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/reasoning-p2-l15.json"
+            },
+            {
+              "id": "reasoning-p2-l16",
+              "title": "且命题：两件事都成立",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "reasoning-p2-l16-knowledge-6621569-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/reasoning-p2-l16.json"
+            },
+            {
+              "id": "reasoning-p2-l17",
+              "title": "或命题：至少有一个成立，以及“否一推一”",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p2-l17-knowledge-655e837-01",
+                "reasoning-p2-l17-knowledge-655e837-02",
+                "reasoning-q032-question",
+                "reasoning-q032-explanation-9d413dd-01"
+              ],
+              "questionIds": [
+                "reasoning-q032"
+              ],
+              "path": "data/courses/lessons/reasoning-p2-l17.json"
+            },
+            {
+              "id": "reasoning-p2-l18",
+              "title": "“要么A，要么B”：恰好有一个",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "reasoning-p2-l18-knowledge-f3cffa2-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/reasoning-p2-l18.json"
+            },
+            {
+              "id": "reasoning-p2-l19",
+              "title": "假言命题：充分、必要、充要，箭头到底往哪边",
+              "cardCount": 3,
+              "questionCount": 0,
+              "cardIds": [
+                "reasoning-p2-l19-knowledge-18dbf69-01",
+                "reasoning-p2-l19-knowledge-18dbf69-02",
+                "reasoning-p2-l19-knowledge-18dbf69-03"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/reasoning-p2-l19.json"
+            },
+            {
+              "id": "reasoning-p2-l20",
+              "title": "假言命题的矛盾：条件满足了，结果偏偏没发生",
+              "cardCount": 5,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p2-l20-knowledge-d069e8c-01",
+                "reasoning-q033-question",
+                "reasoning-q033-explanation-2d69a16-01",
+                "reasoning-q033-explanation-2d69a16-02",
+                "reasoning-q033-explanation-2d69a16-03"
+              ],
+              "questionIds": [
+                "reasoning-q033"
+              ],
+              "path": "data/courses/lessons/reasoning-p2-l20.json"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-conditional",
+          "title": "条件推理",
+          "lessons": [
+            {
+              "id": "reasoning-p3-l01",
+              "title": "肯前推肯后 否后推否前",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "reasoning-p3-l01-knowledge-d499930-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/reasoning-p3-l01.json"
+            },
+            {
+              "id": "reasoning-p3-l02",
+              "title": "前假后真 判断整个条件命题的真假",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p3-l02-knowledge-f2c31fc-01",
+                "reasoning-q034-question",
+                "reasoning-q034-explanation-4c7f628-01",
+                "reasoning-q034-explanation-4c7f628-02"
+              ],
+              "questionIds": [
+                "reasoning-q034"
+              ],
+              "path": "data/courses/lessons/reasoning-p3-l02.json"
+            },
+            {
+              "id": "reasoning-p3-l03",
+              "title": "逆否和连锁 把分散的条件接起来",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "reasoning-p3-l03-knowledge-6c388a6-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/reasoning-p3-l03.json"
+            },
+            {
+              "id": "reasoning-p3-l04",
+              "title": "推出题 题干给了什么 我们就推到哪一步",
+              "cardCount": 9,
+              "questionCount": 3,
+              "cardIds": [
+                "reasoning-p3-l04-knowledge-7aeb288-01",
+                "reasoning-q035-question",
+                "reasoning-q035-explanation-00a7602-01",
+                "reasoning-q036-question",
+                "reasoning-q036-explanation-c2e55de-01",
+                "reasoning-q036-explanation-c2e55de-02",
+                "reasoning-q037-question",
+                "reasoning-q037-explanation-4e41538-01",
+                "reasoning-q037-explanation-4e41538-02"
+              ],
+              "questionIds": [
+                "reasoning-q035",
+                "reasoning-q036",
+                "reasoning-q037"
+              ],
+              "path": "data/courses/lessons/reasoning-p3-l04.json"
+            },
+            {
+              "id": "reasoning-p3-l05",
+              "title": "两难推理 不管走哪条路 都得到同一个结果",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p3-l05-knowledge-bc933d5-01",
+                "reasoning-q038-question",
+                "reasoning-q038-explanation-05ae704-01",
+                "reasoning-q038-explanation-05ae704-02"
+              ],
+              "questionIds": [
+                "reasoning-q038"
+              ],
+              "path": "data/courses/lessons/reasoning-p3-l05.json"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-syllogism",
+          "title": "直言命题与三段论",
+          "lessons": [
+            {
+              "id": "reasoning-p4-l01",
+              "title": "直言命题：有些说的到底是什么",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p4-l01-knowledge-6254dcd-01",
+                "reasoning-q039-question",
+                "reasoning-q039-explanation-41dfd5c-01"
+              ],
+              "questionIds": [
+                "reasoning-q039"
+              ],
+              "path": "data/courses/lessons/reasoning-p4-l01.json"
+            },
+            {
+              "id": "reasoning-p4-l02",
+              "title": "三段论推前提：先看我们到底缺哪一块",
+              "cardCount": 5,
+              "questionCount": 2,
+              "cardIds": [
+                "reasoning-p4-l02-knowledge-57ed9ce-01",
+                "reasoning-q040-question",
+                "reasoning-q040-explanation-96d74de-01",
+                "reasoning-q041-question",
+                "reasoning-q041-explanation-b092ea9-01"
+              ],
+              "questionIds": [
+                "reasoning-q040",
+                "reasoning-q041"
+              ],
+              "path": "data/courses/lessons/reasoning-p4-l02.json"
+            },
+            {
+              "id": "reasoning-p4-l03",
+              "title": "三段论推结论：信息多就画集合，不要硬在脑子里绕",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p4-l03-knowledge-857f0b5-01",
+                "reasoning-q042-question",
+                "reasoning-q042-explanation-29bb930-01"
+              ],
+              "questionIds": [
+                "reasoning-q042"
+              ],
+              "path": "data/courses/lessons/reasoning-p4-l03.json"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-truth",
+          "title": "真假推理",
+          "lessons": [
+            {
+              "id": "reasoning-p4-l04",
+              "title": "矛盾法：先把一真一假的那对找出来",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p4-l04-knowledge-a82a990-01",
+                "reasoning-q043-question",
+                "reasoning-q043-explanation-2a89cbd-01"
+              ],
+              "questionIds": [
+                "reasoning-q043"
+              ],
+              "path": "data/courses/lessons/reasoning-p4-l04.json"
+            },
+            {
+              "id": "reasoning-p4-l05",
+              "title": "假设法：挑能一次带动很多信息的条件",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p4-l05-knowledge-757a5a9-01",
+                "reasoning-q044-question",
+                "reasoning-q044-explanation-6a1a744-01",
+                "reasoning-q044-explanation-6a1a744-02"
+              ],
+              "questionIds": [
+                "reasoning-q044"
+              ],
+              "path": "data/courses/lessons/reasoning-p4-l05.json"
+            },
+            {
+              "id": "reasoning-p4-l06",
+              "title": "代入法：一个人说好几句，直接按选项验真假",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p4-l06-knowledge-543e9c6-01",
+                "reasoning-q045-question",
+                "reasoning-q045-explanation-3fa6c8b-01"
+              ],
+              "questionIds": [
+                "reasoning-q045"
+              ],
+              "path": "data/courses/lessons/reasoning-p4-l06.json"
+            },
+            {
+              "id": "reasoning-p4-l07",
+              "title": "“前件假、后件真”与矛盾、假设一起用",
+              "cardCount": 5,
+              "questionCount": 2,
+              "cardIds": [
+                "reasoning-p4-l07-knowledge-ca31858-01",
+                "reasoning-q046-question",
+                "reasoning-q046-explanation-e9e8d8c-01",
+                "reasoning-q047-question",
+                "reasoning-q047-explanation-d5098a4-01"
+              ],
+              "questionIds": [
+                "reasoning-q046",
+                "reasoning-q047"
+              ],
+              "path": "data/courses/lessons/reasoning-p4-l07.json"
+            },
+            {
+              "id": "reasoning-p4-l08",
+              "title": "信息真假很多：代入选项，或者数清楚正确消息一共有几条",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p4-l08-knowledge-c6679f5-01",
+                "reasoning-q048-question",
+                "reasoning-q048-explanation-fefaae0-01"
+              ],
+              "questionIds": [
+                "reasoning-q048"
+              ],
+              "path": "data/courses/lessons/reasoning-p4-l08.json"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-analytical",
+          "title": "分析推理",
+          "lessons": [
+            {
+              "id": "reasoning-p4-l09",
+              "title": "人、地点、时间来回对应：画表格，把确定的信息逐个填进去",
+              "cardCount": 2,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-q049-question",
+                "reasoning-q049-explanation-18eba36-01"
+              ],
+              "questionIds": [
+                "reasoning-q049"
+              ],
+              "path": "data/courses/lessons/reasoning-p4-l09.json"
+            },
+            {
+              "id": "reasoning-p4-l10",
+              "title": "比较关系不清楚：赋值看反例，最后找恒成立的选项",
+              "cardCount": 2,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-q050-question",
+                "reasoning-q050-explanation-722d50d-01"
+              ],
+              "questionIds": [
+                "reasoning-q050"
+              ],
+              "path": "data/courses/lessons/reasoning-p4-l10.json"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-patterns",
+          "title": "推理形式",
+          "lessons": [
+            {
+              "id": "reasoning-p4-l11",
+              "title": "先看它是从什么范围，推到了什么范围",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p4-l11-knowledge-be7c3f1-01",
+                "reasoning-q051-question",
+                "reasoning-q051-explanation-76735f9-01"
+              ],
+              "questionIds": [
+                "reasoning-q051"
+              ],
+              "path": "data/courses/lessons/reasoning-p4-l11.json"
+            },
+            {
+              "id": "reasoning-p4-l12",
+              "title": "逻辑错误相同：换成字母，但整体和部分的含义也要留着",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "reasoning-p4-l12-knowledge-82111fc-01",
+                "reasoning-q052-question",
+                "reasoning-q052-explanation-40edea4-01",
+                "reasoning-q052-explanation-40edea4-02"
+              ],
+              "questionIds": [
+                "reasoning-q052"
+              ],
+              "path": "data/courses/lessons/reasoning-p4-l12.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quantity",
+      "title": "数量关系",
+      "groups": [
+        {
+          "id": "quantity-wy27-s01",
+          "title": "和差倍比问题（一）",
+          "lessons": [
+            {
+              "id": "quantity-wy27-s01-t01",
+              "title": "整除思维",
+              "cardCount": 17,
+              "questionCount": 8,
+              "cardIds": [
+                "quantity-wy27-s01-t01-knowledge-01-01",
+                "quantity-wy27-s01-t01-mother-01-question",
+                "quantity-wy27-s01-t01-mother-01-explanation-01",
+                "quantity-wy27-s01-t01-mother-02-question",
+                "quantity-wy27-s01-t01-mother-02-explanation-01",
+                "quantity-wy27-s01-t01-mother-03-question",
+                "quantity-wy27-s01-t01-mother-03-explanation-01",
+                "quantity-wy27-s01-t01-mother-04-question",
+                "quantity-wy27-s01-t01-mother-04-explanation-01",
+                "quantity-wy27-s01-t01-practice-01-question",
+                "quantity-wy27-s01-t01-practice-01-explanation-01",
+                "quantity-wy27-s01-t01-practice-02-question",
+                "quantity-wy27-s01-t01-practice-02-explanation-01",
+                "quantity-wy27-s01-t01-practice-03-question",
+                "quantity-wy27-s01-t01-practice-03-explanation-01",
+                "quantity-wy27-s01-t01-practice-04-question",
+                "quantity-wy27-s01-t01-practice-04-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s01-t01-mother-01",
+                "quantity-wy27-s01-t01-mother-02",
+                "quantity-wy27-s01-t01-mother-03",
+                "quantity-wy27-s01-t01-mother-04",
+                "quantity-wy27-s01-t01-practice-01",
+                "quantity-wy27-s01-t01-practice-02",
+                "quantity-wy27-s01-t01-practice-03",
+                "quantity-wy27-s01-t01-practice-04"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s01-t01.json"
+            },
+            {
+              "id": "quantity-wy27-s01-t02",
+              "title": "比例份数思维",
+              "cardCount": 13,
+              "questionCount": 6,
+              "cardIds": [
+                "quantity-wy27-s01-t02-knowledge-01-01",
+                "quantity-wy27-s01-t02-mother-01-question",
+                "quantity-wy27-s01-t02-mother-01-explanation-01",
+                "quantity-wy27-s01-t02-mother-02-question",
+                "quantity-wy27-s01-t02-mother-02-explanation-01",
+                "quantity-wy27-s01-t02-mother-03-question",
+                "quantity-wy27-s01-t02-mother-03-explanation-01",
+                "quantity-wy27-s01-t02-practice-01-question",
+                "quantity-wy27-s01-t02-practice-01-explanation-01",
+                "quantity-wy27-s01-t02-practice-02-question",
+                "quantity-wy27-s01-t02-practice-02-explanation-01",
+                "quantity-wy27-s01-t02-practice-03-question",
+                "quantity-wy27-s01-t02-practice-03-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s01-t02-mother-01",
+                "quantity-wy27-s01-t02-mother-02",
+                "quantity-wy27-s01-t02-mother-03",
+                "quantity-wy27-s01-t02-practice-01",
+                "quantity-wy27-s01-t02-practice-02",
+                "quantity-wy27-s01-t02-practice-03"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s01-t02.json"
+            },
+            {
+              "id": "quantity-wy27-s01-drill-01",
+              "title": "实战精刷 · 1—4题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s01-t03-drill-01-question",
+                "quantity-wy27-s01-t03-drill-01-explanation-01",
+                "quantity-wy27-s01-t03-drill-02-question",
+                "quantity-wy27-s01-t03-drill-02-explanation-01",
+                "quantity-wy27-s01-t03-drill-03-question",
+                "quantity-wy27-s01-t03-drill-03-explanation-01",
+                "quantity-wy27-s01-t03-drill-04-question",
+                "quantity-wy27-s01-t03-drill-04-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s01-t03-drill-01",
+                "quantity-wy27-s01-t03-drill-02",
+                "quantity-wy27-s01-t03-drill-03",
+                "quantity-wy27-s01-t03-drill-04"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s01-drill-01.json"
+            },
+            {
+              "id": "quantity-wy27-s01-drill-02",
+              "title": "实战精刷 · 5—8题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s01-t03-drill-05-question",
+                "quantity-wy27-s01-t03-drill-05-explanation-01",
+                "quantity-wy27-s01-t03-drill-06-question",
+                "quantity-wy27-s01-t03-drill-06-explanation-01",
+                "quantity-wy27-s01-t03-drill-07-question",
+                "quantity-wy27-s01-t03-drill-07-explanation-01",
+                "quantity-wy27-s01-t03-drill-08-question",
+                "quantity-wy27-s01-t03-drill-08-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s01-t03-drill-05",
+                "quantity-wy27-s01-t03-drill-06",
+                "quantity-wy27-s01-t03-drill-07",
+                "quantity-wy27-s01-t03-drill-08"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s01-drill-02.json"
+            },
+            {
+              "id": "quantity-wy27-s01-drill-03",
+              "title": "实战精刷 · 9—12题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s01-t03-drill-09-question",
+                "quantity-wy27-s01-t03-drill-09-explanation-01",
+                "quantity-wy27-s01-t03-drill-10-question",
+                "quantity-wy27-s01-t03-drill-10-explanation-01",
+                "quantity-wy27-s01-t03-drill-11-question",
+                "quantity-wy27-s01-t03-drill-11-explanation-01",
+                "quantity-wy27-s01-t03-drill-12-question",
+                "quantity-wy27-s01-t03-drill-12-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s01-t03-drill-09",
+                "quantity-wy27-s01-t03-drill-10",
+                "quantity-wy27-s01-t03-drill-11",
+                "quantity-wy27-s01-t03-drill-12"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s01-drill-03.json"
+            },
+            {
+              "id": "quantity-wy27-s01-drill-04",
+              "title": "实战精刷 · 第13题",
+              "cardCount": 2,
+              "questionCount": 1,
+              "cardIds": [
+                "quantity-wy27-s01-t03-drill-13-question",
+                "quantity-wy27-s01-t03-drill-13-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s01-t03-drill-13"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s01-drill-04.json"
+            }
+          ]
+        },
+        {
+          "id": "quantity-wy27-s02",
+          "title": "和差倍比问题（二）",
+          "lessons": [
+            {
+              "id": "quantity-wy27-s02-t01",
+              "title": "特值思维",
+              "cardCount": 9,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s02-t01-knowledge-01-01",
+                "quantity-wy27-s02-t01-mother-01-question",
+                "quantity-wy27-s02-t01-mother-01-explanation-01",
+                "quantity-wy27-s02-t01-mother-02-question",
+                "quantity-wy27-s02-t01-mother-02-explanation-01",
+                "quantity-wy27-s02-t01-practice-01-question",
+                "quantity-wy27-s02-t01-practice-01-explanation-01",
+                "quantity-wy27-s02-t01-practice-02-question",
+                "quantity-wy27-s02-t01-practice-02-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s02-t01-mother-01",
+                "quantity-wy27-s02-t01-mother-02",
+                "quantity-wy27-s02-t01-practice-01",
+                "quantity-wy27-s02-t01-practice-02"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s02-t01.json"
+            },
+            {
+              "id": "quantity-wy27-s02-t02",
+              "title": "十字交叉法",
+              "cardCount": 13,
+              "questionCount": 6,
+              "cardIds": [
+                "quantity-wy27-s02-t02-knowledge-01-01",
+                "quantity-wy27-s02-t02-mother-01-question",
+                "quantity-wy27-s02-t02-mother-01-explanation-01",
+                "quantity-wy27-s02-t02-mother-02-question",
+                "quantity-wy27-s02-t02-mother-02-explanation-01",
+                "quantity-wy27-s02-t02-mother-03-question",
+                "quantity-wy27-s02-t02-mother-03-explanation-01",
+                "quantity-wy27-s02-t02-practice-01-question",
+                "quantity-wy27-s02-t02-practice-01-explanation-01",
+                "quantity-wy27-s02-t02-practice-02-question",
+                "quantity-wy27-s02-t02-practice-02-explanation-01",
+                "quantity-wy27-s02-t02-practice-03-question",
+                "quantity-wy27-s02-t02-practice-03-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s02-t02-mother-01",
+                "quantity-wy27-s02-t02-mother-02",
+                "quantity-wy27-s02-t02-mother-03",
+                "quantity-wy27-s02-t02-practice-01",
+                "quantity-wy27-s02-t02-practice-02",
+                "quantity-wy27-s02-t02-practice-03"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s02-t02.json"
+            },
+            {
+              "id": "quantity-wy27-s02-drill-01",
+              "title": "实战精刷 · 1—4题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s02-t03-drill-01-question",
+                "quantity-wy27-s02-t03-drill-01-explanation-01",
+                "quantity-wy27-s02-t03-drill-02-question",
+                "quantity-wy27-s02-t03-drill-02-explanation-01",
+                "quantity-wy27-s02-t03-drill-03-question",
+                "quantity-wy27-s02-t03-drill-03-explanation-01",
+                "quantity-wy27-s02-t03-drill-04-question",
+                "quantity-wy27-s02-t03-drill-04-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s02-t03-drill-01",
+                "quantity-wy27-s02-t03-drill-02",
+                "quantity-wy27-s02-t03-drill-03",
+                "quantity-wy27-s02-t03-drill-04"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s02-drill-01.json"
+            },
+            {
+              "id": "quantity-wy27-s02-drill-02",
+              "title": "实战精刷 · 5—8题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s02-t03-drill-05-question",
+                "quantity-wy27-s02-t03-drill-05-explanation-01",
+                "quantity-wy27-s02-t03-drill-06-question",
+                "quantity-wy27-s02-t03-drill-06-explanation-01",
+                "quantity-wy27-s02-t03-drill-07-question",
+                "quantity-wy27-s02-t03-drill-07-explanation-01",
+                "quantity-wy27-s02-t03-drill-08-question",
+                "quantity-wy27-s02-t03-drill-08-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s02-t03-drill-05",
+                "quantity-wy27-s02-t03-drill-06",
+                "quantity-wy27-s02-t03-drill-07",
+                "quantity-wy27-s02-t03-drill-08"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s02-drill-02.json"
+            },
+            {
+              "id": "quantity-wy27-s02-drill-03",
+              "title": "实战精刷 · 9—12题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s02-t03-drill-09-question",
+                "quantity-wy27-s02-t03-drill-09-explanation-01",
+                "quantity-wy27-s02-t03-drill-10-question",
+                "quantity-wy27-s02-t03-drill-10-explanation-01",
+                "quantity-wy27-s02-t03-drill-11-question",
+                "quantity-wy27-s02-t03-drill-11-explanation-01",
+                "quantity-wy27-s02-t03-drill-12-question",
+                "quantity-wy27-s02-t03-drill-12-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s02-t03-drill-09",
+                "quantity-wy27-s02-t03-drill-10",
+                "quantity-wy27-s02-t03-drill-11",
+                "quantity-wy27-s02-t03-drill-12"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s02-drill-03.json"
+            }
+          ]
+        },
+        {
+          "id": "quantity-wy27-s03",
+          "title": "和差倍比问题（三）",
+          "lessons": [
+            {
+              "id": "quantity-wy27-s03-t01",
+              "title": "普通方程",
+              "cardCount": 11,
+              "questionCount": 5,
+              "cardIds": [
+                "quantity-wy27-s03-t01-knowledge-01-01",
+                "quantity-wy27-s03-t01-mother-01-question",
+                "quantity-wy27-s03-t01-mother-01-explanation-01",
+                "quantity-wy27-s03-t01-mother-02-question",
+                "quantity-wy27-s03-t01-mother-02-explanation-01",
+                "quantity-wy27-s03-t01-mother-03-question",
+                "quantity-wy27-s03-t01-mother-03-explanation-01",
+                "quantity-wy27-s03-t01-practice-01-question",
+                "quantity-wy27-s03-t01-practice-01-explanation-01",
+                "quantity-wy27-s03-t01-practice-02-question",
+                "quantity-wy27-s03-t01-practice-02-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s03-t01-mother-01",
+                "quantity-wy27-s03-t01-mother-02",
+                "quantity-wy27-s03-t01-mother-03",
+                "quantity-wy27-s03-t01-practice-01",
+                "quantity-wy27-s03-t01-practice-02"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s03-t01.json"
+            },
+            {
+              "id": "quantity-wy27-s03-t02",
+              "title": "不定方程",
+              "cardCount": 15,
+              "questionCount": 7,
+              "cardIds": [
+                "quantity-wy27-s03-t02-knowledge-01-01",
+                "quantity-wy27-s03-t02-mother-01-question",
+                "quantity-wy27-s03-t02-mother-01-explanation-01",
+                "quantity-wy27-s03-t02-mother-02-question",
+                "quantity-wy27-s03-t02-mother-02-explanation-01",
+                "quantity-wy27-s03-t02-mother-03-question",
+                "quantity-wy27-s03-t02-mother-03-explanation-01",
+                "quantity-wy27-s03-t02-mother-04-question",
+                "quantity-wy27-s03-t02-mother-04-explanation-01",
+                "quantity-wy27-s03-t02-practice-01-question",
+                "quantity-wy27-s03-t02-practice-01-explanation-01",
+                "quantity-wy27-s03-t02-practice-02-question",
+                "quantity-wy27-s03-t02-practice-02-explanation-01",
+                "quantity-wy27-s03-t02-practice-03-question",
+                "quantity-wy27-s03-t02-practice-03-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s03-t02-mother-01",
+                "quantity-wy27-s03-t02-mother-02",
+                "quantity-wy27-s03-t02-mother-03",
+                "quantity-wy27-s03-t02-mother-04",
+                "quantity-wy27-s03-t02-practice-01",
+                "quantity-wy27-s03-t02-practice-02",
+                "quantity-wy27-s03-t02-practice-03"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s03-t02.json"
+            },
+            {
+              "id": "quantity-wy27-s03-drill-01",
+              "title": "实战精刷 · 1—4题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s03-t03-drill-01-question",
+                "quantity-wy27-s03-t03-drill-01-explanation-01",
+                "quantity-wy27-s03-t03-drill-02-question",
+                "quantity-wy27-s03-t03-drill-02-explanation-01",
+                "quantity-wy27-s03-t03-drill-03-question",
+                "quantity-wy27-s03-t03-drill-03-explanation-01",
+                "quantity-wy27-s03-t03-drill-04-question",
+                "quantity-wy27-s03-t03-drill-04-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s03-t03-drill-01",
+                "quantity-wy27-s03-t03-drill-02",
+                "quantity-wy27-s03-t03-drill-03",
+                "quantity-wy27-s03-t03-drill-04"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s03-drill-01.json"
+            },
+            {
+              "id": "quantity-wy27-s03-drill-02",
+              "title": "实战精刷 · 5—8题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s03-t03-drill-05-question",
+                "quantity-wy27-s03-t03-drill-05-explanation-01",
+                "quantity-wy27-s03-t03-drill-06-question",
+                "quantity-wy27-s03-t03-drill-06-explanation-01",
+                "quantity-wy27-s03-t03-drill-07-question",
+                "quantity-wy27-s03-t03-drill-07-explanation-01",
+                "quantity-wy27-s03-t03-drill-08-question",
+                "quantity-wy27-s03-t03-drill-08-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s03-t03-drill-05",
+                "quantity-wy27-s03-t03-drill-06",
+                "quantity-wy27-s03-t03-drill-07",
+                "quantity-wy27-s03-t03-drill-08"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s03-drill-02.json"
+            },
+            {
+              "id": "quantity-wy27-s03-drill-03",
+              "title": "实战精刷 · 9—12题",
+              "cardCount": 9,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s03-t03-drill-09-question",
+                "quantity-wy27-s03-t03-drill-09-explanation-01",
+                "quantity-wy27-s03-t03-drill-10-question",
+                "quantity-wy27-s03-t03-drill-10-explanation-01",
+                "quantity-wy27-s03-t03-drill-11-question",
+                "quantity-wy27-s03-t03-drill-11-explanation-01",
+                "quantity-wy27-s03-t03-drill-12-question",
+                "quantity-wy27-s03-t03-drill-12-explanation-01",
+                "quantity-wy27-s03-t03-drill-12-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s03-t03-drill-09",
+                "quantity-wy27-s03-t03-drill-10",
+                "quantity-wy27-s03-t03-drill-11",
+                "quantity-wy27-s03-t03-drill-12"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s03-drill-03.json"
+            },
+            {
+              "id": "quantity-wy27-s03-drill-04",
+              "title": "实战精刷 · 第13题",
+              "cardCount": 2,
+              "questionCount": 1,
+              "cardIds": [
+                "quantity-wy27-s03-t03-drill-13-question",
+                "quantity-wy27-s03-t03-drill-13-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s03-t03-drill-13"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s03-drill-04.json"
+            }
+          ]
+        },
+        {
+          "id": "quantity-wy27-s04",
+          "title": "等差数列与和定最值",
+          "lessons": [
+            {
+              "id": "quantity-wy27-s04-t01",
+              "title": "等差数列",
+              "cardCount": 15,
+              "questionCount": 7,
+              "cardIds": [
+                "quantity-wy27-s04-t01-knowledge-01-01",
+                "quantity-wy27-s04-t01-mother-01-question",
+                "quantity-wy27-s04-t01-mother-01-explanation-01",
+                "quantity-wy27-s04-t01-mother-02-question",
+                "quantity-wy27-s04-t01-mother-02-explanation-01",
+                "quantity-wy27-s04-t01-mother-03-question",
+                "quantity-wy27-s04-t01-mother-03-explanation-01",
+                "quantity-wy27-s04-t01-mother-04-question",
+                "quantity-wy27-s04-t01-mother-04-explanation-01",
+                "quantity-wy27-s04-t01-practice-01-question",
+                "quantity-wy27-s04-t01-practice-01-explanation-01",
+                "quantity-wy27-s04-t01-practice-02-question",
+                "quantity-wy27-s04-t01-practice-02-explanation-01",
+                "quantity-wy27-s04-t01-practice-03-question",
+                "quantity-wy27-s04-t01-practice-03-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s04-t01-mother-01",
+                "quantity-wy27-s04-t01-mother-02",
+                "quantity-wy27-s04-t01-mother-03",
+                "quantity-wy27-s04-t01-mother-04",
+                "quantity-wy27-s04-t01-practice-01",
+                "quantity-wy27-s04-t01-practice-02",
+                "quantity-wy27-s04-t01-practice-03"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s04-t01.json"
+            },
+            {
+              "id": "quantity-wy27-s04-t02",
+              "title": "和定最值",
+              "cardCount": 9,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s04-t02-knowledge-01-01",
+                "quantity-wy27-s04-t02-mother-01-question",
+                "quantity-wy27-s04-t02-mother-01-explanation-01",
+                "quantity-wy27-s04-t02-mother-02-question",
+                "quantity-wy27-s04-t02-mother-02-explanation-01",
+                "quantity-wy27-s04-t02-mother-03-question",
+                "quantity-wy27-s04-t02-mother-03-explanation-01",
+                "quantity-wy27-s04-t02-mother-04-question",
+                "quantity-wy27-s04-t02-mother-04-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s04-t02-mother-01",
+                "quantity-wy27-s04-t02-mother-02",
+                "quantity-wy27-s04-t02-mother-03",
+                "quantity-wy27-s04-t02-mother-04"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s04-t02.json"
+            },
+            {
+              "id": "quantity-wy27-s04-drill-01",
+              "title": "实战精刷 · 1—4题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s04-t03-drill-01-question",
+                "quantity-wy27-s04-t03-drill-01-explanation-01",
+                "quantity-wy27-s04-t03-drill-02-question",
+                "quantity-wy27-s04-t03-drill-02-explanation-01",
+                "quantity-wy27-s04-t03-drill-03-question",
+                "quantity-wy27-s04-t03-drill-03-explanation-01",
+                "quantity-wy27-s04-t03-drill-04-question",
+                "quantity-wy27-s04-t03-drill-04-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s04-t03-drill-01",
+                "quantity-wy27-s04-t03-drill-02",
+                "quantity-wy27-s04-t03-drill-03",
+                "quantity-wy27-s04-t03-drill-04"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s04-drill-01.json"
+            },
+            {
+              "id": "quantity-wy27-s04-drill-02",
+              "title": "实战精刷 · 5—8题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s04-t03-drill-05-question",
+                "quantity-wy27-s04-t03-drill-05-explanation-01",
+                "quantity-wy27-s04-t03-drill-06-question",
+                "quantity-wy27-s04-t03-drill-06-explanation-01",
+                "quantity-wy27-s04-t03-drill-07-question",
+                "quantity-wy27-s04-t03-drill-07-explanation-01",
+                "quantity-wy27-s04-t03-drill-08-question",
+                "quantity-wy27-s04-t03-drill-08-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s04-t03-drill-05",
+                "quantity-wy27-s04-t03-drill-06",
+                "quantity-wy27-s04-t03-drill-07",
+                "quantity-wy27-s04-t03-drill-08"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s04-drill-02.json"
+            },
+            {
+              "id": "quantity-wy27-s04-drill-03",
+              "title": "实战精刷 · 9—12题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s04-t03-drill-09-question",
+                "quantity-wy27-s04-t03-drill-09-explanation-01",
+                "quantity-wy27-s04-t03-drill-10-question",
+                "quantity-wy27-s04-t03-drill-10-explanation-01",
+                "quantity-wy27-s04-t03-drill-11-question",
+                "quantity-wy27-s04-t03-drill-11-explanation-01",
+                "quantity-wy27-s04-t03-drill-12-question",
+                "quantity-wy27-s04-t03-drill-12-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s04-t03-drill-09",
+                "quantity-wy27-s04-t03-drill-10",
+                "quantity-wy27-s04-t03-drill-11",
+                "quantity-wy27-s04-t03-drill-12"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s04-drill-03.json"
+            },
+            {
+              "id": "quantity-wy27-s04-drill-04",
+              "title": "实战精刷 · 13—14题",
+              "cardCount": 4,
+              "questionCount": 2,
+              "cardIds": [
+                "quantity-wy27-s04-t03-drill-13-question",
+                "quantity-wy27-s04-t03-drill-13-explanation-01",
+                "quantity-wy27-s04-t03-drill-14-question",
+                "quantity-wy27-s04-t03-drill-14-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s04-t03-drill-13",
+                "quantity-wy27-s04-t03-drill-14"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s04-drill-04.json"
+            }
+          ]
+        },
+        {
+          "id": "quantity-wy27-s05",
+          "title": "工程问题",
+          "lessons": [
+            {
+              "id": "quantity-wy27-s05-t01",
+              "title": "工程问题",
+              "cardCount": 23,
+              "questionCount": 11,
+              "cardIds": [
+                "quantity-wy27-s05-t01-knowledge-01-01",
+                "quantity-wy27-s05-t01-mother-01-question",
+                "quantity-wy27-s05-t01-mother-01-explanation-01",
+                "quantity-wy27-s05-t01-mother-02-question",
+                "quantity-wy27-s05-t01-mother-02-explanation-01",
+                "quantity-wy27-s05-t01-mother-03-question",
+                "quantity-wy27-s05-t01-mother-03-explanation-01",
+                "quantity-wy27-s05-t01-mother-04-question",
+                "quantity-wy27-s05-t01-mother-04-explanation-01",
+                "quantity-wy27-s05-t01-mother-05-question",
+                "quantity-wy27-s05-t01-mother-05-explanation-01",
+                "quantity-wy27-s05-t01-practice-01-question",
+                "quantity-wy27-s05-t01-practice-01-explanation-01",
+                "quantity-wy27-s05-t01-practice-02-question",
+                "quantity-wy27-s05-t01-practice-02-explanation-01",
+                "quantity-wy27-s05-t01-practice-03-question",
+                "quantity-wy27-s05-t01-practice-03-explanation-01",
+                "quantity-wy27-s05-t01-practice-04-question",
+                "quantity-wy27-s05-t01-practice-04-explanation-01",
+                "quantity-wy27-s05-t01-practice-05-question",
+                "quantity-wy27-s05-t01-practice-05-explanation-01",
+                "quantity-wy27-s05-t01-practice-06-question",
+                "quantity-wy27-s05-t01-practice-06-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s05-t01-mother-01",
+                "quantity-wy27-s05-t01-mother-02",
+                "quantity-wy27-s05-t01-mother-03",
+                "quantity-wy27-s05-t01-mother-04",
+                "quantity-wy27-s05-t01-mother-05",
+                "quantity-wy27-s05-t01-practice-01",
+                "quantity-wy27-s05-t01-practice-02",
+                "quantity-wy27-s05-t01-practice-03",
+                "quantity-wy27-s05-t01-practice-04",
+                "quantity-wy27-s05-t01-practice-05",
+                "quantity-wy27-s05-t01-practice-06"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s05-t01.json"
+            },
+            {
+              "id": "quantity-wy27-s05-drill-01",
+              "title": "实战精刷 · 1—4题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s05-t02-drill-01-question",
+                "quantity-wy27-s05-t02-drill-01-explanation-01",
+                "quantity-wy27-s05-t02-drill-02-question",
+                "quantity-wy27-s05-t02-drill-02-explanation-01",
+                "quantity-wy27-s05-t02-drill-03-question",
+                "quantity-wy27-s05-t02-drill-03-explanation-01",
+                "quantity-wy27-s05-t02-drill-04-question",
+                "quantity-wy27-s05-t02-drill-04-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s05-t02-drill-01",
+                "quantity-wy27-s05-t02-drill-02",
+                "quantity-wy27-s05-t02-drill-03",
+                "quantity-wy27-s05-t02-drill-04"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s05-drill-01.json"
+            },
+            {
+              "id": "quantity-wy27-s05-drill-02",
+              "title": "实战精刷 · 5—8题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s05-t02-drill-05-question",
+                "quantity-wy27-s05-t02-drill-05-explanation-01",
+                "quantity-wy27-s05-t02-drill-06-question",
+                "quantity-wy27-s05-t02-drill-06-explanation-01",
+                "quantity-wy27-s05-t02-drill-07-question",
+                "quantity-wy27-s05-t02-drill-07-explanation-01",
+                "quantity-wy27-s05-t02-drill-08-question",
+                "quantity-wy27-s05-t02-drill-08-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s05-t02-drill-05",
+                "quantity-wy27-s05-t02-drill-06",
+                "quantity-wy27-s05-t02-drill-07",
+                "quantity-wy27-s05-t02-drill-08"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s05-drill-02.json"
+            },
+            {
+              "id": "quantity-wy27-s05-drill-03",
+              "title": "实战精刷 · 9—12题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s05-t02-drill-09-question",
+                "quantity-wy27-s05-t02-drill-09-explanation-01",
+                "quantity-wy27-s05-t02-drill-10-question",
+                "quantity-wy27-s05-t02-drill-10-explanation-01",
+                "quantity-wy27-s05-t02-drill-11-question",
+                "quantity-wy27-s05-t02-drill-11-explanation-01",
+                "quantity-wy27-s05-t02-drill-12-question",
+                "quantity-wy27-s05-t02-drill-12-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s05-t02-drill-09",
+                "quantity-wy27-s05-t02-drill-10",
+                "quantity-wy27-s05-t02-drill-11",
+                "quantity-wy27-s05-t02-drill-12"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s05-drill-03.json"
+            },
+            {
+              "id": "quantity-wy27-s05-drill-04",
+              "title": "实战精刷 · 13—14题",
+              "cardCount": 4,
+              "questionCount": 2,
+              "cardIds": [
+                "quantity-wy27-s05-t02-drill-13-question",
+                "quantity-wy27-s05-t02-drill-13-explanation-01",
+                "quantity-wy27-s05-t02-drill-14-question",
+                "quantity-wy27-s05-t02-drill-14-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s05-t02-drill-13",
+                "quantity-wy27-s05-t02-drill-14"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s05-drill-04.json"
+            }
+          ]
+        },
+        {
+          "id": "quantity-wy27-s06",
+          "title": "行程问题（一）",
+          "lessons": [
+            {
+              "id": "quantity-wy27-s06-t01",
+              "title": "普通行程",
+              "cardCount": 13,
+              "questionCount": 6,
+              "cardIds": [
+                "quantity-wy27-s06-t01-knowledge-01-01",
+                "quantity-wy27-s06-t01-mother-01-question",
+                "quantity-wy27-s06-t01-mother-01-explanation-01",
+                "quantity-wy27-s06-t01-mother-02-question",
+                "quantity-wy27-s06-t01-mother-02-explanation-01",
+                "quantity-wy27-s06-t01-mother-03-question",
+                "quantity-wy27-s06-t01-mother-03-explanation-01",
+                "quantity-wy27-s06-t01-practice-01-question",
+                "quantity-wy27-s06-t01-practice-01-explanation-01",
+                "quantity-wy27-s06-t01-practice-02-question",
+                "quantity-wy27-s06-t01-practice-02-explanation-01",
+                "quantity-wy27-s06-t01-practice-03-question",
+                "quantity-wy27-s06-t01-practice-03-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s06-t01-mother-01",
+                "quantity-wy27-s06-t01-mother-02",
+                "quantity-wy27-s06-t01-mother-03",
+                "quantity-wy27-s06-t01-practice-01",
+                "quantity-wy27-s06-t01-practice-02",
+                "quantity-wy27-s06-t01-practice-03"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s06-t01.json"
+            },
+            {
+              "id": "quantity-wy27-s06-t02",
+              "title": "直线相遇和追及",
+              "cardCount": 10,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s06-t02-knowledge-01-01",
+                "quantity-wy27-s06-t02-mother-01-question",
+                "quantity-wy27-s06-t02-mother-01-explanation-01",
+                "quantity-wy27-s06-t02-mother-02-question",
+                "quantity-wy27-s06-t02-mother-02-explanation-01",
+                "quantity-wy27-s06-t02-mother-02-explanation-02",
+                "quantity-wy27-s06-t02-practice-01-question",
+                "quantity-wy27-s06-t02-practice-01-explanation-01",
+                "quantity-wy27-s06-t02-practice-02-question",
+                "quantity-wy27-s06-t02-practice-02-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s06-t02-mother-01",
+                "quantity-wy27-s06-t02-mother-02",
+                "quantity-wy27-s06-t02-practice-01",
+                "quantity-wy27-s06-t02-practice-02"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s06-t02.json"
+            },
+            {
+              "id": "quantity-wy27-s06-drill-01",
+              "title": "实战精刷 · 1—4题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s06-t03-drill-01-question",
+                "quantity-wy27-s06-t03-drill-01-explanation-01",
+                "quantity-wy27-s06-t03-drill-02-question",
+                "quantity-wy27-s06-t03-drill-02-explanation-01",
+                "quantity-wy27-s06-t03-drill-03-question",
+                "quantity-wy27-s06-t03-drill-03-explanation-01",
+                "quantity-wy27-s06-t03-drill-04-question",
+                "quantity-wy27-s06-t03-drill-04-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s06-t03-drill-01",
+                "quantity-wy27-s06-t03-drill-02",
+                "quantity-wy27-s06-t03-drill-03",
+                "quantity-wy27-s06-t03-drill-04"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s06-drill-01.json"
+            },
+            {
+              "id": "quantity-wy27-s06-drill-02",
+              "title": "实战精刷 · 5—8题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s06-t03-drill-05-question",
+                "quantity-wy27-s06-t03-drill-05-explanation-01",
+                "quantity-wy27-s06-t03-drill-06-question",
+                "quantity-wy27-s06-t03-drill-06-explanation-01",
+                "quantity-wy27-s06-t03-drill-07-question",
+                "quantity-wy27-s06-t03-drill-07-explanation-01",
+                "quantity-wy27-s06-t03-drill-08-question",
+                "quantity-wy27-s06-t03-drill-08-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s06-t03-drill-05",
+                "quantity-wy27-s06-t03-drill-06",
+                "quantity-wy27-s06-t03-drill-07",
+                "quantity-wy27-s06-t03-drill-08"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s06-drill-02.json"
+            },
+            {
+              "id": "quantity-wy27-s06-drill-03",
+              "title": "实战精刷 · 9—12题",
+              "cardCount": 9,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s06-t03-drill-09-question",
+                "quantity-wy27-s06-t03-drill-09-explanation-01",
+                "quantity-wy27-s06-t03-drill-09-explanation-02",
+                "quantity-wy27-s06-t03-drill-10-question",
+                "quantity-wy27-s06-t03-drill-10-explanation-01",
+                "quantity-wy27-s06-t03-drill-11-question",
+                "quantity-wy27-s06-t03-drill-11-explanation-01",
+                "quantity-wy27-s06-t03-drill-12-question",
+                "quantity-wy27-s06-t03-drill-12-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s06-t03-drill-09",
+                "quantity-wy27-s06-t03-drill-10",
+                "quantity-wy27-s06-t03-drill-11",
+                "quantity-wy27-s06-t03-drill-12"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s06-drill-03.json"
+            }
+          ]
+        },
+        {
+          "id": "quantity-wy27-s07",
+          "title": "行程问题（二）",
+          "lessons": [
+            {
+              "id": "quantity-wy27-s07-t01",
+              "title": "环线相遇和追及",
+              "cardCount": 13,
+              "questionCount": 6,
+              "cardIds": [
+                "quantity-wy27-s07-t01-knowledge-01-01",
+                "quantity-wy27-s07-t01-mother-01-question",
+                "quantity-wy27-s07-t01-mother-01-explanation-01",
+                "quantity-wy27-s07-t01-mother-02-question",
+                "quantity-wy27-s07-t01-mother-02-explanation-01",
+                "quantity-wy27-s07-t01-mother-03-question",
+                "quantity-wy27-s07-t01-mother-03-explanation-01",
+                "quantity-wy27-s07-t01-practice-01-question",
+                "quantity-wy27-s07-t01-practice-01-explanation-01",
+                "quantity-wy27-s07-t01-practice-02-question",
+                "quantity-wy27-s07-t01-practice-02-explanation-01",
+                "quantity-wy27-s07-t01-practice-03-question",
+                "quantity-wy27-s07-t01-practice-03-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s07-t01-mother-01",
+                "quantity-wy27-s07-t01-mother-02",
+                "quantity-wy27-s07-t01-mother-03",
+                "quantity-wy27-s07-t01-practice-01",
+                "quantity-wy27-s07-t01-practice-02",
+                "quantity-wy27-s07-t01-practice-03"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s07-t01.json"
+            },
+            {
+              "id": "quantity-wy27-s07-t02",
+              "title": "匀变速运动",
+              "cardCount": 10,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s07-t02-knowledge-01-01",
+                "quantity-wy27-s07-t02-mother-01-question",
+                "quantity-wy27-s07-t02-mother-01-explanation-01",
+                "quantity-wy27-s07-t02-mother-02-question",
+                "quantity-wy27-s07-t02-mother-02-explanation-01",
+                "quantity-wy27-s07-t02-mother-02-explanation-02",
+                "quantity-wy27-s07-t02-practice-01-question",
+                "quantity-wy27-s07-t02-practice-01-explanation-01",
+                "quantity-wy27-s07-t02-practice-02-question",
+                "quantity-wy27-s07-t02-practice-02-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s07-t02-mother-01",
+                "quantity-wy27-s07-t02-mother-02",
+                "quantity-wy27-s07-t02-practice-01",
+                "quantity-wy27-s07-t02-practice-02"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s07-t02.json"
+            },
+            {
+              "id": "quantity-wy27-s07-drill-01",
+              "title": "实战精刷 · 1—4题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s07-t03-drill-01-question",
+                "quantity-wy27-s07-t03-drill-01-explanation-01",
+                "quantity-wy27-s07-t03-drill-02-question",
+                "quantity-wy27-s07-t03-drill-02-explanation-01",
+                "quantity-wy27-s07-t03-drill-03-question",
+                "quantity-wy27-s07-t03-drill-03-explanation-01",
+                "quantity-wy27-s07-t03-drill-04-question",
+                "quantity-wy27-s07-t03-drill-04-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s07-t03-drill-01",
+                "quantity-wy27-s07-t03-drill-02",
+                "quantity-wy27-s07-t03-drill-03",
+                "quantity-wy27-s07-t03-drill-04"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s07-drill-01.json"
+            },
+            {
+              "id": "quantity-wy27-s07-drill-02",
+              "title": "实战精刷 · 5—8题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s07-t03-drill-05-question",
+                "quantity-wy27-s07-t03-drill-05-explanation-01",
+                "quantity-wy27-s07-t03-drill-06-question",
+                "quantity-wy27-s07-t03-drill-06-explanation-01",
+                "quantity-wy27-s07-t03-drill-07-question",
+                "quantity-wy27-s07-t03-drill-07-explanation-01",
+                "quantity-wy27-s07-t03-drill-08-question",
+                "quantity-wy27-s07-t03-drill-08-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s07-t03-drill-05",
+                "quantity-wy27-s07-t03-drill-06",
+                "quantity-wy27-s07-t03-drill-07",
+                "quantity-wy27-s07-t03-drill-08"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s07-drill-02.json"
+            },
+            {
+              "id": "quantity-wy27-s07-drill-03",
+              "title": "实战精刷 · 9—10题",
+              "cardCount": 4,
+              "questionCount": 2,
+              "cardIds": [
+                "quantity-wy27-s07-t03-drill-09-question",
+                "quantity-wy27-s07-t03-drill-09-explanation-01",
+                "quantity-wy27-s07-t03-drill-10-question",
+                "quantity-wy27-s07-t03-drill-10-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s07-t03-drill-09",
+                "quantity-wy27-s07-t03-drill-10"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s07-drill-03.json"
+            }
+          ]
+        },
+        {
+          "id": "quantity-wy27-s08",
+          "title": "利润问题",
+          "lessons": [
+            {
+              "id": "quantity-wy27-s08-t01",
+              "title": "利润问题",
+              "cardCount": 21,
+              "questionCount": 10,
+              "cardIds": [
+                "quantity-wy27-s08-t01-knowledge-01-01",
+                "quantity-wy27-s08-t01-mother-01-question",
+                "quantity-wy27-s08-t01-mother-01-explanation-01",
+                "quantity-wy27-s08-t01-mother-02-question",
+                "quantity-wy27-s08-t01-mother-02-explanation-01",
+                "quantity-wy27-s08-t01-mother-03-question",
+                "quantity-wy27-s08-t01-mother-03-explanation-01",
+                "quantity-wy27-s08-t01-mother-04-question",
+                "quantity-wy27-s08-t01-mother-04-explanation-01",
+                "quantity-wy27-s08-t01-mother-05-question",
+                "quantity-wy27-s08-t01-mother-05-explanation-01",
+                "quantity-wy27-s08-t01-practice-01-question",
+                "quantity-wy27-s08-t01-practice-01-explanation-01",
+                "quantity-wy27-s08-t01-practice-02-question",
+                "quantity-wy27-s08-t01-practice-02-explanation-01",
+                "quantity-wy27-s08-t01-practice-03-question",
+                "quantity-wy27-s08-t01-practice-03-explanation-01",
+                "quantity-wy27-s08-t01-practice-04-question",
+                "quantity-wy27-s08-t01-practice-04-explanation-01",
+                "quantity-wy27-s08-t01-practice-05-question",
+                "quantity-wy27-s08-t01-practice-05-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s08-t01-mother-01",
+                "quantity-wy27-s08-t01-mother-02",
+                "quantity-wy27-s08-t01-mother-03",
+                "quantity-wy27-s08-t01-mother-04",
+                "quantity-wy27-s08-t01-mother-05",
+                "quantity-wy27-s08-t01-practice-01",
+                "quantity-wy27-s08-t01-practice-02",
+                "quantity-wy27-s08-t01-practice-03",
+                "quantity-wy27-s08-t01-practice-04",
+                "quantity-wy27-s08-t01-practice-05"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s08-t01.json"
+            },
+            {
+              "id": "quantity-wy27-s08-drill-01",
+              "title": "实战精刷 · 1—4题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s08-t02-drill-01-question",
+                "quantity-wy27-s08-t02-drill-01-explanation-01",
+                "quantity-wy27-s08-t02-drill-02-question",
+                "quantity-wy27-s08-t02-drill-02-explanation-01",
+                "quantity-wy27-s08-t02-drill-03-question",
+                "quantity-wy27-s08-t02-drill-03-explanation-01",
+                "quantity-wy27-s08-t02-drill-04-question",
+                "quantity-wy27-s08-t02-drill-04-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s08-t02-drill-01",
+                "quantity-wy27-s08-t02-drill-02",
+                "quantity-wy27-s08-t02-drill-03",
+                "quantity-wy27-s08-t02-drill-04"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s08-drill-01.json"
+            },
+            {
+              "id": "quantity-wy27-s08-drill-02",
+              "title": "实战精刷 · 5—8题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s08-t02-drill-05-question",
+                "quantity-wy27-s08-t02-drill-05-explanation-01",
+                "quantity-wy27-s08-t02-drill-06-question",
+                "quantity-wy27-s08-t02-drill-06-explanation-01",
+                "quantity-wy27-s08-t02-drill-07-question",
+                "quantity-wy27-s08-t02-drill-07-explanation-01",
+                "quantity-wy27-s08-t02-drill-08-question",
+                "quantity-wy27-s08-t02-drill-08-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s08-t02-drill-05",
+                "quantity-wy27-s08-t02-drill-06",
+                "quantity-wy27-s08-t02-drill-07",
+                "quantity-wy27-s08-t02-drill-08"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s08-drill-02.json"
+            },
+            {
+              "id": "quantity-wy27-s08-drill-03",
+              "title": "实战精刷 · 9—10题",
+              "cardCount": 4,
+              "questionCount": 2,
+              "cardIds": [
+                "quantity-wy27-s08-t02-drill-09-question",
+                "quantity-wy27-s08-t02-drill-09-explanation-01",
+                "quantity-wy27-s08-t02-drill-10-question",
+                "quantity-wy27-s08-t02-drill-10-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s08-t02-drill-09",
+                "quantity-wy27-s08-t02-drill-10"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s08-drill-03.json"
+            }
+          ]
+        },
+        {
+          "id": "quantity-wy27-s09",
+          "title": "容斥问题",
+          "lessons": [
+            {
+              "id": "quantity-wy27-s09-t01",
+              "title": "两者容斥",
+              "cardCount": 11,
+              "questionCount": 5,
+              "cardIds": [
+                "quantity-wy27-s09-t01-knowledge-01-01",
+                "quantity-wy27-s09-t01-mother-01-question",
+                "quantity-wy27-s09-t01-mother-01-explanation-01",
+                "quantity-wy27-s09-t01-mother-02-question",
+                "quantity-wy27-s09-t01-mother-02-explanation-01",
+                "quantity-wy27-s09-t01-mother-03-question",
+                "quantity-wy27-s09-t01-mother-03-explanation-01",
+                "quantity-wy27-s09-t01-practice-01-question",
+                "quantity-wy27-s09-t01-practice-01-explanation-01",
+                "quantity-wy27-s09-t01-practice-02-question",
+                "quantity-wy27-s09-t01-practice-02-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s09-t01-mother-01",
+                "quantity-wy27-s09-t01-mother-02",
+                "quantity-wy27-s09-t01-mother-03",
+                "quantity-wy27-s09-t01-practice-01",
+                "quantity-wy27-s09-t01-practice-02"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s09-t01.json"
+            },
+            {
+              "id": "quantity-wy27-s09-t02",
+              "title": "三者容斥",
+              "cardCount": 11,
+              "questionCount": 5,
+              "cardIds": [
+                "quantity-wy27-s09-t02-knowledge-01-01",
+                "quantity-wy27-s09-t02-mother-01-question",
+                "quantity-wy27-s09-t02-mother-01-explanation-01",
+                "quantity-wy27-s09-t02-mother-02-question",
+                "quantity-wy27-s09-t02-mother-02-explanation-01",
+                "quantity-wy27-s09-t02-mother-03-question",
+                "quantity-wy27-s09-t02-mother-03-explanation-01",
+                "quantity-wy27-s09-t02-practice-01-question",
+                "quantity-wy27-s09-t02-practice-01-explanation-01",
+                "quantity-wy27-s09-t02-practice-02-question",
+                "quantity-wy27-s09-t02-practice-02-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s09-t02-mother-01",
+                "quantity-wy27-s09-t02-mother-02",
+                "quantity-wy27-s09-t02-mother-03",
+                "quantity-wy27-s09-t02-practice-01",
+                "quantity-wy27-s09-t02-practice-02"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s09-t02.json"
+            },
+            {
+              "id": "quantity-wy27-s09-drill-01",
+              "title": "实战精刷 · 1—4题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s09-t03-drill-01-question",
+                "quantity-wy27-s09-t03-drill-01-explanation-01",
+                "quantity-wy27-s09-t03-drill-02-question",
+                "quantity-wy27-s09-t03-drill-02-explanation-01",
+                "quantity-wy27-s09-t03-drill-03-question",
+                "quantity-wy27-s09-t03-drill-03-explanation-01",
+                "quantity-wy27-s09-t03-drill-04-question",
+                "quantity-wy27-s09-t03-drill-04-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s09-t03-drill-01",
+                "quantity-wy27-s09-t03-drill-02",
+                "quantity-wy27-s09-t03-drill-03",
+                "quantity-wy27-s09-t03-drill-04"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s09-drill-01.json"
+            },
+            {
+              "id": "quantity-wy27-s09-drill-02",
+              "title": "实战精刷 · 5—8题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s09-t03-drill-05-question",
+                "quantity-wy27-s09-t03-drill-05-explanation-01",
+                "quantity-wy27-s09-t03-drill-06-question",
+                "quantity-wy27-s09-t03-drill-06-explanation-01",
+                "quantity-wy27-s09-t03-drill-07-question",
+                "quantity-wy27-s09-t03-drill-07-explanation-01",
+                "quantity-wy27-s09-t03-drill-08-question",
+                "quantity-wy27-s09-t03-drill-08-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s09-t03-drill-05",
+                "quantity-wy27-s09-t03-drill-06",
+                "quantity-wy27-s09-t03-drill-07",
+                "quantity-wy27-s09-t03-drill-08"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s09-drill-02.json"
+            },
+            {
+              "id": "quantity-wy27-s09-drill-03",
+              "title": "实战精刷 · 9—10题",
+              "cardCount": 4,
+              "questionCount": 2,
+              "cardIds": [
+                "quantity-wy27-s09-t03-drill-09-question",
+                "quantity-wy27-s09-t03-drill-09-explanation-01",
+                "quantity-wy27-s09-t03-drill-10-question",
+                "quantity-wy27-s09-t03-drill-10-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s09-t03-drill-09",
+                "quantity-wy27-s09-t03-drill-10"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s09-drill-03.json"
+            }
+          ]
+        },
+        {
+          "id": "quantity-wy27-s10",
+          "title": "排列组合问题（一）",
+          "lessons": [
+            {
+              "id": "quantity-wy27-s10-t01",
+              "title": "分类分步与排列组合",
+              "cardCount": 18,
+              "questionCount": 8,
+              "cardIds": [
+                "quantity-wy27-s10-t01-knowledge-01-01",
+                "quantity-wy27-s10-t01-mother-01-question",
+                "quantity-wy27-s10-t01-mother-01-explanation-01",
+                "quantity-wy27-s10-t01-mother-02-question",
+                "quantity-wy27-s10-t01-mother-02-explanation-01",
+                "quantity-wy27-s10-t01-mother-03-question",
+                "quantity-wy27-s10-t01-mother-03-explanation-01",
+                "quantity-wy27-s10-t01-mother-03-explanation-02",
+                "quantity-wy27-s10-t01-mother-04-question",
+                "quantity-wy27-s10-t01-mother-04-explanation-01",
+                "quantity-wy27-s10-t01-practice-01-question",
+                "quantity-wy27-s10-t01-practice-01-explanation-01",
+                "quantity-wy27-s10-t01-practice-02-question",
+                "quantity-wy27-s10-t01-practice-02-explanation-01",
+                "quantity-wy27-s10-t01-practice-03-question",
+                "quantity-wy27-s10-t01-practice-03-explanation-01",
+                "quantity-wy27-s10-t01-practice-04-question",
+                "quantity-wy27-s10-t01-practice-04-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s10-t01-mother-01",
+                "quantity-wy27-s10-t01-mother-02",
+                "quantity-wy27-s10-t01-mother-03",
+                "quantity-wy27-s10-t01-mother-04",
+                "quantity-wy27-s10-t01-practice-01",
+                "quantity-wy27-s10-t01-practice-02",
+                "quantity-wy27-s10-t01-practice-03",
+                "quantity-wy27-s10-t01-practice-04"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s10-t01.json"
+            },
+            {
+              "id": "quantity-wy27-s10-t02",
+              "title": "常用方法",
+              "cardCount": 15,
+              "questionCount": 7,
+              "cardIds": [
+                "quantity-wy27-s10-t02-knowledge-01-01",
+                "quantity-wy27-s10-t02-mother-01-question",
+                "quantity-wy27-s10-t02-mother-01-explanation-01",
+                "quantity-wy27-s10-t02-mother-02-question",
+                "quantity-wy27-s10-t02-mother-02-explanation-01",
+                "quantity-wy27-s10-t02-mother-03-question",
+                "quantity-wy27-s10-t02-mother-03-explanation-01",
+                "quantity-wy27-s10-t02-practice-01-question",
+                "quantity-wy27-s10-t02-practice-01-explanation-01",
+                "quantity-wy27-s10-t02-practice-02-question",
+                "quantity-wy27-s10-t02-practice-02-explanation-01",
+                "quantity-wy27-s10-t02-practice-03-question",
+                "quantity-wy27-s10-t02-practice-03-explanation-01",
+                "quantity-wy27-s10-t02-practice-04-question",
+                "quantity-wy27-s10-t02-practice-04-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s10-t02-mother-01",
+                "quantity-wy27-s10-t02-mother-02",
+                "quantity-wy27-s10-t02-mother-03",
+                "quantity-wy27-s10-t02-practice-01",
+                "quantity-wy27-s10-t02-practice-02",
+                "quantity-wy27-s10-t02-practice-03",
+                "quantity-wy27-s10-t02-practice-04"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s10-t02.json"
+            },
+            {
+              "id": "quantity-wy27-s10-drill-01",
+              "title": "实战精刷 · 1—4题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s10-t03-drill-01-question",
+                "quantity-wy27-s10-t03-drill-01-explanation-01",
+                "quantity-wy27-s10-t03-drill-02-question",
+                "quantity-wy27-s10-t03-drill-02-explanation-01",
+                "quantity-wy27-s10-t03-drill-03-question",
+                "quantity-wy27-s10-t03-drill-03-explanation-01",
+                "quantity-wy27-s10-t03-drill-04-question",
+                "quantity-wy27-s10-t03-drill-04-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s10-t03-drill-01",
+                "quantity-wy27-s10-t03-drill-02",
+                "quantity-wy27-s10-t03-drill-03",
+                "quantity-wy27-s10-t03-drill-04"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s10-drill-01.json"
+            },
+            {
+              "id": "quantity-wy27-s10-drill-02",
+              "title": "实战精刷 · 5—8题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s10-t03-drill-05-question",
+                "quantity-wy27-s10-t03-drill-05-explanation-01",
+                "quantity-wy27-s10-t03-drill-06-question",
+                "quantity-wy27-s10-t03-drill-06-explanation-01",
+                "quantity-wy27-s10-t03-drill-07-question",
+                "quantity-wy27-s10-t03-drill-07-explanation-01",
+                "quantity-wy27-s10-t03-drill-08-question",
+                "quantity-wy27-s10-t03-drill-08-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s10-t03-drill-05",
+                "quantity-wy27-s10-t03-drill-06",
+                "quantity-wy27-s10-t03-drill-07",
+                "quantity-wy27-s10-t03-drill-08"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s10-drill-02.json"
+            },
+            {
+              "id": "quantity-wy27-s10-drill-03",
+              "title": "实战精刷 · 9—12题",
+              "cardCount": 8,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s10-t03-drill-09-question",
+                "quantity-wy27-s10-t03-drill-09-explanation-01",
+                "quantity-wy27-s10-t03-drill-10-question",
+                "quantity-wy27-s10-t03-drill-10-explanation-01",
+                "quantity-wy27-s10-t03-drill-11-question",
+                "quantity-wy27-s10-t03-drill-11-explanation-01",
+                "quantity-wy27-s10-t03-drill-12-question",
+                "quantity-wy27-s10-t03-drill-12-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s10-t03-drill-09",
+                "quantity-wy27-s10-t03-drill-10",
+                "quantity-wy27-s10-t03-drill-11",
+                "quantity-wy27-s10-t03-drill-12"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s10-drill-03.json"
+            },
+            {
+              "id": "quantity-wy27-s10-drill-04",
+              "title": "实战精刷 · 13—14题",
+              "cardCount": 4,
+              "questionCount": 2,
+              "cardIds": [
+                "quantity-wy27-s10-t03-drill-13-question",
+                "quantity-wy27-s10-t03-drill-13-explanation-01",
+                "quantity-wy27-s10-t03-drill-14-question",
+                "quantity-wy27-s10-t03-drill-14-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s10-t03-drill-13",
+                "quantity-wy27-s10-t03-drill-14"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s10-drill-04.json"
+            }
+          ]
+        },
+        {
+          "id": "quantity-wy27-s11",
+          "title": "排列组合问题（二）",
+          "lessons": [
+            {
+              "id": "quantity-wy27-s11-t01",
+              "title": "常考模型",
+              "cardCount": 29,
+              "questionCount": 13,
+              "cardIds": [
+                "quantity-wy27-s11-t01-knowledge-01-01",
+                "quantity-wy27-s11-t01-mother-01-question",
+                "quantity-wy27-s11-t01-mother-01-explanation-01",
+                "quantity-wy27-s11-t01-mother-02-question",
+                "quantity-wy27-s11-t01-mother-02-explanation-01",
+                "quantity-wy27-s11-t01-mother-03-question",
+                "quantity-wy27-s11-t01-mother-03-explanation-01",
+                "quantity-wy27-s11-t01-mother-04-question",
+                "quantity-wy27-s11-t01-mother-04-explanation-01",
+                "quantity-wy27-s11-t01-mother-05-question",
+                "quantity-wy27-s11-t01-mother-05-explanation-01",
+                "quantity-wy27-s11-t01-mother-06-question",
+                "quantity-wy27-s11-t01-mother-06-explanation-01",
+                "quantity-wy27-s11-t01-practice-01-question",
+                "quantity-wy27-s11-t01-practice-01-explanation-01",
+                "quantity-wy27-s11-t01-practice-02-question",
+                "quantity-wy27-s11-t01-practice-02-explanation-01",
+                "quantity-wy27-s11-t01-practice-03-question",
+                "quantity-wy27-s11-t01-practice-03-explanation-01",
+                "quantity-wy27-s11-t01-practice-03-explanation-02",
+                "quantity-wy27-s11-t01-practice-04-question",
+                "quantity-wy27-s11-t01-practice-04-explanation-01",
+                "quantity-wy27-s11-t01-practice-05-question",
+                "quantity-wy27-s11-t01-practice-05-explanation-01",
+                "quantity-wy27-s11-t01-practice-06-question",
+                "quantity-wy27-s11-t01-practice-06-explanation-01",
+                "quantity-wy27-s11-t01-practice-06-explanation-02",
+                "quantity-wy27-s11-t01-practice-07-question",
+                "quantity-wy27-s11-t01-practice-07-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s11-t01-mother-01",
+                "quantity-wy27-s11-t01-mother-02",
+                "quantity-wy27-s11-t01-mother-03",
+                "quantity-wy27-s11-t01-mother-04",
+                "quantity-wy27-s11-t01-mother-05",
+                "quantity-wy27-s11-t01-mother-06",
+                "quantity-wy27-s11-t01-practice-01",
+                "quantity-wy27-s11-t01-practice-02",
+                "quantity-wy27-s11-t01-practice-03",
+                "quantity-wy27-s11-t01-practice-04",
+                "quantity-wy27-s11-t01-practice-05",
+                "quantity-wy27-s11-t01-practice-06",
+                "quantity-wy27-s11-t01-practice-07"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s11-t01.json"
+            },
+            {
+              "id": "quantity-wy27-s11-drill-01",
+              "title": "实战精刷 · 1—4题",
+              "cardCount": 9,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s11-t02-drill-01-question",
+                "quantity-wy27-s11-t02-drill-01-explanation-01",
+                "quantity-wy27-s11-t02-drill-02-question",
+                "quantity-wy27-s11-t02-drill-02-explanation-01",
+                "quantity-wy27-s11-t02-drill-02-explanation-02",
+                "quantity-wy27-s11-t02-drill-03-question",
+                "quantity-wy27-s11-t02-drill-03-explanation-01",
+                "quantity-wy27-s11-t02-drill-04-question",
+                "quantity-wy27-s11-t02-drill-04-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s11-t02-drill-01",
+                "quantity-wy27-s11-t02-drill-02",
+                "quantity-wy27-s11-t02-drill-03",
+                "quantity-wy27-s11-t02-drill-04"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s11-drill-01.json"
+            },
+            {
+              "id": "quantity-wy27-s11-drill-02",
+              "title": "实战精刷 · 5—8题",
+              "cardCount": 9,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s11-t02-drill-05-question",
+                "quantity-wy27-s11-t02-drill-05-explanation-01",
+                "quantity-wy27-s11-t02-drill-05-explanation-02",
+                "quantity-wy27-s11-t02-drill-06-question",
+                "quantity-wy27-s11-t02-drill-06-explanation-01",
+                "quantity-wy27-s11-t02-drill-07-question",
+                "quantity-wy27-s11-t02-drill-07-explanation-01",
+                "quantity-wy27-s11-t02-drill-08-question",
+                "quantity-wy27-s11-t02-drill-08-explanation-01"
+              ],
+              "questionIds": [
+                "quantity-wy27-s11-t02-drill-05",
+                "quantity-wy27-s11-t02-drill-06",
+                "quantity-wy27-s11-t02-drill-07",
+                "quantity-wy27-s11-t02-drill-08"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s11-drill-02.json"
+            },
+            {
+              "id": "quantity-wy27-s11-drill-03",
+              "title": "实战精刷 · 9—12题",
+              "cardCount": 10,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s11-t02-drill-09-question",
+                "quantity-wy27-s11-t02-drill-09-explanation-01",
+                "quantity-wy27-s11-t02-drill-09-explanation-02",
+                "quantity-wy27-s11-t02-drill-10-question",
+                "quantity-wy27-s11-t02-drill-10-explanation-01",
+                "quantity-wy27-s11-t02-drill-11-question",
+                "quantity-wy27-s11-t02-drill-11-explanation-01",
+                "quantity-wy27-s11-t02-drill-12-question",
+                "quantity-wy27-s11-t02-drill-12-explanation-01",
+                "quantity-wy27-s11-t02-drill-12-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s11-t02-drill-09",
+                "quantity-wy27-s11-t02-drill-10",
+                "quantity-wy27-s11-t02-drill-11",
+                "quantity-wy27-s11-t02-drill-12"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s11-drill-03.json"
+            },
+            {
+              "id": "quantity-wy27-s11-drill-04",
+              "title": "实战精刷 · 第13题",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "quantity-wy27-s11-t02-drill-13-question",
+                "quantity-wy27-s11-t02-drill-13-explanation-01",
+                "quantity-wy27-s11-t02-drill-13-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s11-t02-drill-13"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s11-drill-04.json"
+            }
+          ]
+        },
+        {
+          "id": "quantity-wy27-s12",
+          "title": "概率问题（一）",
+          "lessons": [
+            {
+              "id": "quantity-wy27-s12-t01",
+              "title": "古典概率与计数口径",
+              "cardCount": 44,
+              "questionCount": 14,
+              "cardIds": [
+                "quantity-wy27-s12-t01-knowledge-01-01",
+                "quantity-wy27-s12-t01-knowledge-02-01",
+                "quantity-wy27-s12-t01-mother-01-question",
+                "quantity-wy27-s12-t01-mother-01-explanation-01",
+                "quantity-wy27-s12-t01-mother-01-explanation-02",
+                "quantity-wy27-s12-t01-mother-02-question",
+                "quantity-wy27-s12-t01-mother-02-explanation-01",
+                "quantity-wy27-s12-t01-mother-02-explanation-02",
+                "quantity-wy27-s12-t01-mother-03-question",
+                "quantity-wy27-s12-t01-mother-03-explanation-01",
+                "quantity-wy27-s12-t01-mother-03-explanation-02",
+                "quantity-wy27-s12-t01-mother-04-question",
+                "quantity-wy27-s12-t01-mother-04-explanation-01",
+                "quantity-wy27-s12-t01-mother-04-explanation-02",
+                "quantity-wy27-s12-t01-mother-05-question",
+                "quantity-wy27-s12-t01-mother-05-explanation-01",
+                "quantity-wy27-s12-t01-mother-05-explanation-02",
+                "quantity-wy27-s12-t01-mother-06-question",
+                "quantity-wy27-s12-t01-mother-06-explanation-01",
+                "quantity-wy27-s12-t01-mother-06-explanation-02",
+                "quantity-wy27-s12-t01-mother-07-question",
+                "quantity-wy27-s12-t01-mother-07-explanation-01",
+                "quantity-wy27-s12-t01-mother-07-explanation-02",
+                "quantity-wy27-s12-t01-practice-01-question",
+                "quantity-wy27-s12-t01-practice-01-explanation-01",
+                "quantity-wy27-s12-t01-practice-01-explanation-02",
+                "quantity-wy27-s12-t01-practice-02-question",
+                "quantity-wy27-s12-t01-practice-02-explanation-01",
+                "quantity-wy27-s12-t01-practice-02-explanation-02",
+                "quantity-wy27-s12-t01-practice-03-question",
+                "quantity-wy27-s12-t01-practice-03-explanation-01",
+                "quantity-wy27-s12-t01-practice-03-explanation-02",
+                "quantity-wy27-s12-t01-practice-04-question",
+                "quantity-wy27-s12-t01-practice-04-explanation-01",
+                "quantity-wy27-s12-t01-practice-04-explanation-02",
+                "quantity-wy27-s12-t01-practice-05-question",
+                "quantity-wy27-s12-t01-practice-05-explanation-01",
+                "quantity-wy27-s12-t01-practice-05-explanation-02",
+                "quantity-wy27-s12-t01-practice-06-question",
+                "quantity-wy27-s12-t01-practice-06-explanation-01",
+                "quantity-wy27-s12-t01-practice-06-explanation-02",
+                "quantity-wy27-s12-t01-practice-07-question",
+                "quantity-wy27-s12-t01-practice-07-explanation-01",
+                "quantity-wy27-s12-t01-practice-07-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s12-t01-mother-01",
+                "quantity-wy27-s12-t01-mother-02",
+                "quantity-wy27-s12-t01-mother-03",
+                "quantity-wy27-s12-t01-mother-04",
+                "quantity-wy27-s12-t01-mother-05",
+                "quantity-wy27-s12-t01-mother-06",
+                "quantity-wy27-s12-t01-mother-07",
+                "quantity-wy27-s12-t01-practice-01",
+                "quantity-wy27-s12-t01-practice-02",
+                "quantity-wy27-s12-t01-practice-03",
+                "quantity-wy27-s12-t01-practice-04",
+                "quantity-wy27-s12-t01-practice-05",
+                "quantity-wy27-s12-t01-practice-06",
+                "quantity-wy27-s12-t01-practice-07"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s12-t01.json"
+            },
+            {
+              "id": "quantity-wy27-s12-drill-01",
+              "title": "实战精刷 · 1—4题",
+              "cardCount": 11,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s12-t02-drill-01-question",
+                "quantity-wy27-s12-t02-drill-01-explanation-01",
+                "quantity-wy27-s12-t02-drill-02-question",
+                "quantity-wy27-s12-t02-drill-02-explanation-01",
+                "quantity-wy27-s12-t02-drill-02-explanation-02",
+                "quantity-wy27-s12-t02-drill-03-question",
+                "quantity-wy27-s12-t02-drill-03-explanation-01",
+                "quantity-wy27-s12-t02-drill-03-explanation-02",
+                "quantity-wy27-s12-t02-drill-04-question",
+                "quantity-wy27-s12-t02-drill-04-explanation-01",
+                "quantity-wy27-s12-t02-drill-04-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s12-t02-drill-01",
+                "quantity-wy27-s12-t02-drill-02",
+                "quantity-wy27-s12-t02-drill-03",
+                "quantity-wy27-s12-t02-drill-04"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s12-drill-01.json"
+            },
+            {
+              "id": "quantity-wy27-s12-drill-02",
+              "title": "实战精刷 · 5—8题",
+              "cardCount": 12,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s12-t02-drill-05-question",
+                "quantity-wy27-s12-t02-drill-05-explanation-01",
+                "quantity-wy27-s12-t02-drill-05-explanation-02",
+                "quantity-wy27-s12-t02-drill-06-question",
+                "quantity-wy27-s12-t02-drill-06-explanation-01",
+                "quantity-wy27-s12-t02-drill-06-explanation-02",
+                "quantity-wy27-s12-t02-drill-07-question",
+                "quantity-wy27-s12-t02-drill-07-explanation-01",
+                "quantity-wy27-s12-t02-drill-07-explanation-02",
+                "quantity-wy27-s12-t02-drill-08-question",
+                "quantity-wy27-s12-t02-drill-08-explanation-01",
+                "quantity-wy27-s12-t02-drill-08-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s12-t02-drill-05",
+                "quantity-wy27-s12-t02-drill-06",
+                "quantity-wy27-s12-t02-drill-07",
+                "quantity-wy27-s12-t02-drill-08"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s12-drill-02.json"
+            },
+            {
+              "id": "quantity-wy27-s12-drill-03",
+              "title": "实战精刷 · 9—12题",
+              "cardCount": 11,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s12-t02-drill-09-question",
+                "quantity-wy27-s12-t02-drill-09-explanation-01",
+                "quantity-wy27-s12-t02-drill-09-explanation-02",
+                "quantity-wy27-s12-t02-drill-10-question",
+                "quantity-wy27-s12-t02-drill-10-explanation-01",
+                "quantity-wy27-s12-t02-drill-11-question",
+                "quantity-wy27-s12-t02-drill-11-explanation-01",
+                "quantity-wy27-s12-t02-drill-11-explanation-02",
+                "quantity-wy27-s12-t02-drill-12-question",
+                "quantity-wy27-s12-t02-drill-12-explanation-01",
+                "quantity-wy27-s12-t02-drill-12-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s12-t02-drill-09",
+                "quantity-wy27-s12-t02-drill-10",
+                "quantity-wy27-s12-t02-drill-11",
+                "quantity-wy27-s12-t02-drill-12"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s12-drill-03.json"
+            }
+          ]
+        },
+        {
+          "id": "quantity-wy27-s13",
+          "title": "概率问题（二）",
+          "lessons": [
+            {
+              "id": "quantity-wy27-s13-t01",
+              "title": "独立事件、条件概率与互斥分类",
+              "cardCount": 19,
+              "questionCount": 6,
+              "cardIds": [
+                "quantity-wy27-s13-t01-knowledge-01-01",
+                "quantity-wy27-s13-t01-mother-01-question",
+                "quantity-wy27-s13-t01-mother-01-explanation-01",
+                "quantity-wy27-s13-t01-mother-01-explanation-02",
+                "quantity-wy27-s13-t01-mother-02-question",
+                "quantity-wy27-s13-t01-mother-02-explanation-01",
+                "quantity-wy27-s13-t01-mother-02-explanation-02",
+                "quantity-wy27-s13-t01-mother-03-question",
+                "quantity-wy27-s13-t01-mother-03-explanation-01",
+                "quantity-wy27-s13-t01-mother-03-explanation-02",
+                "quantity-wy27-s13-t01-practice-01-question",
+                "quantity-wy27-s13-t01-practice-01-explanation-01",
+                "quantity-wy27-s13-t01-practice-01-explanation-02",
+                "quantity-wy27-s13-t01-practice-02-question",
+                "quantity-wy27-s13-t01-practice-02-explanation-01",
+                "quantity-wy27-s13-t01-practice-02-explanation-02",
+                "quantity-wy27-s13-t01-practice-03-question",
+                "quantity-wy27-s13-t01-practice-03-explanation-01",
+                "quantity-wy27-s13-t01-practice-03-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s13-t01-mother-01",
+                "quantity-wy27-s13-t01-mother-02",
+                "quantity-wy27-s13-t01-mother-03",
+                "quantity-wy27-s13-t01-practice-01",
+                "quantity-wy27-s13-t01-practice-02",
+                "quantity-wy27-s13-t01-practice-03"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s13-t01.json"
+            },
+            {
+              "id": "quantity-wy27-s13-t02",
+              "title": "多次独立重复试验",
+              "cardCount": 13,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s13-t02-knowledge-01-01",
+                "quantity-wy27-s13-t02-mother-01-question",
+                "quantity-wy27-s13-t02-mother-01-explanation-01",
+                "quantity-wy27-s13-t02-mother-01-explanation-02",
+                "quantity-wy27-s13-t02-mother-02-question",
+                "quantity-wy27-s13-t02-mother-02-explanation-01",
+                "quantity-wy27-s13-t02-mother-02-explanation-02",
+                "quantity-wy27-s13-t02-practice-01-question",
+                "quantity-wy27-s13-t02-practice-01-explanation-01",
+                "quantity-wy27-s13-t02-practice-01-explanation-02",
+                "quantity-wy27-s13-t02-practice-02-question",
+                "quantity-wy27-s13-t02-practice-02-explanation-01",
+                "quantity-wy27-s13-t02-practice-02-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s13-t02-mother-01",
+                "quantity-wy27-s13-t02-mother-02",
+                "quantity-wy27-s13-t02-practice-01",
+                "quantity-wy27-s13-t02-practice-02"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s13-t02.json"
+            },
+            {
+              "id": "quantity-wy27-s13-drill-01",
+              "title": "实战精刷 · 1—4题",
+              "cardCount": 12,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s13-t03-drill-01-question",
+                "quantity-wy27-s13-t03-drill-01-explanation-01",
+                "quantity-wy27-s13-t03-drill-01-explanation-02",
+                "quantity-wy27-s13-t03-drill-02-question",
+                "quantity-wy27-s13-t03-drill-02-explanation-01",
+                "quantity-wy27-s13-t03-drill-02-explanation-02",
+                "quantity-wy27-s13-t03-drill-03-question",
+                "quantity-wy27-s13-t03-drill-03-explanation-01",
+                "quantity-wy27-s13-t03-drill-03-explanation-02",
+                "quantity-wy27-s13-t03-drill-04-question",
+                "quantity-wy27-s13-t03-drill-04-explanation-01",
+                "quantity-wy27-s13-t03-drill-04-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s13-t03-drill-01",
+                "quantity-wy27-s13-t03-drill-02",
+                "quantity-wy27-s13-t03-drill-03",
+                "quantity-wy27-s13-t03-drill-04"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s13-drill-01.json"
+            },
+            {
+              "id": "quantity-wy27-s13-drill-02",
+              "title": "实战精刷 · 5—8题",
+              "cardCount": 12,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s13-t03-drill-05-question",
+                "quantity-wy27-s13-t03-drill-05-explanation-01",
+                "quantity-wy27-s13-t03-drill-05-explanation-02",
+                "quantity-wy27-s13-t03-drill-06-question",
+                "quantity-wy27-s13-t03-drill-06-explanation-01",
+                "quantity-wy27-s13-t03-drill-06-explanation-02",
+                "quantity-wy27-s13-t03-drill-07-question",
+                "quantity-wy27-s13-t03-drill-07-explanation-01",
+                "quantity-wy27-s13-t03-drill-07-explanation-02",
+                "quantity-wy27-s13-t03-drill-08-question",
+                "quantity-wy27-s13-t03-drill-08-explanation-01",
+                "quantity-wy27-s13-t03-drill-08-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s13-t03-drill-05",
+                "quantity-wy27-s13-t03-drill-06",
+                "quantity-wy27-s13-t03-drill-07",
+                "quantity-wy27-s13-t03-drill-08"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s13-drill-02.json"
+            },
+            {
+              "id": "quantity-wy27-s13-drill-03",
+              "title": "实战精刷 · 第9题",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "quantity-wy27-s13-t03-drill-09-question",
+                "quantity-wy27-s13-t03-drill-09-explanation-01",
+                "quantity-wy27-s13-t03-drill-09-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s13-t03-drill-09"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s13-drill-03.json"
+            }
+          ]
+        },
+        {
+          "id": "quantity-wy27-s14",
+          "title": "几何问题（一）",
+          "lessons": [
+            {
+              "id": "quantity-wy27-s14-t01",
+              "title": "常考面积、周长与体积",
+              "cardCount": 17,
+              "questionCount": 5,
+              "cardIds": [
+                "quantity-wy27-s14-t01-knowledge-01-01",
+                "quantity-wy27-s14-t01-knowledge-01-02",
+                "quantity-wy27-s14-t01-mother-01-question",
+                "quantity-wy27-s14-t01-mother-01-explanation-01",
+                "quantity-wy27-s14-t01-mother-01-explanation-02",
+                "quantity-wy27-s14-t01-mother-02-question",
+                "quantity-wy27-s14-t01-mother-02-explanation-01",
+                "quantity-wy27-s14-t01-mother-02-explanation-02",
+                "quantity-wy27-s14-t01-mother-03-question",
+                "quantity-wy27-s14-t01-mother-03-explanation-01",
+                "quantity-wy27-s14-t01-mother-03-explanation-02",
+                "quantity-wy27-s14-t01-practice-01-question",
+                "quantity-wy27-s14-t01-practice-01-explanation-01",
+                "quantity-wy27-s14-t01-practice-01-explanation-02",
+                "quantity-wy27-s14-t01-practice-02-question",
+                "quantity-wy27-s14-t01-practice-02-explanation-01",
+                "quantity-wy27-s14-t01-practice-02-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s14-t01-mother-01",
+                "quantity-wy27-s14-t01-mother-02",
+                "quantity-wy27-s14-t01-mother-03",
+                "quantity-wy27-s14-t01-practice-01",
+                "quantity-wy27-s14-t01-practice-02"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s14-t01.json"
+            },
+            {
+              "id": "quantity-wy27-s14-t02",
+              "title": "勾股、特殊角、方位与反射",
+              "cardCount": 19,
+              "questionCount": 6,
+              "cardIds": [
+                "quantity-wy27-s14-t02-knowledge-01-01",
+                "quantity-wy27-s14-t02-mother-01-question",
+                "quantity-wy27-s14-t02-mother-01-explanation-01",
+                "quantity-wy27-s14-t02-mother-01-explanation-02",
+                "quantity-wy27-s14-t02-mother-02-question",
+                "quantity-wy27-s14-t02-mother-02-explanation-01",
+                "quantity-wy27-s14-t02-mother-02-explanation-02",
+                "quantity-wy27-s14-t02-mother-03-question",
+                "quantity-wy27-s14-t02-mother-03-explanation-01",
+                "quantity-wy27-s14-t02-mother-03-explanation-02",
+                "quantity-wy27-s14-t02-practice-01-question",
+                "quantity-wy27-s14-t02-practice-01-explanation-01",
+                "quantity-wy27-s14-t02-practice-01-explanation-02",
+                "quantity-wy27-s14-t02-practice-02-question",
+                "quantity-wy27-s14-t02-practice-02-explanation-01",
+                "quantity-wy27-s14-t02-practice-02-explanation-02",
+                "quantity-wy27-s14-t02-practice-03-question",
+                "quantity-wy27-s14-t02-practice-03-explanation-01",
+                "quantity-wy27-s14-t02-practice-03-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s14-t02-mother-01",
+                "quantity-wy27-s14-t02-mother-02",
+                "quantity-wy27-s14-t02-mother-03",
+                "quantity-wy27-s14-t02-practice-01",
+                "quantity-wy27-s14-t02-practice-02",
+                "quantity-wy27-s14-t02-practice-03"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s14-t02.json"
+            },
+            {
+              "id": "quantity-wy27-s14-drill-01",
+              "title": "实战精刷 · 1—4题",
+              "cardCount": 12,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s14-t03-drill-01-question",
+                "quantity-wy27-s14-t03-drill-01-explanation-01",
+                "quantity-wy27-s14-t03-drill-01-explanation-02",
+                "quantity-wy27-s14-t03-drill-02-question",
+                "quantity-wy27-s14-t03-drill-02-explanation-01",
+                "quantity-wy27-s14-t03-drill-02-explanation-02",
+                "quantity-wy27-s14-t03-drill-03-question",
+                "quantity-wy27-s14-t03-drill-03-explanation-01",
+                "quantity-wy27-s14-t03-drill-03-explanation-02",
+                "quantity-wy27-s14-t03-drill-04-question",
+                "quantity-wy27-s14-t03-drill-04-explanation-01",
+                "quantity-wy27-s14-t03-drill-04-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s14-t03-drill-01",
+                "quantity-wy27-s14-t03-drill-02",
+                "quantity-wy27-s14-t03-drill-03",
+                "quantity-wy27-s14-t03-drill-04"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s14-drill-01.json"
+            },
+            {
+              "id": "quantity-wy27-s14-drill-02",
+              "title": "实战精刷 · 5—8题",
+              "cardCount": 12,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s14-t03-drill-05-question",
+                "quantity-wy27-s14-t03-drill-05-explanation-01",
+                "quantity-wy27-s14-t03-drill-05-explanation-02",
+                "quantity-wy27-s14-t03-drill-06-question",
+                "quantity-wy27-s14-t03-drill-06-explanation-01",
+                "quantity-wy27-s14-t03-drill-06-explanation-02",
+                "quantity-wy27-s14-t03-drill-07-question",
+                "quantity-wy27-s14-t03-drill-07-explanation-01",
+                "quantity-wy27-s14-t03-drill-07-explanation-02",
+                "quantity-wy27-s14-t03-drill-08-question",
+                "quantity-wy27-s14-t03-drill-08-explanation-01",
+                "quantity-wy27-s14-t03-drill-08-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s14-t03-drill-05",
+                "quantity-wy27-s14-t03-drill-06",
+                "quantity-wy27-s14-t03-drill-07",
+                "quantity-wy27-s14-t03-drill-08"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s14-drill-02.json"
+            },
+            {
+              "id": "quantity-wy27-s14-drill-03",
+              "title": "实战精刷 · 9—10题",
+              "cardCount": 6,
+              "questionCount": 2,
+              "cardIds": [
+                "quantity-wy27-s14-t03-drill-09-question",
+                "quantity-wy27-s14-t03-drill-09-explanation-01",
+                "quantity-wy27-s14-t03-drill-09-explanation-02",
+                "quantity-wy27-s14-t03-drill-10-question",
+                "quantity-wy27-s14-t03-drill-10-explanation-01",
+                "quantity-wy27-s14-t03-drill-10-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s14-t03-drill-09",
+                "quantity-wy27-s14-t03-drill-10"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s14-drill-03.json"
+            }
+          ]
+        },
+        {
+          "id": "quantity-wy27-s15",
+          "title": "几何问题（二）",
+          "lessons": [
+            {
+              "id": "quantity-wy27-s15-t01",
+              "title": "同底、同高与面积比",
+              "cardCount": 19,
+              "questionCount": 6,
+              "cardIds": [
+                "quantity-wy27-s15-t01-knowledge-01-01",
+                "quantity-wy27-s15-t01-mother-01-question",
+                "quantity-wy27-s15-t01-mother-01-explanation-01",
+                "quantity-wy27-s15-t01-mother-01-explanation-02",
+                "quantity-wy27-s15-t01-mother-02-question",
+                "quantity-wy27-s15-t01-mother-02-explanation-01",
+                "quantity-wy27-s15-t01-mother-02-explanation-02",
+                "quantity-wy27-s15-t01-mother-03-question",
+                "quantity-wy27-s15-t01-mother-03-explanation-01",
+                "quantity-wy27-s15-t01-mother-03-explanation-02",
+                "quantity-wy27-s15-t01-practice-01-question",
+                "quantity-wy27-s15-t01-practice-01-explanation-01",
+                "quantity-wy27-s15-t01-practice-01-explanation-02",
+                "quantity-wy27-s15-t01-practice-02-question",
+                "quantity-wy27-s15-t01-practice-02-explanation-01",
+                "quantity-wy27-s15-t01-practice-02-explanation-02",
+                "quantity-wy27-s15-t01-practice-03-question",
+                "quantity-wy27-s15-t01-practice-03-explanation-01",
+                "quantity-wy27-s15-t01-practice-03-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s15-t01-mother-01",
+                "quantity-wy27-s15-t01-mother-02",
+                "quantity-wy27-s15-t01-mother-03",
+                "quantity-wy27-s15-t01-practice-01",
+                "quantity-wy27-s15-t01-practice-02",
+                "quantity-wy27-s15-t01-practice-03"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s15-t01.json"
+            },
+            {
+              "id": "quantity-wy27-s15-t02",
+              "title": "相似图形与线、面、体比例",
+              "cardCount": 19,
+              "questionCount": 6,
+              "cardIds": [
+                "quantity-wy27-s15-t02-knowledge-01-01",
+                "quantity-wy27-s15-t02-mother-01-question",
+                "quantity-wy27-s15-t02-mother-01-explanation-01",
+                "quantity-wy27-s15-t02-mother-01-explanation-02",
+                "quantity-wy27-s15-t02-mother-02-question",
+                "quantity-wy27-s15-t02-mother-02-explanation-01",
+                "quantity-wy27-s15-t02-mother-02-explanation-02",
+                "quantity-wy27-s15-t02-mother-03-question",
+                "quantity-wy27-s15-t02-mother-03-explanation-01",
+                "quantity-wy27-s15-t02-mother-03-explanation-02",
+                "quantity-wy27-s15-t02-practice-01-question",
+                "quantity-wy27-s15-t02-practice-01-explanation-01",
+                "quantity-wy27-s15-t02-practice-01-explanation-02",
+                "quantity-wy27-s15-t02-practice-02-question",
+                "quantity-wy27-s15-t02-practice-02-explanation-01",
+                "quantity-wy27-s15-t02-practice-02-explanation-02",
+                "quantity-wy27-s15-t02-practice-03-question",
+                "quantity-wy27-s15-t02-practice-03-explanation-01",
+                "quantity-wy27-s15-t02-practice-03-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s15-t02-mother-01",
+                "quantity-wy27-s15-t02-mother-02",
+                "quantity-wy27-s15-t02-mother-03",
+                "quantity-wy27-s15-t02-practice-01",
+                "quantity-wy27-s15-t02-practice-02",
+                "quantity-wy27-s15-t02-practice-03"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s15-t02.json"
+            },
+            {
+              "id": "quantity-wy27-s15-drill-01",
+              "title": "实战精刷 · 1—4题",
+              "cardCount": 12,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s15-t03-drill-01-question",
+                "quantity-wy27-s15-t03-drill-01-explanation-01",
+                "quantity-wy27-s15-t03-drill-01-explanation-02",
+                "quantity-wy27-s15-t03-drill-02-question",
+                "quantity-wy27-s15-t03-drill-02-explanation-01",
+                "quantity-wy27-s15-t03-drill-02-explanation-02",
+                "quantity-wy27-s15-t03-drill-03-question",
+                "quantity-wy27-s15-t03-drill-03-explanation-01",
+                "quantity-wy27-s15-t03-drill-03-explanation-02",
+                "quantity-wy27-s15-t03-drill-04-question",
+                "quantity-wy27-s15-t03-drill-04-explanation-01",
+                "quantity-wy27-s15-t03-drill-04-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s15-t03-drill-01",
+                "quantity-wy27-s15-t03-drill-02",
+                "quantity-wy27-s15-t03-drill-03",
+                "quantity-wy27-s15-t03-drill-04"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s15-drill-01.json"
+            },
+            {
+              "id": "quantity-wy27-s15-drill-02",
+              "title": "实战精刷 · 5—8题",
+              "cardCount": 12,
+              "questionCount": 4,
+              "cardIds": [
+                "quantity-wy27-s15-t03-drill-05-question",
+                "quantity-wy27-s15-t03-drill-05-explanation-01",
+                "quantity-wy27-s15-t03-drill-05-explanation-02",
+                "quantity-wy27-s15-t03-drill-06-question",
+                "quantity-wy27-s15-t03-drill-06-explanation-01",
+                "quantity-wy27-s15-t03-drill-06-explanation-02",
+                "quantity-wy27-s15-t03-drill-07-question",
+                "quantity-wy27-s15-t03-drill-07-explanation-01",
+                "quantity-wy27-s15-t03-drill-07-explanation-02",
+                "quantity-wy27-s15-t03-drill-08-question",
+                "quantity-wy27-s15-t03-drill-08-explanation-01",
+                "quantity-wy27-s15-t03-drill-08-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s15-t03-drill-05",
+                "quantity-wy27-s15-t03-drill-06",
+                "quantity-wy27-s15-t03-drill-07",
+                "quantity-wy27-s15-t03-drill-08"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s15-drill-02.json"
+            },
+            {
+              "id": "quantity-wy27-s15-drill-03",
+              "title": "实战精刷 · 9—10题",
+              "cardCount": 6,
+              "questionCount": 2,
+              "cardIds": [
+                "quantity-wy27-s15-t03-drill-09-question",
+                "quantity-wy27-s15-t03-drill-09-explanation-01",
+                "quantity-wy27-s15-t03-drill-09-explanation-02",
+                "quantity-wy27-s15-t03-drill-10-question",
+                "quantity-wy27-s15-t03-drill-10-explanation-01",
+                "quantity-wy27-s15-t03-drill-10-explanation-02"
+              ],
+              "questionIds": [
+                "quantity-wy27-s15-t03-drill-09",
+                "quantity-wy27-s15-t03-drill-10"
+              ],
+              "path": "data/courses/lessons/quantity-wy27-s15-drill-03.json"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "revision": "wangyan27-20261025-v1"
+      }
+    },
+    {
+      "id": "analysis",
+      "title": "资料分析",
+      "groups": [
+        {
+          "id": "analysis-abrx",
+          "title": "基期、现期、增长率与增长量",
+          "lessons": [
+            {
+              "id": "analysis-p1-l01",
+              "title": "复盘不是把公式再背一遍，要想到它会怎么考",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p1-l01-knowledge-b1cf5c0-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p1-l01.json"
+            },
+            {
+              "id": "analysis-p1-l02",
+              "title": "ABRX：先把题目问的那个量认出来",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p1-l02-knowledge-756ddf8-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p1-l02.json"
+            },
+            {
+              "id": "analysis-p1-l03",
+              "title": "A 类：求基期，核心是把增长前的量还原出来",
+              "cardCount": 4,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p1-l03-knowledge-640852d-01",
+                "analysis-p1-l03-knowledge-640852d-02",
+                "analysis-p1-l03-knowledge-640852d-03",
+                "analysis-p1-l03-knowledge-640852d-04"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p1-l03.json"
+            },
+            {
+              "id": "analysis-p1-l04",
+              "title": "B 类：求后期，先分清是“每年多一样多”，还是“每年增长一样快”",
+              "cardCount": 4,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p1-l04-knowledge-6998d45-01",
+                "analysis-p1-l04-knowledge-6998d45-02",
+                "analysis-p1-l04-knowledge-6998d45-03",
+                "analysis-p1-l04-knowledge-6998d45-04"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p1-l04.json"
+            },
+            {
+              "id": "analysis-p1-l05",
+              "title": "R 类：增长率不是只有一种，先看量之间是怎么接的",
+              "cardCount": 5,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p1-l05-knowledge-bda70cb-01",
+                "analysis-p1-l05-knowledge-bda70cb-02",
+                "analysis-p1-l05-knowledge-bda70cb-03",
+                "analysis-p1-l05-knowledge-bda70cb-04",
+                "analysis-p1-l05-knowledge-bda70cb-05"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p1-l05.json"
+            },
+            {
+              "id": "analysis-p1-l06",
+              "title": "X 类：问增量，就把每一份增量算清楚",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p1-l06-knowledge-18a7ba6-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p1-l06.json"
+            }
+          ]
+        },
+        {
+          "id": "analysis-share",
+          "title": "比重",
+          "lessons": [
+            {
+              "id": "analysis-p1-l07",
+              "title": "单期比重：先认部分和整体，再看是今年还是去年",
+              "cardCount": 5,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p1-l07-knowledge-a642ef0-01",
+                "analysis-p1-l07-knowledge-a642ef0-02",
+                "analysis-p1-l07-knowledge-a642ef0-03",
+                "analysis-p1-l07-knowledge-a642ef0-04",
+                "analysis-p1-l07-knowledge-a642ef0-05"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p1-l07.json"
+            },
+            {
+              "id": "analysis-p1-l08",
+              "title": "两期比重先定性：部分长得比整体快，占比就往上走",
+              "cardCount": 2,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p1-l08-knowledge-c5abcd9-01",
+                "analysis-p1-l08-knowledge-c5abcd9-02"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p1-l08.json"
+            },
+            {
+              "id": "analysis-p1-l09",
+              "title": "两期比重差：先有去年部分，再乘增速差",
+              "cardCount": 3,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p1-l09-knowledge-b687740-01",
+                "analysis-p1-l09-knowledge-b687740-02",
+                "analysis-p1-l09-knowledge-b687740-03"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p1-l09.json"
+            }
+          ]
+        },
+        {
+          "id": "analysis-mixture",
+          "title": "混合与十字交叉",
+          "lessons": [
+            {
+              "id": "analysis-p1-l10",
+              "title": "盐水类：先把“两个部分合成一个整体”看出来",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p1-l10-knowledge-ff6ab8a-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p1-l10.json"
+            },
+            {
+              "id": "analysis-p1-l11",
+              "title": "盐水定性先看三排序：总体在中间",
+              "cardCount": 2,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p1-l11-knowledge-6fdcc80-01",
+                "analysis-p1-l11-knowledge-6fdcc80-02"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p1-l11.json"
+            },
+            {
+              "id": "analysis-p1-l12",
+              "title": "再看一步：总体靠近量大的那一边",
+              "cardCount": 2,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p1-l12-knowledge-235d027-01",
+                "analysis-p1-l12-knowledge-235d027-02"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p1-l12.json"
+            },
+            {
+              "id": "analysis-p1-l13",
+              "title": "盐水定量：距离之比和量之比成反比",
+              "cardCount": 7,
+              "questionCount": 1,
+              "cardIds": [
+                "analysis-q001-question",
+                "analysis-q001-explanation-a20fd0a-01",
+                "analysis-q001-explanation-a20fd0a-02",
+                "analysis-q001-explanation-a20fd0a-03",
+                "analysis-q001-explanation-a20fd0a-04",
+                "analysis-q001-explanation-a20fd0a-05",
+                "analysis-q001-explanation-a20fd0a-06"
+              ],
+              "questionIds": [
+                "analysis-q001"
+              ],
+              "path": "data/courses/lessons/analysis-p1-l13.json"
+            },
+            {
+              "id": "analysis-p2-l01",
+              "title": "十字交叉：给的不是人数，也能把人数比例反推出来",
+              "cardCount": 2,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p2-l01-knowledge-234d305-01",
+                "analysis-p2-l01-knowledge-234d305-02"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p2-l01.json"
+            }
+          ]
+        },
+        {
+          "id": "analysis-comparison",
+          "title": "比较大小",
+          "lessons": [
+            {
+              "id": "analysis-p2-l02",
+              "title": "比值大小：增长率、比重、基期、平均数，最后经常都变成两个分数",
+              "cardCount": 4,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p2-l02-knowledge-01ac73a-01",
+                "analysis-p2-l02-knowledge-01ac73a-02",
+                "analysis-p2-l02-knowledge-01ac73a-03",
+                "analysis-p2-l02-knowledge-01ac73a-04"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p2-l02.json"
+            },
+            {
+              "id": "analysis-p2-l03",
+              "title": "增量大小：大大则大，一大一小看倍数",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p2-l03-knowledge-faef30f-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p2-l03.json"
+            },
+            {
+              "id": "analysis-p2-l04",
+              "title": "姚潘理论：较大的那一边增加得更多，差距就扩大",
+              "cardCount": 2,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p2-l04-knowledge-3e38dff-01",
+                "analysis-p2-l04-knowledge-3e38dff-02"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p2-l04.json"
+            },
+            {
+              "id": "analysis-p2-l05",
+              "title": "代替比较：不改变大小关系，换一个更好算的式子",
+              "cardCount": 3,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p2-l05-knowledge-a66ba04-01",
+                "analysis-p2-l05-knowledge-a66ba04-02",
+                "analysis-p2-l05-knowledge-a66ba04-03"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p2-l05.json"
+            }
+          ]
+        },
+        {
+          "id": "analysis-average",
+          "title": "平均数与倍数",
+          "lessons": [
+            {
+              "id": "analysis-p2-l06",
+              "title": "平均数的基础：先把分母找对",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p2-l06-knowledge-5d87c7d-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p2-l06.json"
+            },
+            {
+              "id": "analysis-p2-l07",
+              "title": "基期平均数：现期平均数，乘增长率反过来",
+              "cardCount": 2,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p2-l07-knowledge-c8b4a1b-01",
+                "analysis-p2-l07-knowledge-c8b4a1b-02"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p2-l07.json"
+            },
+            {
+              "id": "analysis-p2-l08",
+              "title": "平均数趋势：不必算具体值，先看谁长得快",
+              "cardCount": 1,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p2-l08-knowledge-8fe35b3-01"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p2-l08.json"
+            },
+            {
+              "id": "analysis-p2-l09",
+              "title": "平均数差值：分子用基期，分母用现期，再乘两边增速差",
+              "cardCount": 5,
+              "questionCount": 1,
+              "cardIds": [
+                "analysis-p2-l09-knowledge-34b3576-01",
+                "analysis-p2-l09-knowledge-34b3576-02",
+                "analysis-q002-question",
+                "analysis-q002-explanation-cd2f24c-01",
+                "analysis-q002-explanation-cd2f24c-02"
+              ],
+              "questionIds": [
+                "analysis-q002"
+              ],
+              "path": "data/courses/lessons/analysis-p2-l09.json"
+            },
+            {
+              "id": "analysis-p2-l10",
+              "title": "是多少倍，和多多少倍，差一个1",
+              "cardCount": 2,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p2-l10-knowledge-4b1a96e-01",
+                "analysis-p2-l10-knowledge-4b1a96e-02"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p2-l10.json"
+            }
+          ]
+        },
+        {
+          "id": "analysis-annual",
+          "title": "年均增长",
+          "lessons": [
+            {
+              "id": "analysis-p2-l11",
+              "title": "年份要不要往前推：要分清“两个时点之间”和“这几个年度各自的增长”",
+              "cardCount": 2,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p2-l11-knowledge-e3cdae4-01",
+                "analysis-p2-l11-knowledge-e3cdae4-02"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p2-l11.json"
+            },
+            {
+              "id": "analysis-p2-l12",
+              "title": "年均增长率：先看末基比和增长期数",
+              "cardCount": 3,
+              "questionCount": 1,
+              "cardIds": [
+                "analysis-p2-l12-knowledge-4a9dcc3-01",
+                "analysis-q003-question",
+                "analysis-q003-explanation-45ca38a-01"
+              ],
+              "questionIds": [
+                "analysis-q003"
+              ],
+              "path": "data/courses/lessons/analysis-p2-l12.json"
+            },
+            {
+              "id": "analysis-p2-l13",
+              "title": "格尺法：先背几个锚点，再在小区间里定位",
+              "cardCount": 4,
+              "questionCount": 1,
+              "cardIds": [
+                "analysis-p2-l13-method-anchors",
+                "analysis-q004-question",
+                "analysis-q004-explanation-2f1a567-01",
+                "analysis-q004-explanation-2f1a567-02"
+              ],
+              "questionIds": [
+                "analysis-q004"
+              ],
+              "path": "data/courses/lessons/analysis-p2-l13.json"
+            },
+            {
+              "id": "analysis-p2-l14",
+              "title": "年均增长率逆着用：先还原整段倍数，再拆出其中一年",
+              "cardCount": 2,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p2-l14-knowledge-c394869-01",
+                "analysis-p2-l14-knowledge-c394869-02"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p2-l14.json"
+            },
+            {
+              "id": "analysis-p2-l15",
+              "title": "两段年均增速相同、期数也相同：直接让末基比相等",
+              "cardCount": 2,
+              "questionCount": 0,
+              "cardIds": [
+                "analysis-p2-l15-knowledge-d8e854a-01",
+                "analysis-p2-l15-knowledge-d8e854a-02"
+              ],
+              "questionIds": [],
+              "path": "data/courses/lessons/analysis-p2-l15.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "subjectCount": 4,
+    "groupCount": 43,
+    "lessonCount": 212,
+    "cardCount": 1265,
+    "questionCount": 459
+  }
+}

@@ -1,0 +1,894 @@
+{
+  "id": "quantity-wy27-s01-t01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s01",
+  "title": "整除思维",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "printedPages": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s01-t01-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "整除思维",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先区分整除和除尽。整除要求被除数、除数以及商都是整数且余数为0，例如6÷3=2；6÷4=1.5虽然能除尽，却不是整数意义上的整除。遇到人数、台数、册数等整数数量，再把最简比例变成倍数约束。"
+        },
+        {
+          "type": "formula",
+          "latex": "a:b=5:8\\Rightarrow a=5k,\\ b=8k,\\ a+b=13k,\\ b-a=3k\\quad(k\\in\\mathbb Z)"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们看到“每组、平均分、倍数、比例、百分数”，先问对应的量是否为整数。a同时被3和4整除，就被12整除；一般要取最小公倍数，不能把任何两个除数直接相乘。"
+        },
+        {
+          "type": "formula",
+          "latex": "a\\div4\\text{余}1\\Rightarrow4\\mid(a-1),\\quad4\\mid(a+3)"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们判断2、5看末一位，4、25看末两位，8、125看末三位；判断3、9看各位数字和；判断11看奇数位数字和与偶数位数字和之差。例如97878，奇数位和9+8+8=25、偶数位和7+7=14，差11，可以被11整除。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          7,
+          8
+        ],
+        "printedPages": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t01-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s01-t01-mother-01",
+        "type": "single",
+        "stem": "（26广东事考）某志愿组织向社区图书馆捐赠一批图书，其中文学类书籍比艺术类的2倍多500册，自然科学类书籍比文学类的2倍少1500册，比艺术类书籍的3倍多1000册，则自然科学类书籍有（）册。",
+        "options": [
+          {
+            "value": "A",
+            "label": "1500"
+          },
+          {
+            "value": "B",
+            "label": "3500"
+          },
+          {
+            "value": "C",
+            "label": "5500"
+          },
+          {
+            "value": "D",
+            "label": "7500"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          8
+        ],
+        "printedPages": [
+          2
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-mother-01-p008.webp",
+            "alt": "和差倍比问题（一） · 母题精讲1 · 讲义第2页",
+            "pdfPage": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t01-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t01-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看自然科学类书籍，同时与文学类、艺术类有倍数关系。设艺术类有x册，文学类就是2x+500册。把文学类代入自然科学类的两种表达，二者应当相等。"
+        },
+        {
+          "type": "formula",
+          "latex": "2(2x+500)-1500=3x+1000"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们整理得4x-500=3x+1000，所以x=1500。自然科学类有3×1500+1000=5500册。代回另一条：文学类3500册，2×3500-1500也等于5500，所以选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "同一个量有两种表达，把它们相等是最直接的突破口。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          8
+        ],
+        "printedPages": [
+          2
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-mother-01-p008.webp",
+            "alt": "和差倍比问题（一） · 母题精讲1 · 讲义第2页",
+            "pdfPage": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t01-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s01-t01-mother-02",
+        "type": "single",
+        "stem": "（23广东）某社区计划组建多支社工团队，为此招募了一批社工。如果每支团队由3名社工组成，则剩余2名社工；如果每支团队由4名社工组成，同样剩余2名社工，则该社区可能招募了（）名社工。",
+        "options": [
+          {
+            "value": "A",
+            "label": "32"
+          },
+          {
+            "value": "B",
+            "label": "34"
+          },
+          {
+            "value": "C",
+            "label": "36"
+          },
+          {
+            "value": "D",
+            "label": "38"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          8,
+          9
+        ],
+        "printedPages": [
+          2,
+          3
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-mother-02-p008.webp",
+            "alt": "和差倍比问题（一） · 母题精讲2 · 讲义第2页",
+            "pdfPage": 8
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-mother-02-p009.webp",
+            "alt": "和差倍比问题（一） · 母题精讲2 · 讲义第3页",
+            "pdfPage": 9
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t01-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t01-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看两个“剩余2名”。从总人数中先减去这2名，剩下的人既能按3人一组，也能按4人一组，所以是12的倍数。"
+        },
+        {
+          "type": "formula",
+          "latex": "N-2=12k\\quad(k\\text{为正整数})"
+        },
+        {
+          "type": "paragraph",
+          "text": "选项减2依次为30、32、34、36，只有D得到的36能被12整除。38人按3人组有12组余2人，按4人组有9组余2人，所以选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "同余数先减余数，再找各除数的最小公倍数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          8,
+          9
+        ],
+        "printedPages": [
+          2,
+          3
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-mother-02-p008.webp",
+            "alt": "和差倍比问题（一） · 母题精讲2 · 讲义第2页",
+            "pdfPage": 8
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-mother-02-p009.webp",
+            "alt": "和差倍比问题（一） · 母题精讲2 · 讲义第3页",
+            "pdfPage": 9
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t01-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s01-t01-mother-03",
+        "type": "single",
+        "stem": "（22联考）某地组织大型公益演出，临时抽调一支一百多人的志愿服务队。其中，20至30岁（不含30岁）的人数占总人数的68%，30岁及以上的人数是不到20岁人数的7倍。已知30岁以下的人数比30岁及以上的人数多66人，问：这支服务队共多少人？",
+        "options": [
+          {
+            "value": "A",
+            "label": "90"
+          },
+          {
+            "value": "B",
+            "label": "120"
+          },
+          {
+            "value": "C",
+            "label": "150"
+          },
+          {
+            "value": "D",
+            "label": "180"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          9
+        ],
+        "printedPages": [
+          3
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-mother-03-p009.webp",
+            "alt": "和差倍比问题（一） · 母题精讲3 · 讲义第3页",
+            "pdfPage": 9
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t01-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t01-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把年龄段分开：不到20岁、20至不足30岁、30岁及以上。中间一段占68%=17/25，另外两段合计占8/25；两段人数比为1∶7，所以总人数可以看成25份，不到20岁占1份，30岁及以上占7份。"
+        },
+        {
+          "type": "formula",
+          "latex": "(1+17)-7=11\\text{份},\\qquad N=66\\div11\\times25=150"
+        },
+        {
+          "type": "paragraph",
+          "text": "核验：不到20岁6人，中间102人，30岁及以上42人；30岁以下108人，比42人多66人，且42=7×6。150符合一百多人，所以选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先补齐剩余比例，再把人数差换成份数差。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          9
+        ],
+        "printedPages": [
+          3
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-mother-03-p009.webp",
+            "alt": "和差倍比问题（一） · 母题精讲3 · 讲义第3页",
+            "pdfPage": 9
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t01-mother-04-question",
+      "type": "question",
+      "title": "母题精讲 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s01-t01-mother-04",
+        "type": "single",
+        "stem": "（26国考）某企业采购了A、B、C三个品牌的电脑共54台，其中采购A品牌电脑的台数比B品牌电脑少35%。问采购的C品牌电脑比B品牌电脑：",
+        "options": [
+          {
+            "value": "A",
+            "label": "少1台"
+          },
+          {
+            "value": "B",
+            "label": "少2台"
+          },
+          {
+            "value": "C",
+            "label": "多1台"
+          },
+          {
+            "value": "D",
+            "label": "多2台"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          9
+        ],
+        "printedPages": [
+          3
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-mother-04-p009.webp",
+            "alt": "和差倍比问题（一） · 母题精讲4 · 讲义第3页",
+            "pdfPage": 9
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t01-mother-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t01-mother-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看A比B少35%，也就是A∶B=65∶100=13∶20。电脑台数是整数，设A有13k台、B有20k台，k为正整数。"
+        },
+        {
+          "type": "formula",
+          "latex": "C=54-33k\\ge0"
+        },
+        {
+          "type": "paragraph",
+          "text": "k最多为1；k=1时A=13、B=20、C=21，三种品牌均有采购且合计54台。因此C比B多1台，选C。这里整除成立，依靠的是电脑台数为整数。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "最简整数比例配合总量上限，往往能唯一确定份数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          9
+        ],
+        "printedPages": [
+          3
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-mother-04-p009.webp",
+            "alt": "和差倍比问题（一） · 母题精讲4 · 讲义第3页",
+            "pdfPage": 9
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t01-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s01-t01-practice-01",
+        "type": "single",
+        "stem": "（26四川）工厂有甲、乙两个车间，如果从甲车间调90人到乙车间，则乙车间人数是甲车间的2倍；如果从乙车间调9人到甲车间，则甲车间人数是乙车间的6倍。问甲车间原来有多少人？",
+        "options": [
+          {
+            "value": "A",
+            "label": "144"
+          },
+          {
+            "value": "B",
+            "label": "153"
+          },
+          {
+            "value": "C",
+            "label": "169"
+          },
+          {
+            "value": "D",
+            "label": "197"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          9,
+          10
+        ],
+        "printedPages": [
+          3,
+          4
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-practice-01-p009.webp",
+            "alt": "和差倍比问题（一） · 思维精练1 · 讲义第3页",
+            "pdfPage": 9
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-practice-01-p010.webp",
+            "alt": "和差倍比问题（一） · 思维精练1 · 讲义第4页",
+            "pdfPage": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t01-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t01-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看调人前后总人数不变。设甲原有x人、乙原有y人。第一次甲减少90，乙增加90；第二次是从原状态反向调9人，不能接着第一次继续调。"
+        },
+        {
+          "type": "formula",
+          "latex": "y+90=2(x-90),\\qquad x+9=6(y-9)"
+        },
+        {
+          "type": "paragraph",
+          "text": "第一式得y=2x-270；第二式得x=6y-63。代入得x=12x-1683，所以x=153，y=36。调90后为63与126，调9后为162与27，两组比例都对，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "调入调出要同时改变两边，且区分两种独立假设。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          9,
+          10
+        ],
+        "printedPages": [
+          3,
+          4
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-practice-01-p009.webp",
+            "alt": "和差倍比问题（一） · 思维精练1 · 讲义第3页",
+            "pdfPage": 9
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-practice-01-p010.webp",
+            "alt": "和差倍比问题（一） · 思维精练1 · 讲义第4页",
+            "pdfPage": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t01-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s01-t01-practice-02",
+        "type": "single",
+        "stem": "（26联考）冰雪游持续升温，南方某学校组织学生去东北旅游，学校共有212名学生，报名人数已达3~4成。根据目前报名的学生人数，若再招2名学生，可将其平均分成3或4组。问目前可能有多少学生报名？",
+        "options": [
+          {
+            "value": "A",
+            "label": "76"
+          },
+          {
+            "value": "B",
+            "label": "80"
+          },
+          {
+            "value": "C",
+            "label": "82"
+          },
+          {
+            "value": "D",
+            "label": "90"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          10
+        ],
+        "printedPages": [
+          4
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-practice-02-p010.webp",
+            "alt": "和差倍比问题（一） · 思维精练2 · 讲义第4页",
+            "pdfPage": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t01-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t01-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先用“三至四成”限定报名人数：212×30%=63.6，212×40%=84.8，所以90人先排除。再招2人后能平均分成3组或4组，说明“报名人数+2”是12的倍数。"
+        },
+        {
+          "type": "formula",
+          "latex": "76+2=78,\\quad80+2=82,\\quad82+2=84"
+        },
+        {
+          "type": "paragraph",
+          "text": "前两个不能同时被3、4整除；84可以，且82在三至四成范围内。所以选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "范围限制和补人数后的整除条件要同时使用。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          10
+        ],
+        "printedPages": [
+          4
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-practice-02-p010.webp",
+            "alt": "和差倍比问题（一） · 思维精练2 · 讲义第4页",
+            "pdfPage": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t01-practice-03-question",
+      "type": "question",
+      "title": "思维精练 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s01-t01-practice-03",
+        "type": "single",
+        "stem": "（25联考）某绿色有机农场把61600平方米耕地划分为玉米、大豆、稻谷三个作物区，玉米和大豆的面积比是7：2，大豆和稻谷的面积比是6：1，则玉米的面积是多少平方米？",
+        "options": [
+          {
+            "value": "A",
+            "label": "46200"
+          },
+          {
+            "value": "B",
+            "label": "47200"
+          },
+          {
+            "value": "C",
+            "label": "48200"
+          },
+          {
+            "value": "D",
+            "label": "49200"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          10
+        ],
+        "printedPages": [
+          4
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-practice-03-p010.webp",
+            "alt": "和差倍比问题（一） · 思维精练3 · 讲义第4页",
+            "pdfPage": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t01-practice-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t01-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先统一两个比例里重复出现的大豆。玉米∶大豆=7∶2扩大3倍，变成21∶6；大豆∶稻谷=6∶1，于是三者为21∶6∶1。"
+        },
+        {
+          "type": "formula",
+          "latex": "玉米面积=61600\\times\\frac{21}{21+6+1}=46200"
+        },
+        {
+          "type": "paragraph",
+          "text": "每份为2200平方米，大豆13200、稻谷2200，三者和为61600，两个比例也都满足，所以选A。面积可以有小数，这里靠份数直接计算，不靠无条件的整数倍筛选。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "连比先把公共量化为相同份数，再算总份数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          10
+        ],
+        "printedPages": [
+          4
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-practice-03-p010.webp",
+            "alt": "和差倍比问题（一） · 思维精练3 · 讲义第4页",
+            "pdfPage": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t01-practice-04-question",
+      "type": "question",
+      "title": "思维精练 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s01-t01-practice-04",
+        "type": "single",
+        "stem": "（25选调）甲、乙、丙三个单位共有100多名职工，甲单位职工比乙单位多14%；丙单位职工比甲单位少3人。问三个单位共有多少人？",
+        "options": [
+          {
+            "value": "A",
+            "label": "158"
+          },
+          {
+            "value": "B",
+            "label": "159"
+          },
+          {
+            "value": "C",
+            "label": "160"
+          },
+          {
+            "value": "D",
+            "label": "161"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          10
+        ],
+        "printedPages": [
+          4
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-practice-04-p010.webp",
+            "alt": "和差倍比问题（一） · 思维精练4 · 讲义第4页",
+            "pdfPage": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t01-practice-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t01-practice-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看甲比乙多14%，所以甲∶乙=57∶50。人数是整数，可设甲57k、乙50k，丙就是57k-3。"
+        },
+        {
+          "type": "formula",
+          "latex": "N=57k+50k+(57k-3)=164k-3"
+        },
+        {
+          "type": "paragraph",
+          "text": "k=1时总数161；k≥2时总数至少325，超过一百多人的范围。因此只能是161人，选D。代回：甲57、乙50、丙54。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "最简比例产生整数份数，再用总数范围确定倍数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          10
+        ],
+        "printedPages": [
+          4
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t01-practice-04-p010.webp",
+            "alt": "和差倍比问题（一） · 思维精练4 · 讲义第4页",
+            "pdfPage": 10
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1414 @@
+{
+  "id": "quantity-wy27-s11-t01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s11",
+  "title": "常考模型",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      111,
+      112,
+      113,
+      114,
+      115,
+      116
+    ],
+    "printedPages": [
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s11-t01-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "常考模型",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先分清分出去的东西是否完全相同。相同的名额、相同的书本，只需要区分每个对象拿了多少；不同的教师、不同的护士，除了人数分配，还必须区分具体是谁。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把n个相同元素分给m个不同对象，每人至少1个时，在n个元素形成的n−1个内部空中选m−1个位置插板，所以是C(n−1,m−1)种。三个条件必须同时满足：元素相同、对象不同、每个对象至少1个。"
+        },
+        {
+          "type": "formula",
+          "latex": "x_1+\\cdots+x_m=n,\\ x_i\\ge1\\quad\\Longrightarrow\\quad C_{n-1}^{m-1}"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们遇到每人至少aᵢ个时，先发保底数量，把剩余量变成非负整数分配；若允许分到0个，就给每人先“借”1个，再用正整数隔板。若还有上限，先检查隔板结果会不会超上限，必要时用枚举或容斥扣掉超限情况。"
+        },
+        {
+          "type": "formula",
+          "latex": "y_1+\\cdots+y_m=R,\\ y_i\\ge0\\quad\\Longrightarrow\\quad C_{R+m-1}^{m-1}"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把n个不同元素分给不同对象时，先确定各对象拿几个，再从剩余元素中逐步选具体的人或物。比如6名不同教师给甲1人、乙2人、丙3人，有C₆¹×C₅²×C₃³种。对象有名字时不能随便除以对象个数的阶乘；只有把完全相同大小、没有标签的组互换后不产生新分组，才要除掉重复。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          111
+        ],
+        "printedPages": [
+          105
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s11-t01-mother-01",
+        "type": "single",
+        "stem": "（20联考）某城市一条道路上有4个十字路口，每个十字路口至少有一名交通协管员，现将8个协管员名额分配到这四个路口，则每个路口协管员名额的分配方案有：",
+        "options": [
+          {
+            "value": "A",
+            "label": "35种"
+          },
+          {
+            "value": "B",
+            "label": "70种"
+          },
+          {
+            "value": "C",
+            "label": "96种"
+          },
+          {
+            "value": "D",
+            "label": "114种"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          112
+        ],
+        "printedPages": [
+          106
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-mother-01-p112.webp",
+            "alt": "排列组合问题（二） · 母题精讲1 · 讲义第106页",
+            "pdfPage": 112
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t01-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看分的是8个协管员名额，名额相同；4个路口有区别；每个路口至少1个，刚好满足隔板条件。"
+        },
+        {
+          "type": "paragraph",
+          "text": "把8个名额排成一排，在7个内部空里选3个位置放隔板，分成4个正整数部分，有C₇³＝35种，我们选A。这里只问每个路口分几个名额，没有选具体协管员，不需要排列8个人。"
+        },
+        {
+          "type": "formula",
+          "latex": "C_{8-1}^{4-1}=C_7^3=35"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "相同名额分给不同对象且每处至少1个，直接用正整数隔板。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          112
+        ],
+        "printedPages": [
+          106
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-mother-01-p112.webp",
+            "alt": "排列组合问题（二） · 母题精讲1 · 讲义第106页",
+            "pdfPage": 112
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s11-t01-mother-02",
+        "type": "single",
+        "stem": "（24全国事考）某单位将11本《党员学习手册》分发给甲、乙、丙共3个党支部。已知甲支部至少分得3本，乙支部至少分得2本，丙支部至少分得4本，问一共有多少种不同的分配方式？",
+        "options": [
+          {
+            "value": "A",
+            "label": "3"
+          },
+          {
+            "value": "B",
+            "label": "4"
+          },
+          {
+            "value": "C",
+            "label": "5"
+          },
+          {
+            "value": "D",
+            "label": "6"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          112
+        ],
+        "printedPages": [
+          106
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-mother-02-p112.webp",
+            "alt": "排列组合问题（二） · 母题精讲2 · 讲义第106页",
+            "pdfPage": 112
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t01-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先给甲3本、乙2本、丙4本作为保底，共发9本，还剩2本。同版手册相同，剩下2本可给任何支部，允许某支部额外分到0本。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把剩余分配记为x＋y＋z＝2，x、y、z≥0，非负整数解有C₄²＝6种；也可枚举全部剩余给某一个支部3种，以及给两个不同支部各1本3种，共6种。因此我们选D。"
+        },
+        {
+          "type": "formula",
+          "latex": "x+y+z=11-(3+2+4)=2,\\qquad C_{2+3-1}^{3-1}=6"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "不同下限先扣保底，再把剩余量按允许0的分配处理。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          112
+        ],
+        "printedPages": [
+          106
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-mother-02-p112.webp",
+            "alt": "排列组合问题（二） · 母题精讲2 · 讲义第106页",
+            "pdfPage": 112
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s11-t01-mother-03",
+        "type": "single",
+        "stem": "（22广东）甲、乙、丙3个单位订阅同一款报刊，已知3个单位共订了12份，其中，每个单位订阅数量不少于3份，但不超过5份，则这3个单位的报刊订阅数量可能有（）种组合。",
+        "options": [
+          {
+            "value": "A",
+            "label": "2"
+          },
+          {
+            "value": "B",
+            "label": "6"
+          },
+          {
+            "value": "C",
+            "label": "7"
+          },
+          {
+            "value": "D",
+            "label": "9"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          112
+        ],
+        "printedPages": [
+          106
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-mother-03-p112.webp",
+            "alt": "排列组合问题（二） · 母题精讲3 · 讲义第106页",
+            "pdfPage": 112
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t01-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先找符合3～5份、总数12的无序数量结构，只有(3,4,5)和(4,4,4)。甲、乙、丙是三个不同单位，需要区分谁订多少。"
+        },
+        {
+          "type": "paragraph",
+          "text": "(3,4,5)三个数不同，分给三单位有3!＝6种；(4,4,4)只有1种。因此总共7种，我们选C。若只用无上限的隔板，会把某单位订6份等超限情况也算进去。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "总数小且有上下限时，先枚举数量结构，再按不同数值的分配去重。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          112
+        ],
+        "printedPages": [
+          106
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-mother-03-p112.webp",
+            "alt": "排列组合问题（二） · 母题精讲3 · 讲义第106页",
+            "pdfPage": 112
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-mother-04-question",
+      "type": "question",
+      "title": "母题精讲 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s11-t01-mother-04",
+        "type": "single",
+        "stem": "（22联考）为了支持乡村教育，某市派出6位优秀教师前往该市农村的三所学校支教，甲所1名，乙所2名，丙所3名，不同的选派方法共有：",
+        "options": [
+          {
+            "value": "A",
+            "label": "60种"
+          },
+          {
+            "value": "B",
+            "label": "120种"
+          },
+          {
+            "value": "C",
+            "label": "360种"
+          },
+          {
+            "value": "D",
+            "label": "720种"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          113
+        ],
+        "printedPages": [
+          107
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-mother-04-p113.webp",
+            "alt": "排列组合问题（二） · 母题精讲4 · 讲义第107页",
+            "pdfPage": 113
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-mother-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t01-mother-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看6名教师都是不同的人，甲乙丙三所学校也有区别。给甲选1人有C₆¹＝6种；再从剩下5人给乙选2人有C₅²＝10种；剩下3人全部去丙。"
+        },
+        {
+          "type": "paragraph",
+          "text": "总数6×10＝60种，我们选A。同一学校内没有不同岗位，不能把乙的2人或丙的3人再排列；学校已有名字，也不能再随意交换学校。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "不同人员按已定组容量逐步组合，带标签的接收对象不额外除阶乘。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          113
+        ],
+        "printedPages": [
+          107
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-mother-04-p113.webp",
+            "alt": "排列组合问题（二） · 母题精讲4 · 讲义第107页",
+            "pdfPage": 113
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-mother-05-question",
+      "type": "question",
+      "title": "母题精讲 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s11-t01-mother-05",
+        "type": "single",
+        "stem": "（21上海）安排4名护士护理3个病房，每个病房至少一名护士，每名护士固定护理一个病房，则共有多少种安排方法?",
+        "options": [
+          {
+            "value": "A",
+            "label": "24"
+          },
+          {
+            "value": "B",
+            "label": "36"
+          },
+          {
+            "value": "C",
+            "label": "48"
+          },
+          {
+            "value": "D",
+            "label": "72"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          113
+        ],
+        "printedPages": [
+          107
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-mother-05-p113.webp",
+            "alt": "排列组合问题（二） · 母题精讲5 · 讲义第107页",
+            "pdfPage": 113
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-mother-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t01-mother-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先定每个病房的人数。4名护士分3个病房且每房至少1人，只可能是2、1、1。先选哪个病房安排2人，有3种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "从4名护士中选2人去这个病房有C₄²＝6种，剩下2名护士去两个不同病房有2!＝2种。总共3×6×2＝36种，我们选B。护士不同，不能当成4个相同名额直接隔板。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "不同人员分配先定组大小，再选成员；同房组内不排列，房间标签要区分。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          113
+        ],
+        "printedPages": [
+          107
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-mother-05-p113.webp",
+            "alt": "排列组合问题（二） · 母题精讲5 · 讲义第107页",
+            "pdfPage": 113
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-mother-06-question",
+      "type": "question",
+      "title": "母题精讲 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s11-t01-mother-06",
+        "type": "single",
+        "stem": "（26国考）某部门7人分两组到甲、乙两市进行调研。已知到甲市人数超过一半，老张和小王均到乙市，问共有多少种不同的分组方式?",
+        "options": [
+          {
+            "value": "A",
+            "label": "10"
+          },
+          {
+            "value": "B",
+            "label": "8"
+          },
+          {
+            "value": "C",
+            "label": "6"
+          },
+          {
+            "value": "D",
+            "label": "5"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          113
+        ],
+        "printedPages": [
+          107
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-mother-06-p113.webp",
+            "alt": "排列组合问题（二） · 母题精讲6 · 讲义第107页",
+            "pdfPage": 113
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-mother-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t01-mother-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把老张和小王固定到乙市。甲市人数超过7人的一半，至少4人，所以乙市最多3人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "乙市已有2人，只可能保持2人，或再从其余5人中加1人。前者1种，后者5种，共6种，我们选C。甲乙两市有名字，只要选定乙组，剩下的人自动去甲组。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "特殊人员先固定，再用人数上限枚举剩余可加入的人。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          113
+        ],
+        "printedPages": [
+          107
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-mother-06-p113.webp",
+            "alt": "排列组合问题（二） · 母题精讲6 · 讲义第107页",
+            "pdfPage": 113
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s11-t01-practice-01",
+        "type": "single",
+        "stem": "（23联考）某高校学生会选拔乡村支教志愿者，初试合格者中，语文类5名，数学类6名，文体类4名，从中选取9名志愿者，但每类至少要选2名。问就9名志愿者科目类别构成而言，共有几种选拔方式？",
+        "options": [
+          {
+            "value": "A",
+            "label": "6"
+          },
+          {
+            "value": "B",
+            "label": "7"
+          },
+          {
+            "value": "C",
+            "label": "8"
+          },
+          {
+            "value": "D",
+            "label": "9"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          114
+        ],
+        "printedPages": [
+          108
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-practice-01-p114.webp",
+            "alt": "排列组合问题（二） · 思维精练1 · 讲义第108页",
+            "pdfPage": 114
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t01-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们注意问的是科目类别构成，而不是具体哪9个人。设语文、数学、文体人数分别为x、y、z。先每类选2人，还需分配3个名额。"
+        },
+        {
+          "type": "paragraph",
+          "text": "剩余名额u＋v＋w＝3，u、v、w≥0，无上限时共有C₅²＝10种。文体类总共只有4人，保底后最多再选2人，所以w＝3的那1种不合法；语文最多额外3人、数学最多额外4人，都不会超限。"
+        },
+        {
+          "type": "paragraph",
+          "text": "因此共有10−1＝9种科目构成，我们选D。这里不再乘各科具体人选的组合数。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先看问的是数量结构还是具体人选；类别构成题只数人数，不选个人。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          114
+        ],
+        "printedPages": [
+          108
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-practice-01-p114.webp",
+            "alt": "排列组合问题（二） · 思维精练1 · 讲义第108页",
+            "pdfPage": 114
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s11-t01-practice-02",
+        "type": "single",
+        "stem": "（24联考）企业将12个技术培训名额分配给甲、乙、丙三个研发团队。要求乙团队分配的培训名额比甲团队少，但比丙团队多，且每个团队至少分配1个名额。问有多少种不同的分配方式？",
+        "options": [
+          {
+            "value": "A",
+            "label": "6"
+          },
+          {
+            "value": "B",
+            "label": "7"
+          },
+          {
+            "value": "C",
+            "label": "36"
+          },
+          {
+            "value": "D",
+            "label": "42"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          114
+        ],
+        "printedPages": [
+          108
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-practice-02-p114.webp",
+            "alt": "排列组合问题（二） · 思维精练2 · 讲义第108页",
+            "pdfPage": 114
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t01-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们按丙拿几个名额分类，人数必须满足甲＞乙＞丙≥1，三者之和12。"
+        },
+        {
+          "type": "paragraph",
+          "text": "丙＝1时，甲乙合计11，乙可取2、3、4、5，得到(甲,乙,丙)＝(9,2,1)、(8,3,1)、(7,4,1)、(6,5,1)，4种。丙＝2时，乙可取3、4，得到(7,3,2)、(6,4,2)，2种。丙＝3时，只有(5,4,3)，1种。丙≥4时，最少4＋5＋6＝15，超出12。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以总共4＋2＋1＝7种，我们选B。大小关系已经锁定甲乙丙，不能再乘3!。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "严格递增或递减分配可固定最小者枚举，标签由大小关系锁定，不再全排列。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          114
+        ],
+        "printedPages": [
+          108
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-practice-02-p114.webp",
+            "alt": "排列组合问题（二） · 思维精练2 · 讲义第108页",
+            "pdfPage": 114
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-practice-03-question",
+      "type": "question",
+      "title": "思维精练 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s11-t01-practice-03",
+        "type": "single",
+        "stem": "（25天津）企业将15个招聘名额分配到甲、乙、丙、丁四个分公司。要求每个分公司至少分1个名额，任意2个分公司分配名额数不同。甲分配的名额不能是最多，甲、乙分配的名额都不能是最少，丙比丁多分配1个名额。问有多少种不同的分配方式？",
+        "options": [
+          {
+            "value": "A",
+            "label": "2"
+          },
+          {
+            "value": "B",
+            "label": "4"
+          },
+          {
+            "value": "C",
+            "label": "7"
+          },
+          {
+            "value": "D",
+            "label": "9"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          114
+        ],
+        "printedPages": [
+          108
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-practice-03-p114.webp",
+            "alt": "排列组合问题（二） · 思维精练3 · 讲义第108页",
+            "pdfPage": 114
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-practice-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t01-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把丁的人数设为d，则丙为d＋1。甲、乙都不能最少，所以丁一定最少；人数互不相同，甲、乙都至少d＋2。甲不能最多，因此乙一定比甲多。"
+        },
+        {
+          "type": "paragraph",
+          "text": "剩下甲＋乙＝15−d−(d＋1)＝14−2d，且甲≥d＋2、乙≥d＋3，所以14−2d≥2d＋5，得到d≤2。"
+        },
+        {
+          "type": "paragraph",
+          "text": "d＝1时，丙2，甲乙合计12，且3≤甲＜乙，可取(甲,乙,丙,丁)＝(3,9,2,1)、(4,8,2,1)、(5,7,2,1)，3种。d＝2时，丙3，甲乙合计10且4≤甲＜乙，只有(4,6,3,2)，1种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "合计4种，我们选B。这四组都逐一满足和15、互不相同、甲非最多、甲乙非最少及丙比丁多1。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          114
+        ],
+        "printedPages": [
+          108
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-practice-03-p114.webp",
+            "alt": "排列组合问题（二） · 思维精练3 · 讲义第108页",
+            "pdfPage": 114
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-practice-03-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s11-t01-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先用谁能最小、谁能最大锁定相对次序，再用最小总和压缩枚举范围。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          114
+        ],
+        "printedPages": [
+          108
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-practice-03-p114.webp",
+            "alt": "排列组合问题（二） · 思维精练3 · 讲义第108页",
+            "pdfPage": 114
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-practice-04-question",
+      "type": "question",
+      "title": "思维精练 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s11-t01-practice-04",
+        "type": "single",
+        "stem": "（20联考）某公司有6箱不同的水果，现需安排三名配送员送到ABC三个不同的仓储点，其中A地1箱，B地2箱，C地3箱，则配送方式有多少种？",
+        "options": [
+          {
+            "value": "A",
+            "label": "60"
+          },
+          {
+            "value": "B",
+            "label": "420"
+          },
+          {
+            "value": "C",
+            "label": "360"
+          },
+          {
+            "value": "D",
+            "label": "180"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          115
+        ],
+        "printedPages": [
+          109
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-practice-04-p115.webp",
+            "alt": "排列组合问题（二） · 思维精练4 · 讲义第109页",
+            "pdfPage": 115
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-practice-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t01-practice-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先分水果。6箱不同水果，给A地选1箱有6种，再从5箱中给B地选2箱有C₅²＝10种，剩下3箱给C地，共60种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "接着安排三名不同配送员分别负责A、B、C三个仓储点，有3!＝6种。两步相乘60×6＝360种，我们选C。这里只在“配送员对应目的地”这一步排列，不能把同一目的地内的水果再排列。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "题目同时安排物品去向和执行人员时，分别计数后相乘，别漏掉人员与任务的对应。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          115
+        ],
+        "printedPages": [
+          109
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-practice-04-p115.webp",
+            "alt": "排列组合问题（二） · 思维精练4 · 讲义第109页",
+            "pdfPage": 115
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-practice-05-question",
+      "type": "question",
+      "title": "思维精练 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s11-t01-practice-05",
+        "type": "single",
+        "stem": "（24江苏）某公司派出5名人力资源专员去2个一线城市和2个二线城市参加秋季招聘会。若每名专员只去其中1个城市，每个一线城市至少派1名专员，每个二线城市只派1名专员，则不同的派出方法共有：",
+        "options": [
+          {
+            "value": "A",
+            "label": "60种"
+          },
+          {
+            "value": "B",
+            "label": "72种"
+          },
+          {
+            "value": "C",
+            "label": "120种"
+          },
+          {
+            "value": "D",
+            "label": "144种"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          115
+        ],
+        "printedPages": [
+          109
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-practice-05-p115.webp",
+            "alt": "排列组合问题（二） · 思维精练5 · 讲义第109页",
+            "pdfPage": 115
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-practice-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t01-practice-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先安排两个二线城市，它们各1人。给第一个二线城市选1人5种，给第二个选1人4种，共20种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "余下3名专员分给两个不同一线城市，且每城至少1人。每人有两个去向，共2³＝8种，扣掉3人全去其中同一个城市的2种，剩6种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以总共20×6＝120种，我们选C。两个同属一线或二线的城市依然是不同目的地，不能把它们当成没有标签的组。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "固定容量对象先安排，剩余不同人员再作满射分配。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          115
+        ],
+        "printedPages": [
+          109
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-practice-05-p115.webp",
+            "alt": "排列组合问题（二） · 思维精练5 · 讲义第109页",
+            "pdfPage": 115
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-practice-06-question",
+      "type": "question",
+      "title": "思维精练 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s11-t01-practice-06",
+        "type": "single",
+        "stem": "（26浙江）某公司从3个部门共选派8人参加会议。已知甲部门人数是乙、丙部门人数之和的一半，乙部门人数占甲、乙、丙部门总人数的20%，丙部门比甲部门多2人。如果每个部门至少选派2人，至多选派3人，那么选派出的8人有多少种不同组合？",
+        "options": [
+          {
+            "value": "A",
+            "label": "560"
+          },
+          {
+            "value": "B",
+            "label": "780"
+          },
+          {
+            "value": "C",
+            "label": "920"
+          },
+          {
+            "value": "D",
+            "label": "1610"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          115
+        ],
+        "printedPages": [
+          109
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-practice-06-p115.webp",
+            "alt": "排列组合问题（二） · 思维精练6 · 讲义第109页",
+            "pdfPage": 115
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-practice-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t01-practice-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先求三个部门的总人数。设公司这三个部门共T人，甲是乙丙之和的一半，所以甲占T/3；乙占T/5；丙占7T/15。丙比甲多2人，即(7/15−1/3)T＝2，得T＝15。于是甲5人、乙3人、丙7人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "每部门选2～3人，总选8人，所以人数结构只能是2、3、3。甲选2人时有C₅²×C₃³×C₇³＝350种；乙选2人时有C₅³×C₃²×C₇³＝1050种；丙选2人时有C₅³×C₃³×C₇²＝210种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "三类互斥，相加350＋1050＋210＝1610种，我们选D。部门总人数和选派人数是两个层次，先求库存再计选法。"
+        },
+        {
+          "type": "formula",
+          "latex": "C_5^2C_3^3C_7^3+C_5^3C_3^2C_7^3+C_5^3C_3^3C_7^2=1610"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          115
+        ],
+        "printedPages": [
+          109
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-practice-06-p115.webp",
+            "alt": "排列组合问题（二） · 思维精练6 · 讲义第109页",
+            "pdfPage": 115
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-practice-06-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s11-t01-practice-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先由比例差求各组可选人数，再按选派数量结构分类组合。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          115
+        ],
+        "printedPages": [
+          109
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-practice-06-p115.webp",
+            "alt": "排列组合问题（二） · 思维精练6 · 讲义第109页",
+            "pdfPage": 115
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-practice-07-question",
+      "type": "question",
+      "title": "思维精练 · 第7题",
+      "question": {
+        "id": "quantity-wy27-s11-t01-practice-07",
+        "type": "single",
+        "stem": "（25天津）零售企业在某城市有10家门店，其中A、B、C区分别有5家、3家和2家，现选择其中的5家门店开展促销活动，要求每个区至少选择1家，问有多少种不同的选择方式？",
+        "options": [
+          {
+            "value": "A",
+            "label": "不到200种"
+          },
+          {
+            "value": "B",
+            "label": "200~399种之间"
+          },
+          {
+            "value": "C",
+            "label": "400~799种之间"
+          },
+          {
+            "value": "D",
+            "label": "不少于800种"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          116
+        ],
+        "printedPages": [
+          110
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-practice-07-p116.webp",
+            "alt": "排列组合问题（二） · 思维精练7 · 讲义第110页",
+            "pdfPage": 116
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t01-practice-07-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t01-practice-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们从10家中选5家，总共C₁₀⁵＝252种。用反面扣掉缺少某个区的情况：没A区只能从B、C合计5家全选，有1种；没B区从A、C合计7家选5家，有21种；没C区从A、B合计8家选5家，有56种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这里“只选A区5家”同时被算进没B、没C，被减了两遍，要补回1种。其他只在一个区选满5家的情况不存在。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以合法数量252−1−21−56＋1＝175种，小于200，我们选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "至少覆盖三类可用反面容斥，扣缺类后要检查重复扣除。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          116
+        ],
+        "printedPages": [
+          110
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t01-practice-07-p116.webp",
+            "alt": "排列组合问题（二） · 思维精练7 · 讲义第110页",
+            "pdfPage": 116
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "analysis-p1-l06",
+  "subjectId": "analysis",
+  "groupId": "analysis-abrx",
+  "title": "X 类：问增量，就把每一份增量算清楚",
+  "source": {
+    "startSeconds": 781,
+    "endSeconds": 833,
+    "timeLabel": "00:13:01—00:13:53",
+    "videoId": "7668729047387524358",
+    "videoTitle": "资料分析完整复盘"
+  },
+  "cards": [
+    {
+      "id": "analysis-p1-l06-knowledge-18a7ba6-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "X 类：问增量，就把每一份增量算清楚",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "求普通增长量时，我们可以用假设分配、415、化除为乘等方法，这里先不展开。我们先把题目可能怎么组合问清楚。"
+        },
+        {
+          "type": "paragraph",
+          "text": "如果问两期增长量之比，就分别求出两期增长量，再拿它们相除，不是直接拿两期现期量相除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "如果问整体增长量，就把各组成部分的增长量求出来，再相加。"
+        },
+        {
+          "type": "formula",
+          "latex": "两期增长量之比 = \\frac{第一期增长量 X_1}{第二期增长量 X_2}"
+        },
+        {
+          "type": "formula",
+          "latex": "整体增长量 = 第一部分增长量+第二部分增长量+第三部分增长量+\\cdots"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以别被“整体”“两期”几个字弄乱。拆回最基本的增量，再按题目要求做比、做和就行。"
+        }
+      ]
+    }
+  ]
+}

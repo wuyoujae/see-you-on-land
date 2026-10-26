@@ -1,0 +1,414 @@
+{
+  "id": "quantity-wy27-s04-drill-01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s04",
+  "title": "实战精刷 · 1—4题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      48,
+      49
+    ],
+    "printedPages": [
+      42,
+      43
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s04-t03-drill-01-question",
+      "type": "question",
+      "title": "实战精刷 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s04-t03-drill-01",
+        "type": "single",
+        "stem": "（24江苏）已知某家族4位成员的年龄总和为142岁，且他们的年龄恰好成等差数列，若其中一位的年龄为47岁，则这4人中最年长者的年龄为：",
+        "options": [
+          {
+            "value": "A",
+            "label": "62岁"
+          },
+          {
+            "value": "B",
+            "label": "70岁"
+          },
+          {
+            "value": "C",
+            "label": "80岁"
+          },
+          {
+            "value": "D",
+            "label": "91岁"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B",
+        "reviewNote": "若脱离四个选项并允许非整数年龄，47岁也可能为最大年龄；本题结合给定候选唯一选择70岁。"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          48
+        ],
+        "printedPages": [
+          42
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-01-p048.webp",
+            "alt": "等差数列与和定最值 · 实战精刷1 · 讲义第42页",
+            "pdfPage": 48
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t03-drill-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先算平均年龄142÷4=35.5岁。把四人按年龄从小到大排列，前两项都不超过平均数，所以47岁只能是第三项或最后一项。给定四个最大年龄候选都大于47，因此结合选项，47岁必须是第三项。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第二项与第三项之和为总和的一半，即71；所以第二项24岁，公差47-24=23岁，最大年龄为47+23=70岁。"
+        },
+        {
+          "type": "paragraph",
+          "text": "四人年龄1、24、47、70岁相加142，且成等差数列，所以选B。这里利用了给定候选，不必先额外假设年龄均为整数。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "偶数项等差数列先找中间两项的和，并核对年龄的整数条件。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          48
+        ],
+        "printedPages": [
+          42
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-01-p048.webp",
+            "alt": "等差数列与和定最值 · 实战精刷1 · 讲义第42页",
+            "pdfPage": 48
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-02-question",
+      "type": "question",
+      "title": "实战精刷 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s04-t03-drill-02",
+        "type": "single",
+        "stem": "（24广东事考）在荔枝成熟的季节，某果园雇人采摘荔枝。已知从第二天起，每天的采摘量比前一天少50千克；从第十天起，每天的采摘量都是前一天的一半。如果第十三天的采摘量为10千克，则果园第一天采摘了（）千克荔枝。",
+        "options": [
+          {
+            "value": "A",
+            "label": "540"
+          },
+          {
+            "value": "B",
+            "label": "560"
+          },
+          {
+            "value": "C",
+            "label": "580"
+          },
+          {
+            "value": "D",
+            "label": "600"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          48
+        ],
+        "printedPages": [
+          42
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-02-p048.webp",
+            "alt": "等差数列与和定最值 · 实战精刷2 · 讲义第42页",
+            "pdfPage": 48
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t03-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先处理后半段。从第10天开始连续减半，第13天10千克，依次往前：第12天20、第11天40、第10天80、第9天160。"
+        },
+        {
+          "type": "paragraph",
+          "text": "前9天每天少50千克，第9天比第1天少8×50＝400千克，所以第1天为160＋400＝560千克，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "分段变化先倒推到规则切换前一天，再按上一段的规律继续倒推。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          48
+        ],
+        "printedPages": [
+          42
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-02-p048.webp",
+            "alt": "等差数列与和定最值 · 实战精刷2 · 讲义第42页",
+            "pdfPage": 48
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-03-question",
+      "type": "question",
+      "title": "实战精刷 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s04-t03-drill-03",
+        "type": "single",
+        "stem": "（25广东事考）工艺品厂从周一开始制作某种手工艺品，每个星期工作5天，每个工作日的产量都比前一个工作日多1件，第四周工厂生产了180件这种手工艺品，则在第（）个工作日，手工艺品的累计产量将首次达到1000件。",
+        "options": [
+          {
+            "value": "A",
+            "label": "28"
+          },
+          {
+            "value": "B",
+            "label": "29"
+          },
+          {
+            "value": "C",
+            "label": "30"
+          },
+          {
+            "value": "D",
+            "label": "31"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          48
+        ],
+        "printedPages": [
+          42
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-03-p048.webp",
+            "alt": "等差数列与和定最值 · 实战精刷3 · 讲义第42页",
+            "pdfPage": 48
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t03-drill-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "每周只有5个工作日。第四周对应第16—20个工作日，中间第18个工作日产量＝180÷5＝36件，因此第1个工作日产量＝36－17＝19件。"
+        },
+        {
+          "type": "paragraph",
+          "text": "前n个工作日累计产量＝n(19＋19＋n－1)÷2＝n(n＋37)÷2。第29个工作日累计957件，第30个累计1005件。"
+        },
+        {
+          "type": "paragraph",
+          "text": "29天还不到1000，30天第一次达到，所以选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "累计量问首次达到，需要同时核验前一天未达到，别只算当天产量。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          48
+        ],
+        "printedPages": [
+          42
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-03-p048.webp",
+            "alt": "等差数列与和定最值 · 实战精刷3 · 讲义第42页",
+            "pdfPage": 48
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-04-question",
+      "type": "question",
+      "title": "实战精刷 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s04-t03-drill-04",
+        "type": "single",
+        "stem": "（25联考）研究生小张从去年1月开始阅读学术论文，每个月阅读的学术论文都比上个月多6篇。已知他去年第三季度的学术论文阅读量比上半年少33篇，问去年第四季度他读了多少篇学术论文？",
+        "options": [
+          {
+            "value": "A",
+            "label": "249"
+          },
+          {
+            "value": "B",
+            "label": "250"
+          },
+          {
+            "value": "C",
+            "label": "252"
+          },
+          {
+            "value": "D",
+            "label": "255"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          49
+        ],
+        "printedPages": [
+          43
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-04-p049.webp",
+            "alt": "等差数列与和定最值 · 实战精刷4 · 讲义第43页",
+            "pdfPage": 49
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t03-drill-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t03-drill-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设1月读a篇，每月多6篇。第三季度是7—9月，总量等于3倍8月，即3(a＋42)；上半年总量是6a＋90。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第三季度比上半年少33篇，所以3a＋126＝6a＋90－33，解得a＝23。第四季度中间是11月，读23＋10×6＝83篇，三个月共249篇，选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "季度先抓中间月，总量比较时把3个月与6个月分别列清。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          49
+        ],
+        "printedPages": [
+          43
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t03-drill-04-p049.webp",
+            "alt": "等差数列与和定最值 · 实战精刷4 · 讲义第43页",
+            "pdfPage": 49
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,894 @@
+{
+  "id": "quantity-wy27-s13-t01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s13",
+  "title": "独立事件、条件概率与互斥分类",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      133,
+      134,
+      135
+    ],
+    "printedPages": [
+      127,
+      128,
+      129
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s13-t01-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "独立事件、条件概率与互斥分类",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先判断一件事发生会不会改变另一件事的概率。只有相互独立时，同时发生才能把各自概率直接相乘；一般的分步过程要乘对应条件下的概率。互斥情况求总概率时相加，独立与互斥不是一回事。"
+        },
+        {
+          "type": "formula",
+          "latex": "P(A\\cap B)=P(A)P(B\\mid A);\\quad A,B\\text{独立时}=P(A)P(B)"
+        },
+        {
+          "type": "paragraph",
+          "text": "至少一次成功通常从“全失败”反算。不同人命中率不同也可以相乘各自的失败率，但不能把它们当成同一个成功率。天气、题型等分支则先按发生概率加权。"
+        },
+        {
+          "type": "formula",
+          "latex": "P(\\text{至少一次})=1-\\prod_i(1-p_i)"
+        },
+        {
+          "type": "paragraph",
+          "text": "遇到答对就停、先审后复审、比分领先就结束，我们先列出实际能走通的路径。同一路径内按条件相乘，成功的互斥路径再相加。不能把已经结束的比赛继续算下去。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          133,
+          134,
+          135
+        ],
+        "printedPages": [
+          127,
+          128,
+          129
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t01-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s13-t01-mother-01",
+        "type": "single",
+        "stem": "（26联考）某学校的入学面试中有编号为A、B、C的三道试题，每位面试者依次作答这三道题，只要答对其中一道题即面试通过，无需继续作答，否则就继续作答下一道题，直到三次作答机会全部用完。若小明同学答对A题的概率是0.2，答对B题的概率是0.3，答对C题的概率是0.5，且各题作答相互独立，那么小明同学答题不超过两道的概率是多少？",
+        "options": [
+          {
+            "value": "A",
+            "label": "0.06"
+          },
+          {
+            "value": "B",
+            "label": "0.24"
+          },
+          {
+            "value": "C",
+            "label": "0.3"
+          },
+          {
+            "value": "D",
+            "label": "0.44"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          133,
+          134
+        ],
+        "printedPages": [
+          127,
+          128
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-mother-01-p133.webp",
+            "alt": "概率问题（二） · 母题精讲1 · 讲义第127页",
+            "pdfPage": 133
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-mother-01-p134.webp",
+            "alt": "概率问题（二） · 母题精讲1 · 讲义第128页",
+            "pdfPage": 134
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t01-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s13-t01-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看“不超过两道”是什么意思：第一道就答对，或者第一道错、第二道答对。只要进入第三道，就已经不符合题意，第三题是否答对不影响本题。"
+        },
+        {
+          "type": "paragraph",
+          "text": "直接算为0.2+0.8×0.3=0.44；也可以从1减去前两道都错的概率0.8×0.7。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=0.2+0.8\\times0.3=1-0.8\\times0.7=0.44"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以我们选D。0.24只算了第二道结束，漏掉第一道就结束的情况。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          133,
+          134
+        ],
+        "printedPages": [
+          127,
+          128
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-mother-01-p133.webp",
+            "alt": "概率问题（二） · 母题精讲1 · 讲义第127页",
+            "pdfPage": 133
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-mother-01-p134.webp",
+            "alt": "概率问题（二） · 母题精讲1 · 讲义第128页",
+            "pdfPage": 134
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t01-mother-01-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s13-t01-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "有停止规则时，先找真正决定结束时间的前几步。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          133,
+          134
+        ],
+        "printedPages": [
+          127,
+          128
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-mother-01-p133.webp",
+            "alt": "概率问题（二） · 母题精讲1 · 讲义第127页",
+            "pdfPage": 133
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-mother-01-p134.webp",
+            "alt": "概率问题（二） · 母题精讲1 · 讲义第128页",
+            "pdfPage": 134
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t01-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s13-t01-mother-02",
+        "type": "single",
+        "stem": "（26国考）4人参加乒乓球比赛，每2人对战一场，甲战胜乙的概率是0.4,乙战胜丙的概率是丙战胜丁概率的2倍。已知乙在比赛中对甲、丙均取胜的概率是0.18，问丙战胜丁的概率是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "0.1"
+          },
+          {
+            "value": "B",
+            "label": "0.12"
+          },
+          {
+            "value": "C",
+            "label": "0.15"
+          },
+          {
+            "value": "D",
+            "label": "0.3"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          134
+        ],
+        "printedPages": [
+          128
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-mother-02-p134.webp",
+            "alt": "概率问题（二） · 母题精讲2 · 讲义第128页",
+            "pdfPage": 134
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t01-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s13-t01-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先用互补关系：甲胜乙概率0.4，因此乙胜甲概率0.6。按不同场次独立的通常比赛模型，乙同时赢甲、丙的概率为0.6乘乙胜丙的概率。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以乙胜丙的概率为0.18÷0.6=0.3；它是丙胜丁的2倍，丙胜丁就是0.15。"
+        },
+        {
+          "type": "formula",
+          "latex": "P(\\text{丙胜丁})=\\frac{0.18}{1-0.4}\\div2=0.15"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们选C。这里“2倍”的方向别看反，最后还要除2；不同场次独立是这条乘法解法使用的模型前提。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          134
+        ],
+        "printedPages": [
+          128
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-mother-02-p134.webp",
+            "alt": "概率问题（二） · 母题精讲2 · 讲义第128页",
+            "pdfPage": 134
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t01-mother-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s13-t01-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先求互补胜率，再用独立乘法关系和倍数关系。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          134
+        ],
+        "printedPages": [
+          128
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-mother-02-p134.webp",
+            "alt": "概率问题（二） · 母题精讲2 · 讲义第128页",
+            "pdfPage": 134
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t01-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s13-t01-mother-03",
+        "type": "single",
+        "stem": "（26广东）雨季期间，某市单日的暴雨发生率为30%，暴雨出现时当地市区主干道拥堵的概率为70%，其余时间拥堵的概率为20%，则雨季期间当地市区主干道拥堵的平均概率为（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "25%"
+          },
+          {
+            "value": "B",
+            "label": "35%"
+          },
+          {
+            "value": "C",
+            "label": "45%"
+          },
+          {
+            "value": "D",
+            "label": "55%"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          134
+        ],
+        "printedPages": [
+          128
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-mother-03-p134.webp",
+            "alt": "概率问题（二） · 母题精讲3 · 讲义第128页",
+            "pdfPage": 134
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t01-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s13-t01-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把一天分成暴雨与不暴雨两类，概率分别30%、70%。两类条件下的拥堵概率不同，不能直接取70%与20%的平均数。"
+        },
+        {
+          "type": "paragraph",
+          "text": "暴雨且拥堵的概率为0.3×0.7，非暴雨且拥堵为0.7×0.2。两类互斥，结果相加为0.35。"
+        },
+        {
+          "type": "formula",
+          "latex": "P(\\text{拥堵})=0.3\\times0.7+0.7\\times0.2=0.35"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以我们选B。这里用的是按天气分类的全概率，并不是说暴雨和拥堵相互独立。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          134
+        ],
+        "printedPages": [
+          128
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-mother-03-p134.webp",
+            "alt": "概率问题（二） · 母题精讲3 · 讲义第128页",
+            "pdfPage": 134
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t01-mother-03-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s13-t01-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "条件概率先分类乘对应权重，再把互斥情况相加。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          134
+        ],
+        "printedPages": [
+          128
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-mother-03-p134.webp",
+            "alt": "概率问题（二） · 母题精讲3 · 讲义第128页",
+            "pdfPage": 134
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t01-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s13-t01-practice-01",
+        "type": "single",
+        "stem": "（26江苏）个人技能大赛初赛共安排3个任务，选手完成其中任意2个任务即可成功晋级。已知小王完成这3个任务的概率分别是0.8、0.7、0.6，且各项任务是否完成相互独立，则他成功晋级的概率是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "0.596"
+          },
+          {
+            "value": "B",
+            "label": "0.648"
+          },
+          {
+            "value": "C",
+            "label": "0.788"
+          },
+          {
+            "value": "D",
+            "label": "0.812"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          134,
+          135
+        ],
+        "printedPages": [
+          128,
+          129
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-practice-01-p134.webp",
+            "alt": "概率问题（二） · 思维精练1 · 讲义第128页",
+            "pdfPage": 134
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-practice-01-p135.webp",
+            "alt": "概率问题（二） · 思维精练1 · 讲义第129页",
+            "pdfPage": 135
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t01-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s13-t01-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把“完成任意2个即可晋级”理解为至少完成2个，因此恰好2个与3个全完成都要计入。"
+        },
+        {
+          "type": "paragraph",
+          "text": "恰好完成2个有三类：前两项成功第三项失败，第一、三项成功第二项失败，后两项成功第一项失败，概率依次0.224、0.144、0.084。再加全成功0.336。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=0.8\\times0.7\\times0.4+0.8\\times0.3\\times0.6+0.2\\times0.7\\times0.6+0.8\\times0.7\\times0.6=0.788"
+        },
+        {
+          "type": "paragraph",
+          "text": "相加为0.788，我们选C。三个任务的成功概率不同，不能套一个统一p的二项分布。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          134,
+          135
+        ],
+        "printedPages": [
+          128,
+          129
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-practice-01-p134.webp",
+            "alt": "概率问题（二） · 思维精练1 · 讲义第128页",
+            "pdfPage": 134
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-practice-01-p135.webp",
+            "alt": "概率问题（二） · 思维精练1 · 讲义第129页",
+            "pdfPage": 135
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t01-practice-01-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s13-t01-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "成功率不同就逐类乘概率；“至少2个”不要漏掉全部成功。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          134,
+          135
+        ],
+        "printedPages": [
+          128,
+          129
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-practice-01-p134.webp",
+            "alt": "概率问题（二） · 思维精练1 · 讲义第128页",
+            "pdfPage": 134
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-practice-01-p135.webp",
+            "alt": "概率问题（二） · 思维精练1 · 讲义第129页",
+            "pdfPage": 135
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t01-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s13-t01-practice-02",
+        "type": "single",
+        "stem": "（26联考）某公司招聘经理，应聘者需通过笔试和面试各一轮。小杨通过笔试的概率为0.7，面试时他要从5道题中随机抽取1道回答，但5道题中只有1道与他专业相关，如果抽到这道题，他通过面试的概率为0.6，否则为0.4。问他应聘通过的概率在以下哪个范围？",
+        "options": [
+          {
+            "value": "A",
+            "label": "不到0.2"
+          },
+          {
+            "value": "B",
+            "label": "0.2~0.25之间"
+          },
+          {
+            "value": "C",
+            "label": "0.25~0.3之间"
+          },
+          {
+            "value": "D",
+            "label": "超过0.3"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          135
+        ],
+        "printedPages": [
+          129
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-practice-02-p135.webp",
+            "alt": "概率问题（二） · 思维精练2 · 讲义第129页",
+            "pdfPage": 135
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t01-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s13-t01-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先计算通过面试的概率。抽中专业题占1/5，通过率0.6；抽中其他题占4/5，通过率0.4。加权得到0.44。"
+        },
+        {
+          "type": "paragraph",
+          "text": "应聘通过要笔试和面试都通过。按两阶段通过率的给定模型，概率0.7×0.44=0.308。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=0.7\\left(\\frac15\\times0.6+\\frac45\\times0.4\\right)=0.308"
+        },
+        {
+          "type": "paragraph",
+          "text": "0.308超过0.3，我们选D。不要把专业题与非专业题的通过率直接平均。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          135
+        ],
+        "printedPages": [
+          129
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-practice-02-p135.webp",
+            "alt": "概率问题（二） · 思维精练2 · 讲义第129页",
+            "pdfPage": 135
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t01-practice-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s13-t01-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "多阶段先处理每阶段内部的分类，再连乘阶段通过率。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          135
+        ],
+        "printedPages": [
+          129
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-practice-02-p135.webp",
+            "alt": "概率问题（二） · 思维精练2 · 讲义第129页",
+            "pdfPage": 135
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t01-practice-03-question",
+      "type": "question",
+      "title": "思维精练 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s13-t01-practice-03",
+        "type": "single",
+        "stem": "（26广东事考）在一场射击训练中，甲、乙、丙三人击中目标的概率分别为1/2、2/3和3/4。如果三人向同一个目标射击，则目标至少被其中一人击中的概率是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "3/4"
+          },
+          {
+            "value": "B",
+            "label": "5/6"
+          },
+          {
+            "value": "C",
+            "label": "11/12"
+          },
+          {
+            "value": "D",
+            "label": "23/24"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          135
+        ],
+        "printedPages": [
+          129
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-practice-03-p135.webp",
+            "alt": "概率问题（二） · 思维精练3 · 讲义第129页",
+            "pdfPage": 135
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t01-practice-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s13-t01-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们看到“至少一人击中”，先算三人全都没中。按各人射击相互独立的模型，三人未中的概率分别是1/2、1/3、1/4。"
+        },
+        {
+          "type": "paragraph",
+          "text": "三人全未中概率1/24，反过来至少一人命中就是23/24。"
+        },
+        {
+          "type": "formula",
+          "latex": "P=1-\\left(1-\\frac12\\right)\\left(1-\\frac23\\right)\\left(1-\\frac34\\right)=\\frac{23}{24}"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以我们选D。至少一人不是恰好一人，不能只加三种单独命中的情况。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          135
+        ],
+        "printedPages": [
+          129
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-practice-03-p135.webp",
+            "alt": "概率问题（二） · 思维精练3 · 讲义第129页",
+            "pdfPage": 135
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s13-t01-practice-03-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s13-t01-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "独立射击至少一中，可用1减去全部未中。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          135
+        ],
+        "printedPages": [
+          129
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s13-t01-practice-03-p135.webp",
+            "alt": "概率问题（二） · 思维精练3 · 讲义第129页",
+            "pdfPage": 135
+          }
+        ]
+      }
+    }
+  ]
+}

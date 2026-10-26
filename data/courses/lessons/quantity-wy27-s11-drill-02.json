@@ -1,0 +1,452 @@
+{
+  "id": "quantity-wy27-s11-drill-02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s11",
+  "title": "实战精刷 · 5—8题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      118,
+      119
+    ],
+    "printedPages": [
+      112,
+      113
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s11-t02-drill-05-question",
+      "type": "question",
+      "title": "实战精刷 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s11-t02-drill-05",
+        "type": "single",
+        "stem": "（22北京）将张、王、李、陈、赵五名应届毕业生分配到甲、乙、丙3个不同的科室，要求每个科室至少分配1人，甲科室分配的人数多于乙科室，且张和王不能去丙科室。则有多少种不同的分法？",
+        "options": [
+          {
+            "value": "A",
+            "label": "12"
+          },
+          {
+            "value": "B",
+            "label": "21"
+          },
+          {
+            "value": "C",
+            "label": "35"
+          },
+          {
+            "value": "D",
+            "label": "72"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          118
+        ],
+        "printedPages": [
+          112
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-05-p118.webp",
+            "alt": "排列组合问题（二） · 实战精刷5 · 讲义第112页",
+            "pdfPage": 118
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t02-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先列甲、乙、丙的人数结构。三科室都有人且甲比乙多，5人只能分成(3,1,1)或(2,1,2)，这里顺序固定为甲乙丙。"
+        },
+        {
+          "type": "paragraph",
+          "text": "(3,1,1)时，丙的1人不能是张、王，只能从李、陈、赵中选，有3种；再给乙选剩余4人中的1人，有4种，甲取其余3人，共12种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "(2,1,2)时，丙的2人从李、陈、赵中选，有C₃²＝3种；乙从余下3人中选1人，有3种，甲取剩余2人，共9种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "总计12＋9＝21种，我们选B。先安排张、王都不能去的丙科室，可直接满足人员限制。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          118
+        ],
+        "printedPages": [
+          112
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-05-p118.webp",
+            "alt": "排列组合问题（二） · 实战精刷5 · 讲义第112页",
+            "pdfPage": 118
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-05-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s11-t02-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先定带标签的人数结构，再优先安排限制最强的组。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          118
+        ],
+        "printedPages": [
+          112
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-05-p118.webp",
+            "alt": "排列组合问题（二） · 实战精刷5 · 讲义第112页",
+            "pdfPage": 118
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-06-question",
+      "type": "question",
+      "title": "实战精刷 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s11-t02-drill-06",
+        "type": "single",
+        "stem": "（24联考）为弘扬耕读文化，某校打造多样化“校外+校内”耕读文化教育基地，有种植、绘画、编织、美食四个主题基地供同学们选学。假设每位学生选择1个主题基地参与学习，那么甲、乙、丙、丁4名学生中至少有3名学生选择不同主题基地的方法有多少种？",
+        "options": [
+          {
+            "value": "A",
+            "label": "24"
+          },
+          {
+            "value": "B",
+            "label": "60"
+          },
+          {
+            "value": "C",
+            "label": "144"
+          },
+          {
+            "value": "D",
+            "label": "168"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          118
+        ],
+        "printedPages": [
+          112
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-06-p118.webp",
+            "alt": "排列组合问题（二） · 实战精刷6 · 讲义第112页",
+            "pdfPage": 118
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t02-drill-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把“至少有3名学生选择不同主题”翻译成至少占用3种主题基地，分成恰好3种和4种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "恰好3种时，必有一对学生选同一个基地。选这对学生C₄²＝6种，给这对选基地4种，再让另外两名学生依次从剩下3个、2个基地中选，得6×4×3×2＝144种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "4种全选时，4名学生与4个基地一一对应，有4!＝24种。合计168种，我们选D。重复的一对是唯一的，因此这一步没有重复计数。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "不同人员至少选择三类时，按占用类别数分类，重复组唯一则直接选组。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          118
+        ],
+        "printedPages": [
+          112
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-06-p118.webp",
+            "alt": "排列组合问题（二） · 实战精刷6 · 讲义第112页",
+            "pdfPage": 118
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-07-question",
+      "type": "question",
+      "title": "实战精刷 · 第7题",
+      "question": {
+        "id": "quantity-wy27-s11-t02-drill-07",
+        "type": "single",
+        "stem": "（24联考）安排A、B、C、D共4个研发团队参与甲、乙、丙3个课题的研究。要求每个课题至少有1个团队参与，每个团队必须且只能参与1个课题。如甲课题参与的团队数超过1个，则A、B都不参与甲课题。问共有多少种不同的安排方式?",
+        "options": [
+          {
+            "value": "A",
+            "label": "24"
+          },
+          {
+            "value": "B",
+            "label": "26"
+          },
+          {
+            "value": "C",
+            "label": "36"
+          },
+          {
+            "value": "D",
+            "label": "42"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          119
+        ],
+        "printedPages": [
+          113
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-07-p119.webp",
+            "alt": "排列组合问题（二） · 实战精刷7 · 讲义第113页",
+            "pdfPage": 119
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-07-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t02-drill-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们按甲课题有1个团队还是2个团队分类。4个团队分到3个非空课题，甲不可能有3个以上。"
+        },
+        {
+          "type": "paragraph",
+          "text": "甲只有1个团队时，任选团队4种，剩下3个团队分到乙、丙且都非空，有2³−2＝6种，共24种。甲有2个团队时，A、B不能参与甲，所以只能是C、D去甲，剩下A、B分别去乙丙，有2种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两类相加24＋2＝26种，我们选B。限制只在甲超过1个团队时触发，不能把A、B永远排除在甲课题之外。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "条件式限制按触发与不触发分类，不能把带条件的限制当成无条件限制。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          119
+        ],
+        "printedPages": [
+          113
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-07-p119.webp",
+            "alt": "排列组合问题（二） · 实战精刷7 · 讲义第113页",
+            "pdfPage": 119
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-08-question",
+      "type": "question",
+      "title": "实战精刷 · 第8题",
+      "question": {
+        "id": "quantity-wy27-s11-t02-drill-08",
+        "type": "single",
+        "stem": "（26山东事考）为积极响应“能人返乡助振兴”号召，某村计划从预备人选中选聘4名“发展顾问”，预备人选中从事A类工作的有3人，B类2人，C类4人。已知选聘必须包含三类不同来源且C类人数不超过B类，问符合上述条件的返聘方式共有多少种？",
+        "options": [
+          {
+            "value": "A",
+            "label": "32"
+          },
+          {
+            "value": "B",
+            "label": "36"
+          },
+          {
+            "value": "C",
+            "label": "40"
+          },
+          {
+            "value": "D",
+            "label": "42"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          119
+        ],
+        "printedPages": [
+          113
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-08-p119.webp",
+            "alt": "排列组合问题（二） · 实战精刷8 · 讲义第113页",
+            "pdfPage": 119
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-08-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t02-drill-08",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先定三类人数，三类都必须有，4人只能分成2、1、1。又要求C类人数不超过B类，所以不能是C占2人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A占2人时，选法为C₃²×C₂¹×C₄¹＝3×2×4＝24种；B占2人时，选法为C₃¹×C₂²×C₄¹＝3×1×4＝12种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "合计24＋12＝36种，我们选B。选的是顾问组合，没有不同职位，组内不排列。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "每类至少一人且总数只多1人时，先确定哪一类多占一个名额。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          119
+        ],
+        "printedPages": [
+          113
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-08-p119.webp",
+            "alt": "排列组合问题（二） · 实战精刷8 · 讲义第113页",
+            "pdfPage": 119
+          }
+        ]
+      }
+    }
+  ]
+}

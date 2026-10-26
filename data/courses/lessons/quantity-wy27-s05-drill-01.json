@@ -1,0 +1,435 @@
+{
+  "id": "quantity-wy27-s05-drill-01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s05",
+  "title": "实战精刷 · 1—4题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      58,
+      59
+    ],
+    "printedPages": [
+      52,
+      53
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s05-t02-drill-01-question",
+      "type": "question",
+      "title": "实战精刷 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s05-t02-drill-01",
+        "type": "single",
+        "stem": "（21四川）某工程队计划每天修路560米，恰好可按期完成任务。如每天比计划多修80米，则可以提前2天完成，且最后1天只需修320米。问：如果要提前6天完成，每天至少要比计划多修多少米？",
+        "options": [
+          {
+            "value": "A",
+            "label": "160"
+          },
+          {
+            "value": "B",
+            "label": "240"
+          },
+          {
+            "value": "C",
+            "label": "320"
+          },
+          {
+            "value": "D",
+            "label": "400"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          58
+        ],
+        "printedPages": [
+          52
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-01-p058.webp",
+            "alt": "工程问题 · 实战精刷1 · 讲义第52页",
+            "pdfPage": 58
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t02-drill-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设计划工期T天。原总量560T；提速后前T－3天每天640米，最后一天320米，总用T－2天，所以640(T－3)＋320＝560T。"
+        },
+        {
+          "type": "paragraph",
+          "text": "解得T＝20，总路长11200米。提前6天意味着14天完成，每天至少11200÷14＝800米。"
+        },
+        {
+          "type": "paragraph",
+          "text": "要比原计划多800－560＝240米，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "最后一天不足全天时要单列，提前天数比较的是实际结束的日期。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          58
+        ],
+        "printedPages": [
+          52
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-01-p058.webp",
+            "alt": "工程问题 · 实战精刷1 · 讲义第52页",
+            "pdfPage": 58
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-02-question",
+      "type": "question",
+      "title": "实战精刷 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s05-t02-drill-02",
+        "type": "single",
+        "stem": "（25国考）甲、乙、丙3台收割机每小时均能收割2亩小麦，三台机器上午先后开始收割工作，12：00时甲收割的面积是乙的1.5倍，且比丙多收割6亩，16：00时3台收割机共收割了50亩，问乙是何时开始工作的？",
+        "options": [
+          {
+            "value": "A",
+            "label": "6:00"
+          },
+          {
+            "value": "B",
+            "label": "7:00"
+          },
+          {
+            "value": "C",
+            "label": "8: 00"
+          },
+          {
+            "value": "D",
+            "label": "9:00"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          58
+        ],
+        "printedPages": [
+          52
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-02-p058.webp",
+            "alt": "工程问题 · 实战精刷2 · 讲义第52页",
+            "pdfPage": 58
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t02-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把12点到16点的共同工作量扣掉：3台机器每台每小时2亩，4小时共24亩，因此12点时合计收割50－24＝26亩。"
+        },
+        {
+          "type": "paragraph",
+          "text": "设12点时乙收割x亩，则甲1.5x亩，丙1.5x－6亩。合计4x－6＝26，得x＝8亩。"
+        },
+        {
+          "type": "paragraph",
+          "text": "乙每小时2亩，已工作4小时，所以从8点开始，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "在各方都工作的共同时间段，先扣统一增量，回到比例成立的那个时刻。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          58
+        ],
+        "printedPages": [
+          52
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-02-p058.webp",
+            "alt": "工程问题 · 实战精刷2 · 讲义第52页",
+            "pdfPage": 58
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-03-question",
+      "type": "question",
+      "title": "实战精刷 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s05-t02-drill-03",
+        "type": "single",
+        "stem": "（25上海）甲、乙、丙三家工厂同时进行改造升级，升级之前三家工厂每小时完成任务数量之比为3：4：5，升级后每小时完成任务数量之比为2：3：4,升级后原来三家合作需要12天完成的生产任务能比之前少用4天完成。则升级后丙的效率提升了：",
+        "options": [
+          {
+            "value": "A",
+            "label": "1/3"
+          },
+          {
+            "value": "B",
+            "label": "2/5"
+          },
+          {
+            "value": "C",
+            "label": "1/2"
+          },
+          {
+            "value": "D",
+            "label": "3/5"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          58,
+          59
+        ],
+        "printedPages": [
+          52,
+          53
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-03-p058.webp",
+            "alt": "工程问题 · 实战精刷3 · 讲义第52页",
+            "pdfPage": 58
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-03-p059.webp",
+            "alt": "工程问题 · 实战精刷3 · 讲义第53页",
+            "pdfPage": 59
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t02-drill-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把升级前效率设为3、4、5，合计12。相同任务原来12天、现在8天，合效率变为原来的12/8＝1.5倍，即18。"
+        },
+        {
+          "type": "paragraph",
+          "text": "升级后比例2∶3∶4一共9份，18对应9份，每份2，所以升级后分别为4、6、8。"
+        },
+        {
+          "type": "paragraph",
+          "text": "丙由5变8，提升幅度为(8－5)/5＝3/5，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "前后两组比例的“一份”不一定相同，先用合效率把尺度统一。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          58,
+          59
+        ],
+        "printedPages": [
+          52,
+          53
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-03-p058.webp",
+            "alt": "工程问题 · 实战精刷3 · 讲义第52页",
+            "pdfPage": 58
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-03-p059.webp",
+            "alt": "工程问题 · 实战精刷3 · 讲义第53页",
+            "pdfPage": 59
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-04-question",
+      "type": "question",
+      "title": "实战精刷 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s05-t02-drill-04",
+        "type": "single",
+        "stem": "（26全国事考）甲、乙两个工厂各接到数量相同的生产任务。如甲先生产1万件乙再开始生产，则乙比甲提前20天完成；如甲先生产2万件乙再开始生产，则乙比甲提前10天完成。已知乙工厂的效率是甲工厂的21倍，问甲工厂的生产任务是多少件？",
+        "options": [
+          {
+            "value": "A",
+            "label": "23100"
+          },
+          {
+            "value": "B",
+            "label": "31500"
+          },
+          {
+            "value": "C",
+            "label": "44100"
+          },
+          {
+            "value": "D",
+            "label": "42000"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          59
+        ],
+        "printedPages": [
+          53
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-04-p059.webp",
+            "alt": "工程问题 · 实战精刷4 · 讲义第53页",
+            "pdfPage": 59
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s05-t02-drill-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s05-t02-drill-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先比较两种安排：甲多先做1万件，乙相对甲的提前量就从20天变成10天，说明甲做1万件需要10天，甲效率1000件/天。乙效率为21000件/天。"
+        },
+        {
+          "type": "paragraph",
+          "text": "设每厂任务量N件。第一种安排乙晚10天开工，却早20天完工，所以甲的总生产时长比乙长30天：N/1000－N/21000＝30。"
+        },
+        {
+          "type": "paragraph",
+          "text": "解得N＝31500件，选B。代回甲31.5天，乙1.5天且晚10天开始，确实早20天完成。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "变动同一先做工作量引起的时间差，可直接反推出先开工一方效率。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          59
+        ],
+        "printedPages": [
+          53
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s05-t02-drill-04-p059.webp",
+            "alt": "工程问题 · 实战精刷4 · 讲义第53页",
+            "pdfPage": 59
+          }
+        ]
+      }
+    }
+  ]
+}

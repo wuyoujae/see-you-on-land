@@ -1,0 +1,806 @@
+{
+  "id": "quantity-wy27-s14-t01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s14",
+  "title": "常考面积、周长与体积",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      142,
+      143,
+      144,
+      145
+    ],
+    "printedPages": [
+      136,
+      137,
+      138,
+      139
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s14-t01-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "常考面积、周长与体积",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先看问的是周长、面积、表面积还是体积，单位必须分别对应长度、平方、立方。拼接图形的外轮廓不含内部接缝；挖孔、凹槽、粘接要把保留与消失的面逐一认清。"
+        },
+        {
+          "type": "formula",
+          "latex": "C_{\\text{正方形}}=4a,\\quad S_{\\text{正方形}}=a^2;\\quad C_{\\text{长方形}}=2(a+b),\\quad S_{\\text{长方形}}=ab"
+        },
+        {
+          "type": "formula",
+          "latex": "S_{\\triangle}=\\frac12ah,\\quad S_{\\text{梯形}}=\\frac{a+b}{2}h,\\quad C_{\\text{圆}}=2\\pi r,\\quad S_{\\text{圆}}=\\pi r^2"
+        },
+        {
+          "type": "formula",
+          "latex": "L_{\\text{扇形弧}}=\\frac{\\theta}{360^\\circ}\\,2\\pi r,\\quad S_{\\text{扇形}}=\\frac{\\theta}{360^\\circ}\\,\\pi r^2"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们这里的θ用角度制。扇形的整个周长还要在弧长之外加两条半径；原知识表中的立体量分别按表面积、体积理解。"
+        },
+        {
+          "type": "formula",
+          "latex": "S_{\\text{正方体}}=6a^2,\\quad V_{\\text{正方体}}=a^3;\\quad S_{\\text{长方体}}=2(ab+bc+ca),\\quad V_{\\text{长方体}}=abc"
+        },
+        {
+          "type": "formula",
+          "latex": "V_{\\text{柱}}=S_{\\text{底}}h,\\quad V_{\\text{锥}}=\\frac13S_{\\text{底}}h,\\quad V_{\\text{球}}=\\frac43\\pi r^3"
+        },
+        {
+          "type": "formula",
+          "latex": "S_{\\text{圆柱侧}}=2\\pi rh,\\quad S_{\\text{圆柱全}}=2\\pi r^2+2\\pi rh,\\quad S_{\\text{球}}=4\\pi r^2"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          142,
+          143
+        ],
+        "printedPages": [
+          136,
+          137
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t01-knowledge-01-02",
+      "type": "text",
+      "role": "method",
+      "title": "我们的解题思路",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们算不规则阴影时先拆分、平移或补形，让相同扇形或圆面积抵消。液面变化用水体积不变，密度题还要区分体积比与质量比。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          142,
+          143
+        ],
+        "printedPages": [
+          136,
+          137
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t01-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s14-t01-mother-01",
+        "type": "single",
+        "stem": "（26联考）某农学院在一块正方形试验田中划出4块尽可能大、且彼此相切的等大圆形土地，并计划在灰色、黑色区域分别种植小麦和玉米(如下图所示)。问小麦和玉米的种植面积之比为：",
+        "options": [
+          {
+            "value": "A",
+            "label": "4：π"
+          },
+          {
+            "value": "B",
+            "label": "2：1"
+          },
+          {
+            "value": "C",
+            "label": "（π+2）：π"
+          },
+          {
+            "value": "D",
+            "label": "π：√2"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（26联考）某农学院在一块正方形试验田中划出4块尽可能大、且彼此相切的等大圆形土地，并计划在灰色、黑色区域分别种植小麦和玉米(如下图所示)。问小麦和玉米的种植面积之比为："
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t01-mother-01-figure-01.webp",
+            "alt": "几何问题（一）原题示意图，讲义第138页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          144
+        ],
+        "printedPages": [
+          138
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t01-mother-01-p144.webp",
+            "alt": "几何问题（一） · 母题精讲1 · 讲义第138页",
+            "pdfPage": 144
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t01-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s14-t01-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先读图，灰色不只是左上角那个圆，还包括四个圆中间的空隙；黑色只有右上角一个圆。设每个小圆半径为r。"
+        },
+        {
+          "type": "paragraph",
+          "text": "连接四个圆心，得到边长2r的正方形。中间空隙就是这个小正方形减去四个1/4圆，面积为4r²−πr²。再加左上灰圆πr²，灰色总面积恰好4r²。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{S_{\\text{灰}}}{S_{\\text{黑}}}=\\frac{\\pi r^2+(4r^2-\\pi r^2)}{\\pi r^2}=\\frac4\\pi"
+        },
+        {
+          "type": "paragraph",
+          "text": "黑色圆面积πr²，因此小麦与玉米面积比为4：π，我们选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          144
+        ],
+        "printedPages": [
+          138
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t01-mother-01-p144.webp",
+            "alt": "几何问题（一） · 母题精讲1 · 讲义第138页",
+            "pdfPage": 144
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t01-mother-01-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s14-t01-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "面积图先认清同一种填色的全部区域，再用补形抵消圆面积。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          144
+        ],
+        "printedPages": [
+          138
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t01-mother-01-p144.webp",
+            "alt": "几何问题（一） · 母题精讲1 · 讲义第138页",
+            "pdfPage": 144
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t01-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s14-t01-mother-02",
+        "type": "single",
+        "stem": "（26浙江）如下图所示，某操场形状由两个半圆形和一个矩形组成。已知两个半圆形的面积之和是矩形面积的π/6倍，矩形的周长为500米，那么操场外轮廓的长度为多少米？",
+        "options": [
+          {
+            "value": "A",
+            "label": "200+100π"
+          },
+          {
+            "value": "B",
+            "label": "300+100π"
+          },
+          {
+            "value": "C",
+            "label": "100+300π"
+          },
+          {
+            "value": "D",
+            "label": "200+300π"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（26浙江）如下图所示，某操场形状由两个半圆形和一个矩形组成。已知两个半圆形的面积之和是矩形面积的π/6倍，矩形的周长为500米，那么操场外轮廓的长度为多少米？"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t01-mother-02-figure-01.webp",
+            "alt": "几何问题（一）原题示意图，讲义第138页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          144
+        ],
+        "printedPages": [
+          138
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t01-mother-02-p144.webp",
+            "alt": "几何问题（一） · 母题精讲2 · 讲义第138页",
+            "pdfPage": 144
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t01-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s14-t01-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设矩形直线边长为a，半圆半径为r，则矩形另一边为2r。两个半圆合起来是一个整圆。"
+        },
+        {
+          "type": "paragraph",
+          "text": "面积条件是πr²÷（2ra）=π/6，约分得到a=3r。矩形周长为2（a+2r）=500，所以r=50、a=150。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{\\pi r^2}{2ra}=\\frac\\pi6,\\quad a=3r,\\quad 2(a+2r)=500"
+        },
+        {
+          "type": "paragraph",
+          "text": "操场外轮廓只含两条直线边和一整个圆周，不含两个拼接直径，长度2a+2πr=300+100π，我们选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          144
+        ],
+        "printedPages": [
+          138
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t01-mother-02-p144.webp",
+            "alt": "几何问题（一） · 母题精讲2 · 讲义第138页",
+            "pdfPage": 144
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t01-mother-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s14-t01-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "组合图形的外周长要去掉内部拼接边。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          144
+        ],
+        "printedPages": [
+          138
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t01-mother-02-p144.webp",
+            "alt": "几何问题（一） · 母题精讲2 · 讲义第138页",
+            "pdfPage": 144
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t01-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s14-t01-mother-03",
+        "type": "single",
+        "stem": "（26联考）一个长方体金属块的长、宽、高之比为5：4：3，现要用一个平面将这个金属块切为2个完全相同的部分，截面可能的最大面积是最小面积的：",
+        "options": [
+          {
+            "value": "A",
+            "label": "不到1.6倍"
+          },
+          {
+            "value": "B",
+            "label": "1.6～1.8倍"
+          },
+          {
+            "value": "C",
+            "label": "1.8～2倍"
+          },
+          {
+            "value": "D",
+            "label": "2倍以上"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          144
+        ],
+        "printedPages": [
+          138
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t01-mother-03-p144.webp",
+            "alt": "几何问题（一） · 母题精讲3 · 讲义第138页",
+            "pdfPage": 144
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t01-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s14-t01-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们只需要判断倍数范围，不必先求出所有可能截面。按比例设长宽高为5、4、3，平行于4×3的面从中间切开，截面积12，所以最小截面积不会大于12。"
+        },
+        {
+          "type": "paragraph",
+          "text": "再沿着4×3面的对角线并平行长度5去切，能得到边长5与√（4²+3²）=5的矩形截面，面积25，也能把长方体分成全等两部分。因此最大截面积至少25。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{S_{\\max}}{S_{\\min}}\\ge\\frac{5\\sqrt{4^2+3^2}}{4\\times3}=\\frac{25}{12}>2"
+        },
+        {
+          "type": "paragraph",
+          "text": "最大除最小至少25/12，已经超过2，其他三个范围都排除，我们选D。这里用可构造的上下界足以定范围，并没有把某个截面擅自认作绝对最大。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          144
+        ],
+        "printedPages": [
+          138
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t01-mother-03-p144.webp",
+            "alt": "几何问题（一） · 母题精讲3 · 讲义第138页",
+            "pdfPage": 144
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t01-mother-03-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s14-t01-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "选项只问范围时，可以用两个可实现截面建立足够的倍数界。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          144
+        ],
+        "printedPages": [
+          138
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t01-mother-03-p144.webp",
+            "alt": "几何问题（一） · 母题精讲3 · 讲义第138页",
+            "pdfPage": 144
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t01-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s14-t01-practice-01",
+        "type": "single",
+        "stem": "（26联考）某款蛋堡锅的锅盘为直径24厘米的圆，其中排布着7个全等的深度均为2厘米的圆柱状凹槽，锅盘的金属用料与表面积成正比（厚度忽略不计，锅盘可近似看作如右下图所示的图形）。厂家现推出凹槽加深30%的升级款，则升级后的锅盘用料约增加多少倍？",
+        "options": [
+          {
+            "value": "A",
+            "label": "0.13"
+          },
+          {
+            "value": "B",
+            "label": "0.21"
+          },
+          {
+            "value": "C",
+            "label": "0.3"
+          },
+          {
+            "value": "D",
+            "label": "0.69"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（26联考）某款蛋堡锅的锅盘为直径24厘米的圆，其中排布着7个全等的深度均为2厘米的圆柱状凹槽，锅盘的金属用料与表面积成正比（厚度忽略不计，锅盘可近似看作如右下图所示的图形）。厂家现推出凹槽加深30%的升级款，则升级后的锅盘用料约增加多少倍？"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t01-practice-01-figure-01.webp",
+            "alt": "几何问题（一）原题示意图，讲义第139页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          145
+        ],
+        "printedPages": [
+          139
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t01-practice-01-p145.webp",
+            "alt": "几何问题（一） · 思维精练1 · 讲义第139页",
+            "pdfPage": 145
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t01-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s14-t01-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先按图看7个等圆的紧密排列：一条直径上正好排3个小圆，锅盘直径24，因此每个凹槽直径8、半径4。"
+        },
+        {
+          "type": "paragraph",
+          "text": "凹槽挖下去后，底面圆面积与原来被挖掉的平面圆面积相抵，原用料对应“大圆平面+7个槽侧面”：144π+7×2π×4×2=256π。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{\\Delta S}{S}=\\frac{7(2\\pi\\times4\\times2)\\times30\\%}{\\pi12^2+7(2\\pi\\times4\\times2)}=0.13125"
+        },
+        {
+          "type": "paragraph",
+          "text": "加深30%只增加槽的侧面积，增加量112π×30%=33.6π，比例33.6/256=0.13125，约增加0.13倍，我们选A。不是整个锅盘面积都增加30%。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          145
+        ],
+        "printedPages": [
+          139
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t01-practice-01-p145.webp",
+            "alt": "几何问题（一） · 思维精练1 · 讲义第139页",
+            "pdfPage": 145
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t01-practice-01-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s14-t01-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "凹槽深度变化只改侧面积，平面与槽底面积可合并。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          145
+        ],
+        "printedPages": [
+          139
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t01-practice-01-p145.webp",
+            "alt": "几何问题（一） · 思维精练1 · 讲义第139页",
+            "pdfPage": 145
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t01-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s14-t01-practice-02",
+        "type": "single",
+        "stem": "（26全国事考）某正方形花坛由四个小长方形组成（如图所示），其中左上、右上、右下、左下四个小长方形的面积之比分别为1：2：3：4。若在图中阴影部分（四边形IFDH）种植牡丹，则牡丹的种植面积占花坛总面积的（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "1/3"
+          },
+          {
+            "value": "B",
+            "label": "2/5"
+          },
+          {
+            "value": "C",
+            "label": "3/8"
+          },
+          {
+            "value": "D",
+            "label": "3/10"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（26全国事考）某正方形花坛由四个小长方形组成（如图所示），其中左上、右上、右下、左下四个小长方形的面积之比分别为1：2：3：4。若在图中阴影部分（四边形IFDH）种植牡丹，则牡丹的种植面积占花坛总面积的（）。"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t01-practice-02-figure-01.webp",
+            "alt": "几何问题（一）原题示意图，讲义第139页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          145
+        ],
+        "printedPages": [
+          139
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t01-practice-02-p145.webp",
+            "alt": "几何问题（一） · 思维精练2 · 讲义第139页",
+            "pdfPage": 145
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t01-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s14-t01-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设正方形边长为a。上面两个长方形面积占总面积的（1+2）/10=3/10，所以顶层高度3a/10。顶层左右面积比1：2，得到FH=IB=2a/3。"
+        },
+        {
+          "type": "paragraph",
+          "text": "阴影由△IFH和△FDH两块组成。第一块是右上长方形的一半，面积a²/10；第二块以FH为底，高为从D到底层分界线的7a/10，面积7a²/30。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{S_{IFDH}}{a^2}=\\frac1{10}+\\frac12\\times\\frac23\\times\\frac7{10}=\\frac13"
+        },
+        {
+          "type": "paragraph",
+          "text": "两块相加a²/3，占总面积1/3，我们选A。图中上下层的竖向分界不在同一直线上，不能当成标准十字四等分。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          145
+        ],
+        "printedPages": [
+          139
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t01-practice-02-p145.webp",
+            "alt": "几何问题（一） · 思维精练2 · 讲义第139页",
+            "pdfPage": 145
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t01-practice-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s14-t01-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "不规则阴影先拆成三角形，矩形面积比用于还原对应底和高。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          145
+        ],
+        "printedPages": [
+          139
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t01-practice-02-p145.webp",
+            "alt": "几何问题（一） · 思维精练2 · 讲义第139页",
+            "pdfPage": 145
+          }
+        ]
+      }
+    }
+  ]
+}

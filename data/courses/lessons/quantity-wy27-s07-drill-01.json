@@ -1,0 +1,409 @@
+{
+  "id": "quantity-wy27-s07-drill-01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s07",
+  "title": "实战精刷 · 1—4题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      77,
+      78
+    ],
+    "printedPages": [
+      71,
+      72
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s07-t03-drill-01-question",
+      "type": "question",
+      "title": "实战精刷 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s07-t03-drill-01",
+        "type": "single",
+        "stem": "（25国考）甲和乙从环形跑道的同一点出发，向相反方向匀速慢跑，乙的速度是甲的一半。两人3分钟后第一次相遇，此后乙加速又跑了正好半圈后和甲第二次相遇。问两人第一次到第二次相遇间隔了多长时间？",
+        "options": [
+          {
+            "value": "A",
+            "label": "2分10秒"
+          },
+          {
+            "value": "B",
+            "label": "2分15秒"
+          },
+          {
+            "value": "C",
+            "label": "2分20秒"
+          },
+          {
+            "value": "D",
+            "label": "2分30秒"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          77
+        ],
+        "printedPages": [
+          71
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-01-p077.webp",
+            "alt": "行程问题（二） · 实战精刷1 · 讲义第71页",
+            "pdfPage": 77
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t03-drill-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t03-drill-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设甲速度v米/分钟，乙原速度v/2。第一次相遇3分钟，共走L＝(v＋v/2)×3＝4.5v米。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第一次到第二次相遇，仍共同走一圈；乙恰好走半圈，甲也就走半圈。甲用时L/(2v)＝2.25分钟，即2分15秒，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "相邻反向相遇共同走一圈，一方走半圈时另一方也走半圈。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          77
+        ],
+        "printedPages": [
+          71
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-01-p077.webp",
+            "alt": "行程问题（二） · 实战精刷1 · 讲义第71页",
+            "pdfPage": 77
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t03-drill-02-question",
+      "type": "question",
+      "title": "实战精刷 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s07-t03-drill-02",
+        "type": "single",
+        "stem": "（24国考）甲、乙分别从一个环形跑道的A、B两点同时出发，分别以顺时针、逆时针方向匀速跑步，甲跑15秒后与乙相遇，又跑了20秒后到达B点，又跑了45秒后回到A点，问此时乙还要跑多久才能再次回到B点？",
+        "options": [
+          {
+            "value": "A",
+            "label": "40秒"
+          },
+          {
+            "value": "B",
+            "label": "50秒"
+          },
+          {
+            "value": "C",
+            "label": "20秒"
+          },
+          {
+            "value": "D",
+            "label": "30秒"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          77
+        ],
+        "printedPages": [
+          71
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-02-p077.webp",
+            "alt": "行程问题（二） · 实战精刷2 · 讲义第71页",
+            "pdfPage": 77
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t03-drill-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t03-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先从甲算一圈时间：15＋20＋45＝80秒，甲速度L/80。A到B沿甲方向共35秒，第一次相遇前甲走15秒，所以乙在15秒里走的反向路段相当于甲走20秒。"
+        },
+        {
+          "type": "paragraph",
+          "text": "乙速度＝(20L/80)/15＝L/60，所以乙一圈用60秒。到甲回A时已过80秒，乙已跑1圈又20秒，还需40秒回B，选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先还原两点间的有向弧长，相遇前两人走的是同一段弧的两部分。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          77
+        ],
+        "printedPages": [
+          71
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-02-p077.webp",
+            "alt": "行程问题（二） · 实战精刷2 · 讲义第71页",
+            "pdfPage": 77
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t03-drill-03-question",
+      "type": "question",
+      "title": "实战精刷 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s07-t03-drill-03",
+        "type": "single",
+        "stem": "（23深圳）老杨、老朱和小张三人开展社区巡防工作，巡防路线固定，三人同时同向出发，老杨开车，老朱骑自行车，小张走路。已知老杨每20分钟追上小张一次，每40分钟追上老朱一次，则老朱每（）分钟追上小张一次。",
+        "options": [
+          {
+            "value": "A",
+            "label": "30"
+          },
+          {
+            "value": "B",
+            "label": "40"
+          },
+          {
+            "value": "C",
+            "label": "50"
+          },
+          {
+            "value": "D",
+            "label": "60"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          77
+        ],
+        "printedPages": [
+          71
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-03-p077.webp",
+            "alt": "行程问题（二） · 实战精刷3 · 讲义第71页",
+            "pdfPage": 77
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t03-drill-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t03-drill-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把一圈设为L。老杨比小张快L/20，比老朱快L/40。两式相减，老朱比小张快L/20－L/40＝L/40。"
+        },
+        {
+          "type": "paragraph",
+          "text": "老朱每追回一圈需要L÷(L/40)＝40分钟，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "追及频率对应速度差，不是把两个追及时间直接相减。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          77
+        ],
+        "printedPages": [
+          71
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-03-p077.webp",
+            "alt": "行程问题（二） · 实战精刷3 · 讲义第71页",
+            "pdfPage": 77
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t03-drill-04-question",
+      "type": "question",
+      "title": "实战精刷 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s07-t03-drill-04",
+        "type": "single",
+        "stem": "（22北京）甲和乙同时出发，在长360米的环形道路上沿同一方向各自匀速散步。甲出发2圈后第一次追上乙，又走了4圈半第二次追上乙。则甲出发后走了多少米第一次到达乙的出发点？",
+        "options": [
+          {
+            "value": "A",
+            "label": "160"
+          },
+          {
+            "value": "B",
+            "label": "200"
+          },
+          {
+            "value": "C",
+            "label": "240"
+          },
+          {
+            "value": "D",
+            "label": "280"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          78
+        ],
+        "printedPages": [
+          72
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-04-p078.webp",
+            "alt": "行程问题（二） · 实战精刷4 · 讲义第72页",
+            "pdfPage": 78
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t03-drill-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t03-drill-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看两次追上之间：甲又走4.5圈，快者相对慢者多走1圈，所以速度差/甲速度＝1/4.5＝2/9。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第一次追上前甲走2圈，因此甲最初落后乙的沿跑道距离＝2L×2/9＝4L/9。"
+        },
+        {
+          "type": "paragraph",
+          "text": "L＝360米，4L/9＝160米，这就是甲第一次到乙起点所走的路程，选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "两次追上之间先求相对速度比例，再回推第一次追回的初始间距。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          78
+        ],
+        "printedPages": [
+          72
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-04-p078.webp",
+            "alt": "行程问题（二） · 实战精刷4 · 讲义第72页",
+            "pdfPage": 78
+          }
+        ]
+      }
+    }
+  ]
+}

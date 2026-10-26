@@ -1,0 +1,219 @@
+{
+  "id": "quantity-wy27-s10-drill-04",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s10",
+  "title": "实战精刷 · 13—14题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      110
+    ],
+    "printedPages": [
+      104
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s10-t03-drill-13-question",
+      "type": "question",
+      "title": "实战精刷 · 第13题",
+      "question": {
+        "id": "quantity-wy27-s10-t03-drill-13",
+        "type": "single",
+        "stem": "（26山东）某市文旅局要组建文旅宣传队，要求从6名男性（含3名党员）和5名女性（含2名党员）中选择4名。要求男女比例是3：1，且至少包含两名党员，问符合要求的组合有几种？",
+        "options": [
+          {
+            "value": "A",
+            "label": "62"
+          },
+          {
+            "value": "B",
+            "label": "64"
+          },
+          {
+            "value": "C",
+            "label": "66"
+          },
+          {
+            "value": "D",
+            "label": "68"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          110
+        ],
+        "printedPages": [
+          104
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-13-p110.webp",
+            "alt": "排列组合问题（一） · 实战精刷13 · 讲义第104页",
+            "pdfPage": 110
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-13-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t03-drill-13",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先按唯一一名女生是否党员分类。女生是党员时有2种选法，3名男生至少1名党员；从6名男生选3名，共C₆³＝20种，扣掉3名都非党员的1种，剩19种，本类2×19＝38种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "女生不是党员时有3种选法，3名男生中至少2名党员。恰好2名党员有C₃²×C₃¹＝9种，3名全是党员有1种，合计10种，本类3×10＝30种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两类相加38＋30＝68种，我们选D。男女3∶1与总人数4先把性别人数固定为3男1女，再处理党员条件。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "双重分类条件先固定一种结构，再按关键对象是否满足第二条件分类。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          110
+        ],
+        "printedPages": [
+          104
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-13-p110.webp",
+            "alt": "排列组合问题（一） · 实战精刷13 · 讲义第104页",
+            "pdfPage": 110
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-14-question",
+      "type": "question",
+      "title": "实战精刷 · 第14题",
+      "question": {
+        "id": "quantity-wy27-s10-t03-drill-14",
+        "type": "single",
+        "stem": "（26浙江事考）某大学在周四和周五为学生开设选修课程，周四有甲、乙、丙、丁四门课程，周五有甲、乙、戊、己、庚五门课程，且课程时间均不重叠。小吴计划选择三门不同的课程，那么有多少种选课方式？",
+        "options": [
+          {
+            "value": "A",
+            "label": "56"
+          },
+          {
+            "value": "B",
+            "label": "62"
+          },
+          {
+            "value": "C",
+            "label": "64"
+          },
+          {
+            "value": "D",
+            "label": "70"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          110
+        ],
+        "printedPages": [
+          104
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-14-p110.webp",
+            "alt": "排列组合问题（一） · 实战精刷14 · 讲义第104页",
+            "pdfPage": 110
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s10-t03-drill-14-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s10-t03-drill-14",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先分清同名课程和上课时段。甲、乙各开两天，但同一门课程不能重复选；其余丙、丁、戊、己、庚各只有一个时段。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两门甲、乙都选时，第三门从其余5门选1门，甲乙各可选周四或周五，有5×2²＝20种。只选甲乙中的1门时，有2×C₅²×2＝40种。甲乙都不选时，从其余5门选3门，有C₅³＝10种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "合计20＋40＋10＝70种，我们选D。若直接从9个时段选3个，会把同时选两次甲或两次乙的无效方案算进去。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "课程名不能重复、时段可以不同，要按重复开课的课程选中几门分类。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          110
+        ],
+        "printedPages": [
+          104
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s10-t03-drill-14-p110.webp",
+            "alt": "排列组合问题（一） · 实战精刷14 · 讲义第104页",
+            "pdfPage": 110
+          }
+        ]
+      }
+    }
+  ]
+}

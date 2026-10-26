@@ -1,0 +1,642 @@
+{
+  "id": "quantity-wy27-s07-t01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s07",
+  "title": "环线相遇和追及",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      72,
+      73,
+      74
+    ],
+    "printedPages": [
+      66,
+      67,
+      68
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s07-t01-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "环线相遇和追及",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先确定跑道周长L、起点是否相同、方向是否相同。环线每多一次同向追上，快者比慢者多跑一圈；每多一次反向相遇，两人合起来多跑一圈。"
+        },
+        {
+          "type": "formula",
+          "latex": "T_{\\text{同向追及}}=\\frac{L}{v_1-v_2},\\qquad T_{\\text{反向相遇}}=\\frac{L}{v_1+v_2}"
+        },
+        {
+          "type": "paragraph",
+          "text": "如果最初就相隔半圈，第一次追上只用追回半圈，后面每次才是一整圈；不能把第3次直接算成3圈的相对路程。问相遇位置，则把累计路程按周长取余，跑道两点相距通常取较短的沿跑道距离。"
+        },
+        {
+          "type": "paragraph",
+          "text": "多人追及可以先相减速度差：甲乙差与甲丙差相减，就得到丙乙差。凡是出现途中加速，就先把该阶段的圈长、时间和速度差单独列清。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          72
+        ],
+        "printedPages": [
+          66
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t01-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s07-t01-mother-01",
+        "type": "single",
+        "stem": "（26四川）两辆测试用新能源微型汽车A和B在10.8千米长的环形跑道上沿相反方向匀速行驶，每两次相遇之间正好间隔3分钟。已知A的速度是B的0.8倍，问A的速度为多少千米/小时？",
+        "options": [
+          {
+            "value": "A",
+            "label": "76"
+          },
+          {
+            "value": "B",
+            "label": "96"
+          },
+          {
+            "value": "C",
+            "label": "108"
+          },
+          {
+            "value": "D",
+            "label": "120"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          73
+        ],
+        "printedPages": [
+          67
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t01-mother-01-p073.webp",
+            "alt": "行程问题（二） · 母题精讲1 · 讲义第67页",
+            "pdfPage": 73
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t01-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t01-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先用反向相遇的周期求两车速度和。3分钟＝0.05小时，速度和＝10.8÷0.05＝216千米/小时。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A是B的0.8倍，A∶B＝4∶5，因此A速度＝216×4/9＝96千米/小时，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "环道相邻两次反向相遇，合走一圈，时间单位先统一。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          73
+        ],
+        "printedPages": [
+          67
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t01-mother-01-p073.webp",
+            "alt": "行程问题（二） · 母题精讲1 · 讲义第67页",
+            "pdfPage": 73
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t01-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s07-t01-mother-02",
+        "type": "single",
+        "stem": "（20山东）甲、乙两人在一条400米的环形跑道上从相距200米的位置出发，同向匀速跑步。当甲第三次追上乙的时候，乙跑了2000米。问甲的速度是乙的多少倍？",
+        "options": [
+          {
+            "value": "A",
+            "label": "1.2"
+          },
+          {
+            "value": "B",
+            "label": "1.5"
+          },
+          {
+            "value": "C",
+            "label": "1.6"
+          },
+          {
+            "value": "D",
+            "label": "2.0"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          73
+        ],
+        "printedPages": [
+          67
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t01-mother-02-p073.webp",
+            "alt": "行程问题（二） · 母题精讲2 · 讲义第67页",
+            "pdfPage": 73
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t01-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t01-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先数相对路程：两人初始相隔200米，甲第1次追回200米；第2、3次各再追回400米，所以第3次追上时累计多跑1000米。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这时乙跑2000米，甲跑3000米，同时间速度比为3000/2000＝1.5，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "起点不同先单列第一次的初始间距，后续每次才加整圈。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          73
+        ],
+        "printedPages": [
+          67
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t01-mother-02-p073.webp",
+            "alt": "行程问题（二） · 母题精讲2 · 讲义第67页",
+            "pdfPage": 73
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t01-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s07-t01-mother-03",
+        "type": "single",
+        "stem": "（26联考）甲和乙从全长n米的环形跑道上某一点同时匀速出发，如两人同向跑步，则甲第一次追上乙的用时是两人反向跑步第一次相遇用时的8倍。如两人反向跑步，那么第一次相遇时乙跑了多少米？",
+        "options": [
+          {
+            "value": "A",
+            "label": "n/8"
+          },
+          {
+            "value": "B",
+            "label": "n/16"
+          },
+          {
+            "value": "C",
+            "label": "3n/8"
+          },
+          {
+            "value": "D",
+            "label": "7n/16"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          73
+        ],
+        "printedPages": [
+          67
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t01-mother-03-p073.webp",
+            "alt": "行程问题（二） · 母题精讲3 · 讲义第67页",
+            "pdfPage": 73
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t01-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t01-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设甲乙速度为a、b，甲较快。同起点同向追上需n/(a－b)，反向第一次相遇需n/(a＋b)。"
+        },
+        {
+          "type": "paragraph",
+          "text": "前者为后者的8倍，所以a＋b＝8(a－b)，得7a＝9b，也就是甲∶乙＝9∶7。"
+        },
+        {
+          "type": "paragraph",
+          "text": "反向相遇共同走一圈，乙走其中7/16，即7n/16米，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "相遇与追及时间之比要先转成速度和与速度差的关系。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          73
+        ],
+        "printedPages": [
+          67
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t01-mother-03-p073.webp",
+            "alt": "行程问题（二） · 母题精讲3 · 讲义第67页",
+            "pdfPage": 73
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t01-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s07-t01-practice-01",
+        "type": "single",
+        "stem": "（26浙江事考）甲、乙、丙三人在长度为400米的环形跑道上跑步，他们从同一起点同时出发，匀速同向而行。甲跑20分钟后首次追上乙，再跑5分钟又首次追上丙。问甲首次追上丙时，丙比乙多跑了多少米？",
+        "options": [
+          {
+            "value": "A",
+            "label": "40"
+          },
+          {
+            "value": "B",
+            "label": "60"
+          },
+          {
+            "value": "C",
+            "label": "80"
+          },
+          {
+            "value": "D",
+            "label": "100"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          74
+        ],
+        "printedPages": [
+          68
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t01-practice-01-p074.webp",
+            "alt": "行程问题（二） · 思维精练1 · 讲义第68页",
+            "pdfPage": 74
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t01-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t01-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先分别算速度差：甲20分钟追上乙，甲比乙快400/20＝20米/分钟；甲25分钟首次追上丙，甲比丙快400/25＝16米/分钟。"
+        },
+        {
+          "type": "paragraph",
+          "text": "因此丙比乙快20－16＝4米/分钟。经过25分钟，丙比乙多跑4×25＝100米，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "多人追及先求成对速度差，再相减得到另一对的速度差。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          74
+        ],
+        "printedPages": [
+          68
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t01-practice-01-p074.webp",
+            "alt": "行程问题（二） · 思维精练1 · 讲义第68页",
+            "pdfPage": 74
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t01-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s07-t01-practice-02",
+        "type": "single",
+        "stem": "（25联考）小张和小王从一条400米环形跑道的相同位置出发沿相反方向匀速跑步。小王等小张出发38秒后出发，跑了18秒后与小张相遇，又跑了49秒后正好回到出发点。问两人第四次相遇的位置和第一次相遇的位置相距多少米？",
+        "options": [
+          {
+            "value": "A",
+            "label": "120"
+          },
+          {
+            "value": "B",
+            "label": "150"
+          },
+          {
+            "value": "C",
+            "label": "160"
+          },
+          {
+            "value": "D",
+            "label": "170"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          74
+        ],
+        "printedPages": [
+          68
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t01-practice-02-p074.webp",
+            "alt": "行程问题（二） · 思维精练2 · 讲义第68页",
+            "pdfPage": 74
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t01-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t01-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先从小王的行程入手。出发后18秒相遇，再49秒回起点，共67秒一圈，所以王速度400/67米/秒。第一次相遇时张已经跑38＋18＝56秒。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两人反向合走一圈，张这56秒跑了400－18×400/67＝19600/67米，所以张速度350/67。相邻相遇间隔＝400÷(750/67)＝536/15秒。"
+        },
+        {
+          "type": "paragraph",
+          "text": "从第1次到第4次有3个间隔，王共跑3×(400/67)×(536/15)＝640米，取一圈余240米。两位置沿跑道较短间距为400－240＝160米，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "第1次到第4次只有3个相遇周期，位置要按周长取余。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          74
+        ],
+        "printedPages": [
+          68
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t01-practice-02-p074.webp",
+            "alt": "行程问题（二） · 思维精练2 · 讲义第68页",
+            "pdfPage": 74
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t01-practice-03-question",
+      "type": "question",
+      "title": "思维精练 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s07-t01-practice-03",
+        "type": "single",
+        "stem": "（26国考）甲、乙、丙三辆车同时从环形道路同一点出发匀速行驶，其中甲和乙顺时针行驶，丙逆时针行驶，且甲、乙、丙的速度比为4：5：6。已知甲丙和乙丙第一次相遇的时间间隔为5秒，问出发后多久乙第一次追上甲？",
+        "options": [
+          {
+            "value": "A",
+            "label": "不到8分钟"
+          },
+          {
+            "value": "B",
+            "label": "8分钟~9分钟之间"
+          },
+          {
+            "value": "C",
+            "label": "9分钟~10分钟之间"
+          },
+          {
+            "value": "D",
+            "label": "超过10分钟"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          74
+        ],
+        "printedPages": [
+          68
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t01-practice-03-p074.webp",
+            "alt": "行程问题（二） · 思维精练3 · 讲义第68页",
+            "pdfPage": 74
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t01-practice-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t01-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把三车速度设4k、5k、6k。甲丙反向相遇需L/(10k)，乙丙反向相遇需L/(11k)，差5秒。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以L/(10k)－L/(11k)＝L/(110k)＝5，得到L/k＝550秒。乙比甲快k，同向首次追上需要L/k＝550秒，即9分10秒，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "不同相遇事件共用同一周长，用时间差先求周长与速度尺度的比。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          74
+        ],
+        "printedPages": [
+          68
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t01-practice-03-p074.webp",
+            "alt": "行程问题（二） · 思维精练3 · 讲义第68页",
+            "pdfPage": 74
+          }
+        ]
+      }
+    }
+  ]
+}

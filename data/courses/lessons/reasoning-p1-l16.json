@@ -1,0 +1,126 @@
+{
+  "id": "reasoning-p1-l16",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-weaken",
+  "title": "质疑结论：注意结论突然多出来的新对象、新条件",
+  "source": {
+    "startSeconds": 2995,
+    "endSeconds": 3153,
+    "timeLabel": "00:49:55—00:52:33",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p1-l16-knowledge-a2bbb16-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "质疑结论：注意结论突然多出来的新对象、新条件",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "前面多数题是在查论据和论证关系。还有一些题，前面一直说一个范围，最后的结论却突然换成另一个范围，这时候要特别留心。"
+        },
+        {
+          "type": "paragraph",
+          "text": "结论里突然出现的对象、条件，前面真的已经证明过了吗？还是默认把一般情况直接搬过去了？"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-q016-question",
+      "type": "question",
+      "title": "健身人群长期喝蛋白粉，会不会伤肾",
+      "question": {
+        "id": "reasoning-q016",
+        "type": "single",
+        "stem": "当人体摄入过多的蛋白质时，肾脏必须更加努力工作以清除额外产生的含氮废物。长此以往可能会导致肾小球滤过率升高，从而增加肾脏的工作负担，加速肾脏损伤。因此有人认为，健身人群长期喝蛋白粉会伤肾。\n以下哪项如果为真，最能反驳上述观点：",
+        "options": [
+          {
+            "value": "A",
+            "label": "熬夜、劳累、高油高盐饮食等是导致肾病的主要原因"
+          },
+          {
+            "value": "B",
+            "label": "运动会使肌肉纤维发生损伤，需要更多蛋白质来修复"
+          },
+          {
+            "value": "C",
+            "label": "比起欧美国家，我国人均每日蛋白质摄入量要低不少"
+          },
+          {
+            "value": "D",
+            "label": "研究表明，喝蛋白粉与其他摄入蛋白质方式无明显区别"
+          }
+        ],
+        "answer": "B"
+      },
+      "source": {
+        "startSeconds": 3022,
+        "endSeconds": 3153,
+        "timeLabel": "00:50:22",
+        "videoId": "7686460560006794547",
+        "videoTitle": "判断推理完整复盘",
+        "examLabel": "【视频 00:50:22 起；2026 年浙江省考】"
+      }
+    },
+    {
+      "id": "reasoning-q016-explanation-d8aab20-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先看前面的条件：“摄入过多的蛋白质”。但最后结论说的是：“健身人群长期喝蛋白粉”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "喝得长期，就一定摄入过量吗？健身人群的蛋白质需求，和其他人完全一样吗？题干没有把这一步交代清楚。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们在这里要特别留意：结论突然出现“健身人群”，这是个需要专门考虑的对象，不能只凭前面的一般表述就直接套过去。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A，熬夜、高油高盐等是“主要原因”，不等于只有这些原因。主要原因之外，仍然可以有其他原因，所以排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "B，健身运动后有肌肉修复需求，需要更多蛋白质。那喝蛋白粉也可能是在补它额外需要的部分，不能直接等同于“过多摄入”。这个刚好打到了题干从“喝蛋白粉”跳到“过量”的缺口上，保留。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们再用热量作类比：一个人吃得多，但运动消耗也多；另一个人吃得少，但消耗更少。不能只盯摄入量的绝对多少，就判定谁超过自己的需要。这里我们学的是“要结合需求来看是否过量”这个分析思路。"
+        },
+        {
+          "type": "paragraph",
+          "text": "C，我国和欧美的平均摄入量比较，没有直接说明这组健身者是不是过量，范围不对，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "D，说的是摄入方式有没有区别，但这道题关键是有没有过量，不是粉末这种形式本身特殊不特殊，排除。"
+        }
+      ],
+      "questionId": "reasoning-q016"
+    },
+    {
+      "id": "reasoning-q016-explanation-d8aab20-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "所以这道题选 B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这里得到的是“原论证不足以直接推出健身人群长期喝蛋白粉就会伤肾”，不是反过来宣布任何人、任何量都不会有问题。我们做题只把它没有证明的那一步指出来。"
+        }
+      ],
+      "questionId": "reasoning-q016"
+    }
+  ]
+}

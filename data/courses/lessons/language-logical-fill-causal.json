@@ -1,0 +1,107 @@
+{
+  "id": "language-logical-fill-causal",
+  "subjectId": "language",
+  "groupId": "language-logical-fill",
+  "title": "因果关系 空在原因处 就从结果往回推",
+  "source": {
+    "startSeconds": 8817,
+    "endSeconds": 8900,
+    "timeLabel": "02:26:57—02:28:20",
+    "videoId": "7677994152398834998",
+    "videoTitle": "言语理解完整复盘"
+  },
+  "cards": [
+    {
+      "id": "language-logical-fill-causal-intro",
+      "type": "text",
+      "role": "intro",
+      "title": "题型二：因果关系",
+      "blocks": []
+    },
+    {
+      "id": "language-logical-fill-causal-method-5411cd7-01",
+      "type": "text",
+      "role": "method",
+      "title": "我们的解题思路",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "一个空可能在原因的位置，也可能在结果的位置。我们先把前后关系找出来，必要时自己补上“因为”“所以”，看看哪边是在解释另一边。"
+        }
+      ]
+    },
+    {
+      "id": "language-q050-question",
+      "type": "question",
+      "title": "古人留下的信息",
+      "question": {
+        "id": "language-q050",
+        "type": "single",
+        "stem": "科学需要想象力，考古更是如此。古人留下的信息总是________，出土的文物也不会说话。我们需要想象力来弥合认知缝隙，获得一幅完整的图景，需要想象力神游时空与古人对话，也需要以想象力驱动求知欲，读懂先民留给我们的文明“密码”，从已知向未知不断进发。\n填入画横线部分最恰当的一项是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "艰深晦涩"
+          },
+          {
+            "value": "B",
+            "label": "支离破碎"
+          },
+          {
+            "value": "C",
+            "label": "模棱两可"
+          },
+          {
+            "value": "D",
+            "label": "错综复杂"
+          }
+        ],
+        "answer": "B"
+      },
+      "source": {
+        "startSeconds": 8817,
+        "endSeconds": 8900,
+        "timeLabel": "02:26:57—02:28:20",
+        "videoId": "7677994152398834998",
+        "videoTitle": "言语理解完整复盘"
+      }
+    },
+    {
+      "id": "language-q050-explanation-cdcaf0b-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们把关系补出来：【因为】古人留下的信息总是某种状态，文物又不会说话，【所以】需要想象力来弥合缝隙，获得完整图景。"
+        },
+        {
+          "type": "paragraph",
+          "text": "空在原因处。后面的结果已经告诉我们，要弥合、要完整，那前面就应该是不完整、有缺口，而不是单纯难懂或者复杂。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A，艰深晦涩，主要说深奥、难懂，没有直接对应“不完整”，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "B，支离破碎，就是零散、不完整，和弥合缝隙、获得完整图景对应，保留。"
+        },
+        {
+          "type": "paragraph",
+          "text": "C，模棱两可，说的是态度或说法不明确，两面都可以理解，不是信息残缺，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "D，错综复杂，强调关系多、结构复杂，也不是不完整，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以选 B。我们是根据具体的“缝隙—弥合”“不完整—完整”倒推，不是只看到“需要”两个字，就把所有题都判成同一种因果关系。"
+        }
+      ],
+      "questionId": "language-q050"
+    }
+  ]
+}

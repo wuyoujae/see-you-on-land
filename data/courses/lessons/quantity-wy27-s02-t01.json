@@ -1,0 +1,450 @@
+{
+  "id": "quantity-wy27-s02-t01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s02",
+  "title": "特值思维",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      19,
+      20,
+      21
+    ],
+    "printedPages": [
+      13,
+      14,
+      15
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s02-t01-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "特值思维",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们在只给比例、求比例的题里，可以把某个总量设成100、某个单价设成1，或按比例设成便于计算的份数。这样做的前提是答案不随整体尺度改变；不是随意增加一个本来没有的条件。遇到差量、总额等固定量时，要先确认它们有没有锁定尺度。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们也会用一个未知部分能消去的合法特殊情形，例如甲有效样本与乙无效样本之差，等于“总有效减乙全部”。几何中的特值同样须保持全部已知条件，并确认所求在这类图形中不变，不能把任意长方形直接当正方形而不说明理由。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          19
+        ],
+        "printedPages": [
+          13
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t01-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s02-t01-mother-01",
+        "type": "single",
+        "stem": "（25联考）某单位组织看电影，60%的人看了2D版本，剩下的看3D版本。已知看2D版本的人中30%给了9分以上，看3D版本的人中40%给了9分以上，问所有人中给了9分以上的占比有（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "17/50"
+          },
+          {
+            "value": "B",
+            "label": "19/50"
+          },
+          {
+            "value": "C",
+            "label": "8/25"
+          },
+          {
+            "value": "D",
+            "label": "9/25"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          20
+        ],
+        "printedPages": [
+          14
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t01-mother-01-p020.webp",
+            "alt": "和差倍比问题（二） · 母题精讲1 · 讲义第14页",
+            "pdfPage": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t01-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s02-t01-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看求的是占比，题目没有给总人数，整体规模不影响答案，可以把总人数设为100。看2D的60人，其中18人给9分以上；看3D的40人，其中16人给9分以上。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{60\\times30\\%+40\\times40\\%}{100}=\\frac{34}{100}=\\frac{17}{50}"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以选A。这里不能把30%和40%直接平均成35%，因为两类观众人数并不相等。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "只给比例、求比例时可设总量100，但平均时仍要保留各组权重。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          20
+        ],
+        "printedPages": [
+          14
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t01-mother-01-p020.webp",
+            "alt": "和差倍比问题（二） · 母题精讲1 · 讲义第14页",
+            "pdfPage": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t01-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s02-t01-mother-02",
+        "type": "single",
+        "stem": "（25浙江）农学院学生采集了甲、乙两个品种的水稻样本各若干份，其中36份为有效样本。已知乙品种采集样本30份，那么甲品种的有效样本比乙品种的无效样本：",
+        "options": [
+          {
+            "value": "A",
+            "label": "多6份"
+          },
+          {
+            "value": "B",
+            "label": "多12份"
+          },
+          {
+            "value": "C",
+            "label": "少6份"
+          },
+          {
+            "value": "D",
+            "label": "少12份"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          20
+        ],
+        "printedPages": [
+          14
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t01-mother-02-p020.webp",
+            "alt": "和差倍比问题（二） · 母题精讲2 · 讲义第14页",
+            "pdfPage": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t01-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s02-t01-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看两个总数：两品种有效样本合计36份，乙品种全部样本30份。设乙有效x份，那么甲有效为36-x，乙无效为30-x。"
+        },
+        {
+          "type": "formula",
+          "latex": "(36-x)-(30-x)=6"
+        },
+        {
+          "type": "paragraph",
+          "text": "未知的x抵消了，所以甲有效比乙无效多6份，选A。也可以取一个合法特例：乙30份全部有效，则甲有效6份、乙无效0份，差仍是6。关键在于先确认这个差不随有效样本如何分配而改变。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "两类量有共同的未知部分时，求差可能直接消去，特值须建立在结果不变之上。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          20
+        ],
+        "printedPages": [
+          14
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t01-mother-02-p020.webp",
+            "alt": "和差倍比问题（二） · 母题精讲2 · 讲义第14页",
+            "pdfPage": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t01-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s02-t01-practice-01",
+        "type": "single",
+        "stem": "（25国考）运送一批货物，第一趟派出10辆大车，第二趟又增派15辆小车，运输量比第一趟高50%。问每辆大车的载货量是小车的多少倍？",
+        "options": [
+          {
+            "value": "A",
+            "label": "3"
+          },
+          {
+            "value": "B",
+            "label": "2.5"
+          },
+          {
+            "value": "C",
+            "label": "2"
+          },
+          {
+            "value": "D",
+            "label": "1.5"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          21
+        ],
+        "printedPages": [
+          15
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t01-practice-01-p021.webp",
+            "alt": "和差倍比问题（二） · 思维精练1 · 讲义第15页",
+            "pdfPage": 21
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t01-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s02-t01-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看第二趟“又增派15辆小车”，原来的10辆大车仍在运。设一辆小车每趟运1份，大车运x份；第一趟10x，新增的15份正好是第一趟的50%。"
+        },
+        {
+          "type": "formula",
+          "latex": "15=10x\\times50\\%\\quad\\Longrightarrow\\quad x=3"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以大车载货量是小车的3倍，选A。我们没有把第二趟误读成只有15辆小车。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "增加的车辆承担的是增加的运输量，先比较增量最省事。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          21
+        ],
+        "printedPages": [
+          15
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t01-practice-01-p021.webp",
+            "alt": "和差倍比问题（二） · 思维精练1 · 讲义第15页",
+            "pdfPage": 21
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t01-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s02-t01-practice-02",
+        "type": "single",
+        "stem": "（26四川）一位顾客购买1件A商品和3件B商品，结账时错误地按3件A商品和1件B商品的价格进行计算，总价是实际总价的0.8倍。问A商品的单价是B商品的（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "不到0.7倍"
+          },
+          {
+            "value": "B",
+            "label": "0.7~1.0倍之间"
+          },
+          {
+            "value": "C",
+            "label": "1.0~1.4倍之间"
+          },
+          {
+            "value": "D",
+            "label": "1.4倍以上"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          21
+        ],
+        "printedPages": [
+          15
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t01-practice-02-p021.webp",
+            "alt": "和差倍比问题（二） · 思维精练2 · 讲义第15页",
+            "pdfPage": 21
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s02-t01-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s02-t01-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设B商品单价为1份，A商品为x份。实际应付x+3，错误结账为3x+1，后者是前者的0.8倍。"
+        },
+        {
+          "type": "formula",
+          "latex": "3x+1=0.8(x+3)\\quad\\Longrightarrow\\quad2.2x=1.4\\quad\\Longrightarrow\\quad x=\\frac7{11}\\approx0.636"
+        },
+        {
+          "type": "paragraph",
+          "text": "不到0.7倍，所以选A。核验错误金额为32/11，实际金额为40/11，二者比值确实是0.8。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "只有价格倍数关系、求单价比时，可把其中一种单价设为1。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          21
+        ],
+        "printedPages": [
+          15
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s02-t01-practice-02-p021.webp",
+            "alt": "和差倍比问题（二） · 思维精练2 · 讲义第15页",
+            "pdfPage": 21
+          }
+        ]
+      }
+    }
+  ]
+}

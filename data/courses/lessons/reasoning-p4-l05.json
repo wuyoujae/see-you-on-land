@@ -1,0 +1,115 @@
+{
+  "id": "reasoning-p4-l05",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-truth",
+  "title": "假设法：挑能一次带动很多信息的条件",
+  "source": {
+    "startSeconds": 9300,
+    "timeLabel": "2:35:00",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p4-l05-knowledge-757a5a9-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "假设法：挑能一次带动很多信息的条件",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "找不到矛盾，就考虑假设。但是假设什么也有讲究，尽量找重复出现、牵动多句话的条件。不要一上来就把每个人、每种情况全部拆开，越拆越多。"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-q044-question",
+      "type": "question",
+      "title": "假设法：挑能一次带动很多信息的条件",
+      "question": {
+        "id": "reasoning-q044",
+        "type": "single",
+        "stem": "在某次足球比赛中，对于甲、乙两支球队哪个队能进入决赛，宋、王、李、孔4位球迷进行了预测：\n宋：甲、乙两队至少有一队进入决赛；\n王：乙队进入决赛，而甲队未进入决赛；\n李：甲、乙两队都进入决赛；\n孔：甲、乙两队要么同时进入决赛，要么都未进入决赛。\n比赛结束后，恰好有2人预测正确、2人预测错误。\n根据上述信息，可以得出以下哪项：",
+        "options": [
+          {
+            "value": "A",
+            "label": "宋预测正确，乙进入了决赛"
+          },
+          {
+            "value": "B",
+            "label": "王预测错误，甲进入了决赛"
+          },
+          {
+            "value": "C",
+            "label": "李预测正确，乙进入了决赛"
+          },
+          {
+            "value": "D",
+            "label": "孔预测错误，甲进入了决赛"
+          }
+        ],
+        "answer": "A"
+      },
+      "source": {
+        "startSeconds": 9300,
+        "timeLabel": "2:35:00",
+        "videoId": "7686460560006794547",
+        "videoTitle": "判断推理完整复盘"
+      }
+    },
+    {
+      "id": "reasoning-q044-explanation-6a1a744-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先把四句话理清：宋是“甲或乙”；王是“乙且非甲”；李是“甲且乙”；孔是“两人都进，或者两人都不进”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这四句话没有直接的一对矛盾。那我们看李和孔，都出现了“两个人都进”这个条件，就先假设两个人都进。"
+        },
+        {
+          "type": "paragraph",
+          "text": "如果两人都进，宋对，王错，李对，孔也对，这就变成三真一假，不符合题目，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "再假设两个人都不进。宋错，王错，李错，孔对，变成一真三假，也不符合，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以两个人不能都进，也不能都不进，只能一个进、一个不进。这个时候先不要再猜到底谁进，先把已经能确定的利用起来。"
+        },
+        {
+          "type": "paragraph",
+          "text": "既然一个进一个不进，李说两个人都进，那李一定错；孔说两个人同进同不进，那孔也一定错。两句假话已经找全了，所以宋和王就都是真话。"
+        },
+        {
+          "type": "paragraph",
+          "text": "王是真话，说明乙进、甲没进。所以A的“宋预测正确，乙进入决赛”完全符合，选A。"
+        },
+        {
+          "type": "paragraph",
+          "text": "B，王其实预测对了，排除。C，李预测错了，排除。D，孔确实错了，但甲没有进入，所以后半句不对，也排除。"
+        }
+      ],
+      "questionId": "reasoning-q044"
+    },
+    {
+      "id": "reasoning-q044-explanation-6a1a744-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "假设不是为了把所有情况机械地列一遍，是为了尽快把范围缩小。缩小以后，先看看能不能直接用已经确定的信息选出答案。"
+        }
+      ],
+      "questionId": "reasoning-q044"
+    }
+  ]
+}

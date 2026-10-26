@@ -1,0 +1,593 @@
+{
+  "id": "quantity-wy27-s15-drill-01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s15",
+  "title": "实战精刷 · 1—4题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      159,
+      160
+    ],
+    "printedPages": [
+      153,
+      154
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s15-t03-drill-01-question",
+      "type": "question",
+      "title": "实战精刷 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s15-t03-drill-01",
+        "type": "single",
+        "stem": "（25天津）某矩形农场ABCD如图所示，矩形区域ADEF为生产区，矩形区域BCEF为休闲区。现连接BD将两区域打通，与EF相交于O点。已知AF和FE的长度分别为600米和400米，问COD围成的三角形阴影区域面积为多少万平方米？",
+        "options": [
+          {
+            "value": "A",
+            "label": "12"
+          },
+          {
+            "value": "B",
+            "label": "15"
+          },
+          {
+            "value": "C",
+            "label": "16"
+          },
+          {
+            "value": "D",
+            "label": "18"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（25天津）某矩形农场ABCD如图所示，矩形区域ADEF为生产区，矩形区域BCEF为休闲区。现连接BD将两区域打通，与EF相交于O点。已知AF和FE的长度分别为600米和400米，问COD围成的三角形阴影区域面积为多少万平方米？"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-01-figure-01.webp",
+            "alt": "几何问题（二）原题示意图，讲义第153页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          159
+        ],
+        "printedPages": [
+          153
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-01-p159.webp",
+            "alt": "几何问题（二） · 实战精刷1 · 讲义第153页",
+            "pdfPage": 159
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t03-drill-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设整个矩形底边DC长为L，高FE=400。DE=AF=600；O在对角线DB上，△DEO与△DCB相似，得到OE/400=600/L。"
+        },
+        {
+          "type": "paragraph",
+          "text": "阴影△COD以DC为底，高OE，所以面积为L×（400×600/L）÷2，L正好约掉。"
+        },
+        {
+          "type": "formula",
+          "latex": "S_{COD}=\\frac12 L\\times\\frac{400\\times600}{L}=120000\\text{平方米}=12\\text{万平方米}"
+        },
+        {
+          "type": "paragraph",
+          "text": "结果120000平方米，即12万平方米，我们选A。右侧休闲区的宽度不需要知道。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          159
+        ],
+        "printedPages": [
+          153
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-01-p159.webp",
+            "alt": "几何问题（二） · 实战精刷1 · 讲义第153页",
+            "pdfPage": 159
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-01-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t03-drill-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "对角线与平行分割线形成相似，未知总宽常能在面积中约掉。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          159
+        ],
+        "printedPages": [
+          153
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-01-p159.webp",
+            "alt": "几何问题（二） · 实战精刷1 · 讲义第153页",
+            "pdfPage": 159
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-02-question",
+      "type": "question",
+      "title": "实战精刷 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s15-t03-drill-02",
+        "type": "single",
+        "stem": "（23联考）为推动产业园和产业集聚区加快转型，某地计划在三角形ABC区域内建设新能源产业园区（如下图所示），三角形DEF是中央工厂区，已知BD：DE：EC=1：2：3，F为AE的中点，则新能源产业园区总面积是中央工厂区面积的：",
+        "options": [
+          {
+            "value": "A",
+            "label": "7倍"
+          },
+          {
+            "value": "B",
+            "label": "6倍"
+          },
+          {
+            "value": "C",
+            "label": "5倍"
+          },
+          {
+            "value": "D",
+            "label": "4倍"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（23联考）为推动产业园和产业集聚区加快转型，某地计划在三角形ABC区域内建设新能源产业园区（如下图所示），三角形DEF是中央工厂区，已知BD：DE：EC=1：2：3，F为AE的中点，则新能源产业园区总面积是中央工厂区面积的："
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-02-figure-01.webp",
+            "alt": "几何问题（二）原题示意图，讲义第153页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          159
+        ],
+        "printedPages": [
+          153
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-02-p159.webp",
+            "alt": "几何问题（二） · 实战精刷2 · 讲义第153页",
+            "pdfPage": 159
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t03-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看同一直线上的底边：BD：DE：EC=1：2：3，所以DE占BC的2/6=1/3。△ADE与△ABC共高，面积比也是1/3。"
+        },
+        {
+          "type": "paragraph",
+          "text": "F是AE中点，到BC的高只有A的一半，所以△DEF面积又是△ADE的一半，等于△ABC的1/6。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{S_{DEF}}{S_{ABC}}=\\frac{DE}{BC}\\times\\frac{h_F}{h_A}=\\frac26\\times\\frac12=\\frac16"
+        },
+        {
+          "type": "paragraph",
+          "text": "总园区面积是中央工厂区的6倍，我们选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          159
+        ],
+        "printedPages": [
+          153
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-02-p159.webp",
+            "alt": "几何问题（二） · 实战精刷2 · 讲义第153页",
+            "pdfPage": 159
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t03-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "同高先比底，中点再把对应高度减半。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          159
+        ],
+        "printedPages": [
+          153
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-02-p159.webp",
+            "alt": "几何问题（二） · 实战精刷2 · 讲义第153页",
+            "pdfPage": 159
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-03-question",
+      "type": "question",
+      "title": "实战精刷 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s15-t03-drill-03",
+        "type": "single",
+        "stem": "（25浙江）一块四边形田地ABCD如下图所示，已知△AOD、△AOB和△COD的面积分别为9平方千米、15平方千米和12平方千米，CD长8千米。问B点到CD的距离为多少千米？",
+        "options": [
+          {
+            "value": "A",
+            "label": "6"
+          },
+          {
+            "value": "B",
+            "label": "7"
+          },
+          {
+            "value": "C",
+            "label": "8"
+          },
+          {
+            "value": "D",
+            "label": "9"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（25浙江）一块四边形田地ABCD如下图所示，已知△AOD、△AOB和△COD的面积分别为9平方千米、15平方千米和12平方千米，CD长8千米。问B点到CD的距离为多少千米？"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-03-figure-01.webp",
+            "alt": "几何问题（二）原题示意图，讲义第154页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          160
+        ],
+        "printedPages": [
+          154
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-03-p160.webp",
+            "alt": "几何问题（二） · 实战精刷3 · 讲义第154页",
+            "pdfPage": 160
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t03-drill-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先用两条对角线形成的对顶面积关系：S_AOD×S_BOC=S_AOB×S_COD，所以S_BOC=15×12÷9=20。"
+        },
+        {
+          "type": "paragraph",
+          "text": "△BCD由△BOC与△COD组成，总面积20+12=32平方千米。以CD=8千米为底，B点到CD的距离就是其高。"
+        },
+        {
+          "type": "formula",
+          "latex": "S_{BOC}=\\frac{15\\times12}{9}=20,\\quad h_{B\\to CD}=\\frac{2(20+12)}8=8"
+        },
+        {
+          "type": "paragraph",
+          "text": "高为2×32÷8=8千米，我们选C。这里CD不是图中水平的BC，读字母时不要看成相邻边。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          160
+        ],
+        "printedPages": [
+          154
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-03-p160.webp",
+            "alt": "几何问题（二） · 实战精刷3 · 讲义第154页",
+            "pdfPage": 160
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-03-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t03-drill-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先补出缺失的对角三角形面积，再用指定底边还原高。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          160
+        ],
+        "printedPages": [
+          154
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-03-p160.webp",
+            "alt": "几何问题（二） · 实战精刷3 · 讲义第154页",
+            "pdfPage": 160
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-04-question",
+      "type": "question",
+      "title": "实战精刷 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s15-t03-drill-04",
+        "type": "single",
+        "stem": "（25联考）某梯形区域ABCD的俯视图如下图所示，AB、BC、AD长度相等，且为CD长度的一半，E、F、G分别为所在边的中点。现打算在阴影区域建艺术广场，如果梯形ABCD的总面积为120亩，问艺术广场的面积为多少亩？",
+        "options": [
+          {
+            "value": "A",
+            "label": "80"
+          },
+          {
+            "value": "B",
+            "label": "50√3"
+          },
+          {
+            "value": "C",
+            "label": "40√3+30"
+          },
+          {
+            "value": "D",
+            "label": "100"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（25联考）某梯形区域ABCD的俯视图如下图所示，AB、BC、AD长度相等，且为CD长度的一半，E、F、G分别为所在边的中点。现打算在阴影区域建艺术广场，如果梯形ABCD的总面积为120亩，问艺术广场的面积为多少亩？"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-04-figure-01.webp",
+            "alt": "几何问题（二）原题示意图，讲义第154页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          160
+        ],
+        "printedPages": [
+          154
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-04-p160.webp",
+            "alt": "几何问题（二） · 实战精刷4 · 讲义第154页",
+            "pdfPage": 160
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t03-drill-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设上底AB=a、下底CD=2a、梯形高h，总面积为3ah/2。先算上面两块白色△AEF与△FBG，再从整体扣。"
+        },
+        {
+          "type": "paragraph",
+          "text": "F是AB中点，AF=FB=a/2；E、G是两腰中点，到AB的距离都是h/2，因此每块白色面积ah/8，两块合计ah/4，占梯形的1/6。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{S_{\\text{白}}}{S_{\\text{梯}}}=\\frac{2\\times\\frac12\\times(a/2)\\times(h/2)}{3ah/2}=\\frac16,\\quad S_{\\text{阴影}}=120\\times\\frac56=100"
+        },
+        {
+          "type": "paragraph",
+          "text": "阴影占5/6，120×5/6=100亩，我们选D。这里用中点关系即可，不必求60°或梯形具体高。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          160
+        ],
+        "printedPages": [
+          154
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-04-p160.webp",
+            "alt": "几何问题（二） · 实战精刷4 · 讲义第154页",
+            "pdfPage": 160
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-04-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t03-drill-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "中点分割先算简单空白三角形，占比求阴影往往不用具体边长。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          160
+        ],
+        "printedPages": [
+          154
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-04-p160.webp",
+            "alt": "几何问题（二） · 实战精刷4 · 讲义第154页",
+            "pdfPage": 160
+          }
+        ]
+      }
+    }
+  ]
+}

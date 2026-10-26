@@ -1,0 +1,5 @@
+KaTeX 0.19.1
+Source: https://registry.npmjs.org/katex/-/katex-0.19.1.tgz
+MIT License; copyright retained in LICENSE.
+CSS retains only WOFF2 sources; JS and WOFF2 files are unchanged from npm.
+Official docs: https://katex.org/docs/api https://katex.org/docs/security

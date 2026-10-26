@@ -1,0 +1,150 @@
+{
+  "id": "quantity-wy27-s11-drill-04",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s11",
+  "title": "实战精刷 · 第13题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      121
+    ],
+    "printedPages": [
+      115
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s11-t02-drill-13-question",
+      "type": "question",
+      "title": "实战精刷 · 第13题",
+      "question": {
+        "id": "quantity-wy27-s11-t02-drill-13",
+        "type": "single",
+        "stem": "（24国考）公司有6个编号依次为1~6的研发团队。现安排这6个团队参与甲、乙2个科研课题，要求每个团队参与1个课题，每个课题最少安排2个团队。每个课题安排1个团队负责，且负责团队不能是该课题所有参与团队中编号最小的团队。问有多少种不同的安排方式？",
+        "options": [
+          {
+            "value": "A",
+            "label": "300"
+          },
+          {
+            "value": "B",
+            "label": "340"
+          },
+          {
+            "value": "C",
+            "label": "150"
+          },
+          {
+            "value": "D",
+            "label": "170"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          121
+        ],
+        "printedPages": [
+          115
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-13-p121.webp",
+            "alt": "排列组合问题（二） · 实战精刷13 · 讲义第115页",
+            "pdfPage": 121
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-13-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s11-t02-drill-13",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先定甲课题有几个团队。两课题都至少2个，甲可有2、3、4个，乙对应4、3、2个。甲课题若有k个团队，成员选法为C₆ᵏ；负责团队不能是组内编号最小的，因此甲有k−1种负责人，乙有(6−k)−1＝5−k种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "甲2乙4时，C₆²×1×3＝45种；甲3乙3时，C₆³×2×2＝80种；甲4乙2时，C₆⁴×3×1＝45种。"
+        },
+        {
+          "type": "paragraph",
+          "text": "总计45＋80＋45＝170种，我们选D。甲乙课题有名称，即使两组各3个团队，也不能除以2；每组排除的最小编号团队始终只有1个。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\sum_{k=2}^{4}C_6^k(k-1)(5-k)=45+80+45=170"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          121
+        ],
+        "printedPages": [
+          115
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-13-p121.webp",
+            "alt": "排列组合问题（二） · 实战精刷13 · 讲义第115页",
+            "pdfPage": 121
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s11-t02-drill-13-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s11-t02-drill-13",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先选分组成员，再按组大小数负责人；“不能是组内最小”排除的是每组1个固定成员。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          121
+        ],
+        "printedPages": [
+          115
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s11-t02-drill-13-p121.webp",
+            "alt": "排列组合问题（二） · 实战精刷13 · 讲义第115页",
+            "pdfPage": 121
+          }
+        ]
+      }
+    }
+  ]
+}

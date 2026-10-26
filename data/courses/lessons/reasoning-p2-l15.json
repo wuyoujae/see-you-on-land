@@ -1,0 +1,51 @@
+{
+  "id": "reasoning-p2-l15",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-propositions",
+  "title": "“可能”和“必然”的矛盾关系",
+  "source": {
+    "startSeconds": 6310,
+    "endSeconds": 6358,
+    "timeLabel": "01:45:10—01:45:58",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p2-l15-knowledge-34c4d3a-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "“可能”和“必然”的矛盾关系",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "还是量词互换、后面加不，只是这一组换成了“可能”和“必然”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "“小王必然上岸”的矛盾是“小王可能不上岸”。为什么？只要还存在不上岸的可能，就不能说必然上岸。"
+        },
+        {
+          "type": "paragraph",
+          "text": "“小王可能上岸”的矛盾是“小王必然不上岸”。为什么？我们要把“还有上岸可能”彻底否定，就得是根本不可能上岸，也就是必然不上岸。"
+        },
+        {
+          "type": "paragraph",
+          "text": "写成公式就是："
+        },
+        {
+          "type": "paragraph",
+          "text": "否定“必然A”＝“可能非A”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "否定“可能A”＝“必然非A”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们不要把“不是必然能”直接当成“必然不能”。“不是必然能上岸”，只是可能不上岸，还没说一定不能上岸。"
+        }
+      ]
+    }
+  ]
+}

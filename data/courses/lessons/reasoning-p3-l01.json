@@ -1,0 +1,51 @@
+{
+  "id": "reasoning-p3-l01",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-conditional",
+  "title": "肯前推肯后 否后推否前",
+  "source": {
+    "startSeconds": 7280,
+    "endSeconds": 7373,
+    "timeLabel": "02:01:20—02:02:53",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p3-l01-knowledge-d499930-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "肯前推肯后 否后推否前",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "前面我们已经会把句子翻译成 A → B 了。那现在要解决的就是：箭头画出来之后，到底能怎么推？"
+        },
+        {
+          "type": "paragraph",
+          "text": "比如，我们先接受题目给的规则：“开车，就必须有驾照。”开车用 A 表示，有驾照用 B 表示，就是 A → B。这里按题目的规则推，不往现实里补“有人会无证驾驶”这些情况。"
+        },
+        {
+          "type": "paragraph",
+          "text": "现在告诉我们 A，也就是我们开车了，那就能推出 B，我们有驾照。这叫肯前推肯后。"
+        },
+        {
+          "type": "paragraph",
+          "text": "现在告诉我们非 B，也就是我们没有驾照，那就能推出非 A，我们没有开车。这叫否后推否前。"
+        },
+        {
+          "type": "paragraph",
+          "text": "那如果告诉我们 B，我们有驾照，能不能推出我们开车了？不能呀，我们也可以把驾照放家里，一天车都不开。所以肯后，推不出前面成立。"
+        },
+        {
+          "type": "paragraph",
+          "text": "如果告诉我们非 A，我们没开车，能不能推出我们没驾照？也不能，我们可能只是今天没开。所以否前，也推不出后面不成立。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以我们就记住这两条：A → B，已知 A 能推 B；已知非 B 能推非 A。肯后、否前，单靠这一条条件关系，不能确定另一项。注意是“不能确定”，不是把另一项判成假。"
+        }
+      ]
+    }
+  ]
+}

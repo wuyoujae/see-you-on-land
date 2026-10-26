@@ -1,0 +1,109 @@
+{
+  "id": "language-p1-l10",
+  "subjectId": "language",
+  "groupId": "language-expository",
+  "title": "科普总分：总句已经给出分类，后面按分类展开",
+  "source": {
+    "startSeconds": 1532,
+    "endSeconds": 1639,
+    "timeLabel": "00:25:32—00:27:19",
+    "videoId": "7677994152398834998",
+    "videoTitle": "言语理解完整复盘"
+  },
+  "cards": [
+    {
+      "id": "language-p1-l10-knowledge-86e638b-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "科普总分：总句已经给出分类，后面按分类展开",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先看开头有没有一句总括：一般包括哪几方面、主要分成哪几个步骤。后面如果正好按这些步骤逐一展开，总句就是现成的概括方向。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这里要同时看主体和介绍角度，不能把用来举例的某一种产品，偷换成整篇文章的唯一对象。"
+        }
+      ]
+    },
+    {
+      "id": "language-q010-question",
+      "type": "question",
+      "title": "产品碳足迹核算和报告的过程",
+      "question": {
+        "id": "language-q010",
+        "type": "single",
+        "stem": "根据特定产品的碳足迹种类规则标准，产品碳足迹核算和报告过程一般包括“系统边界确认”“数据采集”和“量值核算”。以常见的涤纶纺织产品为例，首先需要明确产品碳足迹核算的系统边界。其次，需要分阶段对生产涤纶产品的主要原材料，以及液化气、天然气、柴油等能源实际消耗数据进行采集，采集周期一般为一年。最后，计算各阶段温室气体排放量和清除量，并进行汇总累加，即得到涤纶纺织产品的碳足迹。\n本段文字意在说明：",
+        "options": [
+          {
+            "value": "A",
+            "label": "涤纶纺织品碳足迹的数据采集"
+          },
+          {
+            "value": "B",
+            "label": "涤纶纺织产品的碳足迹核算的方法"
+          },
+          {
+            "value": "C",
+            "label": "特定产品碳足迹核算和报告过程"
+          },
+          {
+            "value": "D",
+            "label": "特定产品的碳足迹种类规则标准"
+          }
+        ],
+        "answer": "C"
+      },
+      "source": {
+        "startSeconds": 1560,
+        "endSeconds": 1639,
+        "timeLabel": "00:26:00—00:27:19",
+        "videoId": "7677994152398834998",
+        "videoTitle": "言语理解完整复盘",
+        "examLabel": "【视频 00:26:00—00:27:19；2025 年山东事业单位】"
+      }
+    },
+    {
+      "id": "language-q010-explanation-31cc871-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先看第一句，直接说整个核算和报告过程有三步：系统边界确认、数据采集、量值核算。"
+        },
+        {
+          "type": "paragraph",
+          "text": "往后看“首先”“其次”“最后”，不就是把这三步依次展开嘛。涤纶前面还有“以……为例”，说明它是在把一般过程具体化。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A，只说数据采集，是三步里面的一步，而且主体也缩成涤纶，片面，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "B，把主体换成涤纶这个例子，角度又说成核算方法，没有 C 准确对应总句的过程，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "C，特定产品，主体对；核算和报告过程，介绍角度也对；三步都能装进去，保留。"
+        },
+        {
+          "type": "paragraph",
+          "text": "D，规则标准只是开头的依据，全文没有展开标准具体是什么，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以这道题选 C。"
+        },
+        {
+          "type": "paragraph",
+          "text": "“以某个东西为例”，要看这个例子在服务谁。它用来说明一般流程，我们就不能把例子缩成全文对象。"
+        }
+      ],
+      "questionId": "language-q010"
+    }
+  ]
+}

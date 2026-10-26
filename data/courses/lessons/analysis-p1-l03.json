@@ -1,0 +1,139 @@
+{
+  "id": "analysis-p1-l03",
+  "subjectId": "analysis",
+  "groupId": "analysis-abrx",
+  "title": "A 类：求基期，核心是把增长前的量还原出来",
+  "source": {
+    "startSeconds": 25,
+    "endSeconds": 163,
+    "timeLabel": "00:00:25—00:02:43",
+    "videoId": "7668729047387524358",
+    "videoTitle": "资料分析完整复盘"
+  },
+  "cards": [
+    {
+      "id": "analysis-p1-l03-knowledge-640852d-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "A 类：求基期，核心是把增长前的量还原出来 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "（1）普通基期量"
+        },
+        {
+          "type": "formula",
+          "latex": "基期量 A = \\frac{现期量 B}{1+r}"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先记住这个公式。计算时可以用假设分配、415、直除等方法，这里先不展开，重点先放在它可能怎么考。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（2）间隔基期：先把隔了两年的增长率接起来"
+        },
+        {
+          "type": "paragraph",
+          "text": "比如题目给 2021 年的量，又给 2021 年同比增长率和 2020 年同比增长率，让我们求 2019 年的量。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看时间：2021 年同比，是 2021 年和 2020 年比；2020 年同比，是 2020 年和 2019 年比。现在要求 2019 年，不能只除一次 2021 年的增长率就结束。"
+        }
+      ]
+    },
+    {
+      "id": "analysis-p1-l03-knowledge-640852d-02",
+      "type": "text",
+      "role": "knowledge",
+      "title": "A 类：求基期，核心是把增长前的量还原出来 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们的路线是两步：先求 2021 年相对于 2019 年的间隔增长率，再用它还原 2019 年的基期量。"
+        },
+        {
+          "type": "formula",
+          "latex": "间隔增长率 R = r_1 + r_2 + r_1 r_2"
+        },
+        {
+          "type": "formula",
+          "latex": "2019 年的量 = \\frac{2021 年的量}{1+R}"
+        },
+        {
+          "type": "paragraph",
+          "text": "这里的 r_1、r_2，就是前后两段各自的增长率。先把两段接成一段，再求基期。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（3）基期和差：先各算各的，再相加或相减"
+        },
+        {
+          "type": "paragraph",
+          "text": "教学例题1：2021 年花生产量是 100，同比增长 10%；南瓜产量是 200，同比增长 25%。问 2020 年花生和南瓜的总产量是多少？如果问南瓜比花生多多少，又怎么做？"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看，题目给的是 2021 年两个现期量，问的是 2020 年两个基期量的关系。"
+        }
+      ]
+    },
+    {
+      "id": "analysis-p1-l03-knowledge-640852d-03",
+      "type": "text",
+      "role": "knowledge",
+      "title": "A 类：求基期，核心是把增长前的量还原出来 · 3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "所以先分别还原，不能把 100 和 200 一加，就随便拿一个增长率去除。"
+        },
+        {
+          "type": "formula",
+          "latex": "花生基期产量 = \\frac{100}{1+10\\%}"
+        },
+        {
+          "type": "formula",
+          "latex": "南瓜基期产量 = \\frac{200}{1+25\\%}"
+        },
+        {
+          "type": "formula",
+          "latex": "基期总产量 = \\frac{100}{1+10\\%}+\\frac{200}{1+25\\%}"
+        },
+        {
+          "type": "formula",
+          "latex": "南瓜比花生多的基期产量 = \\frac{200}{1+25\\%}-\\frac{100}{1+10\\%}"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以这道教学例的关键不是复杂计算，就是先求两份基期，再按问题做和、做差。我们这里先不把结果精算到小数。"
+        }
+      ]
+    },
+    {
+      "id": "analysis-p1-l03-knowledge-640852d-04",
+      "type": "text",
+      "role": "knowledge",
+      "title": "A 类：求基期，核心是把增长前的量还原出来 · 4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "（4）已知变化情况：用增量和增速，反过来求基期"
+        },
+        {
+          "type": "paragraph",
+          "text": "题目有时不直接给现期量，而是给增长量和增长率。我们就回到增长率的定义：增长量除以基期量，等于增长率。"
+        },
+        {
+          "type": "formula",
+          "latex": "基期量 A = \\frac{增长量 X}{增长率 r}"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以别一看没有现期量就觉得少了条件。增长量和增长率在，基期也能还原出来。"
+        }
+      ]
+    }
+  ]
+}

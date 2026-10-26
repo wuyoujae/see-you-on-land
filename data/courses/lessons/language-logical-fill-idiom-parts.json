@@ -1,0 +1,103 @@
+{
+  "id": "language-logical-fill-idiom-parts",
+  "subjectId": "language",
+  "groupId": "language-logical-fill",
+  "title": "成语拆分 把词里的语义分别对应到文段",
+  "source": {
+    "startSeconds": 8725,
+    "endSeconds": 8817,
+    "timeLabel": "02:25:25—02:26:57",
+    "videoId": "7677994152398834998",
+    "videoTitle": "言语理解完整复盘"
+  },
+  "cards": [
+    {
+      "id": "language-logical-fill-idiom-parts-intro",
+      "type": "text",
+      "role": "intro",
+      "title": "题型一：成语拆分",
+      "blocks": []
+    },
+    {
+      "id": "language-logical-fill-idiom-parts-method-dbd887a-01",
+      "type": "text",
+      "role": "method",
+      "title": "我们的解题思路",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "一个成语通常有四个字，有时前后两个部分，刚好分别对应文段中的不同信息。我们可以拆开帮助理解，但最后仍要符合成语的整体含义。"
+        }
+      ]
+    },
+    {
+      "id": "language-q049-question",
+      "type": "question",
+      "title": "脑电帽里的小侦探",
+      "question": {
+        "id": "language-q049",
+        "type": "single",
+        "stem": "在太空实验室开展的脑电测试实验中，航天员戴的“小红帽”叫作脑电帽，里面嵌入了众多微小的触头，它们像一群________的小侦探，精准捕捉大脑每一个微妙的波动。这顶帽子赋予航天员神奇的能力——无须言语、无须动作，仅仅通过思维就能给电脑下指令，操控各种设备。\n填入画横线部分最恰当的一项是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "未卜先知"
+          },
+          {
+            "value": "B",
+            "label": "明察秋毫"
+          },
+          {
+            "value": "C",
+            "label": "洞若观火"
+          },
+          {
+            "value": "D",
+            "label": "随机应变"
+          }
+        ],
+        "answer": "B"
+      },
+      "source": {
+        "startSeconds": 8725,
+        "endSeconds": 8817,
+        "timeLabel": "02:25:25—02:26:57",
+        "videoId": "7677994152398834998",
+        "videoTitle": "言语理解完整复盘"
+      }
+    },
+    {
+      "id": "language-q049-explanation-6956cfe-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先看这个空修饰谁。它修饰“小侦探”，而后面“精准捕捉……每一个微妙的波动”，也是在解释这些小侦探的特点。所以要填的词，就应该和后面这句话对应。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A，未卜先知，说的是预先知道未来，不是在发现细微波动，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "B，明察秋毫。拆开看，“明察”能对应观察敏锐、捕捉准确，“秋毫”能对应非常细微的东西。后面的“精准”和“微妙”，正好把这两个方面都给出来了，可以。"
+        },
+        {
+          "type": "paragraph",
+          "text": "C，洞若观火，强调看得清楚、透彻，和“明察秋毫”确实有相近的地方，但它没有那么直接地突出发现细微变化，不如 B 对应得准。"
+        },
+        {
+          "type": "paragraph",
+          "text": "D，随机应变，重点是随着情况变化及时调整，不是精准发现微小变化，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以选 B。我们不是只看到“小侦探”，就随便找一个表示聪明的词，而是用后面的解释，把词义的落点找准。"
+        }
+      ],
+      "questionId": "language-q049"
+    }
+  ]
+}

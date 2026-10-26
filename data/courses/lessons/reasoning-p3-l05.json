@@ -1,0 +1,138 @@
+{
+  "id": "reasoning-p3-l05",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-conditional",
+  "title": "两难推理 不管走哪条路 都得到同一个结果",
+  "source": {
+    "startSeconds": 8260,
+    "endSeconds": 8400,
+    "timeLabel": "02:17:40—02:20:00",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p3-l05-knowledge-bc933d5-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "两难推理 不管走哪条路 都得到同一个结果",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "第一种：A → B，非 A → B，那么 B 一定成立。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们不管 A 成不成立，最后都到 B，那 B 肯定跑不掉。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第二种：A → B，A → 非 B，那么非 A 一定成立。"
+        },
+        {
+          "type": "paragraph",
+          "text": "为什么？我们只要让 A 成立，就要同时得到 B 和非 B，撞上矛盾了呀。所以 A 不能成立。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们再把它和刚学的逆否接起来理解：A → B 逆否成非 B → 非 A；A → 非 B 逆否成 B → 非 A。我们看，不管 B 还是非 B，最后都得到非 A，这不就是第一种两难结构嘛，所以非 A 一定成立。"
+        },
+        {
+          "type": "paragraph",
+          "text": "注意，拿来推理的这两条条件得是已知真话。如果题干在让我们判断哪些话真、哪些话假，还没确定的判断不能全部拿过来连着用。"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-q038-question",
+      "type": "question",
+      "title": "三个人去乡村支教",
+      "question": {
+        "id": "reasoning-q038",
+        "type": "single",
+        "stem": "某高校需派 2 名左右的学生到乡村支教。众学子纷纷报名。学校经过综合考虑，将人选集中在甲、乙、丙三人身上，并达成一致意见：\n①如果甲去，那么乙也去；\n②只有丙去，甲才不会去；\n③如果乙去，那么丙就去；\n④甲和丙不可能都去。\n据此可知：",
+        "options": [
+          {
+            "value": "A",
+            "label": "甲会去，而丙不会去"
+          },
+          {
+            "value": "B",
+            "label": "乙会去，而甲不会去"
+          },
+          {
+            "value": "C",
+            "label": "丙会去，而甲不会去"
+          },
+          {
+            "value": "D",
+            "label": "丙会去，而乙不会去"
+          }
+        ],
+        "answer": "C"
+      },
+      "source": {
+        "startSeconds": 8325,
+        "endSeconds": 8400,
+        "timeLabel": "02:18:45—02:20:00",
+        "videoId": "7686460560006794547",
+        "videoTitle": "判断推理完整复盘",
+        "examLabel": "【视频 02:18:45—02:20:00；2024 年河南事业单位】"
+      }
+    },
+    {
+      "id": "reasoning-q038-explanation-05ae704-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先翻译：①甲 → 乙；②非甲 → 丙；③乙 → 丙；④不能甲和丙都去，也就是非甲或非丙。"
+        },
+        {
+          "type": "paragraph",
+          "text": "①和③能接起来：甲 → 乙 → 丙，所以得到甲 → 丙。"
+        },
+        {
+          "type": "paragraph",
+          "text": "再看②，非甲 → 丙。是不是两难的结构出来了？甲去，丙去；甲不去，丙还是去。那丙一定去。"
+        },
+        {
+          "type": "paragraph",
+          "text": "丙去了，再看④，甲和丙不能都去，所以甲就不能去。最后得到丙去、甲不去，对应 C。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A，把甲、丙的结果都说反了，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "B，甲不去是对的，但乙去不去不知道。甲不去属于对①否前，不能再从①确定乙，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "C，两部分都有依据，选它。"
+        },
+        {
+          "type": "paragraph",
+          "text": "D，丙去对了，但乙不去推不出来。乙可以去，也可以不去，排除。"
+        }
+      ],
+      "questionId": "reasoning-q038"
+    },
+    {
+      "id": "reasoning-q038-explanation-05ae704-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "这道题提醒我们：别一看到三个人就急着枚举。先把条件串起来，看看有没有“正着走、反着走，最后都到同一个结果”的结构。"
+        }
+      ],
+      "questionId": "reasoning-q038"
+    }
+  ]
+}

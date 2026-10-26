@@ -1,0 +1,107 @@
+{
+  "id": "language-logical-fill-consistency",
+  "subjectId": "language",
+  "groupId": "language-logical-fill",
+  "title": "用词一致 先抓全文主线 还要把否定词一起读",
+  "source": {
+    "startSeconds": 9306,
+    "endSeconds": 9451,
+    "timeLabel": "02:35:06—02:37:31",
+    "videoId": "7677994152398834998",
+    "videoTitle": "言语理解完整复盘"
+  },
+  "cards": [
+    {
+      "id": "language-logical-fill-consistency-intro",
+      "type": "text",
+      "role": "intro",
+      "title": "题型六：用词一致",
+      "blocks": []
+    },
+    {
+      "id": "language-logical-fill-consistency-method-e330787-01",
+      "type": "text",
+      "role": "method",
+      "title": "我们的解题思路",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "有些空离解释句比较远，我们就要把整段在讨论的事情抓住，看看选项有没有围绕同一个意思展开。尤其碰到“不”“并非”，必须连着读，不能把空前的否定丢了。"
+        }
+      ]
+    },
+    {
+      "id": "language-q054-question",
+      "type": "question",
+      "title": "潜绩和显绩",
+      "question": {
+        "id": "language-q054",
+        "type": "single",
+        "stem": "“潜”是“显”的基础，“显”是“潜”的结果。对于事关长远、事关基础的任务，“一口吃不成个胖子”，就要扎扎实实、稳步有序推进。这些工作并不________，政绩也并非________，但有助于各项事业全面发展、长足进步，是真正对党、对人民、对历史负责的体现。\n依次填入画横线部分最恰当的一项是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "声势浩大　家喻户晓"
+          },
+          {
+            "value": "B",
+            "label": "惊天动地　有目共睹"
+          },
+          {
+            "value": "C",
+            "label": "显山露水　一目了然"
+          },
+          {
+            "value": "D",
+            "label": "轰轰烈烈　引人注目"
+          }
+        ],
+        "answer": "C"
+      },
+      "source": {
+        "startSeconds": 9306,
+        "endSeconds": 9451,
+        "timeLabel": "02:35:06—02:37:31",
+        "videoId": "7677994152398834998",
+        "videoTitle": "言语理解完整复盘"
+      }
+    },
+    {
+      "id": "language-q054-explanation-c9c956f-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先抓主线：整段围绕潜和显。后面“事关长远、事关基础”“扎扎实实、稳步有序”，说的是有些工作当下未必显眼，但它对长远发展很重要。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以整句需要表达：工作不显眼、政绩不是一眼就能看清，但它有价值。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第一空，A 声势浩大、B 惊天动地、D 轰轰烈烈，主要从声势、影响和场面来形容。C 显山露水，直接对应“显不显、露不露”，和全文潜显的主线更贴切。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们再把否定带进去读：“这些工作并不显山露水”，不是填一个本身就表示不明显的词，而是用“不”去否定“显出来”的状态。这个地方不能读反。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第二空，“政绩也并非一目了然”，就是说不是一眼就能看明白，和潜绩暂时不显的含义对应。A 家喻户晓偏知道的人多不多，B 有目共睹、D 引人注目虽然也涉及被看见，但和第一空一起比较，C 两个词都更集中地围绕潜显展开。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以选 C。我们先理解整段意思，再回空里找词；最后一定把“不”“并非”连着代回，确认整句话表达的是我们刚才分析出的意思。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们平时积累词语，也要把这些差别一起记：明察秋毫突出察觉细微，鳞次栉比突出密集而整齐，趋之若鹜有贬义和争相追逐的意味。知道它们具体侧重什么，做题时才能把文段的线索和词语真正对上。"
+        }
+      ],
+      "questionId": "language-q054"
+    }
+  ]
+}

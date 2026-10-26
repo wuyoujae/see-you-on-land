@@ -1,0 +1,124 @@
+{
+  "id": "language-logical-fill-semantic",
+  "subjectId": "language",
+  "groupId": "language-logical-fill",
+  "title": "语义对应 先判断前后是在同向展开 还是在对比",
+  "source": {
+    "startSeconds": 9004,
+    "endSeconds": 9143,
+    "timeLabel": "02:30:04—02:32:23",
+    "videoId": "7677994152398834998",
+    "videoTitle": "言语理解完整复盘"
+  },
+  "cards": [
+    {
+      "id": "language-logical-fill-semantic-intro",
+      "type": "text",
+      "role": "intro",
+      "title": "题型四：语义对应",
+      "blocks": []
+    },
+    {
+      "id": "language-logical-fill-semantic-method-a201785-01",
+      "type": "text",
+      "role": "method",
+      "title": "我们的解题思路",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "前后如果是同向展开，我们看空里的词能否与相邻意思一致、互补；如果在转折、对照，就看是不是需要表现差异。并列不一定必须近义，转折也不一定只能找反义词，最终还是看文段具体在比较什么。"
+        }
+      ]
+    },
+    {
+      "id": "language-q052-question",
+      "type": "question",
+      "title": "五彩滩的两岸",
+      "question": {
+        "id": "language-q052",
+        "type": "single",
+        "stem": "五彩滩是一处著名的雅丹地貌景观，位于新疆维吾尔自治区，中国唯一一条注入北冰洋的河流额尔齐斯河穿其而过。南岸有绿洲、沙漠，北岸则是________的泥岩、砂岩及砂砾组成的奇石怪岩，这两种________的地貌遥相辉映，“一河隔两岸，胜似两重天”。\n依次填入画横线部分最恰当的一项是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "鳞次栉比　大相径庭"
+          },
+          {
+            "value": "B",
+            "label": "千姿百态　别具一格"
+          },
+          {
+            "value": "C",
+            "label": "色彩斑斓　截然不同"
+          },
+          {
+            "value": "D",
+            "label": "绚丽多姿　各有千秋"
+          }
+        ],
+        "answer": "C"
+      },
+      "source": {
+        "startSeconds": 9004,
+        "endSeconds": 9143,
+        "timeLabel": "02:30:04—02:32:23",
+        "videoId": "7677994152398834998",
+        "videoTitle": "言语理解完整复盘"
+      }
+    },
+    {
+      "id": "language-q052-explanation-9d20478-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先看第二空。南岸绿洲、沙漠，北岸奇石怪岩，后面又说“一河隔两岸，胜似两重天”，重点就是两边差别大。这里“则”也在帮助我们对照南北两岸，但不能只见一个“则”字，就把所有句子一概判成转折。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A，大相径庭，能表示差别大，先保留。"
+        },
+        {
+          "type": "paragraph",
+          "text": "B，别具一格，强调独特风格，重点不在两者差异，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "C，截然不同，直接说两边不同，保留。"
+        },
+        {
+          "type": "paragraph",
+          "text": "D，各有千秋，强调各有特色、各有所长，而这里主要突出两岸景观的差异，不如 A、C，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "比如我们说武当功夫和少林功夫各有千秋，重点是各有长处，不是单纯说明两者有多么不同。用这个例子，就容易把它和“截然不同”区分开。"
+        },
+        {
+          "type": "paragraph",
+          "text": "现在剩 A、C，回第一空。鳞次栉比，强调像鱼鳞、梳齿那样排列密集而整齐，常用来形容建筑等。文段给的是奇石怪岩，没有整齐排列这个线索，A 对不上。"
+        },
+        {
+          "type": "paragraph",
+          "text": "色彩斑斓，说的是色彩丰富。开头“五彩滩”，再结合泥岩、砂岩构成的景观，和这个词更贴合，所以 C 可以。"
+        }
+      ],
+      "questionId": "language-q052"
+    },
+    {
+      "id": "language-q052-explanation-9d20478-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "所以选 C。我们先用前后对比确定第二空，再用词义和修饰对象解决第一空，逻辑对应与词语积累两边都用上了。"
+        }
+      ],
+      "questionId": "language-q052"
+    }
+  ]
+}

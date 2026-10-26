@@ -1,0 +1,312 @@
+{
+  "id": "analysis-p1-l13",
+  "subjectId": "analysis",
+  "groupId": "analysis-mixture",
+  "title": "盐水定量：距离之比和量之比成反比",
+  "source": {
+    "startSeconds": 1990,
+    "endSeconds": 2404,
+    "timeLabel": "00:33:10—00:40:04",
+    "videoId": "7668729047387524358",
+    "videoTitle": "资料分析完整复盘"
+  },
+  "cards": [
+    {
+      "id": "analysis-q001-question",
+      "type": "question",
+      "title": "一季度、3 月成交额，求 1～2 月同比增长率",
+      "question": {
+        "id": "analysis-q001",
+        "type": "single",
+        "stem": "| 时期 | 现期成交额 | 同比增长率 |\n| --- | --- | --- |\n| 一季度 | 48.2 | 54.4% |\n| 3 月 | 19.4 | 31.9% |\n问题：1～2 月成交额的同比增长率属于以下哪个范围？",
+        "options": [
+          {
+            "value": "A",
+            "label": "不到 45%"
+          },
+          {
+            "value": "B",
+            "label": "超过 85%"
+          },
+          {
+            "value": "C",
+            "label": "45%～65%"
+          },
+          {
+            "value": "D",
+            "label": "65%～85%"
+          }
+        ],
+        "answer": "D",
+        "stemBlocks": [
+          {
+            "type": "table",
+            "headers": [
+              "时期",
+              "现期成交额",
+              "同比增长率"
+            ],
+            "rows": [
+              [
+                "一季度",
+                "48.2",
+                "54.4%"
+              ],
+              [
+                "3 月",
+                "19.4",
+                "31.9%"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "问题：1～2 月成交额的同比增长率属于以下哪个范围？"
+          }
+        ]
+      },
+      "source": {
+        "startSeconds": 1990,
+        "endSeconds": 2404,
+        "timeLabel": "00:33:10—00:40:04",
+        "videoId": "7668729047387524358",
+        "videoTitle": "资料分析完整复盘",
+        "examLabel": "【视频标注 2026 年国考；原视频将材料简写为下表，没有展示完整背景题干】"
+      }
+    },
+    {
+      "id": "analysis-q001-explanation-a20fd0a-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "（1）先识别，再定性，别一上来就算"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看时间关系：1～2 月加 3 月，就是一季度。两部分合成一个整体，这就是盐水结构。"
+        },
+        {
+          "type": "paragraph",
+          "text": "一季度整体增速是 54.4%，3 月只有 31.9%，那 1～2 月必须大于 54.4%，才能把整体夹在中间。A 肯定不对，先排掉。"
+        },
+        {
+          "type": "paragraph",
+          "text": "接着看量。1～2 月现期成交额先相减："
+        },
+        {
+          "type": "formula",
+          "latex": "1～2 月现期成交额 = 48.2-19.4=28.8"
+        },
+        {
+          "type": "paragraph",
+          "text": "1～2 月的量大于 3 月，整体的 54.4%更靠近 1～2 月这一边。我们先拿现期量作近似判断，这时候还不用急着算它的准确权重。"
+        },
+        {
+          "type": "paragraph",
+          "text": "3 月到整体的距离先算出来。"
+        },
+        {
+          "type": "formula",
+          "latex": "54.4\\%-31.9\\%=22.5 个百分点"
+        }
+      ],
+      "questionId": "analysis-q001"
+    },
+    {
+      "id": "analysis-q001-explanation-a20fd0a-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "如果两边距离一样，右边那个增速会到 54.4%＋22.5%＝76.9%；现在整体更靠近右边，所以右边的距离应比 22.5 个百分点小。"
+        },
+        {
+          "type": "paragraph",
+          "text": "因此先把所求增速限制在 54.4%与 76.9%之间。这样 B 也不行，但 C、D 还有可能，所以定性到这里没有完全结束。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们前面的分析不是白做，后面定量还会接着用这些数。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（2）用距离比继续算：先按现期量作近似"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们用这个关系来算：距离之比＝量之比的反比。比如两边的量是 1∶2，对应距离就是 2∶1。"
+        },
+        {
+          "type": "paragraph",
+          "text": "本题先按 3 月∶1～2 月的现期量，看作 19.4∶28.8，大约 2∶3。"
+        },
+        {
+          "type": "formula",
+          "latex": "近似量比 = 19.4:28.8\\approx2:3"
+        },
+        {
+          "type": "formula",
+          "latex": "近似距离比 = 3:2"
+        }
+      ],
+      "questionId": "analysis-q001"
+    },
+    {
+      "id": "analysis-q001-explanation-a20fd0a-03",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "3 月在左边，它离整体的距离对应 3 份，刚才已经算出是 22.5 个百分点。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以每份就是 22.5÷3＝7.5 个百分点。右边 1～2 月到整体的距离对应 2 份，就是 15 个百分点。"
+        },
+        {
+          "type": "formula",
+          "latex": "所求增长率 \\approx54.4\\%+\\frac{22.5\\%}{3}\\times2=69.4\\%"
+        },
+        {
+          "type": "paragraph",
+          "text": "69.4%落在 65%～85%，所以选 D。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们这里用 54.4－31.9 算出的是 22.5，不能把中间的差误记成“21.5”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（3）为什么我们还要再算一遍：增长率大，现期量近似权重可能有误差"
+        },
+        {
+          "type": "paragraph",
+          "text": "这道题两个增速分别是 54.4%和 31.9%，都不小。我们算完 69.4%后再看，离 65%的界线还不算特别远，直接拿现期量近似的结果，心里不一定踏实。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以接着换一种路线：“基期差＋增长率”。不是换了题目，而是把权重还原清楚，再从增长率定义计算。"
+        }
+      ],
+      "questionId": "analysis-q001"
+    },
+    {
+      "id": "analysis-q001-explanation-a20fd0a-04",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "第一步，现期 1～2 月已经算出是 28.8。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第二步，基期 1～2 月＝基期一季度－基期 3 月。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第三步，现期减基期，再除以基期。"
+        },
+        {
+          "type": "formula",
+          "latex": "基期 1～2 月成交额 = \\frac{48.2}{1+54.4\\%}-\\frac{19.4}{1+31.9\\%}"
+        },
+        {
+          "type": "formula",
+          "latex": "1～2 月增长率 = \\frac{现期 1～2 月成交额-基期 1～2 月成交额}{基期 1～2 月成交额}"
+        },
+        {
+          "type": "paragraph",
+          "text": "（4）我们用假设分配，先把两份基期估出来"
+        },
+        {
+          "type": "paragraph",
+          "text": "为了方便计算，我们把数同时放大 10 倍，按 482 和 194 来算。后面只算比率，两个量都放大相同倍数，不影响增长率。"
+        },
+        {
+          "type": "paragraph",
+          "text": "一季度先算 482÷1.544。假设基期先给 300，增长约 163，合起来约 463，距离 482 还差约 19；再给基期补 12 左右及相应增长，得到基期约 312。"
+        }
+      ],
+      "questionId": "analysis-q001"
+    },
+    {
+      "id": "analysis-q001-explanation-a20fd0a-05",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "3 月再算 194÷1.319。先给基期 100、增长约 32，剩下约 62；再分配成约 46 的基期和相应增长，我们把这份基期估为约 146。"
+        },
+        {
+          "type": "formula",
+          "latex": "按上述速算，放大后的一季度基期 \\approx312"
+        },
+        {
+          "type": "formula",
+          "latex": "按上述速算，放大后的 3 月基期 \\approx146"
+        },
+        {
+          "type": "formula",
+          "latex": "按上述速算，放大后的 1～2 月基期 \\approx312-146=166"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们再换一个方法，3 月的基期也能用 415 的思路做。31.9%大约接近三分之一，若把增长率按三分之一来近似，现期就约相当于“3 份基期＋1 份增量”。"
+        },
+        {
+          "type": "formula",
+          "latex": "3 月增长量 \\approx\\frac{194}{4}\\approx48"
+        },
+        {
+          "type": "formula",
+          "latex": "3 月基期量 \\approx194-48=146"
+        },
+        {
+          "type": "paragraph",
+          "text": "这样还是回到约 146。这里是用接近分数来速算，31.9%并不严格等于三分之一，选项很近时就要保留更准的分母。"
+        }
+      ],
+      "questionId": "analysis-q001"
+    },
+    {
+      "id": "analysis-q001-explanation-a20fd0a-06",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "（5）最后按增长率定义计算，答案还是 D"
+        },
+        {
+          "type": "paragraph",
+          "text": "现期放大后是 288，基期按刚才的估算是 166，所以增长量约 122。"
+        },
+        {
+          "type": "formula",
+          "latex": "按上述速算，所求增长率 \\approx\\frac{288-166}{166}=\\frac{122}{166}\\approx73.5\\%"
+        },
+        {
+          "type": "paragraph",
+          "text": "这里若口算成约 73.2%，就出现了小误差；我们复核上面的近似式后，应按式中结果记录；不影响落在 D 的 65%～85%区间。按原始条件更精确核算约为 74.4%，仍选 D。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以这道题的重点，是我们完整的分析顺序：先认出混合结构，再用总体居中排一轮，再看靠近哪边；还排不完，再用距离比近似。碰到增长率较大、选项界线让我们不放心，就还原两份基期，用基期差把所求时期找出来，再按增长率定义计算。"
+        }
+      ],
+      "questionId": "analysis-q001"
+    }
+  ]
+}

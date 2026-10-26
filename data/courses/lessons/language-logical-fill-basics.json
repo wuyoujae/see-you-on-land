@@ -1,0 +1,35 @@
+{
+  "id": "language-logical-fill-basics",
+  "subjectId": "language",
+  "groupId": "language-logical-fill",
+  "title": "做题的本质 一边找文段对应 一边看词语本身",
+  "source": {
+    "videoId": "7677994152398834998",
+    "videoTitle": "言语理解完整复盘"
+  },
+  "cards": [
+    {
+      "id": "language-logical-fill-basics-knowledge-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "我们先抓住两条本质",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "文段和词语的逻辑关系对应",
+            "词语含义的积累和理解"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "逻辑填空要解决两件事：第一，文段要表达什么，空里的词和前后是什么关系；第二，这个词到底是什么意思，能修饰什么，褒贬、搭配有没有问题。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先用文段逻辑，把答案应该长什么样想出来，再拿词义去对应。词不认识，当然需要平时积累；但不能一看认识的成语，就凭感觉把它塞进去。"
+        }
+      ]
+    }
+  ]
+}

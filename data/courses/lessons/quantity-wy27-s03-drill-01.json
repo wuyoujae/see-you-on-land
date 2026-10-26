@@ -1,0 +1,421 @@
+{
+  "id": "quantity-wy27-s03-drill-01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s03",
+  "title": "实战精刷 · 1—4题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      36,
+      37
+    ],
+    "printedPages": [
+      30,
+      31
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s03-t03-drill-01-question",
+      "type": "question",
+      "title": "实战精刷 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s03-t03-drill-01",
+        "type": "single",
+        "stem": "（26浙江事考）某网站提供1年、2年和3年三种会员充值套餐，2年套餐和3年套餐的价格分别是1年套餐的1.6倍和2.1倍。小王充值5年会员的最低费用比充值4年会员的最低费用高300元，问他充值6年会员最低需要多少元？",
+        "options": [
+          {
+            "value": "A",
+            "label": "2100"
+          },
+          {
+            "value": "B",
+            "label": "2200"
+          },
+          {
+            "value": "C",
+            "label": "2300"
+          },
+          {
+            "value": "D",
+            "label": "2520"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          36
+        ],
+        "printedPages": [
+          30
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-01-p036.webp",
+            "alt": "和差倍比问题（三） · 实战精刷1 · 讲义第30页",
+            "pdfPage": 36
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t03-drill-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把1年套餐价格设为p，则2年、3年分别1.6p、2.1p。4年最低可选3年+1年，花3.1p，比2年+2年的3.2p低；5年最低为3年+2年，花3.7p，其余组合更贵。"
+        },
+        {
+          "type": "formula",
+          "latex": "(3.7-3.1)p=300\\Rightarrow p=500"
+        },
+        {
+          "type": "paragraph",
+          "text": "3年套餐每年平均最便宜，6年刚好买两个3年套餐，达到最低年均价，费用4.2×500=2100元，选A。不能因为6年总时长更长，就不比较组合直接按1年价格相乘。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "套餐最优先枚举短目标的组合，再用最低单位价检验整倍数目标。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          36
+        ],
+        "printedPages": [
+          30
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-01-p036.webp",
+            "alt": "和差倍比问题（三） · 实战精刷1 · 讲义第30页",
+            "pdfPage": 36
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-02-question",
+      "type": "question",
+      "title": "实战精刷 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s03-t03-drill-02",
+        "type": "single",
+        "stem": "（26联考）某地城市足球比赛火热，一场比赛票价有三种：预售票10元/张，优待票20元/张，正式票40元/张，已知比赛共售出4万张门票，总收入为90万元，且售出的预售票是优待票数量的一半。问正式票共售出多少张？",
+        "options": [
+          {
+            "value": "A",
+            "label": "8000"
+          },
+          {
+            "value": "B",
+            "label": "9000"
+          },
+          {
+            "value": "C",
+            "label": "10000"
+          },
+          {
+            "value": "D",
+            "label": "12000"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          36
+        ],
+        "printedPages": [
+          30
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-02-p036.webp",
+            "alt": "和差倍比问题（三） · 实战精刷2 · 讲义第30页",
+            "pdfPage": 36
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t03-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先利用预售票是优待票一半，把两种票设为x、2x张，正式票z张。总数3x+z=40000，总收入50x+40z=900000元。"
+        },
+        {
+          "type": "formula",
+          "latex": "50x+40(40000-3x)=900000\\Rightarrow70x=700000\\Rightarrow x=10000"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以z=40000-30000=10000张，选C。核验预售10万元、优待40万元、正式40万元，共90万元。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先用比例减少未知数，再把总数量与总金额联立。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          36
+        ],
+        "printedPages": [
+          30
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-02-p036.webp",
+            "alt": "和差倍比问题（三） · 实战精刷2 · 讲义第30页",
+            "pdfPage": 36
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-03-question",
+      "type": "question",
+      "title": "实战精刷 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s03-t03-drill-03",
+        "type": "single",
+        "stem": "（26北京）连锁便利店26个门店共招聘112名店员，每个门店招3人、5人或6人。已知招3人的门店数是招6人的2倍，则有几个门店招5人？",
+        "options": [
+          {
+            "value": "A",
+            "label": "5"
+          },
+          {
+            "value": "B",
+            "label": "14"
+          },
+          {
+            "value": "C",
+            "label": "11"
+          },
+          {
+            "value": "D",
+            "label": "8"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          36
+        ],
+        "printedPages": [
+          30
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-03-p036.webp",
+            "alt": "和差倍比问题（三） · 实战精刷3 · 讲义第30页",
+            "pdfPage": 36
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t03-drill-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设招6人的门店有x个，则招3人的有2x个，招5人的有26-3x个。"
+        },
+        {
+          "type": "formula",
+          "latex": "6x+3\\times2x+5(26-3x)=112\\Rightarrow130-3x=112\\Rightarrow x=6"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以招5人的有26-18=8个，选D。核验12家招3人、8家招5人、6家招6人，人数36+40+36=112。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "门店数比例先代入，总店数和总人数对应两个不同层次。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          36
+        ],
+        "printedPages": [
+          30
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-03-p036.webp",
+            "alt": "和差倍比问题（三） · 实战精刷3 · 讲义第30页",
+            "pdfPage": 36
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-04-question",
+      "type": "question",
+      "title": "实战精刷 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s03-t03-drill-04",
+        "type": "single",
+        "stem": "（20联考）某企业员工组织周末自驾游。集合后发现，如果每辆小车坐5人，则空出4个座位；如果每辆小车少坐1人，则有8人没坐上车。那么，参加自驾游的小车有：",
+        "options": [
+          {
+            "value": "A",
+            "label": "9辆"
+          },
+          {
+            "value": "B",
+            "label": "10辆"
+          },
+          {
+            "value": "C",
+            "label": "11辆"
+          },
+          {
+            "value": "D",
+            "label": "12辆"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          37
+        ],
+        "printedPages": [
+          31
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-04-p037.webp",
+            "alt": "和差倍比问题（三） · 实战精刷4 · 讲义第31页",
+            "pdfPage": 37
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t03-drill-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t03-drill-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设小车n辆。每辆5人时空4座，实际人数5n-4；每辆4人时有8人坐不上，实际人数4n+8。"
+        },
+        {
+          "type": "formula",
+          "latex": "5n-4=4n+8\\Rightarrow n=12"
+        },
+        {
+          "type": "paragraph",
+          "text": "实际人数56，12车按5座可坐60人空4座，按4人可坐48人余8人，完全满足，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "空座是从总容量减，坐不上是往已坐人数加，符号别写反。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          37
+        ],
+        "printedPages": [
+          31
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t03-drill-04-p037.webp",
+            "alt": "和差倍比问题（三） · 实战精刷4 · 讲义第31页",
+            "pdfPage": 37
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "id": "quantity-wy27-s09-drill-01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s09",
+  "title": "实战精刷 · 1—4题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      95,
+      96
+    ],
+    "printedPages": [
+      89,
+      90
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s09-t03-drill-01-question",
+      "type": "question",
+      "title": "实战精刷 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s09-t03-drill-01",
+        "type": "single",
+        "stem": "（26天津事考）学校有200名学生选择参加地理兴趣小组、历史兴趣小组或者两个小组同时参加，如果70%学生参加地理兴趣小组，50%学生参加历史兴趣小组。问同时参加地理和历史兴趣小组的学生人数是（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "120"
+          },
+          {
+            "value": "B",
+            "label": "100"
+          },
+          {
+            "value": "C",
+            "label": "40"
+          },
+          {
+            "value": "D",
+            "label": "20"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          95
+        ],
+        "printedPages": [
+          89
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-01-p095.webp",
+            "alt": "容斥问题 · 实战精刷1 · 讲义第89页",
+            "pdfPage": 95
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t03-drill-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t03-drill-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先确认这200名学生都至少参加一个小组，圈外人数为0。地理小组有200×70%＝140人，历史小组有200×50%＝100人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两组人数相加把同时参加的学生多算了一次，因此同时参加人数为140＋100−200＝40人，我们选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "两项全覆盖时，交集＝两项人数之和−总人数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          95
+        ],
+        "printedPages": [
+          89
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-01-p095.webp",
+            "alt": "容斥问题 · 实战精刷1 · 讲义第89页",
+            "pdfPage": 95
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t03-drill-02-question",
+      "type": "question",
+      "title": "实战精刷 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s09-t03-drill-02",
+        "type": "single",
+        "stem": "（22广东）某单位计划从全部80名员工中挑选专项工作组成员，要求该组成员需同时有基层经历和计算机等级证书。已知，单位内有40人有基层经历，有46人有计算机等级证书，既没有基层经历又未获得计算机等级证书的有10人，那么能够进入工作组的员工有（）人。",
+        "options": [
+          {
+            "value": "A",
+            "label": "16"
+          },
+          {
+            "value": "B",
+            "label": "40"
+          },
+          {
+            "value": "C",
+            "label": "46"
+          },
+          {
+            "value": "D",
+            "label": "54"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          95
+        ],
+        "printedPages": [
+          89
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-02-p095.webp",
+            "alt": "容斥问题 · 实战精刷2 · 讲义第89页",
+            "pdfPage": 95
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t03-drill-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t03-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先算至少满足一项的人数：80−10＝70人。有基层经历40人，有计算机等级证书46人，因此同时满足两项的有40＋46−70＝16人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "工作组要求两项同时具备，所以只能从交集16人中挑选，我们选A，不能把某个单项总人数40或46当成合格人数。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "“同时具备”找交集，先用总数扣掉两项都没有的人。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          95
+        ],
+        "printedPages": [
+          89
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-02-p095.webp",
+            "alt": "容斥问题 · 实战精刷2 · 讲义第89页",
+            "pdfPage": 95
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t03-drill-03-question",
+      "type": "question",
+      "title": "实战精刷 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s09-t03-drill-03",
+        "type": "single",
+        "stem": "（23广东）某单位共有员工200人，其中订阅杂志的人数比只订阅报纸的人数多88%。则报纸和杂志均未订阅的员工有（）人。",
+        "options": [
+          {
+            "value": "A",
+            "label": "36"
+          },
+          {
+            "value": "B",
+            "label": "56"
+          },
+          {
+            "value": "C",
+            "label": "76"
+          },
+          {
+            "value": "D",
+            "label": "96"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B",
+        "reviewNote": "题干单独可得到未订阅128或56等整数方案；四个选项中只有56满足。参考答案B保留，解析明确依赖选项。"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          95
+        ],
+        "printedPages": [
+          89
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-03-p095.webp",
+            "alt": "容斥问题 · 实战精刷3 · 讲义第89页",
+            "pdfPage": 95
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t03-drill-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t03-drill-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们把“订阅杂志的人”与“只订阅报纸的人”看成两个互不重叠的部分，它们合起来就是至少订阅一种的人。由多88%可得两部分人数比为188∶100＝47∶25。"
+        },
+        {
+          "type": "paragraph",
+          "text": "人数必须是整数，因此两部分可以分别写成47k、25k，至少订阅一种的有72k人，均未订阅的人为200−72k。我们检查选项36、56、76、96，只有200−56＝144能被72整除，对应k＝2，杂志94人、只报纸50人。因此结合选项我们选B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们也要看清条件边界：如果不看选项，k＝1也成立，对应128人均未订阅；所以题干单独并不能唯一确定人数。本题四个选项中只有B满足整数条件。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "最简整数比例对应人数份数；信息不足时可检验选项，但不能把选项约束当成题干条件。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          95
+        ],
+        "printedPages": [
+          89
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-03-p095.webp",
+            "alt": "容斥问题 · 实战精刷3 · 讲义第89页",
+            "pdfPage": 95
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t03-drill-04-question",
+      "type": "question",
+      "title": "实战精刷 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s09-t03-drill-04",
+        "type": "single",
+        "stem": "（23国考）农科院在某村287名淡水鱼养殖人员中开展防病培训和育种培训，已知参加防病培训的养殖人员中，参加育种培训的人数比未参加的多21%；参加育种培训的养殖人员中，参加防病培训的人数比未参加的多76人。问共有多少人未参加任何一项培训？",
+        "options": [
+          {
+            "value": "A",
+            "label": "21"
+          },
+          {
+            "value": "B",
+            "label": "23"
+          },
+          {
+            "value": "C",
+            "label": "25"
+          },
+          {
+            "value": "D",
+            "label": "27"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          96
+        ],
+        "printedPages": [
+          90
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-04-p096.webp",
+            "alt": "容斥问题 · 实战精刷4 · 讲义第90页",
+            "pdfPage": 96
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s09-t03-drill-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s09-t03-drill-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设只参加防病培训的有100k人。因为在参加防病的人中，两项都参加的比未参加育种的多21%，所以交集人数为121k。人数的最简比例121∶100决定k为正整数。"
+        },
+        {
+          "type": "paragraph",
+          "text": "参加育种的人中，参加防病的比未参加防病的多76人，所以只参加育种的有121k−76人。至少参加一种的总人数为100k＋121k＋(121k−76)＝342k−76，不超过287，因此k只能取1。"
+        },
+        {
+          "type": "paragraph",
+          "text": "实际至少参加一种有342−76＝266人，两项都没参加有287−266＝21人。代回交集121人、只防病100人、只育种45人，差与比例都满足，所以我们选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "最简整数比例配合人数上限，可先定整数份数，再补圈外人数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          96
+        ],
+        "printedPages": [
+          90
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s09-t03-drill-04-p096.webp",
+            "alt": "容斥问题 · 实战精刷4 · 讲义第90页",
+            "pdfPage": 96
+          }
+        ]
+      }
+    }
+  ]
+}

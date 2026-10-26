@@ -1,0 +1,569 @@
+{
+  "id": "quantity-wy27-s14-drill-01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s14",
+  "title": "实战精刷 · 1—4题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      149,
+      150
+    ],
+    "printedPages": [
+      143,
+      144
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s14-t03-drill-01-question",
+      "type": "question",
+      "title": "实战精刷 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s14-t03-drill-01",
+        "type": "single",
+        "stem": "（25联考）为丰富儿童的暑假生活，某公园在半径为20√2米的半圆形水池旁修建了一个弯月形儿童戏水池（如下图所示）。该弯月形戏水池可看作是由半径为20米的半圆O′和半径为20√2米的半圆O的圆弧围成的阴影部分，圆心距OO′为20米且OO′垂直于直径AB，那么该戏水池的面积为多少平方米？",
+        "options": [
+          {
+            "value": "A",
+            "label": "400"
+          },
+          {
+            "value": "B",
+            "label": "200π"
+          },
+          {
+            "value": "C",
+            "label": "800"
+          },
+          {
+            "value": "D",
+            "label": "400π"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（25联考）为丰富儿童的暑假生活，某公园在半径为20√2米的半圆形水池旁修建了一个弯月形儿童戏水池（如下图所示）。该弯月形戏水池可看作是由半径为20米的半圆O′和半径为20√2米的半圆O的圆弧围成的阴影部分，圆心距OO′为20米且OO′垂直于直径AB，那么该戏水池的面积为多少平方米？"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-01-figure-01.webp",
+            "alt": "几何问题（一）原题示意图，讲义第143页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          149
+        ],
+        "printedPages": [
+          143
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-01-p149.webp",
+            "alt": "几何问题（一） · 实战精刷1 · 讲义第143页",
+            "pdfPage": 149
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s14-t03-drill-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先由图得到大圆弦AB对应的圆心角：OO′=20、O′A=20，直角△OO′A为等腰直角三角形，所以∠AOB=90°。"
+        },
+        {
+          "type": "paragraph",
+          "text": "弯月面积等于半径20的小半圆面积，减去大圆弦AB上方的圆弓形。小半圆为200π；大圆弓形为90°扇形200π减△AOB面积400。"
+        },
+        {
+          "type": "formula",
+          "latex": "S=\\frac12\\pi20^2-\\left[\\frac14\\pi(20\\sqrt2)^2-\\frac12\\times40\\times20\\right]=400"
+        },
+        {
+          "type": "paragraph",
+          "text": "两块相减只剩400平方米，我们选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          149
+        ],
+        "printedPages": [
+          143
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-01-p149.webp",
+            "alt": "几何问题（一） · 实战精刷1 · 讲义第143页",
+            "pdfPage": 149
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-01-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s14-t03-drill-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "弯月面积常可用“半圆减圆弓”，让同类扇形面积抵消。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          149
+        ],
+        "printedPages": [
+          143
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-01-p149.webp",
+            "alt": "几何问题（一） · 实战精刷1 · 讲义第143页",
+            "pdfPage": 149
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-02-question",
+      "type": "question",
+      "title": "实战精刷 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s14-t03-drill-02",
+        "type": "single",
+        "stem": "（25联考）底面半径为6cm，高为20cm的圆柱体容器，现放入一个半径为3cm 的铁球，水面恰好和铁球高度相平，问原有水面高度（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "2cm"
+          },
+          {
+            "value": "B",
+            "label": "3cm"
+          },
+          {
+            "value": "C",
+            "label": "4cm"
+          },
+          {
+            "value": "D",
+            "label": "5cm"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          149
+        ],
+        "printedPages": [
+          143
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-02-p149.webp",
+            "alt": "几何问题（一） · 实战精刷2 · 讲义第143页",
+            "pdfPage": 149
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s14-t03-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看放入铁球后的液面：恰好到球顶，深度是球直径6厘米。此时容器中6厘米高度的体积，由原来的水与铁球共同占据。"
+        },
+        {
+          "type": "paragraph",
+          "text": "球体积4/3×π×3³=36π，相当于在半径6的圆柱中占1厘米的水高。因此原水深为6−1=5厘米。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\pi6^2h+\\frac43\\pi3^3=\\pi6^2\\times6\\Rightarrow h=5"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以我们选D。容器总高20厘米不影响这次体积守恒。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          149
+        ],
+        "printedPages": [
+          143
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-02-p149.webp",
+            "alt": "几何问题（一） · 实战精刷2 · 讲义第143页",
+            "pdfPage": 149
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-02-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s14-t03-drill-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "液面变化先列水与浸入物体积守恒，区分球半径与球顶高度。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          149
+        ],
+        "printedPages": [
+          143
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-02-p149.webp",
+            "alt": "几何问题（一） · 实战精刷2 · 讲义第143页",
+            "pdfPage": 149
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-03-question",
+      "type": "question",
+      "title": "实战精刷 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s14-t03-drill-03",
+        "type": "single",
+        "stem": "（25上海）公园打算修建一个横截面为月牙形（如图所示）的柱体水池养观赏鱼，其中大圆的半径为4米，小圆内部为休息区，其半径为2米，水池深2米，等到水池修建好，需要注入大约（）立方米的水。",
+        "options": [
+          {
+            "value": "A",
+            "label": "57"
+          },
+          {
+            "value": "B",
+            "label": "64"
+          },
+          {
+            "value": "C",
+            "label": "76"
+          },
+          {
+            "value": "D",
+            "label": "88"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（25上海）公园打算修建一个横截面为月牙形（如图所示）的柱体水池养观赏鱼，其中大圆的半径为4米，小圆内部为休息区，其半径为2米，水池深2米，等到水池修建好，需要注入大约（）立方米的水。"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-03-figure-01.webp",
+            "alt": "几何问题（一）原题示意图，讲义第143页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ]
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          149
+        ],
+        "printedPages": [
+          143
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-03-p149.webp",
+            "alt": "几何问题（一） · 实战精刷3 · 讲义第143页",
+            "pdfPage": 149
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s14-t03-drill-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看水池横截面：大圆内部去掉小圆休息区，面积是两个整圆面积之差，内切位置不影响这一差值。"
+        },
+        {
+          "type": "paragraph",
+          "text": "底面积π（4²−2²）=12π平方米，柱体水池深2米，体积为24π立方米，约75.4。"
+        },
+        {
+          "type": "formula",
+          "latex": "V=\\pi(4^2-2^2)\\times2=24\\pi\\approx75.4\\text{立方米}"
+        },
+        {
+          "type": "paragraph",
+          "text": "最接近76，我们选C。不能把水池误认成两个半圆的差。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          149
+        ],
+        "printedPages": [
+          143
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-03-p149.webp",
+            "alt": "几何问题（一） · 实战精刷3 · 讲义第143页",
+            "pdfPage": 149
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-03-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s14-t03-drill-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "直柱形水池体积=有效横截面积×深度。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          149
+        ],
+        "printedPages": [
+          143
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-03-p149.webp",
+            "alt": "几何问题（一） · 实战精刷3 · 讲义第143页",
+            "pdfPage": 149
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-04-question",
+      "type": "question",
+      "title": "实战精刷 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s14-t03-drill-04",
+        "type": "single",
+        "stem": "（26江苏）一种实心圆柱形配件由内芯和外壳组成，内芯也是圆柱形，和外壳高度相同且与外壳之间无间隙。该配件的底面直径为8cm；内芯的密度为3g/cm³，底面直径为4cm；外壳的密度为8g/cm³，质量为16kg，则内芯的质量为：",
+        "options": [
+          {
+            "value": "A",
+            "label": "2kg"
+          },
+          {
+            "value": "B",
+            "label": "3kg"
+          },
+          {
+            "value": "C",
+            "label": "4kg"
+          },
+          {
+            "value": "D",
+            "label": "6kg"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          150
+        ],
+        "printedPages": [
+          144
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-04-p150.webp",
+            "alt": "几何问题（一） · 实战精刷4 · 讲义第144页",
+            "pdfPage": 150
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s14-t03-drill-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先比较体积，内外同高。内芯半径2、整个配件半径4，内芯底面积4π，外壳底面积16π−4π=12π，所以体积比1：3。"
+        },
+        {
+          "type": "paragraph",
+          "text": "质量还要乘密度，内芯与外壳质量比为（1×3）：（3×8）=1：8。外壳16千克，内芯2千克。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{m_{\\text{内}}}{m_{\\text{壳}}}=\\frac{2^2}{4^2-2^2}\\times\\frac38=\\frac18"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以我们选A。外壳不是半径4的实心整圆柱，必须先减去内芯。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          150
+        ],
+        "printedPages": [
+          144
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-04-p150.webp",
+            "alt": "几何问题（一） · 实战精刷4 · 讲义第144页",
+            "pdfPage": 150
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s14-t03-drill-04-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s14-t03-drill-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "同高复合圆柱先用底面积比求体积比，再乘密度比。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          150
+        ],
+        "printedPages": [
+          144
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s14-t03-drill-04-p150.webp",
+            "alt": "几何问题（一） · 实战精刷4 · 讲义第144页",
+            "pdfPage": 150
+          }
+        ]
+      }
+    }
+  ]
+}

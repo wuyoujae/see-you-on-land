@@ -1,0 +1,217 @@
+{
+  "id": "quantity-wy27-s07-drill-03",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s07",
+  "title": "实战精刷 · 9—10题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      79,
+      80
+    ],
+    "printedPages": [
+      73,
+      74
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s07-t03-drill-09-question",
+      "type": "question",
+      "title": "实战精刷 · 第9题",
+      "question": {
+        "id": "quantity-wy27-s07-t03-drill-09",
+        "type": "single",
+        "stem": "（25浙江）小李开车从静止开始匀加速行驶10分钟后，再匀速行驶20分钟，然后开始第二次匀加速行驶13.5千米。已知两次匀加速行驶总距离与匀速行驶距离相等，那么匀速行驶的速度是多少千米/小时？",
+        "options": [
+          {
+            "value": "A",
+            "label": "54"
+          },
+          {
+            "value": "B",
+            "label": "63"
+          },
+          {
+            "value": "C",
+            "label": "72"
+          },
+          {
+            "value": "D",
+            "label": "81"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          79
+        ],
+        "printedPages": [
+          73
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-09-p079.webp",
+            "alt": "行程问题（二） · 实战精刷9 · 讲义第73页",
+            "pdfPage": 79
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t03-drill-09-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t03-drill-09",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设匀速速度v千米/小时。前10分钟从静止加速，路程＝(v/2)×(1/6)＝v/12；中间匀速20分钟，路程v/3。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两段加速总路程与匀速段相等，所以v/12＋13.5＝v/3，得到v/4＝13.5，v＝54，选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "题目只问中间匀速速度时，第二次加速的细节可以不求，直接用总路程关系。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          79
+        ],
+        "printedPages": [
+          73
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-09-p079.webp",
+            "alt": "行程问题（二） · 实战精刷9 · 讲义第73页",
+            "pdfPage": 79
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t03-drill-10-question",
+      "type": "question",
+      "title": "实战精刷 · 第10题",
+      "question": {
+        "id": "quantity-wy27-s07-t03-drill-10",
+        "type": "single",
+        "stem": "（26天津）小连从环形跑道上某一点出发跑步，第1圈匀速行进用时4分钟，此后均匀加速，第2圈的用时比第1圈短1分钟。问开始跑步后多久，速度达到匀速时的2倍？",
+        "options": [
+          {
+            "value": "A",
+            "label": "7分15秒"
+          },
+          {
+            "value": "B",
+            "label": "7分30秒"
+          },
+          {
+            "value": "C",
+            "label": "8分15秒"
+          },
+          {
+            "value": "D",
+            "label": "8分30秒"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          80
+        ],
+        "printedPages": [
+          74
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-10-p080.webp",
+            "alt": "行程问题（二） · 实战精刷10 · 讲义第74页",
+            "pdfPage": 80
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s07-t03-drill-10-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s07-t03-drill-10",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设第一圈匀速速度v，圈长就是4v。第二圈用3分钟，平均速度为4v/3。第二圈匀加速，圈末速度满足(v＋末速)/2＝4v/3，所以末速5v/3。"
+        },
+        {
+          "type": "paragraph",
+          "text": "3分钟速度增加2v/3，每分钟增加2v/9。从开始加速到2v需v÷(2v/9)＝4.5分钟。"
+        },
+        {
+          "type": "paragraph",
+          "text": "别忘加回第一圈匀速的4分钟，合8.5分钟，即8分30秒，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先由后一整段的路程和时间找末速度，再把加速持续时间加回前段匀速时间。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          80
+        ],
+        "printedPages": [
+          74
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s07-t03-drill-10-p080.webp",
+            "alt": "行程问题（二） · 实战精刷10 · 讲义第74页",
+            "pdfPage": 80
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "reasoning-p3-l03",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-conditional",
+  "title": "逆否和连锁 把分散的条件接起来",
+  "source": {
+    "startSeconds": 7654,
+    "endSeconds": 7805,
+    "timeLabel": "02:07:34—02:10:05",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p3-l03-knowledge-6c388a6-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "逆否和连锁 把分散的条件接起来",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A → B，和非 B → 非 A 是等价的，这就是逆否。注意，要前后换位置，再把两边都否定。不能只换位置，也不能只加两个“非”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "接着看连锁。已知 A → B，B → C，那我们就可以把它串成 A → B → C，最后得到 A → C。"
+        },
+        {
+          "type": "paragraph",
+          "text": "如果给的是 A → B，C → A，就按箭头能接上的顺序排：C → A → B，所以 C → B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "如果给的是 A → B，非 C → 非 B，这时候表面上接不上，我们先把第二句逆否成 B → C，再接成 A → B → C。"
+        },
+        {
+          "type": "paragraph",
+          "text": "但如果是 A → B、C → B，它们只是后件相同，不能直接把 A 和 C 连起来；如果是 A → B、A → C，它们只是前件相同，也不能直接推出 B → C 或 C → B。我们把这两种情况并排画出来，就能看清：不是看见相同字母，就能随便串。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以碰到一堆条件，不要照着题干的顺序干瞪眼。先把箭头写出来，看看哪两句能接；接不上，就想有没有一句可以逆否。我们要接的是同一个条件，不是两个看起来差不多的词。"
+        }
+      ]
+    }
+  ]
+}

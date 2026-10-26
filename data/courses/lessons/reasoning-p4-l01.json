@@ -1,0 +1,98 @@
+{
+  "id": "reasoning-p4-l01",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-syllogism",
+  "title": "直言命题：有些说的到底是什么",
+  "source": {
+    "startSeconds": 8440,
+    "timeLabel": "2:20:40",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p4-l01-knowledge-6254dcd-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "直言命题：有些说的到底是什么",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "这块其实还是前面的“所有、有些、个例”，换了一道题继续考。我们要先想清楚，题目给我们的这句话，到底能保证多大的范围。"
+        },
+        {
+          "type": "paragraph",
+          "text": "“有些”只能说明至少有这样的对象，不能直接把范围扩大成“所有”，也不能直接指定到某个具体的人。“有些是”推不出“有些不是”，反过来也一样。比如告诉我们有些人没登记，剩下的人到底登没登记，没告诉我们呀，不要自己补。"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-q039-question",
+      "type": "question",
+      "title": "直言命题：有些说的到底是什么",
+      "question": {
+        "id": "reasoning-q039",
+        "type": "single",
+        "stem": "年末，研究院发现有新员工没有登记自己的紧急联系人。若该命题为真，则下列陈述不确定真假的是：\n①所有新员工都没有登记自己的紧急联系人\n②所有新员工都登记了自己的紧急联系人\n③有的新员工登记了自己的紧急联系人\n④新员工小红登记了自己的紧急联系人",
+        "options": [
+          {
+            "value": "A",
+            "label": "①②③④"
+          },
+          {
+            "value": "B",
+            "label": "仅②③④"
+          },
+          {
+            "value": "C",
+            "label": "仅①②③"
+          },
+          {
+            "value": "D",
+            "label": "仅①③④"
+          }
+        ],
+        "answer": "D"
+      },
+      "source": {
+        "startSeconds": 8440,
+        "timeLabel": "2:20:40",
+        "videoId": "7686460560006794547",
+        "videoTitle": "判断推理完整复盘"
+      }
+    },
+    {
+      "id": "reasoning-q039-explanation-41dfd5c-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先看问法，这里要找的不是一定对，也不是一定错，而是“不确定真假”。所以一定为假的，我们反而不能选进去。"
+        },
+        {
+          "type": "paragraph",
+          "text": "①，题目说的是有的人没登记，能推出所有人都没登记吗？不能。可能大家都没登记，也可能就一部分人没登记，所以①不确定。"
+        },
+        {
+          "type": "paragraph",
+          "text": "②，所有人都登记了，和题目“有的人没登记”刚好是一对矛盾。题目这句话是真的，那么②就一定是假的。这句话的真假已经确定了，所以②不能选。"
+        },
+        {
+          "type": "paragraph",
+          "text": "③，有的人登记了，这个也不知道。因为“有些没登记”不能推出“有些登记了”，不要看到“有些”就默认剩下一些人一定相反。"
+        },
+        {
+          "type": "paragraph",
+          "text": "④，小红登记了，这个更推不出来。题目只告诉我们有的人没登记，又没有告诉我们这些人里面有没有小红，所以小红登记没登记都可能。"
+        },
+        {
+          "type": "paragraph",
+          "text": "因此①③④不确定，选D。其实做到②一定为假，没有②的就只有D了；后面的分析是帮我们把量词关系吃透。"
+        }
+      ],
+      "questionId": "reasoning-q039"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "id": "quantity-wy27-s15-drill-03",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s15",
+  "title": "实战精刷 · 9—10题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      162
+    ],
+    "printedPages": [
+      156
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s15-t03-drill-09-question",
+      "type": "question",
+      "title": "实战精刷 · 第9题",
+      "question": {
+        "id": "quantity-wy27-s15-t03-drill-09",
+        "type": "single",
+        "stem": "（26北京）将2个不等大的正方体粘接为一个多面体，表面积比原来2个正方体表面积之和最多可能减少1/15，则原来较大正方体的棱长是较小正方体的多少倍？",
+        "options": [
+          {
+            "value": "A",
+            "label": "1.5"
+          },
+          {
+            "value": "B",
+            "label": "2"
+          },
+          {
+            "value": "C",
+            "label": "3"
+          },
+          {
+            "value": "D",
+            "label": "4"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          162
+        ],
+        "printedPages": [
+          156
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-09-p162.webp",
+            "alt": "几何问题（二） · 实战精刷9 · 讲义第156页",
+            "pdfPage": 162
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-09-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t03-drill-09",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设大、小正方体的棱长为a、b。表面积减少最多时，整个小正方体的一面贴在大正方体面上，消失的面积为2b²。"
+        },
+        {
+          "type": "paragraph",
+          "text": "原表面积合计6a²+6b²，减少比例1/15，因此2b²÷（6a²+6b²）=1/15，解得a²=4b²。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{2b^2}{6a^2+6b^2}=\\frac1{15}\\Rightarrow a^2=4b^2\\Rightarrow\\frac ab=2"
+        },
+        {
+          "type": "paragraph",
+          "text": "棱长均为正，所以a=2b，我们选B。面积比开平方后才是棱长比。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          162
+        ],
+        "printedPages": [
+          156
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-09-p162.webp",
+            "alt": "几何问题（二） · 实战精刷9 · 讲义第156页",
+            "pdfPage": 162
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-09-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t03-drill-09",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "粘接最大接触面先求减少面积，再由面积平方关系求长度。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          162
+        ],
+        "printedPages": [
+          156
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-09-p162.webp",
+            "alt": "几何问题（二） · 实战精刷9 · 讲义第156页",
+            "pdfPage": 162
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-10-question",
+      "type": "question",
+      "title": "实战精刷 · 第10题",
+      "question": {
+        "id": "quantity-wy27-s15-t03-drill-10",
+        "type": "single",
+        "stem": "（25天津）某工业园区内一区域如下图所示，三角形ABC与ACD为两个面积相等的直角三角形，AB长度是BC的2倍。现在区域内划出如图两个圆形区域摆放花坛，两个圆形均与图中两条边相切。已知B点到大圆、D点到小圆上任一点的最短距离分别为AD长度的1/2、1/5，问大圆面积是小圆的多少倍？",
+        "options": [
+          {
+            "value": "A",
+            "label": "3倍以下"
+          },
+          {
+            "value": "B",
+            "label": "3—3.5倍之间"
+          },
+          {
+            "value": "C",
+            "label": "3.5—4倍之间"
+          },
+          {
+            "value": "D",
+            "label": "4倍以上"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D",
+        "stemBlocks": [
+          {
+            "type": "paragraph",
+            "text": "（25天津）某工业园区内一区域如下图所示，三角形ABC与ACD为两个面积相等的直角三角形，AB长度是BC的2倍。现在区域内划出如图两个圆形区域摆放花坛，两个圆形均与图中两条边相切。已知B点到大圆、D点到小圆上任一点的最短距离分别为AD长度的1/2、1/5，问大圆面积是小圆的多少倍？"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-10-figure-01.webp",
+            "alt": "几何问题（二）原题示意图，讲义第156页",
+            "caption": "讲义原图 · 点击放大"
+          }
+        ],
+        "grading": "unverified",
+        "sourceIssue": "按常见图意计算25/4对应D，但该图意下大圆直径超过区域的平行边间距，无法完整置于区域内；原图直角位置亦未明标。",
+        "reviewNote": "已读PDF162，按图意AD=BC=l、∠B=∠D=60°，大圆半径l/2，区域高√3l/2<l，存在实际可行性冲突，不能无条件判D。"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          162
+        ],
+        "printedPages": [
+          156
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-10-p162.webp",
+            "alt": "几何问题（二） · 实战精刷10 · 讲义第156页",
+            "pdfPage": 162
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-10-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s15-t03-drill-10",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D（本题条件待核，不计分）"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先按示意图的通常出题意图取△ABC的直角在C、△ACD的直角在A。由AB=2BC可得两块为30°—60°—90°三角形，等面积给出AD=BC=l，B、D两角均60°。若圆分别与这两个角的两边相切，圆心在角平分线上，角顶到圆周的最近距离恰好等于半径，所以两圆半径意图上为l/2、l/5，面积比25/4，对应来源参考D。"
+        },
+        {
+          "type": "paragraph",
+          "text": "但我们还必须核对图形是否可实现。在上述图意下，整个区域为高√3l/2的平行四边形，而大圆直径为l，已经超过两条平行边的距离，无法完整放在“区域内”。原图也未明确标出两个直角所在顶点，不能靠画图比例补条件。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{S_{\\text{大}}}{S_{\\text{小}}}=\\left(\\frac{l/2}{l/5}\\right)^2=\\frac{25}{4}>4\\quad(\\text{仅为上述图意假定下的结果})"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以25/4只能作为上述假定下的代数意图，不能作为当前完整题面的无条件严格结论。本题保留书后D供核对，标为条件待核、不计分。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          162
+        ],
+        "printedPages": [
+          156
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-10-p162.webp",
+            "alt": "几何问题（二） · 实战精刷10 · 讲义第156页",
+            "pdfPage": 162
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s15-t03-drill-10-explanation-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "questionId": "quantity-wy27-s15-t03-drill-10",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "几何题求得数值后仍需检验圆、切线、区域边界是否能同时存在。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          162
+        ],
+        "printedPages": [
+          156
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s15-t03-drill-10-p162.webp",
+            "alt": "几何问题（二） · 实战精刷10 · 讲义第156页",
+            "pdfPage": 162
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "language-p2-l11",
+  "subjectId": "language",
+  "groupId": "language-next-paragraph",
+  "title": "按列举的顺序依次展开：引言说了几层，正文从第一层开始",
+  "source": {
+    "startSeconds": 5530,
+    "endSeconds": 5645,
+    "timeLabel": "01:32:10—01:34:05",
+    "videoId": "7677994152398834998",
+    "videoTitle": "言语理解完整复盘"
+  },
+  "cards": [
+    {
+      "id": "language-p2-l11-knowledge-b1270b9-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "按列举的顺序依次展开：引言说了几层，正文从第一层开始",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "如果一个总句列了A、B、C、D，下文常常按这个顺序展开。已经细讲了A、B、C，那就留意D；如果只是列名字，一个都没细讲，就从第一个A开始。"
+        },
+        {
+          "type": "paragraph",
+          "text": "尤其问法明确说“这是一篇文章的引言”，我们更要把它当成对整篇内容的预告，不要以为引言已经把每一部分讲完了。"
+        }
+      ]
+    },
+    {
+      "id": "language-q033-question",
+      "type": "question",
+      "title": "按列举的顺序依次展开：引言说了几层，正文从第一层开始",
+      "question": {
+        "id": "language-q033",
+        "type": "single",
+        "stem": "北京何来？王光镐在其新著《北京——人类文明的圣殿》中，以一位老考古人的睿智，为我们细细讲述了北京的地脉、人脉、城脉、文脉及气脉诸类，分述北京的地理特征，北京史前的悠久年代，文明早期的持续发展，帝都从无到有的递进拓展，民族多元一统格局的形成，以及承续传统的信仰体系。\n这段文字是一篇文章的引言，文章接下来最可能讲述的是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "北京文脉的多元融合"
+          },
+          {
+            "value": "B",
+            "label": "北京人脉的古老悠远"
+          },
+          {
+            "value": "C",
+            "label": "北京地脉的特别之处"
+          },
+          {
+            "value": "D",
+            "label": "北京城脉的底蕴深厚"
+          }
+        ],
+        "answer": "C"
+      },
+      "source": {
+        "startSeconds": 5530,
+        "endSeconds": 5645,
+        "timeLabel": "01:32:10—01:34:05",
+        "videoId": "7677994152398834998",
+        "videoTitle": "言语理解完整复盘"
+      }
+    },
+    {
+      "id": "language-q033-explanation-28a350a-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先看问法，“引言”就是开篇先告诉我们，整篇准备讲哪些内容。这里先列地脉、人脉、城脉、文脉、气脉，再列对应的地理、历史、帝都等内容。"
+        },
+        {
+          "type": "paragraph",
+          "text": "但它有没有具体展开其中哪一种脉？没有，只是总提了各部分。那正文接下来，最自然就是先讲列在第一位的地脉。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A，文脉在后面，还没轮到，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "B，人脉也不是第一项，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "C，地脉正好是引言列举的第一项，可以。"
+        },
+        {
+          "type": "paragraph",
+          "text": "D，城脉同样排在地脉之后，不是紧接着先展开的内容，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以这道题选C。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这道题关键不是把每个专业词都解释一遍，而是看清“只列了提纲，还没开始分述”。我们要按它已经安排好的顺序往下走。"
+        }
+      ],
+      "questionId": "language-q033"
+    }
+  ]
+}

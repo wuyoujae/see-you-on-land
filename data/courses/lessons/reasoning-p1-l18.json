@@ -1,0 +1,146 @@
+{
+  "id": "reasoning-p1-l18",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-weaken",
+  "title": "比例错误：别只看分子，先找分母到底是谁",
+  "source": {
+    "startSeconds": 3334,
+    "endSeconds": 3518,
+    "timeLabel": "00:55:34—00:58:38",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p1-l18-knowledge-75b74fe-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "比例错误：别只看分子，先找分母到底是谁",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "这种题经常给我们一个百分比、一个人数，让我们觉得谁更多、谁更容易发生某个结果。但我们得先把分母找出来，否则比例就会看反。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们用一个例子来看：A 机构考上 50 人，B 机构考上 60 人，所以 B 机构教学效果更好。"
+        },
+        {
+          "type": "paragraph",
+          "text": "那 A 一共招了多少人，B 一共招了多少人？如果 A 一共只有 60 人，B 有 100 人，A 的上岸率是 50/60，约 83.3%；B 是 60/100，也就是 60%。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们看，考上人数更多，不等于上岸率更高。光看分子，是比较不出来的。"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-q018-question",
+      "type": "question",
+      "title": "不及格的人里，喜欢打游戏的很多，就能说游戏让人不及格吗",
+      "question": {
+        "id": "reasoning-q018",
+        "type": "single",
+        "stem": "一项针对某高校学生的调查显示：90%考试不及格的同学喜欢打游戏。有人据此认为，打游戏更容易导致学生考试不及格。\n以下哪项如果为真，最能削弱上述结论：",
+        "options": [
+          {
+            "value": "A",
+            "label": "不打游戏的学生只占全体学生的一成"
+          },
+          {
+            "value": "B",
+            "label": "有研究表明，打游戏会促进智力发展"
+          },
+          {
+            "value": "C",
+            "label": "小张不喜欢打游戏，但经常考试不及格"
+          },
+          {
+            "value": "D",
+            "label": "题目难度大，也是考试不及格的一个原因"
+          }
+        ],
+        "answer": "A"
+      },
+      "source": {
+        "startSeconds": 3389,
+        "endSeconds": 3518,
+        "timeLabel": "00:56:29",
+        "videoId": "7686460560006794547",
+        "videoTitle": "判断推理完整复盘",
+        "examLabel": "【视频 00:56:29 起；2023 年山东省考】"
+      }
+    },
+    {
+      "id": "reasoning-q018-explanation-9cbe5d3-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先看题干给的比例：不及格的同学里面，90%喜欢打游戏。"
+        },
+        {
+          "type": "paragraph",
+          "text": "注意它的分母是“不及格的人”，不是“打游戏的人”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "但最后的结论要说打游戏的人更容易不及格，那应该比较的是：打游戏这组有多大比例不及格，不打游戏这组又有多大比例不及格。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A，补了整体里两组人的人数比例。我们先设个好算的数字。"
+        },
+        {
+          "type": "paragraph",
+          "text": "假设全校 1000 人。不打游戏占一成，就是 100 人；打游戏的就是 900 人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "再假设不及格的一共有 100 人。题干说其中 90%打游戏，那就是打游戏且不及格的 90 人，不打游戏且不及格的 10 人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "现在两组分别算：打游戏组，不及格率是 90/900＝10%；不打游戏组，不及格率是 10/100＝10%。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们看，不及格的人里面打游戏的多，是因为全校打游戏的人本来就多。这组数据没有显示打游戏者的不及格率更高，原来的结论就推不出来了，所以 A 保留。"
+        }
+      ],
+      "questionId": "reasoning-q018"
+    },
+    {
+      "id": "reasoning-q018-explanation-9cbe5d3-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "B，促进某方面的智力，不等于最终考试就一定好。它没有把这道题的比例问题解释掉，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "C，小张不打游戏也不及格，但题干没有说“不打游戏的人绝对不会不及格”。这个个例不能直接推翻一种“更容易”的说法，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "D，题目难度大，是一个可能影响成绩的因素，但它没有说明游戏组和非游戏组面对的难度有什么不同，不能据此解释两组差异。我们要注意，如果两组考的是同一张卷子，只说“卷子难”，没有比较上的针对性，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以这道题选 A。"
+        },
+        {
+          "type": "paragraph",
+          "text": "记住我们真正要找的不是“带数字的选项”，而是能把缺失的分母补齐、把两组发生率比较清楚的选项。数字是提示，分母是谁才是本质。"
+        }
+      ],
+      "questionId": "reasoning-q018"
+    }
+  ]
+}

@@ -1,0 +1,768 @@
+{
+  "id": "quantity-wy27-s03-t02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s03",
+  "title": "不定方程",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      32,
+      33,
+      34,
+      35
+    ],
+    "printedPages": [
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s03-t02-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "不定方程",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们遇到的这一类题，往往未知数多于独立等式，不能只靠普通消元唯一解出各量。但题干还给了整数、正数、质数、大小和范围等条件，把它们接回去，就能筛出题目要的解；也有题目只求一个可以直接消元的整体组合。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看代入。示例：7x+4y=29，x、y为正整数。A为(1,6)，B为(3,2)，C为(4,1)，D为(2,4)。A代入得31不符；B得到21+8=29，符合，故选B。四个候选逐个代入就能核验，不必先求全体整数解。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们再看整除。示例：3x+7y=33，x、y为正整数，求y。选项A1、B3、C5、D7。因为3x和33都为3的倍数，7y也必须为3的倍数，故y为3的倍数。只有3符合，代回x=4，选B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们接着看尾数。示例：17x+10y=149，x、y为正整数，求x。选项A5、B6、C7、D8。10y尾数为0，所以17x尾数为9，即7x尾数9；选项中只有x=7满足，代回y=3，选C。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们最后看奇偶与质数。示例：3x+4y=46，x、y为正整数且x为质数，求x。选项A2、B3、C6、D7。4y和46均为偶数，3x也为偶数，因此x必须为偶数；唯一偶质数为2，代回y=10，选A。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们筛出候选后都要代回检查另一未知数是否也为正整数。求最大、最小还要说明为什么更大或更小不行，并给出能达到的具体安排；求整体则先试已知等式的倍加倍减。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          32
+        ],
+        "printedPages": [
+          26
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t02-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s03-t02-mother-01",
+        "type": "single",
+        "stem": "（25联考）甲乙两部门组织户外团建，共设A、B、C三项活动。甲部门每人三项活动均参加1次，乙部门每人任选2项不同活动各参加1次。已知A、B、C三项活动分别有18人、16人、15人参加，问甲部门成员至多有多少人？",
+        "options": [
+          {
+            "value": "A",
+            "label": "11"
+          },
+          {
+            "value": "B",
+            "label": "12"
+          },
+          {
+            "value": "C",
+            "label": "13"
+          },
+          {
+            "value": "D",
+            "label": "14"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          33
+        ],
+        "printedPages": [
+          27
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t02-mother-01-p033.webp",
+            "alt": "和差倍比问题（三） · 母题精讲1 · 讲义第27页",
+            "pdfPage": 33
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t02-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t02-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先按参加活动的总人次列式。设甲x人、乙y人，则甲贡献3x人次，乙贡献2y人次，总人次18+16+15=49。"
+        },
+        {
+          "type": "formula",
+          "latex": "3x+2y=49"
+        },
+        {
+          "type": "paragraph",
+          "text": "再看A活动有18人，甲x人全参加，乙至少要有18-x人，所以y≥18-x。代入可得(49-3x)/2≥18-x，即x≤13。取x=13时y=5，可以安排乙3人参加A、B，2人参加A、C，这样A、B、C分别为18、16、15人，确实可行，所以最多13人，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "人数上界不只来自总人次，还要检查每项活动所需人数，并构造实现方案。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          33
+        ],
+        "printedPages": [
+          27
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t02-mother-01-p033.webp",
+            "alt": "和差倍比问题（三） · 母题精讲1 · 讲义第27页",
+            "pdfPage": 33
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t02-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s03-t02-mother-02",
+        "type": "single",
+        "stem": "（22江苏）某企业年终评选了30名优秀员工，分三个等级，分别按每人10万元、5万元、1万元给与奖励。若共发放奖金89万元，则获得1万元奖金的员工有：",
+        "options": [
+          {
+            "value": "A",
+            "label": "14人"
+          },
+          {
+            "value": "B",
+            "label": "19人"
+          },
+          {
+            "value": "C",
+            "label": "20人"
+          },
+          {
+            "value": "D",
+            "label": "21人"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          33
+        ],
+        "printedPages": [
+          27
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t02-mother-02-p033.webp",
+            "alt": "和差倍比问题（三） · 母题精讲2 · 讲义第27页",
+            "pdfPage": 33
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t02-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t02-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设三档获奖人数分别x、y、z。总人数30，总奖金89万元。用奖金式减去每人至少1万元的30万元，就能消掉z。"
+        },
+        {
+          "type": "formula",
+          "latex": "x+y+z=30,\\quad10x+5y+z=89\\Rightarrow9x+4y=59"
+        },
+        {
+          "type": "paragraph",
+          "text": "模4看，x≡3(mod4)。又9x≤59，故x只能3，得到y=(59-27)/4=8，z=30-3-8=19。核验30+40+19=89万元，所以选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "多档金额题先扣最低档，消去一个未知数，再用整除与范围筛解。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          33
+        ],
+        "printedPages": [
+          27
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t02-mother-02-p033.webp",
+            "alt": "和差倍比问题（三） · 母题精讲2 · 讲义第27页",
+            "pdfPage": 33
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t02-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s03-t02-mother-03",
+        "type": "single",
+        "stem": "（20四川）某人花400元购买了若干盒樱桃。已知甲、乙、丙三个品种的樱桃单价分别为28元／盒、32元/盒和33元／盒，问他最多购买了多少盒丙品种的樱桃？",
+        "options": [
+          {
+            "value": "A",
+            "label": "3"
+          },
+          {
+            "value": "B",
+            "label": "4"
+          },
+          {
+            "value": "C",
+            "label": "5"
+          },
+          {
+            "value": "D",
+            "label": "6"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          34
+        ],
+        "printedPages": [
+          28
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t02-mother-03-p034.webp",
+            "alt": "和差倍比问题（三） · 母题精讲3 · 讲义第28页",
+            "pdfPage": 34
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t02-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t02-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先设购买甲、乙、丙分别a、b、c盒。28a+32b+33c=400，前两项和总数均为4的倍数，因此c必须为4的倍数；又c≤400/33，所以依次试12、8、4。c=12剩4元，买不了其他盒；c=8剩136元，对应7a+8b=34。由模7得b≡6(mod7)，但b≤4，矛盾。"
+        },
+        {
+          "type": "formula",
+          "latex": "c=4:\\quad28\\times5+32\\times4+33\\times4=400"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以4盒可以实现，而更大的候选都不行，最多4盒，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "求某类最多，先用同余大幅缩小候选，再从上界向下验证可实现性。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          34
+        ],
+        "printedPages": [
+          28
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t02-mother-03-p034.webp",
+            "alt": "和差倍比问题（三） · 母题精讲3 · 讲义第28页",
+            "pdfPage": 34
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t02-mother-04-question",
+      "type": "question",
+      "title": "母题精讲 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s03-t02-mother-04",
+        "type": "single",
+        "stem": "（25四川）某企业采购甲、乙和丙三种不同配置的电脑，已知甲、乙、丙各1台共2.3万元，2台甲加1台乙的总价比1台丙的单价高2.2万元。该企业最终决定采购1台甲、3台乙和7台丙，问采购总费用为多少万元？",
+        "options": [
+          {
+            "value": "A",
+            "label": "6.6"
+          },
+          {
+            "value": "B",
+            "label": "7.1"
+          },
+          {
+            "value": "C",
+            "label": "7.6"
+          },
+          {
+            "value": "D",
+            "label": "8.1"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          34
+        ],
+        "printedPages": [
+          28
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t02-mother-04-p034.webp",
+            "alt": "和差倍比问题（三） · 母题精讲4 · 讲义第28页",
+            "pdfPage": 34
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t02-mother-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t02-mother-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先不分别求三种电脑单价，题目只问一个组合的总价。设甲、乙、丙单价a、b、c万元，已知a+b+c=2.3，2a+b-c=2.2。目标a+3b+7c正好可以由两条已知关系组合出来。"
+        },
+        {
+          "type": "formula",
+          "latex": "a+3b+7c=5(a+b+c)-2(2a+b-c)"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以费用5×2.3-2×2.2=11.5-4.4=7.1万元，选B。展开右边系数为(5-4,5-2,5+2)=(1,3,7)，与购买数量逐项一致。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "未知数不能单独解出时，先看所求组合能否由已知等量式直接拼出来。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          34
+        ],
+        "printedPages": [
+          28
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t02-mother-04-p034.webp",
+            "alt": "和差倍比问题（三） · 母题精讲4 · 讲义第28页",
+            "pdfPage": 34
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t02-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s03-t02-practice-01",
+        "type": "single",
+        "stem": "（26江苏）某商场购进一款运动鞋20双，定价每双800元。按定价售出一些后，国庆促销时降价优惠15%又售出一部分，剩余的在换季时按定价打8折售完。若这20双鞋的销售额为14000元，且按定价售出的运动鞋比国庆促销售出的多，则换季时售出的运动鞋数量是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "5双"
+          },
+          {
+            "value": "B",
+            "label": "7双"
+          },
+          {
+            "value": "C",
+            "label": "9双"
+          },
+          {
+            "value": "D",
+            "label": "11双"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          34
+        ],
+        "printedPages": [
+          28
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t02-practice-01-p034.webp",
+            "alt": "和差倍比问题（三） · 思维精练1 · 讲义第28页",
+            "pdfPage": 34
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t02-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t02-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先用“全部按原价卖”作基准。20双原价收入16000元，实际少收2000元。国庆每双少120元，换季每双少160元；设这两阶段分别卖y、z双。"
+        },
+        {
+          "type": "formula",
+          "latex": "120y+160z=2000\\Rightarrow3y+4z=50"
+        },
+        {
+          "type": "paragraph",
+          "text": "由模3得z≡2(mod3)，且z≤12，候选为2、5、8、11。对应y为14、10、6、2；原价售量x=20-y-z分别为4、5、6、7。要求x>y，前三个都不满足，最后7>2成立，所以换季卖11双，选D。核验5600+1360+7040=14000。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "分档折扣先看相对原价少收多少，再用整数与大小关系筛解。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          34
+        ],
+        "printedPages": [
+          28
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t02-practice-01-p034.webp",
+            "alt": "和差倍比问题（三） · 思维精练1 · 讲义第28页",
+            "pdfPage": 34
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t02-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s03-t02-practice-02",
+        "type": "single",
+        "stem": "（20浙江）某会务组租了20多辆车将2220名参会者从酒店接到活动现场。大车每次能送50人，小车每次能送36人，所有车辆送2趟，且所有车辆均满员，正好送完，则大车比小车：",
+        "options": [
+          {
+            "value": "A",
+            "label": "多5辆"
+          },
+          {
+            "value": "B",
+            "label": "多2辆"
+          },
+          {
+            "value": "C",
+            "label": "少2辆"
+          },
+          {
+            "value": "D",
+            "label": "少5辆"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          35
+        ],
+        "printedPages": [
+          29
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t02-practice-02-p035.webp",
+            "alt": "和差倍比问题（三） · 思维精练2 · 讲义第29页",
+            "pdfPage": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t02-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t02-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把两趟运完换成每趟满载1110人。设大车x辆、小车y辆，50x+36y=1110，约去2得25x+18y=555。模18看，7x≡15，因此x≡15(mod18)。大车数小于30，所以x=15。"
+        },
+        {
+          "type": "formula",
+          "latex": "y=\\frac{555-25\\times15}{18}=10"
+        },
+        {
+          "type": "paragraph",
+          "text": "总车数25，符合20多辆；大车比小车多5辆，选A。两趟总载客2×(750+360)=2220人，验证无误。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "每趟都满载可先约掉趟数，再用同余与车辆总数范围定解。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          35
+        ],
+        "printedPages": [
+          29
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t02-practice-02-p035.webp",
+            "alt": "和差倍比问题（三） · 思维精练2 · 讲义第29页",
+            "pdfPage": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t02-practice-03-question",
+      "type": "question",
+      "title": "思维精练 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s03-t02-practice-03",
+        "type": "single",
+        "stem": "（26浙江）小李10天共做了41道数学题，任意两天做的题数相差不超过2道。问他最多有几天做了5道题？",
+        "options": [
+          {
+            "value": "A",
+            "label": "3"
+          },
+          {
+            "value": "B",
+            "label": "4"
+          },
+          {
+            "value": "C",
+            "label": "5"
+          },
+          {
+            "value": "D",
+            "label": "6"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          35
+        ],
+        "printedPages": [
+          29
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t02-practice-03-p035.webp",
+            "alt": "和差倍比问题（三） · 思维精练3 · 讲义第29页",
+            "pdfPage": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s03-t02-practice-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s03-t02-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看存在每天5道题时，其余每天至少做3道，否则任意两天的差会超过2。设5道题的天数为k，那么10天总题数至少5k+3(10-k)=30+2k。"
+        },
+        {
+          "type": "formula",
+          "latex": "30+2k\\le41\\Rightarrow k\\le5"
+        },
+        {
+          "type": "paragraph",
+          "text": "取5天各5道、1天4道、4天各3道，总数25+4+12=41，最多最少之差2，确实能实现。因此最多5天，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "求某种次数最多，给其他日子取允许的最小值形成上界，再构造达到上界的安排。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          35
+        ],
+        "printedPages": [
+          29
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s03-t02-practice-03-p035.webp",
+            "alt": "和差倍比问题（三） · 思维精练3 · 讲义第29页",
+            "pdfPage": 35
+          }
+        ]
+      }
+    }
+  ]
+}

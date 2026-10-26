@@ -11,9 +11,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: read
 
 concurrency:
   group: pages
@@ -22,62 +20,145 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    outputs:
+      should_deploy: ${{ steps.publish.outputs.should_deploy }}
+    env:
+      PYTHONUTF8: "1"
     steps:
       - name: Check out source
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          # A queued push must not deploy an older tree over newer main data.
+          ref: main
 
       - name: Set up Python
-        if: github.event_name != 'push'
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: "3.12"
           cache: pip
+          cache-dependency-path: requirements.txt
 
       - name: Install collector dependencies
         if: github.event_name != 'push'
-        run: pip install -r requirements.txt
+        run: python -m pip install -r requirements.txt
 
       - name: Fill missing days and refresh today
         if: github.event_name != 'push'
+        id: news
+        timeout-minutes: 20
         run: |
-          python update_current_affairs.py --backfill
-          python update_current_affairs.py --force
+          python - <<'PY'
+          import copy
+          import json
+          import os
+          import subprocess
+          import sys
+          from datetime import datetime, timedelta, timezone
+          from pathlib import Path
+
+          source = Path("data/current-affairs-data.json")
+          script = Path("data/current-affairs-data.js")
+          old_json, old_js = source.read_bytes(), script.read_bytes()
+          before = json.loads(old_json)
+          today = datetime.now(timezone(timedelta(hours=8))).date()
+          first = datetime.strptime(before["startDate"], "%Y-%m-%d").date()
+          existing = {item["date"] for item in before.get("days", [])}
+          missing_past = any(
+              (first + timedelta(days=offset)).isoformat() not in existing
+              for offset in range(max(0, (today - first).days))
+          )
+          # Backfill only through yesterday. Today is fetched exactly once.
+          if missing_past:
+              subprocess.run([sys.executable, "scripts/update_current_affairs.py", "--backfill", "--date", (today - timedelta(days=1)).isoformat()], check=True)
+          subprocess.run([sys.executable, "scripts/update_current_affairs.py", "--force"], check=True)
+
+          def meaningful(value):
+              result = copy.deepcopy(value)
+              result.pop("generatedAt", None)
+              for day in result.get("days", []):
+                  for status in day.get("sourceStatus", []):
+                      status.pop("duration", None)
+              return result
+
+          changed = meaningful(before) != meaningful(json.loads(source.read_bytes()))
+          if not changed:
+              # Timing-only changes must not create commits or daily artifacts.
+              source.write_bytes(old_json)
+              script.write_bytes(old_js)
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write("changed=" + str(changed).lower() + "\n")
+          PY
 
       - name: Save refreshed public data
-        if: github.event_name != 'push'
+        if: steps.news.outputs.changed == 'true'
         run: |
-          if git diff --quiet -- current-affairs-data.json current-affairs-data.js; then
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add current-affairs-data.json current-affairs-data.js
+          git add data/current-affairs-data.json data/current-affairs-data.js
           git commit -m "Update daily current affairs"
-          git push
+          # Preserve commits pushed while collection was running. A conflicting
+          # edit fails safely; never force-push or overwrite the user's update.
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
+
+      - name: Decide whether a deployment is needed
+        id: publish
+        if: github.event_name != 'schedule' || steps.news.outputs.changed == 'true'
+        run: echo "should_deploy=true" >> "$GITHUB_OUTPUT"
+
+      - name: Set up Node
+        if: steps.publish.outputs.should_deploy == 'true'
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: "24"
+          package-manager-cache: false
+
+      - name: Validate JavaScript and run offline state/content tests
+        if: steps.publish.outputs.should_deploy == 'true'
+        run: |
+          for file in assets/js/*.js; do node --check "$file"; done
+          # The legacy Playwright script requires a browser and asserts the
+          # retired two-category search UI; real browser QA stays separate.
+          mapfile -t test_files < <(find tests -maxdepth 1 -name '*.cjs' ! -name 'solver-question-type.cjs' | sort)
+          node --test "${test_files[@]}"
+
+      - name: Validate question bank and public build boundaries
+        if: steps.publish.outputs.should_deploy == 'true'
+        run: python -m unittest discover -s tests -p "test_*.py"
 
       - name: Assemble static site
+        if: steps.publish.outputs.should_deploy == 'true'
         run: |
-          mkdir -p _site
-          cp index.html clock.css clock.js search.css search.js solver-prompts.js image-crop.js cropper.min.js cropper.min.css cropper.LICENSE wrong-questions.css wrong-questions.js wrong-question-taxonomy.json backup.js learning-data.js current-affairs-data.js _site/
-          touch _site/.nojekyll
-
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
+          python scripts/assemble_static_site.py
+          python scripts/validate_pages_artifact.py
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        if: steps.publish.outputs.should_deploy == 'true'
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: _site
+          retention-days: 1
+          include-hidden-files: true
 
   deploy:
+    if: needs.build.outputs.should_deploy == 'true'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     needs: build
+    permissions:
+      pages: write
+      id-token: write
     steps:
+      - name: Configure Pages
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

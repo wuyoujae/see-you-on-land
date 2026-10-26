@@ -1,0 +1,172 @@
+{
+  "id": "reasoning-p2-l17",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-propositions",
+  "title": "或命题：至少有一个成立，以及“否一推一”",
+  "source": {
+    "startSeconds": 6473,
+    "endSeconds": 111,
+    "timeLabel": "01:47:53—01:51",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p2-l17-knowledge-655e837-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "或命题：至少有一个成立，以及“否一推一” · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "“A或B”，就是A、B至少有一个成立。可以只有A，可以只有B，也可以A和B都有。这里的普通“或”，不要擅自理解成只能二选一。"
+        },
+        {
+          "type": "paragraph",
+          "text": "常见说法有："
+        },
+        {
+          "type": "paragraph",
+          "text": "（1）A或者B＝A或B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（2）A、B至少有一个＝A或B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（3）A、B至多有一个＝非A或非B，也就是至少缺一个。"
+        },
+        {
+          "type": "paragraph",
+          "text": "“至多一个”要特别留心。它允许三个情况：只有A、只有B、两个都没有；唯一不允许的就是A和B同时有。所以它等价于“不能A且B”，也就是“非A或非B”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "或命题的矛盾，仍然是“且或互换，各项加否”："
+        },
+        {
+          "type": "paragraph",
+          "text": "否定“A或B”＝“非A且非B”。"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-p2-l17-knowledge-655e837-02",
+      "type": "text",
+      "role": "knowledge",
+      "title": "或命题：至少有一个成立，以及“否一推一” · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "比如“小明人美或心善”，意思是至少有一个优点。我们要彻底否定它，当然得两个都没有：人不美，且心不善。只否定其中一个，另一个可能还在，原句就还可能成立。"
+        },
+        {
+          "type": "paragraph",
+          "text": "或命题还有一个很重要的规则，叫“否一推一”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "已知A或B，再知道非A→可以推出B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "已知A或B，再知道非B→可以推出A。"
+        },
+        {
+          "type": "paragraph",
+          "text": "比如“小明人美或心善”，现在知道他人不美，那他就必须心善；如果他心不善，那他就必须人美。因为两边至少有一个，拿掉一个，剩下那个就得在。"
+        },
+        {
+          "type": "paragraph",
+          "text": "但是“肯一”不能直接“推另一”。已经知道人美，能不能判断他心善？不能，他可能心善，也可能不善。“或”本来就允许两边都成立，所以不能因为A真就说B假，也不能直接说B真。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这部分最容易错在否定本身带“不”的内容。比如“非A或B”，如果后来推出A，那就是把“非A”否定掉了，所以能推出B。不要只看表面有没有“非”字，要看新信息和原来那一项是不是互相否定。"
+        },
+        {
+          "type": "paragraph",
+          "text": "再拿一个小例子练一下：今天判断、资料至少学一个，写成“判断或资料”。今天没学判断→就得学资料；今天没学资料→就得学判断。不是说今天只能学一个，两个都学也完全满足“至少一个”。"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-q032-question",
+      "type": "question",
+      "title": "或命题：至少有一个成立，以及“否一推一”",
+      "question": {
+        "id": "reasoning-q032",
+        "type": "single",
+        "stem": "小李考上了清华，或者小孙没考上北大。\n增加下列哪项条件，能推出小李考上了清华：",
+        "options": [
+          {
+            "value": "A",
+            "label": "小张和小李至少有一人未考上清华"
+          },
+          {
+            "value": "B",
+            "label": "小张和小孙都考上了北大"
+          },
+          {
+            "value": "C",
+            "label": "小张和小李都未考上清华"
+          },
+          {
+            "value": "D",
+            "label": "小张和小孙都未考上北大"
+          }
+        ],
+        "answer": "B"
+      },
+      "source": {
+        "startSeconds": 6473,
+        "endSeconds": 111,
+        "timeLabel": "01:47:53—01:51",
+        "videoId": "7686460560006794547",
+        "videoTitle": "判断推理完整复盘"
+      }
+    },
+    {
+      "id": "reasoning-q032-explanation-9d413dd-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先简写：“李清华，或非孙北大”。我们要推出的是前半句“李清华”。那就得把后半句“非孙北大”否掉。"
+        },
+        {
+          "type": "paragraph",
+          "text": "“小孙没考上北大”的否定是什么？是“小孙考上了北大”。所以我们现在找的就是能提供“小孙考上北大”的选项。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A，小张或小李有一个没考上清华，没有给出小孙的情况，推不出我们要的条件，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "B，小张和小孙都考上北大。小张这一半先不用管，关键是这里包含“小孙考上北大”。这样就把“非孙北大”否掉了，否一推一，小李考上清华，保留。"
+        },
+        {
+          "type": "paragraph",
+          "text": "C，直接说小李没考上清华，当然不能推出小李考上清华；结合原句反而可以推出小孙没考上北大，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "D，小孙没考上北大，这只是肯定原来后半句。后半句已经成立，前半句就可以真也可以假，推不出来，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以这道题选B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "做这种“增加条件使某个结果成立”的题，可以从要得到的那一项倒着找：想保住A，就先找谁能否掉B。选项里夹了一个小张，也不用被它带跑，抓能用上的信息就行。"
+        }
+      ],
+      "questionId": "reasoning-q032"
+    }
+  ]
+}

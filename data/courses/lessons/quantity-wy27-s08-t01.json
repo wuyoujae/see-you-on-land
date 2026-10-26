@@ -1,0 +1,1067 @@
+{
+  "id": "quantity-wy27-s08-t01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s08",
+  "title": "利润问题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      81,
+      82,
+      83,
+      84,
+      85
+    ],
+    "printedPages": [
+      75,
+      76,
+      77,
+      78,
+      79
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s08-t01-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "利润问题",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先分清成本、定价、实际售价和利润。打折是对定价打折，利润率通常以成本为分母；利润占营业额的比例则以收入为分母，两个比例不能混用。"
+        },
+        {
+          "type": "formula",
+          "latex": "\\text{利润}=\\text{售价}-\\text{成本},\\quad \\text{利润率}=\\frac{\\text{利润}}{\\text{成本}},\\quad \\text{收入}=\\text{单价}\\times\\text{销量}"
+        },
+        {
+          "type": "paragraph",
+          "text": "总利润＝每件利润×数量。两次销量不同，即使利润相同，也不能直接令两个售价相同。有分批打折、退货、损耗时，每批收入分别算，成本按实际采购或题目限定的数量统一核算。"
+        },
+        {
+          "type": "paragraph",
+          "text": "单价变成原来的a倍、销量变成原来的b倍，收入就变成ab倍。比如售价降10%、销量增30%，收入变为0.9×1.3＝1.17倍，不能把－10%与＋30%直接相加。"
+        },
+        {
+          "type": "paragraph",
+          "text": "当题目没有给固定单价、只比较比例时，可以把原成本设100或原价设1；但必须让所有题目条件随同一尺度变化。收入增量与利润增量的差，正好反映成本增量。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          81
+        ],
+        "printedPages": [
+          75
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s08-t01-mother-01",
+        "type": "single",
+        "stem": "（26天津事考）某服装店以每件120元的成本购进一批服装，全部按定价的8折销售，每件的利润率为20%。若该批服装全部售完后，总获利为3600元，则该店此批购入（）件服装。",
+        "options": [
+          {
+            "value": "A",
+            "label": "120"
+          },
+          {
+            "value": "B",
+            "label": "150"
+          },
+          {
+            "value": "C",
+            "label": "180"
+          },
+          {
+            "value": "D",
+            "label": "200"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          82
+        ],
+        "printedPages": [
+          76
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-mother-01-p082.webp",
+            "alt": "利润问题 · 母题精讲1 · 讲义第76页",
+            "pdfPage": 82
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t01-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看每件成本120元、利润率20%，每件利润就是120×20%＝24元。"
+        },
+        {
+          "type": "paragraph",
+          "text": "总获利3600元，件数＝3600÷24＝150件，选B。题目问数量，给出的8折不必另求定价。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "利润率以成本为分母，先求每件利润就能直接反推数量。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          82
+        ],
+        "printedPages": [
+          76
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-mother-01-p082.webp",
+            "alt": "利润问题 · 母题精讲1 · 讲义第76页",
+            "pdfPage": 82
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s08-t01-mother-02",
+        "type": "single",
+        "stem": "（26北京）一件商品的定价为成本的2.5倍，如果每件降价100元出售，单件利润比打八折出售低40元。则这种商品的成本是多少元／件？",
+        "options": [
+          {
+            "value": "A",
+            "label": "100"
+          },
+          {
+            "value": "B",
+            "label": "120"
+          },
+          {
+            "value": "C",
+            "label": "125"
+          },
+          {
+            "value": "D",
+            "label": "150"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          82,
+          83
+        ],
+        "printedPages": [
+          76,
+          77
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-mother-02-p082.webp",
+            "alt": "利润问题 · 母题精讲2 · 讲义第76页",
+            "pdfPage": 82
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-mother-02-p083.webp",
+            "alt": "利润问题 · 母题精讲2 · 讲义第77页",
+            "pdfPage": 83
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t01-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设定价P、成本C。两种卖法成本相同，利润差40元就是售价差40元，因此0.8P－(P－100)＝40。"
+        },
+        {
+          "type": "paragraph",
+          "text": "得到100－0.2P＝40，所以P＝300；又P＝2.5C，得到C＝120元，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "同一件商品比较利润差时，成本可以抵消，先比较售价差。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          82,
+          83
+        ],
+        "printedPages": [
+          76,
+          77
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-mother-02-p082.webp",
+            "alt": "利润问题 · 母题精讲2 · 讲义第76页",
+            "pdfPage": 82
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-mother-02-p083.webp",
+            "alt": "利润问题 · 母题精讲2 · 讲义第77页",
+            "pdfPage": 83
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s08-t01-mother-03",
+        "type": "single",
+        "stem": "（26浙江事考）某公司长期采购某种设备，已知今年比去年多采购40台设备，采购单价比去年高30%，总采购金额比去年高56%。那么去年采购了多少台？",
+        "options": [
+          {
+            "value": "A",
+            "label": "200"
+          },
+          {
+            "value": "B",
+            "label": "240"
+          },
+          {
+            "value": "C",
+            "label": "260"
+          },
+          {
+            "value": "D",
+            "label": "120"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          83
+        ],
+        "printedPages": [
+          77
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-mother-03-p083.webp",
+            "alt": "利润问题 · 母题精讲3 · 讲义第77页",
+            "pdfPage": 83
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t01-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看总金额＝单价×数量。今年单价是去年1.3倍，总额是1.56倍，所以采购量是去年1.56÷1.3＝1.2倍。"
+        },
+        {
+          "type": "paragraph",
+          "text": "增加的40台对应原数量20%，去年数量＝40÷20%＝200台，选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "金额增长包含价格和数量两个乘法因子，先除掉已知因子。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          83
+        ],
+        "printedPages": [
+          77
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-mother-03-p083.webp",
+            "alt": "利润问题 · 母题精讲3 · 讲义第77页",
+            "pdfPage": 83
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-mother-04-question",
+      "type": "question",
+      "title": "母题精讲 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s08-t01-mother-04",
+        "type": "single",
+        "stem": "（26国考）某种商品若按每件100元出售，每天售出m件。若降价10%，日销量将提高25%且单日利润与降价前相同。问该商品成本为多少元/件？",
+        "options": [
+          {
+            "value": "A",
+            "label": "50"
+          },
+          {
+            "value": "B",
+            "label": "60"
+          },
+          {
+            "value": "C",
+            "label": "70"
+          },
+          {
+            "value": "D",
+            "label": "80"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          83
+        ],
+        "printedPages": [
+          77
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-mother-04-p083.webp",
+            "alt": "利润问题 · 母题精讲4 · 讲义第77页",
+            "pdfPage": 83
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-mother-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t01-mother-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设每件成本C，原利润为(100－C)m；降价后售价90，销量1.25m，利润为(90－C)×1.25m。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两次利润相同，约去m，得到100－C＝1.25(90－C)，整理0.25C＝12.5，C＝50元，选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "总利润相等要同时考虑每件利润和销量，不只比较收入。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          83
+        ],
+        "printedPages": [
+          77
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-mother-04-p083.webp",
+            "alt": "利润问题 · 母题精讲4 · 讲义第77页",
+            "pdfPage": 83
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-mother-05-question",
+      "type": "question",
+      "title": "母题精讲 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s08-t01-mother-05",
+        "type": "single",
+        "stem": "（26联考）某热水器厂家开展促销活动后，热水器售价降低10%，销量增加30%，活动前后利润与营业额的比值不变。问活动后比活动前的利润提高的百分比是多少？",
+        "options": [
+          {
+            "value": "A",
+            "label": "12.5%"
+          },
+          {
+            "value": "B",
+            "label": "15%"
+          },
+          {
+            "value": "C",
+            "label": "17%"
+          },
+          {
+            "value": "D",
+            "label": "20%"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          83
+        ],
+        "printedPages": [
+          77
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-mother-05-p083.webp",
+            "alt": "利润问题 · 母题精讲5 · 讲义第77页",
+            "pdfPage": 83
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-mother-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t01-mother-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先算营业额变化：售价变成0.9倍，销量变成1.3倍，营业额变成0.9×1.3＝1.17倍。"
+        },
+        {
+          "type": "paragraph",
+          "text": "题目明确利润/营业额的比例保持不变，因此利润也变成1.17倍，增加17%，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "利润率的分母先认清；净利润占收入的比例不变时，利润随收入同比变化。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          83
+        ],
+        "printedPages": [
+          77
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-mother-05-p083.webp",
+            "alt": "利润问题 · 母题精讲5 · 讲义第77页",
+            "pdfPage": 83
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s08-t01-practice-01",
+        "type": "single",
+        "stem": "（23联考）某商场柜台出售一款小家电，如果按定价打九折出售可获得利润70元，如果按定价打九五折出售可获得利润100元，这款小家电进货价格所在区间是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "400-450元"
+          },
+          {
+            "value": "B",
+            "label": "450-500元"
+          },
+          {
+            "value": "C",
+            "label": "500-550元"
+          },
+          {
+            "value": "D",
+            "label": "550-600元"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          84
+        ],
+        "printedPages": [
+          78
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-practice-01-p084.webp",
+            "alt": "利润问题 · 思维精练1 · 讲义第78页",
+            "pdfPage": 84
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t01-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们看两次仅折扣变了：九五折与九折相差定价的5%，利润差100－70＝30元，因此定价＝30÷5%＝600元。"
+        },
+        {
+          "type": "paragraph",
+          "text": "9折售价540元，扣掉利润70元，进价470元，位于450—500元，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "同商品不同折扣的利润差，等于折扣差乘定价。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          84
+        ],
+        "printedPages": [
+          78
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-practice-01-p084.webp",
+            "alt": "利润问题 · 思维精练1 · 讲义第78页",
+            "pdfPage": 84
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s08-t01-practice-02",
+        "type": "single",
+        "stem": "（24国考）某地为工业企业提供相当于营业额2%的税收优惠，当地的A工厂原本预计当年会产生相当于营业额0.8%的亏损，在享受优惠政策后预计可以盈利300万元。问A工厂当年的预计营业额为多少亿元？",
+        "options": [
+          {
+            "value": "A",
+            "label": "4"
+          },
+          {
+            "value": "B",
+            "label": "3.6"
+          },
+          {
+            "value": "C",
+            "label": "3"
+          },
+          {
+            "value": "D",
+            "label": "2.5"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          84
+        ],
+        "printedPages": [
+          78
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-practice-02-p084.webp",
+            "alt": "利润问题 · 思维精练2 · 讲义第78页",
+            "pdfPage": 84
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t01-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设营业额R。原先亏损0.8%R，加上2%R的税收优惠，净盈利就是1.2%R。"
+        },
+        {
+          "type": "paragraph",
+          "text": "1.2%R＝300万元，所以R＝25000万元＝2.5亿元，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "亏损先记负数，优惠与亏损相抵，再统一万元和亿元。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          84
+        ],
+        "printedPages": [
+          78
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-practice-02-p084.webp",
+            "alt": "利润问题 · 思维精练2 · 讲义第78页",
+            "pdfPage": 84
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-practice-03-question",
+      "type": "question",
+      "title": "思维精练 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s08-t01-practice-03",
+        "type": "single",
+        "stem": "（26全国事考）某商品定价为成本的1.8倍，在定价基础上打八折出售10件的利润与在定价基础上降价60元／件出售11件的利润相同，问该商品的定价为多少元／件？",
+        "options": [
+          {
+            "value": "A",
+            "label": "270"
+          },
+          {
+            "value": "B",
+            "label": "360"
+          },
+          {
+            "value": "C",
+            "label": "540"
+          },
+          {
+            "value": "D",
+            "label": "720"
+          }
+        ],
+        "answer": "A",
+        "sourceAnswer": "A"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          84
+        ],
+        "printedPages": [
+          78
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-practice-03-p084.webp",
+            "alt": "利润问题 · 思维精练3 · 讲义第78页",
+            "pdfPage": 84
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-practice-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t01-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：A"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设成本C，定价就是1.8C。八折售价1.44C，每件利润0.44C，卖10件获利4.4C。"
+        },
+        {
+          "type": "paragraph",
+          "text": "降价60元后，每件利润0.8C－60，卖11件利润8.8C－660。两者相等，4.4C＝8.8C－660，得到C＝150。"
+        },
+        {
+          "type": "paragraph",
+          "text": "问题问定价，所以还要乘1.8，得到270元，选A。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先把定价与成本换成同一变量，最后回到题目真正问的量。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          84
+        ],
+        "printedPages": [
+          78
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-practice-03-p084.webp",
+            "alt": "利润问题 · 思维精练3 · 讲义第78页",
+            "pdfPage": 84
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-practice-04-question",
+      "type": "question",
+      "title": "思维精练 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s08-t01-practice-04",
+        "type": "single",
+        "stem": "（26天津）一种商品第一天按定价卖了12件，第二天按定价打七折卖了20件，收入比第一天多400元，利润（收入－成本）比第一天少400元。问这种商品如果按定价打八折卖，每件利润为多少元？",
+        "options": [
+          {
+            "value": "A",
+            "label": "40"
+          },
+          {
+            "value": "B",
+            "label": "50"
+          },
+          {
+            "value": "C",
+            "label": "60"
+          },
+          {
+            "value": "D",
+            "label": "70"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          84,
+          85
+        ],
+        "printedPages": [
+          78,
+          79
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-practice-04-p084.webp",
+            "alt": "利润问题 · 思维精练4 · 讲义第78页",
+            "pdfPage": 84
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-practice-04-p085.webp",
+            "alt": "利润问题 · 思维精练4 · 讲义第79页",
+            "pdfPage": 85
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-practice-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t01-practice-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设定价P、成本C。第一天收入12P，第二天20×0.7P＝14P，多400元，所以2P＝400，P＝200。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第二天多卖8件，成本多8C；收入多400但利润少400，说明成本多800，即C＝100。"
+        },
+        {
+          "type": "paragraph",
+          "text": "八折售价160，减成本100，每件利润60元，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "收入差减利润差就是成本差，先求定价再求每件成本。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          84,
+          85
+        ],
+        "printedPages": [
+          78,
+          79
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-practice-04-p084.webp",
+            "alt": "利润问题 · 思维精练4 · 讲义第78页",
+            "pdfPage": 84
+          },
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-practice-04-p085.webp",
+            "alt": "利润问题 · 思维精练4 · 讲义第79页",
+            "pdfPage": 85
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-practice-05-question",
+      "type": "question",
+      "title": "思维精练 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s08-t01-practice-05",
+        "type": "single",
+        "stem": "（25选调）某新能源汽车电池制造厂的成本包含生产成本和研发成本。前年的生产成本是研发成本的5倍，去年生产成本同比降低20%，研发成本同比增长27%；去年电池销售单价同比降低5%。若前年每个电池的利润率（利润/成本）为10%，那么前年每个电池的利润是去年的多少倍？",
+        "options": [
+          {
+            "value": "A",
+            "label": "0.2"
+          },
+          {
+            "value": "B",
+            "label": "0.4"
+          },
+          {
+            "value": "C",
+            "label": "0.6"
+          },
+          {
+            "value": "D",
+            "label": "0.8"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C",
+        "reviewNote": "按题目意图将生产、研发成本变化理解为同一单个电池成本口径；若只给全厂总成本变化而产量可变，则不足以推出单件利润。"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          85
+        ],
+        "printedPages": [
+          79
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-practice-05-p085.webp",
+            "alt": "利润问题 · 思维精练5 · 讲义第79页",
+            "pdfPage": 85
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s08-t01-practice-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s08-t01-practice-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们按每个电池的同一成本口径赋值：前年的研发成本1份、生产成本5份，总成本6份。利润率10%，利润0.6份、售价6.6份。"
+        },
+        {
+          "type": "paragraph",
+          "text": "去年生产成本降为4份，研发成本增为1.27份，总成本5.27份；售价降5%，变为6.6×0.95＝6.27份，利润就是1份。"
+        },
+        {
+          "type": "paragraph",
+          "text": "前年利润/去年利润＝0.6/1＝0.6，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "分项成本分别按各自增幅计算，别把总成本也套其中一个增幅。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          85
+        ],
+        "printedPages": [
+          79
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s08-t01-practice-05-p085.webp",
+            "alt": "利润问题 · 思维精练5 · 讲义第79页",
+            "pdfPage": 85
+          }
+        ]
+      }
+    }
+  ]
+}

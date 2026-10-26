@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "revision": "fixture-revision-1",
+  "source": {"id": "quantity-wy27", "title": "数量关系方法测试夹具", "pageCount": 169},
+  "topics": [
+    {"id": "equations", "title": "方程问题", "pages": [7, 8], "keywords": ["方程", "未知数"], "summary": "设未知数，依据数量关系列式。", "methods": "EQUATION_DETAIL：核对未知量和独立方程的个数。"},
+    {"id": "engineering", "title": "工程问题", "pages": [23, 24], "printedPages": [17, 18], "keywords": ["工程", "效率", "单独完成", "合作"], "summary": "工作量等于效率与时间的乘积。", "methods": "ENGINEERING_DETAIL：统一工作量后再比较效率。\\(W=vt\\)"},
+    {"id": "journey", "title": "行程问题", "pages": [35, 36], "keywords": ["行程", "相遇", "追及", "千米"], "summary": "区分相向、同向及路程条件。", "methods": "JOURNEY_DETAIL：相遇用速度和，追及用速度差，先核对运动方向。"},
+    {"id": "probability", "title": "概率问题", "pages": [150, 151], "keywords": ["概率", "随机抽取", "等可能"], "summary": "先核对等可能条件，再计数。", "methods": "PROBABILITY_DETAIL：分母和分子必须使用同一计数口径。"}
+  ]
+}

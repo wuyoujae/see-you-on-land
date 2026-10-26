@@ -1,0 +1,111 @@
+{
+  "id": "language-logical-fill-figurative",
+  "subjectId": "language",
+  "groupId": "language-logical-fill",
+  "title": "比喻和形象化表达 找同一组画面里的词",
+  "source": {
+    "startSeconds": 8900,
+    "endSeconds": 9004,
+    "timeLabel": "02:28:20—02:30:04",
+    "videoId": "7677994152398834998",
+    "videoTitle": "言语理解完整复盘"
+  },
+  "cards": [
+    {
+      "id": "language-logical-fill-figurative-intro",
+      "type": "text",
+      "role": "intro",
+      "title": "题型三：比喻与形象化表达",
+      "blocks": []
+    },
+    {
+      "id": "language-logical-fill-figurative-method-29592d8-01",
+      "type": "text",
+      "role": "method",
+      "title": "我们的解题思路",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "有时空里填的是一个形象化表达，我们就找前后有没有和它属于同一组画面的词。多个空不一定从第一个做起，先抓最容易找到明确线索的那个，再把整组选项代回检查。"
+        }
+      ]
+    },
+    {
+      "id": "language-q051-question",
+      "type": "question",
+      "title": "乡村人才振兴",
+      "question": {
+        "id": "language-q051",
+        "type": "single",
+        "stem": "人才振兴是乡村全面振兴的________。加强乡村人才队伍建设是推进乡村全面振兴的题中应有之义。要聚焦“引、留、育”关键环节，在“引贤、留才、育苗”上________发力，凝聚人才扎根美丽乡村，高效培育融入乡村全面振兴，激活动能赋能乡村全面振兴，让现代化人才在乡村全面振兴的________中建功立业。\n依次填入画横线部分最恰当的一项是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "标杆　集中　温床"
+          },
+          {
+            "value": "B",
+            "label": "源头　精准　蓝图"
+          },
+          {
+            "value": "C",
+            "label": "核心　切实　画卷"
+          },
+          {
+            "value": "D",
+            "label": "基础　持续　沃土"
+          }
+        ],
+        "answer": "D"
+      },
+      "source": {
+        "startSeconds": 8900,
+        "endSeconds": 9004,
+        "timeLabel": "02:28:20—02:30:04",
+        "videoId": "7677994152398834998",
+        "videoTitle": "言语理解完整复盘"
+      }
+    },
+    {
+      "id": "language-q051-explanation-598c2c4-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先看前两个空，标杆、源头、核心、基础，集中、精准、切实、持续，一时都不容易排干净。那就先往后，看第三个空。"
+        },
+        {
+          "type": "paragraph",
+          "text": "“在乡村全面振兴的什么中建功立业”，说的是让人才在这项事业中发挥作用。四个选项是在把这项事业形象化，那就找前面用的是什么画面。"
+        },
+        {
+          "type": "paragraph",
+          "text": "“育苗”“扎根”“培育”，这不都是栽培、生长这一组嘛。人才像苗，事业提供生长和施展的地方，对应“沃土”就最顺。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A，温床常用来指某些不良事物滋生的环境，和这里肯定乡村振兴、人才建功的语境不合，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "B，蓝图偏向未来规划，不如“沃土”直接承接育苗、扎根这些线索，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "C，画卷可以描绘事业景象，但同样没有把前面的栽培语义接起来，不如 D。"
+        },
+        {
+          "type": "paragraph",
+          "text": "D，沃土对应育苗和扎根，保留。我们再把前两空代回：“人才振兴是……基础”“在关键环节持续发力”，也都顺。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以选 D。我们先抓第三个空的强线索，再用整句话核验另外两个空，不用在最难区分的第一空反复纠结。"
+        }
+      ],
+      "questionId": "language-q051"
+    }
+  ]
+}

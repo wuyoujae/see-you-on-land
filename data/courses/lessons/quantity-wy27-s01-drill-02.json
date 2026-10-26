@@ -1,0 +1,422 @@
+{
+  "id": "quantity-wy27-s01-drill-02",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s01",
+  "title": "实战精刷 · 5—8题",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      15,
+      16
+    ],
+    "printedPages": [
+      9,
+      10
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s01-t03-drill-05-question",
+      "type": "question",
+      "title": "实战精刷 · 第5题",
+      "question": {
+        "id": "quantity-wy27-s01-t03-drill-05",
+        "type": "single",
+        "stem": "（26广东事考）某公司法务、运营、财务三个部门共收到70份求职简历（每名求职者只能向一个部门投递简历），其中40%的求职者拥有硕士学位。在法务和运营两个部门收到的简历中，拥有硕士学位的求职者占比分别为55%和36%。则在财务部收到的简历中，拥有硕士学位的求职者占比为（）。",
+        "options": [
+          {
+            "value": "A",
+            "label": "21%"
+          },
+          {
+            "value": "B",
+            "label": "24%"
+          },
+          {
+            "value": "C",
+            "label": "29%"
+          },
+          {
+            "value": "D",
+            "label": "32%"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          15
+        ],
+        "printedPages": [
+          9
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-05-p015.webp",
+            "alt": "和差倍比问题（一） · 实战精刷5 · 讲义第9页",
+            "pdfPage": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-05-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t03-drill-05",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先算硕士总人数：70×40%=28。法务55%=11/20，因此法务人数为20a、硕士11a；运营36%=9/25，因此运营人数为25b、硕士9b，a、b为正整数。"
+        },
+        {
+          "type": "formula",
+          "latex": "20a+25b<70,\\qquad11a+9b\\le28"
+        },
+        {
+          "type": "paragraph",
+          "text": "若b≥2，人数至少70，没有财务简历，不符；所以b=1。若a≥2，硕士至少22+9=31，也超过28；因此a=1。财务共70-20-25=25人，其中硕士28-11-9=8人。8/25=32%，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "人数的分母整除与硕士总数上限共同限定部门人数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          15
+        ],
+        "printedPages": [
+          9
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-05-p015.webp",
+            "alt": "和差倍比问题（一） · 实战精刷5 · 讲义第9页",
+            "pdfPage": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-06-question",
+      "type": "question",
+      "title": "实战精刷 · 第6题",
+      "question": {
+        "id": "quantity-wy27-s01-t03-drill-06",
+        "type": "single",
+        "stem": "（25浙江）篮球比赛中，三分线内，投中一次得2分，三分线外，投中一次得3分；若被犯规，则获得罚球机会，投中一次得1分。某场比赛，小张2分球命中率为62.5%，3分球命中率为44.4%，最终得分25分。已知小张罚球次数为7次，那么他的罚球命中率在以下哪个范围？",
+        "options": [
+          {
+            "value": "A",
+            "label": "30%-40%"
+          },
+          {
+            "value": "B",
+            "label": "40%-50%"
+          },
+          {
+            "value": "C",
+            "label": "50%-60%"
+          },
+          {
+            "value": "D",
+            "label": "60%-70%"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B",
+        "reviewNote": "原题44.4%按一位小数的近似命中率处理才与总得分相容；若视为精确111/250则题干无解，需保留此精度边界。"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          15
+        ],
+        "printedPages": [
+          9
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-06-p015.webp",
+            "alt": "和差倍比问题（一） · 实战精刷6 · 讲义第9页",
+            "pdfPage": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-06-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t03-drill-06",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看命中率对应的最小投篮组合。62.5%=5/8，二分球命中数是5的倍数；44.4%按题意作为保留一位小数的统计值，最小可能组合是9投4中。两类得分至少为10分和12分。"
+        },
+        {
+          "type": "formula",
+          "latex": "25-2\\times5-3\\times4=3,\\qquad\\frac37\\approx42.9\\%"
+        },
+        {
+          "type": "paragraph",
+          "text": "总分只有25，不可能再多命中一整组二分球或三分球，因此罚球命中3次，命中率落在40%至50%，选B。若将44.4%当成精确的111/250，则会与25分条件冲突，这里需要承认统计百分比的近似。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "投中次数是整数，百分比可限制最小命中数，但四舍五入的百分比不能当精确分数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          15
+        ],
+        "printedPages": [
+          9
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-06-p015.webp",
+            "alt": "和差倍比问题（一） · 实战精刷6 · 讲义第9页",
+            "pdfPage": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-07-question",
+      "type": "question",
+      "title": "实战精刷 · 第7题",
+      "question": {
+        "id": "quantity-wy27-s01-t03-drill-07",
+        "type": "single",
+        "stem": "（26广东）某厂家在广交会期间获得了大量的订单，其中，周六签约的客户数量是周日的1.5倍，签约总金额是周日的80%，如果周六、周日共与40家客户完成了签约，订单总金额为720万元（没有重复签约的客户），则周日平均每家客户的签约金额为（）万元。",
+        "options": [
+          {
+            "value": "A",
+            "label": "15"
+          },
+          {
+            "value": "B",
+            "label": "20"
+          },
+          {
+            "value": "C",
+            "label": "25"
+          },
+          {
+            "value": "D",
+            "label": "10"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          16
+        ],
+        "printedPages": [
+          10
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-07-p016.webp",
+            "alt": "和差倍比问题（一） · 实战精刷7 · 讲义第10页",
+            "pdfPage": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-07-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t03-drill-07",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先分别处理人数和金额，不能把两套比例混成一套。周六与周日客户数为3∶2，所以周日有40×2/5=16家。周六金额是周日的80%，金额比为4∶5，所以周日金额为720×5/9=400万元。"
+        },
+        {
+          "type": "formula",
+          "latex": "周日平均每家=\\frac{400}{16}=25\\text{万元}"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以选C。平均金额的分子、分母必须来自同一天。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "平均数问题分开算总量和份数，再把同一主体的量相除。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          16
+        ],
+        "printedPages": [
+          10
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-07-p016.webp",
+            "alt": "和差倍比问题（一） · 实战精刷7 · 讲义第10页",
+            "pdfPage": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-08-question",
+      "type": "question",
+      "title": "实战精刷 · 第8题",
+      "question": {
+        "id": "quantity-wy27-s01-t03-drill-08",
+        "type": "single",
+        "stem": "（26联考）人形机器人企业有甲、乙、丙3个研发团队。甲的人数是乙的2/3，乙的人数是丙的4/5。甲团队招聘5人、丙团队招聘若干人后，3个团队的人数比为3∶4∶6。问3个研发团队原来共有多少人？",
+        "options": [
+          {
+            "value": "A",
+            "label": "165"
+          },
+          {
+            "value": "B",
+            "label": "175"
+          },
+          {
+            "value": "C",
+            "label": "185"
+          },
+          {
+            "value": "D",
+            "label": "210"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          16
+        ],
+        "printedPages": [
+          10
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-08-p016.webp",
+            "alt": "和差倍比问题（一） · 实战精刷8 · 讲义第10页",
+            "pdfPage": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s01-t03-drill-08-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s01-t03-drill-08",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先统一原来人数比：甲∶乙=2∶3、乙∶丙=4∶5，合并为8∶12∶15。乙没有招聘，12份人数始终不变。新比3∶4∶6把乙的4份扩大3倍，成为9∶12∶18。"
+        },
+        {
+          "type": "formula",
+          "latex": "甲增加1份=5\\text{人},\\qquad原总数=(8+12+15)\\times5=175"
+        },
+        {
+          "type": "paragraph",
+          "text": "核验原为40、60、75人，招聘后45、60、90人，正好3∶4∶6，丙招聘15人。所以选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "比例变化先找不变量，用不变量统一前后份数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          16
+        ],
+        "printedPages": [
+          10
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s01-t03-drill-08-p016.webp",
+            "alt": "和差倍比问题（一） · 实战精刷8 · 讲义第10页",
+            "pdfPage": 16
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "reasoning-p2-l06",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-assumption",
+  "title": "断点搭桥：论据是A，结论突然变成B",
+  "source": {
+    "startSeconds": 4568,
+    "endSeconds": 4675,
+    "timeLabel": "01:16:08—01:17:55",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p2-l06-knowledge-2d19dbc-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "断点搭桥：论据是A，结论突然变成B",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "前提假设和普通支持有联系，但问法更强调“必须补什么”。我们还是先找论据、结论，看它中间断在哪。"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-q024-question",
+      "type": "question",
+      "title": "断点搭桥：论据是A，结论突然变成B",
+      "question": {
+        "id": "reasoning-q024",
+        "type": "single",
+        "stem": "38亿年前，地球火山活动频繁，构造运动强烈，原始海洋处于高温甚至沸腾的状态，原始大气充斥着甲烷、硫化氢、二氧化碳等物质，极度缺乏氧气。由于真核生物需要进行有丝分裂才能繁衍生存，有关人士据此推测，在38亿年前的早期地球，真核生物是无法存活的。\n上述论证的成立需要补充的前提是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "真核生物是地球物种的祖先"
+          },
+          {
+            "value": "B",
+            "label": "真核生物进行的有丝分裂是需氧过程"
+          },
+          {
+            "value": "C",
+            "label": "所有的真核生物都必须通过有丝分裂繁衍生息"
+          },
+          {
+            "value": "D",
+            "label": "火山活动频繁使得当时地球上的氧气不可能充足"
+          }
+        ],
+        "answer": "B"
+      },
+      "source": {
+        "startSeconds": 4568,
+        "endSeconds": 4675,
+        "timeLabel": "01:16:08—01:17:55",
+        "videoId": "7686460560006794547",
+        "videoTitle": "判断推理完整复盘"
+      }
+    },
+    {
+      "id": "reasoning-q024-explanation-2536818-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "先看题干给了什么：当时“极度缺乏氧气”；真核生物要“有丝分裂”才能繁衍。最后却说“真核生物无法存活”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这里缺的是什么？缺氧为什么会让它没法分裂、没法存活？我们是不是得知道，有丝分裂需要氧气呀！"
+        },
+        {
+          "type": "paragraph",
+          "text": "A，祖先不祖先，跟在那个环境里能不能活下来没有直接关系，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "B，有丝分裂是需氧过程。那就接起来了：要繁衍生存→要有丝分裂→要氧气；但环境缺氧，所以繁衍生存受到限制。B补的是“分裂”和“氧气”之间的关系，可以。"
+        },
+        {
+          "type": "paragraph",
+          "text": "C，题干已经告诉我们要靠有丝分裂繁衍了，选项再强调所有真核生物都要这样，并没有解释为什么缺氧会让这个过程无法进行，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "D，还是在说氧气不足，题干本来就已经有“极度缺乏氧气”，也没有接上有丝分裂，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以这道题选B。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这个题我们按给定条件做逻辑判断，不需要拿题干当生物学教材去外推。做题真正要找的是“缺氧”和“有丝分裂”之间缺失的联系。"
+        }
+      ],
+      "questionId": "reasoning-q024"
+    }
+  ]
+}

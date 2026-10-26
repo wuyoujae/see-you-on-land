@@ -1,0 +1,165 @@
+{
+  "id": "reasoning-p2-l12",
+  "subjectId": "reasoning",
+  "groupId": "reasoning-propositions",
+  "title": "“所有”和“有些”的矛盾关系",
+  "source": {
+    "startSeconds": 5734,
+    "endSeconds": 99,
+    "timeLabel": "01:35:34—01:39",
+    "videoId": "7686460560006794547",
+    "videoTitle": "判断推理完整复盘"
+  },
+  "cards": [
+    {
+      "id": "reasoning-p2-l12-knowledge-055e5c8-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "“所有”和“有些”的矛盾关系",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "矛盾关系，就是这两句话必须一真一假：不能都真，也不能都假。所以只要知道一句的真假，另一句就能确定。"
+        },
+        {
+          "type": "paragraph",
+          "text": "比如“所有人都努力”，它的矛盾是什么？不是“所有人都不努力”，而是“有些人不努力”。只要找出一个不努力的人，就足够把“所有人都努力”推翻了，没必要要求所有人都不努力。"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们可以记成“量词互换，后面加不”：所有换有些，有些换所有；原来肯定的改否定，原来否定的改肯定。具体就是："
+        },
+        {
+          "type": "paragraph",
+          "text": "（1）“所有A都是B”与“有些A不是B”互相矛盾。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（2）“有些A是B”与“所有A都不是B”互相矛盾。"
+        },
+        {
+          "type": "paragraph",
+          "text": "比如“所有人都不努力”，先把所有换成有些，再把“不努力”否定，就得到“有些人不是不努力”，也就是“有些人努力”。双重否定要消掉。"
+        },
+        {
+          "type": "paragraph",
+          "text": "还有个例：“小明努力”和“小明不努力”，就是一真一假，不需要套所有、有些。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这里的“有些”，在逻辑里是“至少存在一个”，不表示“只能有一部分”，也不自动排除“所有”。比如有些人努力，可以是1个人、10个人，也可能所有人都努力；它只是保证至少一个。"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-q030-question",
+      "type": "question",
+      "title": "“所有”和“有些”的矛盾关系",
+      "question": {
+        "id": "reasoning-q030",
+        "type": "single",
+        "stem": "实验室有四个烧杯，每个烧杯下放置一张小纸条：第一个写着“所有的烧杯中都有硫酸”；第二个写着“本杯是氯化钠”；第三个写着“本杯不是水”；第四个写着“有些烧杯中没有硫酸”。\n如果这四个烧杯对应的话只有一句是真的，那么以下哪项必定为真：",
+        "options": [
+          {
+            "value": "A",
+            "label": "第一个烧杯中是硫酸"
+          },
+          {
+            "value": "B",
+            "label": "第二个烧杯中是氯化钠"
+          },
+          {
+            "value": "C",
+            "label": "第三个烧杯中是水"
+          },
+          {
+            "value": "D",
+            "label": "第四个烧杯中不是硫酸"
+          }
+        ],
+        "answer": "C"
+      },
+      "source": {
+        "startSeconds": 5734,
+        "endSeconds": 99,
+        "timeLabel": "01:35:34—01:39",
+        "videoId": "7686460560006794547",
+        "videoTitle": "判断推理完整复盘"
+      }
+    },
+    {
+      "id": "reasoning-q030-explanation-6837a41-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先看问法：“只有一句是真的”。这种题先不要挨个猜烧杯里装什么，优先找有没有一对矛盾句。"
+        },
+        {
+          "type": "paragraph",
+          "text": "①所有烧杯都有硫酸。"
+        },
+        {
+          "type": "paragraph",
+          "text": "②第二杯是氯化钠。"
+        },
+        {
+          "type": "paragraph",
+          "text": "③第三杯不是水。"
+        },
+        {
+          "type": "paragraph",
+          "text": "④有些烧杯没有硫酸。"
+        },
+        {
+          "type": "paragraph",
+          "text": "很明显，①和④就是“所有都有”和“有些没有”，这一对必定一真一假。"
+        },
+        {
+          "type": "paragraph",
+          "text": "题目总共只有一句真话，而①④这一对已经占掉了一句真话，那剩下②③是不是就都得是假话？"
+        },
+        {
+          "type": "paragraph",
+          "text": "②假，所以第二杯不是氯化钠。③假，所以第三杯是水。我们已经拿到一个必然信息了。"
+        }
+      ],
+      "questionId": "reasoning-q030"
+    },
+    {
+      "id": "reasoning-q030-explanation-6837a41-02",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析 · 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A，第一杯到底是不是硫酸，现有条件还没确定，不能选。"
+        },
+        {
+          "type": "paragraph",
+          "text": "B，第二杯是氯化钠，这正好是我们已经推出的假话，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "C，第三杯是水，正好对应③为假，可以。"
+        },
+        {
+          "type": "paragraph",
+          "text": "D，“有些烧杯没有硫酸”不等于“第四杯没有硫酸”，有些指的是哪一个，不能直接锁定第四杯，排除。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以这道题选C。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这类题就按这个顺序：先找矛盾对→矛盾对占一真一假→结合总真话数判断其他句→把假话翻成真话→对照选项。"
+        }
+      ],
+      "questionId": "reasoning-q030"
+    }
+  ]
+}

@@ -1,0 +1,748 @@
+{
+  "id": "quantity-wy27-s04-t01",
+  "subjectId": "quantity",
+  "groupId": "quantity-wy27-s04",
+  "title": "等差数列",
+  "source": {
+    "type": "pdf",
+    "documentId": "quantity-wy27",
+    "title": "王炎·27数量关系大满贯·讲义",
+    "pages": [
+      41,
+      42,
+      43,
+      44
+    ],
+    "printedPages": [
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  "cards": [
+    {
+      "id": "quantity-wy27-s04-t01-knowledge-01-01",
+      "type": "text",
+      "role": "knowledge",
+      "title": "等差数列",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我们先看每次变化是不是同一个数。每天多2件、每月多6篇，说的都是相邻两项差不变，这时才用等差数列。第一天已经算第1项，第n天只有n－1次增长，别多加一次。"
+        },
+        {
+          "type": "formula",
+          "latex": "a_n=a_1+(n-1)d,\\qquad S_n=\\frac{n(a_1+a_n)}2=na_1+\\frac{n(n-1)}2d"
+        },
+        {
+          "type": "paragraph",
+          "text": "遇到连续奇数项，我们先找中间项：7天的和＝第4天×7，5天的和＝第3天×5。两周每天都在增长，周总量也成等差数列，但周总量的公差是49d，不是7d。"
+        },
+        {
+          "type": "paragraph",
+          "text": "两个等差数列逐项相减仍是等差数列。题目给一周总差，就先除以天数得到中间那天的差，再向两端推。遇到分段规则，要先找到切换日，逐段反推。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          41
+        ],
+        "printedPages": [
+          35
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t01-mother-01-question",
+      "type": "question",
+      "title": "母题精讲 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s04-t01-mother-01",
+        "type": "single",
+        "stem": "（20联考）三个自然数成等差数列，公差为20，其和为4095。这三个数中最大的是：",
+        "options": [
+          {
+            "value": "A",
+            "label": "1345"
+          },
+          {
+            "value": "B",
+            "label": "1365"
+          },
+          {
+            "value": "C",
+            "label": "1385"
+          },
+          {
+            "value": "D",
+            "label": "1405"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          42
+        ],
+        "printedPages": [
+          36
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t01-mother-01-p042.webp",
+            "alt": "等差数列与和定最值 · 母题精讲1 · 讲义第36页",
+            "pdfPage": 42
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t01-mother-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t01-mother-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先看三个数成等差数列，总和4095。三个数的平均数就是中间那个数，所以中间数＝4095÷3＝1365。"
+        },
+        {
+          "type": "paragraph",
+          "text": "公差是20，最大数就在中间数上加20，得到1385。三个数1345、1365、1385相加确实为4095，所以选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "奇数项等差数列先找中间项，最大项再按公差向后推。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          42
+        ],
+        "printedPages": [
+          36
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t01-mother-01-p042.webp",
+            "alt": "等差数列与和定最值 · 母题精讲1 · 讲义第36页",
+            "pdfPage": 42
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t01-mother-02-question",
+      "type": "question",
+      "title": "母题精讲 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s04-t01-mother-02",
+        "type": "single",
+        "stem": "（23国考）工厂从某周第一天开始生产某种零件，每周生产7天，从第二天开始每一天都比前一天多生产200件。已知工厂第三周的产量是第一周的2倍，问第几天其日产量第一次达到1万件？",
+        "options": [
+          {
+            "value": "A",
+            "label": "37"
+          },
+          {
+            "value": "B",
+            "label": "38"
+          },
+          {
+            "value": "C",
+            "label": "39"
+          },
+          {
+            "value": "D",
+            "label": "40"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          42
+        ],
+        "printedPages": [
+          36
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t01-mother-02-p042.webp",
+            "alt": "等差数列与和定最值 · 母题精讲2 · 讲义第36页",
+            "pdfPage": 42
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t01-mother-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t01-mother-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先把整周换成中间那天：第一周总产量＝第4天产量×7，第三周总产量＝第18天产量×7。第三周是第一周的2倍，所以第18天也是第4天的2倍。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第18天比第4天晚14天，每天多200件，共多2800件。两倍数相减刚好是一份，所以第4天产2800件，第1天产2800－3×200＝2200件。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第n天为2200＋200(n－1)。第一次达到10000件时，n－1＝(10000－2200)÷200＝39，所以是第40天，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "周总量的倍数关系可以先转成两周中间那天的产量关系。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          42
+        ],
+        "printedPages": [
+          36
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t01-mother-02-p042.webp",
+            "alt": "等差数列与和定最值 · 母题精讲2 · 讲义第36页",
+            "pdfPage": 42
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t01-mother-03-question",
+      "type": "question",
+      "title": "母题精讲 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s04-t01-mother-03",
+        "type": "single",
+        "stem": "（26广东事考）商店从周一开始销售某种产品，且之后每一天的销量都比前一天多2件，第五周的销量正好是第二周的2倍，则商店第一周销售了（）件这种产品。",
+        "options": [
+          {
+            "value": "A",
+            "label": "182"
+          },
+          {
+            "value": "B",
+            "label": "196"
+          },
+          {
+            "value": "C",
+            "label": "210"
+          },
+          {
+            "value": "D",
+            "label": "224"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          43
+        ],
+        "printedPages": [
+          37
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t01-mother-03-p043.webp",
+            "alt": "等差数列与和定最值 · 母题精讲3 · 讲义第37页",
+            "pdfPage": 43
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t01-mother-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t01-mother-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先找每周的中间日。第二周中间是第11天，第五周中间是第32天，两天相隔21天，所以销量差21×2＝42件。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第五周总量是第二周的2倍，也就是第32天销量是第11天的2倍。可知第11天卖42件，第一周中间第4天卖42－7×2＝28件。"
+        },
+        {
+          "type": "paragraph",
+          "text": "第一周共7天，总销量28×7＝196件，所以选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "整周都是等差变化时，先把周总量换成周中间日。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          43
+        ],
+        "printedPages": [
+          37
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t01-mother-03-p043.webp",
+            "alt": "等差数列与和定最值 · 母题精讲3 · 讲义第37页",
+            "pdfPage": 43
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t01-mother-04-question",
+      "type": "question",
+      "title": "母题精讲 · 第4题",
+      "question": {
+        "id": "quantity-wy27-s04-t01-mother-04",
+        "type": "single",
+        "stem": "（22联考）小张和小李本周周一至周五通过跳绳锻炼身体，周一小张跳了500下，小李跳了400下，从周二开始，小张和小李每天分别比前一天多跳相同的数量，若本周小张比小李多跳200下，则周五当天，小张和小李跳绳的数量：",
+        "options": [
+          {
+            "value": "A",
+            "label": "小张比小李多20下"
+          },
+          {
+            "value": "B",
+            "label": "小张比小李少20下"
+          },
+          {
+            "value": "C",
+            "label": "小张比小李多40下"
+          },
+          {
+            "value": "D",
+            "label": "小张比小李少40下"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          43
+        ],
+        "printedPages": [
+          37
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t01-mother-04-p043.webp",
+            "alt": "等差数列与和定最值 · 母题精讲4 · 讲义第37页",
+            "pdfPage": 43
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t01-mother-04-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t01-mother-04",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们看的是两人的差，不必分别求每天多跳多少。每天的差仍然成等差数列，周一差500－400＝100下。"
+        },
+        {
+          "type": "paragraph",
+          "text": "周一到周五总共差200下，5天的平均差是40下，也就是周三小张比小李多40下。周一、周五关于周三对称，所以周五的差＝2×40－100＝－20下。"
+        },
+        {
+          "type": "paragraph",
+          "text": "负号说明小张比小李少20下，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "两个等差数列相减仍是等差数列，先用总差找中间差。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          43
+        ],
+        "printedPages": [
+          37
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t01-mother-04-p043.webp",
+            "alt": "等差数列与和定最值 · 母题精讲4 · 讲义第37页",
+            "pdfPage": 43
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t01-practice-01-question",
+      "type": "question",
+      "title": "思维精练 · 第1题",
+      "question": {
+        "id": "quantity-wy27-s04-t01-practice-01",
+        "type": "single",
+        "stem": "（22四川）商场6月6日开始销售某种电器，从6月7日起，每天这种电器的销量都比前一天多1台。已知6月16日卖了22台这种电器，问其6月共卖了多少台这种电器？",
+        "options": [
+          {
+            "value": "A",
+            "label": "555"
+          },
+          {
+            "value": "B",
+            "label": "600"
+          },
+          {
+            "value": "C",
+            "label": "645"
+          },
+          {
+            "value": "D",
+            "label": "690"
+          }
+        ],
+        "answer": "B",
+        "sourceAnswer": "B"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          43
+        ],
+        "printedPages": [
+          37
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t01-practice-01-p043.webp",
+            "alt": "等差数列与和定最值 · 思维精练1 · 讲义第37页",
+            "pdfPage": 43
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t01-practice-01-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t01-practice-01",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：B"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们先数清日期：6月6日到16日相隔10天，销量每天多1台，所以6月6日卖22－10＝12台。"
+        },
+        {
+          "type": "paragraph",
+          "text": "从6月6日到30日一共30－6＋1＝25天，最后一天卖12＋24＝36台。总销量＝(12＋36)×25÷2＝600台，选B。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "日期两端都销售，项数要加1；增长次数比项数少1。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          43
+        ],
+        "printedPages": [
+          37
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t01-practice-01-p043.webp",
+            "alt": "等差数列与和定最值 · 思维精练1 · 讲义第37页",
+            "pdfPage": 43
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t01-practice-02-question",
+      "type": "question",
+      "title": "思维精练 · 第2题",
+      "question": {
+        "id": "quantity-wy27-s04-t01-practice-02",
+        "type": "single",
+        "stem": "（26联考）某商店第1天销售m件商品，从第2天开始，每天都比前一天多卖n件，其前10天售出的商品是前5天的2.5倍。问m是n的多少倍？",
+        "options": [
+          {
+            "value": "A",
+            "label": "5"
+          },
+          {
+            "value": "B",
+            "label": "6"
+          },
+          {
+            "value": "C",
+            "label": "7"
+          },
+          {
+            "value": "D",
+            "label": "8"
+          }
+        ],
+        "answer": "D",
+        "sourceAnswer": "D"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          44
+        ],
+        "printedPages": [
+          38
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t01-practice-02-p044.webp",
+            "alt": "等差数列与和定最值 · 思维精练2 · 讲义第38页",
+            "pdfPage": 44
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t01-practice-02-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t01-practice-02",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：D"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们按首项m、公差n列前几天的总量。前10天为10m＋45n，前5天为5m＋10n。"
+        },
+        {
+          "type": "paragraph",
+          "text": "题目说前10天是前5天的2.5倍，得到10m＋45n＝2.5(5m＋10n)。整理为20n＝2.5m，所以m＝8n，选D。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "题目给前n项和之间的倍数，直接用求和式，别把它当成某一天的倍数。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          44
+        ],
+        "printedPages": [
+          38
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t01-practice-02-p044.webp",
+            "alt": "等差数列与和定最值 · 思维精练2 · 讲义第38页",
+            "pdfPage": 44
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t01-practice-03-question",
+      "type": "question",
+      "title": "思维精练 · 第3题",
+      "question": {
+        "id": "quantity-wy27-s04-t01-practice-03",
+        "type": "single",
+        "stem": "（26国考）公司1月销售额为w元，从2月开始每个月的销售额都比上个月高k元。已知一季度完成全年销售目标的18%，上半年完成全年销售目标的48%，问公司全年实际销售额将比销售目标高多少元？",
+        "options": [
+          {
+            "value": "A",
+            "label": "21k"
+          },
+          {
+            "value": "B",
+            "label": "28k"
+          },
+          {
+            "value": "C",
+            "label": "33k"
+          },
+          {
+            "value": "D",
+            "label": "44k"
+          }
+        ],
+        "answer": "C",
+        "sourceAnswer": "C"
+      },
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          44
+        ],
+        "printedPages": [
+          38
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t01-practice-03-p044.webp",
+            "alt": "等差数列与和定最值 · 思维精练3 · 讲义第38页",
+            "pdfPage": 44
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantity-wy27-s04-t01-practice-03-explanation-01",
+      "type": "text",
+      "role": "explanation",
+      "title": "我们这样分析",
+      "questionId": "quantity-wy27-s04-t01-practice-03",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "讲义参考答案：C"
+        },
+        {
+          "type": "paragraph",
+          "text": "我们设全年目标为T。一季度销售额是3w＋3k＝18%T，上半年是6w＋15k＝48%T。"
+        },
+        {
+          "type": "paragraph",
+          "text": "用半年减去两个一季度：9k＝12%T，所以T＝75k。代回一季度，3w＋3k＝13.5k，得到w＝3.5k。"
+        },
+        {
+          "type": "paragraph",
+          "text": "全年实际销售额＝12w＋66k＝108k，比目标多108k－75k＝33k，选C。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "这道题记住什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "先用同类求和式消去首项，再比较全年实际总量和目标。"
+        }
+      ],
+      "source": {
+        "type": "pdf",
+        "documentId": "quantity-wy27",
+        "title": "王炎·27数量关系大满贯·讲义",
+        "pages": [
+          44
+        ],
+        "printedPages": [
+          38
+        ],
+        "originalImages": [
+          {
+            "src": "assets/images/courses/quantity-wy27/quantity-wy27-s04-t01-practice-03-p044.webp",
+            "alt": "等差数列与和定最值 · 思维精练3 · 讲义第38页",
+            "pdfPage": 44
+          }
+        ]
+      }
+    }
+  ]
+}

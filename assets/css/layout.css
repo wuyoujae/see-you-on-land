@@ -1,0 +1,283 @@
+/* Application shell: a mobile tab bar and a persistent tablet/desktop sidebar. */
+:root {
+  --navigation-icon-size: 1.25rem;
+  --navigation-control-size: 2.5rem;
+  --navigation-item-height: 3rem;
+}
+
+#app {
+  --sidebar-current-width: var(--sidebar-width);
+  width: 100%;
+  max-width: none;
+  box-shadow: none;
+}
+
+.sidebar-header { display: none; }
+.navigation-items { display: contents; }
+.app-navigation { grid-template-columns: repeat(7, minmax(0, 1fr)); }
+.nav-label-wide { display: none; }
+.nav-label-short { display: inline; }
+.app-navigation .nav-label { white-space: nowrap; }
+.app-navigation .tab-item,
+.app-navigation .tab-action { min-width: 0; }
+
+/* Persisting a collapsed sidebar must not hide labels on the mobile tab bar. */
+@media (max-width: 47.999rem) {
+  .app-navigation .tab-item,
+  .app-navigation .tab-action {
+    flex-direction: column;
+    gap: var(--space-1);
+    font-size: var(--text-caption);
+  }
+}
+
+@media (min-width: 48rem) {
+  .nav-label-wide { display: inline; }
+  .nav-label-short { display: none; }
+  #app {
+    --nav-height: 0rem;
+    display: grid;
+    grid-template-columns: var(--sidebar-current-width) minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr);
+    transition: grid-template-columns var(--duration-layout) var(--ease-standard);
+  }
+
+  #app.sidebar-collapsed { --sidebar-current-width: var(--sidebar-width-collapsed); }
+
+  #app > .view {
+    grid-column: 2;
+    grid-row: 1;
+    min-width: 0;
+    min-height: 0;
+    padding-inline: max(0rem, calc((100% - var(--content-max)) / 2));
+    padding-bottom: var(--space-8);
+    scrollbar-width: thin;
+    scrollbar-color: var(--line) transparent;
+    scrollbar-gutter: stable;
+  }
+
+  #app > .view::-webkit-scrollbar { display: block; width: .375rem; }
+  #app > .view::-webkit-scrollbar-thumb { background: var(--line); border-radius: var(--radius-pill); }
+
+  .app-navigation {
+    position: relative;
+    inset: auto;
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-4);
+    height: 100%;
+    min-width: 0;
+    padding: max(var(--space-4), env(safe-area-inset-top)) var(--space-3) max(var(--space-4), env(safe-area-inset-bottom));
+    overflow: hidden;
+    border-top: 0;
+    border-right: var(--border-width) solid var(--line);
+    background: var(--surface);
+    backdrop-filter: none;
+  }
+
+  .sidebar-header {
+    flex: 0 0 auto;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) var(--navigation-control-size);
+    align-items: center;
+    min-height: var(--navigation-item-height);
+    margin-bottom: var(--space-4);
+  }
+
+  .sidebar-brand {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    min-width: 0;
+    overflow: hidden;
+    padding-left: var(--space-2);
+    color: var(--ink);
+    font-size: var(--text-md);
+    font-weight: var(--weight-medium);
+    white-space: nowrap;
+    transition: opacity var(--duration-fast) ease;
+  }
+
+  .sidebar-brand > .lucide {
+    flex: 0 0 auto;
+    width: var(--navigation-icon-size);
+    height: var(--navigation-icon-size);
+    color: var(--red);
+  }
+
+  #sidebar-toggle {
+    display: grid;
+    place-items: center;
+    width: var(--navigation-control-size);
+    height: var(--navigation-control-size);
+    padding: 0;
+    border: 0;
+    border-radius: var(--radius-control);
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+    transition: background var(--duration-fast) ease, color var(--duration-fast) ease;
+  }
+
+  #sidebar-toggle:hover,
+  #sidebar-toggle:focus-visible { color: var(--ink); background: var(--surface-strong); }
+  #sidebar-toggle .lucide { width: var(--navigation-icon-size); height: var(--navigation-icon-size); }
+
+  .navigation-items {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+  }
+
+  .app-navigation .tab-item,
+  .app-navigation .tab-action {
+    flex: 0 0 auto;
+    display: grid;
+    grid-template-columns: var(--navigation-control-size) minmax(0, 1fr);
+    align-items: center;
+    justify-content: start;
+    column-gap: var(--space-2);
+    width: 100%;
+    min-height: var(--navigation-item-height);
+    padding: var(--space-1);
+    overflow: hidden;
+    border-radius: var(--radius-control);
+    text-align: left;
+    font-size: var(--text-base);
+    font-weight: var(--weight-regular);
+    transition: background var(--duration-fast) ease, color var(--duration-fast) ease, column-gap var(--duration-layout) var(--ease-standard);
+  }
+
+  .app-navigation .tab-item:hover,
+  .app-navigation .tab-action:hover { background: var(--surface-strong); color: var(--ink); }
+  .app-navigation .tab-item.active { background: var(--surface-strong); color: var(--ink); }
+  .app-navigation .tab-item.active .tab-icon { color: var(--red); }
+  .app-navigation .tab-item.active .tab-icon::after { display: none; }
+  .app-navigation > .tab-action { margin-top: auto; }
+
+  .app-navigation .tab-icon {
+    width: var(--navigation-control-size);
+    height: var(--navigation-control-size);
+    margin: 0;
+  }
+
+  .app-navigation .tab-icon .lucide { width: var(--navigation-icon-size); height: var(--navigation-icon-size); }
+
+  .app-navigation .nav-label {
+    display: block;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    opacity: 1;
+    transform: translateX(0rem);
+    transition: opacity var(--duration-fast) ease, transform var(--duration-layout) var(--ease-standard);
+  }
+
+  .sidebar-collapsed .app-navigation .nav-label { opacity: 0; transform: translateX(-.5rem); }
+  .sidebar-collapsed .sidebar-brand { opacity: 0; pointer-events: none; }
+  .sidebar-collapsed .app-navigation .tab-item,
+  .sidebar-collapsed .app-navigation .tab-action { column-gap: 0rem; }
+
+  .page-header,
+  .detail-header {
+    position: relative;
+    padding-left: var(--page-gutter);
+    padding-right: var(--page-gutter);
+  }
+
+  .toolbar,
+  .news-timeline-shell,
+  .study-timeline-shell { top: 0rem; }
+
+  .progress-panel,
+  .toolbar,
+  .news-day,
+  .news-timeline,
+  .study-timeline,
+  .resource-list,
+  .section-title,
+  .category-grid,
+  .todo-groups,
+  .dashboard-tool,
+  .record-heading,
+  .study-record-list,
+  .stats-content { padding-left: var(--page-gutter); padding-right: var(--page-gutter); }
+
+  .category-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .todo-group { min-width: 0; }
+
+  .news-list {
+    width: 100%;
+    max-width: var(--reading-max);
+    margin-inline: auto;
+  }
+
+  .clock-content,
+  .stats-content { max-width: calc(var(--reading-max) + var(--page-gutter) * 2); margin-inline: auto; }
+
+  #app > .search-view {
+    padding-inline: 0rem;
+    padding-bottom: var(--space-6);
+    scrollbar-gutter: auto;
+  }
+
+  .solver-header {
+    width: 100%;
+    max-width: var(--content-max);
+    margin-inline: auto;
+    padding-inline: var(--page-gutter);
+  }
+
+  .solver-session-switch { max-width: 100%; }
+  .solver-messages { max-width: calc(var(--reading-max) + var(--page-gutter) * 2); margin-inline: auto; padding-inline: var(--page-gutter); }
+  .solver-composer { width: calc(100% - var(--page-gutter) * 2); max-width: var(--reading-max); margin-bottom: 0rem; }
+
+  /* Full-page subviews stay within the content column; modal backdrops keep their full-app scope. */
+  .wrong-book {
+    inset-inline-start: var(--sidebar-current-width);
+    transition: inset-inline-start var(--duration-layout) var(--ease-standard);
+  }
+
+  .timer-modal,
+  .solver-settings-modal,
+  .solver-sessions-modal { align-items: center; padding: var(--space-6); }
+
+  .timer-dialog,
+  .solver-settings-dialog,
+  .solver-sessions-dialog {
+    width: 100%;
+    max-width: 35rem;
+    max-height: 100%;
+    margin: 0rem auto;
+    border-radius: var(--radius-lg);
+  }
+}
+
+@media (min-width: 75rem) {
+  #app { --page-gutter: var(--space-10); }
+
+  #view-dashboard .dashboard-tools { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  #view-dashboard .dashboard-tool + .dashboard-tool { border-top: 0; border-left: var(--border-width) solid var(--line); }
+
+  #view-dashboard > .todo-groups {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: var(--space-10);
+    align-items: start;
+  }
+
+  .category-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #app,
+  .app-navigation *,
+  .wrong-book { transition: none; }
+}
