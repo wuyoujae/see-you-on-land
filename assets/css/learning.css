@@ -99,7 +99,7 @@
 .learn-option-content p { margin:.2rem 0; }
 .learning-session .practice-text-input { width:100%; border:2px solid #d5dfcc; border-bottom-width:4px; padding:1rem; border-radius:.9rem; font:inherit; background:#fafcf6; color:var(--ink); }
 .learn-result { display:flex; align-items:center; gap:.8rem; background:#f2f7e8; border-radius:.8rem; padding:.85rem 1rem; margin-bottom:1.5rem; color:#447524; }
-.learn-result.incorrect { color:#99631e; background:#fff6df; }
+.learn-result.incorrect { color:#923c38; background:var(--danger-soft,#fcf0ec); }
 .learn-result.ungraded { color:var(--muted-strong,#52604f); background:#f0f3ed; }
 .learn-result-icon { display:grid; place-items:center; width:2rem; height:2rem; flex:none; }
 .learn-result>div { display:grid; gap:.2rem; }
@@ -165,3 +165,47 @@
   .learn-completion h1 { font-size:1.6rem; }
 }
 @media(prefers-reduced-motion:reduce) { .learn-card,.learn-loading>span { animation:none; } .learning-session *,.learning-catalog * { transition:none!important; } }
+
+/* Submitted questions keep their original card and reveal the explanation in place. */
+.study-question-layout,.study-question-pane,.study-explanation-pane { min-width:0; max-width:100%; }
+.study-explanation-pane { margin-top:1.75rem; padding-top:1.75rem; border-top:.0625rem solid var(--learn-border,var(--line)); }
+.study-explanation-pane>h2 { margin:0 0 1rem; font-size:1.2rem; line-height:1.5; }
+.study-explanation-pane> :last-child { margin-bottom:0; }
+.study-question-pane:focus-visible,.study-explanation-pane:focus-visible { outline:.125rem solid var(--accent); outline-offset:.3rem; border-radius:.25rem; }
+.learning-session .practice-question.is-readonly .practice-option { cursor:default; }
+.learning-session .practice-question.is-readonly .practice-option:hover { background:white; }
+.learning-session .practice-question.has-feedback .practice-option.is-correct { border-color:#80b94f; background:#f1f9e8; color:#38691a; }
+.learning-session .practice-question.has-feedback .practice-option.is-incorrect { border-color:var(--danger-line,#eec9c2); background:var(--danger-soft,#fcf0ec); color:#923c38; }
+.learning-session .practice-question.has-feedback .practice-option.is-correct .learn-option-letter { border-color:#86b95e; color:#4f812c; background:#e3f3d3; }
+.learning-session .practice-question.has-feedback .practice-option.is-incorrect .learn-option-letter { border-color:var(--danger,#bc4745); color:#923c38; background:#fff8f6; }
+.learning-session .practice-question.has-feedback[data-result="ungraded"] .practice-option:has(input:checked) { border-color:var(--line-strong,#adbba5); background:var(--surface,#f3f6f0); color:var(--muted-strong,#52604f); }
+.learning-session .practice-question.has-feedback[data-result="ungraded"] .practice-option:has(input:checked) .learn-option-letter { border-color:var(--line-strong,#adbba5); background:white; color:var(--muted-strong,#52604f); }
+.practice-option-feedback { display:flex; align-items:center; gap:.3rem; margin-top:.3rem; font-size:.72rem; font-weight:600; line-height:1.5; }
+.practice-option-feedback svg { width:1rem; height:1rem; flex:none; }
+.learning-session .practice-options--letters { grid-template-columns:repeat(4,minmax(0,1fr)); }
+.learning-session .practice-options--letters .practice-option>.practice-option-main { flex-direction:column; gap:.35rem; }
+.practice-options--letters .practice-option-feedback { margin-top:0; justify-content:center; text-align:center; flex-wrap:wrap; }
+.learning-session .practice-component-feedback { display:flex; align-items:center; gap:.45rem; margin:1rem 0 0; font-size:.8rem; line-height:1.65; }
+.practice-component-feedback svg { flex:none; width:1.1rem; height:1.1rem; }
+.practice-component-feedback.ungraded { color:var(--muted-strong,#52604f); }
+.learning-session .practice-text-input.is-correct { border-color:#80b94f; background:#f1f9e8; color:#38691a; }
+.learning-session .practice-text-input.is-incorrect { border-color:var(--danger,#bc4745); background:var(--danger-soft,#fcf0ec); color:#923c38; }
+.learning-session .practice-text-input.is-neutral { border-color:var(--line-strong,#adbba5); background:var(--surface,#f3f6f0); color:var(--muted-strong,#52604f); }
+@media(min-width:48rem) {
+  .learn-session-shell:has(.study-question-layout.is-submitted) .learn-session-header { max-width:86rem; }
+  .learn-session-shell:has(.study-question-layout.is-submitted) .learn-stage { display:flex; flex-direction:column; align-items:center; overflow:hidden; }
+  .learn-card:has(.study-question-layout.is-submitted),.learn-card.study-question-layout.is-submitted { display:flex; flex-direction:column; flex:0 1 auto; width:100%; min-height:0; max-height:100%; max-width:84rem; padding-inline:1.75rem; }
+  .learn-card:has(.study-question-layout.is-submitted)>.learn-card-meta,.learn-card:has(.study-question-layout.is-submitted)>h1 { flex:none; }
+  .learn-card:has(.study-question-layout.is-submitted)>.learn-card-body { display:flex; flex-direction:column; flex:0 1 auto; min-height:0; }
+  .study-question-layout.is-submitted { display:grid; flex:0 1 auto; min-height:0; grid-template-columns:minmax(0,1fr) minmax(0,1fr); grid-template-rows:minmax(0,1fr); align-items:stretch; gap:1.75rem; overflow:hidden; }
+  .study-question-layout.is-submitted>.study-question-pane,.study-question-layout.is-submitted>.study-explanation-pane { min-height:0; max-height:none; overflow:auto; overscroll-behavior:contain; scrollbar-gutter:stable; scrollbar-width:thin; padding:.15rem .65rem .75rem .15rem; }
+  .study-question-layout.is-submitted>.study-explanation-pane { margin-top:0; border-top:0; border-left:.0625rem solid var(--learn-border,var(--line)); padding-left:1.75rem; }
+}
+@media(max-width:47.999rem) {
+  .study-question-pane,.study-explanation-pane { overflow:visible; max-height:none; }
+  .study-explanation-pane { margin-top:1.5rem; padding-top:1.5rem; }
+  .learning-session .practice-question.has-feedback .practice-options--letters { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media(prefers-reduced-motion:reduce) {
+  .study-question-layout,.study-question-layout *,.practice-question.has-feedback * { animation:none!important; transition:none!important; scroll-behavior:auto!important; }
+}

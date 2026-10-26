@@ -47,6 +47,31 @@
   function createRecord() {
     return { lastCardId: null, updatedAt: 0, completed: {}, answers: {}, drafts: {} };
   }
+  const isExplanation = card => card?.role === "explanation" && Boolean(card.questionId);
+  function navigationCards(cards) { return (cards || []).filter(card => !isExplanation(card)); }
+  function ownerCard(cards, card) {
+    const item = typeof card === "string" ? (cards || []).find(item => item.id === card) : card;
+    if (!item || !isExplanation(item)) return item || null;
+    return (cards || []).find(candidate => candidate.type === "question" && candidate.question?.id === item.questionId) || null;
+  }
+  function explanationsFor(cards, card) {
+    const owner = ownerCard(cards, card);
+    return owner?.type === "question" ? (cards || []).filter(item => isExplanation(item) && item.questionId === owner.question?.id) : [];
+  }
+  function submittedAnswer(card, record) {
+    const id = typeof card === "string" ? card : card?.question?.id || card?.questionId;
+    const answer = record?.answers?.[id];
+    return answer && time(answer.submittedAt) && isAnswered(answer.answer) && ["correct", "incorrect", "ungraded"].includes(answer.status) ? answer : null;
+  }
+  function completeQuestion(cards, card, record = createRecord(), now = Date.now()) {
+    const owner = ownerCard(cards, card);
+    if (owner?.type !== "question" || !submittedAnswer(owner, record)) return record;
+    return [owner, ...explanationsFor(cards, owner)].reduce((result, item) => markComplete(item, result, now), record);
+  }
+  function stepComplete(cards, card, record) {
+    const owner = ownerCard(cards, card);
+    return Boolean(owner && progress([owner, ...explanationsFor(cards, owner)], record).complete);
+  }
   function sanitizeRecord(value) {
     const result = createRecord();
     if (!plain(value)) return result;
@@ -69,27 +94,25 @@
   }
   function canVisit(card, record) {
     if (!card) return false;
-    if (card.role !== "explanation" || !card.questionId) return true;
-    const answer = record?.answers?.[card.questionId];
-    return Boolean(answer && time(answer.submittedAt) && ["correct", "incorrect", "ungraded"].includes(answer.status));
+    return !isExplanation(card) || Boolean(submittedAnswer(card, record));
   }
   function progress(cards, record) {
     const items = cards || [];
     const done = items.filter(card => {
       if (!time(record?.completed?.[card.id]) || !canVisit(card, record)) return false;
-      return card.type !== "question" || Boolean(record?.answers?.[card.question?.id]?.submittedAt);
+      return card.type !== "question" || Boolean(submittedAnswer(card, record));
     });
     const questions = items.filter(card => card.type === "question");
-    const answered = questions.filter(card => record?.answers?.[card.question?.id]?.submittedAt);
-    const scored = questions.filter(card => card.question?.grading !== "unverified");
-    const gradedAnswered = answered.filter(card => card.question?.grading !== "unverified" && ["correct", "incorrect"].includes(record.answers[card.question.id].status));
+    const answered = questions.filter(card => submittedAnswer(card, record));
+    const scored = questions.filter(card => card.question?.grading !== "unverified" && isAnswered(card.question?.answer));
+    const gradedAnswered = answered.filter(card => scored.includes(card) && ["correct", "incorrect"].includes(record.answers[card.question.id].status));
     return { completed: done.length, total: items.length, percentage: items.length ? Math.round(done.length / items.length * 100) : 0,
       complete: items.length > 0 && done.length === items.length, questions: questions.length, answered: answered.length,
       scoredQuestions: scored.length, gradedAnswered: gradedAnswered.length, ungraded: answered.length - gradedAnswered.length,
       correct: gradedAnswered.filter(card => record.answers[card.question.id].status === "correct").length };
   }
   function markComplete(card, record = createRecord(), now = Date.now()) {
-    if (!card || !validId(card.id) || !canVisit(card, record) || (card.type === "question" && !record.answers?.[card.question?.id]?.submittedAt)) return record;
+    if (!card || !validId(card.id) || !canVisit(card, record) || (card.type === "question" && !submittedAnswer(card, record))) return record;
     if (record.completed?.[card.id]) return record;
     return { ...record, updatedAt: now, completed: { ...record.completed, [card.id]: now } };
   }
@@ -121,5 +144,6 @@
     }
     return { version: 1, updatedAt: Math.max(time(a.updatedAt), time(b.updatedAt)), groups };
   }
-  return { parseRoute, flattenLessons, sourceReference, isAnswered, canVisit, progress, markComplete, submit, mergeProgress, mergeRecord, createRecord, sanitizeRecord, validId };
+  return { parseRoute, flattenLessons, sourceReference, isExplanation, navigationCards, ownerCard, explanationsFor, submittedAnswer, completeQuestion, stepComplete,
+    isAnswered, canVisit, progress, markComplete, submit, mergeProgress, mergeRecord, createRecord, sanitizeRecord, validId };
 });

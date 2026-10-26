@@ -71,20 +71,22 @@ test("unsubmitted answers and drafts cannot open source, answer or AI cards", ()
   assert.equal(Core.statistics(record).submitted, 0);
 });
 
-test("a wrong submission still unlocks both explanation layers, while later draft edits preserve the actual submitted answer", () => {
+test("a submitted answer unlocks explanation and is immutable until starting another session", () => {
   const original = session();
   const submitted = Core.submit(original, question, "A", grade, 110);
   assert.equal(original.answers[question.id], undefined);
   assert.deepEqual(submitted.answers[question.id], { answer: "A", status: "incorrect", submittedAt: 110 });
   for (const view of ["answer", "source", "ai"]) assert.equal(Core.canShow(submitted, question.id, view), true);
   const edited = Core.setDraft(submitted, question.id, "B", 120);
+  assert.equal(edited, submitted);
   assert.equal(edited.answers[question.id].answer, "A");
-  assert.equal(edited.drafts[question.id].value, "B");
+  assert.equal(edited.drafts[question.id].value, "A");
   assert.equal(Core.submit(submitted, question, "A", grade, 130), submitted);
   const retried = Core.submit(edited, question, "B", grade, 140);
-  assert.equal(retried.answers[question.id].status, "correct");
+  assert.equal(retried, submitted);
+  assert.equal(retried.answers[question.id].status, "incorrect");
   assert.equal(Core.statistics(retried).submitted, 1);
-  assert.equal(Core.statistics(retried).correct, 1);
+  assert.equal(Core.statistics(retried).correct, 0);
 });
 
 test("false, zero, multi-select and normalized fill-in answers use the real shared grader", () => {
@@ -104,6 +106,23 @@ test("false, zero, multi-select and normalized fill-in answers use the real shar
   }
   const bad = Core.submit(session(), { ...question, type: "fill", answer: "0.5" }, "05", grade, 110);
   assert.equal(bad.answers[question.id].status, "incorrect");
+});
+
+test("unverified or missing references submit neutrally, unlock explanation and stay outside accuracy", () => {
+  for (const q of [{ ...question, grading: "unverified" }, { ...question, answer: undefined, sourceAnswer: {} }]) {
+    const record = Core.submit(session(), q, "A", grade, 110);
+    assert.equal(record.answers[q.id].status, "ungraded");
+    assert.equal(Core.canShow(record, q.id, "answer"), true);
+    const stats = Core.statistics(record);
+    assert.equal(stats.submitted, 1); assert.equal(stats.ungraded, 1); assert.equal(stats.graded, 0);
+    assert.equal(stats.incorrect, 0); assert.equal(stats.accuracy, null);
+    const saved = { version: 1, updatedAt: record.updatedAt, sessions: { [record.id]: record } };
+    assert.deepEqual(Core.validateProgress(clone(saved)), saved);
+    const mixed = Core.submit(record, second, "A", grade, 120);
+    assert.equal(Core.statistics(mixed).accuracy, 100);
+    assert.equal(Core.statistics(mixed).complete, true);
+    assert.equal(Core.getStatistics({ sessions: { [mixed.id]: mixed } }, [q, second]).accuracy, 100);
+  }
 });
 
 test("question navigation is separate from submission, clamps nothing silently and never advances progress", () => {
@@ -132,7 +151,9 @@ test("refresh round-trips the exact selected order, drafts and submitted analysi
 test("cross-tab/session merges retain the latest submission and independent draft without mutating either side", () => {
   const original = session();
   let local = Core.submit(original, question, "A", grade, 110);
-  local = Core.setDraft(local, question.id, "B", 150);
+  // Legacy backups may contain a later independent draft, even though the new
+  // UI and reducer no longer let us edit a submitted question.
+  local = { ...local, updatedAt: 150, drafts: { ...local.drafts, [question.id]: { value: "B", updatedAt: 150 } } };
   let remote = Core.submit(original, question, "B", grade, 130);
   remote = Core.submit(remote, second, "A", grade, 140);
   const before = clone([local, remote]);
@@ -171,10 +192,10 @@ test("aggregate statistics deduplicate stable question IDs and select the newest
   b = Core.submit(b, second, "A", grade, 150);
   const progress = { version: 1, updatedAt: 150, sessions: { one: a, two: b } };
   assert.deepEqual(Core.getStatistics(progress, [question, second, third]), {
-    total: 3, done: 2, submitted: 2, correct: 2, incorrect: 0, unanswered: 1, accuracy: 100, attempts: 3, pagesDone: 2
+    total: 3, done: 2, submitted: 2, correct: 2, incorrect: 0, graded: 2, ungraded: 0, unanswered: 1, accuracy: 100, attempts: 3, pagesDone: 2
   });
   assert.deepEqual(Core.getStatistics(progress, [question, second, third], "language"), {
-    total: 2, done: 1, submitted: 1, correct: 1, incorrect: 0, unanswered: 1, accuracy: 100, attempts: 2, pagesDone: 2
+    total: 2, done: 1, submitted: 1, correct: 1, incorrect: 0, graded: 1, ungraded: 0, unanswered: 1, accuracy: 100, attempts: 2, pagesDone: 2
   });
   assert.equal(Core.getStatistics({}, [question]).accuracy, null);
   assert.deepEqual(Core.getStatistics(progress, [question, second, third], "all"), Core.getStatistics(progress, [question, second, third]));

@@ -176,6 +176,27 @@ test("ungraded study answers survive backup restore and export without becoming 
   assert.equal(JSON.parse(exported.data.courseProgress).groups.group1.answers.q1.status, "ungraded");
 });
 
+test("inline analysis completion exports the original card IDs and merges older page-by-page records", async () => {
+  const card = {id: "q1-question", type: "question", question: {id: "q1", type: "single", answer: "B"}};
+  const parts = [card, {id: "q1-explanation-one", type: "text", role: "explanation", questionId: "q1"},
+    {id: "q1-explanation-two", type: "text", role: "explanation", questionId: "q1"}];
+  const submitted = Core.submit(card, "A", Core.createRecord(), () => "incorrect", 100);
+  const displayed = Core.completeQuestion(parts, card, submitted, 200);
+  const state = {version: 1, updatedAt: 200, groups: {group1: {...displayed, lastCardId: "q1-question"}}};
+  const h = harness({[COURSE_KEY]: JSON.stringify(state)});
+  await h.export();
+  const exported = JSON.parse(await h.blobs.at(-1).text());
+  const older = {version: 1, updatedAt: 150, groups: {group1: {...submitted, lastCardId: "q1-explanation-one",
+    completed: {...submitted.completed, "q1-explanation-one": 150}}}};
+  const restored = harness({[COURSE_KEY]: JSON.stringify(older)});
+  await restored.import(exported);
+  const rec = JSON.parse(restored.storage.getItem(COURSE_KEY)).groups.group1;
+  assert.equal(rec.answers.q1.answer, "A"); assert.equal(rec.answers.q1.submittedAt, 100);
+  assert.deepEqual(rec.completed, {"q1-question": 100, "q1-explanation-one": 200, "q1-explanation-two": 200});
+  assert.equal(rec.lastCardId, "q1-question");
+  assert.equal(Core.progress(parts, rec).complete, true);
+});
+
 test("course answers preserve numeric zero, boolean false, exact multi-select and blank drafts", async () => {
   const value = course();
   value.groups.group1.answers = {

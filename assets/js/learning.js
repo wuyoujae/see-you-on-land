@@ -97,13 +97,14 @@
     try {
       const pack = await loadGroup(group), rec = record(groupId);
       if (location.hash !== startHash || sequence !== startSequence) return;
-      const card = pack.cards.find(item => item.id === rec.lastCardId) || pack.cards.find(item => !rec.completed[item.id] && Core.canVisit(item, rec)) || pack.cards[0];
+      const card = Core.ownerCard(pack.cards, rec.lastCardId) || Core.navigationCards(pack.cards).find(item => !Core.stepComplete(pack.cards, item, rec)) || Core.navigationCards(pack.cards)[0];
+      if (!card) throw new Error("这个题型还没有学习内容");
       await routeTo(cardHash(subject, group, card));
     } catch (error) { if (location.hash === startHash && sequence === startSequence) { notice = error.message; showNotice(); } }
   }
   function explanationBanner(card, rec) {
-    if (card.role !== "explanation" || !card.questionId) return "";
-    const attempt = rec.answers[card.questionId], question = current.cards.find(item => item.question?.id === card.questionId)?.question;
+    if (card.type !== "question") return "";
+    const attempt = Core.submittedAnswer(card, rec), question = card.question;
     if (!attempt || !question) return "";
     const answerText = value => Array.isArray(value) ? value.join("、") : question.type === "boolean" ? (String(value) === "true" ? "正确" : "错误") : String(value);
     if (question.grading === "unverified" || attempt.status === "ungraded") {
@@ -117,48 +118,84 @@
       .filter(image => image && window.RichContent.safeImageURL(image.src));
     return images.map((image, index) => `<a data-rich-image data-rich-alt="${esc(image.alt || "讲义原题")}" href="${esc(window.RichContent.safeImageURL(image.src))}" target="_blank" rel="noopener noreferrer">${images.length > 1 ? `原题${index + 1}` : "查看原题"}</a>`).join(" · ");
   }
-  function renderSession() {
+  function renderSession({ inPlace = false } = {}) {
+    const previousStage = root.querySelector(".learn-stage"), previousPane = root.querySelector(".study-question-pane");
+    const previousScroll = {stage: previousStage?.scrollTop || 0, question: previousPane?.scrollTop || 0};
+    const activeAction = document.activeElement?.closest?.("[data-learn-action]")?.dataset.learnAction;
     cleanup(); activate(true);
-    const { cards, index, subject, group } = current, card = cards[index], rec = record();
-    const stats = Core.progress(cards, rec);
-    const source = Core.sourceReference(card.source);
-    const originals = originalLinks(card.source);
-    const label = card.type === "question" ? "例题" : { intro: "认识题型", knowledge: "基础知识", method: "解题思路", explanation: "例题解析" }[card.role] || "知识点";
-    const nextText = card.type === "question" ? "提交并继续" : index === cards.length - 1 ? "完成学习" : "下一页";
-    root.innerHTML = `<div class="learn-session-shell"><header class="learn-session-header"><div class="learn-context"><button class="learn-exit" data-learn-action="exit" aria-label="返回课程目录">${icon("x")}</button><div><span>${esc(subject.title)}</span><strong>${esc(group.title)}</strong></div></div><nav class="learn-navigation" aria-label="课程翻页"><button class="learn-back learn-button" data-learn-action="previous" ${index === 0 ? "disabled" : ""}>${icon("arrow-left")}<span>上一页</span></button><button class="learn-progress-button" data-learn-action="jump" aria-label="打开课程目录，快速跳转"><span><strong>${index + 1} <small>/ ${cards.length}</small></strong><span>课程目录 ${icon("chevron-down")}</span></span><span class="learn-progress-track" role="progressbar" aria-label="学习进度" aria-valuemin="0" aria-valuemax="${stats.total}" aria-valuenow="${stats.completed}"><span style="width:${stats.percentage}%"></span></span></button><button class="learn-next learn-button" data-learn-action="next"><span>${nextText}</span>${icon("arrow-right")}</button></nav></header>
-      <div class="learn-stage"><article class="learn-card learn-flip-${direction} ${card.role === "intro" ? "learn-intro-card" : ""}" aria-labelledby="learn-card-title"><div class="learn-card-meta"><span>${label}</span><span>${esc(card.lessonTitle)}${source ? ` · <span class="learn-source" title="${esc(source.title)}">${esc(source.label)}</span>` : ""}${originals ? ` · ${originals}` : ""}</span></div>${explanationBanner(card, rec)}<h1 id="learn-card-title" tabindex="-1">${esc(card.title || card.lessonTitle)}</h1><div class="learn-card-body">${card.type === "question" ? '<div id="learn-question-host"></div>' : window.RichContent.render(card.blocks || [])}</div></article></div><p class="learn-notice" role="status" hidden></p><dialog class="learn-jump-dialog" aria-labelledby="learn-jump-title"><header><div><small>${esc(group.title)}</small><h2 id="learn-jump-title">课程目录</h2></div><button class="learn-exit" data-learn-action="close-jump" aria-label="关闭课程目录">${icon("x")}</button></header><div class="learn-jump-list">${current.lessons.map(lesson => `<section><h3>${esc(lesson.title)}</h3>${cards.filter(item => item.lessonId === lesson.id).map(item => `<button data-learn-jump="${item.index}" ${Core.canVisit(item, rec) ? "" : "disabled"} ${item.index === index ? 'aria-current="step"' : ""}><span>${rec.completed[item.id] ? icon("check") : !Core.canVisit(item, rec) ? icon("lock-keyhole") : item.index + 1}</span><span>${esc(item.title || lesson.title)}</span>${item.index === index ? '<small>当前</small>' : ""}</button>`).join("")}</section>`).join("")}</div></dialog></div>`;
-    if (card.type === "question") {
-      const answer = rec.drafts[card.question.id]?.value ?? rec.answers[card.question.id]?.answer;
-      mounted = window.PracticeQuestions.mount(root.querySelector("#learn-question-host"), [card.question], { answers: { [card.question.id]: answer }, onChange(answers) {
-        const now = Date.now(); putRecord({ ...record(), updatedAt: now, drafts: { ...record().drafts, [card.question.id]: { value: answers[card.question.id], updatedAt: now } } });
-        updateNext();
-      } });
+    const { cards, index, subject, group } = current, card = cards[index];
+    let rec = record();
+    const attempt = card.type === "question" ? Core.submittedAnswer(card, rec) : null;
+    const explanations = attempt ? Core.explanationsFor(cards, card) : [];
+    if (attempt) {
+      const completed = Core.completeQuestion(cards, card, rec);
+      if (completed !== rec) { putRecord(completed); rec = completed; }
     }
-    root.querySelector('[data-learn-action="previous"]')?.setAttribute("aria-label", "上一页");
+    const navigation = Core.navigationCards(cards), position = navigation.findIndex(item => item.id === card.id);
+    const stats = Core.progress(cards, rec);
+    const source = Core.sourceReference(card.source), originals = originalLinks(card.source);
+    const label = card.type === "question" ? "例题" : { intro: "认识题型", knowledge: "基础知识", method: "解题思路" }[card.role] || "知识点";
+    const nextText = card.type === "question" && !attempt ? "提交答案" : position === navigation.length - 1 ? "完成学习" : "下一页";
+    const solution = attempt ? `<section class="study-explanation-pane" tabindex="0" aria-label="解析"><h2 class="study-pane-title">解析</h2>${explanationBanner(card, rec)}${explanations.length ? explanations.map(part => `<section class="learn-explanation-part" data-learn-explanation-id="${esc(part.id)}" aria-label="${esc(part.title || "解析")}">${window.RichContent.render(part.blocks || [])}</section>`).join("") : '<p>本题暂未提供解析。</p>'}</section>` : "";
+    const body = card.type === "question" ? `<div class="study-question-layout${attempt ? " is-submitted" : ""}"><section class="study-question-pane" tabindex="0" aria-label="题目"><div id="learn-question-host"></div></section>${solution}</div>` : window.RichContent.render(card.blocks || []);
+    root.innerHTML = `<div class="learn-session-shell"><header class="learn-session-header"><div class="learn-context"><button class="learn-exit" data-learn-action="exit" aria-label="返回课程目录">${icon("x")}</button><div><span>${esc(subject.title)}</span><strong>${esc(group.title)}</strong></div></div><nav class="learn-navigation" aria-label="课程翻页"><button class="learn-back learn-button" data-learn-action="previous" aria-label="上一页" ${position <= 0 ? "disabled" : ""}>${icon("arrow-left")}<span>上一页</span></button><button class="learn-progress-button" data-learn-action="jump" aria-label="打开课程目录，快速跳转"><span><strong>${position + 1} <small>/ ${navigation.length}</small></strong><span>课程目录 ${icon("chevron-down")}</span></span><span class="learn-progress-track" role="progressbar" aria-label="学习进度" aria-valuemin="0" aria-valuemax="${stats.total}" aria-valuenow="${stats.completed}"><span style="width:${stats.percentage}%"></span></span></button><button class="learn-next learn-button" data-learn-action="next"><span>${nextText}</span>${icon("arrow-right")}</button></nav></header>
+      <div class="learn-stage"><article class="learn-card ${inPlace ? "" : `learn-flip-${direction}`} ${card.role === "intro" ? "learn-intro-card" : ""}" aria-labelledby="learn-card-title"><div class="learn-card-meta"><span>${label}</span><span>${esc(card.lessonTitle)}${source ? ` · <span class="learn-source" title="${esc(source.title)}">${esc(source.label)}</span>` : ""}${originals ? ` · ${originals}` : ""}</span></div><h1 id="learn-card-title" tabindex="-1">${esc(card.title || card.lessonTitle)}</h1><div class="learn-card-body">${body}</div></article></div><p class="learn-notice" role="status" hidden></p><dialog class="learn-jump-dialog" aria-labelledby="learn-jump-title"><header><div><small>${esc(group.title)}</small><h2 id="learn-jump-title">课程目录</h2></div><button class="learn-exit" data-learn-action="close-jump" aria-label="关闭课程目录">${icon("x")}</button></header><div class="learn-jump-list">${current.lessons.map(lesson => `<section><h3>${esc(lesson.title)}</h3>${navigation.filter(item => item.lessonId === lesson.id).map(item => `<button data-learn-jump="${item.index}" ${item.index === index ? 'aria-current="step"' : ""}><span>${rec.completed[item.id] ? icon("check") : navigation.indexOf(item) + 1}</span><span>${esc(item.title || lesson.title)}</span>${item.index === index ? '<small>当前</small>' : ""}</button>`).join("")}</section>`).join("")}</div></dialog></div>`;
+    if (card.type === "question") {
+      const answer = attempt ? attempt.answer : rec.drafts[card.question.id]?.value;
+      mounted = window.PracticeQuestions.mount(root.querySelector("#learn-question-host"), [card.question], {
+        answers: { [card.question.id]: answer }, readonly: Boolean(attempt), submitted: Boolean(attempt), feedback: Boolean(attempt),
+        onChange(answers) {
+          if (current?.cards[current.index]?.id !== card.id || Core.submittedAnswer(card, record())) return;
+          if (notice === "请先选择或填写答案，再提交。") { notice = ""; showNotice(); }
+          const now = Date.now(); putRecord({ ...record(), updatedAt: now, drafts: { ...record().drafts, [card.question.id]: { value: answers[card.question.id], updatedAt: now } } });
+          updateNext();
+        }
+      });
+    }
     root.querySelector('[data-learn-action="next"]')?.setAttribute("aria-label", nextText);
     refresh(); updateNext(); showNotice();
-    root.querySelector(".learn-stage")?.scrollTo(0, 0);
-    window.PageTransitions?.enter(root, { key: `learn:${location.hash}`, direction, focus: "#learn-card-title" });
+    if (inPlace) {
+      const stage = root.querySelector(".learn-stage"), pane = root.querySelector(".study-question-pane");
+      if (stage) stage.scrollTop = previousScroll.stage;
+      if (pane) pane.scrollTop = previousScroll.question;
+      // Preserve an existing keyboard focus on the surviving navigation action,
+      // but never scroll/focus the answer pane after a submission.
+      if (activeAction === "next") root.querySelector('[data-learn-action="next"]')?.focus({preventScroll: true});
+    } else {
+      root.querySelector(".learn-stage")?.scrollTo(0, 0);
+      window.PageTransitions?.enter(root, { key: `learn:${location.hash}`, direction, focus: "#learn-card-title" });
+    }
   }
   function updateNext() {
-    const button = root.querySelector('[data-learn-action="next"]'), card = current?.cards[current.index];
-    if (button && card?.type === "question") button.disabled = !Core.isAnswered(mounted?.getAnswers()[card.question.id]);
+    const button = root.querySelector('[data-learn-action="next"]');
+    if (button) button.disabled = false;
   }
   async function move(step) {
     if (!current || !root.classList.contains("learning-session") || current.finished) return;
     const card = current.cards[current.index];
     if (step > 0) {
-      if (card.type === "question") {
+      if (card.type === "question" && !Core.submittedAnswer(card, record())) {
         const answer = mounted?.getAnswers()[card.question.id];
-        if (!Core.isAnswered(answer)) return;
-        putRecord(Core.submit(card, answer, record(), window.PracticeQuestions.grade));
-      } else putRecord(Core.markComplete(card, record()));
+        if (!Core.isAnswered(answer)) {
+          notice = "请先选择或填写答案，再提交。"; showNotice();
+          root.querySelector("#learn-question-host")?.querySelector("input:not([disabled]),textarea:not([disabled])")?.focus({preventScroll: true});
+          return;
+        }
+        const submitted = Core.submit(card, answer, record(), window.PracticeQuestions.grade);
+        if (!Core.submittedAnswer(card, submitted)) return;
+        putRecord(submitted);
+        renderSession({inPlace: true});
+        return;
+      }
+      if (card.type === "question") putRecord(Core.completeQuestion(current.cards, card, record()));
+      else putRecord(Core.markComplete(card, record()));
     }
     direction = step < 0 ? "previous" : "next";
-    const target = current.index + step;
+    const navigation = Core.navigationCards(current.cards), position = navigation.findIndex(item => item.id === card.id);
+    const target = position + step;
     if (target < 0) return;
-    if (target >= current.cards.length) { flush(); renderComplete(); return; }
-    await routeTo(cardHash(current.subject, current.group, current.cards[target]));
+    if (target >= navigation.length) { flush(); renderComplete(); return; }
+    await routeTo(cardHash(current.subject, current.group, navigation[target]));
   }
   function renderComplete() {
     cleanup(); current.finished = true;
@@ -182,9 +219,10 @@
       let card = lessonCards[Math.min(route.card, lessonCards.length - 1)];
       if (!card) throw new Error("这个知识点还没有学习内容");
       const rec = record(group.id);
-      if (!Core.canVisit(card, rec)) {
-        card = pack.cards.find(item => item.question?.id === card.questionId) || lessonCards[0];
-        notice = "先完成这道例题，再一起看解析。";
+      if (Core.isExplanation(card)) {
+        if (!Core.canVisit(card, rec)) notice = "先完成这道例题，再一起看解析。";
+        card = Core.ownerCard(pack.cards, card);
+        if (!card) throw new Error("这段解析缺少对应例题");
         history.replaceState(null, "", cardHash(subject, group, card));
       }
       current = { ...pack, subject, group, index: card.index };
@@ -218,8 +256,8 @@
     const resume = event.target.closest("[data-learn-resume]");
     if (resume) openResume(resume.dataset.learnResume);
     if (jump && current) {
-      const card = current.cards[Number(jump.dataset.learnJump)];
-      if (Core.canVisit(card, record())) { direction = card.index < current.index ? "previous" : "next"; routeTo(cardHash(current.subject, current.group, card)); }
+      const card = Core.ownerCard(current.cards, current.cards[Number(jump.dataset.learnJump)]);
+      if (card) { direction = card.index < current.index ? "previous" : "next"; routeTo(cardHash(current.subject, current.group, card)); }
     }
     if (action === "previous") move(-1);
     if (action === "next") move(1);
@@ -228,17 +266,18 @@
     if (action === "jump") root.querySelector(".learn-jump-dialog")?.showModal();
     if (action === "close-jump") { root.querySelector(".learn-jump-dialog")?.close(); root.querySelector('[data-learn-action="jump"]')?.focus(); }
     if (action === "unfinished" && current) {
-      const card = current.cards.find(item => !record().completed[item.id] && Core.canVisit(item, record()));
+      const rec = record();
+      const card = Core.navigationCards(current.cards).find(item => !Core.stepComplete(current.cards, item, rec));
       if (card) routeTo(cardHash(current.subject, current.group, card));
     }
   });
   document.addEventListener("keydown", event => {
-    if (!Core.parseRoute(location.hash) || !current || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || event.isComposing || document.querySelector("dialog[open]") || event.target.closest("input,textarea,select,[contenteditable=true],.ui-control,.ui-popover,[role=dialog],[role=alertdialog]")) return;
+    if (!Core.parseRoute(location.hash) || !current || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || event.isComposing || document.querySelector("dialog[open]") || event.target.closest("input,textarea,select,[contenteditable=true],.ui-control,.ui-popover,[role=dialog],[role=alertdialog],.rich-content__math--display,.rich-content__table-scroll")) return;
     if (["ArrowLeft", "ArrowRight"].includes(event.key)) { event.preventDefault(); move(event.key === "ArrowLeft" ? -1 : 1); }
   });
   let touchStart;
   root.addEventListener("touchstart", event => {
-    touchStart = event.touches.length === 1 && !event.target.closest("input,button,a,label,dialog") ? { x: event.touches[0].clientX, y: event.touches[0].clientY } : null;
+    touchStart = event.touches.length === 1 && !event.target.closest("input,button,a,label,dialog,.rich-content__math--display,.rich-content__table-scroll") ? { x: event.touches[0].clientX, y: event.touches[0].clientY } : null;
   }, { passive: true });
   root.addEventListener("touchend", event => {
     if (!touchStart || !event.changedTouches[0] || window.getSelection()?.toString()) return;
@@ -253,7 +292,7 @@
     if (!route || !manifest) return;
     if (current) {
       if (previous === JSON.stringify([record().completed, record().answers, record().drafts])) return;
-      if (current.finished) renderComplete(); else renderSession();
+      if (current.finished) renderComplete(); else renderSession({inPlace: true});
     }
     else renderCatalog(route);
   }

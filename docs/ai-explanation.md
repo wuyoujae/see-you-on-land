@@ -1,6 +1,6 @@
 # AI 题目讲解接口
 
-浏览器依次加载本地 KaTeX、RichContent、SolverPrompts 和 AIExplanation；Markdown 排版沿用现有 marked 与 DOMPurify。模块初始化、翻页和读取备份不会启动模型请求。仅在用户打开答案卡且需要解析时调用 `explain`，不预取未打开的题目。
+浏览器依次加载本地 KaTeX、RichContent、SolverPrompts 和 AIExplanation；Markdown 排版沿用现有 marked 与 DOMPurify。模块初始化、翻页和读取备份不会启动模型请求。仅在当前题目已提交、同页解析面板显示且需要解析时调用 `explain`，不预取未打开或未提交的题目。下一题直接进入题目，回看已提交题自动恢复其解析面板；离题只退订界面，后台请求继续完成并缓存，旧回调不能覆盖新题面板。
 
 ```js
 AIExplanation.configure({

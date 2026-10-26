@@ -1,4 +1,4 @@
-/* One question card, followed by its source answer and our AI explanation. */
+/* Keep the submitted question in place and reveal its source and AI explanations. */
 (() => {
   "use strict";
   const root = document.getElementById("view-practice"), Core = window.PracticeCore;
@@ -63,13 +63,13 @@
   function parseRoute(hash = location.hash) {
     if (["#/study", "#/study/"].includes(hash)) return { page: "catalog" };
     const [path, query = ""] = hash.split("?"), session = /^#\/study\/session\/([a-zA-Z0-9_-]+)$/.exec(path);
-    if (session) { const params = new URLSearchParams(query), raw = params.get("q"); return { page: "session", id: session[1], index: raw !== null && /^\d+$/.test(raw) ? Number(raw) : null, view: params.get("view") === "answer" ? "answer" : "question" }; }
+    if (session) { const params = new URLSearchParams(query), raw = params.get("q"); return { page: "session", id: session[1], index: raw !== null && /^\d+$/.test(raw) ? Number(raw) : null, view: params.get("view") === "answer" || params.get("side") === "answer" ? "answer" : "question" }; }
     const paper = /^#\/study\/paper\/([a-zA-Z0-9_-]+)$/.exec(path); if (paper) return { page: "setup", paperId: paper[1] };
     const subject = /^#\/study\/([a-z]+)(?:\/[a-zA-Z0-9-]+)?$/.exec(path);
     return subject && SUBJECTS.some(item => item.id === subject[1]) ? { page: "setup", subjectId: subject[1] } : null;
   }
   function navigate(hash, replace = false) { flush(); history[replace || hash === location.hash ? "replaceState" : "pushState"](null, "", hash); return resolveRoute(); }
-  function sessionHash(session, index = session.current, view = "question") { return `#/study/session/${session.id}?q=${index}&view=${view}`; }
+  function sessionHash(session, index = session.current) { return `#/study/session/${session.id}?q=${index}`; }
   function activate(session) {
     active = true; routeHandling = true;
     if (!root.classList.contains("active")) document.querySelector('.tab-item[data-tab="practice"]')?.click();
@@ -97,10 +97,10 @@
     cleanup(); current = null; setup = null; activate(false); const stats = getStatistics();
     const latest = Object.values(progress.sessions).sort((a, b) => b.updatedAt - a.updatedAt)[0];
     root.innerHTML = `<div class="drill-catalog-shell"><header class="page-header"><h1>做题学习</h1>${window.LearningApp?.modeSwitchMarkup("practice") || ""}</header><div class="drill-catalog-tools"><div class="drill-catalog-tabs" role="tablist" aria-label="题库浏览方式"><button type="button" role="tab" aria-selected="true" data-drill-list="subjects">按科目</button><button type="button" role="tab" aria-selected="false" data-drill-list="papers">按试卷</button></div><span id="drill-bank-count">${manifest.totals?.paperCount ?? manifest.papers.length} 套真题 · ${stats.total.toLocaleString()} 题</span></div>
-      ${latest ? `<a class="learn-resume drill-resume" href="${sessionHash(latest, latest.current, Core.canShow(latest, latest.questionIds[latest.current], "answer") ? "answer" : "question")}"><span class="learn-resume-icon">${icon("play")}</span><span><small>继续练习</small><strong>${esc(titleForSession(latest))}</strong></span><span class="drill-resume-count">${Core.statistics(latest).submitted} / ${latest.questionIds.length}</span>${icon("arrow-right")}</a>` : ""}
+      ${latest ? `<a class="learn-resume drill-resume" href="${sessionHash(latest, latest.current)}"><span class="learn-resume-icon">${icon("play")}</span><span><small>继续练习</small><strong>${esc(titleForSession(latest))}</strong></span><span class="drill-resume-count">${Core.statistics(latest).submitted} / ${latest.questionIds.length}</span>${icon("arrow-right")}</a>` : ""}
       <div class="drill-subject-list">${SUBJECTS.map(subject => {
         const meta = manifest.subjects.find(item => item.id === subject.id), result = getStatistics(subject.id);
-        return `<a class="drill-subject" href="#/study/${subject.id}"><span class="practice-module-icon">${icon(subject.icon)}</span><span class="drill-subject-copy"><strong>${subject.title}</strong><span>${(meta?.questionCount || 0).toLocaleString()} 道真题${result.submitted ? ` · 已提交 ${result.submitted} 题 · 正确率 ${result.accuracy}%` : ""}</span></span><span class="drill-subject-progress" aria-hidden="true"><span style="width:${meta?.questionCount ? Math.min(100, result.submitted / meta.questionCount * 100) : 0}%"></span></span>${icon("chevron-right")}</a>`;
+        return `<a class="drill-subject" href="#/study/${subject.id}"><span class="practice-module-icon">${icon(subject.icon)}</span><span class="drill-subject-copy"><strong>${subject.title}</strong><span>${(meta?.questionCount || 0).toLocaleString()} 道真题${result.submitted ? ` · 已提交 ${result.submitted} 题${result.accuracy === null ? "" : ` · 正确率 ${result.accuracy}%`}` : ""}</span></span><span class="drill-subject-progress" aria-hidden="true"><span style="width:${meta?.questionCount ? Math.min(100, result.submitted / meta.questionCount * 100) : 0}%"></span></span>${icon("chevron-right")}</a>`;
       }).join("")}</div><div class="drill-paper-list" hidden><label class="drill-year-filter">年份<select id="drill-year" aria-label="筛选试卷年份"><option value="">全部年份</option>${[...new Set(manifest.papers.map(paper => paper.year))].sort((a, b) => b - a).map(year => `<option value="${year}">${year}</option>`).join("")}</select></label><div id="drill-papers">${renderPapers()}</div></div><p class="drill-notice" role="status" hidden></p></div>`;
     refresh(); tell(notice);
     window.PageTransitions?.enter(root, { key: `drill:${location.hash}`, direction: "previous" });
@@ -110,7 +110,7 @@
     const paper = route.paperId ? await loadPaper(route.paperId) : null; if (token !== serial) return;
     setup = { subjectId: route.subjectId || "", paperId: route.paperId || "", questions, paper }; current = null; activate(false);
     const recent = Object.values(progress.sessions).filter(session => route.paperId ? session.setId === route.paperId : session.subjectId === route.subjectId && !session.setId).sort((a, b) => b.updatedAt - a.updatedAt)[0];
-    root.innerHTML = `<div class="drill-catalog-shell"><header class="drill-setup-header"><a class="learn-exit" href="#/study" aria-label="返回题库">${icon("arrow-left")}</a><h1>${esc(paper?.title || subjectTitle(route.subjectId))}</h1></header><section class="drill-setup"><div class="drill-setup-heading">${icon(paper ? "files" : SUBJECTS.find(subject => subject.id === route.subjectId)?.icon || "book-open")}<span>选择本次练习</span></div><form id="drill-start-form"><label>${paper ? "科目" : "试卷"}<select id="drill-filter" aria-label="${paper ? "选择练习科目" : "选择来源试卷"}"><option value="">${paper ? "整套试卷" : "全部国考真题"}</option>${paper ? SUBJECTS.filter(subject => questions.some(question => question.subjectId === subject.id && paper.questionIds.includes(question.id))).map(subject => `<option value="${subject.id}">${subject.title}</option>`).join("") : manifest.papers.filter(item => !item.subjectCounts || item.subjectCounts[route.subjectId] > 0).sort((a, b) => b.year - a.year).map(item => `<option value="${item.id}">${esc(item.title)}</option>`).join("")}</select></label><label>题量<span class="drill-count-control"><input type="number" id="drill-count" min="1" step="1" inputmode="numeric" aria-label="本次练习题量"><button class="drill-all" type="button" data-drill-action="all">全部</button></span><small id="drill-count-hint"></small></label><label>顺序<select id="drill-order" aria-label="练习顺序"><option value="${paper ? "source" : "random"}">${paper ? "来源编排" : "随机抽题"}</option><option value="${paper ? "random" : "source"}">${paper ? "随机抽题" : "题库顺序"}</option></select></label><button class="learn-next learn-button drill-start" type="submit">开始做题 ${icon("arrow-right")}</button></form>${recent ? `<a class="drill-continue" href="${sessionHash(recent, recent.current, Core.canShow(recent, recent.questionIds[recent.current], "answer") ? "answer" : "question")}">继续上次练习 · ${Core.statistics(recent).submitted} / ${recent.questionIds.length} ${icon("arrow-right")}</a>` : ""}</section><p class="drill-notice" role="alert" hidden></p></div>`;
+    root.innerHTML = `<div class="drill-catalog-shell"><header class="drill-setup-header"><a class="learn-exit" href="#/study" aria-label="返回题库">${icon("arrow-left")}</a><h1>${esc(paper?.title || subjectTitle(route.subjectId))}</h1></header><section class="drill-setup"><div class="drill-setup-heading">${icon(paper ? "files" : SUBJECTS.find(subject => subject.id === route.subjectId)?.icon || "book-open")}<span>选择本次练习</span></div><form id="drill-start-form"><label>${paper ? "科目" : "试卷"}<select id="drill-filter" aria-label="${paper ? "选择练习科目" : "选择来源试卷"}"><option value="">${paper ? "整套试卷" : "全部国考真题"}</option>${paper ? SUBJECTS.filter(subject => questions.some(question => question.subjectId === subject.id && paper.questionIds.includes(question.id))).map(subject => `<option value="${subject.id}">${subject.title}</option>`).join("") : manifest.papers.filter(item => !item.subjectCounts || item.subjectCounts[route.subjectId] > 0).sort((a, b) => b.year - a.year).map(item => `<option value="${item.id}">${esc(item.title)}</option>`).join("")}</select></label><label>题量<span class="drill-count-control"><input type="number" id="drill-count" min="1" step="1" inputmode="numeric" aria-label="本次练习题量"><button class="drill-all" type="button" data-drill-action="all">全部</button></span><small id="drill-count-hint"></small></label><label>顺序<select id="drill-order" aria-label="练习顺序"><option value="${paper ? "source" : "random"}">${paper ? "来源编排" : "随机抽题"}</option><option value="${paper ? "random" : "source"}">${paper ? "随机抽题" : "题库顺序"}</option></select></label><button class="learn-next learn-button drill-start" type="submit">开始做题 ${icon("arrow-right")}</button></form>${recent ? `<a class="drill-continue" href="${sessionHash(recent, recent.current)}">继续上次练习 · ${Core.statistics(recent).submitted} / ${recent.questionIds.length} ${icon("arrow-right")}</a>` : ""}</section><p class="drill-notice" role="alert" hidden></p></div>`;
     updateAvailable(); refresh();
     window.PageTransitions?.enter(root, { key: `drill:${location.hash}`, direction: "next" });
   }
@@ -142,9 +142,10 @@
     if (token !== serial) return;
     const index = Math.min(Math.max(0, route.index ?? session.current), session.questionIds.length - 1), question = questionMap.get(session.questionIds[index]);
     if (!question) throw new Error("这道题的来源暂时未能加载，练习进度仍然保留。");
-    let view = route.view;
-    if (!Core.canShow(session, question.id, view)) { view = "question"; notice = "先完成这道题，再查看答案与解析。"; history.replaceState(null, "", sessionHash(session, index, view)); }
-    current = { session, index, view, question }; setup = null; updateSession(Core.setCurrent(session, index)); renderSession();
+    if (route.view === "answer" && !Core.canShow(session, question.id, "answer")) notice = "先完成这道题，再查看答案与解析。";
+    const canonical = sessionHash(session, index);
+    if (location.hash !== canonical) history.replaceState(null, "", canonical);
+    current = { session, index, question }; setup = null; updateSession(Core.setCurrent(session, index)); renderSession();
   }
   function titleForSession(session) { return session.setId ? manifest.papers.find(paper => paper.id === session.setId)?.title || "国考真题" : subjectTitle(session.subjectId); }
   function sourceLabel(question, session = current?.session) {
@@ -152,29 +153,68 @@
     const paper = manifest.papers.find(item => item.id === (ref?.paperId || question.source?.paperId)), number = ref?.questionNumber ?? question.source?.questionNumber;
     return [paper?.title || (question.source?.year ? `${question.source.year} 国考` : "国考真题"), number ? `第 ${number} 题` : ref?.moduleNumber ? `${subjectTitle(question.subjectId)}第 ${ref.moduleNumber} 题` : ""].filter(Boolean).join(" · ");
   }
+  function hasSubmission() { return Boolean(current && Core.canShow(current.session, current.question.id, "answer")); }
+  function nextLabel() { return !hasSubmission() ? "提交答案" : current.index === current.session.questionIds.length - 1 ? "完成练习" : "下一题"; }
+  function mountCurrentQuestion() {
+    const { question, session } = current, submitted = hasSubmission();
+    // Old backups may contain a later unsubmitted draft. A submitted card always
+    // reflects the immutable attempt, never that independent draft.
+    const answer = submitted ? session.answers[question.id].answer : session.drafts[question.id]?.value;
+    component?.destroy();
+    component = window.PracticeQuestions.mount(root.querySelector("#drill-question"), [question], {
+      answers: { [question.id]: answer }, readonly: submitted, submitted, feedback: submitted,
+      onChange(answers) {
+        if (!current || current.question.id !== question.id || current.finished || hasSubmission()) return;
+        updateSession(Core.setDraft(current.session, question.id, answers[question.id])); tell("");
+      }
+    });
+  }
+  function updateSessionHeader() {
+    const stats = Core.statistics(current.session), next = root.querySelector('[data-drill-action="next"]');
+    if (next) { next.innerHTML = `${nextLabel()}${icon("arrow-right")}`; refresh(next); }
+    const count = root.querySelector("#drill-submitted-count"), track = root.querySelector("#drill-progress-track"), fill = root.querySelector("#drill-progress-fill");
+    if (count) count.textContent = `已提交 ${stats.submitted} 题`;
+    if (track) track.setAttribute("aria-valuenow", stats.submitted);
+    if (fill) fill.style.width = `${stats.total ? stats.submitted / stats.total * 100 : 0}%`;
+    const jump = root.querySelector(`[data-drill-jump="${current.index}"]`), attempt = current.session.answers[current.question.id];
+    if (jump && attempt) {
+      jump.className = attempt.status;
+      jump.setAttribute("aria-label", `第 ${current.index + 1} 题，${attempt.status === "correct" ? "答对" : attempt.status === "incorrect" ? "答错" : "已提交，不计分"}`);
+    }
+  }
+  function revealSubmission() {
+    if (!hasSubmission()) return;
+    const pane = root.querySelector("#drill-explanation"), questionPane = root.querySelector(".drill-question-pane"), layout = root.querySelector(".drill-question-layout");
+    if (!pane || !questionPane || !layout) return;
+    const scrollTop = questionPane.scrollTop;
+    layout.classList.add("is-submitted");
+    mountCurrentQuestion();
+    pane.innerHTML = renderAnswer(current.question, current.session.answers[current.question.id]); pane.hidden = false;
+    updateSessionHeader(); tell(""); refresh(questionPane); refresh(pane);
+    questionPane.scrollTop = scrollTop;
+    // Submission does not navigate, animate or move focus to the explanation.
+    // The existing toolbar button remains focused and becomes "下一题".
+    loadAI();
+  }
   function renderSession() {
     cleanup(); activate(true);
-    const { session, index, view, question } = current, stats = Core.statistics(session);
-    const nextLabel = view === "question" ? "提交答案" : index === session.questionIds.length - 1 ? "完成练习" : "下一题";
-    root.innerHTML = `<div class="learn-session-shell drill-workspace"><header class="learn-session-header"><div class="learn-context"><button class="learn-exit" data-drill-action="exit" aria-label="返回题库">${icon("x")}</button><div>${titleForSession(session) === subjectTitle(question.subjectId) ? "" : `<span>${subjectTitle(question.subjectId)}</span>`}<strong>${esc(titleForSession(session))}</strong></div></div><nav class="learn-navigation" aria-label="练习翻页"><button class="learn-back learn-button" data-drill-action="previous" aria-label="上一页" ${index === 0 && view === "question" ? "disabled" : ""}>${icon("arrow-left")}<span>上一页</span></button><button class="learn-progress-button" data-drill-action="jump" aria-label="打开题号，快速跳转"><span><strong>${index + 1} <small>/ ${session.questionIds.length}</small></strong><span>已提交 ${stats.submitted} 题 ${icon("chevron-down")}</span></span><span class="learn-progress-track" role="progressbar" aria-label="练习进度" aria-valuemin="0" aria-valuemax="${stats.total}" aria-valuenow="${stats.submitted}"><span style="width:${stats.total ? stats.submitted / stats.total * 100 : 0}%"></span></span></button><button class="learn-next learn-button" data-drill-action="next">${nextLabel}${icon("arrow-right")}</button></nav></header><div class="learn-stage"><article class="learn-card learn-flip-${direction} drill-card"><div class="learn-card-meta"><span>${view === "question" ? ({ multiple: "多选题", fill: "填空题", boolean: "判断题" }[question.type] || "单选题") : "答案与解析"}</span><span>${esc(sourceLabel(question))}</span></div>${view === "question" ? '<div id="drill-question"></div>' : renderAnswer(question, session.answers[question.id])}</article></div><p class="drill-notice" role="alert" hidden></p><dialog class="learn-jump-dialog drill-jump" aria-labelledby="drill-jump-title"><header><div><small>${esc(titleForSession(session))}</small><h2 id="drill-jump-title">题号导航</h2></div><button class="learn-exit" data-drill-action="close-jump" aria-label="关闭题号导航">${icon("x")}</button></header><div class="drill-number-grid">${session.questionIds.map((qid, i) => `<button data-drill-jump="${i}" class="${session.answers[qid]?.status || ""}" ${i === index ? 'aria-current="step"' : ""} aria-label="第 ${i + 1} 题${session.answers[qid] ? session.answers[qid].status === "correct" ? "，答对" : "，答错" : "，未提交"}">${i + 1}</button>`).join("")}</div><p class="drill-jump-key"><span>未提交</span><span>答对</span><span>答错</span></p></dialog></div>`;
-    if (view === "question") {
-      const answer = session.drafts[question.id]?.value ?? session.answers[question.id]?.answer;
-      component = window.PracticeQuestions.mount(root.querySelector("#drill-question"), [question], { answers: { [question.id]: answer }, onChange(answers) { updateSession(Core.setDraft(current.session, question.id, answers[question.id])); tell(""); } });
-    }
-    refresh(); tell(notice); if (view === "answer") loadAI();
-    window.PageTransitions?.enter(root, { key: `drill:${location.hash}`, direction, focus: ".drill-card" });
+    const { session, index, question } = current, stats = Core.statistics(session), submitted = hasSubmission();
+    root.innerHTML = `<div class="learn-session-shell drill-workspace"><header class="learn-session-header"><div class="learn-context"><button class="learn-exit" data-drill-action="exit" aria-label="返回题库">${icon("x")}</button><div>${titleForSession(session) === subjectTitle(question.subjectId) ? "" : `<span>${subjectTitle(question.subjectId)}</span>`}<strong>${esc(titleForSession(session))}</strong></div></div><nav class="learn-navigation" aria-label="练习翻页"><button class="learn-back learn-button" data-drill-action="previous" aria-label="上一题" ${index === 0 ? "disabled" : ""}>${icon("arrow-left")}<span>上一题</span></button><button class="learn-progress-button" data-drill-action="jump" aria-label="打开题号，快速跳转"><span><strong>${index + 1} <small>/ ${session.questionIds.length}</small></strong><span><span id="drill-submitted-count">已提交 ${stats.submitted} 题</span> ${icon("chevron-down")}</span></span><span id="drill-progress-track" class="learn-progress-track" role="progressbar" aria-label="练习进度" aria-valuemin="0" aria-valuemax="${stats.total}" aria-valuenow="${stats.submitted}"><span id="drill-progress-fill" style="width:${stats.total ? stats.submitted / stats.total * 100 : 0}%"></span></span></button><button class="learn-next learn-button" data-drill-action="next">${nextLabel()}${icon("arrow-right")}</button></nav></header><div class="learn-stage"><article class="learn-card learn-flip-${direction} drill-card"><div class="study-question-layout drill-question-layout${submitted ? " is-submitted" : ""}"><section class="study-question-pane drill-question-pane" aria-label="题目" tabindex="0"><div class="learn-card-meta"><span>${({ multiple: "多选题", fill: "填空题", boolean: "判断题" }[question.type] || "单选题")}</span><span>${esc(sourceLabel(question))}</span></div><div id="drill-question"></div></section><section id="drill-explanation" class="study-explanation-pane drill-explanation-pane" aria-label="解析" tabindex="0"${submitted ? "" : " hidden"}>${submitted ? renderAnswer(question, session.answers[question.id]) : ""}</section></div></article></div><p class="drill-notice" role="alert" hidden></p><dialog class="learn-jump-dialog drill-jump" aria-labelledby="drill-jump-title"><header><div><small>${esc(titleForSession(session))}</small><h2 id="drill-jump-title">题号导航</h2></div><button class="learn-exit" data-drill-action="close-jump" aria-label="关闭题号导航">${icon("x")}</button></header><div class="drill-number-grid">${session.questionIds.map((qid, i) => `<button data-drill-jump="${i}" class="${session.answers[qid]?.status || ""}" ${i === index ? 'aria-current="step"' : ""} aria-label="第 ${i + 1} 题${session.answers[qid] ? session.answers[qid].status === "correct" ? "，答对" : session.answers[qid].status === "incorrect" ? "，答错" : "，已提交，不计分" : "，未提交"}">${i + 1}</button>`).join("")}</div><p class="drill-jump-key"><span>未提交</span><span>答对</span><span>答错</span></p></dialog></div>`;
+    mountCurrentQuestion(); refresh(); tell(notice); if (submitted) loadAI();
+    window.PageTransitions?.enter(root, { key: `drill:${location.hash}`, direction, focus: ".drill-question-pane" });
   }
   function safeSourceURL(value) { try { const url = new URL(value); return /^https?:$/.test(url.protocol) ? url.href : ""; } catch { return ""; } }
   function answerText(value, question) { return Array.isArray(value) ? value.join("、") : question.type === "boolean" ? (String(value) === "true" ? "正确" : "错误") : String(value ?? ""); }
   function referenceNotice(question) {
-    const message = question.sourceAnswer?.notice;
+    const message = question.sourceIssue || question.sourceAnswer?.notice;
     if (!message && !question.alternativeReferences?.length) return "";
     return `<aside class="drill-reference-notice" role="note"><p>${icon("circle-alert")}${esc(message || "公开整理来源存在不同参考答案，当前按所列来源判分。")}</p>${question.alternativeReferences?.length ? `<details><summary>其他来源参考 ${icon("chevron-down")}</summary><ul>${question.alternativeReferences.map(reference => { const url = safeSourceURL(reference.url); return `<li>${esc(reference.provider || "其他参考来源")}：${esc(answerText(reference.answer, question))}${url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">查看来源 ${icon("arrow-up-right")}</a>` : ""}</li>`; }).join("")}</ul></details>` : ""}</aside>`;
   }
   function renderAnswer(question, attempt) {
     const source = question.sourceAnswer || {}, explanation = source.explanationBlocks || question.explanationBlocks || (source.explanation ? [{ type: "paragraph", text: source.explanation }] : []);
     const url = safeSourceURL(source.url || question.source?.answerUrl || question.source?.url);
-    return `<section class="drill-source-answer" aria-labelledby="drill-source-title"><h1 id="drill-source-title">题目来源答案和解析</h1><div class="drill-answer-result ${attempt.status}"><div><span>来源答案</span><strong>${esc(answerText(source.answer ?? question.answer, question))}</strong></div><span>${icon(attempt.status === "correct" ? "check" : "circle-help")}我们的答案 ${esc(answerText(attempt.answer, question))}</span></div>${referenceNotice(question)}${explanation.length ? `<details class="drill-source-details"><summary>来源解析${icon("chevron-down")}</summary><div class="drill-source-explanation">${window.RichContent.render(explanation)}</div></details>` : '<p class="drill-source-unavailable">来源仅提供了参考答案。</p>'}<div class="drill-source-credit"><span>${esc(source.provider || question.source?.answerSource || "题目来源参考答案")}</span>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">查看来源 ${icon("arrow-up-right")}</a>` : ""}</div></section><section class="drill-ai-section" aria-labelledby="drill-ai-title"><header><h2 id="drill-ai-title">${icon("sparkles")}超级思维解析</h2><span id="drill-ai-state"></span></header><div id="drill-ai-body" data-question-id="${esc(question.id)}" aria-live="polite"></div></section>`;
+    const reference = source.answer ?? question.answer, hasReference = Core.isAnswered(reference);
+    return `<section class="drill-source-answer" aria-labelledby="drill-source-title"><h2 id="drill-source-title">题目来源答案和解析</h2><div class="drill-answer-result ${attempt.status}"><div><span>来源答案</span><strong>${hasReference ? esc(answerText(reference, question)) : "暂无"}</strong></div><span>${icon(attempt.status === "correct" ? "check" : "circle-help")}我们的答案 ${esc(answerText(attempt.answer, question))}${attempt.status === "ungraded" ? " · 本题不计分" : ""}</span></div>${referenceNotice(question)}${explanation.length ? `<details class="drill-source-details" open><summary>来源解析${icon("chevron-down")}</summary><div class="drill-source-explanation">${window.RichContent.render(explanation)}</div></details>` : `<p class="drill-source-unavailable">${hasReference ? "来源仅提供了参考答案。" : "来源暂未提供可核验的答案与解析。"}</p>`}<div class="drill-source-credit"><span>${esc(source.provider || question.source?.answerSource || "题目来源参考答案")}</span>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">查看来源 ${icon("arrow-up-right")}</a>` : ""}</div></section><section class="drill-ai-section" aria-labelledby="drill-ai-title"><header><h2 id="drill-ai-title">${icon("sparkles")}超级思维解析</h2><span id="drill-ai-state"></span></header><div id="drill-ai-body" data-question-id="${esc(question.id)}" aria-live="polite"></div></section>`;
   }
   function aiError(error) {
     if (["IMAGE_LIMIT", "IMAGE", "QUESTION", "PROMPTS", "SETTINGS", "REQUEST_LIMIT"].includes(error?.code)) return error.message;
@@ -185,10 +225,10 @@
     return "解析暂时未能完整生成，来源答案仍可正常查看。";
   }
   async function loadAI() {
-    if (!current || current.view !== "answer") return;
+    if (!hasSubmission() || current.finished) return;
     aiSubscription?.abort(); aiSubscription = new AbortController(); const token = ++aiSerial;
     const question = current.question, host = root.querySelector("#drill-ai-body"), state = root.querySelector("#drill-ai-state"); if (!host || !state) return;
-    const alive = () => token === aiSerial && current?.view === "answer" && current.question.id === question.id && host.isConnected;
+    const alive = () => token === aiSerial && current?.question.id === question.id && !current.finished && hasSubmission() && host.isConnected;
     state.textContent = "生成中"; host.innerHTML = `<div class="drill-ai-loading" role="status"><span class="drill-ai-orbit">${icon("sparkles")}</span><p>正在按我们的思路分析…</p><small>翻页后会继续生成并保存</small><div class="drill-ai-skeleton"><span></span><span></span><span></span></div></div>`; refresh(host);
     let text = "";
     try {
@@ -211,21 +251,21 @@
     }
   }
   function previous() {
-    if (!current) return; direction = "previous";
-    if (current.view === "answer") navigate(sessionHash(current.session, current.index, "question"));
-    else if (current.index > 0) { const index = current.index - 1; navigate(sessionHash(current.session, index, Core.canShow(current.session, current.session.questionIds[index], "answer") ? "answer" : "question")); }
+    if (!current || current.index === 0) return;
+    direction = "previous"; navigate(sessionHash(current.session, current.index - 1));
   }
   function next() {
-    if (!current) return; direction = "next"; const { session, index, view, question } = current;
-    if (view === "question") {
+    if (!current || current.finished) return; direction = "next"; const { session, index, question } = current;
+    if (!hasSubmission()) {
       const answer = component?.getAnswers()[question.id];
       if (!Core.isAnswered(answer)) { tell(question.type === "fill" ? "先填写答案，再提交。" : "先选择答案，再提交。"); root.querySelector("#drill-question input")?.focus(); return; }
-      updateSession(Core.submit(session, question, answer, window.PracticeQuestions.grade)); navigate(sessionHash(current.session, index, "answer"));
+      updateSession(Core.submit(session, question, answer, window.PracticeQuestions.grade));
+      if (hasSubmission()) revealSubmission();
     } else if (index + 1 < session.questionIds.length) navigate(sessionHash(session, index + 1)); else renderComplete();
   }
   function renderComplete() {
     if (!current) return; cleanup(); flush(); current.finished = true; const stats = Core.statistics(current.session);
-    root.innerHTML = `<div class="learn-completion"><span class="learn-completion-icon">${icon(stats.complete ? "party-popper" : "flag")}</span><span>${esc(titleForSession(current.session))}</span><h1>${stats.complete ? "这一轮，完成了！" : "这一轮练习结束"}</h1><div class="learn-completion-stats"><span><strong>${stats.submitted}<small> / ${stats.total}</small></strong>已提交</span><span><strong>${stats.accuracy ?? 0}<small>%</small></strong>正确率</span></div><button class="learn-next learn-button" data-drill-action="exit">返回题库 ${icon("arrow-right")}</button>${!stats.complete ? '<button class="learn-back learn-button" data-drill-action="unfinished">继续未答题目</button>' : ""}<button class="learn-back learn-button" data-drill-action="review">回看本轮题目</button></div>`; refresh();
+    root.innerHTML = `<div class="learn-completion"><span class="learn-completion-icon">${icon(stats.complete ? "party-popper" : "flag")}</span><span>${esc(titleForSession(current.session))}</span><h1>${stats.complete ? "这一轮，完成了！" : "这一轮练习结束"}</h1><div class="learn-completion-stats"><span><strong>${stats.submitted}<small> / ${stats.total}</small></strong>已提交</span><span><strong>${stats.accuracy === null ? "—" : `${stats.accuracy}<small>%</small>`}</strong>正确率</span></div><button class="learn-next learn-button" data-drill-action="exit">返回题库 ${icon("arrow-right")}</button>${!stats.complete ? '<button class="learn-back learn-button" data-drill-action="unfinished">继续未答题目</button>' : ""}<button class="learn-back learn-button" data-drill-action="review">回看本轮题目</button></div>`; refresh();
     window.PageTransitions?.enter(root, { key: `drill:${location.hash}:complete`, direction: "next" });
   }
   async function doResolve(hash, token) {
@@ -291,7 +331,7 @@
     if (action === "unfinished" && current) { const index = current.session.questionIds.findIndex(id => !Core.canShow(current.session, id, "answer")); if (index >= 0) navigate(sessionHash(current.session, index)); }
   });
   document.addEventListener("keydown", event => {
-    if (!parseRoute() || !current || current.finished || document.querySelector("dialog[open]") || event.isComposing || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || event.target.closest("input,textarea,select,[contenteditable=true],.ui-control,.ui-popover,[role=dialog],[role=alertdialog]")) return;
+    if (!parseRoute() || !current || current.finished || document.querySelector("dialog[open]") || event.isComposing || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || event.target.closest("input,textarea,select,[contenteditable=true],.ui-control,.ui-popover,.rich-content__math--display,.rich-content__table-scroll,[role=dialog],[role=alertdialog]")) return;
     if (event.key === "ArrowLeft") { event.preventDefault(); previous(); } if (event.key === "ArrowRight") { event.preventDefault(); next(); }
   });
   window.addEventListener("hashchange", resolveRoute);
@@ -304,7 +344,7 @@
   });
   window.addEventListener("summer-politics:drill-restored", reloadProgress);
   window.addEventListener("storage", event => { if (event.key === STORAGE_KEY) reloadProgress(); });
-  window.addEventListener("summer-politics:ai-settings-changed", () => { if (current?.view === "answer" && !current.finished) loadAI(); });
+  window.addEventListener("summer-politics:ai-settings-changed", () => { if (hasSubmission() && !current.finished) loadAI(); });
   window.addEventListener("pagehide", flush); document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") flush(); });
   resolveRoute();
 })();

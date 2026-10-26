@@ -29,7 +29,7 @@ const bank = {version: 1, subjects: [{id: "language", title: "言语理解", que
   papers: [{id: "paper-one", year: 2025, title: "2025国考试卷", questionCount: 3, questionIds: QUESTION_IDS, subjectCounts: {language: 3}, path: "data/question-bank/papers/paper-one.json"}], totals: {questionCount: 3, paperCount: 1}};
 const baseSession = () => Core.createSession({id: "session-test", subjectId: "language", questionIds: QUESTION_IDS, now: 100});
 function progressFor(session) { return {version: 1, updatedAt: session.updatedAt, sessions: {[session.id]: session}}; }
-const routeFor = (index = 0, view = "question", id = "session-test") => `#/study/session/${id}?q=${index}&view=${view}`;
+const routeFor = (index = 0, view = "", id = "session-test") => `#/study/session/${id}?q=${index}${view ? `&view=${view}` : ""}`;
 
 class Events {
   constructor() { this.listeners = new Map(); }
@@ -47,7 +47,7 @@ class Classes {
 class Element extends Events {
   constructor(id = "", parent = null) {
     super(); this.id = id; this.parent = parent; this.connected = true; this.children = new Map(); this.classList = new Classes();
-    this.dataset = {}; this._html = ""; this._text = ""; this.value = ""; this.hidden = false; this.disabled = false; this.style = {setProperty() {}}; this.focused = false;
+    this.dataset = {}; this._html = ""; this._text = ""; this.value = ""; this.hidden = false; this.disabled = false; this.style = {setProperty() {}}; this.focused = false; this.scrollTop = 0;
   }
   get isConnected() { return this.connected && (!this.parent || this.parent.isConnected); }
   disconnect() { this.connected = false; for (const value of this.children.values()) value.disconnect(); }
@@ -57,17 +57,23 @@ class Element extends Events {
   get textContent() { return this._text || this._html.replace(/<[^>]*>/g, ""); }
   querySelector(selector) {
     if (/^#[\w-]+\s+/.test(selector)) { const [head, ...rest] = selector.split(/\s+/); return this.querySelector(head)?.querySelector(rest.join(" ")) || null; }
+    if (this.children.get(selector)?.isConnected) return this.children.get(selector);
     let tag = "";
     const tags = this._html.match(/<[a-zA-Z][^>]*>/g) || [];
     if (selector.startsWith("#")) tag = tags.find(value => value.includes(`id="${selector.slice(1)}"`));
     else if (selector.startsWith(".")) tag = tags.find(value => new RegExp('class="[^"]*\\b' + selector.slice(1) + '\\b').test(value));
     else if (selector.startsWith("[")) tag = tags.find(value => value.includes(selector.slice(1, -1)));
     else if (selector === "input") tag = tags.find(value => value.startsWith("<input"));
-    if (!tag) return null;
+    if (!tag) {
+      for (const child of this.children.values()) { const nested = child.querySelector(selector); if (nested) return nested; }
+      return null;
+    }
     if (!this.children.has(selector)) {
       const child = new Element(selector, this);
+      child.ownerDocument = this.ownerDocument;
       for (const match of tag.matchAll(/([\w-]+)="([^"]*)"/g)) {
         if (match[1] === "class") child.classList.add(...match[2].split(/\s+/));
+        else if (match[1] === "style") child.style.cssText = match[2];
         else if (match[1].startsWith("data-")) child.dataset[match[1].slice(5).replace(/-([a-z])/g, (_, letter) => letter.toUpperCase())] = match[2];
         else child[match[1]] = match[2];
       }
@@ -83,7 +89,7 @@ class Element extends Events {
   querySelectorAll() { return []; }
   append(child) { child.parent = this; child.connected = true; this.children.set("append-" + this.children.size, child); }
   setAttribute(name, value) { this[name] = String(value); }
-  focus() { this.focused = true; }
+  focus() { this.focused = true; if (this.ownerDocument) this.ownerDocument.activeElement = this; }
   close() { this.open = false; }
   showModal() { this.open = true; }
   content() { return this._html + this._text + [...this.children.values()].filter(value => value.isConnected).map(value => value.content()).join(""); }
@@ -99,6 +105,7 @@ function harness(t, options = {}) {
   const session = options.session || baseSession(), seed = options.noSession ? {} : {[KEY]: JSON.stringify(progressFor(session))};
   const values = new Map(Object.entries({...seed, ...options.storage})), writes = [], fetches = [], timers = new Map();
   const root = new Element("view-practice"), app = new Element("app"), html = new Element("html"), window = new Events(), document = new Events();
+  root.ownerDocument = app.ownerDocument = html.ownerDocument = document;
   let clock = 1000, timerId = 0, uuid = 0, remembered = "practice", settingsOpened = 0;
   const location = {hash: options.hash || routeFor(), pathname: "/", search: "", href: "https://fixture.invalid/"};
   const historyEntries = [location.hash]; let historyIndex = 0;
@@ -115,7 +122,7 @@ function harness(t, options = {}) {
     "data/question-bank/papers/paper-one.json": {id: "paper-one", questionIds: QUESTION_IDS}, ...options.resources};
   const fetch = async path => { fetches.push(path); if (options.fetch?.[path]) return options.fetch[path]; return path in resources ? response(resources[path]) : {ok: false}; };
   const setTimer = callback => { const id = ++timerId; timers.set(id, callback); return id; }, clearTimer = id => timers.delete(id);
-  const cache = options.cache || memoryCache(), backend = [], explainCalls = [], renderWrites = [], jobs = new Map();
+  const cache = options.cache || memoryCache(), backend = [], explainCalls = [], renderWrites = [], jobs = new Map(), transitions = [];
   const settings = {apiKey: "mock-only", baseUrl: "https://no-paid-request.invalid/v1", model: "mock-model", ...options.settings};
   let providerFailures = options.providerFailures || 0;
   const client = AI.createClient({storage: cache, prompts: {version: "vm-test", instructions: async () => "只讲解当前题目。"}, getSettings: () => settings, timeoutMs: 5000,
@@ -132,6 +139,7 @@ function harness(t, options = {}) {
   const ai = options.aiService || {explain(args) { explainCalls.push(args); return client.explain(args); },
     renderMarkdown(host, text) { renderWrites.push({host, text, connected: host.isConnected}); host.textContent = text; }, openSettings() { settingsOpened++; }};
   Object.assign(window, {crypto: {subtle: webcrypto.subtle, randomUUID: () => "fixture-" + (++uuid)}, RichContent: {...Rich, hydrate() {}}, AIExplanation: ai,
+    PageTransitions: {enter(host, options) { transitions.push({host, options}); }, cancel() {}},
     AppUI: {refresh() {}}, LearningApp: {routeHandling: false, handlesRoute: hash => hash.startsWith("#/learn"),
       resolveRoute() { root.innerHTML = '<article id="learning-owned">LEARNING_CONTENT</article>'; return Promise.resolve(); },
       rememberMode(value) { remembered = value; }, lastMode: () => remembered, modeSwitchMarkup: () => ""}});
@@ -141,8 +149,9 @@ function harness(t, options = {}) {
     CustomEvent: class { constructor(type, value) { this.type = type; Object.assign(this, value); } }});
   for (const source of scripts) vm.runInContext(source, context, {timeout: 1000});
   const h = {
-    root, window, location, history, localStorage, cache, backend, explainCalls, renderWrites, fetches, settings,
+    root, window, document, location, history, localStorage, cache, backend, explainCalls, renderWrites, fetches, settings, transitions,
     get settingsOpened() { return settingsOpened; },
+    get historyLength() { return historyEntries.length; },
     async settle() { for (let i = 0; i < 10; i++) await new Promise(resolve => setImmediate(resolve)); },
     async navigate(hash) { location.hash = hash; window.dispatchEvent({type: "hashchange"}); await this.settle(); },
     async action(action, data = {}) {
@@ -173,7 +182,9 @@ function harness(t, options = {}) {
 }
 
 test("empty single/fill answers stay on the question card and never expose answers or start AI", async t => {
-  const h = harness(t); await h.settle(); await h.action("next");
+  const h = harness(t); await h.settle();
+  assert.equal(h.root.querySelector('[data-drill-action="next"]').disabled, false, "empty submit remains clickable so it can explain the required action");
+  await h.action("next");
   assert.equal(h.location.hash, routeFor()); assert.match(h.root.querySelector(".drill-notice").textContent, /先选择答案/);
   assert.doesNotMatch(h.text(), /SOURCE_Q1|超级思维解析/); assert.equal(h.explainCalls.length, 0);
   await h.navigate(routeFor(1)); await h.answer([]); await h.action("next");
@@ -183,23 +194,39 @@ test("empty single/fill answers stay on the question card and never expose answe
   h.flush(); assert.equal(Object.keys(h.progress().sessions["session-test"].answers).length, 0);
 });
 
-test("submission produces exactly the question/answer flow, separate source and AI regions, and one initial explain", async t => {
-  const h = harness(t); await h.settle(); await h.answer("A"); await h.action("next");
-  await until(() => h.backend.length === 1);
-  assert.equal(h.location.hash, routeFor(0, "answer"));
+test("submission preserves the question/pane/focus, expands both explanations inline and locks the submitted answer", async t => {
+  const h = harness(t); await h.settle();
+  const host = h.root.querySelector("#drill-question"), pane = h.root.querySelector(".drill-question-pane"), button = h.root.querySelector('[data-drill-action="next"]');
+  pane.scrollTop = 420; button.focus(); const transitions = h.transitions.length, historyLength = h.historyLength;
+  await h.answer("A"); await h.action("next"); await until(() => h.backend.length === 1);
+  assert.equal(h.location.hash, routeFor());
+  assert.equal(h.historyLength, historyLength, "submission does not create a separate answer history entry");
+  assert.equal(h.root.querySelector("#drill-question"), host, "submission must keep the question host in place");
+  assert.equal(h.root.querySelector(".drill-question-pane"), pane); assert.equal(pane.scrollTop, 420);
+  assert.equal(h.document.activeElement, button, "the existing submit/next toolbar button keeps keyboard focus");
+  assert.equal(h.transitions.length, transitions, "submission must not start a page transition");
+  assert.equal(h.root.querySelector(".drill-question-layout").classList.contains("is-submitted"), true);
+  assert.equal(h.root.querySelector("#drill-explanation").hidden, false);
+  assert.match(host.innerHTML, /请选择乙/); assert.match(host.innerHTML, /value="A" checked disabled/);
+  assert.match(host.innerHTML, /has-feedback/); assert.match(button.innerHTML, /下一题/);
   assert.match(h.text(), /题目来源答案和解析/); assert.match(h.text(), /SOURCE_Q1/); assert.match(h.text(), /超级思维解析/);
   assert.equal(h.explainCalls.length, 1); assert.equal(h.backend[0].qid, QUESTION_IDS[0]);
   assert.equal(h.root.querySelector("#drill-ai-body").dataset.questionId, QUESTION_IDS[0]);
   h.complete(QUESTION_IDS[0]); await until(() => h.cache.values.size === 1); await h.settle();
   assert.match(h.root.querySelector("#drill-ai-body").textContent, /AI_drill-q1/);
-  assert.equal(h.root.querySelector("#drill-ai-state").textContent, "已生成");
   h.flush(); const submitted = h.progress().sessions["session-test"].answers[QUESTION_IDS[0]];
   assert.equal(submitted.answer, "A"); assert.equal(submitted.status, "incorrect");
-  await h.action("previous"); assert.equal(h.location.hash, routeFor()); assert.match(h.root.querySelector("#drill-question").innerHTML, /value="A" checked/);
-  await h.action("next"); await h.settle();
-  assert.equal(h.backend.length, 1); assert.equal(h.root.querySelector("#drill-ai-state").textContent, "已保存");
-  h.flush(); assert.equal(h.progress().sessions["session-test"].answers[QUESTION_IDS[0]].submittedAt, submitted.submittedAt);
-  await h.action("next"); assert.equal(h.location.hash, routeFor(1)); assert.doesNotMatch(h.text(), /SOURCE_Q2/);
+  await h.action("next"); assert.equal(h.location.hash, routeFor(1));
+  assert.doesNotMatch(h.text(), /SOURCE_Q1|SOURCE_Q2|超级思维解析/);
+  assert.doesNotMatch(h.root.querySelector("#drill-question").innerHTML, /has-feedback|readonly|disabled/);
+  assert.equal(h.backend.length, 1, "opening the next unsubmitted question does not prefetch its AI");
+  await h.action("previous"); await until(() => h.root.querySelector("#drill-ai-state")?.textContent === "已保存");
+  assert.equal(h.location.hash, routeFor()); assert.match(h.root.querySelector("#drill-question").innerHTML, /value="A" checked disabled/);
+  await h.answer("B"); h.flush();
+  assert.equal(h.progress().sessions["session-test"].answers[QUESTION_IDS[0]].answer, "A");
+  assert.equal(h.progress().sessions["session-test"].drafts[QUESTION_IDS[0]].value, "A");
+  assert.equal(h.progress().sessions["session-test"].answers[QUESTION_IDS[0]].submittedAt, submitted.submittedAt);
+  assert.equal(h.backend.length, 1);
 });
 
 test("flipping unsubscribes the old UI but its real shared job completes into cache and never writes the new card", async t => {
@@ -214,7 +241,7 @@ test("flipping unsubscribes the old UI but its real shared job completes into ca
   assert.equal(h.renderWrites.filter(value => !value.connected).length, 0);
   await h.action("previous"); await h.settle();
   await until(() => h.root.querySelector("#drill-ai-state")?.textContent === "已保存");
-  assert.equal(h.location.hash, routeFor(0, "answer")); assert.equal(h.backend.length, 1);
+  assert.equal(h.location.hash, routeFor()); assert.equal(h.backend.length, 1);
   assert.match(h.root.querySelector("#drill-ai-body").textContent, /OLD_PARTIAL/);
   assert.equal(h.root.querySelector("#drill-ai-state").textContent, "已保存");
 });
@@ -263,7 +290,58 @@ test("quick-jump and forged answer deep links cannot reveal an unsubmitted sourc
   assert.doesNotMatch(h.text(), /SOURCE_Q2|超级思维解析/);
   await h.navigate(routeFor(1, "answer")); assert.equal(h.location.hash, routeFor(1));
   assert.match(h.root.querySelector(".drill-notice").textContent, /先完成这道题/);
+  await h.navigate(`${routeFor(1)}&side=answer`); assert.equal(h.location.hash, routeFor(1));
+  assert.match(h.root.querySelector(".drill-notice").textContent, /先完成这道题/);
+  assert.doesNotMatch(h.text(), /SOURCE_Q2|超级思维解析/);
   assert.equal(h.explainCalls.length, 0); h.flush(); assert.equal(Object.keys(h.progress().sessions["session-test"].answers).length, 0);
+});
+
+test("legacy submitted deep links show question plus answer and never promote a later unsubmitted draft", async t => {
+  let session = Core.submit(baseSession(), questions[0], "A", () => "incorrect", 110);
+  session = { ...session, updatedAt: 150, drafts: { ...session.drafts, [QUESTION_IDS[0]]: { value: "B", updatedAt: 150 } } };
+  const h = harness(t, {session, hash: `${routeFor()}&side=answer`, immediateAI: true});
+  await h.settle(); await until(() => h.cache.values.size === 1);
+  assert.equal(h.location.hash, routeFor()); assert.match(h.root.querySelector("#drill-question").innerHTML, /value="A" checked disabled/);
+  assert.doesNotMatch(h.root.querySelector("#drill-question").innerHTML, /value="B" checked/);
+  assert.match(h.text(), /SOURCE_Q1|我们的答案 A/);
+  await h.navigate(routeFor(0, "question")); await h.settle();
+  assert.equal(h.location.hash, routeFor()); assert.equal(h.root.querySelector("#drill-explanation").hidden, false);
+  assert.equal(h.backend.length, 1); assert.match(h.root.querySelector("#drill-question").innerHTML, /value="A" checked disabled/);
+});
+
+test("multi-select and fill submissions lock in place and the next question starts without prior feedback", async t => {
+  const h = harness(t, {hash: routeFor(1), immediateAI: true}); await h.settle(); await h.answer(["A", "C"]); await h.action("next");
+  await until(() => h.cache.values.size === 1);
+  let markup = h.root.querySelector("#drill-question").innerHTML;
+  assert.match(markup, /value="A" checked disabled/); assert.match(markup, /value="C" checked disabled/);
+  assert.equal(h.location.hash, routeFor(1)); await h.answer(["B"]); h.flush();
+  assert.deepEqual(h.progress().sessions["session-test"].answers[QUESTION_IDS[1]].answer, ["A", "C"]);
+  await h.action("next"); assert.equal(h.location.hash, routeFor(2));
+  assert.equal(h.root.querySelector("#drill-explanation").hidden, true); assert.doesNotMatch(h.text(), /SOURCE_Q2/);
+  await h.answer("42"); await h.action("next"); await until(() => h.cache.values.size === 2);
+  markup = h.root.querySelector("#drill-question").innerHTML;
+  assert.match(markup, /value="42"[^>]* readonly/); assert.match(h.root.querySelector('[data-drill-action="next"]').innerHTML, /完成练习/);
+  assert.equal(h.location.hash, routeFor(2)); await h.answer("0"); h.flush();
+  assert.equal(h.progress().sessions["session-test"].answers[QUESTION_IDS[2]].answer, "42");
+});
+
+test("disputed references remain visible and missing reference answers submit with neutral feedback", async t => {
+  const disputed = clone(questions);
+  disputed[0].sourceAnswer.notice = "来源答案存在分歧";
+  disputed[0].alternativeReferences = [{answer: "A", provider: "另一来源", url: "https://reference.invalid/answer"}];
+  const h = harness(t, {resources: {"data/question-bank/subjects/language.json": {questions: disputed}}, immediateAI: true});
+  await h.settle(); assert.doesNotMatch(h.text(), /来源答案存在分歧|另一来源/);
+  await h.answer("A"); await h.action("next"); await until(() => h.cache.values.size === 1);
+  assert.match(h.text(), /来源答案存在分歧/); assert.match(h.text(), /另一来源/); assert.match(h.text(), /我们的答案 A/);
+  const missing = clone(questions); delete missing[0].answer; missing[0].sourceAnswer = {provider: "来源尚未核验"};
+  const session = Core.createSession({id: "session-test", subjectId: "language", questionIds: [QUESTION_IDS[0]], now: 100});
+  const unknown = harness(t, {session, resources: {"data/question-bank/subjects/language.json": {questions: missing}}, immediateAI: true});
+  await unknown.settle(); await unknown.answer("A"); await unknown.action("next"); await until(() => unknown.cache.values.size === 1);
+  assert.match(unknown.root.querySelector("#drill-question").innerHTML, /is-neutral/);
+  assert.doesNotMatch(unknown.root.querySelector("#drill-question").innerHTML, /is-correct|is-incorrect/);
+  assert.match(unknown.text(), /暂无|本题不计分/); unknown.flush();
+  assert.equal(unknown.progress().sessions["session-test"].answers[QUESTION_IDS[0]].status, "ungraded");
+  await unknown.action("next"); assert.match(unknown.text(), /正确率/); assert.doesNotMatch(unknown.text(), /null|NaN/);
 });
 
 test("leaving for learning invalidates late AI and question-bank failures without overwriting its page", async t => {
@@ -301,4 +379,25 @@ test("running state replaces queued status as soon as the real request starts", 
   const h = harness(t); await h.settle(); await h.answer("B"); await h.action("next"); await until(() => h.backend.length === 1);
   assert.equal(h.root.querySelector("#drill-ai-state").textContent, "生成中");
   h.complete(QUESTION_IDS[0]); await until(() => h.cache.values.size === 1);
+});
+
+test("focused formula/table scrollers keep arrow keys while ordinary question focus still submits", async t => {
+  const h = harness(t, {hash: routeFor(1)}); await h.settle(); await h.answer(["A", "C"]);
+  for (const scroller of [".rich-content__math--display", ".rich-content__table-scroll"]) {
+    for (const key of ["ArrowLeft", "ArrowRight"]) {
+      let prevented = false;
+      h.document.dispatchEvent({type: "keydown", key,
+        target: {closest: selector => selector.includes(scroller) ? {} : null},
+        preventDefault() { prevented = true; }});
+      await h.settle();
+      assert.equal(prevented, false, `${scroller} ${key} must remain available for horizontal scrolling`);
+      assert.equal(h.location.hash, routeFor(1));
+      assert.equal(h.root.querySelector("#drill-explanation").hidden, true);
+      assert.equal(h.explainCalls.length, 0);
+    }
+  }
+  let prevented = false;
+  h.document.dispatchEvent({type: "keydown", key: "ArrowRight", target: {closest: () => null}, preventDefault() { prevented = true; }});
+  await h.settle(); await until(() => h.backend.length === 1);
+  assert.equal(prevented, true); assert.equal(h.root.querySelector("#drill-explanation").hidden, false);
 });

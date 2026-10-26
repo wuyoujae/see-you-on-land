@@ -52,13 +52,14 @@
 .drill-card .practice-option .rich-content__figure img { max-height:15rem; width:auto; object-fit:contain; }
 .drill-card .practice-options--letters { grid-template-columns:repeat(4,minmax(0,1fr)); }
 .drill-card .practice-options--letters .practice-option>span { justify-content:center; }
-.drill-source-answer h1 { font-size:1.25rem; margin-bottom:1.1rem; }
-.drill-answer-result { display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:1rem 1.25rem; background:#eef7e5; border-radius:1rem; margin-bottom:1.3rem; color:#447328; }
-.drill-answer-result.incorrect { background:#fff5e0; color:#95651d; }
-.drill-answer-result>div { display:flex; align-items:center; gap:1rem; }
-.drill-answer-result>div>span { color:#637357; font-size:.8rem; }
-.drill-answer-result strong { font-size:1.8rem; font-weight:650; line-height:1.2; overflow-wrap:anywhere; }
-.drill-answer-result>span { display:flex; align-items:center; gap:.4rem; font-size:.8rem; }
+.drill-source-answer :is(h1,h2) { font-size:1.25rem; margin:0 0 1.1rem; }
+.drill-answer-result { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:.65rem 1rem; padding:1rem 1.25rem; background:#eef7e5; border-radius:1rem; margin-bottom:1.3rem; color:#447328; }
+.drill-answer-result.incorrect { background:var(--danger-soft,#fcf0ec); color:#923c38; }
+.drill-answer-result.ungraded { background:var(--surface,#f3f6f0); color:var(--muted-strong,#52604f); }
+.drill-answer-result>div { display:flex; align-items:center; gap:1rem; min-width:0; }
+.drill-answer-result>div>span { color:#637357; font-size:.8rem; white-space:nowrap; }
+.drill-answer-result strong { font-size:1.8rem; font-weight:650; line-height:1.2; overflow-wrap:anywhere; min-width:0; }
+.drill-answer-result>span { display:flex; align-items:center; gap:.4rem; font-size:.8rem; overflow-wrap:anywhere; }
 .drill-answer-result svg { width:1.1rem; height:1.1rem; }
 .drill-source-explanation { font-size:.92rem; line-height:1.9; }
 .drill-source-details { margin:.7rem 0 .4rem; }
@@ -145,7 +146,7 @@
   .drill-answer-result strong { font-size:1.5rem; }
   .drill-answer-result>span { font-size:.7rem; }
   .drill-answer-result>div { gap:.65rem; }
-  .drill-source-answer h1,.drill-ai-section h2 { font-size:1.05rem; }
+  .drill-source-answer :is(h1,h2),.drill-ai-section h2 { font-size:1.05rem; }
   .drill-source-explanation,#drill-ai-body,.practice-material { font-size:.88rem; }
   .drill-ai-section { padding-top:1.3rem; margin-top:1.3rem; }
   .drill-resume-count { font-size:.68rem; }

@@ -73,6 +73,46 @@ test("flattening retains lesson boundaries and gives a continuous next-card orde
   assert.deepEqual(Core.flattenLessons([]), []);
 });
 
+test("inline question navigation preserves raw IDs and maps every former explanation page to its owner", () => {
+  const more = {...explanation, id: "q-one-explanation-more"};
+  const other = {id: "q-two-question", type: "question", question: {id: "q-two", type: "single", answer: "A"}};
+  const otherSolution = {id: "q-two-explanation", type: "text", role: "explanation", questionId: "q-two"};
+  const flat = Core.flattenLessons([{id: "one", title: "知识点", cards: [knowledge, question, explanation, more, other, otherSolution]}]);
+  const before = structuredClone(flat);
+  assert.deepEqual(Core.navigationCards(flat).map(card => [card.id, card.index, card.cardIndex]), [
+    [knowledge.id, 0, 0], [question.id, 1, 1], [other.id, 4, 4]
+  ]);
+  assert.equal(Core.ownerCard(flat, flat[2]), flat[1]);
+  assert.equal(Core.ownerCard(flat, more.id), flat[1]);
+  assert.equal(Core.ownerCard(flat, flat[5]), flat[4]);
+  assert.equal(Core.ownerCard(flat, "missing"), null);
+  assert.deepEqual(Core.explanationsFor(flat, flat[1]).map(card => card.id), [explanation.id, more.id]);
+  assert.deepEqual(Core.explanationsFor(flat, flat[4]).map(card => card.id), [otherSolution.id]);
+  assert.deepEqual(flat, before);
+});
+
+test("showing submitted inline analysis completes all original explanation IDs once but drafts and jumps complete nothing", () => {
+  const more = {...explanation, id: "q-one-explanation-more"};
+  const all = [knowledge, question, explanation, more];
+  const empty = Core.createRecord();
+  const drafted = {...empty, drafts: {"q-one": {value: "B", updatedAt: 10}}, completed: {[explanation.id]: 11}};
+  assert.equal(Core.completeQuestion(all, question, empty, 20), empty);
+  assert.equal(Core.completeQuestion(all, question, drafted, 20), drafted);
+  assert.equal(Core.submittedAnswer(question, drafted), null);
+  assert.equal(Core.stepComplete(all, question, drafted), false);
+  const submitted = Core.submit(question, "A", empty, grade, 30), before = jsonCopy(submitted);
+  const shown = Core.completeQuestion(all, question, submitted, 40);
+  assert.deepEqual(shown.completed, {[question.id]: 30, [explanation.id]: 40, [more.id]: 40});
+  assert.equal(Core.progress(all, shown).completed, 3);
+  assert.equal(Core.progress(all, shown).correct, 0);
+  assert.equal(Core.completeQuestion(all, question, shown, 50), shown);
+  assert.equal(Core.stepComplete(all, question, shown), true);
+  assert.deepEqual(submitted, before);
+  const restored = Core.mergeRecord({}, shown);
+  assert.deepEqual(restored, shown);
+  assert.equal(Core.submittedAnswer(question, restored).answer, "A");
+});
+
 test("PDF references inherit from lessons, permit per-card pages and never mutate source data", () => {
   const source = {type: "pdf", documentId: "quantity-wy27", title: "数量关系讲义", pages: [7, 8, 9], printedPages: [1, 2, 3]};
   const override = {...source, pages: [11, 10, 10, 14], printedPages: [5, 4, 4, 8]};

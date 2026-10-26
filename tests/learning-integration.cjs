@@ -37,6 +37,13 @@ const fixtureManifest = { version: 1, subjects: [{ id: "language", title: "言�
 const clone = value => JSON.parse(JSON.stringify(value));
 const deferred = () => { let resolve, reject; const promise = new Promise((yes, no) => { resolve = yes; reject = no; }); return { promise, resolve, reject }; };
 const response = value => ({ ok: true, json: async () => clone(value) });
+function resourcesForLesson(lesson) {
+  const manifest = clone(fixtureManifest), meta = manifest.subjects[0].groups[0].lessons[0];
+  meta.cardCount = lesson.cards.length; meta.cardIds = lesson.cards.map(card => card.id);
+  meta.questionIds = lesson.cards.filter(card => card.type === "question").map(card => card.question.id);
+  meta.questionCount = meta.questionIds.length;
+  return {"data/courses/manifest.json": manifest, "data/courses/lessons/lesson-one.json": lesson};
+}
 
 class Events {
   constructor() { this.listeners = new Map(); }
@@ -60,6 +67,7 @@ class Element extends Events {
     if (selector.startsWith("#")) present = this._html.includes(`id="${selector.slice(1)}"`);
     else if (selector.startsWith(".")) present = this._html.includes(selector.slice(1));
     else if (selector.startsWith("[data-learn-action=")) present = this._html.includes(selector.slice(1, -1));
+    else if (selector.startsWith("input")) present = [...this._html.matchAll(/<input\b[^>]*>/g)].some(match => !selector.includes(":not([disabled])") || !/\sdisabled(?:[\s=>])/.test(match[0]));
     else present = false;
     if (!present) return null;
     if (!this.children.has(selector)) {
@@ -72,7 +80,7 @@ class Element extends Events {
   querySelectorAll() { return []; }
   insertAdjacentHTML(_where, html) { this._html += html; }
   scrollTo() {}
-  focus() {}
+  focus(options) { this.focused = true; this.focusOptions = options; }
   close() { this.open = false; }
   showModal() { this.open = true; }
   setAttribute() {}
@@ -141,7 +149,7 @@ function harness(options = {}) {
   vm.runInContext(componentSource, context, { timeout: 1000 });
   vm.runInContext(practiceSource, context, { timeout: 1000 });
   return {
-    window, root, app, location, history, localStorage, writes, fetches,
+    window, document, root, app, location, history, localStorage, writes, fetches,
     async settle() { for (let i = 0; i < 8; i++) await new Promise(resolve => setImmediate(resolve)); },
     async navigate(hash) { location.hash = hash; window.dispatchEvent({ type: "hashchange" }); await this.settle(); },
     async action(action, data = {}) {
@@ -153,10 +161,10 @@ function harness(options = {}) {
       } };
       root.dispatchEvent({ type: "click", target, preventDefault() {} }); await this.settle();
     },
-    async answer(value) {
+    async answer(value, questionId = "q-one") {
       const host = root.querySelector("#learn-question-host");
       assert.ok(host, "question must actually be mounted");
-      const field = { dataset: { questionId: "q-one" } };
+      const field = { dataset: { questionId } };
       host.dispatchEvent({ type: "input", target: { value, closest: selector => selector === "[data-question-id]" ? field : null } });
       await this.settle();
     },
@@ -176,8 +184,10 @@ test("refreshing an unsubmitted analysis deep link redirects to its question wit
   assert.equal(h.location.hash, questionHash);
   assert.match(h.text(), /请选择乙/);
   assert.doesNotMatch(h.text(), /PRIVATE_SOLUTION/);
-  assert.equal(h.root.querySelector('[data-learn-action="next"]').disabled, true);
+  assert.equal(h.root.querySelector('[data-learn-action="next"]').disabled, false);
   await h.action("next");
+  assert.equal(h.root.querySelector(".learn-notice").textContent, "请先选择或填写答案，再提交。");
+  assert.equal(h.root.querySelector("#learn-question-host").querySelector("input:not([disabled]),textarea:not([disabled])").focused, true);
   assert.equal(h.location.hash, questionHash);
   h.window.LearningApp.flush();
   assert.equal(Object.keys(h.course().groups["group-one"].completed).length, 0);
@@ -228,7 +238,7 @@ test("an unverified problem can be submitted and revisited without being labeled
   Object.assign(lesson.cards[1].question, {grading: "unverified", sourceAnswer: {answer: "B"}, sourceIssue: "原页比例空缺"});
   const h = harness({hash: questionHash, resources: {"data/courses/lessons/lesson-one.json": lesson}});
   await h.settle(); await h.answer("B"); await h.action("next");
-  assert.equal(h.location.hash, explanationHash);
+  assert.equal(h.location.hash, questionHash);
   assert.match(h.text(), /本题条件待核，不计分/); assert.match(h.text(), /来源参考 B/);
   assert.doesNotMatch(h.text(), /答对了！|正确答案|一起看看这道题/);
   h.runTimers(); assert.equal(h.course().groups["group-one"].answers["q-one"].status, "ungraded");
@@ -236,31 +246,146 @@ test("an unverified problem can be submitted and revisited without being labeled
   assert.match(h.text(), /本题条件待核，不计分/);
 });
 
-test("Next submits, opens analysis, preserves the answer on Back and advances into the next knowledge point", async () => {
+test("Next submits in place, locks the submitted answer, and skips the former analysis page in both directions", async () => {
   const h = harness(); await h.settle();
   await h.action("next"); assert.equal(h.location.hash, questionHash);
   await h.answer("A"); await h.action("next");
-  assert.equal(h.location.hash, explanationHash);
+  assert.equal(h.location.hash, questionHash);
   assert.match(h.text(), /PRIVATE_SOLUTION/);
   assert.match(h.text(), /我们的答案 A/);
   assert.match(h.text(), /正确答案 B/);
   h.window.LearningApp.flush();
   const submittedAt = h.course().groups["group-one"].answers["q-one"].submittedAt;
-  await h.action("previous"); assert.equal(h.location.hash, questionHash);
-  assert.match(h.text(), /value="A" checked/);
-  await h.action("next"); h.window.LearningApp.flush();
+  assert.match(h.text(), /value="A" checked disabled/);
+  assert.match(h.text(), /study-question-layout is-submitted/);
+  assert.match(h.text(), /study-question-pane[^>]*tabindex="0"[^>]*aria-label="题目"/);
+  assert.match(h.text(), /study-explanation-pane[^>]*tabindex="0"[^>]*aria-label="解析"/);
+  await h.action("previous"); assert.equal(h.location.hash, firstHash);
+  await h.action("next"); assert.equal(h.location.hash, questionHash);
+  assert.match(h.text(), /value="A" checked disabled/);
+  h.window.LearningApp.flush();
   assert.equal(h.course().groups["group-one"].answers["q-one"].submittedAt, submittedAt);
   await h.action("next"); assert.equal(h.location.hash, nextLessonHash);
   assert.match(h.text(), /下一知识点正文/);
+  await h.action("previous"); assert.equal(h.location.hash, questionHash);
+  assert.match(h.text(), /PRIVATE_SOLUTION/);
+  await h.action("next"); assert.equal(h.location.hash, nextLessonHash);
   await h.action("next");
   assert.match(h.text(), /这一关，学会了/);
   assert.equal(Object.keys(h.course().groups["group-one"].completed).length, 4);
 });
 
+test("all original analysis parts display together after one submit and never reveal the next question's analysis", async () => {
+  const lesson = clone(fixtureLessons[0]);
+  lesson.cards.push({id: "explanation-one-more", type: "text", role: "explanation", questionId: "q-one", title: "补充方法",
+    blocks: [{type: "paragraph", text: "SECOND_SOLUTION_PART"}, {type: "formula", latex: "x_1=2"}]});
+  lesson.cards.push({id: "question-two", type: "question", title: "第二例题", question: {id: "q-two", type: "single", stem: "SECOND_QUESTION", answer: "A", options: [{value: "A", label: "一"}, {value: "B", label: "二"}]}});
+  lesson.cards.push({id: "explanation-two", type: "text", role: "explanation", questionId: "q-two", title: "下一题解析", blocks: [{type: "paragraph", text: "FUTURE_PRIVATE_SOLUTION"}]});
+  const h = harness({hash: questionHash, resources: resourcesForLesson(lesson)}); await h.settle();
+  assert.doesNotMatch(h.text(), /PRIVATE_SOLUTION|SECOND_SOLUTION_PART|FUTURE_PRIVATE_SOLUTION/);
+  assert.doesNotMatch(h.text(), /data-learn-jump="(?:2|3|5)"/);
+  await h.answer("A"); await h.action("next");
+  assert.equal(h.location.hash, questionHash);
+  const html = h.text();
+  assert.ok(html.indexOf("PRIVATE_SOLUTION") < html.indexOf("SECOND_SOLUTION_PART"));
+  assert.match(html, /data-learn-explanation-id="explanation-one"/);
+  assert.match(html, /data-learn-explanation-id="explanation-one-more"/);
+  assert.doesNotMatch(html, /FUTURE_PRIVATE_SOLUTION/);
+  await h.answer("B"); h.window.LearningApp.flush();
+  const rec = h.course().groups["group-one"];
+  assert.equal(rec.answers["q-one"].answer, "A", "readonly input events cannot alter the submission");
+  assert.deepEqual(Object.keys(rec.completed).sort(), ["explanation-one", "explanation-one-more", "question-one"]);
+  await h.action("next");
+  assert.equal(h.location.hash, "#/learn/language/group-one/lesson-one?card=4");
+  assert.match(h.text(), /SECOND_QUESTION/);
+  assert.doesNotMatch(h.text(), /FUTURE_PRIVATE_SOLUTION|study-question-layout is-submitted/);
+  await h.action("previous"); assert.equal(h.location.hash, questionHash);
+  assert.match(h.text(), /SECOND_SOLUTION_PART/);
+});
+
+test("submission preserves current reading scroll and never focuses or scrolls into the analysis pane", async () => {
+  const h = harness({hash: questionHash}); await h.settle();
+  h.root.querySelector(".learn-stage").scrollTop = 420;
+  h.root.querySelector(".study-question-pane").scrollTop = 110;
+  h.document.activeElement = {closest: () => ({dataset: {learnAction: "next"}})};
+  const transitions = [];
+  h.window.PageTransitions = {enter(_root, settings) { transitions.push(settings); }};
+  await h.answer("B"); await h.action("next");
+  assert.equal(h.location.hash, questionHash);
+  assert.equal(h.root.querySelector(".learn-stage").scrollTop, 420);
+  assert.equal(h.root.querySelector(".study-question-pane").scrollTop, 110);
+  assert.equal(h.root.querySelector(".study-explanation-pane").focused, undefined);
+  assert.deepEqual(transitions, []);
+  const next = h.root.querySelector('[data-learn-action="next"]');
+  assert.equal(next.focused, true); assert.equal(next.focusOptions.preventScroll, true);
+  assert.match(h.text(), /data-learn-action="previous" aria-label="上一页"/);
+});
+
+test("horizontal scrolling of formulas and tables does not flip a submitted learning question", async () => {
+  const h = harness({hash: questionHash}); await h.settle(); await h.answer("B"); await h.action("next");
+  for (const container of [".rich-content__math--display", ".rich-content__table-scroll"]) {
+    h.root.dispatchEvent({type: "touchstart", touches: [{clientX: 300, clientY: 100}], target: {closest: selector => selector.includes(container) ? {} : null}});
+    h.root.dispatchEvent({type: "touchend", changedTouches: [{clientX: 50, clientY: 100}]});
+    await h.settle(); assert.equal(h.location.hash, questionHash);
+  }
+  h.root.dispatchEvent({type: "touchstart", touches: [{clientX: 300, clientY: 100}], target: {closest: () => null}});
+  h.root.dispatchEvent({type: "touchend", changedTouches: [{clientX: 50, clientY: 100}]});
+  await h.settle(); assert.equal(h.location.hash, nextLessonHash);
+});
+
+test("arrow keys focused in scrollable formulas and tables remain native scrolling rather than question navigation", async () => {
+  const h = harness({hash: questionHash}); await h.settle(); await h.answer("B"); await h.action("next");
+  for (const container of [".rich-content__math--display", ".rich-content__table-scroll"]) {
+    for (const key of ["ArrowLeft", "ArrowRight"]) {
+      let prevented = false;
+      h.document.dispatchEvent({type: "keydown", key, target: {closest: selector => selector.includes(container) ? {} : null}, preventDefault() { prevented = true; }});
+      await h.settle();
+      assert.equal(prevented, false); assert.equal(h.location.hash, questionHash);
+    }
+  }
+  let prevented = false;
+  h.document.dispatchEvent({type: "keydown", key: "ArrowRight", target: {closest: () => null}, preventDefault() { prevented = true; }});
+  await h.settle();
+  assert.equal(prevented, true); assert.equal(h.location.hash, nextLessonHash);
+});
+
+test("resuming a legacy explanation restores the actual submitted answer rather than its newer unsubmitted draft", async () => {
+  const stored = {version: 1, updatedAt: 200, groups: {"group-one": {
+    ...Core.createRecord(), lastCardId: "explanation-one", updatedAt: 200,
+    completed: {"knowledge-one": 50, "question-one": 100},
+    answers: {"q-one": {answer: "A", status: "incorrect", submittedAt: 100}},
+    drafts: {"q-one": {value: "B", updatedAt: 200}}
+  }}};
+  const h = harness({hash: "#/learn", storage: {[COURSE_KEY]: JSON.stringify(stored)}}); await h.settle();
+  await h.action(null, {learnResume: "group-one"});
+  assert.equal(h.location.hash, questionHash); assert.match(h.text(), /PRIVATE_SOLUTION/);
+  assert.match(h.text(), /value="A" checked disabled/); assert.doesNotMatch(h.text(), /value="B" checked/);
+  h.window.LearningApp.flush();
+  const rec = h.course().groups["group-one"];
+  assert.equal(rec.lastCardId, "question-one"); assert.equal(rec.answers["q-one"].submittedAt, 100);
+  assert.equal(rec.drafts["q-one"].value, "B", "historical draft may survive, but cannot become the displayed answer");
+  assert.ok(rec.completed["explanation-one"]);
+});
+
+test("legacy completion flags and drafts cannot reveal answers or deadlock Continue unfinished", async () => {
+  const stored = {version: 1, updatedAt: 200, groups: {"group-one": {
+    ...Core.createRecord(), lastCardId: "explanation-one", updatedAt: 200,
+    completed: {"knowledge-one": 100, "question-one": 100, "explanation-one": 100, "knowledge-two": 100},
+    drafts: {"q-one": {value: "B", updatedAt: 200}}
+  }}};
+  const h = harness({hash: explanationHash, storage: {[COURSE_KEY]: JSON.stringify(stored)}}); await h.settle();
+  assert.equal(h.location.hash, questionHash); assert.doesNotMatch(h.text(), /PRIVATE_SOLUTION/);
+  await h.navigate(nextLessonHash); await h.action("next");
+  assert.match(h.text(), /这一轮学习结束/);
+  await h.action("unfinished");
+  assert.equal(h.location.hash, questionHash); assert.doesNotMatch(h.text(), /PRIVATE_SOLUTION/);
+  assert.match(h.text(), /提交答案/);
+});
+
 test("quick jumps cannot expose unsubmitted analysis or inflate completed progress", async () => {
   const h = harness(); await h.settle();
   await h.action(null, { learnJump: "2" });
-  assert.equal(h.location.hash, firstHash);
+  assert.equal(h.location.hash, questionHash);
   assert.doesNotMatch(h.text(), /PRIVATE_SOLUTION/);
   await h.action(null, { learnJump: "3" });
   assert.equal(h.location.hash, nextLessonHash);
@@ -273,18 +398,20 @@ test("quick jumps cannot expose unsubmitted analysis or inflate completed progre
   assert.equal(h.location.hash, firstHash);
 });
 
-test("history Back/Forward and a new page instance restore submissions without legacy route replacement", async () => {
+test("history restores the question with inline analysis and old analysis links canonicalize to the question", async () => {
   const h = harness(); await h.settle(); await h.action("next"); await h.answer("B"); await h.action("next");
+  assert.equal(h.location.hash, questionHash);
+  await h.action("next"); assert.equal(h.location.hash, nextLessonHash);
   h.history.go(-1); await h.settle();
   assert.equal(h.location.hash, questionHash);
   assert.match(h.text(), /value="B" checked/);
   h.history.go(1); await h.settle();
-  assert.equal(h.location.hash, explanationHash);
-  assert.match(h.text(), /PRIVATE_SOLUTION/);
+  assert.equal(h.location.hash, nextLessonHash);
+  assert.match(h.text(), /下一知识点正文/);
   h.window.LearningApp.flush();
   const refreshed = harness({ hash: explanationHash, storage: { [COURSE_KEY]: h.localStorage.getItem(COURSE_KEY) } });
   await refreshed.settle();
-  assert.equal(refreshed.location.hash, explanationHash);
+  assert.equal(refreshed.location.hash, questionHash);
   assert.match(refreshed.text(), /PRIVATE_SOLUTION/);
   assert.match(refreshed.text(), /答对了/);
 });
@@ -337,7 +464,10 @@ test("storage refresh merges a newer submission without a write/re-render feedba
   h.localStorage.setItem(COURSE_KEY, JSON.stringify(remote));
   const before = h.writes.length;
   h.window.dispatchEvent({ type: "storage", key: COURSE_KEY }); await h.settle(); h.runTimers();
-  assert.equal(h.writes.length, before, "storage notification must not write a newer navigation timestamp");
+  assert.equal(h.writes.length, before + 1, "showing the restored answer completes its original analysis card once");
+  const after = h.writes.length;
+  h.window.dispatchEvent({ type: "storage", key: COURSE_KEY }); await h.settle(); h.runTimers();
+  assert.equal(h.writes.length, after, "repeated storage notification must not cause a write/render feedback loop");
   await h.navigate(explanationHash);
   assert.match(h.text(), /我们的答案 B/);
   assert.doesNotMatch(h.text(), /我们的答案 A/);

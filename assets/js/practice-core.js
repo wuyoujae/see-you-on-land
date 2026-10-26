@@ -13,6 +13,7 @@
     !["__proto__", "constructor", "prototype"].includes(value);
   const timestamp = value => Number.isFinite(value) && value > 0 ? value : 0;
   const copyAnswer = value => Array.isArray(value) ? [...value] : value;
+  const submittedStatuses = ["correct", "incorrect", "ungraded"];
   const validAnswer = value => (typeof value === "string" && value.length <= 20000) || typeof value === "boolean" ||
     (typeof value === "number" && Number.isFinite(value)) ||
     (Array.isArray(value) && value.every(item => typeof item === "string" || typeof item === "boolean" || (typeof item === "number" && Number.isFinite(item))));
@@ -68,7 +69,7 @@
   }
   function contains(session, questionId) { return Boolean(session?.questionIds?.includes(questionId)); }
   function setDraft(session, questionId, value, now = Date.now()) {
-    if (!contains(session, questionId) || !validAnswer(value) || !timestamp(now)) return session;
+    if (!contains(session, questionId) || canShow(session, questionId, "answer") || !validAnswer(value) || !timestamp(now)) return session;
     if (session.drafts?.[questionId] && stable(session.drafts[questionId].value) === stable(value)) return session;
     return { ...session, updatedAt: Math.max(session.updatedAt || 0, now),
       drafts: { ...session.drafts, [questionId]: { value: copyAnswer(value), updatedAt: now } } };
@@ -78,9 +79,9 @@
     return { ...session, current: index, updatedAt: Math.max(session.updatedAt || 0, now) };
   }
   function submit(session, question, answer, gradeFn, now = Date.now()) {
-    if (!contains(session, question?.id) || question.type === "text" || !isAnswered(answer) || typeof gradeFn !== "function" || !timestamp(now)) return session;
+    if (!contains(session, question?.id) || canShow(session, question.id, "answer") || question.type === "text" || !isAnswered(answer) || typeof gradeFn !== "function" || !timestamp(now)) return session;
     const status = gradeFn(question, answer);
-    if (!["correct", "incorrect"].includes(status)) return session;
+    if (!submittedStatuses.includes(status)) return session;
     const previous = session.answers?.[question.id];
     if (previous?.status === status && stable(previous.answer) === stable(answer)) return session;
     return { ...session, updatedAt: Math.max(session.updatedAt || 0, now),
@@ -92,15 +93,17 @@
     if (view === "question") return true;
     if (!["answer", "source", "ai"].includes(view)) return false;
     const attempt = session.answers?.[questionId];
-    return Boolean(attempt && timestamp(attempt.submittedAt) && ["correct", "incorrect"].includes(attempt.status) && isAnswered(attempt.answer));
+    return Boolean(attempt && timestamp(attempt.submittedAt) && submittedStatuses.includes(attempt.status) && isAnswered(attempt.answer));
   }
   function statistics(session) {
     const ids = session?.questionIds || [];
-    const attempts = ids.map(id => session.answers?.[id]).filter(item => item && timestamp(item.submittedAt) && ["correct", "incorrect"].includes(item.status) && isAnswered(item.answer));
+    const attempts = ids.map(id => session.answers?.[id]).filter(item => item && timestamp(item.submittedAt) && submittedStatuses.includes(item.status) && isAnswered(item.answer));
     const correct = attempts.filter(item => item.status === "correct").length;
+    const incorrect = attempts.filter(item => item.status === "incorrect").length;
+    const graded = correct + incorrect, ungraded = attempts.length - graded;
     const done = ids.filter(id => canShow(session, id, "answer") || isAnswered(session.drafts?.[id]?.value)).length;
-    return { total: ids.length, done, submitted: attempts.length, correct, incorrect: attempts.length - correct,
-      unanswered: ids.length - attempts.length, accuracy: attempts.length ? Math.round(correct / attempts.length * 100) : null,
+    return { total: ids.length, done, submitted: attempts.length, correct, incorrect, graded, ungraded,
+      unanswered: ids.length - attempts.length, accuracy: graded ? Math.round(correct / graded * 100) : null,
       attempts: attempts.length, pagesDone: done ? 1 : 0, complete: ids.length > 0 && attempts.length === ids.length };
   }
   function sanitizeSession(value) {
@@ -111,7 +114,7 @@
     result.updatedAt = Math.max(result.createdAt, timestamp(value.updatedAt));
     const ids = new Set(result.questionIds);
     for (const [id, item] of Object.entries(plain(value.answers) ? value.answers : {})) {
-      if (!ids.has(id) || !plain(item) || !isAnswered(item.answer) || !["correct", "incorrect"].includes(item.status) || !timestamp(item.submittedAt)) continue;
+      if (!ids.has(id) || !plain(item) || !isAnswered(item.answer) || !submittedStatuses.includes(item.status) || !timestamp(item.submittedAt)) continue;
       result.answers[id] = { answer: copyAnswer(item.answer), status: item.status, submittedAt: item.submittedAt };
       result.updatedAt = Math.max(result.updatedAt, item.submittedAt);
     }
@@ -186,8 +189,10 @@
       if (started) pagesDone++;
     }
     const correct = [...answers.values()].filter(answer => answer.status === "correct").length;
-    return { total: eligible.size, done: done.size, submitted: answers.size, correct, incorrect: answers.size - correct,
-      unanswered: eligible.size - answers.size, accuracy: answers.size ? Math.round(correct / answers.size * 100) : null, attempts, pagesDone };
+    const incorrect = [...answers.values()].filter(answer => answer.status === "incorrect").length;
+    const graded = correct + incorrect, ungraded = answers.size - graded;
+    return { total: eligible.size, done: done.size, submitted: answers.size, correct, incorrect, graded, ungraded,
+      unanswered: eligible.size - answers.size, accuracy: graded ? Math.round(correct / graded * 100) : null, attempts, pagesDone };
   }
   function normalizeBaseUrl(value) {
     if (!value) return "";
