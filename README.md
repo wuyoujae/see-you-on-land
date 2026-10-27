@@ -122,3 +122,7 @@ python scripts/build_public_site.py
 旧 Worker 构建是兼容入口，会把所有资源嵌入一份 JavaScript；新增图片和字体后没有必要继续扩大该内嵌包。Sites 发布仍须在既有源仓库中保留原 project ID 和访问范围，由发布流程选择静态产物；本地构建命令不会发布或修改托管配置。
 
 Windows 定时更新的安装入口是 `scripts/install-daily-update.ps1`。根目录 `update-current-affairs.ps1` 是原有计划任务的兼容入口，实际逻辑位于 `scripts/`。
+
+## 申论评分
+
+入口 `#/shenlun`。题目材料支持多图、拍照和可校对识别，答案支持图片或粘贴文字；提交后进入无主导航的原文与批注对照页。参考答案按两份已核验笔记的方法独立生成，再逐点评分；原文彩色批注和材料引用按编号联动，项目可重开与导入导出，并纳入全站备份。详见 [申论评分说明](docs/shenlun-grading.md)。

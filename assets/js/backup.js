@@ -339,6 +339,11 @@
         backup.aiExplanations = await window.AIExplanation.exportCache();
         backup.summary.aiExplanations = backup.aiExplanations.entries.length;
       }
+      if (window.ShenlunApp?.exportData) {
+        await window.ShenlunApp.flush();
+        backup.shenlun = await window.ShenlunApp.exportData();
+        backup.summary.shenlunProjects = backup.shenlun.projects.length;
+      }
       const blob = new Blob([JSON.stringify(backup, null, 2)], { type: "application/json;charset=utf-8" });
       if (blob.size > MAX_BACKUP_BYTES) throw new Error("完整备份超过256 MiB");
       const url = URL.createObjectURL(blob);
@@ -376,6 +381,11 @@
         if (!window.AIExplanation?.validateImportCache || !window.AIExplanation?.importCache || !window.AIExplanation?.exportCache) throw new Error("AI 解析缓存模块尚未就绪，请刷新后重试");
         aiExplanations = await window.AIExplanation.validateImportCache(backup.aiExplanations);
       }
+      let shenlun;
+      if (backup.shenlun !== undefined) {
+        if (!window.ShenlunApp?.validateImportData) throw new Error("申论评分模块尚未就绪，请刷新后重试");
+        shenlun = await window.ShenlunApp.validateImportData(backup.shenlun);
+      }
       const summary = backup.summary || {};
       const completedItems = Number.isFinite(summary.completedItems) ? summary.completedItems : parseStoredJSON(data.progress, []).length;
       const studySessions = Number.isFinite(summary.studySessions) ? summary.studySessions : parseStoredJSON(data.sessions, []).length;
@@ -403,8 +413,9 @@
       data.drillProgress = mergeDrillProgress(data.drillProgress);
       validateDrillProgress(data.drillProgress);
       const previousAICache = aiExplanations ? await window.AIExplanation.exportCache() : null;
+      const previousShenlun = shenlun ? await window.ShenlunApp.exportData() : null;
       const previous = Object.fromEntries(Object.entries(DATA_KEYS).map(([name, key]) => [name, localStorage.getItem(key)]));
-      let importingAICache = false;
+      let importingAICache = false, importingShenlun = false;
       try {
         Object.entries(DATA_KEYS).forEach(([name, key]) => {
           if (data[name] === null) localStorage.removeItem(key);
@@ -415,6 +426,7 @@
           importingAICache = true;
           await window.AIExplanation.importCache(aiExplanations, { merge: true });
         }
+        if (shenlun) { importingShenlun = true; await window.ShenlunApp.importData(shenlun, { merge: true }); }
       } catch (error) {
         Object.entries(DATA_KEYS).forEach(([name, key]) => {
           if (previous[name] === null) localStorage.removeItem(key);
@@ -423,6 +435,10 @@
         if (importingAICache) {
           try { await window.AIExplanation.importCache(previousAICache, { merge: false }); }
           catch { error = new Error(`${error.message || "恢复失败"}；AI 解析缓存回滚失败，请保留原备份重试`); }
+        }
+        if (importingShenlun) {
+          try { await window.ShenlunApp.importData(previousShenlun, { merge: false }); }
+          catch { error = new Error(`${error.message || "恢复失败"}；申论项目回滚失败，请保留原备份重试`); }
         }
         notifyProgressRestored();
         throw error;

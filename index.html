@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="assets/css/rich-content.css?v=20261025-9">
   <link rel="stylesheet" href="assets/css/learning.css?v=20261025-9">
   <link rel="stylesheet" href="assets/css/drill.css?v=20261025-9">
+  <link rel="stylesheet" href="assets/css/shenlun.css?v=20261027-2">
 
 </head>
 <body>
@@ -246,7 +247,7 @@
             <label for="solver-question-type" class="visually-hidden">题型</label>
             <select id="solver-question-type" aria-label="题目类型"></select>
           </div>
-          <button type="button" class="icon-button solver-settings-button" id="open-solver-settings" title="搜题设置" aria-label="打开搜题设置">
+          <button type="button" class="icon-button solver-settings-button" id="open-solver-settings" title="模型设置" aria-label="打开模型设置">
             <i data-lucide="settings-2" aria-hidden="true"></i>
             <span class="solver-settings-dot" id="solver-settings-dot" aria-hidden="true"></span>
           </button>
@@ -338,6 +339,8 @@
 
     <input type="file" id="wrong-question-import-input" accept="application/json,.json" hidden>
 
+    <main id="view-shenlun" class="view shenlun-view" aria-label="申论评分"></main>
+
     <nav class="tab-bar app-navigation" aria-label="主导航">
       <div class="sidebar-header">
         <div class="sidebar-brand">
@@ -364,6 +367,10 @@
       <button type="button" class="tab-item" data-tab="search" aria-selected="false" aria-label="搜题" title="搜题">
         <span class="tab-icon"><i data-lucide="scan-search" aria-hidden="true"></i></span>
         <span class="nav-label">搜题</span>
+      </button>
+      <button type="button" class="tab-item" data-tab="shenlun" aria-selected="false" aria-label="申论评分" title="申论评分">
+        <span class="tab-icon"><i data-lucide="file-pen-line" aria-hidden="true"></i></span>
+        <span class="nav-label"><span class="nav-label-wide">申论评分</span><span class="nav-label-short" aria-hidden="true">申论</span></span>
       </button>
       <button type="button" class="tab-item" data-tab="news" aria-selected="false" aria-label="时政" title="时政">
         <span class="tab-icon"><i data-lucide="newspaper" aria-hidden="true"></i></span>
@@ -428,9 +435,9 @@
         <header class="solver-settings-header">
           <div>
             <p class="eyebrow">RESPONSES API</p>
-            <h2 id="solver-settings-title">搜题设置</h2>
+            <h2 id="solver-settings-title">模型设置</h2>
           </div>
-          <button type="button" class="icon-button" data-close-solver-settings aria-label="关闭搜题设置"><i data-lucide="x" aria-hidden="true"></i></button>
+          <button type="button" class="icon-button" data-close-solver-settings aria-label="关闭模型设置"><i data-lucide="x" aria-hidden="true"></i></button>
         </header>
         <form id="solver-settings-form">
           <label class="solver-settings-field">
@@ -536,5 +543,9 @@
   <script src="assets/js/learning.js?v=20261025-9"></script>
   <script src="assets/js/practice.js?v=20261025-9"></script>
   <script src="assets/js/knowledge-daily.js?v=20261025-9"></script>
+  <script src="assets/js/shenlun-prompts.js?v=20261027-2"></script>
+  <script src="assets/js/shenlun-core.js?v=20261027-2"></script>
+  <script src="assets/js/shenlun-service.js?v=20261027-2"></script>
+  <script src="assets/js/shenlun.js?v=20261027-2"></script>
 </body>
 </html>
