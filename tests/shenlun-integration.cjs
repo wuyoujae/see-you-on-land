@@ -118,7 +118,11 @@ function harness(options = {}) {
   const clearInterval = id => intervals.delete(id);
   const urlAPI = {createObjectURL: () => "blob:test", revokeObjectURL() {}};
   class FileReader {
-    readAsDataURL(blob) { this.result = "data:" + blob.type + ";base64,aGVsbG8="; queueMicrotask(() => this.onload?.()); }
+    readAsDataURL(blob) {
+      Promise.resolve(blob.arrayBuffer()).then(bytes => {
+        this.result = "data:" + blob.type + ";base64," + Buffer.from(bytes).toString("base64"); this.onload?.();
+      }, error => this.onerror?.(error));
+    }
   }
   Object.assign(window, {ShenlunCore: Core, ShenlunService: service, ShenlunPrompts: Prompts,
     AIExplanation: {getSettings: () => clone(settings), openSettings() {}}, AppUI: {refresh() {}, confirm: async () => true, dialogOpen() {}, dialogClose: async () => {}}});
@@ -286,8 +290,10 @@ test("upload decoding blocks scoring and cannot erase text edited while the imag
   const file = {name: "答案.png", type: "image/png", size: 5, arrayBuffer: async () => new Uint8Array([1, 2, 3, 4, 5]).buffer};
   await h.upload("answer", [file]); await h.action("start");
   assert.equal(h.calls.length, 0); assert.match(h.root.querySelector(".sl-notice").textContent, /图片正在读取/);
+  await h.action("recognize", {kind: "answer"});
+  assert.equal(h.calls.length, 0); assert.ok(h.toasts().some(value => /图片正在读取/.test(value)));
   await h.input("answerText", "读取期间保留的新答案。"); bitmap.resolve({close() {}}); await h.settle();
-  await h.until(() => h.toasts().length > 0);
+  await h.until(() => h.toasts().some(value => value.includes("当前文字已保留")));
   assert.equal(h.current.answerText, "读取期间保留的新答案。"); assert.equal(h.current.answerImages.length, 0);
   assert.equal(h.assets.size, 0, "discarded uploads must not leave orphan assets");
   assert.ok(h.toasts().some(value => value.includes("当前文字已保留")), JSON.stringify(h.toasts()));
@@ -307,4 +313,142 @@ test("OCR uses the current image cache and a changed text revision requires expl
   const beforeToasts = h.toasts().length;
   h.setSettings({model: "model-a"}); await h.action("recognize", {kind: "answer"}); await h.until(() => h.toasts().length > beforeToasts);
   assert.equal(h.calls.length, 1, "re-recognizing identical bytes with the same model reuses completed OCR");
+});
+
+const MiB = 1024 * 1024;
+function imageFile(name, contents = name, size = Buffer.byteLength(contents)) {
+  const bytes = new Uint8Array(Buffer.from(contents));
+  return {name, type: "image/png", size, arrayBuffer: async () => bytes.buffer.slice(bytes.byteOffset, bytes.byteOffset + bytes.byteLength)};
+}
+function imageMeta(id, size = 5) { return {id, name: id + ".png", hash: "hash-" + id, type: "image/png", size}; }
+
+test("answer uploads append multiple numbered pages while preserving manually checked text", async () => {
+  const p = project("p-a", {answerText: "第一点，开展调查。\n第二点，建设平台。"});
+  const h = harness({projects: [p]}); await h.settle();
+  await h.upload("answer", [imageFile("答案一.png"), imageFile("答案二.png")]);
+  await h.until(() => h.current.answerImages.length === 2);
+  const initialIds = h.current.answerImages.map(image => image.id);
+  await h.upload("answer", [imageFile("答案三.png")]);
+  await h.until(() => h.current.answerImages.length === 3);
+  assert.deepEqual(Array.from(h.current.answerImages.slice(0, 2), image => image.id), Array.from(initialIds));
+  assert.deepEqual(Array.from(h.current.answerImages, image => image.name), ["答案一.png", "答案二.png", "答案三.png"]);
+  assert.equal(h.current.answerText, p.answerText); assert.equal(h.current.answerProvenance, null);
+  assert.equal(h.assets.size, 3); assert.equal(h.records.get("p-a").answerImages.length, 3);
+  assert.match(h.text(), /第1页/); assert.match(h.text(), /第2页/); assert.match(h.text(), /第3页/);
+  assert.match(h.text(), /data-sl-action="move-image" data-kind="answer"/);
+  assert.match(h.text(), /data-sl-file="answer"[^>]*multiple/);
+  assert.equal(h.calls.length, 0, "uploading pages alone must not charge for recognition");
+});
+
+test("reordering and deleting answer pages keep text and invalidate handwriting observations", async () => {
+  const images = [imageMeta("page-a"), imageMeta("page-b"), imageMeta("page-c")];
+  const provenance = {mode: "image", imageHashes: images.map(image => image.hash), textHash: "checked-text", observations: {crossouts: [{text: "旧字"}]}};
+  const p = project("p-a", {answerImages: images, answerText: "我们已经校对的答案。", answerProvenance: provenance});
+  const h = harness({projects: [p]}); await h.settle();
+  await h.action("move-image", {kind: "answer", index: "0", direction: "1"});
+  assert.deepEqual(Array.from(h.current.answerImages, image => image.id), ["page-b", "page-a", "page-c"]);
+  assert.equal(h.current.answerText, p.answerText); assert.equal(h.current.answerProvenance, null);
+  h.current.answerProvenance = clone(provenance);
+  await h.action("remove-image", {kind: "answer", index: "1"});
+  assert.deepEqual(Array.from(h.current.answerImages, image => image.id), ["page-b", "page-c"]);
+  assert.equal(h.current.answerText, p.answerText); assert.equal(h.current.answerProvenance, null);
+  assert.equal(h.records.get("p-a").answerText, p.answerText);
+  assert.equal(h.records.get("p-a").answerProvenance, null);
+});
+
+test("answer page and byte limits reject the entire new batch before decoding or mutating the draft", async () => {
+  const cases = [
+    {images: Array.from({length: 11}, (_, i) => imageMeta("page-" + i)), files: [imageFile("12.png"), imageFile("13.png")], message: /12/},
+    {images: [], files: [imageFile("大图.png", "small-body", 12 * MiB + 1)], message: /单张图片不能超过12/},
+    {images: [imageMeta("a", 10 * MiB), imageMeta("b", 10 * MiB), imageMeta("c", 9 * MiB)], files: [imageFile("d.png", "d", 6 * MiB), imageFile("e.png", "e", 6 * MiB)], message: /40/}
+  ];
+  for (const item of cases) {
+    let decoded = 0;
+    const p = project("p-a", {answerImages: item.images, answerText: "不能丢失的答案。", answerProvenance: {mode: "image", imageHash: "old"}});
+    const h = harness({projects: [p], createImageBitmap: async () => { decoded++; return {close() {}}; }}); await h.settle();
+    await h.upload("answer", item.files);
+    assert.equal(decoded, 0); assert.equal(h.assets.size, 0); assert.equal(h.current.answerText, p.answerText);
+    assert.deepEqual(h.current.answerImages, p.answerImages); assert.deepEqual(h.current.answerProvenance, p.answerProvenance);
+    assert.ok(h.toasts().some(text => item.message.test(text)), JSON.stringify(h.toasts()));
+  }
+  const h = harness({projects: [project()]}); await h.settle();
+  await h.upload("answer", Array.from({length: 12}, (_, i) => imageFile("第" + (i + 1) + "页.png")));
+  await h.until(() => h.current.answerImages.length === 12);
+  await h.upload("answer", [imageFile("第13页.png")]);
+  assert.equal(h.current.answerImages.length, 12); assert.equal(h.assets.size, 12);
+});
+
+test("a later page decode failure rolls back newly stored assets without disturbing existing pages or text", async () => {
+  let decoded = 0;
+  const oldImage = imageMeta("existing"), p = project("p-a", {answerImages: [oldImage], answerText: "保留现有答案。"});
+  const h = harness({projects: [p], assets: [[oldImage.id, {id: oldImage.id, blob: new Blob(["old"], {type: "image/png"})}]],
+    createImageBitmap: async () => { decoded++; if (decoded === 2) throw new Error("corrupt second page"); return {close() {}}; }}); await h.settle();
+  await h.upload("answer", [imageFile("新第一页.png"), imageFile("坏的第二页.png")]);
+  await h.until(() => h.toasts().length > 0);
+  assert.equal(decoded, 2); assert.deepEqual(h.current.answerImages, p.answerImages);
+  assert.equal(h.current.answerText, p.answerText); assert.deepEqual([...h.assets.keys()], [oldImage.id]);
+  assert.ok(h.toasts().some(text => /无法读取或保存/.test(text)));
+  await h.upload("answer", [imageFile("重试.png")]);
+  await h.until(() => h.current.answerImages.length === 2);
+});
+
+test("a second upload cannot interleave page decoding with an unfinished answer batch", async () => {
+  const gate = deferred(); let decoded = 0;
+  const h = harness({projects: [project()], createImageBitmap: async () => { decoded++; if (decoded === 1) return gate.promise; return {close() {}}; }}); await h.settle();
+  await h.upload("answer", [imageFile("第一批一.png"), imageFile("第一批二.png")]);
+  await h.upload("answer", [imageFile("抢先添加.png")]);
+  assert.equal(decoded, 1); assert.equal(h.current.answerImages.length, 0);
+  assert.ok(h.toasts().some(text => /图片正在读取/.test(text)));
+  gate.resolve({close() {}}); await h.until(() => h.current.answerImages.length === 2);
+  assert.deepEqual(Array.from(h.current.answerImages, image => image.name), ["第一批一.png", "第一批二.png"]);
+});
+
+test("appending an answer page during OCR caches the old result without applying or offering it for changed pages", async () => {
+  const gate = deferred(), im = imageMeta("old-page"), p = project("p-a", {answerImages: [im], answerText: "我们已校对的正文。"});
+  const h = harness({projects: [p, project("p-b")], assets: [[im.id, {id: im.id, blob: new Blob(["first"], {type: "image/png"})}]], handlers: {recognize: () => gate.promise}}); await h.settle();
+  await h.action("recognize", {kind: "answer"}); await h.until(() => h.calls.length === 1);
+  await h.upload("answer", [imageFile("新增第二页.png")]); await h.until(() => h.current.answerImages.length === 2);
+  gate.resolve(ocr("旧的第一页识别结果。")); await h.until(() => h.cache.size === 1); await h.settle();
+  assert.equal(h.current.answerText, p.answerText); assert.equal(h.current.answerProvenance, null);
+  assert.doesNotMatch(h.root.querySelector('[data-sl-ocr-status="answer"]').innerHTML, /采用识别结果/);
+  await h.action("adopt-ocr", {kind: "answer"});
+  assert.equal(h.current.answerText, p.answerText); assert.equal(h.current.answerProvenance, null);
+  await h.navigate("#/shenlun/draft/p-b"); await h.navigate("#/shenlun/draft/p-a");
+  assert.doesNotMatch(h.text(), /采用识别结果/);
+});
+
+test("adding a page clears a pending OCR adoption produced before the current text edit", async () => {
+  const gate = deferred(), im = imageMeta("first"), p = project("p-a", {answerImages: [im]});
+  const h = harness({projects: [p], assets: [[im.id, {id: im.id, blob: new Blob(["first"], {type: "image/png"})}]], handlers: {recognize: () => gate.promise}}); await h.settle();
+  await h.action("recognize", {kind: "answer"}); await h.until(() => h.calls.length === 1);
+  await h.input("answerText", "我们正在校对的新正文。");
+  gate.resolve(ocr("未校对的旧正文。")); await h.until(() => h.cache.size === 1); await h.settle();
+  assert.match(h.root.querySelector('[data-sl-ocr-status="answer"]').innerHTML, /采用识别结果/);
+  await h.upload("answer", [imageFile("第二页.png")]); await h.until(() => h.current.answerImages.length === 2);
+  assert.doesNotMatch(h.text(), /采用识别结果/);
+  await h.action("adopt-ocr", {kind: "answer"});
+  assert.equal(h.current.answerText, "我们正在校对的新正文。"); assert.equal(h.current.answerProvenance, null);
+});
+
+test("multi-page OCR sends pages in order, binds all page hashes and reuses only an identical ordered cache", async () => {
+  const images = [imageMeta("one"), imageMeta("two")], p = project("p-a", {answerImages: images});
+  const assets = images.map((im, i) => [im.id, {id: im.id, blob: new Blob(["page-" + (i + 1)], {type: "image/png"})}]);
+  const h = harness({projects: [p, project("p-b")], assets, handlers: {recognize: args => ocr(args.images[0].includes(Buffer.from("page-1").toString("base64")) ? "第一张。\n第二张。" : "第二张。\n第一张。")}}); await h.settle();
+  const expectedURLs = [1, 2].map(i => "data:image/png;base64," + Buffer.from("page-" + i).toString("base64"));
+  await h.action("recognize", {kind: "answer"}); await h.until(() => !!h.current.answerProvenance);
+  assert.deepEqual(Array.from(h.calls[0].args.images), expectedURLs);
+  assert.deepEqual(Array.from(h.current.answerProvenance.imageHashes), images.map(im => im.hash));
+  assert.equal(h.current.answerText, "第一张。\n第二张。"); assert.equal(h.cache.size, 1);
+  await h.action("recognize", {kind: "answer"}); await h.settle();
+  assert.equal(h.calls.length, 1, "same ordered image set should reuse OCR");
+  await h.action("move-image", {kind: "answer", index: "0", direction: "1"});
+  assert.equal(h.current.answerProvenance, null); assert.equal(h.current.answerText, "第一张。\n第二张。");
+  await h.action("recognize", {kind: "answer"}); await h.until(() => h.calls.length === 2 && !!h.current.answerProvenance);
+  assert.deepEqual(Array.from(h.calls[1].args.images), [...expectedURLs].reverse());
+  assert.deepEqual(Array.from(h.current.answerProvenance.imageHashes), images.map(im => im.hash).reverse());
+  assert.equal(h.current.answerText, "第二张。\n第一张。"); assert.equal(h.cache.size, 2);
+  const before = clone(h.current);
+  await h.navigate("#/shenlun/draft/p-b"); await h.navigate("#/shenlun/draft/p-a");
+  assert.deepEqual(h.current.answerImages, before.answerImages); assert.equal(h.current.answerText, before.answerText);
+  assert.deepEqual(h.current.answerProvenance, before.answerProvenance); assert.equal(h.calls.length, 2);
 });

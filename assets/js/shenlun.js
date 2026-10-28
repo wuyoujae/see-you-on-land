@@ -80,14 +80,15 @@
   }
   function uploadMarkup(kind) {
     const answer = kind === "answer", images = current[kind + "Images"] || [];
+    const pending = pendingOCR.get(current.id+kind), canAdopt = pending && JSON.stringify(pending.images.map(im=>im.hash))===JSON.stringify(images.map(im=>im.hash));
     return `<div class="sl-upload-zone" data-sl-drop="${kind}" tabindex="0" role="group" aria-label="${answer ? "答案图片" : "题目与材料图片"}拖放区">
       <div class="sl-upload-actions">${button("upload",icon("image-plus")+"上传图片",`data-kind="${kind}"`)}${button("camera",icon("camera")+"拍照",`data-kind="${kind}"`,"sl-button--quiet")}
-      <span class="sl-subtle">${answer ? "单张答案" : "题目、材料可分多张上传"}，支持拖入</span></div>
-      <input type="file" accept="image/jpeg,image/png,image/webp" data-sl-file="${kind}" ${answer ? "" : "multiple"} hidden>
+      <span class="sl-subtle">${answer ? "答案可分多页上传" : "题目、材料可分多张上传"}，最多12页，支持拖入</span></div>
+      <input type="file" accept="image/jpeg,image/png,image/webp" data-sl-file="${kind}" multiple hidden>
       <input type="file" accept="image/*" capture="environment" data-sl-camera="${kind}" hidden>
-      <div class="sl-image-list">${images.map((im,i) => `<div class="sl-image-item"><button type="button" class="sl-image-preview" data-sl-action="preview" data-kind="${kind}" data-index="${i}" aria-label="查看${esc(im.name)}"><img data-sl-asset="${esc(im.id)}" alt="${answer ? "答案原图" : `材料第${i+1}页`}"></button><div class="sl-image-caption">${answer ? "答案原图" : `第${i+1}页`} · ${esc(im.name)}</div><div class="sl-image-tools">${!answer ? button("move-image","↑",`data-kind="${kind}" data-index="${i}" data-direction="-1" aria-label="第${i+1}页前移" ${i===0?"disabled":""}`,"sl-button--small sl-button--quiet")+button("move-image","↓",`data-kind="${kind}" data-index="${i}" data-direction="1" aria-label="第${i+1}页后移" ${i===images.length-1?"disabled":""}`,"sl-button--small sl-button--quiet") : ""}${button("remove-image",icon("x"),`data-kind="${kind}" data-index="${i}" aria-label="删除${esc(im.name)}"`,"sl-button--small sl-button--quiet")}</div></div>`).join("")}</div>
+      <div class="sl-image-list">${images.map((im,i) => `<div class="sl-image-item"><button type="button" class="sl-image-preview" data-sl-action="preview" data-kind="${kind}" data-index="${i}" aria-label="查看${answer ? "答案" : "材料"}第${i+1}页：${esc(im.name)}"><img data-sl-asset="${esc(im.id)}" alt="${answer ? "答案" : "材料"}第${i+1}页"></button><div class="sl-image-caption">第${i+1}页 · ${esc(im.name)}</div><div class="sl-image-tools">${button("move-image","↑",`data-kind="${kind}" data-index="${i}" data-direction="-1" aria-label="${answer ? "答案" : "材料"}第${i+1}页前移" ${i===0?"disabled":""}`,"sl-button--small sl-button--quiet")+button("move-image","↓",`data-kind="${kind}" data-index="${i}" data-direction="1" aria-label="${answer ? "答案" : "材料"}第${i+1}页后移" ${i===images.length-1?"disabled":""}`,"sl-button--small sl-button--quiet")}${button("remove-image",icon("x"),`data-kind="${kind}" data-index="${i}" aria-label="删除${answer ? "答案" : "材料"}第${i+1}页：${esc(im.name)}"`,"sl-button--small sl-button--quiet")}</div></div>`).join("")}</div>
       ${images.length ? button("recognize",ocrJobs.has(current.id+kind) ? "正在识别…" : icon("scan-text")+"识别并填入",`data-kind="${kind}" ${ocrJobs.has(current.id+kind)?"disabled":""}`,"sl-button--small") : ""}
-      <div class="sl-ocr-status" data-sl-ocr-status="${kind}" role="status">${pendingOCR.has(current.id+kind) ? `识别完成。文字已被修改，${button("adopt-ocr","采用识别结果",`data-kind="${kind}"`,"sl-button--small")}` : ""}</div>
+      <div class="sl-ocr-status" data-sl-ocr-status="${kind}" role="status">${canAdopt ? `识别完成。文字已被修改，${button("adopt-ocr","采用识别结果",`data-kind="${kind}"`,"sl-button--small")}` : ""}</div>
     </div>`;
   }
   function renderEntry() {
@@ -97,7 +98,7 @@
       <div class="sl-field-row"><label class="sl-field sl-title-field">项目名称<input class="sl-input" data-sl-field="title" maxlength="100" value="${esc(current.title)}"></label><label class="sl-field">概括类型<select data-sl-field="subtype">${Prompts.subtypes.map(item => `<option value="${esc(item.id)}" ${current.subtype===item.id?"selected":""}>${esc(item.label)}</option>`).join("")}</select></label><label class="sl-field sl-number-field">满分<input class="sl-input" type="number" data-sl-field="maxScore" min="1" max="100" step="0.5" inputmode="decimal" placeholder="必填" value="${current.maxScore ?? ""}"></label><label class="sl-field sl-number-field">字数上限<input class="sl-input" type="number" data-sl-field="wordLimit" min="1" max="10000" step="1" inputmode="numeric" placeholder="按题目" value="${current.wordLimit ?? ""}"></label></div>
       <div class="sl-entry-tabs" role="tablist" aria-label="录入内容"><button type="button" role="tab" id="sl-entry-tab-question" data-sl-entry-tab="question" aria-controls="sl-input-question" aria-selected="${entryTab==='question'}" tabindex="${entryTab==='question'?0:-1}">题目与材料</button><button type="button" role="tab" id="sl-entry-tab-answer" data-sl-entry-tab="answer" aria-controls="sl-input-answer" aria-selected="${entryTab==='answer'}" tabindex="${entryTab==='answer'?0:-1}">我们的答案</button></div>
       <div class="sl-editor-grid"><section class="sl-input-section" id="sl-input-question" data-sl-input-kind="question" role="tabpanel" aria-labelledby="sl-entry-tab-question"><header class="sl-section-heading"><span class="sl-step-number">01</span><h2>题目与材料</h2></header>${uploadMarkup("question")}<label class="sl-text-label" for="sl-question">题目要求、给定材料</label><textarea id="sl-question" class="sl-textarea" data-sl-field="questionText" maxlength="100000" placeholder="粘贴完整题目要求和给定材料，或上传后识别。识别结果可在这里校对。">${esc(current.questionText)}</textarea><p class="sl-subtle" data-sl-count="question">${count(current.questionText)} 字</p></section>
-      <section class="sl-input-section" id="sl-input-answer" data-sl-input-kind="answer" role="tabpanel" aria-labelledby="sl-entry-tab-answer"><header class="sl-section-heading"><span class="sl-step-number">02</span><h2>我们的答案</h2></header>${uploadMarkup("answer")}<label class="sl-text-label" for="sl-answer">作答原文</label><textarea id="sl-answer" class="sl-textarea" data-sl-field="answerText" maxlength="20000" placeholder="粘贴我们的作答，或拍下手写答案。保留换行和标点，识别后请核对原文。">${esc(current.answerText)}</textarea><p class="sl-subtle" data-sl-count="answer">${count(current.answerText)} 字${current.answerProvenance ? " · 已绑定本张原图的书写观察" : ""}</p></section></div>
+      <section class="sl-input-section" id="sl-input-answer" data-sl-input-kind="answer" role="tabpanel" aria-labelledby="sl-entry-tab-answer"><header class="sl-section-heading"><span class="sl-step-number">02</span><h2>我们的答案</h2></header>${uploadMarkup("answer")}<label class="sl-text-label" for="sl-answer">作答原文</label><textarea id="sl-answer" class="sl-textarea" data-sl-field="answerText" maxlength="20000" placeholder="粘贴我们的作答，或按顺序上传多页手写答案。保留换行和标点，识别后请核对原文。">${esc(current.answerText)}</textarea><p class="sl-subtle" data-sl-count="answer">${count(current.answerText)} 字${current.answerProvenance ? ` · 已绑定${current.answerImages.length}页原图的书写观察` : ""}</p></section></div>
       <div class="sl-notice" role="status" ${message?"":"hidden"}>${esc(message)}</div><footer class="sl-editor-footer sticky"><span class="sl-subtle" data-sl-save>${esc(persistenceText())}</span><div>${button("export",icon("download")+"导出项目","","sl-button--quiet")}${button("start",icon("sparkles")+"开始评分","","sl-button--primary")}</div></footer>
       <section class="sl-history"><header class="sl-history-heading"><h2>评分记录</h2><div>${button("import","导入项目","","sl-button--quiet sl-button--small")}${button("new","新建","","sl-button--quiet sl-button--small")}</div></header><p class="sl-subtle">记录保存在当前浏览器，可导出后在其他设备导入。</p><div class="sl-history-list">${renderHistory()}</div><input type="file" data-sl-import accept="application/json,.json" hidden></section></div>`;
     refresh(); loadPreviews();
@@ -132,7 +133,7 @@
   }
   function updateCount(kind) {
     const el = root.querySelector(`[data-sl-count="${kind}"]`);
-    if (el) el.textContent = `${count(current[kind+"Text"])} 字${kind === "answer" && current.answerProvenance ? " · 已绑定本张原图的书写观察" : ""}`;
+    if (el) el.textContent = `${count(current[kind+"Text"])} 字${kind === "answer" && current.answerProvenance ? ` · 已绑定${current.answerImages.length}页原图的书写观察` : ""}`;
   }
   async function digest(value) {
     const data = typeof value === "string" ? new TextEncoder().encode(value) : value;
@@ -142,16 +143,15 @@
     const p = current, files = [...fileList]; if (!p || !files.length) return;
     const jobKey=p.id+kind, revision=p[kind+"Revision"];
     if(uploadJobs.has(jobKey))return notify("图片正在读取，请稍候再添加。");
-    if (kind === "answer" && files.length !== 1) return notify("答案请一次上传一张图片。");
-    if (kind === "question" && p.questionImages.length + files.length > 12) return notify("题目与材料最多12张，请合并部分图片后上传。");
-    let total = (kind === "answer" ? [] : p.questionImages).reduce((n,im) => n + im.size,0);
+    if (p[kind+"Images"].length + files.length > 12) return notify(`${kind === "answer" ? "答案" : "题目与材料"}最多12页，请合并部分图片后上传。`);
+    let total = p[kind+"Images"].reduce((n,im) => n + (Number(im.size)||0),0);
     for (const file of files) {
       if (!/^image\/(jpeg|png|webp)$/.test(file.type)) return notify("请上传 JPG、PNG 或 WebP 图片，手机照片可先转换为 JPG。");
       if (file.size > 12*1024*1024) return notify("单张图片不能超过12 MB，请裁去空白或分段拍摄。");
       total += file.size;
     }
     if (total > 40*1024*1024) return notify("本组图片合计不能超过40 MB，请分段或压缩后上传。");
-    const assets = [];
+    const assets = []; let attached = false;
     uploadJobs.add(jobKey);
     try {
       for (const file of files) {
@@ -161,19 +161,18 @@
         await store.putAsset(asset); assets.push({id:asset.id,name:file.name,hash,type:file.type,size:file.size});
       }
       if (current?.id !== p.id || current[kind+"Revision"]!==revision || !editing() || isReview()) {
-        for(const asset of assets)await store.removeAsset(asset.id);
         return notify("图片读取期间内容已更新，当前文字已保留，请重新添加图片。");
       }
-      if (kind === "answer") { p.answerImages = assets; p.answerText = ""; }
-      else p.questionImages.push(...assets);
+      p[kind+"Images"].push(...assets); attached = true;
       invalidate(kind); await persist(); if(current?.id===p.id&&editing()&&!isReview())renderEntry();
     } catch { notify("图片无法读取或保存，请使用清晰的 JPG、PNG 或 WebP 图片重试。"); }
-    finally {uploadJobs.delete(jobKey);}
+    finally {if(!attached)await Promise.allSettled(assets.map(asset=>store.removeAsset(asset.id)));uploadJobs.delete(jobKey);}
   }
   function dataURL(blob) { return new Promise((resolve,reject) => { const reader = new FileReader(); reader.onload = () => resolve(reader.result); reader.onerror = reject; reader.readAsDataURL(blob); }); }
   async function runOCR(kind) {
     const p = current, jobKey = p.id + kind;
     if (ocrJobs.has(jobKey)) return;
+    if (uploadJobs.has(jobKey)) return notify("图片正在读取，请完成上传后再识别。");
     const images = clone(p[kind+"Images"]), revision = p[kind+"Revision"], settings = {...window.AIExplanation.getSettings()};
     const ocrClient=Service.createClient({getSettings:()=>settings});
     if (!images.length) return notify("请先上传图片。");
@@ -207,10 +206,12 @@
   }
   async function adoptOCR(kind,payload) {
     if (!payload) return;
-    const p=current, hashes = p[kind+"Images"].map(im=>im.hash);
+    const p=current, revision=p[kind+"Revision"], hashes = p[kind+"Images"].map(im=>im.hash);
     if (JSON.stringify(hashes)!==JSON.stringify(payload.images.map(im=>im.hash))) return notify("图片已更换，旧识别结果不会用于新图片。");
+    const textHash = kind === "answer" ? await digest(payload.result.text) : null;
+    if(current!==p || p[kind+"Revision"]!==revision || JSON.stringify(p[kind+"Images"].map(im=>im.hash))!==JSON.stringify(hashes)) return;
     invalidate(kind); p[kind+"Text"] = payload.result.text;
-    if (kind === "answer") p.answerProvenance={mode:"image",imageHash:hashes[0],ocrKey:payload.key,textHash:await digest(payload.result.text),observations:payload.result.observations};
+    if (kind === "answer") p.answerProvenance={mode:"image",imageHashes:hashes,...(hashes.length===1?{imageHash:hashes[0]}:{}),ocrKey:payload.key,textHash,observations:payload.result.observations};
     else {
       const meta=payload.result.questionMeta || {};
       if (meta.maxScore && !p.maxScore) p.maxScore=meta.maxScore;
@@ -436,7 +437,7 @@
       if(action==="upload"||action==="camera")root.querySelector(`[data-sl-${action==="camera"?"camera":"file"}="${kind}"]`)?.click();
       if(action==="recognize")runOCR(kind);
       if(action==="adopt-ocr"){await adoptOCR(kind,pendingOCR.get(current.id+kind));renderEntry();}
-      if(action==="remove-image"){current[kind+"Images"].splice(Number(el.dataset.index),1);invalidate(kind);if(kind==="answer")current.answerText="";await persist();renderEntry();}
+      if(action==="remove-image"){current[kind+"Images"].splice(Number(el.dataset.index),1);invalidate(kind);await persist();renderEntry();}
       if(action==="move-image"){const list=current[kind+"Images"],i=Number(el.dataset.index),to=i+Number(el.dataset.direction);if(to>=0&&to<list.length){[list[i],list[to]]=[list[to],list[i]];invalidate(kind);await persist();renderEntry();}}
       if(action==="preview")previewImage(current[kind+"Images"][Number(el.dataset.index)]);
       if(action==="start")await start();

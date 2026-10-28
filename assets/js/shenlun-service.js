@@ -7,7 +7,7 @@
 })(typeof window !== "undefined" ? window : globalThis, function (scope, Core) {
   "use strict";
   const DB_NAME = "summer-politics-shenlun-v1", MAX_PROJECTS = 1000, MAX_EXPORT_BYTES = 256 * 1024 * 1024;
-  const MAX_RESPONSE = 2 * 1024 * 1024, MAX_REQUEST = 64 * 1024 * 1024, MAX_IMAGE = 12 * 1024 * 1024;
+  const MAX_RESPONSE = 2 * 1024 * 1024, MAX_REQUEST = 64 * 1024 * 1024, MAX_IMAGE = 12 * 1024 * 1024, MAX_IMAGE_GROUP = 40 * 1024 * 1024;
   const PROJECT_FIELDS = ["id", "title", "type", "subtype", "maxScore", "wordLimit", "questionText", "answerText", "questionImages", "answerImages",
     "answerProvenance", "revision", "questionRevision", "answerRevision", "status", "run", "reference", "report", "error", "createdAt", "updatedAt", "parentId", "pendingOCR"];
   const makeError = (code, message, extra = {}) => Object.assign(new Error(message), {code, ...extra});
@@ -42,8 +42,17 @@
     if (project.status !== undefined && !["draft", "running", "completed", "error", "interrupted"].includes(project.status)) throw makeError("STORAGE", "项目状态格式不正确。");
     for (const key of ["revision", "questionRevision", "answerRevision"]) if (project[key] !== undefined && (!Number.isInteger(project[key]) || project[key] < 0)) throw makeError("STORAGE", "项目版本格式不正确。");
     for (const key of ["questionImages", "answerImages"]) if (project[key] !== undefined) {
-      if (!Array.isArray(project[key]) || project[key].length > (key === "answerImages" ? 1 : 20)) throw makeError("STORAGE", "项目图片列表格式不正确。");
-      for (const image of project[key]) if (!image || typeof image.id !== "string" || !/^[a-zA-Z0-9_-]{1,160}$/.test(image.id) || typeof image.hash !== "string" || image.hash.length > 160 || (image.name !== undefined && typeof image.name !== "string")) throw makeError("STORAGE", "项目图片信息格式不正确。");
+      if (!Array.isArray(project[key]) || project[key].length > (key === "answerImages" ? 12 : 20)) throw makeError("STORAGE", "项目图片列表格式不正确。");
+      let totalSize = 0;
+      for (const image of project[key]) {
+        if (!image || typeof image.id !== "string" || !/^[a-zA-Z0-9_-]{1,160}$/.test(image.id) || typeof image.hash !== "string" || image.hash.length > 160 || (image.name !== undefined && typeof image.name !== "string")) throw makeError("STORAGE", "项目图片信息格式不正确。");
+        // Older backups omit sizes; validate known sizes without rejecting those records.
+        if (image.size !== undefined) {
+          if (!Number.isInteger(image.size) || image.size < 0 || image.size > MAX_IMAGE) throw makeError("STORAGE", "项目单张图片不能超过 12 MiB。");
+          totalSize += image.size;
+        }
+      }
+      if (totalSize > MAX_IMAGE_GROUP) throw makeError("STORAGE", "项目每组图片合计不能超过 40 MiB。");
     }
     for (const key of ["questionText", "answerText"]) if (project[key] !== undefined && (typeof project[key] !== "string" || project[key].length > 200000)) throw makeError("STORAGE", "题目或答案文字过长。");
     if (bytes(project) > 6 * 1024 * 1024) throw makeError("STORAGE", "单个项目超过 6 MiB，请缩短材料后重试。");
@@ -285,24 +294,34 @@
     }
     async function boundProvenance(project) {
       const value = project.answerProvenance, images = project.answerImages;
-      if (value?.mode !== "image" || !Array.isArray(images) || images.length !== 1 || typeof images[0]?.hash !== "string" || !images[0].hash ||
-          value.imageHash !== images[0].hash || typeof value.textHash !== "string" || typeof value.ocrKey !== "string" || !value.ocrKey) return null;
+      if (value?.mode !== "image" || !Array.isArray(images) || !images.length || images.length > 12 ||
+          images.some(image => typeof image?.hash !== "string" || !image.hash) || typeof value.textHash !== "string" || typeof value.ocrKey !== "string" || !value.ocrKey) return null;
+      const imageHashes = images.map(image => image.hash);
+      if (Object.prototype.hasOwnProperty.call(value, "imageHashes")) {
+        if (!Array.isArray(value.imageHashes) || value.imageHashes.length !== imageHashes.length || value.imageHashes.some((hash, index) => hash !== imageHashes[index])) return null;
+      } else if (imageHashes.length !== 1 || value.imageHash !== imageHashes[0]) return null;
       const actualHash = await Core.fingerprint(new TextEncoder().encode(project.answerText));
       if (value.textHash !== actualHash) return null;
       try {
         const observed = Core.validateOCR({text: project.answerText, questionMeta: {subtype: null, maxScore: null, wordLimit: null, task: "", scope: ""}, observations: value.observations});
-        return {mode: "image", imageHash: value.imageHash, ocrKey: value.ocrKey, textHash: value.textHash, observations: observed.observations};
+        return {mode: "image", imageHashes, ...(imageHashes.length === 1 ? {imageHash: imageHashes[0]} : {}), ocrKey: value.ocrKey, textHash: value.textHash, observations: observed.observations};
       } catch (_) { return null; }
     }
     return {
       async recognize({images, kind, signal, onChunk} = {}) {
-        if (!["question", "answer"].includes(kind) || !Array.isArray(images) || !images.length || images.length > 20 || (kind === "answer" && images.length !== 1)) throw makeError("INPUT", "请为题目添加 1 至 20 张图片，答卷每次识别 1 张。");
+        if (!["question", "answer"].includes(kind) || !Array.isArray(images) || !images.length || images.length > (kind === "answer" ? 12 : 20)) throw makeError("INPUT", "请为题目添加 1 至 20 张图片，答卷添加 1 至 12 张图片。");
+        let totalSize = 0;
         const pictures = images.map(value => {
           const dataURL = typeof value === "string" ? value : value?.dataURL || value?.dataUrl;
           if (typeof dataURL !== "string" || !/^data:image\/(?:jpeg|png|webp|gif);base64,[A-Za-z0-9+/\r\n]+=*$/i.test(dataURL)) throw makeError("IMAGE", "图片数据无效，请重新上传 JPG、PNG、WebP 或 GIF。");
-          if ((dataURL.length - dataURL.indexOf(",") - 1) * 0.75 > MAX_IMAGE + 3) throw makeError("IMAGE", "有图片超过 12 MiB，请压缩后重试。");
+          const encoded = dataURL.slice(dataURL.indexOf(",") + 1).replace(/[\r\n]/g, "");
+          if (encoded.length % 4) throw makeError("IMAGE", "图片编码不完整，请重新上传图片。");
+          const size = encoded.length * 0.75 - (encoded.endsWith("==") ? 2 : encoded.endsWith("=") ? 1 : 0);
+          if (size > MAX_IMAGE) throw makeError("IMAGE", "有图片超过 12 MiB，请压缩后重试。");
+          totalSize += size;
           return {type: "input_image", image_url: dataURL, detail: "high"};
         });
+        if (totalSize > MAX_IMAGE_GROUP) throw makeError("IMAGE", "本组图片合计不能超过 40 MiB，请减少图片或压缩后重试。");
         const result = await request({instructions: await prompts().ocrInstructions(kind), input: [{type: "input_text", text: JSON.stringify({kind, imageCount: pictures.length, task: "按图片顺序逐字识别，保留原有换行和标点，返回约定的 JSON。"})}, ...pictures], signal, onChunk, maximum: 24000, phase: "ocr"});
         return Core.validateOCR(result);
       },

@@ -93,6 +93,10 @@ assert.match(questionOCR, /无法辨认/);
 assert.match(questionOCR, /不是已经确认的错别字数量/);
 assert.match(questionOCR, /每项代表一处/);
 assert.match(prompts.ocrInstructions("answer"), /questionMeta.maxScore、wordLimit、subtype均为null/);
+assert.match(prompts.ocrInstructions("answer"), /同一份答卷的连续多页/);
+assert.match(prompts.ocrInstructions("answer"), /按上传顺序合并各页正文/);
+assert.match(prompts.ocrInstructions("answer"), /页间保留空行/);
+assert.match(prompts.ocrInstructions("answer"), /第几张图及位置/);
 
 const methods = fs.readFileSync(path.join(__dirname, "../assets/prompts/shenlun-methods.md"), "utf8");
 for (const concept of ["选大哥", "选词组合", "化大为小", "目标导向", "40字", "同义", "官方", "划改", "occurrence"]) assert.ok(methods.includes(concept));

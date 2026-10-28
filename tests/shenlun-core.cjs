@@ -179,6 +179,41 @@ test("grading carries current OCR provenance and rejects a reference still needi
   assert.equal(h.requests.length, 3);
 });
 
+test("multi-page handwriting evidence is bound to every page in order and the exact answer text", async () => {
+  const h = clientHarness(() => response(reportRaw()));
+  const images = [{id: "im1", hash: "first-page"}, {id: "im2", hash: "second-page"}];
+  const provenance = {mode: "image", imageHashes: images.map(image => image.hash), ocrKey: "two-page-ocr",
+    textHash: await Core.fingerprint(new TextEncoder().encode(project().answerText)), observations: ocrRaw().observations};
+  const draft = project({answerImages: images, answerProvenance: provenance});
+  await h.client.grade({project: draft, reference: referenceRaw()});
+  const sent = JSON.parse(h.requests[0].body.input[0].content[0].text).project.answerProvenance;
+  assert.deepEqual(sent.imageHashes, ["first-page", "second-page"]);
+  assert.equal(sent.imageHash, undefined, "a multi-page binding must never imply only the first page was checked");
+  assert.deepEqual(sent.observations, provenance.observations);
+  const stale = [
+    {answerImages: [...images].reverse()},
+    {answerImages: [...images, {id: "im3", hash: "third-page"}]},
+    {answerImages: images.slice(0, 1)},
+    {answerImages: [images[0], {id: "im2", hash: "new-second-page"}]},
+    {answerText: draft.answerText + "（人工校对）"},
+    {answerProvenance: {...provenance, imageHashes: ["first-page"]}},
+    {answerProvenance: {...provenance, imageHashes: "first-page,second-page"}},
+    {answerProvenance: {...provenance, imageHashes: null}},
+    {answerProvenance: {mode: "image", imageHash: "first-page", ocrKey: provenance.ocrKey, textHash: provenance.textHash, observations: provenance.observations}}
+  ];
+  for (const changed of stale) {
+    await h.client.grade({project: {...draft, ...changed}, reference: referenceRaw()});
+    assert.equal(JSON.parse(h.requests.at(-1).body.input[0].content[0].text).project.answerProvenance, null,
+      "changed, missing or reordered pages and edited text cannot reuse handwriting evidence");
+  }
+  const legacy = {mode: "image", imageHash: "first-page", ocrKey: provenance.ocrKey, textHash: provenance.textHash, observations: provenance.observations};
+  await h.client.grade({project: {...draft, answerImages: images.slice(0, 1), answerProvenance: legacy}, reference: referenceRaw()});
+  assert.deepEqual(JSON.parse(h.requests.at(-1).body.input[0].content[0].text).project.answerProvenance.imageHashes, ["first-page"]);
+  await h.client.grade({project: {...draft, answerImages: images.slice(0, 1), answerProvenance: {...legacy, imageHashes: []}}, reference: referenceRaw()});
+  assert.equal(JSON.parse(h.requests.at(-1).body.input[0].content[0].text).project.answerProvenance, null,
+    "an explicitly invalid new binding cannot fall back to the legacy first-page hash");
+});
+
 test("OCR sends high-detail image bytes, has no conversation and parses structured results", async () => {
   const h = clientHarness(() => response(ocrRaw()));
   const png = "data:image/png;base64,aGVsbG8=";
@@ -187,7 +222,25 @@ test("OCR sends high-detail image bytes, has no conversation and parses structur
   const {body} = h.requests[0]; assert.equal(body.input[0].content[1].image_url, png); assert.equal(body.input[0].content[1].detail, "high");
   assert.equal(body.store, false); assert.equal(body.previous_response_id, undefined);
   await assert.rejects(h.client.recognize({images: ["https://external.invalid/image.png"], kind: "question"}), error => error.code === "IMAGE");
-  await assert.rejects(h.client.recognize({images: [png, png], kind: "answer"}), error => error.code === "INPUT");
+  await assert.rejects(h.client.recognize({images: Array(13).fill(png), kind: "answer"}), error => error.code === "INPUT");
+});
+
+test("multi-page answer OCR preserves image order, remains stateless and enforces group limits before requesting", async () => {
+  const h = clientHarness(() => response(ocrRaw({text: "第一页。\n\n第二页。"})));
+  const pages = ["data:image/png;base64,aGVsbG8=", "data:image/png;base64,d29ybGQ="];
+  assert.equal((await h.client.recognize({images: pages, kind: "answer"})).text, "第一页。\n\n第二页。");
+  const {body} = h.requests[0];
+  assert.deepEqual(body.input[0].content.slice(1), pages.map(image_url => ({type: "input_image", image_url, detail: "high"})));
+  assert.equal(JSON.parse(body.input[0].content[0].text).imageCount, 2);
+  assert.equal(body.store, false); assert.equal(body.previous_response_id, undefined);
+  assert.doesNotMatch(JSON.stringify(body), /previous_response_id|conversation|history|answerProvenance/);
+  await h.client.recognize({images: Array(12).fill(pages[0]), kind: "answer"});
+  assert.equal(h.requests.length, 2, "twelve small answer pages are accepted");
+  const elevenMiB = "data:image/png;base64," + Buffer.alloc(11 * 1024 * 1024).toString("base64");
+  await assert.rejects(h.client.recognize({images: Array(4).fill(elevenMiB), kind: "answer"}), error => error.code === "IMAGE" && /40 MiB/.test(error.message));
+  const oversized = "data:image/png;base64," + Buffer.alloc(12 * 1024 * 1024 + 1).toString("base64");
+  await assert.rejects(h.client.recognize({images: [oversized], kind: "answer"}), error => error.code === "IMAGE" && /12 MiB/.test(error.message));
+  assert.equal(h.requests.length, 2, "rejected page counts and sizes must not consume a model request");
 });
 
 test("gateway failures, incomplete output and malformed JSON never retry or produce a valid score", async () => {
@@ -237,6 +290,27 @@ test("memory fallback is explicit, projects preserve reports and export never in
   assert.notEqual((await restored.get("p-1")).answerText, "changed");
   await restored.remove("p-1"); assert.deepEqual(await restored.list(), []);
   await store.removeAsset("image1"); assert.equal(await store.getAsset("image1"), null);
+});
+
+test("multi-page answer backups preserve ordered evidence and reject excessive pages or known image sizes", async () => {
+  const store = Service.createStore({indexedDB: null});
+  const answerImages = [{id: "answer-1", name: "第1页.png", hash: "page-a", size: 100}, {id: "answer-2", name: "第2页.png", hash: "page-b", size: 200}];
+  const answerProvenance = {mode: "image", imageHashes: ["page-a", "page-b"], textHash: "text-hash", ocrKey: "pages-key", observations: ocrRaw().observations};
+  await store.put(project({answerImages, answerProvenance}));
+  const exported = await store.exportData(), restored = Service.createStore({indexedDB: null});
+  await restored.importData(exported);
+  assert.deepEqual((await restored.get("p-1")).answerImages, answerImages);
+  assert.deepEqual((await restored.get("p-1")).answerProvenance, answerProvenance);
+  assert.equal(exported.assetsIncluded, false);
+  const list = count => Array.from({length: count}, (_, index) => ({id: "page-" + index, hash: "hash-" + index}));
+  await store.put(project({id: "answer-limit", answerImages: list(12)}));
+  await assert.rejects(store.put(project({answerImages: list(13)})), /图片列表/);
+  await assert.rejects(restored.importData({...exported, projects: [project({answerImages: list(13)})]}), /图片列表/);
+  await assert.rejects(store.put(project({answerImages: list(4).map(image => ({...image, size: 11 * 1024 * 1024}))})), /40 MiB/);
+  await assert.rejects(store.put(project({answerImages: [{id: "too-large", hash: "hash", size: 12 * 1024 * 1024 + 1}]})), /12 MiB/);
+  await store.put(project({id: "legacy-question", questionImages: list(20)}));
+  assert.equal((await store.get("legacy-question")).questionImages.length, 20, "legacy material records without sizes remain readable");
+  assert.deepEqual((await restored.get("p-1")).answerImages, answerImages, "an invalid import cannot replace an existing valid project");
 });
 
 test("import validates before mutation and keeps newer local projects", async () => {

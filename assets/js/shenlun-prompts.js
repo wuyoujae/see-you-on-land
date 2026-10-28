@@ -6,7 +6,7 @@
 })(typeof window !== "undefined" ? window : globalThis, function () {
   "use strict";
 
-  const VERSION = "shenlun-summary-2026-10-27-v1";
+  const VERSION = "shenlun-summary-2026-10-27-v2";
   const SUBTYPES = [
     {id: "auto", label: "自动判断"},
     {id: "countermeasure", label: "概括对策"},
@@ -160,7 +160,7 @@ comprehensive 概括综合：按具体问法代入，可能同时需要做法、
 按提供的图片顺序、每页正常阅读顺序识别，保留可见段落、行的换行、序号、标点、数字、单位和符号；页面之间用空行连接，不添加原图没有的页标题。连续重复的页眉页脚、题干或段落也不得擅自删改；是否去重由用户在文本框调整。禁止根据常识补句、自动纠错、润色或填补模糊文字。无法确认的字在text对应位置写“[无法辨认]”，并在uncertain说明位置与疑点；只能看清一部分就保留可确认部分。
 若可清楚辨认删除线或涂抹，text转录未被删除的最终正文，不把被明确划掉的文字混入有效作答；将能辨认的划掉文字原样放入crossouts.quote，描述它在第几张图什么位置。划掉字看不清时quote用空串并说明，不猜写了什么。crossouts每项代表一处可辨认的划改，不代表一个错字；无法确定是否划改要放uncertain，不伪造精确总数。
 suspectedTypos仅列可见字形与语境存在冲突的疑似错字，quote保留实际看见的写法，suggestion只在能给出合理候选时填写，否则空串，confidence为0到1。它不是已经确认的错别字数量，不能把模型不认识的字、人名、术语判成错别字。低清晰度、潦草或笔画覆盖优先列uncertain；不可把识别错误当作用户写错。
-${question ? "本次是题目识别，可以有多张题干及给定资料图片。所有题干、资料和作答要求照录；questionMeta只提取图中明确出现的满分、字数限制、任务、材料范围和概括题子类。数值找不到就null，文本找不到就空串，子类不确定就null；多题分值冲突时不擅自选一个，maxScore为null并列uncertain。" : "本次是答案识别，只转录用户作答。questionMeta.maxScore、wordLimit、subtype均为null，task和scope均为空串；不能从答卷旁的标记猜题目要求。"}
+${question ? "本次是题目识别，可以有多张题干及给定资料图片。所有题干、资料和作答要求照录；questionMeta只提取图中明确出现的满分、字数限制、任务、材料范围和概括题子类。数值找不到就null，文本找不到就空串，子类不确定就null；多题分值冲突时不擅自选一个，maxScore为null并列uncertain。" : "本次是答案识别，可以有同一份答卷的连续多页，只转录用户作答。严格按上传顺序合并各页正文，页间保留空行，不跳页、不概括、不自动去重；跨页的句子也保持原有内容。划改与无法辨认的观察说明第几张图及位置，疑似错字保留实际写法，不混用其他页的信息。questionMeta.maxScore、wordLimit、subtype均为null，task和scope均为空串；不能从答卷旁的标记猜题目要求。"}
 observation的confidence只描述视觉识别把握，不能当评分确信度；观察只属于本次图片。返回一个JSON对象，不加代码围栏、HTML或解释。\n\n` + schemaInstructions("ocr");
   }
   function referenceInstructions(project) {
