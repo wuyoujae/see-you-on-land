@@ -184785,7 +184785,830 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 72.9
         }
       ]
+    },
+    {
+      "date": "2026-10-28",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 4
+        },
+        {
+          "name": "全面从严治党",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "f6696fe21dcb69",
+          "source": "人民日报",
+          "title": "习近平向日本前首相福田康夫遗属致唁电",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188026.html",
+          "date": "2026-10-28",
+          "keyword": "习近平"
+        },
+        {
+          "id": "fbcc67bf213713",
+          "source": "人民日报",
+          "title": "习近平致电祝贺卢拉当选连任巴西总统",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188025.html",
+          "date": "2026-10-28",
+          "keyword": "习近平"
+        },
+        {
+          "id": "a60f96ef345eb7",
+          "source": "光明日报",
+          "title": "习近平向日本前首相福田康夫遗属致唁电",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28486.html",
+          "date": "2026-10-28",
+          "keyword": "习近平"
+        },
+        {
+          "id": "82720a8b6079e8",
+          "source": "光明日报",
+          "title": "习近平致电祝贺卢拉当选连任巴西总统",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28485.html",
+          "date": "2026-10-28",
+          "keyword": "习近平"
+        },
+        {
+          "id": "4c0e566309be14",
+          "source": "人民日报",
+          "title": "全面从严治党就在身边",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188027.html",
+          "date": "2026-10-28",
+          "keyword": "全面从严治党"
+        },
+        {
+          "id": "7dc5fc2135bcd2",
+          "source": "求是",
+          "title": "新时代全面从严治党体系的鲜明特点和重大意义",
+          "url": "https://www.qstheory.cn/20261028/6b1edae078cc479a806a0de69424fa19/c.html",
+          "date": "2026-10-28",
+          "keyword": "全面从严治党"
+        },
+        {
+          "id": "e3a5d7bf2f18a5",
+          "source": "中国政府网",
+          "title": "“我将无我，不负人民”的时代答卷",
+          "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7084377.htm",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6724f2f81811a2",
+          "source": "人民日报",
+          "title": "9жЬИеЕ®еЫљжЯ•е§ДињЭеПНдЄ≠е§ЃеЕЂй°єиІДеЃЪз≤Њз•ЮйЧЃйҐШ32940иµЈ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188035.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e4e277adb825a8",
+          "source": "人民日报",
+          "title": "вАЬжИСе∞ЖжЧ†жИСпЉМдЄНиіЯдЇЇж∞СвАЭзЪДжЧґдї£з≠ФеНЈ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188036.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8b9e115e676e56",
+          "source": "人民日报",
+          "title": "дї•йЂШдїЈеАЉдЄУеИ©еЄ¶еК®йЂШж∞іеє≥жИРжЮЬиљђеМЦпЉИдЇ≤еОЖиАЕиѓіпЉЙ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188033.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "973c07ccb93a63",
+          "source": "人民日报",
+          "title": "еЙНдЄЙе≠£еЇ¶еЕ®еЫљзЇ™ж£АзЫСеѓЯжЬЇеЕ≥е§ДеИЖеЕ≠еНБеЕЂдЄЗдЇЇ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188034.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ffb88c859cf925",
+          "source": "人民日报",
+          "title": "жѓПдЄЗдЇЇеП£йЂШдїЈеАЉеПСжШОдЄУеИ©жЛ•жЬЙйЗПе¶ВдљХе§ІеєЕиЈГеНЗпЉИиІ£з†БвАЬеНБдЇФдЇФвАЭдЄУй°єиІДеИТпЉЙ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188032.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c383353913a9d7",
+          "source": "人民日报",
+          "title": "иАБе±±иіІеНЦеЗЇжЦ∞иК±ж†ЈпЉИжЦ∞еЬЇжЩѓйЗМзЬЛжіїеКЫ¬ЈйЗСзІЛжОҐдЄ∞еєіпЉЙ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188037.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1df60216b678a2",
+          "source": "人民日报",
+          "title": "“我将无我，不负人民”的时代答卷",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188024.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6382c5c7169982",
+          "source": "人民日报",
+          "title": "中国等26国签署《联合国可转让货物单证公约》",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188044.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "da01b307067cda",
+          "source": "人民日报",
+          "title": "中巴新闻走廊在伊斯兰堡启动",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188045.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3e7c9bb61ba960",
+          "source": "人民日报",
+          "title": "何维会见欧洲议会左翼党团代表团",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188043.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1fcfeab0fed850",
+          "source": "人民日报",
+          "title": "俞雷同志逝世",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188054.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "70698475e5424a",
+          "source": "人民日报",
+          "title": "全国人大常委会副委员长郑建邦率团出席第十二届金砖国家议会论坛",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188042.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bdf9b88128f198",
+          "source": "人民日报",
+          "title": "共产党员，最闪亮的名字（党旗在基层一线高高飘扬）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188046.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8f3de20a8b6f50",
+          "source": "人民日报",
+          "title": "关注中国，就是关注未来（国际论坛·读懂中国·读懂中国式现代化）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188039.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "88ddeee1e488c7",
+          "source": "人民日报",
+          "title": "同心同行谋发展 共促亚太新繁荣（大使随笔·APEC中国年：开放 创新 合作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188040.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0eaa352f277a7f",
+          "source": "人民日报",
+          "title": "因地制宜推进乡村全面振兴（活力中国调研行）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188029.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "87df46dcad956e",
+          "source": "人民日报",
+          "title": "小家电产业焕新升级（先进制造业发展一线见闻）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188030.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6fee76c6339df1",
+          "source": "人民日报",
+          "title": "张穹同志逝世",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188055.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9d7d37f2bfbc90",
+          "source": "人民日报",
+          "title": "我国风光累计装机容量超20亿千瓦",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188028.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "363a2ce8051513",
+          "source": "人民日报",
+          "title": "打破部门壁垒 精准服务牧民（奋进“十五五” 一线见闻）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188052.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cba83a47b2bcf0",
+          "source": "人民日报",
+          "title": "用心回应群众需求（编辑手记）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188053.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bccd583aa71884",
+          "source": "人民日报",
+          "title": "留住指尖的乡愁与文脉（记者手记）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188051.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1eaeab276eefab",
+          "source": "人民日报",
+          "title": "给玛央的答案（记者手记）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188049.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "212b5c023e05f5",
+          "source": "人民日报",
+          "title": "西藏巴青县已完成3313栋建筑应急评估",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188047.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5f8390a82216d5",
+          "source": "人民日报",
+          "title": "路连通 心相通",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188038.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b79fef1c31c17b",
+          "source": "人民日报",
+          "title": "黄河泥里的乡土韵（我家门前有条河）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188050.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "abedee9ac63df7",
+          "source": "光明日报",
+          "title": "9月全国查处违反中央八项规定精神问题32940起",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28476.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2962f3013f2b5b",
+          "source": "光明日报",
+          "title": "“八力”汇聚谋发展 党建引领创一流",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28478.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4033fd233b02e3",
+          "source": "光明日报",
+          "title": "【光明时评】将“算法向善”落实落细",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28481.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4d3a119bea8a27",
+          "source": "光明日报",
+          "title": "【光明时评】汇聚科学家力量，赋能高水平科技期刊建设",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28480.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "07b69d82fc55f1",
+          "source": "光明日报",
+          "title": "【光明时评】精细化治理的内核是“为民”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28482.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f61b398cf27d0b",
+          "source": "光明日报",
+          "title": "【光明论坛】深深植根人民，走好新的长征路",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28479.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "015b37ed8181a6",
+          "source": "光明日报",
+          "title": "【大美中国】高原秋色美",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28488.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f3be27b860272e",
+          "source": "光明日报",
+          "title": "【抵近观察⑧】这盏灯，会一直亮下去……",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28484.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9db2fa0fee9a9d",
+          "source": "光明日报",
+          "title": "【这些古村镇的文化记忆①】从西河阳到万松浦",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28489.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f1f2a3e714c415",
+          "source": "光明日报",
+          "title": "上海蕃瓜弄的新生：从低矮旧房到向阳安居",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28503.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e37c3ff2944317",
+          "source": "光明日报",
+          "title": "从“知识中心”转向“思维中心” 构建涉外法治人才培养新模式",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28483.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dbfa8d577f72e5",
+          "source": "光明日报",
+          "title": "前三季度全国纪检监察机关处分68万人",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28475.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0148b429958e63",
+          "source": "光明日报",
+          "title": "坚守初心使命，始终保持党同人民群众的血肉联系",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28487.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1c3e0853dec2f7",
+          "source": "光明日报",
+          "title": "宁夏：科产融合显成效",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28472.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "114d5f427f320b",
+          "source": "光明日报",
+          "title": "新疆伊犁：文旅发展惠民生",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28501.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c22e171a48f90a",
+          "source": "光明日报",
+          "title": "河北围场：塞罕坝脚下“游”出三文鱼",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28477.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ce3590a4f2428e",
+          "source": "光明日报",
+          "title": "爱心食堂办到村民家门口",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28473.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ed890bc3bb1685",
+          "source": "光明日报",
+          "title": "秋粮收获金秋时",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28474.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2e2155b44233fd",
+          "source": "光明日报",
+          "title": "贵州铜仁：法治护航绿意浓",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202610/28/content_28502.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ebc97a24a47228",
+          "source": "新华社",
+          "title": "东北地区气温多波动 明夜起西藏等地将现强降雪",
+          "url": "https://www.news.cn/local/20261028/fd4eaf775c664f3e8c0d7e4928757adf/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "002f1beda6e475",
+          "source": "新华社",
+          "title": "中国要求美国立即停止对古巴的封锁和施压",
+          "url": "https://www.news.cn/world/20261028/b4e46eba61324fcc865c3a90687cf7a9/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ae65145cc41d15",
+          "source": "新华社",
+          "title": "中外农机企业来津参展 硬核装备 集中 亮相",
+          "url": "https://www.news.cn/world/20261028/dc2410ee93814f1e9da84e494eb3e632/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dd81a0aaad14a4",
+          "source": "新华社",
+          "title": "中方呼吁各方推进美伊止战促谈",
+          "url": "https://www.news.cn/world/20261028/38fb215ff96048d4b12e568961827caa/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "354dfe0a1c2887",
+          "source": "新华社",
+          "title": "乌方：已准备好参加三方会谈",
+          "url": "https://www.news.cn/world/20261028/1733d148f0f749008e21a0ddaa17f64b/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aa6ea7f032c003",
+          "source": "新华社",
+          "title": "也门胡塞武装：埃及授权军事支持沙特等同于“宣战”",
+          "url": "https://www.news.cn/20261028/6b796be704b4463788e7f760dd198c83/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "566d1d243cf451",
+          "source": "新华社",
+          "title": "以色列议会选举投票率达77.7% 创1999年以来新高",
+          "url": "https://www.news.cn/world/20261028/e1bc6d6c5c67438ba9f7fa7c62f31fc8/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "64f0631d71bfc3",
+          "source": "新华社",
+          "title": "俄罗斯将7名英国军工企业高管列入禁止入境名单",
+          "url": "https://www.news.cn/world/20261028/f38c6288ac414d8c89ad43ffb7af44d5/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8f21a8a3235a94",
+          "source": "新华社",
+          "title": "保加利亚总统选举将进入第二轮投票",
+          "url": "https://www.news.cn/20261028/73705e8f290b4460bcbc9636ff223bbe/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "53975a58708cc6",
+          "source": "新华社",
+          "title": "停车收费要算清“分钟账”",
+          "url": "https://www.news.cn/legal/20261028/c03b6d50ed9f4810b3291e2f09e10379/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7a1d692deb10dc",
+          "source": "新华社",
+          "title": "出口民调：议会两大阵营均未获过半数席位",
+          "url": "https://www.news.cn/world/20261028/08d650644e614dce8e12a3a768aba8a1/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c3604037a5ca90",
+          "source": "新华社",
+          "title": "刷新四项亚洲纪录 短池全锦赛又迎突破之夜",
+          "url": "https://www.news.cn/sports/20261028/87fed335a0824442b8b882cb5acc5048/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2d6f7c13d14a25",
+          "source": "新华社",
+          "title": "卢拉批其“可耻”",
+          "url": "https://www.news.cn/world/20261028/ed0ec1d385cd4583933d87f5f084cfd6/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bee2c8df3a94a8",
+          "source": "新华社",
+          "title": "壮主流舆论之势 新华网上市十周年高质量发展纪实",
+          "url": "https://www.news.cn/fortune/20261028/92aff14ff8194bb684010b515612186a/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ef8a89a3573a31",
+          "source": "新华社",
+          "title": "天然气出口国论坛第八次峰会发表《莫斯科宣言》",
+          "url": "https://www.news.cn/world/20261028/6dc7e6cfdeed468582110c25d3bdacf6/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0dfadbc7782d44",
+          "source": "新华社",
+          "title": "巴西联邦最高法院要求调查博索纳罗涉嫌接受外国资金",
+          "url": "https://www.news.cn/20261028/154ca5facb4f467ba77806f596285c27/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "46052b09b29f1b",
+          "source": "新华社",
+          "title": "广电行业从“双治理”迈向“双提升”",
+          "url": "https://www.news.cn/culture/20261028/66c5566de8a24e40ae961b748446731f/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7c60c93308a574",
+          "source": "新华社",
+          "title": "扩内需，财政金融怎样协同？来自川湘的实践与思考",
+          "url": "https://www.news.cn/fortune/20261028/f3df12ef51ca4914b71966447e51e437/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "549550c34960e7",
+          "source": "新华社",
+          "title": "是什么，让超市的生鲜一夜之间全都变了质？",
+          "url": "https://www.news.cn/legal/20261028/728f8ca9d29148f3b98563db7b3f4b3d/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "43016968a8c32f",
+          "source": "新华社",
+          "title": "普京与挪芬领导人通话 丹麦首相批削弱欧洲团结",
+          "url": "https://www.news.cn/20261028/b33f3aca6b0441bf8ec1e9faf38f08c8/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8e45d1974ca0b6",
+          "source": "新华社",
+          "title": "梅拉尼娅：俄乌奥列什基停火提前生效 范围已扩大",
+          "url": "https://www.news.cn/world/20261028/52bb74e42d70479aa9ca2ebb9ba42ae0/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5690dbcbcf196f",
+          "source": "新华社",
+          "title": "每万人口高价值发明专利拥有量大幅跃升，如何实现",
+          "url": "https://www.news.cn/20261028/deb380ee665f414eabff33653880b9ca/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3a61324d14fc26",
+          "source": "新华社",
+          "title": "水城农民画 绘出新生活",
+          "url": "https://www.news.cn/culture/20261028/5369dd7bef754e6390ec1464b6845835/c.html?page=1",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0deda8738e8eb9",
+          "source": "新华社",
+          "title": "波兰将设立“爱国者”导弹维修中心",
+          "url": "https://www.news.cn/20261028/ec8a98cdb0b04a9cb452d8021693594c/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "acf05478886953",
+          "source": "新华社",
+          "title": "矢志不渝为人民丨正风笃行",
+          "url": "https://www.news.cn/politics/20261028/a0df9167c9ff419b970a13b5aabb2f16/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "12ed101091c351",
+          "source": "新华社",
+          "title": "美军称在东太平洋打击“贩毒船”致5人死亡",
+          "url": "https://www.news.cn/20261028/2d181e76bdb941db9265fa16e6a9cbf3/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cc40cb9e1ba481",
+          "source": "新华社",
+          "title": "美媒说弗拉维奥·博索纳罗抵达美国",
+          "url": "https://www.news.cn/20261028/105fd4d2c1a4436b95349a53c2bf0757/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0af3e5eb2afd8f",
+          "source": "新华社",
+          "title": "美媒：被禁止离境的弗拉维奥·博索纳罗抵达美国",
+          "url": "https://www.news.cn/world/20261028/99075d2ab2774196be4fe34f38fd5959/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bc88d77d75b224",
+          "source": "新华社",
+          "title": "观天下丨福田康夫：有信义展担当 心系中日友好",
+          "url": "https://www.news.cn/world/20261028/beebe2e635aa42419786e59caedeeb66/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "182df1b4d1e90c",
+          "source": "新华社",
+          "title": "让更多“绿色的车”跑上“低碳的路”",
+          "url": "https://www.news.cn/politics/20261028/458eaf95aaa14eb48ab2ca48138c1904/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ba3ab10631060a",
+          "source": "新华社",
+          "title": "野鸭湖湿地成为京津冀首个“世界最佳自然保护地”",
+          "url": "https://www.news.cn/politics/20261028/5d27e1c81eba403d8cc816169bfd7108/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1dcee32dd8df99",
+          "source": "求是",
+          "title": "9月全国查处违反中央八项规定精神问题32940起",
+          "url": "https://www.qstheory.cn/20261028/19f0d0a530f5485c89ddc39319b249cb/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3998f9a7416117",
+          "source": "求是",
+          "title": "不断实现党的自我净化、自我完善、自我革新、自我提高",
+          "url": "https://www.qstheory.cn/20261028/3b7df2adc0804bb9a47f435f15184ad7/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e3656903417b16",
+          "source": "求是",
+          "title": "中方呼吁各方推进美伊止战促谈",
+          "url": "https://www.qstheory.cn/20261028/18a347f9e4804837b26cf433ff177ffa/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a74e9c38a527b6",
+          "source": "求是",
+          "title": "为什么预期管理日益重要",
+          "url": "https://www.qstheory.cn/20261028/50f41a71317b4132b1a0bbfee79a0b78/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "422e2ecb343320",
+          "source": "求是",
+          "title": "事关能源保供中长期合同管理 国家发展改革委作出部署",
+          "url": "https://www.qstheory.cn/20261028/65d7f0aa89754b23845afb4d8571f9c9/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2a5c68b2d0123c",
+          "source": "求是",
+          "title": "以智能协同提升健康服务整体效能",
+          "url": "https://www.qstheory.cn/20261028/3eea960fb8504977979412989e98c9a8/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b272ffb9d2b76a",
+          "source": "求是",
+          "title": "告别复杂操作 拥抱沉浸视听",
+          "url": "https://www.qstheory.cn/20261028/fa68e070dd414df6b22198874860da05/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9940671fe6908d",
+          "source": "求是",
+          "title": "我国风光累计装机容量超20亿千瓦",
+          "url": "https://www.qstheory.cn/20261028/b9b860c909334394afb4248b29a17442/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4c0e0f2edb7d84",
+          "source": "求是",
+          "title": "民政部部署“寒冬送温暖”专项救助行动",
+          "url": "https://www.qstheory.cn/20261028/38f2c7f8be6c4fe086e9e43252b22e3b/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "51d036678c83b9",
+          "source": "求是",
+          "title": "谱写新时代强军兴军新篇章",
+          "url": "https://www.qstheory.cn/20261028/a24a62e68206426787cc500069921744/c.html",
+          "date": "2026-10-28",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 23.2,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261028.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "ok",
+          "count": 29,
+          "duration": 1.9
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 31,
+          "duration": 3.6
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 10.2
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 11,
+          "duration": 5.8
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 21,
+          "duration": 1.4
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.4
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.2
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 1,
+          "duration": 8.4
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 63.0
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-10-27T23:41:46+08:00"
+  "generatedAt": "2026-10-28T09:04:19+08:00"
 };
