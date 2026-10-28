@@ -435,15 +435,19 @@ test("multi-page OCR sends pages in order, binds all page hashes and reuses only
   const assets = images.map((im, i) => [im.id, {id: im.id, blob: new Blob(["page-" + (i + 1)], {type: "image/png"})}]);
   const h = harness({projects: [p, project("p-b")], assets, handlers: {recognize: args => ocr(args.images[0].includes(Buffer.from("page-1").toString("base64")) ? "第一张。\n第二张。" : "第二张。\n第一张。")}}); await h.settle();
   const expectedURLs = [1, 2].map(i => "data:image/png;base64," + Buffer.from("page-" + i).toString("base64"));
-  await h.action("recognize", {kind: "answer"}); await h.until(() => !!h.current.answerProvenance);
+  const completedOCR = () => h.toasts().filter(text => text === "识别完成，请核对文字、标点和题目分值。").length;
+  // Provenance is assigned before adoptOCR persists, and crypto.subtle.digest
+  // may still be running after settle(). Wait for the controller's terminal
+  // notification so the next action cannot collide with the previous OCR job.
+  await h.action("recognize", {kind: "answer"}); await h.until(() => completedOCR() === 1);
   assert.deepEqual(Array.from(h.calls[0].args.images), expectedURLs);
   assert.deepEqual(Array.from(h.current.answerProvenance.imageHashes), images.map(im => im.hash));
   assert.equal(h.current.answerText, "第一张。\n第二张。"); assert.equal(h.cache.size, 1);
-  await h.action("recognize", {kind: "answer"}); await h.settle();
+  await h.action("recognize", {kind: "answer"}); await h.until(() => completedOCR() === 2);
   assert.equal(h.calls.length, 1, "same ordered image set should reuse OCR");
   await h.action("move-image", {kind: "answer", index: "0", direction: "1"});
   assert.equal(h.current.answerProvenance, null); assert.equal(h.current.answerText, "第一张。\n第二张。");
-  await h.action("recognize", {kind: "answer"}); await h.until(() => h.calls.length === 2 && !!h.current.answerProvenance);
+  await h.action("recognize", {kind: "answer"}); await h.until(() => completedOCR() === 3);
   assert.deepEqual(Array.from(h.calls[1].args.images), [...expectedURLs].reverse());
   assert.deepEqual(Array.from(h.current.answerProvenance.imageHashes), images.map(im => im.hash).reverse());
   assert.equal(h.current.answerText, "第二张。\n第一张。"); assert.equal(h.cache.size, 2);
