@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-10-24",
+  "verifiedAt": "2026-10-30",
   "exams": [
     {
       "id": "national",
@@ -15,12 +15,11 @@
       "id": "provincial",
       "name": "2027 广东省考",
       "date": "2026-12-06",
-      "dateLabel": "预计 2026.12.06 笔试",
-      "status": "estimated",
-      "statusLabel": "预估 · 待公告",
-      "sourceUrl": "https://ggfw.hrss.gd.gov.cn/gwyks/anouns.do",
-      "sourceTitle": "广东省公务员考试录用管理系统",
-      "note": "沿用应用原有备考目标日期，尚未核实为官方考试日期。"
+      "dateLabel": "2026.12.06 公共科目笔试",
+      "status": "official",
+      "statusLabel": "已公布",
+      "sourceUrl": "https://www.gdzz.gov.cn/gwygz/lypytzgg/content/post_26299.html",
+      "sourceTitle": "广东省2027年考试录用公务员公告"
     }
   ]
 }
