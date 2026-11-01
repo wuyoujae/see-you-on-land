@@ -191599,39 +191599,19 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-11-01",
-      "keyword": "二十届五中全",
+      "keyword": "全面从严治党",
       "keywords": [
         {
-          "name": "二十届五中全",
-          "count": 4
+          "name": "全面从严治党",
+          "count": 2
         },
         {
-          "name": "十届五中全会",
-          "count": 4
+          "name": "中国共产党",
+          "count": 2
         },
         {
-          "name": "代党的建设新",
-          "count": 3
-        },
-        {
-          "name": "党的二十届五",
-          "count": 3
-        },
-        {
-          "name": "建设新的伟大",
-          "count": 3
-        },
-        {
-          "name": "推进新时代党",
-          "count": 3
-        },
-        {
-          "name": "新时代党的建",
-          "count": 3
-        },
-        {
-          "name": "新的伟大工程",
-          "count": 3
+          "name": "科技",
+          "count": 2
         }
       ],
       "articles": [
@@ -191641,39 +191621,47 @@ window.CURRENT_AFFAIRS_DATA = {
           "title": "世界政党政要高度评价中国共产党二十届五中全会成果",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202611/01/content_30188722.html",
           "date": "2026-11-01",
-          "keyword": "二十届五中全"
+          "keyword": "中国共产党"
         },
         {
-          "id": "540eaae7c0cb36",
+          "id": "976cea082b029c",
           "source": "人民日报",
-          "title": "永葆生机活力 走好新的赶考之路（学习贯彻党的二十届五中全会精神）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/01/content_30188714.html",
+          "title": "携手推进传统医学与现代科技深度融合",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/01/content_30188727.html",
           "date": "2026-11-01",
-          "keyword": "二十届五中全"
+          "keyword": "科技"
         },
         {
-          "id": "5612169c2af30a",
-          "source": "人民日报",
-          "title": "走在前作表率 深入推进新时代党的建设新的伟大工程（学习贯彻党的二十届五中全会精神）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/01/content_30188719.html",
+          "id": "bea97abcf54968",
+          "source": "新华社",
+          "title": "新华社评论员：深刻把握全面从严治党的根本性任务和内在要求",
+          "url": "https://www.news.cn/politics/20261101/16312ca2cb9344a990f506a00796c3f2/c.html",
           "date": "2026-11-01",
-          "keyword": "二十届五中全"
+          "keyword": "全面从严治党"
         },
         {
-          "id": "609c6d36c7f4ca",
-          "source": "广东发布",
-          "title": "“推进新时代党的建设新的伟大工程的纲领性文件”——党的二十届五中全会侧记",
-          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4973567.html",
+          "id": "9c9816d5dedf30",
+          "source": "求是",
+          "title": "2026中国自动化大会共探自动化与智能科技前沿",
+          "url": "https://www.qstheory.cn/20261101/96dbeea95156497fa098cf94a060d180/c.html",
           "date": "2026-11-01",
-          "keyword": "二十届五中全"
+          "keyword": "科技"
         },
         {
-          "id": "079b7ad5c1ce9c",
-          "source": "光明日报",
-          "title": "走在前作表率 深入推进新时代党的建设新的伟大工程",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/01/content_28818.html",
+          "id": "8a2e88cf331a90",
+          "source": "求是",
+          "title": "世界政党政要高度评价中国共产党二十届五中全会成果",
+          "url": "https://www.qstheory.cn/20261101/16a9160c15a84ed3a105efef51685d68/c.html",
           "date": "2026-11-01",
-          "keyword": "代党的建设新"
+          "keyword": "中国共产党"
+        },
+        {
+          "id": "82447991321355",
+          "source": "求是",
+          "title": "深刻把握全面从严治党的根本性任务和内在要求",
+          "url": "https://www.qstheory.cn/20261101/3b58f2153d284f98b23397559a61988a/c.html",
+          "date": "2026-11-01",
+          "keyword": "全面从严治党"
         },
         {
           "id": "0f21d9a5525938",
@@ -191756,10 +191744,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "976cea082b029c",
+          "id": "540eaae7c0cb36",
           "source": "人民日报",
-          "title": "携手推进传统医学与现代科技深度融合",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/01/content_30188727.html",
+          "title": "永葆生机活力 走好新的赶考之路（学习贯彻党的二十届五中全会精神）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/01/content_30188714.html",
           "date": "2026-11-01",
           "keyword": "综合时政"
         },
@@ -191776,6 +191764,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "讲好长征故事 汲取奋进力量",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202611/01/content_30188730.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5612169c2af30a",
+          "source": "人民日报",
+          "title": "走在前作表率 深入推进新时代党的建设新的伟大工程（学习贯彻党的二十届五中全会精神）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/01/content_30188719.html",
           "date": "2026-11-01",
           "keyword": "综合时政"
         },
@@ -191996,10 +191992,42 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "079b7ad5c1ce9c",
+          "source": "光明日报",
+          "title": "走在前作表率 深入推进新时代党的建设新的伟大工程",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/01/content_28818.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
           "id": "04d5405945ecdf",
           "source": "光明日报",
           "title": "重庆：国际志愿服务传递“中国温度”",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202611/01/content_28838.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "609c6d36c7f4ca",
+          "source": "广东发布",
+          "title": "“推进新时代党的建设新的伟大工程的纲领性文件”——党的二十届五中全会侧记",
+          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4973567.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "282aae7429bd1d",
+          "source": "新华社",
+          "title": "COP17敦促加快落实“昆蒙框架”",
+          "url": "https://www.news.cn/world/20261101/22b93b8329584dcb8301c751b0ee339d/c.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "801e7d63405be1",
+          "source": "新华社",
+          "title": "中企承建乌拉圭500千伏输变电环网正式交付",
+          "url": "https://www.news.cn/world/20261101/3decffa5e9174381bfa0195104299f48/c.html",
           "date": "2026-11-01",
           "keyword": "综合时政"
         },
@@ -192060,10 +192088,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "4ff1e9593dc3a7",
+          "source": "新华社",
+          "title": "加政府推动提升港口吞吐能力以降低对美出口依赖",
+          "url": "https://www.news.cn/world/20261101/7f9a7794a2cc41ccb6e9eaeefcff3a66/c.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
           "id": "2795c0ae63952d",
           "source": "新华社",
           "title": "圆梦非洲，定格达喀尔青奥会开幕式璀璨时刻",
           "url": "https://www.news.cn/sports/20261101/8b7ec003a01f42fabc7aba7ab8b0154f/c.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0e3c0000216c4c",
+          "source": "新华社",
+          "title": "广交会三期展现中国产品向新向绿向智转型",
+          "url": "https://www.news.cn/fortune/20261101/2e72daedb24e44ef8361bc6ac2506d54/c.html",
           "date": "2026-11-01",
           "keyword": "综合时政"
         },
@@ -192076,10 +192120,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "bea97abcf54968",
+          "id": "27377abfa7e614",
           "source": "新华社",
-          "title": "新华社评论员：深刻把握全面从严治党的根本性任务和内在要求",
-          "url": "https://www.news.cn/politics/20261101/16312ca2cb9344a990f506a00796c3f2/c.html",
+          "title": "新华视点丨AI赋能电力 如何更好守住万家灯火",
+          "url": "https://www.news.cn/fortune/20261101/b893ce7dacdc47a79a2a6ad5660bc04a/c.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "048538510d61b8",
+          "source": "新华社",
+          "title": "朝鲜进行重要武器系统威力评估试验",
+          "url": "https://www.news.cn/world/20261101/8cc8253fb4674b6c8385a25929ea7aa1/c.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3dfffca5cf03f0",
+          "source": "新华社",
+          "title": "权威数读·观中国：本周，这些数据值得关注",
+          "url": "https://www.news.cn/fortune/20261101/8a2a8deaedcd44448514c5e5a2edcd37/c.html",
           "date": "2026-11-01",
           "keyword": "综合时政"
         },
@@ -192088,6 +192148,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "江南等地降温开启 中东部有大范围降水局地有大雨",
           "url": "https://www.news.cn/politics/20261101/feb2cd65f8a946c18ee5c515175bdcd5/c.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "60807d492065e9",
+          "source": "新华社",
+          "title": "河北峰峰：响堂叠翠 生态兴旅",
+          "url": "https://www.news.cn/politics/20261101/c04c450fd09d4afa9e8157d1ded631f5/c.html",
           "date": "2026-11-01",
           "keyword": "综合时政"
         },
@@ -192122,6 +192190,102 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/sports/20261101/ef32f95382bf446a9be24dcccceb12fd/c.html",
           "date": "2026-11-01",
           "keyword": "综合时政"
+        },
+        {
+          "id": "2ad6a80f4a5131",
+          "source": "新华社",
+          "title": "特朗普称会邀请泽连斯基参加二十国集团领导人峰会",
+          "url": "https://www.news.cn/world/20261101/f10f0a4cb37a4f8f921866d0752abc4c/c.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5f30dffc6e6244",
+          "source": "新华社",
+          "title": "碧湖衔远翠 沙退绿能兴 内蒙古铺展绿色发展新图景",
+          "url": "https://www.news.cn/politics/20261101/41eee483c93d4d1e85068be4bfcab082/c.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "64a051df27805a",
+          "source": "新华社",
+          "title": "首次摆上“双十一”货架 Token走进大众消费",
+          "url": "https://www.news.cn/fortune/20261101/bb39f666e6044c8b9174182447231008/c.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0bf247810c4cb0",
+          "source": "新华社",
+          "title": "高校校医院，从“有”到“优”要多久",
+          "url": "https://www.news.cn/politics/20261101/7a37dde2b83146d881a43c8c84ad39f7/c.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d7cc746fe38399",
+          "source": "新华社",
+          "title": "高物价，美国中期选举避不开的民生痛点",
+          "url": "https://www.news.cn/world/20261101/9a4cafc0595c46febda4e0c3b29d456c/c.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4cf2cae8a96da7",
+          "source": "求是",
+          "title": "“从党的创新理论中汲取党性滋养”",
+          "url": "https://www.qstheory.cn/20261101/5dc4097f87b24996990148a52e674952/c.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bf9dd1bc84330b",
+          "source": "求是",
+          "title": "中国海警位中国台湾岛以东海域依法开展常态化执法巡查",
+          "url": "https://www.qstheory.cn/20261101/79cc75fc88f14248b8760148731aae6a/c.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1cb3707ac70dae",
+          "source": "求是",
+          "title": "从《之江新语》里学党性",
+          "url": "https://www.qstheory.cn/20261101/8e86940b0b5849a5a78c7d6e685a7767/c.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3348f6c4a1ae7a",
+          "source": "求是",
+          "title": "坚持服务党的使命任务",
+          "url": "https://www.qstheory.cn/20261101/e0fb98b0afbd4b95afdab845e66f2cfe/c.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cf2345dab7cc3f",
+          "source": "求是",
+          "title": "我国载人月球探测工程采用“两次发射、环月对接”方案",
+          "url": "https://www.qstheory.cn/20261101/1e77d0e770de446298117ba6087fdb14/c.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ddf710f18a715c",
+          "source": "求是",
+          "title": "我国铼、金、镍、锆等保有资源量大幅增加",
+          "url": "https://www.qstheory.cn/20261101/63eb59f65e8d4aafb71611cd0d3092a6/c.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9a21cc5bdf9bf5",
+          "source": "求是",
+          "title": "走在前作表率 深入推进新时代党的建设新的伟大工程",
+          "url": "https://www.qstheory.cn/20261101/da8c91de1bee4060b113dca0337e1467/c.html",
+          "date": "2026-11-01",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -192129,44 +192293,44 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 9.6,
+          "duration": 29.4,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261101.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 17,
-          "duration": 1.9
+          "duration": 1.6
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 15,
+          "count": 28,
           "duration": 3.2
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 16.4
+          "duration": 18.9
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 6.0
+          "count": 10,
+          "duration": 5.6
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 28,
-          "duration": 24.4
+          "duration": 2.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 15.7
+          "duration": 15.8
         },
         {
           "source": "学习强国",
@@ -192178,16 +192342,16 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.8
+          "duration": 10.4
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 44.5
+          "duration": 78.8
         }
       ]
     }
   ],
-  "generatedAt": "2026-11-01T08:50:17+08:00"
+  "generatedAt": "2026-11-01T11:47:22+08:00"
 };
