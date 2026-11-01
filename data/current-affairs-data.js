@@ -192675,7 +192675,108 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 67.1
         }
       ]
+    },
+    {
+      "date": "2026-11-02",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 3
+        }
+      ],
+      "articles": [
+        {
+          "id": "5bc4b55d39759f",
+          "source": "新华社",
+          "title": "也门亚丁一军事设施附近地区遭导弹袭击",
+          "url": "https://www.news.cn/20261102/e0c5cea3225c48cf9eefbe9890d6d44d/c.html",
+          "date": "2026-11-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5ca28a16e0ccbf",
+          "source": "新华社",
+          "title": "伊朗外长：希望美方保持理性",
+          "url": "https://www.news.cn/20261102/ff63ad862cac4ac6b7a71002f547262b/c.html",
+          "date": "2026-11-02",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2fe15ae233c43d",
+          "source": "新华社",
+          "title": "沙特主导联军称对胡塞武装实施精准打击",
+          "url": "https://www.news.cn/20261102/fbed6ebeca314a188950e13e476f178f/c.html",
+          "date": "2026-11-02",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 9.6,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261102.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.1,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202611/02/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 3,
+          "duration": 4.6
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 20.1
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.9
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.8,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202611/02/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 16.3
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.7
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 10.5
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 75.3
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-11-01T18:59:55+08:00"
+  "generatedAt": "2026-11-02T01:02:33+08:00"
 };
