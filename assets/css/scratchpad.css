@@ -1,0 +1,82 @@
+/* A translucent writing surface over the existing study workspace. */
+.learn-context > div { flex: 1; }
+.learn-context > div > strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.scratchpad-launch { margin-left: auto; width: 2.6rem; height: 2.6rem; flex: none; display: grid; place-items: center; border: 0; border-radius: .75rem; background: transparent; color: var(--accent); cursor: pointer; transition: background .18s, transform .18s; }
+.scratchpad-launch:hover { background: var(--accent-soft); }
+.scratchpad-launch:active { transform: scale(.92); }
+.scratchpad-launch svg { width: 1.3rem; height: 1.3rem; }
+.scratchpad[hidden], .scratchpad [hidden] { display: none !important; }
+.scratchpad { position: fixed; inset: 0; z-index: 600; isolation: isolate; color: var(--ink); overscroll-behavior: none; animation: scratchpad-in .2s ease-out both; }
+.scratchpad.is-closing { pointer-events: none; animation: scratchpad-out .16s ease-in both; }
+.scratchpad-surface { position: absolute; inset: 0; overflow: hidden; touch-action: none; background-color: rgba(253,254,251,.62); background-image: radial-gradient(circle, rgba(91,114,82,.19) .045rem, transparent .065rem); background-size: var(--scratch-grid, 1.5rem) var(--scratch-grid, 1.5rem); background-position: var(--scratch-x, 0rem) var(--scratch-y, 0rem); cursor: crosshair; }
+.scratchpad[data-tool="hand"] .scratchpad-surface { cursor: grab; }
+.scratchpad.is-panning .scratchpad-surface { cursor: grabbing; }
+.scratchpad[data-tool="eraser"] .scratchpad-surface { cursor: cell; }
+.scratchpad canvas { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.scratchpad-header { position: absolute; top: max(.85rem, env(safe-area-inset-top)); left: max(1rem, env(safe-area-inset-left)); right: max(1rem, env(safe-area-inset-right)); display: flex; align-items: flex-start; gap: .6rem; pointer-events: none; }
+.scratchpad-header > * { pointer-events: auto; }
+.scratchpad-document { position: relative; min-width: 0; }
+.scratchpad-chrome { background: var(--bg); border: var(--border-width) solid var(--line); border-radius: 1rem; box-shadow: 0 .25rem 1.25rem rgba(32,43,35,.09); }
+.scratchpad button { font: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; transition: background .16s, color .16s, transform .16s, box-shadow .16s; }
+.scratchpad button:active:not(:disabled) { transform: scale(.94); }
+.scratchpad button:focus-visible, .scratchpad-launch:focus-visible { outline: .15rem solid var(--accent); outline-offset: .15rem; }
+.scratchpad button:disabled { opacity: .32; cursor: default; }
+.scratchpad-button { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; border: 0; color: var(--muted-strong); background: transparent; border-radius: .65rem; min-width: 2.6rem; height: 2.6rem; padding: .55rem; }
+.scratchpad .scratchpad-chrome { background: var(--bg); }
+.scratchpad-button svg { width: 1.2rem; height: 1.2rem; flex: none; }
+.scratchpad-button:hover:not(:disabled), .scratchpad-button[aria-expanded="true"] { color: var(--accent); background: var(--accent-soft); }
+.scratchpad-button[aria-pressed="true"] { color: var(--accent); background: var(--accent-soft); box-shadow: inset 0 0 0 .07rem var(--accent-line); }
+.scratchpad-title { height: 3rem; padding: .65rem .9rem; max-width: 13rem; color: var(--ink); font-size: .85rem !important; }
+.scratchpad-title > span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.scratchpad-title > svg:last-child { width: .85rem; height: .85rem; color: var(--muted); transition: transform .18s; }
+.scratchpad-title[aria-expanded="true"] > svg:last-child { transform: rotate(180deg); }
+.scratchpad-new { height: 3rem; padding: .6rem .85rem; color: var(--accent); font-size: .8rem !important; }
+.scratchpad-close { margin-left: auto; width: 3rem; height: 3rem; }
+.scratchpad-toolbar { position: absolute; left: 50%; bottom: max(1rem, env(safe-area-inset-bottom)); transform: translateX(-50%); display: flex; gap: .2rem; align-items: center; padding: .35rem; max-width: calc(100% - 1.2rem); }
+.scratchpad-separator { width: var(--border-width); height: 1.3rem; background: var(--line); margin: 0 .2rem; flex: none; }
+.scratchpad-tool-options { position: relative; }
+.scratchpad-ink { display: block; width: 1.05rem; height: 1.05rem; border-radius: 50%; background: var(--scratch-color); box-shadow: 0 0 0 .2rem var(--bg), 0 0 0 .27rem var(--line-strong); }
+.scratchpad-popover { position: absolute; z-index: 2; padding: .4rem; background: var(--bg); border: var(--border-width) solid var(--line); border-radius: .9rem; box-shadow: var(--shadow-sm); animation: scratchpad-menu-in .16s ease-out both; }
+.scratchpad-list { top: calc(100% + .5rem); left: 0; width: min(18rem, calc(100vw - 2rem)); max-height: min(26rem, 65dvh); overflow: auto; overscroll-behavior: contain; }
+.scratchpad-draft { display: flex; align-items: center; gap: .65rem; width: 100%; min-height: 3.1rem; padding: .6rem .7rem; border: 0; border-radius: .55rem; color: var(--ink); background: transparent; text-align: left; font-size: .8rem !important; }
+.scratchpad-draft > span { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.scratchpad-draft svg { width: 1rem; height: 1rem; color: var(--muted); }
+.scratchpad-draft[aria-selected="true"], .scratchpad-draft:hover { background: var(--accent-soft); color: var(--accent); }
+.scratchpad-options { bottom: calc(100% + .75rem); right: 0; width: 14rem; padding: .75rem; }
+.scratchpad-colors, .scratchpad-widths { display: flex; align-items: center; justify-content: space-between; gap: .35rem; }
+.scratchpad-colors { margin-bottom: .75rem; }
+.scratchpad-colors button { width: 2.3rem; height: 2.3rem; padding: .55rem; min-width: 0; }
+.scratchpad-colors .scratchpad-ink { width: .95rem; height: .95rem; }
+.scratchpad-widths button { flex: 1; }
+.scratchpad-widths span { width: 1.3rem; height: var(--scratch-width); border-radius: 1rem; background: currentColor; }
+.scratchpad-finger { width: 100%; margin-top: .65rem; border-top: var(--border-width) solid var(--line); border-radius: .35rem; padding-top: .7rem; height: 3rem; justify-content: flex-start; font-size: .8rem !important; }
+.scratchpad-finger > span { flex: 1; text-align: left; }
+.scratchpad-toggle { width: 1.65rem; height: 1rem; border-radius: 1rem; background: var(--line-strong); position: relative; }
+.scratchpad-toggle::after { content: ""; position: absolute; width: .7rem; height: .7rem; top: .15rem; left: .15rem; border-radius: 50%; background: white; transition: transform .18s; }
+[aria-pressed="true"] > .scratchpad-toggle { background: var(--accent); }
+[aria-pressed="true"] > .scratchpad-toggle::after { transform: translateX(.65rem); }
+.scratchpad-viewport { position: absolute; right: max(1rem, env(safe-area-inset-right)); bottom: max(1rem, env(safe-area-inset-bottom)); display: flex; align-items: center; gap: .1rem; padding: .35rem; }
+.scratchpad-scale { min-width: 3rem; padding: .35rem; font-variant-numeric: tabular-nums; font-size: .75rem !important; }
+.scratchpad-status { position: absolute; top: calc(max(.85rem, env(safe-area-inset-top)) + 3.6rem); left: 50%; transform: translateX(-50%); max-width: calc(100% - 2rem); padding: .65rem .9rem; border: var(--border-width) solid var(--amber-line); border-radius: .65rem; color: var(--amber); background: var(--amber-soft); font-size: .8rem; }
+.scratchpad-status button { border: 0; background: none; color: inherit; text-decoration: underline; margin-left: .6rem; }
+.scratchpad[data-loading="true"] .scratchpad-toolbar, .scratchpad[data-loading="true"] .scratchpad-new { pointer-events: none; opacity: .4; }
+.scratchpad[data-switching="true"] .scratchpad-surface, .scratchpad[data-switching="true"] .scratchpad-toolbar, .scratchpad[data-switching="true"] .scratchpad-new { pointer-events: none; }
+@media (max-width: 64rem) {
+  .scratchpad-viewport { bottom: calc(max(1rem, env(safe-area-inset-bottom)) + 4.1rem); padding: .2rem; }
+  .scratchpad-viewport .scratchpad-button { min-width: 2.3rem; height: 2.3rem; }
+}
+@media (max-width: 36rem) {
+  .scratchpad-header { left: max(.65rem, env(safe-area-inset-left)); right: max(.65rem, env(safe-area-inset-right)); gap: .4rem; }
+  .scratchpad-title { max-width: 10rem; }
+  .scratchpad-toolbar { gap: .1rem; padding: .3rem; }
+  .scratchpad-toolbar .scratchpad-button { min-width: 2.4rem; height: 2.6rem; }
+  .scratchpad-toolbar .scratchpad-separator { margin: 0 .1rem; }
+  .scratchpad-options { right: -.3rem; }
+}
+@keyframes scratchpad-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes scratchpad-out { from { opacity: 1; } to { opacity: 0; } }
+@keyframes scratchpad-menu-in { from { opacity: 0; translate: 0 .3rem; } to { opacity: 1; translate: 0 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .scratchpad, .scratchpad.is-closing, .scratchpad-popover { animation: none; }
+  .scratchpad *, .scratchpad-launch { transition: none !important; }
+}

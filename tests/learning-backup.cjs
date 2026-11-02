@@ -65,6 +65,8 @@ function harness(initial = {}, options = {}) {
     LearningApp: options.noLearningApp ? undefined : app,
     PracticeStudy: options.practice ? options.practice(storage) : { storageKey: PRACTICE_KEY, mergeBackupProgress: raw => raw },
     AIExplanation: options.ai,
+    ScratchpadCore: options.scratch ? require("../assets/js/scratchpad-core.js") : undefined,
+    Scratchpad: options.scratch,
     wrongQuestionBook: {
       exportData: async () => ({ records: [] }),
       validateImportData: async value => value,
@@ -419,4 +421,112 @@ test("optional AI cache uses its public validation/export/import API and is rest
   assert.deepEqual(cached, before);
   assert.equal(h.storage.getItem(PROGRESS_KEY), '["current"]');
   assert.match(h.status(), /恢复失败.*cache import failed/);
+});
+
+function scratchPayload(at = 100) {
+  const Core = require("../assets/js/scratchpad-core.js");
+  const draft = Core.createDraft({id: "scratch-one", title: "草稿 1", now: at});
+  draft.strokes.push({id: "stroke-one", color: "#202b23", width: 2, points: [{x: -240, y: 300, pressure: .7}, {x: 190, y: 325, pressure: .4}]});
+  draft.viewport = {x: -210, y: 150, scale: 1.5};
+  return {version: 1, activeId: draft.id, drafts: [draft]};
+}
+
+test("scratchpad export waits for pending handwriting and includes all drafts with viewport", async () => {
+  let release;
+  const waiting = new Promise(resolve => {release = resolve;});
+  const value = scratchPayload();
+  const h = harness({}, {scratch: {
+    async exportBackup() {await waiting; return clone(value);},
+    async importBackup() {}
+  }});
+  const exporting = h.export();
+  await new Promise(resolve => setImmediate(resolve));
+  assert.equal(h.blobs.length, 0);
+  release();
+  await exporting;
+  const exported = JSON.parse(await h.blobs[0].text());
+  assert.deepEqual(exported.scratchpads, value);
+  assert.equal(exported.summary.scratchpads, 1);
+});
+
+test("old backups and canceled restores leave saved scratchpads untouched", async () => {
+  let imports = 0;
+  const scratch = {exportBackup: async () => scratchPayload(), importBackup: async () => {imports++;}};
+  const old = harness({}, {scratch});
+  await old.import(backup(undefined));
+  assert.match(old.status(), /恢复成功/);
+  const canceled = harness({}, {scratch, confirm: () => false});
+  const incoming = backup(undefined); incoming.scratchpads = scratchPayload();
+  await canceled.import(incoming);
+  assert.equal(imports, 0);
+  assert.match(canceled.status(), /已取消/);
+});
+
+test("scratchpads restore after other external stores and report their count", async () => {
+  const order = [];
+  const incoming = backup(undefined); incoming.scratchpads = scratchPayload(); incoming.wrongQuestions = {records: []};
+  const h = harness({}, {
+    importWrong: async () => {order.push("wrong");},
+    scratch: {exportBackup: async () => scratchPayload(), importBackup: async value => {order.push("scratch"); assert.deepEqual(clone(value), incoming.scratchpads);}}
+  });
+  await h.import(incoming);
+  assert.deepEqual(order, ["wrong", "scratch"]);
+  assert.match(h.confirms[0].message, /1 份草稿/);
+  assert.match(h.status(), /恢复成功/);
+});
+
+test("malformed scratchpad backups are rejected before confirmation and writes", async () => {
+  for (const corrupt of [
+    value => {value.version = 2;},
+    value => {value.drafts[0].strokes[0].points[0].x = "invalid";},
+    value => {value.drafts[0].viewport.scale = -1;},
+    value => {value.drafts.push(clone(value.drafts[0]));},
+    value => {value.activeId = "missing";},
+    value => {value.drafts[0].strokes[0].color = "url(javascript:bad)";}
+  ]) {
+    const value = scratchPayload(); corrupt(value);
+    let imports = 0;
+    const h = harness({[PROGRESS_KEY]: '["current"]'}, {
+      scratch: {exportBackup: async () => scratchPayload(), importBackup: async () => {imports++;}}
+    });
+    const incoming = backup(undefined); incoming.scratchpads = value;
+    await h.import(incoming);
+    assert.match(h.status(), /恢复失败.*草稿/);
+    assert.equal(h.confirms.length, 0);
+    assert.equal(h.storage.getItem(PROGRESS_KEY), '["current"]');
+    assert.equal(imports, 0);
+  }
+});
+
+test("scratchpad storage failure rolls back legacy keys and suppresses success reload", async () => {
+  const incoming = backup(undefined); incoming.scratchpads = scratchPayload();
+  const h = harness({[PROGRESS_KEY]: '["current"]'}, {scratch: {
+    exportBackup: async () => scratchPayload(), importBackup: async () => {throw new Error("scratch transaction failed");}
+  }});
+  await h.import(incoming);
+  assert.equal(h.storage.getItem(PROGRESS_KEY), '["current"]');
+  assert.match(h.status(), /恢复失败.*scratch transaction failed/);
+  assert.equal(h.timers.some(timer => timer.delay === 350), false);
+});
+
+test("failed scratchpad exporter aborts download instead of producing a partial backup", async () => {
+  const h = harness({}, {scratch: {
+    exportBackup: async () => {throw new Error("handwriting snapshot failed");}, importBackup: async () => {}
+  }});
+  await h.export();
+  assert.equal(h.blobs.length, 0);
+  assert.match(h.status(), /导出失败.*handwriting snapshot failed/);
+  assert.equal(h.nodes.get("export-backup").disabled, false);
+});
+
+test("scratchpad memory snapshot remains exportable when storage quota prevents flushing", async () => {
+  const memory = scratchPayload(300);
+  memory.drafts[0].strokes[0].points.push({x: 420, y: -180, pressure: .8});
+  const h = harness({}, {scratch: {
+    flush: async () => {throw new Error("quota exceeded");},
+    exportBackup: async () => clone(memory), importBackup: async () => {}
+  }});
+  await h.export();
+  assert.equal(h.blobs.length, 1);
+  assert.deepEqual(JSON.parse(await h.blobs[0].text()).scratchpads, memory);
 });

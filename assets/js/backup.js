@@ -295,6 +295,23 @@
     window.PracticeCore.validateProgress(JSON.parse(raw));
   }
 
+  function validateScratchpads(value) {
+    if (!window.ScratchpadCore?.sanitizeDraft || !window.Scratchpad?.importBackup || !window.Scratchpad?.exportBackup) {
+      throw new Error("草稿本模块尚未就绪，请刷新后重试");
+    }
+    if (!isPlainObject(value) || value.version !== 1 || !Array.isArray(value.drafts) || value.drafts.length > window.ScratchpadCore.LIMITS.drafts ||
+        (value.activeId !== null && typeof value.activeId !== "string")) throw new Error("草稿本备份格式不正确");
+    const ids = new Set();
+    const drafts = value.drafts.map(draft => {
+      const valid = window.ScratchpadCore.sanitizeDraft(draft);
+      if (!valid || ids.has(valid.id)) throw new Error("草稿本内容格式不正确或存在重复草稿");
+      ids.add(valid.id);
+      return valid;
+    });
+    if (value.activeId !== null && !ids.has(value.activeId)) throw new Error("当前草稿不在草稿本备份中");
+    return { version: 1, activeId: value.activeId, drafts };
+  }
+
   function mergeDrillProgress(raw) {
     const practice = window.PracticeStudy;
     if (practice?.storageKey === DATA_KEYS.drillProgress && practice.mergeDrillProgress) return practice.mergeDrillProgress(raw);
@@ -344,6 +361,12 @@
         backup.shenlun = await window.ShenlunApp.exportData();
         backup.summary.shenlunProjects = backup.shenlun.projects.length;
       }
+      if (window.Scratchpad?.exportBackup) {
+        // The scratchpad exporter finalizes input and includes its memory copy
+        // when browser quota prevents the newest handwriting from persisting.
+        backup.scratchpads = validateScratchpads(await window.Scratchpad.exportBackup());
+        backup.summary.scratchpads = backup.scratchpads.drafts.length;
+      }
       const blob = new Blob([JSON.stringify(backup, null, 2)], { type: "application/json;charset=utf-8" });
       if (blob.size > MAX_BACKUP_BYTES) throw new Error("完整备份超过256 MiB");
       const url = URL.createObjectURL(blob);
@@ -386,6 +409,7 @@
         if (!window.ShenlunApp?.validateImportData) throw new Error("申论评分模块尚未就绪，请刷新后重试");
         shenlun = await window.ShenlunApp.validateImportData(backup.shenlun);
       }
+      const scratchpads = backup.scratchpads === undefined ? undefined : validateScratchpads(backup.scratchpads);
       const summary = backup.summary || {};
       const completedItems = Number.isFinite(summary.completedItems) ? summary.completedItems : parseStoredJSON(data.progress, []).length;
       const studySessions = Number.isFinite(summary.studySessions) ? summary.studySessions : parseStoredJSON(data.sessions, []).length;
@@ -393,7 +417,7 @@
       const courseGroups = Object.keys(parseStoredJSON(data.courseProgress, {})?.groups || {}).length;
       const drillSessions = Object.keys(parseStoredJSON(data.drillProgress, {})?.sessions || {}).length;
       const wrongCount = wrongQuestions?.records.length || 0;
-      const confirmed = await window.AppUI.confirm({ title: "恢复学习备份", message: `将恢复 ${completedItems} 项清单进度、${studySessions} 条计时记录、${practicePages} 页历史做题记录，并合并 ${drillSessions} 次刷题会话、${courseGroups} 组课程进度${wrongQuestions ? `、${wrongCount} 道错题` : ""}${aiExplanations ? `、${aiExplanations.entries.length} 条 AI 解析` : ""}。刷题、课程和错题保留较新记录；清单进度和计时记录会被覆盖。`, confirmLabel: "恢复备份", danger: true });
+      const confirmed = await window.AppUI.confirm({ title: "恢复学习备份", message: `将恢复 ${completedItems} 项清单进度、${studySessions} 条计时记录、${practicePages} 页历史做题记录，并合并 ${drillSessions} 次刷题会话、${courseGroups} 组课程进度${wrongQuestions ? `、${wrongCount} 道错题` : ""}${aiExplanations ? `、${aiExplanations.entries.length} 条 AI 解析` : ""}${scratchpads ? `、${scratchpads.drafts.length} 份草稿` : ""}。刷题、课程、草稿和错题保留较新记录；清单进度和计时记录会被覆盖。`, confirmLabel: "恢复备份", danger: true });
       if (!confirmed) {
         setStatus("已取消恢复，当前数据没有改变。", false);
         return;
@@ -427,6 +451,9 @@
           await window.AIExplanation.importCache(aiExplanations, { merge: true });
         }
         if (shenlun) { importingShenlun = true; await window.ShenlunApp.importData(shenlun, { merge: true }); }
+        // Older backups deliberately leave all current scratchpads untouched.
+        // Import last so subsequent external-store failures cannot affect them.
+        if (scratchpads) await window.Scratchpad.importBackup(scratchpads);
       } catch (error) {
         Object.entries(DATA_KEYS).forEach(([name, key]) => {
           if (previous[name] === null) localStorage.removeItem(key);

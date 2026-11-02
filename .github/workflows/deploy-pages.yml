@@ -121,9 +121,8 @@ jobs:
         if: steps.publish.outputs.should_deploy == 'true'
         run: |
           for file in assets/js/*.js; do node --check "$file"; done
-          # The legacy Playwright script requires a browser and asserts the
-          # retired two-category search UI; real browser QA stays separate.
-          mapfile -t test_files < <(find tests -maxdepth 1 -name '*.cjs' ! -name 'solver-question-type.cjs' | sort)
+          # Playwright checks require a browser; real browser QA stays separate.
+          mapfile -t test_files < <(find tests -maxdepth 1 -name '*.cjs' ! -name 'solver-question-type.cjs' ! -name 'scratchpad-browser.cjs' | sort)
           node --test "${test_files[@]}"
 
       - name: Validate question bank and public build boundaries
