@@ -194553,7 +194553,267 @@
           "duration": 55.8
         }
       ]
+    },
+    {
+      "date": "2026-11-03",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 3
+        }
+      ],
+      "articles": [
+        {
+          "id": "dcbd7e6f42bda6",
+          "source": "光明日报",
+          "title": "习近平同秘鲁总统藤森庆子就中秘建交55周年互致贺电",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/03/content_28948.html",
+          "date": "2026-11-03",
+          "keyword": "习近平"
+        },
+        {
+          "id": "fcd540048e28b5",
+          "source": "光明日报",
+          "title": "习近平同阿曼苏丹海赛姆会谈",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/03/content_28946.html",
+          "date": "2026-11-03",
+          "keyword": "习近平"
+        },
+        {
+          "id": "52d4c879203b3a",
+          "source": "光明日报",
+          "title": "以习近平党建思想为根本遵循 持之以恒推进全面从严治党",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/03/content_28958.html",
+          "date": "2026-11-03",
+          "keyword": "习近平"
+        },
+        {
+          "id": "4672d7dfe372c7",
+          "source": "光明日报",
+          "title": "为世界政党探索有效治理贡献中国智慧",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/03/content_28959.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "16d6daa89c9399",
+          "source": "光明日报",
+          "title": "党的二十届五中全会精神学习辅导材料出版发行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/03/content_28931.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d58d1c9d46a705",
+          "source": "光明日报",
+          "title": "刘奇凡任云南省代省长",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/03/content_28932.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c3bac80bc1d56b",
+          "source": "光明日报",
+          "title": "十四届全国人大常委会第二十五次会议在京举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/03/content_28926.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "621fe5e239b1cf",
+          "source": "光明日报",
+          "title": "坚持问题导向，解决突出问题",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/03/content_28957.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a4292b46f9f909",
+          "source": "光明日报",
+          "title": "学习贯彻党的二十届五中全会精神中央宣讲团动员会在京召开",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/03/content_28929.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "84fd022629b1c9",
+          "source": "光明日报",
+          "title": "强党强国开新局 凝心聚力谱华章",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/03/content_28950.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "61ad614bb0c3e0",
+          "source": "光明日报",
+          "title": "彰显管党治党坚定决心 铸牢民族复兴坚强保障",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/03/content_28968.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3156fa61fd8d3f",
+          "source": "光明日报",
+          "title": "持续完善大保护大协同格局 努力让这条母亲河越来越美",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/03/content_28947.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "40a0665bb5eca5",
+          "source": "光明日报",
+          "title": "新征程上强党强国的光辉文献",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/03/content_28949.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "87abdacb4e59bc",
+          "source": "光明日报",
+          "title": "李干杰受中共中央委托向党外人士通报中共二十届五中全会精神",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/03/content_28930.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f827170e5a2240",
+          "source": "光明日报",
+          "title": "李强会见阿曼苏丹海赛姆",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/03/content_28925.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b3575312d4f673",
+          "source": "光明日报",
+          "title": "王沪宁分别会见俄罗斯联邦委员会主席马特维延科、越南共产党代表团",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/03/content_28928.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0719a4c02adb7a",
+          "source": "光明日报",
+          "title": "赵乐际同俄罗斯联邦委员会主席马特维延科会谈",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/03/content_28927.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6be465e4144628",
+          "source": "新华社",
+          "title": "也门胡塞武装称塔伊兹省一市场遭袭 至少10人死亡",
+          "url": "https://www.news.cn/20261103/10e170f3b2404bd086ef7b5ec8c006fb/c.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4df330dd2f6d61",
+          "source": "新华社",
+          "title": "伊朗外长：与美国的间接磋商“非常密集”",
+          "url": "https://www.news.cn/20261103/d48008e215904ca3a344adc2d5cd1b83/c.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "15579ec1cf6c91",
+          "source": "新华社",
+          "title": "国际海事组织：仍不建议船舶在霍尔木兹海峡航行",
+          "url": "https://www.news.cn/20261103/b862797441ea47f4b7ab70d12deb5dae/c.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4241eb418b77c5",
+          "source": "新华社",
+          "title": "总书记重要指示为开创黄河保护治理工作新局面凝聚力量",
+          "url": "https://www.news.cn/politics/leaders/20261103/265dafd5f0ca4a3c87e76f58d52ce99f/c.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "099ddf8914f7cb",
+          "source": "新华社",
+          "title": "文化新观察｜从“登临计划”看经典剧目守正创新三字经",
+          "url": "https://education.news.cn/20261103/e704376f53ff4f70ba734740e393e2ce/c.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a1fda632808ae5",
+          "source": "新华社",
+          "title": "王毅同沙特国家安全顾问艾班会谈",
+          "url": "https://www.news.cn/politics/leaders/20261103/3f7cdde08f3d4a0ebcce9700f1b9e1cf/c.html",
+          "date": "2026-11-03",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 10.5,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261103.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.6,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202611/03/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 6,
+          "duration": 2.3
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 14.1
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.3
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 17,
+          "duration": 1.7
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 14.1
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.5
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.8
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 61.6
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-11-02T19:57:21+08:00"
+  "generatedAt": "2026-11-03T05:17:56+08:00"
 }
