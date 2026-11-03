@@ -196519,7 +196519,132 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 63.9
         }
       ]
+    },
+    {
+      "date": "2026-11-04",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 6
+        }
+      ],
+      "articles": [
+        {
+          "id": "c15542a7c1936c",
+          "source": "新华社",
+          "title": "亚太经合组织召开第37届外交和贸易双部长会议",
+          "url": "https://www.news.cn/politics/leaders/20261104/d30595c625bc47128681e8f7c7917113/c.html",
+          "date": "2026-11-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2cb9d9dcc6b077",
+          "source": "新华社",
+          "title": "俄总统新闻秘书：安全不可分割原则是俄立场基石",
+          "url": "https://www.news.cn/20261104/cc08cca74f5e48829dc0621cded0775c/c.html",
+          "date": "2026-11-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d4c27c8f28a623",
+          "source": "新华社",
+          "title": "巴基斯坦成功试射首枚国产空对空导弹",
+          "url": "https://www.news.cn/20261104/7c7a2ecabf01478684d4cbd29d360190/c.html",
+          "date": "2026-11-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "27cdff63902b9a",
+          "source": "新华社",
+          "title": "拉脱维亚新一届议会选举斯米尔滕斯为议长",
+          "url": "https://www.news.cn/20261104/85ffe53233e0409a80d1fea2a4b80146/c.html",
+          "date": "2026-11-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f227abb9e43216",
+          "source": "新华社",
+          "title": "欧洲多架客机收到炸弹威胁",
+          "url": "https://www.news.cn/20261104/aa8d43f64ea240aca9602c2eb54650fc/c.html",
+          "date": "2026-11-04",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f86e87092be73a",
+          "source": "新华社",
+          "title": "西班牙向高速列车事故死伤者提供3000万欧元援助",
+          "url": "https://www.news.cn/20261104/df411b5cc6b84a6fb1a4badc497da602/c.html",
+          "date": "2026-11-04",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 16.7,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261104.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.9,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202611/04/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 6,
+          "duration": 3.4
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 23.1
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.0
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.4,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202611/04/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 14.1
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.9
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.8
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 73.4
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-11-03T20:35:21+08:00"
+  "generatedAt": "2026-11-04T03:58:50+08:00"
 };
