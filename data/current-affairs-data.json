@@ -198469,7 +198469,148 @@
           "duration": 80.4
         }
       ]
+    },
+    {
+      "date": "2026-11-05",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 8
+        }
+      ],
+      "articles": [
+        {
+          "id": "041ce5da7a256e",
+          "source": "新华社",
+          "title": "2026全球熊猫伙伴大会观察",
+          "url": "https://www.news.cn/politics/20261105/f1483d2078924a25b4aac7a8733aa23e/c.html",
+          "date": "2026-11-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e64990c90bbda8",
+          "source": "新华社",
+          "title": "一文读懂｜美国中期选举的四个“意外”",
+          "url": "https://www.news.cn/20261105/7e80dbfea80945bf9558238c53d053db/c.html",
+          "date": "2026-11-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eb71c9efebc080",
+          "source": "新华社",
+          "title": "中国科研团队发布开源核糖核酸序列基础模型",
+          "url": "https://www.news.cn/20261105/109d50c7310b4162b7adff9b310a7550/c.html",
+          "date": "2026-11-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6c7521df17485d",
+          "source": "新华社",
+          "title": "也门胡塞武装称袭击利雅得国际机场等设施",
+          "url": "https://www.news.cn/20261105/251cd52193484602a752a91e5754d251/c.html",
+          "date": "2026-11-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4c957ef091c578",
+          "source": "新华社",
+          "title": "以方称打死哈马斯军事情报行动负责人",
+          "url": "https://www.news.cn/20261105/c0996ba144da41f18f048141114aa515/c.html",
+          "date": "2026-11-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bb89444a8601e3",
+          "source": "新华社",
+          "title": "写在第九届中国国际进口博览会开幕之际",
+          "url": "https://www.news.cn/fortune/20261105/602d0af8b0ee41059f11cc95206ef284/c.html",
+          "date": "2026-11-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "718aa809f340a4",
+          "source": "新华社",
+          "title": "欧盟委员会公布2027年工作计划",
+          "url": "https://www.news.cn/20261105/1fbd6409cf8648c59634578349506bdb/c.html",
+          "date": "2026-11-05",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "32c55d3dff29f5",
+          "source": "新华社",
+          "title": "西班牙请求欧盟铁路局协助调查高铁事故",
+          "url": "https://www.news.cn/20261105/4f611d624cde449ab5ea961298a54da4/c.html",
+          "date": "2026-11-05",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 5.3,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261105.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.7,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202611/05/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 8,
+          "duration": 3.0
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 17.8
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.8
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.5,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202611/05/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.9
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 3.5
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.6
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 61.2
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-11-04T20:45:32+08:00"
+  "generatedAt": "2026-11-05T04:14:45+08:00"
 }
