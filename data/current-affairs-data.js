@@ -200387,7 +200387,192 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 65.2
         }
       ]
+    },
+    {
+      "date": "2026-11-06",
+      "keyword": "区和康县附近",
+      "keywords": [
+        {
+          "name": "区和康县附近",
+          "count": 2
+        },
+        {
+          "name": "圭总统培尼亚",
+          "count": 2
+        },
+        {
+          "name": "地区和康县附",
+          "count": 2
+        },
+        {
+          "name": "巴拉圭总统培",
+          "count": 2
+        },
+        {
+          "name": "康县附近发生",
+          "count": 2
+        },
+        {
+          "name": "拉圭总统培尼",
+          "count": 2
+        },
+        {
+          "name": "新疆和田地区",
+          "count": 2
+        },
+        {
+          "name": "田地区和康县",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "a823e826931844",
+          "source": "新华社",
+          "title": "巴拉圭总统培尼亚宣布辞职",
+          "url": "https://www.news.cn/world/20261106/17401184abb745a9a9f171a5de57ceea/c.html",
+          "date": "2026-11-06",
+          "keyword": "圭总统培尼亚"
+        },
+        {
+          "id": "8d3de6f121a9eb",
+          "source": "新华社",
+          "title": "巴拉圭总统培尼亚辞职",
+          "url": "https://www.news.cn/20261106/07469bac8189495d998bff43fe279ff1/c.html",
+          "date": "2026-11-06",
+          "keyword": "圭总统培尼亚"
+        },
+        {
+          "id": "b5cae83e66c1e5",
+          "source": "新华社",
+          "title": "新华社快讯：新疆和田地区和康县附近发生5.1级左右地震",
+          "url": "https://www.news.cn/20261106/0c78c6ca2abb405586cb1f0220844268/c.html",
+          "date": "2026-11-06",
+          "keyword": "区和康县附近"
+        },
+        {
+          "id": "3c5ff2dbd9447e",
+          "source": "新华社",
+          "title": "新疆和田地区和康县附近发生5.1级左右地震",
+          "url": "https://www.news.cn/local/20261106/7aab3c2f958442ed89c7f1f6873d16ba/c.html",
+          "date": "2026-11-06",
+          "keyword": "区和康县附近"
+        },
+        {
+          "id": "18302ff8056ffc",
+          "source": "新华社",
+          "title": "伊朗安全官员向普京转达伊最高领袖讯息",
+          "url": "https://www.news.cn/world/20261106/3d3ad0c175344f0d9eb484c72c0b4197/c.html",
+          "date": "2026-11-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fa04f26541e84b",
+          "source": "新华社",
+          "title": "全球首个仿生人形机器人新闻主播亮相",
+          "url": "https://www.news.cn/photo/20261106/72123ce55dd34fed89bc12c34c0a5d95/c.html",
+          "date": "2026-11-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8356c61e326c53",
+          "source": "新华社",
+          "title": "我国成功发射遥感五十一号07-09星",
+          "url": "https://www.news.cn/20261106/749f961fa3df4ee99b839be556044b41/c.html",
+          "date": "2026-11-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "03d70b717acde2",
+          "source": "新华社",
+          "title": "热点问答｜欧洲客机“诈弹”频现，到底怎么了",
+          "url": "https://www.news.cn/world/20261106/6e08a39cbe834334927625d97973411e/c.html",
+          "date": "2026-11-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b20ac23cb203a4",
+          "source": "新华社",
+          "title": "第七届世界媒体峰会“中轴之夜”文化活动在京举办",
+          "url": "https://www.news.cn/world/20261106/d240efd2d38448d38e9f512f24774ca0/c.html",
+          "date": "2026-11-06",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aef47cc5e2d2ba",
+          "source": "新华社",
+          "title": "美国艾奥瓦州一邮局发生枪击事件 多人受伤",
+          "url": "https://www.news.cn/20261106/fd3ac187079c4d5f9ea65dba9087e4d9/c.html",
+          "date": "2026-11-06",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 8.9,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261106.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.6,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202611/06/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 10,
+          "duration": 4.2
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.6
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.8
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.6,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202611/06/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 15.1
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.8
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.7
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 55.7
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-11-05T20:54:40+08:00"
+  "generatedAt": "2026-11-06T04:28:00+08:00"
 };
