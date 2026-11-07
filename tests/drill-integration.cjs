@@ -275,9 +275,11 @@ test("session order and submissions survive a new page instance without resampli
   h.flush(); const stored = h.progress(), [session] = Object.values(stored.sessions), order = [...session.questionIds];
   assert.equal(order.length, 3); assert.equal(new Set(order).size, 3);
   const current = questions.find(value => value.id === order[0]); await h.answer(current.answer); await h.action("next");
-  await until(() => h.backend.length === 1); await h.settle(); h.flush();
+  // A provider response is not the completion boundary: hashing and persisting
+  // its cache can finish after any fixed number of event-loop turns on CI.
+  await until(() => h.cache.values.size === 1); await h.settle(); h.flush();
   const refreshed = harness(t, {hash: h.location.hash, storage: {[KEY]: h.localStorage.getItem(KEY)}, cache: h.cache, noSession: true, immediateAI: true});
-  await refreshed.settle(); await until(() => refreshed.explainCalls.length === 1); await refreshed.settle(); refreshed.flush();
+  await until(() => refreshed.root.querySelector("#drill-ai-state")?.textContent === "已保存"); refreshed.flush();
   assert.deepEqual(refreshed.progress().sessions[session.id].questionIds, order);
   assert.equal(Object.keys(refreshed.progress().sessions).length, 1);
   assert.equal(refreshed.backend.length, 0, "refresh must use the saved explanation");
