@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="assets/css/tokens.css?v=20261025-9">
   <link rel="stylesheet" href="assets/vendor/cropper/cropper.min.css?v=1.6.2">
   <link rel="stylesheet" href="assets/css/app.css?v=20261025-9">
-  <link rel="stylesheet" href="assets/css/clock.css?v=20261025-9">
+  <link rel="stylesheet" href="assets/css/clock.css?v=20261107">
   <link rel="stylesheet" href="assets/css/search.css?v=20261025-9">
   <link rel="stylesheet" href="assets/css/wrong-questions.css?v=20261025-9">
   <link rel="stylesheet" href="assets/css/layout.css?v=20261025-9">
@@ -155,6 +155,7 @@
           <div class="clock-mode-switch" role="group" aria-label="计时模式">
             <button type="button" class="active" data-clock-mode-target="clock" aria-pressed="true">专注学习</button>
             <button type="button" data-clock-mode-target="questions" aria-pressed="false">做题计时</button>
+            <button type="button" data-clock-mode-target="exam" aria-pressed="false">考试倒计时</button>
           </div>
           <div class="clock-workspace" id="clock-card-carousel">
             <article class="live-clock-card clock-mode-card" data-clock-mode="clock" aria-label="专注学习计时器">
@@ -194,6 +195,28 @@
                 <button type="button" class="question-reset-button" id="reset-question-timer" title="重新设置" aria-label="重新设置做题计时"><i data-lucide="rotate-ccw" aria-hidden="true"></i><span>重置</span></button>
               </div>
               <button type="button" class="clock-fullscreen-enter" id="enter-question-fullscreen" title="全屏做题计时" aria-label="进入全屏做题计时"><i data-lucide="maximize-2" aria-hidden="true"></i></button>
+            </article>
+            <article class="exam-timer-card clock-mode-card" data-clock-mode="exam" aria-label="考试倒计时" hidden>
+              <div class="exam-face">
+                <p class="focus-status" data-exam-status role="status">考试剩余时间</p>
+                <div class="exam-time" data-exam-time role="timer" aria-label="考试剩余时间">02:00:00</div>
+              </div>
+              <div class="question-settings exam-settings" id="exam-settings">
+                <label><span>考试时长（分钟）</span><input type="number" id="exam-minutes" min="1" max="1440" step="1" inputmode="numeric" value="120"></label>
+              </div>
+              <div class="question-card-tools exam-actions">
+                <button type="button" class="question-start-button" data-exam-action="start">开始考试</button>
+                <button type="button" class="question-start-button" data-exam-action="mark" hidden>记一段</button>
+                <button type="button" class="question-pause-button" data-exam-action="pause" hidden>暂停</button>
+                <button type="button" class="question-reset-button" data-exam-action="finish" hidden>结束考试</button>
+                <button type="button" class="question-start-button" data-exam-action="reset" hidden>新一场考试</button>
+              </div>
+              <button type="button" class="clock-fullscreen-enter" id="enter-exam-fullscreen" aria-label="全屏考试倒计时" title="全屏考试倒计时"><i data-lucide="maximize-2" aria-hidden="true"></i></button>
+              <table class="exam-splits" id="exam-splits" hidden>
+                <caption>本场计时块</caption>
+                <thead><tr><th scope="col">分段</th><th scope="col">剩余时间区间</th><th scope="col">用时</th></tr></thead>
+                <tbody></tbody>
+              </table>
             </article>
           </div>
           <dl class="clock-today-summary" aria-label="今日学习概况">
@@ -506,11 +529,23 @@
               <div><span id="fullscreen-question-label">总倒计时</span><strong id="fullscreen-question-time">02:00:00</strong><small id="fullscreen-question-status">准备开始</small></div>
             </div>
           </section>
+          <section class="fullscreen-mode-slide" data-fullscreen-mode="exam" aria-label="全屏考试倒计时">
+            <div class="fullscreen-exam-face">
+              <p data-exam-status role="status">考试剩余时间</p>
+              <div data-exam-time role="timer" aria-label="考试剩余时间">02:00:00</div>
+              <div class="question-card-tools exam-actions">
+                <button type="button" class="question-start-button" data-exam-action="start">开始考试</button>
+                <button type="button" class="question-start-button" data-exam-action="mark" hidden>记一段</button>
+                <button type="button" class="question-pause-button" data-exam-action="pause" hidden>暂停</button>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
       <div class="fullscreen-mode-dots" role="group" aria-label="全屏模式切换">
         <button type="button" class="active" data-fullscreen-mode-target="clock" aria-label="切换到全屏时钟" aria-pressed="true"></button>
         <button type="button" data-fullscreen-mode-target="questions" aria-label="切换到全屏做题计时" aria-pressed="false"></button>
+        <button type="button" data-fullscreen-mode-target="exam" aria-label="切换到考试倒计时" aria-pressed="false"></button>
       </div>
       <button type="button" class="fullscreen-clock-exit" id="exit-fullscreen-clock" title="退出全屏时钟" aria-label="退出全屏时钟">
         <i data-lucide="minimize-2" aria-hidden="true"></i>
@@ -524,10 +559,11 @@
   <script src="assets/js/ui.js?v=20261025-9"></script>
   <script src="assets/js/page-transitions.js?v=20261025-9"></script>
   <script src="assets/js/app.js?v=20261025-9"></script>
-  <script src="assets/js/clock.js?v=20261025-9"></script>
+  <script src="assets/js/exam-timer.js?v=20261107"></script>
+  <script src="assets/js/clock.js?v=20261107"></script>
   <script src="assets/js/scratchpad-core.js?v=20261102-scratchpad"></script>
   <script src="assets/js/scratchpad.js?v=20261107-pen-fix"></script>
-  <script src="assets/js/backup.js?v=20261102-scratchpad"></script>
+  <script src="assets/js/backup.js?v=20261107"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked@18.0.10/lib/marked.umd.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/dompurify@3.4.14/dist/purify.min.js"></script>
   <script src="assets/vendor/katex/katex.min.js"></script>

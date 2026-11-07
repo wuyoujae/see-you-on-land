@@ -20,7 +20,20 @@
   let questionTimer = sanitizeQuestionTimer(loadJSON(QUESTION_TIMER_KEY, null));
   let selectedDate = dayKey(Date.now());
   let statsRange = "day";
-  let clockMode = "clock";
+  const clockModes = ["clock", "questions", "exam"];
+  const MODE_KEY = "summer-politics-clock-mode-v1";
+  const EXAM_KEY = "summer-politics-exam-timer-v1";
+  const exam = window.ExamTimer;
+  function loadExam() {
+    const saved = loadJSON(EXAM_KEY, null);
+    return exam.valid(saved) ? saved : exam.create();
+  }
+  let examTimer = loadExam();
+  let examViewSignature = "";
+  let renderedMarks = null;
+  let renderedMarkCount = -1;
+  const savedMode = localStorage.getItem(MODE_KEY);
+  let clockMode = clockModes.includes(savedMode) ? savedMode : "clock";
   let wakeLock = null;
   let wakeLockRequestInFlight = false;
   let wakeLockEpoch = 0;
@@ -76,6 +89,12 @@
     formError: document.getElementById("timer-form-error"),
     studySubject: document.getElementById("study-subject"),
     studyCustomSubject: document.getElementById("study-custom-subject"),
+    examMinutes: document.getElementById("exam-minutes"),
+    examSettings: document.getElementById("exam-settings"),
+    examSplits: document.getElementById("exam-splits"),
+    examTimes: document.querySelectorAll("[data-exam-time]"),
+    examStatuses: document.querySelectorAll("[data-exam-status]"),
+    examButtons: document.querySelectorAll("[data-exam-action]"),
     questionCount: document.getElementById("question-count"),
     questionMinutes: document.getElementById("question-minutes"),
     questionProgressWrap: document.getElementById("question-progress-wrap"),
@@ -487,17 +506,107 @@
     const now = Date.now();
     advanceQuestionTimer(now);
     renderQuestionTimer(now);
+    tickExam(now);
+  }
+
+  function saveExam() {
+    localStorage.setItem(EXAM_KEY, JSON.stringify(examTimer));
+  }
+
+  function renderExam(now = Date.now()) {
+    const { status, minutes, marks } = examTimer;
+    const time = questionCountdown(exam.remaining(examTimer, now));
+    const count = marks.length;
+    if (renderedMarks !== marks || renderedMarkCount !== count) {
+      const rows = marks.map((end, i) => {
+        const start = i ? marks[i - 1] : minutes * 60;
+        const format = seconds => stopwatch(seconds * 1000);
+        return `<tr><th scope="row">${i + 1}</th><td>${format(start)} → ${format(end)}</td><td>${format(start - end)}</td></tr>`;
+      });
+      dom.examSplits.tBodies[0].innerHTML = rows.reverse().join("");
+      dom.examSplits.hidden = !count;
+      renderedMarks = marks;
+      renderedMarkCount = count;
+    }
+    const signature = [status, minutes, time, count].join("|");
+    if (examViewSignature === signature) return;
+    examViewSignature = signature;
+    dom.examTimes.forEach(el => { el.textContent = time; });
+    const labels = {
+      idle: "考试剩余时间", running: `第 ${count + 1} 段 · 剩余时间`,
+      paused: "已暂停", finished: examTimer.remainingMs ? "考试已结束" : "时间到"
+    };
+    dom.examStatuses.forEach(el => {
+      if (el.textContent !== labels[status]) el.textContent = labels[status];
+    });
+    dom.examSettings.hidden = status !== "idle";
+    if (document.activeElement !== dom.examMinutes) dom.examMinutes.value = minutes;
+    const visible = {
+      start: status === "idle" || status === "paused", pause: status === "running",
+      mark: status === "running", finish: status === "paused", reset: status === "finished"
+    };
+    dom.examButtons.forEach(button => {
+      const action = button.dataset.examAction;
+      button.hidden = !visible[action];
+      if (action === "start") button.textContent = status === "paused" ? "继续考试" : "开始考试";
+    });
+  }
+
+  function tickExam(now = Date.now()) {
+    if (exam.act(examTimer, "tick", now)) {
+      saveExam();
+      syncWakeLock();
+    }
+    renderExam(now);
+  }
+
+  function applyExamMinutes() {
+    if (examTimer.status !== "idle") return true;
+    const minutes = Number(dom.examMinutes.value);
+    if (!Number.isInteger(minutes) || minutes < 1 || minutes > 1440) {
+      dom.examMinutes.setAttribute("aria-invalid", "true");
+      dom.examStatuses[0].textContent = "请输入 1 至 1440 之间的整数分钟";
+      dom.examMinutes.focus();
+      return false;
+    }
+    dom.examMinutes.removeAttribute("aria-invalid");
+    examTimer = exam.create(minutes);
+    examViewSignature = "";
+    saveExam();
+    renderExam();
+    return true;
+  }
+
+  async function handleExamAction(button) {
+    const action = button.dataset.examAction;
+    if (action === "start" && !applyExamMinutes()) return;
+    if (action === "finish" || action === "reset") {
+      const expected = JSON.stringify(examTimer);
+      const reset = action === "reset";
+      const confirmed = await window.AppUI.confirm({
+        title: reset ? "开始新一场考试？" : "提前结束考试？",
+        message: reset ? "本场计时块将清空。" : "将保存最后一段的用时。",
+        confirmLabel: reset ? "重新设置" : "结束考试", cancelLabel: "返回"
+      });
+      if (!confirmed || expected !== JSON.stringify(examTimer)) return;
+    }
+    if (action === "reset") examTimer = exam.create(examTimer.minutes);
+    else if (!exam.act(examTimer, action)) return;
+    saveExam();
+    renderExam();
+    if (button.hidden) button.parentElement.querySelector("button:not([hidden])")?.focus({ preventScroll: true });
+    syncWakeLock();
   }
 
   function carouselMode(element) {
     if (!element?.clientWidth) return clockMode;
-    return Math.round(element.scrollLeft / element.clientWidth) >= 1 ? "questions" : "clock";
+    return clockModes[clamp(Math.round(element.scrollLeft / element.clientWidth), 0, clockModes.length - 1)];
   }
 
   function scrollCarouselToMode(element, mode, behavior = "smooth") {
     if (element === dom.cardCarousel) return;
     if (!element?.clientWidth) return;
-    element.scrollTo({ left: mode === "questions" ? element.clientWidth : 0, behavior });
+    element.scrollTo({ left: clockModes.indexOf(mode) * element.clientWidth, behavior });
   }
 
   function renderClockMode() {
@@ -518,10 +627,11 @@
 
   function setClockMode(mode, source = null, behavior = "smooth") {
     const previousMode = clockMode;
-    clockMode = mode === "questions" ? "questions" : "clock";
+    clockMode = clockModes.includes(mode) ? mode : "clock";
+    if (previousMode !== clockMode) localStorage.setItem(MODE_KEY, clockMode);
     renderClockMode();
     if (previousMode !== clockMode && dom.fullscreenClock.hidden) {
-      window.PageTransitions?.enter(dom.cardCarousel.querySelector(`[data-clock-mode="${clockMode}"]`), { direction: clockMode === "questions" ? "next" : "previous", focus: false, force: true });
+      window.PageTransitions?.enter(dom.cardCarousel.querySelector(`[data-clock-mode="${clockMode}"]`), { direction: clockModes.indexOf(clockMode) > clockModes.indexOf(previousMode) ? "next" : "previous", focus: false, force: true });
     }
     if (source !== dom.cardCarousel) scrollCarouselToMode(dom.cardCarousel, clockMode, behavior);
     if (source !== dom.fullscreenCarousel && !dom.fullscreenClock.hidden) scrollCarouselToMode(dom.fullscreenCarousel, clockMode, behavior);
@@ -816,7 +926,7 @@
   }
 
   function shouldHoldWakeLock() {
-    return !dom.fullscreenClock.hidden || questionTimer.status === "running" || activeSession?.status === "running";
+    return !dom.fullscreenClock.hidden || examTimer.status === "running" || questionTimer.status === "running" || activeSession?.status === "running";
   }
 
   async function requestWakeLock() {
@@ -1145,6 +1255,7 @@
     if (document.visibilityState === "visible") {
       advanceQuestionTimer();
       renderQuestionTimer();
+      tickExam();
     }
     syncWakeLock();
   });
@@ -1157,6 +1268,18 @@
     button.addEventListener("click", () => setClockMode(button.dataset.fullscreenModeTarget));
   });
 
+  dom.examMinutes.addEventListener("change", applyExamMinutes);
+  dom.examButtons.forEach(button => button.addEventListener("click", () => handleExamAction(button)));
+  document.getElementById("enter-exam-fullscreen").addEventListener("click", () => {
+    setClockMode("exam", null, "auto");
+    enterFullscreenClock();
+  });
+  window.addEventListener("storage", event => {
+    if (event.key !== EXAM_KEY && event.key !== null) return;
+    examTimer = loadExam();
+    tickExam();
+    syncWakeLock();
+  });
   dom.questionCount.addEventListener("change", applyQuestionSettings);
   dom.questionMinutes.addEventListener("change", applyQuestionSettings);
   dom.questionStart.addEventListener("click", startQuestionTimer);
@@ -1246,6 +1369,7 @@
   renderRecords();
   renderTimerControls();
   renderQuestionTimer();
+  tickExam();
   renderClockMode();
   renderStats();
   renderSiteFullscreenButton();

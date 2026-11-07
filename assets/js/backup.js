@@ -12,6 +12,7 @@
     activeSession: "summer-politics-active-study-v1",
     clockShowsSeconds: "summer-politics-clock-seconds-v1",
     questionTimer: "summer-politics-question-timer-v1",
+    examTimer: "summer-politics-exam-timer-v1",
     studySubject: "summer-politics-last-study-subject-v1",
     practiceAnswers: "summer-politics-practice-v1",
     knowledgeCycle: "summer-politics-daily-knowledge-v1",
@@ -176,6 +177,10 @@
     validateActiveSession(data.activeSession);
     validateClockFormat(data.clockShowsSeconds);
     validateQuestionTimer(data.questionTimer);
+    if (!("examTimer" in data)) data.examTimer = localStorage.getItem(DATA_KEYS.examTimer);
+    if (data.examTimer !== null && (typeof data.examTimer !== "string" || !window.ExamTimer.valid(JSON.parse(data.examTimer)))) {
+      throw new Error("考试计时数据格式不正确");
+    }
     validateStudySubject(data.studySubject);
     validatePractice(data.practiceAnswers);
     validateKnowledgeCycle(data.knowledgeCycle);
@@ -438,6 +443,7 @@
       validateDrillProgress(data.drillProgress);
       const previousAICache = aiExplanations ? await window.AIExplanation.exportCache() : null;
       const previousShenlun = shenlun ? await window.ShenlunApp.exportData() : null;
+      if (!("examTimer" in backup.data)) data.examTimer = localStorage.getItem(DATA_KEYS.examTimer);
       const previous = Object.fromEntries(Object.entries(DATA_KEYS).map(([name, key]) => [name, localStorage.getItem(key)]));
       let importingAICache = false, importingShenlun = false;
       try {

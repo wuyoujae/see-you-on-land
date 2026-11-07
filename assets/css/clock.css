@@ -361,3 +361,27 @@ body.clock-fullscreen-active { overflow: hidden; background: var(--fullscreen-bg
   .study-day-node { min-height:3.75rem; }
   #view-clock .study-timeline { padding-block:var(--space-1); }
 }
+
+/* Exam mode shares the clock face and the site's custom minute stepper. */
+.clock-mode-switch { max-width:100%; }
+.clock-mode-switch button { flex:1; white-space:nowrap; }
+.exam-timer-card { padding:var(--space-5) 0 var(--space-6); }
+.exam-face { padding:var(--space-3) 0; }
+.exam-time { font-size:clamp(3rem, 10vw, 5rem); font-variant-numeric:tabular-nums; line-height:1.2; letter-spacing:-.12rem; }
+.exam-settings { width:16rem; grid-template-columns:1fr; }
+.exam-settings[hidden], .exam-splits[hidden] { display:none; }
+.exam-actions { flex-wrap:wrap; }
+.exam-actions button { min-width:6rem; }
+.exam-timer-card .clock-fullscreen-enter { inset:.5rem 0 auto auto; }
+.exam-splits { width:100%; max-width:36rem; margin:var(--space-6) auto 0; border-collapse:collapse; font-size:var(--text-body); font-variant-numeric:tabular-nums; }
+.exam-splits caption { padding-bottom:var(--space-2); text-align:left; font-size:var(--text-base); font-weight:600; }
+.exam-splits th, .exam-splits td { padding:.625rem .25rem; text-align:left; border-bottom:var(--border-width) solid var(--line); }
+.exam-splits thead th { color:var(--muted-strong); font-size:var(--text-caption); font-weight:400; }
+.exam-splits tr > :last-child { text-align:right; }
+.fullscreen-exam-face { text-align:center; color:var(--on-accent); }
+.fullscreen-exam-face p { color:var(--fullscreen-muted); }
+.fullscreen-exam-face [role="timer"] { font-size:clamp(3.5rem,12vmin,8rem); line-height:1.2; font-variant-numeric:tabular-nums; }
+@media (max-width:36rem) {
+  .clock-mode-switch { width:100%; }
+  .clock-mode-switch button { min-width:0; padding-inline:.25rem; }
+}
