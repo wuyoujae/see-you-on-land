@@ -122,7 +122,7 @@ jobs:
         run: |
           for file in assets/js/*.js; do node --check "$file"; done
           # Playwright checks require a browser; real browser QA stays separate.
-          mapfile -t test_files < <(find tests -maxdepth 1 -name '*.cjs' ! -name 'solver-question-type.cjs' ! -name 'scratchpad-browser.cjs' | sort)
+          mapfile -t test_files < <(find tests -maxdepth 1 -name '*.cjs' ! -name 'solver-question-type.cjs' ! -name '*-browser.cjs' | sort)
           node --test "${test_files[@]}"
 
       - name: Validate question bank and public build boundaries

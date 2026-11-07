@@ -94,7 +94,9 @@ python -m unittest discover -s tests -p "test_course_images.py"
 
 学习和做题的内容页右上角提供草稿本。半透明画布保留原题可见，支持压感笔、鼠标和手指书写；双指平移和缩放，也可用拖动工具向四周移动。画笔设置可切换颜色、粗细及手指书写，另有整笔橡皮擦、撤销、重做和回到起点。新建会保留原稿，可通过顶部草稿列表切换。所有草稿和各自画布位置自动保存在本浏览器，纳入全站备份；恢复时保留较新的草稿，旧备份不会删除已有草稿。支持 Web Locks 的浏览器会阻止多个标签页同时编辑，以免互相覆盖。
 
-草稿核心与备份测试包含在离线检查中；浏览器交互可运行 `node tests/scratchpad-browser.cjs`，需安装 Playwright 和 Chromium，或通过 `PLAYWRIGHT_MODULE`、`CHROME_PATH` 指定本机安装路径。
+笔输入在丢失捕获时继续通过文档接收；浏览器取消或失焦后，后续接触采样会恢复为新的笔段，悬空移动不会续画。保存与导出保留正在书写的笔迹，不结束当前笔触。长笔迹按容量分段存储，仍可一次撤销；书写时会拦截工具栏上的手掌误触。
+
+草稿核心与备份测试包含在离线检查中；浏览器交互可运行 `node tests/scratchpad-browser.cjs`，笔断触回归运行 `node tests/scratchpad-pen-browser.cjs`，需安装 Playwright 和相应浏览器，或通过 `PLAYWRIGHT_MODULE`、`CHROME_PATH` 指定本机安装路径。笔回归支持 `BROWSER_ENGINE=webkit` / `firefox`，默认 Chromium。
 
 考试日期与官方来源集中维护在 `data/exams.json`；省考预估日期与正式日期使用不同状态，不将预估当作公告。
 

@@ -6,7 +6,7 @@
 .scratchpad-launch:active { transform: scale(.92); }
 .scratchpad-launch svg { width: 1.3rem; height: 1.3rem; }
 .scratchpad[hidden], .scratchpad [hidden] { display: none !important; }
-.scratchpad { position: fixed; inset: 0; z-index: 600; isolation: isolate; color: var(--ink); overscroll-behavior: none; animation: scratchpad-in .2s ease-out both; }
+.scratchpad { position: fixed; inset: 0; z-index: 600; isolation: isolate; color: var(--ink); overscroll-behavior: none; touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; animation: scratchpad-in .2s ease-out both; }
 .scratchpad.is-closing { pointer-events: none; animation: scratchpad-out .16s ease-in both; }
 .scratchpad-surface { position: absolute; inset: 0; overflow: hidden; touch-action: none; background-color: rgba(253,254,251,.62); background-image: radial-gradient(circle, rgba(91,114,82,.19) .045rem, transparent .065rem); background-size: var(--scratch-grid, 1.5rem) var(--scratch-grid, 1.5rem); background-position: var(--scratch-x, 0rem) var(--scratch-y, 0rem); cursor: crosshair; }
 .scratchpad[data-tool="hand"] .scratchpad-surface { cursor: grab; }
@@ -37,7 +37,7 @@
 .scratchpad-tool-options { position: relative; }
 .scratchpad-ink { display: block; width: 1.05rem; height: 1.05rem; border-radius: 50%; background: var(--scratch-color); box-shadow: 0 0 0 .2rem var(--bg), 0 0 0 .27rem var(--line-strong); }
 .scratchpad-popover { position: absolute; z-index: 2; padding: .4rem; background: var(--bg); border: var(--border-width) solid var(--line); border-radius: .9rem; box-shadow: var(--shadow-sm); animation: scratchpad-menu-in .16s ease-out both; }
-.scratchpad-list { top: calc(100% + .5rem); left: 0; width: min(18rem, calc(100vw - 2rem)); max-height: min(26rem, 65dvh); overflow: auto; overscroll-behavior: contain; }
+.scratchpad-list { top: calc(100% + .5rem); left: 0; width: min(18rem, calc(100vw - 2rem)); max-height: min(26rem, 65dvh); overflow: auto; overscroll-behavior: contain; touch-action: pan-y; }
 .scratchpad-draft { display: flex; align-items: center; gap: .65rem; width: 100%; min-height: 3.1rem; padding: .6rem .7rem; border: 0; border-radius: .55rem; color: var(--ink); background: transparent; text-align: left; font-size: .8rem !important; }
 .scratchpad-draft > span { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .scratchpad-draft svg { width: 1rem; height: 1rem; color: var(--muted); }

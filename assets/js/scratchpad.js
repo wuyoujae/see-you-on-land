@@ -21,10 +21,10 @@
   let overlay, surface, canvas, liveCanvas, ctx, liveCtx, current, ready, opening = 0, closeTimer;
   let isOpen = false, opener, inertBefore, tool = "pen", color = "#202b23", width = 2.4, fingerDraw = true;
   let ownsEditLock = false, releaseEditLock, lockPromise;
-  let activeStroke = null, activePointer = null, eraseBefore = null, gesture = null, penPointer = null, lastPen = -Infinity;
+  let activeStroke = null, activePointer = null, strokeBefore = null, eraseBefore = null, gesture = null, penPointer = null, lastPen = -Infinity, blockedTouchUntil = -Infinity;
   let spaceDown = false, revision = 0, persisted = 0, saveTimer, writeQueue = Promise.resolve(), rendering = false, renderBase = true, strokePointLimit = 0;
   let viewWidth = 0, viewHeight = 0, pixelRatio = 1, gestureWasMulti = false, draftBusy = false, liveStrokeId = null, liveDrawnPoints = 0;
-  const pointers = new Map();
+  const pointers = new Map(), interruptedPens = new Set(), pendingInk = [];
   const history = () => {
     if (!histories.has(current.id)) histories.set(current.id, { undo: [], redo: [] });
     return histories.get(current.id);
@@ -41,14 +41,28 @@
     document.body.append(overlay);
     surface = overlay.querySelector(".scratchpad-surface");
     [canvas, liveCanvas] = surface.querySelectorAll("canvas"); ctx = canvas.getContext("2d"); liveCtx = liveCanvas.getContext("2d");
+    for (const item of [canvas, liveCanvas]) item.addEventListener("contextrestored", () => requestRender());
     surface.addEventListener("pointerdown", pointerDown);
-    surface.addEventListener("pointermove", pointerMove);
-    surface.addEventListener("pointerup", pointerUp);
-    surface.addEventListener("pointercancel", pointerCancel);
-    surface.addEventListener("lostpointercapture", event => { if (pointers.has(event.pointerId)) pointerCancel(event); });
+    // Delivery must survive a capture failure/loss, including when the pen
+    // crosses the toolbar. Capture loss itself is not a physical pen-up.
+    document.addEventListener("pointermove", pointerMove, { capture: true, passive: false });
+    document.addEventListener("pointerup", pointerUp, true);
+    document.addEventListener("pointercancel", pointerCancel, true);
+    surface.addEventListener("lostpointercapture", event => { if (pointers.has(event.pointerId)) capturePointer(event.pointerId); });
+    overlay.addEventListener("pointerdown", event => {
+      if (event.pointerType === "touch" && penHasPriority()) {
+        blockedTouchUntil = performance.now() + 900;
+        event.preventDefault(); event.stopImmediatePropagation();
+      }
+    }, { capture: true, passive: false });
+    overlay.addEventListener("click", event => {
+      const touchClick = event.pointerType === "touch" || event.sourceCapabilities?.firesTouchEvents || (!event.pointerType && event.detail > 0 && performance.now() < blockedTouchUntil);
+      if (touchClick && (penHasPriority() || performance.now() < blockedTouchUntil)) { event.preventDefault(); event.stopImmediatePropagation(); }
+    }, true);
     surface.addEventListener("contextmenu", event => event.preventDefault());
     surface.addEventListener("wheel", event => {
-      if (!current || draftBusy || overlay.dataset.loading) return; event.preventDefault(); finishInput();
+      if (!current || draftBusy || overlay.dataset.loading) return; event.preventDefault();
+      if (activePointer !== null || penPointer !== null) return;
       if (event.ctrlKey || event.metaKey) current.viewport = Core.zoomAt(current.viewport, Math.exp(-event.deltaY * .006), localPoint(event));
       else { current.viewport.x -= event.deltaX; current.viewport.y -= event.deltaY; }
       changed(); requestRender();
@@ -103,12 +117,12 @@
       await initialize({ refresh: true }); if (!isOpen || token !== opening) return;
       delete overlay.dataset.loading;
       if (revision > persisted) { status("草稿尚未保存。", true); void flush().catch(() => {}); } else status();
-      sync(); resize();
+      sync(); resize(); requestRender();
     } catch { if (isOpen && token === opening) status("无法读取草稿，请关闭后重试。已有草稿未被修改。"); }
   }
   function close({ restoreFocus = true, immediate = false } = {}) {
     if (!isOpen) return;
-    finishInput(); pointers.clear(); gesture = null; penPointer = null; spaceDown = false; ++opening; isOpen = false;
+    resetInput(); ++opening; isOpen = false;
     // Keep ownership on storage failure so another tab cannot overwrite the
     // unsaved ink. Reopening this tab lets the user retry or export it.
     void Promise.resolve(ready).then(flush).then(() => { if (!isOpen) releaseLock(); }).catch(() => {}); closeMenus();
@@ -126,6 +140,12 @@
     clearTimeout(saveTimer); saveTimer = setTimeout(autoSave, 300);
     syncButtons();
   }
+  function inkChanged() {
+    current.updatedAt = Math.max(Date.now(), current.updatedAt + 1); ++revision;
+  }
+  function currentSnapshot() {
+    return activeStroke ? { ...current, strokes: [...current.strokes, activeStroke] } : current;
+  }
   function autoSave() {
     // A timer from the previous stroke must never cut off the next stroke.
     if (activePointer !== null) { saveTimer = setTimeout(autoSave, 300); return; }
@@ -133,28 +153,33 @@
   }
   function flush() {
     clearTimeout(saveTimer);
-    if (activeStroke || eraseBefore) finishInput();
     if (!current || revision === persisted) return writeQueue;
-    const draft = Core.sanitizeDraft(current), version = revision;
-    if (!draft) { status("这份草稿已达到容量上限，请新建草稿继续书写。", true); return Promise.reject(new Error("草稿超出容量或数据无效")); }
-    writeQueue = writeQueue.catch(() => {}).then(async () => {
-      try { await store.save(draft); persisted = Math.max(persisted, version); if (revision === version) status(); }
-      catch (error) { status("草稿暂未保存，请重试或到设置导出备份。", true); throw error; }
-    });
+    // A backup or explicit save can run while a pen is still down. Snapshot its
+    // current points without changing ownership or terminating the live stroke.
+    const version = revision;
+    // The store validates, copies and serializes writes synchronously at this
+    // boundary. Avoid copying every saved point a second time on the UI thread.
+    writeQueue = store.save(currentSnapshot()).then(() => {
+      persisted = Math.max(persisted, version); if (revision === version) status();
+    }, error => { status("草稿暂未保存，请重试或到设置导出备份。", true); throw error; });
     return writeQueue;
   }
-  function remember(before, after) {
+  function remember(before, after, redraw = true) {
     if (before.length === after.length && before.every((stroke, index) => stroke === after[index])) return;
     const stack = history(); stack.undo.push({ before, after }); if (stack.undo.length > 60) stack.undo.shift(); stack.redo.length = 0;
-    changed(); requestRender();
+    changed(); requestRender(redraw);
   }
   function finishInput({ cancel = false } = {}) {
     if (activeStroke) {
-      if (!cancel && current && activeStroke.points.length) { const before = current.strokes.slice(); current.strokes.push(activeStroke); remember(before, current.strokes.slice()); }
+      if (!cancel && current && activeStroke.points.length) {
+        current.strokes.push(activeStroke); pendingInk.push(activeStroke);
+        remember(strokeBefore || current.strokes.slice(0, -1), current.strokes.slice(), false);
+      } else if (cancel && strokeBefore) { current.strokes = strokeBefore; requestRender(); }
       activeStroke = null;
     }
+    strokeBefore = null;
     if (eraseBefore && current) { if (cancel) current.strokes = eraseBefore; else remember(eraseBefore, current.strokes.slice()); eraseBefore = null; }
-    activePointer = null; requestRender();
+    activePointer = null; requestRender(false);
   }
   function closeMenus() {
     if (!overlay) return;
@@ -184,8 +209,7 @@
     renderList(); syncButtons();
   }
   async function changeDraft(id) {
-    if (draftBusy || !current) return; draftBusy = true; overlay.dataset.switching = "true"; finishInput();
-    pointers.clear(); gesture = null; penPointer = null; overlay.classList.remove("is-panning");
+    if (draftBusy || !current) return; draftBusy = true; overlay.dataset.switching = "true"; resetInput();
     try {
       await flush();
       if (id) { const draft = drafts.get(id); if (!draft) return; await store.setActiveId(id); current = draft; }
@@ -249,8 +273,20 @@
       event.preventDefault(); current.viewport.x += event.key === "ArrowLeft" ? 60 : event.key === "ArrowRight" ? -60 : 0; current.viewport.y += event.key === "ArrowUp" ? 60 : event.key === "ArrowDown" ? -60 : 0; changed(); requestRender();
     }
   }
-  function localPoint(event) { const rect = surface.getBoundingClientRect(); return { x: event.clientX - rect.left, y: event.clientY - rect.top }; }
-  function worldPoint(event) { return { ...Core.screenToWorld(localPoint(event), current.viewport), pressure: event.pointerType === "pen" ? (event.pressure || .15) : .5 }; }
+  function localPoint(event, rect = surface.getBoundingClientRect()) { return { x: event.clientX - rect.left, y: event.clientY - rect.top }; }
+  function worldPoint(event, rect) { return Core.normalizePoint({ ...Core.screenToWorld(localPoint(event, rect), current.viewport), pressure: event.pointerType === "pen" ? (event.pressure || .15) : .5 }); }
+  function penHasPriority() { return penPointer !== null || performance.now() - lastPen < 500; }
+  function penInContact(event) { return event.pointerType === "pen" && (Boolean(event.buttons & 33) || (event.buttons === 0 && event.pressure > 0)); }
+  function capturePointer(id) { try { if (!surface.hasPointerCapture(id)) surface.setPointerCapture(id); } catch { /* Document listeners remain the fallback. */ } }
+  function releasePointer(id) { try { if (surface.hasPointerCapture(id)) surface.releasePointerCapture(id); } catch { /* The browser may already have canceled it. */ } }
+  function resetInput(recoverPen = false) {
+    if (recoverPen) { for (const point of pointers.values()) if (point.type === "pen") interruptedPens.add(point.id); }
+    else interruptedPens.clear();
+    finishInput(); const ids = [...pointers.keys()]; pointers.clear();
+    gesture = null; gestureWasMulti = false; penPointer = null; spaceDown = false;
+    overlay?.classList.remove("is-panning"); for (const id of ids) releasePointer(id);
+  }
+  function canReceiveInput() { return isOpen && current && !draftBusy && !overlay.dataset.loading && !document.hidden; }
   function beginGesture() {
     const touches = [...pointers.values()].filter(point => point.type === "touch");
     if (touches.length < 2) return;
@@ -259,16 +295,21 @@
     gestureWasMulti = true; overlay.classList.add("is-panning");
   }
   function pointerDown(event) {
-    if (!current || draftBusy || overlay.dataset.loading || (event.pointerType === "mouse" && ![0, 1].includes(event.button))) return;
+    if (!canReceiveInput() || (event.pointerType === "mouse" && ![0, 1].includes(event.button))) return;
+    if (event.pointerType === "pen" && !penInContact(event)) return;
     event.preventDefault(); closeMenus();
-    if (event.pointerType === "touch" && (penPointer !== null || performance.now() - lastPen < 500 || event.width > 45 || event.height > 45)) return;
+    if (event.pointerType === "touch" && (penHasPriority() || event.width > 45 || event.height > 45)) return;
     if (event.pointerType === "pen") {
       if (pointers.get(activePointer)?.type === "touch") finishInput({ cancel: true });
-      for (const [id, point] of pointers) if (point.type === "touch") pointers.delete(id);
+      // A new contact supersedes a missing pen-up, including reused pointer IDs.
+      else if (activePointer !== null) finishInput();
+      for (const [id, point] of pointers) if (point.type === "touch" || point.type === "pen") { pointers.delete(id); releasePointer(id); }
+      interruptedPens.delete(event.pointerId);
       penPointer = event.pointerId; lastPen = performance.now(); gesture = null;
+      overlay.classList.remove("is-panning");
     }
     const point = localPoint(event); pointers.set(event.pointerId, { ...point, type: event.pointerType, id: event.pointerId });
-    surface.setPointerCapture(event.pointerId);
+    capturePointer(event.pointerId);
     if (event.pointerType === "touch" && [...pointers.values()].filter(item => item.type === "touch").length >= 2) { beginGesture(); return; }
     if (activePointer !== null) return;
     activePointer = event.pointerId; gestureWasMulti = false;
@@ -277,7 +318,10 @@
     if (tool === "eraser" || event.button === 5 || (event.buttons & 32)) { eraseBefore = current.strokes.slice(); eraseAt(event); return; }
     strokePointLimit = Math.min(Core.LIMITS.strokePoints, Core.LIMITS.points - current.strokes.reduce((sum, stroke) => sum + stroke.points.length, 0));
     if (current.strokes.length >= Core.LIMITS.strokes || strokePointLimit <= 0) { activePointer = null; status("这份草稿已达到容量上限，请新建草稿继续书写。"); return; }
-    activeStroke = { id: Core.createId(), color, width, points: [worldPoint(event)], pointerType: event.pointerType };
+    const first = worldPoint(event); if (!first) { activePointer = null; return; }
+    strokeBefore = current.strokes.slice();
+    activeStroke = { id: Core.createId(), color, width, points: [first], pointerType: event.pointerType };
+    inkChanged();
     requestRender(false);
   }
   function eraseAt(event) {
@@ -290,7 +334,13 @@
     }); requestRender();
   }
   function pointerMove(event) {
-    const point = pointers.get(event.pointerId); if (!point || !current || draftBusy) return;
+    if (!canReceiveInput()) return;
+    const contact = penInContact(event);
+    // Recover only from confirmed physical contact. Hover and a real pen-up
+    // never reconnect across a browser-canceled segment or another page.
+    if (!pointers.has(event.pointerId) && contact && (interruptedPens.has(event.pointerId) || event.target === surface || surface.contains(event.target))) pointerDown(event);
+    const point = pointers.get(event.pointerId); if (!point) return;
+    if (event.pointerType === "pen" && !contact) { endPointer(event, false); return; }
     event.preventDefault(); Object.assign(point, localPoint(event));
     if (event.pointerType === "pen") lastPen = performance.now();
     if (gesture?.a !== undefined) {
@@ -304,38 +354,59 @@
     if (event.pointerId !== activePointer) return;
     if (eraseBefore) { eraseAt(event); return; }
     if (!activeStroke) return;
-    const events = event.getCoalescedEvents?.();
-    for (const sample of events?.length ? events : [event]) {
-      if (activeStroke.points.length >= strokePointLimit) { finishInput(); status("已达到本次书写上限，抬笔后可继续或新建草稿。"); break; }
-      const next = worldPoint(sample), previous = activeStroke.points.at(-1);
-      if (Math.hypot(next.x - previous.x, next.y - previous.y) * current.viewport.scale > .35) activeStroke.points.push(next);
-    }
+    let events; try { events = event.getCoalescedEvents?.(); } catch { /* Fall back to this event. */ }
+    const rect = surface.getBoundingClientRect();
+    for (const sample of events?.length ? events : [event]) { if (!appendInk(sample, rect)) break; }
     requestRender(false);
   }
+  function appendInk(sample, rect) {
+    const next = worldPoint(sample, rect); if (!next || !activeStroke) return true;
+    const previous = activeStroke.points.at(-1);
+    if (Math.hypot(next.x - previous.x, next.y - previous.y) * current.viewport.scale <= .35) return true;
+    if (activeStroke.points.length >= strokePointLimit) {
+      // Store bounded chunks while keeping one uninterrupted contact and one
+      // undo operation. A long pen stroke must not silently stop at 50k points.
+      const completed = activeStroke, last = completed.points.at(-1);
+      const remaining = Core.LIMITS.points - current.strokes.reduce((sum, stroke) => sum + stroke.points.length, 0) - completed.points.length;
+      if (remaining < 2 || current.strokes.length + 1 >= Core.LIMITS.strokes) { finishInput(); status("这份草稿已达到容量上限，请新建草稿继续书写。"); return false; }
+      current.strokes.push(completed); pendingInk.push(completed);
+      activeStroke = { id: Core.createId(), color: completed.color, width: completed.width, pointerType: completed.pointerType, points: [last] };
+      strokePointLimit = Math.min(Core.LIMITS.strokePoints, remaining);
+    }
+    activeStroke.points.push(next); inkChanged(); return true;
+  }
   function pointerUp(event) {
+    interruptedPens.delete(event.pointerId);
+    endPointer(event, true);
+  }
+  function endPointer(event, append) {
     if (!pointers.has(event.pointerId)) return;
     if (activePointer === event.pointerId) {
-      if (activeStroke && !gesture) pointerMove(event);
+      // Pen-up often reports buttons=0: process its final point without treating
+      // that final sample as a new hover or recursively ending the contact.
+      if (append && activeStroke && !gesture) appendInk(event);
       finishInput();
     }
     pointers.delete(event.pointerId);
     if (penPointer === event.pointerId) { penPointer = null; lastPen = performance.now(); }
-    if (gesture) {
+    if (gesture && (gesture.id === event.pointerId || gesture.a === event.pointerId || gesture.b === event.pointerId)) {
       gesture = null; activePointer = null;
       // The remaining finger continues panning after a pinch, never drawing.
       const next = [...pointers.values()].find(point => point.type === "touch");
       if (next && gestureWasMulti) { activePointer = next.id; gesture = { id: next.id, point: { ...next }, viewport: { ...current.viewport } }; }
     }
+    releasePointer(event.pointerId);
     if (!pointers.size) { overlay.classList.remove("is-panning"); gestureWasMulti = false; }
   }
   function pointerCancel(event) {
-    if (activePointer === event.pointerId) finishInput();
-    pointers.delete(event.pointerId); if (penPointer === event.pointerId) { penPointer = null; lastPen = performance.now(); }
-    gesture = null; overlay.classList.remove("is-panning");
+    const point = pointers.get(event.pointerId); if (!point) return;
+    if (point.type === "pen") interruptedPens.add(event.pointerId);
+    endPointer(event, false);
   }
   function resize() {
     const rect = surface.getBoundingClientRect(); viewWidth = rect.width; viewHeight = rect.height;
     pixelRatio = Math.min(window.devicePixelRatio || 1, 2.5, Math.sqrt(8000000 / Math.max(1, viewWidth * viewHeight)));
+    if (canvas.width === Math.round(viewWidth * pixelRatio) && canvas.height === Math.round(viewHeight * pixelRatio)) return;
     for (const item of [canvas, liveCanvas]) { item.width = Math.round(viewWidth * pixelRatio); item.height = Math.round(viewHeight * pixelRatio); }
     requestRender();
   }
@@ -364,12 +435,13 @@
       const redraw = renderBase;
       if (redraw) {
         prepare(ctx, canvas); for (const stroke of current.strokes) if (strokeVisible(stroke)) drawStroke(ctx, stroke);
+        pendingInk.length = 0;
         const { x, y, scale } = current.viewport, grid = 24 * scale * (scale < .5 ? 4 : 1);
         surface.style.setProperty("--scratch-grid", `${grid / parseFloat(getComputedStyle(document.documentElement).fontSize)}rem`);
         surface.style.setProperty("--scratch-x", `${x / parseFloat(getComputedStyle(document.documentElement).fontSize)}rem`);
         surface.style.setProperty("--scratch-y", `${y / parseFloat(getComputedStyle(document.documentElement).fontSize)}rem`);
         syncButtons(); renderBase = false;
-      }
+      } else { for (const stroke of pendingInk) if (strokeVisible(stroke)) drawStroke(ctx, stroke); pendingInk.length = 0; }
       if (redraw || !activeStroke || liveStrokeId !== activeStroke.id) {
         prepare(liveCtx, liveCanvas); liveDrawnPoints = 0; liveStrokeId = activeStroke?.id || null;
       }
@@ -380,10 +452,10 @@
     });
   }
   async function exportBackup() {
-    await initialize({ refresh: !isOpen && revision === persisted && !ownsEditLock }); finishInput();
+    await initialize({ refresh: !isOpen && revision === persisted && !ownsEditLock });
     // Export memory too: quota failures must not strand the latest ink.
     await flush().catch(() => {});
-    const documents = [...drafts.values()].map(draft => Core.sanitizeDraft(draft));
+    const documents = [...drafts.values()].map(draft => Core.sanitizeDraft(draft === current ? currentSnapshot() : draft));
     if (documents.some(draft => !draft)) throw new Error("草稿内容无法完整导出，请保留当前页面并重试");
     return { version: 1, activeId: current?.id || null, drafts: documents };
   }
@@ -394,7 +466,7 @@
     if (draftBusy || !await claimEditLock()) throw new Error("草稿正在另一个页面使用，请保存并关闭草稿本后重试");
     draftBusy = true; if (overlay) overlay.dataset.switching = "true";
     try {
-      await initialize({ refresh: !isOpen }); finishInput(); pointers.clear(); gesture = null; await flush();
+      await initialize({ refresh: !isOpen }); resetInput(); await flush();
       const merged = new Map(drafts);
       for (const draft of incoming) if (!merged.has(draft.id) || merged.get(draft.id).updatedAt < draft.updatedAt) merged.set(draft.id, draft);
       const activeId = merged.has(payload.activeId) ? payload.activeId : current.id;
@@ -411,9 +483,9 @@
   window.addEventListener("hashchange", () => close({ restoreFocus: false, immediate: true }));
   window.addEventListener("popstate", () => close({ restoreFocus: false, immediate: true }));
   window.addEventListener("summer-politics:tabchange", () => close({ restoreFocus: false, immediate: true }));
-  window.addEventListener("blur", () => { if (isOpen) { finishInput(); pointers.clear(); gesture = null; penPointer = null; spaceDown = false; overlay.classList.remove("is-panning"); } });
-  window.addEventListener("pagehide", () => { finishInput(); void flush().catch(() => {}); });
-  document.addEventListener("visibilitychange", () => { if (document.hidden) { finishInput(); void flush().catch(() => {}); } });
+  window.addEventListener("blur", () => { if (isOpen) resetInput(true); });
+  window.addEventListener("pagehide", () => { resetInput(); void flush().catch(() => {}); });
+  document.addEventListener("visibilitychange", () => { if (document.hidden) { resetInput(true); void flush().catch(() => {}); } });
   window.addEventListener("resize", () => { if (isOpen) resize(); });
   window.Scratchpad = Object.freeze({ open, close, flush, exportBackup, importBackup, get isOpen() { return isOpen; } });
 })();
