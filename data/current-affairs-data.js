@@ -202488,14 +202488,14 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "习近平",
-          "count": 14
-        },
-        {
-          "name": "全面从严治党",
-          "count": 3
+          "count": 16
         },
         {
           "name": "朝鲜",
+          "count": 3
+        },
+        {
+          "name": "经济",
           "count": 3
         },
         {
@@ -202503,11 +202503,15 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 2
         },
         {
+          "name": "全面从严治党",
+          "count": 2
+        },
+        {
           "name": "高质量发展",
           "count": 2
         },
         {
-          "name": "经济",
+          "name": "人工智能",
           "count": 2
         }
       ],
@@ -202625,6 +202629,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
+          "id": "5d062081742e44",
+          "source": "求是",
+          "title": "做中澳友谊与合作的传承者——习近平主席复信澳大利亚青年学生引发热烈反响",
+          "url": "https://www.qstheory.cn/20261107/fb6da842992e4a5ebebf0e0149d7cc4a/c.html",
+          "date": "2026-11-07",
+          "keyword": "习近平"
+        },
+        {
+          "id": "373c382e6c8285",
+          "source": "求是",
+          "title": "让中澳友好之树更加枝繁叶茂——习近平主席复信令澳大利亚青年学生和教育界人士深受鼓舞",
+          "url": "https://www.qstheory.cn/20261107/dd33559b23ce4529ad41a7bbd714c4a8/c.html",
+          "date": "2026-11-07",
+          "keyword": "习近平"
+        },
+        {
+          "id": "4b8276a63432c6",
+          "source": "人民日报",
+          "title": "何立峰将赴加拿大主持第二次中加经济财金战略对话",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/07/content_30189966.html",
+          "date": "2026-11-07",
+          "keyword": "经济"
+        },
+        {
           "id": "10ccca10052e34",
           "source": "人民日报",
           "title": "刘海星同朝鲜劳动党中央政治局委员、中央书记、国际部部长金成男举行会谈",
@@ -202649,18 +202677,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "朝鲜"
         },
         {
+          "id": "00869b0ddf4964",
+          "source": "新华社",
+          "title": "中国经济看“新”丨智慧农机提速，田间涌动新活力",
+          "url": "https://www.news.cn/fortune/20261107/85f9c92a952546a99e1922ab08aa2e1c/c.html",
+          "date": "2026-11-07",
+          "keyword": "经济"
+        },
+        {
+          "id": "dde531d5c4ae69",
+          "source": "人民日报",
+          "title": "全国人民代表大会常务委员会关于批准《关于成立世界人工智能合作组织的协定》的决定",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/07/content_30189882.html",
+          "date": "2026-11-07",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "da35927c8566bb",
+          "source": "新华社",
+          "title": "“‘人工智能＋媒体’蓝皮书（2026）”全文",
+          "url": "https://www.news.cn/politics/20261107/2853cb5286064053b1b18588f6c4697e/c.html",
+          "date": "2026-11-07",
+          "keyword": "人工智能"
+        },
+        {
           "id": "0432a736f9eae7",
           "source": "新华社",
           "title": "“全面从严治党的价值取向”智库报告发布",
           "url": "https://www.news.cn/politics/20261107/faae8f3205b545bdaec25f88e6255393/c.html",
-          "date": "2026-11-07",
-          "keyword": "全面从严治党"
-        },
-        {
-          "id": "71eafa04fa93bc",
-          "source": "新华社",
-          "title": "《人民至上——全面从严治党的价值取向》智库报告发布",
-          "url": "https://www.news.cn/20261107/27e4a6ed1360444b880958b4b8e1cf07/c.html",
           "date": "2026-11-07",
           "keyword": "全面从严治党"
         },
@@ -202673,12 +202717,12 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "全面从严治党"
         },
         {
-          "id": "4b8276a63432c6",
-          "source": "人民日报",
-          "title": "何立峰将赴加拿大主持第二次中加经济财金战略对话",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/07/content_30189966.html",
+          "id": "30af93ac784390",
+          "source": "中国政府网",
+          "title": "中共中央发出通知 部署党的二十一大代表选举工作",
+          "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7085448.htm",
           "date": "2026-11-07",
-          "keyword": "经济"
+          "keyword": "综合时政"
         },
         {
           "id": "dda74871d6737c",
@@ -202765,14 +202809,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "全国人民代表大会常务委员会关于修改《中华人民共和国突发事件应对法》等十五部法律的决定",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202611/07/content_30189881.html",
-          "date": "2026-11-07",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "dde531d5c4ae69",
-          "source": "人民日报",
-          "title": "全国人民代表大会常务委员会关于批准《关于成立世界人工智能合作组织的协定》的决定",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/07/content_30189882.html",
           "date": "2026-11-07",
           "keyword": "综合时政"
         },
@@ -203033,6 +203069,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "54f7691f15a9ea",
+          "source": "半月谈",
+          "title": "如东：向海突围 谋胜未来",
+          "url": "http://www.banyuetan.org/dfgc/detail/20261107/1000200033136151794016801674370725_1.html",
+          "date": "2026-11-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2763c2dd3ef928",
+          "source": "学习强国",
+          "title": "中共中央发出通知 部署党的二十一大代表选举工作",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2865126341917529767&item_id=2865126341917529767",
+          "date": "2026-11-07",
+          "keyword": "综合时政"
+        },
+        {
           "id": "e180140aae79dd",
           "source": "学习强国",
           "title": "中央宣讲团在天津宣讲",
@@ -203057,10 +203109,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "61ad773a8831a6",
+          "id": "35d65e4e79e57b",
           "source": "新华社",
-          "title": "2026年中国金鸡百花电影节在福建厦门开幕",
-          "url": "https://www.news.cn/photo/20261107/398576dcafe448f6871883d7bea209a5/c.html",
+          "title": "10月末我国外汇储备规模为34052亿美元",
+          "url": "https://www.news.cn/20261107/c1614dae1e844fa1a338147fd14c10bb/c.html",
+          "date": "2026-11-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "69e6f24a7c83f2",
+          "source": "新华社",
+          "title": "WTT法兰克福冠军赛：中国队三将晋级女单八强",
+          "url": "https://www.news.cn/20261107/e831071e09d944cda437263ee8971942/c.html",
           "date": "2026-11-07",
           "keyword": "综合时政"
         },
@@ -203073,10 +203133,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "6769d6b233f89c",
+          "id": "317adac9944894",
           "source": "新华社",
-          "title": "世界媒体看北京 感受中国发展 思考媒体未来",
-          "url": "https://www.news.cn/world/20261107/effb7710d9a840c3987e050ce92afe80/c.html",
+          "title": "上海：进博元素点亮浦江夜景",
+          "url": "https://www.news.cn/photo/20261107/e705405684a2453185ed0f4cfc0636d7/c.html",
           "date": "2026-11-07",
           "keyword": "综合时政"
         },
@@ -203089,18 +203149,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "8005788fbc5229",
+          "id": "6769d6b233f89c",
           "source": "新华社",
-          "title": "中国科学家叶玉如获教科文组织国际生命科学研究奖",
-          "url": "https://www.news.cn/20261107/75dcb1f89d1844b5b255d51d0c7f0f1e/c.html",
+          "title": "世界媒体看北京：感受中国发展 思考媒体未来",
+          "url": "https://www.news.cn/world/20261107/effb7710d9a840c3987e050ce92afe80/c.html",
           "date": "2026-11-07",
           "keyword": "综合时政"
         },
         {
-          "id": "a97f7e92873513",
+          "id": "cfe82aa819639c",
           "source": "新华社",
-          "title": "中国第43次南极考察队起航仪式在三亚举行",
-          "url": "https://www.news.cn/tech/20261107/a28d039bded94a40828da0939a67301b/c.html",
+          "title": "中共中央发出通知 部署党的二十一大代表选举工作",
+          "url": "https://www.news.cn/politics/zywj/20261107/52f31843c5b2424c9cc5733fff7e1838/c.html",
+          "date": "2026-11-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6811989202eb27",
+          "source": "新华社",
+          "title": "中共大连市委全会选举产生市委书记",
+          "url": "https://www.news.cn/politics/20261107/75429e1640de464fa8526013b8963254/c.html",
+          "date": "2026-11-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "431924c0b95bba",
+          "source": "新华社",
+          "title": "中国科学家叶玉如获教科文组织国际生命科学研究奖",
+          "url": "https://www.news.cn/tech/20261107/e2823a1c88884b6baca750e428a2b8fa/c.html",
           "date": "2026-11-07",
           "keyword": "综合时政"
         },
@@ -203109,6 +203185,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "中外嘉宾共话AI时代移动影像创新与媒体变革",
           "url": "https://www.news.cn/world/20261107/eb127fb7fb9e44e4a7bc9e850a19731b/c.html",
+          "date": "2026-11-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c6d9e5fc16d0e2",
+          "source": "新华社",
+          "title": "中白工业园铁路场站正式投运",
+          "url": "https://www.news.cn/20261107/65d86bf168584afb96cfceba1469f6e5/c.html",
           "date": "2026-11-07",
           "keyword": "综合时政"
         },
@@ -203129,22 +203213,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "55ca1e5b595b60",
-          "source": "新华社",
-          "title": "产业发展开新局丨特色产业助力乡村振兴",
-          "url": "https://www.news.cn/fortune/20261107/6820c44d4b064cac9decdcd6b2fa1ffd/c.html",
-          "date": "2026-11-07",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "6e69cbbc20d2bf",
-          "source": "新华社",
-          "title": "以色列反对派领导人称组阁取得“显著进展”",
-          "url": "https://www.news.cn/20261107/0be9b3958f3c44089b28a581a71fbd6c/c.html",
-          "date": "2026-11-07",
-          "keyword": "综合时政"
-        },
-        {
           "id": "38eb3c889896cf",
           "source": "新华社",
           "title": "何立峰与美财长贝森特、贸易代表格里尔视频通话",
@@ -203161,10 +203229,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "f40b9f5211dc6d",
+          "id": "78decc3f8cb05f",
+          "source": "新华社",
+          "title": "俄总统新闻秘书：俄美愿继续开展人道主义工作",
+          "url": "https://www.news.cn/20261107/3e0fee6e1231470ba1ca8afc6036440a/c.html",
+          "date": "2026-11-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a4e3cafbd3dd6d",
           "source": "新华社",
           "title": "前总统培尼亚被捕",
-          "url": "https://www.news.cn/world/20261107/9605afd8a0d5407f94ae998bd0709920/c.html",
+          "url": "https://www.news.cn/world/20261107/c09f28aaca444ecf96d1eafee91ea7cb/c.html",
           "date": "2026-11-07",
           "keyword": "综合时政"
         },
@@ -203177,18 +203253,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "bcc1da4429f7cb",
+          "id": "02167cc60b6b46",
           "source": "新华社",
-          "title": "商务部新闻发言人就美制裁中国企业答记者问",
-          "url": "https://www.news.cn/world/20261107/d0e8936284c74871b91454f146365e96/c.html",
+          "title": "卡拉斯：任何俄乌和平协议的落实都需要欧盟参与",
+          "url": "https://www.news.cn/20261107/3a035e16c88143ae950c0d5c5dbe1815/c.html",
           "date": "2026-11-07",
           "keyword": "综合时政"
         },
         {
-          "id": "471a1c70f3ed47",
+          "id": "cccc4d6eb60628",
           "source": "新华社",
-          "title": "土耳其逮捕连环枪击案嫌疑人",
-          "url": "https://www.news.cn/20261107/0a1d4cd4b958426abbd77796baae4ce1/c.html",
+          "title": "参加神二十四任务 中国空间站将迎首位外籍航天员",
+          "url": "https://www.news.cn/politics/20261107/d26e5afe563043d49104e2de306d725d/c.html",
+          "date": "2026-11-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bcc1da4429f7cb",
+          "source": "新华社",
+          "title": "商务部新闻发言人就美制裁中国企业答记者问",
+          "url": "https://www.news.cn/world/20261107/d0e8936284c74871b91454f146365e96/c.html",
           "date": "2026-11-07",
           "keyword": "综合时政"
         },
@@ -203209,18 +203293,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "5abae9518741ff",
+          "id": "717562533568cc",
           "source": "新华社",
-          "title": "巴拉圭国会拒绝为总统推迟弹劾程序",
-          "url": "https://www.news.cn/20261107/39bc737b101a4ad19c734db7adb1d260/c.html",
+          "title": "射击世锦赛：中国队首次包揽女子飞碟双向前三名",
+          "url": "https://www.news.cn/sports/20261107/eabfb4ec68e741fbaf8392b59826a67d/c.html",
           "date": "2026-11-07",
           "keyword": "综合时政"
         },
         {
-          "id": "5ec08e7ab0e1dc",
+          "id": "e9fa4a331b5902",
           "source": "新华社",
-          "title": "巴拉圭总统培尼亚遭国会弹劾",
-          "url": "https://www.news.cn/20261107/2a75bcf375d74afa953f50facf40b0c7/c.html",
+          "title": "常墨涵一日双金 中国“泳军”青奥会4金3银收官",
+          "url": "https://www.news.cn/20261107/91342e77b526445b88bbb702281aa0f3/c.html",
+          "date": "2026-11-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ac432b97d28849",
+          "source": "新华社",
+          "title": "微视频丨新闻背后的你",
+          "url": "https://www.news.cn/politics/20261107/a664552e2b04437c858f1459127e98a9/c.html",
           "date": "2026-11-07",
           "keyword": "综合时政"
         },
@@ -203233,18 +203325,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "6f55dbf4707654",
-          "source": "新华社",
-          "title": "心声跨越国界！关于这个峰会，外国嘉宾这样说",
-          "url": "https://www.news.cn/world/20261107/d0ad5384b0fd498f8e8b88d6091719e3/c.html",
-          "date": "2026-11-07",
-          "keyword": "综合时政"
-        },
-        {
           "id": "99669b364c2035",
           "source": "新华社",
           "title": "总书记投下庄严一票，率先垂范践行民主",
           "url": "https://www.news.cn/politics/leaders/20261107/16c887c6a6a04a45b22f039f554d93c8/c.html",
+          "date": "2026-11-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "70346701be1e71",
+          "source": "新华社",
+          "title": "总理科巴希泽",
+          "url": "https://www.news.cn/world/20261107/71325bedf35143419345637e647096e2/c.html",
           "date": "2026-11-07",
           "keyword": "综合时政"
         },
@@ -203265,10 +203357,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "c2600e6be8b361",
+          "id": "003a371e719c90",
           "source": "新华社",
           "title": "日本首次在冲绳部署16式机动战斗车引当地民众抗议",
-          "url": "https://www.news.cn/20261107/6e02b0b7b72d4e20acc4a31f7be53a5a/c.html",
+          "url": "https://www.news.cn/world/20261107/77b0463b88a640d48f5bdc0862a27bfc/c.html",
           "date": "2026-11-07",
           "keyword": "综合时政"
         },
@@ -203281,10 +203373,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "5e81cf3e0f2d3f",
+          "id": "27fdd5ac9ce09a",
           "source": "新华社",
-          "title": "欧洲多地收到炸弹威胁 多国开展排查",
-          "url": "https://www.news.cn/20261107/33ff375a1589417c873b44778822a766/c.html",
+          "title": "权威快报丨中国第43次南极考察队出征",
+          "url": "https://www.news.cn/politics/20261107/282bf3ff5e27495285334e8a0a6b80c5/c.html",
+          "date": "2026-11-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eca81d7fbcbc27",
+          "source": "新华社",
+          "title": "欧洲航天局：火星探测器发现火山活动迹象",
+          "url": "https://www.news.cn/world/20261107/f9faa578a3b74c4b93dea34f4b1caf8b/c.html",
           "date": "2026-11-07",
           "keyword": "综合时政"
         },
@@ -203293,6 +203393,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "泽连斯基称将继续打击俄炼油厂以回应俄军袭击",
           "url": "https://www.news.cn/20261107/38688dbea1ee4c22963c2a1a0ce306df/c.html",
+          "date": "2026-11-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "08ad7178a1a5b3",
+          "source": "新华社",
+          "title": "火星探测器发现火山活动迹象",
+          "url": "https://www.news.cn/20261107/60036ae9df144d3099bf51d02775da94/c.html",
           "date": "2026-11-07",
           "keyword": "综合时政"
         },
@@ -203321,10 +203429,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "04e5b313ee2598",
+          "id": "b8a373e5cc3ab2",
           "source": "新华社",
           "title": "美国财政部制裁加拿大境内8家与伊朗有关联的企业",
-          "url": "https://www.news.cn/world/20261107/adc342f91947423b9b2b5097985f47bb/c.html",
+          "url": "https://www.news.cn/20261107/863fea0a35554fa89f4f0ce9f481723d/c.html",
+          "date": "2026-11-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dabe55bcb56790",
+          "source": "新华社",
+          "title": "美媒：万斯在幕后推动与伊朗达成新协议",
+          "url": "https://www.news.cn/20261107/11d4e109000349669b48d60fce378722/c.html",
           "date": "2026-11-07",
           "keyword": "综合时政"
         },
@@ -203337,14 +203453,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "e3aaede52eaf23",
-          "source": "新华社",
-          "title": "让中澳友好之树更加枝繁叶茂",
-          "url": "https://www.news.cn/politics/leaders/20261107/320240415cf24137b507f4a357420e56/c.html",
-          "date": "2026-11-07",
-          "keyword": "综合时政"
-        },
-        {
           "id": "c4dc2c2e15f2b9",
           "source": "新华社",
           "title": "谷神星二号遥三运载火箭发射成功",
@@ -203353,10 +203461,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "b1adb4986352f2",
+          "id": "55d2cd03331615",
+          "source": "新华社",
+          "title": "这场“媒体的奥林匹克”缘何吸引世界目光",
+          "url": "https://www.news.cn/world/20261107/8a1e104c104f4bb6a55e1605f481996e/c.html",
+          "date": "2026-11-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "92e8365437a3c6",
           "source": "新华社",
           "title": "这就是新华社出图",
-          "url": "https://www.news.cn/politics/20261107/8ccdea981e0344519d2b3229712159ff/c.html",
+          "url": "https://www.news.cn/politics/20261107/923b879064bb4891918060fd36f43eff/c.html",
           "date": "2026-11-07",
           "keyword": "综合时政"
         },
@@ -203367,6 +203483,46 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/tech/20261107/93790298c17848878d1ac5a87dbc16e2/c.html",
           "date": "2026-11-07",
           "keyword": "综合时政"
+        },
+        {
+          "id": "882500dc1d40c3",
+          "source": "新华社",
+          "title": "青奥会全天综合：常墨涵游泳斩获两金 女子三人篮球中国队连胜晋级",
+          "url": "https://www.news.cn/20261107/84485d06ad0042978f78405330544454/c.html",
+          "date": "2026-11-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5159fd143da36c",
+          "source": "新华社",
+          "title": "韩正会见格鲁吉亚总统卡韦拉什维利、",
+          "url": "https://www.news.cn/world/20261107/222dade3234041a7be76cbdb1afbd153/c.html",
+          "date": "2026-11-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aab6050ee8431d",
+          "source": "新华社",
+          "title": "香港法律周2026闭幕",
+          "url": "https://www.news.cn/20261107/8921a28888764542be4b97ce2c8a6ebd/c.html",
+          "date": "2026-11-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f16634cce864cc",
+          "source": "求是",
+          "title": "中共中央发出通知 部署党的二十一大代表选举工作",
+          "url": "https://www.qstheory.cn/20261107/61d4420d62ab49238b025a84a4598434/c.html",
+          "date": "2026-11-07",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d5f0b6e0456b93",
+          "source": "求是",
+          "title": "坚定信心接续奋斗 在新征程上创造新的历史伟业——广大知识分子和青年学生积极响应党的二十届五中全会号召勇毅前行",
+          "url": "https://www.qstheory.cn/20261107/af8fddb9069e4266ae392312025e5c5d/c.html",
+          "date": "2026-11-07",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -203374,65 +203530,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 33.0,
-          "message": "HTTPSConnectionPool(host='tv.cctv.com', port=443): Read timed out. (read timeout=22)"
+          "duration": 4.9,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261107.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 32,
-          "duration": 1.9
+          "duration": 2.6
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 41,
-          "duration": 2.2
+          "count": 53,
+          "duration": 2.6
         },
         {
           "source": "半月谈",
           "status": "ok",
-          "count": 0,
-          "duration": 11.6
+          "count": 1,
+          "duration": 14.2
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 1,
-          "duration": 6.1
+          "count": 5,
+          "duration": 6.5
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 25,
-          "duration": 2.0
+          "duration": 2.2
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.4
+          "duration": 13.5
         },
         {
           "source": "学习强国",
           "status": "ok",
-          "count": 3,
-          "duration": 2.4
+          "count": 4,
+          "duration": 2.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 1,
-          "duration": 8.8
+          "count": 2,
+          "duration": 10.1
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 4,
-          "duration": 51.7
+          "duration": 64.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-11-07T09:44:49+08:00"
+  "generatedAt": "2026-11-07T12:05:41+08:00"
 };
