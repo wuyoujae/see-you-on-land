@@ -203727,121 +203727,49 @@ window.CURRENT_AFFAIRS_DATA = {
     },
     {
       "date": "2026-11-08",
-      "keyword": "党的二十",
+      "keyword": "人工智能",
       "keywords": [
         {
-          "name": "党的二十",
-          "count": 5
+          "name": "人工智能",
+          "count": 2
         },
         {
-          "name": "全会精神",
-          "count": 4
-        },
-        {
-          "name": "一大代表选举",
-          "count": 3
-        },
-        {
-          "name": "世界媒体峰会",
-          "count": 3
-        },
-        {
-          "name": "二十一大代表",
-          "count": 3
-        },
-        {
-          "name": "五中全会精神",
-          "count": 3
-        },
-        {
-          "name": "代表选举工作",
-          "count": 3
-        },
-        {
-          "name": "党的二十一大",
-          "count": 3
+          "name": "经济",
+          "count": 2
         }
       ],
       "articles": [
         {
-          "id": "bf68678c19469e",
+          "id": "ac29fb52d4c593",
           "source": "人民日报",
-          "title": "学习贯彻党的二十届五中全会精神中央宣讲团在山东、陕西、青海宣讲（学习贯彻党的二十届五中全会精神）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/08/content_30190013.html",
+          "title": "坚守多边主义，推进普惠包容的经济全球化",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/08/content_30190006.html",
           "date": "2026-11-08",
-          "keyword": "党的二十"
+          "keyword": "经济"
         },
         {
-          "id": "c04c358a52660f",
+          "id": "5afd032feb1fec",
           "source": "人民日报",
-          "title": "部署党的二十一大代表选举工作",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/08/content_30189991.html",
+          "title": "第十四届中欧论坛聚焦对话与人工智能合作",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/08/content_30190009.html",
           "date": "2026-11-08",
-          "keyword": "党的二十"
+          "keyword": "人工智能"
         },
         {
-          "id": "72b2c55fd348d7",
-          "source": "光明日报",
-          "title": "学习贯彻党的二十届五中全会精神中央宣讲团在山东、陕西、青海宣讲",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/08/content_29368.html",
-          "date": "2026-11-08",
-          "keyword": "党的二十"
-        },
-        {
-          "id": "c6bbd0d642425b",
-          "source": "光明日报",
-          "title": "部署党的二十一大代表选举工作",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/08/content_29352.html",
-          "date": "2026-11-08",
-          "keyword": "党的二十"
-        },
-        {
-          "id": "bd070ae8c4559a",
-          "source": "广东发布",
-          "title": "中共中央发出通知 部署党的二十一大代表选举工作",
-          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4976418.html",
-          "date": "2026-11-08",
-          "keyword": "党的二十"
-        },
-        {
-          "id": "12a3f3f26b667e",
-          "source": "人民日报",
-          "title": "以更优服务解决群众急难愁盼（贯彻五中全会精神一线见闻）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/08/content_30189993.html",
-          "date": "2026-11-08",
-          "keyword": "全会精神"
-        },
-        {
-          "id": "3b801fb22b6362",
-          "source": "求是",
-          "title": "以责任到位推动全会精神贯彻落实到位",
-          "url": "https://www.qstheory.cn/20261108/533e21977f4347719708e17a876a9cd4/c.html",
-          "date": "2026-11-08",
-          "keyword": "全会精神"
-        },
-        {
-          "id": "0b7b6996d3dccc",
-          "source": "人民日报",
-          "title": "第七届世界媒体峰会在北京举办",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/08/content_30189999.html",
-          "date": "2026-11-08",
-          "keyword": "世界媒体峰会"
-        },
-        {
-          "id": "5683c8e2c4c4a3",
-          "source": "光明日报",
-          "title": "第七届世界媒体峰会在北京举办",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/08/content_29367.html",
-          "date": "2026-11-08",
-          "keyword": "世界媒体峰会"
-        },
-        {
-          "id": "846fbf04aaccdb",
+          "id": "91a9a6fcb2ac16",
           "source": "新华社",
-          "title": "世界媒体峰会为完善全球传播治理汇聚力量",
-          "url": "https://www.news.cn/world/20261108/5d1a62087498411ebad452d84da0fadb/c.html",
+          "title": "波兰媒体协会主席：中国发展彰显政策与经济协同效应",
+          "url": "https://www.news.cn/world/20261108/173380cb7c474387acc8840d58dd8036/c.html",
           "date": "2026-11-08",
-          "keyword": "世界媒体峰会"
+          "keyword": "经济"
+        },
+        {
+          "id": "85051932d585ed",
+          "source": "求是",
+          "title": "《“人工智能+媒体”全球发展年度蓝皮书（2026）》智库报告发布",
+          "url": "https://www.qstheory.cn/20261108/75cb514ebdaa44ed9100fc15105d717a/c.html",
+          "date": "2026-11-08",
+          "keyword": "人工智能"
         },
         {
           "id": "c851fcea7f4f7f",
@@ -203892,6 +203820,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "12a3f3f26b667e",
+          "source": "人民日报",
+          "title": "以更优服务解决群众急难愁盼（贯彻五中全会精神一线见闻）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/08/content_30189993.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a41bf6957dff0e",
           "source": "人民日报",
           "title": "传承“鼓岭情缘”，汇聚中美相向而行的力量（和音）",
@@ -203924,10 +203860,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "ac29fb52d4c593",
+          "id": "bf68678c19469e",
           "source": "人民日报",
-          "title": "坚守多边主义，推进普惠包容的经济全球化",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/08/content_30190006.html",
+          "title": "学习贯彻党的二十届五中全会精神中央宣讲团在山东、陕西、青海宣讲（学习贯彻党的二十届五中全会精神）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/08/content_30190013.html",
           "date": "2026-11-08",
           "keyword": "综合时政"
         },
@@ -203972,10 +203908,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "5afd032feb1fec",
+          "id": "0b7b6996d3dccc",
           "source": "人民日报",
-          "title": "第十四届中欧论坛聚焦对话与人工智能合作",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/08/content_30190009.html",
+          "title": "第七届世界媒体峰会在北京举办",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/08/content_30189999.html",
           "date": "2026-11-08",
           "keyword": "综合时政"
         },
@@ -204016,6 +203952,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "郑建邦出席非洲国家议员研讨班开班式",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202611/08/content_30190008.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c04c358a52660f",
+          "source": "人民日报",
+          "title": "部署党的二十一大代表选举工作",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/08/content_30189991.html",
           "date": "2026-11-08",
           "keyword": "综合时政"
         },
@@ -204148,6 +204092,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "72b2c55fd348d7",
+          "source": "光明日报",
+          "title": "学习贯彻党的二十届五中全会精神中央宣讲团在山东、陕西、青海宣讲",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/08/content_29368.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "c3c0f6084734a7",
           "source": "光明日报",
           "title": "我国最大规模LNG运输船项目（二期）三号船“绿能鲲”命名交付",
@@ -204180,6 +204132,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "5683c8e2c4c4a3",
+          "source": "光明日报",
+          "title": "第七届世界媒体峰会在北京举办",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/08/content_29367.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "45424922f4cfc9",
           "source": "光明日报",
           "title": "第十五届中国国际专利技术与产品交易会举办",
@@ -204204,6 +204164,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "c6bbd0d642425b",
+          "source": "光明日报",
+          "title": "部署党的二十一大代表选举工作",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/08/content_29352.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "b11a168dd9fc46",
           "source": "光明日报",
           "title": "重庆璧山：青年人才社区托起创业梦",
@@ -204212,10 +204180,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "5361e354d84c7c",
+          "id": "bd070ae8c4559a",
+          "source": "广东发布",
+          "title": "中共中央发出通知 部署党的二十一大代表选举工作",
+          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4976418.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4dc590f666ee17",
           "source": "新华社",
-          "title": "95岁生日，新华社收到全球媒体的祝福",
-          "url": "https://www.news.cn/world/20261108/e06b6f8b03914b83ae3923ba095737b4/c.html",
+          "title": "“中国雪乡”加紧筹备迎开园",
+          "url": "https://www.news.cn/photo/20261108/79ec6a85efc24113a0528f3bd572a5fc/c.html",
           "date": "2026-11-08",
           "keyword": "综合时政"
         },
@@ -204228,6 +204204,38 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "9bb3244928ab5a",
+          "source": "新华社",
+          "title": "一张布告 人民江山",
+          "url": "https://www.news.cn/politics/20261108/7e8acfa7788b4d4886d1016215889153/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "846fbf04aaccdb",
+          "source": "新华社",
+          "title": "世界媒体峰会为完善全球传播治理汇聚力量",
+          "url": "https://www.news.cn/world/20261108/5d1a62087498411ebad452d84da0fadb/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "700e6eb4d2fb62",
+          "source": "新华社",
+          "title": "中央组织部负责人就党的二十一大代表选举工作答新华社记者问",
+          "url": "https://www.news.cn/20261108/01ca558d64834f319d50b388ebfccb77/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d685ea26416e17",
+          "source": "新华社",
+          "title": "中超大结局：“领头羊”加冕还是“黑马”逆袭？",
+          "url": "https://www.news.cn/20261108/b74973cecc7b46d9a2570aa55f0984de/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "9d2a6124869ed4",
           "source": "新华社",
           "title": "也门胡塞武装称沙特空袭致死人数升至22人",
@@ -204236,10 +204244,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "b9d2e35eb3b2a8",
+          "id": "8cbdfbea75bd49",
           "source": "新华社",
-          "title": "也门胡塞武装称袭击沙特石油设施及军事目标",
-          "url": "https://www.news.cn/20261108/44a9a579675e45f7be87fd84651b9666/c.html",
+          "title": "什么样的照片能斩获中国新闻奖一等奖",
+          "url": "https://www.news.cn/politics/20261108/9fdd905af95b4dd492e7ed399c20c46c/c.html",
           "date": "2026-11-08",
           "keyword": "综合时政"
         },
@@ -204260,6 +204268,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "abfb4a02621320",
+          "source": "新华社",
+          "title": "伊朗：两艘“违规油轮”在霍尔木兹海峡触雷起火",
+          "url": "https://www.news.cn/20261108/6457dd48bf2e4b17a6942ce5cc768b32/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "df86107bb8272e",
           "source": "新华社",
           "title": "传递三重深意",
@@ -204268,10 +204284,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "d12590d9dd97e4",
+          "source": "新华社",
+          "title": "你我身边的“六张网”：渤海海面，信号在线",
+          "url": "https://www.news.cn/20261108/3426797e011345a3a7379f5a205be46b/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "9bf75d2062a92d",
           "source": "新华社",
           "title": "俄方批评乌“志愿联盟”举行演习恶化局势",
           "url": "https://www.news.cn/20261108/0dd6cb723cc84f9187b23d67b438908e/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "34c905c74e5429",
+          "source": "新华社",
+          "title": "做党和人民信赖的新闻工作者",
+          "url": "https://www.news.cn/politics/leaders/20261108/4a3803b03d334eb79ba26ba1c53c7d2d/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "78ffdd5c176701",
+          "source": "新华社",
+          "title": "历史首次，中国空间站将迎来首位外籍航天员",
+          "url": "https://www.news.cn/20261108/27651bfe87ad4ff5bad37fa72356c670/c.html",
           "date": "2026-11-08",
           "keyword": "综合时政"
         },
@@ -204292,6 +204332,46 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "0f399d549672b3",
+          "source": "新华社",
+          "title": "在进博会，寻找“不同”的答案",
+          "url": "https://www.news.cn/world/20261108/45ad5ec952ca4686be0d5439ef7ef189/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8bca862e09c41a",
+          "source": "新华社",
+          "title": "安徽池州：水墨丹青平天湖",
+          "url": "http://www.ah.news.cn/20261108/64275a449d0c40879136ced11ca7f31e/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "34d76eefa2e643",
+          "source": "新华社",
+          "title": "巴拉圭检方正式起诉前总统 新总统承诺保障民众权益",
+          "url": "https://www.news.cn/20261108/69c921503f574057a314f5885bc98d0e/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1eeb2c822aac5d",
+          "source": "新华社",
+          "title": "新华鲜报｜世界媒体峰会上，北京亮出AI“新名片”",
+          "url": "https://www.news.cn/20261108/e33f42786b744709964a5b59feee2a9c/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f5018b25c7de4d",
+          "source": "新华社",
+          "title": "日本静冈县地震已致20余人受伤",
+          "url": "https://www.news.cn/20261108/fbb4e91236584aa496d225445e1ca6b1/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "398c3cf959ff95",
           "source": "新华社",
           "title": "智利中部严重交通事故致12死15伤",
@@ -204300,10 +204380,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "68e3dee70508d8",
+          "source": "新华社",
+          "title": "权威数读·观中国【11月1日-11月7日】",
+          "url": "https://www.news.cn/20261108/83874784dfb54ebb8696d5a0d455e3a0/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "d6b2fc151a21b5",
           "source": "新华社",
           "title": "波兰克拉科夫枪击事件死亡人数升至6人",
           "url": "https://www.news.cn/20261108/200e99bd5ae84a80ad814efea7500fd7/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6873ab08447bcd",
+          "source": "新华社",
+          "title": "波兰总理称克拉科夫枪击事件为“恐袭” 全国哀悼",
+          "url": "https://www.news.cn/20261108/3be5a2298bd740cdae4d788120759e01/c.html",
           "date": "2026-11-08",
           "keyword": "综合时政"
         },
@@ -204332,6 +204428,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "8df0a96e0cad36",
+          "source": "新华社",
+          "title": "红色中华报：跨越95年的回响丨致敬“红色中华”",
+          "url": "https://www.news.cn/politics/20261108/891f341254dd4196bd90d97fc5af4e1d/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0432e1c1cecae3",
+          "source": "新华社",
+          "title": "美丽中国丨大江流冰奏冬曲",
+          "url": "https://www.news.cn/photo/20261108/aa2e7d5686ae46fe89e2476c7efd8c51/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
           "id": "415a2ca84b8025",
           "source": "新华社",
           "title": "美军称在阿曼湾打击一艘“试图违反封锁”的货船",
@@ -204340,10 +204452,138 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "f1338153f53820",
+          "id": "7e334a380a2a58",
+          "source": "新华社",
+          "title": "获奖作品目录",
+          "url": "https://www.news.cn/20261108/706d952f03ee4177ba336509289a236b/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0644c970942d82",
+          "source": "新华社",
+          "title": "解锁未来出行",
+          "url": "https://www.news.cn/20261108/e18cf7eb845b4853801f5a55df237618/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "63af1716348a00",
           "source": "新华社",
           "title": "话剧《永远的“四大队”》在京首演",
-          "url": "https://www.news.cn/photo/20261108/542eccdc65484ec892ea84a4251b742e/c.html",
+          "url": "https://www.news.cn/politics/20261108/1a8bb46356324dc3ab47cfe2217463fe/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d023886f7db42a",
+          "source": "新华社",
+          "title": "跟着金鸡游厦门：一份影迷的城市漫游指南",
+          "url": "http://fj.news.cn/20261108/8933db01aebd41a086935673e00bca98/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6c58c64e05edf4",
+          "source": "新华社",
+          "title": "香港故事丨一家香港“独角兽”的“进化论”",
+          "url": "https://www.news.cn/gangao/20261108/105ed2741416409f975dc6db19151d2b/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ef328b3c694bb1",
+          "source": "求是",
+          "title": "中央组织部负责人就党的二十一大代表选举工作答新华社记者问",
+          "url": "https://www.qstheory.cn/20261108/549ffd033890407f95978a2c56944d92/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "39595d81088fc3",
+          "source": "求是",
+          "title": "凝心聚力书写时代新气象——写在第27个记者节到来之际",
+          "url": "https://www.qstheory.cn/20261108/2d3fccc7ed5c47729dc225f13394b4fc/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3360d35ae19c3a",
+          "source": "求是",
+          "title": "前三季度 累计完工改造城镇老旧小区1.6万个",
+          "url": "https://www.qstheory.cn/20261108/02fc79f8b7fa4fefb0ad0f299b5c767b/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7e429cbfd67a85",
+          "source": "求是",
+          "title": "前三季度 超800万人次接受补贴性培训",
+          "url": "https://www.qstheory.cn/20261108/e26229fe04144f4585f62c2b29447a90/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5c9955830aedef",
+          "source": "求是",
+          "title": "国际主流媒体合作高端对话会在北京举行",
+          "url": "https://www.qstheory.cn/20261108/44e5c7826f724bbc92a50fc54083189f/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4b55228356044c",
+          "source": "求是",
+          "title": "学习贯彻党的二十届五中全会精神丨驰而不息正风肃纪",
+          "url": "https://www.qstheory.cn/20261108/68920f0e09ab44bb85328fc634169f09/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "42dfb0c375ae0b",
+          "source": "求是",
+          "title": "学习贯彻党的二十届五中全会精神中央宣讲团在山东宣讲",
+          "url": "https://www.qstheory.cn/20261108/a30080ad23444df98416563933915813/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3147a7589677ba",
+          "source": "求是",
+          "title": "学习贯彻党的二十届五中全会精神中央宣讲团在青海宣讲",
+          "url": "https://www.qstheory.cn/20261108/4872054735ed41838fe767404a8d12b7/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e0974f9448165d",
+          "source": "求是",
+          "title": "扭住管党治党责任制“牛鼻子”",
+          "url": "https://www.qstheory.cn/20261108/67dde8173e5e4115ba2d4a37dd490b35/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3b801fb22b6362",
+          "source": "求是",
+          "title": "求是网评论员：以责任到位推动全会精神贯彻落实到位",
+          "url": "https://www.qstheory.cn/20261108/533e21977f4347719708e17a876a9cd4/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4e7b686fca24b7",
+          "source": "求是",
+          "title": "第36届中国新闻奖、第19届长江韬奋奖评选结果揭晓",
+          "url": "https://www.qstheory.cn/20261108/96903d879ae541388e6384155f2e9fad/c.html",
+          "date": "2026-11-08",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1020c952be2aa4",
+          "source": "求是",
+          "title": "第七届世界媒体峰会在北京举办 李书磊出席开幕式并发表主旨演讲",
+          "url": "https://www.qstheory.cn/20261108/6e805dcc7fa7486ca6ba267554ecdd6e/c.html",
           "date": "2026-11-08",
           "keyword": "综合时政"
         }
@@ -204353,65 +204593,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.9,
+          "duration": 13.8,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261108.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 26,
-          "duration": 2.1
+          "duration": 1.9
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 18,
-          "duration": 1.8
+          "count": 39,
+          "duration": 2.5
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 29.2
+          "duration": 17.2
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 1,
-          "duration": 6.0
+          "count": 13,
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 27,
-          "duration": 1.6
+          "duration": 1.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.5
+          "duration": 14.9
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.9
+          "duration": 2.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 7.9
+          "duration": 9.9
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 65.3
+          "duration": 53.5
         }
       ]
     }
   ],
-  "generatedAt": "2026-11-08T09:13:49+08:00"
+  "generatedAt": "2026-11-08T11:51:03+08:00"
 };
