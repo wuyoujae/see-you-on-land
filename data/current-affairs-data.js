@@ -204835,7 +204835,92 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 64.2
         }
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 1
+        }
+      ],
+      "articles": [
+        {
+          "id": "12e03ac28afa5a",
+          "source": "新华社",
+          "title": "以总统正式授权埃森科特组建新政府",
+          "url": "https://www.news.cn/world/20261109/6d8967f1917b49108869b93708ef3f4c/c.html",
+          "date": "2026-11-09",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 15.1,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261109.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.9,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202611/09/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 1,
+          "duration": 3.5
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 24.5
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.0
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.6,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202611/09/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 14.2
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.9
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 10.0
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 68.1
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-11-08T19:00:07+08:00"
+  "generatedAt": "2026-11-09T00:58:06+08:00"
 };
