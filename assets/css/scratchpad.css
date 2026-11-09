@@ -13,6 +13,7 @@
 .scratchpad.is-panning .scratchpad-surface { cursor: grabbing; }
 .scratchpad[data-tool="eraser"] .scratchpad-surface { cursor: cell; }
 .scratchpad canvas { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.scratchpad-surface canvas:last-child { pointer-events: auto; touch-action: none; }
 .scratchpad-header { position: absolute; top: max(.85rem, env(safe-area-inset-top)); left: max(1rem, env(safe-area-inset-left)); right: max(1rem, env(safe-area-inset-right)); display: flex; align-items: flex-start; gap: .6rem; pointer-events: none; }
 .scratchpad-header > * { pointer-events: auto; }
 .scratchpad-document { position: relative; min-width: 0; }

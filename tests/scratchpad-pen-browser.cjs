@@ -39,7 +39,7 @@ const playwright = require(process.env.PLAYWRIGHT_MODULE || "playwright");
     }
     async function input(events, options = {}) {
       await page.evaluate(({events, options}) => {
-        const surface = document.querySelector(".scratchpad-surface"), original = surface.setPointerCapture;
+        const surface = document.querySelector(".scratchpad-surface canvas:last-child"), original = surface.setPointerCapture;
         surface.setPointerCapture = () => { if (options.failCapture) throw new DOMException("Pointer is no longer active", "NotFoundError"); };
         try {
           for (const item of events) {
@@ -60,6 +60,56 @@ const playwright = require(process.env.PLAYWRIGHT_MODULE || "playwright");
       catch (error) { failures.push(`${name}: ${error.message}`); console.error(`FAIL (${engine}): ${name}: ${error.message}`); }
     }
 
+    await check("light pen movement continues until the actual up event", async () => {
+      await input([{...down, buttons: 0, pressure: 0}, move(220), {...move(260), buttons: 0, pressure: 0},
+        {...move(300), buttons: 0, pressure: 0}, up(340),
+        {...move(400), buttons: 0, pressure: 0}]);
+      const draft = await snapshot();
+      assert.equal(draft.strokes.length, 1);
+      for (const x of [220, 260, 300, 340]) tail(draft, x);
+      assert.ok(!draft.strokes[0].points.some(p => p.x === 400));
+    });
+    await check("tablet engine without Array.at draws through pen-up", async () => {
+      await page.evaluate(() => { window.oldArrayAt = Array.prototype.at; delete Array.prototype.at; });
+      try { await input([down, move(240), move(280), up(330)]); }
+      finally { await page.evaluate(() => { Array.prototype.at = window.oldArrayAt; }); }
+      tail(await snapshot(), 330);
+    });
+    async function touch(type, x, id = 15, touchType = "stylus") {
+      return page.evaluate(({type, x, id, touchType}) => {
+        const target = document.querySelector(".scratchpad-surface canvas:last-child");
+        const sample = {identifier: id, target, touchType, clientX: x, clientY: 300, force: 0, radiusX: 2, radiusY: 2};
+        const e = new Event(type, {bubbles: true, cancelable: true});
+        Object.defineProperty(e, "changedTouches", {value: [sample]});
+        target.dispatchEvent(e);
+        return e.defaultPrevented;
+      }, {type, x, id, touchType});
+    }
+    await check("a touch-only stylus draws the complete path without pressure", async () => {
+      await touch("touchstart", 200);
+      for (const x of [230, 260, 300, 340]) await touch("touchmove", x);
+      await touch("touchend", 360);
+      const draft = await snapshot(); assert.equal(draft.strokes.length, 1);
+      for (const x of [230, 260, 300, 340, 360]) tail(draft, x);
+    });
+    await check("touch continuation retains one stroke when pointer delivery stops", async () => {
+      await input([down, move(215)]);
+      await page.waitForTimeout(180);
+      await touch("touchstart", 200);
+      await input([move(230)]); await touch("touchmove", 230);
+      await input([{type:"pointercancel", buttons:0, pressure:0}]);
+      await touch("touchmove", 270); await touch("touchmove", 310); await touch("touchend", 360);
+      const draft = await snapshot(); assert.equal(draft.strokes.length, 1);
+      for (const x of [230, 270, 310, 360]) tail(draft, x);
+    });
+    await check("touch-first delivery and an early pointer-up do not split the ink", async () => {
+      await touch("touchstart", 200, 18, "direct"); await input([down]);
+      await input([move(225)]); await touch("touchmove", 225, 18, "direct");
+      await input([up(225)]); await touch("touchmove", 275, 18, "direct");
+      await touch("touchend", 350, 18, "direct");
+      const draft = await snapshot(); assert.equal(draft.strokes.length, 1);
+      for (const x of [225, 275, 350]) tail(draft, x);
+    });
     await check("capture loss cannot cut off a still-contacting pen", async () => {
       await input([down, move(240), {type: "lostpointercapture"}, move(320), up(360)]);
       const draft = await snapshot(); tail(draft, 360); assert.equal(draft.strokes.length, 1);
@@ -159,12 +209,34 @@ const playwright = require(process.env.PLAYWRIGHT_MODULE || "playwright");
       await input([{...move(320), clientY: 400}, {...up(360), clientY: 400}]);
       const draft = await snapshot(); assert.equal(draft.strokes.length, 2); tail(draft, 360);
     });
+    if (engine === "chromium") await check("tablet touch delivery draws one complete stroke with a late palm", async () => {
+      const session = await context.newCDPSession(page);
+      const send = (type, touchPoints) => session.send("Input.dispatchTouchEvent", {type, touchPoints});
+      const tip = x => ({x, y: 300, id: 1, radiusX: 2, radiusY: 2, force: .4});
+      const palm = {x: 620, y: 400, id: 2, radiusX: 6, radiusY: 6, force: .4};
+      try {
+        await session.send("Emulation.setTouchEmulationEnabled", {enabled: true, maxTouchPoints: 5});
+        await send("touchStart", [tip(200)]);
+        for (const x of [230, 260, 290]) await send("touchMove", [tip(x)]);
+        await page.waitForTimeout(200);
+        await send("touchStart", [tip(290), palm]);
+        for (const x of [320, 350, 380]) await send("touchMove", [tip(x), palm]);
+        await send("touchEnd", []);
+        const draft = await snapshot();
+        assert.equal(draft.strokes.length, 1);
+        for (const x of [230, 260, 290, 320, 350, 380]) tail(draft, x);
+        assert.deepEqual(draft.viewport, {x: 0, y: 0, scale: 1});
+      } finally {
+        await session.send("Emulation.setTouchEmulationEnabled", {enabled: false});
+        await session.detach();
+      }
+    });
     if (engine === "chromium") await check("trusted browser pen events retain capture, pressure and the complete stroke", async () => {
       const session = await context.newCDPSession(page);
       await page.evaluate(() => {
         window.penEvents = [];
         document.querySelector(".scratchpad-surface").addEventListener("pointermove", event => {
-          if (event.pointerType === "pen") window.penEvents.push({trusted: event.isTrusted, pressure: event.pressure, captured: event.currentTarget.hasPointerCapture(event.pointerId)});
+          if (event.pointerType === "pen") window.penEvents.push({trusted: event.isTrusted, pressure: event.pressure, captured: event.target.hasPointerCapture(event.pointerId)});
         });
       });
       try {
