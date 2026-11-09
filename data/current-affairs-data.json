@@ -206713,7 +206713,594 @@
           "duration": 71.0
         }
       ]
+    },
+    {
+      "date": "2026-11-10",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 2
+        },
+        {
+          "name": "科技",
+          "count": 2
+        },
+        {
+          "name": "经济",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "50b1e2859469ff",
+          "source": "人民日报",
+          "title": "2026文化科技产业发展论坛举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190472.html",
+          "date": "2026-11-10",
+          "keyword": "科技"
+        },
+        {
+          "id": "86dae2d27b4b80",
+          "source": "人民日报",
+          "title": "“为全球医药科技创新注入强劲动力”（见证·中国机遇）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190460.html",
+          "date": "2026-11-10",
+          "keyword": "科技"
+        },
+        {
+          "id": "97f91baf659a9e",
+          "source": "人民日报",
+          "title": "习近平致电祝贺约托娃当选保加利亚总统",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190446.html",
+          "date": "2026-11-10",
+          "keyword": "习近平"
+        },
+        {
+          "id": "ace75c2d15849e",
+          "source": "人民日报",
+          "title": "何立峰与加拿大财政部长商鹏飞、国际贸易部长西杜共同主持第二次中加经济财金战略对话",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190462.html",
+          "date": "2026-11-10",
+          "keyword": "经济"
+        },
+        {
+          "id": "f93085cb5aa18d",
+          "source": "光明日报",
+          "title": "习近平致电祝贺约托娃当选保加利亚总统",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29515.html",
+          "date": "2026-11-10",
+          "keyword": "习近平"
+        },
+        {
+          "id": "ab9537ef735031",
+          "source": "新华社",
+          "title": "何立峰与加拿大财政部长商鹏飞、国际贸易部长西杜共同主持第二次中加经济财金战略对话",
+          "url": "https://www.news.cn/politics/leaders/20261110/3b4003e4823543bda6c263a5f4442378/c.html",
+          "date": "2026-11-10",
+          "keyword": "经济"
+        },
+        {
+          "id": "9aa26929f5b85d",
+          "source": "人民日报",
+          "title": "“文明互鉴国际论坛2026”在澳门开幕",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190468.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6e8b357ccef1bd",
+          "source": "人民日报",
+          "title": "中国将始终是世界发展的重要机遇（进博会故事）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190447.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2e6f22d30dcefe",
+          "source": "人民日报",
+          "title": "以亚太合作为桥 共谱中加合作新篇（大使随笔·APEC中国年：开放 创新 合作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190459.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f171a383486ba8",
+          "source": "人民日报",
+          "title": "全军学习贯彻党的二十届五中全会精神宣讲首场报告会举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190467.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9dcd68398539b4",
+          "source": "人民日报",
+          "title": "公布《中医药传统知识保护条例》",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190448.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "91697e16e26f2a",
+          "source": "人民日报",
+          "title": "共话城市发展 凝聚国际共识",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190463.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d64d1da84e2082",
+          "source": "人民日报",
+          "title": "前9月全社会用电量同比增长3.9%",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190451.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "61b8f970fceecb",
+          "source": "人民日报",
+          "title": "古巴党和政府特使、古共中央政治局委员、外交部长罗德里格斯将访华",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190464.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "19c9392fb7c6cf",
+          "source": "人民日报",
+          "title": "在双向奔赴中共赢未来（编辑手记）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190457.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d2d71d85718382",
+          "source": "人民日报",
+          "title": "埃及椰枣的“中国机遇”（进博会故事）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190458.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e2b715f279dcd0",
+          "source": "人民日报",
+          "title": "学习贯彻党的二十届五中全会精神中央宣讲团在军委机关、中央政法委、广东、甘肃宣讲（学习贯彻党的二十届五中全会精神）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190466.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dd6b3e27dfd2bb",
+          "source": "人民日报",
+          "title": "建设更高水平平安中国是中国式现代化的重要目标和重要保障（总书记的人民情怀）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190445.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9da225b1dd2d1f",
+          "source": "人民日报",
+          "title": "斯洛伐克外交部长布拉纳尔将访华",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190465.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a054e194036d4a",
+          "source": "人民日报",
+          "title": "消费者加油有何新变化（信息服务台）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190455.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "663eebfe12b52b",
+          "source": "人民日报",
+          "title": "电视文献片《孙中山》开播",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190469.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "63a3d7cddec5ea",
+          "source": "人民日报",
+          "title": "盐碱地上建起“飞地粮仓”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190454.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9f090700470ade",
+          "source": "人民日报",
+          "title": "走出一条中国特色公益司法保护之路",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190449.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "daceafb15c9d21",
+          "source": "人民日报",
+          "title": "长征故事蕴含的制胜之道",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190453.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e6ec18525aef68",
+          "source": "人民日报",
+          "title": "首届中非公共卫生论坛举办",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/10/content_30190471.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0f7152a92b3c70",
+          "source": "光明日报",
+          "title": "“文明互鉴国际论坛2026”在澳门开幕",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29533.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d00f8faeba8a01",
+          "source": "光明日报",
+          "title": "【光明时评】把握好数据市场“管”与“运”的关系",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29503.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ba3aeef9b84a8b",
+          "source": "光明日报",
+          "title": "【光明论坛】把长远之策根本之策落到实处",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29502.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6f654ab412bc1b",
+          "source": "光明日报",
+          "title": "【大美中国】瑰丽巴山",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29520.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5f418e049e28ee",
+          "source": "光明日报",
+          "title": "【改进文风大家谈】什么样的副刊才是好副刊",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29519.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e5a7b0f58932b7",
+          "source": "光明日报",
+          "title": "【文化评析】乡音各有来处，却不止于乡缘",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29504.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "19331fe104cf66",
+          "source": "光明日报",
+          "title": "三部门合力推进农业品牌保护专项行动",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29535.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f86a893cdde420",
+          "source": "光明日报",
+          "title": "偏远山村有了“养老社区”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29510.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d18f3c02fecdad",
+          "source": "光明日报",
+          "title": "党建领航育新人 矢志笃行担使命",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29511.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c670af4d4f6840",
+          "source": "光明日报",
+          "title": "全军学习贯彻党的二十届五中全会精神宣讲首场报告会举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29532.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7794413bf855f7",
+          "source": "光明日报",
+          "title": "全总为爱心托育用人单位提供资金补助",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29508.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0e7f9207a23255",
+          "source": "光明日报",
+          "title": "前三季度新型电网相关投资加速释放",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29507.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6f046187c41e4f",
+          "source": "光明日报",
+          "title": "四川宣汉：把实事办到群众心坎上",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29536.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aa52bae60d98d6",
+          "source": "光明日报",
+          "title": "学习贯彻党的二十届五中全会精神中央宣讲团在军委机关、中央政法委、广东、甘肃宣讲",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29531.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2fde1574edc09e",
+          "source": "光明日报",
+          "title": "山地梯田保墒覆膜忙",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29538.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "efde48c408289f",
+          "source": "光明日报",
+          "title": "建设上下贯通、执行有力的严密组织体系",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29516.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1a73dd383c78a9",
+          "source": "光明日报",
+          "title": "搞科研要有为民情怀",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29518.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cb7183e13f78f8",
+          "source": "光明日报",
+          "title": "新征程上，他们用实干守护平安",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29506.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b34ed5fb249b25",
+          "source": "光明日报",
+          "title": "昔日惧风，今日驭风",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29514.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "19d1c3b43117d7",
+          "source": "光明日报",
+          "title": "李强签署国务院令公布《中医药传统知识保护条例》",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29530.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "32439d329f9df0",
+          "source": "光明日报",
+          "title": "河南三门峡：“微治理”扎根一线暖人心",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29537.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "82ce5263af3156",
+          "source": "光明日报",
+          "title": "用好中华优秀传统文化",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29517.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cf6e9dc3e656cc",
+          "source": "光明日报",
+          "title": "电视文献片《孙中山》开播",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29534.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b04720502d218f",
+          "source": "光明日报",
+          "title": "筑牢坚强战斗堡垒 奋力书写强农兴农答卷",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/10/content_29505.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aeb251cd8dfe43",
+          "source": "新华社",
+          "title": "乌克兰谈判代表团抵达阿布扎比参加俄美乌三方会谈",
+          "url": "https://www.news.cn/20261110/87a15eb4222b436d9abedfb7e7e964c9/c.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ed0682085ac768",
+          "source": "新华社",
+          "title": "乌总统办主任：乌方比任何一方都更愿意尽快结束冲突",
+          "url": "https://www.news.cn/20261110/b7d4a21384cb4d34a45b323005084102/c.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "49f719f054c3f5",
+          "source": "新华社",
+          "title": "俄副外长重申俄无意进攻欧洲国家",
+          "url": "https://www.news.cn/20261110/995e6ade9638480492edbddd43421bcf/c.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ac3de3b3fd7dd5",
+          "source": "新华社",
+          "title": "俄媒：扎波罗热核电站一员工遭乌克兰无人机袭击身亡",
+          "url": "https://www.news.cn/20261110/85899e15d0b74587b290895cadd51747/c.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "449113a26c75e4",
+          "source": "新华社",
+          "title": "俄媒：扎波罗热核电站一员工遭乌无人机袭击身亡",
+          "url": "https://www.news.cn/world/20261110/37293907e70e4589a33969e20281cbff/c.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "abe11428b3490e",
+          "source": "新华社",
+          "title": "俄常驻联合国代表称不接受“冻结”乌克兰冲突",
+          "url": "https://www.news.cn/20261110/0e752882507a488797e63f92fcc76889/c.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dd745755963003",
+          "source": "新华社",
+          "title": "国际油价9日显著下跌",
+          "url": "https://www.news.cn/20261110/c06e1285e7ac4a6b9fd3b7f2dc871722/c.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2fe24cedf7cea4",
+          "source": "新华社",
+          "title": "国际油价显著下跌",
+          "url": "https://www.news.cn/fortune/20261110/c54427996d7d47cfaef986522fba8d6d/c.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "886950a2e9a357",
+          "source": "新华社",
+          "title": "土耳其西部钢铁厂爆炸遇难人数升至16人",
+          "url": "https://www.news.cn/20261110/d1a8a29f274e4673ac8dcb71c06db170/c.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d33cb8e0d9353d",
+          "source": "新华社",
+          "title": "坦桑尼亚一客车与卡车相撞致21人死亡",
+          "url": "https://www.news.cn/20261110/5582348ef7a94f43aa18b050d99fd7b2/c.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4845a7029b5ec6",
+          "source": "新华社",
+          "title": "塞内加尔北部沉船事故死亡人数升至39人",
+          "url": "https://www.news.cn/20261110/783b469e791e4762b29088c6dd2bcb9a/c.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "05c450b7171547",
+          "source": "新华社",
+          "title": "法外长称伊朗对法国超市制冷系统遭网攻“负有责任”",
+          "url": "https://www.news.cn/20261110/6d00bc5ff0834db59fac5266b06440c9/c.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9e8e7665560711",
+          "source": "新华社",
+          "title": "特朗普淡化再袭伊朗可能",
+          "url": "https://www.news.cn/fortune/20261110/cfb08cdbabc84f6c961fed56facd15b3/c.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1e099fa5018e86",
+          "source": "新华社",
+          "title": "纽约股市三大股指9日显著上涨",
+          "url": "https://www.news.cn/20261110/c1afb0b6a60d402392fc62bea56e2ae2/c.html",
+          "date": "2026-11-10",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 16.9,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261110.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "ok",
+          "count": 23,
+          "duration": 2.1
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 15,
+          "duration": 3.4
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 10.9
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.1
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 25,
+          "duration": 2.0
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 14.0
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.2
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.3
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 69.0
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-11-09T21:33:45+08:00"
+  "generatedAt": "2026-11-10T07:16:42+08:00"
 }
