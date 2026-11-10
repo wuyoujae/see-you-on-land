@@ -208695,7 +208695,283 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 69.0
         }
       ]
+    },
+    {
+      "date": "2026-11-11",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "56dcaba8fb5ef2",
+          "source": "光明日报",
+          "title": "习近平同志《论减贫脱贫》主要篇目介绍",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29950.html",
+          "date": "2026-11-11",
+          "keyword": "习近平"
+        },
+        {
+          "id": "d51cc88ef95ee2",
+          "source": "光明日报",
+          "title": "习近平同志《论减贫脱贫》出版发行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29934.html",
+          "date": "2026-11-11",
+          "keyword": "习近平"
+        },
+        {
+          "id": "250a43995aa70c",
+          "source": "光明日报",
+          "title": "“把学习全会精神成果转化成发展实招”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29938.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b5f7b79916a038",
+          "source": "光明日报",
+          "title": "“理润西安”把道理讲进群众心里",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29967.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d7831303f01b11",
+          "source": "光明日报",
+          "title": "“让青春之花在祖国最需要的地方绽放”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29939.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aeea811b2148ea",
+          "source": "光明日报",
+          "title": "《数智化在西藏：共享与发展》在京首发",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29964.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "466e3594da35f8",
+          "source": "光明日报",
+          "title": "【大美中国】初冬美景",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29936.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fb6446a783a80f",
+          "source": "光明日报",
+          "title": "【我是这样做学问的】求真求善 家国情怀",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29940.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "81bf089d9c2cf2",
+          "source": "光明日报",
+          "title": "【民生总关情】“我家门前那座桥”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29937.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "38aa8108c03e0a",
+          "source": "光明日报",
+          "title": "司法部、民政部负责人就《基金会管理条例》修订答记者问",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29958.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6066133232c4a6",
+          "source": "光明日报",
+          "title": "学习贯彻党的二十届五中全会精神中央宣讲团在全国人大机关、国务院办公厅机关、全国政协机关、广西、四川、宁夏宣讲",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29957.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c6d0b5683d513c",
+          "source": "光明日报",
+          "title": "巴西里约侨界纪念孙中山先生诞辰160周年",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29963.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d17e98f9a44a4e",
+          "source": "光明日报",
+          "title": "推进城乡公交一体化",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29966.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1c01b4a14d5505",
+          "source": "光明日报",
+          "title": "支持实体书店服务全民阅读",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29961.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "08a21590fe9ba7",
+          "source": "光明日报",
+          "title": "李强签署国务院令公布修订后的《基金会管理条例》",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29954.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "934074b179d3be",
+          "source": "光明日报",
+          "title": "王沪宁会见老挝建国阵线中央委员会副主席布沙迪",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29956.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3135a852577f94",
+          "source": "光明日报",
+          "title": "甘肃金昌金川区：小积分攒起乡村新风尚",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29962.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "966186ccdd6b2f",
+          "source": "光明日报",
+          "title": "聚焦“七个有力”建设标准 构建基层党建创新范式",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29968.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fab69e8544148f",
+          "source": "光明日报",
+          "title": "茶山冬管 提质增效",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29959.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4b0c9a071b67fe",
+          "source": "光明日报",
+          "title": "赵乐际会见哥伦比亚多党干部考察团",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29955.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "98280cea7d836c",
+          "source": "光明日报",
+          "title": "青年人才缘何“扎堆”三峡库区",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29960.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "43f50c93724c5c",
+          "source": "光明日报",
+          "title": "驰而不息正风肃纪",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/11/content_29935.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5688e98ec62bd4",
+          "source": "新华社",
+          "title": "7位科学家获颁2026年度邵逸夫奖",
+          "url": "https://www.news.cn/gangao/20261111/fcc9897eb7014f1f91e69ea5e7cbdf82/c.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9e2923b9ed0cd3",
+          "source": "新华社",
+          "title": "美防长称对其弹劾是一场打击特朗普的“政治作秀”",
+          "url": "https://www.news.cn/world/20261111/45adf2e489184e15b66da031ab99cf3d/c.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0427218c49eb9b",
+          "source": "新华社",
+          "title": "阿布扎比三方会谈近4小时 俄乌互袭继续",
+          "url": "https://www.news.cn/world/20261111/cb4a9897b477448991d02d5037f8bf7f/c.html",
+          "date": "2026-11-11",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 9.0,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261111.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.4,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202611/11/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 3,
+          "duration": 2.6
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.2
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.1
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 22,
+          "duration": 1.8
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 11.8
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.0
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.8
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 26.7
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-11-10T22:07:31+08:00"
+  "generatedAt": "2026-11-11T05:09:27+08:00"
 };
