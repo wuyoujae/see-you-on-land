@@ -210621,7 +210621,259 @@
           "duration": 55.8
         }
       ]
+    },
+    {
+      "date": "2026-11-12",
+      "keyword": "领导人会议",
+      "keywords": [
+        {
+          "name": "领导人会议",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "2a38b26fb1ca85",
+          "source": "光明日报",
+          "title": "2026年APEC领导人会议周新闻中心启用",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30072.html",
+          "date": "2026-11-12",
+          "keyword": "领导人会议"
+        },
+        {
+          "id": "2b12be9e4f2e87",
+          "source": "光明日报",
+          "title": "李强将访问泰国并赴菲律宾出席中国—东盟领导人会议",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30078.html",
+          "date": "2026-11-12",
+          "keyword": "领导人会议"
+        },
+        {
+          "id": "8b4c7321e61486",
+          "source": "光明日报",
+          "title": "“AI+数智”助力传统制造业实现“突围”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30077.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "994d2da729d683",
+          "source": "光明日报",
+          "title": "“读懂APEC”系列丛书在广州首发",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30073.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a79d73ad80087e",
+          "source": "光明日报",
+          "title": "【光明时评】推动古树名木保护提质增效",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30056.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2aa009725b8aef",
+          "source": "光明日报",
+          "title": "【光明论坛】坚持制度治党、依规治党",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30052.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d807de0c76ff67",
+          "source": "光明日报",
+          "title": "【大美中国】峡谷入画来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30066.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b8707dc03e9313",
+          "source": "光明日报",
+          "title": "【我在现场】“边角地”派上了大用场",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30067.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d8b61bdd5da923",
+          "source": "光明日报",
+          "title": "【改进文风大家谈】让副刊直抵读者的心灵",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30068.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c299919291b116",
+          "source": "光明日报",
+          "title": "【文化评析】让文化遗产获得“数字生命”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30053.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c3d9d241b08cea",
+          "source": "光明日报",
+          "title": "【文艺经典的光明印迹】郑振铎这腔文化赤诚，光明日报为证！",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30064.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c78e726563eeeb",
+          "source": "光明日报",
+          "title": "【晒晒咱家的镇馆之宝69】《江汉揽胜图》：长江经济带的古老切片",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30069.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "573c6824d10df5",
+          "source": "光明日报",
+          "title": "一体推进不敢腐不能腐不想腐",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30065.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "98d192748ae121",
+          "source": "光明日报",
+          "title": "云南保山打造“中国精品咖啡聚集地”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30076.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "06910af4ce321d",
+          "source": "光明日报",
+          "title": "从“试验田”迈向“高产田”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30075.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "feb47991b7d72a",
+          "source": "光明日报",
+          "title": "学习贯彻党的二十届五中全会精神中央宣讲团在北京、中央统战部、中宣部、河北、辽宁、吉林、黑龙江、浙江、安徽、福建、湖南、贵州、西藏宣讲",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30080.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7d44188a971928",
+          "source": "光明日报",
+          "title": "扎实推进城乡共同富裕之路",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30054.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "96b99980e78ab4",
+          "source": "光明日报",
+          "title": "持之以恒推进全面从严治党，确保党始终成为中国特色社会主义事业的坚强领导核心",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30081.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5d5d389dbcdf5d",
+          "source": "光明日报",
+          "title": "王沪宁会见古巴党和政府特使、古共中央政治局委员、外交部长罗德里格斯",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30079.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5d745aa7bdd03a",
+          "source": "光明日报",
+          "title": "绿色算力是新质生产力的强劲动能",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/12/content_30055.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "84ec2028f6ed60",
+          "source": "新华社",
+          "title": "一批侵华日军细菌战化学战新罪证集中发布",
+          "url": "https://www.news.cn/politics/20261112/f4169e6541064816af8950aaf07d91a6/c.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a4263392cd8758",
+          "source": "新华社",
+          "title": "俄美乌会谈达成换俘协议 仍存重大分歧",
+          "url": "https://www.news.cn/world/20261112/e9ed7534696e442a84cc3634c7161414/c.html",
+          "date": "2026-11-12",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 10.2,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261112.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.0,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202611/12/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 2,
+          "duration": 3.2
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 11.8
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.6
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 20,
+          "duration": 1.7
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 15.1
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 3.1
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.0
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 77.1
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-11-11T20:22:02+08:00"
+  "generatedAt": "2026-11-12T03:59:19+08:00"
 }
