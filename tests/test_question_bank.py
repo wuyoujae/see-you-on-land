@@ -28,7 +28,7 @@ class NationalQuestionBankTests(unittest.TestCase):
             expected[f'national-{year}-municipal'] = 130
             if year >= 2022:
                 expected[f'national-{year}-law-enforcement'] = 130
-        self.assertEqual(set(PAPERS), set(expected))
+        self.assertEqual({key for key in PAPERS if key.startswith('national-')}, set(expected))
         self.assertEqual(sum(expected.values()), 3965)
         for key, count in expected.items():
             self.assertEqual(len(PAPERS[key]['questionIds']), count, key)
@@ -44,13 +44,17 @@ class NationalQuestionBankTests(unittest.TestCase):
             self.assertTrue(all(question['subjectId'] == meta['id'] for question in values))
         self.assertEqual(MANIFEST['totals']['paperCount'], len(PAPERS))
         self.assertEqual(MANIFEST['totals']['questionCount'], len(QUESTIONS))
-        self.assertEqual(MANIFEST['totals']['paperQuestionCount'], 3965)
+        self.assertEqual(MANIFEST['totals']['paperQuestionCount'], sum(len(p['questionIds']) for p in PAPERS.values()))
+        self.assertEqual(sum(len(p['questionIds']) for key,p in PAPERS.items() if key.startswith('national-')), 3965)
 
     def test_every_question_has_four_options_a_gradable_reference_and_provenance(self):
         for question in QUESTIONS.values():
             with self.subTest(question=question['id']):
                 self.assertTrue(question['stem'].strip())
-                self.assertEqual([option['value'] for option in question['options']], ['A','B','C','D'])
+                self.assertEqual([option['value'] for option in question['options']], ['A','B'] if question.get('questionFormat')=='judgement' else ['A','B','C','D'])
+                if question.get('questionFormat')=='judgement':
+                    self.assertEqual([option['label'] for option in question['options']], ['正确','错误'])
+                    self.assertTrue(question['id'].startswith('guangdong-'))
                 answer = question['answer'] if isinstance(question['answer'], list) else [question['answer']]
                 self.assertTrue(answer)
                 self.assertTrue(all(value in 'ABCD' and len(value) == 1 for value in answer))

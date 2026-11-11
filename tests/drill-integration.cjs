@@ -458,3 +458,31 @@ test("submission hides skip and a stale skip click cannot change a submitted ans
   await h.action("next"); assert.equal(h.root.querySelector('[data-drill-action="skip"]').hidden, false);
   await h.action("previous"); assert.equal(h.root.querySelector('[data-drill-action="skip"]').hidden, true);
 });
+
+test("module practice narrows actual IDs by exam, persists its module and safely handles an empty intersection", async t => {
+  const rows = [
+    {...questions[0],id:"gd-causal",subjectId:"reasoning",topicId:"reasoning-causal",paperRefs:[{paperId:"guangdong-2026-unified",examId:"guangdong"}]},
+    {...questions[0],id:"gd-truth",subjectId:"reasoning",topicId:"reasoning-truth",paperRefs:[{paperId:"guangdong-2026-unified",examId:"guangdong"}]},
+    {...questions[0],id:"national-causal",subjectId:"reasoning",topicId:"reasoning-causal",paperRefs:[{paperId:"national-2026-municipal",examId:"national"}]}
+  ];
+  const papers = [{id:"guangdong-2026-unified",examId:"guangdong",title:"广东2026",year:2026,questionCount:2,subjectCounts:{reasoning:2}},
+    {id:"national-2026-municipal",examId:"national",title:"国考2026",year:2026,questionCount:1,subjectCounts:{reasoning:1}}];
+  const meta = {version:1,exams:[{id:"national",title:"国考"},{id:"guangdong",title:"广东省考"}],subjects:[{id:"reasoning",path:"data/question-bank/subjects/reasoning.json",questionCount:3,questionIds:rows.map(q=>q.id),modules:[{id:"reasoning-causal",title:"归因论证",courseGroupId:"reasoning-causal"},{id:"reasoning-truth",title:"真假推理",courseGroupId:"reasoning-truth"}]}],papers,totals:{questionCount:3,paperCount:2}};
+  const resources = {"data/question-bank/manifest.json":meta,"data/question-bank/subjects/reasoning.json":{questions:rows}};
+  const h = harness(t,{hash:"#/study/reasoning?exam=guangdong&topic=reasoning-causal",resources}); await h.settle();
+  assert.equal(h.root.querySelector("#drill-count").max,"1");
+  assert.equal(h.root.querySelector("#drill-topic").value,"reasoning-causal");
+  assert.equal(h.root.querySelector("#drill-module-lesson").href,"#/learn/reasoning/reasoning-causal");
+  await h.start(1); h.flush();
+  const session=Object.values(h.progress().sessions).find(s=>s.id!=="session-test");
+  assert.deepEqual(session.questionIds,["gd-causal"]); assert.equal(session.topicId,"reasoning-causal");
+  assert.match(h.text(),/归因论证/); assert.doesNotMatch(h.text(),/SOURCE_Q1/);
+  const restored=harness(t,{hash:h.location.hash,session,resources}); await restored.settle();
+  assert.match(restored.text(),/归因论证/); assert.match(restored.root.querySelector("#drill-question").innerHTML,/gd-causal/);
+  await h.navigate("#/study/reasoning?exam=guangdong&topic=reasoning-truth");
+  const field=h.root.querySelector("#drill-exam"); field.value="national"; h.root.dispatchEvent({type:"change",target:field}); await h.settle();
+  assert.equal(h.root.querySelector("#drill-topic").value,"reasoning-truth","do not silently change the module");
+  assert.equal(h.root.querySelector("#drill-count").max,"0"); assert.equal(h.root.querySelector(".drill-start").disabled,true);
+  assert.match(h.root.querySelector(".drill-notice").textContent,/没有题目/);
+  await h.start(1); h.flush(); assert.equal(Object.keys(h.progress().sessions).length,2,"empty filter cannot start a session");
+});

@@ -20,6 +20,12 @@
 .drill-subject-progress>span { display:block; height:100%; border-radius:inherit; background:#6ba646; }
 .drill-year-filter { display:flex; align-items:center; justify-content:flex-end; gap:.6rem; color:var(--muted); font-size:.75rem; padding:.3rem 0 1rem; }
 .drill-year-filter select { min-width:8rem; }
+.drill-paper-filters { display:flex; justify-content:flex-end; gap:1rem; flex-wrap:wrap; }
+.drill-module-lesson { display:flex; align-items:center; gap:.25rem; justify-self:start; color:var(--accent); font-size:.75rem; text-decoration:none; transition:color .15s ease,transform .15s ease; }
+.drill-module-lesson svg { width:.9rem; height:.9rem; }
+.drill-module-lesson:hover { color:var(--learn-dark); transform:translateX(.125rem); }
+.drill-coverage-note { margin:1rem 0 0; color:var(--muted-strong); font-size:.75rem; line-height:1.7; }
+#drill-topic-label[hidden],.drill-module-lesson[hidden] { display:none!important; }
 .drill-paper { display:flex; gap:1.2rem; align-items:center; border-bottom:0.0625rem solid var(--line); padding:1rem .2rem; text-decoration:none; color:var(--ink); }
 .drill-paper:hover { background:#f3f7ed; }
 .drill-paper-year { font-size:1.1rem; color:var(--accent); font-weight:500; padding-right:.2rem; }

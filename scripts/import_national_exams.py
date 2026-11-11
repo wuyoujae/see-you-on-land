@@ -134,11 +134,11 @@ def variant_of(title):
     if '地市' in title:return 'municipal','地市级'
     return 'unified','统一卷'
 
-def parse_md(md:Path,subject_id:str):
+def parse_md(md:Path,subject_id:str,*,exam_id='national',allow_judgement=False):
     text=md.read_text(encoding='utf-8-sig')
     year=int(re.search(r'(20\d{2})年',md.name).group(1))
     slug,variant=variant_of(md.stem)
-    paper_id=f'national-{year}-{slug}'
+    paper_id=f'{exam_id}-{year}-{slug}'
     label='网友回忆版' if '网友回忆' in md.stem else '公开整理版（未核实为官方发布）'
     headers=list(re.finditer(r'(?m)^(#{2,3})\s+(材料\s*\d+|第\s*\d+\s*题[^\n]*)\n',text))
     material=None;material_remaining=0;output=[];issues=[]
@@ -161,6 +161,17 @@ def parse_md(md:Path,subject_id:str):
         qid=qid.group(1)
         am=re.search(r'(?m)^\*\*答案\*\*[：:]\s*([^\n]+)',body)
         if not am:issues.append({'file':str(md),'number':number,'qid':qid,'issue':'missing_answer'});continue
+        # Guangdong's judgement items have an explicit empty option list in
+        # the source. Only reconstruct A/B when the source solution verifies
+        # that the item is a judgement and agrees with its original answer.
+        judgement=False
+        if allow_judgement and '- （选项）[]' in body[:am.start()]:
+            answer_letter=am.group(1).strip()
+            conclusion=re.findall(r'故表述(正确|错误)',body[am.end():])
+            if conclusion and answer_letter==('A' if conclusion[-1]=='正确' else 'B'):
+                body=body.replace('- （选项）[]','- **A**. 正确\n- **B**. 错误',1)
+                am=re.search(r'(?m)^\*\*答案\*\*[：:]\s*([^\n]+)',body)
+                judgement=True
         opt_matches=list(re.finditer(r'(?m)^-\s*\*\*([A-H])\*\*[.．、]\s*(.*)$',body[:am.start()]))
         if not opt_matches:issues.append({'file':str(md),'number':number,'qid':qid,'issue':'missing_options'});continue
         stem_raw=body[:opt_matches[0].start()].strip()
@@ -189,10 +200,15 @@ def parse_md(md:Path,subject_id:str):
         else:
             ref.update(sourceModuleId=subject_id,sourceModuleNumber=number)
             source['classificationNote']='独立数学运算题；上游误置于资料分析，未附加该模块前面的无关材料。'
-        question={'id':'national-qid-'+qid,'subjectId':final_subject,'type':'single' if len(answer)==1 else 'multiple',
+        question={'id':exam_id+'-qid-'+qid,'subjectId':final_subject,'type':'single' if len(answer)==1 else 'multiple',
             'stem':plain(stem_blocks) or '请根据原题图示作答。','stemBlocks':stem_blocks,'options':opts,'answer':answer if len(answer)==1 else list(answer),
             'sourceAnswer':{'answer':answer if len(answer)==1 else list(answer),'explanationBlocks':explanation,'provider':PROVIDER,'url':source_url(md)},
             'source':source,'paperRefs':[ref]}
+        if judgement:
+            question['questionFormat']='judgement'
+            question['source']['optionNote']='原来源以空选项记录判断题；根据题型与来源解析核对 A=正确、B=错误。'
+        category=re.search(r'qid\s*\d+\s*·\s*([^<]+)',m.group(2))
+        if category:question['source']['category']=html.unescape(category.group(1)).strip()
         if material and final_subject==subject_id:question.update(materialId=material['id'],materialBlocks=material['blocks'])
         output.append(question)
     expected=re.search(r'(?m)^题数:\s*"?(\d+)',text)

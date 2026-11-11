@@ -64,9 +64,10 @@
     if (["#/study", "#/study/"].includes(hash)) return { page: "catalog" };
     const [path, query = ""] = hash.split("?"), session = /^#\/study\/session\/([a-zA-Z0-9_-]+)$/.exec(path);
     if (session) { const params = new URLSearchParams(query), raw = params.get("q"); return { page: "session", id: session[1], index: raw !== null && /^\d+$/.test(raw) ? Number(raw) : null, view: params.get("view") === "answer" || params.get("side") === "answer" ? "answer" : "question" }; }
-    const paper = /^#\/study\/paper\/([a-zA-Z0-9_-]+)$/.exec(path); if (paper) return { page: "setup", paperId: paper[1] };
-    const subject = /^#\/study\/([a-z]+)(?:\/[a-zA-Z0-9-]+)?$/.exec(path);
-    return subject && SUBJECTS.some(item => item.id === subject[1]) ? { page: "setup", subjectId: subject[1] } : null;
+    const params = new URLSearchParams(query), filters = { topicId: params.get("topic") || "", examId: params.get("exam") || "", filter: params.get("filter") || "" };
+    const paper = /^#\/study\/paper\/([a-zA-Z0-9_-]+)$/.exec(path); if (paper) return { page: "setup", paperId: paper[1], ...filters };
+    const subject = /^#\/study\/([a-z]+)(?:\/([a-zA-Z0-9-]+))?$/.exec(path);
+    return subject && SUBJECTS.some(item => item.id === subject[1]) ? { page: "setup", subjectId: subject[1], ...filters, topicId: filters.topicId || subject[2] || "" } : null;
   }
   function navigate(hash, replace = false) { flush(); history[replace || hash === location.hash ? "replaceState" : "pushState"](null, "", hash); return resolveRoute(); }
   function sessionHash(session, index = session.current) { return `#/study/session/${session.id}?q=${index}`; }
@@ -83,14 +84,16 @@
     if (!stubs.length && manifest) stats.total = subjectId ? manifest.subjects.find(item => item.id === subjectId)?.questionCount || 0 : manifest.totals?.questionCount || 0;
     return stats;
   }
-  function renderPapers(year = "") {
-    return manifest.papers.filter(paper => !year || String(paper.year) === year).sort((a, b) => b.year - a.year || a.title.localeCompare(b.title, "zh-CN"))
-      .map(paper => `<a class="drill-paper" href="#/study/paper/${paper.id}"><span class="drill-paper-year">${paper.year}</span><span><strong>${esc(paper.title)}</strong><small>${paper.questionCount} 题${paper.variant ? ` · ${esc(paper.variant)}` : ""}</small></span>${icon("chevron-right")}</a>`).join("");
+  function paperMatches(paper, year = "", exam = "") { return (!year || String(paper.year) === year) && (!exam || (paper.examId || "national") === exam); }
+  function renderPapers(year = "", exam = "") {
+    return manifest.papers.filter(paper => paperMatches(paper, year, exam)).sort((a, b) => b.year - a.year || a.title.localeCompare(b.title, "zh-CN"))
+      .map(paper => `<a class="drill-paper" href="#/study/paper/${paper.id}"><span class="drill-paper-year">${paper.year}</span><span><strong>${esc(paper.title)}</strong><small>${paper.questionCount} 题${paper.expectedQuestionCount > paper.questionCount ? ` / 原卷 ${paper.expectedQuestionCount} 题` : ""}${paper.variant ? ` · ${esc(paper.variant)}` : ""}</small></span>${icon("chevron-right")}</a>`).join("") || '<p class="drill-notice">这个年份暂未收录该考试的试卷。</p>';
   }
   function updateCatalogCount(papers) {
     const host = root.querySelector("#drill-bank-count"); if (!host) return;
     const year = root.querySelector("#drill-year")?.value || "";
-    const available = manifest.papers.filter(paper => !year || String(paper.year) === year);
+    const exam = root.querySelector("#drill-exam-list")?.value || "";
+    const available = manifest.papers.filter(paper => paperMatches(paper, year, exam));
     host.textContent = papers ? `${available.length} 套真题 · ${available.reduce((sum, paper) => sum + paper.questionCount, 0).toLocaleString()} 题次` : `${manifest.papers.length} 套真题 · ${getStatistics().total.toLocaleString()} 题`;
   }
   function renderCatalog() {
@@ -101,7 +104,7 @@
       <div class="drill-subject-list">${SUBJECTS.map(subject => {
         const meta = manifest.subjects.find(item => item.id === subject.id), result = getStatistics(subject.id);
         return `<a class="drill-subject" href="#/study/${subject.id}"><span class="practice-module-icon">${icon(subject.icon)}</span><span class="drill-subject-copy"><strong>${subject.title}</strong><span>${(meta?.questionCount || 0).toLocaleString()} 道真题${result.submitted ? ` · 已提交 ${result.submitted} 题${result.accuracy === null ? "" : ` · 正确率 ${result.accuracy}%`}` : ""}</span></span><span class="drill-subject-progress" aria-hidden="true"><span style="width:${meta?.questionCount ? Math.min(100, result.submitted / meta.questionCount * 100) : 0}%"></span></span>${icon("chevron-right")}</a>`;
-      }).join("")}</div><div class="drill-paper-list" hidden><label class="drill-year-filter">年份<select id="drill-year" aria-label="筛选试卷年份"><option value="">全部年份</option>${[...new Set(manifest.papers.map(paper => paper.year))].sort((a, b) => b - a).map(year => `<option value="${year}">${year}</option>`).join("")}</select></label><div id="drill-papers">${renderPapers()}</div></div><p class="drill-notice" role="status" hidden></p></div>`;
+      }).join("")}</div><div class="drill-paper-list" hidden><div class="drill-paper-filters"><label class="drill-year-filter">考试<select id="drill-exam-list" aria-label="筛选试卷考试"><option value="">全部考试</option>${(manifest.exams || [{id:"national",title:"国考"}]).map(exam => `<option value="${exam.id}">${esc(exam.title)}</option>`).join("")}</select></label><label class="drill-year-filter">年份<select id="drill-year" aria-label="筛选试卷年份"><option value="">全部年份</option>${[...new Set(manifest.papers.map(paper => paper.year))].sort((a, b) => b - a).map(year => `<option value="${year}">${year}</option>`).join("")}</select></label></div><div id="drill-papers">${renderPapers()}</div></div><p class="drill-notice" role="status" hidden></p></div>`;
     refresh(); tell(notice);
     window.PageTransitions?.enter(root, { key: `drill:${location.hash}`, direction: "previous" });
   }
@@ -109,29 +112,76 @@
     const questions = route.subjectId ? await loadSubject(route.subjectId) : (await Promise.all(manifest.subjects.map(subject => loadSubject(subject.id)))).flat();
     const paper = route.paperId ? await loadPaper(route.paperId) : null; if (token !== serial) return;
     setup = { subjectId: route.subjectId || "", paperId: route.paperId || "", questions, paper }; current = null; activate(false);
-    const recent = Object.values(progress.sessions).filter(session => route.paperId ? session.setId === route.paperId : session.subjectId === route.subjectId && !session.setId).sort((a, b) => b.updatedAt - a.updatedAt)[0];
-    root.innerHTML = `<div class="drill-catalog-shell"><header class="drill-setup-header"><a class="learn-exit" href="#/study" aria-label="返回题库">${icon("arrow-left")}</a><h1>${esc(paper?.title || subjectTitle(route.subjectId))}</h1></header><section class="drill-setup"><div class="drill-setup-heading">${icon(paper ? "files" : SUBJECTS.find(subject => subject.id === route.subjectId)?.icon || "book-open")}<span>选择本次练习</span></div><form id="drill-start-form"><label>${paper ? "科目" : "试卷"}<select id="drill-filter" aria-label="${paper ? "选择练习科目" : "选择来源试卷"}"><option value="">${paper ? "整套试卷" : "全部国考真题"}</option>${paper ? SUBJECTS.filter(subject => questions.some(question => question.subjectId === subject.id && paper.questionIds.includes(question.id))).map(subject => `<option value="${subject.id}">${subject.title}</option>`).join("") : manifest.papers.filter(item => !item.subjectCounts || item.subjectCounts[route.subjectId] > 0).sort((a, b) => b.year - a.year).map(item => `<option value="${item.id}">${esc(item.title)}</option>`).join("")}</select></label><label>题量<span class="drill-count-control"><input type="number" id="drill-count" min="1" step="1" inputmode="numeric" aria-label="本次练习题量"><button class="drill-all" type="button" data-drill-action="all">全部</button></span><small id="drill-count-hint"></small></label><label>顺序<select id="drill-order" aria-label="练习顺序"><option value="${paper ? "source" : "random"}">${paper ? "来源编排" : "随机抽题"}</option><option value="${paper ? "random" : "source"}">${paper ? "随机抽题" : "题库顺序"}</option></select></label><button class="learn-next learn-button drill-start" type="submit">开始做题 ${icon("arrow-right")}</button></form>${recent ? `<a class="drill-continue" href="${sessionHash(recent, recent.current)}">继续上次练习 · ${Core.statistics(recent).submitted} / ${recent.questionIds.length} ${icon("arrow-right")}</a>` : ""}</section><p class="drill-notice" role="alert" hidden></p></div>`;
-    updateAvailable(); refresh();
+    root.innerHTML = `<div class="drill-catalog-shell"><header class="drill-setup-header"><a class="learn-exit" href="#/study" aria-label="返回题库">${icon("arrow-left")}</a><h1>${esc(paper?.title || subjectTitle(route.subjectId))}</h1></header>
+      <section class="drill-setup"><div class="drill-setup-heading">${icon(paper ? "files" : SUBJECTS.find(subject => subject.id === route.subjectId)?.icon || "book-open")}<span>选择本次练习</span></div>
+      <form id="drill-start-form">
+        ${paper ? "" : `<label>考试<select id="drill-exam" aria-label="选择考试"><option value="">全部真题</option>${(manifest.exams || [{id:"national",title:"国考"}]).map(exam => `<option value="${exam.id}">${esc(exam.title)}</option>`).join("")}</select></label>`}
+        <label>${paper ? "科目" : "试卷"}<select id="drill-filter" aria-label="${paper ? "选择练习科目" : "选择来源试卷"}"><option value="">${paper ? "整套试卷" : "全部试卷"}</option>${paper ? SUBJECTS.filter(subject => paper.subjectCounts?.[subject.id] > 0 || questions.some(question => question.subjectId === subject.id && paper.questionIds.includes(question.id))).map(subject => `<option value="${subject.id}">${subject.title}</option>`).join("") : ""}</select></label>
+        <label id="drill-topic-label" hidden>模块<select id="drill-topic" aria-label="选择练习模块"><option value="">全部模块</option></select><a id="drill-module-lesson" class="drill-module-lesson" hidden>学习这个模块 ${icon("arrow-up-right")}</a></label>
+        <label>题量<span class="drill-count-control"><input type="number" id="drill-count" min="1" step="1" inputmode="numeric" aria-label="本次练习题量"><button class="drill-all" type="button" data-drill-action="all">全部</button></span><small id="drill-count-hint" aria-live="polite"></small></label>
+        <label>顺序<select id="drill-order" aria-label="练习顺序"><option value="${paper ? "source" : "random"}">${paper ? "来源编排" : "随机抽题"}</option><option value="${paper ? "random" : "source"}">${paper ? "随机抽题" : "题库顺序"}</option></select></label>
+        <button class="learn-next learn-button drill-start" type="submit">开始做题 ${icon("arrow-right")}</button>
+      </form>${paper?.coverageNotice ? `<p class="drill-coverage-note">${esc(paper.coverageNotice)}</p>` : ""}<div id="drill-continue-slot"></div></section><p class="drill-notice" role="alert" hidden></p></div>`;
+    const exam = root.querySelector("#drill-exam");
+    if (exam && (manifest.exams || []).some(item => item.id === route.examId)) exam.value = route.examId;
+    updatePaperOptions();
+    const filter = root.querySelector("#drill-filter");
+    if (route.filter && (paper ? SUBJECTS.some(s => s.id === route.filter) : availablePapers().some(p => p.id === route.filter))) filter.value = route.filter;
+    updateModuleOptions(route.topicId); updateAvailable(); refresh();
     window.PageTransitions?.enter(root, { key: `drill:${location.hash}`, direction: "next" });
   }
-  function setupQuestions() {
+  function availablePapers() {
+    const exam = root.querySelector("#drill-exam")?.value || "";
+    return manifest.papers.filter(paper => paperMatches(paper, "", exam) && (!paper.subjectCounts || paper.subjectCounts[setup.subjectId] > 0)).sort((a,b) => b.year - a.year || a.title.localeCompare(b.title, "zh-CN"));
+  }
+  function updatePaperOptions() {
+    if (!setup || setup.paper) return;
+    const field = root.querySelector("#drill-filter"), previous = field.value, papers = availablePapers();
+    field.innerHTML = '<option value="">全部试卷</option>' + papers.map(paper => `<option value="${paper.id}">${esc(paper.title)}</option>`).join("");
+    field.value = papers.some(paper => paper.id === previous) ? previous : "";
+  }
+  function selectedModules() {
+    const subjectId = setup?.subjectId || root.querySelector("#drill-filter")?.value || "";
+    return manifest.subjects.find(subject => subject.id === subjectId)?.modules || [];
+  }
+  function updateModuleOptions(selected = root.querySelector("#drill-topic")?.value || "") {
+    const modules = selectedModules(), field = root.querySelector("#drill-topic"), label = root.querySelector("#drill-topic-label");
+    if (!field || !label) return;
+    const base = setupQuestions(true), counts = new Map();
+    base.forEach(question => counts.set(question.topicId, (counts.get(question.topicId) || 0) + 1));
+    label.hidden = !modules.length;
+    field.innerHTML = `<option value="">全部模块 · ${base.length} 题</option>` + modules.map(module => `<option value="${module.id}"${counts.get(module.id) ? "" : " disabled"}>${esc(module.title)} · ${counts.get(module.id) || 0} 题</option>`).join("");
+    // Keep a chosen module across source changes, even when it becomes empty.
+    // This yields an explicit empty state instead of silently starting a
+    // different module. The user can select another module or source.
+    field.value = modules.some(module => module.id === selected) ? selected : "";
+  }
+  function setupQuestions(ignoreTopic = false) {
     if (!setup) return []; const filter = root.querySelector("#drill-filter")?.value || "";
-    if (setup.paper) { const map = new Map(setup.questions.map(question => [question.id, question])); return setup.paper.questionIds.map(id => map.get(id)).filter(question => question && (!filter || question.subjectId === filter)); }
-    if (!filter) return setup.questions;
-    const paper = manifest.papers.find(item => item.id === filter), ids = paper?.questionIds ? new Set(paper.questionIds) : null;
-    return setup.questions.filter(question => ids ? ids.has(question.id) : question.source?.paperId === filter || question.paperRefs?.some(ref => ref.paperId === filter));
+    const topicId = ignoreTopic ? "" : root.querySelector("#drill-topic")?.value || "";
+    let questions = setup.questions;
+    if (setup.paper) { const map = new Map(questions.map(question => [question.id, question])); questions = setup.paper.questionIds.map(id => map.get(id)).filter(Boolean); }
+    return Core.filterQuestions(questions, { subjectId: setup.subjectId || filter, topicId,
+      paperId: setup.paperId || filter, examId: root.querySelector("#drill-exam")?.value || "" });
   }
   function updateAvailable() {
     const items = setupQuestions(), count = root.querySelector("#drill-count"), hint = root.querySelector("#drill-count-hint");
-    if (count) { count.max = String(items.length); count.value = String(items.length); count.required = true; }
-    if (hint) hint.textContent = `共 ${items.length.toLocaleString()} 题，可选择 1—${items.length.toLocaleString()} 题。`;
+    if (count) { count.max = String(items.length); count.value = String(items.length); count.required = true; count.disabled = !items.length; }
+    if (hint) hint.textContent = items.length ? `共 ${items.length.toLocaleString()} 题，可选择 1—${items.length.toLocaleString()} 题。` : "当前筛选共 0 题";
+    const lesson = root.querySelector("#drill-module-lesson"), module = selectedModules().find(m => m.id === root.querySelector("#drill-topic")?.value);
+    if (lesson) { const subjectId = setup.subjectId || root.querySelector("#drill-filter")?.value; lesson.hidden = !module?.courseGroupId; if (module?.courseGroupId) lesson.href = `#/learn/${subjectId}/${module.courseGroupId}`; }
+    const eligible = new Set(items.map(question => question.id)), topicId = root.querySelector("#drill-topic")?.value || "";
+    const recent = Object.values(progress.sessions).filter(session => session.topicId === topicId &&
+      (!setup.paperId || session.setId === setup.paperId) && session.questionIds.every(id => eligible.has(id))).sort((a,b) => b.updatedAt-a.updatedAt)[0];
+    const resume = root.querySelector("#drill-continue-slot");
+    if (resume) resume.innerHTML = recent ? `<a class="drill-continue" href="${sessionHash(recent,recent.current)}">继续上次练习 · ${Core.statistics(recent).submitted} / ${recent.questionIds.length} ${icon("arrow-right")}</a>` : "";
     const start = root.querySelector('.drill-start'); if (start) start.disabled = !items.length; tell(items.length ? "" : "这份筛选下暂时没有题目。");
   }
   async function startSession() {
     if (!setup) return; const questions = setupQuestions(), field = root.querySelector("#drill-count"), count = Number(field?.value);
     if (!Number.isInteger(count) || count < 1 || count > questions.length) { tell(`题量请输入 1 到 ${questions.length} 之间的整数。`); field?.focus(); return; }
     const id = `drill-${crypto.randomUUID ? crypto.randomUUID() : Date.now() + "-" + Math.random().toString(36).slice(2)}`, filter = root.querySelector("#drill-filter")?.value || "";
-    const session = Core.createSession({ id, subjectId: setup.subjectId || filter || "all", setId: setup.paperId || filter, questionIds: Core.selectQuestionIds(questions, { count, seed: id, order: root.querySelector("#drill-order").value }) });
+    const session = Core.createSession({ id, subjectId: setup.subjectId || filter || "all", topicId: root.querySelector("#drill-topic")?.value || "", setId: setup.paperId || filter, questionIds: Core.selectQuestionIds(questions, { count, seed: id, order: root.querySelector("#drill-order").value }) });
     updateSession(session); await navigate(sessionHash(session, 0));
   }
 
@@ -147,11 +197,15 @@
     if (location.hash !== canonical) history.replaceState(null, "", canonical);
     current = { session, index, question }; setup = null; updateSession(Core.setCurrent(session, index)); renderSession();
   }
-  function titleForSession(session) { return session.setId ? manifest.papers.find(paper => paper.id === session.setId)?.title || "国考真题" : subjectTitle(session.subjectId); }
+  function titleForSession(session) {
+    const title = session.setId ? manifest.papers.find(paper => paper.id === session.setId)?.title || "真题练习" : subjectTitle(session.subjectId);
+    const module = manifest.subjects.find(subject => subject.id === session.subjectId)?.modules?.find(item => item.id === session.topicId);
+    return module ? `${title} · ${module.title}` : title;
+  }
   function sourceLabel(question, session = current?.session) {
     const ref = question.paperRefs?.find(item => item.paperId === session?.setId) || question.paperRefs?.[0];
     const paper = manifest.papers.find(item => item.id === (ref?.paperId || question.source?.paperId)), number = ref?.questionNumber ?? question.source?.questionNumber;
-    return [paper?.title || (question.source?.year ? `${question.source.year} 国考` : "国考真题"), number ? `第 ${number} 题` : ref?.moduleNumber ? `${subjectTitle(question.subjectId)}第 ${ref.moduleNumber} 题` : ""].filter(Boolean).join(" · ");
+    return [paper?.title || (question.source?.year ? `${question.source.year} ${question.source.examTitle || "真题"}` : "真题"), number ? `第 ${number} 题` : ref?.moduleNumber ? `${subjectTitle(question.subjectId)}第 ${ref.moduleNumber} 题` : ""].filter(Boolean).join(" · ");
   }
   function hasSubmission() { return Boolean(current && Core.canShow(current.session, current.question.id, "answer")); }
   function nextLabel() { return !hasSubmission() ? "提交答案" : current.index === current.session.questionIds.length - 1 ? "完成练习" : "下一题"; }
@@ -200,7 +254,7 @@
   function renderSession() {
     cleanup(); activate(true);
     const { session, index, question } = current, stats = Core.statistics(session), submitted = hasSubmission();
-    root.innerHTML = `<div class="learn-session-shell drill-workspace"><header class="learn-session-header"><div class="learn-context"><button class="learn-exit" data-drill-action="exit" aria-label="返回题库">${icon("x")}</button><div>${titleForSession(session) === subjectTitle(question.subjectId) ? "" : `<span>${subjectTitle(question.subjectId)}</span>`}<strong>${esc(titleForSession(session))}</strong></div><button type="button" class="scratchpad-launch" data-scratchpad-open aria-label="打开草稿本" title="草稿本" aria-haspopup="dialog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 3h13a3 3 0 0 1 3 3v15H7a3 3 0 0 1-3-3Zm0 14h16M8 3v10"/><path d="m12 12 5-5"/></svg></button></div><nav class="learn-navigation" aria-label="练习翻页"><button class="learn-back learn-button" data-drill-action="previous" aria-label="上一题" ${index === 0 ? "disabled" : ""}>${icon("arrow-left")}<span>上一题</span></button><button class="learn-progress-button" data-drill-action="jump" aria-label="打开题号，快速跳转"><span><strong>${index + 1} <small>/ ${session.questionIds.length}</small></strong><span><span id="drill-submitted-count">已提交 ${stats.submitted} 题</span> ${icon("chevron-down")}</span></span><span id="drill-progress-track" class="learn-progress-track" role="progressbar" aria-label="练习进度" aria-valuemin="0" aria-valuemax="${stats.total}" aria-valuenow="${stats.submitted}"><span id="drill-progress-fill" style="width:${stats.total ? stats.submitted / stats.total * 100 : 0}%"></span></span></button><div class="study-submit-actions"><button type="button" class="learn-button learn-back study-skip" data-drill-action="skip" aria-label="跳过本题"${submitted ? " hidden" : ""}>跳过本题</button><button class="learn-next learn-button" data-drill-action="next">${nextLabel()}${icon("arrow-right")}</button></div></nav></header><div class="learn-stage"><article class="learn-card learn-flip-${direction} drill-card"><div class="study-question-layout drill-question-layout${submitted ? " is-submitted" : ""}"><section class="study-question-pane drill-question-pane" aria-label="题目" tabindex="0"><div class="learn-card-meta"><span>${({ multiple: "多选题", fill: "填空题", boolean: "判断题" }[question.type] || "单选题")}</span><span>${esc(sourceLabel(question))}</span></div><div id="drill-question"></div></section><section id="drill-explanation" class="study-explanation-pane drill-explanation-pane" aria-label="解析" tabindex="0"${submitted ? "" : " hidden"}>${submitted ? renderAnswer(question, session.answers[question.id]) : ""}</section></div></article></div><p class="drill-notice" role="alert" hidden></p><dialog class="learn-jump-dialog drill-jump" aria-labelledby="drill-jump-title"><header><div><small>${esc(titleForSession(session))}</small><h2 id="drill-jump-title">题号导航</h2></div><button class="learn-exit" data-drill-action="close-jump" aria-label="关闭题号导航">${icon("x")}</button></header><div class="drill-number-grid">${session.questionIds.map((qid, i) => `<button data-drill-jump="${i}" class="${session.answers[qid]?.status || ""}" ${i === index ? 'aria-current="step"' : ""} aria-label="第 ${i + 1} 题${session.answers[qid] ? session.answers[qid].status === "correct" ? "，答对" : session.answers[qid].status === "incorrect" ? "，答错" : "，已提交，不计分" : "，未提交"}">${i + 1}</button>`).join("")}</div><p class="drill-jump-key"><span>未提交</span><span>答对</span><span>答错</span></p></dialog></div>`;
+    root.innerHTML = `<div class="learn-session-shell drill-workspace"><header class="learn-session-header"><div class="learn-context"><button class="learn-exit" data-drill-action="exit" aria-label="返回题库">${icon("x")}</button><div>${!session.setId || titleForSession(session) === subjectTitle(question.subjectId) ? "" : `<span>${subjectTitle(question.subjectId)}</span>`}<strong>${esc(titleForSession(session))}</strong></div><button type="button" class="scratchpad-launch" data-scratchpad-open aria-label="打开草稿本" title="草稿本" aria-haspopup="dialog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 3h13a3 3 0 0 1 3 3v15H7a3 3 0 0 1-3-3Zm0 14h16M8 3v10"/><path d="m12 12 5-5"/></svg></button></div><nav class="learn-navigation" aria-label="练习翻页"><button class="learn-back learn-button" data-drill-action="previous" aria-label="上一题" ${index === 0 ? "disabled" : ""}>${icon("arrow-left")}<span>上一题</span></button><button class="learn-progress-button" data-drill-action="jump" aria-label="打开题号，快速跳转"><span><strong>${index + 1} <small>/ ${session.questionIds.length}</small></strong><span><span id="drill-submitted-count">已提交 ${stats.submitted} 题</span> ${icon("chevron-down")}</span></span><span id="drill-progress-track" class="learn-progress-track" role="progressbar" aria-label="练习进度" aria-valuemin="0" aria-valuemax="${stats.total}" aria-valuenow="${stats.submitted}"><span id="drill-progress-fill" style="width:${stats.total ? stats.submitted / stats.total * 100 : 0}%"></span></span></button><div class="study-submit-actions"><button type="button" class="learn-button learn-back study-skip" data-drill-action="skip" aria-label="跳过本题"${submitted ? " hidden" : ""}>跳过本题</button><button class="learn-next learn-button" data-drill-action="next">${nextLabel()}${icon("arrow-right")}</button></div></nav></header><div class="learn-stage"><article class="learn-card learn-flip-${direction} drill-card"><div class="study-question-layout drill-question-layout${submitted ? " is-submitted" : ""}"><section class="study-question-pane drill-question-pane" aria-label="题目" tabindex="0"><div class="learn-card-meta"><span>${(question.questionFormat === "judgement" ? "判断题" : { multiple: "多选题", fill: "填空题", boolean: "判断题" }[question.type] || "单选题")}</span><span>${esc(sourceLabel(question))}</span></div><div id="drill-question"></div></section><section id="drill-explanation" class="study-explanation-pane drill-explanation-pane" aria-label="解析" tabindex="0"${submitted ? "" : " hidden"}>${submitted ? renderAnswer(question, session.answers[question.id]) : ""}</section></div></article></div><p class="drill-notice" role="alert" hidden></p><dialog class="learn-jump-dialog drill-jump" aria-labelledby="drill-jump-title"><header><div><small>${esc(titleForSession(session))}</small><h2 id="drill-jump-title">题号导航</h2></div><button class="learn-exit" data-drill-action="close-jump" aria-label="关闭题号导航">${icon("x")}</button></header><div class="drill-number-grid">${session.questionIds.map((qid, i) => `<button data-drill-jump="${i}" class="${session.answers[qid]?.status || ""}" ${i === index ? 'aria-current="step"' : ""} aria-label="第 ${i + 1} 题${session.answers[qid] ? session.answers[qid].status === "correct" ? "，答对" : session.answers[qid].status === "incorrect" ? "，答错" : "，已提交，不计分" : "，未提交"}">${i + 1}</button>`).join("")}</div><p class="drill-jump-key"><span>未提交</span><span>答对</span><span>答错</span></p></dialog></div>`;
     mountCurrentQuestion(); refresh(); tell(notice); if (submitted) loadAI();
     window.PageTransitions?.enter(root, { key: `drill:${location.hash}`, direction, focus: ".drill-question-pane" });
   }
@@ -324,8 +378,17 @@
     exportProgress: () => { mergeLatest(); return JSON.stringify(progress); } };
   root.addEventListener("submit", event => { if (event.target.id === "drill-start-form") { event.preventDefault(); startSession(); } });
   root.addEventListener("change", event => {
-    if (event.target.id === "drill-filter") updateAvailable();
-    if (event.target.id === "drill-year") { root.querySelector("#drill-papers").innerHTML = renderPapers(event.target.value); updateCatalogCount(true); refresh(root.querySelector("#drill-papers")); }
+    if (["drill-filter", "drill-exam", "drill-topic"].includes(event.target.id)) {
+      if (event.target.id === "drill-exam") updatePaperOptions();
+      if (event.target.id !== "drill-topic") updateModuleOptions();
+      updateAvailable(); refresh();
+      const params = new URLSearchParams();
+      for (const [key,id] of [["filter","drill-filter"],["exam","drill-exam"],["topic","drill-topic"]]) {
+        const value = root.querySelector("#" + id)?.value; if (value) params.set(key, value);
+      }
+      const path = location.hash.split("?")[0]; history.replaceState(null, "", path + (params.size ? "?" + params : ""));
+    }
+    if (["drill-year", "drill-exam-list"].includes(event.target.id)) { root.querySelector("#drill-papers").innerHTML = renderPapers(root.querySelector("#drill-year")?.value || "", root.querySelector("#drill-exam-list")?.value || ""); updateCatalogCount(true); refresh(root.querySelector("#drill-papers")); }
   });
   root.addEventListener("click", event => {
     if (!parseRoute()) return;
@@ -334,7 +397,11 @@
     const jump = event.target.closest("[data-drill-jump]"); if (jump && current) { direction = Number(jump.dataset.drillJump) < current.index ? "previous" : "next"; navigate(sessionHash(current.session, Number(jump.dataset.drillJump))); }
     const action = event.target.closest("[data-drill-action]")?.dataset.drillAction;
     if (action === "next") next(); if (action === "previous") previous(); if (action === "skip") skip();
-    if (action === "exit") navigate(current?.session.setId ? `#/study/paper/${current.session.setId}` : current?.session.subjectId && current.session.subjectId !== "all" ? `#/study/${current.session.subjectId}` : "#/study");
+    if (action === "exit") {
+      const session = current?.session, path = session?.setId ? `#/study/paper/${session.setId}` : session?.subjectId && session.subjectId !== "all" ? `#/study/${session.subjectId}` : "#/study";
+      const query = new URLSearchParams(); if (session?.topicId) query.set("topic", session.topicId); if (session?.setId && session?.subjectId !== "all") query.set("filter", session.subjectId);
+      navigate(path + (query.size ? "?" + query : ""));
+    }
     if (action === "retry") { manifestPromise = null; pendingPromise = null; resolveRoute(); }
     if (action === "all") updateAvailable(); if (action === "jump") root.querySelector(".drill-jump")?.showModal();
     if (action === "close-jump") { root.querySelector(".drill-jump")?.close(); root.querySelector('[data-drill-action="jump"]')?.focus(); }

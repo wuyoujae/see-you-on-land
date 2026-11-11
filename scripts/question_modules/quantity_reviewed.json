@@ -1,0 +1,2794 @@
+{
+  "version": 1,
+  "reviewBasis": "按题意、参考解析与现有课程方法逐题复核；一个主模块，不重复计数。",
+  "questions": {
+    "national-2014-unified-q061": {
+      "topicId": "quantity-basic",
+      "method": "reviewed-curriculum-map",
+      "evidence": "依题意进行基础四则运算、单位换算或取整，无需专门模型。",
+      "fingerprint": "c93cc972400c326d423bb608857ed3ea1abf62ec273596f54d5ba1c0d5e6a4c1"
+    },
+    "national-2014-unified-q062": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "74f428b0bba033594a9713c81c48f62a01dc79864d8af8bd56e2e04080bd30c8"
+    },
+    "national-2014-unified-q063": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "db6124c4b1d75ae55146a90a4a9290e0ac779bca46761ef60eda6a10031b30b1"
+    },
+    "national-2014-unified-q064": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用特值、混合平均量或十字交叉处理比例关系。",
+      "fingerprint": "381f1f55ee62c94b5d531252e9c28fb3231ec137611c1b8a9c18d2912712fc33"
+    },
+    "national-2014-unified-q065": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "32231e3620e203f90db55e5d4aab06c44815d74cdd02e44dbcd355948b36e43d"
+    },
+    "national-2014-unified-q066": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "791503c20fe88a5f88764a548ae7121f5732fd22b52d0c8b126297682787fb03"
+    },
+    "national-2014-unified-q067": {
+      "topicId": "quantity-wy27-s09",
+      "method": "reviewed-curriculum-map",
+      "evidence": "集合重叠、只参与或同时参与的计数，使用容斥。",
+      "fingerprint": "ced6cef24b71ab6400809daab6fd4c61bbc65d4297b0a9a2f25b32ff3b369332"
+    },
+    "national-2014-unified-q068": {
+      "topicId": "quantity-planning",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用枚举、极端情况或统筹安排解决离散数学问题，当前课程没有直接同名模块。",
+      "fingerprint": "2ccaca2cb74e1070b5609c2506555b915af01f5f7f21932a0c063e0a5611af79"
+    },
+    "national-2014-unified-q069": {
+      "topicId": "quantity-planning",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用枚举、极端情况或统筹安排解决离散数学问题，当前课程没有直接同名模块。",
+      "fingerprint": "f9929b88abf948fdb1ad3c784ff9365f8485b60adc1fbd1582b6d5efd399f1e6"
+    },
+    "national-2014-unified-q070": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "079d0dcd30e903e930e863a37cf6564337049b037879dcb62c5be1fe7f611c98"
+    },
+    "national-2014-unified-q071": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "2ddbe9b7d6fd7a7878b16067c5c4967fe18c76c9cd2790fab4e87b707a3c51a1"
+    },
+    "national-2014-unified-q072": {
+      "topicId": "quantity-planning",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用枚举、极端情况或统筹安排解决离散数学问题，当前课程没有直接同名模块。",
+      "fingerprint": "614e017be048d81930bc291fd9643da5b75b4355bd03a94dc0142b68dbd9ce9f"
+    },
+    "national-2014-unified-q073": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "7b6a90207d4e830e7b2710286fdc4fefd9cdfcc8d32af8a6e4db2dc0a3eb780a"
+    },
+    "national-2014-unified-q074": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "60789c9d9d5844652dc968ddc59340be3eb9d1cbe0d8b045566919c02dfe9395"
+    },
+    "national-2014-unified-q075": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "c1b83f2a7cd4d4fe516868d45ef467197f5c7a68dad45a322f8e35ecbe340d6e"
+    },
+    "national-2015-municipal-q061": {
+      "topicId": "quantity-wy27-s12",
+      "method": "reviewed-curriculum-map",
+      "evidence": "建立等可能样本空间，按符合条件的情况数除以总情况数求概率。",
+      "fingerprint": "525dbcbd1c110bf9ae15714d4c4e50378ae73805d757f247efcf29714be409da"
+    },
+    "national-2015-municipal-q062": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "4a35346af1c85f5c3723f366ee97f4b2a1a79f5d501a2cc11b8a6ed5d1a902c9"
+    },
+    "national-2015-municipal-q063": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "2eac31a24d3fa0184f3a1862d75b9fab7659d679f551342cea9707ab48ae2ef1"
+    },
+    "national-2015-municipal-q064": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "d870719427450ca57fdddcc0c120102a431d1eaddfab99e704b320f404974d8a"
+    },
+    "national-2015-municipal-q065": {
+      "topicId": "quantity-wy27-s09",
+      "method": "reviewed-curriculum-map",
+      "evidence": "集合重叠、只参与或同时参与的计数，使用容斥。",
+      "fingerprint": "592724d265d96af283e3d13a3dfd1b8435c043f692d87cee93c2bda85b858938"
+    },
+    "national-2015-municipal-q066": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "fd4f83410eeb922932f01fc5ed96421243566700d9a4f5cf13aee4220e69c2e7"
+    },
+    "national-2015-municipal-q067": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "aa75631a254b9aabbff2fdde8288708cabc7fc2cf4456473d016d64ce8fb1680"
+    },
+    "national-2015-municipal-q068": {
+      "topicId": "quantity-wy27-s11",
+      "method": "reviewed-curriculum-map",
+      "evidence": "将相同数量或不同人员分配给若干对象，区分分组标签及容量限制。",
+      "fingerprint": "ff8785b0732910186bb6efc9c94089727e1706933eab940514cb95bb03c2e5a0"
+    },
+    "national-2015-municipal-q069": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "20992abdab4d0cdc636bdcdba8063702e609b784eba5639cd86753c681d1d277"
+    },
+    "national-2015-municipal-q070": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用特值、混合平均量或十字交叉处理比例关系。",
+      "fingerprint": "7e056c947b05f63e07c92018f2bbfb0658d85453d14f2a00cd01673e04abf17a"
+    },
+    "national-2015-provincial-q061": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "84cef16a0f407dfc3551b8f03e34ede64035864111780c744077d3d445aba940"
+    },
+    "national-2015-provincial-q062": {
+      "topicId": "quantity-wy27-s12",
+      "method": "reviewed-curriculum-map",
+      "evidence": "建立等可能样本空间，按符合条件的情况数除以总情况数求概率。",
+      "fingerprint": "ecfe591b9e250f85ec810946bfac18a949843f9f105956637dc86c62c48196ea"
+    },
+    "national-2015-provincial-q063": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "f53b40d18fbd96c3a3ff52424250b2ccc7d3f542eff29503abe2c150f17ad8e5"
+    },
+    "national-2015-provincial-q064": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用特值、混合平均量或十字交叉处理比例关系。",
+      "fingerprint": "9a5472d00829ddbdf93205997d9ed788c92e1252a9b474d1492c23c7fdcfc4ed"
+    },
+    "national-2015-provincial-q065": {
+      "topicId": "quantity-planning",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用枚举、极端情况或统筹安排解决离散数学问题，当前课程没有直接同名模块。",
+      "fingerprint": "5687ab870c9b8129c7ffb30973879ad58c32c696c76c201b55352e89e5d92535"
+    },
+    "national-2015-provincial-q066": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "aa75631a254b9aabbff2fdde8288708cabc7fc2cf4456473d016d64ce8fb1680"
+    },
+    "national-2015-provincial-q067": {
+      "topicId": "quantity-wy27-s11",
+      "method": "reviewed-curriculum-map",
+      "evidence": "将相同数量或不同人员分配给若干对象，区分分组标签及容量限制。",
+      "fingerprint": "ff8785b0732910186bb6efc9c94089727e1706933eab940514cb95bb03c2e5a0"
+    },
+    "national-2015-provincial-q068": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "ebfb554bc08163d979bf197fa0db753e91c1ff87a2767e5758fc5d1c9e72305c"
+    },
+    "national-2015-provincial-q069": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "20992abdab4d0cdc636bdcdba8063702e609b784eba5639cd86753c681d1d277"
+    },
+    "national-2015-provincial-q070": {
+      "topicId": "quantity-wy27-s07",
+      "method": "reviewed-curriculum-map",
+      "evidence": "环线相遇追及（含钟表）或匀加速、匀减速运动。",
+      "fingerprint": "4b6c5467ba3a1203477844ec98304081cce1ee09788511049efd613dc7d01b31"
+    },
+    "national-2015-provincial-q071": {
+      "topicId": "quantity-wy27-s13",
+      "method": "reviewed-curriculum-map",
+      "evidence": "独立事件、条件事件、多步试验或赛事的概率乘加与分类。",
+      "fingerprint": "b2eafcdd4844842218797dc70efb17ca726f7f4f1ae2b1ec5ffc6900c5172a2b"
+    },
+    "national-2015-provincial-q072": {
+      "topicId": "quantity-cycles",
+      "method": "reviewed-curriculum-map",
+      "evidence": "按固定周期、星期或日历间隔分析重复出现的位置。",
+      "fingerprint": "551da0b309fa285c7750d67611a40d92d018516151b8d3927c91221ae1af8779"
+    },
+    "national-2015-provincial-q073": {
+      "topicId": "quantity-wy27-s09",
+      "method": "reviewed-curriculum-map",
+      "evidence": "集合重叠、只参与或同时参与的计数，使用容斥。",
+      "fingerprint": "592724d265d96af283e3d13a3dfd1b8435c043f692d87cee93c2bda85b858938"
+    },
+    "national-2015-provincial-q074": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "fd4f83410eeb922932f01fc5ed96421243566700d9a4f5cf13aee4220e69c2e7"
+    },
+    "national-2015-provincial-q075": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "1ec5e5f954c5085a113bea2019f94c972eec8fca94783da9b128b26a67c904ae"
+    },
+    "national-qid-1746704": {
+      "topicId": "quantity-basic",
+      "method": "reviewed-curriculum-map",
+      "evidence": "依题意进行基础四则运算、单位换算或取整，无需专门模型。",
+      "fingerprint": "e3d5c548f5f52cbf7d7c8e0a47c29cf4ecde94c9c49c05fbcae76ab0b7ecee20"
+    },
+    "national-qid-1746712": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "7d956589dd2df5eeb9ca6882febfe92f20e1485a45b16c878943e72400c2ec03"
+    },
+    "national-qid-1746716": {
+      "topicId": "quantity-cycles",
+      "method": "reviewed-curriculum-map",
+      "evidence": "按固定周期、星期或日历间隔分析重复出现的位置。",
+      "fingerprint": "d8e4bcfa1e99e244d104fb6b7c46b2cf5ba5708ae4b3e8386582137567d5599f"
+    },
+    "national-qid-1746724": {
+      "topicId": "quantity-cycles",
+      "method": "reviewed-curriculum-map",
+      "evidence": "按固定周期、星期或日历间隔分析重复出现的位置。",
+      "fingerprint": "519a1f9926a37a179e69463a3b4f950f33a26cb2f3874dd7368801016347bf85"
+    },
+    "national-qid-1746736": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "bcc5a31d09e5f2ffa4eee8d19a4dbdb6e10bf4e8c8e4dbacc8a71d755245c298"
+    },
+    "national-qid-1746740": {
+      "topicId": "quantity-wy27-s07",
+      "method": "reviewed-curriculum-map",
+      "evidence": "环线相遇追及（含钟表）或匀加速、匀减速运动。",
+      "fingerprint": "5aafae0baaa7a3d6e341f8a8e08cb3a7503fdbbbc0d298279732c39de5c0e633"
+    },
+    "national-qid-1746744": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "82cc8e136fc53fcf70c4af2965759720ffa29856a0ae052f083b08362c4d1c8a"
+    },
+    "national-qid-1746746": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "普通行程或直线上的相遇、追及与往返。",
+      "fingerprint": "7435b9c84b8a36ef72c6750efc6e3bc424fc08a35b9b992ba3a96b2f97f77615"
+    },
+    "national-qid-1746752": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用特值、混合平均量或十字交叉处理比例关系。",
+      "fingerprint": "168ae2c25a6032f20839c34159d0ee9c891926ac36c1b0b1abb30878df4bd5ed"
+    },
+    "national-qid-1746754": {
+      "topicId": "quantity-wy27-s12",
+      "method": "reviewed-curriculum-map",
+      "evidence": "建立等可能样本空间，按符合条件的情况数除以总情况数求概率。",
+      "fingerprint": "599a790b98e42dbccc4fb97df8c0933fa0145c1f307dc21c700d8364d7bb225a"
+    },
+    "national-qid-1756312": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "c3f0424844fbcaaa056ff2ad9feab8bce8d093ec37bf5afccd83a757dc0f18ce"
+    },
+    "national-qid-1756314": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "5bc4aee5302236d2aea4c18f8b319d8f5a2b35f30cac3ee16413ddf4227ed7be"
+    },
+    "national-qid-1756316": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "483cab86ebff2ba829de0cbb3802979a57f70183b244a6c96dd9e35dc9ca3f57"
+    },
+    "national-qid-1756318": {
+      "topicId": "quantity-wy27-s09",
+      "method": "reviewed-curriculum-map",
+      "evidence": "集合重叠、只参与或同时参与的计数，使用容斥。",
+      "fingerprint": "f19dcbab7259bb82a1656e29de40d65ad99316dfc07fcb520d00b3e0a222a6c1"
+    },
+    "national-qid-1756320": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "bd63b67a7a08fb1b0dc4224888495c69ddca544e7f2f6c8d5b62c54492b7bf90"
+    },
+    "national-qid-2028382": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用特值、混合平均量或十字交叉处理比例关系。",
+      "fingerprint": "c506f41a2061acf171a92139f76ab673c8f002176435d20b8ac4eec94abac2b0"
+    },
+    "national-qid-2028388": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "d65408dcd599f48815207b9e8344b8925bf12bdda40edfeecd1285b375b0a5ab"
+    },
+    "national-qid-2028394": {
+      "topicId": "quantity-cycles",
+      "method": "reviewed-curriculum-map",
+      "evidence": "按固定周期、星期或日历间隔分析重复出现的位置。",
+      "fingerprint": "1302283a8382efe3f7c091df48406e32d2a622f3730fa21ca16beba238b7183b"
+    },
+    "national-qid-2028400": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "57b044471527e3ebad825d3be8b6b33a2fb47d35b97620ad40a0ba9e1c1dfb82"
+    },
+    "national-qid-2028408": {
+      "topicId": "quantity-wy27-s12",
+      "method": "reviewed-curriculum-map",
+      "evidence": "建立等可能样本空间，按符合条件的情况数除以总情况数求概率。",
+      "fingerprint": "5024d3db34ade497bb3ea30ac2762ac65e4f27cc93c03862fe29a20e76b50ad6"
+    },
+    "national-qid-2028420": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "340568c8fc6558ae16eecd8bac0e4bff82a9a4e4f8f35698a0e4d017cfb022b9"
+    },
+    "national-qid-2028426": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "c83e56f2d3a696d9079cb377c6a493fb0af37ac9d2a622204f5e6e4c417698b1"
+    },
+    "national-qid-2028432": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "a20d6b573f0b893017a90921853bf3c2485e4a6204085daff2b5b72bc6644faa"
+    },
+    "national-qid-2028446": {
+      "topicId": "quantity-wy27-s15",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同底同高、相似及线面体比例关系是关键步骤。",
+      "fingerprint": "e9a062d4806bc4df00530f3c995753cad6b900f617fad22115b5bae30231ec25"
+    },
+    "national-qid-2028452": {
+      "topicId": "quantity-wy27-s12",
+      "method": "reviewed-curriculum-map",
+      "evidence": "建立等可能样本空间，按符合条件的情况数除以总情况数求概率。",
+      "fingerprint": "3563e0fa8a3d3631b23d246fa865b85d3474888dc0b1e23e2e38ebe8b837960d"
+    },
+    "national-qid-2028454": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "caeec6e78d4c9ef6294b882d2e7476fc49893a1319c379538a4c4602dc852384"
+    },
+    "national-qid-2028456": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "f5e85576cdddb3d5be9843249e2ecb565739c64eb18876cd3b87217a1d18f996"
+    },
+    "national-qid-2028458": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "b940e1fd3fc1266239c7d2dcaac1a32fa434ca7ee5f33a98a1ab112883861c92"
+    },
+    "national-qid-2028460": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "d91eef6c82a63a7660f757f2ee84d5a35a5dd911608f8fc6f879a03d936b2427"
+    },
+    "national-qid-2028462": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "a51172c0de529d67317562abd614770aa0fb09615ef8543bf3a6499d1cd1fb9c"
+    },
+    "national-qid-2133512": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "87839bc2564e3615394633db24b161d4f9f9c94d53edc3caa8c7045fc073e1c5"
+    },
+    "national-qid-2133516": {
+      "topicId": "quantity-wy27-s12",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。建立等可能样本空间，按符合条件的情况数除以总情况数求概率。",
+      "fingerprint": "b1768d652f7519779799f8eec250e7f6db44b7538670bb6cf221725a8a8688c6",
+      "courseLessonId": "quantity-wy27-s12-t01",
+      "courseQuestionId": "quantity-wy27-s12-t01-mother-07"
+    },
+    "national-qid-2133518": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "d09143d3529b72043453af2a0b2bec7f2ec7a8ba0fb6ed6d19de97a6b070b70a"
+    },
+    "national-qid-2133520": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "56cb43da218318dafcfb225865bec87384002ad5637225595fd7c3f6011f1a34"
+    },
+    "national-qid-2133524": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "2fc3a7df4833a977df4bcd8525f9b94313f138a0646d84a1b4327199bb0a556e"
+    },
+    "national-qid-2133532": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "f4087fbb4070f5147a365924e33113da1c57f133a1749e7da32c956c068c085f"
+    },
+    "national-qid-2133534": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "37bce4776c484b5d70db9b1ce32d1301b0a7d8712b546db594d0ff8f000038d0"
+    },
+    "national-qid-2133538": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "8028888190230d3cdbd027eb55615f8ad390a25743212b8bf1ee5ad6858d4604"
+    },
+    "national-qid-2133540": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "d7a801f511756948c50b3cf5202294d2ef503b7a4ae4969b296d3bf1b4994f2f"
+    },
+    "national-qid-2133544": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "3886d3538c260f260504f4082ba45096bc1ac40b85bb0b3b6394da36b70bee34"
+    },
+    "national-qid-2133762": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "普通行程或直线上的相遇、追及与往返。",
+      "fingerprint": "872681d77d0d19a797b97fa0cbda179b60f88dff5d2f5334d4d65984bae7aede"
+    },
+    "national-qid-2133772": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用特值、混合平均量或十字交叉处理比例关系。",
+      "fingerprint": "ec50a12e4ced752f9c01e1ad4a9a36aa7c97ed99f7b76d9fe2cfb859580a80d2"
+    },
+    "national-qid-2133776": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "3c7be2be2a8a46bc6ead0e40c61f17cc949b584c791d1649ea9b121bdbb0c9e4"
+    },
+    "national-qid-2133778": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "1eb63ece00171544921cb228c1e8f0aaded0fb9a447998405f341fc765cea0bc"
+    },
+    "national-qid-2133780": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "3090f43e40bc715ed6cb23710fc55fe08dadfe0bb533d0fd3895063f082d9135"
+    },
+    "national-qid-2264383": {
+      "topicId": "quantity-wy27-s09",
+      "method": "reviewed-curriculum-map",
+      "evidence": "集合重叠、只参与或同时参与的计数，使用容斥。",
+      "fingerprint": "df088a8d818447d301f4cad61d1aa9b44d9fc8d0cb149587654e540b69c699cf"
+    },
+    "national-qid-2264386": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "2cb081465c1e92c0ec6466689c08ad416a207b8a94f50d78aac0cea9cb60e67d"
+    },
+    "national-qid-2264398": {
+      "topicId": "quantity-wy27-s12",
+      "method": "reviewed-curriculum-map",
+      "evidence": "建立等可能样本空间，按符合条件的情况数除以总情况数求概率。",
+      "fingerprint": "8f0b6bf2bdcac0d9e54cf1eef1d1cb378096700ce424ca8698b02e5940110355"
+    },
+    "national-qid-2264405": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "普通行程或直线上的相遇、追及与往返。",
+      "fingerprint": "116275a58bd2e0fb747f642f705ed4ae53ead2c723078cedf9f0c80d10d39cb1"
+    },
+    "national-qid-2264406": {
+      "topicId": "quantity-wy27-s13",
+      "method": "reviewed-curriculum-map",
+      "evidence": "独立事件、条件事件、多步试验或赛事的概率乘加与分类。",
+      "fingerprint": "c6143ab6e166d671f4fdfcd1839c0809cb687415b02dec8f03aacea700980342"
+    },
+    "national-qid-2264409": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "bbaa2ed63311ea1b21243e697e1a9bf8c4b4203b79ecb75a3f287a2ad3668175"
+    },
+    "national-qid-2264411": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用特值、混合平均量或十字交叉处理比例关系。",
+      "fingerprint": "7ab2ed8bfa898259200a12ecccd40eba47b4ae1e7e7f1d56a3a48212b5c96f99"
+    },
+    "national-qid-2264416": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "b74d89774a9fcd2f7db7f8f33e504a2cb3c3ce58cbd1a3643b7428516237ca67"
+    },
+    "national-qid-2264418": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "a9c6513d21216cc5acc5d180d14da93ed8dcabdafbeb57a5b6325933a1899872"
+    },
+    "national-qid-2264420": {
+      "topicId": "quantity-cycles",
+      "method": "reviewed-curriculum-map",
+      "evidence": "按固定周期、星期或日历间隔分析重复出现的位置。",
+      "fingerprint": "1f4fe931103356f2dc1d97ee6a5a1789e7a5febd7c4540f9914c9b8cb1bd3188"
+    },
+    "national-qid-2264454": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "f33218fc9eab00992d33ec9407e28f707b7586be86a812bbab579b4442a2e15f"
+    },
+    "national-qid-2264456": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "626b597f4e40474fef66054d1ff5d148bf23d25d5f2518919786fb72634781fd"
+    },
+    "national-qid-2264458": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "36c98cca33d68625a166bdc003367206bb85442b6790405bcab24264c22ea796"
+    },
+    "national-qid-2264461": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "2bd092d4991c747b9c6176dcc7c69544eeaeb5a85584d1a3b4f2079fa4e47353"
+    },
+    "national-qid-2264463": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "873a7b67233fc206472dc8b26f6c9852038b79936da5c3d0c89f601cbac074cb"
+    },
+    "national-qid-2448379": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "8d4c45c16ebf87344fe2e0d089f25c228ca3ab4b035581dcbf093aa168f54cde"
+    },
+    "national-qid-2448380": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "a47ad588b4dec98ae51d7d5112398b99abcacd6ba77623884b7acfa90763e751"
+    },
+    "national-qid-2448387": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "cc79d1966849b378c6e62e68d17f35123fd08a2682b2e110f96eee63c2328051"
+    },
+    "national-qid-2448394": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "9d4cbfc9a42dd7cc40ec7798713044dc703f8a6dd6fa0733234f37886174d524"
+    },
+    "national-qid-2448396": {
+      "topicId": "quantity-wy27-s07",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。环线相遇追及（含钟表）或匀加速、匀减速运动。",
+      "fingerprint": "934aba3cb3bc502b014fdaebce8815759e4df06d20664d6442d2f8e39bfae84e",
+      "courseLessonId": "quantity-wy27-s07-drill-02",
+      "courseQuestionId": "quantity-wy27-s07-t03-drill-05"
+    },
+    "national-qid-2448404": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "f287fa0d037d9b5f369daf32a5b6ae94a09bb8bd1901bc80803b15216efad4a9"
+    },
+    "national-qid-2448405": {
+      "topicId": "quantity-cycles",
+      "method": "reviewed-curriculum-map",
+      "evidence": "按固定周期、星期或日历间隔分析重复出现的位置。",
+      "fingerprint": "897c322dd2aebde2fd4a87d5b57d715a6856d1865b28b16c316b3b6ddc59197c"
+    },
+    "national-qid-2448415": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "588968c89c68327012d17731f774e054d26c93f0154e24aabe6f7df073581c67"
+    },
+    "national-qid-2448429": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "b69337a02c5922f8b00868eb406a57b8c14c4c7c02b2bf8d4f68dca67af0f2ea"
+    },
+    "national-qid-2448449": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "d9469765775ebfe0d1e83e06efc23f1181b16875ee8b2e3fe94e2f24bdacc54b"
+    },
+    "national-qid-2448532": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用特值、混合平均量或十字交叉处理比例关系。",
+      "fingerprint": "56501d5b2b4be4d14b26ba4ae77c64040f0813905cfddcc6fbf66220aee653a9"
+    },
+    "national-qid-2448535": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "6b32759b5dcb2d0491d6700c8a13b33cf6a1dfb56632bcb4e02cb460ceb57f69"
+    },
+    "national-qid-2448571": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "1d5c5c704719e0cf11a089008dbdb9246bc84089f76cefcbc8ff8220d661aa31"
+    },
+    "national-qid-2448572": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "普通行程或直线上的相遇、追及与往返。",
+      "fingerprint": "fdf564f1e33182dccc35a98b4ba03bf75791af98758bd399ebfe596826ab7fad"
+    },
+    "national-qid-2448574": {
+      "topicId": "quantity-wy27-s13",
+      "method": "reviewed-curriculum-map",
+      "evidence": "独立事件、条件事件、多步试验或赛事的概率乘加与分类。",
+      "fingerprint": "1c20ddedbfd5e5aac514f31c973e69212d625320101cc5979aa4915c91027717"
+    },
+    "national-qid-2719297": {
+      "topicId": "quantity-planning",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用枚举、极端情况或统筹安排解决离散数学问题，当前课程没有直接同名模块。",
+      "fingerprint": "88e72989876cf5bc0f58e067263549758d874fb4a9ccd0b56cc9ef8362e19dbe"
+    },
+    "national-qid-2719306": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "0720ac864f81a64931636eab6cf243f03e4163433d47c4875ca0ab39b092a728"
+    },
+    "national-qid-2719319": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "5a7fc7a6984abd13241b3497497467c295859505f7647ee8f4a99ded497a0e90"
+    },
+    "national-qid-2719320": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "bd2c09dc10cf278fce706c385c579574ed0156e83745e99668345838510fcc47"
+    },
+    "national-qid-2719325": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "9637eb7a528ae421a1b7633b552f9a5ef1fddd396ea0775fd9461a1c12f94dd6"
+    },
+    "national-qid-2719333": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "b34b0ed05e998cf02825daecd5cee4ad3e1f5b254188dbac76d8749696bc477a"
+    },
+    "national-qid-2719341": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "115409913815dd42f3b93c26d58a833cf1c70af96cbb929f91aceaecee998988"
+    },
+    "national-qid-2719380": {
+      "topicId": "quantity-wy27-s12",
+      "method": "reviewed-curriculum-map",
+      "evidence": "建立等可能样本空间，按符合条件的情况数除以总情况数求概率。",
+      "fingerprint": "8f78c74f28bd12a18bf0a6e974a9c6c9c345517ed44ada20cbe2e83a4204d8bc"
+    },
+    "national-qid-2719398": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "7c548ed852ac3147c9bd0cb0eddd712364c6bd09c01cfd97ab1f9d1bfefff504",
+      "courseLessonId": "quantity-wy27-s10-drill-01",
+      "courseQuestionId": "quantity-wy27-s10-t03-drill-04"
+    },
+    "national-qid-2719400": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "ca1bba4f897855133d3fefed283a551723fff0e6572e8c654e5e090cf7289684"
+    },
+    "national-qid-2719468": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "5796d4922f94ef149dd177d4cb634501b11df4342194c0256c06087cf21c00a0",
+      "courseLessonId": "quantity-wy27-s03-drill-02",
+      "courseQuestionId": "quantity-wy27-s03-t03-drill-05"
+    },
+    "national-qid-2719469": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "4c4d8ca362a33279c47cbeff47e8e111d7bc72ccfa58d767cd6c802d6f7ee7ac"
+    },
+    "national-qid-2719470": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "d69044bc26e147c50c1f331164fd40e760ca56acf55a48fc87fe3f86c7135327"
+    },
+    "national-qid-2719471": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "a9edae23df69cbd0f3719a27dfc18838b9dfb0ae196093237cf7d523b28243a8"
+    },
+    "national-qid-2719472": {
+      "topicId": "quantity-wy27-s15",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同底同高、相似及线面体比例关系是关键步骤。",
+      "fingerprint": "13131d9fda0d61e9e82a12b21cb82f22a9c8eb5405a64b2974799a856722e585"
+    },
+    "national-qid-2719473": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "9ade84a9d957137c0fa13003ff7557d8b49564d66499ff967a51dfeb16229edd"
+    },
+    "national-qid-4637209": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "635d195f548e60dd2ab3dada7c63781b7366cf012b55a06e07d9118a5d7e7f0a"
+    },
+    "national-qid-4637223": {
+      "topicId": "quantity-wy27-s12",
+      "method": "reviewed-curriculum-map",
+      "evidence": "建立等可能样本空间，按符合条件的情况数除以总情况数求概率。",
+      "fingerprint": "a51362a4eaca6a28fea68f6569ac07d697d3bb6530503c46af0e37251098d5f9"
+    },
+    "national-qid-4637224": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "16259c7870eefed75430108f5a924ab78f5771191b3f8e555585ffe25a0c560c"
+    },
+    "national-qid-4637225": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "931cbfb5deb4b920a1fe26c969dca869e4b3e8cd92f0969f434d212de7ca8bc4"
+    },
+    "national-qid-4637226": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "63860737c6fd8eca9526d6be5859d0fb77db58be4bce4c1e1df67a1820236131"
+    },
+    "national-qid-4637227": {
+      "topicId": "quantity-wy27-s07",
+      "method": "reviewed-curriculum-map",
+      "evidence": "环线相遇追及（含钟表）或匀加速、匀减速运动。",
+      "fingerprint": "d457bf78e9eb7ff08acd1344d007f8b3bde378819693dacdcdd8d293602d68f1"
+    },
+    "national-qid-4637228": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "4976f1738c9e9ec7e1a93dff1931c4e10d19c7a603f9e94aeb73d6dd2b293775"
+    },
+    "national-qid-4637229": {
+      "topicId": "quantity-wy27-s13",
+      "method": "reviewed-curriculum-map",
+      "evidence": "独立事件、条件事件、多步试验或赛事的概率乘加与分类。",
+      "fingerprint": "be74cdbedddb1f291f74aa84f794416e753f469a43cf6524a9b78c2933fbfe77"
+    },
+    "national-qid-4637230": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "ad340e40546d3f4ef4ac7cf765606dd6d5d23f39b12960491b2304f58f2bac0f"
+    },
+    "national-qid-4637231": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "402fecb6812163c71b18c90838280e5dab375a80326903318e52df65c62149bb"
+    },
+    "national-qid-4637431": {
+      "topicId": "quantity-wy27-s11",
+      "method": "reviewed-curriculum-map",
+      "evidence": "将相同数量或不同人员分配给若干对象，区分分组标签及容量限制。",
+      "fingerprint": "a01b70c84a534d557ae35fa211f1bad65c76edb92aadd6379bc68a7b094abac7"
+    },
+    "national-qid-4637435": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "3c96b761e02e463cf9165fcfd37e1516b66bb89bc8e13df60e475dbb59f72e71"
+    },
+    "national-qid-4637507": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "400471920078cee38e9bf79e874357cbd11d413f13ea324a656e733311ea6d8e"
+    },
+    "national-qid-4637509": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "cf70b1c6613e960ce197d2be2390eeac699d4de68c09b1f6655a795018206de0",
+      "courseLessonId": "quantity-wy27-s08-drill-01",
+      "courseQuestionId": "quantity-wy27-s08-t02-drill-02"
+    },
+    "national-qid-4639320": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用特值、混合平均量或十字交叉处理比例关系。",
+      "fingerprint": "ee0d0ee3e0ee810333296d4fb36328dac3d2d72a3102d04c42678e34bfbda4db"
+    },
+    "national-qid-4639327": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "9b327d0ea9f50b5fd5bc2980ad70dddf1f759ac92e4b60856b408ad63c01cda5"
+    },
+    "national-qid-4639352": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "8ce407c91d430177bd49fc203d7c94bf6b61f934fc366e908a15aab2123d8a80"
+    },
+    "national-qid-4639353": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "6502e6a6a1869b399318e19935fc8a6bb9bc79206bb96c94232ebdd17ecf3384"
+    },
+    "national-qid-4639355": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "5bb3db771697cb69837a39e2de15d0a254f58c05b515e2646c473479a882d3ca"
+    },
+    "national-qid-5445712": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "51a708b2befaba6eca6b7d205b943be1217e3e3e9c5f146146a03f15fecd6acd"
+    },
+    "national-qid-5445716": {
+      "topicId": "quantity-wy27-s15",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同底同高、相似及线面体比例关系是关键步骤。",
+      "fingerprint": "4c60f5ead46f03883566ae04322fde767465e42331bae3beeae38b7d11d38729"
+    },
+    "national-qid-5445717": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "82fa691ad4013cb1d322c32e9ae79fd657ca8832320e1695b964aee04795f670"
+    },
+    "national-qid-5445718": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "edce09cef7c5d12d09e0854ceea908fb8249391c5f06c16fedeeb1bf88eb7481"
+    },
+    "national-qid-5445722": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "2c4dfbb3d01db6128065ca22503c6b4d8cd4bbd3094c3f15b630bb67d69da70b",
+      "courseLessonId": "quantity-wy27-s08-drill-01",
+      "courseQuestionId": "quantity-wy27-s08-t02-drill-03"
+    },
+    "national-qid-5445723": {
+      "topicId": "quantity-wy27-s12",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。建立等可能样本空间，按符合条件的情况数除以总情况数求概率。",
+      "fingerprint": "67c4fe7697f88632179b8ba1c52f1aaf8546a92c68a1537930d347d9fb5513a9",
+      "courseLessonId": "quantity-wy27-s12-t01",
+      "courseQuestionId": "quantity-wy27-s12-t01-mother-05"
+    },
+    "national-qid-5445725": {
+      "topicId": "quantity-wy27-s13",
+      "method": "reviewed-curriculum-map",
+      "evidence": "独立事件、条件事件、多步试验或赛事的概率乘加与分类。",
+      "fingerprint": "a8da045b61ac06575965f99e09781ef0a3e744b34ff74763bbb9bc7d228ec2c8"
+    },
+    "national-qid-5445729": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "f155c30e54ddc8cc2f548651fa147082ea7738fb5729b76f0a1f61ef82c4ca5a"
+    },
+    "national-qid-5445731": {
+      "topicId": "quantity-wy27-s07",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。环线相遇追及（含钟表）或匀加速、匀减速运动。",
+      "fingerprint": "f92dedac0afa7bbe0634116c8a86d172bbda7f8de8fa8da3c162b7fc99cd21ad",
+      "courseLessonId": "quantity-wy27-s07-t02",
+      "courseQuestionId": "quantity-wy27-s07-t02-mother-01"
+    },
+    "national-qid-5445739": {
+      "topicId": "quantity-wy27-s15",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同底同高、相似及线面体比例关系是关键步骤。",
+      "fingerprint": "a278f99bec7031a5fccd056ee3262be287bf4b514200656d83766ae2810a04f6"
+    },
+    "national-qid-5445874": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "af91bd578b1c2a468c6414243bdfd15550affdd1d3aa0414a8a7fee50f990d4b",
+      "courseLessonId": "quantity-wy27-s08-drill-02",
+      "courseQuestionId": "quantity-wy27-s08-t02-drill-06"
+    },
+    "national-qid-5445875": {
+      "topicId": "quantity-wy27-s09",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。集合重叠、只参与或同时参与的计数，使用容斥。",
+      "fingerprint": "5085c768d77453bb08c910741f84910d95b798ad2c9aa418a28464b11f2b0cb8",
+      "courseLessonId": "quantity-wy27-s09-drill-01",
+      "courseQuestionId": "quantity-wy27-s09-t03-drill-04"
+    },
+    "national-qid-5445876": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "be790d65dd628349ca30b3ebc3d95a6115e2228f7a1bc6ccacc6d4e126c9bf60",
+      "courseLessonId": "quantity-wy27-s04-t01",
+      "courseQuestionId": "quantity-wy27-s04-t01-mother-02"
+    },
+    "national-qid-5445877": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "a8ba6d78ef8c9cb26a396249e7f5c392e5433819d2ecea38ff5df6b39dfa104d"
+    },
+    "national-qid-5445878": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "ef55492d99f9b041c7d845dff4b3f3616ff36360fa9a97e732c2bf94602fae3a"
+    },
+    "national-qid-5445879": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "badfcc8451f8b41dadf28ed00237e625f38ec60bcb5109429a40d29fd92840f0"
+    },
+    "national-qid-5445880": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "普通行程或直线上的相遇、追及与往返。",
+      "fingerprint": "99ab41a1aa83148fabcf6ae6b5c17c5ed4cc89aa35cc3dd204383a784fa06088"
+    },
+    "national-qid-5445881": {
+      "topicId": "quantity-wy27-s07",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。环线相遇追及（含钟表）或匀加速、匀减速运动。",
+      "fingerprint": "8171d303a0527b19c3f6b1fd498f916295526ccdaf4f8193799c5752ad29ac3f",
+      "courseLessonId": "quantity-wy27-s07-drill-02",
+      "courseQuestionId": "quantity-wy27-s07-t03-drill-08"
+    },
+    "national-qid-5445882": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "add4dac488f9488cbc805edb0c9988f4c6a35dc0d19ea4ab17349382ae06c0d6"
+    },
+    "national-qid-5445926": {
+      "topicId": "quantity-wy27-s15",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同底同高、相似及线面体比例关系是关键步骤。",
+      "fingerprint": "46586e910c7d6cbe34158a74946a565bdc4797ca54b0af1bd114c4b40c554acf"
+    },
+    "national-qid-5445927": {
+      "topicId": "quantity-wy27-s15",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同底同高、相似及线面体比例关系是关键步骤。",
+      "fingerprint": "ad258503bbdf7963492ddd982b25cd83499ed473b02e326ed55dd07ddbf112aa"
+    },
+    "national-qid-5445928": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "f1007b91030349d1521e1c7ea93f1a3e33fa31825eb361c6ab5b41159d799d28"
+    },
+    "national-qid-5445930": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "acc41e274a80a6fd95ffc6c1d5a83fdf8eafccacafc3f91738b36c7fd4bc8a3e"
+    },
+    "national-qid-5445934": {
+      "topicId": "quantity-wy27-s12",
+      "method": "reviewed-curriculum-map",
+      "evidence": "建立等可能样本空间，按符合条件的情况数除以总情况数求概率。",
+      "fingerprint": "aa6fd2a0258694d2b54f7a27adcbde789cbe7160d344b4fb69dce886603a28a3"
+    },
+    "national-qid-5445938": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "344e7c48b046e29402dc6d2552a1c33e78d86ac76cc2fe5c9d0cc948fead1b4c"
+    },
+    "national-qid-5893530": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "5f149ab54f5a915eed5f20964bc4725f2751ea3fde6ae1c683e8182779c4beec",
+      "courseLessonId": "quantity-wy27-s08-t01",
+      "courseQuestionId": "quantity-wy27-s08-t01-practice-02"
+    },
+    "national-qid-5893532": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用特值、混合平均量或十字交叉处理比例关系。",
+      "fingerprint": "089a964d97907f094f2b4aa108ae41a2d8ce71163382db1a52129587d690e176"
+    },
+    "national-qid-5893536": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "3f285c7c18f45fb51d22a2a1c8a3c81b9141f30a162d8c6b2d2e283ffad692fe"
+    },
+    "national-qid-5893539": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "4d3e63e8cc6f443ffa9636f3c2d5db0833197e74f526994b0b43d7c699f2729d"
+    },
+    "national-qid-5893542": {
+      "topicId": "quantity-wy27-s09",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。集合重叠、只参与或同时参与的计数，使用容斥。",
+      "fingerprint": "43e7fc347d0447b69d6c4cc0fc594f402f1875e9ac6df32d23d4c6c4e83da244",
+      "courseLessonId": "quantity-wy27-s09-drill-03",
+      "courseQuestionId": "quantity-wy27-s09-t03-drill-09"
+    },
+    "national-qid-5893551": {
+      "topicId": "quantity-cycles",
+      "method": "reviewed-curriculum-map",
+      "evidence": "按固定周期、星期或日历间隔分析重复出现的位置。",
+      "fingerprint": "c35a4f65f1cc69806269c0a8f1f81baa0afd49513826435581e0196bd46a585b"
+    },
+    "national-qid-5893559": {
+      "topicId": "quantity-wy27-s12",
+      "method": "reviewed-curriculum-map",
+      "evidence": "建立等可能样本空间，按符合条件的情况数除以总情况数求概率。",
+      "fingerprint": "503e6f9c522336091fe7035d2568ce2ff429cd06c2ecd90e2b4d5292afd30b98"
+    },
+    "national-qid-5893562": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "3c48f35d176d4f4fbdf919c018ee4dcfab99b03717f4bc82d38e9cab278d80b5"
+    },
+    "national-qid-5893566": {
+      "topicId": "quantity-wy27-s11",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。将相同数量或不同人员分配给若干对象，区分分组标签及容量限制。",
+      "fingerprint": "953b20e111ae0b39398dde759d4a11bad7f63e023111b26339dc1c80481618e2",
+      "courseLessonId": "quantity-wy27-s11-drill-03",
+      "courseQuestionId": "quantity-wy27-s11-t02-drill-09"
+    },
+    "national-qid-5893586": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "8812f73d176574f5b5d5c785fabc0ee3d75455f8067de6949d62382a33ee60c4"
+    },
+    "national-qid-5893758": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "a378882788d9a526768ec1479409c466b094bc78117ae031931d4e6769ad05ec"
+    },
+    "national-qid-5893759": {
+      "topicId": "quantity-wy27-s12",
+      "method": "reviewed-curriculum-map",
+      "evidence": "建立等可能样本空间，按符合条件的情况数除以总情况数求概率。",
+      "fingerprint": "558c24b3cccaa71e8376517f5b241d77ef5aabb2930ee41a8a598d9346bc8ff3"
+    },
+    "national-qid-5893760": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "29cd6d13d1ef02b835b7cea3a0a5c0e86dfa1fae4549df8c90725bc67ae04b0b"
+    },
+    "national-qid-5893761": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "6ec4a6a91d6c54b63fac4c201ab6aaab7cf5b93f5d687e1368318f92fd8fc7d3"
+    },
+    "national-qid-5893763": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "fa731eeef91dd272941667d877cdfeeb4468328af50f0766d2611e69390a3cd7"
+    },
+    "national-qid-5893774": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "c6f83e8182b6aa3ab22c2618dcb2e4296f6e196718242e118d836d1ea304c4bd"
+    },
+    "national-qid-5893780": {
+      "topicId": "quantity-wy27-s15",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同底同高、相似及线面体比例关系是关键步骤。",
+      "fingerprint": "0f4fb50077d4e02cf35466a838d693a25d0ed3e82b9496f03e5f60c447df68c4"
+    },
+    "national-qid-5893783": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "512d35df5723be26180c5f63fa12856c542489143d2dbaab7e8f1907c428b84f"
+    },
+    "national-qid-5893784": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。普通行程或直线上的相遇、追及与往返。",
+      "fingerprint": "47b09c5efe6f137af4773c23caa76e841ff2df9a6fdec22981dba5df69df1aa9",
+      "courseLessonId": "quantity-wy27-s06-drill-01",
+      "courseQuestionId": "quantity-wy27-s06-t03-drill-02"
+    },
+    "national-qid-5893786": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "bd27180781f765013916cc8118776e0ebf286a11e48770503b63cadce65f8918"
+    },
+    "national-qid-5893787": {
+      "topicId": "quantity-wy27-s11",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。将相同数量或不同人员分配给若干对象，区分分组标签及容量限制。",
+      "fingerprint": "680cbabd49b1ada61de7f84062ab6f1477590a847e01f1b0021c3c164e8be146",
+      "courseLessonId": "quantity-wy27-s11-drill-04",
+      "courseQuestionId": "quantity-wy27-s11-t02-drill-13"
+    },
+    "national-qid-5893789": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "4e72c26c35d0afcc7c316462fdf2ee986b6650634f7ef0c9d1a21ceeb5f2bfc2"
+    },
+    "national-qid-5893827": {
+      "topicId": "quantity-wy27-s07",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。环线相遇追及（含钟表）或匀加速、匀减速运动。",
+      "fingerprint": "49d7ea495c5c62fd03547d7183e0d16963bd467b3501019f48734290ac62ab6e",
+      "courseLessonId": "quantity-wy27-s07-drill-01",
+      "courseQuestionId": "quantity-wy27-s07-t03-drill-02"
+    },
+    "national-qid-5893829": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "b9fb96d73744b7befd165d0fa9c50a4311cb8938f8b1cab8b1f30e18acf4ce6f"
+    },
+    "national-qid-19283725": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "f213c1775d46d2840947d3e2906e6bde96e328e13547c9038816d53dfd38777f",
+      "courseLessonId": "quantity-wy27-s05-drill-01",
+      "courseQuestionId": "quantity-wy27-s05-t02-drill-02"
+    },
+    "national-qid-19283726": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "cf53a4a83dadc305bb0f091c55c33338bc37553d476293aff07267f0a2e9073c"
+    },
+    "national-qid-19283729": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "fd595916b94f0b3dfa96dd233dc6f2cd3ab218ab386b26e065395f52dc5fe1a4"
+    },
+    "national-qid-19283731": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "415de9979387ace0f6096f60d7cb49e83995ad78225d28d9ffb441218f45a888",
+      "courseLessonId": "quantity-wy27-s10-drill-01",
+      "courseQuestionId": "quantity-wy27-s10-t03-drill-01"
+    },
+    "national-qid-19283740": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。普通行程或直线上的相遇、追及与往返。",
+      "fingerprint": "df76e9dbb496b6a8697b748594c62a1e19335a99a05013c7be152b28248c591f",
+      "courseLessonId": "quantity-wy27-s06-drill-02",
+      "courseQuestionId": "quantity-wy27-s06-t03-drill-05"
+    },
+    "national-qid-19283754": {
+      "topicId": "quantity-cycles",
+      "method": "reviewed-curriculum-map",
+      "evidence": "按固定周期、星期或日历间隔分析重复出现的位置。",
+      "fingerprint": "d522b05cd2f640dcb805500ef8604df8cc30d786023793860865a4f59d7f9676"
+    },
+    "national-qid-19283756": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "3a645e55ca4aef5788f68551c96a6644be17fc25bb85e8f7b08b2dcaf6342380",
+      "courseLessonId": "quantity-wy27-s08-drill-02",
+      "courseQuestionId": "quantity-wy27-s08-t02-drill-07"
+    },
+    "national-qid-19283757": {
+      "topicId": "quantity-wy27-s15",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。同底同高、相似及线面体比例关系是关键步骤。",
+      "fingerprint": "136b2fbab3f9d94c96bbd20388ece899242148edc12e603fed07c0dc00e51bcd",
+      "courseLessonId": "quantity-wy27-s15-t01",
+      "courseQuestionId": "quantity-wy27-s15-t01-mother-02"
+    },
+    "national-qid-19283758": {
+      "topicId": "quantity-wy27-s09",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。集合重叠、只参与或同时参与的计数，使用容斥。",
+      "fingerprint": "99b20abb8988b915cb177db8790312d9eb4b6758ef03e671a1f5485e591e4540",
+      "courseLessonId": "quantity-wy27-s09-t02",
+      "courseQuestionId": "quantity-wy27-s09-t02-practice-02"
+    },
+    "national-qid-19283762": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "168cfe0ffd4736d471c391189a36217a60d98d6dc1780899adb28369dae616e5"
+    },
+    "national-qid-19283924": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "36dd4636e2b2bc5fb61b286231dc2ae886a7d700d333da65ff79e17c1c4e1007",
+      "courseLessonId": "quantity-wy27-s10-t01",
+      "courseQuestionId": "quantity-wy27-s10-t01-mother-02"
+    },
+    "national-qid-19283930": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "e3377b65bb67e1d8faaccb75324c64850a480b36dc02714bccf06284c5727121",
+      "courseLessonId": "quantity-wy27-s14-t02",
+      "courseQuestionId": "quantity-wy27-s14-t02-practice-01"
+    },
+    "national-qid-19283932": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "8fd00a51480712f930fe4ba50e17c081250223cbd719d49ead5aeac239630f60"
+    },
+    "national-qid-19283934": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "4eba4e00ebd2ffebe9de6c0271d315c3a5670446e4bcef6eee81820b6baf9078"
+    },
+    "national-qid-19283935": {
+      "topicId": "quantity-wy27-s12",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。建立等可能样本空间，按符合条件的情况数除以总情况数求概率。",
+      "fingerprint": "2c22e689a09ade2076b69bcabb61da23359d5b8f59b93dda81581f904d6aa691",
+      "courseLessonId": "quantity-wy27-s12-t01",
+      "courseQuestionId": "quantity-wy27-s12-t01-mother-04"
+    },
+    "national-qid-19283938": {
+      "topicId": "quantity-wy27-s15",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。同底同高、相似及线面体比例关系是关键步骤。",
+      "fingerprint": "11936d05b050f97656e1eb0dffafaf5a1ba8da4e282671565afec25a88f69a3d",
+      "courseLessonId": "quantity-wy27-s15-drill-02",
+      "courseQuestionId": "quantity-wy27-s15-t03-drill-07"
+    },
+    "national-qid-19283954": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "2bdf1ffa36a790186966c4f2f1b540bd33caed31a4c0ed167ba96806fc0e617f"
+    },
+    "national-qid-19283955": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。用特值、混合平均量或十字交叉处理比例关系。",
+      "fingerprint": "c6a5a73be8f59d721b92863a9ae0eb7f57be3bc03703bec3c23a3e57b5127641",
+      "courseLessonId": "quantity-wy27-s02-t01",
+      "courseQuestionId": "quantity-wy27-s02-t01-practice-01"
+    },
+    "national-qid-19283958": {
+      "topicId": "quantity-wy27-s09",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。集合重叠、只参与或同时参与的计数，使用容斥。",
+      "fingerprint": "022eeea1872cf8b42ad424809fbb63e8fdab776dc052195508bfcafb40c5c75f",
+      "courseLessonId": "quantity-wy27-s09-t01",
+      "courseQuestionId": "quantity-wy27-s09-t01-practice-01"
+    },
+    "national-qid-19283964": {
+      "topicId": "quantity-wy27-s07",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。环线相遇追及（含钟表）或匀加速、匀减速运动。",
+      "fingerprint": "8a49e7b99fa618612f894b38a939993bf1ea3a76ab0385aec44e65ce6b2d6d83",
+      "courseLessonId": "quantity-wy27-s07-drill-01",
+      "courseQuestionId": "quantity-wy27-s07-t03-drill-01"
+    },
+    "national-qid-19283966": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "23ff88ac1af313f3252bc9b3aae6bf4a731bd95b1b881d144aac150fcbc333c9"
+    },
+    "national-qid-19283970": {
+      "topicId": "quantity-cycles",
+      "method": "reviewed-curriculum-map",
+      "evidence": "按固定周期、星期或日历间隔分析重复出现的位置。",
+      "fingerprint": "5fbea3f9d047cec9cc21a84999dbd23fc4689fdfa8f6dd33487664d83b05647b"
+    },
+    "national-qid-19526236": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "1ee02601265bb784059f8be0afaf45c3897b641f76dbc4df224a4fce740fd3fc",
+      "courseLessonId": "quantity-wy27-s08-t01",
+      "courseQuestionId": "quantity-wy27-s08-t01-mother-04"
+    },
+    "national-qid-19526237": {
+      "topicId": "quantity-wy27-s11",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。将相同数量或不同人员分配给若干对象，区分分组标签及容量限制。",
+      "fingerprint": "b41515b2cdfb352a4a58b228477150ffea2740bc296bd907a90d5e475ebb3f3e",
+      "courseLessonId": "quantity-wy27-s11-t01",
+      "courseQuestionId": "quantity-wy27-s11-t01-mother-06"
+    },
+    "national-qid-19526239": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。普通行程或直线上的相遇、追及与往返。",
+      "fingerprint": "d2fe00e1edb3eb01e59c87f9915ef5eb06c516af4b2e7b52e4eebe6f3ffd2bc4",
+      "courseLessonId": "quantity-wy27-s06-t01",
+      "courseQuestionId": "quantity-wy27-s06-t01-mother-02"
+    },
+    "national-qid-19526259": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "06870a131438132da979fc715447798ab2d4431c92a6821aa28fb3d40975e1e1"
+    },
+    "national-qid-19526285": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "ae0cc86af950016ec455641f7ca2a2aefed6052406e04022a886bdc569a20014",
+      "courseLessonId": "quantity-wy27-s01-drill-01",
+      "courseQuestionId": "quantity-wy27-s01-t03-drill-03"
+    },
+    "national-qid-19526316": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "57188fc2a55ee8189d714c212cb44a5426df2afae7e7f1b42d74cd4b881ced6c"
+    },
+    "national-qid-19526319": {
+      "topicId": "quantity-wy27-s12",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。建立等可能样本空间，按符合条件的情况数除以总情况数求概率。",
+      "fingerprint": "04322f8a0c5be05a49322b2cebbff4069a55ba4488d9985acdae7b459e8d302c",
+      "courseLessonId": "quantity-wy27-s12-t01",
+      "courseQuestionId": "quantity-wy27-s12-t01-mother-02"
+    },
+    "national-qid-19526325": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "46085b645c60f4cfd4399f91a951b29d521c27f007be06d44707cd54226564a5"
+    },
+    "national-qid-19526328": {
+      "topicId": "quantity-cycles",
+      "method": "reviewed-curriculum-map",
+      "evidence": "按固定周期、星期或日历间隔分析重复出现的位置。",
+      "fingerprint": "5264445eb4527f1c553495cf5da5a2b0496eb8a12b674d4595e6b3bca259e323"
+    },
+    "national-qid-19526340": {
+      "topicId": "quantity-wy27-s15",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。同底同高、相似及线面体比例关系是关键步骤。",
+      "fingerprint": "2c450b8633198ab869e80e963ea187985d055fd9bc9fe9773711a9f4b375cdad",
+      "courseLessonId": "quantity-wy27-s15-t02",
+      "courseQuestionId": "quantity-wy27-s15-t02-mother-01"
+    },
+    "national-qid-19526357": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "187ff14eb2b238c145c77bdfe8ff5db79c9dc4f304b668dfb27052164d7c381d",
+      "courseLessonId": "quantity-wy27-s01-t01",
+      "courseQuestionId": "quantity-wy27-s01-t01-mother-04"
+    },
+    "national-qid-19526358": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。用特值、混合平均量或十字交叉处理比例关系。",
+      "fingerprint": "cd5417712a4d8f44ec6a38b692abfe741787ca253449ff2a6797ed944d3b7fc5",
+      "courseLessonId": "quantity-wy27-s02-t02",
+      "courseQuestionId": "quantity-wy27-s02-t02-mother-01"
+    },
+    "national-qid-19526360": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用特值、混合平均量或十字交叉处理比例关系。",
+      "fingerprint": "64347130f676f25627fc9e2ed6d80231dfab2c7d273f60bc1dd295b2b52e28fa"
+    },
+    "national-qid-19526403": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "604b95eb0b17cb78c4204fb59e057ff84a70562813fff21186c4f4e36195ff37"
+    },
+    "national-qid-19526419": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "4eb5c73439980b3db0e8fd356146f7b527f59fcbc0808cb69ea44888a3fa5a02",
+      "courseLessonId": "quantity-wy27-s03-t01",
+      "courseQuestionId": "quantity-wy27-s03-t01-mother-01"
+    },
+    "national-qid-19526420": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "8e5d4019ce2f24ecd614973f72450f3dfc8c30431a29a345ffa4375982734018",
+      "courseLessonId": "quantity-wy27-s05-t01",
+      "courseQuestionId": "quantity-wy27-s05-t01-mother-05"
+    },
+    "national-qid-19526421": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "78819d22173231eafe6360e547d015b8a1ccdfe7c99044625676d6d3ad13329c",
+      "courseLessonId": "quantity-wy27-s08-drill-02",
+      "courseQuestionId": "quantity-wy27-s08-t02-drill-05"
+    },
+    "national-qid-19526422": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。普通行程或直线上的相遇、追及与往返。",
+      "fingerprint": "fcbcb919fe016c7ca45cd4c4a1ad349d0aa75a9d5227ca678dbc3fb99ea06023",
+      "courseLessonId": "quantity-wy27-s06-t01",
+      "courseQuestionId": "quantity-wy27-s06-t01-practice-01"
+    },
+    "national-qid-19526423": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "ccbe7aeb1b2ff2c26afcd9fe4d743304f7984a695819ffb716e3217ae1442c6b",
+      "courseLessonId": "quantity-wy27-s14-drill-02",
+      "courseQuestionId": "quantity-wy27-s14-t03-drill-05"
+    },
+    "national-qid-19526424": {
+      "topicId": "quantity-wy27-s13",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。独立事件、条件事件、多步试验或赛事的概率乘加与分类。",
+      "fingerprint": "005744a5bf16688d346802c3a6cad0a3bd5ce541d29f351344d34c3a698072af",
+      "courseLessonId": "quantity-wy27-s13-t01",
+      "courseQuestionId": "quantity-wy27-s13-t01-mother-02"
+    },
+    "national-qid-19526425": {
+      "topicId": "quantity-wy27-s07",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。环线相遇追及（含钟表）或匀加速、匀减速运动。",
+      "fingerprint": "11f4270d9d5922fc0925f71da479a8192c93ee76d6c52b9f5cf35a050711da86",
+      "courseLessonId": "quantity-wy27-s07-t01",
+      "courseQuestionId": "quantity-wy27-s07-t01-practice-03"
+    },
+    "national-qid-19526426": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "84e3fd4f0bad0345d25f993d0a309d429e1b54b0ddd2dac9495adf120455efc6",
+      "courseLessonId": "quantity-wy27-s04-t01",
+      "courseQuestionId": "quantity-wy27-s04-t01-practice-03"
+    },
+    "guangdong-qid-2047704": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "3751ac8f82c1fa4dc6e8f51855cccd1629dc97b971f95f4aca49c75d76857f04"
+    },
+    "guangdong-qid-2047714": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "7d4348bb398aad9aa4402e1d3cc34e3d0e2fd02d68fe528f5f9650c1be366c32"
+    },
+    "guangdong-qid-2047726": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "a885bda9105810e3bd90efc28e8a141f2e13a32a5fa6f3811f40aea73e5f4dc7"
+    },
+    "guangdong-qid-2047740": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "e665eaadecae3bb661d9fe3343720b7290b229758637f1706214eea605f7fd1a"
+    },
+    "guangdong-qid-2047756": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "866f55cb671570e61aad31195e3f5cb48087046a722831d90fe59f76ddab8981"
+    },
+    "guangdong-qid-2047770": {
+      "topicId": "quantity-wy27-s15",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同底同高、相似及线面体比例关系是关键步骤。",
+      "fingerprint": "dd700c27b7a1f438fbac11236d6a241d0c110f378d03ddef26bc2f78131ddfa4"
+    },
+    "guangdong-qid-2047780": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "0f889d073cb921f64c2c6f1a1ca12b5735623769406d5ead12e683960c609da7"
+    },
+    "guangdong-qid-2047784": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "d78ae6c3c5688d59507342f23552506d8229f6f650d07e8ca00c9127c6fb448d"
+    },
+    "guangdong-qid-2047786": {
+      "topicId": "quantity-wy27-s07",
+      "method": "reviewed-curriculum-map",
+      "evidence": "环线相遇追及（含钟表）或匀加速、匀减速运动。",
+      "fingerprint": "7152017739cae7469c1d74b89626b89be25d0b3f1a4e5fee5c2550ba7f5f7ef5"
+    },
+    "guangdong-qid-2047788": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "5b7e924784e4412ebc3882e5c8e0be24010264213bbf8fa3c4738df32ed35434"
+    },
+    "guangdong-qid-2047792": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用特值、混合平均量或十字交叉处理比例关系。",
+      "fingerprint": "d9c6b1748e46bbf518217f221c3ce2a6779274a36ac473ae9c9be78b62810a76"
+    },
+    "guangdong-qid-2047796": {
+      "topicId": "quantity-wy27-s09",
+      "method": "reviewed-curriculum-map",
+      "evidence": "集合重叠、只参与或同时参与的计数，使用容斥。",
+      "fingerprint": "524f58c5c400c4396424fffb5f55ba9e8d8a5b7ca0d8f2f82831e5c0499d207b"
+    },
+    "guangdong-qid-2047798": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "6d20538d910e0f434d0f0ff5e681334ef034bd2c093bb390593dddda66fc2b28"
+    },
+    "guangdong-qid-2047800": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "2fa1125ad407d246e203001b0fe8927978efa60b900b7a55324077f3431a5791"
+    },
+    "guangdong-qid-2047802": {
+      "topicId": "quantity-intervals",
+      "method": "reviewed-curriculum-map",
+      "evidence": "识别封闭或开放路径，按端点与间隔计数，并处理重合点。",
+      "fingerprint": "3e29a499aa74f079306fcaa512acead99c92a57dd52d7c834c25595e42007044"
+    },
+    "guangdong-qid-2185088": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "4ed2bdbc51aa63bc4b123beabd2ecf789ebe02f763fbeb66bb93fd616fa2bc06"
+    },
+    "guangdong-qid-2185089": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "b9026ca7e546a880bcd5f4069622ad26025cffe8d865e8caecd4260dd81651af"
+    },
+    "guangdong-qid-2185090": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "b2cd5136ffa15f2e09f4a29bf6979fc685e9aebb04a669520551ce701e6cd0d6"
+    },
+    "guangdong-qid-2185093": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "08b77ec3dae165c9dee748008bbd3a9b74de74add97e3eb5eec442ecc473ca92"
+    },
+    "guangdong-qid-2185101": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "8c6f28785fc7febbbb9438e01bf34c3aa1d0ae477f81f616d1b4729fa6551433"
+    },
+    "guangdong-qid-2185111": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "edf1ea0472f5e403506e3e9e9d2fff91ebf044a54eb0718bd95a822086cab15d"
+    },
+    "guangdong-qid-2185114": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "普通行程或直线上的相遇、追及与往返。",
+      "fingerprint": "2a249edd954522ad53dee46da521a21c3796c0f7454c11825812e52c339f4506"
+    },
+    "guangdong-qid-2185128": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "fba1b9476b4b3594337418133af218ce3785becb139dc77c2052250b2f0870ed"
+    },
+    "guangdong-qid-2185133": {
+      "topicId": "quantity-wy27-s15",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同底同高、相似及线面体比例关系是关键步骤。",
+      "fingerprint": "22ef423718f64b06b0541bcf83d71547c46eb31900b922e1931b5415e2a58399"
+    },
+    "guangdong-qid-2185138": {
+      "topicId": "quantity-basic",
+      "method": "reviewed-curriculum-map",
+      "evidence": "依题意进行基础四则运算、单位换算或取整，无需专门模型。",
+      "fingerprint": "203f5b560bb72f46252e0543ef371950b4afaac21cd9f55f38b4681635ea4865"
+    },
+    "guangdong-qid-2185069": {
+      "topicId": "quantity-cycles",
+      "method": "reviewed-curriculum-map",
+      "evidence": "按固定周期、星期或日历间隔分析重复出现的位置。",
+      "fingerprint": "79fee436ce74c4cf4a072da6b02b1890c67aff45485c47d3a218179a3a76f5c0"
+    },
+    "guangdong-qid-2185077": {
+      "topicId": "quantity-wy27-s09",
+      "method": "reviewed-curriculum-map",
+      "evidence": "集合重叠、只参与或同时参与的计数，使用容斥。",
+      "fingerprint": "7efe1689c4991791996f5af68c1ee2d6e6897b8539d962da2189e012ddfeb395"
+    },
+    "guangdong-qid-2185080": {
+      "topicId": "quantity-planning",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用枚举、极端情况或统筹安排解决离散数学问题，当前课程没有直接同名模块。",
+      "fingerprint": "22425564b518958b3ae3fee1dc483abfd82898e9c0f0a1b5d8da8a390afefe6a"
+    },
+    "guangdong-qid-2185082": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "d77921b98f92db062e0f8fed6329f2f0872ce4e28201c04db23bc7105cf6bd94"
+    },
+    "guangdong-qid-2185084": {
+      "topicId": "quantity-planning",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用枚举、极端情况或统筹安排解决离散数学问题，当前课程没有直接同名模块。",
+      "fingerprint": "89fc86a4b1df211b98b8d3b94d3c601eaccd8b6d8b0e7aa583f6889b1f07715b"
+    },
+    "guangdong-qid-2374845": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "4221814868f70f70cc5cdf99e2dffecf9f35a02813a9752bb5608311025d6a5d"
+    },
+    "guangdong-qid-2374847": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "66f24d69fb1f6c4ed9df135192df100c7cf6697905e91184ffd815df00f6af73"
+    },
+    "guangdong-qid-2374848": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "6a61b025af58315dcd065a1a6989e5b6c3ea535b9b797efc30e167788f3e7d4b"
+    },
+    "guangdong-qid-2374849": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "466c6a97f151d3ae17da6743763a6178d48e8c2a07b2580d3977077f907c0541"
+    },
+    "guangdong-qid-2374850": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "1f53b32f2cec645233ff5f511197c463a3cb22cba30457c4af4c49ebf367bd5a"
+    },
+    "guangdong-qid-2374851": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "72d32a1619f50c45bd6516de021bd24f441be12115d2035ecbe5aad9fab4f35d"
+    },
+    "guangdong-qid-2374704": {
+      "topicId": "quantity-intervals",
+      "method": "reviewed-curriculum-map",
+      "evidence": "识别封闭或开放路径，按端点与间隔计数，并处理重合点。",
+      "fingerprint": "066cc22bd9bed69abbae2de6335bac788e2fc3f57ef6aff0785bc88f84754431"
+    },
+    "guangdong-qid-2374838": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "60a76a4634d229fee8e205e94a100474127beb0d282890a7f4cf8f9acbfd6799"
+    },
+    "guangdong-qid-2374840": {
+      "topicId": "quantity-basic",
+      "method": "reviewed-curriculum-map",
+      "evidence": "依题意进行基础四则运算、单位换算或取整，无需专门模型。",
+      "fingerprint": "e67f7cd5c93bf384d237f82e4dd3c012e5fb359fc801b6c5c1bf79404316736e"
+    },
+    "guangdong-qid-2374841": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。用特值、混合平均量或十字交叉处理比例关系。",
+      "courseLessonId": "quantity-wy27-s02-drill-02",
+      "courseQuestionId": "quantity-wy27-s02-t03-drill-06",
+      "fingerprint": "babb9f1fbdefa95675b865fb04bc5d1fbc2eeed8ddfc0b21a77ecbb80497ec00"
+    },
+    "guangdong-qid-2374842": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "5c997c946ca620a4af677437bb8f29e8e7823e1e95be27572d8fac0203293a1a"
+    },
+    "guangdong-qid-2374734": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "add0b37baa80fd18e9815aae675ecf9a4a9b875e210dd006d94172b8b4ef2d75"
+    },
+    "guangdong-qid-2374712": {
+      "topicId": "quantity-wy27-s07",
+      "method": "reviewed-curriculum-map",
+      "evidence": "环线相遇追及（含钟表）或匀加速、匀减速运动。",
+      "fingerprint": "fbb79d70809890250256c7ab4b2a250f68de98cf5a6bf4c03090e4820a63b3c5"
+    },
+    "guangdong-qid-2374844": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "普通行程或直线上的相遇、追及与往返。",
+      "fingerprint": "3569d4cdc665fd3c6efccc4f178383bc589d5f1eb02675ad2e2befdf23c3a617"
+    },
+    "guangdong-qid-2374846": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "9e427fa7f83a63c4a714a5d7891f8c5eaee1cf566d86bca74f9a41486bf4d429"
+    },
+    "guangdong-qid-2374677": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "2605ac9d9ca0036b6456424224e76d164661cf7d0864b09549cbbe464cb6672c"
+    },
+    "guangdong-qid-2374681": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "9f03a350ac6c4b4311ae89a491da1674a1695a85666ed8be40cb320aed7d3e65"
+    },
+    "guangdong-qid-2374684": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "22de3f708b84ce1da16acbd7572cdeea9fea789d6db8463972a060853c3f43cc"
+    },
+    "guangdong-qid-2374686": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "4fc8f89518fad7388c1ce5fc4242268720f592f4ba384dc3f25521cd5fc71868"
+    },
+    "guangdong-qid-2374702": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "af0483ee584f2fbfccff6bdd9a68cd9420d697448c2f365ac07b41a9d0499cc9"
+    },
+    "guangdong-qid-2374709": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "6c83b937e4d024b79f30fe04ddc47a710e843e4198be7a0a1268e59acb3a6fd0"
+    },
+    "guangdong-qid-2374715": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "239be1937c2d795f8c2b94f8e80973453723bea22999a490ae9c7967455167e5"
+    },
+    "guangdong-qid-2374731": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用特值、混合平均量或十字交叉处理比例关系。",
+      "fingerprint": "be2076ee79a0b73776eb51299685461fb92c344e5cfd4cf369a83ec80687e7b0"
+    },
+    "guangdong-qid-2374733": {
+      "topicId": "quantity-cycles",
+      "method": "reviewed-curriculum-map",
+      "evidence": "按固定周期、星期或日历间隔分析重复出现的位置。",
+      "fingerprint": "e4ccb09bd0c81041064c9593f56844b0a35e12552fbc19fb6319bc8d01b6a1b1"
+    },
+    "guangdong-qid-2374735": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "e161bf8dc153756a1aa1d6b9aa9b1294c396d1bd5ef8ff124ac43cec732c4b42"
+    },
+    "guangdong-qid-2374737": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "1fe74eb98e9e41b295b2df7883c94eec158ecaec3c57c475761b118d1c9b0440"
+    },
+    "guangdong-qid-2374739": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "14b6b11fb4a7a5cf198d210d1e9c786e92c7e900180bb17f9d2d3871b5accb28"
+    },
+    "guangdong-qid-2604259": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "07d2ba05b2824ad728c257f790cc8bb59ee4f08c7170381d33eee3300a8e9b0b"
+    },
+    "guangdong-qid-2604267": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "0eaf6eb3ea6d6aded0122a601288cc7d41bb89d9f1a2d021829f80b9404ec51e"
+    },
+    "guangdong-qid-2604230": {
+      "topicId": "quantity-planning",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用枚举、极端情况或统筹安排解决离散数学问题，当前课程没有直接同名模块。",
+      "fingerprint": "5caa433e7158405ed4fc059d1221ade8dfb87b6e2651b4311284866c4b9407e4"
+    },
+    "guangdong-qid-2604239": {
+      "topicId": "quantity-intervals",
+      "method": "reviewed-curriculum-map",
+      "evidence": "识别封闭或开放路径，按端点与间隔计数，并处理重合点。",
+      "fingerprint": "6936e40839da834bcd991b4d29d37b6174f44f29552bee494b1c4a337e0bd455"
+    },
+    "guangdong-qid-2604252": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用特值、混合平均量或十字交叉处理比例关系。",
+      "fingerprint": "5b8bb5a1fbb444a0f2edf366e5747f0ffbbd1ef96f2a03733bca4b9d330a3a20"
+    },
+    "guangdong-qid-2604260": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "d80ed27561fb70feb8f00eac1977fe66c2ac0f920771d69bec1b90a1de0c87bf"
+    },
+    "guangdong-qid-2604271": {
+      "topicId": "quantity-wy27-s12",
+      "method": "reviewed-curriculum-map",
+      "evidence": "建立等可能样本空间，按符合条件的情况数除以总情况数求概率。",
+      "fingerprint": "9fa6c2f74af495750a28ab606a9ba49c41c0bbd50dab6b3d7e653aaad3d65a1d"
+    },
+    "guangdong-qid-2604354": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用特值、混合平均量或十字交叉处理比例关系。",
+      "fingerprint": "b9235a577fc1b2578526bb8a25503088031ce9e45e32cb5b4fa80f313216f4cf"
+    },
+    "guangdong-qid-2604355": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "e3e1eba6aa9f2c2661eb7b0531ac4b60e5f76dfe58c0293afd49c0a3ffbdb407"
+    },
+    "guangdong-qid-2604356": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "3eb69e28b9c5c21c85a54efbf878cc1374358880697fc092a7b1a733e6948680"
+    },
+    "guangdong-qid-2604357": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "a86b2b7ac0702e30fbd7b49f4efa0722bf599444ec0e32647c46d64b6fba6b91"
+    },
+    "guangdong-qid-2604358": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "普通行程或直线上的相遇、追及与往返。",
+      "fingerprint": "c58b5df57eca713f35c96f08f27ab0c80103ae8c41c52a65b649514e33fe3e02"
+    },
+    "guangdong-qid-2605816": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "cf8f48790b42ff76aee761aebf2cdd0b2f780d47d701b35412cdac0f42b39436"
+    },
+    "guangdong-qid-2605829": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "47cba476d4e3749160d522e15ad93e4511ee2f6292fc6425dc3cdc7d12817c2f"
+    },
+    "guangdong-qid-2605836": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "129ab8a8ba0bbc47ebb73ee03e84920c5c9de1287399bb5c943ab8242348a059"
+    },
+    "guangdong-qid-2605831": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "acac52caf0d27da43d61e7877ca0e791b3c1bcc4870bc482a99b21408b53bbf6"
+    },
+    "guangdong-qid-2605834": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "9a30403e27c54c9286c3277213fa61fbddea48484cd715aa56fde4c947332a75"
+    },
+    "guangdong-qid-3018896": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "86fd3810754820cedf0e6df1d5ea30ebba6fb55e06ad2755332997d11d03f8b0"
+    },
+    "guangdong-qid-3019121": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "82bbddb85fd1459dc70000c5fee4e24ba08d1076a8a4d154fd065bc653ffbd3b"
+    },
+    "guangdong-qid-3019113": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "56eed41cb9f6dbf66fd466827a555a069f8d11264b4a79bb75cecef35bff5286"
+    },
+    "guangdong-qid-3018898": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "6a2ac64d056d3b83253fc8d4a718d69ac42aeacd49c1871a9a8f3ece60cbfff0"
+    },
+    "guangdong-qid-3019125": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "普通行程或直线上的相遇、追及与往返。",
+      "fingerprint": "18797b2f964ab08e20f93f4bd0dcf01c387fc6ea77334133eb06aa5b36adb2b2"
+    },
+    "guangdong-qid-3019131": {
+      "topicId": "quantity-cycles",
+      "method": "reviewed-curriculum-map",
+      "evidence": "按固定周期、星期或日历间隔分析重复出现的位置。",
+      "fingerprint": "546ec857723ad5ba3b1b29d184741d404d4dae6ebb5f1517d73d648941bbc293"
+    },
+    "guangdong-qid-3018799": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "342eb1d43ca2f30e18bee323e820d938f6089dc45d0989d9d4ea94b41987de69"
+    },
+    "guangdong-qid-3019118": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "b8d5a57bef3ac77a3c2651f9d21637e4b2e542f534743c46c6b43ebc1f1bdbdd"
+    },
+    "guangdong-qid-3018772": {
+      "topicId": "quantity-wy27-s11",
+      "method": "reviewed-curriculum-map",
+      "evidence": "将相同数量或不同人员分配给若干对象，区分分组标签及容量限制。",
+      "fingerprint": "d19d729f16e945f6419016b5e52aa835899757a05acf33e42c6655ce254950b5"
+    },
+    "guangdong-qid-3019123": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "c6c6b2d54b2a24cd80677577d848ed9d6ebb7d2fdc0358dfabe91d3f9db003bb"
+    },
+    "guangdong-qid-3018813": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "15cebdecab58633a9f0abd506f8f4b1eb5b0433aff47537f539354401ae65a4a"
+    },
+    "guangdong-qid-3018899": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "courseLessonId": "quantity-wy27-s05-drill-02",
+      "courseQuestionId": "quantity-wy27-s05-t02-drill-05",
+      "fingerprint": "3d871c6ca44ec017a021cbbd12d071ffeb23191d3165cab33546e4c8cada4fc8"
+    },
+    "guangdong-qid-3018901": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "43e4c93af60cbf4a0693c410e9efe84130281c775e9233dc1cf8bd56fce2ca46"
+    },
+    "guangdong-qid-3018767": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "普通行程或直线上的相遇、追及与往返。",
+      "fingerprint": "d6665cbec95d1d0e5c60a1d28bea3da1c0ced614e740a6f70c75714e3b4a9a06"
+    },
+    "guangdong-qid-3018779": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "a22b20b26393568da003f9fbc24a6c54e9a8b3a4699fc67ebefd7f6a285dda39"
+    },
+    "guangdong-qid-3018791": {
+      "topicId": "quantity-cycles",
+      "method": "reviewed-curriculum-map",
+      "evidence": "按固定周期、星期或日历间隔分析重复出现的位置。",
+      "fingerprint": "72d49b9be71b07c7ce6c460d70379b3766924eef6a023c8d1c438889a24d0449"
+    },
+    "guangdong-qid-3018819": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "普通行程或直线上的相遇、追及与往返。",
+      "fingerprint": "5edd172c121c8751cd44f78063692430cb4f0477c1b3bbcdc73763a0ada1f08f"
+    },
+    "guangdong-qid-4673215": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "a3b40e1159a39107c85b328a82f8dc78f0588ede59e771a781b86c2874340ac9"
+    },
+    "guangdong-qid-2188879": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "56b27a58a532fc62f9fd243fed75f5150ea98f3ec1ff5f1b8ac0e46aa56789e2"
+    },
+    "guangdong-qid-4673218": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "5aa2924e89d2a3abf530beddaa36ed6bde5e45c62036251a1b9b041500075ae6"
+    },
+    "guangdong-qid-4673231": {
+      "topicId": "quantity-wy27-s12",
+      "method": "reviewed-curriculum-map",
+      "evidence": "建立等可能样本空间，按符合条件的情况数除以总情况数求概率。",
+      "fingerprint": "360e9207e641ed472c94cf288311e590b09d6dd1b02830172556a8424260cfd8"
+    },
+    "guangdong-qid-4673232": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "普通行程或直线上的相遇、追及与往返。",
+      "fingerprint": "ad68236767fa39988bc102eae6c71102877f425b7ea40988660822d77a80fdee"
+    },
+    "guangdong-qid-4673233": {
+      "topicId": "quantity-basic",
+      "method": "reviewed-curriculum-map",
+      "evidence": "依题意进行基础四则运算、单位换算或取整，无需专门模型。",
+      "fingerprint": "b877770df9b43262184d1c6a939e5706d42a4b669ba4f6d563e304bea9b81f6e"
+    },
+    "guangdong-qid-4673228": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "1003574988102e1dd4bae74d4d9ef1469a9413db5c532c55ae97778c6c111e79"
+    },
+    "guangdong-qid-4673157": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "51e00fce139f5ee375216ee6b042af08743958aa3fe7a06914e5d83c25b6c56a"
+    },
+    "guangdong-qid-4673165": {
+      "topicId": "quantity-wy27-s09",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。集合重叠、只参与或同时参与的计数，使用容斥。",
+      "courseLessonId": "quantity-wy27-s09-drill-01",
+      "courseQuestionId": "quantity-wy27-s09-t03-drill-02",
+      "fingerprint": "0ad3f119ec45abac08c4e720514e3dbe8196ddeaedc4d9bbf302f9384d105a3b"
+    },
+    "guangdong-qid-4673160": {
+      "topicId": "quantity-wy27-s11",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。将相同数量或不同人员分配给若干对象，区分分组标签及容量限制。",
+      "courseLessonId": "quantity-wy27-s11-t01",
+      "courseQuestionId": "quantity-wy27-s11-t01-mother-03",
+      "fingerprint": "f3c5bb19e08328ae766026eab6d3db4852f1ed26cc28573f2ff74379eaa8fce2"
+    },
+    "guangdong-qid-4673118": {
+      "topicId": "quantity-intervals",
+      "method": "reviewed-curriculum-map",
+      "evidence": "识别封闭或开放路径，按端点与间隔计数，并处理重合点。",
+      "fingerprint": "390868fa6c0fa174ab12fad4ce5ae3c35d10ab5911f390ce6fb9f53ea292ea7a"
+    },
+    "guangdong-qid-4673196": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "3de2373c70c830e15392a9c610fb3f73d4c40e5c7f19d70ae618af002df1723c"
+    },
+    "guangdong-qid-4673197": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "048628ad0a846a225d45cbaf723da09cbce7d5326e52be9a851174cc920a969c"
+    },
+    "guangdong-qid-4673194": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "2834315b7a9f6202121945cde7be486527aa6ba31016d7ae5f4f535783515bf5"
+    },
+    "guangdong-qid-4673156": {
+      "topicId": "quantity-basic",
+      "method": "reviewed-curriculum-map",
+      "evidence": "依题意进行基础四则运算、单位换算或取整，无需专门模型。",
+      "fingerprint": "ab4daa3430ff9bef2033c4102048d2a92c5fa6691fe689ac889363115d960e9b"
+    },
+    "guangdong-qid-4673151": {
+      "topicId": "quantity-wy27-s12",
+      "method": "reviewed-curriculum-map",
+      "evidence": "建立等可能样本空间，按符合条件的情况数除以总情况数求概率。",
+      "fingerprint": "58f336e1fcbe8bdee9db93c4c97b174b36ac5859b6d1bbfcf533faf60d2bc58c"
+    },
+    "guangdong-qid-4673120": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "30ee0fdb3e84ed36213fa40795d86d19d68cd56066db057d0c49389b7a576ed4"
+    },
+    "guangdong-qid-4673122": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "0063ca83e63ca050986159d9d69515b101037bcfcce7248bcfcf8e580e2d0407"
+    },
+    "guangdong-qid-4673125": {
+      "topicId": "quantity-wy27-s15",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同底同高、相似及线面体比例关系是关键步骤。",
+      "fingerprint": "be35bad0a634bbe9674c62c9a51994e118c6c812891cae66a08ec9bc7d8dfaa0"
+    },
+    "guangdong-qid-4673136": {
+      "topicId": "quantity-wy27-s04",
+      "method": "reviewed-curriculum-map",
+      "evidence": "等差数列求和，或在总量约束下求数量最值。",
+      "fingerprint": "afa81bdd7190345adbe6ad20da62c888092150d95ae164eb072899a6cd2e91a6"
+    },
+    "guangdong-qid-5514806": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "df1ec3e6b14161ec246e55f4b3a4c0f6b46ee781b5d536711c1a4dcc84891c86"
+    },
+    "guangdong-qid-5514778": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "c25a11d39e215b40b40de0b709f46c15283728decca0945095325a48a6789b9c"
+    },
+    "guangdong-qid-5514865": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "975e6754a76ac2b6195544112e2138577e7416d845c13da3342230a67ddf3b5b"
+    },
+    "guangdong-qid-5510215": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "courseLessonId": "quantity-wy27-s01-t01",
+      "courseQuestionId": "quantity-wy27-s01-t01-mother-02",
+      "fingerprint": "c60fe0f6b25863ac51a012e7bc474f742bea33c086e0d7911803123b8d2453ca"
+    },
+    "guangdong-qid-5514819": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "b0112479d9628d8b411905f105a2e9cce0de85629de9b69875809d75b0ac60cd"
+    },
+    "guangdong-qid-5514823": {
+      "topicId": "quantity-cycles",
+      "method": "reviewed-curriculum-map",
+      "evidence": "按固定周期、星期或日历间隔分析重复出现的位置。",
+      "fingerprint": "56c0dcac485e657ec6c35e00d357f3c21402768b96bc9a4f29108828754af59c"
+    },
+    "guangdong-qid-5514817": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "f8a7d434fd6e35bdaaf25f3b1aec2de1a6acebf2d10a56fb413915b47a3b598c"
+    },
+    "guangdong-qid-5510218": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "8ef7cd0bc55d30e68c2818b6af2782710b7e04e1e765929ef4d35f939a65139a"
+    },
+    "guangdong-qid-5510217": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "f83521503d82a022e2dc5ef89888f2c2d9bf3d6020e856c54fa812f707d73f65"
+    },
+    "guangdong-qid-5510224": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "1c544acd54d1e1a7141f36651603f139bc325586d16523ab004d954687383e2e"
+    },
+    "guangdong-qid-5510219": {
+      "topicId": "quantity-wy27-s09",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。集合重叠、只参与或同时参与的计数，使用容斥。",
+      "courseLessonId": "quantity-wy27-s09-drill-01",
+      "courseQuestionId": "quantity-wy27-s09-t03-drill-03",
+      "fingerprint": "3544f5041fbe4b025dcd109d4e7c462ccf9e88149ce60dae3aed5e6cecae4f70"
+    },
+    "guangdong-qid-5514820": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "e18c2f99fd95d1fca1d6f3a61d248fe2a8ecf7a157d875fe4fad3ed38e5f5401"
+    },
+    "guangdong-qid-5514821": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "普通行程或直线上的相遇、追及与往返。",
+      "fingerprint": "d32a03113d21ed7bfef98911595ef60cfec38b680a16b2a7944e1782b3a25801"
+    },
+    "guangdong-qid-5510254": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "cbabdd708173acd64b9530f3553b3956388bfe74850fd8b5edabdd4e2919621e"
+    },
+    "guangdong-qid-5510263": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "e2809396b6ee3dfea35d66fd4012c0e18e173942f672119b69b98e9468d66460"
+    },
+    "guangdong-qid-5510210": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "3cc2023b44df35f3e21356d1ef93e242f1c57c2ee254381e5f5cecb5533e3505"
+    },
+    "guangdong-qid-5510211": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "7b1dd9654e1c975d23076123aac576032c03e8c27343f6a544a967c24e28cb59"
+    },
+    "guangdong-qid-5510213": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "fingerprint": "24ca314fcfa69d763bac046d5c673d4efe8d179c5cb1e73475831c421119a7f5"
+    },
+    "guangdong-qid-5510214": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "3b260356aa02804391a4fd0b7a41274463405eaad90070b107ba38485c443192"
+    },
+    "guangdong-qid-5510216": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。普通行程或直线上的相遇、追及与往返。",
+      "courseLessonId": "quantity-wy27-s06-t01",
+      "courseQuestionId": "quantity-wy27-s06-t01-mother-03",
+      "fingerprint": "a282f66603dc40df989388284c4ee9ee8399888c9e6a9204a162999509dc6f46"
+    },
+    "guangdong-qid-5510220": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "e39a3c750df4fc46b140f9d74c90c3545c3716c35e893a9b97c39337f14355a1"
+    },
+    "guangdong-qid-5510222": {
+      "topicId": "quantity-cycles",
+      "method": "reviewed-curriculum-map",
+      "evidence": "按固定周期、星期或日历间隔分析重复出现的位置。",
+      "fingerprint": "daedbadd3f8431da28c991b499c5babc766117ecfedde3448b37d9b61d87f62a"
+    },
+    "guangdong-qid-16593265": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "1be7c021fa15d57ba2a3cf3ad4b0245e0d408be64382618acd12f76b37ab5bb4"
+    },
+    "guangdong-qid-16593248": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "8b3fb5671126309031ed287a0f6719494b00a368d40e8bf4bb2902a36b6acf1c"
+    },
+    "guangdong-qid-16593279": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "17c7169bf0900274cb3ebf4e49ce53784117bc7765010b8cd91393754625132e"
+    },
+    "guangdong-qid-16593275": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "e279f90c98a21e31a6f166300ac4d47cab60fc5d019cc80e8988ae81ac4df093"
+    },
+    "guangdong-qid-16593261": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "208a6b99367287f0261b9e8dfc2ae9c07be3db729697b29f82817c770329e5de"
+    },
+    "guangdong-qid-16593268": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "2eb4ab46e05b9155546991e0dd21db66f657c5ddab08ca924d5b908b359e0435"
+    },
+    "guangdong-qid-16593258": {
+      "topicId": "quantity-wy27-s14",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用周长、面积、体积、勾股、特殊角或反射建立几何关系。",
+      "fingerprint": "ab84883c34ac6e98a45fb0c553aac0fabd675d93f4d098da7aee3e23d37f3602"
+    },
+    "guangdong-qid-16593271": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "4a8462140ecb54bc77b332d93b29798e1014f91d3391d8f3a8aa6382fbb95323"
+    },
+    "guangdong-qid-16593240": {
+      "topicId": "quantity-cycles",
+      "method": "reviewed-curriculum-map",
+      "evidence": "按固定周期、星期或日历间隔分析重复出现的位置。",
+      "fingerprint": "b12e058bf21145f4d44625aec70896060cf5973be40d7ea4ced57b54bcf44482"
+    },
+    "guangdong-qid-16593242": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "分类分步、排列组合、捆绑或插空，数不同安排。",
+      "fingerprint": "8946ead8d18502f1fc4228deb4aaef8bb8f1f736589f58d17b10cd1c3ae22ac9"
+    },
+    "guangdong-qid-16593247": {
+      "topicId": "quantity-wy27-s09",
+      "method": "reviewed-curriculum-map",
+      "evidence": "集合重叠、只参与或同时参与的计数，使用容斥。",
+      "fingerprint": "e3e601aba47b3c6b2d193ee99df125953d8bb9f53d35dbfd3ccc224609573b87"
+    },
+    "guangdong-qid-16593285": {
+      "topicId": "quantity-intervals",
+      "method": "reviewed-curriculum-map",
+      "evidence": "识别封闭或开放路径，按端点与间隔计数，并处理重合点。",
+      "fingerprint": "b61efd7768fb44d2258cef6c1383f13fa673e509cd25796c1f3cc0a1d5f124d6"
+    },
+    "guangdong-qid-16593262": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "普通行程或直线上的相遇、追及与往返。",
+      "fingerprint": "352b2f5ac5a3b42b37b80390268e1073f04881ee354c2aada7fbf9f893fc104e"
+    },
+    "guangdong-qid-16593264": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "2f19d7f71abc40abaff57009f0d9407bd68ee802e2655a5bcb14906f3a1b8d19"
+    },
+    "guangdong-qid-12881926": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "ca4ce41440907199424f3501cd0290b1268ee422d532c2c954e463df78a99acc"
+    },
+    "guangdong-qid-12881927": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "f42b719228e5de67234710f94c8c4f7a49339b3efae886173320ec67c3f2fa70"
+    },
+    "guangdong-qid-12881928": {
+      "topicId": "quantity-planning",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用枚举、极端情况或统筹安排解决离散数学问题，当前课程没有直接同名模块。",
+      "fingerprint": "662a501a4e8587978b652ab18bf619f3a423f304533aacd10969640caefa134b"
+    },
+    "guangdong-qid-12881923": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用特值、混合平均量或十字交叉处理比例关系。",
+      "fingerprint": "d969c0f6c9fb77732e8cd9ccbc5369c8f8a78c4a026ec591cc67a946a4fbb6c5"
+    },
+    "guangdong-qid-12881924": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。普通行程或直线上的相遇、追及与往返。",
+      "courseLessonId": "quantity-wy27-s06-t02",
+      "courseQuestionId": "quantity-wy27-s06-t02-mother-01",
+      "fingerprint": "a55476de40d0c9db1918356e2b3b71e9d232ddb1f579a5a256981af4a51e40c1"
+    },
+    "guangdong-qid-12881935": {
+      "topicId": "quantity-wy27-s05",
+      "method": "reviewed-curriculum-map",
+      "evidence": "把工作量、效率和时间统一后处理合作、轮换或最优分工。",
+      "fingerprint": "c91ddab42d80eae073c9a30d659b47bbc7fd9e4940d02e5f726eae784109b85d"
+    },
+    "guangdong-qid-12881931": {
+      "topicId": "quantity-intervals",
+      "method": "reviewed-curriculum-map",
+      "evidence": "识别封闭或开放路径，按端点与间隔计数，并处理重合点。",
+      "fingerprint": "69a55a05b460130f231a08642a417b744071aab9e301b9a283b038f4db7752bb"
+    },
+    "guangdong-qid-12881937": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "ca2853375d1c32baa4f3ada9086236b1e3b98d30a7e20ebe628cd9cf61050306"
+    },
+    "guangdong-qid-12881932": {
+      "topicId": "quantity-wy27-s11",
+      "method": "reviewed-curriculum-map",
+      "evidence": "将相同数量或不同人员分配给若干对象，区分分组标签及容量限制。",
+      "fingerprint": "5375388b280d77d54d4042930291aa94fc4497c678a7e99fd0c5ad1b7745a83a"
+    },
+    "guangdong-qid-12881930": {
+      "topicId": "quantity-wy27-s02",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用特值、混合平均量或十字交叉处理比例关系。",
+      "fingerprint": "05deca77f42107b2db3a6b693da26594d34cda08a2b74a1953ee39bc15e1f7cf"
+    },
+    "guangdong-qid-12881936": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "88a6fa7317b7641020ff1b78c9fe5c15d3af5f9d9ba12dd8902892d29c4fe2f7"
+    },
+    "guangdong-qid-12881939": {
+      "topicId": "quantity-wy27-s12",
+      "method": "reviewed-curriculum-map",
+      "evidence": "建立等可能样本空间，按符合条件的情况数除以总情况数求概率。",
+      "fingerprint": "af5e4b2edafec8f6f7fb8caa75a16d4fe6cc86de043e1c87754dd4651ae102e9"
+    },
+    "guangdong-qid-18643976": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "441a9132a82b35cff3a93112d19a637a6fd7587dd9457a598cde3d56eb21b544"
+    },
+    "guangdong-qid-18643978": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "courseLessonId": "quantity-wy27-s01-t02",
+      "courseQuestionId": "quantity-wy27-s01-t02-mother-01",
+      "fingerprint": "9775a59a84b49182eaccb7ce887a303328c941c3f1ded6dfc8cb822d4e01c127"
+    },
+    "guangdong-qid-18643980": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "courseLessonId": "quantity-wy27-s01-drill-02",
+      "courseQuestionId": "quantity-wy27-s01-t03-drill-07",
+      "fingerprint": "1c9943ea0ff49118f4494f54f2d3c55b1c83e7ba206a2fbe0dd639bcc9820464"
+    },
+    "guangdong-qid-18643979": {
+      "topicId": "quantity-wy27-s01",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。用整除、比例或份数关系确定数量，衔接整除思维与比例份数。",
+      "courseLessonId": "quantity-wy27-s01-t02",
+      "courseQuestionId": "quantity-wy27-s01-t02-mother-03",
+      "fingerprint": "4482b6cb115a3a27b379b20e107fe43242863ccb254233d85af05abb47b2e410"
+    },
+    "guangdong-qid-18643972": {
+      "topicId": "quantity-wy27-s08",
+      "method": "reviewed-curriculum-map",
+      "evidence": "处理价格、成本、收入、利润、折扣及分段收费关系。",
+      "fingerprint": "ac5030f8de4da6309e29df09c729fcdb650c1df7ad01debeec4d5084cede8d3a"
+    },
+    "guangdong-qid-18643971": {
+      "topicId": "quantity-wy27-s13",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。独立事件、条件事件、多步试验或赛事的概率乘加与分类。",
+      "courseLessonId": "quantity-wy27-s13-t01",
+      "courseQuestionId": "quantity-wy27-s13-t01-mother-03",
+      "fingerprint": "bd593b11c0599bc756987bd9f23d0e4306f127d087103288542e3945bd5a3413"
+    },
+    "guangdong-qid-18643981": {
+      "topicId": "quantity-wy27-s15",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。同底同高、相似及线面体比例关系是关键步骤。",
+      "courseLessonId": "quantity-wy27-s15-t01",
+      "courseQuestionId": "quantity-wy27-s15-t01-practice-01",
+      "fingerprint": "2eb89aa9cac57433b37466dab80e7d7cdcaf1034221998fd9b4615f09ffa8e3d"
+    },
+    "guangdong-qid-18643973": {
+      "topicId": "quantity-wy27-s10",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。分类分步、排列组合、捆绑或插空，数不同安排。",
+      "courseLessonId": "quantity-wy27-s10-t02",
+      "courseQuestionId": "quantity-wy27-s10-t02-practice-02",
+      "fingerprint": "b222aae6a7cd393be827fd3df674743cb55a677f2d3be4f40fffe318ff9f3231"
+    },
+    "guangdong-qid-18643974": {
+      "topicId": "quantity-wy27-s03",
+      "method": "reviewed-curriculum-map",
+      "evidence": "由总量、差量或倍数条件列普通方程或不定方程。",
+      "fingerprint": "b25dc4565b27598887c4e0e65d77ccf0e073c1afb0f1ab2067d8400d0d090980"
+    },
+    "guangdong-qid-18643975": {
+      "topicId": "quantity-planning",
+      "method": "reviewed-curriculum-map",
+      "evidence": "用枚举、极端情况或统筹安排解决离散数学问题，当前课程没有直接同名模块。",
+      "fingerprint": "3d2bb9c337cf6f346b133fae866893f4e4795e1cc16f4f00ae33d7bd92936c40"
+    },
+    "guangdong-qid-18643977": {
+      "topicId": "quantity-wy27-s06",
+      "method": "reviewed-curriculum-map",
+      "evidence": "同一道真题在学习课程中已有例题，按该课归类。普通行程或直线上的相遇、追及与往返。",
+      "courseLessonId": "quantity-wy27-s06-drill-02",
+      "courseQuestionId": "quantity-wy27-s06-t03-drill-08",
+      "fingerprint": "878c43155caae069495f9c3d650aa476ca462a50e01dc41a8129acf390f6a48e"
+    },
+    "guangdong-2021-county-q026-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "95d06be76cba16f6024e29129e59b06f5d666ded948c62f9b2ad0816dd204793"
+    },
+    "guangdong-2021-county-q027-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "93ebfb42eb5eba07b800dbe7348077230c6ea8f269f3e0848962be035303e352"
+    },
+    "guangdong-2021-county-q028-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "d88bbc6ae7ab83b0109e334d45cbe6c122c5b8f83747e17d30f10b586e67a887"
+    },
+    "guangdong-2021-county-q029-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "dd59f67f139f6fe3bb3d964e8a7cfa855d930402692d9f26941ef74687a8f69f"
+    },
+    "guangdong-2021-township-q031-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "79ff18a8fe3b3a026efe9110acb85c0bf07ab1d77579201a3213f964176ecf92"
+    },
+    "guangdong-2021-township-q032-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "19b6b4f33daa39c124fde0185f1a38ae8cadfa74ee2a90f08e15f7a975bfe028"
+    },
+    "guangdong-2021-township-q033-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "efbde6e68319be8dc872e614f9fcabe229523edbe76800804bca34bd9f9d2920"
+    },
+    "guangdong-2021-township-q034-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "c4f999db3daef90ad91f8fbd5c9c4adc25982493d1b95220f2bedbff48e80c2e"
+    },
+    "guangdong-2022-county-q026-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "47d01936f8c48bcd82a49af05e9d697e2194177888cf42b6f12605a690d2b905"
+    },
+    "guangdong-2022-county-q027-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "fd27399fe92badcbf47b4f1572be74f65a5f1dc5670e75e133512e8fa737e778"
+    },
+    "guangdong-2022-county-q029-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "537318ac8b9050db972c17f403d418c235dbaf856307409c1ebcc8dac0f64e91"
+    },
+    "guangdong-2022-county-q030-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "f58cbd40e85ccedec614974af5af5e9ecc8af2fb3ad6ae463eb0459e502cc64c"
+    },
+    "guangdong-2022-township-q032-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "47d01936f8c48bcd82a49af05e9d697e2194177888cf42b6f12605a690d2b905"
+    },
+    "guangdong-2022-township-q034-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "90d0a6e42c8414d4e2ad8e1c818cd8f4ff412f4c6ade5c566af6fe9f05ca7206"
+    },
+    "guangdong-2023-county-q026-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "3aee5d1dd2cd7e96665662e4f04c58332770bfc67df581e096422853c5622c80"
+    },
+    "guangdong-2023-township-q032-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "248759454401ce6b640b3a5e11d41b98f868607460a230262bf6abc3da58fdd5"
+    },
+    "guangdong-2023-township-q034-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "d98bb7f4f30ed172563f5281248084909a75e05285bc02c8771a476115cdc8d0"
+    },
+    "guangdong-2024-unified-q032-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "2b0c99e0e5b9c405d4816793365e7d3ef77e34985d293404468a110221801246"
+    },
+    "guangdong-2025-unified-q031-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "5ddb32c230d55bbce45a63f03c044c8aacf89d3856a42c8a4b890a8edd94b2fd"
+    },
+    "guangdong-2025-unified-q032-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "5a93894200b9f6af154d6b550fd4164925e5308af2583ea2af8bae1710bb3c77"
+    },
+    "guangdong-2025-unified-q033-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "9fcfa1ce049a68901b60e309cab9a061f74fc49712161a87cfa51855478f867c"
+    },
+    "guangdong-2026-unified-q031-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "5a3b866f9cb12dc0b65f6ad46875ee1e3493f26cdeca3888a3b25f2e1690bd72"
+    },
+    "guangdong-2026-unified-q032-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "0954fc2238fc33f222b8738db2ad4edac81fd39d0b9a818f5824f417a06c1978"
+    },
+    "guangdong-2026-unified-q033-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "a6d6988f77893562da11550e701a70033d7498c7840349946290d85ae1eb2106"
+    },
+    "guangdong-2026-unified-q034-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "4e6a6967d8d8798959beb6c08b2ced8763f948a5bf89773fa242f57ec36474ec"
+    },
+    "guangdong-2020-county-q026-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "9bfba1ba2d52563cf200b360bf224346899b014245b0c53d60e0bd46a4eb68e1"
+    },
+    "guangdong-2020-county-q027-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "17f174d369c9d871ccf8ce5a25acac3db306ea6bc42c1ca8a4878a5edd435e2d"
+    },
+    "guangdong-2020-county-q029-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "7d799bcb86ddf93a097f11dc659efdaaf458b49d0d4f0c4c3fec21f5af3bc79e"
+    },
+    "guangdong-2020-township-q031-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "79675b823f323d15b1f413cfa7b72df7a130d81f2bf5957c5ee28b2dc65ac27d"
+    },
+    "guangdong-2020-township-q032-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "17f174d369c9d871ccf8ce5a25acac3db306ea6bc42c1ca8a4878a5edd435e2d"
+    },
+    "guangdong-2020-township-q034-supplement": {
+      "topicId": "quantity-number-sequences",
+      "method": "reviewed-curriculum-map",
+      "evidence": "从数列、分数、小数或图形数阵中提取规律，属于数字推理。",
+      "fingerprint": "7d799bcb86ddf93a097f11dc659efdaaf458b49d0d4f0c4c3fec21f5af3bc79e"
+    }
+  }
+}

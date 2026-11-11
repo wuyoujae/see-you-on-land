@@ -1,0 +1,2294 @@
+{
+  "national-2014-unified-q106": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "6756c0e418bc3214110f04abbac32a350641d14b831299bfb30008e4531750da",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "该不该让小孩玩电脑游戏？这让很多家长困扰，因为有太多的报告指责游戏正摧毁着下一代，不过一项新的研究显示，玩游戏有益于小孩的阅读能力，甚至可帮助他们克服"
+  },
+  "national-2014-unified-q107": {
+    "topicId": "reasoning-causal",
+    "stemHash": "a1d8c141740ca1aec59264d717e81c15b9316a781ec659931715da06a41e6e5b",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "在南极海域冰冷的海水中，有一种独特的鱼类，它们的血液和体液中具有一种防冻蛋白，因为该蛋白它们才得以存活并演化至今。时至今日，该种鱼类的生存却面临巨大挑"
+  },
+  "national-2014-unified-q108": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "5c8b8aa991ddd2c8c624348149d684a5ee81abc63a8945f75432019cd1c0e4c7",
+    "evidence": "问法要求论证成立所需的前提，考查补足论据与结论之间的必要联系。",
+    "reviewAnchor": "如果用户手机里安装了企业的手机客户端，那么就可以大大提高用户浏览手机时看到企业标识和名称的机会，进而达到宣传企业形象和品牌的目的，提高企业的知名度。\n"
+  },
+  "national-2014-unified-q109": {
+    "topicId": "reasoning-causal",
+    "stemHash": "d4f0bd7e46b277973a216ef3a58be5e474cc81287116d63f3bbee74f96b79ad5",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "研究发现，试管婴儿的出生缺陷率约为9%，自然受孕婴儿的出生缺陷率约为6.6%。这两部分婴儿的眼部缺陷比例分别为0.3%和0.2%，心脏异常比例为5%和"
+  },
+  "national-2014-unified-q110": {
+    "topicId": "reasoning-causal",
+    "stemHash": "72854fbe72133fcb487ee80876153b433003f01a26295672926f4f22726df1d3",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "在一项实验中，让80名焦虑程度不同的女性完成同样的字母识别任务，同时在她们头上放置电极，观察大脑活动。结果表明，焦虑程度高的女性完成任务时脑电活动更复"
+  },
+  "national-2014-unified-q111": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "32803d3df185a1c7780cbb40117890111fe510d6042b60271b168ec62fe7803b",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "素数是指只含有两个因子的自然数(即只能被自身和1整除)，孪生素数是指两个相差为2的素数。比如，3和5，17和19等。所谓的孪生素数猜想，是由希腊数学家"
+  },
+  "national-2014-unified-q112": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "213fed65d0d64623d1f1149f6d2167e9e5dd79f5acc1d01b826aaff3a6ac25e4",
+    "evidence": "以题干给定的条件命题为依据，考查充分必要条件、逆否或连锁推理。",
+    "reviewAnchor": "一个人生活虽然很难，但也必须学会一个人，不要轻易依赖别人，这样以后身边的人都离开你的时候，你还可以好好活下去。\n如果以上为真，则以下哪项为真："
+  },
+  "national-2014-unified-q113": {
+    "topicId": "reasoning-induction",
+    "stemHash": "34749abb02e038a89f67654b3bab866b9ccfc0a3b4acd5695d9fd1a22e3dc80c",
+    "evidence": "从题干陈述中作有限推出，不引入材料以外的信息。",
+    "reviewAnchor": "调查显示，中国消费者对奢侈品品牌的忠诚度远远低于西方消费者，对许多中国消费者而言，高价格仍然很重要，物有所值仍然比品牌重要，而且现阶段甚至比质量还重要"
+  },
+  "national-2014-unified-q114": {
+    "topicId": "reasoning-induction",
+    "stemHash": "9965dc7695b20ec762d5173c3824f092d92c64c129314ecda9fc7f85f1ac82c2",
+    "evidence": "从题干陈述中作有限推出，不引入材料以外的信息。",
+    "reviewAnchor": "研究小组利用超级计算机模拟宇宙，并结合多种其他计算，证明了在我们这个加速膨胀的宇宙中，描述大尺度时空结构的因果关系网络曲线图，是一个具有显著聚类特征的"
+  },
+  "national-2014-unified-q115": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "baee9a2848261962c674ad7a439870c48fca3d8194d19a300230b07f7e6de487",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "某局办公室共有10个文件柜按序号一字排开。其中1个文件柜只放上级文件，2个只放本局文件，3个只放各处室材料，4个只放基层单位材料。\n1号和10号文件柜"
+  },
+  "national-2015-municipal-q086": {
+    "topicId": "reasoning-definition",
+    "stemHash": "099b2c5e91cdf7658b324eba3f98a41d99a466f320caedd4a6f29d19956896c7",
+    "evidence": "对照题干给定的概念特征，判断选项对象是否符合。",
+    "reviewAnchor": "隐域性是指自然地理现象在受到局部的地形、水文、土壤、气流、洋流、季风等因素的影响下，在地球表面不按或偏离纬向地带性规律分布的特性，它使地带性分布规律变"
+  },
+  "national-2015-municipal-q087": {
+    "topicId": "reasoning-definition",
+    "stemHash": "f5218fd47ad75998208c426a3ef790af06a30292470631e2b76de19b6ce4fdbb",
+    "evidence": "对照题干给定的概念特征，判断选项对象是否符合。",
+    "reviewAnchor": "瓿是古代的一种盛酒器和盛水器，亦可用于盛酱。流行于商代至战国。圆体，敛口无颈，广肩，大腹，圈足，带盖，亦有方形瓿。根据上述描述下列器具中是瓿的是："
+  },
+  "national-2015-municipal-q101": {
+    "topicId": "reasoning-induction",
+    "stemHash": "f4538b21ac0e6e15e021ce085d8d629a44493d4f27a9862ac90f22ca0eb2a954",
+    "evidence": "从题干陈述中作有限推出，不引入材料以外的信息。",
+    "reviewAnchor": "在防治癌症方面，橙汁有多种潜在的积极作用，尤其由于它富含橙皮素和柚苷素等类黄酮抗氧化剂。研究证据已经表明，橙汁可以减少儿童患白血病的风险，并有助于预防"
+  },
+  "national-2015-municipal-q102": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "6dca52e43a9b07d51af8126a06c39b1a6c2346bb078c897e66ee526638bacd2d",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "某国际小组对从已灭绝的一种恐鸟骨骼化石中提取的DNA进行遗传物质衰变速率分析发现，虽然短DNA片段可能存在100万年，但30个或者更多碱基对序列在确定"
+  },
+  "national-2015-municipal-q103": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "c91f618a4aa68a82253c2d75e9b326021aa566495fb273a1a1323e8f94eeedf9",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "碎片化时代人们的注意力很难持久。让用户在邮件页面停留更长时间已经成为了营销者不断努力的方向。随着富媒体化的逐步流行，邮件逐步从单一静态向动态转变，个性"
+  },
+  "national-2015-municipal-q104": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "841ea8c0a633985aa24b8f8a7f22562962ebd5ea9724de3aaa64e59b6648b9f5",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "一个旅行者要去火车站，早上从旅馆出发，到达一个十字路口。十字路口分别通向东南西北四个方向，四个方向上分别有饭店、旅馆、书店和火车站。书店在饭店的东北方"
+  },
+  "national-2015-municipal-q105": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "4da1993d1fc648964b002ced42d7c6e8276ac0f40be31c866d6f944bc9a94689",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "由于一种新的电池技术装置的出现，手机在几分钟内充满电很快就会变成现实。这种新装置是一种超级电容器，它储存电流的方式是通过让带电离子聚集到多孔材料表面，"
+  },
+  "national-2015-municipal-q106": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "d59b64ca1b789a149a1883c3c63d3e7f26e2fd954859fcc2f543cbae2c9821fb",
+    "evidence": "问法要求论证成立所需的前提，考查补足论据与结论之间的必要联系。",
+    "reviewAnchor": "台风是大自然最具破坏性的灾害之一。有研究表明：通过向空中喷洒海水水滴，增加台风形成区域上空云层对日光的反射，那么台风将不能聚集足够的能量，这一做法将有"
+  },
+  "national-2015-municipal-q107": {
+    "topicId": "reasoning-explain",
+    "stemHash": "ff0b568de41f61b889832a8d664e7036cfa47ae4001b04614b5a6827a9122bb4",
+    "evidence": "解释题干中看似矛盾或与预期相反的现象。",
+    "reviewAnchor": "有一段时间，电视机生产行业竞争激烈。由于电视机品牌众多，产品质量成为消费者考虑的首要因素。某电视机生产厂家为了扩大市场份额，一方面加大研发力度，进一步"
+  },
+  "national-2015-municipal-q108": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "12e6b8afa3e9f8b26961c4abab751c5eb5a008b6ea63bc91fab777479f6cc56a",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "城市病指的是人口涌入大城市，导致其公共服务功能被过度消费，最终造成交通拥挤、住房紧张、空气污染等问题。有专家认为，当城市病严重到一定程度时，大城市的吸"
+  },
+  "national-2015-municipal-q109": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "7123de9a41f8380c361efe467e8cdf8a912fad493f6b1ee879ad1b3b73b52066",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "\"有好消息，也有坏消息\"。无论是谈起什么主题，这样的开场白都顿时让人觉得一丝寒意传遍全身。接着这句话，后边往往是这样一个问题：你想先听好消息还是坏消息"
+  },
+  "national-2015-municipal-q110": {
+    "topicId": "reasoning-propositions",
+    "stemHash": "7e163f7845cebb9a35bb5d7d09e17f313c87c9b32f1ec3c7650ec644ecc3fa76",
+    "evidence": "问法要求找出与既定表述相矛盾的命题，考查假言命题的矛盾关系。",
+    "reviewAnchor": "今年联赛决赛的最后4支队伍是甲、乙、丙和丁。其中N与T分别为甲队和丁队的主教练。有人指出，甲队此前每次夺该项桂冠的赛季都曾战胜过T教练所在的球队；过去"
+  },
+  "national-2015-provincial-q091": {
+    "topicId": "reasoning-definition",
+    "stemHash": "099b2c5e91cdf7658b324eba3f98a41d99a466f320caedd4a6f29d19956896c7",
+    "evidence": "对照题干给定的概念特征，判断选项对象是否符合。",
+    "reviewAnchor": "隐域性是指自然地理现象在受到局部的地形、水文、土壤、气流、洋流、季风等因素的影响下，在地球表面不按或偏离纬向地带性规律分布的特性，它使地带性分布规律变"
+  },
+  "national-2015-provincial-q092": {
+    "topicId": "reasoning-definition",
+    "stemHash": "f5218fd47ad75998208c426a3ef790af06a30292470631e2b76de19b6ce4fdbb",
+    "evidence": "对照题干给定的概念特征，判断选项对象是否符合。",
+    "reviewAnchor": "瓿是古代的一种盛酒器和盛水器，亦可用于盛酱。流行于商代至战国。圆体，敛口无颈，广肩，大腹，圈足，带盖，亦有方形瓿。根据上述描述下列器具中是瓿的是："
+  },
+  "national-2015-provincial-q106": {
+    "topicId": "reasoning-induction",
+    "stemHash": "f4538b21ac0e6e15e021ce085d8d629a44493d4f27a9862ac90f22ca0eb2a954",
+    "evidence": "从题干陈述中作有限推出，不引入材料以外的信息。",
+    "reviewAnchor": "在防治癌症方面，橙汁有多种潜在的积极作用，尤其由于它富含橙皮素和柚苷素等类黄酮抗氧化剂。研究证据已经表明，橙汁可以减少儿童患白血病的风险，并有助于预防"
+  },
+  "national-2015-provincial-q107": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "6dca52e43a9b07d51af8126a06c39b1a6c2346bb078c897e66ee526638bacd2d",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "某国际小组对从已灭绝的一种恐鸟骨骼化石中提取的DNA进行遗传物质衰变速率分析发现，虽然短DNA片段可能存在100万年，但30个或者更多碱基对序列在确定"
+  },
+  "national-2015-provincial-q108": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "c91f618a4aa68a82253c2d75e9b326021aa566495fb273a1a1323e8f94eeedf9",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "碎片化时代人们的注意力很难持久。让用户在邮件页面停留更长时间已经成为了营销者不断努力的方向。随着富媒体化的逐步流行，邮件逐步从单一静态向动态转变，个性"
+  },
+  "national-2015-provincial-q109": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "841ea8c0a633985aa24b8f8a7f22562962ebd5ea9724de3aaa64e59b6648b9f5",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "一个旅行者要去火车站，早上从旅馆出发，到达一个十字路口。十字路口分别通向东南西北四个方向，四个方向上分别有饭店、旅馆、书店和火车站。书店在饭店的东北方"
+  },
+  "national-2015-provincial-q110": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "4da1993d1fc648964b002ced42d7c6e8276ac0f40be31c866d6f944bc9a94689",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "由于一种新的电池技术装置的出现，手机在几分钟内充满电很快就会变成现实。这种新装置是一种超级电容器，它储存电流的方式是通过让带电离子聚集到多孔材料表面，"
+  },
+  "national-2015-provincial-q111": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "d59b64ca1b789a149a1883c3c63d3e7f26e2fd954859fcc2f543cbae2c9821fb",
+    "evidence": "问法要求论证成立所需的前提，考查补足论据与结论之间的必要联系。",
+    "reviewAnchor": "台风是大自然最具破坏性的灾害之一。有研究表明：通过向空中喷洒海水水滴，增加台风形成区域上空云层对日光的反射，那么台风将不能聚集足够的能量，这一做法将有"
+  },
+  "national-2015-provincial-q112": {
+    "topicId": "reasoning-explain",
+    "stemHash": "ff0b568de41f61b889832a8d664e7036cfa47ae4001b04614b5a6827a9122bb4",
+    "evidence": "解释题干中看似矛盾或与预期相反的现象。",
+    "reviewAnchor": "有一段时间，电视机生产行业竞争激烈。由于电视机品牌众多，产品质量成为消费者考虑的首要因素。某电视机生产厂家为了扩大市场份额，一方面加大研发力度，进一步"
+  },
+  "national-2015-provincial-q113": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "7123de9a41f8380c361efe467e8cdf8a912fad493f6b1ee879ad1b3b73b52066",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "\"有好消息，也有坏消息\"。无论是谈起什么主题，这样的开场白都顿时让人觉得一丝寒意传遍全身。接着这句话，后边往往是这样一个问题：你想先听好消息还是坏消息"
+  },
+  "national-2015-provincial-q114": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "12e6b8afa3e9f8b26961c4abab751c5eb5a008b6ea63bc91fab777479f6cc56a",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "城市病指的是人口涌入大城市，导致其公共服务功能被过度消费，最终造成交通拥挤、住房紧张、空气污染等问题。有专家认为，当城市病严重到一定程度时，大城市的吸"
+  },
+  "national-2015-provincial-q115": {
+    "topicId": "reasoning-propositions",
+    "stemHash": "7e163f7845cebb9a35bb5d7d09e17f313c87c9b32f1ec3c7650ec644ecc3fa76",
+    "evidence": "问法要求找出与既定表述相矛盾的命题，考查假言命题的矛盾关系。",
+    "reviewAnchor": "今年联赛决赛的最后4支队伍是甲、乙、丙和丁。其中N与T分别为甲队和丁队的主教练。有人指出，甲队此前每次夺该项桂冠的赛季都曾战胜过T教练所在的球队；过去"
+  },
+  "national-qid-1746826": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "d219147b9ccfc80034d47675d8349ac0bc7a510775a59789a31972b640b8f0ea",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "人类与疟疾已经进行了几个世纪的斗争，但一直是“治标不治本”——无法阻断疟疾传染源。日前研究者培育出一种经过基因改造的蚊子，它具备了不再感染疟疾的能力，"
+  },
+  "national-qid-1746830": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "2b047efd4c9e2dbcd7571acbc7a9780993d5a7e60e953a7e550e6aaaa0f48693",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "研究人员在观察开普勒太空望远镜发现的数千颗太阳系外行星后，发现银河系内拥有大量的行星，几乎每一颗恒星周围都存在行星，许多恒星系统内存在两至六颗行星，其"
+  },
+  "national-qid-1746834": {
+    "topicId": "reasoning-causal",
+    "stemHash": "9a342204fe14249a7429302bc3c0a2f2f559eb867ef1899063eef491e7372029",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "近来，国外一些学者和媒体对西方民主体制较为集中地进行了反思和批评，指出西方民主正在衰败。对此，有学者认为，西方民主衰败的原因之一是其存在基因缺陷。西方"
+  },
+  "national-qid-1746838": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "cf5bf38eb15327956df08e3bb8b2a72307875be0d0cfe17f70c3fe4f4925d6a9",
+    "evidence": "问法要求论证成立所需的前提，考查补足论据与结论之间的必要联系。",
+    "reviewAnchor": "格陵兰岛是地球上最大的岛屿，形成于38亿年前，大部分地区被冰雪覆盖。有大量远古的岩石化石埋藏在格陵兰岛地下，它们的排列就像是一个整齐的堤坝，也被称为蛇"
+  },
+  "national-qid-1746842": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "962e3fc4802f53b44b65e5ded41859db21fa8e5278bcd5ea84544299da365d5c",
+    "evidence": "以题干给定的条件命题为依据，考查充分必要条件、逆否或连锁推理。",
+    "reviewAnchor": "记者采访时的提问要具体、简洁明了，切忌空泛、笼统、不着边际。《采访技巧》一书中尖锐地剖析了“您感觉如何”等问题的弊端，认为这些提问实际上在信息获取上等"
+  },
+  "national-qid-1746846": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "ac74b5fff4863922618e962501f74740c0fd01a141b57a90cb23984821384997",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "9月初大学入学报到时，有多家手机运营商到某大学校园进行产品销售宣传。有好几家运营商推出了免费套餐服务。但是其中一家运营商推出了价格优惠的套餐，同时其业"
+  },
+  "national-qid-1746850": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "39937af78eb137bcd1bdbf48ad7a0d9daf71cc77f7b68623a7bb83a283d55ba3",
+    "evidence": "以题干给定的条件命题为依据，考查充分必要条件、逆否或连锁推理。",
+    "reviewAnchor": "某大型晚会的导演组在对节目进行终审时，有六个节目尚未确定是否通过，这六个节目分别是歌曲A、歌曲B、相声C、相声D、舞蹈E和魔术F。综合考虑各种因素，导"
+  },
+  "national-qid-1746854": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "c5042a42a5e044d573de928f6510585423ff6e6899381bbba969138aad3558d7",
+    "evidence": "以题干给定的条件命题为依据，考查充分必要条件、逆否或连锁推理。",
+    "reviewAnchor": "甲、乙、丙、丁四人商量周末出游。甲说：乙去，我就肯定去；乙说：丙去我就不去；丙说：无论丁去不去，我都去；丁说：甲乙中至少有一人去，我就去。 以下哪项推"
+  },
+  "national-qid-1746860": {
+    "topicId": "reasoning-causal",
+    "stemHash": "91216129b8b96468b89c3e208df7c34f67b7f16be5c2a02ae735776a1c22e214",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "有研究者认为，有些人罹患哮喘病是由于情绪问题。焦虑、抑郁和愤怒等消极情绪，可促使机体释放组织胺等物质，从而引发哮喘病。但是，反对者认为，迷走神经兴奋性"
+  },
+  "national-qid-1746866": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "d2ad6910370640292bc0b13c1de9a49ab28e1d837d0233fec7481334eb6eda4f",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "某国的科研机构跟踪研究了出生于上世纪50至70年代的1万多人的精神健康状况，其间测试了他们在13岁至18岁时的语言能力、空间感知能力和归纳能力。结果发"
+  },
+  "national-qid-2028368": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "06538c2fc9bab18a6167d7eefdc781104b70d51463f8dc36d876742e569add31",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "某网购平台发布了一份网购调研报告，分析亚洲女性的网购特点。分析显示，当代亚洲女性在网购服饰、化妆品方面的决定权为，在网购家居用品方面的决定权为。研究者"
+  },
+  "national-qid-2028372": {
+    "topicId": "reasoning-causal",
+    "stemHash": "4e731fd9848b110d514dafe1fe9280dccbee9bf1d81d1b91bcab01970dbea56a",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "公元250年至800年，玛雅文明还十分发达，城市繁荣，庄稼收成也很喜人。气候记录显示，这一时期玛雅地区的降水量相对较高。此后玛雅文明开始衰落。从公元8"
+  },
+  "national-qid-2028378": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "35643a2a365be0130d113e6e29f9e61fbcf611fb7d82b65403cd13283999027d",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "人体的大脑与血液之间有一道“血脑屏障”，任何起安眠作用的物质首先必须能穿过这个屏障才能起效。牛奶中含有一种名为色氨酸的氨基酸能够穿过血脑屏障，制造诱发"
+  },
+  "national-qid-2028380": {
+    "topicId": "reasoning-causal",
+    "stemHash": "07b7966ac830d240278de3149b5277eebbd7191a12ad90724e699f387c368140",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "复活节岛是位于太平洋上的一座孤岛。在报道中，复活节岛文明的衰落常作为一个警世故事，讲述人类肆意采伐棕榈树林，致使肥沃的土壤流失，最终导致岛中食物短缺，"
+  },
+  "national-qid-2028386": {
+    "topicId": "reasoning-truth",
+    "stemHash": "9a07074d12d9db0fac3ec0cfd91bb086e891c246acbb93941d4f4e0379d8f9d0",
+    "evidence": "依据几句话的真假数量或真假关系确定实际情况。",
+    "reviewAnchor": "教练在甲、乙、丙三人背上分别贴了三个数字，三人都能看到对方的数字，但是看不到自己的数字，甲、乙、丙背上的数字分别用A、B、C代替。甲说B＞C；乙说A＜"
+  },
+  "national-qid-2028392": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "2ceff0019b4fac107b501435f590b522fa2951055b53881696832cc62a9c1cc7",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "在某公司中，李明帮助了王刚，而王刚帮助了赵贤。李明纳税比赵贤多。 由此可以推出："
+  },
+  "national-qid-2028398": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "bdde89fadc538aafd806436e9102f2273499946d41351f42b73e143db0b77e63",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "大学毕业的张、王、李、赵4人应聘到了同一家大型公司，每人负责一项工作，其中一人做行政管理，一人做销售，一人做研发，另一人做安保。 已知： ①张不做行政"
+  },
+  "national-qid-2028404": {
+    "topicId": "reasoning-causal",
+    "stemHash": "b4b1229d770364a6ff3c5d21b76ed34c0fd1f66961bdf08563acecdebf05f445",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "阿尔茨海默病是一种较为严重的疾病，4号基因突变曾被认为是阿尔茨海默病的一项致病因素。但近期有科学家提出导致这一复杂疾病的病因可能很简单，就是一些能引起"
+  },
+  "national-qid-2028412": {
+    "topicId": "reasoning-causal",
+    "stemHash": "9a6cb7429f2aa9cc60c0fe067678ddb67a1a4f7f7951c0d8c2eaf090dea7ad03",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "研究显示，约200万年前，人类开始使用石器处理食物，例如切肉和捣碎植物。与此同时，人类逐渐演化形成较小的牙齿和脸型，以及更弱的咀嚼肌和咬力。因此研究者"
+  },
+  "national-qid-2028414": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "5a2b2f1362cce446aa8197fef7d82c9923e89416bac33947ca38277b95659dff",
+    "evidence": "问法要求论证成立所需的前提，考查补足论据与结论之间的必要联系。",
+    "reviewAnchor": "针对地球冰川的研究发现，当冰川之下的火山开始喷发后，会快速产生蒸汽流，爆炸式穿透冰层，释放灰烬进入高空，并且产生出沸石、硫化物和黏土等物质。日前人们发"
+  },
+  "national-qid-2028540": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "46add5c9291de837595fc88425befb4b060f30e876d42c53f315bd2bb0eb0946",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "以下哪项的工作安排符合上述条件？"
+  },
+  "national-qid-2028544": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "5e5380497ea0ec4e2d88667d302e6fc68a1c8fd5656487f5bdf31b840b700b93",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果李明只完成5项工作中的一项，那么包括该工作的所有可能性是以下哪项？"
+  },
+  "national-qid-2028546": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "9d41cc22a91d92d51c76620d2abff1655b0dd06b456903a98241538b14e5f5dc",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "以下哪项中的任务不可能均由李明完成？"
+  },
+  "national-qid-2028550": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "c4d57ce9772334bd543d21fc7abf10c7e5ba67cce7667ce9a411bf9888e630b7",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "以下哪项中的任务不可能均由丁勇完成？"
+  },
+  "national-qid-2028552": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "407ea0c7f550264a0302595dc8064e2ca2b5436ccfb312b46dd7443cdd6087af",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果管理工作和网络工作是由同一个人完成的，则以下哪项是可能的？"
+  },
+  "national-qid-2133644": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "cf1aa476ff785667e2c87442ad3e6843c72e7d360e4c8892ffc62a891a167e1c",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "以下哪门课程不能安排在第4天？"
+  },
+  "national-qid-2133646": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "91c31814ee2d2019165eaa93bc91921f4f8518b3da56dfe931799ca775cbf152",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "以下哪门课程安排在任意一天都有可能？"
+  },
+  "national-qid-2133648": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "c43b4666cfecf7f727010b2056a6d4af2852be3b6bee0154179ae980a9899d66",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "以下哪门课程不能开设两次？"
+  },
+  "national-qid-2133650": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "7310e3dc66c4dee491db32e4ebf222b57524a669103012dc8069602f4358c97d",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "逻辑课程不能排在第几天？"
+  },
+  "national-qid-2133652": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "e3bacb8b36c87e7694b3f003e85c81fc5d69ebca0269df69ffb191ced7c25acd",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果宗教课程开设两次，那么历史课程安排在哪一天？"
+  },
+  "national-qid-2133678": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "7c50a0dc53ce4744d9b7118bbc2f4ddf107c844645c9783cf9aa149c6cc1cd7d",
+    "evidence": "问法要求论证成立所需的前提，考查补足论据与结论之间的必要联系。",
+    "reviewAnchor": "扶贫必扶智。让贫困地区的孩子们接受良好教育，是扶贫开发的重要任务，也是阻断贫困代际传递的重要途径。 以上观点的前提是："
+  },
+  "national-qid-2133684": {
+    "topicId": "reasoning-induction",
+    "stemHash": "14455eaef0f60ab18a3563be1db8979f74309a15e989d9374c05b879f69a00cd",
+    "evidence": "从题干陈述中作有限推出，不引入材料以外的信息。",
+    "reviewAnchor": "有调查显示，部分学生缺乏创造力。研究者认为，具有创造力的孩子在幼年时都比较淘气，而在一些家庭，小孩如果淘气就会被家长严厉呵斥，这导致他们只能乖乖听话，"
+  },
+  "national-qid-2133688": {
+    "topicId": "reasoning-causal",
+    "stemHash": "213131eb00a7c188ac602402ed19fcfcd3508fe4408fc62fb26fa40d9d7b8299",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "自上世纪50年代以来，全球每年平均爆发的大型龙卷风的次数从10次左右上升至15次。与此同时，人类活动激增，全球气候明显变暖，有人据此认为，气候变暖导致"
+  },
+  "national-qid-2133692": {
+    "topicId": "reasoning-causal",
+    "stemHash": "030c31356e86bb785aeaee09c9046ff2c1ce0b89b98721bd01a5b58ae5f179f4",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "人们普遍认为，保持乐观心态会促进健康。但一项对7万名50岁左右的女性进行的长达十年的追踪研究发现，长期保持乐观心态的被试者与悲观被试者在死亡率上并没有"
+  },
+  "national-qid-2133698": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "4aab99a16ef4bd014786b647a9b7099303da22dba7378abb99286e7fadc2c9f6",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "日前，研究人员发明了一种弹性超强的新材料，这种材料可以由1英寸被拉伸到100英寸以上，同时这一材料可以自行修复且能通过电压控制动作。因此研究者认为，利"
+  },
+  "national-qid-2133742": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "1d6ddd942416f3b0f77e8b1710757e44fa57ebe0754b6468d221c33dfbf8b8f0",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "有一种理论认为，距今约5000万年前，生活在马达加斯加岛上的环尾狐猴、狐蝠以及其他哺乳动物的祖先当年乘坐天然的“木筏”，来到了马达加斯加这座位于印度洋"
+  },
+  "national-qid-2133744": {
+    "topicId": "reasoning-truth",
+    "stemHash": "5908c42070cf99e167b7009d71fd03cd6ffe06678d415619e4ecb0aba9466756",
+    "evidence": "依据几句话的真假数量或真假关系确定实际情况。",
+    "reviewAnchor": "某省游泳队进行了为期一个月的高原集训，集训最后一日所有队员进行了一次队内测试，几位教练预测了一下队员的成绩： 张教练说：这次集训时间短，没人会达标。 "
+  },
+  "national-qid-2133746": {
+    "topicId": "reasoning-syllogism",
+    "stemHash": "d6c167a8ac00e068135e2f2b3323be160769b5e2d5df2d1009cc602145d88e47",
+    "evidence": "围绕所有、有些等量词和集合关系作直言推理。",
+    "reviewAnchor": "某公司30岁以下的年轻员工中有一部分报名参加了公司在周末举办的外语培训班。该公司的部门经理一致同意在本周末开展野外拓展训练。所有报名参加外语培训班的员"
+  },
+  "national-qid-2133748": {
+    "topicId": "reasoning-causal",
+    "stemHash": "c75053f22e14394d687ec5472e48ac788ea5570c31186b6156dc70cda8ffb6ce",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "开车斗气、胡乱变线、强行超车等“路怒症”是一种被称为间歇性、暴发性障碍（IED）的心理疾病。有研究发现，IED患者弓形虫检测呈阳性的比例是非IED组的"
+  },
+  "national-qid-2133750": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "9385239344154e9e5b95f29b84e0bf64c79104ce25617d198b3579604646a931",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "某次会议讨论期间，甲、乙、丙、丁、戊被安排在一张圆桌前进行讨论，圆桌边放着标有1～5号的五张座椅(未必按序排列)。实际讨论时，甲、乙、丙、丁、戊5人均"
+  },
+  "national-qid-2264332": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "b66cfbd873e2929c4c716295f9550c7aab5f98c0b7481ba32049a37b30571e89",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "一般来说，塑料极难被分解，即使是较小的碎片也很难被生态系统降解，因此它造成的环境破坏十分严重。近期科学家发现，一种被称为蜡虫的昆虫能够降解聚乙烯，而且"
+  },
+  "national-qid-2264333": {
+    "topicId": "reasoning-explain",
+    "stemHash": "b6d1489e8b09ab411e4856ea23ab4de6e7180ea0c0438a85acbe6187d5b8140b",
+    "evidence": "解释题干中看似矛盾或与预期相反的现象。",
+    "reviewAnchor": "所有的幼儿园都面临同一个问题：就是对于那些在幼儿园放学之后不能及时来接孩子的家长，幼儿园老师除了等待别无他法，因此许多幼儿园都向晚接孩子的家长收取费用"
+  },
+  "national-qid-2264334": {
+    "topicId": "reasoning-causal",
+    "stemHash": "2d3305f2a72fb6b11ea32491ea868983dbcc1aa82b31a7148b05e53f3e33996a",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "应激本身没有致痛能力，但是流行病学调查发现，长期应激与疼痛慢性化的发生正相关，即长期处于巨大压力下的人群，其疼痛症状更易迁延，进而发展为慢性疼痛。 以"
+  },
+  "national-qid-2264336": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "fbc3ef27686cb12f67da38246dbb956ccaa5f1c6478b01c480aa36e163beeee0",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "自从前年甲航运公司实行了经理任期目标责任制之后，公司的经济效益也随之逐年上升。可见，只有实行经理任期目标责任制，才能使甲公司经济效益稳步增长。 以下哪"
+  },
+  "national-qid-2264338": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "2b1caf1b84b7af0511b9f16f782eed59c36ac6cdfc4a16021563e2b85e0f9391",
+    "evidence": "问法要求论证成立所需的前提，考查补足论据与结论之间的必要联系。",
+    "reviewAnchor": "所有的地震都是以P波开始的，这些P波移动快速，使地面发生上下震动，造成的破坏较小。下一个是S波，它的移动很慢，使地面前后、左右晃动，破坏性极大。早期预"
+  },
+  "national-qid-2264342": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "60780b744c23dea4776e405b9d56b0f8bab68129ff3fdbecee91b39f2c919630",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "“镇美”队每个选手完成自己最少的答题任务之后，剩下的题目依次是："
+  },
+  "national-qid-2264344": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "e0ddabac84beb9554dc8d92d46ded4b14477aeed2a24bff74e75bce9744096da",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果在该场比赛中，陈佳和赵义均答对了一半的题目，则该场比赛“镇美”队答对的总题数最少为："
+  },
+  "national-qid-2264346": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "f481ec5f6e5aa96c91bc213e9391ea4f81905812a16b82ed0710abb7615e442e",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果有两名选手答题总数相同，则可以得出："
+  },
+  "national-qid-2264349": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "219ddc9eea521550ed3d9a70c603843cb64c073bdfe467431ffb0a84033ff03f",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果在该场比赛中，所有的历史题都答对了，而所有的地理题都答错了，假定每题1分，则以下哪项中选手的得分情况是不可能的？"
+  },
+  "national-qid-2264353": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "c3a19bbabd01cd044e835e65a638215f9c270a928a8667f8cfa0ed0b3f41bac3",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "补充以下哪项，可以确定该场比赛中3名选手各自的答题编号？"
+  },
+  "national-qid-2264457": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "e1365f2802d3237000c3b4f492b470dd26a80d10de8227f8e2c689ab1b1dadef",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "有实验表明，秋葵的提取物——秋葵素，对于治疗动物糖尿病有一定效果。有人据此认为，秋葵切片泡水喝，有助于降低糖尿病人的血糖。 以下哪项如果为真，最能质疑"
+  },
+  "national-qid-2264459": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "5a66703fdf9560aa8fd105d39a94004604d9b6af8703d62d05035e97710c6d19",
+    "evidence": "比较论证结构或逻辑错误的形式是否一致。",
+    "reviewAnchor": "有位青年到杂志社询问投稿结果。编辑说：“你的稿子我看过了，总的来说有一些基础，不过在语言表达上仍不够成熟，流于幼稚。”青年问：“那能不能把它当作儿童文"
+  },
+  "national-qid-2264460": {
+    "topicId": "reasoning-causal",
+    "stemHash": "e33eb906b78422b4932ce35027212fd8c0b485a4cabc92c2110c788ada667af9",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "有研究人员认为，人类脱发是由于营养不均衡导致的。当人体无法吸收到均衡的营养，毛囊就会萎缩，从而导致脱发。但是，有反对者认为，脱发是由于毛囊受损导致的。"
+  },
+  "national-qid-2264462": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "4c6cbd1a2b1f4412f40ce587f7698535fb74232e348bab2a2133d0661412d432",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "小溪根据学习计划制定了阅读书单，准备阅读《红楼梦》《水浒传》《三国演义》《西游记》《论语》《道德经》《诗经》七部名著，每部均要阅读，但是她的阅读顺序必"
+  },
+  "national-qid-2264464": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "d9d70e9d2d58d3307f9d8a2f98e417186b0b51d5d0cd9badb4a2c4985cc505bc",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "小若为了参加一项法律考试，准备在一周之内复习14门课程，其中民法课程5门、经济法课程3门、行政法课程3门、商法课程2门、国际私法课程1门。但是因为精力"
+  },
+  "national-qid-2448391": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "2e02a494700597181820a714ac15dc9cdc0af97034ca1713c7ac0826f23ce450",
+    "evidence": "问法要求论证成立所需的前提，考查补足论据与结论之间的必要联系。",
+    "reviewAnchor": "澳大利亚箱形水母是世界上毒性最强的动物之一，蜇人后其毒素会使人皮肤坏死并伴随剧痛，还会侵入人的心脏，使人在短时间内因心脏停搏而死亡。一只箱形水母体内携"
+  },
+  "national-qid-2448393": {
+    "topicId": "reasoning-causal",
+    "stemHash": "3593e7f58af9b645572d984f62aed8ab37b5bb55409bfa179c280d87a380b10d",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "2014年以来，某州已发生了超过230次3级及以上地震，而2008年之前这一数字是年均1次。频繁的地震活动引发了人们的疑问，一些研究者发现2014年以"
+  },
+  "national-qid-2448395": {
+    "topicId": "reasoning-causal",
+    "stemHash": "04d81fa145ed0cea67665a00e39cd40c9be73de8c04663c72b74b5fd7bcb9f49",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "一般来说，动物的蛋会通过土壤中微生物和堆肥分解有机物时产生的热量来孵化，但这些微生物（包含细菌）也会穿透蛋壳、感染胚胎，自然情况下这一比例高于。然而，"
+  },
+  "national-qid-2448400": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "3044a0d4003faff915e932ff1f9e67f70db2055fe21e45582ee9ce06eeb72cb6",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "下列各部门办公楼按照从前到后的顺序排列，哪项符合上述要求？"
+  },
+  "national-qid-2448402": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "45c5fe8c9c5eb416cb450e9290dc3e0c3a20861ea0c7289d6c942f1435e91fcb",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果研发部在戊字楼，那么下列哪项可能为真？"
+  },
+  "national-qid-2448406": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "5867699392b55fde3d9f95f3a14843c1ec1aa9f12bbe73b42d6dd9747a3f3052",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果法务部在壬字楼，那么销售部在："
+  },
+  "national-qid-2448409": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "dd0a132af51c7dfe1b7ccfe46940911ed184f3a939fd05922321ac7a585e3e81",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果销售部安排在戊字楼，则以下哪项安排是不可能的？"
+  },
+  "national-qid-2448413": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "86f27fe5d15f74ef5c659e7378f8c380194472600bdb25eebcef0a569c4c06ab",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "下列哪两个部门不可能依次安排在庚字楼和辛字楼？"
+  },
+  "national-qid-2448470": {
+    "topicId": "reasoning-causal",
+    "stemHash": "8429df38117f7988d09ce2512c73d3644b8ac5b9411b929cb1339be24cde4869",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "随着气温上升，热带雨林遭受闪电雷击并引发大火的几率也会上升。然而，目前的监测表明，美洲热带雨林虽然更频繁地受到闪电雷击，却没有引发更多的森林大火。研究"
+  },
+  "national-qid-2448473": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "4dd695fbdfc52955e0fe4d715b9541a72bdc9b78decda2fa9d6740d5764ae992",
+    "evidence": "以题干给定的条件命题为依据，考查充分必要条件、逆否或连锁推理。",
+    "reviewAnchor": "一切生命有机体都需要新陈代谢，否则生命就会停止。文明也是一样，如果长期自我封闭，必将走向衰落。交流互鉴是文明发展的本质要求。只有同其他文明交流互鉴、取"
+  },
+  "national-qid-2448534": {
+    "topicId": "reasoning-causal",
+    "stemHash": "8d427761a72f11ed6efb1a3bff7bdb72e0dfdd3bc2f6de319f71dac44afb1618",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "一项研究中，研究者观察了近300名2～4年级儿童在一个学年中的课堂参与度。参与度是根据上课过程中的专心行为和分心行为衡量的，前者指的是回答问题、举手发"
+  },
+  "national-qid-2448536": {
+    "topicId": "reasoning-causal",
+    "stemHash": "ae43ae110f869782374b84c24edc938271c83ec468ffa0ce8317011e8182dfd7",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "近日，研究人员发现发烧可以促进淋巴细胞向感染部位转移。他们解释说，这是由于发烧会增加热休克蛋白90（Hsp90）在T淋巴细胞中的表达，这种蛋白质与整合"
+  },
+  "national-qid-2448538": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "06c1cad608c077ac050c46910722f814584db70a0c9a9cb8c5e62b4125c3f292",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "斑头雁在飞行中有一个特点，就是它们经常以某种队形来飞，通常是后面的鸟飞在前一只鸟的侧后方，因此就有了常见的“人”字形队形。一些研究者认为这一队形可减小"
+  },
+  "national-qid-2448586": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "05e2570095b4a4d96e5c550bf59be3b032b2d1786d96e340b4d40d2c1bae8a08",
+    "evidence": "以题干给定的条件命题为依据，考查充分必要条件、逆否或连锁推理。",
+    "reviewAnchor": "甲、乙、丙、丁、戊五人乘坐高铁出差，他们正好坐在同一排的A、B、C、D、F五个座位。已知： （1）若甲或者乙中的一人坐在C座，则丙坐在B座； （2）若"
+  },
+  "national-qid-2448587": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "5d7fa7c6cdcea5d2910e9219270569bb86ea8b8894795a53fb54b5e151039c02",
+    "evidence": "以题干给定的条件命题为依据，考查充分必要条件、逆否或连锁推理。",
+    "reviewAnchor": "小张这个夏天如果去新疆，就要游吐鲁番和喀纳斯，否则就不去；只有与小李同游，小张才会游吐鲁番或天池；如果与小李同游，小张一定要与小李做约定；如果小张与小"
+  },
+  "national-qid-2719405": {
+    "topicId": "reasoning-causal",
+    "stemHash": "1c29b8b84d2079d406b603314f17d1fb90a517481e912eff31d590ca47a44eb3",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "有研究人员认为，胶原蛋白保持皮肤年轻的说法并不科学，他们认为，皮肤得以保持年轻，应归功于表皮干细胞，哺乳动物的表皮细胞会持续更新，新细胞来源于表皮干细"
+  },
+  "national-qid-2719406": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "1f7ebeb9f292d9ce4c70424e6f1c6a324ac1784f53eafa3d14a5cc9f3bef7418",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "羟苯甲酮是一种常见的紫外线吸收剂，多用于防晒护肤品中，全球3500种品牌的防晒霜中均含有该物质。研究表明，即使是极低浓度的羟苯甲酮也会给珊瑚带来致命的"
+  },
+  "national-qid-2719408": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "49d7046b28d4c527480cac1079748f77e2177eed8362560ce50519decd5b7bed",
+    "evidence": "问法要求论证成立所需的前提，考查补足论据与结论之间的必要联系。",
+    "reviewAnchor": "地质学家在澳大利亚中部距地表3公里的地下发现了两处直径超过200公里的神秘自然景观，景观所含有的石英砂中有着一簇簇的细线，这些细线大部分是互相平行的直"
+  },
+  "national-qid-2719409": {
+    "topicId": "reasoning-explain",
+    "stemHash": "cf75b887056fd0a8411df1001f9f62bd51437ebe3c5634b8a42549b8cbfa2c72",
+    "evidence": "解释题干中看似矛盾或与预期相反的现象。",
+    "reviewAnchor": "近年来，国家从药品生产、流通和销售各环节发力，频频出台降低药价的相关政策。但是，让不少患者感到疑惑的是，一方面是国家降低药价的政策不断出台，另一方面却"
+  },
+  "national-qid-2719410": {
+    "topicId": "reasoning-causal",
+    "stemHash": "166a953264062628240590a3936360603619039b2cdf2459cee645cb9a1be9b0",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "近日，有研究团队通过对44个反刍动物物种的基因组测序研究，创建了一个反刍动物的系统进化树，从而解释大量反刍动物的演化史。结果揭示，在近10万年前，反刍"
+  },
+  "national-qid-2719415": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "e620b62563fa76aa02332411e47c7cdc607091a5eb47d91cb8d59a24f5c8c344",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "关于分管情况，下列哪项是可能的？"
+  },
+  "national-qid-2719416": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "8be1f10557fdb8f0b1b49897e6e1ffd2b8abfb1a924fc751e57cfa618a5c1659",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果王分管的部门多于丁，下列哪项可能为真？"
+  },
+  "national-qid-2719417": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "3bc361dfdfb760faf9a677363df07ce5a5b4b054b33ef40457ce42605e79a6e8",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "下列哪项是不可能的？"
+  },
+  "national-qid-2719418": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "4cd0620b0e85117a6f91e171bad03ba791125fd717c35b7db99740e42059b80a",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "财务和以下哪个部门不可能由同一人分管？"
+  },
+  "national-qid-2719419": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "b01164d3f02b331b1f1374661425f06285b8c866bb1c0a3eb4db8e8fa1f9e2e0",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果科研和宣传由同一人分管，那么下列哪项是可能的？"
+  },
+  "national-qid-2719447": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "ced4484980113907d24f943c7b286634bba0f5ddb3196800440db7f47b00aa08",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "中国互联网络信息中心发布报告显示，截至2018年12月，我国短视频用户规模达6.48亿，其中青少年用户占了很大比重，开展青少年防沉迷工作刻不容缓。相关"
+  },
+  "national-qid-2719448": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "b21c6e0d09aac00148e62bae88d174158192b8f06a103a16922d13d6a1701b37",
+    "evidence": "以题干给定的条件命题为依据，考查充分必要条件、逆否或连锁推理。",
+    "reviewAnchor": "小赵和小刘是非常熟悉的好朋友，两家相距很近，疫情期间，小赵曾给本单位同处室的同事发了警示微信，小刘也给所在小区他认识的所有人发了警示微信，并进一步通过"
+  },
+  "national-qid-2719449": {
+    "topicId": "reasoning-causal",
+    "stemHash": "c421efb7ccc2358e2f0e36d2488a7b4fe6e0e2063f5733a41b1a5ad79b167343",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "某便利店新进了一批个性商品，如带酸味的啤酒，芥末味道的饼干等，这些个性商品摆放在单独设立的区域进行销售，三个月之后，店长发现：和之前没有引进个性商品时"
+  },
+  "national-qid-2719450": {
+    "topicId": "reasoning-causal",
+    "stemHash": "4878ed1a189815161133171d8b497b5476fd6c7b456ec4588021e8063faae16b",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "研究人员在2011年至2017年间采集了600多名60岁以上老年人的身高、血压和饮食习惯等多项数据，随后，又对研究对象进行了神经心理评估和认知障碍评定"
+  },
+  "national-qid-2719451": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "ae10c34a3a0fb9ba1b55e1e5840e14bd9b8bc907502684ea46928e4eebafebf0",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "单位安排甲、乙、丙、丁、戊、己、庚、辛8人出差，他们恰好被安排在宾馆同一排左右相邻的8个房间。已知： ①甲和丙中间隔着3人； ②乙和己中间隔着2人； "
+  },
+  "national-qid-4637304": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "42754e812f9824fee4df9ba40afbd481f62c2831453b703f65ebb690bd6a3a5b",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "下列各项中，哪一类商品不可能排在第一排？"
+  },
+  "national-qid-4637319": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "06ab484a83cf8b86afd6ec456eb56a3c2b92292bab395d928a8166b35d7a40c5",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "按照从前到后，下列哪项排列是可能的？"
+  },
+  "national-qid-4637333": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "a41c5081801f2b3d48302f95633e349db093eb00067fcb7c2fb79ffd807eadc0",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "零食类和文具类中间最多可能隔几排？"
+  },
+  "national-qid-4637344": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "91cc45002facf8a9c87407285802471a74c85bdefd5a73c60823dbe66285ebc5",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果零食类排在第1排，那么下列哪项中的两类商品不可能是相邻的两排？"
+  },
+  "national-qid-4637352": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "ab1a0ddd6595a4c455d04b93e1a93420f0d33bef75c2523c5724c9f75251c182",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果饮料类排在第1排，则以下哪项是可能的？"
+  },
+  "national-qid-4637385": {
+    "topicId": "reasoning-causal",
+    "stemHash": "0ab0af5160d9884f7a4f95ad209131ce1325edee34d9c5b4b22014fa28341924",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "研究员让流行音乐爱好者听一组流行歌曲，同时用功能磁共振成像监测他们的大脑活动。在进行扫描前，研究员通过经颅磁刺激间接刺激或抑制大脑的奖赏回路。结果发现"
+  },
+  "national-qid-4637402": {
+    "topicId": "reasoning-causal",
+    "stemHash": "6602e1d71092e10285238e7188cbdb1a1ba02759f452aab8879ae91cc86e4e92",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "由于集合了榨汁机、豆浆机、料理机、研磨机等产品功能，破壁机近年来一直备受消费者青睐。某公司生产了R型和W型两款功能相同的破壁机，相比而言R型清洗更方便"
+  },
+  "national-qid-4637413": {
+    "topicId": "reasoning-causal",
+    "stemHash": "20db51be7c8b27304ba4ee9ff8a5dd01fce4ced4acfd54532d856d5620774c21",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "一家全国连锁珠宝店的H分店，去年在当地投放大量电梯促销广告。广告投放后，客流量激增，净利润和前一年同期相比增长了30%。可见电梯促销广告对于提高企业利"
+  },
+  "national-qid-4637419": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "3b6c1f68060e453f6687c00eb28e2029ba7773a1f9197b48c3a0f3cc12cb631d",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "在我国北方的春天，树木花粉是一种主要的过敏原，它们通过空气传播，不可避免地被吸入体内，使过敏体质人群产生或轻或重的炎症反应。与此同时，作为树木种子的杨"
+  },
+  "national-qid-4637420": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "f0ed083aa1e2cb1c98c25d0e31f09aa71fd2919cafc3f0a8a7da3747f1ef8f28",
+    "evidence": "问法要求论证成立所需的前提，考查补足论据与结论之间的必要联系。",
+    "reviewAnchor": "不同的读者在阅读时，会对文章进行不同的加工编码，一种是浏览，从文章中收集观点和信息，使知识作为独立的单元输入大脑，称为线性策略；一种是做笔记，在阅读时"
+  },
+  "national-qid-4637555": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "0909caf7a5c45af8439112f7097c0eaaefa97d849a71719594583db01d993a2d",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "最近，主打白噪音的助眠产品引起很多人的兴趣。有人认为，白噪音可以掩盖环境中干扰性的刺激，有助于促进睡眠、改善睡眠质量。但研究者对此持怀疑态度，认为白噪"
+  },
+  "national-qid-4637569": {
+    "topicId": "reasoning-causal",
+    "stemHash": "aff5cf09a4beb30854ee04c50ff890191f4eac49f1f919548973ac94b23a79f6",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "动物实验发现，和处于寒冷环境的同等大小的小鼠相比，温暖环境小鼠的骨密度明显增强，很少出现骨质疏松。与此同时，温暖环境中小鼠的肠道菌群更为活跃，当把这些"
+  },
+  "national-qid-4637581": {
+    "topicId": "reasoning-special-strengthen",
+    "stemHash": "9469c8be23370ff7b0ec86b513b0a6c6780b17517ca0e66ed0bb3006bff34534",
+    "evidence": "结论涉及变化趋势、两类对象或两种方案的比较，支持需针对变化或差异。",
+    "reviewAnchor": "熊蜂是一类多食性昆虫，与蜜蜂相比，熊蜂体型更大且多毛，颜色各异，大多有着经典的黄黑条纹，黑身红尾。人们发现，由于密集管理型农业系统的推广，熊蜂在这些地"
+  },
+  "national-qid-4639321": {
+    "topicId": "reasoning-propositions",
+    "stemHash": "c6b809774e06896384c70328119dd8123153b0cb695773a698afd1682cbdc486",
+    "evidence": "与学习板块命题与形式逻辑基础中的同题对应，使用且、或命题的矛盾关系排除预测。",
+    "reviewAnchor": "小陈、小李、小刘3人从学校脱颖而出，到市里参加竞赛。5人预测： 小陈、小李都获奖； 小陈、小李至多有1人获奖； 小陈获奖，小李未获奖； 小陈未获奖，小"
+  },
+  "national-qid-4639338": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "6fad9cf5a7d5e96ac275154795e6e78fb8bd074b06de9e9397292d23b56d14da",
+    "evidence": "以题干给定的条件命题为依据，考查充分必要条件、逆否或连锁推理。",
+    "reviewAnchor": "地理老师在五个柜子里放入了五种矿物，每个柜子只放一种矿物：赤铁矿、黑云母、绿泥石、黄铜矿、方铅矿。已知：（1）如果一号柜放赤铁矿，那么二号柜不放黑云母"
+  },
+  "national-qid-4639340": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "725ef1e77d82f31b6a8f273605a28c552f0447f1ea607c16e4a10ee565b6fb1b",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "聚苯乙烯泡沫塑料广泛用于制造一次性咖啡杯等用品，但其原料来自石油等不可再生能源，生成的聚苯乙烯高温条件下可能产生对人体有害组分，且无法自然降解，燃烧时"
+  },
+  "national-qid-4639345": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "870e0fbfe1ad26c362087b7453c2c3d0c5a4bea6937035690604ffc3d826a8a4",
+    "evidence": "以题干给定的条件命题为依据，考查充分必要条件、逆否或连锁推理。",
+    "reviewAnchor": "一颗恒星足够大且经过超新星爆发，才会坍缩为一颗中子星并伴随磁场增强。在这些中子星中，只有拥有强大磁场和高自转速度才能成为磁星。一般认为，磁星的磁场是在"
+  },
+  "national-qid-4639350": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "51e17b0e819e2551fbb0d604ebbc2992f6ba220374acf6113d251ce8b5844dcd",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "为满足乘客用餐多样化的需要，某地区推出了旅客列车的互联网订餐服务。该服务上线一年以来，通过线上渠道（官网、订票APP等）进行了大量的宣传，但订单量除了"
+  },
+  "national-qid-2579001": {
+    "topicId": "reasoning-induction",
+    "stemHash": "5c0483b602634909dd1c61d6d70c257f4013812d6efaa2ef35f85ebec193fd9c",
+    "evidence": "从题干陈述中作有限推出，不引入材料以外的信息。",
+    "reviewAnchor": "汞在环境中有三种存在形态：金属汞、无机汞、有机汞。这三种形态下的汞均有毒性，其毒性由小到大依次为：无机汞＜金属汞＜有机汞。其中，金属汞是常温下唯一的液"
+  },
+  "national-qid-5445773": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "810853cc3560eaa134a70a524b111d25a962367c18641230b27a643c9c9e488e",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "调查显示，84.8%的家长倾向于给孩子购买标有“儿童”字样的食品。几乎每一款“儿童食品”都宣称“无添加，适合孩子健康成长”。家长热衷于购买有“儿童”标"
+  },
+  "national-qid-5445782": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "314485b4a82af9b3f4d90bf536ea953853e48c647fa89e8701144495384079d1",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "关于6天中的人选，以下哪项安排符合上述条件？"
+  },
+  "national-qid-5445783": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "2044519e7788ea851f09c2bc3e4c8d46b073bfe56af5b2ab33ff502f7fae26b4",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "电商直播可以为农产品的营销提供一条有效的渠道，在农产品供应链的运作上要明显优于传统的“农户批发商分销商消费者”模式。但目前在很多地方，电商直播营销模式"
+  },
+  "national-qid-5445784": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "2dbba0de8093f5a46f6697c9baa38ac9347e945cd40ac807897c1742b3b0e220",
+    "evidence": "问法要求论证成立所需的前提，考查补足论据与结论之间的必要联系。",
+    "reviewAnchor": "深度学习是一系列复杂的算法，使计算机能够识别数据中的模式并作出预测。研究人员利用深度学习技术训练AI系统自动读取视网膜扫描数据，并识别那些在接下来的一"
+  },
+  "national-qid-5445794": {
+    "topicId": "reasoning-special-strengthen",
+    "stemHash": "636b9f23aae6e5910c4c71cf7ba68901442a0bbe3fce2b64cf03c0a5f94233e2",
+    "evidence": "结论涉及变化趋势、两类对象或两种方案的比较，支持需针对变化或差异。",
+    "reviewAnchor": "人们感受气味通过嗅觉受体实现。研究发现：随着人类的演化，编码人类嗅觉受体的基因不断突变，许多在过去能强烈感觉气味的嗅觉受体已经突变为对气味不敏感的受体"
+  },
+  "national-qid-5445803": {
+    "topicId": "reasoning-causal",
+    "stemHash": "2ffeff34da88335d430dc5904c7e7734e4533407b8b2d299dfb94d64a2ab844d",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "R行星是位于太阳系的一颗小行星，质量不大，平均直径不足500米。在对R行星进行长达一年的观测后，人们发现其表面长期漂浮着砂粒，且砂粒在漂浮一段时间后，"
+  },
+  "national-qid-5445805": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "6c0bf37e9ec0ba2a491d335fc843229718c66b0d84392e1d450db3048f7bce33",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "后勤部门的人可以安排在哪几天值班？"
+  },
+  "national-qid-5445808": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "ae459d73d94ff7cfa9a8c39d7b07e5139771d672788343f8d4587ccafa060379",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果安排后勤部门的两人值班，则以下哪项一定是错误的？"
+  },
+  "national-qid-5445817": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "8a3e545f55c4621a3120199f1c381e15b82936cfa7c6dd2e379ca3ed8bf58f1d",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果在第三天、第五天分别安排两个财务部门的人值班，则第一天、第六天可安排的值班人员可能分别来自："
+  },
+  "national-qid-5445818": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "3e4439156f8ea59ec1a040e37c5139439f3eda76c48cd1efb46d3823d7de7b43",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果没有安排财务和后勤部门的人值班，则以下哪项一定是正确的？"
+  },
+  "national-qid-5445857": {
+    "topicId": "reasoning-causal",
+    "stemHash": "6b37a8eb23d797d98173aa901fffa6842e1d45c00509b8a938bce25dbca15f69",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "调查显示，某地区第二产业从业人员与五年前相比减少了10.4%，对于第二产业从业人员减少的原因，一种观点认为，产业优化升级是第二产业从业人员减少的原因，"
+  },
+  "national-qid-5445883": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "3b58318a575397d5b6826014490fbe03fb5e4d53575585d3bdb14b5e8cc8a79f",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "近来，国际大宗商品市场中，原油和天然气价格达到近十年以来的高位，锌矿价格也上涨了7%左右，有分析人士认为，大宗商品市场将进入“超级周期”（大宗商品价格"
+  },
+  "national-qid-5445884": {
+    "topicId": "reasoning-special-strengthen",
+    "stemHash": "af2f6a8e8b975b100b4bd498af6d615aa242af0dfef98ca7798dc4caca950650",
+    "evidence": "结论涉及变化趋势、两类对象或两种方案的比较，支持需针对变化或差异。",
+    "reviewAnchor": "传统污水处理，或通过重力沉降、混凝澄清、浮力浮上、离心力分离、磁力分离等物理方法对不溶态污染物进行分离，或通过酸碱中和法、化学沉淀法、氧化还原法等化学"
+  },
+  "national-qid-5445896": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "8ffdb7c05d598776ed1015520ac99991d367440fed427baed15deebf7e2d3168",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "太平洋中部的海底，散落着大量的矿石，这些矿石名为“多金属结核”，是镍、钴、锰等稀有金属的混合物。支持深海开采的人认为，多金属结核可以提供开发清洁能源所"
+  },
+  "national-qid-5445918": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "1eb2237e8dc7e5ad386d145b0c7ca841cd4a35639b504a11237ea2c515d6d504",
+    "evidence": "问法要求论证成立所需的前提，考查补足论据与结论之间的必要联系。",
+    "reviewAnchor": "杂草稻是稻田里不种自生、伴随栽培稻生长的一种“杂草型稻”。研究者在杂草稻基因组中发现了与干旱胁迫下叶片干枯程度显著相关的基因——PAPH1。消除该基因"
+  },
+  "national-qid-5445921": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "6479c95c79d9203d551c1a6ab79091a29542cdb1252323d2504979572fd25f97",
+    "evidence": "以题干给定的条件命题为依据，考查充分必要条件、逆否或连锁推理。",
+    "reviewAnchor": "面对需求收缩、供给冲击、预期转弱三重压力，要想实现国内经济发展稳中求进，关键是要稳住市场主体。只有围绕市场主体需求实施更大力度减税降费，才能帮助其渡过"
+  },
+  "national-qid-5445922": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "5e3b74128b8d6d201b78978f222a5ac6eed12f6040c9873079426b816818222a",
+    "evidence": "以题干给定的条件命题为依据，考查充分必要条件、逆否或连锁推理。",
+    "reviewAnchor": "石、方、白、于、叶5人参加单板滑雪、跳台滑雪、越野滑雪和高山滑雪4个项目的比赛，每人参加一个项目，每个项目均有1-2人参加。 已知：（1）如果石和白至"
+  },
+  "national-qid-5445925": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "aab2b9666e3b27c7edc484cc790c5d85e93a72ccebcc3f04697d8c6c145c3c1f",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "考古人员对岳阳新墙河流域的大马古城址及其相关东周遗存进行调查研究，推测这里是东周时期麋子国城的遗址。东周时期麋子国被楚灭亡后迁徙江南，最后定居在今岳阳"
+  },
+  "national-qid-5893682": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "feebd599bd3f89468edc8ae4b1e69dd56ee2bac501f93e57c1aa9886b0d8e058",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "下列哪项是可能的先后依次结对的城市名单？"
+  },
+  "national-qid-5893684": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "3e16476171fe45ef37471fc4cddc8837a6416ffbbc217709bf2eee545033f7e3",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果己是2023年结对的，那么戊一定是和哪个城市结对的？"
+  },
+  "national-qid-5893685": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "e83c727059516f088993283912116b4560046ea3e85b7ed38ade165c8f060d0b",
+    "evidence": "问法要求论证成立所需的前提，考查补足论据与结论之间的必要联系。",
+    "reviewAnchor": "对体外环境的感知是人类生存、交流和进化的基本能力。人体的味觉系统是信息感知的重要组成部分。有学者认为，苦味的感知是人类长期进化的一种防御机制，这意味其"
+  },
+  "national-qid-5893686": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "a4d6f0ee4a9d2b6affc58025b187fc16a75bdb47501e2a6238f1a919be146f9d",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果丁是2022年结对的，那么下列各项中，哪两个城市可能结对？"
+  },
+  "national-qid-5893687": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "8133d906d121dd592776a3ad8f1c751df056ed43afd979ac3db4f9cb4ba11570",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果甲和丙结对，下列哪一项一定为真？"
+  },
+  "national-qid-5893688": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "8b2a1bb57becbeb9e19469072a89823b37b654f4327d60073ed05f15f4d1b3e1",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "在过去，药物的研发主要来自于陆地生物，这与陆地生物更被熟知且容易获得有关。近几十年来，越来越多的药物开始从海洋生物中产生，海洋生态环境极具复杂性，因而"
+  },
+  "national-qid-5893689": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "21e37d86ae1741287724f518500b4b0731742d51bad0388078218756b1bc0e70",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "有几个城市可能是在2022年与其他城市结对的？"
+  },
+  "national-qid-5893690": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "3a0872207fe1561f518530e66a8c6fd1f04aefcfca76dfd4514e5a7307388ea8",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "W国对咖啡领域的调查显示，过去W国咖啡领域的融资金额高达5亿元，该国许多知名企业跨界进入咖啡领域，本土咖啡品牌在快速崛起。然而经过去年一年的销售发现，"
+  },
+  "national-qid-5893691": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "dfd1f42d289f7a73e93d64242a83d6343c995b83f41ce7c4e9f8cef980007997",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "软件通常存在漏洞，攻击者为接近并操控目标主机，往往会主动寻找漏洞，攻击者会花费大量时间区分软件中“真正危险的漏洞”和“良性漏洞”，并在找到前者后实施攻"
+  },
+  "national-qid-5893692": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "4f071123a72cd491eeb704d31ee2bc2e9c08361e908feb83c905a9ff78cd6893",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "研究发现，一种被称为EPAS1的特殊基因能调节机体生理状态，使人类适应缺氧环境。考古研究表明这种特殊基因最早可追溯至16万年前已居住于青藏高原的古人类"
+  },
+  "national-qid-5893802": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "8ab2192f1855f0a3af7d830c207345c523472074ffb48c61d0afe5b5d36eec2f",
+    "evidence": "以题干给定的条件命题为依据，考查充分必要条件、逆否或连锁推理。",
+    "reviewAnchor": "人民是创作的源头活水，只有扎根人民，创作才能获得取之不尽、用之不竭的源泉。文化文艺工作者要走进实践深处，观照人民生活，表达人民心声，用心用情用功抒写人"
+  },
+  "national-qid-5893806": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "ca724477db59e9b97e2e8a78cb75f0978c7906e9dc4a1f896547f8dea53c2cc1",
+    "evidence": "问法要求论证成立所需的前提，考查补足论据与结论之间的必要联系。",
+    "reviewAnchor": "多重宇宙理论通常也称为平行宇宙理论，该理论认为有无数个宇宙与我们所在的宇宙并存，虽然我们无法意识到这一点。这些宇宙可能与我们所处的宇宙截然不同，但也可"
+  },
+  "national-qid-5893808": {
+    "topicId": "reasoning-causal",
+    "stemHash": "b81b8afd82c4e21dcb5f3625247432f44b92d6edd87f41fde6945ac5b0120e79",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "蕨类植物是一类无性繁殖的植物，通过释放孢子进行繁殖，不会开花结果。人们发现，与开花植物相比，蕨类植物的基因组极为庞大，一种普通树蕨就拥有超过60亿个D"
+  },
+  "national-qid-5893809": {
+    "topicId": "reasoning-causal",
+    "stemHash": "17d5c110e58021efa9c7b81d2d37a48ff62cb92f7a6a63595c3fb8ef80472eb0",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "研究中，实验组小鼠每天晚上接受两小时的蓝光照射，对照组小鼠白天接受两个小时的蓝光照射。三周之后，所有小鼠进行“强迫游泳”和“糖水偏好”测试。这两项测试"
+  },
+  "national-qid-5893811": {
+    "topicId": "reasoning-causal",
+    "stemHash": "581f41a87149345983df7f0c35162ad467eb51f95c90233e47e2183559545381",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "研究团队对欧洲各地发现的古代遗骸进行DNA分析，这些遗骸的年代可追溯到12000年前欧洲出现农业之前和之后的一段时期。数据显示，从狩猎—采集生活方式转"
+  },
+  "national-qid-5893814": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "8c91e0d33f6d4a3ee33eef2794c904364ba885643820939f2fda0bd693c65744",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "冰雪旅游是利用冰雪气候资源体验冰雪文化的旅游活动，包括冰雪观光演艺、运动竞技等内容。H地区冰雪旅游开展了五年，调查显示：在近万名受访者中，有90%的人"
+  },
+  "national-qid-5893816": {
+    "topicId": "reasoning-causal",
+    "stemHash": "1a2d8a823f012800b0d06e337a49950e18bbc61ad2a3ab2e895e5130bcf5cf53",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "墨西哥丽脂鲤是一类洞穴鱼，生活在寒冷漆黑的洞穴中，它们的身体不产生色素，因此呈现白化状态。与其他鱼类相比，墨西哥丽脂鲤的某一基因发生突变，使其难以合成"
+  },
+  "national-qid-5894947": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "0f6f81c61b96f63d78f39ee4d66df75794a85e2a93b161c0166d06021ab9360b",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "今年1-4月，张、王、李、杨4人到长三角城市上海、苏州、杭州和南京调研，每个城市每人调研1个月，每个月中4人调研的城市均不同。已知： （1）王3月在苏"
+  },
+  "national-qid-5894948": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "ad192f24a9a0241dc19b97498d055a708d3eb33f4ae009cd76e559837faf5a2d",
+    "evidence": "以题干给定的条件命题为依据，考查充分必要条件、逆否或连锁推理。",
+    "reviewAnchor": "甲、乙、丙、丁4人参加预选赛。对于预选赛结果，几位教练预测如下： （1）如果甲、乙均未通过，则丙通过； （2）如果乙、丙至少有1人通过，则丁也通过； "
+  },
+  "national-qid-19283830": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "d5a87d2fd63c582fcd27114247c4034a959e2252489c50861a515a0f0bfe59f6",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "研究者设计了一个“拔河比赛”的实验，要求被试分别在单独和群体的情境下拔河，同时用仪器来测量他们的拉力。结果发现随着被试人数的增加，平均每个被试使出的力"
+  },
+  "national-qid-19283839": {
+    "topicId": "reasoning-special-strengthen",
+    "stemHash": "1225cd8101fd8af1cf5801c635966879646861c1e544d077b22a5af29326f405",
+    "evidence": "结论涉及变化趋势、两类对象或两种方案的比较，支持需针对变化或差异。",
+    "reviewAnchor": "随着通货膨胀的蔓延，H国电子企业主要产品的原材料价格大幅上涨。该国最大的电子企业公报显示，今年该企业智能手机应用处理器价格较上年上涨30%，用于智能手"
+  },
+  "national-qid-19283848": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "c2fe97a1195d4de595f0061fdcfc4d0539643f7ce9b6ccf906fceadc407cd0a4",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "考古人员发现了近300枚16亿年前的丝状体生物化石，这些丝状体均由巨型细胞组成，直径20~194微米不等。化石中，有些丝状体直径保持不变，细胞呈短柱状"
+  },
+  "national-qid-19283852": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "d5195d583dd8199087da5a6a7d861c362d1e0a9747b5a402953229061f88bd4b",
+    "evidence": "问法要求论证成立所需的前提，考查补足论据与结论之间的必要联系。",
+    "reviewAnchor": "某项研究显示，与未接触空气污染的人相比，暴露于空气污染中的人死于乳腺癌的风险增加了80%，死于其他各类癌症的风险增加了22%。该研究团队由此认为，这可"
+  },
+  "national-qid-19283855": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "3138e2f5ac4627dca6be9a20962c2777b1c06d32db7df25668f6b68612e1559c",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果第二季度只安排2次会议，那么以下哪次会议一定安排在第一季度？"
+  },
+  "national-qid-19283866": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "a04304541dcf570505dfcf4b4f7ef05e017731bff40b13ef221865560bab2a1c",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "下列哪2次会议可以安排在第一季度？"
+  },
+  "national-qid-19283867": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "cab03c48efc216effc081f4bcb76c2d2a6eedecc2348a599bdb0582e44b7a842",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果每个季度至少安排1次会议，并且最后一个季度仅安排1次会议，下列哪2次会议一定安排在第三季度？"
+  },
+  "national-qid-19283868": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "603bfde156aa658fd797bb209e907ab3818c8392db355a9f1610d75685cc74dd",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果丙、戊安排在第四季度，下列哪2次会议可以安排在第三季度？"
+  },
+  "national-qid-19283869": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "dc29ddb58667c4bfd415a01ca64e152587556f33d450f9251949dce67488e723",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "如果甲安排在第三季度，第四季度不安排会议，庚不可能和哪次会议安排在同一个季度？"
+  },
+  "national-qid-19283887": {
+    "topicId": "reasoning-causal",
+    "stemHash": "a43b7cb72aa9477b1d81236389377939efe550ad0643e0dc9e2fcc0821b3ed11",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "某桃园5月份对其种植的蟠桃进行套袋。6月份，桃果出现异常，50克左右的大果很少；10余克的小果特别多，约占75%。正常情况下，此时果实应重50克左右。"
+  },
+  "national-qid-19283905": {
+    "topicId": "reasoning-special-strengthen",
+    "stemHash": "0bb1483c5f247fd8d58caa3e0e621fb3a625a4d1a9e3ea5879890a959b44fa34",
+    "evidence": "结论涉及变化趋势、两类对象或两种方案的比较，支持需针对变化或差异。",
+    "reviewAnchor": "某企业对于如何进行产教融合，形成如下两种方案：一是“做深”，企业自建培训中心，成立专职和兼职的企业培训师队伍，并根据企业需求，制定专门的培训大纲和计划"
+  },
+  "national-qid-19283919": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "6eceade28556b4c74068e5362e7fc14ad7bcd35639a7e8ab240e2b5bd8b01e8b",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "海山是海面下的岛屿，与岛屿中的火山岛有相同的起源和相似的形态，以往的海山生物调查发现，海山岩石上的生物群落与海山周边的软底沉积和深海平原上的生物群落大"
+  },
+  "national-qid-19283920": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "350d1cbce17c5f1ac4cde5dcfff670524c93c00ed13d205e5158bc672c3806ed",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "我军军语惯于将数字1、2、7、9、0变读为幺、两、拐、勾、洞，这些数字有个共同特点，即其原本的发音部位与发音方法使得在读这些数字时无法发出较大声音，在"
+  },
+  "national-qid-19283974": {
+    "topicId": "reasoning-causal",
+    "stemHash": "0d6b3af6283bcf591956c4f7f33ed31012c34a1547576aac4f3ba867a548cadc",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "红霉素是一种抗生素，最早从放线菌糖多孢红霉菌的分泌物中发现，最新研究中，人们发现一种名为文蛤的贝类体内也会分泌红霉素。红霉素主要由微生物合成，此前从未"
+  },
+  "national-qid-19283975": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "fa465cbcf7f6d8f98a1c2f3917d0c3f292ac27fdb0898f7629e28c24709fafd8",
+    "evidence": "以题干给定的条件命题为依据，考查充分必要条件、逆否或连锁推理。",
+    "reviewAnchor": "甲、乙、丙、丁、戊、己、庚7人报名参加象棋比赛，对于比赛结果，大家预测如下： （1）戊、己、庚至少有2人获奖； （2）如果甲、丙、戊至少有1人获奖，则"
+  },
+  "national-qid-19283976": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "44dc8167716ac3cfc998ebfb6cebe4b8b3eb950496a5ef3c5d68f520185c306e",
+    "evidence": "针对论证结论、论据可靠性、断点或方案漏洞作一般质疑。",
+    "reviewAnchor": "飞行信息记录系统，也就是俗称的黑匣子，在空难事故调查中的重要作用不需赘言，但无论在陆上还是海上的空难事故中，搜寻黑匣子都极其不易。有人建议，可利用现在"
+  },
+  "national-qid-19283979": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "7045c5b3cc028a0d803a104d84c0e38c08248e1143e299dea855bb371fb08c3b",
+    "evidence": "以题干给定的条件命题为依据，考查充分必要条件、逆否或连锁推理。",
+    "reviewAnchor": "国内市场只有形成完备的市场体系与商业规则环境，才能为企业参与出口竞争提供真正的市场根基，要形成完备的市场体系，必须深化要素市场化配置体制机制改革，只有"
+  },
+  "national-qid-19283980": {
+    "topicId": "reasoning-truth",
+    "stemHash": "650c548956f6abe9800bfc00b39b7fc2ddf497422e9072c1afea33894a63a081",
+    "evidence": "依据几句话的真假数量或真假关系确定实际情况。",
+    "reviewAnchor": "甲、乙、丙、丁4人按顺时针依次围坐在四方桌前，每人坐一面，4人中只有1人说真话。 甲：坐在东面的人说谎； 乙：坐在南面的人说谎； 丙：我坐在西面或者北"
+  },
+  "national-qid-19526262": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "ca61e61e38f944e7fd56ed9170db13162045fd86576e2063388ac5d1aa18cc75",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "S遗址近年来出土了大量与众不同的奇特文物，不少人认定S遗址展现了一个特色鲜明且区域封闭的南部地方文化。然而最新研究发现，在距离S遗址较远的北部Y遗址，"
+  },
+  "national-qid-19526265": {
+    "topicId": "reasoning-causal",
+    "stemHash": "97f2e3991d17e625cead4ef32f48cbc9f4e4cf49bf3a1d41ddcdcc97ae267398",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "平台企业依赖金融资本投资，需要迎合金融市场的估值逻辑，通过轻资产运营、扩大市场规模和用户数据挖掘与开发等，来提升自身在金融市场上的估值。随着平台企业金"
+  },
+  "national-qid-19526266": {
+    "topicId": "reasoning-causal",
+    "stemHash": "01851964d3d05fa2506b7d7e91130a48cf03f4994165cc2607c3ad4d6498404a",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "一项针对中学生的研究发现：直接使用通用AI工具可短暂提高学生数学测试成绩，但最终削弱了学生的数学学习能力。研究持续一学期，学生被分为三组，分别在课堂练"
+  },
+  "national-qid-19526277": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "eb61c72ec9dbf09035cb8006fbf4425faed6b94adcfa794477ae9d0e94621f49",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "对于3支双打队伍的组成情况，以下哪项是可能的？"
+  },
+  "national-qid-19526278": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "0e3de112abbafe32a9d855b276d61302252d4dd1fcc3079879afe05019fae53f",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "若宋和韩组队网球双打，则以下哪项一定正确？"
+  },
+  "national-qid-19526279": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "5fbf25ab876d5e9b9137f6493215b3241fbbd36e6595d50774b95d744ad61eef",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "若吴参加3个项目，则以下哪项是可能的？"
+  },
+  "national-qid-19526280": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "408cfbecda13aaec7861a1e27c7808c0f6ae5c572833040a97f723494558177e",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "以下哪项中的两人可能同时组队网球和羽毛球双打？"
+  },
+  "national-qid-19526281": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "4bc58ea38f3ebfa37a6d50e6707ef5e0dc841da9e39ef652c09d68c62600f5b5",
+    "evidence": "根据人物、时间、位置或任务等约束，进行排序、匹配或排除。",
+    "reviewAnchor": "若宋和韩组队乒乓球双打，则以下哪项是可能的？"
+  },
+  "national-qid-19526297": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "27718af9d773d86ee8fc89294435f5b28baf96960906c5f84b05df8ce1b84cb0",
+    "evidence": "以题干给定的条件命题为依据，考查充分必要条件、逆否或连锁推理。",
+    "reviewAnchor": "完善城乡融合发展体制机制是破除我国城乡二元结构、拓展高质量发展空间的必要举措。只有完善农业农村优先发展的投入保障机制，并且优化城乡公共资源配置机制，才"
+  },
+  "national-qid-19526315": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "afe6e9b18b6b1dba74e1269cadd3726f5c321b4957a277d681ad8040bb58cc9c",
+    "evidence": "问法要求论证成立所需的前提，考查补足论据与结论之间的必要联系。",
+    "reviewAnchor": "考古人员在某地发掘出一些似鸟动物化石，同位素测年显示这些动物生存于中侏罗世晚期（距今1.72亿～1.64亿年）。经考古推算，这些似鸟动物体型与现代鸟类"
+  },
+  "national-qid-19526386": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "ed2343ddb171d1a24fc224ca80a4ae0b455c590e9793c271c613c826d83f488d",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "科技行业越来越多地使用合成数据来满足AI模型数据训练的需要。合成数据是通过算法和统计模型人为创建的数据，在理论上可以无限供应。但合成数据存在一个关键问"
+  },
+  "national-qid-19526390": {
+    "topicId": "reasoning-causal",
+    "stemHash": "aa5fa73efcb9f227dcacb5a9e689b9133906ace6752952a4452f48ee34a024dd",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "部分研究认为，白垩纪陆地生态系统的变革是由植物、昆虫、脊椎动物与地质过程等多个要素相互作用推动的，形成了一个高度协同演化的系统结构。鉴于这一机制在当时"
+  },
+  "national-qid-19526434": {
+    "topicId": "reasoning-causal",
+    "stemHash": "92dea30c2a4ec11bb751e2e1e0b3b72b7f520625b19f2c114ecf9c2237efa012",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "近年来，盲盒等“非确定性产品”的市场规模迅速扩张，有分析人士指出，非确定性产品的热销说明有相当一部分消费者受到感受性消费动机的驱动，不同于实用性消费动"
+  },
+  "national-qid-19526435": {
+    "topicId": "reasoning-special-strengthen",
+    "stemHash": "e3e3bfbae442994c0137217170e427ea0ab382f53f3341308608f886f696f4f5",
+    "evidence": "结论涉及变化趋势、两类对象或两种方案的比较，支持需针对变化或差异。",
+    "reviewAnchor": "研究发现，受人喜爱、知名度高的物种更易成为科研人员研究的对象。有观点认为，每一物种都有研究的意义和价值，科研人员不应对研究对象差别对待，但反对者却认为"
+  },
+  "national-qid-19526436": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "d2be45fc692be12cda6397525d96b81fbb6611b2f1e7bc6d2abf0d7a3974bd2a",
+    "evidence": "以题干给定的条件命题为依据，考查充分必要条件、逆否或连锁推理。",
+    "reviewAnchor": "某学术会议共有甲、乙、丙、丁、戊、己、庚7名代表参加，在专题讨论环节，受时间限制，对于代表发言的安排，有如下考虑： （1）甲、丁至多安排其中一人发言；"
+  },
+  "national-qid-19526437": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "b064d7c500b2aaa1689ac717b64cdec14d415318a598f8c6759dfde8a0c0e5d2",
+    "evidence": "核对题干论点与论据，考查补充论据、搭桥或方案可行性的支持判断。",
+    "reviewAnchor": "在过去几十年，某大型沿海河口的河岸和沼泽边缘不断被侵蚀且侵蚀速度逐渐加快，这使得河口的湿地退化，生态环境变得脆弱。同时，人们发现该河口中沼泽蟹的数量持"
+  },
+  "national-qid-19526438": {
+    "topicId": "reasoning-causal",
+    "stemHash": "280e0f0d569e5255d3cce3201d31a135f3c082e06fb77525cbe10f0b3f8e25b5",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "抓挠是对皮肤瘙痒感觉的一种反应。一般来说，抓挠会激活皮肤中表达TRPV1的痛觉神经元，促进其释放P物质，激活肥大细胞，增强炎症反应，而最近的研究发现，"
+  },
+  "national-qid-19526440": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "3fe94d9c06666d503c1624316ed1c7f09fda8f818ce90ac111288229fa90e532",
+    "evidence": "比较论证结构或逻辑错误的形式是否一致。",
+    "reviewAnchor": "R市最近出现较强降雨。因为冷空气与暖湿气流交汇时会产生强降雨，可见R市最近出现了冷空气与暖湿气流的交汇。 以下哪项与上述论证方式最为相似？"
+  },
+  "national-qid-19526441": {
+    "topicId": "reasoning-causal",
+    "stemHash": "79444003f10d2bb8ebc752300215afef3fe96489cfb23a6909a8689feb75797d",
+    "evidence": "题干把观察到的现象或差异归于某个原因，考查因果联系及其他原因。",
+    "reviewAnchor": "数据显示，当前我国的宠物数量已超过1.2亿只，养宠家庭规模破亿。在整体上升的趋势中，猫狗的数量增长并不同步，宠物猫的增速远高于宠物狗，尤其是在大城市，"
+  },
+  "national-qid-19526453": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "c936f4f1704489711954bc6be3a18dcf4c2d5bde3e50f375ff02650f2699d771",
+    "evidence": "以题干给定的条件命题为依据，考查充分必要条件、逆否或连锁推理。",
+    "reviewAnchor": "“三医”是医疗、医保、医药的简称，只有提高卫生事业发展水平，且相关部门密切合作、同向发力，才能促进“三医”协同发展和治理。只有深化医改领导体制和工作推"
+  },
+  "guangdong-qid-2047882": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "0ad48d399b0f91e35b492b72ff65565d719f46457e4ceac96b584437f3ae2245",
+    "evidence": "根据题干人物、岗位、位置或得分等约束进行排列、匹配和排除。",
+    "reviewAnchor": "某单位每个月都要对工作人员的工作表现进行考评。去年上半年，该单位的甲、乙、丙、丁4位员工均获得了3次月度优秀奖。已知，甲和乙有2个月同时获奖，乙和丙也"
+  },
+  "guangdong-qid-4673176": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "a45e10b153897343f1fdcd2a5459551bd20f63928f6d275ecc1858598effcebc",
+    "evidence": "根据题干人物、岗位、位置或得分等约束进行排列、匹配和排除。",
+    "reviewAnchor": "某青年教师学习小组需由2位七年级和1位八年级的教师组成，并且教师教授的科目各不相同。七年级的候选人有：语文老师甲，数学老师乙，英语老师丙；八年级的候选"
+  },
+  "guangdong-qid-16593239": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "e13559a2105692db740da4b93c1fa0c9623729393543a8aba00bda233f8ed8c4",
+    "evidence": "根据题干人物、岗位、位置或得分等约束进行排列、匹配和排除。",
+    "reviewAnchor": "某单位派出小李、小王、小杨、小张四人参加技能比赛。小李和小王的得分之和大于小杨和小张的得分之和，小李和小张的得分之和大于小王和小杨的得分之和，小王和小"
+  },
+  "guangdong-qid-16593254": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "ba223b127f8a46447247747e1948bddfd9843258d8502c007b1ae75f3e4c8b21",
+    "evidence": "根据题干人物、岗位、位置或得分等约束进行排列、匹配和排除。",
+    "reviewAnchor": "甲、乙、丙、丁4人每人都会演奏钢琴、小提琴、二胡和古筝4种乐器中的2种，且每种乐器都有2人会演奏。已知： ①甲不会演奏钢琴； ②丁不会演奏古筝； ③丙"
+  },
+  "guangdong-qid-2047884": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "2e91fd1510ee40099860457d651564271d14fe4840c4ad51ce75e80ae4af7916",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "现在人们常常提到大学毕业生就业难。但据统计，近年我国就业市场空缺岗位与求职人数的比率一般大于1，劳动力市场的需求大于供给。而在求职人群中，大学毕业生的"
+  },
+  "guangdong-qid-2047888": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "140d6bc034a0611bd41568553ce10242fb06b4254d0c0e5af4e0c4378be6dfce",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "某科研机构研发了一项神经刺激技术，他们在试验中对一批滑雪选手实施了该刺激，持续数周后发现，相比未接受刺激的选手，接受刺激选手的跳跃能力和协调性分别提高"
+  },
+  "guangdong-qid-2047778": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "1b06574ddb7ea422592143757a948082863e1edf7f6b0ddf3f4d272a92125e7b",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "流感病毒的变异速度相当快，即使疫苗每年更新，也不能保证疫苗接种覆盖全部的“当季流行款”。接种流感疫苗，既不能保证百分之百不得流感，还可能导致接种人群出"
+  },
+  "guangdong-qid-2185107": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "05268fe4d8dab934fea4c574dfd40d2678a76cdeff114e4db55bf6f183544fa7",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "近期，某公司推出了一款空调，其耗电量比市面上所有其他同类产品都要低。因此，该公司管理层认为，这款空调的销量将会超过市面上所有其他同类产品。 以下哪项为"
+  },
+  "guangdong-qid-2374753": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "2b1258a223aeda8662fbd156f811cfc9738b5a98878f20011c39c0d4b47363e8",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "G市经济发达、教育资源丰富，许多在G市就读的大学生毕业后都选择留在G市工作生活。但在今年，G市周边的几个城市都出台了一系列针对大学生落户的优惠政策，许"
+  },
+  "guangdong-qid-2374754": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "25c0557cadf772724b0ae091c50593b4dc1678319c314a039a423649eedd4ca4",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "有研究表明，向他人倾诉自己的烦恼是缓解压力的有效方式，但是在现实生活中，有四成以上的人不会向他人倾诉自己的烦恼，而这一部分人常感觉自己的工作与生活压力"
+  },
+  "guangdong-qid-2374761": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "7891f08a253073b46eb0507ed60622f37cc07c3e869248fe7d8a1641c5b6ceae",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "随着生活节奏的加快，很多人都会用时间管理软件来规划自己的时间，以提升工作效率。这一做法是可行的。因为大脑的“提醒功能”不够准确，很少能在正确的时间做出"
+  },
+  "guangdong-qid-2605849": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "4f62833d70aa195409a3b1ed46384e113323e15ada9a55e221ebe99f97dcf9b6",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "某全国连锁餐饮企业在北方部分城市新推出了一款糕点，销量与口碑极佳，因此该公司管理层认为， 如果在南方地区推出该产品一定也能受到顾客的喜爱。  下列选项"
+  },
+  "guangdong-qid-2605850": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "20b1b95641e43577a3aedb87981ec09f6330815609fb88aa2e22f71831870874",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "有研究表明，长期使用酒精洗手液会对手部皮肤造成损伤，而某品牌免洗洗手液所有成分均从天然植物提取，不含酒精。因此不会对手部皮肤产生损害。  下列选项最能"
+  },
+  "guangdong-qid-3018830": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "2b4bd9b289fc1cd60a4fd36efe660665b52f10fc6be87edd12d7f080fde74c74",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "由于全球碳排放量的不断增长，全球范围内气候呈现升温趋势。但与此同时，气候变暖也会让部分树木生长速率加快，从而使树木从大气中吸收二氧化碳的效率增加。因此"
+  },
+  "guangdong-qid-3018844": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "a4d921ed800a4e7713b609af81a36d7812427ba8a4fe0b75e0242c909214df8e",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "有人认为，师范院校的拟聘教师应该先到中小学任教一段时间，通过考核后，才可以正式聘任。这是因为师范院校的教师如果连中小学生都教不好，他们又如何能培养好中"
+  },
+  "guangdong-qid-3018794": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "2ed35c1aa02cee8688577fb98ca828b65fe29481f63496b478c08ef741666369",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "药物生产厂商在生产某些治疗罕见疾病的药物时会面临亏损的风险，因为只把药卖给数量不多的患者不可能收回制药成本。X病是一种罕见病，因此药厂生产治疗X病的药"
+  },
+  "guangdong-qid-3018810": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "9b3eadea5a559971343433b56bb7da1047c3b7ed41eba5c646c97eea408821bb",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "互联网公司从社会招聘成熟的计算机人才，往往需要提供相当高的薪酬福利，并且难以挖掘到核心人才。而毕业生初入社会，大部分都踏实肯干，前期成本也不高，后期还"
+  },
+  "guangdong-qid-4673132": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "901fec77de5778274b6f586d2521fa3800229def6d5a134e4771c01901e9fac0",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "某公司产品的各项性能都比竞争对手的更好。所以，如果该公司能够降低产品的市场定价，与竞争对手的价格持平，那么该公司产品一定会迅速占领市场。 下列选项若为"
+  },
+  "guangdong-qid-5510323": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "fc92378447f8e06808ee2e7f8ccd3b4e84364a4d3d89e7762883d4338c4f8b32",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "现在，有些人开始质疑“全球变暖”理论。他们认为，人类活动并不是全球变暖的主要原因，放在地球气候漫长的演变背景中看，气候变化是正常现象，因此，近期的全球"
+  },
+  "guangdong-qid-5510264": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "fa2be120ea4946c4e84d3f95f1246ef445e9ee9e061aea94bfbfdab25b945bcf",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "科学家曾研究过旁观者对运动员跑步的影响。结果发现，在同一条跑道上，没有旁观者或旁观者背对跑道时，运动员的跑步速度相近；当旁观者面对跑道时，运动员的跑步"
+  },
+  "guangdong-qid-5510324": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "f94c650e360db34f742c1a6ba1f59b92992a3b83e541b137fdd5396c5b13712a",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "为探索每周4天工作制的可行性，某集团进行了一次大规模的试验。结果表明，尽管减少了工作天数，数千名员工仍然完成了原定的工作任务，且员工的工作压力水平下降"
+  },
+  "guangdong-qid-16593243": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "fc779efe540a221b7b91f5c7f7f5a2ce892ca4815d66337461c98ec7421c27d4",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "研究表明，购物行为能够刺激大脑的多个区域，使人们感到幸福。进一步研究发现，在别人身上花的钱占购物支出的比例越大的人，其幸福感越强；但在自己身上花钱的多"
+  },
+  "guangdong-qid-16593255": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "40ce2158521d83c8a3ef8bc7b1e28e9b3c893e16d4d0cc4affe8c930d73827df",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "有研究发现，即使经过多次清洗，塑料水壶瓶身的化学成分还是会释放到水中。而在用清洁剂清洗水壶后，不但没有解决问题，水壶内还增加了多种来自清洁剂的化学成分"
+  },
+  "guangdong-qid-12881966": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "9a91caa0afe063db2ac3950e1eb6d6e24953100d411984829631314d5e42e558",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "作为高端羽毛球的必备原料，羽毛切片是鸭鹅养殖的副产品，其供应量上要取决于养殖规模，如果养殖规模有所下降，羽毛切片价格将会一路走高，进而导致高端羽毛球生"
+  },
+  "guangdong-qid-12881969": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "93bdf443ed085cf3fe749762908c6824e760e18048bfead4e642e43dfd26a4db",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "某厂家用“除菌去残留，效果看得见”这一广告语，宣传其生产的果蔬清洗机，并展示该产品与其他果蔬清洗机清洗同一种水果的视频，视频显示，该清洗机清洗产生的泡"
+  },
+  "guangdong-qid-12881971": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "2064d7a26f9cd66ddd6f1c89dddbbc9261384f2f1c3138da169c6286c54c45ac",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "鉴于漂流项目偶尔会出现游客落水伤亡的情况，某旅游景区为每一位参加漂流项目的游客购买了意外保险，并要求游客必须穿上景区配备的救生衣，有游客对此提出疑问，"
+  },
+  "guangdong-qid-18643990": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "0548610b041bdc841ea566d5e471e9f06524a897c384f9a7f3cfde2896c85d9e",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "对于研发型企业来说，获得突破性的研发成果至关重要。某研发型企业在回顾其发展历程后发现，企业大多数突破性的研发成果都源自新手研发人员。该企业因此认为，要"
+  },
+  "guangdong-qid-2047886": {
+    "topicId": "reasoning-truth",
+    "stemHash": "bd1bada884de6ac81c652b5cc1fd91d0d9a994b8240f991c42da5a8603fd4252",
+    "evidence": "依据猜测或表述的真假数量，利用矛盾关系或假设法确定结果。",
+    "reviewAnchor": "甲和乙都有可能受邀参加某专家论坛。现在，甲得知了以下消息： （1）论坛主办方决定，至少邀请甲或乙中的一位。 （2）论坛主办方决定不邀请甲。 （3）论坛"
+  },
+  "guangdong-qid-2047700": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "059d29e92b6941b0801115eed11c1aa2d47c854431cfcba1be9b2258c6e770c9",
+    "evidence": "根据充分必要条件、且或命题或否前否后关系作条件推理。",
+    "reviewAnchor": "某公司招聘业务经理，小张和小李前来应聘。小张说：“如果我做了业务经理，我会积极进取，开拓新业务。”小李说：“如果我做了经理，我会优化管理，精减人员。”"
+  },
+  "guangdong-qid-2374736": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "7702bb1fd46d390cfddde9011135a7c991f2da520382937dfcab0ceb4a4b856f",
+    "evidence": "根据充分必要条件、且或命题或否前否后关系作条件推理。",
+    "reviewAnchor": "一座城市要想发展好会展产业，就需要“筑巢引凤”——先具备软硬件基础，再吸引会展活动。拥有完备的会展设施和理想的交通条件，只是说明一座城市具备了发展会展"
+  },
+  "guangdong-qid-2374738": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "6b2a7f3ac863fb267d18a6c267837e628914c97786fa3093eeb08493a5956102",
+    "evidence": "根据充分必要条件、且或命题或否前否后关系作条件推理。",
+    "reviewAnchor": "芯片产业是全球分工合作的产业，其分布的领域非常广，不同领域面对的问题和挑战也大不相同，没有一个国家能够拥有完完整整的自主可控芯片产业链。但一国想要获得"
+  },
+  "guangdong-qid-2604275": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "7be65d34ef64288ab39192770ff8b0e8f302e54f6a0664b04566e7ac97b8f1bd",
+    "evidence": "根据充分必要条件、且或命题或否前否后关系作条件推理。",
+    "reviewAnchor": "某扶贫产业基地计划种植紫薯、红薯、南瓜以及玉米四种农作物。四种农作物的种植面积大小不一，且需要满足以下条件： ①要么紫薯种植面积最大，要么南瓜种植面积"
+  },
+  "guangdong-qid-4673167": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "6e7585a3d836396e77ade3cf81432a1e0481fb6691b88f14d60781f1fbf51714",
+    "evidence": "根据充分必要条件、且或命题或否前否后关系作条件推理。",
+    "reviewAnchor": "某高校调查本校学生的兴趣爱好后发现，喜欢打羽毛球的学生中，来自体育学院的学生一定喜欢登山。 根据以上条件，下列情况必定属实的是（    ）。"
+  },
+  "guangdong-qid-5510326": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "69b4c3b688cd12773bddab6b5ee0c5219320bbe92a34d50c07cb8c6a50ca235e",
+    "evidence": "根据充分必要条件、且或命题或否前否后关系作条件推理。",
+    "reviewAnchor": "为促进员工交流，营造积极参加体育锻炼的良好氛围，某单位组织了跑步、羽毛球、排球、篮球等多支运动队。已知： （1）所有员工至少参加了跑步队或羽毛球队中的"
+  },
+  "guangdong-qid-16593245": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "9e1b8245997a55571db086260173320cef2d71d8dacd15350f5a6f6d8e0a8299",
+    "evidence": "根据充分必要条件、且或命题或否前否后关系作条件推理。",
+    "reviewAnchor": "如果某地不禁止在鱼类繁衍季节捕鱼，当地的鱼类资源就会枯竭。如果鱼类资源枯竭了，当地渔民的渔业生涯就会终结。只有鱼类资源良性循环，渔民的收入才能得到保障"
+  },
+  "guangdong-qid-12881960": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "e415af6213204b3e8af6b2dfa5d82c553bf140275875700a49c7e0f0a7bd988c",
+    "evidence": "根据充分必要条件、且或命题或否前否后关系作条件推理。",
+    "reviewAnchor": "如果没有强健的体魄，就不会有好的学习状态，如果学习状态不好，学习成绩就不可能提升。因此，学校要提升学生的学习成绩，就必须开设体育课。 要使上述结论成立"
+  },
+  "guangdong-qid-12881968": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "38614bf06bc893e11e95ab1eaacf56f049c4c69a26b900a0eab3867ae0acf1d3",
+    "evidence": "根据充分必要条件、且或命题或否前否后关系作条件推理。",
+    "reviewAnchor": "小陈计划假期前往某市旅游，他的设想如下： ①欢乐世界，动物园至少会去一个； ②艺术中心，欢乐世界和人民公园至少会去一个； ③动物园，人民公园和博物馆至"
+  },
+  "guangdong-qid-18643984": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "7346ecbb5b1c44957350564b2471632010c7bf348f6b9f37c34d9bcbe41f5d02",
+    "evidence": "根据充分必要条件、且或命题或否前否后关系作条件推理。",
+    "reviewAnchor": "如果一座城市采用集约高效的发展方式，那么其资源消耗量必然会减少。只要这种减少速度非常缓慢，就不会对城市经济发展造成负面影响。 由此可以推出："
+  },
+  "guangdong-qid-18643987": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "2476f9aa31a67c47d7c232db42437d03e1404664b9edab81202b4dfd7bb07a89",
+    "evidence": "根据充分必要条件、且或命题或否前否后关系作条件推理。",
+    "reviewAnchor": "某单位计划组织职工参观科技馆、文化馆、博物馆和美术馆。但由于时间有限，这4个场馆不能都去。有职工提出了如下建议并被采纳： （1）由于相距较远，不建议既"
+  },
+  "guangdong-qid-2047750": {
+    "topicId": "reasoning-explain",
+    "stemHash": "7742f1f00e5b48a3b8ae64ca602ba8eb1f17abb38d69b9b794682185dec558dd",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "由于按揭贷款的利率下调，人们每月还贷压力减小，因此一家机构预测某地的商品房销售量会增长，但实际上，销售量并未出现明显增长。 下列哪项如果为真，最能解释"
+  },
+  "guangdong-qid-2185085": {
+    "topicId": "reasoning-explain",
+    "stemHash": "965c784b3ea0de6f1ad7fc5c02b882f8aa3af0cda802454f97952b9da0447b5d",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "某市举行春季音乐节系列活动，其中一项活动首次邀请了某知名交响乐团前来该市演出，该市交响乐爱好者对此十分期待。考虑到该乐团的影响力，主办方预计为期两天的"
+  },
+  "guangdong-qid-2185087": {
+    "topicId": "reasoning-explain",
+    "stemHash": "7c47077da26c089b914bfc00363cd28675f5caf679298def08b6ebe0e845c17b",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "某市高新区离老城区较远，且公交车班次很少。高新区企业的员工大部分居住在老城区，他们经常会因为无法按时坐上公交车而迟到。为此，公交车公司大量增加了高新区"
+  },
+  "guangdong-qid-2185118": {
+    "topicId": "reasoning-explain",
+    "stemHash": "94acce038000cf3b1f7eac63e31765bf73e9914186ff231c6a79f860f28451e3",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "某市实体零售店的数量由2013年的3800家，增加到了2017年的4500家。但这几年来，该市实体零售店的销售额在整个零售业中所占的比例并没有增加，反"
+  },
+  "guangdong-qid-3018801": {
+    "topicId": "reasoning-explain",
+    "stemHash": "600bcf0bca68558faf0a4e58bfe5e9d49cff93c3aa95450b115d848346a52793",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "调查研究显示，相较传统的农业生产方式，有机农业生产出的农作物产量会有一定程度的下降。但现在仍然有越来越多的农民从传统农业转向有机农业，甚至花费资金，添"
+  },
+  "guangdong-qid-3018833": {
+    "topicId": "reasoning-explain",
+    "stemHash": "b07b953ca040ccdebf4ff93a5c6d093f3597a50e8cdae556c52cfe5d3b33c4fd",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "农科院在一档农业电视节目中介绍了一种经济价值高的养殖动物——肉兔，强调肉兔有易于养殖、繁殖速度快等优点，节目播出后受到了大家的关注。但是，某村在养殖肉"
+  },
+  "guangdong-qid-3018792": {
+    "topicId": "reasoning-explain",
+    "stemHash": "26377e6034365e8f12138f7fd8c11feedf84deae10c528da356e283fa1319aff",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "某在线教育机构在网上推出了一个面向中小学生的直播课，这个直播课在试播时组织了很多中小学生和家长免费观看，获得了很高的评价，但是在正式播出后，在线收看的"
+  },
+  "guangdong-qid-3018820": {
+    "topicId": "reasoning-explain",
+    "stemHash": "9adf61dbb7755f725530ebae9f3335a3ee85ba00b717018566d0486d1d013fbf",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "一项调查显示：甲品牌汽车的购买者中，有8成都是女性，是最受女性青睐的汽车品牌。但是，最近连续6个月的女性购车量排行榜却显示，乙品牌汽车的女性购买量位居"
+  },
+  "guangdong-qid-4673179": {
+    "topicId": "reasoning-explain",
+    "stemHash": "d789642bd52aaad5773a7bf598f72594d0eec082fe48fc21573ea24fa3cf5aaf",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "某农村合作社购买了两台新型号收割机，这两台机器收割速度快，而且有助于减少收割过程中的粮食损失。但该农村合作社使用这两台收割机以来，其玉米收割总损失率高"
+  },
+  "guangdong-qid-4673133": {
+    "topicId": "reasoning-explain",
+    "stemHash": "2f0b8cbef8600ebd4ba3dd93d491fe6bca8ba6bc799645d5cc44d74718ba972a",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "逻辑思维能力是一个人最重要的能力之一，但大部分学校都没有开设专门培养逻辑思维能力的课程。 以下选项若为真，最能有效解释上述现象的是（    ）。"
+  },
+  "guangdong-qid-4673169": {
+    "topicId": "reasoning-explain",
+    "stemHash": "40e37a7ae9179e0badcd7f1b1b475d5f9f255eb5116f151a6ae0fd9d1651253b",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "如今越来越多企业认识到中欧班列具有时效更高、周转更快等优势，从而选择通过中欧班列发运货物。例如，在广州大朗站，2021年前9个月已开行出口中欧班列97"
+  },
+  "guangdong-qid-4673187": {
+    "topicId": "reasoning-explain",
+    "stemHash": "25185e37cdf8249c7dfc098bbd98b300cef04b97af644c59a60082cdfc5a3c31",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "多年来，甲国居民消耗的主要粮食中，有80%以上由本国生产；而乙国居民消耗的主要粮食中有六成以上依赖进口。但经过调查发现，当国际大米价格出现上涨时，甲国"
+  },
+  "guangdong-qid-4673182": {
+    "topicId": "reasoning-explain",
+    "stemHash": "b63a2ab52f8c6c3bf419efc7321ca0f16732639df11bd5b971e203549f4834ca",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "某便利店销售一款牛奶，这款牛奶在店内每瓶售价8元，在店外自动售货机上的价格为每瓶10元，但依然有部分人选择在自动售货机上购买这款牛奶。 以下选项若为真"
+  },
+  "guangdong-qid-5510325": {
+    "topicId": "reasoning-explain",
+    "stemHash": "d463d62eb5cdaac89aee4f8738ef24bd5159cb49ad8af2a51e526431533e174e",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "为推动社区养老服务建设，某社区开设了长者食堂，向社区内符合条件的老年人提供一日三餐。该食堂饭菜价格远低于市场价，且品种多样、味道极佳、分量充足，然而每"
+  },
+  "guangdong-qid-5510249": {
+    "topicId": "reasoning-explain",
+    "stemHash": "b565f940293a9a81f2046dd4706e02afa46df4cb7aa43549ef7271d42969ae20",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "甲市城区过去一直实行车辆限号通行。从去年开始，该市取消了车辆限号通行，一年后全市交通拥堵指数明显下降，平均车速提高了20%，实现了“车辆不限号，交通不"
+  },
+  "guangdong-qid-5510257": {
+    "topicId": "reasoning-explain",
+    "stemHash": "8b3cc72913bed1c597d2cf162ba1630332c68054299fc273f40f77c7c0612428",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "某制片公司历经数年制作了一部电影，该电影上映后得到了业内专家一致好评，在各影评网站上也得到了很高的评分，然而该电影的放映厅内观众寥寥无几，其实际票房收"
+  },
+  "guangdong-qid-5510273": {
+    "topicId": "reasoning-explain",
+    "stemHash": "86316d17138fe1b84f33b7142fffced1888b41d9a04d0ca83eb48445886b5c66",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "小王经营着一家打印店，他发现，店内员工都很忙，大部分精力都花在了文件排版上。为了节省人力，他给店里的电脑安装了能自动完成常规排版操作的新款软件。然而，"
+  },
+  "guangdong-qid-16593281": {
+    "topicId": "reasoning-explain",
+    "stemHash": "afe8e2f9131a35eb826a24d4bb4c261d945926aff8442137f565e3190b001db1",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "如今，越来越多的消费者习惯在第三方平台查看商家的好评率与他人对商家的具体评价，再作出消费选择。一直以来，甲餐厅的好评率始终略高于乙餐厅，但是乙餐厅的日"
+  },
+  "guangdong-qid-16593252": {
+    "topicId": "reasoning-explain",
+    "stemHash": "b757f849331130b12f867f32991c9ed39c058252e1d7da0d9a4ec767c7fc1f3e",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "去年9月起，某高校图书馆开设了通宵学习室。该学习室受到许多学生的欢迎，在4个月后，由于使用人数大幅减少，图书馆关闭了通宵学习室。 以下各项如果为真，最"
+  },
+  "guangdong-qid-16593260": {
+    "topicId": "reasoning-explain",
+    "stemHash": "454c498be45aa286faf75d0f12f5fbbf4d2aad16aacf7b8bd4d7ca8bdc2899c7",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "为降低景区人流量负荷，某景区从原先的窗口售票制改为网上预约制，每个时段限量放票，游客仅可在网上预约的时段进入景区。实行网上预约制一段时间后，许多时间段"
+  },
+  "guangdong-qid-12881956": {
+    "topicId": "reasoning-explain",
+    "stemHash": "aab3ac9d2b94b7a46ed02f7e42ddd070fab043cfdd16bae6089b8559d4802a1f",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "某地共享单车采用阶段收费模式，第一小时收费1.5元，其后每半小时收费1元。最近，共享单车运营商调整了收费标准，第一小时收费不变，其后每半小时收费2元，"
+  },
+  "guangdong-qid-12881959": {
+    "topicId": "reasoning-explain",
+    "stemHash": "f95bb5d3877391a708aff8641e2f0eccebaa65af31d13ef9a502e8fec224ae06",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "网络购物平台的数据分析显示，网店为商品提供免费的运费险能够增加销量，但其商品退费率远高于不提供这项服务的网店，从而增加了运营成本。但提供免费运费险的很"
+  },
+  "guangdong-qid-18643985": {
+    "topicId": "reasoning-explain",
+    "stemHash": "4e97dec31f1314c9d16b382fa79c44df30880a5d3fa50d00d19d33e9e496c2da",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "某种水毛茛是A市特有的野生植物，对水质要求极高，其仅生长于清澈、流动的水体中，因此被誉为优良水质的“指示物种”。2023年受特大暴雨影响，A市某自然保"
+  },
+  "guangdong-qid-18643989": {
+    "topicId": "reasoning-explain",
+    "stemHash": "2d69cd03a6913fc7bb2de5a46142b9c324ce70bdd628cd6999a6ec16791da287",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "针对某款即将上市的新产品，商家开展了预售活动，预订的人数远超预期。但在产品正式发货前，许多顾客却取消了该产品的预订。 下列选项如果为真，最不能解释上述"
+  },
+  "guangdong-qid-18643994": {
+    "topicId": "reasoning-explain",
+    "stemHash": "d96ac35a4ca4d18294e20aee4d708189da74f7079ee5481c7c47463ffc3aef52",
+    "evidence": "问法要求解释同时出现的两种情况或与预期相反的现象。",
+    "reviewAnchor": "湖泊在北极的面积占比达到四成，为动植物生存提供了不可或缺的淡水资源。近年来，全球变暖使得北极的永冻土层逐渐融化，融化的水随之流入湖泊和海洋。有人据此推"
+  },
+  "guangdong-qid-2047760": {
+    "topicId": "reasoning-causal",
+    "stemHash": "fc69885d9390a66eaeba4b48a476f482b2c889a443a80618a6240c800b361dbe",
+    "evidence": "题干把结果或组间差异归于特定原因，考查因果联系、他因或因果倒置。",
+    "reviewAnchor": "媒体A报道称：今年以来，患季节性皮肤病的人数大幅上升，这是因为城市水污染日益严重和空气质量恶化造成的。 媒体B报道称：患季节性皮肤病的人数大幅上升与城"
+  },
+  "guangdong-qid-2185092": {
+    "topicId": "reasoning-causal",
+    "stemHash": "d253c2db2f34fb492cfcd890add4d49b7b313c077e8f5212c8c24a92e7838633",
+    "evidence": "题干把结果或组间差异归于特定原因，考查因果联系、他因或因果倒置。",
+    "reviewAnchor": "近年来，某公司生产的汽车发生了几起严重的交通事故，有人认为这是因为该汽车在设计上存在缺陷导致的。对此，该公司坚决否认设计上存在缺陷，理由是根据这几起交"
+  },
+  "guangdong-qid-2185100": {
+    "topicId": "reasoning-causal",
+    "stemHash": "39827ee38aff109d0bc80daf174293ee6eb62f826ee7801cafa6c3e64377a16f",
+    "evidence": "题干把结果或组间差异归于特定原因，考查因果联系、他因或因果倒置。",
+    "reviewAnchor": "有研究小组调查显示，在封闭环境中入睡的人更容易频繁醒来，而且自我感觉睡眠质量不佳。因此，有人认为，就寝时关闭门窗将会降低睡眠质量。 以下哪项为真，最能"
+  },
+  "guangdong-qid-2374760": {
+    "topicId": "reasoning-causal",
+    "stemHash": "873d37be72a1708c94b45d61c2f17f0f9fba02e3e3faf4580c575247d84ab686",
+    "evidence": "题干把结果或组间差异归于特定原因，考查因果联系、他因或因果倒置。",
+    "reviewAnchor": "某地区自上世纪70年代开始，引入栽种欧美黑杨，用于造纸。这些欧美黑杨适应当地气候环境，生长速度快，种植面积迅速扩大。然而近年来，当地生态环境问题日趋严"
+  },
+  "guangdong-qid-2604274": {
+    "topicId": "reasoning-causal",
+    "stemHash": "0ad48932953d93a61f22e4deebfe21b038610950d2ad02e9ee1db4a3cf9c300f",
+    "evidence": "题干把结果或组间差异归于特定原因，考查因果联系、他因或因果倒置。",
+    "reviewAnchor": "有人认为，十二生肖起源于动物崇拜。这是因为在原始社会中，人类的生产力水平很低，猪、牛、羊等牲畜与农事活动关系密切，动物崇拜也就随之而生。除此之外，虎、"
+  },
+  "guangdong-qid-2604277": {
+    "topicId": "reasoning-causal",
+    "stemHash": "b683f445b950f25b4aaa307444bde77f3799ce44fca68cbb5bfd5cfd4716f7c0",
+    "evidence": "题干把结果或组间差异归于特定原因，考查因果联系、他因或因果倒置。",
+    "reviewAnchor": "国内有研究发现，在小学阶段，春季出生的孩子比冬季出生的孩子学习成绩更好，在学业上获得成功的概率也更高。有人据此推测，这是由于春季出生的孩子年纪更大一些"
+  },
+  "guangdong-qid-4673184": {
+    "topicId": "reasoning-causal",
+    "stemHash": "8a7a20488c1073d2fe95bc620d45a58476e4251f688ddceb0cc6006b62f8b8e0",
+    "evidence": "题干把结果或组间差异归于特定原因，考查因果联系、他因或因果倒置。",
+    "reviewAnchor": "某教师收集了本班学生的语文学习兴趣、每天的学习时长等信息，结合期末考试语文成绩分析后发现，与每天语文学习时长不足2小时的学生相比，学习超过2小时的学生"
+  },
+  "guangdong-qid-16593244": {
+    "topicId": "reasoning-causal",
+    "stemHash": "cd9a45967b188fd924b978e6a97bcfb40e44a9aa2b2e3c9a59654c45274e4b00",
+    "evidence": "题干把结果或组间差异归于特定原因，考查因果联系、他因或因果倒置。",
+    "reviewAnchor": "某团队开展了一项关于预防中风的研究。研究对象分为两组，一组食用低钠盐（约75%的氯化钠和25%的氯化钾），一组食用普通盐（约97%的氯化钠）。在5年的"
+  },
+  "guangdong-qid-2047772": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "a5ed50ac29e445e7ad749792c2d3cb68347e6c326ea372231e1d9e829d3eba18",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "某投资公司在评价一个项目时说：我们挑选投资项目，主要是看项目的技术门槛和未来市场需求量，而不是当前的业务增长率。现在新的可投资项目这么多，短期内发展很"
+  },
+  "guangdong-qid-2374745": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "4238a5e53162297418234b3050b38bcf5a71983c7c1000ebadd86b80f8af368d",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "历史经验告诉我们，世界经济危机往往伴随着巨大的世界变革：1857年世界经济危机后的电气革命，推动人类社会从蒸汽时代进入电气时代；1929年世界经济危机"
+  },
+  "guangdong-qid-2374759": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "6adbd9c4ad4b361a0dc8ea4b09ae0ca59711d675c8370ed0d0daf6abce38fd0e",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "过分密集的城市布局不仅容易使城市产生热岛效应，也不符合生态美学的要求。因此，城市建设应该尽可能拉开布局，合理地间隔各城市组团，使城市看起来舒缓有序，不"
+  },
+  "guangdong-qid-2374762": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "8784fcc83f85e9c9f2c7d9192d622afd3a233d88cb7e8e3f04cb62b8938eef0c",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "文学作品的电子书会给作品带来很高的关注度，这种关注度能够拉动纸质书的销售。因此，所有想要提高纸质版文学作品销售量的出版社都会为文学作品发行电子书。 以"
+  },
+  "guangdong-qid-2604280": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "248197c268a194a3e072e101657c15b9cd1ac36d21e0fe3c544fd2de810ee71b",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "某市实现高质量发展的关键在于，通过推动当地制造业的发展，建立健全现代化产业体系。该市产业园区的建设发展对建立健全现代化产业体系至关重要，因此也是推动实"
+  },
+  "guangdong-qid-2605854": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "84425b80fb97c2461c70a31be59f21681642beb1fdd22925ad9fc46784143cfd",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "没有游子不思乡，思乡之人皆惆怅，故游子无不惆怅。  下列选项，与上述论证逻辑不一致的是："
+  },
+  "guangdong-qid-2606093": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "48b379da3d71ecd09ff29a291f1d66345b16921f19c173319ee14fe666d5cce2",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "信息时代似乎给人们提供了前所未有的多样选择。但实际上，社交媒体的兴起和智能算法的应用，使人们逐渐变得只会选择性接触自己感兴趣的信息，如同春蚕吐丝一样，"
+  },
+  "guangdong-qid-2185086": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "bb7eb13a687387fa5d5734e9e007793212d6d878dc66eef449b37bc3e3f1e465",
+    "evidence": "考查补充论据、建立论据与结论的联系或支持方案可行性。",
+    "reviewAnchor": "对多个省份的调查研究发现，对于外向者而言，花大量时间用于网络社交并不会影响与他人面对面交流的意愿，而内向者即使不进行网络社交也不会变成社交达人。因此，"
+  },
+  "guangdong-qid-2374756": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "633a207e30525a419368ca97b0fb5305dcbf1d23411317d655c9b942b9a9c7e4",
+    "evidence": "考查补充论据、建立论据与结论的联系或支持方案可行性。",
+    "reviewAnchor": "某研究机构对3个品牌的老年代步车进行安全性碰撞实验。实验表明，这3个品牌的代步车都无法在发生交通事故时保护驾驶人。该机构因此认为：老年代步车十分危险，"
+  },
+  "guangdong-qid-4673185": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "e9609b2cd4347b1ade0f40d439db5fc695be17cd9d2f4db688c92262b237881f",
+    "evidence": "考查补充论据、建立论据与结论的联系或支持方案可行性。",
+    "reviewAnchor": "在新的社会发展形势下，如果医生只掌握专业理论知识和实践能力，却缺乏基本职业道德，不仅很难适应社会需求，同时还容易造成医患关系紧张。因此在医学专业学生的"
+  },
+  "guangdong-qid-5510276": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "81963ec3f570c1b3f1c6ec010c372837dea64758ada06a4ad93a5d57f9510ebf",
+    "evidence": "考查补充论据、建立论据与结论的联系或支持方案可行性。",
+    "reviewAnchor": "分散的农户经营不成规模，已经远远不能适应各个城市群规模化、批量化的农产品需求，也限制了农民收入的提高。如果不解决农户的组织化这个问题，就无法推广农业机"
+  },
+  "guangdong-qid-12881965": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "3d38d294769f404f8b4db9dfd445ea1c3f7c477521bdb80f73f29269a2157967",
+    "evidence": "考查补充论据、建立论据与结论的联系或支持方案可行性。",
+    "reviewAnchor": "某研究者选取同一年级的两个班级进行教学实验，第一个班级的学生在听课过程中被鼓励随时提问，而第二个班级的学生没有受到同样的鼓励，结果显示，第一个班级学生"
+  },
+  "guangdong-qid-18643997": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "6857eb3fdd526faba8c3b152f41706002b1a06cb6251c823d3125ec9fbb4dd27",
+    "evidence": "考查补充论据、建立论据与结论的联系或支持方案可行性。",
+    "reviewAnchor": "研究团队开发了一种新型抗衰老水凝胶材料，为了验证这一材料的实际效果，研究团队开展了系列实验。结果发现，与未注入该材料的实验鼠相比，注入该材料的实验鼠肌"
+  },
+  "guangdong-qid-18644001": {
+    "topicId": "reasoning-strengthen",
+    "stemHash": "7baf27bd66ee1f57cb36c345c5f742f30a0bb4382799b7ae01b6901adf02465b",
+    "evidence": "考查补充论据、建立论据与结论的联系或支持方案可行性。",
+    "reviewAnchor": "某古生物学研究小组在一处白垩纪晚期地层中发现了保存完整的恐龙皮肤化石。通过高分辨率显微镜，研究人员发现该恐龙皮肤表面存在大量微小的中空管状结构。由于这"
+  },
+  "guangdong-qid-2185103": {
+    "topicId": "reasoning-induction",
+    "stemHash": "98a4eeee1b8d81e027472cf55d31528c78889c4381713fa210d6fdd4005cf953",
+    "evidence": "根据材料作有限推出，不能超出题干已有信息。",
+    "reviewAnchor": "外界环境中的阳光辐射、空气污染等都会使人体产生更多活性氧自由基。体内活性氧自由基正是人类衰老的根源，而抗氧化剂可以有效清除体内多余的自由基。 如果以上"
+  },
+  "guangdong-qid-2374741": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "a2a4ad015d7edef0bc2288d04d0bbfbb0b4d4fbf18fe371a4f1ab45b543a3bb1",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "在发达国家的产业结构中，服务业占了很高的比重。根据他们的经验，提高服务业占比就可以促进就业。但是，服务业具有较高的进入壁垒，这也是我国服务业发展相对滞"
+  },
+  "guangdong-qid-2374755": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "9ca0802895720ff521ff7460730faf49324184a26757c3c646ff8076afdd8a75",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "近几年，“痕迹管理”在基层工作中被广泛应用。其优势在于通过保留下来的文字、图片等工作资料，有效还原服务群众的工作情况，供日后查证。某地基层单位为了强化"
+  },
+  "guangdong-qid-2374758": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "d923838b9be6869902909b53dddfe3f8231813dd9349827c803029219335220e",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "研究表明，糖尿病是一种由多病因引起的以慢性高血糖为特征的代谢性疾病，是多种因素共同作用的结果，有家族聚集现象。家族史是提示可能患糖尿病风险的重要依据，"
+  },
+  "guangdong-qid-2606775": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "8decccb045ed8b6a92bb6e5d0a6762ef4712c759f0c39497dc034cb7118acc34",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "对于城市街头小摊贩占道经营影响交通的问题，有学者认为应当在不影响城市交通的特定区域设置面向小摊贩的集中营业区，这样就能够缓解小摊贩随意占道经营产生的交"
+  },
+  "guangdong-qid-3018838": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "f7040e172b9332de91c44fe33841befce703818fa426ac6cb4f0c131a5d0eeff",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "奶茶，乍一想应该既有奶又有茶，是一种营养丰富的健康饮品。事实果真如此吗？有专家指出，市面上的奶茶大多由茶粉勾兑而成，咖啡因超标。因此专家提醒：对青少年"
+  },
+  "guangdong-qid-3018773": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "8a7589e7433256161ace0fa98453caef44701c9baca294d0b201936eb2e0d51a",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "胼胝体是人类大脑的重要部分，是连接大脑左右半球的主要通道。研究表明，专业打击乐演奏者的大脑中，胼胝体中的纤维比一般人少且更粗壮。因此，练习打击乐能够有"
+  },
+  "guangdong-qid-3018798": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "f65bc30a8b26485518cb792faa8aee29e9e8f9e8b62edb45e7a4d4c0a550d69a",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "尽管许多行业并不看重从业者的学历，但对于从事金融咨询服务的人来说，学历还是极其重要的。有研究指出，人们在进行理财咨询时，更重视金融咨询师的学历而非资历"
+  },
+  "guangdong-qid-4673162": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "68f37c146b5eac7bc3894f1936bba5e190867a1a8836069f40a9bf9ca16183af",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "某机构对在广州有创业、就业、实习等经历的港澳青年进行调查，结果显示，有留穗发展意愿的港澳青年比例占七成以上；九成港澳青年通过实习了解和认识广州；有超过"
+  },
+  "guangdong-qid-4673175": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "fe6f54bf0cc3a852165af6f78defcf0ec44abd51e91c93774829bb9aaff8af82",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "有研究表明，随着人均收入水平的提高，人民对生活的满意度也提高了。因此，政府应该大力发展经济，从而增加人民的人均收入。 上述研究的推论暗含的前提是（  "
+  },
+  "guangdong-qid-5510237": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "d245d44c8cf7d6ccf3749f56de674abf652b810e9b1e9c7a0fd4ef4443fc25c9",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "目前，风能技术员是某国受伤率最高的职业之一，从业人员较少。但随着国家能源需求向可再生能源转变，该国将越来越需要从事这样高风险性职业的人才，以保证国家能"
+  },
+  "guangdong-qid-5510321": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "198346bbb5067cbaa9be4f1eb4857fc79ae5dad96e4a28e38271cb17042273f0",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "人均GDP可以基于常住人口计算，但算出的结果可能并不准确，因为流动人口同样会为城市创造GDP。当一个城市的流动人口占比较高时，只用常住人口来计算人均G"
+  },
+  "guangdong-qid-16593270": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "ee84dc77ef7c6f14bcbf399182b4b618870492534f9c82e90c8dfe9d5f3703ce",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "过去，直播带货中虚假宣传、销售假冒伪劣产品等违法现象层出不穷。最近，针对直播“乱象”，相关部门拓宽了消费者的投诉渠道，因此，直播带货中违法现象将有所减"
+  },
+  "guangdong-qid-12881953": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "7a134c3f7b539372549dd92563481a88c074733ca29421694bcf954716585d96",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "具身智能是能感知决策并与物理世界互动的人工智能系统，目前具身智能机器人强调“大脑”和“小脑”的协同工作，它能精准的完成细节操作，且能合理规划任务。因此"
+  },
+  "guangdong-qid-12881961": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "e411283634a0692ec85d52cc2d5118a522859509f760748ce67ba137c63af484",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "某种贫血症属于遗传性疾病，患者的血红蛋白分子结构异常，从而影响红细胞正常功能。目前，科学家已能够利用基因组编辑技术，治疗因基因突变导致的遗传性疾病。因"
+  },
+  "guangdong-qid-18643982": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "0efa2daba46a1714911891ea6465ffeffa28969c5b9dea81e0bcec38fd176fa5",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "甘蔗是生产加工食糖的重要原料。近年来，世界范围内甘蔗种植面积不断扩大，在一定程度上改变了土地利用的格局。由于全球食糖需求不断增长，有人因此认为，随着食"
+  },
+  "guangdong-qid-18643991": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "938cc7d7e89a70b22d7f0944e8c3653bb0c913dc00859f4ac948a1671632fa25",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "太空环境具有高真空、高辐射、微重力、极端温度变化等特点，对人造卫星的材料和电子元件提出了极高的要求。近日，我国成功发射了太空计算卫星。由于太空计算卫星"
+  },
+  "guangdong-qid-2605856": {
+    "topicId": "reasoning-special-strengthen",
+    "stemHash": "42877d1f490428b408a7c60bb729d34e21b3559dbb7324b2b72d7efbd3b11285",
+    "evidence": "比较前后时期的变化，支持结论需保证比较维度和评价标准一致。",
+    "reviewAnchor": "受影视资本“寒冬”和政策收紧的影响，原创剧集整体规模在2019年出现缩水，有影视数据显示，2019年剧集播出数量整体下降，从452部缩减至377部，不"
+  },
+  "guangdong-qid-2047880": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "9b88041ea31fa026492a244cdc1d17aaac11c785f1467f37e8c2eab977bb7385",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "一名茶叶经销商在对客人介绍一种茶叶时说：“这种茶叶产自云山，而大名鼎鼎的云山茶正是产自云山，所以这就是正宗的云山茶。” 以下与该经销商介绍茶叶时的逻辑"
+  },
+  "guangdong-qid-3018765": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "6608cfff92a42d6e7aad0cf64d6f632d6c1b07088fe05a10fca41bebbab7bfd4",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "希望过上好日子的村民都愿意接受就业辅导。村民小王愿意接受就业辅导，因此，他希望过上好日子。 以下选项存在与题干最为相似的逻辑错误的是（    ）。"
+  },
+  "guangdong-qid-3018843": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "1a7b3f5ae6f41505c8afc618296cb93b78a63d6d78226056741b5d3235a8243f",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "优秀的大学生既要有扎实的专业知识，也必须具备优秀的人文素养和爱国情怀。因此，只重视专业知识教育的高校无法培育出优秀的大学生。 以下选项的逻辑推理结构与"
+  },
+  "guangdong-qid-3018803": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "0af57490599aaf08c8cd39ea44bc7ed24593681727e1dba85634e315cd2d5089",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "均衡化的国家治理价值目标结构指引下的农地制度设置能够强化农业要素供给。农业供给侧结构性改革的重点是强化农业要素供给，因此，国家治理价值目标的均衡化有利"
+  },
+  "guangdong-qid-3018823": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "6b5b2cd3263945462125dca329f4603bf87915b6f8947f76819193f1c65e8787",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "有人认为，网络社交互动并不会减少人们与他人面对面交流的时间，因为性格内向的人即使停止网络社交也不会增加他们与人面对面交流的时间。 以下选项与题干的逻辑"
+  },
+  "guangdong-qid-4673188": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "3dee5ae26e807dcacea334bc8dce183b4475fc2ab823dd3edc4bee2db0c6ebb4",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "每一名战士都是英雄，每一名英雄都值得被纪念，因此每一名战士都值得被纪念。 下列选项的逻辑结构与题干最相似的是（    ）。"
+  },
+  "guangdong-qid-4673177": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "e25bbeefbab1337e037b522ebe0255faeceaaf847f9789deaf84cdb798938735",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "世界科技强国必须能够在全球范围内吸引人才、留住人才、用好人才。我国要建设世界科技强国。因此，我国必须注重对国际人才的吸引与使用。 下列选项的逻辑结构与"
+  },
+  "guangdong-qid-4673186": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "47f61aa5a702a4b7d5ddc6f61d87fbe07463c21bc332dbb911a1e52e9bd332f2",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "农业得到极大发展后，农民的收入水平会显著提高，农业科技水平相对落后的地区农民收入水平不能提高。由此可知，农业科技水平相对落后的地区，农业产业有待发展。"
+  },
+  "guangdong-qid-4673135": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "fe6874a68b520192a1b082a2f396a2bf2498efd49dc1cc69272303cfd1f0b1c4",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "重点民生领域过度金融化，将会在危及广大民众财产安全的同时给相关行业带来沉重打击。因此，为了保护重点民生领域相关行业的健康发展，应防止其过度金融化。 下"
+  },
+  "guangdong-qid-5510327": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "c7ca9de90be44aa1ef440eedefa654e579714ddc0577872a351546b8bd4c9cf8",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "优秀的企业家既要有杰出的领导能力，也必须积极承担相应的社会责任。因此，能运用出色的领导力引领企业发展却不愿承担任何社会责任的人，一定不是优秀的企业家。"
+  },
+  "guangdong-qid-5510268": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "3b0fd33754593d09042fd8b3cd3a63de231181913831e80d2e6451b8a567f47e",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "自其变者而观之，则天地没有一瞬间不会发生变化。历史已经不属于这片天地，所以历史是永恒不变的。 以下选项的逻辑结构与题干最为相似的是（    ）。"
+  },
+  "guangdong-qid-5510280": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "1606b8020ad7a9ab782a23df08f074cf92ff24e9e41dc51c965b04a8099ae44c",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "只有不间断地练习曲目，才能在音乐比赛中获奖。小李没有在音乐比赛中获奖，那么他一定没有不间断地练习曲目。 以下选项的逻辑结构与题干最为相似的是（    "
+  },
+  "guangdong-qid-5510331": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "8147f289518893ffee55ddc1a772b445c4c6d654885348e296b1aca26b1ed7ce",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "有人认为，短视频时代的到来并不会减少好友相互交流的时间，因为不喜欢社交的人即使在没有短视频可以“刷”的时候也不会增加与人交流的时间。 下列选项所犯的逻"
+  },
+  "guangdong-qid-16593251": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "a1dc8beb3515ea8fcef84d69d95201039bc9234df894bc3ac4575ba49b8cc2ad",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "水火是无情的，人不是水火，所以人不是无情的。 下列选项所犯的逻辑错误与题干最相似的是（    ）。"
+  },
+  "guangdong-qid-16593283": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "18ab0df86848887bcc5ea271e638ac57eca9d6c9974828903965b95aa748ceaf",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "建设生态公园可以保护生态环境，保护生态环境有利于经济社会的绿色发展，所以建设生态公园有利于经济社会的绿色发展。 以下选项的逻辑结构与题干最为相似的是（"
+  },
+  "guangdong-qid-16593284": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "e0b7d19ea380d687cf41da417ce5d37a94402b22a68fc0a83df2c9edc0be1e17",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "成年人读书，既可以提升专业技能，又能提升个人修养；儿童读书，不仅可以开阔视野，还能提高阅读写作能力。所以，读书没有年龄的限制，任何人读书都有好处。 以"
+  },
+  "guangdong-qid-12881958": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "ace1d5c79010d32a03098c86ff0e6d9c858a0ae77d5435854b75b6f0c1fee828",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "庑殿顶是中国古代建筑的一种屋顶形式，由一条正脊和四条垂脊组成，而中国古代许多皇宫大殿有庑殿顶，因此许多皇宫大殿的屋顶只有一条正脊。 以下选项的推理逻辑"
+  },
+  "guangdong-qid-12881964": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "8fe31cec901598aae07772ff53710488664e41d674c09814a0f51ac317c6c061",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "古丝绸之路之所以举世闻名，靠的不仅是经济互利，更是丰富物产和多元文化交流，所以，只有经济互利，不可能重现古丝绸之路的辉煌。 以下选项推理逻辑与题干最相"
+  },
+  "guangdong-qid-12881967": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "059996df000a5ece8dc1c2e7f1fc85f1b03d7b943db0d2dcd695c5d725665dca",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "根据法律，公共场所禁止吸烟，因此，如果有人在某个区域吸烟却不违法，说明该区域不属于公共场所。 以下选项的推理逻辑与题干最相似的是（    ）。"
+  },
+  "guangdong-qid-18643992": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "c1f847cd7b0fa22ade2a3a625a158f8375f3928209a4692bc0278cb9fbd986b7",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "不建立主体明确、要求清晰的责任体系，就不能压紧压实安全生产责任。当前主体明确、要求清晰的责任体系已经建立，因此安全生产责任已经压紧压实。 下列选项与题"
+  },
+  "guangdong-qid-18644000": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "dde1c1461a571e4550510e41c37f9ed9e39d0c74126dd15cafefa3159f98c5ed",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "绿化率高的小区，居民幸福感强。居民幸福感强的小区，环境卫生状况好。因此，绿化率高的小区环境卫生状况好。 下列选项与上述推理的逻辑结构最为相似的是（  "
+  },
+  "guangdong-qid-18644004": {
+    "topicId": "reasoning-patterns",
+    "stemHash": "4a4bfda031bf6e76cb7ae4024bf8af9431a477790932ff8734b1d5901531fe0c",
+    "evidence": "比较论证结构或逻辑错误是否与题干相同，属于课程推理形式。",
+    "reviewAnchor": "企业节能减排必须通过购买碳配额或自主开发减排项目实现。某企业未购买碳配额，因此该企业要节能减排需自主开发减排项目。 下列选项与题干逻辑结构最为相似的是"
+  },
+  "guangdong-qid-2185097": {
+    "topicId": "reasoning-syllogism",
+    "stemHash": "06bae08b6e012faa6f3eade9aeb60724ada9338fae5b4bf1f89d6ebd884fe044",
+    "evidence": "根据所有、有些等量词与概念集合关系作直言推理。",
+    "reviewAnchor": "某围棋队有选手会在比赛时喝茶，他们或者喝红茶，或者喝绿茶。 如果以上描述为真，下列哪项一定是真的？ I．该围棋队一名在比赛时不喝红茶的选手，一定喝绿茶"
+  },
+  "guangdong-qid-2606188": {
+    "topicId": "reasoning-syllogism",
+    "stemHash": "453d71dadcfdabdb4cd5b52905a443ff1f240a973a7a701fe64c5a7cccb053b2",
+    "evidence": "根据所有、有些等量词与概念集合关系作直言推理。",
+    "reviewAnchor": "某省开展了新高考改革，考试科目按“”模式设置，“3”为全国统一高考的语文、数学、外语，“1”由考生在物理、历史2门学科中选择1门，“2”由考生在政治、"
+  },
+  "guangdong-qid-5510328": {
+    "topicId": "reasoning-syllogism",
+    "stemHash": "a17916a19af05d900e060c82146f5ccf5f3bbb8e2583f219513d72a6a6387121",
+    "evidence": "根据所有、有些等量词与概念集合关系作直言推理。",
+    "reviewAnchor": "某部门有若干名干部和工勤人员。其中有多名干部是博士；并非所有的博士都是统计学专业毕业的；所有的男性都是统计学专业毕业的；由此可以推断该部门中（    "
+  },
+  "guangdong-qid-2185116": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "b5803706c0b22c4add63ac3527da8501f29e8d76f28dd609586ef1c9386c6e49",
+    "evidence": "根据题干人物、岗位、位置或得分等约束进行排列、匹配和排除。",
+    "reviewAnchor": "单位接到一项工作任务，领导决定从张、王、李、林、沈、赵6人中选出3人组成工作小组。工作组应符合以下3个条件： ①张、林两人中至少需要一人入选。 ②王、"
+  },
+  "guangdong-qid-2374717": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "06db87bb7c8db9d49f42dc0ef4cd286e150ee23ddfc3ef47b770c1adc231d631",
+    "evidence": "根据题干人物、岗位、位置或得分等约束进行排列、匹配和排除。",
+    "reviewAnchor": "某办公室有教育学硕士、教育学学士、哲学硕士、哲学学士各一人。四人中，甲不是教育学硕士也不是哲学学士；甲和丙学习的是同一门学科；乙只获得了学士学位；丁不"
+  },
+  "guangdong-qid-3018812": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "76bd2d0200243a03b6cee29c4fa6f71f7c4119c03ed4e2a6a1b8cad98b67b0de",
+    "evidence": "根据题干人物、岗位、位置或得分等约束进行排列、匹配和排除。",
+    "reviewAnchor": "某镇计划安排小蒋、小陈、小刘3名干部到甲、乙、丙3个村子驻点，每村只安排1人。3人中有一人是农学专业，一人是法学专业，一人是工学专业。已知：小陈没有前"
+  },
+  "guangdong-qid-5510260": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "d56f566f2a9cfdbed174c8a115aca3e9761b43f7996872af9b514f147b1d9719",
+    "evidence": "根据题干人物、岗位、位置或得分等约束进行排列、匹配和排除。",
+    "reviewAnchor": "某街道计划将3名男性干部甲、乙、丙和3名女性干部张、李、王下沉至各个社区开展工作，可供选择的社区有A、B、C、D四个。已知： ①每人只能去一个社区。 "
+  },
+  "guangdong-qid-5510267": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "c62289a38b53100002efe034dc8ec6c64602edb4efbee920e09784b4b21f1ddd",
+    "evidence": "根据题干人物、岗位、位置或得分等约束进行排列、匹配和排除。",
+    "reviewAnchor": "某中学计划抽调一批骨干教师前往西部地区支教，学校计划抽调2位高一老师、1位高二老师和1位高三老师，并且这4位老师所教科目应各不相同。已知各年级候选人如"
+  },
+  "guangdong-qid-12881962": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "9aef743e1cd30810aaad1e5e4038950e6adfcb97c4c55f2a7411a2248dce3528",
+    "evidence": "根据题干人物、岗位、位置或得分等约束进行排列、匹配和排除。",
+    "reviewAnchor": "研究所计划从7名在读研究生中，推选2名男生、2名女生到企业实习。已知：（1）赵、钱、孙是男生；（2）李、刘、王、吴是女生；（3）如果推选刘、吴其中一人"
+  },
+  "guangdong-qid-12881963": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "2fb8226715401ea08ebb8395dca42fe21e44d1a1ba714aa273bfa7c9ce995cd6",
+    "evidence": "根据题干人物、岗位、位置或得分等约束进行排列、匹配和排除。",
+    "reviewAnchor": "在一次技能竞赛中，甲、乙、丙、丁4人排名前四且无人并列，已知甲和第三名是好友且名次比该好友高；丁和甲不是好友但和第一名是好友；乙的名次比丙高。 根据上"
+  },
+  "guangdong-qid-18643999": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "21c481ced50dcee7201d9c8346070a33539bed13bbbc47acdbfddb5963547276",
+    "evidence": "根据题干人物、岗位、位置或得分等约束进行排列、匹配和排除。",
+    "reviewAnchor": "某市召开年度经济工作会议，根据安排，某一排是教育局、住建局、交通局、农业局、人社局、财政局6个职能局的座位。已知： ①财政局在人社局的右手边并与之相邻"
+  },
+  "guangdong-qid-18644002": {
+    "topicId": "reasoning-analytical",
+    "stemHash": "85bed7bb1868a8da46f8d4a95c961ca9efd789b85b45274077a28085bb3dfc78",
+    "evidence": "根据题干人物、岗位、位置或得分等约束进行排列、匹配和排除。",
+    "reviewAnchor": "某次“特色示范村”评选活动设立了文化旅游、非遗传承、生态农业、数字农业示范村4个奖项，甲、乙、丙、丁4个村庄各获其中之一。已知： ①文化旅游示范村的经"
+  },
+  "guangdong-qid-2374752": {
+    "topicId": "reasoning-figures",
+    "stemHash": "0ea0605f06166a6ba0ea7e94bafbb1d6db9adac3396875c98403404049b16c02",
+    "evidence": "依据题图判断空间视图、展开、拼合、截面或符号规律。",
+    "reviewAnchor": "下列选项中，不可能是所给立方体展开图的是（    ）。"
+  },
+  "guangdong-qid-2374815": {
+    "topicId": "reasoning-figures",
+    "stemHash": "a0d7733555daff6c7727ecb91ff1b763f69966916c2a3a18be143956419ef1d3",
+    "evidence": "依据题图判断空间视图、展开、拼合、截面或符号规律。",
+    "reviewAnchor": "如图所示，所给物体的俯视图不可能是（    ）。"
+  },
+  "guangdong-qid-2374749": {
+    "topicId": "reasoning-figures",
+    "stemHash": "bf568bfa6db1847f9738aa4618cd751aaad8bc84aa3738b5479d819c7d0b23e6",
+    "evidence": "依据题图判断空间视图、展开、拼合、截面或符号规律。",
+    "reviewAnchor": "如图所示，下列物体均由纯黑色和纯白色的小立方体组成。则物体①与物体②中，（    ）由5块物体③堆积而成。"
+  },
+  "guangdong-qid-2374751": {
+    "topicId": "reasoning-figures",
+    "stemHash": "9d8033fde6dff94b1771a01f088f915e706aa49e9472219781e7dd9a6228e4d4",
+    "evidence": "依据题图判断空间视图、展开、拼合、截面或符号规律。",
+    "reviewAnchor": "将一个空心圆柱体斜切，得到下图所示物体。不可能是这一物体截面的是（    ）。"
+  },
+  "guangdong-qid-2604245": {
+    "topicId": "reasoning-figures",
+    "stemHash": "36e3f61a6b2e9894000409a7cce0f1aeebee64aafff6ac3044707511eb901285",
+    "evidence": "依据题图判断空间视图、展开、拼合、截面或符号规律。",
+    "reviewAnchor": "如图所示的物体至少由（    ）个小正方体堆积而成。"
+  },
+  "guangdong-qid-2604279": {
+    "topicId": "reasoning-figures",
+    "stemHash": "fa6ca7f213f2627b594b5f50d1a2bfd7e886556f79c444504e7da043f85bdf1a",
+    "evidence": "依据题图判断空间视图、展开、拼合、截面或符号规律。",
+    "reviewAnchor": "下列选项中，不能在裁剪或覆盖后折成如图所示立方体的是（    ）。"
+  },
+  "guangdong-qid-3019152": {
+    "topicId": "reasoning-figures",
+    "stemHash": "7eccb9fa9c629b831ecd3ac6ced8f2b3c6a2ea3bfd6f9feb173d51ce44488187",
+    "evidence": "依据题图判断空间视图、展开、拼合、截面或符号规律。",
+    "reviewAnchor": "如图所示是一个圆台，则下列选项不可能属于该圆台视图的是："
+  },
+  "guangdong-qid-3019154": {
+    "topicId": "reasoning-figures",
+    "stemHash": "8b0da325fe641c66a99e920ad0665c00a177d5c7db3a15b108434b165d1ae810",
+    "evidence": "依据题图判断空间视图、展开、拼合、截面或符号规律。",
+    "reviewAnchor": "不经过旋转，下列选项能组成所给梯形的是："
+  },
+  "guangdong-qid-3018865": {
+    "topicId": "reasoning-figures",
+    "stemHash": "dd9af95c6edbdb670d656e4b8ad6874933d9426ecb7f17f79c39902b41dbd9c1",
+    "evidence": "依据题图判断空间视图、展开、拼合、截面或符号规律。",
+    "reviewAnchor": "下列选项中，能够折成如图所示立方体的是（    ）。"
+  },
+  "guangdong-qid-4673198": {
+    "topicId": "reasoning-figures",
+    "stemHash": "4df5fad3159d59202062cbdcf55b8af4d282904af6ccb41858e16704d193a65a",
+    "evidence": "依据题图判断空间视图、展开、拼合、截面或符号规律。",
+    "reviewAnchor": "如图是一物体某两个角度的视图，则该物体最可能是（    ）。"
+  },
+  "guangdong-qid-4673146": {
+    "topicId": "reasoning-figures",
+    "stemHash": "27e757d8985d0be226af4237ed222c406393598eeb81b7c021d04a350f49aefd",
+    "evidence": "依据题图判断空间视图、展开、拼合、截面或符号规律。",
+    "reviewAnchor": "如图所给的3个立方体为同一立方体，若不考虑立方体表面数字的大小、方向，下列选项中，最有可能是该立方体的是（    ）。"
+  },
+  "guangdong-qid-4673172": {
+    "topicId": "reasoning-figures",
+    "stemHash": "d0c4d22bb0dc845a737610146d81223687650b0f4adc8c79e553fd42d89332dc",
+    "evidence": "依据题图判断空间视图、展开、拼合、截面或符号规律。",
+    "reviewAnchor": "如图是某立方体的平面展开图，则该立方体最可能是："
+  },
+  "guangdong-qid-5514834": {
+    "topicId": "reasoning-figures",
+    "stemHash": "a3f7d2fb048c1e795a743fb4c5c39be7367b72dfb5c6c7042b18f91861d89888",
+    "evidence": "依据题图判断空间视图、展开、拼合、截面或符号规律。",
+    "reviewAnchor": "某物体由两个相同的正三棱柱组合而成，则其侧面轮廓最不可能是（    ）。"
+  },
+  "guangdong-qid-5514851": {
+    "topicId": "reasoning-figures",
+    "stemHash": "10646f8653af95d137d399423beac4a738e4271f3895370232185854fe8d43e0",
+    "evidence": "依据题图判断空间视图、展开、拼合、截面或符号规律。",
+    "reviewAnchor": "下列选项与框内字符串规律最接近的是（    ）。"
+  },
+  "guangdong-qid-5510251": {
+    "topicId": "reasoning-figures",
+    "stemHash": "5c8b446ee19a00db9651fe48079d83b403a22b99e6fc8588396b61ca0a7f011a",
+    "evidence": "依据题图判断空间视图、展开、拼合、截面或符号规律。",
+    "reviewAnchor": "下列选项与框内字符串规律最接近的是："
+  },
+  "guangdong-qid-12881941": {
+    "topicId": "reasoning-figures",
+    "stemHash": "df036a2c07fc1e09fc4a01f526970c14d88e55b6ae7ad5be9e0c7c3cd7caa94d",
+    "evidence": "依据题图判断空间视图、展开、拼合、截面或符号规律。",
+    "reviewAnchor": "如图所示，四棱锥的底面为矩形，其中一条棱垂直于底面，那么该四棱锥的俯视图最有可能是（    ）。"
+  },
+  "guangdong-qid-2374757": {
+    "topicId": "reasoning-weaken",
+    "stemHash": "0910599c57ff1b8cf18d848d62091ab5d3f24900186d746e498ef2e144d348c0",
+    "evidence": "考查论证中的遗漏因素、以偏概全、概念断点或方案漏洞，归入一般质疑。",
+    "reviewAnchor": "近年来随着大型野生动物园的兴起，有人提出，传统城市动物园已经没有存在的必要性。但传统城市动物园具有票价低、交通便利等优点，中小学组织参观十分方便，因而"
+  },
+  "guangdong-qid-2604272": {
+    "topicId": "reasoning-truth",
+    "stemHash": "56c3b25464ea23404c762d9f8bdd1774700704bbfad52161807febb184e1820a",
+    "evidence": "依据猜测或表述的真假数量，利用矛盾关系或假设法确定结果。",
+    "reviewAnchor": "某工作组计划开展实地调研，初步确定只选择粤东、粤西或粤北中的一个地区。对此，工作组中的甲、乙、丙三人提出了以下意见： 甲：在此次调研中粤东更具有代表性"
+  },
+  "guangdong-qid-3018784": {
+    "topicId": "reasoning-truth",
+    "stemHash": "5edc8aecfc899dd7c2a1cc10cc418b79daba8d92f5f4bf574a8d8335c0965c20",
+    "evidence": "依据猜测或表述的真假数量，利用矛盾关系或假设法确定结果。",
+    "reviewAnchor": "甲、乙、丙三人对一块花田里种植的花朵品种做了两次猜测： 甲：①“它是月季”；②“它不是玫瑰”。 乙：①“它不是月季”；②“它是玫瑰”。 丙：①“它不是"
+  },
+  "guangdong-qid-4673174": {
+    "topicId": "reasoning-truth",
+    "stemHash": "45a007513a611de0f271b1e67d733d9dbd9c10d35099b4b8f340622208e0e2af",
+    "evidence": "依据猜测或表述的真假数量，利用矛盾关系或假设法确定结果。",
+    "reviewAnchor": "某单位将《稻穗》《播种》两件乡村新风摄影作品选送参赛。关于这两件作品能否获奖，该单位员工有以下猜测： （1）两件作品都能获奖。 （2）只有一件作品能获"
+  },
+  "guangdong-qid-5510270": {
+    "topicId": "reasoning-truth",
+    "stemHash": "19251638bfead26414e1a6b604c9554213cb10570ce016a3d463c82cda8a8e6d",
+    "evidence": "依据猜测或表述的真假数量，利用矛盾关系或假设法确定结果。",
+    "reviewAnchor": "甲、乙、丙3人同时申请某个课题项目。评审专家组进行评审后，最终通过了其中1人的申请。专家们最初的预测如下： ①专家一：甲的申请没有通过。 ②专家二：乙"
+  },
+  "guangdong-qid-2606143": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "9041ce4b72e91e6670b3f908d9242418fdb2c5fb418526c3f2116c260dc04100",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "某市的志愿者管理采用注册制，其中活跃志愿者约占。为进一步增强志愿者服务力量，提高活跃志愿者数量，该市管理部门制定了以下政策：鼓励所有政府部门及公益组织"
+  },
+  "guangdong-qid-3018818": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "2b542d4e8ded279821aed74e044297ef4943a1a13a69039ccccbb53d178b0c55",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "今年持续暴雨，各地花椒严重减产。由此可以预见，今年的花椒价格将会显著上涨。 要使上述推理成立，需要补充的前提条件是："
+  },
+  "guangdong-qid-4673181": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "dd272d7b91c41504686dfdde2b283563ba6856ba6160520f937241cd3c6e11e9",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "有调查发现，某镇的乡村振兴工作中，由县农业部门工作人员担任驻村工作队队长的村庄其农业产业发展速度明显快于由其他部门工作人员担任驻村工作队队长的村庄。据"
+  },
+  "guangdong-qid-5510282": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "f7353bcb022311b1dd07366db764171a403b8f7e6076703ca065188daa0f5cab",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "酿酒时，蒸馏的酒液流入酒桶，会在表面荡起泡沫状的酒花，这就是古代“看花摘酒”传统的由来。此外，还可以通过用耳朵倾听酒花爆裂的声音指导酿酒工艺，也即“听"
+  },
+  "guangdong-qid-16593238": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "83fd401f946338f5f527d075538f7b5c4cd1fa6dc6b09ce466a7c733c5765f6b",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "对于要不要读《红楼梦》，许多学者认为：读《红楼梦》有助于了解中国传统文化，因此年轻人都应该读《红楼梦》。 以下属于这一推论暗含前提的是（    ）。"
+  },
+  "guangdong-qid-16593249": {
+    "topicId": "reasoning-assumption",
+    "stemHash": "6662ec594de11f81a3083b0264167ddc054c2af0e2a4ebbd853c53860d510823",
+    "evidence": "论证需要补充一项隐含前提，使论据能够支持结论。",
+    "reviewAnchor": "最近，市场上中药材的价格有所下降。据调查，中药材产量的增加是价格下降的主要原因。由于近年来中药材种植业蓬勃发展，而野生中药材的产量没有显著增加，因此中"
+  },
+  "guangdong-qid-3018842": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "a533404fe7ffc681ee1e05881a8b2bfc97b3a95d285daa1a71a348ada767fb59",
+    "evidence": "根据充分必要条件、且或命题或否前否后关系作条件推理。",
+    "reviewAnchor": "快递企业在激烈的市场竞争中会被迫大幅下调收费单价，而特色快递企业能够避免卷入激烈的市场竞争。快递员都愿意在收费单价高的快递企业工作，但某国的快递员并没"
+  },
+  "guangdong-qid-3018789": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "e66258c6500c5d2794b6cbcd3600ef4dc64252c7895b1f5624c39f5a07c8dda6",
+    "evidence": "根据充分必要条件、且或命题或否前否后关系作条件推理。",
+    "reviewAnchor": "李女士刚搬入新家，打算一次性购买几种盆栽。她的想法如下： ①购买绿萝、罗汉松中的一种； ②文竹、绿萝和橡皮树至少买一种； ③罗汉松、橡皮树、虎尾兰至少"
+  },
+  "guangdong-qid-4673150": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "18b1abf6d4b0e4bd3c9aa826d282e79ed9ffded7e45b904e1e4a63ab8d60f289",
+    "evidence": "根据充分必要条件、且或命题或否前否后关系作条件推理。",
+    "reviewAnchor": "我国法律规定，用人单位由于生产经营需要，经协商，取得工会和劳动者同意后可以延长工作时间，且一般每日不超过一小时。某国有企业有员工在周五晚上延长工作时间"
+  },
+  "guangdong-qid-4673152": {
+    "topicId": "reasoning-conditional",
+    "stemHash": "dc85d39fcec19d44826169da16206a1b0cb07aad1f3b804d50578dea7c14a4c0",
+    "evidence": "根据充分必要条件、且或命题或否前否后关系作条件推理。",
+    "reviewAnchor": "子曰：“名不正，则言不顺；言不顺，则事不成；事不成，则礼乐不兴；礼乐不兴，则刑罚不中；刑罚不中，则民无所措手足。” 根据以上论述，下列推断必然正确的是"
+  }
+}

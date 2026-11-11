@@ -143,5 +143,8 @@
     "analysis": 20
   },
   "ordering": "按独立原卷PDF确证的全局题号排列",
-  "questionCount": 130
+  "questionCount": 130,
+  "examId": "national",
+  "examTitle": "国考",
+  "sourceUrls": []
 }

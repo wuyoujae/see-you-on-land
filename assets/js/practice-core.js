@@ -60,6 +60,16 @@
     }
     return ids.slice(0, count);
   }
+  function filterQuestions(questions, { subjectId = "", topicId = "", examId = "", paperId = "" } = {}) {
+    const seen = new Set();
+    return questions.filter(question => {
+      if (!question || seen.has(question.id) || subjectId && question.subjectId !== subjectId || topicId && question.topicId !== topicId) return false;
+      const refs = question.paperRefs?.length ? question.paperRefs : [question.source || {}];
+      if (!refs.some(ref => (!paperId || ref.paperId === paperId) && (!examId ||
+          (ref.examId || (ref.paperId?.startsWith("guangdong-") ? "guangdong" : "national")) === examId))) return false;
+      seen.add(question.id); return true;
+    });
+  }
   function createSession({ id, subjectId = "", topicId = "", setId = "", questionIds, now = Date.now() } = {}) {
     if (!validId(id) || !Array.isArray(questionIds) || !questionIds.length || questionIds.some(qid => !validId(qid)) ||
         new Set(questionIds).size !== questionIds.length || !timestamp(now)) throw new TypeError("练习会话格式不正确");
@@ -226,6 +236,6 @@
     const digest = await cryptoAPI.subtle.digest("SHA-256", new TextEncoder().encode(canonical));
     return "practice-ai-v1:" + Array.from(new Uint8Array(digest), byte => byte.toString(16).padStart(2, "0")).join("");
   }
-  return { selectQuestionIds, createSession, isAnswered, setDraft, submit, setCurrent, canShow, statistics, getStatistics,
+  return { selectQuestionIds, filterQuestions, createSession, isAnswered, setDraft, submit, setCurrent, canShow, statistics, getStatistics,
     sanitizeSession, mergeSession, mergeProgress, validateProgress, aiCacheKey, cacheIdentity, normalizeBaseUrl };
 });

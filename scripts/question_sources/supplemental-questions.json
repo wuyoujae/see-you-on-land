@@ -1,0 +1,1955 @@
+[
+  {
+    "id": "guangdong-2021-county-q026-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "3，35，99，195，（    ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "3，35，99，195，（    ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "272"
+      },
+      {
+        "value": "B",
+        "label": "306"
+      },
+      {
+        "value": "C",
+        "label": "323"
+      },
+      {
+        "value": "D",
+        "label": "340"
+      }
+    ],
+    "answer": "C",
+    "sourceAnswer": {
+      "answer": "C",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "2²－1、6²－1、10²－1、14²－1，下一项18²－1＝323"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q26"
+    },
+    "source": {
+      "year": 2021,
+      "variant": "县级卷",
+      "paperId": "guangdong-2021-county",
+      "questionNumber": 26,
+      "url": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q26",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q26",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2021-county",
+        "year": 2021,
+        "variant": "县级卷",
+        "subjectId": "quantity",
+        "questionNumber": 26,
+        "url": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q26",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q26"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2021-county-q027-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "23，24，22，25，21，26，（    ），（    ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "23，24，22，25，21，26，（    ），（    ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "19 28"
+      },
+      {
+        "value": "B",
+        "label": "20 27"
+      },
+      {
+        "value": "C",
+        "label": "26 21"
+      },
+      {
+        "value": "D",
+        "label": "32 39"
+      }
+    ],
+    "answer": "B",
+    "sourceAnswer": {
+      "answer": "B",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "奇数项23、22、21、20，偶数项24、25、26、27"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q27"
+    },
+    "source": {
+      "year": 2021,
+      "variant": "县级卷",
+      "paperId": "guangdong-2021-county",
+      "questionNumber": 27,
+      "url": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q27",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q27",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2021-county",
+        "year": 2021,
+        "variant": "县级卷",
+        "subjectId": "quantity",
+        "questionNumber": 27,
+        "url": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q27",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q27"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2021-county-q028-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "1，2，9，64，625，（    ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "1，2，9，64，625，（    ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "981"
+      },
+      {
+        "value": "B",
+        "label": "1296"
+      },
+      {
+        "value": "C",
+        "label": "7776"
+      },
+      {
+        "value": "D",
+        "label": "15625"
+      }
+    ],
+    "answer": "C",
+    "sourceAnswer": {
+      "answer": "C",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "n的(n－1)次方：1⁰、2¹、3²、4³、5⁴，下一项6⁵＝7776"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q28"
+    },
+    "source": {
+      "year": 2021,
+      "variant": "县级卷",
+      "paperId": "guangdong-2021-county",
+      "questionNumber": 28,
+      "url": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q28",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q28",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2021-county",
+        "year": 2021,
+        "variant": "县级卷",
+        "subjectId": "quantity",
+        "questionNumber": 28,
+        "url": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q28",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q28"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2021-county-q029-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "23，14，37，55，78，（    ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "23，14，37，55，78，（    ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "53"
+      },
+      {
+        "value": "B",
+        "label": "69"
+      },
+      {
+        "value": "C",
+        "label": "81"
+      },
+      {
+        "value": "D",
+        "label": "93"
+      }
+    ],
+    "answer": "B",
+    "sourceAnswer": {
+      "answer": "B",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "各项数字之和为5、5、10、10、15，下一项和为15，只有69"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q29"
+    },
+    "source": {
+      "year": 2021,
+      "variant": "县级卷",
+      "paperId": "guangdong-2021-county",
+      "questionNumber": 29,
+      "url": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q29",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q29",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2021-county",
+        "year": 2021,
+        "variant": "县级卷",
+        "subjectId": "quantity",
+        "questionNumber": 29,
+        "url": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q29",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2021-xj.html#q29"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2021-township-q031-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "23，24，22，25，21，26，（），（）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "23，24，22，25，21，26，（），（）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "19，28"
+      },
+      {
+        "value": "B",
+        "label": "20，27"
+      },
+      {
+        "value": "C",
+        "label": "26，21"
+      },
+      {
+        "value": "D",
+        "label": "32，39"
+      }
+    ],
+    "answer": "B",
+    "sourceAnswer": {
+      "answer": "B",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "奇数项23、22、21、20，偶数项24、25、26、27"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q31"
+    },
+    "source": {
+      "year": 2021,
+      "variant": "乡镇卷",
+      "paperId": "guangdong-2021-township",
+      "questionNumber": 31,
+      "url": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q31",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q31",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2021-township",
+        "year": 2021,
+        "variant": "乡镇卷",
+        "subjectId": "quantity",
+        "questionNumber": 31,
+        "url": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q31",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q31"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2021-township-q032-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "3，9，18，30，45，（）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "3，9，18，30，45，（）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "69"
+      },
+      {
+        "value": "B",
+        "label": "66"
+      },
+      {
+        "value": "C",
+        "label": "63"
+      },
+      {
+        "value": "D",
+        "label": "60"
+      }
+    ],
+    "answer": "C",
+    "sourceAnswer": {
+      "answer": "C",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "差为6、9、12、15、18，45＋18＝63"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q32"
+    },
+    "source": {
+      "year": 2021,
+      "variant": "乡镇卷",
+      "paperId": "guangdong-2021-township",
+      "questionNumber": 32,
+      "url": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q32",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q32",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2021-township",
+        "year": 2021,
+        "variant": "乡镇卷",
+        "subjectId": "quantity",
+        "questionNumber": 32,
+        "url": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q32",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q32"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2021-township-q033-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "11，44，99，176，（）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "11，44，99，176，（）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "275"
+      },
+      {
+        "value": "B",
+        "label": "265"
+      },
+      {
+        "value": "C",
+        "label": "260"
+      },
+      {
+        "value": "D",
+        "label": "255"
+      }
+    ],
+    "answer": "A",
+    "sourceAnswer": {
+      "answer": "A",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "11×1²、11×2²、11×3²、11×4²、11×5²＝275"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q33"
+    },
+    "source": {
+      "year": 2021,
+      "variant": "乡镇卷",
+      "paperId": "guangdong-2021-township",
+      "questionNumber": 33,
+      "url": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q33",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q33",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2021-township",
+        "year": 2021,
+        "variant": "乡镇卷",
+        "subjectId": "quantity",
+        "questionNumber": 33,
+        "url": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q33",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q33"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2021-township-q034-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "389，569，479，587，299，（）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "389，569，479，587，299，（）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "845"
+      },
+      {
+        "value": "B",
+        "label": "787"
+      },
+      {
+        "value": "C",
+        "label": "673"
+      },
+      {
+        "value": "D",
+        "label": "668"
+      }
+    ],
+    "answer": "D",
+    "sourceAnswer": {
+      "answer": "D",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "各位数字之和均为20，只有668"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q34"
+    },
+    "source": {
+      "year": 2021,
+      "variant": "乡镇卷",
+      "paperId": "guangdong-2021-township",
+      "questionNumber": 34,
+      "url": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q34",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q34",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2021-township",
+        "year": 2021,
+        "variant": "乡镇卷",
+        "subjectId": "quantity",
+        "questionNumber": 34,
+        "url": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q34",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2021-xz.html#q34"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2022-county-q026-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "11，14，26，44，65，（    ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "11，14，26，44，65，（    ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "80"
+      },
+      {
+        "value": "B",
+        "label": "83"
+      },
+      {
+        "value": "C",
+        "label": "86"
+      },
+      {
+        "value": "D",
+        "label": "89"
+      }
+    ],
+    "answer": "C",
+    "sourceAnswer": {
+      "answer": "C",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "差为3、12、18、21，二级差9、6、3，下一个差21，65＋21＝86"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q26"
+    },
+    "source": {
+      "year": 2022,
+      "variant": "县级卷",
+      "paperId": "guangdong-2022-county",
+      "questionNumber": 26,
+      "url": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q26",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q26",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2022-county",
+        "year": 2022,
+        "variant": "县级卷",
+        "subjectId": "quantity",
+        "questionNumber": 26,
+        "url": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q26",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q26"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2022-county-q027-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "22，42，44，84，88，168，（    ），（    ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "22，42，44，84，88，168，（    ），（    ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "176，336"
+      },
+      {
+        "value": "B",
+        "label": "236，352"
+      },
+      {
+        "value": "C",
+        "label": "264，386"
+      },
+      {
+        "value": "D",
+        "label": "312，412"
+      }
+    ],
+    "answer": "A",
+    "sourceAnswer": {
+      "answer": "A",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "交替“×2－2ⁿ”与“＋2ⁿ”：168＋8＝176，176×2－16＝336"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q27"
+    },
+    "source": {
+      "year": 2022,
+      "variant": "县级卷",
+      "paperId": "guangdong-2022-county",
+      "questionNumber": 27,
+      "url": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q27",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q27",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2022-county",
+        "year": 2022,
+        "variant": "县级卷",
+        "subjectId": "quantity",
+        "questionNumber": 27,
+        "url": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q27",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q27"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2022-county-q029-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "12，25，310，417，（    ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "12，25，310，417，（    ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "521"
+      },
+      {
+        "value": "B",
+        "label": "526"
+      },
+      {
+        "value": "C",
+        "label": "632"
+      },
+      {
+        "value": "D",
+        "label": "647"
+      }
+    ],
+    "answer": "B",
+    "sourceAnswer": {
+      "answer": "B",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "拆分为n与n²＋1：1、2，2、5，3、10，4、17，下一项5、26"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q29"
+    },
+    "source": {
+      "year": 2022,
+      "variant": "县级卷",
+      "paperId": "guangdong-2022-county",
+      "questionNumber": 29,
+      "url": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q29",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q29",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2022-county",
+        "year": 2022,
+        "variant": "县级卷",
+        "subjectId": "quantity",
+        "questionNumber": 29,
+        "url": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q29",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q29"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2022-county-q030-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "1，0，1，5，4，5，9，（    ）?",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "1，0，1，5，4，5，9，（    ）?"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "8"
+      },
+      {
+        "value": "B",
+        "label": "9"
+      },
+      {
+        "value": "C",
+        "label": "10"
+      },
+      {
+        "value": "D",
+        "label": "11"
+      }
+    ],
+    "answer": "A",
+    "sourceAnswer": {
+      "answer": "A",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "差值－1、＋1、＋4循环，9－1＝8"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q30"
+    },
+    "source": {
+      "year": 2022,
+      "variant": "县级卷",
+      "paperId": "guangdong-2022-county",
+      "questionNumber": 30,
+      "url": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q30",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q30",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2022-county",
+        "year": 2022,
+        "variant": "县级卷",
+        "subjectId": "quantity",
+        "questionNumber": 30,
+        "url": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q30",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2022-xj.html#q30"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2022-township-q032-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "11，14，26，44，65，（    ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "11，14，26，44，65，（    ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "80"
+      },
+      {
+        "value": "B",
+        "label": "83"
+      },
+      {
+        "value": "C",
+        "label": "86"
+      },
+      {
+        "value": "D",
+        "label": "89"
+      }
+    ],
+    "answer": "C",
+    "sourceAnswer": {
+      "answer": "C",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "差为3、12、18、21，二级差9、6、3，下一个差21，65＋21＝86"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2022-xz.html#q32"
+    },
+    "source": {
+      "year": 2022,
+      "variant": "乡镇卷",
+      "paperId": "guangdong-2022-township",
+      "questionNumber": 32,
+      "url": "https://kaoweilai.cn/zhenti-gd-2022-xz.html#q32",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2022-xz.html#q32",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2022-township",
+        "year": 2022,
+        "variant": "乡镇卷",
+        "subjectId": "quantity",
+        "questionNumber": 32,
+        "url": "https://kaoweilai.cn/zhenti-gd-2022-xz.html#q32",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2022-xz.html#q32"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2022-township-q034-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "6，12，19，32，52，（    ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "6，12，19，32，52，（    ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "84"
+      },
+      {
+        "value": "B",
+        "label": "85"
+      },
+      {
+        "value": "C",
+        "label": "86"
+      },
+      {
+        "value": "D",
+        "label": "87"
+      }
+    ],
+    "answer": "B",
+    "sourceAnswer": {
+      "answer": "B",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "差为6、7、13、20，后一个差为前两个差之和：13＋20＝33，52＋33＝85"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2022-xz.html#q34"
+    },
+    "source": {
+      "year": 2022,
+      "variant": "乡镇卷",
+      "paperId": "guangdong-2022-township",
+      "questionNumber": 34,
+      "url": "https://kaoweilai.cn/zhenti-gd-2022-xz.html#q34",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2022-xz.html#q34",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2022-township",
+        "year": 2022,
+        "variant": "乡镇卷",
+        "subjectId": "quantity",
+        "questionNumber": 34,
+        "url": "https://kaoweilai.cn/zhenti-gd-2022-xz.html#q34",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2022-xz.html#q34"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2023-county-q026-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "10，3，13，1，14，2，16，9，（）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "10，3，13，1，14，2，16，9，（）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "23"
+      },
+      {
+        "value": "B",
+        "label": "24"
+      },
+      {
+        "value": "C",
+        "label": "25"
+      },
+      {
+        "value": "D",
+        "label": "26"
+      }
+    ],
+    "answer": "C",
+    "sourceAnswer": {
+      "answer": "C",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "每三项一组，第三项为前两项之和：16＋9＝25"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2023-xj.html#q26"
+    },
+    "source": {
+      "year": 2023,
+      "variant": "县级卷",
+      "paperId": "guangdong-2023-county",
+      "questionNumber": 26,
+      "url": "https://kaoweilai.cn/zhenti-gd-2023-xj.html#q26",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2023-xj.html#q26",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2023-county",
+        "year": 2023,
+        "variant": "县级卷",
+        "subjectId": "quantity",
+        "questionNumber": 26,
+        "url": "https://kaoweilai.cn/zhenti-gd-2023-xj.html#q26",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2023-xj.html#q26"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2023-township-q032-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "35，71，53，17，62，（）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "35，71，53，17，62，（）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "24"
+      },
+      {
+        "value": "B",
+        "label": "26"
+      },
+      {
+        "value": "C",
+        "label": "36"
+      },
+      {
+        "value": "D",
+        "label": "38"
+      }
+    ],
+    "answer": "B",
+    "sourceAnswer": {
+      "answer": "B",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "两两一组数字对调：35与53、71与17、62与26"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2023-xz.html#q32"
+    },
+    "source": {
+      "year": 2023,
+      "variant": "乡镇卷",
+      "paperId": "guangdong-2023-township",
+      "questionNumber": 32,
+      "url": "https://kaoweilai.cn/zhenti-gd-2023-xz.html#q32",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2023-xz.html#q32",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2023-township",
+        "year": 2023,
+        "variant": "乡镇卷",
+        "subjectId": "quantity",
+        "questionNumber": 32,
+        "url": "https://kaoweilai.cn/zhenti-gd-2023-xz.html#q32",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2023-xz.html#q32"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2023-township-q034-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "10，3，13，1，14，2，16，5，（）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "10，3，13，1，14，2，16，5，（）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "18"
+      },
+      {
+        "value": "B",
+        "label": "19"
+      },
+      {
+        "value": "C",
+        "label": "20"
+      },
+      {
+        "value": "D",
+        "label": "21"
+      }
+    ],
+    "answer": "D",
+    "sourceAnswer": {
+      "answer": "D",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "每三项一组，第三项为前两项之和：16＋5＝21"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2023-xz.html#q34"
+    },
+    "source": {
+      "year": 2023,
+      "variant": "乡镇卷",
+      "paperId": "guangdong-2023-township",
+      "questionNumber": 34,
+      "url": "https://kaoweilai.cn/zhenti-gd-2023-xz.html#q34",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2023-xz.html#q34",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2023-township",
+        "year": 2023,
+        "variant": "乡镇卷",
+        "subjectId": "quantity",
+        "questionNumber": 34,
+        "url": "https://kaoweilai.cn/zhenti-gd-2023-xz.html#q34",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2023-xz.html#q34"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2024-unified-q032-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "1，11，23，33，45，55，67，（  ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "1，11，23，33，45，55，67，（  ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "66"
+      },
+      {
+        "value": "B",
+        "label": "70"
+      },
+      {
+        "value": "C",
+        "label": "73"
+      },
+      {
+        "value": "D",
+        "label": "77"
+      }
+    ],
+    "answer": "D",
+    "sourceAnswer": {
+      "answer": "D",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "差值10、12交替，67＋10＝77"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2024.html#q32"
+    },
+    "source": {
+      "year": 2024,
+      "variant": "统一卷",
+      "paperId": "guangdong-2024-unified",
+      "questionNumber": 32,
+      "url": "https://kaoweilai.cn/zhenti-gd-2024.html#q32",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2024.html#q32",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2024-unified",
+        "year": 2024,
+        "variant": "统一卷",
+        "subjectId": "quantity",
+        "questionNumber": 32,
+        "url": "https://kaoweilai.cn/zhenti-gd-2024.html#q32",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2024.html#q32"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2025-unified-q031-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "3，7，17，43，113，（    ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "3，7，17，43，113，（    ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "307"
+      },
+      {
+        "value": "B",
+        "label": "373"
+      },
+      {
+        "value": "C",
+        "label": "417"
+      },
+      {
+        "value": "D",
+        "label": "437"
+      }
+    ],
+    "answer": "A",
+    "sourceAnswer": {
+      "answer": "A",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "后项＝前项×2＋3的幂（1、3、9、27、81），113×2＋81＝307"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2025.html#q31"
+    },
+    "source": {
+      "year": 2025,
+      "variant": "统一卷",
+      "paperId": "guangdong-2025-unified",
+      "questionNumber": 31,
+      "url": "https://kaoweilai.cn/zhenti-gd-2025.html#q31",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2025.html#q31",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2025-unified",
+        "year": 2025,
+        "variant": "统一卷",
+        "subjectId": "quantity",
+        "questionNumber": 31,
+        "url": "https://kaoweilai.cn/zhenti-gd-2025.html#q31",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2025.html#q31"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2025-unified-q032-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "12，13，25，37，49，（    ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "12，13，25，37，49，（    ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "46"
+      },
+      {
+        "value": "B",
+        "label": "57"
+      },
+      {
+        "value": "C",
+        "label": "61"
+      },
+      {
+        "value": "D",
+        "label": "78"
+      }
+    ],
+    "answer": "C",
+    "sourceAnswer": {
+      "answer": "C",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "自第二项起相邻差为12，49＋12＝61"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2025.html#q32"
+    },
+    "source": {
+      "year": 2025,
+      "variant": "统一卷",
+      "paperId": "guangdong-2025-unified",
+      "questionNumber": 32,
+      "url": "https://kaoweilai.cn/zhenti-gd-2025.html#q32",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2025.html#q32",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2025-unified",
+        "year": 2025,
+        "variant": "统一卷",
+        "subjectId": "quantity",
+        "questionNumber": 32,
+        "url": "https://kaoweilai.cn/zhenti-gd-2025.html#q32",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2025.html#q32"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2025-unified-q033-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "1，4，27，16，125，36，（    ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "1，4，27，16，125，36，（    ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "271"
+      },
+      {
+        "value": "B",
+        "label": "512"
+      },
+      {
+        "value": "C",
+        "label": "400"
+      },
+      {
+        "value": "D",
+        "label": "343"
+      }
+    ],
+    "answer": "D",
+    "sourceAnswer": {
+      "answer": "D",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "奇数项1³、3³、5³，偶数项2²、4²、6²，下一项7³＝343"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2025.html#q33"
+    },
+    "source": {
+      "year": 2025,
+      "variant": "统一卷",
+      "paperId": "guangdong-2025-unified",
+      "questionNumber": 33,
+      "url": "https://kaoweilai.cn/zhenti-gd-2025.html#q33",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2025.html#q33",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2025-unified",
+        "year": 2025,
+        "variant": "统一卷",
+        "subjectId": "quantity",
+        "questionNumber": 33,
+        "url": "https://kaoweilai.cn/zhenti-gd-2025.html#q33",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2025.html#q33"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2026-unified-q031-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "1231，2311，3112，1123，（   ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "1231，2311，3112，1123，（   ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "1132"
+      },
+      {
+        "value": "B",
+        "label": "1231"
+      },
+      {
+        "value": "C",
+        "label": "2113"
+      },
+      {
+        "value": "D",
+        "label": "3212"
+      }
+    ],
+    "answer": "B",
+    "sourceAnswer": {
+      "answer": "B",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "每次把首位数字移到末尾：1123→1231"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2026.html#q31"
+    },
+    "source": {
+      "year": 2026,
+      "variant": "统一卷",
+      "paperId": "guangdong-2026-unified",
+      "questionNumber": 31,
+      "url": "https://kaoweilai.cn/zhenti-gd-2026.html#q31",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2026.html#q31",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2026-unified",
+        "year": 2026,
+        "variant": "统一卷",
+        "subjectId": "quantity",
+        "questionNumber": 31,
+        "url": "https://kaoweilai.cn/zhenti-gd-2026.html#q31",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2026.html#q31"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2026-unified-q032-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "38，6，22，14，（   ），16",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "38，6，22，14，（   ），16"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "10"
+      },
+      {
+        "value": "B",
+        "label": "12"
+      },
+      {
+        "value": "C",
+        "label": "18"
+      },
+      {
+        "value": "D",
+        "label": "20"
+      }
+    ],
+    "answer": "C",
+    "sourceAnswer": {
+      "answer": "C",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "第三项起每项为前两项的平均数：(22＋14)÷2＝18，(14＋18)÷2＝16"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2026.html#q32"
+    },
+    "source": {
+      "year": 2026,
+      "variant": "统一卷",
+      "paperId": "guangdong-2026-unified",
+      "questionNumber": 32,
+      "url": "https://kaoweilai.cn/zhenti-gd-2026.html#q32",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2026.html#q32",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2026-unified",
+        "year": 2026,
+        "variant": "统一卷",
+        "subjectId": "quantity",
+        "questionNumber": 32,
+        "url": "https://kaoweilai.cn/zhenti-gd-2026.html#q32",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2026.html#q32"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2026-unified-q033-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "82，68，142，208，342，548，（ ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "82，68，142，208，342，548，（ ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "882"
+      },
+      {
+        "value": "B",
+        "label": "888"
+      },
+      {
+        "value": "C",
+        "label": "902"
+      },
+      {
+        "value": "D",
+        "label": "908"
+      }
+    ],
+    "answer": "A",
+    "sourceAnswer": {
+      "answer": "A",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "前两项之和交替减8、减2：342＋548－8＝882"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2026.html#q33"
+    },
+    "source": {
+      "year": 2026,
+      "variant": "统一卷",
+      "paperId": "guangdong-2026-unified",
+      "questionNumber": 33,
+      "url": "https://kaoweilai.cn/zhenti-gd-2026.html#q33",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2026.html#q33",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2026-unified",
+        "year": 2026,
+        "variant": "统一卷",
+        "subjectId": "quantity",
+        "questionNumber": 33,
+        "url": "https://kaoweilai.cn/zhenti-gd-2026.html#q33",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2026.html#q33"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2026-unified-q034-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "3，5，20，4，6，30，7，9，72，12，14，（ ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "3，5，20，4，6，30，7，9，72，12，14，（ ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "143"
+      },
+      {
+        "value": "B",
+        "label": "168"
+      },
+      {
+        "value": "C",
+        "label": "177"
+      },
+      {
+        "value": "D",
+        "label": "182"
+      }
+    ],
+    "answer": "D",
+    "sourceAnswer": {
+      "answer": "D",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "每三项一组，第一项×第二项＋第二项＝第三项：12×14＋14＝182"
+        }
+      ],
+      "provider": "考未来公开整理参考答案",
+      "url": "https://kaoweilai.cn/zhenti-gd-2026.html#q34"
+    },
+    "source": {
+      "year": 2026,
+      "variant": "统一卷",
+      "paperId": "guangdong-2026-unified",
+      "questionNumber": 34,
+      "url": "https://kaoweilai.cn/zhenti-gd-2026.html#q34",
+      "answerUrl": "https://kaoweilai.cn/zhenti-gd-2026.html#q34",
+      "versionLabel": "考生回忆版（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2026-unified",
+        "year": 2026,
+        "variant": "统一卷",
+        "subjectId": "quantity",
+        "questionNumber": 34,
+        "url": "https://kaoweilai.cn/zhenti-gd-2026.html#q34",
+        "answerUrl": "https://kaoweilai.cn/zhenti-gd-2026.html#q34"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2020-county-q026-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "2，12，30，56，90，（    ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "2，12，30，56，90，（    ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "132"
+      },
+      {
+        "value": "B",
+        "label": "138"
+      },
+      {
+        "value": "C",
+        "label": "144"
+      },
+      {
+        "value": "D",
+        "label": "150"
+      }
+    ],
+    "answer": "A",
+    "sourceAnswer": {
+      "answer": "A",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "原来源仅列参考答案，未附逐题解析。"
+        }
+      ],
+      "provider": "公务员事业单位最新题库公开整理参考答案",
+      "url": "https://gwysydw.com/bs/dqgwy/news_73532.html?page=5"
+    },
+    "source": {
+      "year": 2020,
+      "variant": "县级卷",
+      "paperId": "guangdong-2020-county",
+      "questionNumber": 26,
+      "url": "https://gwysydw.com/bs/dqgwy/news_73532.html?page=1",
+      "answerUrl": "https://gwysydw.com/bs/dqgwy/news_73532.html?page=5",
+      "versionLabel": "考生回忆及网络整理（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2020-county",
+        "year": 2020,
+        "variant": "县级卷",
+        "subjectId": "quantity",
+        "questionNumber": 26,
+        "url": "https://gwysydw.com/bs/dqgwy/news_73532.html?page=1",
+        "answerUrl": "https://gwysydw.com/bs/dqgwy/news_73532.html?page=5"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2020-county-q027-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "23，34，58，93，152，（    ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "23，34，58，93，152，（    ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "176"
+      },
+      {
+        "value": "B",
+        "label": "206"
+      },
+      {
+        "value": "C",
+        "label": "246"
+      },
+      {
+        "value": "D",
+        "label": "296"
+      }
+    ],
+    "answer": "C",
+    "sourceAnswer": {
+      "answer": "C",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "原来源仅列参考答案，未附逐题解析。"
+        }
+      ],
+      "provider": "公务员事业单位最新题库公开整理参考答案",
+      "url": "https://gwysydw.com/bs/dqgwy/news_73532.html?page=5"
+    },
+    "source": {
+      "year": 2020,
+      "variant": "县级卷",
+      "paperId": "guangdong-2020-county",
+      "questionNumber": 27,
+      "url": "https://gwysydw.com/bs/dqgwy/news_73532.html?page=1",
+      "answerUrl": "https://gwysydw.com/bs/dqgwy/news_73532.html?page=5",
+      "versionLabel": "考生回忆及网络整理（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2020-county",
+        "year": 2020,
+        "variant": "县级卷",
+        "subjectId": "quantity",
+        "questionNumber": 27,
+        "url": "https://gwysydw.com/bs/dqgwy/news_73532.html?page=1",
+        "answerUrl": "https://gwysydw.com/bs/dqgwy/news_73532.html?page=5"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2020-county-q029-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "0，6，24，60，120，（    ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "0，6，24，60，120，（    ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "200"
+      },
+      {
+        "value": "B",
+        "label": "210"
+      },
+      {
+        "value": "C",
+        "label": "220"
+      },
+      {
+        "value": "D",
+        "label": "230"
+      }
+    ],
+    "answer": "B",
+    "sourceAnswer": {
+      "answer": "B",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "原来源仅列参考答案，未附逐题解析。"
+        }
+      ],
+      "provider": "公务员事业单位最新题库公开整理参考答案",
+      "url": "https://gwysydw.com/bs/dqgwy/news_73532.html?page=5"
+    },
+    "source": {
+      "year": 2020,
+      "variant": "县级卷",
+      "paperId": "guangdong-2020-county",
+      "questionNumber": 29,
+      "url": "https://gwysydw.com/bs/dqgwy/news_73532.html?page=1",
+      "answerUrl": "https://gwysydw.com/bs/dqgwy/news_73532.html?page=5",
+      "versionLabel": "考生回忆及网络整理（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2020-county",
+        "year": 2020,
+        "variant": "县级卷",
+        "subjectId": "quantity",
+        "questionNumber": 29,
+        "url": "https://gwysydw.com/bs/dqgwy/news_73532.html?page=1",
+        "answerUrl": "https://gwysydw.com/bs/dqgwy/news_73532.html?page=5"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2020-township-q031-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "5，13，25，41，（    ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "5，13，25，41，（    ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "52"
+      },
+      {
+        "value": "B",
+        "label": "55"
+      },
+      {
+        "value": "C",
+        "label": "58"
+      },
+      {
+        "value": "D",
+        "label": "61"
+      }
+    ],
+    "answer": "D",
+    "sourceAnswer": {
+      "answer": "D",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "原来源仅列参考答案，未附逐题解析。"
+        }
+      ],
+      "provider": "公务员事业单位最新题库公开整理参考答案",
+      "url": "https://gwysydw.com/bs/dqgwy/news_73544.html?page=5"
+    },
+    "source": {
+      "year": 2020,
+      "variant": "乡镇卷",
+      "paperId": "guangdong-2020-township",
+      "questionNumber": 31,
+      "url": "https://gwysydw.com/bs/dqgwy/news_73544.html?page=1",
+      "answerUrl": "https://gwysydw.com/bs/dqgwy/news_73544.html?page=5",
+      "versionLabel": "考生回忆及网络整理（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2020-township",
+        "year": 2020,
+        "variant": "乡镇卷",
+        "subjectId": "quantity",
+        "questionNumber": 31,
+        "url": "https://gwysydw.com/bs/dqgwy/news_73544.html?page=1",
+        "answerUrl": "https://gwysydw.com/bs/dqgwy/news_73544.html?page=5"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2020-township-q032-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "23，34，58，93，152，（    ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "23，34，58，93，152，（    ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "176"
+      },
+      {
+        "value": "B",
+        "label": "206"
+      },
+      {
+        "value": "C",
+        "label": "246"
+      },
+      {
+        "value": "D",
+        "label": "296"
+      }
+    ],
+    "answer": "C",
+    "sourceAnswer": {
+      "answer": "C",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "原来源仅列参考答案，未附逐题解析。"
+        }
+      ],
+      "provider": "公务员事业单位最新题库公开整理参考答案",
+      "url": "https://gwysydw.com/bs/dqgwy/news_73544.html?page=5"
+    },
+    "source": {
+      "year": 2020,
+      "variant": "乡镇卷",
+      "paperId": "guangdong-2020-township",
+      "questionNumber": 32,
+      "url": "https://gwysydw.com/bs/dqgwy/news_73544.html?page=1",
+      "answerUrl": "https://gwysydw.com/bs/dqgwy/news_73544.html?page=5",
+      "versionLabel": "考生回忆及网络整理（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2020-township",
+        "year": 2020,
+        "variant": "乡镇卷",
+        "subjectId": "quantity",
+        "questionNumber": 32,
+        "url": "https://gwysydw.com/bs/dqgwy/news_73544.html?page=1",
+        "answerUrl": "https://gwysydw.com/bs/dqgwy/news_73544.html?page=5"
+      }
+    ]
+  },
+  {
+    "id": "guangdong-2020-township-q034-supplement",
+    "subjectId": "quantity",
+    "type": "single",
+    "stem": "0，6，24，60，120，（    ）",
+    "stemBlocks": [
+      {
+        "type": "paragraph",
+        "text": "0，6，24，60，120，（    ）"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "200"
+      },
+      {
+        "value": "B",
+        "label": "210"
+      },
+      {
+        "value": "C",
+        "label": "220"
+      },
+      {
+        "value": "D",
+        "label": "230"
+      }
+    ],
+    "answer": "B",
+    "sourceAnswer": {
+      "answer": "B",
+      "explanationBlocks": [
+        {
+          "type": "paragraph",
+          "text": "原来源仅列参考答案，未附逐题解析。"
+        }
+      ],
+      "provider": "公务员事业单位最新题库公开整理参考答案",
+      "url": "https://gwysydw.com/bs/dqgwy/news_73544.html?page=5"
+    },
+    "source": {
+      "year": 2020,
+      "variant": "乡镇卷",
+      "paperId": "guangdong-2020-township",
+      "questionNumber": 34,
+      "url": "https://gwysydw.com/bs/dqgwy/news_73544.html?page=1",
+      "answerUrl": "https://gwysydw.com/bs/dqgwy/news_73544.html?page=5",
+      "versionLabel": "考生回忆及网络整理（未核实为官方发布）",
+      "sourceCategory": "数字推理"
+    },
+    "paperRefs": [
+      {
+        "paperId": "guangdong-2020-township",
+        "year": 2020,
+        "variant": "乡镇卷",
+        "subjectId": "quantity",
+        "questionNumber": 34,
+        "url": "https://gwysydw.com/bs/dqgwy/news_73544.html?page=1",
+        "answerUrl": "https://gwysydw.com/bs/dqgwy/news_73544.html?page=5"
+      }
+    ]
+  }
+]

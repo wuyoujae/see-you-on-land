@@ -21,6 +21,21 @@ const session = (id = "session-one", ids = [question.id, second.id], now = 100) 
 const clone = value => JSON.parse(JSON.stringify(value));
 const cacheContext = { promptVersion: "solver-v3:language-v2", model: "example-model", baseUrl: "https://api.example.test/v1" };
 
+test("module, exam and paper filters intersect on the same paper reference without duplicates", () => {
+  const a = {...second, id:"shared", topicId:"reasoning-causal", paperRefs:[{paperId:"national-one",examId:"national"},{paperId:"guangdong-one",examId:"guangdong"}]};
+  const b = {...a,id:"other-topic",topicId:"reasoning-weaken"};
+  const c = {...a,id:"national-only",paperRefs:[{paperId:"national-one"}]};
+  const bank = [a,b,c,a];
+  const ids = filters => Core.filterQuestions(bank,filters).map(q=>q.id);
+  assert.deepEqual(ids({subjectId:"reasoning",topicId:"reasoning-causal",examId:"guangdong"}),["shared"]);
+  assert.deepEqual(ids({paperId:"guangdong-one",examId:"national"}),[]);
+  assert.deepEqual(ids({topicId:"reasoning-weaken",paperId:"national-one"}),["other-topic"]);
+  assert.deepEqual(ids({examId:"national"}),["shared","other-topic","national-only"]);
+  assert.deepEqual(ids({subjectId:"quantity"}),[]);
+  assert.deepEqual(ids({topicId:"not-found"}),[]);
+  assert.deepEqual(ids({}),["shared","other-topic","national-only"]);
+});
+
 test("selection defaults to the full eligible bank, supports large counts and keeps source arrays intact", () => {
   const bank = Array.from({ length: 25000 }, (_, index) => ({ id: `bank-q${index}` }));
   const selected = Core.selectQuestionIds(bank, { count: 22000, seed: "session-a" });

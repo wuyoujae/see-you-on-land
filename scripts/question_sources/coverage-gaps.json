@@ -1,0 +1,43 @@
+[
+  {
+    "paperId": "guangdong-2020-county",
+    "expectedCount": 100,
+    "collectedCount": 93,
+    "missingQuestionNumbers": [
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75
+    ],
+    "subjectId": "reasoning",
+    "reason": "公开回忆版存在缺题：ERRRC原始库未含此7题；公务员事业单位题库对应题号为征集占位；独立PDF同样跳过69至75。未以占位或生成题补入。",
+    "evidenceUrls": [
+      "https://gwysydw.com/bs/dqgwy/news_73532.html?page=3",
+      "https://github.com/Yaoyuan-Zhang319/AdministrativeAptitudeTest/blob/1896de17764058dc1199d668edbf9f7e96cbc77a/省考以及市考/广东省考/试卷/2020年0809广东公务员考试《行测》真题（县级以上）.pdf"
+    ],
+    "status": "source_gap"
+  },
+  {
+    "paperId": "guangdong-2021-township",
+    "expectedCount": 100,
+    "collectedCount": 95,
+    "missingQuestionNumbers": [
+      91,
+      92,
+      93,
+      94,
+      95
+    ],
+    "subjectId": "analysis",
+    "reason": "公开回忆版的第二组资料缺失：ERRRC原始库未含此5题；公务员事业单位题库对应材料和题号为征集占位；独立PDF第12页明确标注材料2缺失。已发现闻思教育PDF的搜索索引含题文，但完整图表及参考答案尚未取得和核验，暂不补入。",
+    "evidenceUrls": [
+      "https://gwysydw.com/bs/dqgwy/news_100543.html?page=3",
+      "https://github.com/Yaoyuan-Zhang319/AdministrativeAptitudeTest/blob/1896de17764058dc1199d668edbf9f7e96cbc77a/省考以及市考/广东省考/试卷/2021年0314广东公务员考试《行测》真题（乡镇).pdf",
+      "https://www.wensiedu.cn/wp-content/uploads/2022/06/2b4904641c02bd7.pdf"
+    ],
+    "status": "incomplete_secondary_evidence"
+  }
+]
