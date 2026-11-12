@@ -105,5 +105,23 @@ class NationalQuestionBankTests(unittest.TestCase):
             self.assertEqual(QUESTIONS[qid]['subjectId'], 'quantity')
             self.assertFalse(QUESTIONS[qid].get('materialBlocks'))
 
+    def test_analysis_module_questions_carry_their_own_complete_material(self):
+        for question in SUBJECTS['analysis']:
+            self.assertTrue(question.get('materialBlocks'), question['id'])
+            self.assertTrue(question.get('materialId'), question['id'])
+        groups = {
+            116: ['f776e08260f8a1b34103.png'],
+            121: ['b88004ca243868bc6069.png'],
+            126: ['3aa45be496fb450fa811.png', 'ce9dfc5b438076522fb0.png'],
+            131: ['426697d9276b345ce8cc.png', 'c312209883b038d28141.png'],
+        }
+        for first, images in groups.items():
+            material_id=f'national-2014-unified-material-{first}'
+            for number in range(first, first + 5):
+                question=QUESTIONS[f'national-2014-unified-q{number}']
+                self.assertEqual(question['materialId'],material_id)
+                self.assertEqual([Path(b['src']).name for b in question['materialBlocks'] if b['type']=='image'],images)
+                self.assertEqual(question['materialBlocks'],QUESTIONS[f'national-2014-unified-q{first}']['materialBlocks'])
+
 if __name__ == '__main__':
     unittest.main()

@@ -9,6 +9,7 @@ from pathlib import Path
 from urllib.parse import quote, unquote, urlparse
 from bs4 import BeautifulSoup, NavigableString, Tag
 from PIL import Image
+from repair_question_materials import apply_material_patches
 
 ROOT=Path(__file__).resolve().parents[1]
 RESEARCH=ROOT/'tmp/national_exam_research'
@@ -266,6 +267,7 @@ def main():
                 p.setdefault('sourceUrls',[])
                 for u in [q['source']['url'],q['sourceAnswer']['url']]:
                     if u not in p['sourceUrls']:p['sourceUrls'].append(u)
+    apply_material_patches(list(questions.values()))
     subject_records=[]
     for subject_id,title,folder in SUBJECTS:
         values=[q for q in questions.values() if q['subjectId']==subject_id]

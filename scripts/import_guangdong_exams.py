@@ -9,12 +9,13 @@ from __future__ import annotations
 import argparse
 import collections
 import hashlib
-import importlib.util
 import json
 import re
 from pathlib import Path
 
 import import_national_exams as base
+from build_question_modules import MODULE_SUBJECTS, classify_subject
+from repair_question_materials import apply_material_patches
 
 ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / 'tmp/guangdong_exam_research'
@@ -138,6 +139,7 @@ def main():
                 if canonical_id not in p['questionIds']:
                     p['questionIds'].append(canonical_id)
                 p['sourceUrls'] += [q['source']['url'], q['sourceAnswer']['url']]
+    apply_material_patches(list(questions.values()))
     grouped = {sid: [q for q in questions.values() if q['subjectId'] == sid] for sid, _, _ in base.SUBJECTS}
     for sid, values in grouped.items():
         base.dump(RESEARCH / 'merged' / (sid + '.json'), {'id':sid, 'questions':values})
@@ -178,19 +180,8 @@ def main():
     for sid, title, _ in base.SUBJECTS:
         values = grouped[sid]
         meta = {'id':sid, 'title':title, 'path':f'data/question-bank/subjects/{sid}.json', 'questionCount':len(values), 'questionIds':[q['id'] for q in values]}
-        if sid in ('reasoning', 'quantity'):
-            mod_path = ROOT / 'scripts/question_modules' / (sid + '.py')
-            spec = importlib.util.spec_from_file_location(sid + '_modules', mod_path)
-            module = importlib.util.module_from_spec(spec)
-            spec.loader.exec_module(module)
-            definitions = module.module_definitions(courses[sid])
-            for q in values:
-                q['classification'] = module.classify(q)
-                q['topicId'] = q['classification']['topicId']
-            known = {m['id'] for m in definitions}
-            if any(q['topicId'] not in known for q in values):
-                raise ValueError('Unknown module in ' + sid)
-            meta['modules'] = [{**m, 'questionCount':sum(q['topicId']==m['id'] for q in values)} for m in definitions]
+        if sid in MODULE_SUBJECTS:
+            meta['modules'] = classify_subject(sid, values, courses[sid])
         subject_records.append(meta)
     manifest.update(title='国考与广东省考行测真题', subjects=subject_records, papers=paper_records,
         exams=[{'id':'national','title':'国考','yearRange':[2014,2026]}, {'id':'guangdong','title':'广东省考','yearRange':[2017,2026]}],

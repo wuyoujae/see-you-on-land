@@ -1,0 +1,630 @@
+{
+  "schemaVersion": 1,
+  "reviewed": true,
+  "reviewDate": "2026-11-12",
+  "paperId": "national-2014-unified",
+  "hashAlgorithm": "sha256",
+  "hashFields": [
+    "stem",
+    "stemBlocks",
+    "options",
+    "materialId",
+    "materialBlocks"
+  ],
+  "hashCanonicalization": "JSON ensure_ascii=False, sort_keys=True, separators=(comma,colon), UTF-8. Missing hash fields normalize to null. Classification, revision and answers are excluded.",
+  "onlyModifiedFields": [
+    "materialId",
+    "materialBlocks"
+  ],
+  "questionPatches": [
+    {
+      "id": "national-2014-unified-q116",
+      "expectedBeforeSha256": "9192de70bca6b92eb5abc9a63928916c850a119a9904f2dcde268fdcc2d2601d",
+      "expectedAfterSha256": "bcbd3e53793f3a75b860766d934c29dc3b45c6d4a21d0be7642a98a7582c7ed8",
+      "set": {
+        "materialId": "national-2014-unified-material-116",
+        "materialBlocks": [
+          {
+            "type": "paragraph",
+            "text": "2012年全国国道网车流量较大的地区主要集中在北京、天津、上海、江苏、浙江、广东和山东，上述省市国道网的日平均交通量均超过2万辆。全国国道网日平均行驶量为244883万车公里，北京、天津、河北、山西、上海、浙江、湖北、广东的国道年平均拥挤度均超过0.6。其中，国家高速公路日平均交通量为22181辆，日平均行驶量为148742万车公里；普通国道日平均交通量为10845辆，日平均行驶量为111164万车公里。全国高速公路日平均交通量为21305辆，日平均行驶量为204717万车公里。（注：交通拥挤度指公路上某一路段折算交通量与适应交通量的比值，反映交通的繁忙程度。）"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/f776e08260f8a1b34103.png",
+            "alt": "2008—2012年全国国道与高速公路交通量及拥挤度图"
+          },
+          {
+            "type": "paragraph",
+            "text": "2008—2012年全国国道与高速公路日平均交通量及年平均交通拥挤度"
+          }
+        ]
+      },
+      "sourceGroupId": "national-2014-unified-material-116"
+    },
+    {
+      "id": "national-2014-unified-q117",
+      "expectedBeforeSha256": "733b3c1a362e746cc9902d3fa2f5cdd6da987de3d01d594ab275505b17dd9492",
+      "expectedAfterSha256": "b7ed2c72f3d974f507f5bc84cb843d82ceae45c978558c5e5b1f5f03f3d72bb8",
+      "set": {
+        "materialId": "national-2014-unified-material-116",
+        "materialBlocks": [
+          {
+            "type": "paragraph",
+            "text": "2012年全国国道网车流量较大的地区主要集中在北京、天津、上海、江苏、浙江、广东和山东，上述省市国道网的日平均交通量均超过2万辆。全国国道网日平均行驶量为244883万车公里，北京、天津、河北、山西、上海、浙江、湖北、广东的国道年平均拥挤度均超过0.6。其中，国家高速公路日平均交通量为22181辆，日平均行驶量为148742万车公里；普通国道日平均交通量为10845辆，日平均行驶量为111164万车公里。全国高速公路日平均交通量为21305辆，日平均行驶量为204717万车公里。（注：交通拥挤度指公路上某一路段折算交通量与适应交通量的比值，反映交通的繁忙程度。）"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/f776e08260f8a1b34103.png",
+            "alt": "2008—2012年全国国道与高速公路交通量及拥挤度图"
+          },
+          {
+            "type": "paragraph",
+            "text": "2008—2012年全国国道与高速公路日平均交通量及年平均交通拥挤度"
+          }
+        ]
+      },
+      "sourceGroupId": "national-2014-unified-material-116"
+    },
+    {
+      "id": "national-2014-unified-q118",
+      "expectedBeforeSha256": "c5ca5f431623c624b09a1840ed2465e67207799e0f8d6ac6e4d8de72059790ee",
+      "expectedAfterSha256": "fa4a0dcfea6eb96893466b5fae360db3dd17b18afba232da18e9d70aa8d08a22",
+      "set": {
+        "materialId": "national-2014-unified-material-116",
+        "materialBlocks": [
+          {
+            "type": "paragraph",
+            "text": "2012年全国国道网车流量较大的地区主要集中在北京、天津、上海、江苏、浙江、广东和山东，上述省市国道网的日平均交通量均超过2万辆。全国国道网日平均行驶量为244883万车公里，北京、天津、河北、山西、上海、浙江、湖北、广东的国道年平均拥挤度均超过0.6。其中，国家高速公路日平均交通量为22181辆，日平均行驶量为148742万车公里；普通国道日平均交通量为10845辆，日平均行驶量为111164万车公里。全国高速公路日平均交通量为21305辆，日平均行驶量为204717万车公里。（注：交通拥挤度指公路上某一路段折算交通量与适应交通量的比值，反映交通的繁忙程度。）"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/f776e08260f8a1b34103.png",
+            "alt": "2008—2012年全国国道与高速公路交通量及拥挤度图"
+          },
+          {
+            "type": "paragraph",
+            "text": "2008—2012年全国国道与高速公路日平均交通量及年平均交通拥挤度"
+          }
+        ]
+      },
+      "sourceGroupId": "national-2014-unified-material-116"
+    },
+    {
+      "id": "national-2014-unified-q119",
+      "expectedBeforeSha256": "27f2068fe99bb42cccbc563e60ac991983aa435011562533ee315e262835be2f",
+      "expectedAfterSha256": "4545f130ea5108e170d823d32af882bb4444a58d7bdae9443e43e660096fd1a3",
+      "set": {
+        "materialId": "national-2014-unified-material-116",
+        "materialBlocks": [
+          {
+            "type": "paragraph",
+            "text": "2012年全国国道网车流量较大的地区主要集中在北京、天津、上海、江苏、浙江、广东和山东，上述省市国道网的日平均交通量均超过2万辆。全国国道网日平均行驶量为244883万车公里，北京、天津、河北、山西、上海、浙江、湖北、广东的国道年平均拥挤度均超过0.6。其中，国家高速公路日平均交通量为22181辆，日平均行驶量为148742万车公里；普通国道日平均交通量为10845辆，日平均行驶量为111164万车公里。全国高速公路日平均交通量为21305辆，日平均行驶量为204717万车公里。（注：交通拥挤度指公路上某一路段折算交通量与适应交通量的比值，反映交通的繁忙程度。）"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/f776e08260f8a1b34103.png",
+            "alt": "2008—2012年全国国道与高速公路交通量及拥挤度图"
+          },
+          {
+            "type": "paragraph",
+            "text": "2008—2012年全国国道与高速公路日平均交通量及年平均交通拥挤度"
+          }
+        ]
+      },
+      "sourceGroupId": "national-2014-unified-material-116"
+    },
+    {
+      "id": "national-2014-unified-q120",
+      "expectedBeforeSha256": "a583b68c32199c5406bca576b5a928643d39a1efc97cd8569d86571c0a0c793b",
+      "expectedAfterSha256": "6da446ec3f4f9248139f1df9b9e3e15b8c68c7016fd82caf6b978d1a8decde73",
+      "set": {
+        "materialId": "national-2014-unified-material-116",
+        "materialBlocks": [
+          {
+            "type": "paragraph",
+            "text": "2012年全国国道网车流量较大的地区主要集中在北京、天津、上海、江苏、浙江、广东和山东，上述省市国道网的日平均交通量均超过2万辆。全国国道网日平均行驶量为244883万车公里，北京、天津、河北、山西、上海、浙江、湖北、广东的国道年平均拥挤度均超过0.6。其中，国家高速公路日平均交通量为22181辆，日平均行驶量为148742万车公里；普通国道日平均交通量为10845辆，日平均行驶量为111164万车公里。全国高速公路日平均交通量为21305辆，日平均行驶量为204717万车公里。（注：交通拥挤度指公路上某一路段折算交通量与适应交通量的比值，反映交通的繁忙程度。）"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/f776e08260f8a1b34103.png",
+            "alt": "2008—2012年全国国道与高速公路交通量及拥挤度图"
+          },
+          {
+            "type": "paragraph",
+            "text": "2008—2012年全国国道与高速公路日平均交通量及年平均交通拥挤度"
+          }
+        ]
+      },
+      "sourceGroupId": "national-2014-unified-material-116"
+    },
+    {
+      "id": "national-2014-unified-q121",
+      "expectedBeforeSha256": "7412fc3593134b0c85e389140cfbb1fb270a0eecdc11233452d7c3e08d3765bb",
+      "expectedAfterSha256": "9cb82af52474e22fe03c1ffe7036a91ef726708402456f84840fb482349a0c27",
+      "set": {
+        "materialId": "national-2014-unified-material-121",
+        "materialBlocks": [
+          {
+            "type": "paragraph",
+            "text": "2012年第三季度全国100个城市的公共就业服务机构市场中，用人单位通过公共就业服务机构招聘各类人员约643.3万人，进入市场的求职者约610万人，岗位空缺与求职人数比率比上年同期上升了1%。上年同期这100个城市中，用人单位通过公共就业服务机构招聘各类人员约577.9万人。"
+          },
+          {
+            "type": "paragraph",
+            "text": "2012年第三季度，在所有求职人员中：失业人员所占比重为48.8%，其中，新成长失业青年占24.2%（在 新成长失业青年中应届高校毕业生占51.4%），就业转失业人员占13.4%，其他失业人员占11.2%；外来务工人员的比重为41%，外来务工人员由本市农村人员和外埠人员组成，其中本市农村人员为95.2万人。"
+          },
+          {
+            "type": "paragraph",
+            "text": "2012年第三季度全国十个城市岗位需求和求职信息"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/b88004ca243868bc6069.png",
+            "alt": "2012年第三季度全国十个城市岗位需求和求职信息表"
+          }
+        ]
+      },
+      "sourceGroupId": "national-2014-unified-material-121"
+    },
+    {
+      "id": "national-2014-unified-q122",
+      "expectedBeforeSha256": "d858965761a37765c019fe736416cbec058bc9a480f8f9c39bbc071e57964c2d",
+      "expectedAfterSha256": "59b201ec122ab45dd0de1c39a7943d872557b9a4ad1fc2b24ba63eb5f969fab6",
+      "set": {
+        "materialId": "national-2014-unified-material-121",
+        "materialBlocks": [
+          {
+            "type": "paragraph",
+            "text": "2012年第三季度全国100个城市的公共就业服务机构市场中，用人单位通过公共就业服务机构招聘各类人员约643.3万人，进入市场的求职者约610万人，岗位空缺与求职人数比率比上年同期上升了1%。上年同期这100个城市中，用人单位通过公共就业服务机构招聘各类人员约577.9万人。"
+          },
+          {
+            "type": "paragraph",
+            "text": "2012年第三季度，在所有求职人员中：失业人员所占比重为48.8%，其中，新成长失业青年占24.2%（在 新成长失业青年中应届高校毕业生占51.4%），就业转失业人员占13.4%，其他失业人员占11.2%；外来务工人员的比重为41%，外来务工人员由本市农村人员和外埠人员组成，其中本市农村人员为95.2万人。"
+          },
+          {
+            "type": "paragraph",
+            "text": "2012年第三季度全国十个城市岗位需求和求职信息"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/b88004ca243868bc6069.png",
+            "alt": "2012年第三季度全国十个城市岗位需求和求职信息表"
+          }
+        ]
+      },
+      "sourceGroupId": "national-2014-unified-material-121"
+    },
+    {
+      "id": "national-2014-unified-q123",
+      "expectedBeforeSha256": "1c98933b412bede560b50d7e6f9bb946e824a03ae9aa43f08f8563f22703b30e",
+      "expectedAfterSha256": "4ca3dca2ef5176e7f242c14721db6b0027ddef3d1c7d3d4d4e75a3d1ce005a88",
+      "set": {
+        "materialId": "national-2014-unified-material-121",
+        "materialBlocks": [
+          {
+            "type": "paragraph",
+            "text": "2012年第三季度全国100个城市的公共就业服务机构市场中，用人单位通过公共就业服务机构招聘各类人员约643.3万人，进入市场的求职者约610万人，岗位空缺与求职人数比率比上年同期上升了1%。上年同期这100个城市中，用人单位通过公共就业服务机构招聘各类人员约577.9万人。"
+          },
+          {
+            "type": "paragraph",
+            "text": "2012年第三季度，在所有求职人员中：失业人员所占比重为48.8%，其中，新成长失业青年占24.2%（在 新成长失业青年中应届高校毕业生占51.4%），就业转失业人员占13.4%，其他失业人员占11.2%；外来务工人员的比重为41%，外来务工人员由本市农村人员和外埠人员组成，其中本市农村人员为95.2万人。"
+          },
+          {
+            "type": "paragraph",
+            "text": "2012年第三季度全国十个城市岗位需求和求职信息"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/b88004ca243868bc6069.png",
+            "alt": "2012年第三季度全国十个城市岗位需求和求职信息表"
+          }
+        ]
+      },
+      "sourceGroupId": "national-2014-unified-material-121"
+    },
+    {
+      "id": "national-2014-unified-q124",
+      "expectedBeforeSha256": "78e717206a429d1a60155d1d1a0b4b465ddbbcca77438c4373c4f60d7b804dba",
+      "expectedAfterSha256": "77b220d8e77909c24eb7610f7e2c70ee3b520bc29e623be99496226bb57a447a",
+      "set": {
+        "materialId": "national-2014-unified-material-121",
+        "materialBlocks": [
+          {
+            "type": "paragraph",
+            "text": "2012年第三季度全国100个城市的公共就业服务机构市场中，用人单位通过公共就业服务机构招聘各类人员约643.3万人，进入市场的求职者约610万人，岗位空缺与求职人数比率比上年同期上升了1%。上年同期这100个城市中，用人单位通过公共就业服务机构招聘各类人员约577.9万人。"
+          },
+          {
+            "type": "paragraph",
+            "text": "2012年第三季度，在所有求职人员中：失业人员所占比重为48.8%，其中，新成长失业青年占24.2%（在 新成长失业青年中应届高校毕业生占51.4%），就业转失业人员占13.4%，其他失业人员占11.2%；外来务工人员的比重为41%，外来务工人员由本市农村人员和外埠人员组成，其中本市农村人员为95.2万人。"
+          },
+          {
+            "type": "paragraph",
+            "text": "2012年第三季度全国十个城市岗位需求和求职信息"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/b88004ca243868bc6069.png",
+            "alt": "2012年第三季度全国十个城市岗位需求和求职信息表"
+          }
+        ]
+      },
+      "sourceGroupId": "national-2014-unified-material-121"
+    },
+    {
+      "id": "national-2014-unified-q125",
+      "expectedBeforeSha256": "187d3fc14d3993c75884f9942cf0df041caf6f8cd96969b74ba7250c3963fa67",
+      "expectedAfterSha256": "92248ecbbeeeb5f37d1869b566525d9c6acd8bffd5a5c2ef84056d3480749459",
+      "set": {
+        "materialId": "national-2014-unified-material-121",
+        "materialBlocks": [
+          {
+            "type": "paragraph",
+            "text": "2012年第三季度全国100个城市的公共就业服务机构市场中，用人单位通过公共就业服务机构招聘各类人员约643.3万人，进入市场的求职者约610万人，岗位空缺与求职人数比率比上年同期上升了1%。上年同期这100个城市中，用人单位通过公共就业服务机构招聘各类人员约577.9万人。"
+          },
+          {
+            "type": "paragraph",
+            "text": "2012年第三季度，在所有求职人员中：失业人员所占比重为48.8%，其中，新成长失业青年占24.2%（在 新成长失业青年中应届高校毕业生占51.4%），就业转失业人员占13.4%，其他失业人员占11.2%；外来务工人员的比重为41%，外来务工人员由本市农村人员和外埠人员组成，其中本市农村人员为95.2万人。"
+          },
+          {
+            "type": "paragraph",
+            "text": "2012年第三季度全国十个城市岗位需求和求职信息"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/b88004ca243868bc6069.png",
+            "alt": "2012年第三季度全国十个城市岗位需求和求职信息表"
+          }
+        ]
+      },
+      "sourceGroupId": "national-2014-unified-material-121"
+    },
+    {
+      "id": "national-2014-unified-q131",
+      "expectedBeforeSha256": "7017efe4a17c77342c9bf71b6d6fc0863d8796830700a5270fef26513df5741c",
+      "expectedAfterSha256": "e8ae1f9b06644a1e6848315de064180978426ba1b98839129e66d42999682f8a",
+      "set": {
+        "materialId": "national-2014-unified-material-131",
+        "materialBlocks": [
+          {
+            "type": "paragraph",
+            "text": "2008—2012年国家电网公司机组并网容量"
+          },
+          {
+            "type": "paragraph",
+            "text": "单位：万千瓦"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/426697d9276b345ce8cc.png",
+            "alt": "2008—2012年国家电网公司机组并网容量表，单位：万千瓦"
+          },
+          {
+            "type": "paragraph",
+            "text": "2008—2012年国家电网公司机组上网电量"
+          },
+          {
+            "type": "paragraph",
+            "text": "单位：亿千瓦时"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/c312209883b038d28141.png",
+            "alt": "2008—2012年国家电网公司机组上网电量表，单位：亿千瓦时"
+          }
+        ]
+      },
+      "sourceGroupId": "national-2014-unified-material-131"
+    },
+    {
+      "id": "national-2014-unified-q132",
+      "expectedBeforeSha256": "b50451aff463812bef487c01b788adaadb72608f8032f9aeefa5d7c520575684",
+      "expectedAfterSha256": "65a0ac895b87d6a84bd0eda84be7b74eee4f5b719edfc7c2333633554be2216e",
+      "set": {
+        "materialId": "national-2014-unified-material-131",
+        "materialBlocks": [
+          {
+            "type": "paragraph",
+            "text": "2008—2012年国家电网公司机组并网容量"
+          },
+          {
+            "type": "paragraph",
+            "text": "单位：万千瓦"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/426697d9276b345ce8cc.png",
+            "alt": "2008—2012年国家电网公司机组并网容量表，单位：万千瓦"
+          },
+          {
+            "type": "paragraph",
+            "text": "2008—2012年国家电网公司机组上网电量"
+          },
+          {
+            "type": "paragraph",
+            "text": "单位：亿千瓦时"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/c312209883b038d28141.png",
+            "alt": "2008—2012年国家电网公司机组上网电量表，单位：亿千瓦时"
+          }
+        ]
+      },
+      "sourceGroupId": "national-2014-unified-material-131"
+    },
+    {
+      "id": "national-2014-unified-q133",
+      "expectedBeforeSha256": "c0bbb814ae23cc216dcad08cc178cac391422fdd602af8d2931ff2fc100735ff",
+      "expectedAfterSha256": "2e57732a98841fbe0663c43fe24143628c6e2c43b8d7ea27f88e2217e781cf6a",
+      "set": {
+        "materialId": "national-2014-unified-material-131",
+        "materialBlocks": [
+          {
+            "type": "paragraph",
+            "text": "2008—2012年国家电网公司机组并网容量"
+          },
+          {
+            "type": "paragraph",
+            "text": "单位：万千瓦"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/426697d9276b345ce8cc.png",
+            "alt": "2008—2012年国家电网公司机组并网容量表，单位：万千瓦"
+          },
+          {
+            "type": "paragraph",
+            "text": "2008—2012年国家电网公司机组上网电量"
+          },
+          {
+            "type": "paragraph",
+            "text": "单位：亿千瓦时"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/c312209883b038d28141.png",
+            "alt": "2008—2012年国家电网公司机组上网电量表，单位：亿千瓦时"
+          }
+        ]
+      },
+      "sourceGroupId": "national-2014-unified-material-131"
+    },
+    {
+      "id": "national-2014-unified-q134",
+      "expectedBeforeSha256": "6a909eeb30293cfd1f0bc4f4edaa6df11b157f100d283f21646b3be237e4daa3",
+      "expectedAfterSha256": "06550f2a9b1169a9a6f081931d23f6a8d6342e0489fe89b4a8da0e77f1fc7621",
+      "set": {
+        "materialId": "national-2014-unified-material-131",
+        "materialBlocks": [
+          {
+            "type": "paragraph",
+            "text": "2008—2012年国家电网公司机组并网容量"
+          },
+          {
+            "type": "paragraph",
+            "text": "单位：万千瓦"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/426697d9276b345ce8cc.png",
+            "alt": "2008—2012年国家电网公司机组并网容量表，单位：万千瓦"
+          },
+          {
+            "type": "paragraph",
+            "text": "2008—2012年国家电网公司机组上网电量"
+          },
+          {
+            "type": "paragraph",
+            "text": "单位：亿千瓦时"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/c312209883b038d28141.png",
+            "alt": "2008—2012年国家电网公司机组上网电量表，单位：亿千瓦时"
+          }
+        ]
+      },
+      "sourceGroupId": "national-2014-unified-material-131"
+    },
+    {
+      "id": "national-2014-unified-q135",
+      "expectedBeforeSha256": "7effe8e161a56e8b50aeb7a3674e0abcc0599eb274b27652183954e9ea12ecac",
+      "expectedAfterSha256": "7c29920387e4211af4cc31aee858977215db7c1c2e6cdeea10ce8f7337c09b5c",
+      "set": {
+        "materialId": "national-2014-unified-material-131",
+        "materialBlocks": [
+          {
+            "type": "paragraph",
+            "text": "2008—2012年国家电网公司机组并网容量"
+          },
+          {
+            "type": "paragraph",
+            "text": "单位：万千瓦"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/426697d9276b345ce8cc.png",
+            "alt": "2008—2012年国家电网公司机组并网容量表，单位：万千瓦"
+          },
+          {
+            "type": "paragraph",
+            "text": "2008—2012年国家电网公司机组上网电量"
+          },
+          {
+            "type": "paragraph",
+            "text": "单位：亿千瓦时"
+          },
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/early/c312209883b038d28141.png",
+            "alt": "2008—2012年国家电网公司机组上网电量表，单位：亿千瓦时"
+          }
+        ]
+      },
+      "sourceGroupId": "national-2014-unified-material-131"
+    }
+  ],
+  "groups": [
+    {
+      "materialId": "national-2014-unified-material-116",
+      "questionNumbers": [
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
+      "title": "2008—2012年全国国道与高速公路日平均交通量及年平均交通拥挤度",
+      "materialBlocks": [
+        {
+          "type": "paragraph",
+          "text": "2012年全国国道网车流量较大的地区主要集中在北京、天津、上海、江苏、浙江、广东和山东，上述省市国道网的日平均交通量均超过2万辆。全国国道网日平均行驶量为244883万车公里，北京、天津、河北、山西、上海、浙江、湖北、广东的国道年平均拥挤度均超过0.6。其中，国家高速公路日平均交通量为22181辆，日平均行驶量为148742万车公里；普通国道日平均交通量为10845辆，日平均行驶量为111164万车公里。全国高速公路日平均交通量为21305辆，日平均行驶量为204717万车公里。（注：交通拥挤度指公路上某一路段折算交通量与适应交通量的比值，反映交通的繁忙程度。）"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/question-bank/early/f776e08260f8a1b34103.png",
+          "alt": "2008—2012年全国国道与高速公路交通量及拥挤度图"
+        },
+        {
+          "type": "paragraph",
+          "text": "2008—2012年全国国道与高速公路日平均交通量及年平均交通拥挤度"
+        }
+      ],
+      "htmlParagraphIndices": [
+        683,
+        684,
+        686
+      ],
+      "sourcePages": [
+        14
+      ],
+      "boundaryEvidence": "PDF第14页明确写明“根据以下资料，回答116—120题”；图下紧接第116题。",
+      "questionIds": [
+        "national-2014-unified-q116",
+        "national-2014-unified-q117",
+        "national-2014-unified-q118",
+        "national-2014-unified-q119",
+        "national-2014-unified-q120"
+      ],
+      "sourceUrl": "https://www.aipta.com/article/487.html",
+      "pdfUrls": [
+        "https://raw.githubusercontent.com/Yaoyuan-Zhang319/AdministrativeAptitudeTest/1896de17764058dc1199d668edbf9f7e96cbc77a/%E5%9B%BD%E8%80%83/%E8%AF%95%E5%8D%B7/2014%E5%B9%B4%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%8A%A1%E5%91%98%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E7%9C%9F%E9%A2%98%E5%8D%B7.pdf#page=14"
+      ]
+    },
+    {
+      "materialId": "national-2014-unified-material-121",
+      "questionNumbers": [
+        121,
+        122,
+        123,
+        124,
+        125
+      ],
+      "title": "2012年第三季度全国十个城市岗位需求和求职信息",
+      "materialBlocks": [
+        {
+          "type": "paragraph",
+          "text": "2012年第三季度全国100个城市的公共就业服务机构市场中，用人单位通过公共就业服务机构招聘各类人员约643.3万人，进入市场的求职者约610万人，岗位空缺与求职人数比率比上年同期上升了1%。上年同期这100个城市中，用人单位通过公共就业服务机构招聘各类人员约577.9万人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "2012年第三季度，在所有求职人员中：失业人员所占比重为48.8%，其中，新成长失业青年占24.2%（在 新成长失业青年中应届高校毕业生占51.4%），就业转失业人员占13.4%，其他失业人员占11.2%；外来务工人员的比重为41%，外来务工人员由本市农村人员和外埠人员组成，其中本市农村人员为95.2万人。"
+        },
+        {
+          "type": "paragraph",
+          "text": "2012年第三季度全国十个城市岗位需求和求职信息"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/question-bank/early/b88004ca243868bc6069.png",
+          "alt": "2012年第三季度全国十个城市岗位需求和求职信息表"
+        }
+      ],
+      "htmlParagraphIndices": [
+        714,
+        715,
+        716,
+        717
+      ],
+      "sourcePages": [
+        14,
+        15
+      ],
+      "boundaryEvidence": "PDF第14页组标题明确“回答121—125题”，材料文字在第14页末，十城表跨到第15页首，表后紧接第121题。",
+      "questionIds": [
+        "national-2014-unified-q121",
+        "national-2014-unified-q122",
+        "national-2014-unified-q123",
+        "national-2014-unified-q124",
+        "national-2014-unified-q125"
+      ],
+      "sourceUrl": "https://www.aipta.com/article/487.html",
+      "pdfUrls": [
+        "https://raw.githubusercontent.com/Yaoyuan-Zhang319/AdministrativeAptitudeTest/1896de17764058dc1199d668edbf9f7e96cbc77a/%E5%9B%BD%E8%80%83/%E8%AF%95%E5%8D%B7/2014%E5%B9%B4%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%8A%A1%E5%91%98%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E7%9C%9F%E9%A2%98%E5%8D%B7.pdf#page=14",
+        "https://raw.githubusercontent.com/Yaoyuan-Zhang319/AdministrativeAptitudeTest/1896de17764058dc1199d668edbf9f7e96cbc77a/%E5%9B%BD%E8%80%83/%E8%AF%95%E5%8D%B7/2014%E5%B9%B4%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%8A%A1%E5%91%98%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E7%9C%9F%E9%A2%98%E5%8D%B7.pdf#page=15"
+      ]
+    },
+    {
+      "materialId": "national-2014-unified-material-131",
+      "questionNumbers": [
+        131,
+        132,
+        133,
+        134,
+        135
+      ],
+      "title": "2008—2012年国家电网公司机组并网容量和上网电量",
+      "materialBlocks": [
+        {
+          "type": "paragraph",
+          "text": "2008—2012年国家电网公司机组并网容量"
+        },
+        {
+          "type": "paragraph",
+          "text": "单位：万千瓦"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/question-bank/early/426697d9276b345ce8cc.png",
+          "alt": "2008—2012年国家电网公司机组并网容量表，单位：万千瓦"
+        },
+        {
+          "type": "paragraph",
+          "text": "2008—2012年国家电网公司机组上网电量"
+        },
+        {
+          "type": "paragraph",
+          "text": "单位：亿千瓦时"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/question-bank/early/c312209883b038d28141.png",
+          "alt": "2008—2012年国家电网公司机组上网电量表，单位：亿千瓦时"
+        }
+      ],
+      "htmlParagraphIndices": [
+        775,
+        776,
+        777,
+        778,
+        779,
+        780
+      ],
+      "sourcePages": [
+        16
+      ],
+      "boundaryEvidence": "PDF第16页明确“回答131~135题”，并网容量、上网电量两表之后紧接第131题。",
+      "normalization": "HTML标题年份使用73x18图片，实际查看确认2008~2012；PDF第16页也以文本标明2008-2012。将年份并入标题文字，单位移到对应表前；表格图像保持原样。",
+      "questionIds": [
+        "national-2014-unified-q131",
+        "national-2014-unified-q132",
+        "national-2014-unified-q133",
+        "national-2014-unified-q134",
+        "national-2014-unified-q135"
+      ],
+      "sourceUrl": "https://www.aipta.com/article/487.html",
+      "pdfUrls": [
+        "https://raw.githubusercontent.com/Yaoyuan-Zhang319/AdministrativeAptitudeTest/1896de17764058dc1199d668edbf9f7e96cbc77a/%E5%9B%BD%E8%80%83/%E8%AF%95%E5%8D%B7/2014%E5%B9%B4%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%8A%A1%E5%91%98%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E7%9C%9F%E9%A2%98%E5%8D%B7.pdf#page=16"
+      ]
+    }
+  ]
+}

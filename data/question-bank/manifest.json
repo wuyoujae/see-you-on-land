@@ -1581,6 +1581,68 @@
         "guangdong-qid-12019684",
         "guangdong-qid-12019701",
         "guangdong-qid-12019698"
+      ],
+      "modules": [
+        {
+          "id": "language-main-idea-basics",
+          "title": "中心理解基础",
+          "courseGroupId": "language-main-idea-basics",
+          "questionCount": 0
+        },
+        {
+          "id": "language-argumentative",
+          "title": "说理类中心理解",
+          "courseGroupId": "language-argumentative",
+          "questionCount": 138
+        },
+        {
+          "id": "language-expository",
+          "title": "科普介绍类中心理解",
+          "courseGroupId": "language-expository",
+          "questionCount": 49
+        },
+        {
+          "id": "language-news",
+          "title": "新闻类中心理解",
+          "courseGroupId": "language-news",
+          "questionCount": 3
+        },
+        {
+          "id": "language-title",
+          "title": "标题选择",
+          "courseGroupId": "language-title",
+          "questionCount": 42
+        },
+        {
+          "id": "language-next-paragraph",
+          "title": "下文推断",
+          "courseGroupId": "language-next-paragraph",
+          "questionCount": 29
+        },
+        {
+          "id": "language-sentence-fill",
+          "title": "语句填入",
+          "courseGroupId": "language-sentence-fill",
+          "questionCount": 82
+        },
+        {
+          "id": "language-sentence-order",
+          "title": "语句排序",
+          "courseGroupId": "language-sentence-order",
+          "questionCount": 49
+        },
+        {
+          "id": "language-detail",
+          "title": "细节判断",
+          "courseGroupId": "language-detail",
+          "questionCount": 129
+        },
+        {
+          "id": "language-logical-fill",
+          "title": "逻辑填空",
+          "courseGroupId": "language-logical-fill",
+          "questionCount": 413
+        }
       ]
     },
     {
@@ -4084,6 +4146,56 @@
         "guangdong-qid-12019704",
         "guangdong-qid-12019705",
         "guangdong-qid-12019706"
+      ],
+      "modules": [
+        {
+          "id": "analysis-abrx",
+          "title": "基期、现期、增长率与增长量",
+          "courseGroupId": "analysis-abrx",
+          "questionCount": 83
+        },
+        {
+          "id": "analysis-share",
+          "title": "比重",
+          "courseGroupId": "analysis-share",
+          "questionCount": 111
+        },
+        {
+          "id": "analysis-mixture",
+          "title": "混合与十字交叉",
+          "courseGroupId": "analysis-mixture",
+          "questionCount": 12
+        },
+        {
+          "id": "analysis-comparison",
+          "title": "比较大小",
+          "courseGroupId": "analysis-comparison",
+          "questionCount": 172
+        },
+        {
+          "id": "analysis-average",
+          "title": "平均数与倍数",
+          "courseGroupId": "analysis-average",
+          "questionCount": 79
+        },
+        {
+          "id": "analysis-annual",
+          "title": "年均增长",
+          "courseGroupId": "analysis-annual",
+          "questionCount": 16
+        },
+        {
+          "id": "analysis-comprehensive",
+          "title": "综合判断",
+          "supplemental": true,
+          "questionCount": 105
+        },
+        {
+          "id": "analysis-basic",
+          "title": "直接查找与基础计算",
+          "supplemental": true,
+          "questionCount": 35
+        }
       ]
     }
   ],
@@ -4928,7 +5040,7 @@
     "paperCount": 45,
     "questionCount": 3810,
     "paperQuestionCount": 5423,
-    "imageCount": 6655
+    "imageCount": 6659
   },
   "sources": [
     {

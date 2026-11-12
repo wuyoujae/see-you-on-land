@@ -486,3 +486,30 @@ test("module practice narrows actual IDs by exam, persists its module and safely
   assert.match(h.root.querySelector(".drill-notice").textContent,/没有题目/);
   await h.start(1); h.flush(); assert.equal(Object.keys(h.progress().sessions).length,2,"empty filter cannot start a session");
 });
+
+for (const [sid, topic] of [["language", "language-title"], ["analysis", "analysis-share"]]) {
+  test(`published ${sid} modules start and restore real Guangdong questions with their material`, async t => {
+    const read = file => JSON.parse(fs.readFileSync(path.join(__dirname, "..", file), "utf8"));
+    const meta = read("data/question-bank/manifest.json");
+    const dataPath = meta.subjects.find(s => s.id === sid).path, data = read(dataPath);
+    const expected = data.questions.filter(q => q.topicId === topic && q.paperRefs.some(ref => ref.paperId.startsWith("guangdong-")));
+    assert.ok(expected.length >= 2, "the actual published module must have Guangdong questions");
+    const resources = {"data/question-bank/manifest.json": meta, [dataPath]: data};
+    const h = harness(t, {hash: `#/study/${sid}?exam=guangdong&topic=${topic}`, resources, noSession: true});
+    await h.settle();
+    assert.equal(h.root.querySelector("#drill-count").max, String(expected.length));
+    assert.equal(h.root.querySelector("#drill-module-lesson").href, `#/learn/${sid}/${topic}`);
+    await h.start(2); h.flush();
+    const saved = Object.values(h.progress().sessions)[0];
+    assert.deepEqual(saved.questionIds, expected.slice(0, 2).map(q => q.id));
+    assert.equal(saved.topicId, topic);
+    assert.equal(h.root.querySelector("#drill-explanation").hidden, true);
+    const restored = harness(t, {hash: h.location.hash, session: saved, resources}); await restored.settle();
+    assert.match(restored.root.querySelector("#drill-question").innerHTML, new RegExp(expected[0].id));
+    if (sid === "analysis") {
+      assert.ok(expected[0].materialBlocks.length);
+      assert.ok(restored.root.querySelector("#drill-question").innerHTML.includes(Rich.render(expected[0].materialBlocks)));
+    }
+    assert.equal(restored.explainCalls.length, 0, "restoring an unanswered module must not start AI");
+  });
+}
