@@ -212555,7 +212555,343 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 80.4
         }
       ]
+    },
+    {
+      "date": "2026-11-13",
+      "keyword": "中山先生诞辰",
+      "keywords": [
+        {
+          "name": "中山先生诞辰",
+          "count": 11
+        },
+        {
+          "name": "孙中山先生诞",
+          "count": 11
+        },
+        {
+          "name": "念孙中山先生",
+          "count": 10
+        },
+        {
+          "name": "纪念孙中山先",
+          "count": 10
+        },
+        {
+          "name": "界纪念孙中山",
+          "count": 3
+        },
+        {
+          "name": "侨界纪念孙中",
+          "count": 2
+        },
+        {
+          "name": "周年大会",
+          "count": 2
+        },
+        {
+          "name": "京举行",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "a5fa5b91d8795f",
+          "source": "光明日报",
+          "title": "中国邮政发行《纪念孙中山先生诞辰160周年》纪念邮票小型张",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30145.html",
+          "date": "2026-11-13",
+          "keyword": "中山先生诞辰"
+        },
+        {
+          "id": "aed34f7a515a39",
+          "source": "光明日报",
+          "title": "乌干达侨界纪念孙中山先生诞辰160周年",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30152.html",
+          "date": "2026-11-13",
+          "keyword": "中山先生诞辰"
+        },
+        {
+          "id": "6d95754cde11b9",
+          "source": "光明日报",
+          "title": "南非开普敦侨界纪念孙中山先生诞辰160周年",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30151.html",
+          "date": "2026-11-13",
+          "keyword": "中山先生诞辰"
+        },
+        {
+          "id": "3ebd6b4041b33f",
+          "source": "光明日报",
+          "title": "台湾各界纪念孙中山先生诞辰160周年",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30148.html",
+          "date": "2026-11-13",
+          "keyword": "中山先生诞辰"
+        },
+        {
+          "id": "e4e0291cf272f7",
+          "source": "光明日报",
+          "title": "在纪念孙中山先生诞辰160周年大会上的讲话",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30143.html",
+          "date": "2026-11-13",
+          "keyword": "中山先生诞辰"
+        },
+        {
+          "id": "34912a4e5931ad",
+          "source": "光明日报",
+          "title": "纪念孙中山先生诞辰160周年 晋谒衣冠冢仪式在京举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30144.html",
+          "date": "2026-11-13",
+          "keyword": "中山先生诞辰"
+        },
+        {
+          "id": "6d62fb7a4f1d06",
+          "source": "光明日报",
+          "title": "纪念孙中山先生诞辰160周年图文展在伦敦举办",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30149.html",
+          "date": "2026-11-13",
+          "keyword": "中山先生诞辰"
+        },
+        {
+          "id": "b4a5fa53413b68",
+          "source": "光明日报",
+          "title": "纪念孙中山先生诞辰160周年大会在京举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30137.html",
+          "date": "2026-11-13",
+          "keyword": "中山先生诞辰"
+        },
+        {
+          "id": "351aee4a6bdaf9",
+          "source": "光明日报",
+          "title": "纪念孙中山先生诞辰160周年座谈会在新西兰举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30150.html",
+          "date": "2026-11-13",
+          "keyword": "中山先生诞辰"
+        },
+        {
+          "id": "9a38d07b813636",
+          "source": "光明日报",
+          "title": "纪念孙中山先生诞辰160周年系列活动暨图片展在澳门开幕",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30147.html",
+          "date": "2026-11-13",
+          "keyword": "中山先生诞辰"
+        },
+        {
+          "id": "54a84dc0957e3c",
+          "source": "光明日报",
+          "title": "香港举行孙中山先生诞辰160周年纪念仪式",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30146.html",
+          "date": "2026-11-13",
+          "keyword": "中山先生诞辰"
+        },
+        {
+          "id": "1361533990e1f6",
+          "source": "光明日报",
+          "title": "全国人大常委会旅游法执法检查组举行第二次全体会议",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30125.html",
+          "date": "2026-11-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bace9f53d8bcd5",
+          "source": "光明日报",
+          "title": "全国总工会2026年重点支持建设200家工匠学院",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30130.html",
+          "date": "2026-11-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "57ba3f9d43dcad",
+          "source": "光明日报",
+          "title": "初冬时节秋未远",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30131.html",
+          "date": "2026-11-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "980e5139799160",
+          "source": "光明日报",
+          "title": "坚持制度治党、依规治党",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30138.html",
+          "date": "2026-11-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "72fb018a3ea2fb",
+          "source": "光明日报",
+          "title": "学习贯彻党的二十届五中全会精神中央宣讲团在外交部、中央组织部机关、内蒙古、湖北、云南宣讲",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30124.html",
+          "date": "2026-11-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e3a80ad172fb64",
+          "source": "光明日报",
+          "title": "宁夏银川市金凤区：“六邻”服务涵养互助风尚",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30129.html",
+          "date": "2026-11-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "11cfa04c9fd886",
+          "source": "光明日报",
+          "title": "山东青岛胶州：长护险服务正加速走进城乡",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30133.html",
+          "date": "2026-11-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f282cb284be886",
+          "source": "光明日报",
+          "title": "山西高平：算好校园餐“明白账”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30126.html",
+          "date": "2026-11-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5efd8b10f03b61",
+          "source": "光明日报",
+          "title": "心向北斗育匠才 聚力赋能筑高地",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30134.html",
+          "date": "2026-11-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "111f45a11fef53",
+          "source": "光明日报",
+          "title": "李强主持国务院第二十二次专题学习",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30122.html",
+          "date": "2026-11-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "963be9218a9bc6",
+          "source": "光明日报",
+          "title": "海南：海韵椰风迎客来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30128.html",
+          "date": "2026-11-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "30944432bb427a",
+          "source": "光明日报",
+          "title": "重庆首条全自动运行城轨快线开通运营",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30132.html",
+          "date": "2026-11-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1fcd5f1a91534f",
+          "source": "光明日报",
+          "title": "韩正出席《联合国气候变化框架公约》第三十一次缔约方大会安塔利亚领导人峰会并作国别发言",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/13/content_30123.html",
+          "date": "2026-11-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c3f63cefcdb086",
+          "source": "新华社",
+          "title": "伊朗专家会议呼吁审议退出《不扩散核武器条约》",
+          "url": "https://www.news.cn/world/20261113/e86bb4b255e94fc280e46bd0ffd18671/c.html",
+          "date": "2026-11-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c8b58e5aec7fe1",
+          "source": "新华社",
+          "title": "已致一死四伤",
+          "url": "https://www.news.cn/world/20261113/1cb5a1515eea4da9b5a05f97a0c4f1ab/c.html",
+          "date": "2026-11-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "acfc09aff29e59",
+          "source": "新华社",
+          "title": "普京与美总统特使会谈阐述解决俄乌冲突立场",
+          "url": "https://www.news.cn/world/20261113/5ceb4566e39840eb93ea4dc6b11d3764/c.html",
+          "date": "2026-11-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ee09be68629f82",
+          "source": "新华社",
+          "title": "特朗普称无需与伊达成协议 要求万斯聚焦国内问题",
+          "url": "https://www.news.cn/world/20261113/43e5ea523fb547f0a4dc20ffbb1c0b15/c.html",
+          "date": "2026-11-13",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ee80960fbfab33",
+          "source": "新华社",
+          "title": "践行习近平党建思想推动国有企业高质量发展",
+          "url": "https://www.news.cn/politics/leaders/20261113/e927c12dab3749978d1a41bc2342be76/c.html",
+          "date": "2026-11-13",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 16.4,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261113.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.9,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202611/13/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 5,
+          "duration": 2.3
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 11.0
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.9
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 24,
+          "duration": 1.8
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 14.3
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.1
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.6
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 55.0
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-11-12T22:29:44+08:00"
+  "generatedAt": "2026-11-13T05:42:24+08:00"
 };
