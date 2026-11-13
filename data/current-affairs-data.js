@@ -214601,7 +214601,351 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 65.8
         }
       ]
+    },
+    {
+      "date": "2026-11-14",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 4
+        },
+        {
+          "name": "十五五",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "aade13ea5f72ce",
+          "source": "光明日报",
+          "title": "习近平将出席亚太经合组织第三十三次领导人非正式会议及相关活动",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30237.html",
+          "date": "2026-11-14",
+          "keyword": "习近平"
+        },
+        {
+          "id": "b9999e303b425e",
+          "source": "新华社",
+          "title": "习近平主席引领亚太大家庭扬帆前行",
+          "url": "https://www.news.cn/politics/leaders/20261114/0a61f75c95f9486c86babb6bcf75f4ee/c.html",
+          "date": "2026-11-14",
+          "keyword": "习近平"
+        },
+        {
+          "id": "f0f144ec6382aa",
+          "source": "新华社",
+          "title": "习近平总书记在纪念孙中山先生诞辰160周年大会上的重要讲话引发强烈共鸣、凝聚奋进力量",
+          "url": "https://www.news.cn/politics/leaders/20261114/05110c8c39ba43b5b8581f0af57e0c15/c.html",
+          "date": "2026-11-14",
+          "keyword": "习近平"
+        },
+        {
+          "id": "d09ce0157c0e03",
+          "source": "新华社",
+          "title": "矢志团结奋斗 再创新的辉煌——习近平总书记在纪念孙中山先生诞辰160周年大会上的重要讲话引发强烈共鸣、凝聚奋进力量",
+          "url": "https://www.news.cn/20261114/5f79f58c403942e0a968520fe5d3842d/c.html",
+          "date": "2026-11-14",
+          "keyword": "习近平"
+        },
+        {
+          "id": "26eb41b82611b0",
+          "source": "光明日报",
+          "title": "“十五五”我国将加快推进现代化国有林场建设",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30223.html",
+          "date": "2026-11-14",
+          "keyword": "十五五"
+        },
+        {
+          "id": "db6c68ff24dfec",
+          "source": "光明日报",
+          "title": "《“十五五”新型储能实施方案》发布",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30222.html",
+          "date": "2026-11-14",
+          "keyword": "十五五"
+        },
+        {
+          "id": "39304a54361ac9",
+          "source": "光明日报",
+          "title": "2026年全国城市联合招聘高校毕业生秋季专场活动持续开展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30221.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c8fbd5cc615f66",
+          "source": "光明日报",
+          "title": "“风光”新能源",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30250.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "44599862c3efbd",
+          "source": "光明日报",
+          "title": "上海关区43亿元货物享受对非零关税红利",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30227.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0fc4dbd1704016",
+          "source": "光明日报",
+          "title": "不断赋予“振兴中华”新的时代意义和内涵",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30240.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c298adbddbbf87",
+          "source": "光明日报",
+          "title": "充分发挥高标准农田综合效益 为守牢粮食安全底线建设农业强国提供坚实支撑",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30247.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "869452cf6a6bc6",
+          "source": "光明日报",
+          "title": "前10个月京津冀进出口创历史同期新高",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30226.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "24251f8495d193",
+          "source": "光明日报",
+          "title": "大湾区海洋生态治理“英文成绩单”出炉",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30229.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "16224e0de43156",
+          "source": "光明日报",
+          "title": "大脑里有张“手位置地图”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30228.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c8ccdbbb57a510",
+          "source": "光明日报",
+          "title": "学习贯彻党的二十届五中全会精神中央宣讲团在山西、新疆宣讲",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30249.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7ef9036aa2a0e3",
+          "source": "光明日报",
+          "title": "把党建优势转化为发展胜势",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30239.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "86ca5544a3d613",
+          "source": "光明日报",
+          "title": "持之以恒推进全面从严治党 为做强做优做大国有企业和国有资本提供坚强保障",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30236.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "80a57ba945802b",
+          "source": "光明日报",
+          "title": "智能制造助发展",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30224.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "789dbb8f32d955",
+          "source": "光明日报",
+          "title": "李强同泰国总理阿努廷会谈",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30245.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f83f9c472d3879",
+          "source": "光明日报",
+          "title": "李强抵达曼谷开始对泰国进行正式访问",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30246.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "99ed4c45699e6b",
+          "source": "光明日报",
+          "title": "气候暖湿背景下，青藏高原冻土里的冰不减反增",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30230.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1ec602cab69d57",
+          "source": "光明日报",
+          "title": "浙江嵊州：越音在守正创新中生生不息",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30232.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ec214acbbd33ee",
+          "source": "光明日报",
+          "title": "深圳盛装喜迎亚太宾朋",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30241.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "47b4ca58a2ac85",
+          "source": "光明日报",
+          "title": "矢志团结奋斗 再创新的辉煌",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30238.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "db91d2bbf778a0",
+          "source": "光明日报",
+          "title": "立长望志 做大气人",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30233.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bc0d8123790a9c",
+          "source": "光明日报",
+          "title": "第二十三届中国国际农产品交易会在杭州开幕",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30225.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c6b69e27206045",
+          "source": "光明日报",
+          "title": "第十一届博博会举办",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30231.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c3eb86869fe6d4",
+          "source": "光明日报",
+          "title": "长春大冬会竞赛场馆进行场地测试",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30234.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b56a93210eba60",
+          "source": "光明日报",
+          "title": "韩正出席2026世界中文大会开幕式并致辞",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30248.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bdf765d46bfe64",
+          "source": "新华社",
+          "title": "为进一步加强国有企业党的建设指明方向",
+          "url": "https://www.news.cn/politics/leaders/20261114/ca905d3ecf144dba8487df20eaf0bba9/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "92e852fe404c33",
+          "source": "新华社",
+          "title": "大国外交中的文化印记丨一针一脉 发扬医道",
+          "url": "https://www.news.cn/politics/leaders/20261114/07853e0e1e7444aebd02e39bc78fcb36/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b16aff5620bede",
+          "source": "新华社",
+          "title": "新疆阿克苏地区库车市发生5.0级地震 暂无人员伤亡报告",
+          "url": "https://www.news.cn/20261114/862e718c109b41949403939f5f2bb4b9/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9ee35d240bba44",
+          "source": "新华社",
+          "title": "王毅分别同韩国外长赵显、出席2026中美政党对话美方代表会谈会见",
+          "url": "https://www.news.cn/politics/leaders/20261114/5e070d374b3546128bc801bc09b89fbe/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 4.9,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261114.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.0,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202611/14/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 7,
+          "duration": 2.5
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.9
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.2
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 26,
+          "duration": 2.0
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.0
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.1
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.5
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 54.0
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-11-13T20:48:05+08:00"
+  "generatedAt": "2026-11-14T04:15:00+08:00"
 };
