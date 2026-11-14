@@ -214615,6 +214615,10 @@
           "count": 2
         },
         {
+          "name": "人工智能",
+          "count": 2
+        },
+        {
           "name": "十五五",
           "count": 2
         },
@@ -214713,12 +214717,28 @@
           "keyword": "全面从严治党"
         },
         {
-          "id": "7aa35665b62436",
+          "id": "4de9e861fed2f9",
           "source": "新华社",
-          "title": "白宫国家经济委员会主任哈西特将离职？本人否认",
-          "url": "https://www.news.cn/world/20261114/a027e9a1731444f7b1c60ba67f247d4a/c.html",
+          "title": "欧盟领导人讨论人工智能与乌克兰和谈",
+          "url": "https://www.news.cn/20261114/5219be7c23544551981baea4428b2acf/c.html",
+          "date": "2026-11-14",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "82acce53c75aa6",
+          "source": "新华社",
+          "title": "美媒称白宫国家经济委员会主任将离职 但遭本人否认",
+          "url": "https://www.news.cn/20261114/42f8beb795ab477cb3eac5fd1a42840f/c.html",
           "date": "2026-11-14",
           "keyword": "经济"
+        },
+        {
+          "id": "36a98100bff7a5",
+          "source": "求是",
+          "title": "我国人工智能驱动生产率增长面临哪些挑战",
+          "url": "https://www.qstheory.cn/20261114/0eec8e93619e45b6aad16d1cb8a8419a/c.html",
+          "date": "2026-11-14",
+          "keyword": "人工智能"
         },
         {
           "id": "fd913b834ff51d",
@@ -215105,10 +215125,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "9a206b37ac5e20",
+          "id": "9ab6a96f95527a",
           "source": "新华社",
-          "title": "《中国体育学年鉴2025》在京发布",
-          "url": "https://www.news.cn/20261114/9b58031107e54f8ca3b5b5f6c6186a7b/c.html",
+          "title": "APEC中国年丨这座城市以“专精特新”激活产业跃升新动能",
+          "url": "http://www.gd.xinhuanet.com/20261114/3176cc1a50e148fab9db28b94f601cf1/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6ef6c923c20312",
+          "source": "新华社",
+          "title": "APEC深圳会议各项筹备工作已就绪",
+          "url": "https://www.news.cn/world/20261114/b66193767de1474e8155e204eb9803f6/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cc1239e151720f",
+          "source": "新华社",
+          "title": "“无废城市”怎么建？上海提供了可供观察借鉴的样本",
+          "url": "https://www.news.cn/politics/20261114/38d0bbb8317942908e21db306040808d/c.html",
           "date": "2026-11-14",
           "keyword": "综合时政"
         },
@@ -215123,8 +215159,16 @@
         {
           "id": "9c3c946e258250",
           "source": "新华社",
-          "title": "两股冷空气来袭局地降温可超10℃",
+          "title": "两股冷空气接连影响我国",
           "url": "https://www.news.cn/politics/20261114/501f9311ad2d46cfaf7887769bd2b121/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a478ecdc87d56e",
+          "source": "新华社",
+          "title": "中国代表团18金8银7铜收官",
+          "url": "https://www.news.cn/sports/20261114/f4db3f7de7574b628a15418a28ef6134/c.html",
           "date": "2026-11-14",
           "keyword": "综合时政"
         },
@@ -215161,6 +215205,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "1da2433b040b1f",
+          "source": "新华社",
+          "title": "今年前10月全国铁路发送旅客41.3亿人次",
+          "url": "https://www.news.cn/politics/20261114/f9646f60584c495ca882ec8893e6bb61/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
           "id": "f2ce5cb9b20574",
           "source": "新华社",
           "title": "从“红灯停表”看算法向善",
@@ -215169,10 +215221,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "a73c87b8d59daf",
+          "id": "8acca3a3379fc9",
+          "source": "新华社",
+          "title": "全美航班停飞令已解除 约有1.5万架次航班受影响",
+          "url": "https://www.news.cn/world/20261114/021ad6cc4b4d4fe1ac7431cd72b44c12/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aa7eb64d5fa7db",
+          "source": "新华社",
+          "title": "再创新高 51个一类新药进入新版国家医保药品目录",
+          "url": "https://www.news.cn/politics/20261114/ee398c5473214b7ebd8a547e70f43e65/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a3053a9b3553da",
           "source": "新华社",
           "title": "刚果（金）东部发生多起武装袭击 至少49人死亡",
-          "url": "https://www.news.cn/world/20261114/8d1aa826494c45bdb071596408ed559c/c.html",
+          "url": "https://www.news.cn/20261114/422dde240201486f840afdf60af0f608/c.html",
           "date": "2026-11-14",
           "keyword": "综合时政"
         },
@@ -215185,10 +215253,42 @@
           "keyword": "综合时政"
         },
         {
+          "id": "08b63fcec4f173",
+          "source": "新华社",
+          "title": "北京：一城彩叶染初冬",
+          "url": "https://www.news.cn/photo/20261114/f11d7cb60f154c2da3d97b153be117c3/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "33233ac44817ef",
+          "source": "新华社",
+          "title": "古巴国家主席：古巴决心抵制任何外国军事侵略企图",
+          "url": "https://www.news.cn/world/20261114/a0370304876443878255aaed489d2afc/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
           "id": "f94ff1f254d98c",
           "source": "新华社",
           "title": "哈尼梯田：以农耕非遗促文明交流互鉴",
           "url": "https://www.news.cn/local/20261114/cba59c2334ac41079c60ee74fbbe1515/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6909175ce86a81",
+          "source": "新华社",
+          "title": "国标发布 流程工业智能工厂管理有了统一“标尺”",
+          "url": "https://www.news.cn/fortune/20261114/babcf23542ee45d1bb750908b42d5ca3/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3e61c7038daa70",
+          "source": "新华社",
+          "title": "国足主帅邵佳一：面对任何对手都要打出应有的风格",
+          "url": "https://www.news.cn/20261114/024971335b374a0fa15f94fb294db83e/c.html",
           "date": "2026-11-14",
           "keyword": "综合时政"
         },
@@ -215225,10 +215325,26 @@
           "keyword": "综合时政"
         },
         {
+          "id": "bdbe8827435b7f",
+          "source": "新华社",
+          "title": "小窗口背后的“民生答卷”",
+          "url": "https://www.news.cn/politics/20261114/36e0d7fd533043e5954ad57d75bf5240/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
           "id": "c12e93169334bf",
           "source": "新华社",
           "title": "巴新总督向第15批援巴新中国医疗队授荣誉徽章",
           "url": "https://www.news.cn/world/20261114/2cfe52597e4c4d778a9e3494a9e0dcd2/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "48da31774c4fd6",
+          "source": "新华社",
+          "title": "库克群岛国王代表：期待库中友好合作进一步深入发展",
+          "url": "https://www.news.cn/20261114/8b9ea60fbf1b4755bd1db97341bdb700/c.html",
           "date": "2026-11-14",
           "keyword": "综合时政"
         },
@@ -215243,8 +215359,32 @@
         {
           "id": "677263514313eb",
           "source": "新华社",
-          "title": "德国无人机制造商遭网络攻击 用户包括德军和乌军",
+          "title": "德无人机制造商遭网络攻击 产品用户包括德军乌军",
           "url": "https://www.news.cn/world/20261114/3b77a83c9dff4d57bd7978195e913dc0/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "846081b9510e28",
+          "source": "新华社",
+          "title": "我国10吨级电动商用飞机有人驾驶首飞成功",
+          "url": "https://www.news.cn/politics/20261114/cb8c94c4e6cc4a809ec8d81b7167b36b/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9382087d5b472d",
+          "source": "新华社",
+          "title": "新余蜜桔进入采摘收获旺季",
+          "url": "https://www.news.cn/photo/20261114/bdf8404763c0425ba08f07eb3c475b67/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eea6c19f3ec90c",
+          "source": "新华社",
+          "title": "新华社出图丨这一次，奥林匹克走进非洲",
+          "url": "https://www.news.cn/sports/20261114/dd0dca4a7c69462ab1090a76336288ec/c.html",
           "date": "2026-11-14",
           "keyword": "综合时政"
         },
@@ -215265,6 +215405,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "e7c04ef41f9e44",
+          "source": "新华社",
+          "title": "未来一周甘肃迎两轮雨雪",
+          "url": "https://www.news.cn/local/20261114/96fae86257f440888c286cba8ecb8a78/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
           "id": "1b04fbf8fe632c",
           "source": "新华社",
           "title": "欧盟机构及五国将代表欧洲参与乌克兰和平谈判",
@@ -215273,18 +215421,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "4de9e861fed2f9",
+          "id": "f2272fec20d7e3",
           "source": "新华社",
-          "title": "欧盟领导人讨论人工智能与乌克兰和谈",
-          "url": "https://www.news.cn/20261114/5219be7c23544551981baea4428b2acf/c.html",
-          "date": "2026-11-14",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "36b5922dd85591",
-          "source": "新华社",
-          "title": "欧盟领导人非正式会议在都柏林举行",
-          "url": "https://www.news.cn/world/20261114/5b654cb2360d44d086823717ded05f72/c.html",
+          "title": "没了闰秒，会不会影响我们的日常生活？",
+          "url": "https://www.news.cn/politics/20261114/b847dd2ff1464a7ca71be81edefb0e32/c.html",
           "date": "2026-11-14",
           "keyword": "综合时政"
         },
@@ -215297,18 +215437,26 @@
           "keyword": "综合时政"
         },
         {
-          "id": "5ab722996387e0",
+          "id": "22508a4faf6298",
           "source": "新华社",
-          "title": "特朗普说美空管系统故障与网络攻击无关",
-          "url": "https://www.news.cn/world/20261114/134dc215a0ba46f1adfa5ecf02cf3c1b/c.html",
+          "title": "潘国强同志任宁德市委书记",
+          "url": "https://www.news.cn/politics/20261114/039a217bc411431498ce41b2130eb20d/c.html",
           "date": "2026-11-14",
           "keyword": "综合时政"
         },
         {
-          "id": "e4080adb96c0ad",
+          "id": "0c5093716f4e26",
           "source": "新华社",
-          "title": "王毅分别同韩国外长赵显、出席2026中美政党对话美方代表会谈会见",
-          "url": "https://www.news.cn/world/20261114/1ba132923440474da2ba0948e15280a6/c.html",
+          "title": "爱尔兰在多国领导人晚宴地点附近查获爆炸装置",
+          "url": "https://www.news.cn/world/20261114/76f27bbd6d514e569024a061afb0225e/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "25cc5fe8df94b4",
+          "source": "新华社",
+          "title": "纽约百老汇节日季上演魔术大戏",
+          "url": "https://www.news.cn/photo/20261114/3b36cbf04ea24e7482d9805d42bc96f4/c.html",
           "date": "2026-11-14",
           "keyword": "综合时政"
         },
@@ -215321,26 +215469,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "e7589a28fe4570",
-          "source": "新华社",
-          "title": "美“星舰”第15次试飞 助推器未能按计划返回发射场",
-          "url": "https://www.news.cn/world/20261114/332fe59bb3164789ba021904f8559c72/c.html",
-          "date": "2026-11-14",
-          "keyword": "综合时政"
-        },
-        {
           "id": "3bb40ab316fd80",
           "source": "新华社",
           "title": "美国10月生产者价格指数涨幅再创新高",
           "url": "https://www.news.cn/20261114/c435508c907a4d1c8838ac980381b339/c.html",
-          "date": "2026-11-14",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "0e92d883441676",
-          "source": "新华社",
-          "title": "美国全国航班停飞令已致7000架次航班延误或取消",
-          "url": "https://www.news.cn/world/20261114/00b05eb66a904bff84214a379fc57972/c.html",
           "date": "2026-11-14",
           "keyword": "综合时政"
         },
@@ -215353,18 +215485,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "ac6122dd97bc28",
+          "id": "287601e6f23cc8",
           "source": "新华社",
-          "title": "美媒称全美航班停飞调查指向软件更新",
-          "url": "https://www.news.cn/world/20261114/b78ef69724bd48109ad43a98b76faeea/c.html",
-          "date": "2026-11-14",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "05d23e2545c385",
-          "source": "新华社",
-          "title": "美媒：全美航班停飞令解除",
-          "url": "https://www.news.cn/world/20261114/ae4ab63995f64adca11ca040d1ecb331/c.html",
+          "title": "聚焦APEC丨韩学者：期待APEC会议推动亚太合作取得务实成果",
+          "url": "https://www.news.cn/20261114/2ba77e10634346ebab1d1d522b1131f9/c.html",
           "date": "2026-11-14",
           "keyword": "综合时政"
         },
@@ -215385,10 +215509,18 @@
           "keyword": "综合时政"
         },
         {
-          "id": "2aec6e702ce15c",
+          "id": "bf9ed34184605e",
           "source": "新华社",
-          "title": "进出美国及美国内已有近1.5万架次航班延误或取消",
-          "url": "https://www.news.cn/world/20261114/55ac6a3124834ed4badb7ed4dec2ec7e/c.html",
+          "title": "这群中国跳绳高手2分钟跳出896次 超越世界纪录 快到看不清",
+          "url": "https://www.news.cn/sports/20261114/b7ad99f977924f69b631a02edbedb98b/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d11568191a5c26",
+          "source": "新华社",
+          "title": "通达亚太 共赴未来——钱凯港开港两周年观察",
+          "url": "https://www.news.cn/world/20261114/b904c82c234641ca8297e9ad4365d4a3/c.html",
           "date": "2026-11-14",
           "keyword": "综合时政"
         },
@@ -215425,10 +215557,50 @@
           "keyword": "综合时政"
         },
         {
+          "id": "8843e1c0bfc766",
+          "source": "新华社",
+          "title": "黄河口进入观鸟季",
+          "url": "https://www.news.cn/photo/20261114/3a4e969336ce4f4b8a4e917bd852e23c/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fb84f46dc1ca82",
+          "source": "求是",
+          "title": "2030年全国新型储能装机规模有望达到3亿千瓦",
+          "url": "https://www.qstheory.cn/20261114/045c16f0962045dd9ac786e93af0706f/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "43e5678823604f",
+          "source": "求是",
+          "title": "央行将开展2000亿元买断式逆回购操作",
+          "url": "https://www.qstheory.cn/20261114/d761eeec13734e169726e8fd884e77bd/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
           "id": "60f7425166ee5c",
           "source": "求是",
           "title": "怎样推动构建更加公正合理的全球海洋治理体系",
           "url": "https://www.qstheory.cn/20261114/75892478383149609a22784347383f50/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ef481efb35639f",
+          "source": "求是",
+          "title": "日本政府拟将未来五年防卫费总额提高至60万亿日元",
+          "url": "https://www.qstheory.cn/20261114/15bbefbaae174ebe8703bc76e50e431f/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "47192b40c4e0bf",
+          "source": "求是",
+          "title": "资金流向哪里，结构有何变化——透视10月金融数据",
+          "url": "https://www.qstheory.cn/20261114/927171e0adba4fc3be1143274387d0fa/c.html",
           "date": "2026-11-14",
           "keyword": "综合时政"
         }
@@ -215438,65 +215610,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 9.9,
+          "duration": 20.5,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261114.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 28,
-          "duration": 2.3
+          "duration": 1.4
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 44,
-          "duration": 2.0
+          "count": 60,
+          "duration": 3.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 18.1
+          "duration": 12.0
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 3,
+          "count": 8,
           "duration": 5.9
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 26,
-          "duration": 1.9
+          "duration": 1.5
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.8
+          "duration": 18.0
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.7
+          "duration": 2.9
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 12.1
+          "duration": 8.0
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 68.4
+          "duration": 23.9
         }
       ]
     }
   ],
-  "generatedAt": "2026-11-14T10:04:05+08:00"
+  "generatedAt": "2026-11-14T12:30:39+08:00"
 }
