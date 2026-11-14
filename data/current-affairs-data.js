@@ -214608,14 +214608,30 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "习近平",
-          "count": 4
+          "count": 6
+        },
+        {
+          "name": "全面从严治党",
+          "count": 2
         },
         {
           "name": "十五五",
           "count": 2
+        },
+        {
+          "name": "经济",
+          "count": 2
         }
       ],
       "articles": [
+        {
+          "id": "65ead3ea9eb86f",
+          "source": "人民日报",
+          "title": "习近平将出席亚太经合组织第三十三次领导人非正式会议及相关活动",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191128.html",
+          "date": "2026-11-14",
+          "keyword": "习近平"
+        },
         {
           "id": "aade13ea5f72ce",
           "source": "光明日报",
@@ -214641,12 +214657,36 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
-          "id": "d09ce0157c0e03",
-          "source": "新华社",
-          "title": "矢志团结奋斗 再创新的辉煌——习近平总书记在纪念孙中山先生诞辰160周年大会上的重要讲话引发强烈共鸣、凝聚奋进力量",
-          "url": "https://www.news.cn/20261114/5f79f58c403942e0a968520fe5d3842d/c.html",
+          "id": "0cdc501fc4689f",
+          "source": "求是",
+          "title": "习近平主席引领亚太大家庭扬帆前行",
+          "url": "https://www.qstheory.cn/20261114/cab6df432e7e40619dc392a703e19557/c.html",
           "date": "2026-11-14",
           "keyword": "习近平"
+        },
+        {
+          "id": "9ec4c757952af0",
+          "source": "求是",
+          "title": "习近平总书记在纪念孙中山先生诞辰160周年大会上的 重要讲话引发强烈共鸣、凝聚奋进力量",
+          "url": "https://www.qstheory.cn/20261114/b30ad45d79524ee0bbff1a318ebb8b47/c.html",
+          "date": "2026-11-14",
+          "keyword": "习近平"
+        },
+        {
+          "id": "86a75dc5186ba2",
+          "source": "人民日报",
+          "title": "对接一名专员，就能匹配所需服务（经济新方位·从“0”到“1”，把“1”拉长）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191142.html",
+          "date": "2026-11-14",
+          "keyword": "经济"
+        },
+        {
+          "id": "6c9e16d20c6f88",
+          "source": "人民日报",
+          "title": "持之以恒推进全面从严治党 为做强做优做大国有企业和国有资本提供坚强保障",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191127.html",
+          "date": "2026-11-14",
+          "keyword": "全面从严治党"
         },
         {
           "id": "26eb41b82611b0",
@@ -214663,6 +214703,222 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30222.html",
           "date": "2026-11-14",
           "keyword": "十五五"
+        },
+        {
+          "id": "86ca5544a3d613",
+          "source": "光明日报",
+          "title": "持之以恒推进全面从严治党 为做强做优做大国有企业和国有资本提供坚强保障",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30236.html",
+          "date": "2026-11-14",
+          "keyword": "全面从严治党"
+        },
+        {
+          "id": "7aa35665b62436",
+          "source": "新华社",
+          "title": "白宫国家经济委员会主任哈西特将离职？本人否认",
+          "url": "https://www.news.cn/world/20261114/a027e9a1731444f7b1c60ba67f247d4a/c.html",
+          "date": "2026-11-14",
+          "keyword": "经济"
+        },
+        {
+          "id": "fd913b834ff51d",
+          "source": "人民日报",
+          "title": "2027т╣┤тЁетЏйуАЋтБФуаћуЕХућЪТІЏућЪУђЃУ»ЋтЁ▒347СИЄС║║ТіЦтљЇ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191154.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "828dd59528466b",
+          "source": "人民日报",
+          "title": "СИђуЅѕУ┤Бу╝ќ№╝џУЃАт«Ѕуљф Ухх Тћ┐ т╝ат«ЄТЮ░ С║їуЅѕУ┤Бу╝ќ№╝џжЪЕТЎЊТўј тЉе У╝ќ тЁ│уџЊт«Є СИЅуЅѕУ┤Бу╝ќ№╝џтљЋ УјЅ т╝ат«Ѕт«Є жЎѕ жюЄ тЏЏуЅѕУ┤Бу╝ќ№╝џтѕў т┐х жЪЕТўЦуЉХ т┤ћ Тќї",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191157.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ff24df2ef0dfed",
+          "source": "人民日报",
+          "title": "Т▒фУЄ┤У┐ютљїт┐ЌжђЮСИќ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191156.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4662f0d1b9a68e",
+          "source": "人民日报",
+          "title": "тЏЙуЅЄТіЦжЂЊ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191151.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "35a183254594fd",
+          "source": "人民日报",
+          "title": "тЏйтіАжЎбС╗╗тЁЇтЏйт«ХтиЦСйюС║║тЉў",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191153.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "44b3d929bc93fa",
+          "source": "人民日报",
+          "title": "тГдС╣аУ┤»тй╗тЁџуџёС║їтЇЂт▒іС║ћСИГтЁеС╝џу▓ЙуЦъСИГтц«т«БУ«▓тЏбтюет▒▒УЦ┐сђЂТќ░уќєт«БУ«▓№╝ѕтГдС╣аУ┤»тй╗тЁџуџёС║їтЇЂт▒іС║ћСИГтЁеС╝џу▓ЙуЦъ№╝Ѕ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191149.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "330a2cc55d0312",
+          "source": "人民日报",
+          "title": "тЙфуј»уљєт┐хТи▒тЁЦућЪС║ДућЪТ┤╗№╝ѕТи▒жўЁУ»╗№╝Ѕ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191150.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9bdc7288316799",
+          "source": "人民日报",
+          "title": "т╣┐СИюуюЂтљёуЋїу║фт┐хтГЎСИГт▒▒тЁѕућЪУ»ъУЙ░160тЉет╣┤тцДС╝џСИЙУАї",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191152.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ef0831df49383b",
+          "source": "人民日报",
+          "title": "уЪбт┐ЌтЏбу╗ЊтЦІТќЌ тєЇтѕЏТќ░уџёУЙЅуЁї",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191155.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "466049bd6555e2",
+          "source": "人民日报",
+          "title": "中巴瓷器文物与当代艺术展在巴基斯坦开幕",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191139.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0101933c6bbba4",
+          "source": "人民日报",
+          "title": "以中国式现代化新成就为亚太和世界提供新机遇",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191129.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1925e9c7eb7cc6",
+          "source": "人民日报",
+          "title": "以技术创新回应市场需求（高质量发展微视角）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191144.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "87ae4c49f64590",
+          "source": "人民日报",
+          "title": "充分发挥高标准农田综合效益 为守牢粮食安全底线建设农业强国提供坚实支撑",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191141.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "887971048315f5",
+          "source": "人民日报",
+          "title": "大幅提升知识产权公共服务质效（延伸阅读）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191143.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f3f3524f224332",
+          "source": "人民日报",
+          "title": "李强同泰国总理阿努廷会谈",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191131.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "44a3c9a1ced7a1",
+          "source": "人民日报",
+          "title": "李强抵达曼谷开始对泰国进行正式访问",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191140.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c15d463d267c66",
+          "source": "人民日报",
+          "title": "构建亚太共同体 共创亚太新未来（瞩望深圳APEC会议）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191134.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d505a4038a34db",
+          "source": "人民日报",
+          "title": "王毅分别同韩国外长赵显、出席2026中美政党对话美方代表会谈会见",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191137.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "82f77fca562246",
+          "source": "人民日报",
+          "title": "盛装迎接亚太宾朋",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191132.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e4571e2b4980b1",
+          "source": "人民日报",
+          "title": "相约深圳，续写“亚太奇迹”新篇章（和音）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191135.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "17d931e40ee5cc",
+          "source": "人民日报",
+          "title": "矢志团结奋斗 再创新的辉煌",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191130.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7f7c5fa6aa3529",
+          "source": "人民日报",
+          "title": "第二十三届中国国际农产品交易会开幕",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191146.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c61ebce4c24763",
+          "source": "人民日报",
+          "title": "第五届中国—阿拉伯国家政党对话会举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191138.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dd4cf5887fbf36",
+          "source": "人民日报",
+          "title": "铸就光纤产业硬核实力（专家点评）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191145.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e743a93a3dc22e",
+          "source": "人民日报",
+          "title": "韩正出席2026世界中文大会开幕式并致辞",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/14/content_30191133.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
         },
         {
           "id": "39304a54361ac9",
@@ -214741,14 +214997,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "光明日报",
           "title": "把党建优势转化为发展胜势",
           "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30239.html",
-          "date": "2026-11-14",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "86ca5544a3d613",
-          "source": "光明日报",
-          "title": "持之以恒推进全面从严治党 为做强做优做大国有企业和国有资本提供坚强保障",
-          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/14/content_30236.html",
           "date": "2026-11-14",
           "keyword": "综合时政"
         },
@@ -214849,34 +215097,338 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "bdf765d46bfe64",
+          "id": "997cb26709a2de",
           "source": "新华社",
-          "title": "为进一步加强国有企业党的建设指明方向",
-          "url": "https://www.news.cn/politics/leaders/20261114/ca905d3ecf144dba8487df20eaf0bba9/c.html",
+          "title": "2026中美政党对话致力加强对话交流拓展互利合作",
+          "url": "https://www.news.cn/world/20261114/aaf8c60a972b4b8abc73d28c763ed556/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9a206b37ac5e20",
+          "source": "新华社",
+          "title": "《中国体育学年鉴2025》在京发布",
+          "url": "https://www.news.cn/20261114/9b58031107e54f8ca3b5b5f6c6186a7b/c.html",
           "date": "2026-11-14",
           "keyword": "综合时政"
         },
         {
           "id": "92e852fe404c33",
           "source": "新华社",
-          "title": "大国外交中的文化印记丨一针一脉 发扬医道",
+          "title": "一针一脉 发扬医道",
           "url": "https://www.news.cn/politics/leaders/20261114/07853e0e1e7444aebd02e39bc78fcb36/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9c3c946e258250",
+          "source": "新华社",
+          "title": "两股冷空气来袭局地降温可超10℃",
+          "url": "https://www.news.cn/politics/20261114/501f9311ad2d46cfaf7887769bd2b121/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8f23abb026181f",
+          "source": "新华社",
+          "title": "中国女足新帅就位 明年奥预赛将成首道难关",
+          "url": "https://www.news.cn/sports/20261114/461e073944ae4335b7cf3fb5287ee80d/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6d0bdab11c64c6",
+          "source": "新华社",
+          "title": "中国帆板小将首次“远航” 差点“逆风翻盘”",
+          "url": "https://www.news.cn/sports/20261114/8307d47610a1408abfc716c9082092b7/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bdf765d46bfe64",
+          "source": "新华社",
+          "title": "为进一步 加强国有企业党的建设指明方向",
+          "url": "https://www.news.cn/politics/leaders/20261114/ca905d3ecf144dba8487df20eaf0bba9/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1dc9f520bf96af",
+          "source": "新华社",
+          "title": "五环耀非洲 青春连山海",
+          "url": "https://www.news.cn/sports/20261114/5e3ff2337fa748fc9ad0030563de33ea/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f2ce5cb9b20574",
+          "source": "新华社",
+          "title": "从“红灯停表”看算法向善",
+          "url": "https://www.news.cn/politics/20261114/afb9809b13fb407d8dff5dee630541fa/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a73c87b8d59daf",
+          "source": "新华社",
+          "title": "刚果（金）东部发生多起武装袭击 至少49人死亡",
+          "url": "https://www.news.cn/world/20261114/8d1aa826494c45bdb071596408ed559c/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fba87dc1953eb9",
+          "source": "新华社",
+          "title": "别让AI成为求职者的“审判官”",
+          "url": "https://www.news.cn/fortune/20261114/9585d5a2430440e182757a7ed6095855/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f94ff1f254d98c",
+          "source": "新华社",
+          "title": "哈尼梯田：以农耕非遗促文明交流互鉴",
+          "url": "https://www.news.cn/local/20261114/cba59c2334ac41079c60ee74fbbe1515/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a90568a9711479",
+          "source": "新华社",
+          "title": "土耳其与卡塔尔签署共同防御协议",
+          "url": "https://www.news.cn/20261114/58625d8854b140a089dc4f3258d17401/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6a01ec87def08a",
+          "source": "新华社",
+          "title": "埃及、土耳其和卡塔尔情报部门负责人讨论加沙停火",
+          "url": "https://www.news.cn/20261114/d224c8011bde4fa5932f5c8bfd8d754f/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "761d9b8d43f49a",
+          "source": "新华社",
+          "title": "宁忠岩破场地纪录夺金仍有小遗憾",
+          "url": "https://www.news.cn/sports/20261114/3b55eafe06444755b1c60ab04f6f6608/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dac5a944b9c656",
+          "source": "新华社",
+          "title": "射击世锦赛中国队拿下13金、7个奥运席位",
+          "url": "https://www.news.cn/sports/20261114/b040a10f768b4c1ea3cdc168d7b10a23/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c12e93169334bf",
+          "source": "新华社",
+          "title": "巴新总督向第15批援巴新中国医疗队授荣誉徽章",
+          "url": "https://www.news.cn/world/20261114/2cfe52597e4c4d778a9e3494a9e0dcd2/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c29d710e884a26",
+          "source": "新华社",
+          "title": "微纪录片丨孙中山先生在台湾的历史印迹",
+          "url": "https://www.news.cn/politics/20261114/0ad9ec2bcefe4c91bbaa1e4f168e0094/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "677263514313eb",
+          "source": "新华社",
+          "title": "德国无人机制造商遭网络攻击 用户包括德军和乌军",
+          "url": "https://www.news.cn/world/20261114/3b77a83c9dff4d57bd7978195e913dc0/c.html",
           "date": "2026-11-14",
           "keyword": "综合时政"
         },
         {
           "id": "b16aff5620bede",
           "source": "新华社",
-          "title": "新疆阿克苏地区库车市发生5.0级地震 暂无人员伤亡报告",
+          "title": "新疆阿克苏库车市发生5.0级地震 暂无人员伤亡报告",
           "url": "https://www.news.cn/20261114/862e718c109b41949403939f5f2bb4b9/c.html",
           "date": "2026-11-14",
           "keyword": "综合时政"
         },
         {
-          "id": "9ee35d240bba44",
+          "id": "76eba18d51f813",
+          "source": "新华社",
+          "title": "日本政府拟将未来五年防卫费总额提高至60万亿日元",
+          "url": "https://www.news.cn/world/20261114/6a2dc8b5f3c24c9ba3aa70e8f9efa867/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1b04fbf8fe632c",
+          "source": "新华社",
+          "title": "欧盟机构及五国将代表欧洲参与乌克兰和平谈判",
+          "url": "https://www.news.cn/world/20261114/2fc9054ee80f4027a7cac3c49131c92f/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4de9e861fed2f9",
+          "source": "新华社",
+          "title": "欧盟领导人讨论人工智能与乌克兰和谈",
+          "url": "https://www.news.cn/20261114/5219be7c23544551981baea4428b2acf/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "36b5922dd85591",
+          "source": "新华社",
+          "title": "欧盟领导人非正式会议在都柏林举行",
+          "url": "https://www.news.cn/world/20261114/5b654cb2360d44d086823717ded05f72/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ad12827706b5bb",
+          "source": "新华社",
+          "title": "涨至三倍 美国要求日本多掏驻日美军经费",
+          "url": "https://www.news.cn/20261114/cf665bb6b0ba4a97b85e0c5290056af5/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5ab722996387e0",
+          "source": "新华社",
+          "title": "特朗普说美空管系统故障与网络攻击无关",
+          "url": "https://www.news.cn/world/20261114/134dc215a0ba46f1adfa5ecf02cf3c1b/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e4080adb96c0ad",
           "source": "新华社",
           "title": "王毅分别同韩国外长赵显、出席2026中美政党对话美方代表会谈会见",
-          "url": "https://www.news.cn/politics/leaders/20261114/5e070d374b3546128bc801bc09b89fbe/c.html",
+          "url": "https://www.news.cn/world/20261114/1ba132923440474da2ba0948e15280a6/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "50b761d920e4f3",
+          "source": "新华社",
+          "title": "绿锁黄沙 黄河安澜",
+          "url": "https://www.news.cn/local/20261114/1fc0d00c42d94800b65dc6ec387207ea/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e7589a28fe4570",
+          "source": "新华社",
+          "title": "美“星舰”第15次试飞 助推器未能按计划返回发射场",
+          "url": "https://www.news.cn/world/20261114/332fe59bb3164789ba021904f8559c72/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3bb40ab316fd80",
+          "source": "新华社",
+          "title": "美国10月生产者价格指数涨幅再创新高",
+          "url": "https://www.news.cn/20261114/c435508c907a4d1c8838ac980381b339/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0e92d883441676",
+          "source": "新华社",
+          "title": "美国全国航班停飞令已致7000架次航班延误或取消",
+          "url": "https://www.news.cn/world/20261114/00b05eb66a904bff84214a379fc57972/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0af385e1ad13e4",
+          "source": "新华社",
+          "title": "美国新奥尔良港一游船与油轮相撞后部分沉没",
+          "url": "https://www.news.cn/20261114/65316aa7934e45319a0730a5fb0b6483/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ac6122dd97bc28",
+          "source": "新华社",
+          "title": "美媒称全美航班停飞调查指向软件更新",
+          "url": "https://www.news.cn/world/20261114/b78ef69724bd48109ad43a98b76faeea/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "05d23e2545c385",
+          "source": "新华社",
+          "title": "美媒：全美航班停飞令解除",
+          "url": "https://www.news.cn/world/20261114/ae4ab63995f64adca11ca040d1ecb331/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5400fb56626fe4",
+          "source": "新华社",
+          "title": "调查：德国约四成女兵曾遭性骚扰或侵害",
+          "url": "https://www.news.cn/20261114/b863b3f2825642fa9226f55d1fb690bc/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bfc47c00bbc75e",
+          "source": "新华社",
+          "title": "达喀尔青奥会闭幕",
+          "url": "https://www.news.cn/sports/20261114/5ffe9c5f8e2440c898b85cbb1b517b4f/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2aec6e702ce15c",
+          "source": "新华社",
+          "title": "进出美国及美国内已有近1.5万架次航班延误或取消",
+          "url": "https://www.news.cn/world/20261114/55ac6a3124834ed4badb7ed4dec2ec7e/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f35147cbd5a038",
+          "source": "新华社",
+          "title": "速度滑冰新一期国家队亮相“冰丝带”",
+          "url": "https://www.news.cn/sports/20261114/5be72db3cf9e459aaf0b83ac9e8a9e39/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0255d73b049385",
+          "source": "新华社",
+          "title": "阿根廷大首都区发生燃气爆炸致20余人受伤",
+          "url": "https://www.news.cn/20261114/fdf9dd3b77e34c68b77f63cbd1bc7d68/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2e0d8a518e15ee",
+          "source": "新华社",
+          "title": "马克龙将召集科技企业会议 推动欧洲科技自主",
+          "url": "https://www.news.cn/20261114/c96b46d7269d4564be94684af42bcbac/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "81026358de157c",
+          "source": "新华社",
+          "title": "驻英美军基地疑似出现未经授权的无人机活动",
+          "url": "https://www.news.cn/20261114/69eb678be3e248d39f8db9e9a4ddf6a0/c.html",
+          "date": "2026-11-14",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "60f7425166ee5c",
+          "source": "求是",
+          "title": "怎样推动构建更加公正合理的全球海洋治理体系",
+          "url": "https://www.qstheory.cn/20261114/75892478383149609a22784347383f50/c.html",
           "date": "2026-11-14",
           "keyword": "综合时政"
         }
@@ -214886,66 +215438,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 4.9,
+          "duration": 9.9,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261114.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.0,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202611/14/node_01.html"
+          "status": "ok",
+          "count": 28,
+          "duration": 2.3
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 7,
-          "duration": 2.5
+          "count": 44,
+          "duration": 2.0
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 6.9
+          "duration": 18.1
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 6.2
+          "count": 3,
+          "duration": 5.9
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 26,
-          "duration": 2.0
+          "duration": 1.9
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.0
+          "duration": 14.8
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.1
+          "duration": 2.7
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 8.5
+          "duration": 12.1
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 0,
-          "duration": 54.0
+          "duration": 68.4
         }
       ]
     }
   ],
-  "generatedAt": "2026-11-14T04:15:00+08:00"
+  "generatedAt": "2026-11-14T10:04:05+08:00"
 };
