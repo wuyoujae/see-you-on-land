@@ -215878,10 +215878,14 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "习近平",
-          "count": 3
+          "count": 5
         },
         {
           "name": "高质量发展",
+          "count": 3
+        },
+        {
+          "name": "经济",
           "count": 2
         }
       ],
@@ -215903,10 +215907,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
+          "id": "b828693fe96886",
+          "source": "新华社",
+          "title": "习近平主席推动建设“开放亚太”的故事",
+          "url": "https://www.news.cn/politics/leaders/20261115/a1084d73c6da4b3ca2ef1d1132552367/c.html",
+          "date": "2026-11-15",
+          "keyword": "习近平"
+        },
+        {
           "id": "72cc32f12308fe",
           "source": "新华社",
           "title": "习近平总书记重要讲话激励两岸同胞共创民族复兴美好未来",
           "url": "https://www.news.cn/politics/leaders/20261115/46aa9ab282dd41e6bf9193f6d26c7434/c.html",
+          "date": "2026-11-15",
+          "keyword": "习近平"
+        },
+        {
+          "id": "0fcdc3b75c843f",
+          "source": "求是",
+          "title": "习近平总书记重要讲话激励两岸同胞共创民族复兴美好未来",
+          "url": "https://www.qstheory.cn/20261115/3852b09f136d4f73abc9cd25672df3ad/c.html",
           "date": "2026-11-15",
           "keyword": "习近平"
         },
@@ -215927,6 +215947,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "高质量发展"
         },
         {
+          "id": "a1ea038bc376a1",
+          "source": "求是",
+          "title": "以高质量党建引领企业高质量发展",
+          "url": "https://www.qstheory.cn/20261115/325b9de3db6a4920a6dc5263fcf3f4f2/c.html",
+          "date": "2026-11-15",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "66d29bdd9cc3aa",
+          "source": "人民日报",
+          "title": "“为全球经济稳定发展作出积极贡献”（APEC中国年：开放 创新 合作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191238.html",
+          "date": "2026-11-15",
+          "keyword": "经济"
+        },
+        {
+          "id": "0909953d2f3e0d",
+          "source": "新华社",
+          "title": "12位APEC经济体领导人将出席APEC工商领导人 峰会",
+          "url": "https://www.news.cn/world/20261115/5667a85ff3214962a5bbc18ba3b9fe13/c.html",
+          "date": "2026-11-15",
+          "keyword": "经济"
+        },
+        {
           "id": "2ee75bf82f470d",
           "source": "中国政府网",
           "title": "李强会见泰国国王哇集拉隆功",
@@ -215939,14 +215983,6 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "人民日报",
           "title": "APEC深圳会议各项筹备工作已经就绪",
           "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191226.html",
-          "date": "2026-11-15",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "66d29bdd9cc3aa",
-          "source": "人民日报",
-          "title": "“为全球经济稳定发展作出积极贡献”（APEC中国年：开放 创新 合作）",
-          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191238.html",
           "date": "2026-11-15",
           "keyword": "综合时政"
         },
@@ -216247,6 +216283,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "bd66ffc1059f91",
+          "source": "新华社",
+          "title": "中国战队BLG夺得英雄联盟全球总决赛冠军",
+          "url": "https://www.news.cn/20261115/64527466490f428d92ef14cc1dde117c/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "86bb07f95bf7d7",
+          "source": "新华社",
+          "title": "中国驻纽约总领馆举办活动纪念东京审判开庭80周年",
+          "url": "https://www.news.cn/world/20261115/48cd9bdd83c74c48ada52799364df2be/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "01355dec9fceb9",
           "source": "新华社",
           "title": "以军称打死哈马斯一高级军事指挥官",
@@ -216263,10 +216315,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "815d3594eda032",
+          "source": "新华社",
+          "title": "全国艺联2026“艺术新作·冬暖主题影展”启幕",
+          "url": "https://www.news.cn/politics/20261115/655cde4683c447a2991044a8001ffe40/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "0622f223f465f6",
           "source": "新华社",
           "title": "全美航空运输预计15日晚恢复正常",
           "url": "https://www.news.cn/world/20261115/29a81e530e0c46ef8c6c7815af0d7d13/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "32f0d0d8002039",
+          "source": "新华社",
+          "title": "冰雪长白山，一泉清幽慢时光",
+          "url": "https://www.news.cn/local/20261115/d4fd0ca192ca487d95623b57c45833cc/c.html",
           "date": "2026-11-15",
           "keyword": "综合时政"
         },
@@ -216279,10 +216347,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "c451eca124a6f7",
+          "id": "e89e7e2eb49b6a",
           "source": "新华社",
-          "title": "叙利亚首都周边发生汽车炸弹爆炸致2死1伤",
-          "url": "https://www.news.cn/world/20261115/abfc2db511be4c13b691beed35a4ca1d/c.html",
+          "title": "吉林：日照雾凇宛若仙境",
+          "url": "https://www.news.cn/local/20261115/c323af72833d4eaa83d04bb90eb87594/c.html",
           "date": "2026-11-15",
           "keyword": "综合时政"
         },
@@ -216311,10 +216379,58 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "0170afaf94f8d4",
+          "source": "新华社",
+          "title": "巴林发布警报提示潜在威胁",
+          "url": "https://www.news.cn/world/20261115/044c5736dbc34f85ae2acc788406f5cc/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "10435de6b65fe2",
+          "source": "新华社",
+          "title": "权威数读丨本周，这些数据值得关注",
+          "url": "https://www.news.cn/politics/20261115/c8695a230e7b48988bc583cb2db7d8f1/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "c378552d398a8b",
           "source": "新华社",
           "title": "李强会见泰国国王哇集拉隆功",
           "url": "https://www.news.cn/politics/leaders/20261115/7386071991684d3b8a1dd4cd7d13e67e/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7f977381fb9e17",
+          "source": "新华社",
+          "title": "棕榈叶编出“动物世界”",
+          "url": "http://fj.news.cn/20261115/41501826e79c4522b87ea7fb04ed9a34/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "89c8efadcfd05d",
+          "source": "新华社",
+          "title": "江西培育产业转型升级新动能：攀高向优气象新",
+          "url": "http://www.jx.xinhuanet.com/20261115/2c0d09aed6e04755b23fe4b1547e195a/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "817e2fd1b02c5c",
+          "source": "新华社",
+          "title": "河南中牟：护航草莓丰产",
+          "url": "https://www.news.cn/local/20261115/8134e271564548c88eef0c8813d0ba60/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0dc0fd5c5d7cb5",
+          "source": "新华社",
+          "title": "洋洋大观丨跨越太平洋的“加速度”",
+          "url": "https://www.news.cn/world/20261115/641a399d53a44560a71a70cc580d3e7a/c.html",
           "date": "2026-11-15",
           "keyword": "综合时政"
         },
@@ -216335,10 +216451,66 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "75af5aaac9b9f8",
+          "source": "新华社",
+          "title": "联合国气候机构负责人敦促加快谈判进程",
+          "url": "https://www.news.cn/world/20261115/d1409d11dde74fd0b63df8b44874f6e7/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "898cf949ee027d",
+          "source": "新华社",
+          "title": "超百家世界500强企业代表将参加APEC工商领导人峰会",
+          "url": "https://www.news.cn/world/20261115/7a48b16a60914138a68075eda398f3d4/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
           "id": "264f9702569d30",
           "source": "新华社",
           "title": "追光丨一条黄河，N种运动打开方式",
           "url": "https://www.news.cn/sports/20261115/2de49abf01574925a66f84abf81a0fcf/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c3a39446c5319d",
+          "source": "新华社",
+          "title": "追光丨不新建一座场馆，长春大冬会靠什么不“将就”？",
+          "url": "https://www.news.cn/sports/20261115/4416aa6c57ca40f18f4c749a129580f0/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7b53710aded934",
+          "source": "新华社",
+          "title": "陕西千湖湿地：绿头鸭翩跹入画",
+          "url": "https://www.news.cn/local/20261115/f8fe1c05ff174f5f8c8e672193154204/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7b02469e9acf08",
+          "source": "求是",
+          "title": "“药篮子”上新！2026年医保商保“双目录”发布",
+          "url": "https://www.qstheory.cn/20261115/f3116910c49741c9a2cd6ac1d57d23a9/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8482169ac1a4ef",
+          "source": "求是",
+          "title": "中美举行中美经贸磋商机制项下贸易理事会首次会议",
+          "url": "https://www.qstheory.cn/20261115/664d2c3496164076abf82b96edbef25c/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cd4ff9ff897462",
+          "source": "求是",
+          "title": "为中奥友好战略伙伴关系注入民生新内涵",
+          "url": "https://www.qstheory.cn/20261115/92b451835f22458d99299cf2ac1da851/c.html",
           "date": "2026-11-15",
           "keyword": "综合时政"
         },
@@ -216349,6 +216521,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.qstheory.cn/20261115/08d7f51e50724de086c84cc09f71eb4d/c.html",
           "date": "2026-11-15",
           "keyword": "综合时政"
+        },
+        {
+          "id": "3ff11bf1699537",
+          "source": "求是",
+          "title": "学习手记｜开放是亚太合作的生命线",
+          "url": "https://www.qstheory.cn/20261115/6deb73d2a8f0418c851f57da2df89951/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e028597de6ca84",
+          "source": "求是",
+          "title": "近六年我国颠覆性技术产业化指数累计增幅超五成",
+          "url": "https://www.qstheory.cn/20261115/605233ecb606439398800e64bad4e23c/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -216356,65 +216544,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 4.7,
+          "duration": 9.8,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261115.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 20,
-          "duration": 0.9
+          "duration": 2.0
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 14,
-          "duration": 2.6
+          "count": 30,
+          "duration": 1.7
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 9.3
+          "duration": 14.7
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 1,
+          "count": 8,
           "duration": 6.0
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 20,
-          "duration": 1.8
+          "duration": 1.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.0
+          "duration": 13.8
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 1,
-          "duration": 2.3
+          "duration": 2.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 9.4
+          "duration": 9.1
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 1,
-          "duration": 60.7
+          "duration": 65.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-11-15T09:35:40+08:00"
+  "generatedAt": "2026-11-15T12:17:37+08:00"
 };
