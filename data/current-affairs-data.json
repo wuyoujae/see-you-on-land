@@ -215874,65 +215874,33 @@
     },
     {
       "date": "2026-11-15",
-      "keyword": "会见泰国国王",
+      "keyword": "习近平",
       "keywords": [
         {
-          "name": "会见泰国国王",
+          "name": "习近平",
           "count": 3
         },
         {
-          "name": "国国王哇集拉",
-          "count": 3
-        },
-        {
-          "name": "国王哇集拉隆",
-          "count": 3
-        },
-        {
-          "name": "强会见泰国国",
-          "count": 3
-        },
-        {
-          "name": "李强会见泰国",
-          "count": 3
-        },
-        {
-          "name": "泰国国王哇集",
-          "count": 3
-        },
-        {
-          "name": "王哇集拉隆功",
-          "count": 3
-        },
-        {
-          "name": "见泰国国王哇",
-          "count": 3
+          "name": "高质量发展",
+          "count": 2
         }
       ],
       "articles": [
         {
-          "id": "2ee75bf82f470d",
-          "source": "中国政府网",
-          "title": "李强会见泰国国王哇集拉隆功",
-          "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086062.htm",
+          "id": "9eb4bd649b4596",
+          "source": "光明日报",
+          "title": "习近平主席引领亚太大家庭扬帆前行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30309.html",
           "date": "2026-11-15",
-          "keyword": "会见泰国国王"
+          "keyword": "习近平"
         },
         {
-          "id": "bad9117e1818f6",
-          "source": "学习强国",
-          "title": "李强会见泰国国王哇集拉隆功",
-          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=9548243233701228229&item_id=9548243233701228229",
+          "id": "c2c3d9b86911c9",
+          "source": "广东发布",
+          "title": "习近平主席引领亚太大家庭扬帆前行",
+          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4980279.html",
           "date": "2026-11-15",
-          "keyword": "会见泰国国王"
-        },
-        {
-          "id": "c378552d398a8b",
-          "source": "新华社",
-          "title": "李强会见泰国国王哇集拉隆功",
-          "url": "https://www.news.cn/politics/leaders/20261115/7386071991684d3b8a1dd4cd7d13e67e/c.html",
-          "date": "2026-11-15",
-          "keyword": "会见泰国国王"
+          "keyword": "习近平"
         },
         {
           "id": "72cc32f12308fe",
@@ -215940,13 +215908,445 @@
           "title": "习近平总书记重要讲话激励两岸同胞共创民族复兴美好未来",
           "url": "https://www.news.cn/politics/leaders/20261115/46aa9ab282dd41e6bf9193f6d26c7434/c.html",
           "date": "2026-11-15",
+          "keyword": "习近平"
+        },
+        {
+          "id": "b55eb0917d5d48",
+          "source": "人民日报",
+          "title": "以高质量党建引领企业高质量发展",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191221.html",
+          "date": "2026-11-15",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "e1bd206c98c2a1",
+          "source": "人民日报",
+          "title": "海南加快推动旅游业高质量发展",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191220.html",
+          "date": "2026-11-15",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "2ee75bf82f470d",
+          "source": "中国政府网",
+          "title": "李强会见泰国国王哇集拉隆功",
+          "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086062.htm",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "467dac88d7072f",
+          "source": "人民日报",
+          "title": "APEC深圳会议各项筹备工作已经就绪",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191226.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "66d29bdd9cc3aa",
+          "source": "人民日报",
+          "title": "“为全球经济稳定发展作出积极贡献”（APEC中国年：开放 创新 合作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191238.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d7594eeeb97c70",
+          "source": "人民日报",
+          "title": "为两岸关系和平发展、实现祖国完全统一而努力",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191227.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4f9bcdbf54acb3",
+          "source": "人民日报",
+          "title": "以中美建设性战略稳定促进亚太共同繁荣（大使随笔·APEC中国年：开放 创新 合作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191239.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a06035ca6d9a9e",
+          "source": "人民日报",
+          "title": "何立峰出席亚太经合组织工商咨询理事会第四次会议开幕式并致辞",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191236.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "74e22f50e33bd1",
+          "source": "人民日报",
+          "title": "学习贯彻党的二十届五中全会精神中央宣讲团在江西宣讲（学习贯彻党的二十届五中全会精神）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191240.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4ae25e8fd7feb2",
+          "source": "人民日报",
+          "title": "弘扬中华文化 凝聚四海侨心",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191225.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "74ac29ac838b4e",
+          "source": "人民日报",
+          "title": "李强会见泰国国会主席兼下议长索蓬",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191234.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1b9eb91f15b317",
+          "source": "人民日报",
+          "title": "李强会见泰国国王哇集拉隆功",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191222.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1de4b3410f1f59",
+          "source": "人民日报",
+          "title": "李强同泰国总理阿努廷共同出席中泰企业家座谈会",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191235.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f953cac609ab14",
+          "source": "人民日报",
+          "title": "民相亲在于心相通（记者手记）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191242.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3bce370de1a66e",
+          "source": "人民日报",
+          "title": "深化经贸往来，把亚太合作的蛋糕越做越大（瞩望深圳APEC会议）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191237.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6ece8ef5f452f8",
+          "source": "人民日报",
+          "title": "纪念孙中山先生诞辰160周年活动嘉宾团晋谒中山陵仪式在南京举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191229.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bb205779e5d84f",
+          "source": "人民日报",
+          "title": "纪念孙中山诞辰160周年国际学术研讨会在广东中山召开",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191232.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cc59be056186db",
+          "source": "人民日报",
+          "title": "西藏多措并举扎实做好民生工作",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191219.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c786146c91025f",
+          "source": "人民日报",
+          "title": "让人民群众切实感受到公平正义就在身边",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191223.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ad6a5115dcf75e",
+          "source": "人民日报",
+          "title": "赓续血脉 传承薪火",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191228.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "95dafd35927a82",
+          "source": "人民日报",
+          "title": "那台CT机的故事",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/15/content_30191241.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d13442337d726c",
+          "source": "光明日报",
+          "title": "2026巴西国际咖啡周在贝洛奥里藏特举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30319.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "69474164ccb003",
+          "source": "光明日报",
+          "title": "APEC深圳会议各项筹备工作已经就绪",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30315.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "92a80ef70afa9d",
+          "source": "光明日报",
+          "title": "“益心为公”志愿者参与办案环节7.26万余件次",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30299.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "340357569194d2",
+          "source": "光明日报",
+          "title": "【晒晒咱的镇馆之宝70】滕侯鼎：古国存在的记录者",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30314.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7e12a4fa552132",
+          "source": "光明日报",
+          "title": "【民生总关情】“民情集市”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30313.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "309e87b3b5215a",
+          "source": "光明日报",
+          "title": "为两岸关系和平发展、实现祖国完全统一而努力",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30311.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "048502790407ca",
+          "source": "光明日报",
+          "title": "人工智能全球治理重在行动",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30317.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3b305bcdb7cbea",
+          "source": "光明日报",
+          "title": "以系统思维构建高校心理育人新格局",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30320.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ff288ef0fd20bc",
+          "source": "光明日报",
+          "title": "共建亚太共同体：中国的担当与贡献",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30316.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c8de212bc53ac5",
+          "source": "光明日报",
+          "title": "勇立潮头再扬帆",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30312.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f9758359d72640",
+          "source": "光明日报",
+          "title": "南非甜樱桃，期待摆上中国果盘",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30318.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6bb877a2c62b58",
+          "source": "光明日报",
+          "title": "学习贯彻党的二十届五中全会精神中央宣讲团在江西宣讲",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30295.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "39f1b0a6e843ed",
+          "source": "光明日报",
+          "title": "李强会见泰国国会主席兼下议长索蓬",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30293.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a61860da87e60f",
+          "source": "光明日报",
+          "title": "李强会见泰国国王哇集拉隆功",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30292.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "685280aaa823ba",
+          "source": "光明日报",
+          "title": "李强同泰国总理阿努廷共同出席中泰企业家座谈会",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30294.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b94ec58473387f",
+          "source": "光明日报",
+          "title": "纪念孙中山先生诞辰160周年活动嘉宾团晋谒中山陵仪式在南京举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30298.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "09a38a9aef769c",
+          "source": "光明日报",
+          "title": "纪念孙中山诞辰160周年国际学术研讨会在广东中山召开",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30296.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fd3f1cb7620a84",
+          "source": "光明日报",
+          "title": "赓续血脉 传承薪火",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30297.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "63c688513c9e7b",
+          "source": "光明日报",
+          "title": "铸牢“根”和“魂” 奋进新征程",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/15/content_30310.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bad9117e1818f6",
+          "source": "学习强国",
+          "title": "李强会见泰国国王哇集拉隆功",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=9548243233701228229&item_id=9548243233701228229",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "117af93eb8440d",
+          "source": "新华社",
+          "title": "中东部气温将创新低 雨雪增强北方局地有暴雪",
+          "url": "https://www.news.cn/local/20261115/fc91794a06734ff5b54aa8765b76c764/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "01355dec9fceb9",
+          "source": "新华社",
+          "title": "以军称打死哈马斯一高级军事指挥官",
+          "url": "https://www.news.cn/world/20261115/251b0df0e8324e46ae68e9679672806e/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a20091aec7623f",
+          "source": "新华社",
+          "title": "党领导人民治黄80年知识问答",
+          "url": "https://www.news.cn/politics/20261115/5163b4b367834c739498971d8fbe7484/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0622f223f465f6",
+          "source": "新华社",
+          "title": "全美航空运输预计15日晚恢复正常",
+          "url": "https://www.news.cn/world/20261115/29a81e530e0c46ef8c6c7815af0d7d13/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "05a12031e704d6",
+          "source": "新华社",
+          "title": "叙利亚大马士革农村省发生汽车炸弹爆炸致2死1伤",
+          "url": "https://www.news.cn/20261115/f19b4e9dd85d476caecacbd396deee87/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c451eca124a6f7",
+          "source": "新华社",
+          "title": "叙利亚首都周边发生汽车炸弹爆炸致2死1伤",
+          "url": "https://www.news.cn/world/20261115/abfc2db511be4c13b691beed35a4ca1d/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f6c5915a95b9bd",
+          "source": "新华社",
+          "title": "哥伦比亚西南部一客车翻车致8人死亡",
+          "url": "https://www.news.cn/20261115/eddd98d6739b492595440a0760751850/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d5a7b87047900d",
+          "source": "新华社",
+          "title": "埃森科特：内塔尼亚胡称组建“团结政府”是故弄玄虚",
+          "url": "https://www.news.cn/world/20261115/310f8ecac0fe4725a3288846d4b89577/c.html",
+          "date": "2026-11-15",
           "keyword": "综合时政"
         },
         {
           "id": "137eadd81dcab3",
           "source": "新华社",
-          "title": "学习手记｜开放是亚太合作的生命线",
+          "title": "学习手记丨开放是亚太合作的生命线",
           "url": "https://www.news.cn/politics/leaders/20261115/945dc91910694ea8ad0e11442f5a63bc/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c378552d398a8b",
+          "source": "新华社",
+          "title": "李强会见泰国国王哇集拉隆功",
+          "url": "https://www.news.cn/politics/leaders/20261115/7386071991684d3b8a1dd4cd7d13e67e/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "18cbc17fe8ef28",
+          "source": "新华社",
+          "title": "美“星舰”飞船首次被发射塔机械臂“捕获”回收",
+          "url": "https://www.news.cn/20261115/3c8db8eb684e46f3856686f0a43345b6/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "19129dafb013fb",
+          "source": "新华社",
+          "title": "美联邦航空局局长：全美航空运输预计15日晚恢复正常",
+          "url": "https://www.news.cn/20261115/44fb23ffabad443e9903f3dbd8fb830f/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "264f9702569d30",
+          "source": "新华社",
+          "title": "追光丨一条黄河，N种运动打开方式",
+          "url": "https://www.news.cn/sports/20261115/2de49abf01574925a66f84abf81a0fcf/c.html",
+          "date": "2026-11-15",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "54bf89030afa16",
+          "source": "求是",
+          "title": "如何锤炼坚强党性",
+          "url": "https://www.qstheory.cn/20261115/08d7f51e50724de086c84cc09f71eb4d/c.html",
           "date": "2026-11-15",
           "keyword": "综合时政"
         }
@@ -215956,67 +216356,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 7.3,
+          "duration": 4.7,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261115.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.4,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202611/15/node_01.html"
+          "status": "ok",
+          "count": 20,
+          "duration": 0.9
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 3,
-          "duration": 3.6
+          "count": 14,
+          "duration": 2.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 15.4
+          "duration": 9.3
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 7.3
+          "count": 1,
+          "duration": 6.0
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.4,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202611/15/node_01.html"
+          "status": "ok",
+          "count": 20,
+          "duration": 1.8
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.2
+          "duration": 13.0
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 1,
-          "duration": 2.5
+          "duration": 2.3
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 1,
-          "duration": 9.8
+          "duration": 9.4
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 0,
-          "duration": 67.5
+          "count": 1,
+          "duration": 60.7
         }
       ]
     }
   ],
-  "generatedAt": "2026-11-15T01:34:49+08:00"
+  "generatedAt": "2026-11-15T09:35:40+08:00"
 }
