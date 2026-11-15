@@ -216985,7 +216985,128 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 72.3
         }
       ]
+    },
+    {
+      "date": "2026-11-16",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 2
+        },
+        {
+          "name": "经济",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "fbcebc56a7d746",
+          "source": "学习强国",
+          "title": "《习近平的文化情缘》（国际版）和《习主席的来信》（国际版）在APEC成员经济体主流媒体播出",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=2112179610955013293&item_id=2112179610955013293",
+          "date": "2026-11-16",
+          "keyword": "习近平"
+        },
+        {
+          "id": "1bedffd8d3bb30",
+          "source": "新华社",
+          "title": "《习近平的文化情缘》（国际版）和《习主席的来信》（国际版）在APEC成员经济体主流媒体播出",
+          "url": "https://www.news.cn/world/20261116/006a584ce78448ff8f3e353a99844adc/c.html",
+          "date": "2026-11-16",
+          "keyword": "习近平"
+        },
+        {
+          "id": "8c6d90d21335e1",
+          "source": "新华社",
+          "title": "APEC“中国年”激荡亚太奔涌向前的合作浪潮",
+          "url": "https://www.news.cn/world/20261116/63ea1765ecf04589bc0ba0c056c414cf/c.html",
+          "date": "2026-11-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "06fba3d078dea9",
+          "source": "新华社",
+          "title": "爱沙尼亚将关闭与俄罗斯的所有边境口岸",
+          "url": "https://www.news.cn/world/20261116/7cd940fbc7f14e1cb1cdf70acfe32246/c.html",
+          "date": "2026-11-16",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9cf47a91d5d8c8",
+          "source": "新华社",
+          "title": "聚焦APEC·视频画报｜同舟共济 共创亚太美好未来",
+          "url": "https://www.news.cn/politics/leaders/20261116/eef3dfc1a69c443aa10e9d618a0cd1b8/c.html",
+          "date": "2026-11-16",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 10.1,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261116.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.9,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202611/16/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 4,
+          "duration": 2.6
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 18.5
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.6
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 6.0,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202611/16/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 15.2
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 1,
+          "duration": 2.7
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.8
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 61.6
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-11-15T20:27:18+08:00"
+  "generatedAt": "2026-11-16T03:14:55+08:00"
 };
