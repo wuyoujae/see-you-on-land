@@ -219047,7 +219047,590 @@
           "duration": 61.9
         }
       ]
+    },
+    {
+      "date": "2026-11-17",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 9
+        },
+        {
+          "name": "高质量发展",
+          "count": 3
+        },
+        {
+          "name": "粤港澳大湾区",
+          "count": 2
+        },
+        {
+          "name": "经济",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "d88c7851210e1e",
+          "source": "中国政府网",
+          "title": "习近平致电祝贺波黑新一届主席团成员就职",
+          "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086242.htm",
+          "date": "2026-11-17",
+          "keyword": "习近平"
+        },
+        {
+          "id": "b149753edef596",
+          "source": "人民日报",
+          "title": "习近平将同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191523.html",
+          "date": "2026-11-17",
+          "keyword": "习近平"
+        },
+        {
+          "id": "62df2142bcc7a8",
+          "source": "人民日报",
+          "title": "习近平致信祝贺暨南大学建校120周年",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191521.html",
+          "date": "2026-11-17",
+          "keyword": "习近平"
+        },
+        {
+          "id": "d0b79cfc63ac86",
+          "source": "人民日报",
+          "title": "习近平致电祝贺波黑新一届主席团成员就职",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191522.html",
+          "date": "2026-11-17",
+          "keyword": "习近平"
+        },
+        {
+          "id": "46135da260ebf8",
+          "source": "光明日报",
+          "title": "习近平将同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30423.html",
+          "date": "2026-11-17",
+          "keyword": "习近平"
+        },
+        {
+          "id": "7d9dab23c82572",
+          "source": "光明日报",
+          "title": "习近平致信祝贺暨南大学建校120周年",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30420.html",
+          "date": "2026-11-17",
+          "keyword": "习近平"
+        },
+        {
+          "id": "ea773f85997904",
+          "source": "光明日报",
+          "title": "习近平致电祝贺波黑新一届主席团成员就职",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30422.html",
+          "date": "2026-11-17",
+          "keyword": "习近平"
+        },
+        {
+          "id": "99c42b2f575e93",
+          "source": "学习强国",
+          "title": "习近平致电祝贺波黑新一届主席团成员就职",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=3597048237298221235&item_id=3597048237298221235",
+          "date": "2026-11-17",
+          "keyword": "习近平"
+        },
+        {
+          "id": "602962d3ab2231",
+          "source": "新华社",
+          "title": "习近平致电祝贺波黑新一届主席团成员就职",
+          "url": "https://www.news.cn/politics/leaders/20261117/00e0a6eb1d6c429fb1d26ce9fe83ac97/c.html",
+          "date": "2026-11-17",
+          "keyword": "习近平"
+        },
+        {
+          "id": "5d30bc43aa9ef9",
+          "source": "人民日报",
+          "title": "暨南大学建校120周年高质量发展大会举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191537.html",
+          "date": "2026-11-17",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "9ea038b708a02d",
+          "source": "人民日报",
+          "title": "深入学习贯彻党的二十届五中全会精神 奋力开创粤港澳大湾区高质量发展新局面",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191520.html",
+          "date": "2026-11-17",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "dadb8a5fa793ed",
+          "source": "光明日报",
+          "title": "深入学习贯彻党的二十届五中全会精神 奋力开创粤港澳大湾区高质量发展新局面",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30419.html",
+          "date": "2026-11-17",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "f56b8222904d95",
+          "source": "人民日报",
+          "title": "以动能转换推动经济持续向好（快评）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191539.html",
+          "date": "2026-11-17",
+          "keyword": "经济"
+        },
+        {
+          "id": "a78de870452cd0",
+          "source": "人民日报",
+          "title": "坚定信心 抢抓机遇 全力完成全年经济社会发展主要目标任务",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191541.html",
+          "date": "2026-11-17",
+          "keyword": "经济"
+        },
+        {
+          "id": "c04f1da8ad4757",
+          "source": "人民日报",
+          "title": "​向创新要活力，塑造亚太发展新动能（瞩望深圳APEC会议）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191532.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cd169f567abd97",
+          "source": "人民日报",
+          "title": "“2026年布达佩斯人民币倡议”论坛举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191536.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b6eae763d3a4bb",
+          "source": "人民日报",
+          "title": "“携手推动亚太地区发展”（APEC中国年：开放 创新 合作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191534.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ab3f6ad0200f47",
+          "source": "人民日报",
+          "title": "“稳”的特质明显，“稳”的底气增强（权威发布）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191538.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "62758c166b1b06",
+          "source": "人民日报",
+          "title": "中国稻种 扎根海外",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191528.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f65949e86fe4c8",
+          "source": "人民日报",
+          "title": "乘大势 立潮头 共繁荣",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191526.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4d4b14507209ba",
+          "source": "人民日报",
+          "title": "健全机制，塑造区域发展胜势（今日谈）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191544.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c8c43b62281df0",
+          "source": "人民日报",
+          "title": "凝聚侨心侨力 展现更大作为（今日谈）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191543.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "067a0dcb9fc6cf",
+          "source": "人民日报",
+          "title": "加力推动政策落地见效 努力实现“十五五”良好开局",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191542.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fa52ba59dbf71a",
+          "source": "人民日报",
+          "title": "发挥党校（行政学院）在党性教育中的重要作用（权威访谈·学习贯彻党的二十届五中全会精神）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191527.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d0892545ec357d",
+          "source": "人民日报",
+          "title": "在第29次中国—东盟领导人会议上的讲话",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191530.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "91ac7294c1b93d",
+          "source": "人民日报",
+          "title": "外交部介绍中方特使、特代访问中东海湾等地区国家情况",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191535.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e6fde108edcd75",
+          "source": "人民日报",
+          "title": "李强出席第29次中国—东盟领导人会议",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191524.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d5b221b603d164",
+          "source": "人民日报",
+          "title": "李强结束出访回到北京",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191529.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "57b72056d2dcf0",
+          "source": "人民日报",
+          "title": "李鸿忠会见第五届中国—阿拉伯国家政党对话会外方参会代表",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191531.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "94bc0c6425e455",
+          "source": "人民日报",
+          "title": "王沪宁会见瑙鲁总统阿迪昂",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191525.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "29e8743c8a5367",
+          "source": "人民日报",
+          "title": "第十四届中部博览会将筹办10场产业对接活动",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191540.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d11d94a57a325d",
+          "source": "人民日报",
+          "title": "跨越山海 共赴繁荣（大使随笔·APEC中国年：开放 创新 合作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191533.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4a42ddf9983331",
+          "source": "光明日报",
+          "title": "2026年APEC工商界活动形成14份成果文件",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30460.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ace27a1e52f228",
+          "source": "光明日报",
+          "title": "“核心价值观百场讲坛”第175场将走进辽宁沈阳",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30485.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b612f59e423e6b",
+          "source": "光明日报",
+          "title": "为中部崛起注入新动能",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30480.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "536c851fd476f3",
+          "source": "光明日报",
+          "title": "亚太人文交流活动在广东深圳举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30461.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a0f95f55dcbbde",
+          "source": "光明日报",
+          "title": "同舟共济，开创亚太和世界更加美好未来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30425.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "173afa5aff6609",
+          "source": "光明日报",
+          "title": "在第29次中国－东盟领导人会议上的讲话",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30444.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8079197ac4efe8",
+          "source": "光明日报",
+          "title": "开放融通大道宽",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30424.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fa2650b33fadcc",
+          "source": "光明日报",
+          "title": "总书记再次强调学习继承发扬孙中山先生的宝贵精神",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30458.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0e4564912b28cb",
+          "source": "光明日报",
+          "title": "总体平稳 向新向优",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30479.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bb34cc9b085f33",
+          "source": "光明日报",
+          "title": "李强出席第29次中国－东盟领导人会议",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30443.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b29a90f0e922dc",
+          "source": "光明日报",
+          "title": "李强结束出访回到北京",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30445.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "83ea17f907f954",
+          "source": "光明日报",
+          "title": "王沪宁会见瑙鲁总统阿迪昂",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30446.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d876278c971f9c",
+          "source": "光明日报",
+          "title": "第三轮第七批中央生态环保督察完成督察进驻阶段工作",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30482.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "971a6047087b6d",
+          "source": "光明日报",
+          "title": "聚力开放创新 共筑繁荣未来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30459.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "76b4920b5ed6d7",
+          "source": "光明日报",
+          "title": "这片土地上，处处有“亲戚”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30481.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1403d0aa46cd90",
+          "source": "新华社",
+          "title": "两次眺望，同样的期待",
+          "url": "https://www.news.cn/politics/leaders/20261117/f9af290007f44e10af32935cbce18b60/c.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cea84f2a3e8f10",
+          "source": "新华社",
+          "title": "中方敦促推进叙利亚包容治理进程",
+          "url": "https://www.news.cn/20261117/6daff637b9e54c4889070c46f2b92e24/c.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e4bb9246e6b12a",
+          "source": "新华社",
+          "title": "为民族复兴而继续奋斗",
+          "url": "https://www.news.cn/politics/leaders/20261117/3f1f9d9c297f4fe194bfc1bee6974bb8/c.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "215835c03909a5",
+          "source": "新华社",
+          "title": "乌首都基辅遭弹道导弹袭击 响起强烈爆炸声",
+          "url": "https://www.news.cn/20261117/c986d4243f1d48b2a7259578e015c906/c.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0214e2daaf0450",
+          "source": "新华社",
+          "title": "伊朗官方否认伊斯法罕省启动防空系统",
+          "url": "https://www.news.cn/20261117/49127e15c3d54512909c3689504ad260/c.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0e881509836820",
+          "source": "新华社",
+          "title": "俄方：三方会谈将继续举行 尚未协商欧洲参与问题",
+          "url": "https://www.news.cn/20261117/1438cd9796b8420da0fda9882cc0015a/c.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eb747045305349",
+          "source": "新华社",
+          "title": "凝心聚力，促进珠江口东西两岸融合发展",
+          "url": "https://www.news.cn/politics/leaders/20261117/5e3b111219c54b43b0338c0d36eb1ccd/c.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "77fd8b1956a095",
+          "source": "新华社",
+          "title": "印尼马鲁古省发生6.6级地震",
+          "url": "https://www.news.cn/20261117/934ed0dc6cc8483c8df7867632a018a0/c.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8fc49c8211d830",
+          "source": "新华社",
+          "title": "波黑新一届主席团成员宣誓就职",
+          "url": "https://www.news.cn/20261117/0980ca4d335b4d07b252e7f1bc46db27/c.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "164e72214ffb73",
+          "source": "新华社",
+          "title": "泽连斯基：欧洲谈判团队首次“全阵容”与乌美磋商",
+          "url": "https://www.news.cn/20261117/bfe231790baf4905a3eb2b087b5e22f3/c.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d3443295616dc8",
+          "source": "新华社",
+          "title": "第14届中博会11月21日至23日在郑州举行",
+          "url": "https://www.news.cn/fortune/20261117/c13768c3c9e54b2c8155bd8b17de87b3/c.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "66a35158349ef3",
+          "source": "新华社",
+          "title": "纽约股市三大股指16日下跌",
+          "url": "https://www.news.cn/20261117/a9d048e1c26b49278685cce56e729e79/c.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f04dd86601cc71",
+          "source": "新华社",
+          "title": "美军证实“罗斯福”号航母已抵达中东",
+          "url": "https://www.news.cn/20261117/b2ba79148c824d7a90af56285237e88c/c.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "651c2a1a7fadba",
+          "source": "新华社",
+          "title": "近镜头｜深中通道，辉映百年梦想",
+          "url": "https://www.news.cn/politics/leaders/20261117/bb9c28c07bbd453da0c2ee6b21dbffa2/c.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7f5d284f289e93",
+          "source": "新华社",
+          "title": "锐意进取开新局 携手同心筑伟业",
+          "url": "https://www.news.cn/politics/leaders/20261117/8a6713e95fd04bd590be847c5a878540/c.html",
+          "date": "2026-11-17",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 9.6,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261117.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "ok",
+          "count": 25,
+          "duration": 2.5
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 16,
+          "duration": 2.4
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 11.2
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.2
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 19,
+          "duration": 1.7
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.2
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 1,
+          "duration": 2.4
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 1,
+          "duration": 8.3
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 61.7
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-11-16T21:19:06+08:00"
+  "generatedAt": "2026-11-17T07:11:01+08:00"
 }
