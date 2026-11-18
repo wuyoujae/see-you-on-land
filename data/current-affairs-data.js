@@ -223203,7 +223203,462 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 54.8
         }
       ]
+    },
+    {
+      "date": "2026-11-19",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 13
+        },
+        {
+          "name": "高质量发展",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "33ce207279ab51",
+          "source": "人民日报",
+          "title": "习近平会见俄罗斯总统普京",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192097.html",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
+          "id": "06be01a9ad1d5b",
+          "source": "人民日报",
+          "title": "习近平会见韩国总统李在明",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192099.html",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
+          "id": "fcf38a49df5540",
+          "source": "人民日报",
+          "title": "习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192095.html",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
+          "id": "242f9e12340c46",
+          "source": "人民日报",
+          "title": "习近平和彭丽媛为出席亚太经合组织第三十三次领导人非正式会议的来宾举行欢迎宴会",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192096.html",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
+          "id": "2145d0c21e37c0",
+          "source": "人民日报",
+          "title": "习近平迎接美国总统特朗普",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192098.html",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
+          "id": "e9f875733eea97",
+          "source": "光明日报",
+          "title": "习近平会见俄罗斯总统普京",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/19/content_30655.html",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
+          "id": "97abbaa509f6fe",
+          "source": "光明日报",
+          "title": "习近平会见韩国总统李在明",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/19/content_30657.html",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
+          "id": "605348f736054c",
+          "source": "光明日报",
+          "title": "习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/19/content_30653.html",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
+          "id": "8dbb45dc257455",
+          "source": "光明日报",
+          "title": "习近平和彭丽媛为出席亚太经合组织第三十三次领导人非正式会议的来宾举行欢迎宴会",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/19/content_30654.html",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
+          "id": "6905f5d8a14ccc",
+          "source": "光明日报",
+          "title": "习近平迎接美国总统特朗普",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/19/content_30656.html",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
+          "id": "9626e7824ab3a7",
+          "source": "光明日报",
+          "title": "开局之年，习近平总书记调研指导粤港澳大湾区建设",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/19/content_30676.html",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
+          "id": "2c97d58f1c8a36",
+          "source": "新华社",
+          "title": "习近平主席主旨演讲为亚太工商界增添信心和动力",
+          "url": "https://www.news.cn/politics/leaders/20261119/63e0d2f3d9914e12bcada9adc1852ad4/c.html",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
+          "id": "9f1141c482c25e",
+          "source": "新华社",
+          "title": "习近平主席这样介绍深圳",
+          "url": "https://www.news.cn/politics/leaders/20261119/1d180e0548c44fb9a8681758d080f969/c.html",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
+          "id": "d4058862763555",
+          "source": "人民日报",
+          "title": "立足特色和优势加快壮大新动能 推动高质量发展不断取得新成效",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192128.html",
+          "date": "2026-11-19",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "9496219797e291",
+          "source": "光明日报",
+          "title": "立足特色和优势加快壮大新动能 推动高质量发展不断取得新成效",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/19/content_30668.html",
+          "date": "2026-11-19",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "7dc451210c065a",
+          "source": "人民日报",
+          "title": "“创新优势”从何而来（人民论坛）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192130.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2c6a5c669c88e7",
+          "source": "人民日报",
+          "title": "“看五十年的中国就来深圳”（记者手记）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192122.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "46796d56bc3784",
+          "source": "人民日报",
+          "title": "二〇二六年亚太经合组织工商领导人峰会深圳倡议",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192121.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7896ff96798666",
+          "source": "人民日报",
+          "title": "今年前10月我国与APEC其他经济体贸易增长25.4%",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192131.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4d1241722d6933",
+          "source": "人民日报",
+          "title": "从庆州到深圳，推动中韩友好合作迈上新台阶（大使随笔·APEC中国年：开放 创新 合作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192125.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9f2e8ef024ac2e",
+          "source": "人民日报",
+          "title": "全国人大常委会副委员长肖捷率团访问埃及",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192126.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "44e6c6c94bc115",
+          "source": "人民日报",
+          "title": "在亚太经合组织第三十三次领导人非正式会议欢迎晚宴上的祝酒辞",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192101.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0e88c6ad6db21c",
+          "source": "人民日报",
+          "title": "坚守开放初心 坚持多边协作",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192123.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2243920bb06dad",
+          "source": "人民日报",
+          "title": "坚定信心，勇毅前行 共创亚太光明未来",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192100.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "41ab541aa29410",
+          "source": "人民日报",
+          "title": "增强党在新兴领域号召力凝聚力影响力（权威访谈·学习贯彻党的二十届五中全会精神）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192129.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "19a2647ed3a1ac",
+          "source": "人民日报",
+          "title": "持续增强人民群众对司法公正的获得感",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192102.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0a1a9a95783031",
+          "source": "人民日报",
+          "title": "携手建设亚太共同体 促进亚太共同繁荣",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192120.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8b993e4316feb6",
+          "source": "人民日报",
+          "title": "深入学习贯彻党的二十届五中全会精神 提高人大党建和工作质量",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192127.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a4f2eb694d101a",
+          "source": "人民日报",
+          "title": "王小洪会见马来西亚内政部部长赛义夫丁",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192124.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e6eaf1f1b0ab3f",
+          "source": "光明日报",
+          "title": "2026年亚太经合组织工商领导人峰会深圳倡议共促繁荣、共赢未来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/19/content_30678.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ee5e2cb39f090d",
+          "source": "光明日报",
+          "title": "APEC合作如何惠及百姓生活",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/19/content_30669.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b5ddd5f6e7c7ae",
+          "source": "光明日报",
+          "title": "“于道各努力，千里自同风”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/19/content_30633.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7b902ca7781fac",
+          "source": "光明日报",
+          "title": "“亚太是我们共同发展的天地”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/19/content_30634.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "77f311deb9d9f8",
+          "source": "光明日报",
+          "title": "为中国式现代化提供更加有力司法保障",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/19/content_30675.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2e84f489b0f28d",
+          "source": "光明日报",
+          "title": "从一枚车厘子读懂亚太合作的“甜头”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/19/content_30670.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c6206427ab4ce7",
+          "source": "光明日报",
+          "title": "在亚太经合组织第三十三次领导人非正式会议欢迎晚宴上的祝酒辞",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/19/content_30632.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0ccad365ebcfa5",
+          "source": "光明日报",
+          "title": "坚定信心，勇毅前行 共创亚太光明未来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/19/content_30631.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b719586853e8b1",
+          "source": "光明日报",
+          "title": "大潮起珠江，大道向未来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/19/content_30677.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1eec5eabb5a4d5",
+          "source": "光明日报",
+          "title": "深入学习贯彻党的二十届五中全会精神 提高人大党建和工作质量",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/19/content_30667.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "edaa2c5ebfb494",
+          "source": "南方周末",
+          "title": "深圳之约：“APEC从未肩负如此关键的作用” 这是三国元首历史上首次面对面会晤，“具有开创性意义” 不同的需要，由此汇入同一个会场。 “APEC进程的巧妙之处，在于即使部分成员暂时不愿参与，仍能为合作开辟前进的道路。” 天下 9小时前",
+          "url": "https://www.infzm.com/contents/345134?source=133&source_1=998",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d1703c197f53f8",
+          "source": "新华社",
+          "title": "以军称在加沙地带“黄线”以西开展地道拆除行动",
+          "url": "https://www.news.cn/20261119/5e24b990962d49db8593f85ec3ba1cf4/c.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3f53fabf5b42b0",
+          "source": "新华社",
+          "title": "以军称在加沙地带打死两名哈马斯指挥官",
+          "url": "https://www.news.cn/20261119/406802d64afe465fbd533fabd967675b/c.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f7efc3bd7ccb07",
+          "source": "新华社",
+          "title": "俄罗斯总统普京参访深圳北理莫斯科大学",
+          "url": "https://www.news.cn/20261119/9e13c5bd11d249f792e92706fc74fda7/c.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f45dd89b00d26e",
+          "source": "新华社",
+          "title": "哈马斯称以军在加沙中部军事行动违反停火协议",
+          "url": "https://www.news.cn/20261119/aa06110c609e40bfa1b52066ff488b62/c.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "214df28b936eea",
+          "source": "新华社",
+          "title": "商务部：中韩自贸协定第二阶段谈判实质性完成",
+          "url": "https://www.news.cn/world/20261119/c6ab333d4f1245e9aefe7ad494272c80/c.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1a662d96f2f985",
+          "source": "新华社",
+          "title": "引领时代风气之先 锚定亚太合作方向",
+          "url": "https://www.news.cn/politics/leaders/20261119/fd93cfeeb8b34f1f8d6fd00373004b2b/c.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "430b692957093f",
+          "source": "新华社",
+          "title": "美国民主党提名杰弗里斯为众议院议长",
+          "url": "https://www.news.cn/world/20261119/35cf83f3ca934f3bb1225f29e9a5ccdc/c.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 9.3,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261119.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "ok",
+          "count": 20,
+          "duration": 2.5
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 9,
+          "duration": 2.8
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 12.9
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.7
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 17,
+          "duration": 1.8
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 1,
+          "duration": 14.4
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.5
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.0
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 58.2
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-11-18T22:57:06+08:00"
+  "generatedAt": "2026-11-19T06:28:28+08:00"
 };
