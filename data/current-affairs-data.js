@@ -221125,7 +221125,1446 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 53.6
         }
       ]
+    },
+    {
+      "date": "2026-11-18",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 37
+        },
+        {
+          "name": "经济",
+          "count": 9
+        },
+        {
+          "name": "高质量发展",
+          "count": 6
+        },
+        {
+          "name": "十五五",
+          "count": 5
+        },
+        {
+          "name": "基层治理",
+          "count": 4
+        },
+        {
+          "name": "中国式现代化",
+          "count": 2
+        },
+        {
+          "name": "人工智能",
+          "count": 2
+        },
+        {
+          "name": "共同体",
+          "count": 2
+        }
+      ],
+      "articles": [
+        {
+          "id": "935a46f7ce6bf1",
+          "source": "中国政府网",
+          "title": "习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲",
+          "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086485.htm",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "52e0abbbd1b916",
+          "source": "中国政府网",
+          "title": "习近平总书记重要论述引领推动新时代老龄工作迈上新台阶",
+          "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086460.htm",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "ae3da7ca192514",
+          "source": "中国政府网",
+          "title": "习近平：“十五五”规划是中国面向全球工商界发出的合作邀约",
+          "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086491.htm",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "d0933a05c4539d",
+          "source": "中国政府网",
+          "title": "习近平：中方支持成立世界湾区经济合作联盟",
+          "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086490.htm",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "87b58bab9dc389",
+          "source": "中国政府网",
+          "title": "习近平：坚定信心、勇毅前行 促进亚太共同繁荣",
+          "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086489.htm",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "e7c08ec18b0181",
+          "source": "人民日报",
+          "title": "《习近平法治思想干部读本》出版发行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191782.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "5f52a8da50fe4a",
+          "source": "人民日报",
+          "title": "习近平会见加拿大总理卡尼",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191780.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "93514f4cdddb09",
+          "source": "人民日报",
+          "title": "习近平会见墨西哥总统辛鲍姆",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191777.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "33f8be37c167d6",
+          "source": "人民日报",
+          "title": "习近平会见巴布亚新几内亚总理马拉佩",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191781.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "ce1d1ee69008f5",
+          "source": "人民日报",
+          "title": "习近平会见智利总统卡斯特",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191779.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "34af5aa2e4295f",
+          "source": "人民日报",
+          "title": "习近平会见秘鲁总统藤森庆子",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191778.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "7598250fe581f7",
+          "source": "人民日报",
+          "title": "习近平会见越共中央总书记、国家主席苏林",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191776.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "0c1b9e6496289d",
+          "source": "光明日报",
+          "title": "《习近平法治思想干部读本》出版发行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30578.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "2d410f25c158c5",
+          "source": "光明日报",
+          "title": "习近平会见加拿大总理卡尼",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30575.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "c2951a81d8052c",
+          "source": "光明日报",
+          "title": "习近平会见墨西哥总统辛鲍姆",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30572.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "fc7d47d1fd6e23",
+          "source": "光明日报",
+          "title": "习近平会见巴布亚新几内亚总理马拉佩",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30576.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "ac109f65b3d16b",
+          "source": "光明日报",
+          "title": "习近平会见智利总统卡斯特",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30574.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "e2206c96061542",
+          "source": "光明日报",
+          "title": "习近平会见秘鲁总统藤森庆子",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30573.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "f6d2910ce718bb",
+          "source": "光明日报",
+          "title": "习近平会见越共中央总书记、国家主席苏林",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30571.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "3e2009ad72082b",
+          "source": "半月谈",
+          "title": "“努力为老年人安享幸福晚年创造更好条件”——习近平总书记重要论述引领推动新时代老龄工作迈上新台阶",
+          "url": "http://www.banyuetan.org/yw/detail/20261118/1000200033137441794963648039481152_1.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "6018941e97ab79",
+          "source": "半月谈",
+          "title": "“我们就是这么一步一步干出来的”——习近平总书记在广东中山考察纪实",
+          "url": "http://www.banyuetan.org/yw/detail/20261118/1000200033137441794962648753491246_1.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "cc3552c1123654",
+          "source": "半月谈",
+          "title": "为中国式现代化提供更加有力司法保障——习近平总书记重要指示激励法院队伍在新征程上砥砺前行",
+          "url": "http://www.banyuetan.org/yw/detail/20261118/1000200033137441794963096228480995_1.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "7421fb41c82959",
+          "source": "半月谈",
+          "title": "习近平会见墨西哥总统辛鲍姆",
+          "url": "http://www.banyuetan.org/dyp/detail/20261118/1000200033135231794965042262498900_1.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "dbe0024230fd2b",
+          "source": "半月谈",
+          "title": "习近平会见智利总统卡斯特",
+          "url": "http://www.banyuetan.org/dyp/detail/20261118/1000200033135231794965285354484801_1.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "81c7bbc9ba0896",
+          "source": "半月谈",
+          "title": "习近平会见秘鲁总统藤森庆子",
+          "url": "http://www.banyuetan.org/dyp/detail/20261118/1000200033135231794965148585483474_1.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "a75eb898f984df",
+          "source": "南方周末",
+          "title": "习近平在亚太经合组织工商领导人峰会上的主旨演讲（全文）",
+          "url": "https://www.infzm.com/contents/345073",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "51221cc47391e4",
+          "source": "广东发布",
+          "title": "“我们就是这么一步一步干出来的”——习近平总书记在广东中山考察纪实",
+          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4981550.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "b53ac7459c3063",
+          "source": "广东发布",
+          "title": "习近平会见墨西哥总统辛鲍姆",
+          "url": "https://www.gd.gov.cn/gdywdt/xwdt/content/post_4981543.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "5068c54c3fcdb9",
+          "source": "广东发布",
+          "title": "习近平会见智利总统卡斯特",
+          "url": "https://www.gd.gov.cn/gdywdt/xwdt/content/post_4981549.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "4388baa0613434",
+          "source": "广东发布",
+          "title": "习近平会见秘鲁总统藤森庆子",
+          "url": "https://www.gd.gov.cn/gdywdt/xwdt/content/post_4981545.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "ad34b1baa29db8",
+          "source": "广东发布",
+          "title": "雁阵齐飞向未来——习近平主席推动亚太合作共赢的故事",
+          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4981555.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "19a498eeac775f",
+          "source": "新华社",
+          "title": "习近平会见韩国总统李在明",
+          "url": "https://www.news.cn/politics/leaders/20261118/23cc8dbef0c349db9c3197b3d1f1cce7/c.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "bb8e52edf0308d",
+          "source": "新华社",
+          "title": "习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲",
+          "url": "https://www.news.cn/politics/leaders/20261118/ece32917902d45ea8c13840c3d04a06e/c.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "b44ec1a291fed1",
+          "source": "新华社",
+          "title": "习近平总书记在广东中山考察纪实",
+          "url": "https://www.news.cn/politics/leaders/20261118/7c81a160129d474abbb70d0c6165706c/c.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "eb27c26773f85c",
+          "source": "新华社",
+          "title": "习近平：坚定信心、勇毅前行 促进亚太共同繁荣",
+          "url": "https://www.news.cn/politics/leaders/20261118/74d463a9dfd24530a648e37afa352c2c/c.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "64d58204be836c",
+          "source": "求是",
+          "title": "习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲",
+          "url": "https://www.qstheory.cn/20261118/590e38a3d8d348a0b19d89d4a827a476/c.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "42d990113a2748",
+          "source": "求是",
+          "title": "习近平总书记重要指示激励法院队伍在新征程上砥砺前行",
+          "url": "https://www.qstheory.cn/20261118/db9939f788594af5aed29d592764ae20/c.html",
+          "date": "2026-11-18",
+          "keyword": "习近平"
+        },
+        {
+          "id": "d49d5fb0202857",
+          "source": "人民日报",
+          "title": "锚定全年发展主要目标任务 推动经济持续向新向优向好发展",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191797.html",
+          "date": "2026-11-18",
+          "keyword": "经济"
+        },
+        {
+          "id": "5f97c19a267a76",
+          "source": "半月谈",
+          "title": "共绘亚太经济新图景的企业样本——APEC工商领导人峰会一线观察",
+          "url": "http://www.banyuetan.org/yw/detail/20261118/1000200033137441794964464669494724_1.html",
+          "date": "2026-11-18",
+          "keyword": "经济"
+        },
+        {
+          "id": "665ce8a5d2beba",
+          "source": "半月谈",
+          "title": "外交部：深圳见证了亚太区域经济一体化的发展",
+          "url": "http://www.banyuetan.org/yw/detail/20261118/1000200033137441794964131017493146_1.html",
+          "date": "2026-11-18",
+          "keyword": "经济"
+        },
+        {
+          "id": "a8e7835ad6aa39",
+          "source": "学习强国",
+          "title": "外交部：深圳见证了亚太区域经济一体化的发展",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=16972366241744624524&item_id=16972366241744624524",
+          "date": "2026-11-18",
+          "keyword": "经济"
+        },
+        {
+          "id": "67968953bb1ef6",
+          "source": "新华社",
+          "title": "中方支持成立世界湾区经济合作联盟",
+          "url": "https://www.news.cn/politics/leaders/20261118/f199a79649b54bef9583360997eb0e25/c.html",
+          "date": "2026-11-18",
+          "keyword": "经济"
+        },
+        {
+          "id": "f52d76f26df466",
+          "source": "新华社",
+          "title": "云南普达措：生态美景催热文旅经济",
+          "url": "https://www.news.cn/photo/20261118/84db855543904ef68b1e2df9da21c8b9/c.html",
+          "date": "2026-11-18",
+          "keyword": "经济"
+        },
+        {
+          "id": "48dae68e4e8791",
+          "source": "新华社",
+          "title": "大凉山：“风光资源”变为“风光经济”",
+          "url": "https://www.news.cn/photo/20261118/b7422ea06e4146fda05937a32c83d372/c.html",
+          "date": "2026-11-18",
+          "keyword": "经济"
+        },
+        {
+          "id": "d5458adb5d0da9",
+          "source": "求是",
+          "title": "外交部：深圳见证了亚太区域经济一体化的发展",
+          "url": "https://www.qstheory.cn/20261118/0e5dd39331c643ed9f8fa72be166c359/c.html",
+          "date": "2026-11-18",
+          "keyword": "经济"
+        },
+        {
+          "id": "3075905912d63f",
+          "source": "人民日报",
+          "title": "加快建设公正高效权威的社会主义司法制度 以高质量司法更好保障高质量发展和高水平安全",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191784.html",
+          "date": "2026-11-18",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "0501d5e290989d",
+          "source": "人民日报",
+          "title": "真抓实干，奋力开创高质量发展新局面",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191786.html",
+          "date": "2026-11-18",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "764a7342e323fc",
+          "source": "光明日报",
+          "title": "加快建设公正高效权威的社会主义司法制度 以高质量司法更好保障高质量发展和高水平安全",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30577.html",
+          "date": "2026-11-18",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "57fa6a276ff6ac",
+          "source": "半月谈",
+          "title": "促进回收行业高质量发展——多部门详解深入推进再生资源回收体系建设",
+          "url": "http://www.banyuetan.org/yw/detail/20261118/1000200033137441794964815466497400_1.html",
+          "date": "2026-11-18",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "15b28ee9070b9d",
+          "source": "学习强国",
+          "title": "以高质量司法更好保障高质量发展和高水平安全",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=14259141194509669996&item_id=14259141194509669996",
+          "date": "2026-11-18",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "94c5ddf7b884ec",
+          "source": "求是",
+          "title": "促进回收行业高质量发展——多部门详解深入推进再生资源回收体系建设",
+          "url": "https://www.qstheory.cn/20261118/9af3c727a1bc4f819210c85291c6209c/c.html",
+          "date": "2026-11-18",
+          "keyword": "高质量发展"
+        },
+        {
+          "id": "fe5ad9c66b8347",
+          "source": "光明日报",
+          "title": "《地理标志保护和运用“十五五”规划》印发",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30596.html",
+          "date": "2026-11-18",
+          "keyword": "十五五"
+        },
+        {
+          "id": "77f862d6147629",
+          "source": "半月谈",
+          "title": "《地理标志保护和运用“十五五”规划》印发",
+          "url": "http://www.banyuetan.org/yw/detail/20261118/1000200033137441794964683984496847_1.html",
+          "date": "2026-11-18",
+          "keyword": "十五五"
+        },
+        {
+          "id": "075fd801da4cc0",
+          "source": "新华社",
+          "title": "“十五五”规划是中国面向全球工商界发出的合作邀约",
+          "url": "https://www.news.cn/politics/leaders/20261118/3f81d8204a1b4e5fb05d265cd613b2a5/c.html",
+          "date": "2026-11-18",
+          "keyword": "十五五"
+        },
+        {
+          "id": "24ab080e9038f9",
+          "source": "求是",
+          "title": "《地理标志保护和运用“十五五”规划》印发",
+          "url": "https://www.qstheory.cn/20261118/c660188c9de24a83b9a030e0493920eb/c.html",
+          "date": "2026-11-18",
+          "keyword": "十五五"
+        },
+        {
+          "id": "f7ff871b921a90",
+          "source": "光明日报",
+          "title": "民情日志里的基层治理",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30597.html",
+          "date": "2026-11-18",
+          "keyword": "基层治理"
+        },
+        {
+          "id": "9b88836c3b30ef",
+          "source": "学习强国",
+          "title": "陈文清：深化党建引领基层治理和基层政权建设",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=4032289365823219784&item_id=4032289365823219784",
+          "date": "2026-11-18",
+          "keyword": "基层治理"
+        },
+        {
+          "id": "83cd6586cfdb38",
+          "source": "新华社",
+          "title": "广东：党建引领基层治理和企业发展",
+          "url": "https://www.news.cn/20261118/5528dbbecd58467ea7a89f4929ca9f1f/c.html",
+          "date": "2026-11-18",
+          "keyword": "基层治理"
+        },
+        {
+          "id": "e1cf1d6d4aa7e2",
+          "source": "求是",
+          "title": "深化党建引领基层治理和基层政权建设",
+          "url": "https://www.qstheory.cn/20261118/8fb8fa8d69614918abbd8010d04b992d/c.html",
+          "date": "2026-11-18",
+          "keyword": "基层治理"
+        },
+        {
+          "id": "25b0870bf01504",
+          "source": "人民日报",
+          "title": "为凝聚侨心侨力、推进中国式现代化作出新贡献",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191787.html",
+          "date": "2026-11-18",
+          "keyword": "中国式现代化"
+        },
+        {
+          "id": "dbf036589cdb63",
+          "source": "学习强国",
+          "title": "铸牢共同体 中华一家亲|天山脚下，一街一巷皆同心",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=4184167157302756166&item_id=4184167157302756166",
+          "date": "2026-11-18",
+          "keyword": "共同体"
+        },
+        {
+          "id": "305c3536a4c8f2",
+          "source": "新华社",
+          "title": "人工智能训练师“解锁”具身智能产业新图景",
+          "url": "http://www.news.cn/tech/20261118/bb2e69cb572944eda195593d1f8f332b/c.html",
+          "date": "2026-11-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "3ed70fb42dd87b",
+          "source": "新华社",
+          "title": "从“用得上”到“用得好” “人工智能+”加速规模化落地",
+          "url": "https://www.news.cn/fortune/20261118/bf699bf6ab4e4cdab1d59bb5e359c760/c.html",
+          "date": "2026-11-18",
+          "keyword": "人工智能"
+        },
+        {
+          "id": "2c9fa21ece0c83",
+          "source": "求是",
+          "title": "王毅《求是》发文：高举亚太共同体旗帜 迈向共同繁荣愿景",
+          "url": "https://www.qstheory.cn/20261118/d0e688dc3d42466b9120146d8505cf39/c.html",
+          "date": "2026-11-18",
+          "keyword": "共同体"
+        },
+        {
+          "id": "7be0c312ce3eda",
+          "source": "人民日报",
+          "title": "16条举措探索解决“扔比买难”（权威发布）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191800.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7c57e1e5fc2428",
+          "source": "人民日报",
+          "title": "“我们就是这么一步一步干出来的”",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191785.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f5a6e7aa8a678f",
+          "source": "人民日报",
+          "title": "中泰携手前行，开拓亚太繁荣新前景（大使随笔·APEC中国年：开放 创新 合作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191790.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2f48581631d638",
+          "source": "人民日报",
+          "title": "亚太各方期待中国发挥引领作用（APEC中国年：开放 创新 合作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191792.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ba9fd6f7462787",
+          "source": "人民日报",
+          "title": "从车间到市集，亚太合作惠企利民",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191796.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8f7f834f5877fc",
+          "source": "人民日报",
+          "title": "以人文交流夯实亚太合作根基（国际论坛）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191791.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b43538d63ea747",
+          "source": "人民日报",
+          "title": "以公平正义护航奋进中国（今日谈）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191798.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "908fbf08d8a302",
+          "source": "人民日报",
+          "title": "促进普惠包容发展 共享亚太合作成果（瞩望深圳APEC会议）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191788.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1f9978ce415034",
+          "source": "人民日报",
+          "title": "俄罗斯总统普京抵达深圳",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191783.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6f9c6e0fcd75e4",
+          "source": "人民日报",
+          "title": "全国扫黑除恶斗争领导小组部署开展深化扫黑除恶专项斗争督导",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191795.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7bbf817a0150bc",
+          "source": "人民日报",
+          "title": "新中携手，共创开放互联的未来",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191789.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "97a66f4cc6f5e9",
+          "source": "人民日报",
+          "title": "王小洪会见越共中央政治局委员、越南公安部部长梁三光",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191794.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "da18a1b3a11b7b",
+          "source": "人民日报",
+          "title": "王毅会见加拿大外长阿南德",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191793.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2615f4df7227a0",
+          "source": "光明日报",
+          "title": "“我们就是这么一步一步干出来的”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30552.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3bf609abd61eb9",
+          "source": "光明日报",
+          "title": "“文明是赛场内外最亮眼的色彩”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30593.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ce6fd0b064033f",
+          "source": "光明日报",
+          "title": "一块瓷砖上见民生温度",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30598.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a77f6f46054e97",
+          "source": "光明日报",
+          "title": "一天之内六场会见，习主席开启繁忙APEC时间",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30616.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "df23601c739394",
+          "source": "光明日报",
+          "title": "俄罗斯总统普京抵达深圳",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30579.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7151ad686b9bc9",
+          "source": "光明日报",
+          "title": "凝聚四海侨心侨力 砥砺爱国强国之志",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30554.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "238d7f869b323e",
+          "source": "光明日报",
+          "title": "察势而变向新行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30618.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "24a102b1ff5d88",
+          "source": "光明日报",
+          "title": "我国将深入推进再生资源回收体系建设",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30592.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ac5537d99e8a05",
+          "source": "光明日报",
+          "title": "河北承德：钒钛新材料“扬帆出海”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30599.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9df6d523dfdfff",
+          "source": "光明日报",
+          "title": "海南三亚：冬季旅游市场持续升温",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30595.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1433fc2a628d0f",
+          "source": "光明日报",
+          "title": "第九届全国职工职业技能大赛决赛开幕",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30594.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "03ed5103e8aa39",
+          "source": "光明日报",
+          "title": "锐意进取开新局 携手同心筑伟业",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30553.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c7759e73262a97",
+          "source": "光明日报",
+          "title": "雁阵齐飞向未来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/18/content_30617.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ad939fc741ed25",
+          "source": "半月谈",
+          "title": "186年品牌积淀 恒顺携手新华社品牌工程焕新致远",
+          "url": "http://www.banyuetan.org/dfgc/detail/20261118/1000200033136151794968953966489668_1.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3b699319ca64e2",
+          "source": "半月谈",
+          "title": "五中全会精神在基层丨这个万人社区，用协同善治托起幸福“夕阳红”",
+          "url": "http://www.banyuetan.org/yw/detail/20261118/1000200033137441794963895173482073_1.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0516c45a44b569",
+          "source": "半月谈",
+          "title": "共绘新图景 共话新机遇——来自APEC工商领导人峰会中外嘉宾的声音",
+          "url": "http://www.banyuetan.org/yw/detail/20261118/1000200033137441794964607659495784_1.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8c5087b621bd1c",
+          "source": "半月谈",
+          "title": "总书记广东中山行︱记者手记：大潮起珠江，大道向未来",
+          "url": "http://www.banyuetan.org/yw/detail/20261118/1000200033137441794963402022492336_1.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "50032c5a24bc91",
+          "source": "半月谈",
+          "title": "第一观察｜一天之内六场会见，习主席开启繁忙APEC时间",
+          "url": "http://www.banyuetan.org/dyp/detail/20261118/1000200033135231794962263624490060_1.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6bad4f7a072774",
+          "source": "半月谈",
+          "title": "观海逐浪，这里文旅人气旺",
+          "url": "http://www.banyuetan.org/jrt/detail/20261118/1000200033134991794965408187485527_1.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f80a2931acc1ff",
+          "source": "半月谈",
+          "title": "让监督的根系深扎治理的土壤",
+          "url": "http://www.banyuetan.org/pl/detail/20261118/1000200033136001794966313146488335_1.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "05c8c01c80e8b5",
+          "source": "南方周末",
+          "title": "“亚太接口”：APEC的深圳细节 机场15分钟通关，新皇岗口岸的自助通关只要20秒。不同肤色的外国人出现在华强北、万象城、机器人谷，他们举着大疆、体验3D打印，熟练地使用支付宝、微信扫一扫付款。 开餐馆的黄国成说，深圳的奇迹之处就在于，“欢迎所有人”。",
+          "url": "https://www.infzm.com/contents/344986?source=134",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a3328bb80efe82",
+          "source": "学习强国",
+          "title": "俄罗斯总统普京抵达深圳 蔡奇前往机场迎接",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=7290563674018332999&item_id=7290563674018332999",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c2f2eded95363f",
+          "source": "学习强国",
+          "title": "加强交流互鉴 深化区域服务贸易合作",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=7614420307816190939&item_id=7614420307816190939",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3446a5074d540b",
+          "source": "学习强国",
+          "title": "加强对权力运行的制约和监督",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=4392689920706000167&item_id=4392689920706000167",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a81e05b05aa624",
+          "source": "学习强国",
+          "title": "受强冷空气影响 全国多地降温",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=9929836290448393469&item_id=9929836290448393469",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3914e9f6a4e537",
+          "source": "学习强国",
+          "title": "号准需求的脉 建好服务的链",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=8534184461552358752&item_id=8534184461552358752",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0a28f74e300c89",
+          "source": "学习强国",
+          "title": "国家卫生健康委解读基层卫生健康综合试验区样本",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=9556390197604978466&item_id=9556390197604978466",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "511e8fa4a14daa",
+          "source": "学习强国",
+          "title": "坚持守正创新，永葆先进性纯洁性——持之以恒推进全面从严治党⑤",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=1128063344311157547&item_id=1128063344311157547",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2fcbeef949d451",
+          "source": "学习强国",
+          "title": "树立和践行正确政绩观重在常态、贵在长效",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=11497255812927344609&item_id=11497255812927344609",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "532293d5181407",
+          "source": "学习强国",
+          "title": "自然科学基金委新规明确划定经费管理使用“红线”",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=6585176334839067089&item_id=6585176334839067089",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "864e95e65e5c8c",
+          "source": "学习强国",
+          "title": "舆是乎|​​​​​​​​​​​​​​​​​​​​​​​​​​​​看病时心安，缴费时犯难，医保“温差”如何解？",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=13942065569398191567&item_id=13942065569398191567",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "264b285c22ddb5",
+          "source": "广东发布",
+          "title": "张国智会见辉瑞高级副总裁侯廷熹",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4981566.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c25847984a8f55",
+          "source": "广东发布",
+          "title": "黄坤明孟凡利会见越共中央总书记、国家主席苏林",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4981560.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ba0152d5c09958",
+          "source": "新华社",
+          "title": "2026年非洲科技节开幕 聚焦AI时代数字化转型",
+          "url": "https://www.news.cn/world/20261118/cbe8a5e275244148a74327628737d4a1/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "db90a73f174047",
+          "source": "新华社",
+          "title": "8省（市）获批开展6G创新发展部省协同试点工作",
+          "url": "https://www.news.cn/tech/20261118/760e0446616d4bf0a78b90d9f637fb0c/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b2f4b5b18212df",
+          "source": "新华社",
+          "title": "一天之内六场会见，习主席开启繁忙APEC时间",
+          "url": "https://www.news.cn/politics/leaders/20261118/2e1d6befaef349a1b77f40bddc72cb4d/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "000645ce53f41e",
+          "source": "新华社",
+          "title": "中东部雨雪缩减 气温将自北向南陆续下跌",
+          "url": "https://www.news.cn/politics/20261118/e2316d8c0cdc4cdb997794ec37238ca3/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "19432c1a1ba88d",
+          "source": "新华社",
+          "title": "中国-乌拉圭对话会聚焦全球治理与南南合作",
+          "url": "https://www.news.cn/world/20261118/cdfdb764e668410f9ced3d322086643d/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b54509a7213736",
+          "source": "新华社",
+          "title": "中小银行自营理财有序退场 理财市场新陈代谢加速",
+          "url": "https://www.news.cn/20261118/675f48513c5b487e8f115f54363d076f/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "13c1079f16ac05",
+          "source": "新华社",
+          "title": "主旨演讲全文",
+          "url": "https://www.news.cn/politics/leaders/20261118/656367581ebe4dcb8700fd9f59905ef6/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f1fde197396c3a",
+          "source": "新华社",
+          "title": "从铝产业升级看遵义的工业转型之路",
+          "url": "https://www.news.cn/local/20261118/2cc11a2cca4944e492da80afce9f23d5/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7a3c6ddec93c53",
+          "source": "新华社",
+          "title": "以色列议会选举卡哈纳为新任议长",
+          "url": "https://www.news.cn/20261118/92fd92a579dd4702b77e3dccd398b904/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8c7ce3edfd191d",
+          "source": "新华社",
+          "title": "伊：未造成损失",
+          "url": "https://www.news.cn/world/20261118/469f1e16b20b4df8a0692d4faf172fc3/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d522757b30b0c3",
+          "source": "新华社",
+          "title": "俄罗斯总统普京抵达深圳 蔡奇前往机场迎接",
+          "url": "https://www.news.cn/world/20261118/ba777f7520e7401c994bee3aa393c4e0/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bd82cae287a523",
+          "source": "新华社",
+          "title": "兴凯湖：半冰半水美如画",
+          "url": "https://www.news.cn/local/20261118/32809e599df341b98132689be8607f63/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a2c31bdcda834a",
+          "source": "新华社",
+          "title": "南非就尼日利亚大使社媒言论提出交涉",
+          "url": "https://www.news.cn/20261118/a730131452d4444691b934679ee43174/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2d21dca14cdb92",
+          "source": "新华社",
+          "title": "叙利亚驻土耳其大使馆下月重开",
+          "url": "https://www.news.cn/20261118/f452bc9fe0a74ddea3fc123588775363/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "995ae257480c8b",
+          "source": "新华社",
+          "title": "国台办评罗大佑近日批判民进党当局言论",
+          "url": "https://www.news.cn/20261118/273f750b3f854960962e1fbb49f12146/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dbd2efa8ea1156",
+          "source": "新华社",
+          "title": "国家卫生健康委解读基层卫生健康综合试验区样本",
+          "url": "https://www.news.cn/government/20261118/1b0cf5b480064a47ab7976195dbbf938/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ac9c8392ad4a56",
+          "source": "新华社",
+          "title": "国家文物局发布4项长江文明溯源最新考古成果",
+          "url": "https://www.news.cn/politics/20261118/ac40752dab8c40bfa4f4d4967abbb0eb/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4cac06c805e4b9",
+          "source": "新华社",
+          "title": "圆明园管理处成立50周年回顾展启幕",
+          "url": "https://www.news.cn/culture/20261118/bd6c2e5bb1634d408e6c2768684af153/c.html?page=1",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fbe06a8165f19b",
+          "source": "新华社",
+          "title": "塞尔维亚新一届国民议会正式成立",
+          "url": "https://www.news.cn/20261118/75020742d5214244bd48c1548aaadfe2/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "24f029c6e61357",
+          "source": "新华社",
+          "title": "委内瑞拉强震重灾区商业活动已恢复超六成",
+          "url": "https://www.news.cn/world/20261118/8fbb1abb13d34063ad4fee59af1feed1/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "556b164a7191b3",
+          "source": "新华社",
+          "title": "尼日利亚东北部发生袭击事件 一中国公民遇害",
+          "url": "https://www.news.cn/world/20261118/e3981877f39e4d398dc449a1aeaea874/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b60b65a70e849b",
+          "source": "新华社",
+          "title": "广西壮族自治区横州市委原书记梁枫接受审查调查",
+          "url": "https://www.news.cn/legal/20261118/d38e4be6060a4c0daadb4f60502154c6/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "46c88c9e4e9ca3",
+          "source": "新华社",
+          "title": "废旧家电别着急扔，三种回收模式了解一下",
+          "url": "http://www.news.cn/tech/20261118/6d8e2205f72e4867abc29221fb15bc99/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9ca75f04746df2",
+          "source": "新华社",
+          "title": "德国芬兰总统表示欧洲必须参与乌克兰危机谈判",
+          "url": "https://www.news.cn/20261118/f55b47a95b234204a3cd553b810478ad/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d66af9615b7a04",
+          "source": "新华社",
+          "title": "拉脱维亚新一届政府成立",
+          "url": "https://www.news.cn/20261118/0d998fd4c5fc4d51a4ac234a45e4d8c7/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "15d66f5bec1558",
+          "source": "新华社",
+          "title": "文化视点｜沈阳故宫博物院百年守护中华文脉",
+          "url": "https://www.news.cn/ci/20261118/40238c529a8544559f0aafc9b02b944d/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ba0918cac09841",
+          "source": "新华社",
+          "title": "新国货品牌，从“看见”到“记住”",
+          "url": "https://www.news.cn/fashion/20261118/1b8de50a4fa7486d8bc83af29208f55d/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ac4ac94b0f9efa",
+          "source": "新华社",
+          "title": "星空相册丨狮子座流星雨迎来活跃期",
+          "url": "https://www.news.cn/photo/20261118/a2a46434bb4348b0bcac186973a272fd/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "60d71044e92891",
+          "source": "新华社",
+          "title": "来宁夏博物馆 看这场西部“青铜展览”",
+          "url": "https://www.news.cn/ci/20261118/43452e4e728b41198eb095d123379539/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "53fad839328724",
+          "source": "新华社",
+          "title": "检察机关依法对徐一丁涉嫌受贿案提起公诉",
+          "url": "https://www.news.cn/legal/20261118/3dbaedd2dbf7422e91678d73e32e02c1/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c9e7c356219dbc",
+          "source": "新华社",
+          "title": "江苏泗洪：贫瘠地结出“致富果”",
+          "url": "https://www.news.cn/photo/20261118/e231942bd2df4eb9bc375c56a2a4b784/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "322c81b0f8010e",
+          "source": "新华社",
+          "title": "江西宜春：脱胎漆器非遗技艺薪火相传",
+          "url": "https://www.news.cn/culture/20261118/291f552d0bff434686231374098d9ea9/c.html?page=1",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ba9cfe52fa6265",
+          "source": "新华社",
+          "title": "法国内政部：14.6万人参与新一轮示威游行",
+          "url": "https://www.news.cn/20261118/96984566fd244cb09a43bdb8740eed53/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4c461936ecd7c5",
+          "source": "新华社",
+          "title": "海南热带雨林重生记",
+          "url": "https://www.news.cn/politics/20261118/1638037e2c2047dda5c45e5cf06974ed/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fb038a340eb9f6",
+          "source": "新华社",
+          "title": "看吉林“原粮”如何“七十二变”",
+          "url": "https://www.news.cn/local/20261118/333281012da6473b9fc29b2d42ac6ca3/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ce43031fcc7250",
+          "source": "新华社",
+          "title": "科威特军方称防空系统正拦截敌对无人机",
+          "url": "https://www.news.cn/20261118/774e5b3d043a4fb9a7f937bec55c33a0/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a04efe20a8b266",
+          "source": "新华社",
+          "title": "科学与健康丨携手消除宫颈癌，更好呵护“她”健康",
+          "url": "https://www.news.cn/politics/20261118/9e1be6b935954989b1828db3b8f18c4b/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "61a85bbab31084",
+          "source": "新华社",
+          "title": "纽约股市三大股指17日显著下跌",
+          "url": "https://www.news.cn/20261118/1bb866d90ab74052a44867ba6187043a/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9502756bbfae43",
+          "source": "新华社",
+          "title": "美军方称对格什姆岛实施“自卫”打击",
+          "url": "https://www.news.cn/world/20261118/624254cd8d0a4ed980cc31d61be5d58f/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "308ba9e3f810a5",
+          "source": "新华社",
+          "title": "美官员称对伊朗格什姆岛实施“自卫”打击",
+          "url": "https://www.news.cn/20261118/ee1ad523a7d5464d89ffa5e02617a08a/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0ddca5044449c0",
+          "source": "新华社",
+          "title": "联黎部队：任期结束后黎南部国际社会介入方式未定",
+          "url": "https://www.news.cn/20261118/5d68a3766134446581cb3afa90cece37/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "758f2f920365a0",
+          "source": "新华社",
+          "title": "聚焦APEC丨外媒记者：新闻中心处处令人印象深刻",
+          "url": "https://www.news.cn/world/20261118/ebf40e8cbd374427bc2cd5d3518d91c1/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4f36f6e6dffcc8",
+          "source": "新华社",
+          "title": "英伟达第三财季营收、净利润同比倍增",
+          "url": "https://www.news.cn/world/20261118/de2b8e62849b42e59d3ac5871c826577/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a98ee033ce94b4",
+          "source": "新华社",
+          "title": "英国制裁8家参与以色列定居点建设的公司",
+          "url": "https://www.news.cn/20261118/3ac07b1ffa47462f9e453f8778743914/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0a61423d9b8fd0",
+          "source": "新华社",
+          "title": "邵佳一：希望让胜利成为中国国家队的常态",
+          "url": "https://www.news.cn/sports/20261118/1764d0e53c0f4bbaa7712ce858f317ac/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bc72c7fde8b25b",
+          "source": "新华社",
+          "title": "重庆渝中现代服务业发展观察：老城里的服务新局",
+          "url": "https://www.news.cn/20261118/eea16da1a1cd4b4380933ca71d2fe138/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3b9dba18668c85",
+          "source": "新华社",
+          "title": "长春大冬会花样滑冰测试赛进行全流程实战检验",
+          "url": "https://www.news.cn/sports/20261118/a88da770a1dc4c508d8c4dc55e56119e/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8bb3afb553ae42",
+          "source": "新华社",
+          "title": "雨林非遗背后的先民智慧",
+          "url": "https://www.news.cn/politics/20261118/b7065b316bd940db885d10f5687d3cf0/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c554d636a2bf9d",
+          "source": "新华社",
+          "title": "马达加斯加西北部发生交通事故致11人死亡",
+          "url": "https://www.news.cn/20261118/c5f6dda5510142988da5e5e6074ed6bd/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a9db434a7c1e0d",
+          "source": "求是",
+          "title": "3次东道主——中国这样与亚太同行",
+          "url": "https://www.qstheory.cn/20261118/ab92b477535548308984d3945a124ebc/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2c60233b48338c",
+          "source": "求是",
+          "title": "一天之内六场会见，习主席开启繁忙APEC时间",
+          "url": "https://www.qstheory.cn/20261118/880d8ea510d847518d5638a97240c4d4/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dbe484983606ed",
+          "source": "求是",
+          "title": "商务部：中加同意将初步联合安排的相关豁免措施延长2年",
+          "url": "https://www.qstheory.cn/20261118/940a3c7bf1a147949602d5ebb70d8f96/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1a338d6091c428",
+          "source": "求是",
+          "title": "护航全生命周期健康 我国将逐步实现疫苗处方全覆盖",
+          "url": "https://www.qstheory.cn/20261118/a7241b7fce204dedad8ee13ce776dca4/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d7bdaf440814d7",
+          "source": "求是",
+          "title": "碳排放权交易市场开放联盟通过《COP31宣言》",
+          "url": "https://www.qstheory.cn/20261118/a229b2409aca427abf2ead00997d9b62/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6d8077601b6333",
+          "source": "求是",
+          "title": "神舟二十四号计划近日择机实施发射 船箭组合体转运至发射区",
+          "url": "https://www.qstheory.cn/20261118/9d4bf2370b3e421398523cf6c45e9385/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e7ee2e2d56ace7",
+          "source": "求是",
+          "title": "科学把握推进制度型开放的战略意义和实践要求",
+          "url": "https://www.qstheory.cn/20261118/0fce60d7574d47c6b3ffeeb4aab93a13/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1d10f7cc7b209f",
+          "source": "求是",
+          "title": "自然科学基金委新规明确划定经费管理使用“红线”",
+          "url": "https://www.qstheory.cn/20261118/df2e125660184c5cb25f6d6a5cc22eb0/c.html",
+          "date": "2026-11-18",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 6.9,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261118.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "ok",
+          "count": 24,
+          "duration": 2.3
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 60,
+          "duration": 2.9
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 17,
+          "duration": 10.5
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 15,
+          "duration": 5.9
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 23,
+          "duration": 2.0
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 2,
+          "duration": 14.9
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 14,
+          "duration": 2.6
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 5,
+          "duration": 9.8
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 7,
+          "duration": 59.6
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-11-17T23:49:36+08:00"
+  "generatedAt": "2026-11-18T11:25:50+08:00"
 };
