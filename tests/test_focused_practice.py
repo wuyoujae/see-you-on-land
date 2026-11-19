@@ -53,6 +53,9 @@ class FocusedPracticeTests(unittest.TestCase):
         result = verifier.verify_all(read(SOURCE / 'calculation.reviewed.json'))
         self.assertEqual(result['unresolved'], [])
         self.assertEqual(result['total'], 180)
+        report = read(SOURCE / 'calculation/verification-report.json')
+        self.assertEqual(report['sha256'], hashlib.sha256(
+            (SOURCE / 'calculation.reviewed.json').read_bytes()).hexdigest())
         runtime = read(ROOT / 'data/question-bank/practice/calculation.json')['questions']
         for q in runtime:
             self.assertEqual(q['type'], 'fill')

@@ -315,6 +315,8 @@ add('share-average','((1+13.6/100)/(1+4.8/100)-1)*100',
 def main():
     from verify import verify_all
     from teaching import enrich_questions
+    # Keep serialized evidence order identical to the reviewed source.
+    for q in QUESTIONS: q['verification']['status']='pending'
     enrich_questions(QUESTIONS)
     report=verify_all(QUESTIONS)
     for q in QUESTIONS: q['verification']['status']='passed'
