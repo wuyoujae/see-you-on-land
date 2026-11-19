@@ -40,6 +40,7 @@ class CoursePublicBuildTests(unittest.TestCase):
             "assets/prompts/language.md", "assets/prompts/quantity-wy27-methods.json", "assets/images/question-bank/original.gif",
             "data/question-bank/manifest.json", "data/question-bank/subjects/reasoning.json",
             "data/question-bank/papers/paper-2025.json",
+            "data/question-bank/practice/numbers.json",
         }
         excluded = {
             "data/courses/coverage-audit.json", "data/courses/parse-error.json", "data/courses/README.md",
@@ -51,6 +52,7 @@ class CoursePublicBuildTests(unittest.TestCase):
             ".openai/hosting.json", "tests/fixture.json",
             "data/question-bank/import-report.json", "data/question-bank/sources/research.json",
             "data/question-bank/papers/raw/private.json", "assets/prompts/.private.md",
+            "data/question-bank/practice/raw/private.json",
             "assets/prompts/quantity-private.json", "assets/prompts/source.pdf",
             "assets/prompts/private/quantity-wy27-methods.json",
         }

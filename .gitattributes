@@ -22,3 +22,6 @@
 *.woff2 -text
 *.ttf -text
 *.xlsx -text
+# Preserve the published GPL source package and its audited byte checksums.
+/scripts/question_sources/focused/omib/** -text whitespace=cr-at-eol
+/assets/vendor/open-matrices/LICENSE -text

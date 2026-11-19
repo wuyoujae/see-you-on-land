@@ -1,0 +1,252 @@
+[
+  {
+    "id": "focus-omib-001",
+    "sourceItem": 1,
+    "rules": [
+      "合并"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-002",
+    "sourceItem": 2,
+    "rules": [
+      "相减"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-003",
+    "sourceItem": 3,
+    "rules": [
+      "异或"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-004",
+    "sourceItem": 4,
+    "rules": [
+      "交集"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-005",
+    "sourceItem": 5,
+    "rules": [
+      "旋转"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-006",
+    "sourceItem": 6,
+    "rules": [
+      "补全"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-007",
+    "sourceItem": 21,
+    "rules": [
+      "合并",
+      "相减"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-008",
+    "sourceItem": 22,
+    "rules": [
+      "合并",
+      "异或"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-009",
+    "sourceItem": 24,
+    "rules": [
+      "合并",
+      "旋转"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-010",
+    "sourceItem": 25,
+    "rules": [
+      "合并",
+      "补全"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-011",
+    "sourceItem": 26,
+    "rules": [
+      "相减",
+      "异或"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-012",
+    "sourceItem": 28,
+    "rules": [
+      "相减",
+      "旋转"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-013",
+    "sourceItem": 30,
+    "rules": [
+      "异或",
+      "交集"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-014",
+    "sourceItem": 35,
+    "rules": [
+      "旋转",
+      "补全"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-015",
+    "sourceItem": 71,
+    "rules": [
+      "合并",
+      "相减",
+      "异或"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-016",
+    "sourceItem": 74,
+    "rules": [
+      "合并",
+      "相减",
+      "补全"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-017",
+    "sourceItem": 77,
+    "rules": [
+      "合并",
+      "异或",
+      "补全"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-018",
+    "sourceItem": 81,
+    "rules": [
+      "相减",
+      "异或",
+      "交集"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-019",
+    "sourceItem": 82,
+    "rules": [
+      "相减",
+      "异或",
+      "旋转"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-020",
+    "sourceItem": 89,
+    "rules": [
+      "交集",
+      "旋转",
+      "补全"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-021",
+    "sourceItem": 151,
+    "rules": [
+      "合并",
+      "相减",
+      "异或",
+      "交集"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-022",
+    "sourceItem": 160,
+    "rules": [
+      "相减",
+      "异或",
+      "交集",
+      "旋转"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-023",
+    "sourceItem": 201,
+    "rules": [
+      "合并",
+      "相减",
+      "异或",
+      "交集",
+      "旋转"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  },
+  {
+    "id": "focus-omib-024",
+    "sourceItem": 210,
+    "rules": [
+      "合并",
+      "相减",
+      "交集",
+      "旋转",
+      "补全"
+    ],
+    "optionsDistinct": true,
+    "correctOptions": 1
+  }
+]

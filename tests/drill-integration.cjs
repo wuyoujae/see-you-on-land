@@ -152,6 +152,7 @@ function harness(t, options = {}) {
     root, window, document, location, history, localStorage, cache, backend, explainCalls, renderWrites, fetches, settings, transitions,
     get settingsOpened() { return settingsOpened; },
     get historyLength() { return historyEntries.length; },
+    advance(milliseconds) { clock += milliseconds; },
     async settle() { for (let i = 0; i < 10; i++) await new Promise(resolve => setImmediate(resolve)); },
     async navigate(hash) { location.hash = hash; window.dispatchEvent({type: "hashchange"}); await this.settle(); },
     async action(action, data = {}) {
@@ -511,5 +512,121 @@ for (const [sid, topic] of [["language", "language-title"], ["analysis", "analys
       assert.ok(restored.root.querySelector("#drill-question").innerHTML.includes(Rich.render(expected[0].materialBlocks)));
     }
     assert.equal(restored.explainCalls.length, 0, "restoring an unanswered module must not start AI");
+  });
+}
+
+function focusResources() {
+  const rows = [
+    {...questions[0],id:"focus-number-a",subjectId:"quantity",practiceSetId:"numbers",topicId:"number-difference",difficulty:"foundation"},
+    {...questions[0],id:"focus-number-b",subjectId:"quantity",practiceSetId:"numbers",topicId:"number-difference",difficulty:"standard"},
+    {...questions[0],id:"focus-number-c",subjectId:"quantity",practiceSetId:"numbers",topicId:"number-grid",difficulty:"challenge"}
+  ];
+  const set = {id:"numbers",title:"数字规律专项",subjectId:"quantity",path:"data/question-bank/practice/numbers.json",questionCount:3,questionIds:rows.map(q=>q.id),examRoute:"#/study/quantity?topic=quantity-number-sequences",modules:[{id:"number-difference",title:"差分数列"},{id:"number-grid",title:"数字图阵"}]};
+  const figures = {id:"figures",title:"图形推理专项",subjectId:"reasoning",questionCount:120,questionIds:[]};
+  return {"data/question-bank/manifest.json":{...bank,practiceSets:[set,figures]},[set.path]:{id:"numbers",questions:rows}};
+}
+
+test("focused drills intersect skill and difficulty, preserve submissions on refresh and return to their own setup", async t => {
+  const resources=focusResources(), h=harness(t,{hash:"#/study/focus/numbers?topic=number-difference&difficulty=standard",resources,noSession:true,immediateAI:true});
+  await h.settle();
+  assert.equal(h.root.querySelector("#drill-count").max,"1");
+  assert.equal(h.root.querySelector("#drill-difficulty").value,"standard");
+  assert.match(h.text(),/专项练习 · 3 题|练习已有真题/);
+  assert.equal(h.root.querySelector("#drill-exam"),null);
+  await h.start(1); h.flush();
+  const session=Object.values(h.progress().sessions)[0];
+  assert.equal(session.setId,"practice:numbers"); assert.equal(session.subjectId,"quantity");
+  assert.deepEqual(session.questionIds,["focus-number-b"]); assert.equal(session.topicId,"number-difference");
+  assert.match(h.text(),/数字规律专项 · 差分数列/); assert.match(h.text(),/专项练习（非真题）/);
+  assert.doesNotMatch(h.text(),/SOURCE_Q1/); assert.equal(h.explainCalls.length,0);
+  await h.answer("B"); await h.action("next"); await until(()=>h.cache.values.size===1); h.flush();
+  const saved=Object.values(h.progress().sessions)[0];
+  assert.equal(saved.answers["focus-number-b"].status,"correct");
+  assert.deepEqual(Core.validateProgress(h.progress()),h.progress(),"focus sessions stay compatible with the existing backup schema");
+  const restored=harness(t,{hash:h.location.hash,session:saved,resources,cache:h.cache}); await restored.settle();
+  assert.match(restored.root.querySelector("#drill-question").innerHTML,/value="B" checked disabled/);
+  assert.equal(restored.root.querySelector("#drill-explanation").hidden,false);
+  assert.ok(!restored.fetches.includes("data/question-bank/subjects/quantity.json"),"restoring focus practice must load its own bank");
+  await restored.action("exit");
+  assert.equal(restored.location.hash,"#/study/focus/numbers?topic=number-difference");
+  assert.equal(restored.root.querySelector("#drill-count").max,"2");
+});
+
+test("focus filters retain an empty intersection and reject an unknown or mismatched collection", async t => {
+  const resources=focusResources(), h=harness(t,{hash:"#/study/focus/numbers?topic=number-grid",resources,noSession:true}); await h.settle();
+  const level=h.root.querySelector("#drill-difficulty"); level.value="foundation";
+  h.root.dispatchEvent({type:"change",target:level}); await h.settle();
+  assert.equal(h.root.querySelector("#drill-topic").value,"number-grid");
+  assert.equal(h.root.querySelector("#drill-count").max,"0"); assert.equal(h.root.querySelector(".drill-start").disabled,true);
+  await h.start(1); h.flush(); assert.equal(Object.keys(h.progress().sessions).length,0);
+  const unknown=harness(t,{hash:"#/study/focus/missing",resources}); await unknown.settle();
+  assert.match(unknown.text(),/找不到这个专项题库/);
+  const mismatch=focusResources(); mismatch["data/question-bank/practice/numbers.json"].questions[0].id="wrong-index";
+  const invalid=harness(t,{hash:"#/study/focus/numbers",resources:mismatch}); await invalid.settle();
+  assert.match(invalid.text(),/专项目录与题目不一致/);
+});
+
+test("catalog offers two clearly labeled focus entries while exam totals stay separate", async t => {
+  const resources=focusResources(), h=harness(t,{hash:"#/study",resources,noSession:true}); await h.settle();
+  assert.match(h.text(),/数字规律专项/); assert.match(h.text(),/图形推理专项/);
+  assert.match(h.text(),/3 题 · 非真题/); assert.match(h.text(),/120 题 · 非真题/);
+  assert.match(h.text(),/1 套真题 · 3 题/);
+});
+
+test("calculation timing excludes hidden tabs and explanations, survives refresh and appears in the result", async t => {
+  const resources=focusResources(), meta=resources["data/question-bank/manifest.json"];
+  const source=resources["data/question-bank/practice/numbers.json"];
+  const rows=source.questions.slice(0,1).map(q=>({...q,id:"focus-calc-001",subjectId:"analysis",practiceSetId:"calculation",type:"fill",stem:"计算 96 × 12.5%",answer:"12",answerFormat:{kind:"number",decimalPlaces:0},options:[],sourceAnswer:{answer:"12",explanationBlocks:[{type:"paragraph",text:"12.5%等于1/8，96÷8=12。"}]}}));
+  meta.practiceSets=[{...meta.practiceSets[0],id:"calculation",title:"资料速算",subjectId:"analysis",questionIds:rows.map(q=>q.id),questionCount:1,path:"data/question-bank/practice/calculation.json",examRoute:"#/study/analysis"}];
+  resources[meta.practiceSets[0].path]={id:"calculation",questions:rows};
+  const h=harness(t,{hash:"#/study/focus/calculation",resources,noSession:true,immediateAI:true}); await h.settle();
+  assert.match(h.text(),/计时计算/); await h.start(1); h.advance(12000);
+  h.document.visibilityState="hidden"; h.document.dispatchEvent({type:"visibilitychange"}); h.flush();
+  const hidden=Object.values(h.progress().sessions)[0]; const first=hidden.timings[rows[0].id];
+  assert.ok(first>=12000 && first<12100);
+  h.advance(300000); h.flush(); assert.equal(Object.values(h.progress().sessions)[0].timings[rows[0].id],first);
+  h.document.visibilityState="visible"; h.document.dispatchEvent({type:"visibilitychange"}); h.advance(4000);
+  await h.answer("12.0"); h.document.dispatchEvent({type:"keydown",key:"Enter",target:{closest:selector=>selector===".practice-text-input" ? {} : null},preventDefault(){}}); await h.settle(); h.flush();
+  const saved=Object.values(h.progress().sessions)[0], elapsed=saved.timings[rows[0].id];
+  assert.ok(elapsed>=16000 && elapsed<16200); assert.equal(saved.answers[rows[0].id].status,"correct");
+  assert.equal(h.root.querySelector('[data-drill-action="next"]').focused,true,"Enter submission leaves the next action focused");
+  assert.match(h.root.querySelector("#drill-clock").textContent,/用时 16\./);
+  h.advance(60000); h.flush(); assert.equal(Object.values(h.progress().sessions)[0].timings[rows[0].id],elapsed);
+  const restored=harness(t,{hash:h.location.hash,session:saved,resources}); await restored.settle();
+  assert.match(restored.root.querySelector("#drill-clock").textContent,/用时 16\./);
+  await restored.action("next"); assert.match(restored.text(),/平均用时 \/ 题/);
+  assert.match(restored.text(),/100/);
+  assert.deepEqual(Core.validateProgress(h.progress()),h.progress());
+});
+
+for (const id of ["numbers","figures","calculation"]) {
+  test(`actual ${id} supplementary bank starts, grades and restores the selected module`, async t => {
+    const read=file=>JSON.parse(fs.readFileSync(path.join(__dirname,"..",file),"utf8"));
+    const manifest=read("data/question-bank/manifest.json"), meta=manifest.practiceSets.find(set=>set.id===id);
+    const data=read(meta.path), topic=meta.modules.at(-1).id;
+    const expected=data.questions.filter(q=>q.topicId===topic), first=expected[0];
+    const resources={"data/question-bank/manifest.json":manifest,[meta.path]:data};
+    const h=harness(t,{hash:`#/study/focus/${id}?topic=${topic}`,resources,noSession:true}); await h.settle();
+    assert.equal(h.root.querySelector("#drill-count").max,String(expected.length));
+    await h.start(1); assert.equal(h.root.querySelector("#drill-explanation").hidden,true);
+    assert.ok(h.root.querySelector("#drill-question").innerHTML.includes(Rich.render(first.stemBlocks)));
+    if(id==="calculation") {
+      assert.equal(first.type,"fill"); assert.equal(first.options,undefined);
+      assert.match(h.root.querySelector("#drill-question").innerHTML,/practice-text-input/);
+      h.advance(2500);
+    }
+    await h.answer(first.answer); await h.action("next"); h.flush();
+    const session=Object.values(h.progress().sessions)[0];
+    assert.equal(session.answers[first.id].status,"correct");
+    assert.ok(h.root.querySelector("#drill-explanation").innerHTML.includes(Rich.render(first.sourceAnswer.explanationBlocks)));
+    if(id==="figures") {
+      assert.match(h.text(),/开放题库改编（非真题）/);
+      assert.match(h.root.querySelector("#drill-explanation").innerHTML,/GPL-3.0/);
+      assert.match(h.root.querySelector("#drill-explanation").innerHTML,/原始题图与改编源码/);
+    }
+    const restored=harness(t,{hash:h.location.hash,session,resources});await restored.settle();
+    assert.equal(restored.root.querySelector("#drill-explanation").hidden,false);
+    assert.deepEqual(Object.values(restored.progress().sessions)[0].questionIds,[first.id]);
+    if(id==="calculation") assert.ok(session.timings[first.id]>=2500);
   });
 }

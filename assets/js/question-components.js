@@ -29,6 +29,16 @@
     if (question.type === "boolean" || question.type === "true-false") {
       return booleanValue(answer) === booleanValue(question.answer) ? "correct" : "incorrect";
     }
+    if (question.type === "fill" && ["number", "percent"].includes(question.answerFormat?.kind)) {
+      const numeric = value => {
+        let text = String(value ?? "").normalize("NFKC").trim().replace(/\u2212/g, "-");
+        if (question.answerFormat.kind === "percent") text = text.replace(/%$/, "").trim();
+        if (!/^[+-]?(?:\d+(?:\.\d*)?|\.\d+)$/.test(text)) return null;
+        const number = Number(text); return Number.isFinite(number) ? number : null;
+      };
+      const actual = numeric(answer), expected = numeric(question.answer);
+      return actual !== null && expected !== null && actual === expected ? "correct" : "incorrect";
+    }
     // Circled enumeration markers belong to the source layout of fill-in text.
     // Remove them before NFKC turns them into ordinary digits; choice IDs keep
     // their original normalization and must remain distinguishable.

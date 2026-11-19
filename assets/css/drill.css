@@ -34,6 +34,28 @@
 .drill-paper small { color:var(--muted); font-size:.72rem; }
 .drill-setup-header { display:flex; align-items:center; gap:.6rem; margin:.6rem 0 1.7rem; }
 .drill-setup-header h1 { font-size:1.5rem; line-height:1.5; font-weight:650; margin:0; }
+.drill-focus-links { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,13rem),1fr)); gap:1rem; margin:0 0 1.5rem; }
+.drill-clock { margin-left:auto; font-variant-numeric:tabular-nums; color:var(--accent); white-space:nowrap; }
+.drill-card .learn-card-meta:has(.drill-clock) { flex-wrap:wrap; gap:.65rem; }
+.drill-session .learn-completion-stats { flex-wrap:wrap; gap:1.5rem; }
+.drill-figure-card .practice-options { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.drill-figure-card .study-question-layout:not(.is-submitted) .practice-options { grid-template-columns:repeat(4,minmax(0,1fr)); }
+.drill-figure-card legend .rich-content__figure img { max-height:24rem; width:auto; object-fit:contain; }
+.drill-card.drill-figure-card .practice-option .rich-content__figure img { max-height:8rem; }
+@media (max-width:43rem) { .drill-figure-card .study-question-layout:not(.is-submitted) .practice-options { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+.drill-focus-links>a { display:flex; align-items:center; gap:.8rem; min-width:0; padding:1rem; color:var(--ink); background:var(--learn-soft); border:0.0625rem solid var(--learn-border); border-radius:.85rem; text-decoration:none; transition:background .18s ease,transform .18s ease,border-color .18s ease; }
+.drill-focus-links>a:hover { background:#e6f1da; border-color:#a0be8c; transform:translateY(-.125rem); }
+.drill-focus-links>a:active { transform:translateY(0); }
+.drill-focus-links>a:focus-visible,.drill-focus-heading a:focus-visible { outline:.125rem solid var(--accent); outline-offset:.2rem; }
+.drill-focus-links svg { width:1.4rem; height:1.4rem; flex:none; color:var(--accent); }
+.drill-focus-links span { display:grid; gap:.4rem; min-width:0; }
+.drill-focus-links strong { font-size:1rem; font-weight:600; }
+.drill-focus-links small { color:var(--muted-strong); font-size:.875rem; line-height:1.5; }
+.drill-focus-heading { display:flex; flex-wrap:wrap; justify-content:space-between; gap:.75rem; margin-bottom:1.5rem; font-size:.875rem; color:var(--muted-strong); }
+.drill-focus-heading a { color:var(--accent); text-decoration:none; transition:color .18s ease; }
+.drill-focus-heading a:hover { color:var(--learn-dark); text-decoration:underline; }
+@media (max-width:35rem) { .drill-focus-links { grid-template-columns:minmax(0,1fr); gap:.75rem; } }
+@media (prefers-reduced-motion:reduce) { .drill-focus-links>a,.drill-focus-heading a { transition:none; } }
 .drill-setup { max-width:35rem; padding:1.8rem 2rem; margin:0 auto; border:0.125rem solid #e0e8d7; border-bottom:0.3125rem solid #dbe5d0; border-radius:1.5rem; background:white; }
 .drill-setup-heading { display:flex; gap:.8rem; align-items:center; color:var(--accent); font-weight:600; margin-bottom:1.6rem; font-size:1rem; }
 .drill-setup-heading svg { width:1.3rem; height:1.3rem; }

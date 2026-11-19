@@ -1,0 +1,1487 @@
+{
+  "total": 180,
+  "countsBySkill": {
+    "加减拆分": 24,
+    "速算乘法": 24,
+    "百分数运算": 24,
+    "除法估算": 36,
+    "基期量": 24,
+    "增长量": 24,
+    "比重与平均数": 24
+  },
+  "countsByDifficulty": {
+    "foundation": 60,
+    "standard": 90,
+    "challenge": 30
+  },
+  "countsByAnswer": {
+    "A": 45,
+    "B": 45,
+    "C": 45,
+    "D": 45
+  },
+  "percentOutputCount": 14,
+  "countsByRoundingUnit": {
+    "1": 84,
+    "1/10": 49,
+    "1/100": 25,
+    "100": 10,
+    "10": 12
+  },
+  "nearRoundingBoundary": [
+    {
+      "id": "focus-calc-070",
+      "distanceToBoundary": "0",
+      "halfUnit": "1/200"
+    },
+    {
+      "id": "focus-calc-177",
+      "distanceToBoundary": "0",
+      "halfUnit": "1/200"
+    }
+  ],
+  "unresolved": [],
+  "checks": [
+    {
+      "id": "focus-calc-001",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-002",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-003",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-004",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-005",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-006",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-007",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-008",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-009",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-010",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-011",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-012",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-013",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-014",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-015",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-016",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-017",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-018",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-019",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-020",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-021",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-022",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-023",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-024",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-025",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-026",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-027",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-028",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-029",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-030",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-031",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-032",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-033",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-034",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-035",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-036",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-037",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-038",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-039",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-040",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-041",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-042",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-043",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-044",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-045",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-046",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-047",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-048",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-049",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-050",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-051",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-052",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-053",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-054",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-055",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-056",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-057",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-058",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-059",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-060",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-061",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-062",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-063",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-064",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-065",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-066",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-067",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-068",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-069",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-070",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-071",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-072",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-073",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-074",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-075",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-076",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-077",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-078",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-079",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-080",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-081",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-082",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-083",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-084",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-085",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-086",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-087",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-088",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-089",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-090",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-091",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-092",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-093",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-094",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-095",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-096",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-097",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-098",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-099",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-100",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-101",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-102",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-103",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-104",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-105",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-106",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-107",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-108",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-109",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-110",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-111",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-112",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-113",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-114",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-115",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-116",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-117",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-118",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-119",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-120",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-121",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-122",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-123",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-124",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-125",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-126",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-127",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-128",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-129",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-130",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-131",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-132",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-133",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-134",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-135",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-136",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-137",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-138",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-139",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-140",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-141",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-142",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-143",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-144",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-145",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-146",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-147",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-148",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-149",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-150",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-151",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-152",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-153",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-154",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-155",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-156",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-157",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-158",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-159",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-160",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-161",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-162",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-163",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-164",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-165",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-166",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-167",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-168",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-169",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-170",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-171",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-172",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-173",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-174",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-175",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-176",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-177",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-178",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-179",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    },
+    {
+      "id": "focus-calc-180",
+      "displayMatchesExact": true,
+      "shortcutEquivalent": true,
+      "decimalMatchesFraction": true,
+      "roundingBounds": true,
+      "uniqueCorrectOption": true
+    }
+  ],
+  "sha256": "dfffbdeabbd926e238f2bd81220828e08e5273cd7410b9bc5786bbfa5ece9f0b"
+}

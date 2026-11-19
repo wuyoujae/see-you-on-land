@@ -1,0 +1,722 @@
+[
+  {
+    "input": "adapted-svg/omib-001-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-001-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-001-a.svg",
+    "output": "assets/images/question-bank/focused/omib-001-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-001-b.svg",
+    "output": "assets/images/question-bank/focused/omib-001-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-001-c.svg",
+    "output": "assets/images/question-bank/focused/omib-001-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-001-d.svg",
+    "output": "assets/images/question-bank/focused/omib-001-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-002-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-002-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-002-a.svg",
+    "output": "assets/images/question-bank/focused/omib-002-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-002-b.svg",
+    "output": "assets/images/question-bank/focused/omib-002-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-002-c.svg",
+    "output": "assets/images/question-bank/focused/omib-002-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-002-d.svg",
+    "output": "assets/images/question-bank/focused/omib-002-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-003-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-003-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-003-a.svg",
+    "output": "assets/images/question-bank/focused/omib-003-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-003-b.svg",
+    "output": "assets/images/question-bank/focused/omib-003-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-003-c.svg",
+    "output": "assets/images/question-bank/focused/omib-003-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-003-d.svg",
+    "output": "assets/images/question-bank/focused/omib-003-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-004-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-004-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-004-a.svg",
+    "output": "assets/images/question-bank/focused/omib-004-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-004-b.svg",
+    "output": "assets/images/question-bank/focused/omib-004-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-004-c.svg",
+    "output": "assets/images/question-bank/focused/omib-004-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-004-d.svg",
+    "output": "assets/images/question-bank/focused/omib-004-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-005-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-005-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-005-a.svg",
+    "output": "assets/images/question-bank/focused/omib-005-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-005-b.svg",
+    "output": "assets/images/question-bank/focused/omib-005-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-005-c.svg",
+    "output": "assets/images/question-bank/focused/omib-005-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-005-d.svg",
+    "output": "assets/images/question-bank/focused/omib-005-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-006-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-006-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-006-a.svg",
+    "output": "assets/images/question-bank/focused/omib-006-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-006-b.svg",
+    "output": "assets/images/question-bank/focused/omib-006-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-006-c.svg",
+    "output": "assets/images/question-bank/focused/omib-006-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-006-d.svg",
+    "output": "assets/images/question-bank/focused/omib-006-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-007-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-007-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-007-a.svg",
+    "output": "assets/images/question-bank/focused/omib-007-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-007-b.svg",
+    "output": "assets/images/question-bank/focused/omib-007-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-007-c.svg",
+    "output": "assets/images/question-bank/focused/omib-007-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-007-d.svg",
+    "output": "assets/images/question-bank/focused/omib-007-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-008-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-008-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-008-a.svg",
+    "output": "assets/images/question-bank/focused/omib-008-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-008-b.svg",
+    "output": "assets/images/question-bank/focused/omib-008-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-008-c.svg",
+    "output": "assets/images/question-bank/focused/omib-008-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-008-d.svg",
+    "output": "assets/images/question-bank/focused/omib-008-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-009-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-009-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-009-a.svg",
+    "output": "assets/images/question-bank/focused/omib-009-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-009-b.svg",
+    "output": "assets/images/question-bank/focused/omib-009-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-009-c.svg",
+    "output": "assets/images/question-bank/focused/omib-009-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-009-d.svg",
+    "output": "assets/images/question-bank/focused/omib-009-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-010-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-010-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-010-a.svg",
+    "output": "assets/images/question-bank/focused/omib-010-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-010-b.svg",
+    "output": "assets/images/question-bank/focused/omib-010-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-010-c.svg",
+    "output": "assets/images/question-bank/focused/omib-010-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-010-d.svg",
+    "output": "assets/images/question-bank/focused/omib-010-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-011-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-011-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-011-a.svg",
+    "output": "assets/images/question-bank/focused/omib-011-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-011-b.svg",
+    "output": "assets/images/question-bank/focused/omib-011-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-011-c.svg",
+    "output": "assets/images/question-bank/focused/omib-011-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-011-d.svg",
+    "output": "assets/images/question-bank/focused/omib-011-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-012-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-012-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-012-a.svg",
+    "output": "assets/images/question-bank/focused/omib-012-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-012-b.svg",
+    "output": "assets/images/question-bank/focused/omib-012-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-012-c.svg",
+    "output": "assets/images/question-bank/focused/omib-012-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-012-d.svg",
+    "output": "assets/images/question-bank/focused/omib-012-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-013-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-013-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-013-a.svg",
+    "output": "assets/images/question-bank/focused/omib-013-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-013-b.svg",
+    "output": "assets/images/question-bank/focused/omib-013-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-013-c.svg",
+    "output": "assets/images/question-bank/focused/omib-013-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-013-d.svg",
+    "output": "assets/images/question-bank/focused/omib-013-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-014-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-014-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-014-a.svg",
+    "output": "assets/images/question-bank/focused/omib-014-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-014-b.svg",
+    "output": "assets/images/question-bank/focused/omib-014-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-014-c.svg",
+    "output": "assets/images/question-bank/focused/omib-014-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-014-d.svg",
+    "output": "assets/images/question-bank/focused/omib-014-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-015-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-015-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-015-a.svg",
+    "output": "assets/images/question-bank/focused/omib-015-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-015-b.svg",
+    "output": "assets/images/question-bank/focused/omib-015-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-015-c.svg",
+    "output": "assets/images/question-bank/focused/omib-015-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-015-d.svg",
+    "output": "assets/images/question-bank/focused/omib-015-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-016-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-016-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-016-a.svg",
+    "output": "assets/images/question-bank/focused/omib-016-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-016-b.svg",
+    "output": "assets/images/question-bank/focused/omib-016-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-016-c.svg",
+    "output": "assets/images/question-bank/focused/omib-016-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-016-d.svg",
+    "output": "assets/images/question-bank/focused/omib-016-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-017-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-017-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-017-a.svg",
+    "output": "assets/images/question-bank/focused/omib-017-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-017-b.svg",
+    "output": "assets/images/question-bank/focused/omib-017-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-017-c.svg",
+    "output": "assets/images/question-bank/focused/omib-017-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-017-d.svg",
+    "output": "assets/images/question-bank/focused/omib-017-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-018-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-018-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-018-a.svg",
+    "output": "assets/images/question-bank/focused/omib-018-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-018-b.svg",
+    "output": "assets/images/question-bank/focused/omib-018-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-018-c.svg",
+    "output": "assets/images/question-bank/focused/omib-018-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-018-d.svg",
+    "output": "assets/images/question-bank/focused/omib-018-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-019-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-019-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-019-a.svg",
+    "output": "assets/images/question-bank/focused/omib-019-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-019-b.svg",
+    "output": "assets/images/question-bank/focused/omib-019-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-019-c.svg",
+    "output": "assets/images/question-bank/focused/omib-019-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-019-d.svg",
+    "output": "assets/images/question-bank/focused/omib-019-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-020-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-020-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-020-a.svg",
+    "output": "assets/images/question-bank/focused/omib-020-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-020-b.svg",
+    "output": "assets/images/question-bank/focused/omib-020-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-020-c.svg",
+    "output": "assets/images/question-bank/focused/omib-020-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-020-d.svg",
+    "output": "assets/images/question-bank/focused/omib-020-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-021-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-021-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-021-a.svg",
+    "output": "assets/images/question-bank/focused/omib-021-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-021-b.svg",
+    "output": "assets/images/question-bank/focused/omib-021-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-021-c.svg",
+    "output": "assets/images/question-bank/focused/omib-021-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-021-d.svg",
+    "output": "assets/images/question-bank/focused/omib-021-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-022-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-022-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-022-a.svg",
+    "output": "assets/images/question-bank/focused/omib-022-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-022-b.svg",
+    "output": "assets/images/question-bank/focused/omib-022-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-022-c.svg",
+    "output": "assets/images/question-bank/focused/omib-022-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-022-d.svg",
+    "output": "assets/images/question-bank/focused/omib-022-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-023-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-023-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-023-a.svg",
+    "output": "assets/images/question-bank/focused/omib-023-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-023-b.svg",
+    "output": "assets/images/question-bank/focused/omib-023-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-023-c.svg",
+    "output": "assets/images/question-bank/focused/omib-023-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-023-d.svg",
+    "output": "assets/images/question-bank/focused/omib-023-d.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-024-stem.svg",
+    "output": "assets/images/question-bank/focused/omib-024-stem.png",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "input": "adapted-svg/omib-024-a.svg",
+    "output": "assets/images/question-bank/focused/omib-024-a.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-024-b.svg",
+    "output": "assets/images/question-bank/focused/omib-024-b.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-024-c.svg",
+    "output": "assets/images/question-bank/focused/omib-024-c.png",
+    "width": 208,
+    "height": 208
+  },
+  {
+    "input": "adapted-svg/omib-024-d.svg",
+    "output": "assets/images/question-bank/focused/omib-024-d.png",
+    "width": 208,
+    "height": 208
+  }
+]

@@ -1,0 +1,25 @@
+Instructions for the Implementation of the OMIB
+The items of the Open Matrices Item Base (OMIB) have been developed primarily for computer-based testing. However, for some study designs a pen-and-paper version might be needed. This repository contains the needed materials for both implementations and a short documentation.
+Computer-Based Version
+The folder “Web Version” contains an HTML file as well as CSS and JS Files which are needed for a simple implementation which can be used on most modern browsers. Only the content of the HTML file needs to be changed for implementing a test consisting of OMIB items.
+Changeable Variables:
+L. 7 – Here you can change the number of the current item to be displayed as well as the total amount of items you want to display
+L. 10 – Here you can change the starting time limit in seconds
+L. 207 – Here the item code (which can be accessed from the same OSF repository as this file) needs to be inserted. All valid item codes consist of nine groups of 20 ones and zeros, with the groups being delimited by commas.
+L. 208 – If you have changed the starting time limit in line 10, you need to enter the same value here
+If further changes are needed please contact the authors.
+Accessing the data:
+In the HTML document, two hidden input fields exist which get modified as participants work on the item. One input filed has the name “solution” and contains a group of twenty “1”s and “0”s, representing which construction elements have been chosen by the test taker. A one means that an element has been selected; a zero means the corresponding element was not selected. The second input field contains the log file, e.g., after how many milliseconds the participant clicked which element. This input field is name “log”.
+Many online survey tools such as QuestBack enable users to use custom item types for which they have to import their own HTML code. Usually, when a page in such a tool is submitted, the server gets the content of all input elements which were named according to the survey tools guidelines. The name of both input elements is defined in line 195 and line 200.
+Pen-and-paper version
+In this repository, there is a word file titled “Item Template.docx”. This file contains 20 pages with OMR-ready (optical mark recognition) matrices items. In the template, the item stems are all identical and need to be changed by the user according to their own item selection. All item stems are available from the same OSF repository as this file. It is possible to print either one item per DIN A 4 page in portrait format, or to use the printing dialogue to print two items next to each other in landscape format.
+Accessing the data:
+After participants have taken the test, the sheets can be scanned with any OMR software. The authors have tested this procedure with Remark Office, which could reliably detect which response elements have been selected. It is mandatory, that all elements be scanned in the correct order (from left to right and from top to bottom). Each checked element must be coded as a “1”, each unchecked item must be coded as a “0”.
+Test scoring
+Both the computer-based version as well as the pen-and-paper version result in one string of twenty “1”s and “0”s per item administered to the test taker. These strings can be recoded to correct and wrong responses by comparing them with the correct solution in the item table in this OSF repository (“Item Data.xlsx”).
+For example, in R this recoding procedure could be written as follows
+item_x_recoded = ifelse(item_x_raw == item_x_solution,1,0)
+Then, for all instances where item_x_raw (the 20 character string per item) is identical to item_x_solution (the correct solution of item x) a 1 will be returned, whereas for all other cases a 0 will be returned.
+
+Contact
+In case of problems with the implementation, please feel free to contact the first author of the companion article.

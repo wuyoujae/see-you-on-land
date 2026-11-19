@@ -1,0 +1,270 @@
+{
+  "count": 24,
+  "passed": 24,
+  "results": [
+    {
+      "id": "focus-omib-001",
+      "originalItemId": 1,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "A"
+      ]
+    },
+    {
+      "id": "focus-omib-002",
+      "originalItemId": 2,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "D"
+      ]
+    },
+    {
+      "id": "focus-omib-003",
+      "originalItemId": 3,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "C"
+      ]
+    },
+    {
+      "id": "focus-omib-004",
+      "originalItemId": 4,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "B"
+      ]
+    },
+    {
+      "id": "focus-omib-005",
+      "originalItemId": 5,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "D"
+      ]
+    },
+    {
+      "id": "focus-omib-006",
+      "originalItemId": 6,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "A"
+      ]
+    },
+    {
+      "id": "focus-omib-007",
+      "originalItemId": 21,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "A"
+      ]
+    },
+    {
+      "id": "focus-omib-008",
+      "originalItemId": 22,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "B"
+      ]
+    },
+    {
+      "id": "focus-omib-009",
+      "originalItemId": 24,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "C"
+      ]
+    },
+    {
+      "id": "focus-omib-010",
+      "originalItemId": 25,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "D"
+      ]
+    },
+    {
+      "id": "focus-omib-011",
+      "originalItemId": 26,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "D"
+      ]
+    },
+    {
+      "id": "focus-omib-012",
+      "originalItemId": 28,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "B"
+      ]
+    },
+    {
+      "id": "focus-omib-013",
+      "originalItemId": 30,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "C"
+      ]
+    },
+    {
+      "id": "focus-omib-014",
+      "originalItemId": 35,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "D"
+      ]
+    },
+    {
+      "id": "focus-omib-015",
+      "originalItemId": 71,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "B"
+      ]
+    },
+    {
+      "id": "focus-omib-016",
+      "originalItemId": 74,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "B"
+      ]
+    },
+    {
+      "id": "focus-omib-017",
+      "originalItemId": 77,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "A"
+      ]
+    },
+    {
+      "id": "focus-omib-018",
+      "originalItemId": 81,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "D"
+      ]
+    },
+    {
+      "id": "focus-omib-019",
+      "originalItemId": 82,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "A"
+      ]
+    },
+    {
+      "id": "focus-omib-020",
+      "originalItemId": 89,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "B"
+      ]
+    },
+    {
+      "id": "focus-omib-021",
+      "originalItemId": 151,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "C"
+      ]
+    },
+    {
+      "id": "focus-omib-022",
+      "originalItemId": 160,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "C"
+      ]
+    },
+    {
+      "id": "focus-omib-023",
+      "originalItemId": 201,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "C"
+      ]
+    },
+    {
+      "id": "focus-omib-024",
+      "originalItemId": 210,
+      "allThreeRows": true,
+      "correctOptions": 1,
+      "allFourImagesDistinct": true,
+      "sourceKeyMatch": true,
+      "unrestrictedSixRuleAlternatives": [
+        "A"
+      ]
+    }
+  ]
+}

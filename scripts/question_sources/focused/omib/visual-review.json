@@ -1,0 +1,215 @@
+{
+  "reviewedOn": "2026-11-18",
+  "reviewer": "Codex source research agent",
+  "method": "Viewed all six final four-question sheets via image tool after final randomized balanced option ordering; compared visual result to source codes and Chinese explanations. All 24 have complete stems, four legible separate choices, and no answer panel or explanation in published assets.",
+  "status": "passed",
+  "candidatesSha256": "0434861fb7b34b9cda1a1bbfe94127620d063c589e0e697e40dafb94d43192bc",
+  "sheets": [
+    {
+      "path": "review/contact-01.png",
+      "sha256": "17076b1006327e5cf78dc4783add1d8a6fbba6d73624132bb1220ac9f47d7335",
+      "questionIds": [
+        "focus-omib-001",
+        "focus-omib-002",
+        "focus-omib-003",
+        "focus-omib-004"
+      ]
+    },
+    {
+      "path": "review/contact-02.png",
+      "sha256": "7ab8daaf5d7497bb5667ba111d2baf29f90728cc856342b95fff6366eeeec6ea",
+      "questionIds": [
+        "focus-omib-005",
+        "focus-omib-006",
+        "focus-omib-007",
+        "focus-omib-008"
+      ]
+    },
+    {
+      "path": "review/contact-03.png",
+      "sha256": "fd3f4b7dc9dc52e898dd67dcecb50106c7438a5dfeaa1b1f45a461d88fa9657d",
+      "questionIds": [
+        "focus-omib-009",
+        "focus-omib-010",
+        "focus-omib-011",
+        "focus-omib-012"
+      ]
+    },
+    {
+      "path": "review/contact-04.png",
+      "sha256": "94b935cebf83911b8df270c01f21baaf6f16eb357cee74363fa4dbb0ece99126",
+      "questionIds": [
+        "focus-omib-013",
+        "focus-omib-014",
+        "focus-omib-015",
+        "focus-omib-016"
+      ]
+    },
+    {
+      "path": "review/contact-05.png",
+      "sha256": "61e03df2423fe71a89043d9af91caa4da1c6f4477eeb88c5ae17ffacc0c2b6b2",
+      "questionIds": [
+        "focus-omib-017",
+        "focus-omib-018",
+        "focus-omib-019",
+        "focus-omib-020"
+      ]
+    },
+    {
+      "path": "review/contact-06.png",
+      "sha256": "33c768b421001cca4ded7896042a67a6f1aac1ae51473efc5af789829c8497ac",
+      "questionIds": [
+        "focus-omib-021",
+        "focus-omib-022",
+        "focus-omib-023",
+        "focus-omib-024"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "focus-omib-001",
+      "originalItemId": 1,
+      "status": "passed",
+      "key": "A"
+    },
+    {
+      "id": "focus-omib-002",
+      "originalItemId": 2,
+      "status": "passed",
+      "key": "D"
+    },
+    {
+      "id": "focus-omib-003",
+      "originalItemId": 3,
+      "status": "passed",
+      "key": "C"
+    },
+    {
+      "id": "focus-omib-004",
+      "originalItemId": 4,
+      "status": "passed",
+      "key": "B"
+    },
+    {
+      "id": "focus-omib-005",
+      "originalItemId": 5,
+      "status": "passed",
+      "key": "D"
+    },
+    {
+      "id": "focus-omib-006",
+      "originalItemId": 6,
+      "status": "passed",
+      "key": "A"
+    },
+    {
+      "id": "focus-omib-007",
+      "originalItemId": 21,
+      "status": "passed",
+      "key": "A"
+    },
+    {
+      "id": "focus-omib-008",
+      "originalItemId": 22,
+      "status": "passed",
+      "key": "B"
+    },
+    {
+      "id": "focus-omib-009",
+      "originalItemId": 24,
+      "status": "passed",
+      "key": "C"
+    },
+    {
+      "id": "focus-omib-010",
+      "originalItemId": 25,
+      "status": "passed",
+      "key": "D"
+    },
+    {
+      "id": "focus-omib-011",
+      "originalItemId": 26,
+      "status": "passed",
+      "key": "D"
+    },
+    {
+      "id": "focus-omib-012",
+      "originalItemId": 28,
+      "status": "passed",
+      "key": "B"
+    },
+    {
+      "id": "focus-omib-013",
+      "originalItemId": 30,
+      "status": "passed",
+      "key": "C"
+    },
+    {
+      "id": "focus-omib-014",
+      "originalItemId": 35,
+      "status": "passed",
+      "key": "D"
+    },
+    {
+      "id": "focus-omib-015",
+      "originalItemId": 71,
+      "status": "passed",
+      "key": "B"
+    },
+    {
+      "id": "focus-omib-016",
+      "originalItemId": 74,
+      "status": "passed",
+      "key": "B"
+    },
+    {
+      "id": "focus-omib-017",
+      "originalItemId": 77,
+      "status": "passed",
+      "key": "A"
+    },
+    {
+      "id": "focus-omib-018",
+      "originalItemId": 81,
+      "status": "passed",
+      "key": "D"
+    },
+    {
+      "id": "focus-omib-019",
+      "originalItemId": 82,
+      "status": "passed",
+      "key": "A"
+    },
+    {
+      "id": "focus-omib-020",
+      "originalItemId": 89,
+      "status": "passed",
+      "key": "B"
+    },
+    {
+      "id": "focus-omib-021",
+      "originalItemId": 151,
+      "status": "passed",
+      "key": "C"
+    },
+    {
+      "id": "focus-omib-022",
+      "originalItemId": 160,
+      "status": "passed",
+      "key": "C"
+    },
+    {
+      "id": "focus-omib-023",
+      "originalItemId": 201,
+      "status": "passed",
+      "key": "C"
+    },
+    {
+      "id": "focus-omib-024",
+      "originalItemId": 210,
+      "status": "passed",
+      "key": "A"
+    }
+  ]
+}

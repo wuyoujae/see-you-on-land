@@ -88,6 +88,13 @@
     if (!session || !Number.isInteger(index) || index < 0 || index >= session.questionIds.length || !timestamp(now) || session.current === index) return session;
     return { ...session, current: index, updatedAt: Math.max(session.updatedAt || 0, now) };
   }
+  function addElapsed(session, questionId, milliseconds, now = Date.now()) {
+    if (!contains(session, questionId) || canShow(session, questionId, "answer") ||
+        !Number.isSafeInteger(milliseconds) || milliseconds <= 0 || !timestamp(now)) return session;
+    const elapsed = (session.timings?.[questionId] || 0) + milliseconds;
+    if (!Number.isSafeInteger(elapsed)) return session;
+    return { ...session, updatedAt: Math.max(session.updatedAt, now), timings: { ...session.timings, [questionId]: elapsed } };
+  }
   function submit(session, question, answer, gradeFn, now = Date.now()) {
     if (!contains(session, question?.id) || canShow(session, question.id, "answer") || question.type === "text" || !isAnswered(answer) || typeof gradeFn !== "function" || !timestamp(now)) return session;
     const status = gradeFn(question, answer);
@@ -133,6 +140,9 @@
       result.drafts[id] = { value: copyAnswer(item.value), updatedAt: item.updatedAt };
       result.updatedAt = Math.max(result.updatedAt, item.updatedAt);
     }
+    for (const [id, elapsed] of Object.entries(plain(value.timings) ? value.timings : {})) {
+      if (ids.has(id) && Number.isSafeInteger(elapsed) && elapsed > 0) (result.timings ||= {})[id] = elapsed;
+    }
     return result;
   }
   function latest(a, b, key) {
@@ -154,6 +164,8 @@
       const draft = latest(a.drafts[id], b.drafts[id], "updatedAt");
       if (answer) merged.answers[id] = { ...answer, answer: copyAnswer(answer.answer) };
       if (draft) merged.drafts[id] = { ...draft, value: copyAnswer(draft.value) };
+      const elapsed = Math.max(a.timings?.[id] || 0, b.timings?.[id] || 0);
+      if (elapsed) (merged.timings ||= {})[id] = elapsed;
     }
     return merged;
   }
@@ -236,6 +248,6 @@
     const digest = await cryptoAPI.subtle.digest("SHA-256", new TextEncoder().encode(canonical));
     return "practice-ai-v1:" + Array.from(new Uint8Array(digest), byte => byte.toString(16).padStart(2, "0")).join("");
   }
-  return { selectQuestionIds, filterQuestions, createSession, isAnswered, setDraft, submit, setCurrent, canShow, statistics, getStatistics,
+  return { selectQuestionIds, filterQuestions, createSession, isAnswered, setDraft, submit, setCurrent, addElapsed, canShow, statistics, getStatistics,
     sanitizeSession, mergeSession, mergeProgress, validateProgress, aiCacheKey, cacheIdentity, normalizeBaseUrl };
 });

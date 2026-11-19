@@ -1,0 +1,995 @@
+{
+  "total": 120,
+  "countsByForm": {
+    "sequence": 84,
+    "matrix": 36
+  },
+  "countsBySkill": {
+    "差分数列": 12,
+    "倍数与递推": 12,
+    "幂次数列": 12,
+    "分数数列": 12,
+    "交错数列": 12,
+    "分组数列": 12,
+    "数位规律": 12,
+    "图阵加减": 12,
+    "图阵乘除": 12,
+    "图阵复合运算": 12
+  },
+  "countsByDifficulty": {
+    "foundation": 40,
+    "standard": 60,
+    "challenge": 20
+  },
+  "countsByAnswer": {
+    "A": 30,
+    "B": 30,
+    "C": 30,
+    "D": 30
+  },
+  "unresolved": [],
+  "checks": [
+    {
+      "id": "focus-number-001",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-002",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-003",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-004",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-005",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-006",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-007",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-008",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-009",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-010",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-011",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-012",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-013",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-014",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-015",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-016",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-017",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-018",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-019",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-020",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-021",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-022",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-023",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-024",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-025",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-026",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-027",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-028",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-029",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-030",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-031",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-032",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-033",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-034",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-035",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-036",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-037",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-038",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-039",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-040",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-041",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-042",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-043",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-044",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-045",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-046",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-047",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-048",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-049",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-050",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-051",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-052",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-053",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-054",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-055",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-056",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-057",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-058",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-059",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-060",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-061",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-062",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-063",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-064",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-065",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-066",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-067",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-068",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-069",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-070",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-071",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-072",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-073",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-074",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-075",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-076",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-077",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-078",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-079",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-080",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-081",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-082",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-083",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-084",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-085",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-086",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-087",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-088",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-089",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-090",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-091",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-092",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-093",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-094",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-095",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-096",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-097",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-098",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-099",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-100",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-101",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-102",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-103",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-104",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-105",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-106",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-107",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-108",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-109",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-110",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-111",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-112",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-113",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-114",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-115",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-116",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-117",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-118",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-119",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    },
+    {
+      "id": "focus-number-120",
+      "allGivenValues": true,
+      "uniqueCorrectOption": true,
+      "exactArithmetic": true,
+      "conventionalAlternativeScreen": true,
+      "stemEncoding": true
+    }
+  ],
+  "alternativeDistractorsReplaced": [],
+  "sha256": "d6b548e3c632c4fb63d6a9ee26bd5a103466cd8b5dba21d075e7704a3cbbd075"
+}

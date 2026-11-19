@@ -1,0 +1,104 @@
+{
+  "status": "passed",
+  "questions": 120,
+  "originalPractice": 120,
+  "pastExamQuestions": 0,
+  "runtimePngAssets": 600,
+  "svgAuthorSources": 600,
+  "rasterScale": 2,
+  "difficulty": {
+    "foundation": 36,
+    "standard": 52,
+    "challenge": 32
+  },
+  "skills": [
+    {
+      "skillId": "figure-translate",
+      "skillTitle": "位置·整体平移",
+      "count": 8
+    },
+    {
+      "skillId": "figure-orbit",
+      "skillTitle": "位置·环形位移",
+      "count": 8
+    },
+    {
+      "skillId": "figure-rotate",
+      "skillTitle": "位置·整体旋转",
+      "count": 8
+    },
+    {
+      "skillId": "figure-reflect",
+      "skillTitle": "位置·轴向翻转",
+      "count": 8
+    },
+    {
+      "skillId": "figure-xor",
+      "skillTitle": "样式·去同存异",
+      "count": 8
+    },
+    {
+      "skillId": "figure-union",
+      "skillTitle": "样式·叠加合并",
+      "count": 8
+    },
+    {
+      "skillId": "figure-intersection",
+      "skillTitle": "样式·保留公共部分",
+      "count": 8
+    },
+    {
+      "skillId": "figure-traversal",
+      "skillTitle": "样式·双属性遍历",
+      "count": 8
+    },
+    {
+      "skillId": "figure-dots",
+      "skillTitle": "数量·点数变化",
+      "count": 8
+    },
+    {
+      "skillId": "figure-lines",
+      "skillTitle": "数量·直线计数",
+      "count": 8
+    },
+    {
+      "skillId": "figure-regions",
+      "skillTitle": "数量·封闭区域",
+      "count": 8
+    },
+    {
+      "skillId": "figure-symmetry",
+      "skillTitle": "属性·对称特征",
+      "count": 8
+    },
+    {
+      "skillId": "figure-closure",
+      "skillTitle": "属性·开放与封闭",
+      "count": 8
+    },
+    {
+      "skillId": "figure-rotate-xor",
+      "skillTitle": "复合·旋转后叠加",
+      "count": 8
+    },
+    {
+      "skillId": "figure-motion-count",
+      "skillTitle": "复合·位移与数量",
+      "count": 8
+    }
+  ],
+  "answers": {
+    "A": 30,
+    "B": 30,
+    "C": 30,
+    "D": 30
+  },
+  "independentlyVerified": 120,
+  "visuallyReviewed": 120,
+  "unresolved": [],
+  "reviewedSha256": "a6a166518448b711e41228354267c1ce42260b38403d74733e3672b30a31ea86",
+  "candidateSha256": "a6a166518448b711e41228354267c1ce42260b38403d74733e3672b30a31ea86",
+  "modelSha256": "96b883bb5e1da50aef672d4404c592ef2ac94233a3c2ea2e2b3d17a7adfc8e65",
+  "uniqueAnswerScope": "Exactly one of the four supplied options satisfies the rule inferred within the relevant family from all known panels; this is not a claim about every conceivable arbitrary rule."
+}

@@ -1,0 +1,4398 @@
+[
+  {
+    "id": "focus-omib-001",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "standard",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-001-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-001-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-001-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-001-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-001-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "A",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察前两格与第三格之间的关系。"
+      },
+      {
+        "type": "paragraph",
+        "text": "角落黑三角：每行第三格的生成方法是：将前两格中出现的位置合并，重复位置只保留一个。第三行前两格分别为“左上、右下”和“左下、右上”，所以待补部分为“左上、左下、右下、右上”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项A完全符合，故选A。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 1,
+      "originalAnswerCode": "11110000000000000000",
+      "originalCompleteCode": "10000000000000000000,00100000000000000000,10100000000000000000,00010000000000000000,01000000000000000000,01010000000000000000,10100000000000000000,01010000000000000000,11110000000000000000",
+      "constructionRules": [
+        "合并"
+      ],
+      "ruleCount": 1,
+      "groupChecks": [
+        {
+          "group": 0,
+          "groupName": "角落黑三角",
+          "rule": "addition",
+          "ruleName": "合并",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1000",
+            "0010",
+            "1010",
+            "0001",
+            "0100",
+            "0101",
+            "1010",
+            "0101"
+          ],
+          "predicted": "1111"
+        }
+      ],
+      "optionCodes": {
+        "A": "11110000000000000000",
+        "B": "11010000000000000000",
+        "C": "01110000000000000000",
+        "D": "10110000000000000000"
+      },
+      "distractors": {
+        "B": {
+          "group": 0,
+          "reason": "漏计或多计一个部件",
+          "replacement": "1101"
+        },
+        "C": {
+          "group": 0,
+          "reason": "漏计或多计一个部件",
+          "replacement": "0111"
+        },
+        "D": {
+          "group": 0,
+          "reason": "漏计或多计一个部件",
+          "replacement": "1011"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "1274911d6d3be978ad195b310721fa4ac615f5afb47168201ca81bcd91e0ae7e",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 1,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-002",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "standard",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-002-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-002-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-002-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-002-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-002-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "D",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察前两格与第三格之间的关系。"
+      },
+      {
+        "type": "paragraph",
+        "text": "边缘黑矩形：每行第三格的生成方法是：从第一格中删去第二格也出现的位置。第三行前两格分别为“上、左、下、右”和“下”，所以待补部分为“上、左、右”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项D完全符合，故选D。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 2,
+      "originalAnswerCode": "00000000110100000000",
+      "originalCompleteCode": "00000000111100000000,00000000010000000000,00000000101100000000,00000000111100000000,00000000000100000000,00000000111000000000,00000000111100000000,00000000001000000000,00000000110100000000",
+      "constructionRules": [
+        "相减"
+      ],
+      "ruleCount": 1,
+      "groupChecks": [
+        {
+          "group": 2,
+          "groupName": "边缘黑矩形",
+          "rule": "subtraction",
+          "ruleName": "相减",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1111",
+            "0100",
+            "1011",
+            "1111",
+            "0001",
+            "1110",
+            "1111",
+            "0010"
+          ],
+          "predicted": "1101"
+        }
+      ],
+      "optionCodes": {
+        "A": "00000000100100000000",
+        "B": "00000000111100000000",
+        "C": "00000000010100000000",
+        "D": "00000000110100000000"
+      },
+      "distractors": {
+        "A": {
+          "group": 2,
+          "reason": "漏计或多计一个部件",
+          "replacement": "1001"
+        },
+        "B": {
+          "group": 2,
+          "reason": "误用合并",
+          "replacement": "1111"
+        },
+        "C": {
+          "group": 2,
+          "reason": "漏计或多计一个部件",
+          "replacement": "0101"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "2c9899908f639a373d8af386074c1279b9c1d670d7291bbf07f256facb9f3d75",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 2,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-003",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "standard",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-003-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-003-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-003-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-003-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-003-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "C",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察前两格与第三格之间的关系。"
+      },
+      {
+        "type": "paragraph",
+        "text": "菱形边线：每行第三格的生成方法是：将前两格同位置都有的部分消去，只保留仅出现一次的部分。第三行前两格分别为“左上边、左下边”和“左下边、右下边”，所以待补部分为“左上边、右下边”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项C完全符合，故选C。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 3,
+      "originalAnswerCode": "00001010000000000000",
+      "originalCompleteCode": "00001010000000000000,00000010000000000000,00001000000000000000,00000101000000000000,00000001000000000000,00000100000000000000,00001100000000000000,00000110000000000000,00001010000000000000",
+      "constructionRules": [
+        "异或"
+      ],
+      "ruleCount": 1,
+      "groupChecks": [
+        {
+          "group": 1,
+          "groupName": "菱形边线",
+          "rule": "xor",
+          "ruleName": "异或",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1010",
+            "0010",
+            "1000",
+            "0101",
+            "0001",
+            "0100",
+            "1100",
+            "0110"
+          ],
+          "predicted": "1010"
+        }
+      ],
+      "optionCodes": {
+        "A": "00000110000000000000",
+        "B": "00000011000000000000",
+        "C": "00001010000000000000",
+        "D": "00001100000000000000"
+      },
+      "distractors": {
+        "A": {
+          "group": 1,
+          "reason": "复制第二格",
+          "replacement": "0110"
+        },
+        "B": {
+          "group": 1,
+          "reason": "旋转方向或角度混淆",
+          "replacement": "0011"
+        },
+        "D": {
+          "group": 1,
+          "reason": "复制第一格",
+          "replacement": "1100"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "4d79ca193f3b4d265738413ecd1c0b4c9b82ad7cf255160a1bd87600070823a2",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 3,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-004",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "standard",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-004-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-004-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-004-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-004-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-004-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "B",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察前两格与第三格之间的关系。"
+      },
+      {
+        "type": "paragraph",
+        "text": "菱形边线：每行第三格的生成方法是：只保留前两格同位置都有的部分。第三行前两格分别为“左上边、左下边、右下边、右上边”和“右下边、右上边”，所以待补部分为“右下边、右上边”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项B完全符合，故选B。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 4,
+      "originalAnswerCode": "00000011000000000000",
+      "originalCompleteCode": "00001111000000000000,00001100000000000000,00001100000000000000,00001111000000000000,00001010000000000000,00001010000000000000,00001111000000000000,00000011000000000000,00000011000000000000",
+      "constructionRules": [
+        "交集"
+      ],
+      "ruleCount": 1,
+      "groupChecks": [
+        {
+          "group": 1,
+          "groupName": "菱形边线",
+          "rule": "intersection",
+          "ruleName": "交集",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1111",
+            "1100",
+            "1100",
+            "1111",
+            "1010",
+            "1010",
+            "1111",
+            "0011"
+          ],
+          "predicted": "0011"
+        }
+      ],
+      "optionCodes": {
+        "A": "00001100000000000000",
+        "B": "00000011000000000000",
+        "C": "00001001000000000000",
+        "D": "00000110000000000000"
+      },
+      "distractors": {
+        "A": {
+          "group": 1,
+          "reason": "误用相减",
+          "replacement": "1100"
+        },
+        "C": {
+          "group": 1,
+          "reason": "旋转方向或角度混淆",
+          "replacement": "1001"
+        },
+        "D": {
+          "group": 1,
+          "reason": "旋转方向或角度混淆",
+          "replacement": "0110"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "78dc0a2e82afc24f7fa5c1284377d616a2853b83f57745408e92a705c6be5fd1",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 4,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-005",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "standard",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-005-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-005-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-005-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-005-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-005-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "D",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察前两格与第三格之间的关系。"
+      },
+      {
+        "type": "paragraph",
+        "text": "角落黑三角：从左到右，每次逆时针旋转90°。第三行前两格分别为“左下”和“右下”，所以待补部分为“右上”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项D完全符合，故选D。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 5,
+      "originalAnswerCode": "00010000000000000000",
+      "originalCompleteCode": "10000000000000000000,01000000000000000000,00100000000000000000,00100000000000000000,00010000000000000000,10000000000000000000,01000000000000000000,00100000000000000000,00010000000000000000",
+      "constructionRules": [
+        "旋转"
+      ],
+      "ruleCount": 1,
+      "groupChecks": [
+        {
+          "group": 0,
+          "groupName": "角落黑三角",
+          "rule": "rotation",
+          "ruleName": "旋转",
+          "rotationSteps": 1,
+          "collection": null,
+          "visibleGroups": [
+            "1000",
+            "0100",
+            "0010",
+            "0010",
+            "0001",
+            "1000",
+            "0100",
+            "0010"
+          ],
+          "predicted": "0001"
+        }
+      ],
+      "optionCodes": {
+        "A": "01000000000000000000",
+        "B": "00100000000000000000",
+        "C": "10000000000000000000",
+        "D": "00010000000000000000"
+      },
+      "distractors": {
+        "A": {
+          "group": 0,
+          "reason": "误用相减",
+          "replacement": "0100"
+        },
+        "B": {
+          "group": 0,
+          "reason": "倒置相减顺序",
+          "replacement": "0010"
+        },
+        "C": {
+          "group": 0,
+          "reason": "旋转方向或角度混淆",
+          "replacement": "1000"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "124ebdd632b0beaddfb9bd71bd23628077ff6a0607c78bea4eabc0efb2c650fc",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 5,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-006",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "standard",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-006-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-006-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-006-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-006-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-006-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "A",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察前两格与第三格之间的关系。"
+      },
+      {
+        "type": "paragraph",
+        "text": "中心图形：每行都包含同一组图形：实心方形、空心方形、实心圆，每种恰好出现一次。第三行前两格分别为“空心方形”和“实心圆”，所以待补部分为“实心方形”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项A完全符合，故选A。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 6,
+      "originalAnswerCode": "00000000000010000000",
+      "originalCompleteCode": "00000000000010000000,00000000000001000000,00000000000000100000,00000000000000100000,00000000000010000000,00000000000001000000,00000000000001000000,00000000000000100000,00000000000010000000",
+      "constructionRules": [
+        "补全"
+      ],
+      "ruleCount": 1,
+      "groupChecks": [
+        {
+          "group": 3,
+          "groupName": "中心图形",
+          "rule": "completeness",
+          "ruleName": "补全",
+          "rotationSteps": null,
+          "collection": [
+            "1000",
+            "0100",
+            "0010"
+          ],
+          "visibleGroups": [
+            "1000",
+            "0100",
+            "0010",
+            "0010",
+            "1000",
+            "0100",
+            "0100",
+            "0010"
+          ],
+          "predicted": "1000"
+        }
+      ],
+      "optionCodes": {
+        "A": "00000000000010000000",
+        "B": "00000000000000100000",
+        "C": "00000000000000010000",
+        "D": "00000000000001000000"
+      },
+      "distractors": {
+        "B": {
+          "group": 3,
+          "reason": "复制已知中心图形",
+          "replacement": "0010"
+        },
+        "C": {
+          "group": 3,
+          "reason": "混淆中心图形种类",
+          "replacement": "0001"
+        },
+        "D": {
+          "group": 3,
+          "reason": "复制已知中心图形",
+          "replacement": "0100"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "891ba252f1d1ce3b967a9c765de7d95e4204bc741317fe75a87bdf1d41043839",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 6,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-007",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "standard",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-007-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-007-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-007-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-007-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-007-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "A",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察，把不同种类的图形分开寻找规律。"
+      },
+      {
+        "type": "paragraph",
+        "text": "角落黑三角：每行第三格的生成方法是：从第一格中删去第二格也出现的位置。第三行前两格分别为“左下、右下”和“右下”，所以待补部分为“左下”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "边缘黑矩形：每行第三格的生成方法是：将前两格中出现的位置合并，重复位置只保留一个。第三行前两格分别为“上、左、下”和“右”，所以待补部分为“上、左、下、右”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项A完全符合，故选A。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 21,
+      "originalAnswerCode": "01000000111100000000",
+      "originalCompleteCode": "10100000001000000000,00100000100000000000,10000000101000000000,01010000010100000000,01000000100000000000,00010000110100000000,01100000111000000000,00100000000100000000,01000000111100000000",
+      "constructionRules": [
+        "合并",
+        "相减"
+      ],
+      "ruleCount": 2,
+      "groupChecks": [
+        {
+          "group": 0,
+          "groupName": "角落黑三角",
+          "rule": "subtraction",
+          "ruleName": "相减",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1010",
+            "0010",
+            "1000",
+            "0101",
+            "0100",
+            "0001",
+            "0110",
+            "0010"
+          ],
+          "predicted": "0100"
+        },
+        {
+          "group": 2,
+          "groupName": "边缘黑矩形",
+          "rule": "addition",
+          "ruleName": "合并",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "0010",
+            "1000",
+            "1010",
+            "0101",
+            "1000",
+            "1101",
+            "1110",
+            "0001"
+          ],
+          "predicted": "1111"
+        }
+      ],
+      "optionCodes": {
+        "A": "01000000111100000000",
+        "B": "00100000111100000000",
+        "C": "01000000111000000000",
+        "D": "00010000111100000000"
+      },
+      "distractors": {
+        "B": {
+          "group": 0,
+          "reason": "误用交集",
+          "replacement": "0010"
+        },
+        "C": {
+          "group": 2,
+          "reason": "误用相减",
+          "replacement": "1110"
+        },
+        "D": {
+          "group": 0,
+          "reason": "旋转方向或角度混淆",
+          "replacement": "0001"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "428c87060aa91891bec781ac49fe384fa6d94c9d16f6071219c06914246682f9",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 21,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-008",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "standard",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-008-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-008-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-008-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-008-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-008-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "B",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察，把不同种类的图形分开寻找规律。"
+      },
+      {
+        "type": "paragraph",
+        "text": "菱形边线：每行第三格的生成方法是：将前两格同位置都有的部分消去，只保留仅出现一次的部分。第三行前两格分别为“左下边、右下边”和“左上边、左下边”，所以待补部分为“左上边、右下边”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "边缘黑矩形：每行第三格的生成方法是：将前两格中出现的位置合并，重复位置只保留一个。第三行前两格分别为“左”和“右”，所以待补部分为“左、右”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项B完全符合，故选B。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 22,
+      "originalAnswerCode": "00001010010100000000",
+      "originalCompleteCode": "00001100100000000000,00001110001000000000,00000010101000000000,00001001001000000000,00000111100000000000,00001110101000000000,00000110010000000000,00001100000100000000,00001010010100000000",
+      "constructionRules": [
+        "合并",
+        "异或"
+      ],
+      "ruleCount": 2,
+      "groupChecks": [
+        {
+          "group": 1,
+          "groupName": "菱形边线",
+          "rule": "xor",
+          "ruleName": "异或",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1100",
+            "1110",
+            "0010",
+            "1001",
+            "0111",
+            "1110",
+            "0110",
+            "1100"
+          ],
+          "predicted": "1010"
+        },
+        {
+          "group": 2,
+          "groupName": "边缘黑矩形",
+          "rule": "addition",
+          "ruleName": "合并",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1000",
+            "0010",
+            "1010",
+            "0010",
+            "1000",
+            "1010",
+            "0100",
+            "0001"
+          ],
+          "predicted": "0101"
+        }
+      ],
+      "optionCodes": {
+        "A": "00000110010100000000",
+        "B": "00001010010100000000",
+        "C": "00001010010000000000",
+        "D": "00001100010100000000"
+      },
+      "distractors": {
+        "A": {
+          "group": 1,
+          "reason": "复制第一格",
+          "replacement": "0110"
+        },
+        "C": {
+          "group": 2,
+          "reason": "误用相减",
+          "replacement": "0100"
+        },
+        "D": {
+          "group": 1,
+          "reason": "复制第二格",
+          "replacement": "1100"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "620b87d7847b2087412390773f66f283e26c06461fdd75170442d1248a317fb9",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 22,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-009",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "standard",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-009-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-009-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-009-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-009-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-009-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "C",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察，把不同种类的图形分开寻找规律。"
+      },
+      {
+        "type": "paragraph",
+        "text": "菱形边线：从左到右，每次逆时针旋转90°。第三行前两格分别为“右下边”和“右上边”，所以待补部分为“左上边”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "内圈黑三角：每行第三格的生成方法是：将前两格中出现的位置合并，重复位置只保留一个。第三行前两格分别为“右”和“左”，所以待补部分为“左、右”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项C完全符合，故选C。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 24,
+      "originalAnswerCode": "00001000000000000101",
+      "originalCompleteCode": "00001000000000001000,00000100000000000001,00000010000000001001,00000100000000000010,00000010000000000100,00000001000000000110,00000010000000000001,00000001000000000100,00001000000000000101",
+      "constructionRules": [
+        "合并",
+        "旋转"
+      ],
+      "ruleCount": 2,
+      "groupChecks": [
+        {
+          "group": 1,
+          "groupName": "菱形边线",
+          "rule": "rotation",
+          "ruleName": "旋转",
+          "rotationSteps": 1,
+          "collection": null,
+          "visibleGroups": [
+            "1000",
+            "0100",
+            "0010",
+            "0100",
+            "0010",
+            "0001",
+            "0010",
+            "0001"
+          ],
+          "predicted": "1000"
+        },
+        {
+          "group": 4,
+          "groupName": "内圈黑三角",
+          "rule": "addition",
+          "ruleName": "合并",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1000",
+            "0001",
+            "1001",
+            "0010",
+            "0100",
+            "0110",
+            "0001",
+            "0100"
+          ],
+          "predicted": "0101"
+        }
+      ],
+      "optionCodes": {
+        "A": "00001000000000000001",
+        "B": "00000001000000000101",
+        "C": "00001000000000000101",
+        "D": "00000010000000000101"
+      },
+      "distractors": {
+        "A": {
+          "group": 4,
+          "reason": "误用相减",
+          "replacement": "0001"
+        },
+        "B": {
+          "group": 1,
+          "reason": "倒置相减顺序",
+          "replacement": "0001"
+        },
+        "D": {
+          "group": 1,
+          "reason": "误用相减",
+          "replacement": "0010"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "f69fcea9fc8253a4999825418db5684a8690ebc6194dffd44d364398730b67b8",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 24,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-010",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "standard",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-010-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-010-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-010-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-010-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-010-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "D",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察，把不同种类的图形分开寻找规律。"
+      },
+      {
+        "type": "paragraph",
+        "text": "菱形边线：每行第三格的生成方法是：将前两格中出现的位置合并，重复位置只保留一个。第三行前两格分别为“右下边”和“左上边”，所以待补部分为“左上边、右下边”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "中心图形：每行都包含同一组图形：空心方形、实心圆、空心圆，每种恰好出现一次。第三行前两格分别为“实心圆”和“空心圆”，所以待补部分为“空心方形”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项D完全符合，故选D。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 25,
+      "originalAnswerCode": "00001010000001000000",
+      "originalCompleteCode": "00001000000001000000,00000010000000100000,00001010000000010000,00000100000000010000,00000001000001000000,00000101000000100000,00000010000000100000,00001000000000010000,00001010000001000000",
+      "constructionRules": [
+        "合并",
+        "补全"
+      ],
+      "ruleCount": 2,
+      "groupChecks": [
+        {
+          "group": 1,
+          "groupName": "菱形边线",
+          "rule": "addition",
+          "ruleName": "合并",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1000",
+            "0010",
+            "1010",
+            "0100",
+            "0001",
+            "0101",
+            "0010",
+            "1000"
+          ],
+          "predicted": "1010"
+        },
+        {
+          "group": 3,
+          "groupName": "中心图形",
+          "rule": "completeness",
+          "ruleName": "补全",
+          "rotationSteps": null,
+          "collection": [
+            "0100",
+            "0010",
+            "0001"
+          ],
+          "visibleGroups": [
+            "0100",
+            "0010",
+            "0001",
+            "0001",
+            "0100",
+            "0010",
+            "0010",
+            "0001"
+          ],
+          "predicted": "0100"
+        }
+      ],
+      "optionCodes": {
+        "A": "00001000000001000000",
+        "B": "00000010000001000000",
+        "C": "00001010000000100000",
+        "D": "00001010000001000000"
+      },
+      "distractors": {
+        "A": {
+          "group": 1,
+          "reason": "倒置相减顺序",
+          "replacement": "1000"
+        },
+        "B": {
+          "group": 1,
+          "reason": "误用相减",
+          "replacement": "0010"
+        },
+        "C": {
+          "group": 3,
+          "reason": "复制已知中心图形",
+          "replacement": "0010"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "4a5d0ee9df218b2465e85fb67573c38281bd1803f7f01c3b11abf6e337ec230d",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 25,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-011",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "standard",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-011-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-011-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-011-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-011-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-011-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "D",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察，把不同种类的图形分开寻找规律。"
+      },
+      {
+        "type": "paragraph",
+        "text": "菱形边线：每行第三格的生成方法是：将前两格同位置都有的部分消去，只保留仅出现一次的部分。第三行前两格分别为“右下边、右上边”和“左上边、左下边、右下边”，所以待补部分为“左上边、左下边、右上边”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "边缘黑矩形：每行第三格的生成方法是：从第一格中删去第二格也出现的位置。第三行前两格分别为“上、左、下、右”和“上、下”，所以待补部分为“左、右”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项D完全符合，故选D。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 26,
+      "originalAnswerCode": "00001101010100000000",
+      "originalCompleteCode": "00001100111100000000,00001110110100000000,00000010001000000000,00000110111100000000,00001011011000000000,00001101100100000000,00000011111100000000,00001110101000000000,00001101010100000000",
+      "constructionRules": [
+        "相减",
+        "异或"
+      ],
+      "ruleCount": 2,
+      "groupChecks": [
+        {
+          "group": 1,
+          "groupName": "菱形边线",
+          "rule": "xor",
+          "ruleName": "异或",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1100",
+            "1110",
+            "0010",
+            "0110",
+            "1011",
+            "1101",
+            "0011",
+            "1110"
+          ],
+          "predicted": "1101"
+        },
+        {
+          "group": 2,
+          "groupName": "边缘黑矩形",
+          "rule": "subtraction",
+          "ruleName": "相减",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1111",
+            "1101",
+            "0010",
+            "1111",
+            "0110",
+            "1001",
+            "1111",
+            "1010"
+          ],
+          "predicted": "0101"
+        }
+      ],
+      "optionCodes": {
+        "A": "00001101101000000000",
+        "B": "00001110010100000000",
+        "C": "00000111010100000000",
+        "D": "00001101010100000000"
+      },
+      "distractors": {
+        "A": {
+          "group": 2,
+          "reason": "误用交集",
+          "replacement": "1010"
+        },
+        "B": {
+          "group": 1,
+          "reason": "复制第二格",
+          "replacement": "1110"
+        },
+        "C": {
+          "group": 1,
+          "reason": "旋转方向或角度混淆",
+          "replacement": "0111"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "8eddb0caac174e750f8db56472da8a09eb22f7eed2bb3474a4883eeddbfde8f7",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 26,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-012",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "standard",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-012-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-012-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-012-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-012-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-012-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "B",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察，把不同种类的图形分开寻找规律。"
+      },
+      {
+        "type": "paragraph",
+        "text": "角落黑三角：每行第三格的生成方法是：从第一格中删去第二格也出现的位置。第三行前两格分别为“左上、左下、右下、右上”和“右上”，所以待补部分为“左上、左下、右下”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "菱形边线：从左到右，每次逆时针旋转90°。第三行前两格分别为“左下边、右下边”和“右下边、右上边”，所以待补部分为“左上边、右上边”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项B完全符合，故选B。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 28,
+      "originalAnswerCode": "11101001000000000000",
+      "originalCompleteCode": "11111100000000000000,00100110000000000000,11010011000000000000,11111001000000000000,10001100000000000000,01110110000000000000,11110110000000000000,00010011000000000000,11101001000000000000",
+      "constructionRules": [
+        "相减",
+        "旋转"
+      ],
+      "ruleCount": 2,
+      "groupChecks": [
+        {
+          "group": 0,
+          "groupName": "角落黑三角",
+          "rule": "subtraction",
+          "ruleName": "相减",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1111",
+            "0010",
+            "1101",
+            "1111",
+            "1000",
+            "0111",
+            "1111",
+            "0001"
+          ],
+          "predicted": "1110"
+        },
+        {
+          "group": 1,
+          "groupName": "菱形边线",
+          "rule": "rotation",
+          "ruleName": "旋转",
+          "rotationSteps": 1,
+          "collection": null,
+          "visibleGroups": [
+            "1100",
+            "0110",
+            "0011",
+            "1001",
+            "1100",
+            "0110",
+            "0110",
+            "0011"
+          ],
+          "predicted": "1001"
+        }
+      ],
+      "optionCodes": {
+        "A": "01101001000000000000",
+        "B": "11101001000000000000",
+        "C": "11111001000000000000",
+        "D": "11100101000000000000"
+      },
+      "distractors": {
+        "A": {
+          "group": 0,
+          "reason": "漏计或多计一个部件",
+          "replacement": "0110"
+        },
+        "C": {
+          "group": 0,
+          "reason": "误用合并",
+          "replacement": "1111"
+        },
+        "D": {
+          "group": 1,
+          "reason": "误用异或",
+          "replacement": "0101"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "e6d840aeb3ceea0f2f5c6dc87823242245f262c423a41dbbbc038a723ae600d3",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 28,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-013",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "standard",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-013-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-013-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-013-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-013-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-013-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "C",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察，把不同种类的图形分开寻找规律。"
+      },
+      {
+        "type": "paragraph",
+        "text": "菱形边线：每行第三格的生成方法是：将前两格同位置都有的部分消去，只保留仅出现一次的部分。第三行前两格分别为“左下边、右下边”和“左上边、左下边”，所以待补部分为“左上边、右下边”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "边缘黑矩形：每行第三格的生成方法是：只保留前两格同位置都有的部分。第三行前两格分别为“上、左”和“上、下、右”，所以待补部分为“上”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项C完全符合，故选C。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 30,
+      "originalAnswerCode": "00001010100000000000",
+      "originalCompleteCode": "00000110101000000000,00000100011000000000,00000010001000000000,00000011001100000000,00000110100100000000,00000101000100000000,00000110110000000000,00001100101100000000,00001010100000000000",
+      "constructionRules": [
+        "异或",
+        "交集"
+      ],
+      "ruleCount": 2,
+      "groupChecks": [
+        {
+          "group": 1,
+          "groupName": "菱形边线",
+          "rule": "xor",
+          "ruleName": "异或",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "0110",
+            "0100",
+            "0010",
+            "0011",
+            "0110",
+            "0101",
+            "0110",
+            "1100"
+          ],
+          "predicted": "1010"
+        },
+        {
+          "group": 2,
+          "groupName": "边缘黑矩形",
+          "rule": "intersection",
+          "ruleName": "交集",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1010",
+            "0110",
+            "0010",
+            "0011",
+            "1001",
+            "0001",
+            "1100",
+            "1011"
+          ],
+          "predicted": "1000"
+        }
+      ],
+      "optionCodes": {
+        "A": "00000110100000000000",
+        "B": "00001010010000000000",
+        "C": "00001010100000000000",
+        "D": "00001100100000000000"
+      },
+      "distractors": {
+        "A": {
+          "group": 1,
+          "reason": "复制第一格",
+          "replacement": "0110"
+        },
+        "B": {
+          "group": 2,
+          "reason": "误用相减",
+          "replacement": "0100"
+        },
+        "D": {
+          "group": 1,
+          "reason": "复制第二格",
+          "replacement": "1100"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "e4e6fbca274ae09a00e86af03304e7111ad9b41dab287e8fbbe8d80e9f1b47d3",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 30,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-014",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "standard",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-014-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-014-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-014-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-014-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-014-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "D",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察，把不同种类的图形分开寻找规律。"
+      },
+      {
+        "type": "paragraph",
+        "text": "角落黑三角：从左到右，每次逆时针旋转90°。第三行前两格分别为“右下、右上”和“左上、右上”，所以待补部分为“左上、左下”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "中心图形：每行都包含同一组图形：实心圆、空心方形、空心圆，每种恰好出现一次。第三行前两格分别为“空心方形”和“空心圆”，所以待补部分为“实心圆”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项D完全符合，故选D。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 35,
+      "originalAnswerCode": "11000000000000100000",
+      "originalCompleteCode": "11000000000000100000,01100000000001000000,00110000000000010000,11010000000000010000,11100000000001000000,01110000000000100000,00110000000001000000,10010000000000010000,11000000000000100000",
+      "constructionRules": [
+        "旋转",
+        "补全"
+      ],
+      "ruleCount": 2,
+      "groupChecks": [
+        {
+          "group": 0,
+          "groupName": "角落黑三角",
+          "rule": "rotation",
+          "ruleName": "旋转",
+          "rotationSteps": 1,
+          "collection": null,
+          "visibleGroups": [
+            "1100",
+            "0110",
+            "0011",
+            "1101",
+            "1110",
+            "0111",
+            "0011",
+            "1001"
+          ],
+          "predicted": "1100"
+        },
+        {
+          "group": 3,
+          "groupName": "中心图形",
+          "rule": "completeness",
+          "ruleName": "补全",
+          "rotationSteps": null,
+          "collection": [
+            "0010",
+            "0100",
+            "0001"
+          ],
+          "visibleGroups": [
+            "0010",
+            "0100",
+            "0001",
+            "0001",
+            "0100",
+            "0010",
+            "0100",
+            "0001"
+          ],
+          "predicted": "0010"
+        }
+      ],
+      "optionCodes": {
+        "A": "11000000000001000000",
+        "B": "10100000000000100000",
+        "C": "00110000000000100000",
+        "D": "11000000000000100000"
+      },
+      "distractors": {
+        "A": {
+          "group": 3,
+          "reason": "复制已知中心图形",
+          "replacement": "0100"
+        },
+        "B": {
+          "group": 0,
+          "reason": "误用异或",
+          "replacement": "1010"
+        },
+        "C": {
+          "group": 0,
+          "reason": "复制第一格",
+          "replacement": "0011"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "c36105bb799a941bfa41e519182e3e0f532e843ad1c5b739693607ad93c8e68c",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 35,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-015",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "challenge",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-015-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-015-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-015-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-015-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-015-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "B",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察，把不同种类的图形分开寻找规律。"
+      },
+      {
+        "type": "paragraph",
+        "text": "角落黑三角：每行第三格的生成方法是：将前两格中出现的位置合并，重复位置只保留一个。第三行前两格分别为“右下、右上”和“左下”，所以待补部分为“左下、右下、右上”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "边缘黑矩形：每行第三格的生成方法是：从第一格中删去第二格也出现的位置。第三行前两格分别为“上、左”和“左”，所以待补部分为“上”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "内圈黑三角：每行第三格的生成方法是：将前两格同位置都有的部分消去，只保留仅出现一次的部分。第三行前两格分别为“下、右”和“上、下、右”，所以待补部分为“上”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项B完全符合，故选B。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 71,
+      "originalAnswerCode": "01110000100000001000",
+      "originalCompleteCode": "11000000011000001100,00100000001000000110,11100000010000001010,00100000101100000110,10000000001100000010,10100000100000000100,00110000110000000011,01000000010000001011,01110000100000001000",
+      "constructionRules": [
+        "合并",
+        "相减",
+        "异或"
+      ],
+      "ruleCount": 3,
+      "groupChecks": [
+        {
+          "group": 0,
+          "groupName": "角落黑三角",
+          "rule": "addition",
+          "ruleName": "合并",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1100",
+            "0010",
+            "1110",
+            "0010",
+            "1000",
+            "1010",
+            "0011",
+            "0100"
+          ],
+          "predicted": "0111"
+        },
+        {
+          "group": 2,
+          "groupName": "边缘黑矩形",
+          "rule": "subtraction",
+          "ruleName": "相减",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "0110",
+            "0010",
+            "0100",
+            "1011",
+            "0011",
+            "1000",
+            "1100",
+            "0100"
+          ],
+          "predicted": "1000"
+        },
+        {
+          "group": 4,
+          "groupName": "内圈黑三角",
+          "rule": "xor",
+          "ruleName": "异或",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1100",
+            "0110",
+            "1010",
+            "0110",
+            "0010",
+            "0100",
+            "0011",
+            "1011"
+          ],
+          "predicted": "1000"
+        }
+      ],
+      "optionCodes": {
+        "A": "01110000100000000000",
+        "B": "01110000100000001000",
+        "C": "01110000010000001000",
+        "D": "00110000100000001000"
+      },
+      "distractors": {
+        "A": {
+          "group": 4,
+          "reason": "误用相减",
+          "replacement": "0000"
+        },
+        "C": {
+          "group": 2,
+          "reason": "误用交集",
+          "replacement": "0100"
+        },
+        "D": {
+          "group": 0,
+          "reason": "误用相减",
+          "replacement": "0011"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "311b670047bbeb6ca019f35faa081787bfb8019f72ab6ca3962d84c2f9e1d508",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 71,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-016",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "challenge",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-016-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-016-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-016-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-016-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-016-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "B",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察，把不同种类的图形分开寻找规律。"
+      },
+      {
+        "type": "paragraph",
+        "text": "角落黑三角：每行第三格的生成方法是：将前两格中出现的位置合并，重复位置只保留一个。第三行前两格分别为“右下”和“左上”，所以待补部分为“左上、右下”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "中心图形：每行都包含同一组图形：空心方形、实心圆、实心方形，每种恰好出现一次。第三行前两格分别为“空心方形”和“实心圆”，所以待补部分为“实心方形”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "内圈黑三角：每行第三格的生成方法是：从第一格中删去第二格也出现的位置。第三行前两格分别为“上、左、下、右”和“上、左”，所以待补部分为“下、右”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项B完全符合，故选B。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 74,
+      "originalAnswerCode": "10100000000010000011",
+      "originalCompleteCode": "11000000000001001111,00110000000000100011,11110000000010001100,01100000000000100110,00010000000010000010,01110000000001000100,00100000000001001111,10000000000000101100,10100000000010000011",
+      "constructionRules": [
+        "合并",
+        "相减",
+        "补全"
+      ],
+      "ruleCount": 3,
+      "groupChecks": [
+        {
+          "group": 0,
+          "groupName": "角落黑三角",
+          "rule": "addition",
+          "ruleName": "合并",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1100",
+            "0011",
+            "1111",
+            "0110",
+            "0001",
+            "0111",
+            "0010",
+            "1000"
+          ],
+          "predicted": "1010"
+        },
+        {
+          "group": 3,
+          "groupName": "中心图形",
+          "rule": "completeness",
+          "ruleName": "补全",
+          "rotationSteps": null,
+          "collection": [
+            "0100",
+            "0010",
+            "1000"
+          ],
+          "visibleGroups": [
+            "0100",
+            "0010",
+            "1000",
+            "0010",
+            "1000",
+            "0100",
+            "0100",
+            "0010"
+          ],
+          "predicted": "1000"
+        },
+        {
+          "group": 4,
+          "groupName": "内圈黑三角",
+          "rule": "subtraction",
+          "ruleName": "相减",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1111",
+            "0011",
+            "1100",
+            "0110",
+            "0010",
+            "0100",
+            "1111",
+            "1100"
+          ],
+          "predicted": "0011"
+        }
+      ],
+      "optionCodes": {
+        "A": "10100000000001000011",
+        "B": "10100000000010000011",
+        "C": "10100000000010001100",
+        "D": "00100000000010000011"
+      },
+      "distractors": {
+        "A": {
+          "group": 3,
+          "reason": "复制已知中心图形",
+          "replacement": "0100"
+        },
+        "C": {
+          "group": 4,
+          "reason": "误用交集",
+          "replacement": "1100"
+        },
+        "D": {
+          "group": 0,
+          "reason": "误用相减",
+          "replacement": "0010"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "4a990bd1c610f05534f56402a3697d811290735dd568c36cc4eb229d21703944",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 74,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-017",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "challenge",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-017-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-017-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-017-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-017-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-017-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "A",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察，把不同种类的图形分开寻找规律。"
+      },
+      {
+        "type": "paragraph",
+        "text": "角落黑三角：每行第三格的生成方法是：将前两格同位置都有的部分消去，只保留仅出现一次的部分。第三行前两格分别为“左上、左下”和“左下、右下”，所以待补部分为“左上、右下”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "边缘黑矩形：每行第三格的生成方法是：将前两格中出现的位置合并，重复位置只保留一个。第三行前两格分别为“上、左”和“右”，所以待补部分为“上、左、右”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "中心图形：每行都包含同一组图形：空心方形、实心圆、空心圆，每种恰好出现一次。第三行前两格分别为“空心圆”和“实心圆”，所以待补部分为“空心方形”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项A完全符合，故选A。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 77,
+      "originalAnswerCode": "10100000110101000000",
+      "originalCompleteCode": "11000000011001000000,11000000100000100000,00000000111000010000,01110000001101000000,01100000010000010000,00010000011100100000,11000000110000010000,01100000000100100000,10100000110101000000",
+      "constructionRules": [
+        "合并",
+        "异或",
+        "补全"
+      ],
+      "ruleCount": 3,
+      "groupChecks": [
+        {
+          "group": 0,
+          "groupName": "角落黑三角",
+          "rule": "xor",
+          "ruleName": "异或",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1100",
+            "1100",
+            "0000",
+            "0111",
+            "0110",
+            "0001",
+            "1100",
+            "0110"
+          ],
+          "predicted": "1010"
+        },
+        {
+          "group": 2,
+          "groupName": "边缘黑矩形",
+          "rule": "addition",
+          "ruleName": "合并",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "0110",
+            "1000",
+            "1110",
+            "0011",
+            "0100",
+            "0111",
+            "1100",
+            "0001"
+          ],
+          "predicted": "1101"
+        },
+        {
+          "group": 3,
+          "groupName": "中心图形",
+          "rule": "completeness",
+          "ruleName": "补全",
+          "rotationSteps": null,
+          "collection": [
+            "0100",
+            "0010",
+            "0001"
+          ],
+          "visibleGroups": [
+            "0100",
+            "0010",
+            "0001",
+            "0100",
+            "0001",
+            "0010",
+            "0001",
+            "0010"
+          ],
+          "predicted": "0100"
+        }
+      ],
+      "optionCodes": {
+        "A": "10100000110101000000",
+        "B": "10100000110100010000",
+        "C": "10100000110001000000",
+        "D": "11000000110101000000"
+      },
+      "distractors": {
+        "B": {
+          "group": 3,
+          "reason": "复制已知中心图形",
+          "replacement": "0001"
+        },
+        "C": {
+          "group": 2,
+          "reason": "误用相减",
+          "replacement": "1100"
+        },
+        "D": {
+          "group": 0,
+          "reason": "复制第一格",
+          "replacement": "1100"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "bc44299beea7702f63af46778c3ffdeb57aee4a5dbc443594ef4cbca0ccdba25",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 77,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-018",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "challenge",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-018-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-018-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-018-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-018-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-018-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "D",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察，把不同种类的图形分开寻找规律。"
+      },
+      {
+        "type": "paragraph",
+        "text": "角落黑三角：每行第三格的生成方法是：从第一格中删去第二格也出现的位置。第三行前两格分别为“左下、右下、右上”和“右上”，所以待补部分为“左下、右下”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "菱形边线：每行第三格的生成方法是：将前两格同位置都有的部分消去，只保留仅出现一次的部分。第三行前两格分别为“左上边、左下边”和“左上边、右上边”，所以待补部分为“左下边、右上边”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "边缘黑矩形：每行第三格的生成方法是：只保留前两格同位置都有的部分。第三行前两格分别为“上、左、下、右”和“下、右”，所以待补部分为“下、右”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项D完全符合，故选D。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 81,
+      "originalAnswerCode": "01100101001100000000",
+      "originalCompleteCode": "11111110111000000000,01000111101100000000,10111001101000000000,11101100010100000000,00100110110000000000,11001010010000000000,01111100111100000000,00011001001100000000,01100101001100000000",
+      "constructionRules": [
+        "相减",
+        "异或",
+        "交集"
+      ],
+      "ruleCount": 3,
+      "groupChecks": [
+        {
+          "group": 0,
+          "groupName": "角落黑三角",
+          "rule": "subtraction",
+          "ruleName": "相减",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1111",
+            "0100",
+            "1011",
+            "1110",
+            "0010",
+            "1100",
+            "0111",
+            "0001"
+          ],
+          "predicted": "0110"
+        },
+        {
+          "group": 1,
+          "groupName": "菱形边线",
+          "rule": "xor",
+          "ruleName": "异或",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1110",
+            "0111",
+            "1001",
+            "1100",
+            "0110",
+            "1010",
+            "1100",
+            "1001"
+          ],
+          "predicted": "0101"
+        },
+        {
+          "group": 2,
+          "groupName": "边缘黑矩形",
+          "rule": "intersection",
+          "ruleName": "交集",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1110",
+            "1011",
+            "1010",
+            "0101",
+            "1100",
+            "0100",
+            "1111",
+            "0011"
+          ],
+          "predicted": "0011"
+        }
+      ],
+      "optionCodes": {
+        "A": "01101100001100000000",
+        "B": "01100101110000000000",
+        "C": "01110101001100000000",
+        "D": "01100101001100000000"
+      },
+      "distractors": {
+        "A": {
+          "group": 1,
+          "reason": "复制第一格",
+          "replacement": "1100"
+        },
+        "B": {
+          "group": 2,
+          "reason": "误用相减",
+          "replacement": "1100"
+        },
+        "C": {
+          "group": 0,
+          "reason": "误用合并",
+          "replacement": "0111"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "4d5419f1132c221943ac7bdca6406317bf88c8d8c702802365c5bed6cc0f2b1b",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 81,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-019",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "challenge",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-019-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-019-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-019-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-019-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-019-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "A",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察，把不同种类的图形分开寻找规律。"
+      },
+      {
+        "type": "paragraph",
+        "text": "角落黑三角：每行第三格的生成方法是：从第一格中删去第二格也出现的位置。第三行前两格分别为“左上、左下、右下、右上”和“左下、右上”，所以待补部分为“左上、右下”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "菱形边线：每行第三格的生成方法是：将前两格同位置都有的部分消去，只保留仅出现一次的部分。第三行前两格分别为“左上边、左下边、右下边”和“左上边、左下边、右下边、右上边”，所以待补部分为“右上边”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "边缘黑矩形：从左到右，每次顺时针旋转90°。第三行前两格分别为“下、右”和“左、下”，所以待补部分为“上、左”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项A完全符合，故选A。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 82,
+      "originalAnswerCode": "10100001110000000000",
+      "originalCompleteCode": "11011100100000000000,10000110000100000000,01011010001000000000,11100111110000000000,01101100100100000000,10001011001100000000,11111110001100000000,01011111011000000000,10100001110000000000",
+      "constructionRules": [
+        "相减",
+        "异或",
+        "旋转"
+      ],
+      "ruleCount": 3,
+      "groupChecks": [
+        {
+          "group": 0,
+          "groupName": "角落黑三角",
+          "rule": "subtraction",
+          "ruleName": "相减",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1101",
+            "1000",
+            "0101",
+            "1110",
+            "0110",
+            "1000",
+            "1111",
+            "0101"
+          ],
+          "predicted": "1010"
+        },
+        {
+          "group": 1,
+          "groupName": "菱形边线",
+          "rule": "xor",
+          "ruleName": "异或",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1100",
+            "0110",
+            "1010",
+            "0111",
+            "1100",
+            "1011",
+            "1110",
+            "1111"
+          ],
+          "predicted": "0001"
+        },
+        {
+          "group": 2,
+          "groupName": "边缘黑矩形",
+          "rule": "rotation",
+          "ruleName": "旋转",
+          "rotationSteps": 3,
+          "collection": null,
+          "visibleGroups": [
+            "1000",
+            "0001",
+            "0010",
+            "1100",
+            "1001",
+            "0011",
+            "0011",
+            "0110"
+          ],
+          "predicted": "1100"
+        }
+      ],
+      "optionCodes": {
+        "A": "10100001110000000000",
+        "B": "10100000110000000000",
+        "C": "10100001010100000000",
+        "D": "01010001110000000000"
+      },
+      "distractors": {
+        "B": {
+          "group": 1,
+          "reason": "误用相减",
+          "replacement": "0000"
+        },
+        "C": {
+          "group": 2,
+          "reason": "误用异或",
+          "replacement": "0101"
+        },
+        "D": {
+          "group": 0,
+          "reason": "误用交集",
+          "replacement": "0101"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "215866cc1f66abd602eea27428fc9c71222d9bebfffef19547ea684c9edb9efc",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 82,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-020",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "challenge",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-020-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-020-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-020-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-020-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-020-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "B",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察，把不同种类的图形分开寻找规律。"
+      },
+      {
+        "type": "paragraph",
+        "text": "角落黑三角：每行第三格的生成方法是：只保留前两格同位置都有的部分。第三行前两格分别为“左下、右下、右上”和“左上、右下、右上”，所以待补部分为“右下、右上”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "菱形边线：从左到右，每次逆时针旋转90°。第三行前两格分别为“左下边”和“右下边”，所以待补部分为“右上边”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "中心图形：每行都包含同一组图形：实心方形、空心方形、实心圆，每种恰好出现一次。第三行前两格分别为“空心方形”和“实心方形”，所以待补部分为“实心圆”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项B完全符合，故选B。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 89,
+      "originalAnswerCode": "00110001000000100000",
+      "originalCompleteCode": "10100110000010000000,00110011000001000000,00101001000000100000,11111110000000100000,00000111000010000000,00001011000001000000,01110100000001000000,10110010000010000000,00110001000000100000",
+      "constructionRules": [
+        "交集",
+        "旋转",
+        "补全"
+      ],
+      "ruleCount": 3,
+      "groupChecks": [
+        {
+          "group": 0,
+          "groupName": "角落黑三角",
+          "rule": "intersection",
+          "ruleName": "交集",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1010",
+            "0011",
+            "0010",
+            "1111",
+            "0000",
+            "0000",
+            "0111",
+            "1011"
+          ],
+          "predicted": "0011"
+        },
+        {
+          "group": 1,
+          "groupName": "菱形边线",
+          "rule": "rotation",
+          "ruleName": "旋转",
+          "rotationSteps": 1,
+          "collection": null,
+          "visibleGroups": [
+            "0110",
+            "0011",
+            "1001",
+            "1110",
+            "0111",
+            "1011",
+            "0100",
+            "0010"
+          ],
+          "predicted": "0001"
+        },
+        {
+          "group": 3,
+          "groupName": "中心图形",
+          "rule": "completeness",
+          "ruleName": "补全",
+          "rotationSteps": null,
+          "collection": [
+            "1000",
+            "0100",
+            "0010"
+          ],
+          "visibleGroups": [
+            "1000",
+            "0100",
+            "0010",
+            "0010",
+            "1000",
+            "0100",
+            "0100",
+            "1000"
+          ],
+          "predicted": "0010"
+        }
+      ],
+      "optionCodes": {
+        "A": "00110001000001000000",
+        "B": "00110001000000100000",
+        "C": "00110100000000100000",
+        "D": "11000001000000100000"
+      },
+      "distractors": {
+        "A": {
+          "group": 3,
+          "reason": "复制已知中心图形",
+          "replacement": "0100"
+        },
+        "C": {
+          "group": 1,
+          "reason": "误用相减",
+          "replacement": "0100"
+        },
+        "D": {
+          "group": 0,
+          "reason": "误用异或",
+          "replacement": "1100"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "f7b1df73a3f8297e857b952793de75356a03f81ee82b49ad1c87caa01c187206",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 89,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-021",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "challenge",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-021-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-021-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-021-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-021-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-021-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "C",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察，把不同种类的图形分开寻找规律。"
+      },
+      {
+        "type": "paragraph",
+        "text": "角落黑三角：每行第三格的生成方法是：将前两格同位置都有的部分消去，只保留仅出现一次的部分。第三行前两格分别为“左上、左下、右下”和“左下、右下、右上”，所以待补部分为“左上、右上”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "菱形边线：每行第三格的生成方法是：将前两格中出现的位置合并，重复位置只保留一个。第三行前两格分别为“左上边”和“右下边”，所以待补部分为“左上边、右下边”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "边缘黑矩形：每行第三格的生成方法是：从第一格中删去第二格也出现的位置。第三行前两格分别为“上、左、右”和“上”，所以待补部分为“左、右”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "内圈黑三角：每行第三格的生成方法是：只保留前两格同位置都有的部分。第三行前两格分别为“左、右”和“下、右”，所以待补部分为“右”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项C完全符合，故选C。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 151,
+      "originalAnswerCode": "10011010010100000001",
+      "originalCompleteCode": "11000110111100001111,00111000001100000000,11111110110000000000,01100101011000000111,00110010010000001101,01010111001000000101,11101000110100000101,01110010100000000011,10011010010100000001",
+      "constructionRules": [
+        "合并",
+        "相减",
+        "异或",
+        "交集"
+      ],
+      "ruleCount": 4,
+      "groupChecks": [
+        {
+          "group": 0,
+          "groupName": "角落黑三角",
+          "rule": "xor",
+          "ruleName": "异或",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1100",
+            "0011",
+            "1111",
+            "0110",
+            "0011",
+            "0101",
+            "1110",
+            "0111"
+          ],
+          "predicted": "1001"
+        },
+        {
+          "group": 1,
+          "groupName": "菱形边线",
+          "rule": "addition",
+          "ruleName": "合并",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "0110",
+            "1000",
+            "1110",
+            "0101",
+            "0010",
+            "0111",
+            "1000",
+            "0010"
+          ],
+          "predicted": "1010"
+        },
+        {
+          "group": 2,
+          "groupName": "边缘黑矩形",
+          "rule": "subtraction",
+          "ruleName": "相减",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1111",
+            "0011",
+            "1100",
+            "0110",
+            "0100",
+            "0010",
+            "1101",
+            "1000"
+          ],
+          "predicted": "0101"
+        },
+        {
+          "group": 4,
+          "groupName": "内圈黑三角",
+          "rule": "intersection",
+          "ruleName": "交集",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1111",
+            "0000",
+            "0000",
+            "0111",
+            "1101",
+            "0101",
+            "0101",
+            "0011"
+          ],
+          "predicted": "0001"
+        }
+      ],
+      "optionCodes": {
+        "A": "10011000010100000001",
+        "B": "10011010110100000001",
+        "C": "10011010010100000001",
+        "D": "01101010010100000001"
+      },
+      "distractors": {
+        "A": {
+          "group": 1,
+          "reason": "误用相减",
+          "replacement": "1000"
+        },
+        "B": {
+          "group": 2,
+          "reason": "误用合并",
+          "replacement": "1101"
+        },
+        "D": {
+          "group": 0,
+          "reason": "误用交集",
+          "replacement": "0110"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "f6b6f27dd6c7df3126ced96ac41f48810c6d2136bab374de65564d43c5b55cc6",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 151,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-022",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "challenge",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-022-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-022-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-022-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-022-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-022-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "C",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察，把不同种类的图形分开寻找规律。"
+      },
+      {
+        "type": "paragraph",
+        "text": "角落黑三角：每行第三格的生成方法是：从第一格中删去第二格也出现的位置。第三行前两格分别为“左上、左下、右上”和“左上”，所以待补部分为“左下、右上”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "菱形边线：每行第三格的生成方法是：只保留前两格同位置都有的部分。第三行前两格分别为“左上边、左下边、右下边、右上边”和“右上边”，所以待补部分为“右上边”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "边缘黑矩形：每行第三格的生成方法是：将前两格同位置都有的部分消去，只保留仅出现一次的部分。第三行前两格分别为“上、下、右”和“下、右”，所以待补部分为“上”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "内圈黑三角：从左到右，每次逆时针旋转90°。第三行前两格分别为“上、左、下”和“左、下、右”，所以待补部分为“上、下、右”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项C完全符合，故选C。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 160,
+      "originalAnswerCode": "01010001100000001011",
+      "originalCompleteCode": "11001110110000000010,01001010011000000001,10001010101000001000,11100110110000001100,01001011100000000110,10100010010000000011,11011111101100001110,10000001001100000111,01010001100000001011",
+      "constructionRules": [
+        "相减",
+        "异或",
+        "交集",
+        "旋转"
+      ],
+      "ruleCount": 4,
+      "groupChecks": [
+        {
+          "group": 0,
+          "groupName": "角落黑三角",
+          "rule": "subtraction",
+          "ruleName": "相减",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1100",
+            "0100",
+            "1000",
+            "1110",
+            "0100",
+            "1010",
+            "1101",
+            "1000"
+          ],
+          "predicted": "0101"
+        },
+        {
+          "group": 1,
+          "groupName": "菱形边线",
+          "rule": "intersection",
+          "ruleName": "交集",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1110",
+            "1010",
+            "1010",
+            "0110",
+            "1011",
+            "0010",
+            "1111",
+            "0001"
+          ],
+          "predicted": "0001"
+        },
+        {
+          "group": 2,
+          "groupName": "边缘黑矩形",
+          "rule": "xor",
+          "ruleName": "异或",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1100",
+            "0110",
+            "1010",
+            "1100",
+            "1000",
+            "0100",
+            "1011",
+            "0011"
+          ],
+          "predicted": "1000"
+        },
+        {
+          "group": 4,
+          "groupName": "内圈黑三角",
+          "rule": "rotation",
+          "ruleName": "旋转",
+          "rotationSteps": 1,
+          "collection": null,
+          "visibleGroups": [
+            "0010",
+            "0001",
+            "1000",
+            "1100",
+            "0110",
+            "0011",
+            "1110",
+            "0111"
+          ],
+          "predicted": "1011"
+        }
+      ],
+      "optionCodes": {
+        "A": "11010001100000001011",
+        "B": "01010001001100001011",
+        "C": "01010001100000001011",
+        "D": "01011000100000001011"
+      },
+      "distractors": {
+        "A": {
+          "group": 0,
+          "reason": "误用合并",
+          "replacement": "1101"
+        },
+        "B": {
+          "group": 2,
+          "reason": "误用交集",
+          "replacement": "0011"
+        },
+        "D": {
+          "group": 1,
+          "reason": "旋转方向或角度混淆",
+          "replacement": "1000"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "48c347603163ec0d7c0c0fc80a7483dfe1a885987b49fb5a33f6f7dbf54a3c38",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 160,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-023",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "challenge",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-023-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-023-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-023-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-023-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-023-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "C",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察，把不同种类的图形分开寻找规律。"
+      },
+      {
+        "type": "paragraph",
+        "text": "角落黑三角：每行第三格的生成方法是：从第一格中删去第二格也出现的位置。第三行前两格分别为“左上、左下、右下、右上”和“左上、左下、右下、右上”，所以待补部分为“无该类图形”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "菱形边线：每行第三格的生成方法是：将前两格中出现的位置合并，重复位置只保留一个。第三行前两格分别为“左上边”和“右下边”，所以待补部分为“左上边、右下边”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "边缘黑矩形：每行第三格的生成方法是：将前两格同位置都有的部分消去，只保留仅出现一次的部分。第三行前两格分别为“左、下”和“上、左、右”，所以待补部分为“上、下、右”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "中心图形：每行第三格的生成方法是：只保留前两格同位置都有的部分。第三行前两格分别为“空心方形”和“空心方形”，所以待补部分为“空心方形”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "内圈黑三角：从左到右，每次逆时针旋转90°。第三行前两格分别为“上、右”和“上、左”，所以待补部分为“左、下”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项C完全符合，故选C。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 201,
+      "originalAnswerCode": "00001010101101000110",
+      "originalCompleteCode": "10010110110001011110,00011000001101000111,10001110111101001011,11100011101001001001,01101100001100011100,10001111100100000110,11111000011001001001,11110010110101001100,00001010101101000110",
+      "constructionRules": [
+        "合并",
+        "相减",
+        "异或",
+        "交集",
+        "旋转"
+      ],
+      "ruleCount": 5,
+      "groupChecks": [
+        {
+          "group": 0,
+          "groupName": "角落黑三角",
+          "rule": "subtraction",
+          "ruleName": "相减",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1001",
+            "0001",
+            "1000",
+            "1110",
+            "0110",
+            "1000",
+            "1111",
+            "1111"
+          ],
+          "predicted": "0000"
+        },
+        {
+          "group": 1,
+          "groupName": "菱形边线",
+          "rule": "addition",
+          "ruleName": "合并",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "0110",
+            "1000",
+            "1110",
+            "0011",
+            "1100",
+            "1111",
+            "1000",
+            "0010"
+          ],
+          "predicted": "1010"
+        },
+        {
+          "group": 2,
+          "groupName": "边缘黑矩形",
+          "rule": "xor",
+          "ruleName": "异或",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1100",
+            "0011",
+            "1111",
+            "1010",
+            "0011",
+            "1001",
+            "0110",
+            "1101"
+          ],
+          "predicted": "1011"
+        },
+        {
+          "group": 3,
+          "groupName": "中心图形",
+          "rule": "intersection",
+          "ruleName": "交集",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "0101",
+            "0100",
+            "0100",
+            "0100",
+            "0001",
+            "0000",
+            "0100",
+            "0100"
+          ],
+          "predicted": "0100"
+        },
+        {
+          "group": 4,
+          "groupName": "内圈黑三角",
+          "rule": "rotation",
+          "ruleName": "旋转",
+          "rotationSteps": 1,
+          "collection": null,
+          "visibleGroups": [
+            "1110",
+            "0111",
+            "1011",
+            "1001",
+            "1100",
+            "0110",
+            "1001",
+            "1100"
+          ],
+          "predicted": "0110"
+        }
+      ],
+      "optionCodes": {
+        "A": "00001010110101000110",
+        "B": "10001010101101000110",
+        "C": "00001010101101000110",
+        "D": "00001000101101000110"
+      },
+      "distractors": {
+        "A": {
+          "group": 2,
+          "reason": "复制第二格",
+          "replacement": "1101"
+        },
+        "B": {
+          "group": 0,
+          "reason": "漏计或多计一个部件",
+          "replacement": "1000"
+        },
+        "D": {
+          "group": 1,
+          "reason": "误用相减",
+          "replacement": "1000"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "aa7e2189a28725ce4dbac2ecfb1434b99a43b8751df4d738d81495f5f8d907cf",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 201,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  },
+  {
+    "id": "focus-omib-024",
+    "kind": "figures",
+    "skillId": "figure-open-matrices",
+    "skillTitle": "矩阵综合",
+    "difficulty": "challenge",
+    "stem": "从四个选项中选择最合适的一项填入问号处，使每行图形遵循相同规律。",
+    "stemBlocks": [
+      {
+        "type": "image",
+        "src": "assets/images/question-bank/focused/omib-024-stem.png",
+        "alt": "三行三列的图形矩阵，右下格待补"
+      }
+    ],
+    "options": [
+      {
+        "value": "A",
+        "label": "A",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-024-a.png",
+            "alt": "选项A图形"
+          }
+        ]
+      },
+      {
+        "value": "B",
+        "label": "B",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-024-b.png",
+            "alt": "选项B图形"
+          }
+        ]
+      },
+      {
+        "value": "C",
+        "label": "C",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-024-c.png",
+            "alt": "选项C图形"
+          }
+        ]
+      },
+      {
+        "value": "D",
+        "label": "D",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "assets/images/question-bank/focused/omib-024-d.png",
+            "alt": "选项D图形"
+          }
+        ]
+      }
+    ],
+    "answer": "A",
+    "explanationBlocks": [
+      {
+        "type": "paragraph",
+        "text": "按行观察，把不同种类的图形分开寻找规律。"
+      },
+      {
+        "type": "paragraph",
+        "text": "角落黑三角：每行第三格的生成方法是：将前两格中出现的位置合并，重复位置只保留一个。第三行前两格分别为“左上”和“左下”，所以待补部分为“左上、左下”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "菱形边线：每行第三格的生成方法是：从第一格中删去第二格也出现的位置。第三行前两格分别为“左上边、左下边、右下边、右上边”和“左上边、左下边”，所以待补部分为“右下边、右上边”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "边缘黑矩形：从左到右，每次逆时针旋转90°。第三行前两格分别为“上、左”和“左、下”，所以待补部分为“下、右”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "中心图形：每行都包含同一组图形：实心圆、空心方形、空心圆，每种恰好出现一次。第三行前两格分别为“实心圆”和“空心方形”，所以待补部分为“空心圆”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "内圈黑三角：每行第三格的生成方法是：只保留前两格同位置都有的部分。第三行前两格分别为“上、左、下”和“上、下、右”，所以待补部分为“上、下”。"
+      },
+      {
+        "type": "paragraph",
+        "text": "将各类图形的结果合在同一格，只有选项A完全符合，故选A。"
+      }
+    ],
+    "verification": {
+      "originalItemId": 210,
+      "originalAnswerCode": "11000011001100011010",
+      "originalCompleteCode": "10101100110000101010,01000100011001001110,11101000001100011010,00110111001100100101,11100011100101001111,11110100110000010101,10001111110000101110,01001100011001001011,11000011001100011010",
+      "constructionRules": [
+        "合并",
+        "相减",
+        "交集",
+        "旋转",
+        "补全"
+      ],
+      "ruleCount": 5,
+      "groupChecks": [
+        {
+          "group": 0,
+          "groupName": "角落黑三角",
+          "rule": "addition",
+          "ruleName": "合并",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1010",
+            "0100",
+            "1110",
+            "0011",
+            "1110",
+            "1111",
+            "1000",
+            "0100"
+          ],
+          "predicted": "1100"
+        },
+        {
+          "group": 1,
+          "groupName": "菱形边线",
+          "rule": "subtraction",
+          "ruleName": "相减",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1100",
+            "0100",
+            "1000",
+            "0111",
+            "0011",
+            "0100",
+            "1111",
+            "1100"
+          ],
+          "predicted": "0011"
+        },
+        {
+          "group": 2,
+          "groupName": "边缘黑矩形",
+          "rule": "rotation",
+          "ruleName": "旋转",
+          "rotationSteps": 1,
+          "collection": null,
+          "visibleGroups": [
+            "1100",
+            "0110",
+            "0011",
+            "0011",
+            "1001",
+            "1100",
+            "1100",
+            "0110"
+          ],
+          "predicted": "0011"
+        },
+        {
+          "group": 3,
+          "groupName": "中心图形",
+          "rule": "completeness",
+          "ruleName": "补全",
+          "rotationSteps": null,
+          "collection": [
+            "0010",
+            "0100",
+            "0001"
+          ],
+          "visibleGroups": [
+            "0010",
+            "0100",
+            "0001",
+            "0010",
+            "0100",
+            "0001",
+            "0010",
+            "0100"
+          ],
+          "predicted": "0001"
+        },
+        {
+          "group": 4,
+          "groupName": "内圈黑三角",
+          "rule": "intersection",
+          "ruleName": "交集",
+          "rotationSteps": null,
+          "collection": null,
+          "visibleGroups": [
+            "1010",
+            "1110",
+            "1010",
+            "0101",
+            "1111",
+            "0101",
+            "1110",
+            "1011"
+          ],
+          "predicted": "1010"
+        }
+      ],
+      "optionCodes": {
+        "A": "11000011001100011010",
+        "B": "11001100001100011010",
+        "C": "11000011101000011010",
+        "D": "10000011001100011010"
+      },
+      "distractors": {
+        "B": {
+          "group": 1,
+          "reason": "误用交集",
+          "replacement": "1100"
+        },
+        "C": {
+          "group": 2,
+          "reason": "误用异或",
+          "replacement": "1010"
+        },
+        "D": {
+          "group": 0,
+          "reason": "误用相减",
+          "replacement": "1000"
+        }
+      },
+      "visiblePrimitiveComparison": {
+        "cells": 8,
+        "status": "exact-source-match"
+      },
+      "sourceSvgSha256": "938447c689e3bb322e82c73a94f29ffd764b78441f422532248bdcf936c0d0bb",
+      "sourceAnswerTableSha256": "ace35c7212c22a88c61d25b51e37b9fe25eeafd4fb6e910048d2cef5e2687bfd",
+      "method": "Infer component rules from eight visible cells, compare with original key, verify all source SVG primitives; independently recheck all rows and four options.",
+      "status": "passed"
+    },
+    "provenance": {
+      "kind": "adapted-open",
+      "provider": "Open Matrices Item Bank (Koch, Spinath, Greiff & Becker, 2022)",
+      "sourceUrl": "https://osf.io/4km79/",
+      "originalItemId": 210,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9326670/",
+      "adaptationNote": "保留原矩阵及原答案，用原构造部件新增四选一选项；中文解析、干扰项与难度标签为本项目编写，非原作者解析。",
+      "explanationProvenance": "本项目依据原题部件编码和构造规则编写并复核。"
+    }
+  }
+]

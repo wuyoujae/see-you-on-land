@@ -1,0 +1,1569 @@
+{
+  "status": "passed",
+  "questionCount": 120,
+  "stemImagesReviewed": 120,
+  "optionImagesReviewed": 480,
+  "contactSheetsReviewed": 15,
+  "questions": [
+    {
+      "id": "focus-figure-001",
+      "status": "passed",
+      "preview": "previews/01-translate.png",
+      "note": "三种符号可区分，平移及越界位置明确，四个选项均清晰。",
+      "pngSha256": {
+        "focus-figure-001-stem.png": "66a273c6b55bdf9491ce0a56782abf18d1af354f6896657d35928ce46c9975a2",
+        "focus-figure-001-a.png": "c194ff6fb689a8aaabdef7da20f1e20ece560cb6310f1f006043e5bf454428a6",
+        "focus-figure-001-b.png": "826d3487a083dfbe4f78eb4919f7aa8ffa4dcdfa661419903a94f44f849cf474",
+        "focus-figure-001-c.png": "81e167ac0236b6b91e8bec8ad64d426c4ff4b2ef0b2816f5b4f614f5d02d02b8",
+        "focus-figure-001-d.png": "8a1f8224b06a93f07d6fc933e3082e5eb6d268fa65d53cb997d3f8b11fddc21e"
+      }
+    },
+    {
+      "id": "focus-figure-002",
+      "status": "passed",
+      "preview": "previews/01-translate.png",
+      "note": "三种符号可区分，平移及越界位置明确，四个选项均清晰。",
+      "pngSha256": {
+        "focus-figure-002-stem.png": "ae0d60cd0a9a95dc61ac33f88e2cf07d546280cc6bb1d7c58d23b86481e04749",
+        "focus-figure-002-a.png": "9e9e58184a8d2e52209a72e534cbc6ccc62eedeee0a4c3471aa7b97163e025dd",
+        "focus-figure-002-b.png": "480771e71e48185e282f2cb4658815f7ede832ef97e6e86d1c13b6ffbf5ae10a",
+        "focus-figure-002-c.png": "ecf90748365fa98abb7fc7c77c13a53ac6dfc614cf86c5c3ddf30c02564bd8a7",
+        "focus-figure-002-d.png": "ba002d318cf46643c486bd96db8aa9caea04e9e031d8835c84cd595aaed42d91"
+      }
+    },
+    {
+      "id": "focus-figure-003",
+      "status": "passed",
+      "preview": "previews/01-translate.png",
+      "note": "三种符号可区分，平移及越界位置明确，四个选项均清晰。",
+      "pngSha256": {
+        "focus-figure-003-stem.png": "4304951d85487db9e4408e0b457ba07772e4a0367048ad37b6b337e3563e9d64",
+        "focus-figure-003-a.png": "2fea5f46e865b85c02539108382eb3d511ea267baa0b4e8598e0c8dd0e0bd3e2",
+        "focus-figure-003-b.png": "424b22f237f15c216d3da3c5ddff0dff27932236d2cda58b0cc105380c7d2e65",
+        "focus-figure-003-c.png": "237526ebef416c56bcf91d085b13794d6788aa4224cf650839285351c5a534c7",
+        "focus-figure-003-d.png": "6c3292cbc7f4acf3c99d9b927617f5536191772028d655e9dc1eae87f3de82de"
+      }
+    },
+    {
+      "id": "focus-figure-004",
+      "status": "passed",
+      "preview": "previews/01-translate.png",
+      "note": "三种符号可区分，平移及越界位置明确，四个选项均清晰。",
+      "pngSha256": {
+        "focus-figure-004-stem.png": "fa78f568f21fe2fd4e6ecc8301ee725e9f45a21238c46fea7c7a7c100f58bc61",
+        "focus-figure-004-a.png": "6ba74ad65376749f3984728093827c206f5fe609d888717c79997a797407731b",
+        "focus-figure-004-b.png": "06bdc6a173a11c4b36b4bda6dd195ee516c53aac9c815494bc9856ab2052485d",
+        "focus-figure-004-c.png": "f317d31735fd3a7929b9e58129ec83e183456b60314a2ffdfabebfa4e57abd75",
+        "focus-figure-004-d.png": "9ee64db431464002bcb6641dc9480d6f4904736e2ec266fc1f1dd9493e55c2c8"
+      }
+    },
+    {
+      "id": "focus-figure-005",
+      "status": "passed",
+      "preview": "previews/01-translate.png",
+      "note": "三种符号可区分，平移及越界位置明确，四个选项均清晰。",
+      "pngSha256": {
+        "focus-figure-005-stem.png": "c165a125c78e8822c8687c59f687b43c2b877935d1b57137f107ada9bb0010e6",
+        "focus-figure-005-a.png": "f9555b0746fb8d58ab318165a179adb59279a4bd8974a1717543d98ac1d42289",
+        "focus-figure-005-b.png": "b2dda365420b7fc5d189cdf92daa0bdf5c358c9fef2abad36bd8663004ff3d87",
+        "focus-figure-005-c.png": "310cb0f31de433cce467b4c7fe7d921e675be4e0273a7133a85e82d223f013d5",
+        "focus-figure-005-d.png": "a4276338343f6b889ae4fa046b1f4235f21a903b2a70a25f295c4ef076f41063"
+      }
+    },
+    {
+      "id": "focus-figure-006",
+      "status": "passed",
+      "preview": "previews/01-translate.png",
+      "note": "三种符号可区分，平移及越界位置明确，四个选项均清晰。",
+      "pngSha256": {
+        "focus-figure-006-stem.png": "0f778ac8a021060067af54f14959d91b8e9d8b740884200c60ebc70109e3bb60",
+        "focus-figure-006-a.png": "7f4b404df9867221b83ff98660205f7e8c06bf5f7a7a514f60408f7d1dfe677b",
+        "focus-figure-006-b.png": "ab515fa767ab22fb42197ffe2140a924043fa8d8aab7505c280f17ee4ea4ec62",
+        "focus-figure-006-c.png": "57675190d58ab8e72cc75565a83b32157c85df0f7e74ac61ad4b1cb15e413ce8",
+        "focus-figure-006-d.png": "de6c3652fa61e396483fd8a34c576e8871254fdeed186f79e8dcbbc5fa985715"
+      }
+    },
+    {
+      "id": "focus-figure-007",
+      "status": "passed",
+      "preview": "previews/01-translate.png",
+      "note": "三种符号可区分，平移及越界位置明确，四个选项均清晰。",
+      "pngSha256": {
+        "focus-figure-007-stem.png": "bc159daaad8ec3e85fb7469c9af10e97ccd1a1cd64c734147ea535bf3374a070",
+        "focus-figure-007-a.png": "903cd56235591e5be5e0e9616cadabf22639929455e9b0c37ded6e1e8aef78c1",
+        "focus-figure-007-b.png": "c9990262c22b2144984d8238589ae3406e7ab652ad6092225dad555e5359b496",
+        "focus-figure-007-c.png": "96812443c4ca03f61a583e74fe7676ac28f8d444ffb3280da38008edd682bcc4",
+        "focus-figure-007-d.png": "21174760ea851e20c2bdddc756896026a33dc20c6095fde90f67a2ea0f899de7"
+      }
+    },
+    {
+      "id": "focus-figure-008",
+      "status": "passed",
+      "preview": "previews/01-translate.png",
+      "note": "三种符号可区分，平移及越界位置明确，四个选项均清晰。",
+      "pngSha256": {
+        "focus-figure-008-stem.png": "2009d5a9c857a30f30fe1f7d7c2ced536486ae7214650c48d27e2d7b08283869",
+        "focus-figure-008-a.png": "0809a1caea10fb19bb298856563fb9a85d5165223626284ae1351cf8e6983f20",
+        "focus-figure-008-b.png": "7864a008da8b7303ecd1b99de403725efd17998093199ae1077414c8e6782117",
+        "focus-figure-008-c.png": "773b84f6e68987b5290c5e48bad96f74d60742925a6b3b917c97e84dff1d89fb",
+        "focus-figure-008-d.png": "9fb466d89c0f112138515d857af6b5c29fcaff79b14ac1a636f6137d964e3e8a"
+      }
+    },
+    {
+      "id": "focus-figure-009",
+      "status": "passed",
+      "preview": "previews/02-orbit.png",
+      "note": "实心与空心圆可区分，八个刻度清晰，无两标记重合。",
+      "pngSha256": {
+        "focus-figure-009-stem.png": "49a365200da9befa6c374827a6a9d4ae9edf942530e0bbed8a105c2f066c0d4e",
+        "focus-figure-009-a.png": "a261ac82817e047d36cb7feed8406636e4ded70f04c9b376a26e6228f7edf5ea",
+        "focus-figure-009-b.png": "ac6b1b661a2d176fba5dcfdbfd2158899b34f8ccc8a2c24ac85555569d43e428",
+        "focus-figure-009-c.png": "4b14a17a7ab2d25bc690913d412f635308a8447a59ecf0527110be540f6c1e57",
+        "focus-figure-009-d.png": "2daa550ee4fd5d921e12be5eeec7be845531cef0683152aa5c736eade0b4c90a"
+      }
+    },
+    {
+      "id": "focus-figure-010",
+      "status": "passed",
+      "preview": "previews/02-orbit.png",
+      "note": "实心与空心圆可区分，八个刻度清晰，无两标记重合。",
+      "pngSha256": {
+        "focus-figure-010-stem.png": "d5a6e3801b5695c073e30ac62e1cb8d30ddacbd40f6dabaceb7f916fa6a87797",
+        "focus-figure-010-a.png": "2f2e5707e8275e1ede7ce709af814b3f6442f42d042544d3c1533a725352f0db",
+        "focus-figure-010-b.png": "a48bed6f3368b644e159d93e00646090cca3c1e886518c7ba76a437816b005e7",
+        "focus-figure-010-c.png": "8d9a9d4e87a6b0456ea33210fa6e807be773cb5ce1217bca48e122cc22b7fd31",
+        "focus-figure-010-d.png": "4b14a17a7ab2d25bc690913d412f635308a8447a59ecf0527110be540f6c1e57"
+      }
+    },
+    {
+      "id": "focus-figure-011",
+      "status": "passed",
+      "preview": "previews/02-orbit.png",
+      "note": "实心与空心圆可区分，八个刻度清晰，无两标记重合。",
+      "pngSha256": {
+        "focus-figure-011-stem.png": "0ac0e5618d3c3186d537ca939a33836fa7bda5c68ae2a21fc43345523af259c9",
+        "focus-figure-011-a.png": "a261ac82817e047d36cb7feed8406636e4ded70f04c9b376a26e6228f7edf5ea",
+        "focus-figure-011-b.png": "1809690d05207d33e30ffc0def4a208e28205ed92a9f1e0cc17e81bce5e9c1ed",
+        "focus-figure-011-c.png": "ac6b1b661a2d176fba5dcfdbfd2158899b34f8ccc8a2c24ac85555569d43e428",
+        "focus-figure-011-d.png": "21f6872d64d0795018d3ad987c5044a746719e1ed05fa25008ff56fd7dfa20d5"
+      }
+    },
+    {
+      "id": "focus-figure-012",
+      "status": "passed",
+      "preview": "previews/02-orbit.png",
+      "note": "实心与空心圆可区分，八个刻度清晰，无两标记重合。",
+      "pngSha256": {
+        "focus-figure-012-stem.png": "2c912be71408100a49e646fff183d07c533ee8a8f54b7a2834beb296a13ebe92",
+        "focus-figure-012-a.png": "9a46a3d300c94059b21a6d8ea416b8181e40dda338276c9dcd84738e0e12a4cd",
+        "focus-figure-012-b.png": "37c753e94567794ff7deeadfbe6674497b67a7df5e01ac2a3f2ebd302d6daf1e",
+        "focus-figure-012-c.png": "9937da9c2716fdc7e39c412c14bee2aa3b278c3a70d26c5985a8dfaa208d59a3",
+        "focus-figure-012-d.png": "1809690d05207d33e30ffc0def4a208e28205ed92a9f1e0cc17e81bce5e9c1ed"
+      }
+    },
+    {
+      "id": "focus-figure-013",
+      "status": "passed",
+      "preview": "previews/02-orbit.png",
+      "note": "实心与空心圆可区分，八个刻度清晰，无两标记重合。",
+      "pngSha256": {
+        "focus-figure-013-stem.png": "b2cee4a5025efc1bbd4ab2e3a016f2f467322f5417c922747aa279be3bbeab3b",
+        "focus-figure-013-a.png": "9a46a3d300c94059b21a6d8ea416b8181e40dda338276c9dcd84738e0e12a4cd",
+        "focus-figure-013-b.png": "e4a6831195b752ecea3e835eaa8703e027e1d64e4b3d81ee9d979af13e74748d",
+        "focus-figure-013-c.png": "d8d9395253612ee34bb41cddf7596e130887ad0cf72cb1b9350180f6b9583a9b",
+        "focus-figure-013-d.png": "c01c6e5edf8247fd3b139a617898df67cc65d9a428231554580a3d74e64f1848"
+      }
+    },
+    {
+      "id": "focus-figure-014",
+      "status": "passed",
+      "preview": "previews/02-orbit.png",
+      "note": "实心与空心圆可区分，八个刻度清晰，无两标记重合。",
+      "pngSha256": {
+        "focus-figure-014-stem.png": "9065da7388be7aaeda809ba100c9c0f3fbf538c86646db30c54d4275a761b671",
+        "focus-figure-014-a.png": "32dc027a0684ed93f144e162b3aef5127136a5f0720d27e4f0241cc14f334532",
+        "focus-figure-014-b.png": "ed739931a9f0ec37e55c3923ee2dd41459ef70f77a54535194ef8903125a8066",
+        "focus-figure-014-c.png": "d6004e28a0837620c1cffbe9b14193aa7984cd50b82fe6a0add95160441e4789",
+        "focus-figure-014-d.png": "4235f8460f2470c19b6f9cf1875fd645a5bf5030a44a4996900586c3e1e3c95f"
+      }
+    },
+    {
+      "id": "focus-figure-015",
+      "status": "passed",
+      "preview": "previews/02-orbit.png",
+      "note": "实心与空心圆可区分，八个刻度清晰，无两标记重合。",
+      "pngSha256": {
+        "focus-figure-015-stem.png": "3783e8afba66274e61e4c56bb81b91b6a1b3ccbf802ff9aad37a2ed918ff4655",
+        "focus-figure-015-a.png": "92ff7bd0abe12fbd8570201b89c6c90e6540a610beddf511ec41a44fb9753def",
+        "focus-figure-015-b.png": "72b562156727b970c3911df4e0afc2d6ad6425a19f282461e98283d716e964e0",
+        "focus-figure-015-c.png": "b4d8221720b76026d25fe68793d354c0e55b9b085b8eeb1c9732be31c4a9de29",
+        "focus-figure-015-d.png": "2f2e5707e8275e1ede7ce709af814b3f6442f42d042544d3c1533a725352f0db"
+      }
+    },
+    {
+      "id": "focus-figure-016",
+      "status": "passed",
+      "preview": "previews/02-orbit.png",
+      "note": "实心与空心圆可区分，八个刻度清晰，无两标记重合。",
+      "pngSha256": {
+        "focus-figure-016-stem.png": "aa4380cd3f72868464e8d32376c94f7c7b8a962bda41e73a95c87308937f2580",
+        "focus-figure-016-a.png": "f2dee3f2fe59e5963f753d0b0bc047ed80c3d21254df17e7598d4dca6bb28a78",
+        "focus-figure-016-b.png": "9937da9c2716fdc7e39c412c14bee2aa3b278c3a70d26c5985a8dfaa208d59a3",
+        "focus-figure-016-c.png": "6f2bd8b89471b82a71b9a704b2f6b4968b57078ebfafabbbfbe5b84315398196",
+        "focus-figure-016-d.png": "9fe93b84c35e4bb36bc24b193b019fed1b2daf4bad55c9698dcb9f24f18b545c"
+      }
+    },
+    {
+      "id": "focus-figure-017",
+      "status": "passed",
+      "preview": "previews/03-rotate.png",
+      "note": "非对称黑块组合的四个方向可区分，未出现裁切或旋转退化。",
+      "pngSha256": {
+        "focus-figure-017-stem.png": "3cf505ea93760868be9c40e52797dac935cd9895df0251cb91999e2663371e77",
+        "focus-figure-017-a.png": "34ad55dfcde3def5325b4625ad1ec61238fc0a3c1c3a0aeea70fcb3f1110fe34",
+        "focus-figure-017-b.png": "d3df6c1e6ed74cf00bd138de18f0d41d3e60f684646f9d9422e8e1df855ce6c4",
+        "focus-figure-017-c.png": "83dbda6153d10922e6a786466add9fdcca6dbbec99e67664f5ed1e5dcf00f5ba",
+        "focus-figure-017-d.png": "3a2df835bd9b4cbffe85da626aa3f0cb6e9752e3e9746443c657b409e63e662b"
+      }
+    },
+    {
+      "id": "focus-figure-018",
+      "status": "passed",
+      "preview": "previews/03-rotate.png",
+      "note": "非对称黑块组合的四个方向可区分，未出现裁切或旋转退化。",
+      "pngSha256": {
+        "focus-figure-018-stem.png": "3c917227485567b050b8bbcc6cf7442f68dbee6927256e505567e263e8cb28a8",
+        "focus-figure-018-a.png": "3363b0c3c4acee30f6b9942c185f7a75836efff75bcd41aaf16b777fd0680341",
+        "focus-figure-018-b.png": "701f7de1c3a2e2b432a193713e25a342d04da68115cded1ac1f6a941de2a1682",
+        "focus-figure-018-c.png": "19fd01f6e06f649bdd66ab6b5eafab86c077354c4fbcdca700157d8a30a05541",
+        "focus-figure-018-d.png": "fc92e401f0d0200f15fa5a4902b4931e1f263d143d250ac244893d0695e83f2c"
+      }
+    },
+    {
+      "id": "focus-figure-019",
+      "status": "passed",
+      "preview": "previews/03-rotate.png",
+      "note": "非对称黑块组合的四个方向可区分，未出现裁切或旋转退化。",
+      "pngSha256": {
+        "focus-figure-019-stem.png": "96f95817b50f7bee8ff797fbe479276094a11aff7b00f991c09fceedacd78848",
+        "focus-figure-019-a.png": "40f6725047bec269b2f3911866eaad899aa535a9ce43e20c13efa6f4ac0dd0a8",
+        "focus-figure-019-b.png": "90e02780ddcf70408519abbf6ca5b8ac1da615d2d85cc932e0b46e8cb5cc7e56",
+        "focus-figure-019-c.png": "bbb81df06abb197c91ff4f0d218a47523a128753c2b17bbf97272b98a7abee8c",
+        "focus-figure-019-d.png": "6856ad65fc212c4b57282675f6bb000bbd638f34ddfc79fd6f7ca5e1e1e93b61"
+      }
+    },
+    {
+      "id": "focus-figure-020",
+      "status": "passed",
+      "preview": "previews/03-rotate.png",
+      "note": "非对称黑块组合的四个方向可区分，未出现裁切或旋转退化。",
+      "pngSha256": {
+        "focus-figure-020-stem.png": "173585ab7322303784da3a632a7df46d7f77299e72e1676b2b5b11eda4e6431c",
+        "focus-figure-020-a.png": "b978b0a1729cfc92c6a0c8a0303d76cb13838bcf9f2be4dda596e81a3aec8a94",
+        "focus-figure-020-b.png": "433c4df70a2723ecee9fb382fc686ad2f35eaf312a43d4a15ad3efad834317d2",
+        "focus-figure-020-c.png": "16a66840a3c5f4b850818e851b4391d25bacace9c0303e3a3f791d42b1dc3595",
+        "focus-figure-020-d.png": "fa33a3e069ce46450bbd30bf04e7a0a45f80ca3c6b08d92e3227c820ac24d733"
+      }
+    },
+    {
+      "id": "focus-figure-021",
+      "status": "passed",
+      "preview": "previews/03-rotate.png",
+      "note": "非对称黑块组合的四个方向可区分，未出现裁切或旋转退化。",
+      "pngSha256": {
+        "focus-figure-021-stem.png": "ead8edfa49ec58e62fefc1698cbcc131795b4b57c2466801bc9706a38426dc1e",
+        "focus-figure-021-a.png": "5e640f779587c1bd7542a173c37ef196361447fccd2c3d034a85adbb96874ae2",
+        "focus-figure-021-b.png": "d9a9d7558963deb5fa6aa18fac129ea3c2d386e12d7cc2fe9c9880b4551ce276",
+        "focus-figure-021-c.png": "cac438d8e4e04a80fe7ca4756d7a3edf25ef1b6343680f3982d617a6098fa27f",
+        "focus-figure-021-d.png": "93d9ef139ba5873080029e85f922e0ef8d3e5b869608cf3c12c5d71ad54e24b6"
+      }
+    },
+    {
+      "id": "focus-figure-022",
+      "status": "passed",
+      "preview": "previews/03-rotate.png",
+      "note": "非对称黑块组合的四个方向可区分，未出现裁切或旋转退化。",
+      "pngSha256": {
+        "focus-figure-022-stem.png": "b7ae249f9d1ea68f8d4fc7811ee5ec45cd7ae7aa0c7fac100191ce0a73652ff3",
+        "focus-figure-022-a.png": "74504018b2b4e8f925afd9d980718993c8b38d6d4c709c9336d2ca94fe41690c",
+        "focus-figure-022-b.png": "fdfe04d9edc8d35afbdea15c703aca9f142c2f32eb6719c59ce2ba53193b82e6",
+        "focus-figure-022-c.png": "43372c6d96d0e5ca57e7fd970446ae84ed382b23c02d588b13ce48e196870142",
+        "focus-figure-022-d.png": "88f3718514a3c10c857931e71a19dfd9995496edecbe48a27ebd628af41906ae"
+      }
+    },
+    {
+      "id": "focus-figure-023",
+      "status": "passed",
+      "preview": "previews/03-rotate.png",
+      "note": "非对称黑块组合的四个方向可区分，未出现裁切或旋转退化。",
+      "pngSha256": {
+        "focus-figure-023-stem.png": "99eb113e4096382b822c691ed54d6e00db1230d71d5d3bb82ff4b8b73f7af10a",
+        "focus-figure-023-a.png": "398602f79eeb94e5162593e2015b02361928efd4c401200b6422c830d1368af3",
+        "focus-figure-023-b.png": "dbb7e2aea2ee071a5471666f1158dfe51d08ef7f386424c4b323a9ccba4dda78",
+        "focus-figure-023-c.png": "5234048a1ff269a0e5b0b412763bb6ab35fe0ad70f044aa646984819a6a01633",
+        "focus-figure-023-d.png": "446f5064153cf517452700e0046ae6a8213279318ca639e6f2cb224bbc3ce560"
+      }
+    },
+    {
+      "id": "focus-figure-024",
+      "status": "passed",
+      "preview": "previews/03-rotate.png",
+      "note": "非对称黑块组合的四个方向可区分，未出现裁切或旋转退化。",
+      "pngSha256": {
+        "focus-figure-024-stem.png": "9308410b74c8f16933106f829bb6a962b5025aa769b9ec9ca1b372419fd16ddd",
+        "focus-figure-024-a.png": "12d028182013563185787ea8c7aeb0691fce8836269a25ae516dc5d1447ec522",
+        "focus-figure-024-b.png": "4c04b623151ed265fbbb4dba0255f99cd36bcde4d31deb1eb54b0a5cb5b7230c",
+        "focus-figure-024-c.png": "8deef12d66f92adc945f624135806f79abcdadff9dc9daf48a055064b600a919",
+        "focus-figure-024-d.png": "05e7fbef33d56cb4c211e57478d2ef0967f9eb8fa3f2d16b961975e3b3acb39e"
+      }
+    },
+    {
+      "id": "focus-figure-025",
+      "status": "passed",
+      "preview": "previews/04-reflect.png",
+      "note": "九宫格中的轴向翻转可辨，黑块与格线分离。",
+      "pngSha256": {
+        "focus-figure-025-stem.png": "44004bbe3a1d9598c33e40bbeb41948f0582843f5693d1cb63c7cf9c29b657d9",
+        "focus-figure-025-a.png": "302ab29448505dbaf4078dd51a760b030c5b8c2ba93913f8bf33afd2588a4297",
+        "focus-figure-025-b.png": "f1f2e864d0973816f15c8fa024275955c60b1e1deab54f8b352c132377756ce6",
+        "focus-figure-025-c.png": "b26acc9c48d9606eb86b912975b9afafba90a9d1639921d524784d258bcd3796",
+        "focus-figure-025-d.png": "24d9781cf8bb2c06d97b1b3182470d86f355b117593fc652a432b0775c8b3001"
+      }
+    },
+    {
+      "id": "focus-figure-026",
+      "status": "passed",
+      "preview": "previews/04-reflect.png",
+      "note": "九宫格中的轴向翻转可辨，黑块与格线分离。",
+      "pngSha256": {
+        "focus-figure-026-stem.png": "214723441d0d5f8573aaf8dd8c07cee6d08f46c9553d57bcd803f60a9bcd3a6f",
+        "focus-figure-026-a.png": "794cb19895a3295b897e97bc205cab389c0202d577f16ebba157516dc8537b72",
+        "focus-figure-026-b.png": "75d0d759ebd9a45a56c6cece6f66f12f46faba6d52fdfa0f3a5bd5e5083e2503",
+        "focus-figure-026-c.png": "234d34c32014035231b7bb520df2470d29042ec62784363739104bd08fd50b18",
+        "focus-figure-026-d.png": "cd506f8bda27af0f47792dfc72d73c11f826aa21a3b904da24a30e56205cfcef"
+      }
+    },
+    {
+      "id": "focus-figure-027",
+      "status": "passed",
+      "preview": "previews/04-reflect.png",
+      "note": "九宫格中的轴向翻转可辨，黑块与格线分离。",
+      "pngSha256": {
+        "focus-figure-027-stem.png": "d63c85bfe73d6a625b2087960355ed0347ac954fae4659c003fcbbdb87412282",
+        "focus-figure-027-a.png": "ddde96e26a82f572e2e4044e45a86bd5b5dea010392f5113828e00d82d04ef4a",
+        "focus-figure-027-b.png": "65b522008c3dd4587197d14a6a89ae3b2e629895923971cf3e892a99155a7769",
+        "focus-figure-027-c.png": "6ddf905ec91e48fe824b8cfdfdcd319a61dec8d0cc0f1b715ad6905be36f3887",
+        "focus-figure-027-d.png": "8aa157e6add682e9b5862d357b9249cd1fc7822e911ff18094efdc4c3d3c3164"
+      }
+    },
+    {
+      "id": "focus-figure-028",
+      "status": "passed",
+      "preview": "previews/04-reflect.png",
+      "note": "九宫格中的轴向翻转可辨，黑块与格线分离。",
+      "pngSha256": {
+        "focus-figure-028-stem.png": "8d6bb1ca4384c6fdb6a1053a3e0cc9dfff8221922e45e93c774f4cf77f1dc063",
+        "focus-figure-028-a.png": "f9348f4376e83178ed6a83fa3b46d0e2154ce9dffd706e55056d59ec93e3389f",
+        "focus-figure-028-b.png": "1b43e7c7fa2f2124852268bf6d94ebb0c335a4b13e6847a8e128660c1a47e714",
+        "focus-figure-028-c.png": "d36081ecbcdebb466b2971c4051c1b25af761ade84eb43ff35ad0875d8332898",
+        "focus-figure-028-d.png": "580b1821dbe761952d230cac94c2e230f145f056306f8992d6200a4fe0860eaf"
+      }
+    },
+    {
+      "id": "focus-figure-029",
+      "status": "passed",
+      "preview": "previews/04-reflect.png",
+      "note": "九宫格中的轴向翻转可辨，黑块与格线分离。",
+      "pngSha256": {
+        "focus-figure-029-stem.png": "e0b7493cc9844a571a986db67ba5f77f54e9393ded95e4cce44e948c8be37ee1",
+        "focus-figure-029-a.png": "3f0cd0a859ffef857b0c548d6b947a6cd29e7849aff75f116374ef4cd0dd3cf4",
+        "focus-figure-029-b.png": "422693e82c3832de5f061ec9b7d015ed9f2d94b851ab3117e6730db175c15120",
+        "focus-figure-029-c.png": "dad378ccc8c0ee7730eef1077d83a6eb052b104bc9830890e308d886aed30873",
+        "focus-figure-029-d.png": "9f8778f94230a1c85aa8ed35542f41725b40ed6c6b7f023384573bd910dca814"
+      }
+    },
+    {
+      "id": "focus-figure-030",
+      "status": "passed",
+      "preview": "previews/04-reflect.png",
+      "note": "九宫格中的轴向翻转可辨，黑块与格线分离。",
+      "pngSha256": {
+        "focus-figure-030-stem.png": "dc33ce8e986c817595f5ca4a4b8e38f6793c68f01ee88ca2b2e84e199259c517",
+        "focus-figure-030-a.png": "70b9d8770ddd823e1153fca242991e94979292db26112545ce450e53a4b61e4c",
+        "focus-figure-030-b.png": "f144587c90424fcbf9635d1774f00d34e3bb0f4af4b39f18005cdac347afdc50",
+        "focus-figure-030-c.png": "7dea4a1909bef77924d54a09727007456607ffa06a9e907bc2ce1003a66dfa30",
+        "focus-figure-030-d.png": "d478ab59b7c66a1a376b0afc4d071d1491dd719e959a86d5527fda7e154370c6"
+      }
+    },
+    {
+      "id": "focus-figure-031",
+      "status": "passed",
+      "preview": "previews/04-reflect.png",
+      "note": "九宫格中的轴向翻转可辨，黑块与格线分离。",
+      "pngSha256": {
+        "focus-figure-031-stem.png": "a6dfeed980f1b0bcd712ebdd652f6c0ab431d476e70c9598a5650be7c250847f",
+        "focus-figure-031-a.png": "5fc39cab617874d68ed06dd13e0ed4a42df4c0d9e27d6f105d014d78e6c28272",
+        "focus-figure-031-b.png": "216e936af524215de36e9117864774940b0ab05368f7ebd1906b66913d5230ab",
+        "focus-figure-031-c.png": "c000986fd555bcba52b687a446a8cedd06344a1eda3247ae398fbb723b9ac4c0",
+        "focus-figure-031-d.png": "4a749f36bbcab37812dcbec563edfd507a50d9335f2ee50ea30b7a85b1a9825a"
+      }
+    },
+    {
+      "id": "focus-figure-032",
+      "status": "passed",
+      "preview": "previews/04-reflect.png",
+      "note": "九宫格中的轴向翻转可辨，黑块与格线分离。",
+      "pngSha256": {
+        "focus-figure-032-stem.png": "01763be7d978cb854937b0caa700daf7e91a461148f49127e8ba88ddc1cea071",
+        "focus-figure-032-a.png": "56f57a8efff5519abb45e99444344ab4f602578fe5b52efb699a397699b105de",
+        "focus-figure-032-b.png": "2e8d16025311c40301101e264a58f42ba35c10cb6d9f0884b3b43dcfb5e0ea83",
+        "focus-figure-032-c.png": "2abfa650bb112bae9b2adf716e8d46da0b03e73bc9f23eabe52a32e81a593f3b",
+        "focus-figure-032-d.png": "6fabca06fc09dd2392008e1279b6755f7622467e0aeca88e18c1204ec986a2f7"
+      }
+    },
+    {
+      "id": "focus-figure-033",
+      "status": "passed",
+      "preview": "previews/05-xor.png",
+      "note": "同位置消去与保留的位置可辨，无空图选项歧义。",
+      "pngSha256": {
+        "focus-figure-033-stem.png": "4f6716e3907a2a59e1520c7f37d9f2df785dc5b1ad8de7d7b63d36f4a1d87c8c",
+        "focus-figure-033-a.png": "e03262b96f8cf65ec1445d94f12ed40ddb18ce5e6ad1ae137e069512e6c6f6cb",
+        "focus-figure-033-b.png": "400dbe86744d4eeae48602bce225bff59be45415061cbc885d4ca72580039967",
+        "focus-figure-033-c.png": "b738a307ca2a19da31018a3ea47959599df1e504030517ab54228fe5c9bf8f31",
+        "focus-figure-033-d.png": "b26207a736cc64296d218ac22db6210a7993c675c1b5595a3abd669f94ab4018"
+      }
+    },
+    {
+      "id": "focus-figure-034",
+      "status": "passed",
+      "preview": "previews/05-xor.png",
+      "note": "同位置消去与保留的位置可辨，无空图选项歧义。",
+      "pngSha256": {
+        "focus-figure-034-stem.png": "e5195c5b61b2316cfb626b8083007981396decf02159907f9433d1beb314cefe",
+        "focus-figure-034-a.png": "5cdb4a474d68646c4684280e07ec4def53d45d7db37053313be3cfd7ec56eaac",
+        "focus-figure-034-b.png": "578331bcc6a5208991c60ae1465677a16fdfed844f2420ec7ad9d4de7c6a7d1f",
+        "focus-figure-034-c.png": "b8be3bd166fdd26e41be660c5b283758b4e47129ecca50853bd8b988b266badf",
+        "focus-figure-034-d.png": "81266809368865e78c6ac7d870ce2b713dd5d47279645b63673fa0755f44d601"
+      }
+    },
+    {
+      "id": "focus-figure-035",
+      "status": "passed",
+      "preview": "previews/05-xor.png",
+      "note": "同位置消去与保留的位置可辨，无空图选项歧义。",
+      "pngSha256": {
+        "focus-figure-035-stem.png": "f5d2f886f33d4661b0c136ec5132e51fa0e8592b89bc48198372f369ff4a13a0",
+        "focus-figure-035-a.png": "211c21e6b426af9d5b28c6ceca8457785152dee9b1e53cd0330a28990f84cb5b",
+        "focus-figure-035-b.png": "5baf7a6137bacc389d88fb770e534355d8a3c3e31cb233f8b4640fd50d29a35c",
+        "focus-figure-035-c.png": "a61522bc179e1b65ba19bd90c0ddf3a62d851ce7706935ff1a1eeb67c228ff72",
+        "focus-figure-035-d.png": "e8e764473917c42ea3a5aaf9fe44ac1d61403a0dbc04b3a0693b62a55daccfcd"
+      }
+    },
+    {
+      "id": "focus-figure-036",
+      "status": "passed",
+      "preview": "previews/05-xor.png",
+      "note": "同位置消去与保留的位置可辨，无空图选项歧义。",
+      "pngSha256": {
+        "focus-figure-036-stem.png": "d9b92a442d06549cb62d1ef2a0541f03ee4ec8a1d81a07b5defc025507e136c2",
+        "focus-figure-036-a.png": "3892830898f6bf41e788dac12c553486497a1ca14edfe991ceb9f4a94f544282",
+        "focus-figure-036-b.png": "e9fd7b0d9874777c076f66eea18e7130f97e37d64114ddd049c1097ae110840d",
+        "focus-figure-036-c.png": "e89762d1f2ff6d8a6bda1421dc56ceaa9ac94160a9369d0837410b9223dc43a7",
+        "focus-figure-036-d.png": "4a41596f5a71276f9cbc59484850f5af0298144e4977fc171bf0009a5a22d456"
+      }
+    },
+    {
+      "id": "focus-figure-037",
+      "status": "passed",
+      "preview": "previews/05-xor.png",
+      "note": "同位置消去与保留的位置可辨，无空图选项歧义。",
+      "pngSha256": {
+        "focus-figure-037-stem.png": "d094670b477aeb36c7f5b6fec4b8749297a77622b5374b82835a3f9c106ee1c6",
+        "focus-figure-037-a.png": "9b47aa56532bb1b8d7a0aea6ac3330fe0369755e2a6810d91855f679d0281b02",
+        "focus-figure-037-b.png": "b8be3bd166fdd26e41be660c5b283758b4e47129ecca50853bd8b988b266badf",
+        "focus-figure-037-c.png": "6c94169410e8a86b49ee405351bea5b1af178efadc8f7e81358a865fb82752e1",
+        "focus-figure-037-d.png": "c7fd7a4c4ee9ef535db3c0a02e0bd8b7e216b465245546a7a6fc8784df16b153"
+      }
+    },
+    {
+      "id": "focus-figure-038",
+      "status": "passed",
+      "preview": "previews/05-xor.png",
+      "note": "同位置消去与保留的位置可辨，无空图选项歧义。",
+      "pngSha256": {
+        "focus-figure-038-stem.png": "746e4799219d2f729091409b1665402e2e6d3e98e46f8586e9802e3a814c24d3",
+        "focus-figure-038-a.png": "8fa516c3008b7412ac9b39af650b0112bcfd51031f58d0115292792027d0b4db",
+        "focus-figure-038-b.png": "8ca331e516341944069939edab513449987de6a86addf5decfc797ef7f020c9f",
+        "focus-figure-038-c.png": "0babb1ea006af1d90c83afe08a8074a02833cdcaa116072a5cb0f1da95ecc5aa",
+        "focus-figure-038-d.png": "400dbe86744d4eeae48602bce225bff59be45415061cbc885d4ca72580039967"
+      }
+    },
+    {
+      "id": "focus-figure-039",
+      "status": "passed",
+      "preview": "previews/05-xor.png",
+      "note": "同位置消去与保留的位置可辨，无空图选项歧义。",
+      "pngSha256": {
+        "focus-figure-039-stem.png": "23d3082007a2b86e854057c97c1a16cb207b6952cf8fa73c7210772a77f32574",
+        "focus-figure-039-a.png": "dc0a041119fd657b200dc862ecc3befb534aa8690d674d7577c8ea5d1885d233",
+        "focus-figure-039-b.png": "290b986804fb568d9b63ceadff075c07b62009113200c019fc3d4dedf327a94b",
+        "focus-figure-039-c.png": "4c81dcebd890397ac5318824bc1f63c576bc63d0a6c815a48d5c8fd407975bca",
+        "focus-figure-039-d.png": "c09d553e8ba13d9f438bdc694508c1c160e130d2f7c922e17345432326ff0be0"
+      }
+    },
+    {
+      "id": "focus-figure-040",
+      "status": "passed",
+      "preview": "previews/05-xor.png",
+      "note": "同位置消去与保留的位置可辨，无空图选项歧义。",
+      "pngSha256": {
+        "focus-figure-040-stem.png": "666ec52a57cbba162f1d006f1e385021500ef4238a86598db359e733114f4e46",
+        "focus-figure-040-a.png": "10f78574e79e93a35d491ed5546948695ec14e8f8b182a711aa765ef241e2169",
+        "focus-figure-040-b.png": "544a39432a2f1b96244a2ca9147686e1139a53f3afd31a9a26575644c834dd62",
+        "focus-figure-040-c.png": "d04c17062234cc7df88c7da34d9c1d7923cb3c18cf5c53e3b5ea73062148d1bc",
+        "focus-figure-040-d.png": "831709f6a3cd6d3b15c794c0de30ba41b087e22e9a9e3792438b9936fae441c6"
+      }
+    },
+    {
+      "id": "focus-figure-041",
+      "status": "passed",
+      "preview": "previews/06-union.png",
+      "note": "叠加后的黑块仍保持格间空隙，输入与结果均可逐格核对。",
+      "pngSha256": {
+        "focus-figure-041-stem.png": "40286724d1a9b79c3e60efda80f781b105cb984f24c952c56dfe2c033efff4e4",
+        "focus-figure-041-a.png": "4ed8e3fbbdf0c86f57f1d63b59e87fed67bc48cd71db24a23e850b7058fee37d",
+        "focus-figure-041-b.png": "943dafbb94d0024585f52cdcd5bca74d482b3587d71f63e3ca1206b12ed7b3b9",
+        "focus-figure-041-c.png": "c7fd7a4c4ee9ef535db3c0a02e0bd8b7e216b465245546a7a6fc8784df16b153",
+        "focus-figure-041-d.png": "cd1b257feea9209571041407b1f0e9a9f0863f1b9e7709c1eaa36b119ad1be68"
+      }
+    },
+    {
+      "id": "focus-figure-042",
+      "status": "passed",
+      "preview": "previews/06-union.png",
+      "note": "叠加后的黑块仍保持格间空隙，输入与结果均可逐格核对。",
+      "pngSha256": {
+        "focus-figure-042-stem.png": "775fe975ca0a7a6fbc56833bd41554fc5e2d1da8a6ff1ce33da3b15f3f31d575",
+        "focus-figure-042-a.png": "bef74692207d84405c9333429cb779fff7702105f78216580028bb89e291dd83",
+        "focus-figure-042-b.png": "d857f7d7e9df02fc82aad57cfd3b11ca18a4641bd23c6f794863731680576aec",
+        "focus-figure-042-c.png": "bb065e3539a89a2f4f32584c6ea8cf30574ee4f282539fcfb16e5c85d71a702f",
+        "focus-figure-042-d.png": "128055870b11f3260878cdfbc2d8cb37c9edbc342151842d1d124e3d53b47d30"
+      }
+    },
+    {
+      "id": "focus-figure-043",
+      "status": "passed",
+      "preview": "previews/06-union.png",
+      "note": "叠加后的黑块仍保持格间空隙，输入与结果均可逐格核对。",
+      "pngSha256": {
+        "focus-figure-043-stem.png": "dace13e4b99c69cd7649f1d996602ea55613f081924d656caace8d7598aa86ea",
+        "focus-figure-043-a.png": "984fcbc0a1e37aa2d83ca9c4814d10fb39b69b8ee65637b1c3203627c58a0eec",
+        "focus-figure-043-b.png": "02779c8ac94d8e37be4ebd26710c40a8895f34f10636a11d9d9c11b4a78baee7",
+        "focus-figure-043-c.png": "d363a2619534c48581dea0b16ebcca41a774498352557f497cff8d1e409de11c",
+        "focus-figure-043-d.png": "420f42278fd342d1d4c628624322a91df98659bc7346a1b9c71669942eac0860"
+      }
+    },
+    {
+      "id": "focus-figure-044",
+      "status": "passed",
+      "preview": "previews/06-union.png",
+      "note": "叠加后的黑块仍保持格间空隙，输入与结果均可逐格核对。",
+      "pngSha256": {
+        "focus-figure-044-stem.png": "c2066f241b7e38a8642d9ed71251b38a02515e256166d5a9caec9f6cfa9de1aa",
+        "focus-figure-044-a.png": "0d20332d7c861a334f19038978bb6603193f50955e8a303388d6393c8f0fa2a2",
+        "focus-figure-044-b.png": "21014c66f420dd72ea9ac9d8dc95ca765fef825f940230356ba8d6fc84d80bf4",
+        "focus-figure-044-c.png": "91e772d369bb2d7b511f52b525a2863c1e3c4fd10283db2315133b751a661d9a",
+        "focus-figure-044-d.png": "4258945ce4aaf565bc83313e43bca86d964c446c5d071ea30c3a4059b0ca028b"
+      }
+    },
+    {
+      "id": "focus-figure-045",
+      "status": "passed",
+      "preview": "previews/06-union.png",
+      "note": "叠加后的黑块仍保持格间空隙，输入与结果均可逐格核对。",
+      "pngSha256": {
+        "focus-figure-045-stem.png": "3c4e18b55ea9b6bba5994fbcf678f39bab9cd9f8d7dd632911fa311f7a38c293",
+        "focus-figure-045-a.png": "f5f62326fb613caf07ca4f974b6447a6aedf2c8840b922c4915f86ed4bad54ea",
+        "focus-figure-045-b.png": "991f777d62549b5551c76ddb07d5d11174224538af2bcc889f8aa743cb4da381",
+        "focus-figure-045-c.png": "d0f4601889bfa13a19e7efc4febcb3c15b4305753433ca51efbb9ed13fb2c830",
+        "focus-figure-045-d.png": "c04edab36c000e995aa80d346fec656e4f65c5595637272df2720bc860c72cbe"
+      }
+    },
+    {
+      "id": "focus-figure-046",
+      "status": "passed",
+      "preview": "previews/06-union.png",
+      "note": "叠加后的黑块仍保持格间空隙，输入与结果均可逐格核对。",
+      "pngSha256": {
+        "focus-figure-046-stem.png": "1b63735ed312075ae949bcae3b781d77cb6ae0d1b62f1a8569d58383c4ee199d",
+        "focus-figure-046-a.png": "e76d189a458bea2102de8b677b288d472324a50c40a268be48a6fc1e7842848b",
+        "focus-figure-046-b.png": "80a48cef1780fb166a548f58b8d897857a72ee63c09459b8c160cc988e61b3b0",
+        "focus-figure-046-c.png": "b5556e3158db7e9b4fc21d4cce0f4ed8be04c56bd894c894e735fb2d2a46cf20",
+        "focus-figure-046-d.png": "ed94e6762eb3b20f9d4116f14468aeedf18db82a966cd39855f814d7da4353a0"
+      }
+    },
+    {
+      "id": "focus-figure-047",
+      "status": "passed",
+      "preview": "previews/06-union.png",
+      "note": "叠加后的黑块仍保持格间空隙，输入与结果均可逐格核对。",
+      "pngSha256": {
+        "focus-figure-047-stem.png": "78f933a8558f605182d90d590db481afb8317803b328fa874528051ca88b6bdc",
+        "focus-figure-047-a.png": "46854ad1782fd2431bf7e9a6f664f5b2779e302279063e42fecddc0e66171ece",
+        "focus-figure-047-b.png": "bdcb991c9a175b93b87167d5755fa86b990259dfb20d9ad00cca58388da1d0f1",
+        "focus-figure-047-c.png": "2592913abaa5ab066616c322e45e2d1a644702dfd7489cb092616a6f7a9d5fa8",
+        "focus-figure-047-d.png": "cc61ace7e10e5da29ee565e9242091685d18ea25e4ef05e0ff629d9c2407e76e"
+      }
+    },
+    {
+      "id": "focus-figure-048",
+      "status": "passed",
+      "preview": "previews/06-union.png",
+      "note": "叠加后的黑块仍保持格间空隙，输入与结果均可逐格核对。",
+      "pngSha256": {
+        "focus-figure-048-stem.png": "411feea46668ec98d5256d1d44845c99bf540da0c6ea8cf7cfdaabaf5dabd2b1",
+        "focus-figure-048-a.png": "6f765698759b54047cae4f234af93cde5a7932ac7977b07c3794a1fcf9b10af4",
+        "focus-figure-048-b.png": "aa522ce35d52829ea33a89001ebbd0b26a407e41e27a9c7e1d676b1ef953aa43",
+        "focus-figure-048-c.png": "a13429317aad83289376f4c782fae70e1bc92fb7a91bf54480048d09274fe12a",
+        "focus-figure-048-d.png": "5a1eeb9e6fe65ff836f8336897fb979ddfe137d843fc1ecd7057f2a8ee572233"
+      }
+    },
+    {
+      "id": "focus-figure-049",
+      "status": "passed",
+      "preview": "previews/07-intersection.png",
+      "note": "公共黑块至少两个，所有选项可逐格比较。",
+      "pngSha256": {
+        "focus-figure-049-stem.png": "a2de65acc640856f78cc181e028db6e953ca7db206ccb081e7449c1ce431f6d5",
+        "focus-figure-049-a.png": "327a2158f7a2b6016f1001ecb195613ac942df03bccae4c544994cee25a38c99",
+        "focus-figure-049-b.png": "6ba73a59148c4048589bd9d2954ae835a5260c47bff3107ca712ea4190d3be97",
+        "focus-figure-049-c.png": "5644d297a8c9c3c31185704059050826c035f33f5fe486a26e9496442847cac8",
+        "focus-figure-049-d.png": "907c331ba1f3c89d5da8674830bc744abaa7f4e3e38bcc09474a2b51887f1af5"
+      }
+    },
+    {
+      "id": "focus-figure-050",
+      "status": "passed",
+      "preview": "previews/07-intersection.png",
+      "note": "公共黑块至少两个，所有选项可逐格比较。",
+      "pngSha256": {
+        "focus-figure-050-stem.png": "c11346f84e971dee06b3b8b8fabe01b168a8309a69b85b5ce7aeba05e4dcf274",
+        "focus-figure-050-a.png": "02590e3fdf20b31d3a46a640ba08d2908318e1e37e66fb742bd0b7be1f157d28",
+        "focus-figure-050-b.png": "5095ceb54b778ef8471b491e1004dca8b5ef43172da6f1939d9006c89e75604a",
+        "focus-figure-050-c.png": "057f19977ed7b18c571d42b1f9494d10b599d09720e4f715ca4ae8d7c45d66ab",
+        "focus-figure-050-d.png": "3b5223df1ed9564b15ff7b0834772c671ab685dcb5712adbd088eee4f2c3651a"
+      }
+    },
+    {
+      "id": "focus-figure-051",
+      "status": "passed",
+      "preview": "previews/07-intersection.png",
+      "note": "公共黑块至少两个，所有选项可逐格比较。",
+      "pngSha256": {
+        "focus-figure-051-stem.png": "64e60a73bb772d9fb329f0434e19ebe580e03054ecc747b977b92c375a2bf494",
+        "focus-figure-051-a.png": "2c5c48bcba5c1a94abeb5f2ae9e09b48f942d2827d4adcdd826927f19fffa421",
+        "focus-figure-051-b.png": "12938a58fb492548dd5916f1c30d912d575c7e3dd94fb981861a7ac728ba45b7",
+        "focus-figure-051-c.png": "4e7c975bffee327243b6c2dc7d3a12a581ba91f820ddab7436330329f07abd9e",
+        "focus-figure-051-d.png": "f9404e9af2222594b215d22af1f015ae7ad07b30d2ea0aa54d0f425d4c1aac7c"
+      }
+    },
+    {
+      "id": "focus-figure-052",
+      "status": "passed",
+      "preview": "previews/07-intersection.png",
+      "note": "公共黑块至少两个，所有选项可逐格比较。",
+      "pngSha256": {
+        "focus-figure-052-stem.png": "aef9012f0b29edf74bf40424cefcc86435e309baee51cbe20320442e3adcab9a",
+        "focus-figure-052-a.png": "5db7bdddf9d3d79340c5b0eca5eff83218baa6c8c09cdddfef25b2dd36663c8d",
+        "focus-figure-052-b.png": "295aed60e2763ce24072d1a246c279beb8312c00f52859eafef1dfa1ec93e97c",
+        "focus-figure-052-c.png": "efd722f43ae429ed3b606adcac9b8e69664aac43a5f0c03396c733fcd4a28e60",
+        "focus-figure-052-d.png": "e14c59dd5b4829becf8030b3cd949729a927798b131805f4226597e2e30375c6"
+      }
+    },
+    {
+      "id": "focus-figure-053",
+      "status": "passed",
+      "preview": "previews/07-intersection.png",
+      "note": "公共黑块至少两个，所有选项可逐格比较。",
+      "pngSha256": {
+        "focus-figure-053-stem.png": "be5736c092152e6c94b3e56b9415eb43271ca29a1e5f53cad56d76105a3bd474",
+        "focus-figure-053-a.png": "51e697a943d9b4be6a6decc6b6bc044a9fd6840868ba943b9deceb395023cb98",
+        "focus-figure-053-b.png": "92172b21be3afc6bdebc491cc59c4703bf3ccef2adf90ab828eb5d8ecf86983b",
+        "focus-figure-053-c.png": "d541eb6a70b2707229abde7f5e0abfede0a498698877e9cbe6cae01baa1f9e67",
+        "focus-figure-053-d.png": "3c6b42613f4062ee3acd945e2755a0d4168777bb80463bcf651d41dc8f2367c1"
+      }
+    },
+    {
+      "id": "focus-figure-054",
+      "status": "passed",
+      "preview": "previews/07-intersection.png",
+      "note": "公共黑块至少两个，所有选项可逐格比较。",
+      "pngSha256": {
+        "focus-figure-054-stem.png": "bb27cc77391acb48a17d8c5bc48321a0cae411207ad2c2aabd7b733d6d4a737d",
+        "focus-figure-054-a.png": "feedc0d0f19fed3b6db42417cd2a4a4593e560cb3b7a36971e24fe3d68719268",
+        "focus-figure-054-b.png": "7058153c0c6ed3476e49a287e5364b533cbd35db61a4b0666228be40c38041b2",
+        "focus-figure-054-c.png": "272248b6ab911e3f89c10522c3a4609c7eb71b173cddd374f8c9b8417207de25",
+        "focus-figure-054-d.png": "e42df88523d1b711cdfde32e62b8910bef3f7f6bbe358a91f36ea291692bb3f7"
+      }
+    },
+    {
+      "id": "focus-figure-055",
+      "status": "passed",
+      "preview": "previews/07-intersection.png",
+      "note": "公共黑块至少两个，所有选项可逐格比较。",
+      "pngSha256": {
+        "focus-figure-055-stem.png": "0ede960628e372459ddee56f924236e56f6c180df3a7c4bd6afaed87811208a0",
+        "focus-figure-055-a.png": "02779c8ac94d8e37be4ebd26710c40a8895f34f10636a11d9d9c11b4a78baee7",
+        "focus-figure-055-b.png": "35abc611b62e4931fdb605bb1f4ca8c835f71cd39d20958622dcb94b17361317",
+        "focus-figure-055-c.png": "a755dd252091c9a98299f5f78a8547259cb793b5fb64e50f48aa91b742ef14b7",
+        "focus-figure-055-d.png": "bb6e510cd1d3ec0358a4a978d73528ce60638419efe7f722536b9aa4faa7a973"
+      }
+    },
+    {
+      "id": "focus-figure-056",
+      "status": "passed",
+      "preview": "previews/07-intersection.png",
+      "note": "公共黑块至少两个，所有选项可逐格比较。",
+      "pngSha256": {
+        "focus-figure-056-stem.png": "d79d6f4e9fb6f3cf8702932089a05c6060c9bbf646097934427cbffceb5e1822",
+        "focus-figure-056-a.png": "0a7ecb310a92f2a8d3eece9f24c95551e120bb7a787a2e203562cf9fe78ae457",
+        "focus-figure-056-b.png": "fd131c8e8f8cf03feb0a89d07be0b9fe5c8fc827fa447d25d48abf0f492a7659",
+        "focus-figure-056-c.png": "04ad5443fe07341bb4030ac690f934d77c09985cac81f13ab20b934ec371922c",
+        "focus-figure-056-d.png": "a23be02d6303f4a6c20cec702f9bb58a6f62262efafc0396f2c225c80462dee8"
+      }
+    },
+    {
+      "id": "focus-figure-057",
+      "status": "passed",
+      "preview": "previews/08-traversal.png",
+      "note": "圆、方、三角形及空心、实心、中心点三种样式清晰可区分。",
+      "pngSha256": {
+        "focus-figure-057-stem.png": "d5171cc38b181ebfa3f89cab1108bc2d2594242eb5546cdbef85c1b1e3c3d3cd",
+        "focus-figure-057-a.png": "20161b5be7fd4f54d79fda9ab6046b202c1bf4513855c8d8e5f252166c54fa07",
+        "focus-figure-057-b.png": "a34f5930242b1da0e0a107cb616caee72c35311e8935fad88b29fbf9aab4ebdb",
+        "focus-figure-057-c.png": "4a01057962385c769061c574804cee2fc9876b86e3128ae4ac8c4117ea40da91",
+        "focus-figure-057-d.png": "e12e5b8c6e6bd530c2b009e031a25a3811d895d59812c1b56b3da9d3cd290e75"
+      }
+    },
+    {
+      "id": "focus-figure-058",
+      "status": "passed",
+      "preview": "previews/08-traversal.png",
+      "note": "圆、方、三角形及空心、实心、中心点三种样式清晰可区分。",
+      "pngSha256": {
+        "focus-figure-058-stem.png": "5e3a703ebd041338a022165151d5f360cf3f90705dd55b10b37f6863c4b9a385",
+        "focus-figure-058-a.png": "ba245e82a22651da2b561796772ee2fcad05bfd603637c00cb1c1553c16c71d7",
+        "focus-figure-058-b.png": "c9000e9bfd42197239712b3143f21e35db2536aa2515a45c8b71a426c4bf6827",
+        "focus-figure-058-c.png": "a34f5930242b1da0e0a107cb616caee72c35311e8935fad88b29fbf9aab4ebdb",
+        "focus-figure-058-d.png": "e12e5b8c6e6bd530c2b009e031a25a3811d895d59812c1b56b3da9d3cd290e75"
+      }
+    },
+    {
+      "id": "focus-figure-059",
+      "status": "passed",
+      "preview": "previews/08-traversal.png",
+      "note": "圆、方、三角形及空心、实心、中心点三种样式清晰可区分。",
+      "pngSha256": {
+        "focus-figure-059-stem.png": "d67387833d7837df93e67dec62815bc672a2e654640395426738f92a7ba70a66",
+        "focus-figure-059-a.png": "20161b5be7fd4f54d79fda9ab6046b202c1bf4513855c8d8e5f252166c54fa07",
+        "focus-figure-059-b.png": "4a01057962385c769061c574804cee2fc9876b86e3128ae4ac8c4117ea40da91",
+        "focus-figure-059-c.png": "ba245e82a22651da2b561796772ee2fcad05bfd603637c00cb1c1553c16c71d7",
+        "focus-figure-059-d.png": "25588b7629a574ccb6fe72c64411c20221c05819c283c3d58d56b6518aacd541"
+      }
+    },
+    {
+      "id": "focus-figure-060",
+      "status": "passed",
+      "preview": "previews/08-traversal.png",
+      "note": "圆、方、三角形及空心、实心、中心点三种样式清晰可区分。",
+      "pngSha256": {
+        "focus-figure-060-stem.png": "371bb4604133eaac8e0e70172cdd7f0f214f6ec1297d4996c49278d3e6995b54",
+        "focus-figure-060-a.png": "4f458a4a23b9f7e3fc3ffad8c4c174ab0b585e0bccc7a6381e4b9a9f6011e505",
+        "focus-figure-060-b.png": "e12e5b8c6e6bd530c2b009e031a25a3811d895d59812c1b56b3da9d3cd290e75",
+        "focus-figure-060-c.png": "439a328e1dd4ec5678f9f01a84b371d0eff32038584a29b12d43dc90eeadb0a2",
+        "focus-figure-060-d.png": "25588b7629a574ccb6fe72c64411c20221c05819c283c3d58d56b6518aacd541"
+      }
+    },
+    {
+      "id": "focus-figure-061",
+      "status": "passed",
+      "preview": "previews/08-traversal.png",
+      "note": "圆、方、三角形及空心、实心、中心点三种样式清晰可区分。",
+      "pngSha256": {
+        "focus-figure-061-stem.png": "f6e8c1455add866020a349ac014537a0dc4eb0eef1ea2a70680c63db35c56d89",
+        "focus-figure-061-a.png": "4a01057962385c769061c574804cee2fc9876b86e3128ae4ac8c4117ea40da91",
+        "focus-figure-061-b.png": "a34f5930242b1da0e0a107cb616caee72c35311e8935fad88b29fbf9aab4ebdb",
+        "focus-figure-061-c.png": "ba245e82a22651da2b561796772ee2fcad05bfd603637c00cb1c1553c16c71d7",
+        "focus-figure-061-d.png": "4f458a4a23b9f7e3fc3ffad8c4c174ab0b585e0bccc7a6381e4b9a9f6011e505"
+      }
+    },
+    {
+      "id": "focus-figure-062",
+      "status": "passed",
+      "preview": "previews/08-traversal.png",
+      "note": "圆、方、三角形及空心、实心、中心点三种样式清晰可区分。",
+      "pngSha256": {
+        "focus-figure-062-stem.png": "389c759b0f35f707d330e40b8cecfad8c208a9841eca76437dc44391d4fba2a2",
+        "focus-figure-062-a.png": "a34f5930242b1da0e0a107cb616caee72c35311e8935fad88b29fbf9aab4ebdb",
+        "focus-figure-062-b.png": "c9000e9bfd42197239712b3143f21e35db2536aa2515a45c8b71a426c4bf6827",
+        "focus-figure-062-c.png": "ba245e82a22651da2b561796772ee2fcad05bfd603637c00cb1c1553c16c71d7",
+        "focus-figure-062-d.png": "20161b5be7fd4f54d79fda9ab6046b202c1bf4513855c8d8e5f252166c54fa07"
+      }
+    },
+    {
+      "id": "focus-figure-063",
+      "status": "passed",
+      "preview": "previews/08-traversal.png",
+      "note": "圆、方、三角形及空心、实心、中心点三种样式清晰可区分。",
+      "pngSha256": {
+        "focus-figure-063-stem.png": "6024042865f0cb2429eb1dbba8faf148b2394ef0dccbe0e2e86ea45a905faacb",
+        "focus-figure-063-a.png": "ba245e82a22651da2b561796772ee2fcad05bfd603637c00cb1c1553c16c71d7",
+        "focus-figure-063-b.png": "20161b5be7fd4f54d79fda9ab6046b202c1bf4513855c8d8e5f252166c54fa07",
+        "focus-figure-063-c.png": "4f458a4a23b9f7e3fc3ffad8c4c174ab0b585e0bccc7a6381e4b9a9f6011e505",
+        "focus-figure-063-d.png": "a34f5930242b1da0e0a107cb616caee72c35311e8935fad88b29fbf9aab4ebdb"
+      }
+    },
+    {
+      "id": "focus-figure-064",
+      "status": "passed",
+      "preview": "previews/08-traversal.png",
+      "note": "圆、方、三角形及空心、实心、中心点三种样式清晰可区分。",
+      "pngSha256": {
+        "focus-figure-064-stem.png": "d989e5dcdadb5701034608e348aad0faf527658b54f4e91ce1e55f8613f10f5c",
+        "focus-figure-064-a.png": "e12e5b8c6e6bd530c2b009e031a25a3811d895d59812c1b56b3da9d3cd290e75",
+        "focus-figure-064-b.png": "c9000e9bfd42197239712b3143f21e35db2536aa2515a45c8b71a426c4bf6827",
+        "focus-figure-064-c.png": "4f458a4a23b9f7e3fc3ffad8c4c174ab0b585e0bccc7a6381e4b9a9f6011e505",
+        "focus-figure-064-d.png": "a34f5930242b1da0e0a107cb616caee72c35311e8935fad88b29fbf9aab4ebdb"
+      }
+    },
+    {
+      "id": "focus-figure-065",
+      "status": "passed",
+      "preview": "previews/09-dots.png",
+      "note": "点均分离，无遮挡或意外连点，各选项可数。",
+      "pngSha256": {
+        "focus-figure-065-stem.png": "af9da5cbbf5751668b5dd5a80f9d86c2f2c200faba6b8ea0e26636927e7ca6f7",
+        "focus-figure-065-a.png": "267bb5465fd01cda932217c3d0e2169c5ff152bdab5f3fbd5f59f356ba5ae2ce",
+        "focus-figure-065-b.png": "3a2e6737b476487f572d3afa1cfbbb22e2e8815f2e05920783aca8b2b5da0a1b",
+        "focus-figure-065-c.png": "ae3f3b70d49d4ca3c586ed9cbca5c5fe65c1dac8ee6b50870af00f9662b463fd",
+        "focus-figure-065-d.png": "50d5a7d1e7070009758550c927166d2a901f32c2db8ec3804f82b85feab36850"
+      }
+    },
+    {
+      "id": "focus-figure-066",
+      "status": "passed",
+      "preview": "previews/09-dots.png",
+      "note": "点均分离，无遮挡或意外连点，各选项可数。",
+      "pngSha256": {
+        "focus-figure-066-stem.png": "2b7c9c90f4673d0246f6688a386e75879b08cfb3cbb5f24d02227b12e151cf32",
+        "focus-figure-066-a.png": "08da08be8f0303afd83d1c0b7208e6b99cde69a3976c7da0325b81c8b42da3d0",
+        "focus-figure-066-b.png": "4884464c71fbb01db192d0f23b85a1986ed2e06489ffa834f93e9f0bed3a862a",
+        "focus-figure-066-c.png": "6571f270b4298de25c38123e676655122bbc15ad8629f62197bd983b5e6317a5",
+        "focus-figure-066-d.png": "f27b47cf51aaf7d66141811e36441c3b141081bde4f0cec8f1a13fea1be22de5"
+      }
+    },
+    {
+      "id": "focus-figure-067",
+      "status": "passed",
+      "preview": "previews/09-dots.png",
+      "note": "点均分离，无遮挡或意外连点，各选项可数。",
+      "pngSha256": {
+        "focus-figure-067-stem.png": "a65571247aa947f0380486befbc9cf2865c2e637fdadca5a9de21a7ab7a522db",
+        "focus-figure-067-a.png": "e96d78b6d00367a471779c20b35e6354aa7db789f7ba79092dedefbf37f6118e",
+        "focus-figure-067-b.png": "4dfc6eed3b033213786b7b6e0c6633c76bf7e8f3213546697e4415ea30c8ab58",
+        "focus-figure-067-c.png": "ed9c029e9454a5071796540842d6526e0dec9dc1eb00b961a4befe62e6164c3e",
+        "focus-figure-067-d.png": "bf756ada5af115331500319179e13e01aa4ba9fa842e70c38c3e5090ed287698"
+      }
+    },
+    {
+      "id": "focus-figure-068",
+      "status": "passed",
+      "preview": "previews/09-dots.png",
+      "note": "点均分离，无遮挡或意外连点，各选项可数。",
+      "pngSha256": {
+        "focus-figure-068-stem.png": "3538ed6d9efd99d79a0f540fe91872f916ddd063dde921739377912ff5fa998c",
+        "focus-figure-068-a.png": "522b414ccaeb368251c0e6322c1e2cbe931e729794859851a8da84cf495dcd57",
+        "focus-figure-068-b.png": "11b67ed22dd575c6fd000ffbb5a0e13865ec4cbf6f702b9d3ddd9824081d35d4",
+        "focus-figure-068-c.png": "0d7237f97f09615dd977cdbbb9192ac5a504367e2c118e1ab4b84dadfe19dd73",
+        "focus-figure-068-d.png": "21e72b6c00a21e7c84004aa8ce5d5ac6d4f4bdf25130e9519c679e20ffcc2dec"
+      }
+    },
+    {
+      "id": "focus-figure-069",
+      "status": "passed",
+      "preview": "previews/09-dots.png",
+      "note": "点均分离，无遮挡或意外连点，各选项可数。",
+      "pngSha256": {
+        "focus-figure-069-stem.png": "60cc717c6e6b5079564c946b04fbce3e1dcba90c7868ff2214b443a7da1cd17a",
+        "focus-figure-069-a.png": "ff0c147fa8bc9107af10a43a7ea752cd0a0ef2c0fe62b567f47b775331100f03",
+        "focus-figure-069-b.png": "e95534be98a5e112ff84a1ef412bff23b37c32687a6985e86365d0b4c766ae3e",
+        "focus-figure-069-c.png": "8637f88c1dec481a60a02f117acfa9c34168d643adc5377b5c0acf3056add8ad",
+        "focus-figure-069-d.png": "3a0199601b6ec0ee78cdb1421d98da9f027e91aa924a64102e1e8774a823c180"
+      }
+    },
+    {
+      "id": "focus-figure-070",
+      "status": "passed",
+      "preview": "previews/09-dots.png",
+      "note": "点均分离，无遮挡或意外连点，各选项可数。",
+      "pngSha256": {
+        "focus-figure-070-stem.png": "bc89e45aed07e67d428a356761b86c2920da10ee4ebf0917bb4662758c50b37b",
+        "focus-figure-070-a.png": "d61c2e8f5ea4b346a6c5cf46ce4acfcd809dceb5a4b5717dba7fe5741d072709",
+        "focus-figure-070-b.png": "306c829414f8a3de7f9b58cd453fd2113ce23b303c4a7faf8b95e5f36fcc3500",
+        "focus-figure-070-c.png": "184648f0b4b4e509a1c18ef3c2a0e6bfe40d903ce2792776d706b8a5d4b609db",
+        "focus-figure-070-d.png": "11a87a775c03d9134c4e50d9d751022341180618e0779362e4d7d57f23bed2f8"
+      }
+    },
+    {
+      "id": "focus-figure-071",
+      "status": "passed",
+      "preview": "previews/09-dots.png",
+      "note": "点均分离，无遮挡或意外连点，各选项可数。",
+      "pngSha256": {
+        "focus-figure-071-stem.png": "c3a5ddef3dd8e66c257f6eaeff196049f73019502df0375d2f03768e863ac5a6",
+        "focus-figure-071-a.png": "a0501068d60fffedf55222eb423814b4848ceaddb9c693a3822e64fc62edffb3",
+        "focus-figure-071-b.png": "426ef99b84c6c31c80d1f8e5f6d5c78709a72ce572d96f048c01ef2cf50ed8eb",
+        "focus-figure-071-c.png": "445687077ea4e214941c6c0a8b9dbcc5a572a6d16d6ee678f7ffa2680401496d",
+        "focus-figure-071-d.png": "f6f193969264bbdc817941da7785d03da08088e6594a5d04c8ad20fbafe379e3"
+      }
+    },
+    {
+      "id": "focus-figure-072",
+      "status": "passed",
+      "preview": "previews/09-dots.png",
+      "note": "点均分离，无遮挡或意外连点，各选项可数。",
+      "pngSha256": {
+        "focus-figure-072-stem.png": "0b65b5f28c514d0c604e71e22eb7ecc4cf953e17b7593e5279ec1595a27bd131",
+        "focus-figure-072-a.png": "b2944985ba67391c57366d8eec67a45e23eb092e248af4794105e86c89424e81",
+        "focus-figure-072-b.png": "14808e23a8176f4b27f930b236c02b5b41a8d484eaab74af8052fec50eaf9d86",
+        "focus-figure-072-c.png": "56500bf629f741e3bfad3d5d1f3372064fb9eec84de4b0827874d6d936f9f9a0",
+        "focus-figure-072-d.png": "2fd4d4ccd8275d4a6919c0749ab3417d239e4af7a8ea42844fa4b72c837b7d33"
+      }
+    },
+    {
+      "id": "focus-figure-073",
+      "status": "passed",
+      "preview": "previews/10-lines.png",
+      "note": "各直线段互不连接，方向变化不会制造额外线段或交点。",
+      "pngSha256": {
+        "focus-figure-073-stem.png": "bae223cd59654ca8ac94736f9b1d86adc27794329d0b0c2cf6ec49950364d1eb",
+        "focus-figure-073-a.png": "a145a9da7e8e56c2300ba811a02683b97ba66a136ea1a97b1687058b465a8fbe",
+        "focus-figure-073-b.png": "1dacda207d592aed8a91202a8eacf294298d41bb4bf907268d999941c3eccb64",
+        "focus-figure-073-c.png": "18d3cfea7c2a7271dd8372e90c1e86b17ac2e0d894ec25f02c82a014236aedbc",
+        "focus-figure-073-d.png": "e9562967ba620d531a6d980c1da3d51afdd5ae1b1dffd8d1471728c7af8c938e"
+      }
+    },
+    {
+      "id": "focus-figure-074",
+      "status": "passed",
+      "preview": "previews/10-lines.png",
+      "note": "各直线段互不连接，方向变化不会制造额外线段或交点。",
+      "pngSha256": {
+        "focus-figure-074-stem.png": "88d2acdf92d287b4168b7bb13934220509e3d3f9c23a14d9df8a0833d8e8769a",
+        "focus-figure-074-a.png": "9df3c9f253e84234d20537f3399a653eaa1c0502dd4f3d13d3a1a66b8176f569",
+        "focus-figure-074-b.png": "9a6b684afb26d8a7ab342d5a549ee16dc0f26c86a87e4065d9f217a67f297441",
+        "focus-figure-074-c.png": "e5c0aa1037bc77681b15f42ce895f030169cc5c112c5ee5bccf17a1d6df41a7f",
+        "focus-figure-074-d.png": "8ff06e95d5cdb26e9f7749589e2bb37b2831f9009c95d606f52caa89da634d8a"
+      }
+    },
+    {
+      "id": "focus-figure-075",
+      "status": "passed",
+      "preview": "previews/10-lines.png",
+      "note": "各直线段互不连接，方向变化不会制造额外线段或交点。",
+      "pngSha256": {
+        "focus-figure-075-stem.png": "97f87fc3c394087cc77282d3accd7c49c2e7a150ad87dbda9c67502328c801d3",
+        "focus-figure-075-a.png": "2f29f0667e3bb8691943bdeaae2585ebbb698b43975267701b72d9a2df86badd",
+        "focus-figure-075-b.png": "bd8336ace1d1c3118eca8e3ed416d2c3d0ed9d5e5d56b290b76a2c8a984ce518",
+        "focus-figure-075-c.png": "80eeddf790763644987ae8da5544006e0dcd5f22f6ff30ca6131138850c8272c",
+        "focus-figure-075-d.png": "3fe17d7c25048db5c85818390ae21644013b4ab366a6bdaaa1aeb0904821dc34"
+      }
+    },
+    {
+      "id": "focus-figure-076",
+      "status": "passed",
+      "preview": "previews/10-lines.png",
+      "note": "各直线段互不连接，方向变化不会制造额外线段或交点。",
+      "pngSha256": {
+        "focus-figure-076-stem.png": "30566b43f4530bca983d9620185c21d5dcb30f5f6d5b07509fa53a59c02b56aa",
+        "focus-figure-076-a.png": "e15f556e938ef144364e0183895980f08f167d341409003506d3e477c48748dc",
+        "focus-figure-076-b.png": "8b1ea6baa9554dc6982ed3c63a9054365727185c196442f1a7d60fa2ce4a902e",
+        "focus-figure-076-c.png": "0609422513980d339f5cc98b4d77fc2dfa7566b3e80692f38a8a793d6df687d5",
+        "focus-figure-076-d.png": "267243145a04f2ee7beab5cd76cf38c2acbf662ee2aea56917543bf433715836"
+      }
+    },
+    {
+      "id": "focus-figure-077",
+      "status": "passed",
+      "preview": "previews/10-lines.png",
+      "note": "各直线段互不连接，方向变化不会制造额外线段或交点。",
+      "pngSha256": {
+        "focus-figure-077-stem.png": "b00ac7ed68339fec747d220ed57946d2826136722a1e076e539a844ae7c85a01",
+        "focus-figure-077-a.png": "0ef1e13d42bfb3bc50628eab35eed345f18df2fce578bb546ffac20d23c1aa83",
+        "focus-figure-077-b.png": "2671bf822d291c655cef74a5d6e3c6fd1a700c548ff46f9d173c5054ec2b1c18",
+        "focus-figure-077-c.png": "1187f40dd64f042c550da5736acc3a520f6bfd60a90811be817bef88815c4b82",
+        "focus-figure-077-d.png": "9f558b4f80f9e0383ad8f3a3d6593aa2c0e82e1afca30bedf5c2657466a2aea3"
+      }
+    },
+    {
+      "id": "focus-figure-078",
+      "status": "passed",
+      "preview": "previews/10-lines.png",
+      "note": "各直线段互不连接，方向变化不会制造额外线段或交点。",
+      "pngSha256": {
+        "focus-figure-078-stem.png": "52d261c7cc16645750465293b8fa1746380090de838d501f38eaac2c2782674d",
+        "focus-figure-078-a.png": "d24867cdaa06e9378d93363972c7a07ace816d717dbc4de482d0844dd7f9532c",
+        "focus-figure-078-b.png": "d00d8f7385458cbc83777d62c5de5ae9f27683189795027a00d0bdd09f28ca3a",
+        "focus-figure-078-c.png": "654187dd4749b0396e3e14e3c47813ed27e2e4054560583cc3ee879f4891a2b5",
+        "focus-figure-078-d.png": "77985438bfded252ed28d29eee841380a35d0b6577ae717936c9d45f02e190ee"
+      }
+    },
+    {
+      "id": "focus-figure-079",
+      "status": "passed",
+      "preview": "previews/10-lines.png",
+      "note": "各直线段互不连接，方向变化不会制造额外线段或交点。",
+      "pngSha256": {
+        "focus-figure-079-stem.png": "de30f2c6f4f01af6eacec68b0cce6ebd1ba98c2e0ae3bd3c17a17ce803c49f35",
+        "focus-figure-079-a.png": "57a9a0f5427577fbcec3088e45033743a16b4ba1c879c6c4bda9779a4409b353",
+        "focus-figure-079-b.png": "8ce3e58cdc4517563c99c96c4e2e4cf4dfe874f1af84a1bd961a84ac773a8adb",
+        "focus-figure-079-c.png": "759052a0e5445ee4f5fff4327fffbb90d7042aafc4544a8e2b6dfd35e2d63a4a",
+        "focus-figure-079-d.png": "42e1c109c777d61881f30ceaf3e60db34cf832c8fc5d7ec69e273bcc852c49c7"
+      }
+    },
+    {
+      "id": "focus-figure-080",
+      "status": "passed",
+      "preview": "previews/10-lines.png",
+      "note": "各直线段互不连接，方向变化不会制造额外线段或交点。",
+      "pngSha256": {
+        "focus-figure-080-stem.png": "60abc018ab1572d4ac0b767b51d4f9b696e794638409726ea6f7c270026c5817",
+        "focus-figure-080-a.png": "6ddce0f988be76e6b2fb6f7079dc6fe9c74d2551bc58e30a0dbd0ddafe19e765",
+        "focus-figure-080-b.png": "2b66964408bb0acf0cc57332d606ed94bfb6a267e60ae011fa362a8230cbdcef",
+        "focus-figure-080-c.png": "6be0d98fed39069770cbf4749a28029e0dfbf8a15c1c15fcfd884490c4516fef",
+        "focus-figure-080-d.png": "b7ac230256724dde0843d10b1e353a24e8b7b22de5b4ba6e4235f8f2cb04ffd4"
+      }
+    },
+    {
+      "id": "focus-figure-081",
+      "status": "passed",
+      "preview": "previews/11-regions.png",
+      "note": "矩形、三角形及梯形分区边界清晰，最多分区仍可辨认。",
+      "pngSha256": {
+        "focus-figure-081-stem.png": "281fbe072d66d424c386d818bc7e91efbec68e51296fea8ebd0c6e4bfe1c724a",
+        "focus-figure-081-a.png": "3d3e4acdac27396f5ff08e7fc5951e009a683eec97c56acfd2e1065c35643536",
+        "focus-figure-081-b.png": "d2a79463821549d00efcf3e808c7c04696eaa2e812b8a957514112f24fa7b9a0",
+        "focus-figure-081-c.png": "f618612e2b12af0ea775742db82ee3b2e1d96c5a08f4f10d95af9380876d5682",
+        "focus-figure-081-d.png": "a2d688f6b4c7c0010e90e49053ee992804597f9bc64afa697722a8e39a58db3d"
+      }
+    },
+    {
+      "id": "focus-figure-082",
+      "status": "passed",
+      "preview": "previews/11-regions.png",
+      "note": "矩形、三角形及梯形分区边界清晰，最多分区仍可辨认。",
+      "pngSha256": {
+        "focus-figure-082-stem.png": "fa3e23d57850c53bec464458cad4310fee5af02f0bf855b5b461c91b4d1e1d7b",
+        "focus-figure-082-a.png": "25c5b418a5b7335422e96386ee9296096032395537131ecf27bc3026a600dfee",
+        "focus-figure-082-b.png": "fd7f6577c6a613da1fead58c736a2704320f7d23a61eef6479e0242b6a01359f",
+        "focus-figure-082-c.png": "592a4ef7deef3c0f420e797164c5ec750ade153047efdb5699c882a339b8c916",
+        "focus-figure-082-d.png": "705222ba9f7888027d9216d1b2e6757042c55bd0f1c5a7fe2decdfe2588cacec"
+      }
+    },
+    {
+      "id": "focus-figure-083",
+      "status": "passed",
+      "preview": "previews/11-regions.png",
+      "note": "矩形、三角形及梯形分区边界清晰，最多分区仍可辨认。",
+      "pngSha256": {
+        "focus-figure-083-stem.png": "e01bd07f9167cf67d9c38f5c1c30cb9934c67b08adcffb648329101dcefcb2e9",
+        "focus-figure-083-a.png": "9f03c26caad4d23cb3967453fd22306ea24226515bfcbd2910f33cccd0542da8",
+        "focus-figure-083-b.png": "d13530e5f52f10b344e213db40d4015281ff090b95fe142592c6706cbc2e16dc",
+        "focus-figure-083-c.png": "f21d4505bdf7adc9748a897d89d5bcda9930f3bb61b31a577b0581c78c4dc12d",
+        "focus-figure-083-d.png": "49df44727e0afdeba08929325b4067960bfc5aee8f23d109a0f3e0341c6193e8"
+      }
+    },
+    {
+      "id": "focus-figure-084",
+      "status": "passed",
+      "preview": "previews/11-regions.png",
+      "note": "矩形、三角形及梯形分区边界清晰，最多分区仍可辨认。",
+      "pngSha256": {
+        "focus-figure-084-stem.png": "4a32fab3f7e53074271ddf1385cc57a7d3704648f3cf1a77b7e74c53b322cafc",
+        "focus-figure-084-a.png": "d2a79463821549d00efcf3e808c7c04696eaa2e812b8a957514112f24fa7b9a0",
+        "focus-figure-084-b.png": "f618612e2b12af0ea775742db82ee3b2e1d96c5a08f4f10d95af9380876d5682",
+        "focus-figure-084-c.png": "a2d688f6b4c7c0010e90e49053ee992804597f9bc64afa697722a8e39a58db3d",
+        "focus-figure-084-d.png": "3d3e4acdac27396f5ff08e7fc5951e009a683eec97c56acfd2e1065c35643536"
+      }
+    },
+    {
+      "id": "focus-figure-085",
+      "status": "passed",
+      "preview": "previews/11-regions.png",
+      "note": "矩形、三角形及梯形分区边界清晰，最多分区仍可辨认。",
+      "pngSha256": {
+        "focus-figure-085-stem.png": "607960b05406a39c0e48e4ce5357cd859809962aa73f9128771fcdb86d25dc1a",
+        "focus-figure-085-a.png": "fd7f6577c6a613da1fead58c736a2704320f7d23a61eef6479e0242b6a01359f",
+        "focus-figure-085-b.png": "25c5b418a5b7335422e96386ee9296096032395537131ecf27bc3026a600dfee",
+        "focus-figure-085-c.png": "705222ba9f7888027d9216d1b2e6757042c55bd0f1c5a7fe2decdfe2588cacec",
+        "focus-figure-085-d.png": "4bba37935c0fff1aeda8a3949abc94dcdeb21c30734c1f04d7aea29e56637030"
+      }
+    },
+    {
+      "id": "focus-figure-086",
+      "status": "passed",
+      "preview": "previews/11-regions.png",
+      "note": "矩形、三角形及梯形分区边界清晰，最多分区仍可辨认。",
+      "pngSha256": {
+        "focus-figure-086-stem.png": "90ce9cb5dfdc1386587b481a520f6c9d5a246dcc48ac08e456169ae25d5a25a5",
+        "focus-figure-086-a.png": "3cfc6202dc2df106ecb4c4c8698d77d3787279ad9a76219dc237b88fcc36dc5c",
+        "focus-figure-086-b.png": "d13530e5f52f10b344e213db40d4015281ff090b95fe142592c6706cbc2e16dc",
+        "focus-figure-086-c.png": "f21d4505bdf7adc9748a897d89d5bcda9930f3bb61b31a577b0581c78c4dc12d",
+        "focus-figure-086-d.png": "533352a29ffdd1ca63173ae87ec074b8d8cf6f092e7ba92aecc6a1997c59b388"
+      }
+    },
+    {
+      "id": "focus-figure-087",
+      "status": "passed",
+      "preview": "previews/11-regions.png",
+      "note": "矩形、三角形及梯形分区边界清晰，最多分区仍可辨认。",
+      "pngSha256": {
+        "focus-figure-087-stem.png": "ade43ce31fa0acbfb3d443fdcd6d0368518b1e6135776c6e2952a6ad1572637c",
+        "focus-figure-087-a.png": "f618612e2b12af0ea775742db82ee3b2e1d96c5a08f4f10d95af9380876d5682",
+        "focus-figure-087-b.png": "f16d8db6a504c0975eb096f4ace254136ea5c5d8c877dad076e69c870bb6dda6",
+        "focus-figure-087-c.png": "d2a79463821549d00efcf3e808c7c04696eaa2e812b8a957514112f24fa7b9a0",
+        "focus-figure-087-d.png": "3d3e4acdac27396f5ff08e7fc5951e009a683eec97c56acfd2e1065c35643536"
+      }
+    },
+    {
+      "id": "focus-figure-088",
+      "status": "passed",
+      "preview": "previews/11-regions.png",
+      "note": "矩形、三角形及梯形分区边界清晰，最多分区仍可辨认。",
+      "pngSha256": {
+        "focus-figure-088-stem.png": "2f565894e4b0748352a23ce1b5fae98785c8f10df3ec28845c9883494284f788",
+        "focus-figure-088-a.png": "fd7f6577c6a613da1fead58c736a2704320f7d23a61eef6479e0242b6a01359f",
+        "focus-figure-088-b.png": "592a4ef7deef3c0f420e797164c5ec750ade153047efdb5699c882a339b8c916",
+        "focus-figure-088-c.png": "0104958aa52eb0420fe14333513e465504cda91d54c3c98a90dc1553ea0dfe55",
+        "focus-figure-088-d.png": "25c5b418a5b7335422e96386ee9296096032395537131ecf27bc3026a600dfee"
+      }
+    },
+    {
+      "id": "focus-figure-089",
+      "status": "passed",
+      "preview": "previews/12-symmetry.png",
+      "note": "仅判断黑块图案自身，图案无内部参考格干扰，各对称性选项可辨。",
+      "pngSha256": {
+        "focus-figure-089-stem.png": "10c423a27382f16f02afe478c0b1d43daac7d89e3effd143a2f4dd37669f7719",
+        "focus-figure-089-a.png": "12c928c1ccc7187e7326161470a7c7f68f6a672fa31d05e788b6cd342f816bbd",
+        "focus-figure-089-b.png": "0ddfb3fdb03071fe0205eaa6522c0eac8b40f66a626137b976288bf9671c82c2",
+        "focus-figure-089-c.png": "c259fcf2948f02112933890dfd02c20ff857e6e875d20e0bf28434ce1aa11957",
+        "focus-figure-089-d.png": "8faada896e50bc8a251c848cff0b5d0b58d5791650af8b49034b884a712a6a03"
+      }
+    },
+    {
+      "id": "focus-figure-090",
+      "status": "passed",
+      "preview": "previews/12-symmetry.png",
+      "note": "仅判断黑块图案自身，图案无内部参考格干扰，各对称性选项可辨。",
+      "pngSha256": {
+        "focus-figure-090-stem.png": "90f8c81b0d2912912d824a195abd2df6ac5e5fdfe0ecf2d403e8cb2776290591",
+        "focus-figure-090-a.png": "26ed6f29829e99a5c107818fc4881fd621d6be008d4d4fdcb3a41a200779002d",
+        "focus-figure-090-b.png": "b79a9a9daab97931bcc3dc26be3b837000bf746a77912d6a074cdf7ffb1ad582",
+        "focus-figure-090-c.png": "514a8c1b5ecc8f5c9dc54957ad256a193524e2a29b497d7bb390cc70cab0822d",
+        "focus-figure-090-d.png": "50073c6efa839d9c24417d35b5c26afa0c6b35e86c09a292ad9443b6b08839e9"
+      }
+    },
+    {
+      "id": "focus-figure-091",
+      "status": "passed",
+      "preview": "previews/12-symmetry.png",
+      "note": "仅判断黑块图案自身，图案无内部参考格干扰，各对称性选项可辨。",
+      "pngSha256": {
+        "focus-figure-091-stem.png": "ff005a383da263fb3bc0a112e8d209424c6a0cd31ea91ed7adf2cedea3f6fe5c",
+        "focus-figure-091-a.png": "5a2ce020c1947774dac8faf3f1e857f72eb30a367f1a8972da836e69f73ed6f1",
+        "focus-figure-091-b.png": "9a52ac841d3d83bf363ca9764d66f9983ad4fdaaf796a711af48fe967ba2bd08",
+        "focus-figure-091-c.png": "3ae178476c17bc07b0dbdfd3006fec825349e5a5214281027a6b6d8b34fdeae6",
+        "focus-figure-091-d.png": "924ef33bb704efbc389dc1c03fe99928ffaa71a0d05e35b3ed2a22a03586aa3d"
+      }
+    },
+    {
+      "id": "focus-figure-092",
+      "status": "passed",
+      "preview": "previews/12-symmetry.png",
+      "note": "仅判断黑块图案自身，图案无内部参考格干扰，各对称性选项可辨。",
+      "pngSha256": {
+        "focus-figure-092-stem.png": "62dc0dbb4726a18a3613eb33b17a3bd92316b636694b2aa14e8dc8320753bd51",
+        "focus-figure-092-a.png": "6d5b9c3e3bc5265755c6c3b2b78d9edab476c909e5ec47f4ab090650499f6e5b",
+        "focus-figure-092-b.png": "3a6e52e1a610868c9678cb1a6d7cdccd8a4cf0a5e7d4fa85c631ad56401b8125",
+        "focus-figure-092-c.png": "9eff5200ee571c8838975fc7c3db317f7d2608a367e1dc1a76a83aaf1c571f6a",
+        "focus-figure-092-d.png": "aa86f5184a0ae0ac4ae2297e0725172225778cb5afb4fa8e5269d86412b704ad"
+      }
+    },
+    {
+      "id": "focus-figure-093",
+      "status": "passed",
+      "preview": "previews/12-symmetry.png",
+      "note": "仅判断黑块图案自身，图案无内部参考格干扰，各对称性选项可辨。",
+      "pngSha256": {
+        "focus-figure-093-stem.png": "d378c7c0b011ae6e8daada170965a592bf9d53bff76c4df8ee04563f3741628e",
+        "focus-figure-093-a.png": "dd89bf7967754716dfe7a6bf87d88ce784627f3de32d5a4b1ebbbc80889785ad",
+        "focus-figure-093-b.png": "4838dc41e211e3bdd3961ab8e325b61c56f65d571bdad38df0c5aa0ed608e493",
+        "focus-figure-093-c.png": "2ec2746270324151fe0949fd0134e6cdbe23d4d1727b503a9cc47fea55b52ce7",
+        "focus-figure-093-d.png": "665caeb0cbf9a4223b467078227a658978c3b8e4598908cbe462b84a3d917293"
+      }
+    },
+    {
+      "id": "focus-figure-094",
+      "status": "passed",
+      "preview": "previews/12-symmetry.png",
+      "note": "仅判断黑块图案自身，图案无内部参考格干扰，各对称性选项可辨。",
+      "pngSha256": {
+        "focus-figure-094-stem.png": "07cb96accc180012e30b6b527d7177e8457b12ac4a0948700db059fd23a69478",
+        "focus-figure-094-a.png": "e1f7104065312aa5b9e32841bd4dd6f23462cd1c78372180e539914de30f939a",
+        "focus-figure-094-b.png": "6497982ef59e503698f4e55777c4c6aaf429e48a8e5dd36d32197572f05b85fe",
+        "focus-figure-094-c.png": "80bd63956006b9c1ecd66a894dd2e19db4e45771cff7880cc4eed7eab4fa3bbd",
+        "focus-figure-094-d.png": "92c577370903356310976a698575320ba1b621eb6c0b14ffb089df0b5d147a52"
+      }
+    },
+    {
+      "id": "focus-figure-095",
+      "status": "passed",
+      "preview": "previews/12-symmetry.png",
+      "note": "仅判断黑块图案自身，图案无内部参考格干扰，各对称性选项可辨。",
+      "pngSha256": {
+        "focus-figure-095-stem.png": "f2ab0406da57dde551cd7bc3b8305109449c779dcc972d003f301412973a225a",
+        "focus-figure-095-a.png": "79519d24376a321731354421faa492559ae9dfa336c1e6f694516fb2f08c416a",
+        "focus-figure-095-b.png": "eff926041b05f472493652c3baf8be7055ce4fc3ad55cf44b7b997ef643ff258",
+        "focus-figure-095-c.png": "de2a467025d0234bed1eb96f47bb400a715eb4e0a9d2f3cede4e8cef03fec248",
+        "focus-figure-095-d.png": "4b7d19dd0d94b02dca39f7e0d82a019a3a310b87b8b5e107f0fa7ebb6142d5fe"
+      }
+    },
+    {
+      "id": "focus-figure-096",
+      "status": "passed",
+      "preview": "previews/12-symmetry.png",
+      "note": "仅判断黑块图案自身，图案无内部参考格干扰，各对称性选项可辨。",
+      "pngSha256": {
+        "focus-figure-096-stem.png": "71d226ff36514406c306b6a604272fcfc55b65ac45c2d1f01d637f444e712fd1",
+        "focus-figure-096-a.png": "4b8aac9bf6bbe0362cb66ab484609700d99deb0cebb4aa0e23f8ebf2fbd7a7a3",
+        "focus-figure-096-b.png": "a747e3b8431cd5939af485d2f1034fb6bed6a4ff73543ded58f328b4ad0192e9",
+        "focus-figure-096-c.png": "995d67118c3eac618db2ab231fcd63136a78e0e3f942aecd1003cdd482a5b693",
+        "focus-figure-096-d.png": "07357e5c00ba30d5f4d9b516cc2b8acd25c9184772c161aa04838153d31f950a"
+      }
+    },
+    {
+      "id": "focus-figure-097",
+      "status": "passed",
+      "preview": "previews/13-closure.png",
+      "note": "开放轮廓保留整条边的缺口，封闭轮廓完整，四选项轮廓清晰。",
+      "pngSha256": {
+        "focus-figure-097-stem.png": "d5485a2aedf7a738b1793650e1c9927b6bdc6777f6167cf6661e63b2ca603b99",
+        "focus-figure-097-a.png": "821a9a6fd55c1e456f7ac6ab72cea3cf43677d668bcd16191ee4516bd87172f0",
+        "focus-figure-097-b.png": "5675a8cc40349a720c3f664c67871b51e01c0098c6999f7e5b463f6c60a56a73",
+        "focus-figure-097-c.png": "33df8e6775aa6606b605d9a58f55be780d7423b7cfb9c426ceafc7cb4e613716",
+        "focus-figure-097-d.png": "a6b78a025becce0b52022bb6fb2125e8e2439db611cfbe7a093fecb8b10f1375"
+      }
+    },
+    {
+      "id": "focus-figure-098",
+      "status": "passed",
+      "preview": "previews/13-closure.png",
+      "note": "开放轮廓保留整条边的缺口，封闭轮廓完整，四选项轮廓清晰。",
+      "pngSha256": {
+        "focus-figure-098-stem.png": "f241d1807032154c2631bc7c7d71fcada950bb30c521cced81116ae6d89e362c",
+        "focus-figure-098-a.png": "af56ad19dccba025371a8a2a857a6c34bb5b2c8e1722815c97eda48aa4f1c326",
+        "focus-figure-098-b.png": "861ccc6d6a7bead1a559b1d5decd34bccb332e4ab5dd8b4ec4efb605cc7e1ab1",
+        "focus-figure-098-c.png": "5b5ec3dde86d8611e359498b788ef7a9141320478aa81b635a67c044c4e542cd",
+        "focus-figure-098-d.png": "ae05d60826417b809797ef3c582598de8bc626e5b906eea2fcd7c397dded8818"
+      }
+    },
+    {
+      "id": "focus-figure-099",
+      "status": "passed",
+      "preview": "previews/13-closure.png",
+      "note": "开放轮廓保留整条边的缺口，封闭轮廓完整，四选项轮廓清晰。",
+      "pngSha256": {
+        "focus-figure-099-stem.png": "c4ff17bafbf06668a4ac2c22941e626e36a64ea9e96135c6df4513168f2ec8ed",
+        "focus-figure-099-a.png": "96bb2ce036acccbb03d76cbf81592baf383c8a39f24dc49498e3df1f61f97010",
+        "focus-figure-099-b.png": "c3a7cbe22c3db536e67db6a1666561466048dd4b47b31b682d7903456ff74d56",
+        "focus-figure-099-c.png": "577863ab6704d3e1f9db2b15ba9031b82f3d46f892d8dcb1b9a2965824276723",
+        "focus-figure-099-d.png": "dc7db830f4b293bd56b16c0a7989db6dbbcd2315e41ce6b30e31f43af2a310b1"
+      }
+    },
+    {
+      "id": "focus-figure-100",
+      "status": "passed",
+      "preview": "previews/13-closure.png",
+      "note": "开放轮廓保留整条边的缺口，封闭轮廓完整，四选项轮廓清晰。",
+      "pngSha256": {
+        "focus-figure-100-stem.png": "51c94b0906dee2fd5494f2454b9ef1b934a4c116ef542de5d6899056bf4c2679",
+        "focus-figure-100-a.png": "7073f386e8510c9a20e646c65a40a5ff0609b21bd07d18e997e709653995a85c",
+        "focus-figure-100-b.png": "e75eccbbf7d05c1986f9ff872486e7798c85d0f443ac317ade2bd93336555add",
+        "focus-figure-100-c.png": "be77052d8483afa610d3bc935711192e064c95b2ed7eb6ed406c16f8ed6465bd",
+        "focus-figure-100-d.png": "bf7a939b0c01c51b2fd849c5fda6b01db0d4e8b8cfa3d6605524b4aff49233d1"
+      }
+    },
+    {
+      "id": "focus-figure-101",
+      "status": "passed",
+      "preview": "previews/13-closure.png",
+      "note": "开放轮廓保留整条边的缺口，封闭轮廓完整，四选项轮廓清晰。",
+      "pngSha256": {
+        "focus-figure-101-stem.png": "44154ddaab93b8f2e88c825611d112a0954659af38657f647e0332648091b42f",
+        "focus-figure-101-a.png": "42186e664b32b1688b6d123c2c30e09dd314f130adcc10ff2cde53cbf268e27a",
+        "focus-figure-101-b.png": "4f455b5fede786fadcc44db170cabefecab54922dd0611658545a3e6133f6fc8",
+        "focus-figure-101-c.png": "b8a56acdb544099f30a4dfd671fe9057ff26a23b53e2af4a17ac4f3988ee0019",
+        "focus-figure-101-d.png": "880309e74edb0cd7dc0a3f81926b9dfc46975423f29ac4a9b51b3c82e82ea1df"
+      }
+    },
+    {
+      "id": "focus-figure-102",
+      "status": "passed",
+      "preview": "previews/13-closure.png",
+      "note": "开放轮廓保留整条边的缺口，封闭轮廓完整，四选项轮廓清晰。",
+      "pngSha256": {
+        "focus-figure-102-stem.png": "daea4f928f0c27ea1fea8acff9853333735591b2823a6b4048a9adde8f374bf5",
+        "focus-figure-102-a.png": "ddcc1dc9795b701bfbef212f349b3c9aedc3667a427adfca8f32a0c030a27fe3",
+        "focus-figure-102-b.png": "cca6dc80f1c33bc30d5d1334fc0018cdc4d47957601e7297fc8002499eeeae1d",
+        "focus-figure-102-c.png": "efae31be1a20b50304bb99ff1577bdc9d4851ad15be93597b2b6e7120c706c63",
+        "focus-figure-102-d.png": "ab27d265baa4ddb8c770de91b5c308d5784181de5dea799653805643c3860ff7"
+      }
+    },
+    {
+      "id": "focus-figure-103",
+      "status": "passed",
+      "preview": "previews/13-closure.png",
+      "note": "开放轮廓保留整条边的缺口，封闭轮廓完整，四选项轮廓清晰。",
+      "pngSha256": {
+        "focus-figure-103-stem.png": "c04571adc513b1b0f17e2fdb6526028c4d62f79c41b50cada4cb59f2b211b046",
+        "focus-figure-103-a.png": "e7d99d6567ac9233383974567fa14a58acfb1dc7f42e9eb675ee081bf100ab39",
+        "focus-figure-103-b.png": "ec66f1d521f348c987bc502a43f5ba287ebff8d6a663345353f9acb5ab018019",
+        "focus-figure-103-c.png": "f5b3e7054273238138a9ca74dfe6ebeaf8e702e3924fa0a9a9ec44406a724c67",
+        "focus-figure-103-d.png": "218fc770f3edc3653e839c36491c1aaea5347c72f0cfea728518ec90e81f1512"
+      }
+    },
+    {
+      "id": "focus-figure-104",
+      "status": "passed",
+      "preview": "previews/13-closure.png",
+      "note": "开放轮廓保留整条边的缺口，封闭轮廓完整，四选项轮廓清晰。",
+      "pngSha256": {
+        "focus-figure-104-stem.png": "f853f9092515cc536a94101ba66f4ca5de4c798bc87b81f2d9eef5bdfc0adb12",
+        "focus-figure-104-a.png": "a597f5086e6deb758c2d819754151d2e697dd2824d472e3ed65be6ae78f0a02a",
+        "focus-figure-104-b.png": "4e50ecce05433517d0a14518de0726848f5c96feb6f3fe7d6299b391927bb34e",
+        "focus-figure-104-c.png": "f1769bedfed748e69ab2ff6f19a1e88fc39f92d7c33759b61c32521c5573dc57",
+        "focus-figure-104-d.png": "9b1cf2f1f5e65ae6c1212ee9495ad33bc85bb7bc09ee8645f6469e7f625fd629"
+      }
+    },
+    {
+      "id": "focus-figure-105",
+      "status": "passed",
+      "preview": "previews/14-rotate-xor.png",
+      "note": "旋转与叠加的九宫格图形可逐格比较，黑块和格线对比清晰。",
+      "pngSha256": {
+        "focus-figure-105-stem.png": "3c8bf92ec9d0ed76f14a90221bf86dc2aafc82248497c16da79c206e94b4062c",
+        "focus-figure-105-a.png": "ca948e3dfec52d7558c94be2a66451281a6936c2e90d9cb84f43bca0c57000f5",
+        "focus-figure-105-b.png": "a5fe0dad340259c265b9b731c354213a23b013a6151ea941da1d0dce9a4817e6",
+        "focus-figure-105-c.png": "b8928c999137eabaedb3b2814b991a92ab7e21a0061775177cb1b5d27467078c",
+        "focus-figure-105-d.png": "aac5857c81c4e325a445af9b902fb00947801cf91accb38140ea5d478b3943ca"
+      }
+    },
+    {
+      "id": "focus-figure-106",
+      "status": "passed",
+      "preview": "previews/14-rotate-xor.png",
+      "note": "旋转与叠加的九宫格图形可逐格比较，黑块和格线对比清晰。",
+      "pngSha256": {
+        "focus-figure-106-stem.png": "586744f356bc228ff6c38b4be1da11c7fc26b280d4e51232eebc4935453f0ebc",
+        "focus-figure-106-a.png": "1744d63c38e476459a2e5f82915a5c52041c94095fd5f578c9a2be375af19261",
+        "focus-figure-106-b.png": "64e665efcb8a81dc52b8ac56aa61107fc109abaebf286ea135870d4f3c33c1bf",
+        "focus-figure-106-c.png": "f8c02649c69312bd3f460dbe107f71f2ba54c7d12d4bb6a9049f5189ae83225b",
+        "focus-figure-106-d.png": "3b9670cc83f3dc55019deb96f43c49f24ec4b6e49ed36e8b340cb9c7ca4fa068"
+      }
+    },
+    {
+      "id": "focus-figure-107",
+      "status": "passed",
+      "preview": "previews/14-rotate-xor.png",
+      "note": "旋转与叠加的九宫格图形可逐格比较，黑块和格线对比清晰。",
+      "pngSha256": {
+        "focus-figure-107-stem.png": "f93507b251a0c482a55584997baba70e0b1bef7174c92be548b9300d582072f0",
+        "focus-figure-107-a.png": "00be53251d02a609ddfc4365f5c8bf5fe3b279a064d592e5fd0f3643f58344ab",
+        "focus-figure-107-b.png": "8419425414898439a166781c027089e5d8a083dfbf751514a153f70fad6806d0",
+        "focus-figure-107-c.png": "1f244ddcf4d7b62920f52fbcdfb79c26e22ef570fed43730205601331cc9e73c",
+        "focus-figure-107-d.png": "6c04d2891961c8df77489af3c65ef6114a5261d31ba5e5f07abf8abef8d14d6b"
+      }
+    },
+    {
+      "id": "focus-figure-108",
+      "status": "passed",
+      "preview": "previews/14-rotate-xor.png",
+      "note": "旋转与叠加的九宫格图形可逐格比较，黑块和格线对比清晰。",
+      "pngSha256": {
+        "focus-figure-108-stem.png": "9f37c679b703004c06e7e5976e8c103120e06dc93de4dd54b19aba55315221ea",
+        "focus-figure-108-a.png": "1a7f8d88dd6fe6bc9e3b8f304596e7e2c094cdd17a286b3b042cf9441056c607",
+        "focus-figure-108-b.png": "1997b6fce630bef3fbe32f1657579b089fd0c02e02ee03afb3e23d65f2b6b042",
+        "focus-figure-108-c.png": "ce2fca39aead4f0eb2ad075b5296d4e4f11ed9d61a561e8eb93377ae72644d69",
+        "focus-figure-108-d.png": "c23d4f32823b937c0b3b3b4af26de6a5ebe09227fd7d5b245690985154e48ea5"
+      }
+    },
+    {
+      "id": "focus-figure-109",
+      "status": "passed",
+      "preview": "previews/14-rotate-xor.png",
+      "note": "旋转与叠加的九宫格图形可逐格比较，黑块和格线对比清晰。",
+      "pngSha256": {
+        "focus-figure-109-stem.png": "f964749a297b91d91688aaefac50f690ba10e47b8a3548873ff40128e3b828c4",
+        "focus-figure-109-a.png": "2b7cefb61d541e8f7744f6a77b952a88a75b02cd40b50d126ea8284a303896a4",
+        "focus-figure-109-b.png": "dba5b20f02186829d0325cd658217cc108f2a0877679d39bae84a1a207564eb5",
+        "focus-figure-109-c.png": "9c243f5b9a640a04797bfc2a4beeda447e68f6ba1dabe0f0d6ce6a13ff240209",
+        "focus-figure-109-d.png": "9a34f0e78a15a0add510fc90622d9237ab84b9190b1a99b7f02863d45d919590"
+      }
+    },
+    {
+      "id": "focus-figure-110",
+      "status": "passed",
+      "preview": "previews/14-rotate-xor.png",
+      "note": "旋转与叠加的九宫格图形可逐格比较，黑块和格线对比清晰。",
+      "pngSha256": {
+        "focus-figure-110-stem.png": "acaeb0b2158910a7226707ec04621d1f83a35d4bc54517027c355faa7c9d5acc",
+        "focus-figure-110-a.png": "32429c279d8dd5a654753e96d9eacb96c2036c3c59c2ca03f4f7c3efa2383d1a",
+        "focus-figure-110-b.png": "44aba48254056b49ae776ba892e1c97d5490f122495f16fa4cf9690ec2a16ef9",
+        "focus-figure-110-c.png": "717ffdb17e77ccb745a72e429cdc7cadd87dfb84c2bbb169c6070cb417b983a8",
+        "focus-figure-110-d.png": "fc5a1dc7608d4d981e6f5994debcb265208baf1dce951bd53e719b45e74eec23"
+      }
+    },
+    {
+      "id": "focus-figure-111",
+      "status": "passed",
+      "preview": "previews/14-rotate-xor.png",
+      "note": "旋转与叠加的九宫格图形可逐格比较，黑块和格线对比清晰。",
+      "pngSha256": {
+        "focus-figure-111-stem.png": "ef38551def2f7979576dd13b453917a95ff202a89e88d5af2233682721db184d",
+        "focus-figure-111-a.png": "2057c4c0b08581b4063f2a63ccd3e27c3d6ade5b0bc63505eeac580d29061c36",
+        "focus-figure-111-b.png": "60d80617990e2739e36c07c937184aeec9e0b50963fad9b3936df4eafe18efa7",
+        "focus-figure-111-c.png": "02a5fe8dbf3522c7aca5d223308bc5a6b0ded6ce5f2ca587bb6c4b6343735cdf",
+        "focus-figure-111-d.png": "865beb4ad295832ff97882793109220b06f9da7f4dc044715e1f3e09cebb51be"
+      }
+    },
+    {
+      "id": "focus-figure-112",
+      "status": "passed",
+      "preview": "previews/14-rotate-xor.png",
+      "note": "旋转与叠加的九宫格图形可逐格比较，黑块和格线对比清晰。",
+      "pngSha256": {
+        "focus-figure-112-stem.png": "9839f1425b6d02869920cadc48d77761dee5e77ad913fd1a656472f4e9e6801c",
+        "focus-figure-112-a.png": "e9c47a255b4c77398034aa9a7f52df37bc30f83675cbdf2d137cb546043e993a",
+        "focus-figure-112-b.png": "1b34eed3098681a5395da5af7d25beabbead6e0777f8046009e34928f7a355b1",
+        "focus-figure-112-c.png": "b1d97fe7d584a2e6d34593db7c8b81317affab7ffb02bd9799961349895136f2",
+        "focus-figure-112-d.png": "138a1b09f28e2ef760da0ebf38bfc28b499b0318810e0149505a8adbd9880ded"
+      }
+    },
+    {
+      "id": "focus-figure-113",
+      "status": "passed",
+      "preview": "previews/15-motion-count.png",
+      "note": "外圈大圆与内部小点大小明显不同，位移和点数均可独立辨认。",
+      "pngSha256": {
+        "focus-figure-113-stem.png": "c6b4c67179da5198050e8fb20cdacd500b3c6446e59691e1bb49e8f5c3c83a47",
+        "focus-figure-113-a.png": "9c306a1a8bc0e82ed943306413200517256901cca90b9d1ed6070f3d2707183c",
+        "focus-figure-113-b.png": "11486d78dc4342aba431c2cac06ced1a940ec5b9a7f285cb221564c2b717fa2a",
+        "focus-figure-113-c.png": "be9faf95c0066e6b1e6a8aa06142eaf2c6eb65843201b1e5f5b088797a2887a1",
+        "focus-figure-113-d.png": "dd5f6bb14cd8481072ae03beaad41f7ed5673d2fb147934cc80a287c9e2aa90a"
+      }
+    },
+    {
+      "id": "focus-figure-114",
+      "status": "passed",
+      "preview": "previews/15-motion-count.png",
+      "note": "外圈大圆与内部小点大小明显不同，位移和点数均可独立辨认。",
+      "pngSha256": {
+        "focus-figure-114-stem.png": "49731880bf3fbc2e88cfc922d00fd5503878eb1b46f5efc5bc0d611341673469",
+        "focus-figure-114-a.png": "be9faf95c0066e6b1e6a8aa06142eaf2c6eb65843201b1e5f5b088797a2887a1",
+        "focus-figure-114-b.png": "9c306a1a8bc0e82ed943306413200517256901cca90b9d1ed6070f3d2707183c",
+        "focus-figure-114-c.png": "42cfef429ae0a227f4117c84f60482f059ac362041d81309bb1ec0faf0722455",
+        "focus-figure-114-d.png": "95f93324a641f4d00fb24128179ee597d5865588b0ba0c931e09fe1ae4852375"
+      }
+    },
+    {
+      "id": "focus-figure-115",
+      "status": "passed",
+      "preview": "previews/15-motion-count.png",
+      "note": "外圈大圆与内部小点大小明显不同，位移和点数均可独立辨认。",
+      "pngSha256": {
+        "focus-figure-115-stem.png": "f48762769ea3a7d7102c2da51c322f63bddbd2776655ef7a26a677282b3d9980",
+        "focus-figure-115-a.png": "dd5f6bb14cd8481072ae03beaad41f7ed5673d2fb147934cc80a287c9e2aa90a",
+        "focus-figure-115-b.png": "f2a3be6fd5c9c08184eba1a7e9bd373f77bbe4bcff5221479dddf71f4f97f5de",
+        "focus-figure-115-c.png": "42cfef429ae0a227f4117c84f60482f059ac362041d81309bb1ec0faf0722455",
+        "focus-figure-115-d.png": "fd725e19b4efef8b06108c2cb1ffb183c50b43253271b2baaef9c486dff67dc0"
+      }
+    },
+    {
+      "id": "focus-figure-116",
+      "status": "passed",
+      "preview": "previews/15-motion-count.png",
+      "note": "外圈大圆与内部小点大小明显不同，位移和点数均可独立辨认。",
+      "pngSha256": {
+        "focus-figure-116-stem.png": "c25ac54d5f60cf5c3406c0c7deb467652efd91cb7676bce668c66fd9027243d6",
+        "focus-figure-116-a.png": "7ce6093338d97c82ba00288ac693c5f2f80cbe8241cda9fac0defac1275f205a",
+        "focus-figure-116-b.png": "8e50ecdc7f075a5b5d1cf4e385a6b1613989214d54017659c5e5e534a3ec867d",
+        "focus-figure-116-c.png": "a97bb594a2329069dd78c559e759da6131c51ccc32c6be8b486b8135f53a09a1",
+        "focus-figure-116-d.png": "59617760cfd1ce7ec11f99494486ec92af6fa906b54dcaa173bfaf2d5191d42d"
+      }
+    },
+    {
+      "id": "focus-figure-117",
+      "status": "passed",
+      "preview": "previews/15-motion-count.png",
+      "note": "外圈大圆与内部小点大小明显不同，位移和点数均可独立辨认。",
+      "pngSha256": {
+        "focus-figure-117-stem.png": "ea7465989ea0215cab98600ce5573ddb5a633ba3d6e19402ce63b66a1ae982d7",
+        "focus-figure-117-a.png": "9705de2bed957837605c57667f2e14b0dd34d6e61be46d430fa4ac76e0e3fd8c",
+        "focus-figure-117-b.png": "e7c2ae5d1d0292bc667ef3318f29fb25115afbfb376b15dd0c6da083ca0249ea",
+        "focus-figure-117-c.png": "71aa33d1ac7aa2a70968653e9494af47bf6521d1091a7d539f5ed049138a8985",
+        "focus-figure-117-d.png": "6deb3152e83da5245adf43c2b9dfd53b0c923347c86fa813434ec088ed805d7e"
+      }
+    },
+    {
+      "id": "focus-figure-118",
+      "status": "passed",
+      "preview": "previews/15-motion-count.png",
+      "note": "外圈大圆与内部小点大小明显不同，位移和点数均可独立辨认。",
+      "pngSha256": {
+        "focus-figure-118-stem.png": "c479a84226f7511bf2a687d6f7c232905a446c1baca140cd757bd10a9fa379d8",
+        "focus-figure-118-a.png": "675f3f8bafb835af2e189b4770e4c7bafbc4330a3ae4a8886cd86c164fc127aa",
+        "focus-figure-118-b.png": "6deb3152e83da5245adf43c2b9dfd53b0c923347c86fa813434ec088ed805d7e",
+        "focus-figure-118-c.png": "bfa7f09874054cb626a5eaa9ee32061945a9acb97e55ec8bd70cd063fb5acafd",
+        "focus-figure-118-d.png": "9705de2bed957837605c57667f2e14b0dd34d6e61be46d430fa4ac76e0e3fd8c"
+      }
+    },
+    {
+      "id": "focus-figure-119",
+      "status": "passed",
+      "preview": "previews/15-motion-count.png",
+      "note": "外圈大圆与内部小点大小明显不同，位移和点数均可独立辨认。",
+      "pngSha256": {
+        "focus-figure-119-stem.png": "6b76d51746a2f2d1441014d044f5c2d878d2d5f1e0f9531eaf3f934c101aec67",
+        "focus-figure-119-a.png": "baf8b233283d96a568558188983a23881b1701f5f4aa1bd9507a552216ff81ba",
+        "focus-figure-119-b.png": "35f55d2a8cb76bc4bf62a59d30526361a2d061f1a295a87a19073b2c6bdaeeab",
+        "focus-figure-119-c.png": "937b8cdbfd5afd010322ffc6ebbc5dcfea0f35bc4d2ce69fbaf6e7fc984725d6",
+        "focus-figure-119-d.png": "da417d2c24ed9dab33ea486cdba7b8bae167b89b4a97c2cc92012b3a53d2b143"
+      }
+    },
+    {
+      "id": "focus-figure-120",
+      "status": "passed",
+      "preview": "previews/15-motion-count.png",
+      "note": "外圈大圆与内部小点大小明显不同，位移和点数均可独立辨认。",
+      "pngSha256": {
+        "focus-figure-120-stem.png": "7e40548c491a51bd5b2340533d119611cac1d76e5d0049bbbd9a8293b77e04c8",
+        "focus-figure-120-a.png": "2e534bde53792391d1be78472e584cf45fde3bde3bac279a2fe24fba1b69aaa3",
+        "focus-figure-120-b.png": "bfa7f09874054cb626a5eaa9ee32061945a9acb97e55ec8bd70cd063fb5acafd",
+        "focus-figure-120-c.png": "71aa33d1ac7aa2a70968653e9494af47bf6521d1091a7d539f5ed049138a8985",
+        "focus-figure-120-d.png": "9705de2bed957837605c57667f2e14b0dd34d6e61be46d430fa4ac76e0e3fd8c"
+      }
+    }
+  ]
+}

@@ -21,6 +21,32 @@ const session = (id = "session-one", ids = [question.id, second.id], now = 100) 
 const clone = value => JSON.parse(JSON.stringify(value));
 const cacheContext = { promptVersion: "solver-v3:language-v2", model: "example-model", baseUrl: "https://api.example.test/v1" };
 
+test("optional calculation timings survive backup/merge and stop changing after submission", () => {
+  const initial = session();
+  const measured = Core.addElapsed(initial, question.id, 12100, 200);
+  assert.equal(initial.timings, undefined);
+  const progress = {version:1, updatedAt:200, sessions:{[measured.id]:measured}};
+  assert.deepEqual(Core.validateProgress(progress), progress);
+  const later = Core.addElapsed(measured, question.id, 2900, 300);
+  assert.equal(Core.mergeSession(later, measured).timings[question.id], 15000);
+  const submitted = Core.submit(later, question, "B", grade, 400);
+  assert.equal(Core.addElapsed(submitted, question.id, 5000, 500), submitted);
+  assert.equal(Core.addElapsed(initial, "foreign", 3000, 200), initial);
+  assert.equal(Core.addElapsed(initial, question.id, -1, 200), initial);
+  const invalid = clone(progress); invalid.sessions[measured.id].timings.foreign = 99;
+  assert.throws(() => Core.validateProgress(invalid), /格式不正确/);
+});
+
+test("calculation answers accept equivalent decimals without accepting wrong units or rounded-near misses", () => {
+  const numeric = {id:"calc",type:"fill",answer:"12.50",answerFormat:{kind:"number",decimalPlaces:2}};
+  for (const answer of ["12.5", "１２.５０", "012.500", " +12.50 "]) assert.equal(grade(numeric,answer),"correct");
+  for (const answer of ["12.5%", "12.49", "1.25", "12+0.5", "NaN", "Infinity"]) assert.equal(grade(numeric,answer),"incorrect");
+  const percent = {...numeric,answer:"12.5%",answerFormat:{kind:"percent",decimalPlaces:1}};
+  for (const answer of ["12.5", "12.50%", "１２.５％"]) assert.equal(grade(percent,answer),"correct");
+  assert.equal(grade(percent,"0.125"),"incorrect");
+  assert.equal(grade({...numeric,answer:"0"},"0.00"),"correct");
+});
+
 test("module, exam and paper filters intersect on the same paper reference without duplicates", () => {
   const a = {...second, id:"shared", topicId:"reasoning-causal", paperRefs:[{paperId:"national-one",examId:"national"},{paperId:"guangdong-one",examId:"guangdong"}]};
   const b = {...a,id:"other-topic",topicId:"reasoning-weaken"};

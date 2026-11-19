@@ -1,0 +1,28 @@
+{
+  "purpose": "只借鉴公开教学方法与公式，不复制商业题、真题、材料、例题数值或解析；180 题全部为原创直接计算练习。",
+  "retrievedAt": "2026-11-18",
+  "sources": [
+    {
+      "title": "资料分析速算技巧",
+      "publisher": "粉笔官方教学页",
+      "url": "https://www.fenbi.com/page/fenxiaozixundetail/3/58/415735405629440",
+      "usedFor": ["根据精度选择截位程度", "百分数与常用分数互换", "化除为乘的适用思路"],
+      "copiedQuestions": 0
+    },
+    {
+      "title": "2022行测解题技巧：资料分析必背公式及解题技巧",
+      "publisher": "华图教育官方教学页",
+      "url": "https://m.qh.huatu.com/2021/1208/1678615.html",
+      "usedFor": ["基期量 x/(1+r)", "增长量 x*r/(1+r)", "比重、平均数及平均数增幅的基本公式"],
+      "copiedQuestions": 0
+    },
+    {
+      "title": "行测资料分析常用的速算技巧",
+      "publisher": "华图教育官方教学页",
+      "url": "https://m.qh.huatu.com/2023/1018/1734453.html",
+      "usedFor": ["加减速算", "截位直除", "特殊分数法", "精度要求较高时应修正近似误差"],
+      "copiedQuestions": 0
+    }
+  ],
+  "independentDerivation": "所有凑整、拆乘、余数修正、百分数误差补偿和加权补差步骤均由题内数字独立推导，并以精确有理数恒等式复核。没有采用来源页面的近似值作为最终答案。"
+}

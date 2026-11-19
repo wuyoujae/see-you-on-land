@@ -1,0 +1,4104 @@
+{
+  "passed": true,
+  "count": 120,
+  "answers": {
+    "A": 30,
+    "B": 30,
+    "C": 30,
+    "D": 30
+  },
+  "difficulty": {
+    "foundation": 36,
+    "standard": 52,
+    "challenge": 32
+  },
+  "families": {
+    "translate": 8,
+    "orbit": 8,
+    "rotate": 8,
+    "reflect": 8,
+    "xor": 8,
+    "union": 8,
+    "intersection": 8,
+    "traversal": 8,
+    "dots": 8,
+    "lines": 8,
+    "regions": 8,
+    "symmetry": 8,
+    "closure": 8,
+    "rotate-xor": 8,
+    "motion-count": 8
+  },
+  "questions": [
+    {
+      "id": "focus-figure-001",
+      "family": "translate",
+      "answer": "A",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "inferredShift": [
+          1,
+          0
+        ],
+        "expectedSymbols": {
+          "0": [
+            2,
+            3
+          ],
+          "1": [
+            1,
+            1
+          ],
+          "2": [
+            1,
+            3
+          ]
+        }
+      },
+      "assetDigest": "6ac2ef04e593ff32cbbd0412fdcae921097abb7e5cc336eff33865b87ed93f21"
+    },
+    {
+      "id": "focus-figure-002",
+      "family": "translate",
+      "answer": "B",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "inferredShift": [
+          0,
+          1
+        ],
+        "expectedSymbols": {
+          "0": [
+            1,
+            0
+          ],
+          "1": [
+            3,
+            0
+          ],
+          "2": [
+            1,
+            3
+          ]
+        }
+      },
+      "assetDigest": "9de3a8569fdc591f60e1a1329e4772b5c81de74a33091e1b57aa8dbb278a0413"
+    },
+    {
+      "id": "focus-figure-003",
+      "family": "translate",
+      "answer": "C",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "inferredShift": [
+          3,
+          0
+        ],
+        "expectedSymbols": {
+          "0": [
+            3,
+            1
+          ],
+          "1": [
+            1,
+            2
+          ],
+          "2": [
+            2,
+            3
+          ]
+        }
+      },
+      "assetDigest": "1a283476624a4ea1a9bd1bb450a66d50eae7038a114f96117282d52a738fcd40"
+    },
+    {
+      "id": "focus-figure-004",
+      "family": "translate",
+      "answer": "D",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "inferredShift": [
+          0,
+          3
+        ],
+        "expectedSymbols": {
+          "0": [
+            1,
+            0
+          ],
+          "1": [
+            3,
+            1
+          ],
+          "2": [
+            2,
+            3
+          ]
+        }
+      },
+      "assetDigest": "ff3dafd7e2686fc5742a3ea12b53a15a531ab7df10fa4a52d33ee42c64b3627c"
+    },
+    {
+      "id": "focus-figure-005",
+      "family": "translate",
+      "answer": "A",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "inferredShift": [
+          1,
+          1
+        ],
+        "expectedSymbols": {
+          "0": [
+            3,
+            2
+          ],
+          "1": [
+            0,
+            1
+          ],
+          "2": [
+            1,
+            3
+          ]
+        }
+      },
+      "assetDigest": "7fdd392c101911f45a430b5eb32b93982f531d32e329895c5c11578a3aafb309"
+    },
+    {
+      "id": "focus-figure-006",
+      "family": "translate",
+      "answer": "B",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "inferredShift": [
+          3,
+          1
+        ],
+        "expectedSymbols": {
+          "0": [
+            0,
+            1
+          ],
+          "1": [
+            3,
+            3
+          ],
+          "2": [
+            1,
+            2
+          ]
+        }
+      },
+      "assetDigest": "16c129c2aa5fa81301eff4aa86937f5a478dfdba18c8a726b9f7a3d5605ecc44"
+    },
+    {
+      "id": "focus-figure-007",
+      "family": "translate",
+      "answer": "C",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "inferredShift": [
+          2,
+          1
+        ],
+        "expectedSymbols": {
+          "0": [
+            3,
+            0
+          ],
+          "1": [
+            0,
+            3
+          ],
+          "2": [
+            0,
+            2
+          ]
+        }
+      },
+      "assetDigest": "3eeb9c504c3249e788b40ca355ff5ec7a15184600340d0bbbb1787f3bb9d5710"
+    },
+    {
+      "id": "focus-figure-008",
+      "family": "translate",
+      "answer": "D",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "inferredShift": [
+          1,
+          2
+        ],
+        "expectedSymbols": {
+          "0": [
+            3,
+            3
+          ],
+          "1": [
+            1,
+            2
+          ],
+          "2": [
+            1,
+            3
+          ]
+        }
+      },
+      "assetDigest": "fbc3612526df0e65bc7badcd47e72c0fcf55c7ec99eead4ff38e5ed997fef1a9"
+    },
+    {
+      "id": "focus-figure-009",
+      "family": "orbit",
+      "answer": "A",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "inferredSteps": [
+          1,
+          1
+        ],
+        "expectedPositions": [
+          6,
+          4
+        ]
+      },
+      "assetDigest": "ee7cb23ea5bf1d52029d0a838412bce6f5371715a241677282c3072c3acbc249"
+    },
+    {
+      "id": "focus-figure-010",
+      "family": "orbit",
+      "answer": "B",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "inferredSteps": [
+          2,
+          2
+        ],
+        "expectedPositions": [
+          1,
+          5
+        ]
+      },
+      "assetDigest": "594f552363b982ba1c030826c342987d2575dc5873ce6539732d62a7f48db4c1"
+    },
+    {
+      "id": "focus-figure-011",
+      "family": "orbit",
+      "answer": "C",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "inferredSteps": [
+          7,
+          7
+        ],
+        "expectedPositions": [
+          5,
+          4
+        ]
+      },
+      "assetDigest": "a9dba688a2cdcc061c17449de605096ac97e96516d22a59b3281ccb4f21c3b1d"
+    },
+    {
+      "id": "focus-figure-012",
+      "family": "orbit",
+      "answer": "D",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "inferredSteps": [
+          6,
+          6
+        ],
+        "expectedPositions": [
+          5,
+          6
+        ]
+      },
+      "assetDigest": "e5de71bf0ee0b3e81d58664a4e276e0e33cec6187296ef089c24e20ee6dbdfb2"
+    },
+    {
+      "id": "focus-figure-013",
+      "family": "orbit",
+      "answer": "A",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "inferredSteps": [
+          1,
+          7
+        ],
+        "expectedPositions": [
+          5,
+          0
+        ]
+      },
+      "assetDigest": "ad18b0f214b0881f1b652e41147d834add27a5627c605f48e341096737ff5e81"
+    },
+    {
+      "id": "focus-figure-014",
+      "family": "orbit",
+      "answer": "B",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "inferredSteps": [
+          7,
+          1
+        ],
+        "expectedPositions": [
+          3,
+          0
+        ]
+      },
+      "assetDigest": "b8ff9c6a98208bf885cb009926dd9717cd7e778888d8fa3c3ec02087dcfba512"
+    },
+    {
+      "id": "focus-figure-015",
+      "family": "orbit",
+      "answer": "C",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "inferredSteps": [
+          2,
+          6
+        ],
+        "expectedPositions": [
+          0,
+          2
+        ]
+      },
+      "assetDigest": "0409b1fd23b4f794d66ce8d1c6c1a84c73e491d04e5033ba6b056021fb7122d0"
+    },
+    {
+      "id": "focus-figure-016",
+      "family": "orbit",
+      "answer": "D",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "inferredSteps": [
+          6,
+          2
+        ],
+        "expectedPositions": [
+          7,
+          0
+        ]
+      },
+      "assetDigest": "a9322e81fdc2f48961ffc1d178487455f46c7bffbc7811101a1976ad2338500f"
+    },
+    {
+      "id": "focus-figure-017",
+      "family": "rotate",
+      "answer": "A",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "inferredRotation": "r1",
+        "expectedCells": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "assetDigest": "ff9a5c8d626129feb80c2fd5d83123be73beccf14bba6000e9f16e34fc379e12"
+    },
+    {
+      "id": "focus-figure-018",
+      "family": "rotate",
+      "answer": "B",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "inferredRotation": "r3",
+        "expectedCells": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      "assetDigest": "04016b746a31784dbcd01550c5921aa3671a1fcdc6d1e8a6f788beba99752a44"
+    },
+    {
+      "id": "focus-figure-019",
+      "family": "rotate",
+      "answer": "C",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "inferredRotation": "r1",
+        "expectedCells": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "assetDigest": "3815296ccf715d7bc94ea29e3e2ec122be820622e228e84c95f6dd5af117becf"
+    },
+    {
+      "id": "focus-figure-020",
+      "family": "rotate",
+      "answer": "D",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "inferredRotation": "r3",
+        "expectedCells": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "assetDigest": "338076ffbf5aabc3d825aaa523df87474f1876a9d3dbb3e4ea0fbb8ff320475f"
+    },
+    {
+      "id": "focus-figure-021",
+      "family": "rotate",
+      "answer": "A",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "inferredRotation": "r1",
+        "expectedCells": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "assetDigest": "941dfa743053e3ca5b2561c64befdbc9d05aea6641e89dc8157eedc389744c49"
+    },
+    {
+      "id": "focus-figure-022",
+      "family": "rotate",
+      "answer": "B",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "inferredRotation": "r3",
+        "expectedCells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "assetDigest": "aa9cd9effb8cd237395e1eef11ed0b46b42d74689d4888113e5f68d43f37ab90"
+    },
+    {
+      "id": "focus-figure-023",
+      "family": "rotate",
+      "answer": "C",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "inferredRotation": "r1",
+        "expectedCells": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "assetDigest": "24a4aa1f97b7b01ba114cc343ba095c2649f42dfeab9139edbac40cbdaf4d342"
+    },
+    {
+      "id": "focus-figure-024",
+      "family": "rotate",
+      "answer": "D",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "inferredRotation": "r3",
+        "expectedCells": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "assetDigest": "5baf11711b8229d8dbbf3a88b1e34fd15e4bea6e8697df824cfe2edded326f8a"
+    },
+    {
+      "id": "focus-figure-025",
+      "family": "reflect",
+      "answer": "A",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "inferredReflections": [
+          "v",
+          "h"
+        ],
+        "expectedCells": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      },
+      "assetDigest": "d839f6f66729a61b98a9a994468cee0be0cc0e22f27825b9a64cda7e3ec5dff0"
+    },
+    {
+      "id": "focus-figure-026",
+      "family": "reflect",
+      "answer": "B",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "inferredReflections": [
+          "h",
+          "v"
+        ],
+        "expectedCells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      "assetDigest": "09a4969a69e5da174b618aa5101bcff343bb003de929ce3cc268e4bb6dcc17ea"
+    },
+    {
+      "id": "focus-figure-027",
+      "family": "reflect",
+      "answer": "C",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "inferredReflections": [
+          "d",
+          "a"
+        ],
+        "expectedCells": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      "assetDigest": "a0e9f65c2e2bd12e895e8a39c1866645e30fa86a90b7a52f08908602ab796e2a"
+    },
+    {
+      "id": "focus-figure-028",
+      "family": "reflect",
+      "answer": "D",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "inferredReflections": [
+          "a",
+          "d"
+        ],
+        "expectedCells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "assetDigest": "c26c96b6ad652f5bb1f3b36dd409fcfb5cd85d7101b880c1db470692e17daa18"
+    },
+    {
+      "id": "focus-figure-029",
+      "family": "reflect",
+      "answer": "A",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "inferredReflections": [
+          "v",
+          "d"
+        ],
+        "expectedCells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "assetDigest": "1116aefc9c3751fe8a35cdb628e1ec7bd7c5b4a2b024a1aa53f4ce002041bcdb"
+    },
+    {
+      "id": "focus-figure-030",
+      "family": "reflect",
+      "answer": "B",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "inferredReflections": [
+          "h",
+          "a"
+        ],
+        "expectedCells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "assetDigest": "3b11cf5e19fcf0a1e0fbcede205365b6846d5adc3997fab680c95c6999a9df62"
+    },
+    {
+      "id": "focus-figure-031",
+      "family": "reflect",
+      "answer": "C",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "inferredReflections": [
+          "d",
+          "v"
+        ],
+        "expectedCells": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "assetDigest": "dd91506d474b90c25ecdcb64029d9da4d1fe47928f1570039a5baea011c32bf7"
+    },
+    {
+      "id": "focus-figure-032",
+      "family": "reflect",
+      "answer": "D",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "inferredReflections": [
+          "a",
+          "h"
+        ],
+        "expectedCells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "assetDigest": "a435099b2f82cf065c86ce0f871961d420d38eb91cf5ecfed9213b72a1a9b925"
+    },
+    {
+      "id": "focus-figure-033",
+      "family": "xor",
+      "answer": "A",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "xor"
+        ],
+        "expectedCells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      "assetDigest": "d8a240daeb313b914c3cfe99bef8f4300bd31cb6f0fcf4dc1e1d942e229d8679"
+    },
+    {
+      "id": "focus-figure-034",
+      "family": "xor",
+      "answer": "B",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "xor"
+        ],
+        "expectedCells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "assetDigest": "fae045c531c12d9b7c95bcfa6745d099eff2222c8a2271b12c533558056a53e6"
+    },
+    {
+      "id": "focus-figure-035",
+      "family": "xor",
+      "answer": "C",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "xor"
+        ],
+        "expectedCells": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "assetDigest": "20be70510a57c926435d4de35af8f511199ab3c0853ec0bae4d35338d59e61b4"
+    },
+    {
+      "id": "focus-figure-036",
+      "family": "xor",
+      "answer": "D",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "xor"
+        ],
+        "expectedCells": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "assetDigest": "90f7a0f5ccc3107c451de37e0bfa71874f63a4d05ae4b0cd4d2d3f26599300e3"
+    },
+    {
+      "id": "focus-figure-037",
+      "family": "xor",
+      "answer": "A",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "xor"
+        ],
+        "expectedCells": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "assetDigest": "0b6298bc44140e2d16ad4c97c2f71cf1d8f580c75063edb5cb8bb939838db971"
+    },
+    {
+      "id": "focus-figure-038",
+      "family": "xor",
+      "answer": "B",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "xor"
+        ],
+        "expectedCells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "assetDigest": "e9cfba4ac80aab46989a4ab68c3fd270d46c77b85bf189c7a9b217dab1adf84f"
+    },
+    {
+      "id": "focus-figure-039",
+      "family": "xor",
+      "answer": "C",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "xor"
+        ],
+        "expectedCells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "assetDigest": "b4ea86945933809233d2daf699ecee75736656c8705a0d4bc5da3b442f295013"
+    },
+    {
+      "id": "focus-figure-040",
+      "family": "xor",
+      "answer": "D",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "xor"
+        ],
+        "expectedCells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "assetDigest": "016a4d19425b69d98a44b6d055df7e38eba9d1ed6f2193b20098542266946d16"
+    },
+    {
+      "id": "focus-figure-041",
+      "family": "union",
+      "answer": "A",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "union"
+        ],
+        "expectedCells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "assetDigest": "fc8c52b65017d4120c6eb0040bd70f96577dd4cb03ac52a0ef956839b9d24b52"
+    },
+    {
+      "id": "focus-figure-042",
+      "family": "union",
+      "answer": "B",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "union"
+        ],
+        "expectedCells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "assetDigest": "4cd127f64b6ab133d89f46beecea7382ecbbd9ae20ef766ad4b6ee2186d5492b"
+    },
+    {
+      "id": "focus-figure-043",
+      "family": "union",
+      "answer": "C",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "union"
+        ],
+        "expectedCells": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "assetDigest": "4952fa3bbdca8db79757083160299b87f09e2214929413fcf7d26e512bf20460"
+    },
+    {
+      "id": "focus-figure-044",
+      "family": "union",
+      "answer": "D",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "union"
+        ],
+        "expectedCells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      },
+      "assetDigest": "158ef8521222e90571d135ae7ef67b22ac444bc5606b55d81e989707e864e966"
+    },
+    {
+      "id": "focus-figure-045",
+      "family": "union",
+      "answer": "A",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "union"
+        ],
+        "expectedCells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      "assetDigest": "04034d7ddaf2cae7d334e6456573887d1ab676bd7932e53304d0ee7b3e669b40"
+    },
+    {
+      "id": "focus-figure-046",
+      "family": "union",
+      "answer": "B",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "union"
+        ],
+        "expectedCells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "assetDigest": "4a6bb42fbe2ae06b865cb7a25e8af0b6bb7244ddd87305f5433c78b18c5fb7fb"
+    },
+    {
+      "id": "focus-figure-047",
+      "family": "union",
+      "answer": "C",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "union"
+        ],
+        "expectedCells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      },
+      "assetDigest": "8e53c60915cea5d2bd03a22650f2f676059ca4ac263ecf806c80e6ae072e5b56"
+    },
+    {
+      "id": "focus-figure-048",
+      "family": "union",
+      "answer": "D",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "union"
+        ],
+        "expectedCells": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "assetDigest": "dc2d8928f7f8d4ca3de61e1b0ca023d8518f7eb42ad58e5b25f8e1c1f21f8857"
+    },
+    {
+      "id": "focus-figure-049",
+      "family": "intersection",
+      "answer": "A",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "intersection"
+        ],
+        "expectedCells": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "assetDigest": "bd68d6ba7a99ed7f7f7b74686f8c3f631d4d08dd26b191117af1b71a74cea37b"
+    },
+    {
+      "id": "focus-figure-050",
+      "family": "intersection",
+      "answer": "B",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "intersection"
+        ],
+        "expectedCells": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "assetDigest": "0a8889fa4a7d6c00743db7fb98c772af2d36111806fe602b5fda693bc01e618f"
+    },
+    {
+      "id": "focus-figure-051",
+      "family": "intersection",
+      "answer": "C",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "intersection"
+        ],
+        "expectedCells": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "assetDigest": "5a69ea63673e299c3cfd95905a79fad90c7a15b6e5694b24de3e988e23ea87fb"
+    },
+    {
+      "id": "focus-figure-052",
+      "family": "intersection",
+      "answer": "D",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "intersection"
+        ],
+        "expectedCells": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "assetDigest": "b23e94a89f9dd29304b965692eece2692c4b8457fad635a2dcf5148b640f31b1"
+    },
+    {
+      "id": "focus-figure-053",
+      "family": "intersection",
+      "answer": "A",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "intersection"
+        ],
+        "expectedCells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "assetDigest": "4dc707058948f9ad3ed6e3ddd8e966ced8c9919213507fb76c489c90c9359c06"
+    },
+    {
+      "id": "focus-figure-054",
+      "family": "intersection",
+      "answer": "B",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "intersection"
+        ],
+        "expectedCells": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      "assetDigest": "b05330501e6ef6e9a831d041986769ac5858e0a705aed6f6d22ac4a62d784d24"
+    },
+    {
+      "id": "focus-figure-055",
+      "family": "intersection",
+      "answer": "C",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "intersection"
+        ],
+        "expectedCells": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "assetDigest": "84b3d3e18f62b13b010f0385bb7f3b21d81821604f063c5fa651e4f7f48f52b0"
+    },
+    {
+      "id": "focus-figure-056",
+      "family": "intersection",
+      "answer": "D",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "inferredOperation": [
+          0,
+          "intersection"
+        ],
+        "expectedCells": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "assetDigest": "599daf950ad37a05719a03c143848aafde40cb04834b7b4d6c753b1bbc25a923"
+    },
+    {
+      "id": "focus-figure-057",
+      "family": "traversal",
+      "answer": "A",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "missingAttributes": {
+          "shape": 1,
+          "fill": "dot"
+        }
+      },
+      "assetDigest": "d8d0f6a46547591e926f3b9aebff79152c7b8472e912a49d662f44872b105873"
+    },
+    {
+      "id": "focus-figure-058",
+      "family": "traversal",
+      "answer": "B",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "missingAttributes": {
+          "shape": 2,
+          "fill": "outline"
+        }
+      },
+      "assetDigest": "daaddbec0b7c6d401d2fe4c22579201bd1bdcefbde8d3f7b7473066376569137"
+    },
+    {
+      "id": "focus-figure-059",
+      "family": "traversal",
+      "answer": "C",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "missingAttributes": {
+          "shape": 1,
+          "fill": "solid"
+        }
+      },
+      "assetDigest": "7afcc68771cb37963ae7e3411c9a8826b0bfb9acd0f5c4296b385b617bd426bb"
+    },
+    {
+      "id": "focus-figure-060",
+      "family": "traversal",
+      "answer": "D",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "missingAttributes": {
+          "shape": 0,
+          "fill": "outline"
+        }
+      },
+      "assetDigest": "0cf6e1d8bc6fbb09cf40dfa761e8e8a02666321b0a6e809fbd795a1f91677b56"
+    },
+    {
+      "id": "focus-figure-061",
+      "family": "traversal",
+      "answer": "A",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "missingAttributes": {
+          "shape": 2,
+          "fill": "solid"
+        }
+      },
+      "assetDigest": "a6a4f3f48838dfcae45adac0ac2a890fa5ad0ebda892fe00f1f99826b678f2a6"
+    },
+    {
+      "id": "focus-figure-062",
+      "family": "traversal",
+      "answer": "B",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "missingAttributes": {
+          "shape": 2,
+          "fill": "outline"
+        }
+      },
+      "assetDigest": "d888d13a98a2029f790be1323cadb01e44410d9c33eb141b84ec5a9d4a4c9d2b"
+    },
+    {
+      "id": "focus-figure-063",
+      "family": "traversal",
+      "answer": "C",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "missingAttributes": {
+          "shape": 0,
+          "fill": "dot"
+        }
+      },
+      "assetDigest": "14116df60473dee9c99d6117c753fe270f2546b871660581a7feae0b754e5824"
+    },
+    {
+      "id": "focus-figure-064",
+      "family": "traversal",
+      "answer": "D",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "missingAttributes": {
+          "shape": 1,
+          "fill": "outline"
+        }
+      },
+      "assetDigest": "8ec125e91beb1003878d1f8423de200f68328eb3037bc1b03f32b34aececfeb5"
+    },
+    {
+      "id": "focus-figure-065",
+      "family": "dots",
+      "answer": "A",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "knownCounts": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "expectedCount": 5,
+        "optionCounts": [
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "assetDigest": "9fcea53693a369f58cd2ec7e160c82da98e048d9455e81fb23e994409988aeee"
+    },
+    {
+      "id": "focus-figure-066",
+      "family": "dots",
+      "answer": "B",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "knownCounts": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "expectedCount": 6,
+        "optionCounts": [
+          9,
+          6,
+          8,
+          4
+        ]
+      },
+      "assetDigest": "2ea6499a80b2f6eb8f061be84a55f335d97cd750a733b8e424ba07eb9b79a38a"
+    },
+    {
+      "id": "focus-figure-067",
+      "family": "dots",
+      "answer": "C",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "knownCounts": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "expectedCount": 10,
+        "optionCounts": [
+          12,
+          9,
+          10,
+          8
+        ]
+      },
+      "assetDigest": "c61d19a104f7daf55ad53a2b3fcd268cede0f5d86495a4e08d1d7027902b104e"
+    },
+    {
+      "id": "focus-figure-068",
+      "family": "dots",
+      "answer": "D",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "knownCounts": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "expectedCount": 9,
+        "optionCounts": [
+          12,
+          7,
+          8,
+          9
+        ]
+      },
+      "assetDigest": "bfff21bc9b467d3bfd676a76116878abaf96cc7c536aae9a6e3040f1d720df35"
+    },
+    {
+      "id": "focus-figure-069",
+      "family": "dots",
+      "answer": "A",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "knownCounts": [
+          9,
+          7,
+          5,
+          3
+        ],
+        "expectedCount": 1,
+        "optionCounts": [
+          1,
+          3,
+          4,
+          2
+        ]
+      },
+      "assetDigest": "a6fbdcb8b822b58e012a96ca4928966d762ef9030195ce90e1559290a92e9405"
+    },
+    {
+      "id": "focus-figure-070",
+      "family": "dots",
+      "answer": "B",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "knownCounts": [
+          10,
+          8,
+          6,
+          4
+        ],
+        "expectedCount": 2,
+        "optionCounts": [
+          5,
+          2,
+          1,
+          3
+        ]
+      },
+      "assetDigest": "fe5917b0840896c454a756638cd7b388d123bd568499742c1dc0aa99cf05ef3d"
+    },
+    {
+      "id": "focus-figure-071",
+      "family": "dots",
+      "answer": "C",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "knownCounts": [
+          7,
+          6,
+          5,
+          4
+        ],
+        "expectedCount": 3,
+        "optionCounts": [
+          5,
+          2,
+          3,
+          1
+        ]
+      },
+      "assetDigest": "620dcc406ab13b9a632b65db5ca19f4a6d08607af1d49390c51fc14f511dc185"
+    },
+    {
+      "id": "focus-figure-072",
+      "family": "dots",
+      "answer": "D",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "knownCounts": [
+          8,
+          7,
+          6,
+          5
+        ],
+        "expectedCount": 4,
+        "optionCounts": [
+          5,
+          3,
+          6,
+          4
+        ]
+      },
+      "assetDigest": "bdc18503af649e0f855c0b3e1bb5b83eb4058662270fcb6ce5e19240b908ca2d"
+    },
+    {
+      "id": "focus-figure-073",
+      "family": "lines",
+      "answer": "A",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "knownCounts": [
+          2,
+          2,
+          4,
+          3,
+          2,
+          5,
+          2,
+          4
+        ],
+        "expectedCount": 6,
+        "optionCounts": [
+          6,
+          7,
+          2,
+          5
+        ],
+        "geometryMethod": "disjoint-strokes"
+      },
+      "assetDigest": "1afc6679d337ed8bff9d4d5268e77bf0935dc680a98f3b6fe9d3baa44838aae2"
+    },
+    {
+      "id": "focus-figure-074",
+      "family": "lines",
+      "answer": "B",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "knownCounts": [
+          3,
+          2,
+          5,
+          2,
+          4,
+          6,
+          4,
+          1
+        ],
+        "expectedCount": 5,
+        "optionCounts": [
+          3,
+          5,
+          6,
+          4
+        ],
+        "geometryMethod": "disjoint-strokes"
+      },
+      "assetDigest": "caa1a06a84235b3027406e0cf394a33ba35153b509b186f93c6d4d323e3eb3b6"
+    },
+    {
+      "id": "focus-figure-075",
+      "family": "lines",
+      "answer": "C",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "knownCounts": [
+          1,
+          4,
+          5,
+          3,
+          3,
+          6,
+          2,
+          3
+        ],
+        "expectedCount": 5,
+        "optionCounts": [
+          1,
+          6,
+          5,
+          4
+        ],
+        "geometryMethod": "disjoint-strokes"
+      },
+      "assetDigest": "78cbd7d563eec476161987b7c38283c2ab078abc089dae7f4a84b943595d0bfb"
+    },
+    {
+      "id": "focus-figure-076",
+      "family": "lines",
+      "answer": "D",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "knownCounts": [
+          3,
+          3,
+          6,
+          3,
+          3,
+          6,
+          1,
+          3
+        ],
+        "expectedCount": 4,
+        "optionCounts": [
+          2,
+          5,
+          3,
+          4
+        ],
+        "geometryMethod": "disjoint-strokes"
+      },
+      "assetDigest": "f2f33362035780e33f5611de9fd4eeefc50bb0e623d8841e07bc6117f9d85f69"
+    },
+    {
+      "id": "focus-figure-077",
+      "family": "lines",
+      "answer": "A",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "knownCounts": [
+          2,
+          3,
+          5,
+          2,
+          4,
+          6,
+          2,
+          4
+        ],
+        "expectedCount": 6,
+        "optionCounts": [
+          6,
+          2,
+          7,
+          5
+        ],
+        "geometryMethod": "disjoint-strokes"
+      },
+      "assetDigest": "ce5526b7ce964bc6550d35be85b999d86e8364e71bd380935187cb62d3f48f7c"
+    },
+    {
+      "id": "focus-figure-078",
+      "family": "lines",
+      "answer": "B",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "knownCounts": [
+          3,
+          3,
+          6,
+          2,
+          4,
+          6,
+          1,
+          3
+        ],
+        "expectedCount": 4,
+        "optionCounts": [
+          2,
+          4,
+          3,
+          5
+        ],
+        "geometryMethod": "disjoint-strokes"
+      },
+      "assetDigest": "5242246640348478ddbb53b03529d026b87dff848024d4ed22fe2862b18306eb"
+    },
+    {
+      "id": "focus-figure-079",
+      "family": "lines",
+      "answer": "C",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "knownCounts": [
+          3,
+          2,
+          5,
+          3,
+          2,
+          5,
+          4,
+          1
+        ],
+        "expectedCount": 5,
+        "optionCounts": [
+          3,
+          6,
+          5,
+          4
+        ],
+        "geometryMethod": "disjoint-strokes"
+      },
+      "assetDigest": "39323444e8d5b192cbe2c027ada337635f399696ff98662ae2b01870c71ecbb7"
+    },
+    {
+      "id": "focus-figure-080",
+      "family": "lines",
+      "answer": "D",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "knownCounts": [
+          4,
+          1,
+          5,
+          2,
+          2,
+          4,
+          2,
+          2
+        ],
+        "expectedCount": 4,
+        "optionCounts": [
+          1,
+          3,
+          5,
+          4
+        ],
+        "geometryMethod": "disjoint-strokes"
+      },
+      "assetDigest": "80f8fb3021da1dfbb4e4fbe331e2bd1638e3cab8867e6049038e35bbdf1baed2"
+    },
+    {
+      "id": "focus-figure-081",
+      "family": "regions",
+      "answer": "A",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "knownCounts": [
+          2,
+          4,
+          6,
+          2,
+          3,
+          5,
+          2,
+          2
+        ],
+        "expectedCount": 4,
+        "optionCounts": [
+          4,
+          5,
+          1,
+          3
+        ],
+        "geometryMethod": "planar-Euler-bounded-faces"
+      },
+      "assetDigest": "b615d7b98c4ba6f84cf157e6e926f9929865bf791710b6df1c07478ebc49b3e8"
+    },
+    {
+      "id": "focus-figure-082",
+      "family": "regions",
+      "answer": "B",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "knownCounts": [
+          2,
+          4,
+          6,
+          2,
+          3,
+          5,
+          3,
+          3
+        ],
+        "expectedCount": 6,
+        "optionCounts": [
+          5,
+          6,
+          1,
+          7
+        ],
+        "geometryMethod": "planar-Euler-bounded-faces"
+      },
+      "assetDigest": "5c8f2c69411a292743721485c1aeeb9745eae17e70353ba061c258123a2fd004"
+    },
+    {
+      "id": "focus-figure-083",
+      "family": "regions",
+      "answer": "C",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "knownCounts": [
+          2,
+          3,
+          5,
+          3,
+          3,
+          6,
+          2,
+          4
+        ],
+        "expectedCount": 6,
+        "optionCounts": [
+          7,
+          5,
+          6,
+          2
+        ],
+        "geometryMethod": "planar-Euler-bounded-faces"
+      },
+      "assetDigest": "7d5079b055f9ff7bd728adb957964f750296606c600ffff4bbe394b723d0e976"
+    },
+    {
+      "id": "focus-figure-084",
+      "family": "regions",
+      "answer": "D",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "knownCounts": [
+          3,
+          2,
+          5,
+          3,
+          2,
+          5,
+          2,
+          2
+        ],
+        "expectedCount": 4,
+        "optionCounts": [
+          5,
+          1,
+          3,
+          4
+        ],
+        "geometryMethod": "planar-Euler-bounded-faces"
+      },
+      "assetDigest": "b5bf21869064dc0c283c9d17e66af0278410820d9c22aa613b0cb6020624dcdf"
+    },
+    {
+      "id": "focus-figure-085",
+      "family": "regions",
+      "answer": "A",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "knownCounts": [
+          2,
+          2,
+          4,
+          2,
+          4,
+          6,
+          2,
+          4
+        ],
+        "expectedCount": 6,
+        "optionCounts": [
+          6,
+          5,
+          7,
+          2
+        ],
+        "geometryMethod": "planar-Euler-bounded-faces"
+      },
+      "assetDigest": "a2c390f3be226869da2e70fe3c64713c6bde8a2a2fc582e5a208089a5ea457cd"
+    },
+    {
+      "id": "focus-figure-086",
+      "family": "regions",
+      "answer": "B",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "knownCounts": [
+          2,
+          2,
+          4,
+          2,
+          4,
+          6,
+          2,
+          3
+        ],
+        "expectedCount": 5,
+        "optionCounts": [
+          4,
+          5,
+          6,
+          1
+        ],
+        "geometryMethod": "planar-Euler-bounded-faces"
+      },
+      "assetDigest": "74f705b7ce0c7678b7f16b13d7e4dc79805a2769d52befb6591d8661439d186a"
+    },
+    {
+      "id": "focus-figure-087",
+      "family": "regions",
+      "answer": "C",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "knownCounts": [
+          2,
+          3,
+          5,
+          3,
+          2,
+          5,
+          3,
+          2
+        ],
+        "expectedCount": 5,
+        "optionCounts": [
+          1,
+          6,
+          5,
+          4
+        ],
+        "geometryMethod": "planar-Euler-bounded-faces"
+      },
+      "assetDigest": "e3a889c782e91a657d922055a0f3c2696b1a977ae16eda8ae9b81e1e79f7e409"
+    },
+    {
+      "id": "focus-figure-088",
+      "family": "regions",
+      "answer": "D",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "knownCounts": [
+          2,
+          4,
+          6,
+          2,
+          3,
+          5,
+          3,
+          2
+        ],
+        "expectedCount": 5,
+        "optionCounts": [
+          6,
+          1,
+          4,
+          5
+        ],
+        "geometryMethod": "planar-Euler-bounded-faces"
+      },
+      "assetDigest": "743de6684c24e885c2fd4f4dd7ef3045c2eb0246d0e72322d239867749290b44"
+    },
+    {
+      "id": "focus-figure-089",
+      "family": "symmetry",
+      "answer": "A",
+      "knownPanels": 3,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "knownGeometry": [
+          [
+            [
+              135
+            ],
+            false
+          ],
+          [
+            [
+              0
+            ],
+            false
+          ],
+          [
+            [
+              0
+            ],
+            false
+          ]
+        ],
+        "optionGeometry": [
+          [
+            [
+              90
+            ],
+            false
+          ],
+          [
+            [
+              0,
+              90
+            ],
+            true
+          ],
+          [
+            [
+              0,
+              45,
+              90,
+              135
+            ],
+            true
+          ],
+          [
+            [],
+            false
+          ]
+        ]
+      },
+      "assetDigest": "996e55673832a703eac66beb6c6b8058c171cb326ad21f3a8a2b564219f361b2"
+    },
+    {
+      "id": "focus-figure-090",
+      "family": "symmetry",
+      "answer": "B",
+      "knownPanels": 3,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "knownGeometry": [
+          [
+            [
+              45
+            ],
+            false
+          ],
+          [
+            [
+              45
+            ],
+            false
+          ],
+          [
+            [
+              45
+            ],
+            false
+          ]
+        ],
+        "optionGeometry": [
+          [
+            [
+              0,
+              45,
+              90,
+              135
+            ],
+            true
+          ],
+          [
+            [
+              135
+            ],
+            false
+          ],
+          [
+            [],
+            false
+          ],
+          [
+            [
+              0,
+              90
+            ],
+            true
+          ]
+        ]
+      },
+      "assetDigest": "edf3c62f5d55d69730b0efb9746e6c877f76ce2c64e059aa94c7cbc470e72654"
+    },
+    {
+      "id": "focus-figure-091",
+      "family": "symmetry",
+      "answer": "C",
+      "knownPanels": 3,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "knownGeometry": [
+          [
+            [
+              135
+            ],
+            false
+          ],
+          [
+            [
+              0
+            ],
+            false
+          ],
+          [
+            [
+              90
+            ],
+            false
+          ]
+        ],
+        "optionGeometry": [
+          [
+            [
+              0,
+              90
+            ],
+            true
+          ],
+          [
+            [
+              0,
+              45,
+              90,
+              135
+            ],
+            true
+          ],
+          [
+            [
+              90
+            ],
+            false
+          ],
+          [
+            [],
+            false
+          ]
+        ]
+      },
+      "assetDigest": "6850088e3b5c707a4cb2d902cfbd6015ea7cc9697d3566a2937d6dabe5bd906f"
+    },
+    {
+      "id": "focus-figure-092",
+      "family": "symmetry",
+      "answer": "D",
+      "knownPanels": 3,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "knownGeometry": [
+          [
+            [
+              0
+            ],
+            false
+          ],
+          [
+            [
+              0
+            ],
+            false
+          ],
+          [
+            [
+              90
+            ],
+            false
+          ]
+        ],
+        "optionGeometry": [
+          [
+            [
+              0,
+              90
+            ],
+            true
+          ],
+          [
+            [],
+            false
+          ],
+          [
+            [
+              0,
+              45,
+              90,
+              135
+            ],
+            true
+          ],
+          [
+            [
+              135
+            ],
+            false
+          ]
+        ]
+      },
+      "assetDigest": "03f35e69f844da3785bd31068a13360ea56acf52b4b7611200fdad22c58748a5"
+    },
+    {
+      "id": "focus-figure-093",
+      "family": "symmetry",
+      "answer": "A",
+      "knownPanels": 3,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "knownGeometry": [
+          [
+            [
+              0,
+              90
+            ],
+            true
+          ],
+          [
+            [
+              0,
+              90
+            ],
+            true
+          ],
+          [
+            [
+              0,
+              90
+            ],
+            true
+          ]
+        ],
+        "optionGeometry": [
+          [
+            [
+              0,
+              90
+            ],
+            true
+          ],
+          [
+            [
+              0,
+              45,
+              90,
+              135
+            ],
+            true
+          ],
+          [
+            [
+              135
+            ],
+            false
+          ],
+          [
+            [],
+            false
+          ]
+        ]
+      },
+      "assetDigest": "56fded39260149bec85aa41d5d5727ffcfb84360a01557451e7f6d5da84ad916"
+    },
+    {
+      "id": "focus-figure-094",
+      "family": "symmetry",
+      "answer": "B",
+      "knownPanels": 3,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "knownGeometry": [
+          [
+            [
+              0,
+              90
+            ],
+            true
+          ],
+          [
+            [
+              0,
+              90
+            ],
+            true
+          ],
+          [
+            [
+              0,
+              90
+            ],
+            true
+          ]
+        ],
+        "optionGeometry": [
+          [
+            [
+              135
+            ],
+            false
+          ],
+          [
+            [
+              0,
+              90
+            ],
+            true
+          ],
+          [
+            [
+              0,
+              45,
+              90,
+              135
+            ],
+            true
+          ],
+          [
+            [],
+            false
+          ]
+        ]
+      },
+      "assetDigest": "60204474b4fa4920593b9e6bf6181505b893a91f35672032743e76b39ad6d98e"
+    },
+    {
+      "id": "focus-figure-095",
+      "family": "symmetry",
+      "answer": "C",
+      "knownPanels": 3,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "knownGeometry": [
+          [
+            [],
+            true
+          ],
+          [
+            [],
+            true
+          ],
+          [
+            [],
+            true
+          ]
+        ],
+        "optionGeometry": [
+          [
+            [
+              0
+            ],
+            false
+          ],
+          [
+            [
+              45
+            ],
+            false
+          ],
+          [
+            [],
+            true
+          ],
+          [
+            [],
+            false
+          ]
+        ]
+      },
+      "assetDigest": "b76c78d1b74718d0ef8ee3ca5eb63e7f91e3d5d16d7899c0dd4516cc54933497"
+    },
+    {
+      "id": "focus-figure-096",
+      "family": "symmetry",
+      "answer": "D",
+      "knownPanels": 3,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "knownGeometry": [
+          [
+            [],
+            true
+          ],
+          [
+            [],
+            true
+          ],
+          [
+            [],
+            true
+          ]
+        ],
+        "optionGeometry": [
+          [
+            [
+              0
+            ],
+            false
+          ],
+          [
+            [],
+            false
+          ],
+          [
+            [
+              90
+            ],
+            false
+          ],
+          [
+            [],
+            true
+          ]
+        ]
+      },
+      "assetDigest": "1bfff52e644d7f892e7e7f8cbb72b5a0fd120e03d9b5f7f811e8405b176e8007"
+    },
+    {
+      "id": "focus-figure-097",
+      "family": "closure",
+      "answer": "A",
+      "knownPanels": 3,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "knownClosed": [
+          true,
+          true,
+          true
+        ],
+        "optionClosed": [
+          true,
+          false,
+          false,
+          false
+        ]
+      },
+      "assetDigest": "46d7b65768b0e3cf3bfbfcab6c8a7508ce6bc57072d90596f6977638299cb53e"
+    },
+    {
+      "id": "focus-figure-098",
+      "family": "closure",
+      "answer": "B",
+      "knownPanels": 3,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "knownClosed": [
+          false,
+          false,
+          false
+        ],
+        "optionClosed": [
+          true,
+          false,
+          true,
+          true
+        ]
+      },
+      "assetDigest": "03d4b7b8401b2dfe4cbe8d82b852d5df12dd8e51a37de0f43c44508c56d82647"
+    },
+    {
+      "id": "focus-figure-099",
+      "family": "closure",
+      "answer": "C",
+      "knownPanels": 3,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "knownClosed": [
+          true,
+          true,
+          true
+        ],
+        "optionClosed": [
+          false,
+          false,
+          true,
+          false
+        ]
+      },
+      "assetDigest": "cb0eb3621b02159aaad94b44468dca702b384653098c583e27e9f03e8fdedfb4"
+    },
+    {
+      "id": "focus-figure-100",
+      "family": "closure",
+      "answer": "D",
+      "knownPanels": 3,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "knownClosed": [
+          false,
+          false,
+          false
+        ],
+        "optionClosed": [
+          true,
+          true,
+          true,
+          false
+        ]
+      },
+      "assetDigest": "6dcd009a32218fbea35dc351ef501cd723c025b3f60d83e300069b565c4c8770"
+    },
+    {
+      "id": "focus-figure-101",
+      "family": "closure",
+      "answer": "A",
+      "knownPanels": 3,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "knownClosed": [
+          true,
+          true,
+          true
+        ],
+        "optionClosed": [
+          true,
+          false,
+          false,
+          false
+        ]
+      },
+      "assetDigest": "9724a4d728fdae325e7ddafbe637c825794f583a4a4efe82ce518a41dc288704"
+    },
+    {
+      "id": "focus-figure-102",
+      "family": "closure",
+      "answer": "B",
+      "knownPanels": 3,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "knownClosed": [
+          false,
+          false,
+          false
+        ],
+        "optionClosed": [
+          true,
+          false,
+          true,
+          true
+        ]
+      },
+      "assetDigest": "5cfd7d314bac7794f60ce04269708ee32107e305bf5e862bd5e5c22cea5d14e1"
+    },
+    {
+      "id": "focus-figure-103",
+      "family": "closure",
+      "answer": "C",
+      "knownPanels": 3,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "knownClosed": [
+          true,
+          true,
+          true
+        ],
+        "optionClosed": [
+          false,
+          false,
+          true,
+          false
+        ]
+      },
+      "assetDigest": "ed93eaa407ef59ef0ef9b25dd34c5a1b4043bb26e4a9cc6dec12f00140df180a"
+    },
+    {
+      "id": "focus-figure-104",
+      "family": "closure",
+      "answer": "D",
+      "knownPanels": 3,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "knownClosed": [
+          false,
+          false,
+          false
+        ],
+        "optionClosed": [
+          true,
+          true,
+          true,
+          false
+        ]
+      },
+      "assetDigest": "726ce27827b7df42c48cdd7c268b38d80cd0cfc13ebf2c06c81fad29da431009"
+    },
+    {
+      "id": "focus-figure-105",
+      "family": "rotate-xor",
+      "answer": "A",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "inferredOperation": [
+          1,
+          "xor"
+        ],
+        "expectedCells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      "assetDigest": "e0e2b17780d99d62725139f12d2c391cd7b636b183d1b78d8a9c106f7adc49bc"
+    },
+    {
+      "id": "focus-figure-106",
+      "family": "rotate-xor",
+      "answer": "B",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "inferredOperation": [
+          3,
+          "xor"
+        ],
+        "expectedCells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      },
+      "assetDigest": "636e33687bbae1d1e54b917658267b527d41a49fe9014c10aca422beaa676404"
+    },
+    {
+      "id": "focus-figure-107",
+      "family": "rotate-xor",
+      "answer": "C",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "inferredOperation": [
+          1,
+          "xor"
+        ],
+        "expectedCells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      "assetDigest": "f1a5dba5818bec029e1f68413c16f75f8017316270bff3a5a7da8fb870108772"
+    },
+    {
+      "id": "focus-figure-108",
+      "family": "rotate-xor",
+      "answer": "D",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "inferredOperation": [
+          3,
+          "xor"
+        ],
+        "expectedCells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "assetDigest": "312c6accf2fad477602ad0700cae9b2f26725721546f78d2dcfc326643fcc6ed"
+    },
+    {
+      "id": "focus-figure-109",
+      "family": "rotate-xor",
+      "answer": "A",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "inferredOperation": [
+          1,
+          "xor"
+        ],
+        "expectedCells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "assetDigest": "861a75553112e2cb8cf55f343e63b9430243927fbbdaf1da6a3130c1b5a77197"
+    },
+    {
+      "id": "focus-figure-110",
+      "family": "rotate-xor",
+      "answer": "B",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "inferredOperation": [
+          3,
+          "xor"
+        ],
+        "expectedCells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "assetDigest": "b2fc5fb020fd62513daedda5810c105cc3955f83dc65ae87e20359f90e588c5c"
+    },
+    {
+      "id": "focus-figure-111",
+      "family": "rotate-xor",
+      "answer": "C",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "inferredOperation": [
+          1,
+          "xor"
+        ],
+        "expectedCells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      },
+      "assetDigest": "9f59ebfae811b17639aace0b56dbbec20e518796454a32b7369ad73f71e94597"
+    },
+    {
+      "id": "focus-figure-112",
+      "family": "rotate-xor",
+      "answer": "D",
+      "knownPanels": 8,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "inferredOperation": [
+          3,
+          "xor"
+        ],
+        "expectedCells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "assetDigest": "c42351de5f8083019dba1b501c19a7b23b0fe7d2f167afcab48aab89e8a17bff"
+    },
+    {
+      "id": "focus-figure-113",
+      "family": "motion-count",
+      "answer": "A",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "inferredPositionStep": 1,
+        "inferredCountStep": 1,
+        "expected": {
+          "position": 4,
+          "count": 5
+        }
+      },
+      "assetDigest": "3f7113028807ccc291cda84564e80f6b4aff72a4b40a704ee10cc42ec461c98d"
+    },
+    {
+      "id": "focus-figure-114",
+      "family": "motion-count",
+      "answer": "B",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "inferredPositionStep": 7,
+        "inferredCountStep": 1,
+        "expected": {
+          "position": 4,
+          "count": 5
+        }
+      },
+      "assetDigest": "ea3a6a9ee9206e302acb7f449ae09a95633170deb521f24f0a976430390bcb11"
+    },
+    {
+      "id": "focus-figure-115",
+      "family": "motion-count",
+      "answer": "C",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "inferredPositionStep": 2,
+        "inferredCountStep": 1,
+        "expected": {
+          "position": 5,
+          "count": 5
+        }
+      },
+      "assetDigest": "bea5ef25071bf6c83c847357227f4a484e8060d0bdaaa5a08949e695d47dbfd6"
+    },
+    {
+      "id": "focus-figure-116",
+      "family": "motion-count",
+      "answer": "D",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "inferredPositionStep": 6,
+        "inferredCountStep": 1,
+        "expected": {
+          "position": 0,
+          "count": 5
+        }
+      },
+      "assetDigest": "e8998b6cd61604b673d418f49af3cfb9632ffd21fa7f793a5292b5a08de7c99e"
+    },
+    {
+      "id": "focus-figure-117",
+      "family": "motion-count",
+      "answer": "A",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "A"
+      ],
+      "witness": {
+        "inferredPositionStep": 1,
+        "inferredCountStep": -1,
+        "expected": {
+          "position": 5,
+          "count": 2
+        }
+      },
+      "assetDigest": "f7d14888ac5b8d76851ac49c916eb4eb37530dc7bdb37573e31c195a53691976"
+    },
+    {
+      "id": "focus-figure-118",
+      "family": "motion-count",
+      "answer": "B",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "B"
+      ],
+      "witness": {
+        "inferredPositionStep": 7,
+        "inferredCountStep": -1,
+        "expected": {
+          "position": 4,
+          "count": 2
+        }
+      },
+      "assetDigest": "9d7f6b62970c67a09f95e985de859619665401a61700fc6cda58bae532462614"
+    },
+    {
+      "id": "focus-figure-119",
+      "family": "motion-count",
+      "answer": "C",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "C"
+      ],
+      "witness": {
+        "inferredPositionStep": 2,
+        "inferredCountStep": -1,
+        "expected": {
+          "position": 0,
+          "count": 2
+        }
+      },
+      "assetDigest": "90805222c1ac0ee79175f19b2cb9e5d2e44b83e2dad628c78c730aeeff09a475"
+    },
+    {
+      "id": "focus-figure-120",
+      "family": "motion-count",
+      "answer": "D",
+      "knownPanels": 4,
+      "matchingOptions": [
+        "D"
+      ],
+      "witness": {
+        "inferredPositionStep": 6,
+        "inferredCountStep": -1,
+        "expected": {
+          "position": 5,
+          "count": 2
+        }
+      },
+      "assetDigest": "29e9bc1a12a7c100fcb76c0715b59ec843f3381641698877c090149f626b6a2c"
+    }
+  ]
+}

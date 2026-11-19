@@ -114,7 +114,7 @@ def iter_public_files(root=ROOT):
     bank_manifest = bank / "manifest.json"
     if is_regular_public_file(bank_manifest, root):
         yield bank_manifest
-    for name in ("subjects", "papers"):
+    for name in ("subjects", "papers", "practice"):
         for path in sorted((bank / name).glob("*.json")):
             if is_regular_public_file(path, root):
                 yield path

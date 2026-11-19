@@ -1,0 +1,11 @@
+{
+  "purpose": "仅核对公开教学中的考点分类，不复制例题、数值、解析或外部生成器代码。全部 120 题为原创专项练习，非真题。",
+  "retrievedAt": "2026-11-18",
+  "sources": [
+    {"title": "北京公务员考试行测答题技巧：数字推理实用", "publisher": "中公网校", "url": "https://www.eoffcn.com/kszx/ksjq/12270.html", "usedFor": ["多级差分", "幂次", "分数", "递推", "交错与分组"], "copiedQuestions": 0},
+    {"title": "数字推理--非特征数列", "publisher": "粉笔", "url": "https://www.fenbi.com/page/fenxiaozixundetail/19/178/454668149879808", "usedFor": ["相邻项作差、作商", "多项递推", "将规律代入全部已知项"], "copiedQuestions": 0},
+    {"title": "2012农村信用社行职教材：图形数阵推理", "publisher": "华图教育", "url": "https://hb.huatu.com/xinyongshe/276566.html", "usedFor": ["图阵中固定位置之间的同一算术关系", "行列布局表达"], "copiedQuestions": 0}
+  ],
+  "externalCodeAdopted": false,
+  "externalDatasetAdopted": false
+}
