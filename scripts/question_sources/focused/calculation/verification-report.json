@@ -28,6 +28,13 @@
     "100": 10,
     "10": 12
   },
+  "teaching": {
+    "version": "worked-mental-arithmetic-2",
+    "questions": 180,
+    "displayedIdentities": 473,
+    "residualProofs": 55,
+    "approximationIntervals": 4
+  },
   "nearRoundingBoundary": [
     {
       "id": "focus-calc-070",
@@ -48,7 +55,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-002",
@@ -56,7 +65,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-003",
@@ -64,7 +75,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-004",
@@ -72,7 +85,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-005",
@@ -80,7 +95,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-006",
@@ -88,7 +105,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-007",
@@ -96,7 +115,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-008",
@@ -104,7 +125,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-009",
@@ -112,7 +135,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-010",
@@ -120,7 +145,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-011",
@@ -128,7 +155,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-012",
@@ -136,7 +165,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-013",
@@ -144,7 +175,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-014",
@@ -152,7 +185,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-015",
@@ -160,7 +195,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-016",
@@ -168,7 +205,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-017",
@@ -176,7 +215,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-018",
@@ -184,7 +225,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-019",
@@ -192,7 +235,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-020",
@@ -200,7 +245,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-021",
@@ -208,7 +255,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-022",
@@ -216,7 +265,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-023",
@@ -224,7 +275,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-024",
@@ -232,7 +285,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-025",
@@ -240,7 +295,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-026",
@@ -248,7 +305,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-027",
@@ -256,7 +315,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-028",
@@ -264,7 +325,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-029",
@@ -272,7 +335,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-030",
@@ -280,7 +345,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-031",
@@ -288,7 +355,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-032",
@@ -296,7 +365,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-033",
@@ -304,7 +375,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-034",
@@ -312,7 +385,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-035",
@@ -320,7 +395,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-036",
@@ -328,7 +405,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-037",
@@ -336,7 +415,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-038",
@@ -344,7 +425,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-039",
@@ -352,7 +435,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-040",
@@ -360,7 +445,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-041",
@@ -368,7 +455,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-042",
@@ -376,7 +465,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-043",
@@ -384,7 +475,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-044",
@@ -392,7 +485,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-045",
@@ -400,7 +495,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-046",
@@ -408,7 +505,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-047",
@@ -416,7 +515,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-048",
@@ -424,7 +525,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-049",
@@ -432,7 +535,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-050",
@@ -440,7 +545,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-051",
@@ -448,7 +555,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-052",
@@ -456,7 +565,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-053",
@@ -464,7 +575,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-054",
@@ -472,7 +585,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-055",
@@ -480,7 +595,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-056",
@@ -488,7 +605,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-057",
@@ -496,7 +615,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-058",
@@ -504,7 +625,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-059",
@@ -512,7 +635,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-060",
@@ -520,7 +645,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-061",
@@ -528,7 +655,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-062",
@@ -536,7 +665,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-063",
@@ -544,7 +675,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-064",
@@ -552,7 +685,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-065",
@@ -560,7 +695,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-066",
@@ -568,7 +705,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-067",
@@ -576,7 +715,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-068",
@@ -584,7 +725,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-069",
@@ -592,7 +735,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-070",
@@ -600,7 +745,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-071",
@@ -608,7 +755,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-072",
@@ -616,7 +765,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-073",
@@ -624,7 +775,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-074",
@@ -632,7 +785,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-075",
@@ -640,7 +795,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-076",
@@ -648,7 +805,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-077",
@@ -656,7 +815,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-078",
@@ -664,7 +825,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-079",
@@ -672,7 +835,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-080",
@@ -680,7 +845,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-081",
@@ -688,7 +855,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-082",
@@ -696,7 +865,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-083",
@@ -704,7 +875,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-084",
@@ -712,7 +885,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-085",
@@ -720,7 +895,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-086",
@@ -728,7 +905,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-087",
@@ -736,7 +915,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-088",
@@ -744,7 +925,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-089",
@@ -752,7 +935,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-090",
@@ -760,7 +945,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-091",
@@ -768,7 +955,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-092",
@@ -776,7 +965,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-093",
@@ -784,7 +975,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-094",
@@ -792,7 +985,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-095",
@@ -800,7 +995,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-096",
@@ -808,7 +1005,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-097",
@@ -816,7 +1015,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-098",
@@ -824,7 +1025,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-099",
@@ -832,7 +1035,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-100",
@@ -840,7 +1045,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-101",
@@ -848,7 +1055,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-102",
@@ -856,7 +1065,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-103",
@@ -864,7 +1075,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-104",
@@ -872,7 +1085,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-105",
@@ -880,7 +1095,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-106",
@@ -888,7 +1105,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-107",
@@ -896,7 +1115,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-108",
@@ -904,7 +1125,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-109",
@@ -912,7 +1135,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-110",
@@ -920,7 +1145,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-111",
@@ -928,7 +1155,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-112",
@@ -936,7 +1165,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-113",
@@ -944,7 +1175,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-114",
@@ -952,7 +1185,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-115",
@@ -960,7 +1195,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-116",
@@ -968,7 +1205,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-117",
@@ -976,7 +1215,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-118",
@@ -984,7 +1225,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-119",
@@ -992,7 +1235,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-120",
@@ -1000,7 +1245,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-121",
@@ -1008,7 +1255,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-122",
@@ -1016,7 +1265,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-123",
@@ -1024,7 +1275,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-124",
@@ -1032,7 +1285,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-125",
@@ -1040,7 +1295,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-126",
@@ -1048,7 +1305,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-127",
@@ -1056,7 +1315,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-128",
@@ -1064,7 +1325,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-129",
@@ -1072,7 +1335,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-130",
@@ -1080,7 +1345,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-131",
@@ -1088,7 +1355,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-132",
@@ -1096,7 +1365,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-133",
@@ -1104,7 +1375,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-134",
@@ -1112,7 +1385,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-135",
@@ -1120,7 +1395,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-136",
@@ -1128,7 +1405,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-137",
@@ -1136,7 +1415,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-138",
@@ -1144,7 +1425,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-139",
@@ -1152,7 +1435,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-140",
@@ -1160,7 +1445,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-141",
@@ -1168,7 +1455,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-142",
@@ -1176,7 +1465,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-143",
@@ -1184,7 +1475,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-144",
@@ -1192,7 +1485,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-145",
@@ -1200,7 +1495,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-146",
@@ -1208,7 +1505,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-147",
@@ -1216,7 +1515,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-148",
@@ -1224,7 +1525,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-149",
@@ -1232,7 +1535,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-150",
@@ -1240,7 +1545,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-151",
@@ -1248,7 +1555,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-152",
@@ -1256,7 +1565,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-153",
@@ -1264,7 +1575,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-154",
@@ -1272,7 +1585,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-155",
@@ -1280,7 +1595,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-156",
@@ -1288,7 +1605,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-157",
@@ -1296,7 +1615,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-158",
@@ -1304,7 +1625,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-159",
@@ -1312,7 +1635,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-160",
@@ -1320,7 +1645,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-161",
@@ -1328,7 +1655,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-162",
@@ -1336,7 +1665,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-163",
@@ -1344,7 +1675,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-164",
@@ -1352,7 +1685,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-165",
@@ -1360,7 +1695,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-166",
@@ -1368,7 +1705,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-167",
@@ -1376,7 +1715,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-168",
@@ -1384,7 +1725,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-169",
@@ -1392,7 +1735,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-170",
@@ -1400,7 +1745,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-171",
@@ -1408,7 +1755,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-172",
@@ -1416,7 +1765,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-173",
@@ -1424,7 +1775,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-174",
@@ -1432,7 +1785,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-175",
@@ -1440,7 +1795,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-176",
@@ -1448,7 +1805,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-177",
@@ -1456,7 +1815,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-178",
@@ -1464,7 +1825,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-179",
@@ -1472,7 +1835,9 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     },
     {
       "id": "focus-calc-180",
@@ -1480,8 +1845,10 @@
       "shortcutEquivalent": true,
       "decimalMatchesFraction": true,
       "roundingBounds": true,
-      "uniqueCorrectOption": true
+      "uniqueCorrectOption": true,
+      "workedArithmetic": true,
+      "explanationHashMatches": true
     }
   ],
-  "sha256": "dfffbdeabbd926e238f2bd81220828e08e5273cd7410b9bc5786bbfa5ece9f0b"
+  "sha256": "af7a1c79309c4421346a21fb9d810355a688f2fa37e9fd3f0f12bcfb6aa4b921"
 }

@@ -35,6 +35,46 @@ def to_decimal(value):
     f=Fraction(value)
     return D(f.numerator)/D(f.denominator)
 
+
+def verify_teaching(question):
+    """Verify the displayed worked arithmetic, residuals and error intervals."""
+    proof=question['verification'].get('teaching')
+    assert proof and proof['version']=='worked-mental-arithmetic-2',question['id']
+    blocks=question['explanationBlocks']; content='\n'.join(b['text'] for b in blocks)
+    assert len(blocks)==5 and all(b['text'].startswith('**'+title+'**') for b,title in zip(blocks,['切入点','口算步骤','精度检查','易错提醒','下次这样用']))
+    assert hashlib.sha256(json.dumps(blocks,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==proof['explanationSha256']
+    assert proof['identities'],question['id']
+    with localcontext() as context:
+        context.prec=120; tolerance=D('1e-100')
+        for identity in proof['identities']:
+            assert identity['text'] in content,(question['id'],'missing displayed identity')
+            assert abs(decimal_eval(identity['expression'])-to_decimal(identity['result']))<tolerance
+            left,right=identity['text'].split('＝')
+            assert abs(decimal_eval(parse_display(left))-decimal_eval(parse_display(right)))<tolerance,(question['id'],identity['text'])
+        for estimate in proof['estimates']:
+            assert estimate['text'] in content
+            left,right=estimate['text'].split('≈'); quantum=to_decimal(estimate['unit'])
+            expected=(decimal_eval(parse_display(left))/quantum).quantize(D(1),rounding=ROUND_HALF_UP)*quantum
+            assert expected==decimal_eval(parse_display(right))==to_decimal(estimate['result'])
+        for comparison in proof['comparisons']:
+            assert comparison['text'] in content
+            a,b=decimal_eval(comparison['left']),decimal_eval(comparison['right'])
+            relation=comparison['relation']
+            assert (a<b if relation=='<' else a>=b if relation=='>=' else a<=b)
+            left,right=comparison['text'].split({'<':'＜','>=':'≥','<=':'≤'}[relation])
+            assert abs(decimal_eval(parse_display(left))-a)<tolerance
+            assert abs(decimal_eval(parse_display(right))-b)<tolerance
+        if 'division' in proof:
+            v=proof['division']; a,b,q,r,u=(Fraction(v[k]) for k in ('numerator','denominator','truncated','remainder','unit'))
+            assert a==b*q+r and 0<=r<b*u
+        if 'approximation' in proof:
+            v=proof['approximation']; x,rate,r0=(Fraction(v[k]) for k in ('current','rate','referenceRate'))
+            exact=x*rate/(1+rate); approx=x*r0/(1+r0)
+            assert abs(exact-approx)<Fraction(v['bound'])
+            assert Fraction(v['lower'])<=exact<=Fraction(v['upper'])
+            assert Fraction(v['roundingLower'])<=Fraction(v['lower'])<Fraction(v['upper'])<Fraction(v['roundingUpper'])
+    return len(proof['identities'])
+
 def verify_all(questions):
     assert len(questions)==180
     assert len({q['id'] for q in questions})==180
@@ -47,6 +87,7 @@ def verify_all(questions):
         context.prec=120
         tolerance=D('1e-105')
         for q in questions:
+            verify_teaching(q)
             v=q['verification']; dp=v['precision']; percent=v['outputFormat']=='percentage'
             display_result=decimal_eval(parse_display(v['displayExpression']))
             if percent: display_result*=100
@@ -92,12 +133,17 @@ def verify_all(questions):
             distance=min(abs(rational-(rounded_rational-half)),abs(rational-(rounded_rational+half)))
             if distance<half/10: boundary.append(dict(id=q['id'],distanceToBoundary=str(distance),halfUnit=str(half)))
             checks.append(dict(id=q['id'],displayMatchesExact=True,shortcutEquivalent=True,
-                decimalMatchesFraction=True,roundingBounds=True,uniqueCorrectOption=True))
+                decimalMatchesFraction=True,roundingBounds=True,uniqueCorrectOption=True,
+                workedArithmetic=True,explanationHashMatches=True))
     return dict(total=180,countsBySkill=dict(Counter(q['skillTitle'] for q in questions)),
         countsByDifficulty=dict(Counter(q['difficulty'] for q in questions)),
         countsByAnswer=dict(Counter(q['answer'] for q in questions)),
         percentOutputCount=sum(q['verification']['outputFormat']=='percentage' for q in questions),
         countsByRoundingUnit=dict(Counter(q['verification']['roundingUnit'] for q in questions)),
+        teaching=dict(version='worked-mental-arithmetic-2',questions=len(questions),
+            displayedIdentities=sum(len(q['verification']['teaching']['identities']) for q in questions),
+            residualProofs=sum('division' in q['verification']['teaching'] for q in questions),
+            approximationIntervals=sum('approximation' in q['verification']['teaching'] for q in questions)),
         nearRoundingBoundary=boundary,unresolved=[],checks=checks)
 
 if __name__=='__main__':

@@ -619,6 +619,14 @@ for (const id of ["numbers","figures","calculation"]) {
     const session=Object.values(h.progress().sessions)[0];
     assert.equal(session.answers[first.id].status,"correct");
     assert.ok(h.root.querySelector("#drill-explanation").innerHTML.includes(Rich.render(first.sourceAnswer.explanationBlocks)));
+    if(id==="calculation") {
+      const explanation=h.root.querySelector("#drill-explanation").innerHTML;
+      assert.match(explanation,/答案与速算解析/);
+      assert.match(explanation,/<summary>速算讲解/);
+      for(const label of ["切入点","口算步骤","精度检查","易错提醒","下次这样用"]) {
+        assert.ok(explanation.includes(`<strong>${label}</strong>`));
+      }
+    }
     if(id==="figures") {
       assert.match(h.text(),/开放题库改编（非真题）/);
       assert.match(h.root.querySelector("#drill-explanation").innerHTML,/GPL-3.0/);

@@ -1,5 +1,6 @@
 """Check the actual published supplemental bank and its audited assets."""
 import hashlib
+import copy
 import importlib.util
 import json
 from pathlib import Path
@@ -78,6 +79,40 @@ class FocusedPracticeTests(unittest.TestCase):
             self.assertEqual(q['source']['license'], 'GPL-3.0')
             self.assertTrue(q['source']['sourceCodeUrl'].endswith('/omib'))
             self.assertTrue(q['source']['adaptationNote'])
+
+    def test_calculation_rejects_wrong_worked_arithmetic_even_with_a_new_hash(self):
+        verifier = load('calculation_teaching_negative_test', SOURCE / 'calculation/verify.py')
+        question = read(SOURCE / 'calculation.reviewed.json')[0]
+        proof = question['verification']['teaching']
+        old = proof['identities'][0]['text']
+        proof['identities'][0]['text'] = old.split('＝')[0] + '＝999'
+        for block in question['explanationBlocks']:
+            block['text'] = block['text'].replace(old, proof['identities'][0]['text'])
+        proof['explanationSha256'] = hashlib.sha256(json.dumps(
+            question['explanationBlocks'], ensure_ascii=False, sort_keys=True).encode()).hexdigest()
+        with self.assertRaises(AssertionError):
+            verifier.verify_teaching(question)
+
+    def test_calculation_rejects_wrong_residuals_and_unsafe_approximation_bounds(self):
+        verifier = load('calculation_rounding_negative_test', SOURCE / 'calculation/verify.py')
+        questions = read(SOURCE / 'calculation.reviewed.json')
+        questions[84]['verification']['teaching']['division']['remainder'] = '0'
+        questions[153]['verification']['teaching']['approximation']['roundingUpper'] = '3900'
+        for question in (questions[84], questions[153]):
+            with self.subTest(id=question['id']), self.assertRaises(AssertionError):
+                verifier.verify_teaching(question)
+
+    def test_teaching_regeneration_is_repeatable_and_preserves_problem_and_answer(self):
+        teacher = load('calculation_teaching_test', SOURCE / 'calculation/teaching.py')
+        questions = read(SOURCE / 'calculation.reviewed.json')
+        originals = copy.deepcopy(questions)
+        teacher.enrich_questions(questions)
+        self.assertEqual(questions, originals)
+        for question in questions:
+            hint = question['verification'].pop('teaching')['originalHint']
+            question['explanationBlocks'] = [{'type': 'paragraph', 'text': hint}]
+        teacher.enrich_questions(questions)
+        self.assertEqual(questions, originals)
 
 
 if __name__ == '__main__':

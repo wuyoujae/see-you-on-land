@@ -1,4 +1,4 @@
-# 180 道资料速算候选审核
+# 180 道资料速算审核
 
 ID：`focus-calc-001` 至 `focus-calc-180`。全部 `kind: calculation`，明确标记原创速算练习、非真题。题干只包含数字算式、精度和必要的结果格式说明，没有背景材料。所有题 `verification.status: passed`。
 
@@ -47,4 +47,16 @@ python -X utf8 scripts/question_sources/focused/calculation/generate.py
 python -X utf8 scripts/question_sources/focused/calculation/verify.py
 ```
 
-交付：`candidates.json`、`generate.py`、`verify.py`、`verification-report.json`、`review-all.md`、`sources.json`。候选 JSON 使用 LF 行尾，文件 SHA256 与报告一致。未修改生产数据、Git 或部署。未解决异常为空。
+生成器输出 `candidates.json` 供审核；审核后的发布源为上一级 `calculation.reviewed.json`，由 `scripts/build_focused_practice.py` 转换成浏览器数据。报告 SHA256 对应该文件的 LF 字节。未解决异常为空。
+
+## 2026-11-18 速算讲解复核
+
+180 道解析全部改为五段：切入点、口算步骤、精度检查、易错提醒、下次这样用。`teaching.py` 保留原题、答案和精度，只扩充教学解析。展示内容为静态题库解析，提交后直接出现，无需 AI 配置。
+
+- 加减、乘法按具体数字讲清凑整、补偿方向及分数转换，避免只写方法名称。
+- 除法从整倍数逐档补商；不把完整答案预先当作试乘起点。粗估只帮助定位，最终以原数余量比较半个末位，避免连续舍入。整除时立即停止。
+- 近似百分数明确补偿方向；基期整百用试乘误差判断落档，增长量整十用原分式余数直接判断。
+- 四道近似增长量题同时检查误差方向、误差上界和完整舍入区间，不能将相同舍入结果误当成公式恒等。
+- 比重区分小数、百分数数值和百分点；加权平均解释为什么用高值组占比补差。
+
+独立验证器从实际展示文字重新解析 473 个计算等式，另核对估算式、大小比较、55 份余数重构证据及 4 个近似误差区间。生成使用精确有理数，复算使用 120 位 Decimal。解析摘要与核验记录绑定；负向测试故意改错展示算式、余数、误差界，确认会拒绝错误。重复生成结果一致，题目 ID、题干、答案、难度、精度保持不变。已有作答记录继续有效，内容 revision 更新使 AI 缓存按新解析重新计算。

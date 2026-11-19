@@ -314,6 +314,8 @@ add('share-average','((1+13.6/100)/(1+4.8/100)-1)*100',
 
 def main():
     from verify import verify_all
+    from teaching import enrich_questions
+    enrich_questions(QUESTIONS)
     report=verify_all(QUESTIONS)
     for q in QUESTIONS: q['verification']['status']='passed'
     content=json.dumps(QUESTIONS,ensure_ascii=False,indent=2)+'\n'
