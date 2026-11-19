@@ -223210,11 +223210,11 @@
       "keywords": [
         {
           "name": "习近平",
-          "count": 31
+          "count": 38
         },
         {
           "name": "共同体",
-          "count": 9
+          "count": 10
         },
         {
           "name": "经济",
@@ -223231,10 +223231,26 @@
       ],
       "articles": [
         {
-          "id": "c602ecbec902e1",
+          "id": "793e12b8a2e3e3",
+          "source": "中国政府网",
+          "title": "习近平主持亚太经合组织第三十三次领导人非正式会议",
+          "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086658.htm",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
+          "id": "3af29851f37c67",
           "source": "中国政府网",
           "title": "习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话",
-          "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086623.htm",
+          "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086665.htm",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
+          "id": "ce52a4a9c8d5f5",
+          "source": "中国政府网",
+          "title": "习近平对老龄工作作出重要指示强调 深入实施积极应对人口老龄化国家战略 努力让老年人的生活更加幸福美满 李强出席全国老龄工作会议并讲话",
+          "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086661.htm",
           "date": "2026-11-19",
           "keyword": "习近平"
         },
@@ -223375,6 +223391,22 @@
           "keyword": "习近平"
         },
         {
+          "id": "19324ea2e18f04",
+          "source": "学习强国",
+          "title": "携手并进 促进亚太共同繁荣——习近平主席在2026年亚太经合组织工商领导人峰会上的主旨演讲凝聚信心指引方向",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=15639140873338400982&item_id=15639140873338400982",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
+          "id": "099ff70b3d893d",
+          "source": "学习强国",
+          "title": "携手建设亚太共同体 促进亚太共同繁荣——习近平主席在亚太经合组织工商领导人峰会上的主旨演讲引发热烈反响",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=11219826039444300019&item_id=11219826039444300019",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
           "id": "58707506ad302d",
           "source": "广东发布",
           "title": "习近平会见俄罗斯总统普京",
@@ -223399,6 +223431,14 @@
           "keyword": "习近平"
         },
         {
+          "id": "abf4309d351940",
+          "source": "广东发布",
+          "title": "习近平在亚太经合组织第三十三次领导人非正式会议上的讲话（全文）",
+          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4982278.html",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
           "id": "502a34855a9e15",
           "source": "广东发布",
           "title": "习近平迎接美国总统特朗普",
@@ -223415,18 +223455,26 @@
           "keyword": "习近平"
         },
         {
-          "id": "25a32b0b6fc8b4",
+          "id": "6b73e197761bc5",
           "source": "新华社",
-          "title": "习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话",
-          "url": "https://www.news.cn/politics/leaders/20261119/51f8ce473b174de78cdf4439c786dfe4/c.html",
+          "title": "习近平主持亚太经合组织第三十三次领导人非正式会议",
+          "url": "https://www.news.cn/politics/leaders/20261119/15b548cd7a454884902d6e14d14c5778/c.html",
           "date": "2026-11-19",
           "keyword": "习近平"
         },
         {
-          "id": "7116d763841c7b",
+          "id": "cb4db2382f5e96",
           "source": "新华社",
-          "title": "习近平在亚太经合组织第三十三次领导人非正式会议上的讲话（全文）",
-          "url": "https://www.news.cn/politics/leaders/20261119/2d8b36bbb84e40908535853aaf21ff7a/c.html",
+          "title": "习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话",
+          "url": "https://www.news.cn/politics/leaders/20261119/b7cba8b666b44bf6bf8000bf4cee45ef/c.html",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
+          "id": "b2fc5d9e63c0b7",
+          "source": "新华社",
+          "title": "习近平对老龄工作作出重要指示",
+          "url": "https://www.news.cn/politics/leaders/20261119/eadb6a1409194b4794ac9c4ea852bc21/c.html",
           "date": "2026-11-19",
           "keyword": "习近平"
         },
@@ -223459,6 +223507,14 @@
           "source": "求是",
           "title": "习近平在亚太经合组织第三十三次领导人非正式会议上的讲话（全文）",
           "url": "https://www.qstheory.cn/20261119/4b62a903f0ce4e89adfb9491cab342f7/c.html",
+          "date": "2026-11-19",
+          "keyword": "习近平"
+        },
+        {
+          "id": "34cf719194a2bb",
+          "source": "求是",
+          "title": "习近平对老龄工作作出重要指示",
+          "url": "https://www.qstheory.cn/20261119/1312aaa229244f998dc11ec4b2d485e7/c.html",
           "date": "2026-11-19",
           "keyword": "习近平"
         },
@@ -223817,7 +223873,7 @@
         {
           "id": "edaa2c5ebfb494",
           "source": "南方周末",
-          "title": "深圳之约：“APEC的作用从未如此关键” 不同的需要，由此汇入同一个会场。 “APEC进程的巧妙之处，在于即使部分成员暂时不愿参与，仍能为合作开辟前进的道路。” 天下 13小时前",
+          "title": "深圳之约：“APEC的作用从未如此关键” 不同的需要，由此汇入同一个会场。 “APEC进程的巧妙之处，在于即使部分成员暂时不愿参与，仍能为合作开辟前进的道路。” 天下 16小时前",
           "url": "https://www.infzm.com/contents/345134?source=133&source_1=998",
           "date": "2026-11-19",
           "keyword": "综合时政"
@@ -223843,6 +223899,22 @@
           "source": "学习强国",
           "title": "和音：回答时代课题 共创光明未来",
           "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=10544813516420575433&item_id=10544813516420575433",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "64deb8298eb24c",
+          "source": "学习强国",
+          "title": "商务部就实质性完成中韩自贸协定第二阶段谈判有关情况答记者问",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=3611423668319282078&item_id=3611423668319282078",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e52aa0449a99f3",
+          "source": "学习强国",
+          "title": "国家能源局有关负责同志就《关于加快推动流域水风光一体化发展的指导意见》答记者问",
+          "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=6266669919425598473&item_id=6266669919425598473",
           "date": "2026-11-19",
           "keyword": "综合时政"
         },
@@ -223907,6 +223979,14 @@
           "source": "新华社",
           "title": "三峡红叶正红时",
           "url": "https://www.news.cn/photo/20261119/eac4ddcf0e684668b91140f23da4beaa/c.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0817322b166a2a",
+          "source": "新华社",
+          "title": "中国图书亮相第49届科威特国际书展",
+          "url": "https://www.news.cn/world/20261119/8eb8612f28b4402b8629d2b884dd973a/c.html",
           "date": "2026-11-19",
           "keyword": "综合时政"
         },
@@ -224015,14 +224095,6 @@
           "keyword": "综合时政"
         },
         {
-          "id": "27a9ff3e9150e7",
-          "source": "新华社",
-          "title": "历经近50年 美探测器飞离地球一光日",
-          "url": "https://www.news.cn/tech/20261119/fc6b1bb9732f40aabf399c43744b5842/c.html",
-          "date": "2026-11-19",
-          "keyword": "综合时政"
-        },
-        {
           "id": "2ac16dbf382686",
           "source": "新华社",
           "title": "叶连平老师走了 他曾说，希望自己最后一口气是在讲台上呼出去的",
@@ -224063,10 +224135,10 @@
           "keyword": "综合时政"
         },
         {
-          "id": "1bcda45e9bb60e",
+          "id": "f679ed98f5c777",
           "source": "新华社",
           "title": "国际金价跌破3800美元",
-          "url": "https://www.news.cn/fortune/20261119/fe597c8952b6419c89b38f5b13553d26/c.html",
+          "url": "https://www.news.cn/fortune/20261119/1229f072f23047ee8fbb4add5c1b8a16/c.html",
           "date": "2026-11-19",
           "keyword": "综合时政"
         },
@@ -224111,6 +224183,14 @@
           "keyword": "综合时政"
         },
         {
+          "id": "94eda8377632ef",
+          "source": "新华社",
+          "title": "工信部同意：8个省（市）开展6G创新发展部省协同试点工作",
+          "url": "https://www.news.cn/info/20261119/7aff15e582534093834ec4c2868cfb54/c.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "fc4a52574d30cb",
           "source": "新华社",
           "title": "我国已知年代最晚直立人化石在广西发现",
@@ -224127,10 +224207,42 @@
           "keyword": "综合时政"
         },
         {
+          "id": "8c6995c2e8b407",
+          "source": "新华社",
+          "title": "收官！神秘水星21日将迎今年最后一次大距",
+          "url": "https://www.news.cn/tech/20261119/d6169b72a34840e2ae3eba81170bd3b9/c.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "36b3365baeaada",
+          "source": "新华社",
+          "title": "新一轮国资国企改革实施 国资委：防止“救助型”并购",
+          "url": "https://www.news.cn/fortune/20261119/673cb5d658824bb183e6033c6cbfa0cf/c.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6cafe6cd61b0b0",
+          "source": "新华社",
+          "title": "沈仲文：海纳百川汇而成势 潮涌亚太合则致远",
+          "url": "https://www.news.cn/politics/20261119/7c8ac64299414158be018fe16f02296b/c.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "caf9a136fbf672",
           "source": "新华社",
           "title": "海南推行“交海即交证” 用海获批当天领证",
           "url": "https://www.news.cn/government/20261119/489883dbc29b4f5bb23909f1f166a2e3/c.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "960cf24d94b837",
+          "source": "新华社",
+          "title": "第28届哈尔滨冰雪大世界造雪工作启动",
+          "url": "https://www.news.cn/photo/20261119/d9e43646235146b2ba75c24f7c460d87/c.html",
           "date": "2026-11-19",
           "keyword": "综合时政"
         },
@@ -224167,6 +224279,22 @@
           "keyword": "综合时政"
         },
         {
+          "id": "1d64132f7bf3d3",
+          "source": "新华社",
+          "title": "走进民企看发展丨向“新”而行 国产海洋装备挺进深蓝",
+          "url": "https://www.news.cn/20261119/8024cd031e6e4830ab4dcafea0679c68/c.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0723c175030d9e",
+          "source": "新华社",
+          "title": "雨林起长歌——中国热带雨林保护的“海南样板”",
+          "url": "https://www.news.cn/politics/20261119/476efd904afe4e36853427b6387f77a2/c.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
+        },
+        {
           "id": "dc17f4c07b6989",
           "source": "新华社",
           "title": "高端农机驶向全链自主可控",
@@ -224195,14 +224323,6 @@
           "source": "求是",
           "title": "中国向全球工商界发出合作“邀请函”",
           "url": "https://www.qstheory.cn/20261119/c6cbb93f056244c8b34f6410c4bb51a8/c.html",
-          "date": "2026-11-19",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "f817774c4ccb82",
-          "source": "求是",
-          "title": "习主席向全球工商界阐释中国机遇新内涵",
-          "url": "https://www.qstheory.cn/20261119/bbbef61768124f8287d617d68c1986ea/c.html",
           "date": "2026-11-19",
           "keyword": "综合时政"
         },
@@ -224237,6 +224357,14 @@
           "url": "https://www.qstheory.cn/20261119/11f396eb7bb14a0793611c4596ba7557/c.html",
           "date": "2026-11-19",
           "keyword": "综合时政"
+        },
+        {
+          "id": "895e7cd4cb9b33",
+          "source": "求是",
+          "title": "携手共创亚太光明未来",
+          "url": "https://www.qstheory.cn/20261119/747f78020fa7487e87214d8bb907232e/c.html",
+          "date": "2026-11-19",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -224244,65 +224372,65 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 9.8,
+          "duration": 13.5,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261119.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 20,
-          "duration": 2.6
+          "duration": 4.1
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 47,
-          "duration": 2.0
+          "count": 55,
+          "duration": 1.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 14,
-          "duration": 16.2
+          "duration": 20.4
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 13,
-          "duration": 6.1
+          "count": 14,
+          "duration": 5.9
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 17,
-          "duration": 1.7
+          "duration": 1.6
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 1,
-          "duration": 15.1
+          "duration": 13.1
         },
         {
           "source": "学习强国",
           "status": "ok",
-          "count": 6,
-          "duration": 2.3
+          "count": 10,
+          "duration": 2.6
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 4,
-          "duration": 6.9
+          "count": 6,
+          "duration": 9.0
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 4,
-          "duration": 65.0
+          "count": 5,
+          "duration": 75.9
         }
       ]
     }
   ],
-  "generatedAt": "2026-11-19T11:00:42+08:00"
+  "generatedAt": "2026-11-19T13:30:17+08:00"
 }
