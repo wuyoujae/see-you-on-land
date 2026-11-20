@@ -227139,7 +227139,562 @@
           "duration": 85.5
         }
       ]
+    },
+    {
+      "date": "2026-11-21",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 9
+        }
+      ],
+      "articles": [
+        {
+          "id": "d593ebb7211ba3",
+          "source": "人民日报",
+          "title": "习近平主席的深圳APEC时间",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192356.html",
+          "date": "2026-11-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "c851c07b3d1ed5",
+          "source": "光明日报",
+          "title": "习近平会见印度尼西亚总统普拉博沃",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30868.html",
+          "date": "2026-11-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "54e7a067c6a60d",
+          "source": "光明日报",
+          "title": "习近平会见新加坡总理黄循财",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30870.html",
+          "date": "2026-11-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "fc177f7b240265",
+          "source": "光明日报",
+          "title": "习近平会见泰国总理阿努廷",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30871.html",
+          "date": "2026-11-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "c670704ab5d475",
+          "source": "光明日报",
+          "title": "习近平会见澳大利亚总理阿尔巴尼斯",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30869.html",
+          "date": "2026-11-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "cd6f790dde0497",
+          "source": "光明日报",
+          "title": "习近平会见马来西亚总理安瓦尔",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30872.html",
+          "date": "2026-11-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "0d38dc5ca54600",
+          "source": "新华社",
+          "title": "“像大鹏一样展翅高飞、鹏程万里” ——习近平主席出席亚太经合组织深圳会议及相关活动纪实",
+          "url": "https://www.news.cn/20261121/c36294a9541e4115bfe5573ff284624e/c.html",
+          "date": "2026-11-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "c84e8b7d8ac17d",
+          "source": "新华社",
+          "title": "习近平主席APEC深圳会议期间系列重要讲话引发全球热烈反响",
+          "url": "https://www.news.cn/politics/leaders/20261121/c1b48e97274d41e48cf0844fd3e0941a/c.html",
+          "date": "2026-11-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "c27fe8051ef5c8",
+          "source": "新华社",
+          "title": "习近平主席深圳之行",
+          "url": "https://www.news.cn/politics/leaders/20261121/0ca26d747f944e46b2ce0ba1a7b69563/c.html",
+          "date": "2026-11-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "a0f8a98a6ae411",
+          "source": "人民日报",
+          "title": "2026“看中国 听世界”论坛举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192364.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ad853f87e23e3f",
+          "source": "人民日报",
+          "title": "ńŞüŔľŤšąąň░ćŔ«┐ÚŚ«Šľ░ňŐáňŁíň╣ÂńŞ╗ŠîüńŞşŠľ░ňĆîŔż╣ňÉłńŻťŠť║ňłÂń╝ÜŔ««",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192355.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8649daa4970d31",
+          "source": "人民日报",
+          "title": "ń╣áŔ┐Ĺň╣│ń╝ÜŔžüÚęČŠŁąŔą┐ń║ÜŠÇ╗šÉćň«ëšôŽň░ö",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192352.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a94318d61d6b8d",
+          "source": "人民日报",
+          "title": "ń╣áŔ┐Ĺň╣│ń╝ÜŔžüňŹ░ň║Žň░╝Ŕą┐ń║ÜŠÇ╗š╗čŠÖ«ŠőëňŹÜŠ▓â",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192348.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "66dda62194bd51",
+          "source": "人民日报",
+          "title": "ń╣áŔ┐Ĺň╣│ń╝ÜŔžüŠľ░ňŐáňŁíŠÇ╗šÉćÚ╗äňż¬Ŕ┤ó",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192350.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "095943ea0e2009",
+          "source": "人民日报",
+          "title": "ń╣áŔ┐Ĺň╣│ń╝ÜŔžüŠż│ňĄžňłęń║ÜŠÇ╗šÉćÚś┐ň░öňĚ┤ň░╝Šľ»",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192349.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e6f2a605a3a592",
+          "source": "人民日报",
+          "title": "ń╣áŔ┐Ĺň╣│ń╝ÜŔžüŠ│░ňŤŻŠÇ╗šÉćÚś┐ňŐ¬ň╗Ě",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192351.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4866986fc3a864",
+          "source": "人民日报",
+          "title": "ŔÁÁń╣ÉÚÖůń╝ÜŔžüŠż│ňĄžňłęń║ÜŠÇ╗šÉćÚś┐ň░öňĚ┤ň░╝Šľ»",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192354.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "deed1e45694f37",
+          "source": "人民日报",
+          "title": "ŠŁÄň╝║ňÉîŠż│ňĄžňłęń║ÜŠÇ╗šÉćÚś┐ň░öňĚ┤ň░╝Šľ»ńŞżŔíîšČČňŹüńŞÇŔŻ«ńŞşŠż│ŠÇ╗šÉćň╣┤ň║Žń╝ÜŠÖĄ",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192353.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c6c4313bc5dedc",
+          "source": "人民日报",
+          "title": "“中国好医生、中国好护士”走进河南现场交流活动举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192376.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fb94745bbadf66",
+          "source": "人民日报",
+          "title": "“我们把彼此视为重要合作伙伴”（APEC中国年：开放 创新 合作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192361.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fbabfde1257d69",
+          "source": "人民日报",
+          "title": "“网络文明大讲堂·数字里的文化遗产”专场活动举办",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192375.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d6f2b13bbd087a",
+          "source": "人民日报",
+          "title": "中澳总理年度会晤联合成果声明",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192359.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a940fd95bb556e",
+          "source": "人民日报",
+          "title": "全国人大常委会办公厅对新任县级人大常委会主任开展履职培训",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192368.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9f150daa597192",
+          "source": "人民日报",
+          "title": "刘国中会见国际合作社联盟主席加尔科",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192362.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f6fceeed289f17",
+          "source": "人民日报",
+          "title": "努力让老年人的生活更加幸福美满",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192357.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dc39a0bdb020d1",
+          "source": "人民日报",
+          "title": "同在一条船上，就要有“共同体意识”（人民论坛）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192367.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "585afe84179547",
+          "source": "人民日报",
+          "title": "张国清出席国际丝绸组织成立大会并致辞",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192366.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fecbc35e17308c",
+          "source": "人民日报",
+          "title": "扛起大国责任，共同为世界和平托底（钟声）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192360.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e9862f12997f4d",
+          "source": "人民日报",
+          "title": "李强同澳大利亚总理阿尔巴尼斯举行第十一轮中澳总理年度会晤",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192378.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e641b7b00b4dd3",
+          "source": "人民日报",
+          "title": "李强同澳大利亚总理阿尔巴尼斯共同出席第九届中澳工商界首席执行官圆桌会",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192358.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0bc200d1527a79",
+          "source": "人民日报",
+          "title": "王勇会见参加“红色研学之旅”云南行的中越青年代表并出席越南—中国西南地区发展战略对接论坛",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192363.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4d23a6aeaf5274",
+          "source": "人民日报",
+          "title": "第三届兰花奖颁奖典礼在京举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192365.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1dacb06ca145d1",
+          "source": "人民日报",
+          "title": "财政部在香港成功发行美元主权债券",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192369.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f5549f86ce714f",
+          "source": "光明日报",
+          "title": "2026世界计算大会在湖南长沙举办",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30877.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "737a357b843d55",
+          "source": "光明日报",
+          "title": "2026集美·阿尔勒影像艺术季在厦门启幕",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30878.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b53f056c9e9ea3",
+          "source": "光明日报",
+          "title": "“中国好医生、中国好护士”走进河南现场交流活动举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30879.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1e19dcf6fdb77c",
+          "source": "光明日报",
+          "title": "“像大鹏一样展翅高飞、鹏程万里”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30873.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "714a4e64bc8025",
+          "source": "光明日报",
+          "title": "“词元”等入选年度学科研究前沿热点词",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30886.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c92fc159876ef7",
+          "source": "光明日报",
+          "title": "丁薛祥将访问新加坡并主持中新双边合作机制会议",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30856.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d3628661ec2821",
+          "source": "光明日报",
+          "title": "不拼算力拼思路",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30875.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e6565e2dbf249e",
+          "source": "光明日报",
+          "title": "为粤港澳大湾区培育更多中医药人才",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30880.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "088c63d2a56574",
+          "source": "光明日报",
+          "title": "云南：河湖长制守护“一江清水”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30888.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5222bdf2ea55ee",
+          "source": "光明日报",
+          "title": "南京大学图书馆：当古籍走出库房走近学子",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30876.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7cc2617bbadfb2",
+          "source": "光明日报",
+          "title": "广西来宾：桂中乡村气象新",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30889.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "16c0794e75b697",
+          "source": "光明日报",
+          "title": "李强同澳大利亚总理阿尔巴尼斯举行第十一轮中澳总理年度会晤",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30853.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a576fef05beadf",
+          "source": "光明日报",
+          "title": "李强同澳大利亚总理阿尔巴尼斯共同出席第九届中澳工商界首席执行官圆桌会",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30854.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0ad476ab13de58",
+          "source": "光明日报",
+          "title": "江西上犹：农旅融合蕴和美",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30890.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "31e768aa3e2f21",
+          "source": "光明日报",
+          "title": "泰山学院：让古老文脉绽放当代价值",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30881.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "94219fe8406998",
+          "source": "光明日报",
+          "title": "第三届兰花奖颁奖典礼在京举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30884.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "74fef1f6ce4c4b",
+          "source": "光明日报",
+          "title": "让文化遗产在数字时代焕发新光彩",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30885.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2e9b44df2069bd",
+          "source": "光明日报",
+          "title": "赵乐际会见澳大利亚总理阿尔巴尼斯",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30855.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "45df7f400afece",
+          "source": "光明日报",
+          "title": "长江航道货运忙",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/21/content_30887.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6e2ddc885b0547",
+          "source": "新华社",
+          "title": "“深圳故事”里的大国外交新篇",
+          "url": "https://www.news.cn/politics/leaders/20261121/b587eec35b07474eab72a16bfc7efd47/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c97e4b3b0ab9cb",
+          "source": "新华社",
+          "title": "也门媒体：过去24小时沙特空袭造成至少41人死亡",
+          "url": "https://www.news.cn/20261121/1e5792819b264aaebb2f57612003949a/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f0bf1dcd91eda9",
+          "source": "新华社",
+          "title": "伊朗称一艘油轮在霍尔木兹海峡触雷爆炸",
+          "url": "https://www.news.cn/20261121/2c65bca882bc497b8930eed1f3bf17b5/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0e51f11f32d73e",
+          "source": "新华社",
+          "title": "埃森科特：若组建执政联盟失败将寻求建立“紧急政府”",
+          "url": "https://www.news.cn/20261121/d21025c0904d401893d64ac28a214ef8/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b4957e97a2f230",
+          "source": "新华社",
+          "title": "新华社评论员：担当大国责任，共建美好世界",
+          "url": "https://www.news.cn/world/20261121/285bf9656f1b47609c1e6447491979be/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dae3ba1ba11ed1",
+          "source": "新华社",
+          "title": "日媒：日本研究引进核潜艇及为“无核三原则”设例外",
+          "url": "https://www.news.cn/20261121/9f537acabd974f329fcfa56e33ae463a/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ea12e99ecd527b",
+          "source": "新华社",
+          "title": "沙特主导联军称袭击胡塞武装多个军事目标",
+          "url": "https://www.news.cn/20261121/6d90bfd2ca92458d821d02fa3719a3ed/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "37eb4143208b44",
+          "source": "新华社",
+          "title": "跨越山海 亚太扬帆",
+          "url": "https://www.news.cn/politics/leaders/20261121/c2b5f81ed7284067bddc5647a59e75fe/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 8.9,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261121.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "ok",
+          "count": 25,
+          "duration": 2.1
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 11,
+          "duration": 2.2
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 11.4
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.9
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 24,
+          "duration": 1.5
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 14.7
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.3
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.2
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 63.1
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-11-20T22:46:21+08:00"
+  "generatedAt": "2026-11-21T06:06:10+08:00"
 }
