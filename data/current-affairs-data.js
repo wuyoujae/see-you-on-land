@@ -227146,10 +227146,26 @@ window.CURRENT_AFFAIRS_DATA = {
       "keywords": [
         {
           "name": "习近平",
-          "count": 9
+          "count": 19
         }
       ],
       "articles": [
+        {
+          "id": "6e4adb11630468",
+          "source": "中国政府网",
+          "title": "习近平主席出席亚太经合组织深圳会议及相关活动纪实",
+          "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086983.htm",
+          "date": "2026-11-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "5850a3aed13d79",
+          "source": "中国政府网",
+          "title": "习近平主席的深圳APEC时间",
+          "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086984.htm",
+          "date": "2026-11-21",
+          "keyword": "习近平"
+        },
         {
           "id": "d593ebb7211ba3",
           "source": "人民日报",
@@ -227199,6 +227215,46 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "习近平"
         },
         {
+          "id": "b02d377e924dc5",
+          "source": "广东发布",
+          "title": "习近平主席出席亚太经合组织深圳会议及相关活动纪实",
+          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4983309.html",
+          "date": "2026-11-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "4ac08533af769a",
+          "source": "广东发布",
+          "title": "习近平主席在亚太经合组织工商领导人峰会上的主旨演讲和亚太经合组织第三十三次领导人非正式会议欢迎晚宴上的祝酒辞持续引发广东干部群众、企业家和科技工作者热烈反响 为促进共同繁荣贡献广东力量",
+          "url": "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4983305.html",
+          "date": "2026-11-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "6391581584a187",
+          "source": "广东发布",
+          "title": "习近平主席的深圳APEC时间",
+          "url": "https://www.gd.gov.cn/gdywdt/ttxw/content/post_4983308.html",
+          "date": "2026-11-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "555db370e4ce47",
+          "source": "广东发布",
+          "title": "习近平会见泰国总理阿努廷",
+          "url": "https://www.gd.gov.cn/gdywdt/xwdt/content/post_4983304.html",
+          "date": "2026-11-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "fd46de57f0b106",
+          "source": "广东发布",
+          "title": "习近平会见马来西亚总理安瓦尔",
+          "url": "https://www.gd.gov.cn/gdywdt/xwdt/content/post_4983303.html",
+          "date": "2026-11-21",
+          "keyword": "习近平"
+        },
+        {
           "id": "0d38dc5ca54600",
           "source": "新华社",
           "title": "“像大鹏一样展翅高飞、鹏程万里” ——习近平主席出席亚太经合组织深圳会议及相关活动纪实",
@@ -227219,6 +227275,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新华社",
           "title": "习近平主席深圳之行",
           "url": "https://www.news.cn/politics/leaders/20261121/0ca26d747f944e46b2ce0ba1a7b69563/c.html",
+          "date": "2026-11-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "d8b6492652ce00",
+          "source": "新华社",
+          "title": "金色相框｜习近平主席深圳之行",
+          "url": "https://www.news.cn/world/20261121/297f993c44af401a99bf0ff760cf3840/c.html",
+          "date": "2026-11-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "e54253e5412ac3",
+          "source": "求是",
+          "title": "“像大鹏一样展翅高飞、鹏程万里” ——习近平主席出席亚太经合组织深圳会议及相关活动纪实",
+          "url": "https://www.qstheory.cn/20261121/613f00b68f05474ba757c4c27b67f32c/c.html",
+          "date": "2026-11-21",
+          "keyword": "习近平"
+        },
+        {
+          "id": "8cec3573532b5d",
+          "source": "求是",
+          "title": "为共创亚太美好未来汇聚信心与力量——习近平主席APEC深圳会议期间系列重要讲话引发全球热烈反响",
+          "url": "https://www.qstheory.cn/20261121/4d2278d5969c443a900aa221982c8758/c.html",
           "date": "2026-11-21",
           "keyword": "习近平"
         },
@@ -227567,10 +227647,42 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "950d684d22edcf",
+          "source": "广东发布",
+          "title": "广东将发放5000万元暖冬文旅消费券",
+          "url": "https://www.gd.gov.cn/gdywdt/bmdt/content/post_4983306.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "115869fd3ca05a",
+          "source": "新华社",
+          "title": "2026年亚太经合组织领导人会议周巡礼",
+          "url": "https://www.news.cn/politics/leaders/20261121/86d52333533b4ff19ddb8808ee4921c2/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "6e2ddc885b0547",
           "source": "新华社",
           "title": "“深圳故事”里的大国外交新篇",
           "url": "https://www.news.cn/politics/leaders/20261121/b587eec35b07474eab72a16bfc7efd47/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "d4a43e3bc78e15",
+          "source": "新华社",
+          "title": "中国非洲研究院－亚的斯亚贝巴大学中非研究中心在埃塞揭牌",
+          "url": "https://www.news.cn/20261121/78c47bd2486347f78fec956097bdd254/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "78c66e9de44c01",
+          "source": "新华社",
+          "title": "丹麦驱逐俄罗斯武官 俄表示将“适当回应”",
+          "url": "https://www.news.cn/20261121/82a283ff2fc846ada9c55ac64d75a400/c.html",
           "date": "2026-11-21",
           "keyword": "综合时政"
         },
@@ -227583,6 +227695,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "f02503775e152e",
+          "source": "新华社",
+          "title": "亚太媒体合作伙伴计划正式成立",
+          "url": "https://www.news.cn/20261121/d6c0bf5d076c4ff18d793e786874533f/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "83eb5a5cad9af5",
+          "source": "新华社",
+          "title": "从零关税红利到产业对接 中南合作走深走实",
+          "url": "https://www.news.cn/world/20261121/d3b67ac11feb411ab7b04ea48b06e9c4/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "f0bf1dcd91eda9",
           "source": "新华社",
           "title": "伊朗称一艘油轮在霍尔木兹海峡触雷爆炸",
@@ -227591,10 +227719,42 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "14bb10ca640385",
+          "source": "新华社",
+          "title": "国产大模型引领全球开源生态 累计下载破100亿次",
+          "url": "https://www.news.cn/politics/20261121/d02ffe3d36144ceea8847030acd97936/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "0e51f11f32d73e",
           "source": "新华社",
           "title": "埃森科特：若组建执政联盟失败将寻求建立“紧急政府”",
           "url": "https://www.news.cn/20261121/d21025c0904d401893d64ac28a214ef8/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "080f6b0170c3a2",
+          "source": "新华社",
+          "title": "塑造更高水平开放型经济新优势",
+          "url": "https://www.news.cn/politics/leaders/20261121/ed4e17f43bf442a7a810e567d1154db1/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8ae28f7e8365a3",
+          "source": "新华社",
+          "title": "墨西哥城：纪念墨西哥革命116周年",
+          "url": "https://www.news.cn/photo/20261121/aee5f29df6c34244acfe2ea35c4a2c6f/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2441c74200798c",
+          "source": "新华社",
+          "title": "安理会举行联合国秘书长遴选第九轮意向性投票",
+          "url": "https://www.news.cn/20261121/f171aab592ab4c8aa2e5415fe625b5f4/c.html",
           "date": "2026-11-21",
           "keyword": "综合时政"
         },
@@ -227623,10 +227783,122 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "3dbdfd3cd288ce",
+          "source": "新华社",
+          "title": "河北丰南：东方白鹳舞蹁跹",
+          "url": "https://www.news.cn/photo/20261121/d485071432e8406da1447326c9f50bc7/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9ac2102f139e0e",
+          "source": "新华社",
+          "title": "特朗普：中俄美元首会晤“史无前例”“意义重大”",
+          "url": "https://www.news.cn/20261121/1c719142694743a397e4f3be06f46cf1/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b9870fee1e73fe",
+          "source": "新华社",
+          "title": "特朗普：伊朗“不想达成我能接受的协议”",
+          "url": "https://www.news.cn/20261121/328ce2421ca54aff8f41ae96c035d857/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c5f7620e8ad002",
+          "source": "新华社",
+          "title": "秘鲁发生地震 首都利马震感强烈",
+          "url": "https://www.news.cn/20261121/2dc89aaecea1474a9d9518ee07513536/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4ea7b10b4b2d54",
+          "source": "新华社",
+          "title": "第二次英欧峰会召开 双方达成72项共识",
+          "url": "https://www.news.cn/20261121/5202111339b3409d8c077a5e754cfdc0/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e5a2aa29581491",
+          "source": "新华社",
+          "title": "联合国气候变化安塔利亚大会进入加时阶段",
+          "url": "https://www.news.cn/20261121/b1a2b219b76849219bce63f63bd7eb98/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6a02990a026a49",
+          "source": "新华社",
+          "title": "聚焦APEC丨APEC参会来宾眼中的“奇迹之城”",
+          "url": "https://www.news.cn/world/20261121/8cfbc6a1ed65418ea110aa6aa6cb9fd3/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8d6556618fabcb",
+          "source": "新华社",
+          "title": "虚拟体育来了，将带来哪些新可能？",
+          "url": "https://www.news.cn/sports/20261121/e3b776e85b3346958acc6f808ac2428e/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "37eb4143208b44",
           "source": "新华社",
           "title": "跨越山海 亚太扬帆",
           "url": "https://www.news.cn/politics/leaders/20261121/c2b5f81ed7284067bddc5647a59e75fe/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "33cc2710b728f8",
+          "source": "新华社",
+          "title": "近镜头｜跨越山海 亚太扬帆",
+          "url": "https://www.news.cn/world/20261121/badce52e21f14ce793e817ba74db6977/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "b7856204b72184",
+          "source": "新华社",
+          "title": "通讯丨从零关税红利到产业对接 中南合作走深走实",
+          "url": "https://www.news.cn/20261121/85cd231f4b144bac94a4d1589afac8c7/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7e199e05b4a71d",
+          "source": "求是",
+          "title": "中俄美三国最高领导人有史以来首次聚首",
+          "url": "https://www.qstheory.cn/20261121/6bcfb270eec643b781cc4fd6e47f2648/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ed054940fe5c5d",
+          "source": "求是",
+          "title": "扛起大国责任，共同为世界和平托底",
+          "url": "https://www.qstheory.cn/20261121/ab2ff7049cc6494aa2cfc03801f09b2d/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aecce319f01d04",
+          "source": "求是",
+          "title": "担当大国责任，共建美好世界",
+          "url": "https://www.qstheory.cn/20261121/458cd0e6d40049bd81e757ee1d1de780/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2ecc83ca2627cd",
+          "source": "求是",
+          "title": "特写：大国外交的“深圳时刻”",
+          "url": "https://www.qstheory.cn/20261121/e13303a48a0647d68682b5062a0f4925/c.html",
           "date": "2026-11-21",
           "keyword": "综合时政"
         }
@@ -227636,65 +227908,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 8.9,
+          "duration": 12.1,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261121.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 25,
-          "duration": 2.1
+          "duration": 2.2
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 11,
-          "duration": 2.2
+          "count": 31,
+          "duration": 1.6
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 11.4
+          "duration": 14.3
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
+          "count": 6,
           "duration": 5.9
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 24,
-          "duration": 1.5
+          "duration": 1.2
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 14.7
+          "duration": 13.1
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 5.3
+          "duration": 2.2
         },
         {
           "source": "中国政府网",
           "status": "ok",
-          "count": 0,
-          "duration": 8.2
+          "count": 2,
+          "duration": 8.1
         },
         {
           "source": "广东发布",
           "status": "ok",
-          "count": 0,
-          "duration": 63.1
+          "count": 6,
+          "duration": 42.3
         }
       ]
     }
   ],
-  "generatedAt": "2026-11-21T06:06:10+08:00"
+  "generatedAt": "2026-11-21T11:02:48+08:00"
 };
