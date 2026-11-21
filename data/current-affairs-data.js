@@ -227147,6 +227147,10 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "name": "习近平",
           "count": 19
+        },
+        {
+          "name": "科技",
+          "count": 3
         }
       ],
       "articles": [
@@ -227301,6 +227305,22 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.qstheory.cn/20261121/4d2278d5969c443a900aa221982c8758/c.html",
           "date": "2026-11-21",
           "keyword": "习近平"
+        },
+        {
+          "id": "2404415c396e50",
+          "source": "新华社",
+          "title": "科技股暴跌拖累美股整体进入回调区间",
+          "url": "https://www.news.cn/world/20261121/30db0379a11b44b1a04fbeba1813fb90/c.html",
+          "date": "2026-11-21",
+          "keyword": "科技"
+        },
+        {
+          "id": "0b507a0022407c",
+          "source": "新华社",
+          "title": "综述丨科技股暴跌拖累美股整体进入回调区间",
+          "url": "https://www.news.cn/20261121/5070b443900447b2906f5a40b0cc1ef7/c.html",
+          "date": "2026-11-21",
+          "keyword": "科技"
         },
         {
           "id": "a0f8a98a6ae411",
@@ -227671,10 +227691,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "d4a43e3bc78e15",
+          "id": "9e556a1cceb907",
           "source": "新华社",
-          "title": "中国非洲研究院－亚的斯亚贝巴大学中非研究中心在埃塞揭牌",
-          "url": "https://www.news.cn/20261121/78c47bd2486347f78fec956097bdd254/c.html",
+          "title": "严惩性侵害未成年人犯罪 最高检发布指导性案例",
+          "url": "https://www.news.cn/legal/20261121/d2fae1b4d1444b8a886c0191b4394ef7/c.html",
           "date": "2026-11-21",
           "keyword": "综合时政"
         },
@@ -227687,10 +227707,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "c97e4b3b0ab9cb",
+          "id": "ff0b50d2479a7d",
           "source": "新华社",
           "title": "也门媒体：过去24小时沙特空袭造成至少41人死亡",
-          "url": "https://www.news.cn/20261121/1e5792819b264aaebb2f57612003949a/c.html",
+          "url": "https://www.news.cn/world/20261121/10804b27c6314d239c0a32c1be77b3f3/c.html",
           "date": "2026-11-21",
           "keyword": "综合时政"
         },
@@ -227711,10 +227731,18 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "f0bf1dcd91eda9",
+          "id": "cbca72bbd8f4c6",
           "source": "新华社",
-          "title": "伊朗称一艘油轮在霍尔木兹海峡触雷爆炸",
-          "url": "https://www.news.cn/20261121/2c65bca882bc497b8930eed1f3bf17b5/c.html",
+          "title": "伊朗称击落第58架美军“死神”无人机",
+          "url": "https://www.news.cn/20261121/09fad517354f49299ba283915f498d3e/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "73de7143fc9e5b",
+          "source": "新华社",
+          "title": "俄外交部：元首外交在俄中关系中发挥特殊引领作用",
+          "url": "https://www.news.cn/20261121/9aa1e387528b40a69f6f831a56dc95d8/c.html",
           "date": "2026-11-21",
           "keyword": "综合时政"
         },
@@ -227727,10 +227755,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "0e51f11f32d73e",
+          "id": "4b65b4bf1dff33",
           "source": "新华社",
           "title": "埃森科特：若组建执政联盟失败将寻求建立“紧急政府”",
-          "url": "https://www.news.cn/20261121/d21025c0904d401893d64ac28a214ef8/c.html",
+          "url": "https://www.news.cn/world/20261121/940ea07a524141c8af71a8912fad7a63/c.html",
           "date": "2026-11-21",
           "keyword": "综合时政"
         },
@@ -227751,10 +227779,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "2441c74200798c",
+          "id": "a4d6ca1e5f3c2a",
+          "source": "新华社",
+          "title": "大港油田储气库群开启“冬供” 保障京津冀用气",
+          "url": "https://www.news.cn/20261121/9cb1559d40ea49129a016e1eb7b4f623/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0171bba89f0e14",
           "source": "新华社",
           "title": "安理会举行联合国秘书长遴选第九轮意向性投票",
-          "url": "https://www.news.cn/20261121/f171aab592ab4c8aa2e5415fe625b5f4/c.html",
+          "url": "https://www.news.cn/world/20261121/2a1bccea6f7a4411a42a1577ef2376c0/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1e2f3c3e92896c",
+          "source": "新华社",
+          "title": "山东莱西：“陆海空”智造协同并进",
+          "url": "https://www.news.cn/photo/20261121/810e4ee353af428780d55fa592e5ddda/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8a9bd130678719",
+          "source": "新华社",
+          "title": "应对今冬风雪，北京扫雪铲冰打出“组合拳”",
+          "url": "https://www.news.cn/20261121/7858485c7f0548a783b0ea10bb9d47f6/c.html",
           "date": "2026-11-21",
           "keyword": "综合时政"
         },
@@ -227767,18 +227819,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "dae3ba1ba11ed1",
+          "id": "3cd9b7ccc14e21",
           "source": "新华社",
           "title": "日媒：日本研究引进核潜艇及为“无核三原则”设例外",
-          "url": "https://www.news.cn/20261121/9f537acabd974f329fcfa56e33ae463a/c.html",
-          "date": "2026-11-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "ea12e99ecd527b",
-          "source": "新华社",
-          "title": "沙特主导联军称袭击胡塞武装多个军事目标",
-          "url": "https://www.news.cn/20261121/6d90bfd2ca92458d821d02fa3719a3ed/c.html",
+          "url": "https://www.news.cn/world/20261121/57304bf61c2640c58e9fe42d2495ef08/c.html",
           "date": "2026-11-21",
           "keyword": "综合时政"
         },
@@ -227791,34 +227835,74 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "9ac2102f139e0e",
+          "id": "e55db585faa3fd",
+          "source": "新华社",
+          "title": "潍宿高铁最长标段连续梁全部合龙",
+          "url": "https://www.news.cn/20261121/a6a8f0cb7ef94cccb5fd8356e56b6c83/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "66e904bb03cef8",
+          "source": "新华社",
+          "title": "特朗普说国际刑事法院“失控”",
+          "url": "https://www.news.cn/20261121/ba81c0b574d348ebb4fadb67ee126644/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4de66cfda44198",
           "source": "新华社",
           "title": "特朗普：中俄美元首会晤“史无前例”“意义重大”",
-          "url": "https://www.news.cn/20261121/1c719142694743a397e4f3be06f46cf1/c.html",
+          "url": "https://www.news.cn/world/20261121/595e0f82ff264663baeb31a716294e0d/c.html",
           "date": "2026-11-21",
           "keyword": "综合时政"
         },
         {
-          "id": "b9870fee1e73fe",
+          "id": "534071214e4937",
           "source": "新华社",
           "title": "特朗普：伊朗“不想达成我能接受的协议”",
-          "url": "https://www.news.cn/20261121/328ce2421ca54aff8f41ae96c035d857/c.html",
+          "url": "https://www.news.cn/world/20261121/79854078077f4b908168397f5174fba9/c.html",
           "date": "2026-11-21",
           "keyword": "综合时政"
         },
         {
-          "id": "c5f7620e8ad002",
-          "source": "新华社",
-          "title": "秘鲁发生地震 首都利马震感强烈",
-          "url": "https://www.news.cn/20261121/2dc89aaecea1474a9d9518ee07513536/c.html",
-          "date": "2026-11-21",
-          "keyword": "综合时政"
-        },
-        {
-          "id": "4ea7b10b4b2d54",
+          "id": "d19aab12752aca",
           "source": "新华社",
           "title": "第二次英欧峰会召开 双方达成72项共识",
-          "url": "https://www.news.cn/20261121/5202111339b3409d8c077a5e754cfdc0/c.html",
+          "url": "https://www.news.cn/world/20261121/ca3315c6980f4a378ca1b9ddc1620c77/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "15dc0cd8f91a8b",
+          "source": "新华社",
+          "title": "美国今年麻疹确诊病例已超5800例",
+          "url": "https://www.news.cn/20261121/7dc3641955aa474c909237534df711c2/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7da2cc7a66d5d3",
+          "source": "新华社",
+          "title": "美媒：美防长限制美加防务合作",
+          "url": "https://www.news.cn/20261121/e6926d2a4d2b46ae9fe1f039d53864ec/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f3b98019a29966",
+          "source": "新华社",
+          "title": "美财长称仍居住在军事基地",
+          "url": "https://www.news.cn/20261121/ac94f2d507304cb989f9cc21078334da/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "576e794f6d2652",
+          "source": "新华社",
+          "title": "美货运“龙”飞船脱离空间站启程返回地球",
+          "url": "https://www.news.cn/20261121/9b5d5dbe32f3489d8a54a5d935b91559/c.html",
           "date": "2026-11-21",
           "keyword": "综合时政"
         },
@@ -227839,10 +227923,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "19537d7a3fc152",
+          "source": "新华社",
+          "title": "舞剧《天下大足》亮相乌鲁木齐",
+          "url": "https://www.news.cn/photo/20261121/77f5d1c1788448afb7c25e887ea7727a/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
           "id": "8d6556618fabcb",
           "source": "新华社",
           "title": "虚拟体育来了，将带来哪些新可能？",
           "url": "https://www.news.cn/sports/20261121/e3b776e85b3346958acc6f808ac2428e/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7fa6e5e9c0cc7c",
+          "source": "新华社",
+          "title": "记者直击：“雪龙”号驶离澳大利亚霍巴特奔赴南极",
+          "url": "https://www.news.cn/tech/20261121/2638e89a95cf4c318fe9e56b184ba928/c.html",
           "date": "2026-11-21",
           "keyword": "综合时政"
         },
@@ -227863,10 +227963,26 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
-          "id": "b7856204b72184",
+          "id": "8eca6b2cb8feca",
           "source": "新华社",
-          "title": "通讯丨从零关税红利到产业对接 中南合作走深走实",
-          "url": "https://www.news.cn/20261121/85cd231f4b144bac94a4d1589afac8c7/c.html",
+          "title": "追光丨这所中学，是冠军的摇篮，也是孩子们的港湾",
+          "url": "https://www.news.cn/sports/20261121/d25697df52534af78d7eb18bba944117/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c48380c0864dc1",
+          "source": "新华社",
+          "title": "阿根廷政府批准该国规模最大投资项目",
+          "url": "https://www.news.cn/20261121/d3dd99b12aa246bfb99ab3228ee623e4/c.html",
+          "date": "2026-11-21",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3b9b342959ffe4",
+          "source": "新华社",
+          "title": "黄河内蒙古段进入2026至2027年度凌汛期",
+          "url": "https://www.news.cn/20261121/f6a49a7a7894496fbd6d1d1c08b2d408/c.html",
           "date": "2026-11-21",
           "keyword": "综合时政"
         },
@@ -227908,65 +228024,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 12.1,
+          "duration": 7.5,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261121.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 25,
-          "duration": 2.2
+          "duration": 3.0
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 31,
-          "duration": 1.6
+          "count": 45,
+          "duration": 2.9
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 14.3
+          "duration": 19.6
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 6,
-          "duration": 5.9
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 24,
-          "duration": 1.2
+          "duration": 1.7
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.1
+          "duration": 13.5
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.2
+          "duration": 2.4
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 2,
-          "duration": 8.1
+          "duration": 10.1
         },
         {
           "source": "广东发布",
           "status": "ok",
           "count": 6,
-          "duration": 42.3
+          "duration": 60.0
         }
       ]
     }
   ],
-  "generatedAt": "2026-11-21T11:02:48+08:00"
+  "generatedAt": "2026-11-21T13:09:27+08:00"
 };
