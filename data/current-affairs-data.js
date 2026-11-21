@@ -228389,7 +228389,108 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 65.2
         }
       ]
+    },
+    {
+      "date": "2026-11-22",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 3
+        }
+      ],
+      "articles": [
+        {
+          "id": "824f8870840c36",
+          "source": "新华社",
+          "title": "伊朗副外长证实调解方卡塔尔代表团访问德黑兰",
+          "url": "https://www.news.cn/20261122/92f235a684f84afd834b992936fbb05b/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9f62a615579bc5",
+          "source": "新华社",
+          "title": "北约秘书长：将捍卫波兰“每一寸领土”",
+          "url": "https://www.news.cn/20261122/1265763cf3154fd7a09c7c1f8db56107/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "aaa2c37ffa8520",
+          "source": "新华社",
+          "title": "特朗普称寻求与伊朗达成一项永久性协议",
+          "url": "https://www.news.cn/world/20261122/64021df287674d7593fc17d682d53542/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 4.7,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261122.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.3,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202611/22/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 3,
+          "duration": 3.6
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 14.7
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.2
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.6,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202611/22/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.1
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.4
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 10.0
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 47.9
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-11-21T22:01:48+08:00"
+  "generatedAt": "2026-11-22T04:26:39+08:00"
 };
