@@ -15,7 +15,7 @@
   const LEVELS = { foundation: "基础", standard: "进阶", challenge: "挑战" };
   let progress = readProgress(), manifest, manifestPromise, current = null, component = null;
   let serial = 0, routeHandling = false, active = false, saving, notice = "", direction = "next";
-  let aiSubscription, aiSerial = 0, setup = null, pendingHash = "", pendingPromise;
+  let aiSubscription, aiLoading = false, aiSerial = 0, setup = null, pendingHash = "", pendingPromise;
   const subjectCache = new Map(), paperCache = new Map(), focusCache = new Map(), questionMap = new Map();
   const focusForSession = session => manifest?.practiceSets?.find(set => session?.setId === `practice:${set.id}`);
   let clockStarted = 0, clockTimer;
@@ -53,7 +53,7 @@
     if (current?.session.id === session.id) current.session = session;
     clearTimeout(saving); saving = setTimeout(flush, 180);
   }
-  function cleanup() { stopClock(); window.AppUI?.closePopover?.(); component?.destroy(); component = null; aiSubscription?.abort(); aiSubscription = null; ++aiSerial; root.querySelector(".drill-jump")?.close(); }
+  function cleanup() { stopClock(); window.AppUI?.closePopover?.(); component?.destroy(); component = null; aiSubscription?.abort(); aiSubscription = null; aiLoading = false; ++aiSerial; root.querySelector(".drill-jump")?.close(); }
   function refresh(host = root) { window.AppUI?.refresh(host); window.lucide?.createIcons({ root: host }); window.RichContent?.hydrate(host); }
   function tell(message = "") { notice = message; const el = root.querySelector(".drill-notice"); if (el) { el.textContent = message; el.hidden = !message; } }
   async function fetchJSON(path) {
@@ -326,14 +326,13 @@
     if (isSpeedDrill()) root.querySelector('[data-drill-action="next"]')?.focus({preventScroll:true});
     // Submission does not navigate, animate or move focus to the explanation.
     // The existing toolbar button remains focused and becomes "下一题".
-    loadAI();
   }
   function renderSession() {
     cleanup(); activate(true);
     const { session, index, question } = current, stats = Core.statistics(session), submitted = hasSubmission();
     root.innerHTML = `<div class="learn-session-shell drill-workspace"><header class="learn-session-header"><div class="learn-context"><button class="learn-exit" data-drill-action="exit" aria-label="返回题库">${icon("x")}</button><div>${!session.setId || titleForSession(session) === subjectTitle(question.subjectId) ? "" : `<span>${subjectTitle(question.subjectId)}</span>`}<strong>${esc(titleForSession(session))}</strong></div><button type="button" class="scratchpad-launch" data-scratchpad-open aria-label="打开草稿本" title="草稿本" aria-haspopup="dialog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 3h13a3 3 0 0 1 3 3v15H7a3 3 0 0 1-3-3Zm0 14h16M8 3v10"/><path d="m12 12 5-5"/></svg></button></div><nav class="learn-navigation" aria-label="练习翻页"><button class="learn-back learn-button" data-drill-action="previous" aria-label="上一题" ${index === 0 ? "disabled" : ""}>${icon("arrow-left")}<span>上一题</span></button><button class="learn-progress-button" data-drill-action="jump" aria-label="打开题号，快速跳转"><span><strong>${index + 1} <small>/ ${session.questionIds.length}</small></strong><span><span id="drill-submitted-count">已提交 ${stats.submitted} 题</span> ${icon("chevron-down")}</span></span><span id="drill-progress-track" class="learn-progress-track" role="progressbar" aria-label="练习进度" aria-valuemin="0" aria-valuemax="${stats.total}" aria-valuenow="${stats.submitted}"><span id="drill-progress-fill" style="width:${stats.total ? stats.submitted / stats.total * 100 : 0}%"></span></span></button><div class="study-submit-actions"><button type="button" class="learn-button learn-back study-skip" data-drill-action="skip" aria-label="跳过本题"${submitted ? " hidden" : ""}>跳过本题</button><button class="learn-next learn-button" data-drill-action="next">${nextLabel()}${icon("arrow-right")}</button></div></nav></header><div class="learn-stage"><article class="learn-card learn-flip-${direction} drill-card"><div class="study-question-layout drill-question-layout${submitted ? " is-submitted" : ""}"><section class="study-question-pane drill-question-pane" aria-label="题目" tabindex="0"><div class="learn-card-meta"><span>${(question.questionFormat === "judgement" ? "判断题" : { multiple: "多选题", fill: "填空题", boolean: "判断题" }[question.type] || "单选题")}</span><span>${esc(sourceLabel(question))}</span>${isSpeedDrill() ? '<span id="drill-clock" class="drill-clock" role="timer" aria-live="off"></span>' : ""}</div><div id="drill-question"></div></section><section id="drill-explanation" class="study-explanation-pane drill-explanation-pane" aria-label="解析" tabindex="0"${submitted ? "" : " hidden"}>${submitted ? renderAnswer(question, session.answers[question.id]) : ""}</section></div></article></div><p class="drill-notice" role="alert" hidden></p><dialog class="learn-jump-dialog drill-jump" aria-labelledby="drill-jump-title"><header><div><small>${esc(titleForSession(session))}</small><h2 id="drill-jump-title">题号导航</h2></div><button class="learn-exit" data-drill-action="close-jump" aria-label="关闭题号导航">${icon("x")}</button></header><div class="drill-number-grid">${session.questionIds.map((qid, i) => `<button data-drill-jump="${i}" class="${session.answers[qid]?.status || ""}" ${i === index ? 'aria-current="step"' : ""} aria-label="第 ${i + 1} 题${session.answers[qid] ? session.answers[qid].status === "correct" ? "，答对" : session.answers[qid].status === "incorrect" ? "，答错" : "，已提交，不计分" : "，未提交"}">${i + 1}</button>`).join("")}</div><p class="drill-jump-key"><span>未提交</span><span>答对</span><span>答错</span></p></dialog></div>`;
     root.querySelector(".drill-card")?.classList.toggle("drill-figure-card", question.practiceSetId === "figures");
-    mountCurrentQuestion(); refresh(); tell(notice); startClock(); if (submitted) loadAI();
+    mountCurrentQuestion(); refresh(); tell(notice); startClock();
     window.PageTransitions?.enter(root, { key: `drill:${location.hash}`, direction, focus: ".drill-question-pane" });
   }
   function safeSourceURL(value) { try { const url = new URL(value); return /^https?:$/.test(url.protocol) ? url.href : ""; } catch { return ""; } }
@@ -354,7 +353,21 @@
     const url = safeSourceURL(source.url || question.source?.answerUrl || question.source?.url);
     const reference = source.answer ?? question.answer, hasReference = Core.isAnswered(reference);
     const calculation = question.practiceSetId === "calculation";
-    return `<section class="drill-source-answer" aria-labelledby="drill-source-title"><h2 id="drill-source-title">${calculation ? "答案与速算解析" : "题目来源答案和解析"}</h2><div class="drill-answer-result ${attempt.status}"><div><span>来源答案</span><strong>${hasReference ? esc(answerText(reference, question)) : "暂无"}</strong></div><span>${icon(attempt.status === "correct" ? "check" : "circle-help")}我们的答案 ${esc(answerText(attempt.answer, question))}${attempt.status === "ungraded" ? " · 本题不计分" : ""}</span></div>${referenceNotice(question)}${explanation.length ? `<details class="drill-source-details" open><summary>${calculation ? "速算讲解" : "来源解析"}${icon("chevron-down")}</summary><div class="drill-source-explanation">${window.RichContent.render(explanation)}</div></details>` : `<p class="drill-source-unavailable">${hasReference ? "来源仅提供了参考答案。" : "来源暂未提供可核验的答案与解析。"}</p>`}<div class="drill-source-credit"><span>${esc(source.provider || question.source?.answerSource || "题目来源参考答案")}</span>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">查看来源 ${icon("arrow-up-right")}</a>` : ""}</div>${sourceAttribution(question)}</section><section class="drill-ai-section" aria-labelledby="drill-ai-title"><header><h2 id="drill-ai-title">${icon("sparkles")}超级思维解析</h2><span id="drill-ai-state"></span></header><div id="drill-ai-body" data-question-id="${esc(question.id)}" aria-live="polite"></div></section>`;
+    return `<section class="drill-source-answer" aria-labelledby="drill-source-title"><h2 id="drill-source-title">${calculation ? "答案与速算解析" : "题目来源答案和解析"}</h2><div class="drill-answer-result ${attempt.status}"><div><span>来源答案</span><strong>${hasReference ? esc(answerText(reference, question)) : "暂无"}</strong></div><span>${icon(attempt.status === "correct" ? "check" : "circle-help")}我们的答案 ${esc(answerText(attempt.answer, question))}${attempt.status === "ungraded" ? " · 本题不计分" : ""}</span></div>${referenceNotice(question)}${explanation.length ? `<details class="drill-source-details" open><summary>${calculation ? "速算讲解" : "来源解析"}${icon("chevron-down")}</summary><div class="drill-source-explanation">${window.RichContent.render(explanation)}</div></details>` : `<p class="drill-source-unavailable">${hasReference ? "来源仅提供了参考答案。" : "来源暂未提供可核验的答案与解析。"}</p>`}<div class="drill-source-credit"><span>${esc(source.provider || question.source?.answerSource || "题目来源参考答案")}</span>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">查看来源 ${icon("arrow-up-right")}</a>` : ""}</div>${sourceAttribution(question)}</section><section class="drill-ai-section" aria-labelledby="drill-ai-title"><header><h2 id="drill-ai-title">${icon("sparkles")}超级思维解析</h2><span id="drill-ai-state"></span></header><div id="drill-ai-body" data-question-id="${esc(question.id)}" aria-live="polite">${manualAIMarkup()}</div></section>`;
+  }
+  function manualAIMarkup() {
+    return '<div class="drill-ai-empty"><button type="button" class="learn-back learn-button" data-drill-action="ai-generate">查看 AI 解析</button></div>';
+  }
+  function resetAI() {
+    aiSubscription?.abort();
+    aiSubscription = null;
+    aiLoading = false;
+    ++aiSerial;
+    const host = root.querySelector("#drill-ai-body"), state = root.querySelector("#drill-ai-state");
+    if (!host || !state) return;
+    state.textContent = "";
+    host.innerHTML = manualAIMarkup();
+    refresh(host);
   }
   function aiError(error) {
     if (["IMAGE_LIMIT", "IMAGE", "QUESTION", "PROMPTS", "SETTINGS", "REQUEST_LIMIT"].includes(error?.code)) return error.message;
@@ -365,10 +378,11 @@
     return "解析暂时未能完整生成，来源答案仍可正常查看。";
   }
   async function loadAI() {
-    if (!hasSubmission() || current.finished) return;
+    if (!hasSubmission() || current.finished || aiLoading) return;
     aiSubscription?.abort(); aiSubscription = new AbortController(); const token = ++aiSerial;
     const question = current.question, host = root.querySelector("#drill-ai-body"), state = root.querySelector("#drill-ai-state"); if (!host || !state) return;
     const alive = () => token === aiSerial && current?.question.id === question.id && !current.finished && hasSubmission() && host.isConnected;
+    aiLoading = true;
     state.textContent = "生成中"; host.innerHTML = `<div class="drill-ai-loading" role="status"><span class="drill-ai-orbit">${icon("sparkles")}</span><p>正在按我们的思路分析…</p><small>翻页后会继续生成并保存</small><div class="drill-ai-skeleton"><span></span><span></span><span></span></div></div>`; refresh(host);
     let text = "";
     try {
@@ -388,6 +402,8 @@
       }
       state.textContent = "未完成"; host.innerHTML = `${text ? '<p class="drill-ai-partial-notice">生成已中断，以下内容尚未完整。</p><div id="drill-ai-partial"></div>' : ""}<div class="drill-ai-error" role="status">${icon("circle-alert")}<p>${aiError(error)}</p><div><button class="learn-next learn-button" data-drill-action="ai-retry">重新生成</button><button class="learn-back learn-button" data-drill-action="ai-settings">调整连接</button></div></div>`;
       if (text) window.AIExplanation.renderMarkdown(host.querySelector("#drill-ai-partial"), text); refresh(host);
+    } finally {
+      if (token === aiSerial) aiLoading = false;
     }
   }
   function previous() {
@@ -495,7 +511,7 @@
     if (action === "retry") { manifestPromise = null; pendingPromise = null; resolveRoute(); }
     if (action === "all") updateAvailable(); if (action === "jump") root.querySelector(".drill-jump")?.showModal();
     if (action === "close-jump") { root.querySelector(".drill-jump")?.close(); root.querySelector('[data-drill-action="jump"]')?.focus(); }
-    if (action === "ai-settings") window.AIExplanation?.openSettings?.(); if (action === "ai-retry") loadAI();
+    if (action === "ai-settings") window.AIExplanation?.openSettings?.(); if (action === "ai-generate" || action === "ai-retry") loadAI();
     if (action === "review" && current) navigate(sessionHash(current.session, 0));
     if (action === "unfinished" && current) { const index = current.session.questionIds.findIndex(id => !Core.canShow(current.session, id, "answer")); if (index >= 0) navigate(sessionHash(current.session, index)); }
   });
@@ -518,7 +534,7 @@
   });
   window.addEventListener("summer-politics:drill-restored", reloadProgress);
   window.addEventListener("storage", event => { if (event.key === STORAGE_KEY) reloadProgress(); });
-  window.addEventListener("summer-politics:ai-settings-changed", () => { if (hasSubmission() && !current.finished) loadAI(); });
+  window.addEventListener("summer-politics:ai-settings-changed", () => { if (hasSubmission() && !current.finished) resetAI(); });
   window.addEventListener("pagehide", () => { stopClock(); flush(); });
   document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") { stopClock(); flush(); } else startClock(); });
   resolveRoute();

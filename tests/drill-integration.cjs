@@ -195,11 +195,14 @@ test("empty single/fill answers stay on the question card and never expose answe
   h.flush(); assert.equal(Object.keys(h.progress().sessions["session-test"].answers).length, 0);
 });
 
-test("submission preserves the question/pane/focus, expands both explanations inline and locks the submitted answer", async t => {
+test("submission preserves the question/pane/focus, reveals source feedback and offers manual AI", async t => {
   const h = harness(t); await h.settle();
   const host = h.root.querySelector("#drill-question"), pane = h.root.querySelector(".drill-question-pane"), button = h.root.querySelector('[data-drill-action="next"]');
   pane.scrollTop = 420; button.focus(); const transitions = h.transitions.length, historyLength = h.historyLength;
-  await h.answer("A"); await h.action("next"); await until(() => h.backend.length === 1);
+  await h.answer("A"); await h.action("next");
+  assert.equal(h.explainCalls.length, 0); assert.equal(h.backend.length, 0);
+  assert.match(h.text(), /查看 AI 解析/);
+  await h.action("ai-generate"); await until(() => h.backend.length === 1);
   assert.equal(h.location.hash, routeFor());
   assert.equal(h.historyLength, historyLength, "submission does not create a separate answer history entry");
   assert.equal(h.root.querySelector("#drill-question"), host, "submission must keep the question host in place");
@@ -221,7 +224,7 @@ test("submission preserves the question/pane/focus, expands both explanations in
   assert.doesNotMatch(h.text(), /SOURCE_Q1|SOURCE_Q2|超级思维解析/);
   assert.doesNotMatch(h.root.querySelector("#drill-question").innerHTML, /has-feedback|readonly|disabled/);
   assert.equal(h.backend.length, 1, "opening the next unsubmitted question does not prefetch its AI");
-  await h.action("previous"); await until(() => h.root.querySelector("#drill-ai-state")?.textContent === "已保存");
+  await h.action("previous"); await h.action("ai-generate"); await until(() => h.root.querySelector("#drill-ai-state")?.textContent === "已保存");
   assert.equal(h.location.hash, routeFor()); assert.match(h.root.querySelector("#drill-question").innerHTML, /value="A" checked disabled/);
   await h.answer("B"); h.flush();
   assert.equal(h.progress().sessions["session-test"].answers[QUESTION_IDS[0]].answer, "A");
@@ -231,7 +234,7 @@ test("submission preserves the question/pane/focus, expands both explanations in
 });
 
 test("flipping unsubscribes the old UI but its real shared job completes into cache and never writes the new card", async t => {
-  const h = harness(t); await h.settle(); await h.answer("B"); await h.action("next"); await until(() => h.backend.length === 1);
+  const h = harness(t); await h.settle(); await h.answer("B"); await h.action("next"); await h.action("ai-generate"); await until(() => h.backend.length === 1);
   const oldHost = h.root.querySelector("#drill-ai-body"), subscription = h.explainCalls[0].signal;
   h.emit(QUESTION_IDS[0], "OLD_PARTIAL"); await until(() => oldHost.textContent.includes("OLD_PARTIAL"));
   await h.action("next");
@@ -240,7 +243,7 @@ test("flipping unsubscribes the old UI but its real shared job completes into ca
   h.complete(QUESTION_IDS[0]); await until(() => h.cache.values.size === 1); await h.settle();
   assert.doesNotMatch(h.text(), /OLD_PARTIAL|AI_drill-q1/);
   assert.equal(h.renderWrites.filter(value => !value.connected).length, 0);
-  await h.action("previous"); await h.settle();
+  await h.action("previous"); await h.action("ai-generate"); await h.settle();
   await until(() => h.root.querySelector("#drill-ai-state")?.textContent === "已保存");
   assert.equal(h.location.hash, routeFor()); assert.equal(h.backend.length, 1);
   assert.match(h.root.querySelector("#drill-ai-body").textContent, /OLD_PARTIAL/);
@@ -253,7 +256,7 @@ test("even an adapter ignoring unsubscribe cannot write a stale result into the 
     explain(args) { const job = deferred(); calls.push({args, job}); return job.promise; },
     renderMarkdown(host, text) { writes.push({host, text, connected: host.isConnected}); host.textContent = text; }, openSettings() {}
   }});
-  await h.settle(); await h.answer("B"); await h.action("next"); assert.equal(calls.length, 1);
+  await h.settle(); await h.answer("B"); await h.action("next"); await h.action("ai-generate"); assert.equal(calls.length, 1);
   await h.action("next"); assert.equal(calls[0].args.signal.aborted, true);
   calls[0].args.onChunk({text: "LATE_OLD_UI"}); calls[0].job.resolve({text: "LATE_OLD_UI", cached: false}); await h.settle();
   assert.equal(h.location.hash, routeFor(1)); assert.doesNotMatch(h.text(), /LATE_OLD_UI/);
@@ -261,9 +264,9 @@ test("even an adapter ignoring unsubscribe cannot write a stale result into the 
 });
 
 test("returning before completion joins pending text instead of posting the same question again", async t => {
-  const h = harness(t); await h.settle(); await h.answer("B"); await h.action("next"); await until(() => h.backend.length === 1);
+  const h = harness(t); await h.settle(); await h.answer("B"); await h.action("next"); await h.action("ai-generate"); await until(() => h.backend.length === 1);
   h.emit(QUESTION_IDS[0], "PENDING_PREFIX"); await until(() => h.root.querySelector("#drill-ai-body").textContent.includes("PENDING_PREFIX"));
-  await h.action("next"); await h.action("previous");
+  await h.action("next"); await h.action("previous"); await h.action("ai-generate");
   await until(() => h.root.querySelector("#drill-ai-body").textContent.includes("PENDING_PREFIX"));
   assert.equal(h.backend.length, 1);
   h.emit(QUESTION_IDS[0], "_SUFFIX"); h.complete(QUESTION_IDS[0]);
@@ -275,11 +278,14 @@ test("session order and submissions survive a new page instance without resampli
   const h = harness(t, {hash: "#/study/language", noSession: true, immediateAI: true}); await h.settle(); await h.start(3, "random");
   h.flush(); const stored = h.progress(), [session] = Object.values(stored.sessions), order = [...session.questionIds];
   assert.equal(order.length, 3); assert.equal(new Set(order).size, 3);
-  const current = questions.find(value => value.id === order[0]); await h.answer(current.answer); await h.action("next");
+  const current = questions.find(value => value.id === order[0]); await h.answer(current.answer); await h.action("next"); await h.action("ai-generate");
   // A provider response is not the completion boundary: hashing and persisting
   // its cache can finish after any fixed number of event-loop turns on CI.
   await until(() => h.cache.values.size === 1); await h.settle(); h.flush();
   const refreshed = harness(t, {hash: h.location.hash, storage: {[KEY]: h.localStorage.getItem(KEY)}, cache: h.cache, noSession: true, immediateAI: true});
+  await refreshed.settle();
+  assert.equal(refreshed.explainCalls.length, 0, "refresh waits for a manual click even with cached AI");
+  await refreshed.action("ai-generate");
   await until(() => refreshed.root.querySelector("#drill-ai-state")?.textContent === "已保存"); refreshed.flush();
   assert.deepEqual(refreshed.progress().sessions[session.id].questionIds, order);
   assert.equal(Object.keys(refreshed.progress().sessions).length, 1);
@@ -303,7 +309,7 @@ test("legacy submitted deep links show question plus answer and never promote a 
   let session = Core.submit(baseSession(), questions[0], "A", () => "incorrect", 110);
   session = { ...session, updatedAt: 150, drafts: { ...session.drafts, [QUESTION_IDS[0]]: { value: "B", updatedAt: 150 } } };
   const h = harness(t, {session, hash: `${routeFor()}&side=answer`, immediateAI: true});
-  await h.settle(); await until(() => h.cache.values.size === 1);
+  await h.settle(); await h.action("ai-generate"); await until(() => h.cache.values.size === 1);
   assert.equal(h.location.hash, routeFor()); assert.match(h.root.querySelector("#drill-question").innerHTML, /value="A" checked disabled/);
   assert.doesNotMatch(h.root.querySelector("#drill-question").innerHTML, /value="B" checked/);
   assert.match(h.text(), /SOURCE_Q1|我们的答案 A/);
@@ -313,7 +319,7 @@ test("legacy submitted deep links show question plus answer and never promote a 
 });
 
 test("multi-select and fill submissions lock in place and the next question starts without prior feedback", async t => {
-  const h = harness(t, {hash: routeFor(1), immediateAI: true}); await h.settle(); await h.answer(["A", "C"]); await h.action("next");
+  const h = harness(t, {hash: routeFor(1), immediateAI: true}); await h.settle(); await h.answer(["A", "C"]); await h.action("next"); await h.action("ai-generate");
   await until(() => h.cache.values.size === 1);
   let markup = h.root.querySelector("#drill-question").innerHTML;
   assert.match(markup, /value="A" checked disabled/); assert.match(markup, /value="C" checked disabled/);
@@ -321,7 +327,7 @@ test("multi-select and fill submissions lock in place and the next question star
   assert.deepEqual(h.progress().sessions["session-test"].answers[QUESTION_IDS[1]].answer, ["A", "C"]);
   await h.action("next"); assert.equal(h.location.hash, routeFor(2));
   assert.equal(h.root.querySelector("#drill-explanation").hidden, true); assert.doesNotMatch(h.text(), /SOURCE_Q2/);
-  await h.answer("42"); await h.action("next"); await until(() => h.cache.values.size === 2);
+  await h.answer("42"); await h.action("next"); await h.action("ai-generate"); await until(() => h.cache.values.size === 2);
   markup = h.root.querySelector("#drill-question").innerHTML;
   assert.match(markup, /value="42"[^>]* readonly/); assert.match(h.root.querySelector('[data-drill-action="next"]').innerHTML, /完成练习/);
   assert.equal(h.location.hash, routeFor(2)); await h.answer("0"); h.flush();
@@ -334,12 +340,12 @@ test("disputed references remain visible and missing reference answers submit wi
   disputed[0].alternativeReferences = [{answer: "A", provider: "另一来源", url: "https://reference.invalid/answer"}];
   const h = harness(t, {resources: {"data/question-bank/subjects/language.json": {questions: disputed}}, immediateAI: true});
   await h.settle(); assert.doesNotMatch(h.text(), /来源答案存在分歧|另一来源/);
-  await h.answer("A"); await h.action("next"); await until(() => h.cache.values.size === 1);
+  await h.answer("A"); await h.action("next"); await h.action("ai-generate"); await until(() => h.cache.values.size === 1);
   assert.match(h.text(), /来源答案存在分歧/); assert.match(h.text(), /另一来源/); assert.match(h.text(), /我们的答案 A/);
   const missing = clone(questions); delete missing[0].answer; missing[0].sourceAnswer = {provider: "来源尚未核验"};
   const session = Core.createSession({id: "session-test", subjectId: "language", questionIds: [QUESTION_IDS[0]], now: 100});
   const unknown = harness(t, {session, resources: {"data/question-bank/subjects/language.json": {questions: missing}}, immediateAI: true});
-  await unknown.settle(); await unknown.answer("A"); await unknown.action("next"); await until(() => unknown.cache.values.size === 1);
+  await unknown.settle(); await unknown.answer("A"); await unknown.action("next"); await unknown.action("ai-generate"); await until(() => unknown.cache.values.size === 1);
   assert.match(unknown.root.querySelector("#drill-question").innerHTML, /is-neutral/);
   assert.doesNotMatch(unknown.root.querySelector("#drill-question").innerHTML, /is-correct|is-incorrect/);
   assert.match(unknown.text(), /暂无|本题不计分/); unknown.flush();
@@ -348,7 +354,7 @@ test("disputed references remain visible and missing reference answers submit wi
 });
 
 test("leaving for learning invalidates late AI and question-bank failures without overwriting its page", async t => {
-  const h = harness(t); await h.settle(); await h.answer("B"); await h.action("next"); await until(() => h.backend.length === 1);
+  const h = harness(t); await h.settle(); await h.answer("B"); await h.action("next"); await h.action("ai-generate"); await until(() => h.backend.length === 1);
   await h.navigate("#/learn/language"); assert.match(h.text(), /LEARNING_CONTENT/);
   h.complete(QUESTION_IDS[0]); await until(() => h.cache.values.size === 1); await h.settle();
   assert.match(h.text(), /LEARNING_CONTENT/); assert.doesNotMatch(h.text(), /AI_drill-q1/);
@@ -358,13 +364,13 @@ test("leaving for learning invalidates late AI and question-bank failures withou
 });
 
 test("missing configuration and provider errors keep source answers visible and allow an explicit retry", async t => {
-  const h = harness(t, {settings: {apiKey: ""}}); await h.settle(); await h.answer("B"); await h.action("next");
+  const h = harness(t, {settings: {apiKey: ""}}); await h.settle(); await h.answer("B"); await h.action("next"); await h.action("ai-generate");
   await until(() => h.root.querySelector("#drill-ai-state")?.textContent === "待配置");
   assert.equal(h.backend.length, 0); assert.match(h.text(), /SOURCE_Q1|配置 AI/);
   await h.action("ai-settings"); assert.equal(h.settingsOpened, 1);
   h.settings.apiKey = "mock-only"; await h.action("ai-retry"); await until(() => h.backend.length === 1);
   h.complete(QUESTION_IDS[0]); await until(() => h.cache.values.size === 1); await h.settle(); assert.equal(h.root.querySelector("#drill-ai-state").textContent, "已生成");
-  const failed = harness(t, {providerFailures: 1}); await failed.settle(); await failed.answer("B"); await failed.action("next");
+  const failed = harness(t, {providerFailures: 1}); await failed.settle(); await failed.answer("B"); await failed.action("next"); await failed.action("ai-generate");
   await until(() => failed.root.querySelector("#drill-ai-state")?.textContent === "未完成");
   assert.match(failed.text(), /SOURCE_Q1|重新生成|稍后重试/); assert.equal(failed.cache.values.size, 0);
   await failed.action("ai-retry"); await until(() => failed.backend.length === 2); failed.complete(QUESTION_IDS[0]); await until(() => failed.cache.values.size === 1);
@@ -379,7 +385,7 @@ test("setup rejects counts exceeding available questions without creating a sess
 });
 
 test("running state replaces queued status as soon as the real request starts", async t => {
-  const h = harness(t); await h.settle(); await h.answer("B"); await h.action("next"); await until(() => h.backend.length === 1);
+  const h = harness(t); await h.settle(); await h.answer("B"); await h.action("next"); await h.action("ai-generate"); await until(() => h.backend.length === 1);
   assert.equal(h.root.querySelector("#drill-ai-state").textContent, "生成中");
   h.complete(QUESTION_IDS[0]); await until(() => h.cache.values.size === 1);
 });
@@ -401,7 +407,7 @@ test("focused formula/table scrollers keep arrow keys while ordinary question fo
   }
   let prevented = false;
   h.document.dispatchEvent({type: "keydown", key: "ArrowRight", target: {closest: () => null}, preventDefault() { prevented = true; }});
-  await h.settle(); await until(() => h.backend.length === 1);
+  await h.settle(); assert.equal(h.explainCalls.length, 0); await h.action("ai-generate"); await until(() => h.backend.length === 1);
   assert.equal(prevented, true); assert.equal(h.root.querySelector("#drill-explanation").hidden, false);
 });
 
@@ -448,7 +454,7 @@ test("skipping the final question ends the round without completing it and unfin
 });
 
 test("submission hides skip and a stale skip click cannot change a submitted answer or navigate away", async t => {
-  const h = harness(t, {immediateAI: true}); await h.settle(); await h.answer("B"); await h.action("next");
+  const h = harness(t, {immediateAI: true}); await h.settle(); await h.answer("B"); await h.action("next"); await h.action("ai-generate");
   await until(() => h.cache.values.size === 1);
   assert.equal(h.root.querySelector('[data-drill-action="skip"]').hidden, true);
   h.flush(); const before = h.progress().sessions["session-test"].answers[QUESTION_IDS[0]];
@@ -539,7 +545,7 @@ test("focused drills intersect skill and difficulty, preserve submissions on ref
   assert.deepEqual(session.questionIds,["focus-number-b"]); assert.equal(session.topicId,"number-difference");
   assert.match(h.text(),/数字规律专项 · 差分数列/); assert.match(h.text(),/专项练习（非真题）/);
   assert.doesNotMatch(h.text(),/SOURCE_Q1/); assert.equal(h.explainCalls.length,0);
-  await h.answer("B"); await h.action("next"); await until(()=>h.cache.values.size===1); h.flush();
+  await h.answer("B"); await h.action("next"); await h.action("ai-generate"); await until(()=>h.cache.values.size===1); h.flush();
   const saved=Object.values(h.progress().sessions)[0];
   assert.equal(saved.answers["focus-number-b"].status,"correct");
   assert.deepEqual(Core.validateProgress(h.progress()),h.progress(),"focus sessions stay compatible with the existing backup schema");
@@ -616,6 +622,7 @@ for (const id of ["numbers","figures","calculation"]) {
       h.advance(2500);
     }
     await h.answer(first.answer); await h.action("next"); h.flush();
+    assert.equal(h.explainCalls.length, 0, id + ": submission stays manual");
     const session=Object.values(h.progress().sessions)[0];
     assert.equal(session.answers[first.id].status,"correct");
     assert.ok(h.root.querySelector("#drill-explanation").innerHTML.includes(Rich.render(first.sourceAnswer.explanationBlocks)));
@@ -635,6 +642,47 @@ for (const id of ["numbers","figures","calculation"]) {
     const restored=harness(t,{hash:h.location.hash,session,resources});await restored.settle();
     assert.equal(restored.root.querySelector("#drill-explanation").hidden,false);
     assert.deepEqual(Object.values(restored.progress().sessions)[0].questionIds,[first.id]);
+    assert.equal(restored.explainCalls.length, 0, id + ": restore stays manual");
     if(id==="calculation") assert.ok(session.timings[first.id]>=2500);
   });
 }
+
+test("all six subjects stay manual through submit, navigation, settings changes and restore", async t => {
+  for (const subjectId of ["politics", "common", "language", "quantity", "reasoning", "analysis"]) {
+    const items = questions.map(question => ({...clone(question), subjectId}));
+    const manifest = clone(bank);
+    manifest.subjects = [{...manifest.subjects[0], id: subjectId, path: "data/question-bank/subjects/" + subjectId + ".json"}];
+    const session = Core.createSession({id: "session-test", subjectId, questionIds: QUESTION_IDS, now: 100});
+    const resources = {"data/question-bank/manifest.json": manifest, [manifest.subjects[0].path]: {questions: items}};
+    const h = harness(t, {session, resources});
+    await h.settle(); await h.action("ai-generate"); // Unsubmitted questions cannot trigger AI.
+    await h.answer("B"); await h.action("next");
+    h.window.dispatchEvent({type: "summer-politics:ai-settings-changed"});
+    await h.action("next"); await h.answer(["A", "C"]); await h.action("next");
+    await h.action("previous"); await h.navigate(routeFor(0, "answer"));
+    h.window.dispatchEvent({type: "summer-politics:drill-restored"});
+    await h.settle(); h.flush();
+    assert.equal(h.explainCalls.length, 0, subjectId + ": no implicit AI subscription");
+    assert.equal(h.backend.length, 0, subjectId + ": no implicit provider request");
+    assert.match(h.text(), /查看 AI 解析/);
+    const restored = harness(t, {session: h.progress().sessions["session-test"], resources});
+    await restored.settle(); assert.equal(restored.explainCalls.length, 0);
+    await restored.action("ai-generate"); await until(() => restored.backend.length === 1);
+    assert.equal(restored.backend[0].qid, QUESTION_IDS[0]);
+    restored.complete(QUESTION_IDS[0]); await until(() => restored.cache.values.size === 1);
+  }
+});
+
+test("repeated manual clicks share one generation and a settings change requires another click", async t => {
+  const h = harness(t);
+  await h.settle(); await h.answer("B"); await h.action("next");
+  await Promise.all([h.action("ai-generate"), h.action("ai-generate"), h.action("ai-retry")]);
+  await until(() => h.backend.length === 1);
+  assert.equal(h.explainCalls.length, 1);
+  h.complete(QUESTION_IDS[0]); await until(() => h.root.querySelector("#drill-ai-state")?.textContent === "已生成");
+  h.settings.model = "new-model";
+  h.window.dispatchEvent({type: "summer-politics:ai-settings-changed"}); await h.settle();
+  assert.equal(h.backend.length, 1); assert.match(h.text(), /查看 AI 解析/);
+  await h.action("ai-generate"); await until(() => h.backend.length === 2);
+  h.complete(QUESTION_IDS[0]); await until(() => h.cache.values.size === 2);
+});

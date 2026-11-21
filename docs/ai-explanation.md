@@ -1,6 +1,6 @@
 # AI 题目讲解接口
 
-浏览器依次加载本地 KaTeX、RichContent、SolverPrompts 和 AIExplanation；Markdown 排版沿用现有 marked 与 DOMPurify。模块初始化、翻页和读取备份不会启动模型请求。仅在当前题目已提交、同页解析面板显示且需要解析时调用 `explain`，不预取未打开或未提交的题目。下一题直接进入题目，回看已提交题自动恢复其解析面板；离题只退订界面，后台请求继续完成并缓存，旧回调不能覆盖新题面板。
+浏览器依次加载本地 KaTeX、RichContent、SolverPrompts 和 AIExplanation；Markdown 排版沿用现有 marked 与 DOMPurify。模块初始化、翻页和读取备份不会启动模型请求。仅在当前题目已提交且用户点击“查看 AI 解析”或“重新生成”时调用 `explain`，不预取未打开或未提交的题目。下一题直接进入题目，回看已提交题恢复来源解析和手动AI按钮，点击后复用已有缓存或加入正在生成的请求；离题只退订界面，后台请求继续完成并缓存，旧回调不能覆盖新题面板。
 
 ```js
 AIExplanation.configure({
@@ -28,7 +28,7 @@ AIExplanation.renderMarkdown(host, result.text);
 
 ## 订阅与后台请求
 
-`signal.abort()` 只退订当前界面并使该调用以 `AbortError` 结束，不中止共享后台请求。重新打开同题可加入 pending 请求并得到已累积正文；同题只发一次请求。最多2个并行，后打开的待排题优先；已运行请求继续完成。180秒仍未完成则明确超时，不保留未完成解析。
+`signal.abort()` 只退订当前界面并使该调用以 `AbortError` 结束，不中止共享后台请求。重新打开同题后点击AI按钮可加入 pending 请求并得到已累积正文；同题只发一次请求。最多2个并行，后打开的待排题优先；已运行请求继续完成。180秒仍未完成则明确超时，不保留未完成解析。
 
 `onChunk` 每次包含 `key/requestId/text/reasoning/cached`。首次回调包含 `snapshot:true` 和 `state`，方便界面记录请求标识。只有用户明确停止时才调用 `AIExplanation.cancel(key或requestId)`；也可按 question ID 定位停止。`getPending()` 只返回请求标识、题目关联与排队状态。
 
