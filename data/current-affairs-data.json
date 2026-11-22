@@ -228392,19 +228392,399 @@
     },
     {
       "date": "2026-11-22",
-      "keyword": "今日时政",
+      "keyword": "习近平",
       "keywords": [
         {
-          "name": "今日时政",
-          "count": 3
+          "name": "习近平",
+          "count": 2
+        },
+        {
+          "name": "经济",
+          "count": 2
         }
       ],
       "articles": [
+        {
+          "id": "0d06a024206600",
+          "source": "人民日报",
+          "title": "“中国是区域经济增长与合作的引领者”（APEC中国年：开放 创新 合作）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192468.html",
+          "date": "2026-11-22",
+          "keyword": "经济"
+        },
+        {
+          "id": "8e2918946aa006",
+          "source": "人民日报",
+          "title": "习近平新时代中国特色社会主义思想海外研究国际论坛（2026）在北京举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192459.html",
+          "date": "2026-11-22",
+          "keyword": "习近平"
+        },
+        {
+          "id": "5ef365e4ab8223",
+          "source": "光明日报",
+          "title": "习近平新时代中国特色社会主义思想海外研究国际论坛（2026）在北京举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30924.html",
+          "date": "2026-11-22",
+          "keyword": "习近平"
+        },
+        {
+          "id": "b5ef5aebd99099",
+          "source": "新华社",
+          "title": "伊朗总统：经济战远比军事冲突“更为艰难”",
+          "url": "https://www.news.cn/world/20261122/b839cb066b744febb6ca83f4071cbf1e/c.html",
+          "date": "2026-11-22",
+          "keyword": "经济"
+        },
+        {
+          "id": "74fa8616246742",
+          "source": "人民日报",
+          "title": "一卡跨百城 待遇同城享（奋进“十五五” 一线见闻）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192473.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "49806d71cf27e2",
+          "source": "人民日报",
+          "title": "一款智能盒子，服务20多个行业（创业创富的年轻人）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192461.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bf708b9fc54fda",
+          "source": "人民日报",
+          "title": "中国文旅在伦敦世界旅游交易会受青睐",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192471.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ef8299ed88de62",
+          "source": "人民日报",
+          "title": "为亚太合作注入新鲜活力和强劲动力（亚太合作启新程）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192466.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "000c65970dee3d",
+          "source": "人民日报",
+          "title": "从亿万老年人的幸福晚年看大国民生答卷",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192458.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6336815362b945",
+          "source": "人民日报",
+          "title": "从长征精神中汲取团结奋进的力量（国际论坛）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192467.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "046e234378f1ee",
+          "source": "人民日报",
+          "title": "全国人大常委会副委员长肖捷率团访问毛里求斯",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192470.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8d87c05801263c",
+          "source": "人民日报",
+          "title": "内陆“势能”化为开放动能（活力中国调研行）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192460.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "29eed765dcd21d",
+          "source": "人民日报",
+          "title": "创新之城涌“新”潮",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192455.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "963101f5980682",
+          "source": "人民日报",
+          "title": "接力托举 梦想“跃迁”（编辑手记）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192462.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4d37e49e15f24c",
+          "source": "人民日报",
+          "title": "曾经“土地晒太阳”，如今“项目抢落地”（贯彻五中全会精神一线见闻）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192457.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cd35892c231cc8",
+          "source": "人民日报",
+          "title": "服务上云 推动健康数智技术应用（总书记的关切·落地的回响）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192453.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8a674461547823",
+          "source": "人民日报",
+          "title": "李强同新加坡总理黄循财会谈",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192456.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "87e95764eccea2",
+          "source": "人民日报",
+          "title": "社保卡里的民生温度（编辑手记）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192474.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e829312c2a5546",
+          "source": "人民日报",
+          "title": "第十四届中部博览会在郑州举行",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192475.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "370816255ec1b6",
+          "source": "人民日报",
+          "title": "苹果正在长成现代化大产业",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192472.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "05e46a16123738",
+          "source": "人民日报",
+          "title": "袁彦鹏同志逝世",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192476.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9a2f5a40e26f0c",
+          "source": "人民日报",
+          "title": "资源下沉 补上边远地区健康短板（总书记的关切·落地的回响）",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202611/22/content_30192454.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3044c7e79d17a9",
+          "source": "光明日报",
+          "title": "“努力为老年人安享幸福晚年创造更好条件”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30901.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ab4aa2c1c4ee7b",
+          "source": "光明日报",
+          "title": "《作家》杂志迎来70岁生日",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30938.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "18a521f07080b9",
+          "source": "光明日报",
+          "title": "【大美中国】冬日繁花",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30902.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a858a4365aa5ca",
+          "source": "光明日报",
+          "title": "不断增强广大老年人获得感、幸福感、安全感",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30900.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c15daf6f4b97c1",
+          "source": "光明日报",
+          "title": "中国可持续发展交出优异成绩单",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30925.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1b20d772d1c8fb",
+          "source": "光明日报",
+          "title": "为共创亚太美好未来汇聚信心与力量",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30899.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "78ac1945f5cadf",
+          "source": "光明日报",
+          "title": "全国海洋药物和功能制品业发展迅速",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30936.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "1db1d530dbbd8d",
+          "source": "光明日报",
+          "title": "国际丝绸组织成立",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30913.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3426d92789ed76",
+          "source": "光明日报",
+          "title": "女排超级联赛：江苏中天钢铁胜天津渤海银行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30942.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e496fb4d0572ee",
+          "source": "光明日报",
+          "title": "把乡村创业的日子搬上舞台",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30935.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3443d2176783ae",
+          "source": "光明日报",
+          "title": "携手创造亚太更加美好的未来",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30898.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "9b49131b7aba69",
+          "source": "光明日报",
+          "title": "数字技术再现千年青绿",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30941.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3fa7e6ac44dda6",
+          "source": "光明日报",
+          "title": "李强同新加坡总理黄循财会谈",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30912.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "eca4dea237cb47",
+          "source": "光明日报",
+          "title": "江西吉安：又到蜜柚飘香时",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30929.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "567428a99a2dde",
+          "source": "光明日报",
+          "title": "河北鸡泽：以暖心政务优化营商环境",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30928.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "060d61d245c577",
+          "source": "光明日报",
+          "title": "用人文精神涵育医者仁心",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30940.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e60169702538bb",
+          "source": "光明日报",
+          "title": "第七届长三角国际文化产业博览会上海启幕",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30937.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0abf501a7aea58",
+          "source": "光明日报",
+          "title": "第十四届中国中部投资贸易博览会在河南郑州举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30931.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5ea3001f14113d",
+          "source": "光明日报",
+          "title": "陕西安康汉滨区：一域美食聚全城人气",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30930.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e75a8a60b16368",
+          "source": "光明日报",
+          "title": "黄河进入2026—2027年度凌汛期",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/22/content_30927.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "78b14474d8be41",
+          "source": "新华社",
+          "title": "中国大型历史舞台剧《赳赳大秦》亮相哥伦比亚",
+          "url": "https://www.news.cn/world/20261122/a1ee0e4e75954ecb8cf710907def1b83/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "907bbc42cae9e5",
+          "source": "新华社",
+          "title": "中越北部湾第41次联合巡逻圆满结束",
+          "url": "https://www.news.cn/politics/20261122/3f0d555b3fd84bf2a4471862e26405e9/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f575aa1e2f0a93",
+          "source": "新华社",
+          "title": "今日“小雪”：体验过冬的仪式感",
+          "url": "https://www.news.cn/politics/20261122/05497b0370f345e09d7b1a27184993bb/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
         {
           "id": "824f8870840c36",
           "source": "新华社",
           "title": "伊朗副外长证实调解方卡塔尔代表团访问德黑兰",
           "url": "https://www.news.cn/20261122/92f235a684f84afd834b992936fbb05b/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "2fd2eeceb5034c",
+          "source": "新华社",
+          "title": "伊朗革命卫队称袭击美军在巴林两处基地防空雷达",
+          "url": "https://www.news.cn/20261122/44c401cb13d74553a48230ee608e0549/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "dcfc9a17890b99",
+          "source": "新华社",
+          "title": "加拿大正式加入北约创新基金",
+          "url": "https://www.news.cn/world/20261122/9d17a82a876a463291835c47b8d5d0ff/c.html",
           "date": "2026-11-22",
           "keyword": "综合时政"
         },
@@ -228417,10 +228797,122 @@
           "keyword": "综合时政"
         },
         {
-          "id": "aaa2c37ffa8520",
+          "id": "626a85b9dddb3c",
+          "source": "新华社",
+          "title": "南方降水发展 新一股冷空气明起影响中东部",
+          "url": "https://www.news.cn/local/20261122/0838aa91dae1497fa21c8e54a2ac3f34/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "39836b2a8d6f53",
+          "source": "新华社",
+          "title": "历史舞台剧《赳赳大秦》亮相哥伦比亚",
+          "url": "https://www.news.cn/photo/20261122/07de5fe2c0e545fa8928beac2edf0e55/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3d25818bc7b0b6",
+          "source": "新华社",
+          "title": "商务部就美方拟禁止中国电信运营商直接获取美国互联网电话号码资源答问",
+          "url": "https://www.news.cn/world/20261122/851d80b000224df0bed28c95c524e15a/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "889ebc560944e3",
+          "source": "新华社",
+          "title": "图片故事丨24万公里深山邮路，他用双脚丈量群山",
+          "url": "https://www.news.cn/politics/20261122/d6426a6e0903481f81ca108fc8c9f3ae/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a7ac042ee5d511",
+          "source": "新华社",
+          "title": "墨西哥抓获大毒枭“矮子伊西德罗”",
+          "url": "https://www.news.cn/world/20261122/aba366e6a8534c2291f65ae80d419107/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8e56e7cabdce9a",
+          "source": "新华社",
+          "title": "巴林称一处民用工业设施遭伊朗袭击",
+          "url": "https://www.news.cn/20261122/9492149396ae4554ab170e6d3763ee1c/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "25d02d0155ded4",
+          "source": "新华社",
+          "title": "权威数读丨本周，这些权威数据值得关注",
+          "url": "https://www.news.cn/fortune/20261122/558dcd61eba74e0c941dc6972178a68f/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7f6cddcaa35da9",
+          "source": "新华社",
+          "title": "武大靖：压力越大越要往上冲",
+          "url": "https://www.news.cn/sports/20261122/75be82e368864805b27946d78b36ef06/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6eacd76b87100e",
+          "source": "新华社",
+          "title": "法国连续第6个周六举行示威活动",
+          "url": "https://www.news.cn/world/20261122/5f48bf0dc7db4774b36601aeeffd8462/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "cb9dd2ad0d1824",
+          "source": "新华社",
+          "title": "海南热带雨林，原来你这么好看",
+          "url": "https://www.news.cn/politics/20261122/7593090a0d7e4116a83f1b663c08c2a3/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "26a699b7c2443e",
           "source": "新华社",
           "title": "特朗普称寻求与伊朗达成一项永久性协议",
-          "url": "https://www.news.cn/world/20261122/64021df287674d7593fc17d682d53542/c.html",
+          "url": "https://www.news.cn/20261122/a054e7c5b50f4b1c9ef54b8f6689f2f2/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "8fb5c6aeb2d39e",
+          "source": "新华社",
+          "title": "白俄罗斯举行历史重现表演致敬“炮兵节”",
+          "url": "https://www.news.cn/photo/20261122/8a2b1d0715074a68bb48f07dd3a2a587/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0d50826ec6bc17",
+          "source": "新华社",
+          "title": "重量级亚洲拳王金腰带赛事落地雄安新区",
+          "url": "https://www.news.cn/sports/20261122/236f93de8a874a83937a5826fc84f551/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e01b9d7c4302aa",
+          "source": "新华社",
+          "title": "镜头连中外丨一颗智利车厘子的跨越太平洋之旅",
+          "url": "https://www.news.cn/world/20261122/fa9c89b429964ddaa29dff054ae5892b/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a7d2d9df79c3d8",
+          "source": "新华社",
+          "title": "阿尔及利亚国防部称击毙两名涉嫌贩毒的摩洛哥公民",
+          "url": "https://www.news.cn/20261122/d00ccf6a9b254d6ea08a3600ec48ef80/c.html",
           "date": "2026-11-22",
           "keyword": "综合时政"
         }
@@ -228430,67 +228922,66 @@
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 4.7,
+          "duration": 10.0,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261122.shtml"
         },
         {
           "source": "人民日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.3,
-          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202611/22/node_01.html"
+          "status": "ok",
+          "count": 20,
+          "duration": 0.4
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 3,
-          "duration": 3.6
+          "count": 23,
+          "duration": 2.3
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 14.7
+          "duration": 8.9
         },
         {
           "source": "求是",
           "status": "ok",
           "count": 0,
-          "duration": 6.2
+          "duration": 5.8
         },
         {
           "source": "光明日报",
-          "status": "error",
-          "count": 0,
-          "duration": 5.6,
-          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202611/22/node_01.html"
+          "status": "ok",
+          "count": 21,
+          "duration": 1.4
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 13.1
+          "duration": 17.0
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.4
+          "duration": 2.9
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 10.0
+          "duration": 9.2
         },
         {
           "source": "广东发布",
-          "status": "ok",
+          "status": "error",
           "count": 0,
-          "duration": 47.9
+          "duration": 20.5,
+          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
         }
       ]
     }
   ],
-  "generatedAt": "2026-11-22T04:26:39+08:00"
+  "generatedAt": "2026-11-22T09:58:40+08:00"
 }
