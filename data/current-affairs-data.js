@@ -228399,6 +228399,10 @@ window.CURRENT_AFFAIRS_DATA = {
           "count": 2
         },
         {
+          "name": "教育",
+          "count": 2
+        },
+        {
           "name": "经济",
           "count": 2
         }
@@ -228431,10 +228435,26 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "b5ef5aebd99099",
           "source": "新华社",
-          "title": "伊朗总统：经济战远比军事冲突“更为艰难”",
+          "title": "伊朗总统：正进行的经济战远比军事冲突“更为艰难”",
           "url": "https://www.news.cn/world/20261122/b839cb066b744febb6ca83f4071cbf1e/c.html",
           "date": "2026-11-22",
           "keyword": "经济"
+        },
+        {
+          "id": "595939182ed727",
+          "source": "新华社",
+          "title": "韩国教育部长官因应对高考作弊引发混乱提出辞职",
+          "url": "https://www.news.cn/world/20261122/c1351f4630fb4e34a7c713faf34abb14/c.html",
+          "date": "2026-11-22",
+          "keyword": "教育"
+        },
+        {
+          "id": "59dc7c34ea1f94",
+          "source": "新华社",
+          "title": "韩国教育部长官因高考作弊问题引发的混乱提出辞职",
+          "url": "https://www.news.cn/world/20261122/c48f2839adb84f6bbabf7a5a4848b913/c.html",
+          "date": "2026-11-22",
+          "keyword": "教育"
         },
         {
           "id": "74fa8616246742",
@@ -228741,10 +228761,58 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "dad290791d87dc",
+          "source": "广东发布",
+          "title": "粤超总决赛11月28日开打 球票火热预约中",
+          "url": "https://www.gd.gov.cn/gdywdt/bmdt/content/post_4983343.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "165d49a7cbb698",
+          "source": "新华社",
+          "title": "AI新方法或有助优化败血症急诊救治流程",
+          "url": "https://www.news.cn/20261122/a96c3300c52d4ac481fb372d16a1e9fd/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "42c5b5b5b35017",
+          "source": "新华社",
+          "title": "上山博物馆在浙江浦江开馆",
+          "url": "https://www.news.cn/20261122/c5c5742c68674816829e17b26044acc4/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3baa29ec63a484",
+          "source": "新华社",
+          "title": "中国U17男足球员：总结首战经验 全力备战摩洛哥",
+          "url": "https://www.news.cn/20261122/eab9d589b3ad42c7a03c1fba379ef08f/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "78b14474d8be41",
           "source": "新华社",
           "title": "中国大型历史舞台剧《赳赳大秦》亮相哥伦比亚",
           "url": "https://www.news.cn/world/20261122/a1ee0e4e75954ecb8cf710907def1b83/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "95385af2778df6",
+          "source": "新华社",
+          "title": "中国石油党组成员、副总经理谢军接受审查调查",
+          "url": "https://www.news.cn/legal/20261122/6e1d4c0dc2a640bd829a0725eac40157/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "08bfbc423936de",
+          "source": "新华社",
+          "title": "中国驻东盟大使：期待中国东盟全面战略伙伴关系 开创 新的篇章",
+          "url": "https://www.news.cn/world/20261122/51ec2abc70e941808a8a5f02438795b8/c.html",
           "date": "2026-11-22",
           "keyword": "综合时政"
         },
@@ -228781,6 +228849,14 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "aa874b24354145",
+          "source": "新华社",
+          "title": "养生重在护阳防寒温补 中医支招",
+          "url": "https://www.news.cn/politics/20261122/902237369b2f446e9fc8f09c2828bbc3/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "dcfc9a17890b99",
           "source": "新华社",
           "title": "加拿大正式加入北约创新基金",
@@ -228805,6 +228881,30 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "6435681861d794",
+          "source": "新华社",
+          "title": "印尼糖果厂火灾已造成3人死亡",
+          "url": "https://www.news.cn/20261122/c5b06e025aca419fb0da42effebcdcdb/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "4f0626559e5192",
+          "source": "新华社",
+          "title": "印尼糖果厂火灾已造成3人死亡 仍有30余人失联",
+          "url": "https://www.news.cn/world/20261122/10b9dda38968472ba6f18e1564f171eb/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "12e7754d396e46",
+          "source": "新华社",
+          "title": "历史经典产业焕新丨云南茶叶：一片茶叶的双向突围",
+          "url": "https://www.news.cn/local/20261122/a33c03ffe55247faa119fc376f966678/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "39836b2a8d6f53",
           "source": "新华社",
           "title": "历史舞台剧《赳赳大秦》亮相哥伦比亚",
@@ -228815,7 +228915,7 @@ window.CURRENT_AFFAIRS_DATA = {
         {
           "id": "3d25818bc7b0b6",
           "source": "新华社",
-          "title": "商务部就美方拟禁止中国电信运营商直接获取美国互联网电话号码资源答问",
+          "title": "商务部就美方拟禁止中国电信运营商直接获取美国 互联网 电话号码资源答问",
           "url": "https://www.news.cn/world/20261122/851d80b000224df0bed28c95c524e15a/c.html",
           "date": "2026-11-22",
           "keyword": "综合时政"
@@ -228829,10 +228929,34 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "3725b69c7879f5",
+          "source": "新华社",
+          "title": "坦赞铁路50年后再出发",
+          "url": "https://www.news.cn/world/20261122/acdbdf663f074ee787054beb7a5da888/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "a7ac042ee5d511",
           "source": "新华社",
           "title": "墨西哥抓获大毒枭“矮子伊西德罗”",
           "url": "https://www.news.cn/world/20261122/aba366e6a8534c2291f65ae80d419107/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "f514cc29acaf04",
+          "source": "新华社",
+          "title": "媒体观察：“温差”待消弭 信心不可失",
+          "url": "https://www.news.cn/fortune/20261122/71a55c3347c941fe81bbd25fc31020e5/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3e844ac362187d",
+          "source": "新华社",
+          "title": "小雪时节的蓬勃景象，错过又要等好久",
+          "url": "https://www.news.cn/politics/20261122/07afc78af8d945d781f344ddcfc5e139/c.html",
           "date": "2026-11-22",
           "keyword": "综合时政"
         },
@@ -228893,6 +229017,62 @@ window.CURRENT_AFFAIRS_DATA = {
           "keyword": "综合时政"
         },
         {
+          "id": "1e1922d534ea4c",
+          "source": "新华社",
+          "title": "神二十三乘组“太空出差”之旅进入倒计时，科研不停",
+          "url": "https://www.news.cn/tech/20261122/090b0226815d4c14a85ca2244e7487f1/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c7ef9e62637b34",
+          "source": "新华社",
+          "title": "福建君子峰发现4个大型真菌新种",
+          "url": "https://www.news.cn/local/20261122/f204d7ebbef74dd79437e2a73cf5c621/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "18a5a0641a9dd4",
+          "source": "新华社",
+          "title": "第五批中国援基里巴斯医疗队受基卫生部表彰",
+          "url": "https://www.news.cn/20261122/e51c59fd9b28448694e7c790f8ec57a2/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7b4d1ca0b102d0",
+          "source": "新华社",
+          "title": "美丽中国丨亚雪公路：银装素裹入画来",
+          "url": "https://www.news.cn/photo/20261122/12b3235e165146f3b859bb284abeacc5/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "78f42556b36f0b",
+          "source": "新华社",
+          "title": "美国俄亥俄州发生枪击事件 3死1伤",
+          "url": "https://www.news.cn/20261122/5ed6a7cec56941a3998b9a45bf2e25f5/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "7d912bcb32982b",
+          "source": "新华社",
+          "title": "造福非洲的“自由之路”在激活",
+          "url": "https://www.news.cn/world/20261122/903bd408f61944f8b0d4e36d5904b75e/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "ea2e938abecdcc",
+          "source": "新华社",
+          "title": "郎平获国际排联最高荣誉“排球勋章”",
+          "url": "https://www.news.cn/sports/20261122/bc02764ba80c4522977d31d960eae595/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
           "id": "0d50826ec6bc17",
           "source": "新华社",
           "title": "重量级亚洲拳王金腰带赛事落地雄安新区",
@@ -228915,6 +229095,70 @@ window.CURRENT_AFFAIRS_DATA = {
           "url": "https://www.news.cn/20261122/d00ccf6a9b254d6ea08a3600ec48ef80/c.html",
           "date": "2026-11-22",
           "keyword": "综合时政"
+        },
+        {
+          "id": "b050bad26514de",
+          "source": "新华社",
+          "title": "非遗为媒 长江流域省市深化文旅协同发展",
+          "url": "https://www.news.cn/politics/20261122/e4e4228f556d48599f96e5c9f335bf6d/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "e1ebe257c0f2c6",
+          "source": "求是",
+          "title": "2026年亚太经合组织领导人会议周巡礼",
+          "url": "https://www.qstheory.cn/20261122/cc230affbbe34608b893663969f6083a/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "09598475a5e771",
+          "source": "求是",
+          "title": "为新时期大国协调互动构建新范式——国际社会高度评价中俄美元首历史性会晤",
+          "url": "https://www.qstheory.cn/20261122/48c720f9fd22444486292da389ad717e/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3273cb36c61ff9",
+          "source": "求是",
+          "title": "亚投行将在香港设立办公室",
+          "url": "https://www.qstheory.cn/20261122/300067ff78f54a189ad70abd3a7606f4/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "5989724d7cf609",
+          "source": "求是",
+          "title": "从亿万老年人的幸福晚年看大国民生答卷",
+          "url": "https://www.qstheory.cn/20261122/dd921a1470bd41b7887d834f54e17015/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "fa861f12251e8b",
+          "source": "求是",
+          "title": "千年匠心 何以焕新",
+          "url": "https://www.qstheory.cn/20261122/ecd43e3bb3c946c8847de6d77e1b9d82/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "bdd2ae6c0ee09f",
+          "source": "求是",
+          "title": "国际舆论积极评价亚太经合组织第三十三次领导人非正式会议及相关活动",
+          "url": "https://www.qstheory.cn/20261122/c5195adcf7ee4daf8ba395421163460e/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "57525a0cfb794b",
+          "source": "求是",
+          "title": "第十四届中部博览会在郑州举行",
+          "url": "https://www.qstheory.cn/20261122/e388789ec4024c74acb5b7cd2702f81f/c.html",
+          "date": "2026-11-22",
+          "keyword": "综合时政"
         }
       ],
       "sourceStatus": [
@@ -228922,66 +229166,65 @@ window.CURRENT_AFFAIRS_DATA = {
           "source": "新闻联播",
           "status": "error",
           "count": 0,
-          "duration": 10.0,
+          "duration": 10.6,
           "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261122.shtml"
         },
         {
           "source": "人民日报",
           "status": "ok",
           "count": 20,
-          "duration": 0.4
+          "duration": 3.8
         },
         {
           "source": "新华社",
           "status": "ok",
-          "count": 23,
-          "duration": 2.3
+          "count": 45,
+          "duration": 2.8
         },
         {
           "source": "半月谈",
           "status": "ok",
           "count": 0,
-          "duration": 8.9
+          "duration": 14.4
         },
         {
           "source": "求是",
           "status": "ok",
-          "count": 0,
-          "duration": 5.8
+          "count": 7,
+          "duration": 6.2
         },
         {
           "source": "光明日报",
           "status": "ok",
           "count": 21,
-          "duration": 1.4
+          "duration": 4.2
         },
         {
           "source": "南方周末",
           "status": "ok",
           "count": 0,
-          "duration": 17.0
+          "duration": 14.5
         },
         {
           "source": "学习强国",
           "status": "ok",
           "count": 0,
-          "duration": 2.9
+          "duration": 2.5
         },
         {
           "source": "中国政府网",
           "status": "ok",
           "count": 0,
-          "duration": 9.2
+          "duration": 10.8
         },
         {
           "source": "广东发布",
-          "status": "error",
-          "count": 0,
-          "duration": 20.5,
-          "message": "HTTPSConnectionPool(host='www.gd.gov.cn', port=443): Max retries exceeded with url: /gdywdt/gdyw/ (Caused by NewConnecti"
+          "status": "ok",
+          "count": 1,
+          "duration": 77.1
         }
       ]
     }
   ],
-  "generatedAt": "2026-11-22T09:58:40+08:00"
+  "generatedAt": "2026-11-22T12:35:16+08:00"
 };
