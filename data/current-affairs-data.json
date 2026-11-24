@@ -232181,7 +232181,259 @@
           "duration": 24.0
         }
       ]
+    },
+    {
+      "date": "2026-11-25",
+      "keyword": "习近平",
+      "keywords": [
+        {
+          "name": "习近平",
+          "count": 3
+        }
+      ],
+      "articles": [
+        {
+          "id": "9f01873ced59ab",
+          "source": "光明日报",
+          "title": "《习近平关于尊重和保障人权论述摘编》学术研讨会在越南河内举行",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31090.html",
+          "date": "2026-11-25",
+          "keyword": "习近平"
+        },
+        {
+          "id": "18138d4047ed47",
+          "source": "光明日报",
+          "title": "习近平向“声援巴勒斯坦人民国际日”纪念大会致贺电",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31089.html",
+          "date": "2026-11-25",
+          "keyword": "习近平"
+        },
+        {
+          "id": "30e9f355332298",
+          "source": "新华社",
+          "title": "习近平总书记深情寄语航天工作者",
+          "url": "https://www.news.cn/politics/leaders/20261125/f21fdee7686045188134a3038be43842/c.html",
+          "date": "2026-11-25",
+          "keyword": "习近平"
+        },
+        {
+          "id": "d148bf815b1b7a",
+          "source": "光明日报",
+          "title": "10月全国查处违反中央八项规定精神问题28934起",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31084.html",
+          "date": "2026-11-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "0eadac99b0c662",
+          "source": "光明日报",
+          "title": "“我们在深圳看到了什么”",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31091.html",
+          "date": "2026-11-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "390a1f459f82d7",
+          "source": "光明日报",
+          "title": "【光明论坛】在实践中淬炼锻造干部干事创业真本领",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31076.html",
+          "date": "2026-11-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "41da90d14ce0fc",
+          "source": "光明日报",
+          "title": "【抵近观察11】临汾：如何重新定义资源优势",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31088.html",
+          "date": "2026-11-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "25e4983701a603",
+          "source": "光明日报",
+          "title": "【改进文风大家谈】呼唤健康的网络文风",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31093.html",
+          "date": "2026-11-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "df58bec7d49258",
+          "source": "光明日报",
+          "title": "【文化评析】让红色文艺之美照亮新的长征路",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31078.html",
+          "date": "2026-11-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "a5aa1881d22012",
+          "source": "光明日报",
+          "title": "【民生总关情】小区“静”了 邻里“近”了",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31092.html",
+          "date": "2026-11-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6e6b259fe00543",
+          "source": "光明日报",
+          "title": "以高质量党建赋能人才培养提质增效",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31085.html",
+          "date": "2026-11-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "816ff9c79978ab",
+          "source": "光明日报",
+          "title": "全国总工会启动“两节”送温暖活动",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31083.html",
+          "date": "2026-11-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "89de8bb60c85fe",
+          "source": "光明日报",
+          "title": "天保至麻栗坡高速公路建成通车",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31101.html",
+          "date": "2026-11-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "97f16f2c858ff9",
+          "source": "光明日报",
+          "title": "扎根海防一线的守岛先锋",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31081.html",
+          "date": "2026-11-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "3c90f361b02d39",
+          "source": "光明日报",
+          "title": "把党建写进产业链 将初心融入烟火间",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31079.html",
+          "date": "2026-11-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "72835fd0e44345",
+          "source": "光明日报",
+          "title": "把医疗专家“送”到南疆群众家门口",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31100.html",
+          "date": "2026-11-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "28fee689ab4502",
+          "source": "光明日报",
+          "title": "把增强党性作为全面从严治党的根本性任务",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31098.html",
+          "date": "2026-11-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "13dc6d91ff99ea",
+          "source": "光明日报",
+          "title": "改革开放为亚太共同体建设提供实践经验",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31077.html",
+          "date": "2026-11-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "607723332166a5",
+          "source": "光明日报",
+          "title": "江苏：创新创造活力奔涌",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31080.html",
+          "date": "2026-11-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "038bd478db084b",
+          "source": "光明日报",
+          "title": "破解老旧小区治理难",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31102.html",
+          "date": "2026-11-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "c28cc3fb864dc5",
+          "source": "光明日报",
+          "title": "陈吉宁涉嫌严重违纪违法正接受中央纪委国家监委审查调查",
+          "url": "https://epaper.gmw.cn/gmrb/html/content/202611/25/content_31094.html",
+          "date": "2026-11-25",
+          "keyword": "综合时政"
+        },
+        {
+          "id": "6e63e82059045f",
+          "source": "新华社",
+          "title": "全国人大常委会副委员长彭清华率团访问马耳他",
+          "url": "https://www.news.cn/world/20261125/f4e7f86f43e9476e9295e4fcc870bf68/c.html",
+          "date": "2026-11-25",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 5.8,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261125.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 4.8,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202611/25/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 2,
+          "duration": 2.5
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.5
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 6.4
+        },
+        {
+          "source": "光明日报",
+          "status": "ok",
+          "count": 20,
+          "duration": 0.8
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.6
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.5
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 8.9
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 17.0
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-11-24T15:55:38+08:00"
+  "generatedAt": "2026-11-25T03:16:56+08:00"
 }
