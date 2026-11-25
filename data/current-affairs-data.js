@@ -233420,7 +233420,92 @@ window.CURRENT_AFFAIRS_DATA = {
           "duration": 63.1
         }
       ]
+    },
+    {
+      "date": "2026-11-26",
+      "keyword": "今日时政",
+      "keywords": [
+        {
+          "name": "今日时政",
+          "count": 1
+        }
+      ],
+      "articles": [
+        {
+          "id": "410a82df9c997b",
+          "source": "新华社",
+          "title": "扬帆赴星河 同行聚“天宫”",
+          "url": "https://www.news.cn/tech/20261126/ca4a54bf92854a09bfaf0ea065867900/c.html",
+          "date": "2026-11-26",
+          "keyword": "综合时政"
+        }
+      ],
+      "sourceStatus": [
+        {
+          "source": "新闻联播",
+          "status": "error",
+          "count": 0,
+          "duration": 14.2,
+          "message": "404 Client Error: Not Found for url: https://tv.cctv.com/lm/xwlb/day/20261126.shtml"
+        },
+        {
+          "source": "人民日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.7,
+          "message": "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202611/26/node_01.html"
+        },
+        {
+          "source": "新华社",
+          "status": "ok",
+          "count": 1,
+          "duration": 2.3
+        },
+        {
+          "source": "半月谈",
+          "status": "ok",
+          "count": 0,
+          "duration": 13.1
+        },
+        {
+          "source": "求是",
+          "status": "ok",
+          "count": 0,
+          "duration": 5.8
+        },
+        {
+          "source": "光明日报",
+          "status": "error",
+          "count": 0,
+          "duration": 5.6,
+          "message": "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202611/26/node_01.html"
+        },
+        {
+          "source": "南方周末",
+          "status": "ok",
+          "count": 0,
+          "duration": 15.1
+        },
+        {
+          "source": "学习强国",
+          "status": "ok",
+          "count": 0,
+          "duration": 2.4
+        },
+        {
+          "source": "中国政府网",
+          "status": "ok",
+          "count": 0,
+          "duration": 9.3
+        },
+        {
+          "source": "广东发布",
+          "status": "ok",
+          "count": 0,
+          "duration": 56.4
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-11-25T14:30:40+08:00"
+  "generatedAt": "2026-11-26T01:46:16+08:00"
 };
